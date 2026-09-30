@@ -38,11 +38,11 @@ Screenshots (iPhone 13 size, headless Chromium) are in `img/`.
 
 ## Visual themes for layout A
 
-Layout A won the first round. The second round kept its layout and tried four looks (palette, type, a recoloured base map, and one signature touch each). A1 in the table below is the first cut of Dusk, now `A0`. The parking-plate buttons stay in the road-sign face (Overpass) in every theme.
+Layout A won the first round. The second round kept its layout and tried four looks (palette, type, a recoloured base map, and one signature touch each). The first cut of Dusk is now `A0`. The parking-plate buttons stay in the road-sign face (Overpass) in every theme.
 
 | | Look | Type | Signature |
 |---|---|---|---|
-| A1 Dusk | The first round's solid indigo | Overpass / Atkinson Hyperlegible | Parking plates |
+| A0 Dusk, first cut | The first round's solid indigo | Overpass / Atkinson Hyperlegible | Parking plates |
 | A2 Sodium | Night drive: warm black map, frosted-glass panels, amber accent | Bricolage Grotesque / Instrument Sans / Martian Mono | Kerbs glow like pools of streetlight |
 | A3 Tourist sign | Daytime: soft eucalypt map, white cards | Gabarito / Figtree / Red Hat Mono | Brown tourist-sign header on the sheet, brown toilet pictogram pins |
 | A4 Street directory | A 90s paper street directory: yellow and red roads, printed cards with hard shadows | Archivo at several widths | Grid rulers on the map edges and a grid reference on each card ("Map 20 · F2") |
