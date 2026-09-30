@@ -6,7 +6,7 @@ globalThis.window = globalThis; globalThis.addEventListener = () => {};
 eval(fs.readFileSync(dir + "data.js", "utf8"));
 const src = fs.readFileSync(dir + "app.js", "utf8");
 const helpers = src.slice(0, src.indexOf("// ---------- Variant A"));
-const { outBy } = new Function(helpers + "; return { outBy: typeof outBy === 'undefined' ? undefined : outBy };")();
+const { outBy, canStay } = new Function(helpers + "; return { outBy: typeof outBy === 'undefined' ? undefined : outBy, canStay: typeof canStay === 'undefined' ? undefined : canStay };")();
 assert.equal(typeof outBy, "function", "outBy is defined");
 
 const WEEKDAYS = [1, 2, 3, 4, 5], ALL = [1, 2, 3, 4, 5, 6, 7];
@@ -38,4 +38,14 @@ assert.equal(r.why, "No parking 5–7am");
 
 // No signs → no time to leave by.
 assert.equal(outBy(kerb([]), at("2026-09-30T18:00")), null, "unsigned kerb");
-console.log("all outBy checks pass");
+// canStay: overnight windows need 8 hours from the window start; shorter windows need their whole length.
+assert.equal(typeof canStay, "function", "canStay is defined");
+const win = (from, hours) => ({ from: at(from), to: new Date(+at(from) + hours * 3600e3) });
+assert.equal(canStay(ban, win("2026-09-30T18:00", 13)), true, "Keith St: out by 5am is 11 h, enough for overnight");
+const harts = kerb([{ days: ALL, start: 22, end: 24, kind: "no", label: "No parking 10pm–6am" }, { days: ALL, start: 0, end: 6, kind: "no", label: "" }]);
+assert.equal(canStay(harts, win("2026-09-30T18:00", 13)), false, "Harts Rd: out by 10pm is only 4 h");
+assert.equal(canStay(ban, win("2026-09-30T22:00", 9)), false, "arriving at 10pm, out by 5am is 7 h");
+assert.equal(canStay(wk, win("2026-09-30T15:00", 3)), false, "Now at 3pm on a weekday 2P: out by 5pm, short of 3 h");
+assert.equal(canStay(wk, win("2026-09-30T19:00", 3)), true, "Now at 7pm: no limit until tomorrow");
+assert.equal(canStay(kerb([]), win("2026-09-30T18:00", 13)), true, "unsigned kerb");
+console.log("all outBy and canStay checks pass");

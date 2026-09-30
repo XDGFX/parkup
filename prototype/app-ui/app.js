@@ -81,6 +81,15 @@ function outBy(c, from) {
   }
   return null;
 }
+// A candidate counts for a window if you can stay long enough after parking at its start:
+// 8 hours for an overnight window, or the whole window when it's shorter (e.g. Now).
+const OVERNIGHT_MS = 8 * 3600e3;
+const minStay = (w) => Math.min(OVERNIGHT_MS, w.to - w.from);
+function canStay(c, w) {
+  const o = outBy(c, w.from);
+  return !o || o.at - w.from >= minStay(w);
+}
+
 // "8am", "8am tomorrow", or "9am Mon", relative to today.
 function fmtOut(d) {
   const days = Math.round((new Date(d).setHours(0, 0, 0, 0) - new Date().setHours(0, 0, 0, 0)) / 864e5);
@@ -475,7 +484,7 @@ function VariantA(root, theme = THEMES.dusk) {
   const sheet = root.appendChild($(`<section class="a-sheet" aria-live="polite"></section>`));
   legend.innerHTML = ["good", "maybe", "poor", "none"].map((v) => `<span class="verdict" style="--c:${V[v]}">${v === "none" ? "Not evaluated" : VERDICT[v].label}</span>`).join("");
   const caption = root.appendChild($(`<div class="a-caption"></div>`));
-  const setCaption = () => (caption.textContent = `Faded kerbs aren't legal ${win.key === "now" ? "for the next 3 hours" : win.title.toLowerCase()}`);
+  const setCaption = () => (caption.textContent = win.key === "now" ? "Faded: you'd have to move within 3 hours" : "Faded: you'd have to move within 8 hours");
   setCaption();
 
   wins.forEach((w) => {
@@ -485,7 +494,7 @@ function VariantA(root, theme = THEMES.dusk) {
 
   const map = newMap(mapEl, theme.base, { top: theme.grid ? 130 : 110, bottom: 140, left: 30, right: 20 });
   const paint = () => setKerbs(map, (c) => ({
-    color: V[verdictOf(c)], rated: c.evaluation ? 1 : 0, opacity: statusOver(c, win) === "no" ? 0.2 : 1,
+    color: V[verdictOf(c)], rated: c.evaluation ? 1 : 0, opacity: canStay(c, win) ? 1 : 0.2,
   }));
   let loos = [];
   onKerbTap(map, (id) => show(D.candidates.find((c) => c.id === id)));
@@ -603,8 +612,8 @@ function VariantB(root) {
 
   const rank = { good: 0, maybe: 1, none: 2, poor: 3 };
   function render() {
-    map.getSource("pts")?.setData(pointGeo((c) => ({ color: STATUS[statusOver(c, win)].color, sel: c.id === open, hide: statusOver(c, win) === "no" })));
-    const rows = D.candidates.map((c) => ({ c, s: statusOver(c, win) })).filter((x) => x.s !== "no")
+    map.getSource("pts")?.setData(pointGeo((c) => ({ color: STATUS[statusOver(c, win)].color, sel: c.id === open, hide: !canStay(c, win) })));
+    const rows = D.candidates.map((c) => ({ c, s: statusOver(c, win) })).filter((x) => canStay(x.c, win))
       .sort((a, b) => rank[verdictOf(a.c)] - rank[verdictOf(b.c)] || metres(CENTRE, mid(a.c)) - metres(CENTRE, mid(b.c)));
     const hidden = D.candidates.length - rows.length;
     list.innerHTML = `<div class="b-sub"><span>${rows.length} kerbs legal ${win.title.toLowerCase()} · ${win.sub}</span><span>${hidden ? `${hidden} hidden` : ""}</span></div>`;

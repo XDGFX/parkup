@@ -65,7 +65,7 @@ Dusk won. `A1` is now the refined version and `A0` is the first cut, for compari
 - **Motion:** the sky fades in and the signs drop in once on load. The sheet opens with a slight spring, and a soft pulsing ring marks the chosen candidate. Reduced motion turns these off.
 - **Colours:** mint, peach and coral for good, maybe and poor; grey for not evaluated.
 
-Approved. The card also shows when you'd have to move if you parked at the start of the window: "Out by 9am tomorrow · 2P from 7am". A limit counts from when it starts applying, so a 2P 6am–6pm sign means out by 8am after a night there. The time turns peach when it falls before the window ends, e.g. Keith St's 5am on a Tonight window that runs to 7am. `outby.check.mjs` holds the cases (`node prototype/app-ui/outby.check.mjs`).
+Approved. The card also shows when you'd have to move if you parked at the start of the window: "Out by 9am tomorrow · 2P from 7am". A limit counts from when it starts applying, so a 2P 6am–6pm sign means out by 8am after a night there. The time turns peach when it falls before the window ends, e.g. Keith St's 5am on a Tonight window that runs to 7am. A candidate is faded unless you can stay 8 hours (or the whole window, if shorter). `outby.check.mjs` holds the cases (`node prototype/app-ui/outby.check.mjs`).
 
 | A1 map | A1 sheet | Out by |
 |---|---|---|
@@ -82,7 +82,7 @@ Approved. The card also shows when you'd have to move if you parked at the start
 
 ## Things the mock-up surfaced for the real app
 
-- **A fixed window end hides good kerbs.** Keith St has "No parking 5–7am" but is fine overnight if you leave by 5am. The card now says "Out by 5am", but the map still fades Keith St because Tonight runs to 7am. The real app should decide whether fading follows the window end or a minimum stay.
+- **Overnight means 8 hours.** A candidate counts for Tonight or Weekend if you can stay at least 8 hours from the window start; for Now it must last the whole 3 hours. Otherwise it's faded on the map. Keith St ("No parking 5–7am", out by 5am) counts; Harts Rd (out by 10pm) doesn't. Decided by the user; `canStay` in `app.js`, with cases in `outby.check.mjs`.
 - **Time limits need the window's length.** A 2P kerb is legal for "Now" only if the limited part of the window is 2 hours or less. The prototype reads the hours from the plate's label (`2P` → 2 h); the real kerb-stretch model should store them.
 - **Time zone.** The prototype uses the phone's clock. The real app should work in `Australia/Brisbane`, whatever zone the phone is in.
 - **Card pin position.** The Google Maps link drops a pin at the kerb line's middle vertex. The real app should use the point halfway along the line. Saving it to the park-up list is still a manual step in Google Maps.
