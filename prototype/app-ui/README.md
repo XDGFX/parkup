@@ -40,5 +40,12 @@ Screenshots (iPhone 13 size, headless Chromium) are in `img/`.
 - **Time window:** A's three presets (Tonight, Weekend, Now) cover the common case with one tap. C's week strip is the only one that answers "when do I have to move?", so keep it as the card's week grid rather than the main control.
 - **Candidates:** show dots at suburb zoom and kerb lines from street zoom. A line alone is invisible on a phone at suburb zoom; compare `img/lines-only.png` with `img/a-map.png`. Colour by **evaluation** and fade out ones that aren't legal in the chosen window. Legality then filters, and evaluation ranks.
 - **Card:** A's bottom sheet, borrowing C's sign plates, imagery crop and week grid when the sheet is pulled up. Keep "Open in Google Maps" as the only action.
-- **Toilets:** always on, greyed when closed during the chosen window. Opening hours are free text, so the real app needs a small parser and a "hours unknown" state.
+- **Toilets:** always on, greyed when closed at the start of the chosen window (A) or the chosen hour (C). Opening hours are free text, so the real app needs a small parser and a "hours unknown" state.
 - **Home screen:** a web manifest plus an `apple-touch-icon` PNG, since iOS ignores SVG icons. Show a one-time banner: Android Chrome fires `beforeinstallprompt`, and iOS needs the "Share → Add to Home Screen" hint. The banner must hide behind the sheet. No service worker until offline use is specified.
+
+## Things the mock-up surfaced for the real app
+
+- **A fixed window end hides good kerbs.** Keith St has "No parking 5–7am" but is fine overnight if you leave by 5am. With Tonight ending at 7am it shows as illegal. Either show "legal until 5am" on the card or let the window end follow the user's wake-up time.
+- **Time limits need the window's length.** A 2P kerb is legal for "Now" only if the limited part of the window is 2 hours or less. The prototype reads the hours from the plate's label (`2P` → 2 h); the real kerb-stretch model should store them.
+- **Time zone.** The prototype uses the phone's clock. The real app should work in `Australia/Brisbane`, whatever zone the phone is in.
+- **Card pin position.** The Google Maps link drops a pin at the kerb line's middle vertex. The real app should use the point halfway along the line. Saving it to the park-up list is still a manual step in Google Maps.

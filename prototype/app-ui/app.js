@@ -57,11 +57,15 @@ function statusAt(c, d) {
   }
   return s;
 }
+// A time limit only works if you can stay the whole limited stretch of the window, e.g. 2P covers 2 hours.
 function statusOver(c, w) {
-  let worst = "ok";
+  const limitH = Math.min(...c.rules.filter((r) => r.kind === "limit").map((r) => parseInt(r.label)), Infinity);
+  let worst = "ok", limitedFor = 0;
   for (let t = +w.from; t < +w.to; t += 15 * 60e3) {
     const s = statusAt(c, new Date(t));
     if (s === "no") return "no";
+    limitedFor = s === "limited" ? limitedFor + 0.25 : 0;
+    if (limitedFor > limitH) return "no";
     if (s === "limited") worst = "limited";
   }
   return worst;
@@ -124,7 +128,7 @@ function newMap(el, style, padding) {
     attributionControl: { compact: true } });
 }
 
-function kerbLayers(map, onPick) {
+function kerbLayers(map) {
   map.addSource("kerbs", { type: "geojson", data: kerbGeo(() => ({ color: "#888", opacity: 1, rated: 1 })) });
   map.addLayer({ id: "kerb-casing", type: "line", source: "kerbs", layout: { "line-cap": "round" },
     paint: { "line-color": "#000", "line-width": ["interpolate", ["linear"], ["zoom"], 13, 5, 18, 14], "line-opacity": ["*", 0.5, ["get", "opacity"]] } });
@@ -138,6 +142,9 @@ function kerbLayers(map, onPick) {
   map.addLayer({ id: "kerb-dot", type: "circle", source: "kerb-mids", maxzoom: 15.5, paint: {
     "circle-radius": 7, "circle-color": ["get", "color"], "circle-opacity": ["get", "opacity"],
     "circle-stroke-color": ["coalesce", ["get", "ring"], "#fff"], "circle-stroke-width": ["case", ["has", "ring"], 4, 2], "circle-stroke-opacity": ["get", "opacity"] } });
+}
+// Layer-scoped listeners live on the map, not the style, so bind them once even if the style is swapped.
+function onKerbTap(map, onPick) {
   for (const id of ["kerb-hit", "kerb-dot"]) {
     map.on("click", id, (e) => onPick(e.features[0].properties.id));
     map.on("mouseenter", id, () => (map.getCanvas().style.cursor = "pointer"));
@@ -200,14 +207,16 @@ function VariantA(root) {
 
   wins.forEach((w) => {
     const b = top.appendChild($(`<button class="plate" aria-pressed="${w === win}">${w.title}<small>${w.sub}</small></button>`));
-    b.onclick = () => { win = w; top.querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", x === b)); paint(); if (selected) show(selected); };
+    b.onclick = () => { win = w; top.querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", x === b)); paint(); loos.forEach((l) => l.update(win.from)); if (selected) show(selected); };
   });
 
   const map = newMap(mapEl, "dark", { top: 110, bottom: 140, left: 20, right: 20 });
   const paint = () => setKerbs(map, (c) => ({
     color: VERDICT[verdictOf(c)].color, rated: c.evaluation ? 1 : 0, opacity: statusOver(c, win) === "no" ? 0.2 : 1,
   }));
-  map.on("load", () => { kerbLayers(map, (id) => show(D.candidates.find((c) => c.id === id))); paint(); looMarkers(map); });
+  let loos = [];
+  onKerbTap(map, (id) => show(D.candidates.find((c) => c.id === id)));
+  map.on("load", () => { kerbLayers(map); paint(); loos = looMarkers(map, win.from); });
   map.on("click", (e) => { if (!map.queryRenderedFeatures(e.point, { layers: ["kerb-hit", "kerb-dot"] }).length) { sheet.classList.remove("open"); selected = null; } });
 
   function show(c) {
@@ -252,7 +261,7 @@ function VariantB(root) {
     .b-toggle[aria-pressed="false"] { background: #ffffffaa; }
     .b-list { overflow: auto; padding: 8px 12px calc(64px + var(--safe-b)); }
     .b-sub { display: flex; justify-content: space-between; color: var(--muted); font: 500 12px var(--mono); padding: 4px 2px 8px; }
-    .b-item { display: block; width: 100%; text-align: left; border: 0; background: var(--surface); border-radius: 14px; padding: 12px; margin-bottom: 8px; border-left: 6px solid var(--s); }
+    .b-item { display: block; cursor: pointer; width: 100%; text-align: left; border: 0; background: var(--surface); border-radius: 14px; padding: 12px; margin-bottom: 8px; border-left: 6px solid var(--s); }
     .b-item[aria-expanded="true"] { background: var(--raise); }
     .b-line1 { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
     .b-line1 strong { font: 800 18px var(--display); }
@@ -278,7 +287,7 @@ function VariantB(root) {
   let loos = [];
   map.on("load", () => {
     map.addSource("pts", { type: "geojson", data: pointGeo(() => ({})) });
-    map.addLayer({ id: "pts", type: "circle", source: "pts", paint: {
+    map.addLayer({ id: "pts", type: "circle", source: "pts", filter: ["!", ["get", "hide"]], paint: {
       "circle-radius": ["case", ["get", "sel"], 11, 8], "circle-color": ["get", "color"], "circle-stroke-color": "#fff", "circle-stroke-width": ["case", ["get", "sel"], 4, 2] } });
     map.on("click", "pts", (e) => toggle(e.features[0].properties.id, true));
     loos = looMarkers(map);
@@ -292,14 +301,14 @@ function VariantB(root) {
 
   const rank = { good: 0, maybe: 1, none: 2, poor: 3 };
   function render() {
-    map.getSource("pts")?.setData(pointGeo((c) => ({ color: STATUS[statusOver(c, win)].color, sel: c.id === open })));
+    map.getSource("pts")?.setData(pointGeo((c) => ({ color: STATUS[statusOver(c, win)].color, sel: c.id === open, hide: statusOver(c, win) === "no" })));
     const rows = D.candidates.map((c) => ({ c, s: statusOver(c, win) })).filter((x) => x.s !== "no")
       .sort((a, b) => rank[verdictOf(a.c)] - rank[verdictOf(b.c)] || metres(CENTRE, mid(a.c)) - metres(CENTRE, mid(b.c)));
     const hidden = D.candidates.length - rows.length;
     list.innerHTML = `<div class="b-sub"><span>${rows.length} kerbs legal ${win.title.toLowerCase()} · ${win.sub}</span><span>${hidden ? `${hidden} hidden` : ""}</span></div>`;
     rows.forEach(({ c, s }) => {
       const v = verdictOf(c), loo = nearestLoo(c), ev = c.evaluation, isOpen = c.id === open;
-      const item = list.appendChild($(`<button class="b-item" style="--s:${STATUS[s].color}" aria-expanded="${isOpen}">
+      const item = list.appendChild($(`<div class="b-item" role="button" tabindex="0" style="--s:${STATUS[s].color}" aria-expanded="${isOpen}">
         <div class="b-line1"><strong>${c.street}</strong><span class="verdict" style="--c:${VERDICT[v].color}">${VERDICT[v].label}</span></div>
         <div class="kv">${c.suburb} · ${c.frontage} · ${STATUS[s].label} · WC ${dist(loo.m)}</div>
         ${isOpen ? `<div class="b-more">
@@ -307,8 +316,9 @@ function VariantB(root) {
           <div class="rowp">${plates(c)}</div>
           <div class="kv">Nearest toilet: ${loo.name}, ${dist(loo.m)} · ${loo.hours}</div>
           <a class="gmaps" style="margin-top:10px" href="${gmaps(c)}" target="_blank" rel="noopener">Open in Google Maps</a></div>` : ""}
-      </button>`));
+      </div>`));
       item.onclick = (e) => { if (!e.target.closest("a")) toggle(c.id, false); };
+      item.onkeydown = (e) => { if (e.target === item && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); toggle(c.id, false); } };
     });
   }
   function toggle(id, fromMap) {
@@ -391,7 +401,8 @@ function VariantC(root) {
     // Fill = legal at the chosen hour; ring = evaluation.
     setKerbs(map, (c) => ({ color: STATUS[statusAt(c, t)].color, ring: VERDICT[verdictOf(c)].color, rated: 1, opacity: 1 }));
   };
-  map.on("style.load", () => { kerbLayers(map, (id) => show(D.candidates.find((c) => c.id === id))); paint(); });
+  onKerbTap(map, (id) => show(D.candidates.find((c) => c.id === id)));
+  map.on("style.load", () => { kerbLayers(map); paint(); });
   map.on("load", () => { loos = looMarkers(map, t); });
 
   function setT(nt) {
@@ -428,7 +439,7 @@ function VariantC(root) {
           : `<p style="color:var(--muted)">No evaluation yet.</p>`}
         <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px">${plates(c)}</div>
         <div class="c-week">${week}</div>
-        <div class="kv" style="margin:-8px 0 14px">This week, Mon at left, midnight at top. Solid = night.</div>
+        <div class="kv" style="margin:-8px 0 14px">Next 7 days, today at left, midnight at top. Solid = night.</div>
         <div style="display:flex;gap:10px;align-items:center;margin-bottom:16px"><div class="loo-pin${looOpen(loo, t) ? "" : " closed"}">WC</div>
           <div><strong>${loo.name}</strong> · ${dist(loo.m)}<div class="kv">${loo.hours} · ${looOpen(loo, t) ? "open" : "closed"} at ${fmtH(t)}</div></div></div>
         <a class="gmaps" href="${gmaps(c)}" target="_blank" rel="noopener">Open in Google Maps</a>
