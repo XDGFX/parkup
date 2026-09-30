@@ -2,6 +2,8 @@
 
 A phone mock-up for [#7 App UI](https://github.com/XDGFX/parkup/issues/7), built on placeholder data. It isn't the app. Keep it off `main`.
 
+Run from a checkout of the `worktree-7-app-ui` branch. `main` has no `prototype/` folder, so the server would 404.
+
 ```sh
 python3 -m http.server 8000 -d prototype/app-ui
 # open http://localhost:8000/?variant=A  (or B, C). The yellow pill and ← → cycle variants.
