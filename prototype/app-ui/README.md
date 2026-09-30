@@ -36,6 +36,21 @@ Screenshots (iPhone 13 size, headless Chromium) are in `img/`.
 |---|---|---|---|---|
 | ![](img/a-map.png) | ![](img/a-sheet.png) | ![](img/b-list.png) | ![](img/c-clock.png) | ![](img/c-card.png) |
 
+## Visual themes for layout A
+
+Layout A won the first round. `?variant=A1`–`A4` keep its layout and change only the look: palette, type, a recoloured base map, and one signature touch each. The arrows cycle through these four; `?variant=B` and `?variant=C` still work. The parking-plate buttons stay in the road-sign face (Overpass) in every theme.
+
+| | Look | Type | Signature |
+|---|---|---|---|
+| A1 Dusk | The first round's solid indigo | Overpass / Atkinson Hyperlegible | Parking plates |
+| A2 Sodium | Night drive: warm black map, frosted-glass panels, amber accent | Bricolage Grotesque / Instrument Sans / Martian Mono | Kerbs glow like pools of streetlight |
+| A3 Tourist sign | Daytime: soft eucalypt map, white cards | Gabarito / Figtree / Red Hat Mono | Brown tourist-sign header on the sheet, brown toilet pictogram pins |
+| A4 Street directory | A 90s paper street directory: yellow and red roads, printed cards with hard shadows | Archivo at several widths | Grid rulers on the map edges and a grid reference on each card ("Map 20 · F2") |
+
+| A2 map | A2 sheet | A3 map | A3 sheet | A4 map | A4 sheet |
+|---|---|---|---|---|---|
+| ![](img/a2-sodium-map.png) | ![](img/a2-sodium-sheet.png) | ![](img/a3-tourist-map.png) | ![](img/a3-tourist-sheet.png) | ![](img/a4-directory-map.png) | ![](img/a4-directory-sheet.png) |
+
 ## Proposed answers (for the user to confirm)
 
 - **Map library and tiles:** MapLibre GL JS with OpenFreeMap vector tiles. There's no key and no quota, and it gives smooth pinch-zoom. Esri World Imagery works as a keyless raster toggle, so you can see the same imagery the evaluation saw. Leaflet would also work but has no vector tiles.
