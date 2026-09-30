@@ -55,15 +55,15 @@ Layout A won the first round. The second round kept its layout and tried four lo
 
 Dusk won. `A1` is now the refined version and `A0` is the first cut, for comparison. The arrows cycle these two; A2–A4, B and C stay reachable by URL.
 
-- **Horizon:** a peach-to-rose sunset glow behind the time-window signs. The same gradient reappears on the Google Maps button and as a thin line along the top of the sheet.
-- **Map:** OpenFreeMap *dark*, recoloured to indigo, with deep blue water and blue-grey parks. Candidates glow softly; toilet pins are small and quiet so candidates stand out.
+- **No purple.** The first cut's solid indigo was the complaint, so the chrome and map are neutral graphite and translucent glass. The only warm colour is a faint sunset glow behind the window signs, reused on the Google Maps button and a thin line along the top of the sheet.
+- **Map:** OpenFreeMap *dark*, recoloured to near-neutral graphite with a hint of cool water. Candidates glow softly; toilet pins are small and quiet so candidates stand out.
 - **Signs:** only the chosen window is a full white parking plate; the others are outlined glass.
 - **Sheet:** a floating frosted-glass card with a rounded top.
   - The street name is set in Instrument Serif; body text is Geist and data is Geist Mono.
   - The verdict is a tinted pill.
   - The Google Maps button stays pinned at the bottom while the body scrolls and fades out at both edges.
 - **Motion:** the sky fades in and the signs drop in once on load. The sheet opens with a slight spring, and a soft pulsing ring marks the chosen candidate. Reduced motion turns these off.
-- **Colours:** mint, peach and coral for good, maybe and poor; lavender for not evaluated.
+- **Colours:** mint, peach and coral for good, maybe and poor; grey for not evaluated.
 
 | A1 map | A1 sheet |
 |---|---|

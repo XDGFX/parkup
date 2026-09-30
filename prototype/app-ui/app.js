@@ -205,34 +205,34 @@ const TOILET_PICTO = `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidde
 
 const THEMES = {
   dusk: {
-    // Refined Dusk: an indigo map under a sunset horizon, frosted-glass sheet, serif street names.
+    // Refined Dusk: neutral graphite map and glass, with the sunset kept to a small warm accent.
     name: "Dusk", base: "dark", sky: true, cta: "Open in Google Maps <span aria-hidden=\"true\">↗</span>",
-    glow: { width: 16, blur: 12, opacity: 0.45, stroke: "#15132B" },
-    map: { land: "#17152E", water: "#0D1E3A", park: "#16263A", building: "#211E42", minor: "#2A2650", major: "#3A3469",
-      motorway: "#4E4380", casing: "#17152E", rail: "#2E2A58", label: "#8680B8", halo: "#17152E" },
-    verdict: { good: "#6EE7B7", maybe: "#FFC482", poor: "#FF7A8A", none: "#9D98C7" },
-    css: `:root { --ink: #15132B; --surface: rgba(29, 26, 58, .8); --raise: rgba(255, 255, 255, .055); --line: rgba(255, 255, 255, .09);
-        --text: #F2EFFF; --muted: #A7A1D2; --glass: rgba(21, 19, 43, .6);
-        --peach: #FFB48A; --rose: #F2789F; --violet: #8D6CF0;
-        --dusk: linear-gradient(100deg, var(--peach), var(--rose) 55%, var(--violet));
+    glow: { width: 16, blur: 12, opacity: 0.4, stroke: "#111113" },
+    map: { land: "#121214", water: "#0C1820", park: "#131916", building: "#1B1B1E", minor: "#26262A", major: "#35353B",
+      motorway: "#45454D", casing: "#121214", rail: "#2A2A2F", label: "#85858E", halo: "#121214" },
+    verdict: { good: "#6EE7B7", maybe: "#FFC482", poor: "#FF7A8A", none: "#9A9AA3" },
+    css: `:root { --ink: #111113; --surface: rgba(24, 24, 27, .78); --raise: rgba(255, 255, 255, .05); --line: rgba(255, 255, 255, .1);
+        --text: #F4F4F5; --muted: #A1A1AA; --glass: rgba(17, 17, 19, .6);
+        --peach: #FFC08F; --coral: #FF8E7A;
+        --dusk: linear-gradient(100deg, var(--peach), var(--coral));
         --display: "Instrument Serif", Georgia, serif; --body: "Geist", system-ui, sans-serif; --mono: "Geist Mono", ui-monospace, monospace; }
       html, body { background: var(--ink); }
 
       /* The horizon: last light over Brisbane, behind the signs */
       .a-sky { position: absolute; left: 0; right: 0; top: 0; height: 260px; z-index: 4; pointer-events: none;
         background:
-          radial-gradient(110% 80% at 50% -25%, rgba(255, 170, 125, .55), rgba(242, 120, 159, .22) 45%, transparent 72%),
-          linear-gradient(180deg, rgba(21, 19, 43, .75), rgba(21, 19, 43, 0)); animation: a-sky 1.2s ease-out both; }
+          radial-gradient(100% 70% at 50% -30%, rgba(255, 176, 130, .32), rgba(255, 142, 122, .1) 45%, transparent 70%),
+          linear-gradient(180deg, rgba(17, 17, 19, .8), rgba(17, 17, 19, 0)); animation: a-sky 1.2s ease-out both; }
       @keyframes a-sky { from { opacity: 0; } }
 
       /* Only the chosen window is a real sign; the others are etched glass */
       .a-top { top: calc(14px + var(--safe-t)); }
-      .a-top button.plate { opacity: 1; transform: none; background: rgba(255, 255, 255, .07); color: rgba(242, 239, 255, .85);
+      .a-top button.plate { opacity: 1; transform: none; background: rgba(255, 255, 255, .07); color: rgba(244, 244, 245, .85);
         border: 1.5px solid rgba(255, 255, 255, .28); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); box-shadow: none;
         transition: background .2s, color .2s, box-shadow .2s, transform .2s; animation: a-drop .6s cubic-bezier(.2, .9, .3, 1.2) both; }
       .a-top button.plate:nth-child(2) { animation-delay: .06s; } .a-top button.plate:nth-child(3) { animation-delay: .12s; }
       .a-top button.plate[aria-pressed="true"] { background: #fff; color: var(--plate-green); border: 3px solid currentColor;
-        box-shadow: 0 0 0 3px #fff, 0 10px 34px rgba(255, 150, 120, .5); transform: translateY(-1px); }
+        box-shadow: 0 0 0 3px #fff, 0 10px 30px rgba(255, 160, 120, .35); transform: translateY(-1px); }
       @keyframes a-drop { from { opacity: 0; transform: translateY(-14px); } }
 
       .verdict { font: 600 11px var(--body); letter-spacing: .09em; }
@@ -257,17 +257,17 @@ const THEMES = {
       .a-row { margin: 18px 0 10px; }
       .a-loo { border: 1px solid var(--line); border-radius: 18px; padding: 12px 14px; margin: 16px 0 8px; background: var(--raise); }
       .a-loo strong { font-weight: 600; }
-      .gmaps { background: var(--dusk); color: #1B1233; font: 600 16px var(--body); border-radius: 18px; min-height: 54px; letter-spacing: .01em;
-        box-shadow: 0 12px 32px rgba(242, 120, 159, .35), inset 0 1px 0 rgba(255, 255, 255, .45); }
-      .loo-pin { width: 20px; height: 20px; border-radius: 50%; background: rgba(21, 19, 43, .85); color: #A9D2FF; border: 1px solid rgba(169, 210, 255, .55);
+      .gmaps { background: var(--dusk); color: #1C120D; font: 600 16px var(--body); border-radius: 18px; min-height: 54px; letter-spacing: .01em;
+        box-shadow: 0 10px 28px rgba(255, 142, 122, .25), inset 0 1px 0 rgba(255, 255, 255, .5); }
+      .loo-pin { width: 20px; height: 20px; border-radius: 50%; background: rgba(20, 20, 22, .88); color: #9CCBFF; border: 1px solid rgba(156, 203, 255, .5);
         font: 700 7.5px var(--body); letter-spacing: .02em; box-shadow: 0 2px 10px rgba(0, 0, 0, .45); }
       .a-loo .loo-pin { width: 34px; height: 34px; font-size: 11px; }
-      .loo-pin.closed { color: #625D8F; border-color: rgba(98, 93, 143, .6); }
+      .loo-pin.closed { background: rgba(20, 20, 22, .88); color: #5C5C64; border-color: rgba(92, 92, 100, .6); }
       .a-install { left: 10px; right: 10px; border-radius: 20px; background: var(--surface); color: var(--text); border: 1px solid var(--line);
         backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: 0 16px 40px rgba(0, 0, 0, .5); }
-      .a-install button { background: var(--dusk); color: #1B1233; font-weight: 600; border-radius: 12px; padding: 7px 14px; }
+      .a-install button { background: var(--dusk); color: #1C120D; font-weight: 600; border-radius: 12px; padding: 7px 14px; }
       .a-install .x { background: none; color: var(--muted); }
-      .maplibregl-ctrl-attrib { background: rgba(21, 19, 43, .6) !important; color: var(--muted); }
+      .maplibregl-ctrl-attrib { background: rgba(17, 17, 19, .6) !important; color: var(--muted); }
       .maplibregl-ctrl-attrib a { color: var(--muted); }
       .maplibregl-ctrl-attrib-button { filter: invert(1) opacity(.6); }
       @media (prefers-reduced-motion: reduce) { .a-sky, .a-top button.plate { animation: none; } }`,
