@@ -1,0 +1,87 @@
+<!doctype html>
+<!--
+  PROTOTYPE — throwaway phone mock-up for issue #7 (App UI). Placeholder data only.
+  Three variants of the one-screen app, switchable via ?variant=A|B|C and the pill at the bottom.
+  Run: python3 -m http.server 8000 -d prototype/app-ui   then open http://localhost:8000/?variant=A
+-->
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>parkup prototype</title>
+<meta name="theme-color" content="#1C1A33">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="parkup">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Overpass:wght@600;800&family=Overpass+Mono:wght@500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/maplibre-gl@5/dist/maplibre-gl.css" rel="stylesheet">
+<style>
+  :root {
+    /* Brisbane at dusk: the app is mostly opened in the evening, in a van */
+    --ink: #1C1A33;
+    --surface: #2A2746;
+    --raise: #37335A;
+    --text: #EDEBF7;
+    --muted: #A7A3C4;
+    --good: #4CC38A;
+    --maybe: #F2B84B;
+    --poor: #E5624A;
+    --unrated: #8E8BA8;
+    --loo: #5AAEF5;
+    --plate-green: #0B7A3E;
+    --plate-red: #C4122F;
+    --display: "Overpass", system-ui, sans-serif;
+    --body: "Atkinson Hyperlegible", system-ui, sans-serif;
+    --mono: "Overpass Mono", ui-monospace, monospace;
+    --safe-b: env(safe-area-inset-bottom, 0px);
+    --safe-t: env(safe-area-inset-top, 0px);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--ink); color: var(--text); font: 16px/1.4 var(--body); -webkit-tap-highlight-color: transparent; }
+  body { overflow: hidden; }
+  button { font: inherit; color: inherit; cursor: pointer; }
+  button:focus-visible, a:focus-visible { outline: 3px solid var(--maybe); outline-offset: 2px; }
+  #app { position: fixed; inset: 0; }
+  .map { position: absolute; inset: 0; }
+  .maplibregl-ctrl-attrib { font-size: 10px; }
+
+  /* Signature: Australian parking-sign plates. Used for the time-window picker and for each kerb's signs. */
+  .plate { display: inline-flex; flex-direction: column; align-items: center; justify-content: center; gap: 0;
+    min-width: 64px; padding: 5px 10px 4px; border-radius: 6px; background: #fff; color: var(--plate-green);
+    border: 3px solid currentColor; font: 800 15px/1.05 var(--display); text-transform: uppercase; letter-spacing: .02em; }
+  .plate small { font: 600 10px/1.2 var(--display); letter-spacing: .04em; }
+  .plate.red { color: var(--plate-red); }
+  .plate.grey { color: #5B5870; }
+  button.plate { opacity: .55; transform: scale(.94); transition: transform .12s, opacity .12s; }
+  button.plate[aria-pressed="true"] { opacity: 1; transform: none; box-shadow: 0 0 0 3px var(--ink), 0 0 0 5px #fff; }
+
+  .verdict { display: inline-flex; align-items: center; gap: 6px; font: 800 13px var(--display); text-transform: uppercase; letter-spacing: .06em; }
+  .verdict::before { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--c); }
+  .kv { font: 500 12px var(--mono); color: var(--muted); }
+  .gmaps { display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; min-height: 48px; border: 0; border-radius: 12px;
+    background: #fff; color: var(--ink); font: 800 16px var(--display); text-decoration: none; }
+  .loo-pin { width: 22px; height: 22px; border-radius: 6px; background: var(--loo); color: #0A2540; display: grid; place-items: center;
+    font: 800 10px var(--display); border: 2px solid #fff; box-shadow: 0 1px 3px #0008; }
+  .loo-pin.closed { background: #4A4760; color: #BDB9D6; }
+  ul.reasons { margin: 6px 0 0; padding-left: 18px; color: var(--muted); }
+
+  /* Prototype switcher: deliberately not part of the design */
+  #switcher { position: fixed; left: 50%; bottom: calc(8px + var(--safe-b)); transform: translateX(-50%); z-index: 1000;
+    display: flex; align-items: center; gap: 4px; padding: 4px; border-radius: 999px; background: #ff0; color: #000;
+    font: 700 12px system-ui, sans-serif; box-shadow: 0 2px 10px #0009; }
+  #switcher button { border: 0; background: #000; color: #ff0; width: 28px; height: 28px; border-radius: 50%; }
+  #switcher span { padding: 0 8px; white-space: nowrap; }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@5/dist/maplibre-gl.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
