@@ -205,7 +205,76 @@ const TOILET_PICTO = `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidde
 
 const THEMES = {
   dusk: {
-    name: "Dusk", base: "dark", map: null,
+    // Refined Dusk: an indigo map under a sunset horizon, frosted-glass sheet, serif street names.
+    name: "Dusk", base: "dark", sky: true, cta: "Open in Google Maps <span aria-hidden=\"true\">↗</span>",
+    glow: { width: 16, blur: 12, opacity: 0.45, stroke: "#15132B" },
+    map: { land: "#17152E", water: "#0D1E3A", park: "#16263A", building: "#211E42", minor: "#2A2650", major: "#3A3469",
+      motorway: "#4E4380", casing: "#17152E", rail: "#2E2A58", label: "#8680B8", halo: "#17152E" },
+    verdict: { good: "#6EE7B7", maybe: "#FFC482", poor: "#FF7A8A", none: "#9D98C7" },
+    css: `:root { --ink: #15132B; --surface: rgba(29, 26, 58, .8); --raise: rgba(255, 255, 255, .055); --line: rgba(255, 255, 255, .09);
+        --text: #F2EFFF; --muted: #A7A1D2; --glass: rgba(21, 19, 43, .6);
+        --peach: #FFB48A; --rose: #F2789F; --violet: #8D6CF0;
+        --dusk: linear-gradient(100deg, var(--peach), var(--rose) 55%, var(--violet));
+        --display: "Instrument Serif", Georgia, serif; --body: "Geist", system-ui, sans-serif; --mono: "Geist Mono", ui-monospace, monospace; }
+      html, body { background: var(--ink); }
+
+      /* The horizon: last light over Brisbane, behind the signs */
+      .a-sky { position: absolute; left: 0; right: 0; top: 0; height: 260px; z-index: 4; pointer-events: none;
+        background:
+          radial-gradient(110% 80% at 50% -25%, rgba(255, 170, 125, .55), rgba(242, 120, 159, .22) 45%, transparent 72%),
+          linear-gradient(180deg, rgba(21, 19, 43, .75), rgba(21, 19, 43, 0)); animation: a-sky 1.2s ease-out both; }
+      @keyframes a-sky { from { opacity: 0; } }
+
+      /* Only the chosen window is a real sign; the others are etched glass */
+      .a-top { top: calc(14px + var(--safe-t)); }
+      .a-top button.plate { opacity: 1; transform: none; background: rgba(255, 255, 255, .07); color: rgba(242, 239, 255, .85);
+        border: 1.5px solid rgba(255, 255, 255, .28); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); box-shadow: none;
+        transition: background .2s, color .2s, box-shadow .2s, transform .2s; animation: a-drop .6s cubic-bezier(.2, .9, .3, 1.2) both; }
+      .a-top button.plate:nth-child(2) { animation-delay: .06s; } .a-top button.plate:nth-child(3) { animation-delay: .12s; }
+      .a-top button.plate[aria-pressed="true"] { background: #fff; color: var(--plate-green); border: 3px solid currentColor;
+        box-shadow: 0 0 0 3px #fff, 0 10px 34px rgba(255, 150, 120, .5); transform: translateY(-1px); }
+      @keyframes a-drop { from { opacity: 0; transform: translateY(-14px); } }
+
+      .verdict { font: 600 11px var(--body); letter-spacing: .09em; }
+      .a-legend { top: calc(80px + var(--safe-t)); border: 1px solid var(--line); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); color: var(--muted); }
+      .a-legend .verdict { font-size: 9.5px; letter-spacing: .08em; }
+      .a-legend { flex-wrap: nowrap; border-radius: 999px; padding: 5px 12px; gap: 12px; }
+
+      .a-sheet { left: 8px; right: 8px; bottom: 8px; border-radius: 28px; padding: 12px 20px calc(66px + var(--safe-b));
+        background: var(--surface); backdrop-filter: blur(26px) saturate(1.5); -webkit-backdrop-filter: blur(26px) saturate(1.5);
+        border: 1px solid var(--line); box-shadow: 0 24px 70px rgba(0, 0, 0, .6); transition: transform .5s cubic-bezier(.2, .95, .25, 1.04); clip-path: inset(0 round 28px); }
+      .a-sheet::before { content: ""; position: absolute; left: 28px; right: 28px; top: 0; height: 1px; background: var(--dusk); opacity: .8; }
+      .a-sheet .grab { background: rgba(255, 255, 255, .16); width: 36px; height: 4px; margin-bottom: 4px; flex: none; }
+      .a-body { padding-top: 10px; padding-bottom: 6px; -webkit-mask-image: linear-gradient(to bottom, transparent, #000 18px, #000 calc(100% - 18px), transparent); mask-image: linear-gradient(to bottom, transparent, #000 18px, #000 calc(100% - 18px), transparent); }
+      .a-sheet .verdict { padding: 4px 11px 4px 9px; border-radius: 999px; color: var(--c); background: color-mix(in srgb, var(--c) 15%, transparent); }
+      .a-sheet .verdict::before { width: 7px; height: 7px; box-shadow: 0 0 8px var(--c); }
+      .a-sheet h2 { font: 400 46px/.95 var(--display); letter-spacing: -.01em; margin: 10px 0 8px; }
+      .kv { font: 400 11.5px/1.5 var(--mono); color: var(--muted); letter-spacing: -.01em; }
+      .a-sheet p { font-size: 16px; line-height: 1.5; margin-top: 14px !important; }
+      ul.reasons { list-style: none; padding: 0; margin: 10px 0 0; }
+      ul.reasons li { position: relative; padding-left: 18px; margin: 4px 0; color: var(--muted); font-size: 14.5px; }
+      ul.reasons li::before { content: ""; position: absolute; left: 3px; top: .62em; width: 6px; height: 6px; border-radius: 50%; border: 1.5px solid var(--muted); }
+      .a-row { margin: 18px 0 10px; }
+      .a-loo { border: 1px solid var(--line); border-radius: 18px; padding: 12px 14px; margin: 16px 0 8px; background: var(--raise); }
+      .a-loo strong { font-weight: 600; }
+      .gmaps { background: var(--dusk); color: #1B1233; font: 600 16px var(--body); border-radius: 18px; min-height: 54px; letter-spacing: .01em;
+        box-shadow: 0 12px 32px rgba(242, 120, 159, .35), inset 0 1px 0 rgba(255, 255, 255, .45); }
+      .loo-pin { width: 20px; height: 20px; border-radius: 50%; background: rgba(21, 19, 43, .85); color: #A9D2FF; border: 1px solid rgba(169, 210, 255, .55);
+        font: 700 7.5px var(--body); letter-spacing: .02em; box-shadow: 0 2px 10px rgba(0, 0, 0, .45); }
+      .a-loo .loo-pin { width: 34px; height: 34px; font-size: 11px; }
+      .loo-pin.closed { color: #625D8F; border-color: rgba(98, 93, 143, .6); }
+      .a-install { left: 10px; right: 10px; border-radius: 20px; background: var(--surface); color: var(--text); border: 1px solid var(--line);
+        backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: 0 16px 40px rgba(0, 0, 0, .5); }
+      .a-install button { background: var(--dusk); color: #1B1233; font-weight: 600; border-radius: 12px; padding: 7px 14px; }
+      .a-install .x { background: none; color: var(--muted); }
+      .maplibregl-ctrl-attrib { background: rgba(21, 19, 43, .6) !important; color: var(--muted); }
+      .maplibregl-ctrl-attrib a { color: var(--muted); }
+      .maplibregl-ctrl-attrib-button { filter: invert(1) opacity(.6); }
+      @media (prefers-reduced-motion: reduce) { .a-sky, .a-top button.plate { animation: none; } }`,
+  },
+
+  duskFirst: {
+    name: "Dusk, first cut", base: "dark", map: null,
     verdict: { good: "#4CC38A", maybe: "#F2B84B", poor: "#E5624A", none: "#8E8BA8" },
     css: `:root { --glass: #1C1A33cc; }`,
   },
@@ -339,33 +408,42 @@ function VariantA(root, theme = THEMES.dusk) {
       width: max-content; max-width: calc(100% - 24px); padding: 4px 12px; border-radius: 14px; background: var(--glass); backdrop-filter: blur(6px); white-space: nowrap; }
     .a-legend .verdict { font-size: 10px; letter-spacing: .03em; }
     .a-sheet { position: absolute; left: 0; right: 0; bottom: 0; z-index: 6; background: var(--surface); border-radius: 18px 18px 0 0; color: var(--text);
-      padding: 10px 16px calc(64px + var(--safe-b)); box-shadow: 0 -6px 24px #0008; transform: translateY(110%); transition: transform .25s ease-out; max-height: 72%; overflow: auto; }
+      padding: 10px 16px calc(64px + var(--safe-b)); box-shadow: 0 -6px 24px #0008; transform: translateY(110%); transition: transform .25s ease-out; max-height: 72%; overflow: hidden; display: flex; flex-direction: column; }
+    .a-body { overflow: auto; min-height: 0; overscroll-behavior: contain; }
+    .a-sheet > .gmaps { flex: none; margin-top: 12px; }
     .a-sheet.open { transform: none; }
     .a-sheet .grab { width: 40px; height: 5px; border-radius: 3px; background: var(--raise); margin: 0 auto 10px; }
     .a-sheet h2 { margin: 0; font: 800 24px/1.1 var(--display); }
     .a-row { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
-    .a-row .plate { font-family: "Overpass", sans-serif; }
+    .a-row .plate, .a-row .plate small { font-family: "Overpass", sans-serif; }
+    .a-caption { position: absolute; top: calc(112px + var(--safe-t)); left: 0; right: 0; z-index: 5; text-align: center; pointer-events: none;
+      font: 500 11px var(--body); color: var(--muted); text-shadow: 0 1px 6px var(--ink); }
     .a-loo { display: flex; gap: 10px; align-items: center; margin: 12px 0 16px; padding: 10px; border-radius: 12px; background: var(--raise); }
     .a-install { position: absolute; left: 12px; right: 12px; bottom: calc(52px + var(--safe-b)); z-index: 5; display: flex; gap: 10px; align-items: center;
       padding: 10px 12px; border-radius: 12px; background: #fff; color: var(--ink); font-size: 14px; box-shadow: 0 4px 16px #0009; }
     .a-install button { border: 0; background: var(--ink); color: #fff; border-radius: 8px; padding: 6px 10px; }
     .a-install .x { background: none; color: var(--ink); padding: 6px; }
-    @media (prefers-reduced-motion: reduce) { .a-sheet { transition: none; } }
+    .a-pulse { width: 16px; height: 16px; border-radius: 50%; border: 2px solid #fff; background: var(--c); animation: a-pulse 1.8s ease-out infinite; }
+    @keyframes a-pulse { from { box-shadow: 0 0 0 0 color-mix(in srgb, var(--c) 70%, transparent); } to { box-shadow: 0 0 0 26px transparent; } }
+    @media (prefers-reduced-motion: reduce) { .a-sheet { transition: none; } .a-pulse { animation: none; box-shadow: 0 0 0 6px color-mix(in srgb, var(--c) 40%, transparent); } }
   </style>`));
   root.append($(`<style>${theme.css}</style>`)); // after the base styles so the theme wins
   const V = theme.verdict, S = { ok: V.good, limited: V.maybe, no: V.poor };
   const wins = windows();
   let win = wins[0], selected = null;
   const mapEl = root.appendChild($(`<div class="map"></div>`));
+  if (theme.sky) root.append($(`<div class="a-sky" aria-hidden="true"></div>`));
   const top = root.appendChild($(`<div class="a-top" role="group" aria-label="When"></div>`));
   const legend = root.appendChild($(`<div class="a-legend kv"></div>`));
   const sheet = root.appendChild($(`<section class="a-sheet" aria-live="polite"></section>`));
-  legend.innerHTML = ["good", "maybe", "poor", "none"].map((v) => `<span class="verdict" style="--c:${V[v]}">${v === "none" ? "Not evaluated" : VERDICT[v].label}</span>`).join("")
-    + `<span class="verdict" style="--c:${V.none}55">Faded = not legal</span>`;
+  legend.innerHTML = ["good", "maybe", "poor", "none"].map((v) => `<span class="verdict" style="--c:${V[v]}">${v === "none" ? "Not evaluated" : VERDICT[v].label}</span>`).join("");
+  const caption = root.appendChild($(`<div class="a-caption"></div>`));
+  const setCaption = () => (caption.textContent = `Faded kerbs aren't legal ${win.key === "now" ? "for the next 3 hours" : win.title.toLowerCase()}`);
+  setCaption();
 
   wins.forEach((w) => {
     const b = top.appendChild($(`<button class="plate" aria-pressed="${w === win}">${w.title}<small>${w.sub}</small></button>`));
-    b.onclick = () => { win = w; top.querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", x === b)); paint(); loos.forEach((l) => l.update(win.from)); if (selected) show(selected); };
+    b.onclick = () => { win = w; top.querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", x === b)); paint(); setCaption(); loos.forEach((l) => l.update(win.from)); if (selected) show(selected); };
   });
 
   const map = newMap(mapEl, theme.base, { top: theme.grid ? 130 : 110, bottom: 140, left: 30, right: 20 });
@@ -378,23 +456,26 @@ function VariantA(root, theme = THEMES.dusk) {
     if (theme.map) recolour(map, theme.map);
     kerbLayers(map);
     if (theme.glow) {
+      const g = theme.glow === true ? { width: 22, blur: 14, opacity: 0.55, stroke: "#14110E" } : theme.glow;
       map.addLayer({ id: "kerb-glow", type: "line", source: "kerbs", layout: { "line-cap": "round" },
-        paint: { "line-color": ["get", "color"], "line-width": 22, "line-blur": 14, "line-opacity": ["*", 0.55, ["get", "opacity"]] } }, "kerb-casing");
+        paint: { "line-color": ["get", "color"], "line-width": g.width, "line-blur": g.blur, "line-opacity": ["*", g.opacity, ["get", "opacity"]] } }, "kerb-casing");
       map.addLayer({ id: "dot-glow", type: "circle", source: "kerb-mids", maxzoom: 15.5,
-        paint: { "circle-color": ["get", "color"], "circle-radius": 22, "circle-blur": 1, "circle-opacity": ["*", 0.6, ["get", "opacity"]] } }, "kerb-dot");
-      map.setPaintProperty("kerb-dot", "circle-stroke-color", "#14110E");
+        paint: { "circle-color": ["get", "color"], "circle-radius": g.width, "circle-blur": 1, "circle-opacity": ["*", g.opacity, ["get", "opacity"]] } }, "kerb-dot");
+      map.setPaintProperty("kerb-dot", "circle-stroke-color", g.stroke);
     }
     if (theme.grid) gridLayer(map, root);
     paint();
     loos = looMarkers(map, win.from);
     if (theme.loo) loos.forEach((l) => (l.el.innerHTML = theme.loo));
   });
-  map.on("click", (e) => { if (!map.queryRenderedFeatures(e.point, { layers: ["kerb-hit", "kerb-dot"] }).length) { sheet.classList.remove("open"); selected = null; } });
+  map.on("click", (e) => { if (!map.queryRenderedFeatures(e.point, { layers: ["kerb-hit", "kerb-dot"] }).length) { sheet.classList.remove("open"); selected = null; pulse.remove(); } });
+  // A soft pulsing ring marks the chosen kerb stretch while its sheet is open.
+  const pulse = new maplibregl.Marker({ element: $(`<div class="a-pulse" aria-hidden="true"></div>`) });
 
   function show(c) {
     selected = c;
     const v = verdictOf(c), s = statusOver(c, win), loo = nearestLoo(c), ev = c.evaluation;
-    sheet.innerHTML = `<div class="grab"></div>
+    sheet.innerHTML = `<div class="grab"></div><div class="a-body">
       ${theme.head ? theme.head(c) : ""}
       <span class="verdict" style="--c:${V[v]}">${VERDICT[v].label}</span>
       <h2>${c.street}</h2>
@@ -406,9 +487,11 @@ function VariantA(root, theme = THEMES.dusk) {
       <div class="kv" style="color:${S[s]}">${win.title}: ${STATUS[s].label.toLowerCase()}</div>
       <div class="a-loo"><div class="loo-pin${looOpen(loo, win.from) ? "" : " closed"}">${theme.loo ?? "WC"}</div>
         <div><strong>${loo.name}</strong> · ${dist(loo.m)}<div class="kv">${loo.hours}</div></div></div>
-      <a class="gmaps" href="${gmaps(c)}" target="_blank" rel="noopener">Open in Google Maps</a>`;
+      </div><a class="gmaps" href="${gmaps(c)}" target="_blank" rel="noopener">${theme.cta ?? "Open in Google Maps"}</a>`;
     sheet.classList.add("open");
-    map.easeTo({ center: mid(c), offset: [0, -140], duration: 400 });
+    pulse.getElement().style.setProperty("--c", V[v]);
+    pulse.setLngLat(mid(c)).addTo(map);
+    map.easeTo({ center: mid(c), offset: [0, -170], duration: 600 });
   }
 
   if (!standalone() && !store.get("parkup-install-dismissed")) {
@@ -627,14 +710,18 @@ function VariantC(root) {
 
 // ---------- switcher (prototype only) ----------
 
-// A1–A4 are the visual themes of layout A and are what the arrows cycle. B and C stay reachable by URL.
+// The arrows compare refined Dusk with its first cut. The other themes and layouts stay reachable by URL.
 const VARIANTS = [
   ["A1", "Dusk", (r) => VariantA(r, THEMES.dusk)],
+  ["A0", "Dusk, first cut", (r) => VariantA(r, THEMES.duskFirst)],
+];
+const OTHERS = [
   ["A2", "Sodium", (r) => VariantA(r, THEMES.sodium)],
   ["A3", "Tourist sign", (r) => VariantA(r, THEMES.tourist)],
   ["A4", "Street directory", (r) => VariantA(r, THEMES.directory)],
+  ["B", "List first", VariantB],
+  ["C", "Week clock", VariantC],
 ];
-const OTHERS = [["B", "List first", VariantB], ["C", "Week clock", VariantC]];
 const params = new URLSearchParams(location.search);
 const want = (params.get("variant") ?? "A1").toUpperCase().replace(/^A$/, "A1");
 const current = [...VARIANTS, ...OTHERS].find(([k]) => k === want) ?? VARIANTS[0];

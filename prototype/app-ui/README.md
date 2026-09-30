@@ -38,7 +38,7 @@ Screenshots (iPhone 13 size, headless Chromium) are in `img/`.
 
 ## Visual themes for layout A
 
-Layout A won the first round. `?variant=A1`–`A4` keep its layout and change only the look: palette, type, a recoloured base map, and one signature touch each. The arrows cycle through these four; `?variant=B` and `?variant=C` still work. The parking-plate buttons stay in the road-sign face (Overpass) in every theme.
+Layout A won the first round. The second round kept its layout and tried four looks (palette, type, a recoloured base map, and one signature touch each). A1 in the table below is the first cut of Dusk, now `A0`. The parking-plate buttons stay in the road-sign face (Overpass) in every theme.
 
 | | Look | Type | Signature |
 |---|---|---|---|
@@ -50,6 +50,24 @@ Layout A won the first round. `?variant=A1`–`A4` keep its layout and change on
 | A2 map | A2 sheet | A3 map | A3 sheet | A4 map | A4 sheet |
 |---|---|---|---|---|---|
 | ![](img/a2-sodium-map.png) | ![](img/a2-sodium-sheet.png) | ![](img/a3-tourist-map.png) | ![](img/a3-tourist-sheet.png) | ![](img/a4-directory-map.png) | ![](img/a4-directory-sheet.png) |
+
+### Round 3: Dusk refined (`?variant=A1`)
+
+Dusk won. `A1` is now the refined version and `A0` is the first cut, for comparison. The arrows cycle these two; A2–A4, B and C stay reachable by URL.
+
+- **Horizon:** a peach-to-rose sunset glow behind the time-window signs. The same gradient reappears on the Google Maps button and as a thin line along the top of the sheet.
+- **Map:** OpenFreeMap *dark*, recoloured to indigo, with deep blue water and blue-grey parks. Candidates glow softly; toilet pins are small and quiet so candidates stand out.
+- **Signs:** only the chosen window is a full white parking plate; the others are outlined glass.
+- **Sheet:** a floating frosted-glass card with a rounded top.
+  - The street name is set in Instrument Serif; body text is Geist and data is Geist Mono.
+  - The verdict is a tinted pill.
+  - The Google Maps button stays pinned at the bottom while the body scrolls and fades out at both edges.
+- **Motion:** the sky fades in and the signs drop in once on load. The sheet opens with a slight spring, and a soft pulsing ring marks the chosen candidate. Reduced motion turns these off.
+- **Colours:** mint, peach and coral for good, maybe and poor; lavender for not evaluated.
+
+| A1 map | A1 sheet |
+|---|---|
+| ![](img/a1-dusk-map.png) | ![](img/a1-dusk-sheet.png) |
 
 ## Proposed answers (for the user to confirm)
 
