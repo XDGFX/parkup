@@ -57,9 +57,39 @@ function statusAt(c, d) {
   }
   return s;
 }
+// Hours allowed by the kerb's time limit, read from the plate ("2P" → 2). Infinity when there's no limit.
+const limitHours = (c) => Math.min(...c.rules.filter((r) => r.kind === "limit").map((r) => parseInt(r.label)), Infinity);
+
+// When you'd have to move if you parked at `from`: the first no-parking time, or the end of a time limit.
+// A limit counts from when it starts applying, so 2P from 6am means out by 8am if you parked overnight.
+// Returns { at, why }, or null if nothing forces a move within a week.
+function outBy(c, from) {
+  const step = 15 * 60e3, limitMs = limitHours(c) * 3600e3;
+  let limitedSince = null;
+  for (let t = +from; t < +from + 7 * 864e5; t += step) {
+    const d = new Date(t), s = statusAt(c, d);
+    if (s === "no") {
+      const r = c.rules.find((r) => r.kind === "no" && r.label && r.days.includes(dow(d)));
+      return { at: d, why: r?.label ?? "No parking" };
+    }
+    if (s !== "limited") { limitedSince = null; continue; }
+    limitedSince ??= t;
+    if (t + step - limitedSince > limitMs) {
+      const since = new Date(limitedSince);
+      return { at: new Date(limitedSince + limitMs), why: `${limitHours(c)}P ${limitedSince === +from ? "limit" : `from ${fmtH(since)}`}` };
+    }
+  }
+  return null;
+}
+// "8am", "8am tomorrow", or "9am Mon", relative to today.
+function fmtOut(d) {
+  const days = Math.round((new Date(d).setHours(0, 0, 0, 0) - new Date().setHours(0, 0, 0, 0)) / 864e5);
+  return `${fmtH(d)}${days === 0 ? "" : days === 1 ? " tomorrow" : ` ${fmtDay(d)}`}`;
+}
+
 // A time limit only works if you can stay the whole limited stretch of the window, e.g. 2P covers 2 hours.
 function statusOver(c, w) {
-  const limitH = Math.min(...c.rules.filter((r) => r.kind === "limit").map((r) => parseInt(r.label)), Infinity);
+  const limitH = limitHours(c);
   let worst = "ok", limitedFor = 0;
   for (let t = +w.from; t < +w.to; t += 15 * 60e3) {
     const s = statusAt(c, new Date(t));
@@ -255,6 +285,8 @@ const THEMES = {
       ul.reasons li { position: relative; padding-left: 18px; margin: 4px 0; color: var(--muted); font-size: 14.5px; }
       ul.reasons li::before { content: ""; position: absolute; left: 3px; top: .62em; width: 6px; height: 6px; border-radius: 50%; border: 1.5px solid var(--muted); }
       .a-row { margin: 18px 0 10px; }
+      .a-out { border: 1px solid var(--line); border-radius: 18px; padding: 12px 16px; margin-top: 16px; }
+      .a-out strong { font: 400 36px/1 var(--display); letter-spacing: -.01em; }
       .a-loo { border: 1px solid var(--line); border-radius: 18px; padding: 12px 14px; margin: 16px 0 8px; background: var(--raise); }
       .a-loo strong { font-weight: 600; }
       .gmaps { background: var(--dusk); color: #1C120D; font: 600 16px var(--body); border-radius: 18px; min-height: 54px; letter-spacing: .01em;
@@ -416,6 +448,11 @@ function VariantA(root, theme = THEMES.dusk) {
     .a-sheet h2 { margin: 0; font: 800 24px/1.1 var(--display); }
     .a-row { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
     .a-row .plate, .a-row .plate small { font-family: "Overpass", sans-serif; }
+    .a-out { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 10px; margin: 14px 0 4px; padding: 12px 14px; border-radius: 14px; background: var(--raise); }
+    .a-out-label { font: 600 11px var(--body); text-transform: uppercase; letter-spacing: .09em; color: var(--muted); }
+    .a-out strong { font: 700 22px/1.1 var(--display); }
+    .a-out.warn strong { color: var(--warn); }
+    .a-out .kv { flex-basis: 100%; }
     .a-caption { position: absolute; top: calc(112px + var(--safe-t)); left: 0; right: 0; z-index: 5; text-align: center; pointer-events: none;
       font: 500 11px var(--body); color: var(--muted); text-shadow: 0 1px 6px var(--ink); }
     .a-loo { display: flex; gap: 10px; align-items: center; margin: 12px 0 16px; padding: 10px; border-radius: 12px; background: var(--raise); }
@@ -428,7 +465,7 @@ function VariantA(root, theme = THEMES.dusk) {
     @media (prefers-reduced-motion: reduce) { .a-sheet { transition: none; } .a-pulse { animation: none; box-shadow: 0 0 0 6px color-mix(in srgb, var(--c) 40%, transparent); } }
   </style>`));
   root.append($(`<style>${theme.css}</style>`)); // after the base styles so the theme wins
-  const V = theme.verdict, S = { ok: V.good, limited: V.maybe, no: V.poor };
+  const V = theme.verdict;
   const wins = windows();
   let win = wins[0], selected = null;
   const mapEl = root.appendChild($(`<div class="map"></div>`));
@@ -472,19 +509,28 @@ function VariantA(root, theme = THEMES.dusk) {
   // A soft pulsing ring marks the chosen kerb stretch while its sheet is open.
   const pulse = new maplibregl.Marker({ element: $(`<div class="a-pulse" aria-hidden="true"></div>`) });
 
+  // Parking at the start of the window: when do you have to move? Warm colour if that's before the window ends.
+  function outBlock(c) {
+    const o = outBy(c, win.from);
+    if (!o) return `<div class="a-out"><span class="a-out-label">Out by</span><strong>No time limit</strong>
+      <span class="kv">${c.rules.length ? "Nothing on the signs this week" : "No signs, road rules only"}</span></div>`;
+    return `<div class="a-out${o.at < win.to ? " warn" : ""}" style="--warn:${V.maybe}"><span class="a-out-label">Out by</span>
+      <strong>${fmtOut(o.at)}</strong><span class="kv">${o.why}</span></div>`;
+  }
+
   function show(c) {
     selected = c;
-    const v = verdictOf(c), s = statusOver(c, win), loo = nearestLoo(c), ev = c.evaluation;
+    const v = verdictOf(c), loo = nearestLoo(c), ev = c.evaluation;
     sheet.innerHTML = `<div class="grab"></div><div class="a-body">
       ${theme.head ? theme.head(c) : ""}
       <span class="verdict" style="--c:${V[v]}">${VERDICT[v].label}</span>
       <h2>${c.street}</h2>
       <div class="kv a-meta">${c.suburb} · ${c.lengthM} m of kerb · ${c.frontage} frontage</div>
+      ${outBlock(c)}
       ${ev ? `<p style="margin:10px 0 0">${ev.summary}</p><ul class="reasons">${ev.reasons.map((r) => `<li>${r}</li>`).join("")}</ul>
         <div class="kv" style="margin-top:6px">Imagery ${ev.imagery} · grade ${ev.slope}%</div>`
         : `<p style="margin:10px 0 0;color:var(--muted)">No evaluation yet. Look at it in Google Maps before you go.</p>`}
       <div class="a-row">${plates(c)}</div>
-      <div class="kv" style="color:${S[s]}">${win.title}: ${STATUS[s].label.toLowerCase()}</div>
       <div class="a-loo"><div class="loo-pin${looOpen(loo, win.from) ? "" : " closed"}">${theme.loo ?? "WC"}</div>
         <div><strong>${loo.name}</strong> · ${dist(loo.m)}<div class="kv">${loo.hours}</div></div></div>
       </div><a class="gmaps" href="${gmaps(c)}" target="_blank" rel="noopener">${theme.cta ?? "Open in Google Maps"}</a>`;
