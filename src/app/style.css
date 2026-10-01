@@ -1,0 +1,112 @@
+/* Layout A in the Dusk look (prototype/app-ui ?variant=A1 on worktree-7-app-ui): a full-screen graphite map,
+   parking-plate presets and a frosted-glass bottom sheet, with the sunset kept to a small warm accent. */
+@import "maplibre-gl/dist/maplibre-gl.css";
+
+:root {
+  --ink: #111113;
+  --surface: rgba(24, 24, 27, .78);
+  --raise: rgba(255, 255, 255, .05);
+  --line: rgba(255, 255, 255, .1);
+  --text: #F4F4F5;
+  --muted: #A1A1AA;
+  --glass: rgba(17, 17, 19, .6);
+  --peach: #FFC08F;
+  --coral: #FF8E7A;
+  --warn: #FFC482;
+  --dusk: linear-gradient(100deg, var(--peach), var(--coral));
+  --plate-green: #0B7A3E;
+  --plate-red: #C4122F;
+  --display: "Instrument Serif", Georgia, serif;
+  --body: "Geist", system-ui, sans-serif;
+  --mono: "Geist Mono", ui-monospace, monospace;
+  --plate: "Overpass", system-ui, sans-serif;
+  --safe-b: env(safe-area-inset-bottom, 0px);
+  --safe-t: env(safe-area-inset-top, 0px);
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--ink); color: var(--text); font: 16px/1.4 var(--body); -webkit-tap-highlight-color: transparent; }
+body { overflow: hidden; }
+button { font: inherit; color: inherit; cursor: pointer; }
+button:focus-visible, a:focus-visible { outline: 3px solid var(--warn); outline-offset: 2px; }
+#app { position: fixed; inset: 0; }
+.map { position: absolute; inset: 0; }
+
+/* Australian parking-sign plates: the window picker and each kerb's signs. */
+.plate { display: inline-flex; flex-direction: column; align-items: center; justify-content: center;
+  min-width: 64px; padding: 5px 10px 4px; border-radius: 6px; background: #fff; color: var(--plate-green);
+  border: 3px solid currentColor; font: 800 15px/1.05 var(--plate); text-transform: uppercase; letter-spacing: .02em; }
+.plate small { font: 600 10px/1.2 var(--plate); letter-spacing: .04em; }
+.plate.red { color: var(--plate-red); }
+.plate.grey { color: #5E5E66; }
+
+.kv { font: 400 11.5px/1.5 var(--mono); color: var(--muted); letter-spacing: -.01em; }
+
+/* The horizon: last light over Brisbane, behind the signs */
+.sky { position: absolute; left: 0; right: 0; top: 0; height: 260px; z-index: 4; pointer-events: none;
+  background:
+    radial-gradient(100% 70% at 50% -30%, rgba(255, 176, 130, .32), rgba(255, 142, 122, .1) 45%, transparent 70%),
+    linear-gradient(180deg, rgba(17, 17, 19, .8), rgba(17, 17, 19, 0)); animation: sky 1.2s ease-out both; }
+@keyframes sky { from { opacity: 0; } }
+
+/* Only the chosen window is a real sign; the others are etched glass */
+.top { position: absolute; top: calc(14px + var(--safe-t)); left: 0; right: 0; z-index: 5; display: flex; justify-content: center; gap: 8px; padding: 0 12px; }
+.top button.plate { background: rgba(255, 255, 255, .07); color: rgba(244, 244, 245, .85); border: 1.5px solid rgba(255, 255, 255, .28);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); transition: background .2s, color .2s, box-shadow .2s, transform .2s;
+  animation: drop .6s cubic-bezier(.2, .9, .3, 1.2) both; }
+.top button.plate:nth-child(2) { animation-delay: .06s; }
+.top button.plate:nth-child(3) { animation-delay: .12s; }
+.top button.plate[aria-pressed="true"] { background: #fff; color: var(--plate-green); border: 3px solid currentColor;
+  box-shadow: 0 0 0 3px #fff, 0 10px 30px rgba(255, 160, 120, .35); transform: translateY(-1px); }
+@keyframes drop { from { opacity: 0; transform: translateY(-14px); } }
+
+.caption { position: absolute; top: calc(80px + var(--safe-t)); left: 0; right: 0; z-index: 5; text-align: center; pointer-events: none;
+  font: 500 11px var(--body); color: var(--muted); text-shadow: 0 1px 6px var(--ink); }
+
+.sheet { position: absolute; left: 8px; right: 8px; bottom: 8px; z-index: 6; max-height: 72%; display: flex; flex-direction: column; overflow: hidden;
+  border-radius: 28px; padding: 12px 20px calc(12px + var(--safe-b)); color: var(--text);
+  background: var(--surface); backdrop-filter: blur(26px) saturate(1.5); -webkit-backdrop-filter: blur(26px) saturate(1.5);
+  border: 1px solid var(--line); box-shadow: 0 24px 70px rgba(0, 0, 0, .6); clip-path: inset(0 round 28px);
+  transform: translateY(115%); transition: transform .5s cubic-bezier(.2, .95, .25, 1.04); }
+.sheet.open { transform: none; }
+.sheet::before { content: ""; position: absolute; left: 28px; right: 28px; top: 0; height: 1px; background: var(--dusk); opacity: .8; }
+.grab { background: rgba(255, 255, 255, .16); width: 36px; height: 4px; border-radius: 3px; margin: 0 auto 4px; flex: none; }
+.body { overflow: auto; min-height: 0; overscroll-behavior: contain; padding: 10px 0 6px;
+  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 18px, #000 calc(100% - 18px), transparent);
+  mask-image: linear-gradient(to bottom, transparent, #000 18px, #000 calc(100% - 18px), transparent); }
+.sheet h2 { font: 400 46px/.95 var(--display); letter-spacing: -.01em; margin: 10px 0 8px; }
+.tag { display: inline-flex; align-items: center; gap: 6px; padding: 4px 11px 4px 9px; border-radius: 999px;
+  font: 600 11px var(--body); letter-spacing: .09em; text-transform: uppercase; color: var(--c); background: color-mix(in srgb, var(--c) 15%, transparent); }
+.tag::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--c); box-shadow: 0 0 8px var(--c); }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; }
+
+.out { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 10px; margin-top: 16px; padding: 12px 16px; border-radius: 18px; border: 1px solid var(--line); }
+.out-label { font: 600 11px var(--body); text-transform: uppercase; letter-spacing: .09em; color: var(--muted); }
+.out strong { font: 400 36px/1 var(--display); letter-spacing: -.01em; }
+.out.warn strong { color: var(--warn); }
+.out .kv { flex-basis: 100%; }
+
+.facts { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; margin: 14px 0 0; }
+.facts dt { font: 600 11px/1.9 var(--body); text-transform: uppercase; letter-spacing: .09em; color: var(--muted); }
+.facts dd { margin: 0; }
+.day-only { margin-top: 14px; padding: 10px 14px; border-radius: 14px; color: #1C120D; background: var(--dusk); font-weight: 600; }
+.plates { display: flex; gap: 8px; flex-wrap: wrap; margin: 16px 0 10px; }
+ul.cautions { list-style: none; padding: 0; margin: 10px 0 0; }
+ul.cautions li { position: relative; padding-left: 18px; margin: 4px 0; color: var(--muted); font-size: 14.5px; }
+ul.cautions li::before { content: ""; position: absolute; left: 3px; top: .62em; width: 6px; height: 6px; border-radius: 50%; border: 1.5px solid var(--warn); }
+.check { margin: 12px 0 0; color: var(--muted); font-size: 14.5px; }
+
+.gmaps { flex: none; margin-top: 12px; display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; min-height: 54px;
+  border-radius: 18px; background: var(--dusk); color: #1C120D; font: 600 16px var(--body); letter-spacing: .01em; text-decoration: none;
+  box-shadow: 0 10px 28px rgba(255, 142, 122, .25), inset 0 1px 0 rgba(255, 255, 255, .5); }
+
+.pulse { width: 16px; height: 16px; border-radius: 50%; border: 2px solid #fff; background: var(--c); animation: pulse 1.8s ease-out infinite; }
+@keyframes pulse { from { box-shadow: 0 0 0 0 color-mix(in srgb, var(--c) 70%, transparent); } to { box-shadow: 0 0 0 26px transparent; } }
+
+.maplibregl-ctrl-attrib { font-size: 10px; background: rgba(17, 17, 19, .6) !important; color: var(--muted); }
+.maplibregl-ctrl-attrib a { color: var(--muted); }
+.maplibregl-ctrl-attrib-button { filter: invert(1) opacity(.6); }
+
+@media (prefers-reduced-motion: reduce) {
+  .sky, .top button.plate, .pulse { animation: none; }
+  .sheet { transition: none; }
+}
