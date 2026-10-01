@@ -1,0 +1,122 @@
+{
+  "id": "pin01",
+  "street": "unnamed",
+  "suburb": "Brisbane",
+  "kind": "point",
+  "kerb": {
+    "length_m": 40,
+    "side": "pin",
+    "start": [
+      152.974573,
+      -27.474816
+    ],
+    "end": [
+      152.974979,
+      -27.474816
+    ]
+  },
+  "osm_tags": {},
+  "slope": {
+    "step_m": 5,
+    "elevation_m": [
+      42.85,
+      43.61,
+      43.99,
+      43.18,
+      40.39,
+      39.42,
+      38.89,
+      38.72,
+      38.12,
+      null,
+      42.33,
+      41.72,
+      41.24,
+      40.68,
+      40.39,
+      39.24,
+      38.72,
+      38.65,
+      38.27
+    ],
+    "min_elevation_m": 38.1,
+    "max_elevation_m": 44.0,
+    "mean_grade_pct": 13.8,
+    "max_grade_pct": 55.8,
+    "flattest_20m_grade_pct": 9.7
+  },
+  "signs": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "length_m": 141,
+      "images": {
+        "esri": "chunk1-esri.jpg",
+        "qld": "chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        160,
+        161
+      ],
+      "image_px": [
+        1067,
+        1074
+      ]
+    }
+  ],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "metres": 28,
+      "at_m": 0
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "metres": 38,
+      "at_m": 0
+    },
+    {
+      "building": "yes",
+      "name": "Maintenance Depot",
+      "metres": 39,
+      "at_m": 0
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "metres": 65,
+      "at_m": 0
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "metres": 79,
+      "at_m": 0
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "metres": 89,
+      "at_m": 0
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "metres": 90,
+      "at_m": 0
+    }
+  ]
+}

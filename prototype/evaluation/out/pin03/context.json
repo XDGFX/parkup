@@ -1,0 +1,79 @@
+{
+  "id": "pin03",
+  "street": "Sir Samuel Griffith Drive",
+  "suburb": "Toowong",
+  "kind": "point",
+  "kerb": {
+    "length_m": 40,
+    "side": "pin",
+    "start": [
+      152.969981,
+      -27.469278
+    ],
+    "end": [
+      152.970385,
+      -27.469278
+    ]
+  },
+  "osm_tags": {},
+  "slope": {
+    "step_m": 5,
+    "elevation_m": [
+      66.51,
+      65.54,
+      64.24,
+      63.19,
+      63.04,
+      61.28,
+      63.2,
+      63.5,
+      63.74,
+      null,
+      64.49,
+      63.94,
+      63.51,
+      63.29,
+      63.04,
+      61.45,
+      61.05,
+      62.12,
+      63.07
+    ],
+    "min_elevation_m": 61.0,
+    "max_elevation_m": 66.5,
+    "mean_grade_pct": 16.4,
+    "max_grade_pct": 38.4,
+    "flattest_20m_grade_pct": 0.1
+  },
+  "signs": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "length_m": 141,
+      "images": {
+        "esri": "chunk1-esri.jpg",
+        "qld": "chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        160,
+        161
+      ],
+      "image_px": [
+        1067,
+        1074
+      ]
+    }
+  ],
+  "buildings": []
+}

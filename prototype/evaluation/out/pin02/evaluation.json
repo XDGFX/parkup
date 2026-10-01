@@ -1,0 +1,43 @@
+{
+  "candidate": "pin02",
+  "verdict": "poor",
+  "best_section": null,
+  "kind": "off-road site",
+  "summary": "Pin sits on a steep, trackless forested hillside behind the Channel Ten/TX Australia transmission site.",
+  "reasons": [
+    "No track or clearing for a van",
+    "Hillside too steep, 20%+ average grade",
+    "Only flat ground is the TV station's own car park"
+  ],
+  "drivers": {
+    "seclusion": "The bush itself is secluded, but it isn't reachable; the only nearby flat ground is the staffed broadcast facility's car park, overlooked by the building.",
+    "access_and_room": "No formed track, driveway or gap in the trees leads from the pin to any road; the slope and dense scrub rule out a 2WD van reaching it.",
+    "traffic": "Cannot judge traffic on the access road; the car park below serves an operating TV/transmission site, so daytime staff and visitor traffic is likely.",
+    "convention": "No sign of anyone parking or camping on the hillside itself; no tracks or tyre marks visible in either image."
+  },
+  "flags": [
+    "Very steep: hillside averages about 21% grade, peaks near 69%, far beyond what a van could sit on",
+    "Working broadcast facility (Channel Ten, TX Australia) immediately below means activity and likely cameras/security"
+  ],
+  "sun_shade": "Mostly shaded by eucalypt canopy; open grassy patches near the building edge get sun from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the TV station's car park has after-hours gates or security patrols",
+    "Street lighting and night-time activity around the facility",
+    "Crossfall or surface of any informal track higher up the slope not visible in these images"
+  ],
+  "confidence": "high",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:37:00+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 34,
+    "turns": 6
+  }
+}

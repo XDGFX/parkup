@@ -1,0 +1,47 @@
+{
+  "candidate": "pin13",
+  "verdict": "good",
+  "kind": "off-road site",
+  "summary": "Secluded forestry clearing off a sandy track, already used for informal parking.",
+  "reasons": [
+    "Clearing hidden by plantation on all sides",
+    "Firm sandy track in, room to turn",
+    "No houses or roads in view"
+  ],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "The open sandy clearing south-west of the pin, near where a car and trailer are already parked",
+    "slope_pct": 0.7
+  },
+  "drivers": {
+    "seclusion": "Surrounded by dense plantation rows on both sides with no buildings, roads or paths visible in the imagery; about as hidden as it gets.",
+    "access_and_room": "A firm sand/dirt track leads in from the north and opens into a wide clearing with plenty of room to turn a van around.",
+    "traffic": "Looks like a forestry access track off Johnston Road; nothing suggests through traffic, and it's well away from any road.",
+    "convention": "Not applicable off-road, but a car and what looks like a small trailer or shelter are already parked in the clearing, suggesting others use the spot."
+  },
+  "flags": [
+    "Entry track has a mean grade of about 3.6% with a max of 8.2% further up; the clearing itself is close to flat (around 0.7%)"
+  ],
+  "sun_shade": "Mostly open to the sky, with tall plantation trees enclosing the clearing on the east and west sides.",
+  "rubbish": "None clearly seen; a dark object near the parked car could be a small trailer or shelter, not identifiable from overhead.",
+  "cannot_judge": [
+    "Whether a gate or access restriction exists at the entrance to the plantation track (not visible in this crop)",
+    "Ground surface firmness after rain",
+    "Whether the parked vehicles indicate active forestry/camping use or are abandoned"
+  ],
+  "confidence": "medium",
+  "imagery": {
+    "esri": [
+      "2025-10-01"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:32:26+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 32,
+    "turns": 6
+  }
+}

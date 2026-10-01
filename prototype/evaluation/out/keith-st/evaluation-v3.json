@@ -1,0 +1,45 @@
+{
+  "candidate": "keith-st",
+  "best_section": {
+    "from_m": 225,
+    "to_m": 253,
+    "where": "second chunk, alongside the bowls/croquet greens, about 85 m before the Sir Fred Schonell Drive junction",
+    "slope_pct": 1.8
+  },
+  "drivers": {
+    "road": "Narrow residential lane running past the UQ sports grounds, not a through route; only picks up traffic noise near the Sir Fred Schonell Drive end.",
+    "room_and_convention": "Cars are parked nose-to-tail along this whole kerb in both image sets, well clear of any crossing or driveway at the chosen spot.",
+    "houses": "No house fronts near the kerb here \u2014 oval and bowls greens on one side, a school/leisure building on the other; nearest houses are set well back across the sports field."
+  },
+  "flags": [
+    "OSM tags say parking:both=no but the signs clearly say P (No Limit) along most of this stretch \u2014 trust the signs.",
+    "South end (last ~20 m) sits right at the Sir Fred Schonell Drive junction with crossings and traffic-area signage \u2014 avoid parking that close to the end."
+  ],
+  "sun_shade": "Mostly shaded \u2014 dense tree canopy overhangs the kerb from the east (oval/building) side for most of this section.",
+  "cannot_judge": [
+    "Street lighting level",
+    "Crossfall/tilt across the lane",
+    "Kerb height",
+    "Exact sign placement at the 225-253 m mark vs the surveyed sign list"
+  ],
+  "confidence": "medium",
+  "verdict": "good",
+  "summary": "Quiet lane by the UQ ovals with cars already parked along the kerb and no houses close by.",
+  "reasons": [
+    "Parked cars confirm kerbside parking is normal",
+    "Oval and school screen the nearest houses",
+    "Flat here, steep hill is elsewhere on the kerb"
+  ],
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:00:26+00:00",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 66,
+    "turns": 7
+  }
+}

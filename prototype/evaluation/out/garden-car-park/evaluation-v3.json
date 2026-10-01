@@ -1,0 +1,46 @@
+{
+  "candidate": "garden-car-park",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 45,
+    "where": "the top edge of the car park, between the community garden beds and the children's play area, opposite the entrance path",
+    "slope_pct": 1.1
+  },
+  "drivers": {
+    "road": "No through traffic \u2014 this is a dead-end car park off a park access path, not a street.",
+    "room_and_convention": "Marked bays with cars already parked here in the recent image, so a van fits the normal use of the space.",
+    "houses": "Garden, park and playground on three sides; one shed-like building sits close to the south corner but is screened only by a thin tree line."
+  },
+  "flags": [
+    "Unclear if the car park gates or locks overnight",
+    "Building near the south corner may be a residence rather than a garden shed"
+  ],
+  "sun_shade": "Tall trees line the east edge (toward the sports field/solar array), likely shading the morning sun; the open west side toward the park gets afternoon sun freely.",
+  "cannot_judge": [
+    "Whether the car park has a gate or locked hours overnight",
+    "Whether the building near the south corner is residential",
+    "Street lighting",
+    "Crossfall across the parking bays",
+    "Kerb/edge height"
+  ],
+  "confidence": "medium",
+  "reasons": [
+    "Dead-end community garden car park, no through traffic",
+    "Marked bays, cars already parked here",
+    "Non-residential surroundings: garden, park, sports field"
+  ],
+  "summary": "Quiet community garden car park with marked bays and no close houses on the best section.",
+  "verdict": "good",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:04:53+00:00",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 59,
+    "turns": 6
+  }
+}

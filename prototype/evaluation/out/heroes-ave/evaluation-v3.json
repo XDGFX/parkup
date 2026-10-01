@@ -1,0 +1,46 @@
+{
+  "candidate": "heroes-ave",
+  "verdict": "poor",
+  "summary": "Flat, tree-shaded stretch beside the oval, but no cars park here and there's no clear kerbside bay.",
+  "reasons": [
+    "No parked cars or parking bay anywhere on this kerb",
+    "Narrow road edge against grass verge, not open bitumen",
+    "Leads into a busy multi-lane arterial junction"
+  ],
+  "best_section": {
+    "from_m": 55,
+    "to_m": 105,
+    "where": "beside the sports oval, before the kerb climbs toward the Moggill Rd junction",
+    "slope_pct": 0
+  },
+  "drivers": {
+    "road": "Tertiary road, lit, 60 km/h, 2 lanes; quieter here beside the park but it funnels straight into a busy multi-lane junction with turn arrows and crossing markings a short way along.",
+    "room_and_convention": "No parked cars anywhere along the kerb in either image set, and no marked parking bay on this side - the road edge sits straight against a grass verge with no footpath, giving no obvious room to pull a van off the traffic lane.",
+    "houses": "Screened well here: the oval and tree canopy sit between the kerb and the houses, which are set back on the far side of the road beyond the park."
+  },
+  "flags": [
+    "No parking convention observed - zero parked cars along the whole 163 m kerb",
+    "Busy multi-lane junction with turn arrows and signal markings close to the eastern end",
+    "Steep grades elsewhere on this kerb (up to 15.6%), though the best section itself is flat"
+  ],
+  "sun_shade": "Tree canopy from the park (south) side overhangs much of this section, giving shade for most of the day; no building shade.",
+  "cannot_judge": [
+    "Street lighting brightness at night",
+    "Crossfall/tilt across the lane",
+    "Kerb height",
+    "Whether the grass verge is firm enough to pull a van onto"
+  ],
+  "confidence": "medium",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:00:26+00:00",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 63,
+    "turns": 7
+  }
+}

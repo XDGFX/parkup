@@ -1,0 +1,45 @@
+{
+  "candidate": "pin08",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "the sealed car park serving Oxley United Football Club and the tennis courts, just past the gravel loop at the pin",
+    "slope_pct": 1.4
+  },
+  "kind": "parking area",
+  "summary": "Sports-club car park ringed by oval and trees, with cars already parked there.",
+  "reasons": [
+    "Other vehicles and a trailer already parked there",
+    "Backs onto open oval and tree line, no houses close",
+    "Flat, sealed, plenty of room to turn"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by sports oval, tennis courts and trees; clubhouse is 82 m away and non-residential, so nobody overlooks it closely.",
+    "access_and_room": "Sealed loop road leads straight into the car park, no gate visible in either image; plenty of flat space to pull off and turn.",
+    "traffic": "Dead-end sports-field access road, not a through route; unlikely to see night traffic.",
+    "convention": "Cars, a trailer and what looks like a small caravan are already parked here in the QLD image, so a van fits the pattern."
+  },
+  "flags": [],
+  "sun_shade": "Open to the oval on the north and east; a treeline along the south and west edges of the car park gives afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the access road or car park gate is locked outside club hours",
+    "Ground surface firmness (gravel vs compacted dirt) for a 2WD van",
+    "Street or security lighting at night"
+  ],
+  "confidence": "medium",
+  "verdict": "good",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:38:09+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 23,
+    "turns": 5
+  }
+}

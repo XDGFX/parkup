@@ -1,0 +1,74 @@
+{
+  "candidate": "keith-st",
+  "verdict": "maybe",
+  "summary": "Shaded kerb by sports fields near UQ, but a busy feeder road already packed with parked cars.",
+  "reasons": [
+    "Faces sports fields/greens, not houses",
+    "Kerb already lined with parked cars by day",
+    "Feeds a busy arterial, likely traffic noise"
+  ],
+  "criteria": {
+    "room": "Esri (2025) and QLD (2022) both show this kerb lined almost continuously with parked cars for most of its 276 m, consistent with heavy daytime demand near UQ sportsgrounds and a school. No clear long gap visible in either image; whether space frees up overnight can't be judged from daytime imagery.",
+    "frontage": "Faces open recreation land - tennis courts (chunk 1) and bowling greens (chunk 2) - not houses. Across the 3-lane road are houses/units and, further south, a school or childcare complex with shade sails and a large carpark.",
+    "overlooked": "No windows look directly onto the kerb itself; it's screened by trees and backs onto sportsground. Houses sit on the far side of the road, set back behind footpaths, so overlook is low.",
+    "slope": "Mean grade 2.6%, uneven along the length: near-flat (~0.1% over 20 m) at the north end by the Sir Fred Schonell Drive intersection, rising to a steep hump (max 11.2%) around two-thirds down, easing again near the southern bend. The flat northern ~100 m (chunk 1) is the best place to park.",
+    "disturbance": "North end sits right at Sir Fred Schonell Drive, a signed traffic-control area with weekday peak clearways - busier at peak times, likely quiet at night. Keith St carries 3 lanes at 50 km/h with repeated 'No Stopping Any Time' signage, suggesting more through-traffic than a typical quiet residential street. A nearby school may add drop-off/pick-up noise on weekday mornings/afternoons, not overnight.",
+    "shade": "Continuous mature tree canopy overhangs most of the kerb in both images - good shade, but dense overhanging branches could drop sap or debris on a van.",
+    "signs_vs_imagery": "OSM tags this stretch 'parking:both: no', but imagery clearly shows cars parked continuously along the kerb in both 2022 and 2025 captures, so parking is evidently used/tolerated here, consistent with the 'P (No Limit)' signs rather than the OSM tag."
+  },
+  "usable_van_lengths": 2,
+  "slope_pct": 0.1,
+  "cannot_judge": [
+    "Whether the daytime parking crowding clears overnight",
+    "Actual kerb height and crossfall",
+    "Street lighting after dark",
+    "Real traffic volume/noise at night vs daytime appearance"
+  ],
+  "confidence": "medium",
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T00:46:39+00:00",
+  "model": "claude-sonnet-5",
+  "run": {
+    "cost_usd": 0.22598920000000003,
+    "seconds": 76,
+    "turns": 9,
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 29814,
+      "cache_read_input_tokens": 239411,
+      "output_tokens": 5705,
+      "output_tokens_details": {
+        "thinking_tokens": 2760
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 29814,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 1104,
+          "cache_read_input_tokens": 57452,
+          "cache_creation_input_tokens": 3877,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 3877
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    }
+  }
+}

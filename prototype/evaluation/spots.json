@@ -1,0 +1,20 @@
+[
+  {"id": "heroes-ave", "street": "Heroes Ave", "suburb": "Taringa", "ways": [6878515, 48036177, 1128179216], "side": -1, "note": "Beside Taringa Community Garden", "known": "poor: main road with no clear parking. Would need a much wider kerb and other cars parking there."},
+  {"id": "keith-st", "street": "Keith St", "suburb": "St Lucia", "ways": [23268800, 1125290316], "side": 1, "note": "By Guyatt Park", "known": "good: especially the lower section, flanked by fields and a car park."},
+  {"id": "adsett-st", "street": "Adsett St", "suburb": "Taringa", "ways": [47413427], "side": 1, "note": "", "known": "poor: too close to houses to be useful."},
+  {"id": "marmion-pde", "street": "Marmion Pde", "suburb": "Taringa", "ways": [5883997], "side": -1, "note": "Faces the rail line", "known": "good at chunk 3 only. Steep there, which is worth flagging but isn't a dealbreaker."},
+  {"id": "garden-car-park", "street": "Taringa Community Garden car park", "suburb": "Taringa", "ways": [47972652], "side": 0, "note": "Off Heroes Ave, west of the garden", "known": "good: unsigned, checked in person. The gravel area north of Heroes Ave was the gold standard until a sign went up a couple of weeks ago."},
+  {"id": "pin01", "street": "unnamed", "suburb": "Brisbane", "point": [152.974776, -27.474816], "note": "Saved park-up", "known": "good: one of the user's saved park-ups (not all off-road)."},
+  {"id": "pin02", "street": "Currawang Street Trail", "suburb": "The Gap", "point": [152.949241, -27.462729], "note": "Saved park-up", "known": "good: one of the user's saved park-ups (not all off-road)."},
+  {"id": "pin03", "street": "Sir Samuel Griffith Drive", "suburb": "Toowong", "point": [152.970183, -27.469278], "note": "Saved park-up", "known": "good: one of the user's saved park-ups (not all off-road)."},
+  {"id": "pin04", "street": "Avalon Road", "suburb": "Sheldon", "point": [153.188197, -27.609002], "note": "Saved park-up", "known": "good: one of the user's saved park-ups (not all off-road)."},
+  {"id": "pin05", "street": "O'Quinn Street", "suburb": "Nudgee Beach", "point": [153.097971, -27.345189], "note": "Saved park-up", "known": "good: one of the user's saved park-ups (not all off-road)."},
+  {"id": "pin06", "street": "Champions Way", "suburb": "Brisbane", "point": [152.671475, -27.6937], "note": "Saved park-up", "known": "good: one of the user's saved park-ups (not all off-road)."},
+  {"id": "pin07", "street": "Boundary Road", "suburb": "Oxley", "point": [152.986993, -27.56719], "note": "Saved park-up", "known": "good: one of the user's saved park-ups (not all off-road)."},
+  {"id": "pin08", "street": "Hughes Lane", "suburb": "Corinda", "point": [152.9821, -27.547086], "note": "Saved park-up", "known": "good: one of the user's saved park-ups (not all off-road)."},
+  {"id": "pin09", "street": "Mabel Street", "suburb": "Oxley", "point": [152.975702, -27.557089], "note": "Saved park-up", "known": "good: one of the user's saved park-ups (not all off-road)."},
+  {"id": "pin10", "street": "Alderson Street", "suburb": "Alderley", "point": [153.007892, -27.429901], "note": "Saved park-up", "known": "good: one of the user's saved park-ups (not all off-road)."},
+  {"id": "pin11", "street": "Mount Nebo Road", "suburb": "Brisbane", "point": [152.878057, -27.428949], "note": "Saved park-up", "known": "good: one of the user's saved park-ups (not all off-road)."},
+  {"id": "pin12", "street": "Elimbah", "suburb": "Elimbah", "point": [152.988048, -26.999087], "note": "Saved park-up", "known": "good: one of the user's saved park-ups (not all off-road)."},
+  {"id": "pin13", "street": "Johnston Road", "suburb": "", "point": [152.996367, -26.924774], "note": "Saved park-up", "known": "good: one of the user's saved park-ups (not all off-road)."}
+]

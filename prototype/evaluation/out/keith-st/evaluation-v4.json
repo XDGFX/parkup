@@ -1,0 +1,50 @@
+{
+  "candidate": "keith-st",
+  "best_section": {
+    "from_m": 160,
+    "to_m": 220,
+    "where": "kerb beside the bowls green/tennis courts, roughly two-thirds of the way down Keith St from the Sir Fred Schonell Dr corner, opposite the sports centre",
+    "slope_pct": 2.5
+  },
+  "drivers": {
+    "seclusion": "This stretch backs onto bowls greens and tennis courts behind a hedge, not house frontages; across the road is a sports/community centre, not homes. Houses further up near the Sir Fred Schonell Dr corner sit close to the kerb (within ~20m) and are poorer.",
+    "access_and_room": "Sealed kerbside lane, screened by a continuous hedge row, no driveways or crossings crossing it in this stretch; plenty of straight room for a long van.",
+    "traffic": "OSM tags this residential but it carries 3 lanes and a 50 km/h limit, more like a loop service road for the sports precinct than a quiet street; could see through-traffic at night.",
+    "convention": "Multiple cars already parked nose-to-tail along this exact stretch in both the Esri and QLD imagery, so a van won't stand out."
+  },
+  "flags": [
+    "Wider/faster road than typical residential (3 lanes, 50 km/h signed) despite existing on-street parking",
+    "Grade of roughly 2-3% through this section, within the gentle range",
+    "Houses near the northern end of the kerb (first ~40m) sit close behind trees \u2014 avoid that part"
+  ],
+  "sun_shade": "Overhung by the roadside hedge/tree line on the west (parking) side most of the day; some afternoon sun may reach through gaps from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting level after dark",
+    "Kerb height/crossfall for levelling the van",
+    "Whether on-site signage adds restrictions beyond the sign screen",
+    "Actual night-time traffic volume on this loop road"
+  ],
+  "confidence": "medium",
+  "kind": "kerb stretch",
+  "reasons": [
+    "Backs onto sports fields, not houses",
+    "Cars already parked along this stretch",
+    "Road is wider/faster than a typical quiet street"
+  ],
+  "summary": "Secluded kerb beside bowls/tennis courts with cars already parked, let down by a surprisingly wide, 50 km/h road.",
+  "verdict": "maybe",
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:29:06+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 64,
+    "turns": 7
+  }
+}

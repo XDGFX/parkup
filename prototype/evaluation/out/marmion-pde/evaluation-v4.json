@@ -1,0 +1,47 @@
+{
+  "candidate": "marmion-pde",
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a grassed park on Marmion Pde, well back from any house front.",
+  "reasons": [
+    "Backs onto open park, not houses",
+    "Cars already park kerbside nearby",
+    "Quiet residential street"
+  ],
+  "best_section": {
+    "from_m": 300,
+    "to_m": 375,
+    "where": "along the grass oval/park frontage at the start of chunk 3, before houses resume further along",
+    "slope_pct": 3.6
+  },
+  "drivers": {
+    "seclusion": "This stretch of kerb backs directly onto an open grassed park with scattered trees rather than any house, so there's no window or frontage overlooking it; houses sit well back on the far side of the road.",
+    "access_and_room": "Sealed residential kerb, wide enough for a kerbside lane, no driveways, crossings or barriers along the park frontage; plenty of room to pull in and out.",
+    "traffic": "Marmion Pde is a quiet residential street here, not a through route; nothing suggests night traffic.",
+    "convention": "Cars are seen parked along the opposite kerb a little further down the same block, suggesting kerbside parking is normal on this street even though the park frontage itself has none."
+  },
+  "flags": [
+    "Mild downhill grade of about 3.6% across the stretch"
+  ],
+  "sun_shade": "Overhanging trees from the park side shade the kerb for much of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting at night",
+    "Exact kerb height and crossfall",
+    "Whether any sign restricts this specific park frontage"
+  ],
+  "confidence": "medium",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:29:41+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 64,
+    "turns": 11
+  }
+}

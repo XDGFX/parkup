@@ -1,0 +1,178 @@
+{
+  "id": "adsett-st",
+  "street": "Adsett St",
+  "suburb": "Taringa",
+  "kerb": {
+    "length_m": 29,
+    "side": "left",
+    "start": [
+      152.983151,
+      -27.492753
+    ],
+    "end": [
+      152.983194,
+      -27.493
+    ]
+  },
+  "osm_tags": {
+    "highway": "residential",
+    "lit": "yes",
+    "maxspeed": "50",
+    "parking:both": "no",
+    "surface": "asphalt"
+  },
+  "slope": {
+    "step_m": 5,
+    "elevation_m": [
+      15.69,
+      15.46,
+      15.11,
+      15.07,
+      14.73,
+      14.9,
+      14.7
+    ],
+    "min_elevation_m": 14.7,
+    "max_elevation_m": 15.7,
+    "mean_grade_pct": 4.4,
+    "max_grade_pct": 7.0,
+    "flattest_20m_grade_pct": 2.1
+  },
+  "signs": [
+    {
+      "street": "ADSETT STREET",
+      "restriction": "No Parking Specified Times",
+      "days_times": "MON-FRI:7am-6pm",
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 10.0
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "length_m": 29,
+      "images": {
+        "esri": "chunk1-esri.jpg",
+        "qld": "chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        66,
+        88
+      ],
+      "image_px": [
+        440,
+        586
+      ]
+    }
+  ],
+  "buildings": [
+    {
+      "building": "detached",
+      "name": null,
+      "metres": 4,
+      "at_m": 27
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "metres": 5,
+      "at_m": 11
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "metres": 14,
+      "at_m": 29
+    },
+    {
+      "building": "apartments",
+      "name": "Adsett Residences",
+      "metres": 15,
+      "at_m": 23
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "metres": 27,
+      "at_m": 29
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "metres": 28,
+      "at_m": 12
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "metres": 34,
+      "at_m": 29
+    },
+    {
+      "building": "garage",
+      "name": null,
+      "metres": 37,
+      "at_m": 29
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "metres": 42,
+      "at_m": 18
+    },
+    {
+      "building": "roof",
+      "name": null,
+      "metres": 44,
+      "at_m": 0
+    },
+    {
+      "building": "apartments",
+      "name": null,
+      "metres": 47,
+      "at_m": 29
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "metres": 47,
+      "at_m": 29
+    },
+    {
+      "building": "retail",
+      "name": "Hungry Jack's",
+      "metres": 51,
+      "at_m": 0
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "metres": 51,
+      "at_m": 18
+    },
+    {
+      "building": "apartments",
+      "name": null,
+      "metres": 54,
+      "at_m": 29
+    },
+    {
+      "building": "apartments",
+      "name": "Taringa Terraces",
+      "metres": 54,
+      "at_m": 0
+    }
+  ]
+}

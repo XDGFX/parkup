@@ -1,0 +1,42 @@
+{
+  "candidate": "pin11",
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Dense bush either side would hide a van, but that's moot with nowhere to pull off.",
+    "access_and_room": "No shoulder, verge or clearing anywhere near the pin \u2014 just a narrow sealed carriageway through forest.",
+    "traffic": "Mount Nebo Road is a through mountain route; cars pass but none park here.",
+    "convention": "No parked cars, no pull-off, no sign of anyone ever stopping on this stretch."
+  },
+  "flags": [
+    "Very steep: mean grade about 20%, up to 53% nearby \u2014 likely a creek gully crossing (one elevation sample is missing)",
+    "No shoulder or verge to pull a van off the traffic lane"
+  ],
+  "kind": "off-road site",
+  "rubbish": "none seen",
+  "reasons": [
+    "No pull-off within 100m of the pin",
+    "Road itself, dense bush both sides",
+    "Terrain extremely steep nearby"
+  ],
+  "summary": "Pin sits on the sealed carriageway of a steep, narrow forest road with no pull-off anywhere nearby.",
+  "sun_shade": "Full canopy cover from surrounding bushland trees on both sides.",
+  "verdict": "poor",
+  "cannot_judge": [
+    "Whether a wider pull-off exists further along Mount Nebo Road beyond the 100m search radius",
+    "Kerb height and road surface condition at any potential stopping point"
+  ],
+  "confidence": "high",
+  "imagery": {
+    "esri": [
+      "2025-08-12"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:38:36+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 22,
+    "turns": 5
+  }
+}

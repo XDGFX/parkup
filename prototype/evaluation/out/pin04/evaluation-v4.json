@@ -1,0 +1,50 @@
+{
+  "candidate": "pin04",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "On the dirt track roughly 15-20 m east of the pin, where it widens slightly before narrowing again",
+    "slope_pct": 6
+  },
+  "drivers": {
+    "seclusion": "Deep in bush/farmland among dams; no building visible anywhere in the 160 m frame.",
+    "access_and_room": "Track is only ~4 m wide and hemmed by close bushes; no confirmed turning space.",
+    "traffic": "A rough rural track \u2014 essentially no passing traffic expected at night.",
+    "convention": "Not applicable: this is an off-road site, where being alone is the point."
+  },
+  "flags": [
+    "Steep: mean grade ~7.6%, up to 11.4% along the track",
+    "Narrow track with close/overhanging vegetation \u2014 clearance for a 7.5 m van is uncertain",
+    "Entrance and any gate lie outside the imaged area and can't be confirmed open"
+  ],
+  "kind": "off-road site",
+  "reasons": [
+    "Isolated bush track, no buildings nearby",
+    "Track narrow, turning room unclear",
+    "Steep but within usable grade limit"
+  ],
+  "rubbish": "none seen",
+  "summary": "Very secluded bush track between farm dams, but it's narrow and turning room is unclear.",
+  "sun_shade": "Dense tree canopy covers the track from directly overhead; no single dominant side.",
+  "verdict": "maybe",
+  "cannot_judge": [
+    "Whether a gate or locked entrance exists beyond the edge of this frame",
+    "Ground firmness underfoot (sandy/dirt here, but could turn boggy near the dams)",
+    "Whether there is enough room to turn a 7.5 m van around",
+    "Who owns this track and whether stopping here is permitted"
+  ],
+  "confidence": "medium",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:30:47+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 56,
+    "turns": 5
+  }
+}

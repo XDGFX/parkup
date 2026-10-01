@@ -1,0 +1,49 @@
+{
+  "candidate": "pin06",
+  "verdict": "maybe",
+  "kind": "parking area",
+  "summary": "Roadside rest area pull-off by a roundabout, used by other vehicles but exposed to traffic.",
+  "reasons": [
+    "Caravans already park here",
+    "Tree canopy screens road view",
+    "Right by a busy roundabout"
+  ],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "the grass/gravel pull-off between the loop driveway and the main road, roughly 15-20m north-east of the pin, where other caravans and trailers are already parked",
+    "slope_pct": 1.7
+  },
+  "drivers": {
+    "seclusion": "Open rest area under tree canopy; picnic shelters (not houses) sit in the centre loop, so no dwelling nearby, but the site is a visible, used public stop rather than a hidden one.",
+    "access_and_room": "Sealed loop driveway off the roundabout with a flat pull-off area; plenty of room, and other long vehicles (caravans/trailers) are already parked there.",
+    "traffic": "Sits right beside a roundabout on what looks like a dual-carriageway arterial road, so there will be passing traffic and some road noise, though trees buffer the view.",
+    "convention": "Other vehicles, including what look like caravans or boat trailers, are already parked on the grass near the road, suggesting this is an accepted stopping spot."
+  },
+  "flags": [
+    "Beside a roundabout on a busier road - some traffic noise likely",
+    "Public rest area with shelters, so possibly visited by others"
+  ],
+  "sun_shade": "Dense eucalypt canopy covers most of the loop and shelters; the pull-off nearer the road is more open to sun.",
+  "rubbish": "None seen.",
+  "cannot_judge": [
+    "Whether there are no-camping or rest-area time-limit signs on site",
+    "Street lighting at night",
+    "Exact kerb/verge height for the pull-off",
+    "Crossfall on the gravel pull-off"
+  ],
+  "confidence": "medium",
+  "imagery": {
+    "esri": [
+      "2025-10-21"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:37:48+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 40,
+    "turns": 5
+  }
+}

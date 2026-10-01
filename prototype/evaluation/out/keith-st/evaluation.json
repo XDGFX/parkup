@@ -1,0 +1,49 @@
+{
+  "candidate": "keith-st",
+  "best_section": {
+    "from_m": 160,
+    "to_m": 220,
+    "where": "kerb beside the bowls greens and tennis courts, about two-thirds of the way along Keith St from the Sir Fred Schonell Dr corner, opposite the sports centre car park",
+    "slope_pct": 3
+  },
+  "drivers": {
+    "seclusion": "Backs onto bowls greens and tennis courts behind a hedge, not house frontages; the nearest OSM houses sit 80m+ further up the street, well clear of this stretch.",
+    "access_and_room": "Sealed kerbside lane screened by a continuous tree/hedge row, no driveways crossing it here, and plenty of straight room for a long van.",
+    "traffic": "Three lanes and a signed 50 km/h limit make it feel like a service loop for the sports precinct rather than a quiet residential street, but other cars already park here.",
+    "convention": "2025 Esri imagery shows cars parked nose-to-tail along this exact stretch, so a van parked here matches what's already happening (2022 QLD imagery shows the lane empty, so uptake may vary)."
+  },
+  "flags": [
+    "Local dip to roughly 10% grade near the 200 m mark; the rest of the section is a gentle 1-5%",
+    "Acts as a loop/service road for the sports precinct, so some traffic is possible after dark"
+  ],
+  "sun_shade": "Overhung by the roadside tree/hedge canopy on the sports-field side for most of the day; little direct sun reaches the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting level after dark",
+    "Kerb height and crossfall for levelling the van",
+    "Whether on-site signage adds restrictions beyond the sign screen",
+    "Actual night-time traffic volume on this loop road"
+  ],
+  "confidence": "medium",
+  "kind": "kerb stretch",
+  "reasons": [
+    "Backs onto sports fields, not houses",
+    "Cars already park along this stretch",
+    "Long straight kerb with room to pull in"
+  ],
+  "summary": "Secluded, tree-shaded kerb beside bowls and tennis courts where cars already park overnight.",
+  "verdict": "good",
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:36:02+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 53,
+    "turns": 8
+  }
+}

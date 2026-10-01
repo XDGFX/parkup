@@ -1,0 +1,43 @@
+{
+  "candidate": "heroes-ave",
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "A 60km/h through road beside a park, but no cars park anywhere along this kerb.",
+  "reasons": [
+    "No parked cars along the whole kerb",
+    "Through route, not a parking street",
+    "Park backs it, but that's moot"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "The south side backs onto open parkland and tree canopy for the whole 163m, with the nearest houses 15\u201345m away and only right at the far ends.",
+    "access_and_room": "Sealed two-lane road with a painted edge line and a timber bollard fence between verge and park; no obvious lay-by or widened shoulder to pull into.",
+    "traffic": "Tertiary road, 60km/h, lit, two lanes with a centreline \u2014 a through route rather than a quiet residential street.",
+    "convention": "No vehicles are parked along this stretch in either image set, and OSM tags it parking:both=no \u2014 nothing suggests stopping here is normal."
+  },
+  "flags": [
+    "Steep in parts: grade reaches about 15.6% near the western end, though a flatter ~20m stretch exists mid-route",
+    "Busy 60km/h road could mean passing traffic noise overnight"
+  ],
+  "sun_shade": "Mostly shaded \u2014 mature park trees overhang the kerb from the south side for most of the length.",
+  "rubbish": "None seen.",
+  "cannot_judge": [
+    "Whether there's an actual no-stopping sign or line on site",
+    "Kerb height and crossfall",
+    "Street lighting brightness at this specific spot"
+  ],
+  "confidence": "medium",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:36:02+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 56,
+    "turns": 8
+  }
+}

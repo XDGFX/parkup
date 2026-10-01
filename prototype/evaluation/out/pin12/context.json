@@ -1,0 +1,80 @@
+{
+  "id": "pin12",
+  "street": "Elimbah",
+  "suburb": "Elimbah",
+  "kind": "point",
+  "kerb": {
+    "length_m": 40,
+    "side": "pin",
+    "start": [
+      152.987846,
+      -26.999087
+    ],
+    "end": [
+      152.98825,
+      -26.999087
+    ]
+  },
+  "osm_tags": {},
+  "slope": {
+    "step_m": 5,
+    "elevation_m": [
+      26.98,
+      26.06,
+      25.7,
+      25.4,
+      25.03,
+      25.07,
+      25.02,
+      24.97,
+      25.18,
+      25.18,
+      null,
+      22.6,
+      23.03,
+      23.54,
+      24.23,
+      25.03,
+      25.63,
+      26.1,
+      28.15,
+      28.65
+    ],
+    "min_elevation_m": 22.6,
+    "max_elevation_m": 28.7,
+    "mean_grade_pct": 9.8,
+    "max_grade_pct": 41.0,
+    "flattest_20m_grade_pct": 0.6
+  },
+  "signs": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "length_m": 141,
+      "images": {
+        "esri": "chunk1-esri.jpg",
+        "qld": "chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2024-06-10",
+        "resolution_m": 0.1,
+        "sensor": "City of Moreton Bay Moreton Bay Imagery"
+      },
+      "qld_capture": {
+        "dataset": "Moreton_Bay_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        160,
+        161
+      ],
+      "image_px": [
+        1067,
+        1074
+      ]
+    }
+  ],
+  "buildings": []
+}

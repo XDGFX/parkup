@@ -1,0 +1,50 @@
+{
+  "candidate": "heroes-ave",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 95,
+    "where": "the flat stretch of kerb opposite the sports oval, past the roundabout and pedestrian crossing near the park entrance, before the road climbs toward the far junction",
+    "slope_pct": 0
+  },
+  "kind": "kerb stretch",
+  "summary": "A flat, tree-shaded kerb stretch backing onto a sports oval, with an existing marked parking bay.",
+  "reasons": [
+    "Backs onto an oval, not houses",
+    "Marked parking bay already there",
+    "Flat (0% grade) section"
+  ],
+  "drivers": {
+    "seclusion": "The kerb here fronts a sports oval and park, not a house frontage; nearest houses are across the carriageway or well back from the kerb. The closest houses sit at the western end near the roundabout, about 25-30 m off.",
+    "access_and_room": "Sealed kerbside lane with an existing marked parallel parking bay (visible as a painted car outline) and a parked car further along, so there's clearly room for a van to pull in, stop and pull out. No gate or barrier in the imagery.",
+    "traffic": "Heroes Ave is a tertiary road signed 60 km/h, so it's busier than a quiet street, but the marked parking bay and kerbside lane take a parked vehicle out of the traffic lane, which keeps this at worst a 'maybe' on traffic rather than ruling it out.",
+    "convention": "A formal painted parking bay and at least one car already parked along this stretch are a good sign that a van parked here won't stand out."
+  },
+  "flags": [
+    "Steep at both ends of the kerb run: grade climbs to about 15.6% near the far (eastern) end close to a busy junction, and drops steeply in the first 50 m near the roundabout \u2014 the chosen section itself is flat (~0%)",
+    "Low-lying: minimum elevation along the kerb is about 2.1 m; can't confirm from imagery whether a creek or drainage line is nearby",
+    "Tertiary road at 60 km/h just metres away: some road noise likely"
+  ],
+  "sun_shade": "Heavy tree canopy overhangs the kerb from the park side, giving shade for most of the day over the best section.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Actual kerb height and crossfall",
+    "Night-time street lighting levels (OSM tags it as lit)",
+    "Whether the marked parking bay has any on-site time or resident restriction signage beyond what the sign screen found",
+    "Exact proximity to a creek or drainage line explaining the low elevation"
+  ],
+  "confidence": "medium",
+  "verdict": "maybe",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:29:06+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 62,
+    "turns": 7
+  }
+}

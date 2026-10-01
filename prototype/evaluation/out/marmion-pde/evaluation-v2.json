@@ -1,0 +1,43 @@
+{
+  "candidate": "marmion-pde",
+  "best_section": {
+    "from_m": 340,
+    "to_m": 420,
+    "where": "alongside the park/sportsfield with the white gazebo-roofed clubhouse, toward the Fairview end of Marmion Pde",
+    "slope_pct": 3.8
+  },
+  "drivers": {
+    "road": "Quiet residential street (Marmion Pde), no through-traffic or bus route indicated.",
+    "room_and_convention": "Clear kerb strip with no driveways or crossings here; cars parked along the kerb nearby show overnight parking is normal.",
+    "houses": "Kerb backs onto an open grassed field/park, not houses; nearest houses are across the road, set back behind yards."
+  },
+  "flags": [
+    "Marmion Pde is a long hill overall (mean grade 5.4%, max 16.6%) \u2014 this section is one of the gentler, flatter parts"
+  ],
+  "sun_shade": "Trees line the park edge right along the kerb, giving some canopy cover from the south side; the road itself is open to the sky.",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height/crossfall",
+    "Exact width of the sealed shoulder for a van"
+  ],
+  "confidence": "medium",
+  "verdict": "good",
+  "summary": "Quiet park-side stretch with gentle grade, clear kerb room, and no houses directly alongside.",
+  "reasons": [
+    "Backs onto open park, not houses",
+    "Quiet residential street, gentle ~4% grade",
+    "Parked cars show kerbside parking is normal"
+  ],
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T00:57:35+00:00",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 74,
+    "turns": 10
+  }
+}

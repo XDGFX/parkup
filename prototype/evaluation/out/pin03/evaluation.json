@@ -1,0 +1,50 @@
+{
+  "candidate": "pin03",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "the gravel car park off Sir Samuel Griffith Drive, about 30 m downhill/east of the dropped pin, where the bush opens onto parking bays",
+    "slope_pct": 0.1
+  },
+  "drivers": {
+    "seclusion": "A forest trailhead/lookout car park backing onto dense Mt Coot-tha bushland, but it's a known day-use spot that pulls casual visitors and sits right on a scenic drive.",
+    "access_and_room": "Formed gravel car park with multiple marked bays, reached directly off the road; plenty of room to pull off and park a van clear of traffic.",
+    "traffic": "Sir Samuel Griffith Drive is a scenic one-way loop through the forest reserve; it carries sightseeing and commuter traffic, including at night, past the car park entrance.",
+    "convention": "The 2022 QLD imagery shows well over a dozen cars using the lot, so vehicles parking there is clearly normal, though mostly for daytime bushwalking/lookout visits rather than overnight stays."
+  },
+  "flags": [
+    "Steep terrain near the pin itself (mean grade 16%, up to ~38%), though the car park area is close to flat",
+    "Day-use trailhead/lookout car park \u2014 likely to see casual visitors arriving even in the evening",
+    "Through traffic on a scenic drive past the car park entrance, including after dark",
+    "Can't tell from imagery whether the car park has a locking gate or night closure"
+  ],
+  "reasons": [
+    "Formed car park, not the overgrown pin site",
+    "Backs onto Mt Coot-tha forest reserve",
+    "Popular day-use lot sees passing visitors"
+  ],
+  "kind": "parking area",
+  "rubbish": "None seen in the car park or surrounding bush.",
+  "summary": "A forested lookout car park off a scenic drive \u2014 secluded by night but a known day-use spot with passing traffic.",
+  "sun_shade": "Eucalypt canopy shades the car park from the west (bush side); the road-facing east edge is more open to the sky.",
+  "verdict": "maybe",
+  "cannot_judge": [
+    "Whether the car park has a gate or is closed/locked overnight",
+    "Street lighting at the car park",
+    "Whether rangers or police patrol this lookout at night"
+  ],
+  "confidence": "medium",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:37:02+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 42,
+    "turns": 5
+  }
+}

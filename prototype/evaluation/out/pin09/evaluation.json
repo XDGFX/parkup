@@ -1,0 +1,49 @@
+{
+  "candidate": "pin09",
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Kerbside spot on Mabel Street backing onto the sports oval, where other cars already park.",
+  "reasons": [
+    "Oval and trees buffer one side",
+    "Cars parked kerbside show it's normal",
+    "Nearest buildings are a clubhouse, not houses"
+  ],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "along Mabel Street kerb opposite the park access loop, east of the clubhouse driveway",
+    "slope_pct": 1.1
+  },
+  "drivers": {
+    "seclusion": "Backs onto a large grassed oval and tree line; buildings across the road look non-residential (clubhouse/shed roofs), with houses set back roughly 60-90m near the park's northern corner.",
+    "access_and_room": "Sealed kerb with marked lane and dashed centreline; a white car and a van are already parked along it in the imagery, confirming room to pull off the lane.",
+    "traffic": "Through road with painted lane markings; moderate width suggests it carries some through traffic, but not a major arterial.",
+    "convention": "Other vehicles are visibly parked kerbside in the same spot in the Esri image, so a van won't stand out."
+  },
+  "flags": [
+    "Road may carry evening through-traffic noise",
+    "The sealed loop driveway into the oval could be a maintenance track rather than public parking \u2014 don't rely on it"
+  ],
+  "sun_shade": "Overhanging park trees to the north shade the kerb through the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Exact kerb height",
+    "Crossfall of the kerb lane",
+    "Whether the buildings opposite are occupied dwellings or a clubhouse"
+  ],
+  "confidence": "medium",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:38:27+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 51,
+    "turns": 6
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "candidate": "pin07",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 50,
+    "where": "in the scrub about 40m east of the pin, away from the highway edge, near the tree clump",
+    "slope_pct": 2
+  },
+  "cannot_judge": [
+    "Firmness of the dirt track and paddock surface after rain",
+    "Whether a gate or barrier has since been put across the access track",
+    "Street lighting or any lighting spill from the highway",
+    "How visible a van would be at night from passing headlights"
+  ],
+  "confidence": "medium",
+  "drivers": {
+    "seclusion": "No houses anywhere in frame, but the field sits right alongside a divided highway and is overlooked from its bridge.",
+    "access_and_room": "A worn dirt track leads in from near the bridge into a large open paddock with plenty of room to turn; no gate seen, but the surface looks rough and disturbed.",
+    "traffic": "This is a fast, divided highway with trucks, not a quiet lane; noise and passing headlights would be constant.",
+    "convention": "Not applicable \u2014 this is open paddock, not a kerb."
+  },
+  "flags": [
+    "Noise: busy highway and bridge run right alongside",
+    "Low-lying ground near a creek (~4m elevation) \u2014 flood-prone after heavy rain",
+    "Dumped rubble/debris near the access track"
+  ],
+  "kind": "off-road site",
+  "reasons": [
+    "No houses, but highway runs right alongside",
+    "Rough track, dumped rubble near entrance",
+    "Open paddock, exposed to passing traffic"
+  ],
+  "rubbish": "Rubble and debris dumped near the access track; none seen at the best section itself.",
+  "summary": "Open paddock beside a busy highway bridge \u2014 no houses, but noisy and exposed.",
+  "sun_shade": "Mostly open to the sky; a few tree clumps to the north and east give partial afternoon shade.",
+  "verdict": "maybe",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:31:04+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 53,
+    "turns": 5
+  }
+}

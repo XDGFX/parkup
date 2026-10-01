@@ -1,0 +1,45 @@
+{
+  "candidate": "marmion-pde",
+  "best_section": {
+    "from_m": 330,
+    "to_m": 420,
+    "where": "Along the sports oval, roughly two-thirds of the way down Marmion Pde before Frederick Street",
+    "slope_pct": 3.3
+  },
+  "drivers": {
+    "road": "Quiet residential street with no sign of through traffic.",
+    "room_and_convention": "Open kerb beside the oval with no driveways in the way, but no cars are visible parked on this side to confirm it's used for parking.",
+    "houses": "Houses opposite, across the road, look to be roughly 20 m from the kerb \u2014 close to the 25 m poor threshold, and the street itself gives no screening."
+  },
+  "flags": [
+    "Noticeable downhill grade: about 3.3% over this stretch",
+    "No parked cars seen along the oval-side kerb to confirm it's a parking spot"
+  ],
+  "sun_shade": "Mature trees inside the oval overhang the kerb from the south, shading the section for much of the day.",
+  "cannot_judge": [
+    "Exact distance from kerb to nearest house front (estimated from imagery, not measured)",
+    "Street lighting",
+    "Crossfall across the lane",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "verdict": "maybe",
+  "summary": "Decent oval-side stretch, but the houses opposite sit within about 20 m.",
+  "reasons": [
+    "Quiet residential road, no through traffic",
+    "Park buffers one side, houses close opposite",
+    "Mild 3% downhill slope along stretch"
+  ],
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:00:26+00:00",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 106,
+    "turns": 9
+  }
+}

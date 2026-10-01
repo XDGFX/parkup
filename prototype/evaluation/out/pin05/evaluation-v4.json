@@ -1,0 +1,45 @@
+{
+  "candidate": "pin05",
+  "best_section": null,
+  "cannot_judge": [
+    "Tide state and whether the mudflats either side ever dry out enough to stand on",
+    "Whether the gravel car park/track to the north is public and open to vehicles overnight",
+    "Ground firmness of the mangrove/mudflat banks"
+  ],
+  "confidence": "high",
+  "drivers": {
+    "seclusion": "The pin sits in open water in the middle of a tidal creek, with dense mangrove on both banks \u2014 nothing here is a parking spot.",
+    "access_and_room": "No access at all: it's a creek channel. A vehicle could not reach, let alone turn in, this location.",
+    "traffic": "Not applicable \u2014 the site itself is water, not a road or track.",
+    "convention": "Not applicable."
+  },
+  "flags": [
+    "Pin location is in a tidal creek channel, not land",
+    "Low-lying/flood-prone: elevation at the pin is about -0.3 m, in the creek itself",
+    "Steep banks nearby: grade up to about 33% between water and surrounding ground",
+    "Nearest plausible parking (a small gravel pull-in with a couple of cars, by the track off O'Quinn Street) is roughly 55\u201360 m away, past the 50 m search radius"
+  ],
+  "kind": "off-road site",
+  "reasons": [
+    "Pin falls in the water of a tidal creek",
+    "Banks either side are mangrove and soft mudflat",
+    "No vehicle access within 50 m of the ring"
+  ],
+  "rubbish": "None seen",
+  "summary": "The pin lands in the middle of a tidal creek \u2014 there is nowhere to park here.",
+  "sun_shade": "Open water flanked by mangrove canopy on both banks; no shelter directly over the pin.",
+  "verdict": "poor",
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:30:49+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 30,
+    "turns": 6
+  }
+}

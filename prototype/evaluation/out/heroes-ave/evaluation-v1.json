@@ -1,0 +1,73 @@
+{
+  "candidate": "heroes-ave",
+  "verdict": "maybe",
+  "summary": "Quiet park-side kerb on a flat mid-section, but it's open roadside on a 60 km/h road with no marked parking lane.",
+  "reasons": [
+    "Flattest, clearest stretch faces sports oval, away from houses",
+    "No marked parking lane on a 60 km/h tertiary road",
+    "Start is cluttered with a crossing, islands and angled bays"
+  ],
+  "criteria": {
+    "room": "The first ~20 m (chunk1, at the junction) is cluttered with a pedestrian crossing, painted traffic islands and angled parking bays serving the oval, so it isn't usable. From roughly 50-110 m along the kerb the road edge runs clear and straight beside open parkland with no driveways, giving around 40-50 m of genuinely clear kerb. There is no painted parking lane or shoulder anywhere, though - a van would sit on the live edge of a 2-lane, 60 km/h road.",
+    "frontage": "Almost entirely sports parkland on the kerb's own side - a playing field and a cricket oval with a visible red pitch. Houses sit across the road, set back and screened by trees, with a denser row appearing near the eastern end close to a busier junction.",
+    "overlooked": "Very few windows face the spot directly: the near side is open grass/oval, and the opposite-side houses are across a two-lane road, partly hidden by trees. Overlook is low along most of the usable stretch.",
+    "slope": "Grade swings sharply along the kerb: a steep ~15% descent over the first ~50 m (4.81 m down to 2.1 m), a flat, near-0% section from about 50-110 m (2.1-2.3 m), then a steep ~15% climb over the final ~50 m up to 7.3 m. The flat middle section - which also has the clearest frontage - is the only comfortable place to park; either end is too steep to sleep on.",
+    "disturbance": "Tertiary road, 60 km/h, lit, two lanes, feeding a visibly busier multi-lane road with turn lanes at the eastern end, so expect more traffic noise there. The western end sits at a junction with a pedestrian crossing and traffic islands, adding turning-traffic noise.",
+    "shade": "Good tree cover along much of the route, especially near the western junction and over the parkland stretch - useful morning shade, with some risk of sap/leaf drop from overhanging canopy.",
+    "signs_vs_imagery": "No cyan sign dots appear in either image set, consistent with the empty signs list. Esri (2025) and QLD (2022) agree closely on layout; the painted crossing, islands and angled parking bays near the start are visible in both and aren't captured by the sign screen."
+  },
+  "usable_van_lengths": 7,
+  "slope_pct": 1,
+  "cannot_judge": [
+    "Street lighting brightness at the parkland section",
+    "Actual kerb height and any no-stopping/clearway restriction on this 60 km/h road beyond what signs screen found",
+    "Whether the road edge has a formal shoulder wide enough for a van versus just a painted line"
+  ],
+  "confidence": "medium",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T00:46:39+00:00",
+  "model": "claude-sonnet-5",
+  "run": {
+    "cost_usd": 0.1913282,
+    "seconds": 59,
+    "turns": 8,
+    "usage": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 25592,
+      "cache_read_input_tokens": 184016,
+      "output_tokens": 5036,
+      "output_tokens_details": {
+        "thinking_tokens": 2097
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 25592,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 1213,
+          "cache_read_input_tokens": 53969,
+          "cache_creation_input_tokens": 3138,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 3138
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    }
+  }
+}

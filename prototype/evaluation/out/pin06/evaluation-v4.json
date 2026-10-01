@@ -1,0 +1,48 @@
+{
+  "candidate": "pin06",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "the sealed loop road around the picnic shelters, in the tree island beside the Champions Way roundabout",
+    "slope_pct": 1.7
+  },
+  "drivers": {
+    "seclusion": "No houses nearby; the shelter cluster sits inside a tree-screened island, though it's an open public rest area visible from the road and roundabout.",
+    "access_and_room": "A sealed loop road rings the shelters, wide enough for a car and offering a through-route with no need to turn; a van's fit is less certain.",
+    "traffic": "Sits right against a roundabout and pedestrian crossings on what looks like a busy arterial, though the loop itself only carries day-use visitors.",
+    "convention": "Several caravan/trailer-shaped vehicles already parked nearby suggest this spot is used by other travellers."
+  },
+  "flags": [
+    "Right beside a roundabout/arterial \u2014 expect traffic noise",
+    "This is a day-use park with gazebos, not open ground \u2014 other visitors could turn up"
+  ],
+  "kind": "parking area",
+  "reasons": [
+    "Tree-screened island, no houses nearby",
+    "Other campers/caravans already parked here",
+    "Hard against a busy roundabout"
+  ],
+  "rubbish": "none seen",
+  "summary": "A tree-screened rest-area loop with picnic shelters, already used by other campers, but hard against a busy roundabout.",
+  "sun_shade": "Dense eucalypt canopy covers the shelter cluster and loop road from all sides.",
+  "verdict": "maybe",
+  "cannot_judge": [
+    "Whether the loop road is wide enough for a 7.5 m van to pass other vehicles",
+    "Street lighting at night",
+    "Whether this rest area has posted hours or no-camping signage not visible as a sign type"
+  ],
+  "confidence": "medium",
+  "imagery": {
+    "esri": [
+      "2025-10-21"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:30:50+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 49,
+    "turns": 5
+  }
+}

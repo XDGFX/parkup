@@ -1,0 +1,73 @@
+{
+  "candidate": "adsett-st",
+  "cannot_judge": [
+    "Street lighting after dark",
+    "Kerb height and crossfall for levelling",
+    "Whether the near house's windows face the street or back onto it"
+  ],
+  "confidence": "medium",
+  "criteria": {
+    "room": "The 29 m kerb runs through dense roadside trees and shrubs for most of its length; a car already parked near the southern end (Esri) marks about the only obvious clear bay, the rest is scrub right to the kerb.",
+    "frontage": "Across the road is a rail corridor and embankment, not another kerb to share. On the kerb side, a house sits close behind heavy tree cover, with a second building nearby. QLD (2022) shows an active building site on the opposite corner that Esri (2025) shows now completed and occupied, so the block has filled in since 2022.",
+    "overlooked": "One house is close behind the trees on the kerb side, roughly 10-15 m off; the canopy screens it somewhat but doesn't block it fully. Not isolated, but not facing a row of windows either.",
+    "slope": "Mean grade 4.4%, max 7.0%, with the flattest 20 m logged at 2.1% - workable only if parked at that flatter stretch, likely the southern end nearer the parked car.",
+    "disturbance": "Runs directly beside an active rail line, only metres across the road behind the trees - passing trains are a realistic overnight disturbance even though the street itself is a quiet residential spur.",
+    "shade": "Heavy tree canopy covers most of the kerb, giving shade and some privacy screening from the rail side, but branches overhang close enough that sap or debris on the van is likely.",
+    "signs_vs_imagery": "No painted lines, driveway crossovers, or other markings visible in either image that contradict or add to the logged sign (No Parking Mon-Fri 7am-6pm); nothing here casts doubt on overnight parking being allowed."
+  },
+  "reasons": [
+    "Right beside an active rail line",
+    "Trees eat most of the usable kerb",
+    "Flat enough only at one end"
+  ],
+  "slope_pct": 2.1,
+  "summary": "Quiet residential spur but hugs a rail line, with trees leaving only one clear bay.",
+  "usable_van_lengths": 1,
+  "verdict": "maybe",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T00:46:39+00:00",
+  "model": "claude-sonnet-5",
+  "run": {
+    "cost_usd": 0.155406,
+    "seconds": 42,
+    "turns": 7,
+    "usage": {
+      "input_tokens": 8,
+      "cache_creation_input_tokens": 22844,
+      "cache_read_input_tokens": 180640,
+      "output_tokens": 2610,
+      "output_tokens_details": {
+        "thinking_tokens": 1235
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 22844,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 1050,
+          "cache_read_input_tokens": 51664,
+          "cache_creation_input_tokens": 2695,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 2695
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    }
+  }
+}

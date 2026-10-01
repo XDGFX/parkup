@@ -1,0 +1,44 @@
+{
+  "candidate": "pin01",
+  "best_section": null,
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height and any painted lines at ground level",
+    "Whether the pipe-yard fence is actively patrolled at night",
+    "Exact sign restrictions on this road (outside Brisbane City Council cyan-dot coverage shown here)"
+  ],
+  "confidence": "high",
+  "drivers": {
+    "seclusion": "Right on a forested mountain road near a roundabout/junction, with a fenced industrial yard on one side and a building with a car park about 75 m away; no concealment, passers-by at the junction would see a van immediately.",
+    "access_and_room": "No verge or shoulder at the pin \u2014 trees and yard fencing crowd the carriageway on both sides, leaving nowhere to pull off within 50 m.",
+    "traffic": "Sits on a winding single-lane-each-way road feeding a roundabout, with what looks like an active works/lookout area just uphill \u2014 not a quiet dead end.",
+    "convention": "No parked cars anywhere near the pin itself (the only cars seen are 75 m+ away at the building), so there's no sign this roadside is ever used for parking."
+  },
+  "flags": [
+    "Steep: mean grade 13.8%, max 55.8% even over a short stretch \u2014 terrain here is very steep",
+    "Industrial/yard activity immediately adjacent (stacked pipes, machinery) suggests daytime staff presence nearby"
+  ],
+  "kind": "off-road site",
+  "reasons": [
+    "Pin sits on the carriageway itself",
+    "No shoulder or verge to pull into",
+    "Steep winding road near a junction"
+  ],
+  "rubbish": "none seen",
+  "summary": "Pin lands on a narrow, steep winding road with no shoulder, yard and roundabout nearby \u2014 nowhere to actually stop.",
+  "sun_shade": "Dense forest canopy overhangs both sides of the road at the pin, giving all-day shade.",
+  "verdict": "poor",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:30:09+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 35,
+    "turns": 6
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "pin11",
+  "street": "Mount Nebo Road",
+  "suburb": "Brisbane",
+  "kind": "point",
+  "kerb": {
+    "length_m": 40,
+    "side": "pin",
+    "start": [
+      152.877855,
+      -27.428949
+    ],
+    "end": [
+      152.878259,
+      -27.428949
+    ]
+  },
+  "osm_tags": {},
+  "slope": {
+    "step_m": 5,
+    "elevation_m": [
+      319.84,
+      318.16,
+      315.49,
+      314.16,
+      313.5,
+      313.08,
+      312.56,
+      311.91,
+      311.44,
+      311.44,
+      null,
+      318.36,
+      317.75,
+      316.99,
+      315.51,
+      313.5,
+      313.54,
+      313.65,
+      311.7,
+      310.32
+    ],
+    "min_elevation_m": 310.3,
+    "max_elevation_m": 319.8,
+    "mean_grade_pct": 19.7,
+    "max_grade_pct": 53.4,
+    "flattest_20m_grade_pct": 8.2
+  },
+  "signs": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "length_m": 141,
+      "images": {
+        "esri": "chunk1-esri.jpg",
+        "qld": "chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-08-12",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        160,
+        161
+      ],
+      "image_px": [
+        1067,
+        1074
+      ]
+    }
+  ],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "metres": 36,
+      "at_m": 0
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "metres": 93,
+      "at_m": 0
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "metres": 97,
+      "at_m": 0
+    }
+  ]
+}

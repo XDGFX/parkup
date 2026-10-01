@@ -1,0 +1,44 @@
+{
+  "candidate": "keith-st",
+  "best_section": {
+    "from_m": 95,
+    "to_m": 135,
+    "where": "opposite the tennis/sports courts, near the south end of the first chunk just before the oval frontage begins",
+    "slope_pct": 2.1
+  },
+  "drivers": {
+    "road": "Service-style road through a sports/college precinct, not a residential through route, though signed 50 km/h with 3 lanes nearby towards Sir Fred Schonell Drive.",
+    "room_and_convention": "Cars already line the kerb the whole way past the courts and oval, and 'P (No Limit)' signs confirm all-day legal parking.",
+    "houses": "No house fronts this stretch \u2014 it backs onto sports courts/oval, with the nearest residential buildings set well back behind the courts."
+  },
+  "flags": [
+    "Gentle uphill grade (~2%) through the best section, steepening to over 7% further south",
+    "Dense tree canopy along the building side may limit mobile signal/visibility of the sky"
+  ],
+  "sun_shade": "Heavy tree canopy on the building (east) side shades the kerb through most of the morning; the sports courts/oval to the west are open, so afternoon sun reaches the van.",
+  "cannot_judge": [
+    "Actual street lighting at night",
+    "Kerb height/crossfall for levelling",
+    "Whether painted parking bays exist at this exact spot (markings only clearly visible further south in chunk 2)"
+  ],
+  "confidence": "medium",
+  "verdict": "maybe",
+  "summary": "Quiet kerb beside sports courts with cars already parked, but it's part of a 50 km/h, multi-lane precinct road.",
+  "reasons": [
+    "Backs onto sports courts, not houses",
+    "Parked cars show kerbside parking is normal",
+    "Wider, faster road than ideal"
+  ],
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T00:57:35+00:00",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 69,
+    "turns": 7
+  }
+}

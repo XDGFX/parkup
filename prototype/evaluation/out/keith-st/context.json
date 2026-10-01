@@ -1,0 +1,361 @@
+{
+  "id": "keith-st",
+  "street": "Keith St",
+  "suburb": "St Lucia",
+  "kerb": {
+    "length_m": 276,
+    "side": "left",
+    "start": [
+      153.009607,
+      -27.492373
+    ],
+    "end": [
+      153.00898,
+      -27.493941
+    ]
+  },
+  "osm_tags": {
+    "highway": "residential",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "parking:both": "no",
+    "surface": "asphalt",
+    "sidewalk": "separate"
+  },
+  "slope": {
+    "step_m": 5,
+    "elevation_m": [
+      5.35,
+      5.51,
+      5.57,
+      5.53,
+      5.55,
+      5.58,
+      5.46,
+      5.45,
+      5.41,
+      5.44,
+      5.39,
+      5.36,
+      5.35,
+      5.38,
+      5.31,
+      5.31,
+      5.46,
+      5.41,
+      5.33,
+      5.42,
+      5.58,
+      5.61,
+      5.65,
+      5.78,
+      5.76,
+      5.98,
+      6.11,
+      6.27,
+      6.51,
+      6.59,
+      6.84,
+      6.9,
+      7.05,
+      6.93,
+      7.05,
+      7.31,
+      7.11,
+      7.2,
+      7.07,
+      6.58,
+      6.48,
+      6.21,
+      5.99,
+      5.7,
+      5.5,
+      5.28,
+      5.18,
+      5.09,
+      5.13,
+      5.06,
+      4.94,
+      4.96,
+      5.38,
+      5.44,
+      6.0,
+      6.27,
+      6.25
+    ],
+    "min_elevation_m": 4.9,
+    "max_elevation_m": 7.3,
+    "mean_grade_pct": 2.6,
+    "max_grade_pct": 11.2,
+    "flattest_20m_grade_pct": 0.1
+  },
+  "signs": [
+    {
+      "street": "KEITH STREET",
+      "restriction": "P (No Limit)",
+      "days_times": null,
+      "extra_text": "NO LIMIT",
+      "arrow": "Left",
+      "metres_from_kerb_line": 2.5
+    },
+    {
+      "street": "SIR FRED SCHONELL DRIVE",
+      "restriction": "ST LUCIA TRAFFIC AREA",
+      "days_times": "MON-FRI:7am-6pm",
+      "extra_text": "ST LUCIA TRAFFIC AREA,FEB-NOV,EXCEPT AS SIGNED",
+      "arrow": "Not applicable",
+      "metres_from_kerb_line": 12.3
+    },
+    {
+      "street": "KEITH STREET",
+      "restriction": "P (No Limit)",
+      "days_times": null,
+      "extra_text": "NO LIMIT",
+      "arrow": "Right",
+      "metres_from_kerb_line": 8.2
+    },
+    {
+      "street": "KEITH STREET",
+      "restriction": "P (No Limit)",
+      "days_times": null,
+      "extra_text": "NO LIMIT",
+      "arrow": "Left",
+      "metres_from_kerb_line": 5.1
+    },
+    {
+      "street": "KEITH STREET",
+      "restriction": "P (No Limit)",
+      "days_times": null,
+      "extra_text": "NO LIMIT",
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 7.3
+    },
+    {
+      "street": "MACQUARIE STREET",
+      "restriction": "1/2P Parallel",
+      "days_times": "SCHOOLDAYS:7am-7pm",
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 9.1
+    },
+    {
+      "street": "SIR FRED SCHONELL DRIVE",
+      "restriction": "End Traffic Parking Control Area",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Not applicable",
+      "metres_from_kerb_line": 12.4
+    },
+    {
+      "street": "KEITH STREET",
+      "restriction": "P (No Limit)",
+      "days_times": null,
+      "extra_text": "NO LIMIT",
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 6.2
+    },
+    {
+      "street": "KEITH STREET",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 3.4
+    },
+    {
+      "street": "KEITH STREET",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 8.2
+    },
+    {
+      "street": "SIR FRED SCHONELL DRIVE",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 12.3
+    },
+    {
+      "street": "SIR FRED SCHONELL DRIVE",
+      "restriction": "No Stopping Specified Times",
+      "days_times": ":7-9:30am ,:4-6:30pm",
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 12.4
+    },
+    {
+      "street": "KEITH STREET",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 5.1
+    },
+    {
+      "street": "KEITH STREET",
+      "restriction": "P (No Limit)",
+      "days_times": null,
+      "extra_text": "NO LIMIT",
+      "arrow": "Right",
+      "metres_from_kerb_line": 3.4
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "length_m": 139,
+      "images": {
+        "esri": "chunk1-esri.jpg",
+        "qld": "chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        98,
+        179
+      ],
+      "image_px": [
+        652,
+        1192
+      ]
+    },
+    {
+      "chunk": 2,
+      "length_m": 136,
+      "images": {
+        "esri": "chunk2-esri.jpg",
+        "qld": "chunk2-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        99,
+        157
+      ],
+      "image_px": [
+        661,
+        1047
+      ]
+    }
+  ],
+  "buildings": [
+    {
+      "building": "apartments",
+      "name": "Sir Fred",
+      "metres": 10,
+      "at_m": 258
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 12,
+      "at_m": 40
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 12,
+      "at_m": 50
+    },
+    {
+      "building": "kindergarten",
+      "name": "Playhouse Parent and Childcare Centre",
+      "metres": 13,
+      "at_m": 153
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 13,
+      "at_m": 58
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 13,
+      "at_m": 65
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 15,
+      "at_m": 82
+    },
+    {
+      "building": "university",
+      "name": "Warehouse, Book Repository and Solvent Store",
+      "metres": 25,
+      "at_m": 240
+    },
+    {
+      "building": "retail",
+      "name": "Lady Gowrie St Thomas's Riverview Community Kindergarten",
+      "metres": 26,
+      "at_m": 8
+    },
+    {
+      "building": "shed",
+      "name": null,
+      "metres": 30,
+      "at_m": 15
+    },
+    {
+      "building": "apartments",
+      "name": null,
+      "metres": 32,
+      "at_m": 47
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "metres": 34,
+      "at_m": 6
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 35,
+      "at_m": 76
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 35,
+      "at_m": 82
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "metres": 51,
+      "at_m": 275
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "metres": 51,
+      "at_m": 6
+    }
+  ]
+}

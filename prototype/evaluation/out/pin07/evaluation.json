@@ -1,0 +1,52 @@
+{
+  "candidate": "pin07",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "the cleared gravel/grass strip between Boundary Road and the scrub, about 30-40m south-east of the pin, away from the disturbed entrance area",
+    "slope_pct": 1.7
+  },
+  "drivers": {
+    "seclusion": "No dwellings nearby; site is open paddock/scrub bounded by road and bushland, but sits close enough to the road to be visible from it.",
+    "access_and_room": "A worn dirt track with visible wheel ruts leads off the road into a wide cleared area with ample room to pull well clear of traffic.",
+    "traffic": "Runs alongside what appears to be a divided, higher-speed road with a bridge over a creek; likely steady through traffic and possible road noise.",
+    "convention": "No marked parking or other parked vehicles seen; this is an informal cleared/spoil area rather than a recognised stopping spot."
+  },
+  "flags": [
+    "Low-lying, near a creek/floodplain: elevation only 4-4.8m with visible water channels nearby, so flood-prone in wet weather.",
+    "Close to a sealed road with a bridge: likely road noise and visibility from passing traffic.",
+    "Ground looks like disturbed dirt/spoil near the entrance, not a formed surface; could be soft after rain.",
+    "No barrier or gate visible blocking the track, but it is informal and unmarked."
+  ],
+  "kind": "off-road site",
+  "reasons": [
+    "No buildings nearby in OSM or imagery",
+    "Cleared area with vehicle access track and turning room",
+    "Close to road and creek floodplain, noise and flood risk"
+  ],
+  "rubbish": "Some disturbed, scraped ground and pale rubble patches near the track entrance, possibly spoil or dumped fill; otherwise no obvious rubbish on the open strip.",
+  "summary": "Cleared dirt strip beside a road bridge over a creek; secluded from houses but exposed to road noise and flood risk.",
+  "sun_shade": "Mostly open and sun-exposed; small clumps of trees at the north-west and north-east corners of the frame give only edge shade, not over the site itself.",
+  "verdict": "maybe",
+  "cannot_judge": [
+    "Whether the track entrance has a gate, chain or barrier at ground level",
+    "Ground firmness/surface type for a loaded van (dirt vs. compacted gravel)",
+    "Street lighting",
+    "Actual road traffic volume and speed at night",
+    "Crossfall within the cleared area"
+  ],
+  "confidence": "medium",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:37:55+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 47,
+    "turns": 6
+  }
+}

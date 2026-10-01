@@ -1,0 +1,48 @@
+{
+  "candidate": "garden-car-park",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "the north-eastern half of the car park, behind the parked cars, backing onto the community garden plots and bushland",
+    "slope_pct": 1.1
+  },
+  "drivers": {
+    "seclusion": "Backs onto community garden beds and bush to the north and east; a field lies beyond trees to the east. Nearest actual dwelling is about 25 m away, across the garden.",
+    "access_and_room": "Sealed car park off a shared path, several marked bays, plenty of room to pull off any route entirely.",
+    "traffic": "A footpath runs along the western side for garden visitors by day, but it's a dead-end car park with no through traffic.",
+    "convention": "Esri and QLD imagery both show cars already parked here, so a van fits the pattern."
+  },
+  "flags": [
+    "Low-lying: minimum elevation about 2.2 m, flagged as potentially flood-prone",
+    "Gentle slope, up to about 4.6% in places, but flattest stretch is level"
+  ],
+  "kind": "parking area",
+  "reasons": [
+    "Backs onto garden plots and bush, not houses",
+    "Other cars already park here",
+    "Low-lying site, flood risk unclear"
+  ],
+  "rubbish": "none seen",
+  "sun_shade": "Trees line the eastern and southern edges, likely giving afternoon shade on that side; the open western half gets fuller sun.",
+  "summary": "Quiet community garden car park backing onto bush and garden beds, away from houses.",
+  "verdict": "good",
+  "cannot_judge": [
+    "Whether a gate or chain closes the car park entrance overnight",
+    "Street lighting at the car park",
+    "Exact kerb height and surface firmness for a van"
+  ],
+  "confidence": "medium",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:36:02+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 28,
+    "turns": 6
+  }
+}

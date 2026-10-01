@@ -1,0 +1,43 @@
+{
+  "candidate": "pin12",
+  "best_section": null,
+  "cannot_judge": [
+    "Street-level sightlines and lighting",
+    "Whether the plantation rows are gated or signed as private forestry land"
+  ],
+  "confidence": "high",
+  "drivers": {
+    "seclusion": "Would be very secluded if reachable \u2014 dense plantation, no dwellings nearby.",
+    "access_and_room": "Pin sits inside planted tree rows on a slope; nearest track is 50-70m away through dense trees with no path to it.",
+    "traffic": "No through traffic; forestry tracks only, barely used.",
+    "convention": "Not a recognised parking or camping spot \u2014 active forestry/quarry worksite nearby with trucks and tents."
+  },
+  "flags": [
+    "No vehicle access: pin is inside dense plantation rows, not a track or clearing",
+    "Steep terrain nearby (max grade ~41%), though not necessarily at the access point",
+    "Active worksite (quarry/earthworks with trucks, tents, sheds) ~60-80m NW"
+  ],
+  "kind": "off-road site",
+  "reasons": [
+    "Pin lands inside tree-row plantation",
+    "No track or clearing within reach",
+    "Nearby quarry site, not public land"
+  ],
+  "rubbish": "none seen",
+  "summary": "Pin lands inside a planted forestry block with no vehicle access nearby.",
+  "sun_shade": "Fully shaded by plantation canopy from all sides.",
+  "verdict": "poor",
+  "imagery": {
+    "esri": [
+      "2024-06-10"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:38:45+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 29,
+    "turns": 5
+  }
+}

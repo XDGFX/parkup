@@ -1,0 +1,98 @@
+{
+  "id": "pin02",
+  "street": "Currawang Street Trail",
+  "suburb": "The Gap",
+  "kind": "point",
+  "kerb": {
+    "length_m": 40,
+    "side": "pin",
+    "start": [
+      152.949039,
+      -27.462729
+    ],
+    "end": [
+      152.949443,
+      -27.462729
+    ]
+  },
+  "osm_tags": {},
+  "slope": {
+    "step_m": 5,
+    "elevation_m": [
+      249.26,
+      249.19,
+      248.22,
+      247.93,
+      247.85,
+      247.66,
+      247.17,
+      246.38,
+      244.21,
+      null,
+      253.35,
+      253.06,
+      250.7,
+      248.23,
+      247.85,
+      247.94,
+      247.13,
+      245.45,
+      241.99
+    ],
+    "min_elevation_m": 242.0,
+    "max_elevation_m": 253.4,
+    "mean_grade_pct": 20.7,
+    "max_grade_pct": 69.2,
+    "flattest_20m_grade_pct": 5.2
+  },
+  "signs": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "length_m": 141,
+      "images": {
+        "esri": "chunk1-esri.jpg",
+        "qld": "chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        160,
+        161
+      ],
+      "image_px": [
+        1067,
+        1074
+      ]
+    }
+  ],
+  "buildings": [
+    {
+      "building": "commercial",
+      "name": "Channel Ten",
+      "metres": 18,
+      "at_m": 0
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "metres": 35,
+      "at_m": 0
+    },
+    {
+      "building": "commercial",
+      "name": "TX Australia",
+      "metres": 98,
+      "at_m": 0
+    }
+  ]
+}

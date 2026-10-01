@@ -1,0 +1,50 @@
+{
+  "candidate": "pin10",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "the row of marked bays nearest the pin, backed by the dense tree line along the railway corridor to the north",
+    "slope_pct": 0
+  },
+  "drivers": {
+    "seclusion": "Backs directly onto a tree-screened rail corridor; closest houses are across Alderson Street, roughly 60 m away and partly screened by trees and sheds. The car park is a known public amenity, so it gets some passing attention, and the roundabout road to the east has a sightline across the open bays.",
+    "access_and_room": "Sealed, line-marked commuter car park with wide bays and full turning room; entrance off Alderson Street. No gate or boom visible in either image.",
+    "traffic": "Alderson Street itself is quiet, but this reads as a train station car park (tracks run along the north edge), so daytime commuter traffic is likely even if it empties out at night.",
+    "convention": "Not applicable: this is an off-street car park, not a kerb."
+  },
+  "flags": [
+    "Gentle slope overall (mean 2.3%, max 6%) but a flat patch near the pin",
+    "Likely a train station commuter car park \u2014 may see early-morning arrivals or have after-hours restrictions not visible in imagery",
+    "Passing trains nearby could be noisy"
+  ],
+  "kind": "parking area",
+  "verdict": "maybe",
+  "summary": "Sealed station car park with a flat, tree-backed corner, but it's a public commuter lot facing the street.",
+  "reasons": [
+    "Tree buffer against rail line gives cover",
+    "Houses across road ~60 m away",
+    "Likely a day-use commuter car park"
+  ],
+  "sun_shade": "Shaded from the north and east by the tree-lined railway corridor; more open to the south towards the street.",
+  "rubbish": "None seen.",
+  "cannot_judge": [
+    "Whether the car park gates or restricts access after hours",
+    "Street or car park lighting at night",
+    "Presence of CCTV or security patrols (common at station car parks)",
+    "Actual noise level from passing trains"
+  ],
+  "confidence": "medium",
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:31:46+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 37,
+    "turns": 5
+  }
+}

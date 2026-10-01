@@ -1,0 +1,50 @@
+{
+  "candidate": "pin04",
+  "verdict": "maybe",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "on the dirt track at the pin, between two ponds/dams in the bush off Avalon Road",
+    "slope_pct": 7.6
+  },
+  "kind": "off-road site",
+  "summary": "Secluded bush track between ponds, but narrow, sandy and quite steep with no obvious turning space.",
+  "reasons": [
+    "Deep in bush, no buildings nearby",
+    "Track looks narrow with no clear pull-off",
+    "Fairly steep, sandy-looking surface"
+  ],
+  "drivers": {
+    "seclusion": "Excellent \u2014 dense scrub and two dams on all sides, no dwellings in sight, no sign of foot or vehicle traffic in either capture.",
+    "access_and_room": "A single dirt track runs through, roughly one vehicle wide; no visible gate, but no obvious widened spot to pull a van fully clear or turn around.",
+    "traffic": "No road at all \u2014 this is an off-road bush track, so no passing traffic expected, but surface condition for a 2WD van is unclear.",
+    "convention": "Not applicable \u2014 no other vehicles visible on the track in either image to confirm it's used for parking."
+  },
+  "flags": [
+    "Steep: around 7-8% average grade, up to 11% in places",
+    "Track surface looks sandy/soft in both captures \u2014 could bog a 2WD van",
+    "No confirmed turning space; a van may need to reverse out"
+  ],
+  "sun_shade": "Mostly shaded \u2014 overhung by tree canopy from most directions, with small open clearings near the ponds to the north.",
+  "rubbish": "None seen.",
+  "cannot_judge": [
+    "Track surface firmness/sand depth",
+    "Whether a gate exists further along the access route",
+    "Whether there's a turning point within the 100 m search radius",
+    "Night lighting and crossfall"
+  ],
+  "confidence": "low",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:37:36+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 48,
+    "turns": 6
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "candidate": "pin02",
+  "best_section": null,
+  "cannot_judge": [
+    "Whether a gate or boom closes the sealed car park below at night",
+    "Street lighting level over the car park",
+    "Whether the slope above is fenced off as part of the facility grounds"
+  ],
+  "confidence": "high",
+  "drivers": {
+    "access_and_room": "No track or road reaches the pin; it sits on a bare forested slope above a building's car park, with no way for a van to drive in.",
+    "convention": "Not applicable off-road.",
+    "seclusion": "The only spot a van could actually stop is the adjoining sealed car park, hard against a large building with windows overlooking it.",
+    "traffic": "The car park serves an active facility (oval/courts visible, cars parked) so daytime traffic is likely, though it would be quiet at night."
+  },
+  "flags": [
+    "Steep: slope at the pin itself is well over 12% (mean grade 20.7%, max 69.2%), unreachable by vehicle",
+    "No van access: pin is in forest/scrub, not on any road, track or clearing"
+  ],
+  "kind": "off-road site",
+  "reasons": [
+    "Pin sits on steep bush slope, no track",
+    "Only nearby flat ground is a facility car park",
+    "Car park overlooked by large building"
+  ],
+  "rubbish": "None seen.",
+  "summary": "Pin is on a steep forested hillside with no vehicle access; the only flat ground nearby is an exposed facility car park.",
+  "sun_shade": "Dense tree canopy on the slope would shade most of the day; the car park below is open to the north/west sun.",
+  "verdict": "poor",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:30:10+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 37,
+    "turns": 6
+  }
+}

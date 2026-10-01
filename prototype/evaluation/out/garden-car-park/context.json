@@ -1,0 +1,113 @@
+{
+  "id": "garden-car-park",
+  "street": "Taringa Community Garden car park",
+  "suburb": "Taringa",
+  "kind": "off-street area",
+  "kerb": {
+    "length_m": 93,
+    "side": "outline of the area",
+    "start": [
+      152.992332,
+      -27.492286
+    ],
+    "end": [
+      152.992332,
+      -27.492286
+    ]
+  },
+  "osm_tags": {
+    "parking": "surface"
+  },
+  "slope": {
+    "step_m": 5,
+    "elevation_m": [
+      2.25,
+      2.26,
+      2.3,
+      2.45,
+      2.53,
+      2.55,
+      2.53,
+      2.45,
+      2.44,
+      2.52,
+      2.29,
+      2.32,
+      2.21,
+      2.25,
+      2.24,
+      2.26,
+      2.27,
+      2.25,
+      2.3,
+      2.25
+    ],
+    "min_elevation_m": 2.2,
+    "max_elevation_m": 2.5,
+    "mean_grade_pct": 1.1,
+    "max_grade_pct": 4.6,
+    "flattest_20m_grade_pct": 0.0
+  },
+  "signs": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "length_m": 93,
+      "images": {
+        "esri": "chunk1-esri.jpg",
+        "qld": "chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_CBD_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-12-07",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        89,
+        94
+      ],
+      "image_px": [
+        595,
+        626
+      ]
+    }
+  ],
+  "buildings": [
+    {
+      "building": "service",
+      "name": null,
+      "metres": 1,
+      "at_m": 15
+    },
+    {
+      "building": "service",
+      "name": null,
+      "metres": 11,
+      "at_m": 9
+    },
+    {
+      "building": "service",
+      "name": null,
+      "metres": 21,
+      "at_m": 0
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "metres": 25,
+      "at_m": 0
+    },
+    {
+      "building": "service",
+      "name": null,
+      "metres": 36,
+      "at_m": 10
+    }
+  ]
+}

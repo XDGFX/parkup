@@ -1,0 +1,50 @@
+{
+  "candidate": "pin01",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "the signed car park by the shed near the maintenance depot, about 80m down the hill from the dropped pin",
+    "slope_pct": 9.7
+  },
+  "drivers": {
+    "seclusion": "Bush and forest reserve on all sides; buildings nearby are a maintenance depot and sheds, not houses.",
+    "access_and_room": "Sealed winding road reaches a formed car park with marked bays big enough for a van.",
+    "traffic": "Sits on a lookout access road, so day visitor traffic is steady; likely quiet after dark but not guaranteed.",
+    "convention": "Several cars already parked in the bay in the imagery, so a van wouldn't stand out."
+  },
+  "flags": [
+    "Steep approach: flattest nearby stretch still grades about 9.7%, close to the 12% rule-out line",
+    "Sits on a public lookout drive, so some night-time sightseer traffic is possible",
+    "Maintenance depot about 40m away may mean early-morning staff activity"
+  ],
+  "kind": "parking area",
+  "reasons": [
+    "Bush reserve setting, no houses",
+    "Formed car park, cars already parked there",
+    "Steep winding access road"
+  ],
+  "rubbish": "none seen",
+  "summary": "Secluded bush car park near a depot, but reached only via a steep lookout road.",
+  "sun_shade": "Shaded by surrounding tree canopy from most directions.",
+  "verdict": "maybe",
+  "cannot_judge": [
+    "Street lighting at the car park",
+    "Whether the depot gate is locked/monitored overnight",
+    "Actual night-time traffic volume on the lookout road",
+    "Crossfall within the car park bays"
+  ],
+  "confidence": "low",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:36:59+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 52,
+    "turns": 6
+  }
+}

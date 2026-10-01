@@ -1,0 +1,79 @@
+{
+  "id": "pin04",
+  "street": "Avalon Road",
+  "suburb": "Sheldon",
+  "kind": "point",
+  "kerb": {
+    "length_m": 40,
+    "side": "pin",
+    "start": [
+      153.187994,
+      -27.609002
+    ],
+    "end": [
+      153.1884,
+      -27.609002
+    ]
+  },
+  "osm_tags": {},
+  "slope": {
+    "step_m": 5,
+    "elevation_m": [
+      63.0,
+      62.66,
+      62.38,
+      62.06,
+      61.82,
+      61.41,
+      61.05,
+      60.73,
+      60.36,
+      null,
+      63.23,
+      62.93,
+      62.7,
+      62.13,
+      61.82,
+      61.31,
+      60.79,
+      60.3,
+      59.78
+    ],
+    "min_elevation_m": 59.8,
+    "max_elevation_m": 63.2,
+    "mean_grade_pct": 7.6,
+    "max_grade_pct": 11.4,
+    "flattest_20m_grade_pct": 5.9
+  },
+  "signs": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "length_m": 141,
+      "images": {
+        "esri": "chunk1-esri.jpg",
+        "qld": "chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Logan_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        160,
+        161
+      ],
+      "image_px": [
+        1067,
+        1074
+      ]
+    }
+  ],
+  "buildings": []
+}

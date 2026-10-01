@@ -1,0 +1,79 @@
+{
+  "id": "pin13",
+  "street": "Johnston Road",
+  "suburb": "",
+  "kind": "point",
+  "kerb": {
+    "length_m": 40,
+    "side": "pin",
+    "start": [
+      152.996165,
+      -26.924774
+    ],
+    "end": [
+      152.996569,
+      -26.924774
+    ]
+  },
+  "osm_tags": {},
+  "slope": {
+    "step_m": 5,
+    "elevation_m": [
+      25.86,
+      25.67,
+      25.47,
+      25.26,
+      25.18,
+      25.0,
+      24.59,
+      24.46,
+      24.2,
+      null,
+      24.38,
+      24.65,
+      24.82,
+      24.98,
+      25.18,
+      25.26,
+      25.29,
+      25.11,
+      25.0
+    ],
+    "min_elevation_m": 24.2,
+    "max_elevation_m": 25.9,
+    "mean_grade_pct": 3.6,
+    "max_grade_pct": 8.2,
+    "flattest_20m_grade_pct": 0.7
+  },
+  "signs": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "length_m": 141,
+      "images": {
+        "esri": "chunk1-esri.jpg",
+        "qld": "chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-10-01",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Sunshine_Coast_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        160,
+        161
+      ],
+      "image_px": [
+        1067,
+        1074
+      ]
+    }
+  ],
+  "buildings": []
+}

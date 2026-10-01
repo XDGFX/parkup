@@ -1,0 +1,49 @@
+{
+  "candidate": "pin08",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "the gravel car park loop beside the oval, by the tennis courts off Hughes Lane",
+    "slope_pct": 1.4
+  },
+  "kind": "parking area",
+  "summary": "Gravel sports-ground car park, screened by trees and an open oval, with other vehicles already parked there.",
+  "reasons": [
+    "Open oval and tennis courts, no houses visible nearby",
+    "Gravel loop with room to turn, vehicles already parked",
+    "Quiet dead-end park access road"
+  ],
+  "drivers": {
+    "seclusion": "No house fronts or windows visible within the 160 m frame; bordered by open oval to the north, tennis courts and a treeline to the south, and a clubhouse building roughly 30-40 m to the east.",
+    "access_and_room": "Gravel/dirt car park loop off a park access lane, wide enough for a light van with space to turn; no gate or barrier visible across the entrance.",
+    "traffic": "Looks like a quiet dead-end park road serving the oval and tennis club, not a through route.",
+    "convention": "Several cars, a trailer and what looks like a boat already parked in the same area in the QLD imagery, so a van wouldn't stand out."
+  },
+  "flags": [
+    "Gentle slope only (around 1.4% mean, up to 4.4%), not steep",
+    "Sports club car park: could see evening training, matches or lock-up outside imagery",
+    "Clubhouse building with lights/solar panels nearby to the east"
+  ],
+  "sun_shade": "Mostly open to the sky over the oval to the north; a treeline along the south/west edge of the car park gives some afternoon shade.",
+  "rubbish": "None seen.",
+  "cannot_judge": [
+    "Whether the car park has a gate that's locked at night (none visible, but common at sports grounds)",
+    "Evening activity, lighting or noise from the oval/tennis club/clubhouse",
+    "Surface firmness of the gravel area in wet weather"
+  ],
+  "confidence": "medium",
+  "verdict": "maybe",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:31:23+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 34,
+    "turns": 5
+  }
+}

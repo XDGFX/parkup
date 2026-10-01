@@ -1,0 +1,44 @@
+{
+  "candidate": "pin11",
+  "best_section": null,
+  "cannot_judge": [
+    "Street lighting",
+    "Painted road-edge lines near the bend (sight distance)",
+    "Kerb/verge firmness if any informal shoulder exists under canopy"
+  ],
+  "confidence": "high",
+  "drivers": {
+    "seclusion": "A house sits about 25\u201330 m north of the pin, visible through thin canopy, and the road itself offers no screening.",
+    "access_and_room": "No shoulder, verge or pull-off anywhere near the pin \u2014 just a narrow sealed carriageway on a bend between forest edge and a drop to a gully. No room to stop clear of traffic.",
+    "traffic": "Mount Nebo Road is a winding through route up the range; the pin sits right on a bend with no sight lines, a poor spot to stop at any hour.",
+    "convention": "No parked cars or marked bay in either image \u2014 nothing suggests this is a place vehicles stop."
+  },
+  "flags": [
+    "Very steep: flattest nearby 20 m still runs about 8.2% grade, with sections up to 53%",
+    "Blind bend with no verge \u2014 stopping here would block the traffic lane",
+    "House roughly 25\u201330 m away"
+  ],
+  "reasons": [
+    "No pull-off exists within 50 m",
+    "Narrow blind bend on a through road",
+    "House close by, steep terrain throughout"
+  ],
+  "rubbish": "None seen",
+  "summary": "Pin sits on a narrow blind bend of Mount Nebo Road with no shoulder to pull into anywhere nearby.",
+  "sun_shade": "Dense eucalypt forest canopy on both sides of the road, shading the pin from most directions.",
+  "verdict": "poor",
+  "kind": "off-road site",
+  "imagery": {
+    "esri": [
+      "2025-08-12"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:32:00+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 23,
+    "turns": 5
+  }
+}

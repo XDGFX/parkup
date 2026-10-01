@@ -1,0 +1,99 @@
+{
+  "id": "pin06",
+  "street": "Champions Way",
+  "suburb": "Brisbane",
+  "kind": "point",
+  "kerb": {
+    "length_m": 40,
+    "side": "pin",
+    "start": [
+      152.671272,
+      -27.6937
+    ],
+    "end": [
+      152.671678,
+      -27.6937
+    ]
+  },
+  "osm_tags": {},
+  "slope": {
+    "step_m": 5,
+    "elevation_m": [
+      42.09,
+      41.81,
+      41.77,
+      41.65,
+      41.5,
+      41.35,
+      41.27,
+      41.05,
+      41.06,
+      41.06,
+      null,
+      41.44,
+      41.43,
+      41.5,
+      41.59,
+      41.5,
+      41.48,
+      41.53,
+      41.44,
+      41.43
+    ],
+    "min_elevation_m": 41.0,
+    "max_elevation_m": 42.1,
+    "mean_grade_pct": 1.7,
+    "max_grade_pct": 5.6,
+    "flattest_20m_grade_pct": 0.1
+  },
+  "signs": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "length_m": 141,
+      "images": {
+        "esri": "chunk1-esri.jpg",
+        "qld": "chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-10-21",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Ipswich_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        160,
+        161
+      ],
+      "image_px": [
+        1067,
+        1074
+      ]
+    }
+  ],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "metres": 8,
+      "at_m": 0
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "metres": 18,
+      "at_m": 0
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "metres": 24,
+      "at_m": 0
+    }
+  ]
+}

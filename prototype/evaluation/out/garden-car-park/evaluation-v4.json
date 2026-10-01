@@ -1,0 +1,47 @@
+{
+  "candidate": "garden-car-park",
+  "best_section": {
+    "from_m": 45,
+    "to_m": 65,
+    "where": "the far (north-east) corner of the car park, backed up against the tree line away from the entrance and the shed",
+    "slope_pct": 1.5
+  },
+  "drivers": {
+    "seclusion": "Backs onto garden plots, trees and what looks like a sports field, not houses. Nearest house-like building is well south, separated by sheds and vegetation.",
+    "access_and_room": "Sealed car park with marked bays, single driveway in off a quiet lane, plenty of room to turn; no gate or barrier visible.",
+    "traffic": "Dead-end community garden car park off a minor lane with a pedestrian path alongside \u2014 nothing passes through overnight.",
+    "convention": "Two or three cars already parked there in daytime imagery, so a van wouldn't look out of place."
+  },
+  "flags": [
+    "Ground is essentially flat (max grade 4.6% at one point, flattest stretch 0%)"
+  ],
+  "kind": "parking area",
+  "reasons": [
+    "Backs onto garden plots and a field, not houses",
+    "Sealed, marked car park with turning room",
+    "Quiet dead-end lane, cars already park here"
+  ],
+  "rubbish": "none seen",
+  "sun_shade": "Mostly open overhead; trees along the east and south edges give shade from the afternoon sun.",
+  "summary": "Quiet community garden car park backing onto fields and gardens, well clear of houses.",
+  "verdict": "good",
+  "cannot_judge": [
+    "Night lighting in the car park",
+    "Whether the garden entrance has a closable gate",
+    "Surface firmness at the unsealed back edge"
+  ],
+  "confidence": "medium",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:29:06+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 32,
+    "turns": 5
+  }
+}

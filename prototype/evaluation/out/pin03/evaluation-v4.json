@@ -1,0 +1,50 @@
+{
+  "candidate": "pin03",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "the lookout car park off Sir Samuel Griffith Drive, about 40m east of the pin",
+    "slope_pct": 1
+  },
+  "kind": "parking area",
+  "summary": "Bushland pin is unreachable; nearest spot is a busy roadside lookout car park.",
+  "reasons": [
+    "Pin itself sits in dense untracked forest",
+    "Nearby car park faces a through road",
+    "No houses nearby, well hidden by trees"
+  ],
+  "drivers": {
+    "seclusion": "No dwellings or windows visible anywhere nearby; the pin is buried in bushland on Mt Coot-tha, but the only vehicle-accessible spot, a lookout car park, sits right beside Sir Samuel Griffith Drive and is fully visible to anyone driving past.",
+    "access_and_room": "The pin itself has no track and can't be reached by van. The car park 40m away is sealed/gravel with clear turning room, so access there is fine.",
+    "traffic": "Sir Samuel Griffith Drive is a scenic through-route up Mt Coot-tha, not a dead end, so some traffic is likely at any hour even if light overnight.",
+    "convention": "Not applicable here (parking area, not a kerb); the QLD imagery shows the car park full of day-visitor cars, which doesn't tell us about overnight use."
+  },
+  "flags": [
+    "Steep surrounding terrain: mean grade 16.4%, max 38.4% nearby, though the car park itself looks flat",
+    "Likely a day-use lookout car park, possibly gated or signed against overnight stays, not visible in imagery",
+    "No streetlighting or on-site signage visible to confirm overnight rules"
+  ],
+  "sun_shade": "Dense eucalypt canopy shades the car park and pin from most directions; only the road-facing edge gets direct sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the car park has a gate or barrier that closes overnight",
+    "Any on-site no-camping or time-limit signage",
+    "Street lighting after dark",
+    "Crossfall of the car park surface"
+  ],
+  "confidence": "medium",
+  "verdict": "maybe",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:30:13+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 47,
+    "turns": 5
+  }
+}

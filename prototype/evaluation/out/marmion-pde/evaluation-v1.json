@@ -1,0 +1,73 @@
+{
+  "candidate": "marmion-pde",
+  "cannot_judge": [
+    "Street lighting level after dark",
+    "Crossfall / cross-slope of the kerb lane",
+    "Kerb height and gutter condition"
+  ],
+  "confidence": "medium",
+  "criteria": {
+    "room": "Kerb lane is driveable for a van along most of the 597 m, but it's already heavily used for resident parking in chunks 1, 2 and 4 \u2014 cars line the kerb almost continuously near the Frederick St/Woodstock Ave ends. The clearest open stretch is the park frontage in chunk 3 (roughly 500\u2013560 m along), with few driveways to dodge.",
+    "frontage": "Mostly two-storey houses close to the road for chunks 1, 2 and 4. Chunk 3 faces a grassed park/oval with scattered trees on the kerb side, giving a stretch with no houses directly opposite.",
+    "overlooked": "Houses sit close to the kerb (5\u201310 m) with upstairs windows facing the street in chunks 1, 2 and 4 \u2014 several driveways and front yards open straight onto the line. The park-facing stretch in chunk 3 is not overlooked at all.",
+    "slope": "Mean grade 5.4%, max 16.6% \u2014 this is a steep, continuously descending street (44 m to 18 m over 597 m). Chunk 3 is the steepest section (~7%). The only comfortable spot is the flattest 20 m (0.1% grade), which falls near the end of chunk 3 into chunk 4, close to the park and the Frederick St intersection.",
+    "disturbance": "Residential through-street, not a dead end \u2014 chunk 4 ends at a busier cross-street with a car park/more traffic, which will add noise near that end. Elsewhere it reads as a quiet suburban street.",
+    "shade": "Good tree cover throughout, especially over the park stretch in chunk 3 \u2014 decent morning shade, some risk of sap/leaf drop from overhanging canopy.",
+    "signs_vs_imagery": "No painted islands, bike lanes, bus zones or build-outs visible in the imagery; markings are consistent with the parallel-parking signs in the data. Esri (2025) and QLD (2022) agree closely \u2014 the main QLD-only detail is the still-vacant/bare lot in chunk 2, now landscaped in Esri."
+  },
+  "reasons": [
+    "Steep street overall, only one short flat stretch",
+    "Flat spot sits beside the park, unoverlooked",
+    "Rest of kerb lined with cars, close to houses"
+  ],
+  "slope_pct": 0.1,
+  "summary": "Mostly too steep to sleep level; one flat, unoverlooked stretch by the park near Frederick St.",
+  "usable_van_lengths": 3,
+  "verdict": "maybe",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T00:46:39+00:00",
+  "model": "claude-sonnet-5",
+  "run": {
+    "cost_usd": 0.2315018,
+    "seconds": 65,
+    "turns": 10,
+    "usage": {
+      "input_tokens": 10,
+      "cache_creation_input_tokens": 33677,
+      "cache_read_input_tokens": 246264,
+      "output_tokens": 4574,
+      "output_tokens_details": {
+        "thinking_tokens": 2711
+      },
+      "server_tool_use": {
+        "web_search_requests": 0,
+        "web_fetch_requests": 0
+      },
+      "service_tier": "standard",
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 33677,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "inference_geo": "not_available",
+      "iterations": [
+        {
+          "input_tokens": 2,
+          "output_tokens": 1809,
+          "cache_read_input_tokens": 61023,
+          "cache_creation_input_tokens": 4169,
+          "cache_creation": {
+            "ephemeral_5m_input_tokens": 0,
+            "ephemeral_1h_input_tokens": 4169
+          },
+          "type": "message"
+        }
+      ],
+      "speed": "standard"
+    }
+  }
+}

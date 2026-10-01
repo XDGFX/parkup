@@ -1,0 +1,50 @@
+{
+  "candidate": "adsett-st",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "from the yellow ring south, against the tree line backing onto the rail corridor, before the grey-roofed house behind it comes closer",
+    "slope_pct": 5.8
+  },
+  "drivers": {
+    "seclusion": "Near the ring the kerb backs onto dense trees and the rail corridor rather than a house front; houses sit further south, screened by the same bush line but only 12-15m back.",
+    "access_and_room": "Sealed, lit residential street with no driveways or crossings on this stretch; it narrows toward the tracks, so a van would likely need to reverse back out rather than turn.",
+    "traffic": "Quiet dead-end residential street off the main grid, well away from through traffic.",
+    "convention": "No cars are visibly parked along this kerb, and there's no obvious parking lane, so a van would stand out a little."
+  },
+  "flags": [
+    "Steep near the top: about 6% grade over the first 10m",
+    "Rail corridor close alongside \u2014 possible train noise",
+    "No parked cars seen on this kerb for cover"
+  ],
+  "sun_shade": "Dense tree canopy overhangs the kerb from the rail-corridor side (west), shading most of the stretch through the day; it opens up a little toward the southern end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Actual kerb height and crossfall",
+    "Street lighting brightness at night",
+    "Whether there's room to turn at the dead end or only to reverse out",
+    "Frequency/timing of trains on the adjacent line"
+  ],
+  "confidence": "medium",
+  "kind": "kerb stretch",
+  "reasons": [
+    "Backs onto rail corridor and bush, not a house front",
+    "Quiet dead-end street, little traffic",
+    "No parked cars along the kerb for cover"
+  ],
+  "summary": "Quiet dead-end kerb backing onto bush and a rail corridor, but no parked cars and a steepish top end.",
+  "verdict": "maybe",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:29:06+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 60,
+    "turns": 5
+  }
+}

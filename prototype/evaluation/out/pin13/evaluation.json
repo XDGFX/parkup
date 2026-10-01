@@ -1,0 +1,49 @@
+{
+  "candidate": "pin13",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "the gravel clearing about 150 m down the forestry track off Johnston Road, where vehicles are already parked",
+    "slope_pct": 3
+  },
+  "kind": "off-road site",
+  "summary": "A clearing deep in a pine plantation off a dirt track, already used by other vehicles, with no buildings in sight.",
+  "reasons": [
+    "Surrounded entirely by plantation forestry",
+    "Vehicles already parked there in both image sets",
+    "No buildings or houses anywhere near"
+  ],
+  "drivers": {
+    "seclusion": "Boxed in by rows of plantation trees on both sides with no dwellings visible in either the 2022 or 2025 imagery; the only sightline is along the access track.",
+    "access_and_room": "A graded dirt track runs about 150 m in from Johnston Road to a clearing wide enough for several vehicles; a light 2WD van should manage it in dry conditions, though it's unsealed the whole way.",
+    "traffic": "No through traffic \u2014 it's a dead-end plantation track serving the clearing, not a road.",
+    "convention": "Other vehicles (a car/ute and what looks like a trailer) are parked in the clearing in both the 2022 QLD and 2025 Esri images, so a van parking there matches existing use."
+  },
+  "flags": [
+    "Gentle slope: around 3% mean grade over the approach, nothing steep at the clearing itself",
+    "Unsealed track \u2014 condition after rain can't be judged from imagery"
+  ],
+  "sun_shade": "Mostly open sky above the clearing itself, with tall plantation trees close in on the east and west sides cutting low morning and evening sun.",
+  "rubbish": "None seen",
+  "cannot_judge": [
+    "Whether the track entrance from Johnston Road has a gate or chain",
+    "Ground firmness/softness of the unsealed track and clearing",
+    "Street or site lighting",
+    "Any on-site signage restricting access or camping"
+  ],
+  "confidence": "medium",
+  "verdict": "good",
+  "imagery": {
+    "esri": [
+      "2025-10-01"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:39:02+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 40,
+    "turns": 5
+  }
+}

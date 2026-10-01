@@ -1,0 +1,45 @@
+{
+  "candidate": "adsett-st",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 29,
+    "where": "southern two-thirds of the kerb, past the bend, alongside the grey-roofed house",
+    "slope_pct": 2.1
+  },
+  "drivers": {
+    "road": "Quiet curving residential street next to a rail corridor, no sign of through traffic.",
+    "room_and_convention": "A car/trailer sits near the bend and a car is parked kerbside further down, so roadside parking isn't unusual, but the carriageway is narrow.",
+    "houses": "A house sits only around 10 m from the kerb for the best (flattest) section, with no screening on that side."
+  },
+  "flags": [
+    "House very close (~10 m) with no buffer \u2014 drives the poor verdict",
+    "Trees spilling from the rail embankment crowd the northern ~10 m of the kerb",
+    "Slope moderate at best section (~2%) but steeper (6-7%) over other stretches"
+  ],
+  "reasons": [
+    "House ~10m away, unscreened",
+    "Quiet curving street, light traffic",
+    "Narrow kerb, only one car seen parked"
+  ],
+  "summary": "Quiet bend, but the only flat, clear stretch runs right past a house with no buffer.",
+  "sun_shade": "Trees from the rail corridor shade the northern end; the best section further south is more open, with the house block to the east giving some morning shade.",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall across the lane",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "verdict": "poor",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:00:26+00:00",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 68,
+    "turns": 5
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "id": "heroes-ave",
+  "street": "Heroes Ave",
+  "suburb": "Taringa",
+  "kerb": {
+    "length_m": 163,
+    "side": "right",
+    "start": [
+      152.991718,
+      -27.492908
+    ],
+    "end": [
+      152.993303,
+      -27.49325
+    ]
+  },
+  "osm_tags": {
+    "highway": "tertiary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxspeed": "60",
+    "parking:both": "no",
+    "surface": "asphalt",
+    "parking:both:orientation": "parallel",
+    "sidewalk": "no"
+  },
+  "slope": {
+    "step_m": 5,
+    "elevation_m": [
+      4.81,
+      4.33,
+      3.82,
+      3.37,
+      3.07,
+      2.82,
+      2.64,
+      2.51,
+      2.38,
+      2.21,
+      2.11,
+      2.28,
+      2.1,
+      2.25,
+      2.25,
+      2.25,
+      2.23,
+      2.18,
+      2.26,
+      2.24,
+      2.26,
+      2.32,
+      2.48,
+      2.7,
+      2.99,
+      3.57,
+      4.09,
+      4.87,
+      5.55,
+      6.24,
+      6.88,
+      7.05,
+      7.31,
+      7.17
+    ],
+    "min_elevation_m": 2.1,
+    "max_elevation_m": 7.3,
+    "mean_grade_pct": 5.2,
+    "max_grade_pct": 15.6,
+    "flattest_20m_grade_pct": 0.0
+  },
+  "signs": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "length_m": 83,
+      "images": {
+        "esri": "chunk1-esri.jpg",
+        "qld": "chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        142,
+        69
+      ],
+      "image_px": [
+        946,
+        460
+      ]
+    },
+    {
+      "chunk": 2,
+      "length_m": 80,
+      "images": {
+        "esri": "chunk2-esri.jpg",
+        "qld": "chunk2-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        135,
+        90
+      ],
+      "image_px": [
+        897,
+        600
+      ]
+    }
+  ],
+  "buildings": [
+    {
+      "building": "detached",
+      "name": null,
+      "metres": 15,
+      "at_m": 164
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "metres": 15,
+      "at_m": 164
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 20,
+      "at_m": 0
+    },
+    {
+      "building": "apartments",
+      "name": null,
+      "metres": 21,
+      "at_m": 164
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 22,
+      "at_m": 0
+    },
+    {
+      "building": "service",
+      "name": null,
+      "metres": 24,
+      "at_m": 55
+    },
+    {
+      "building": "apartments",
+      "name": null,
+      "metres": 25,
+      "at_m": 164
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 25,
+      "at_m": 164
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 29,
+      "at_m": 0
+    },
+    {
+      "building": "apartments",
+      "name": null,
+      "metres": 31,
+      "at_m": 164
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 35,
+      "at_m": 164
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 35,
+      "at_m": 0
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 35,
+      "at_m": 164
+    },
+    {
+      "building": "apartments",
+      "name": null,
+      "metres": 36,
+      "at_m": 164
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 37,
+      "at_m": 0
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 37,
+      "at_m": 164
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 40,
+      "at_m": 164
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 41,
+      "at_m": 0
+    },
+    {
+      "building": "garage",
+      "name": null,
+      "metres": 42,
+      "at_m": 164
+    },
+    {
+      "building": "garage",
+      "name": null,
+      "metres": 42,
+      "at_m": 164
+    },
+    {
+      "building": "service",
+      "name": null,
+      "metres": 42,
+      "at_m": 50
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 44,
+      "at_m": 0
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 45,
+      "at_m": 164
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "metres": 46,
+      "at_m": 0
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 50,
+      "at_m": 0
+    }
+  ]
+}

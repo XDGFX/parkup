@@ -1,0 +1,128 @@
+{
+  "id": "pin10",
+  "street": "Alderson Street",
+  "suburb": "Alderley",
+  "kind": "point",
+  "kerb": {
+    "length_m": 40,
+    "side": "pin",
+    "start": [
+      153.00769,
+      -27.429901
+    ],
+    "end": [
+      153.008094,
+      -27.429901
+    ]
+  },
+  "osm_tags": {},
+  "slope": {
+    "step_m": 5,
+    "elevation_m": [
+      16.91,
+      16.89,
+      16.93,
+      16.94,
+      16.99,
+      17.06,
+      17.12,
+      17.09,
+      16.99,
+      null,
+      16.16,
+      16.38,
+      16.62,
+      16.78,
+      16.99,
+      17.29,
+      17.16,
+      17.19,
+      17.34
+    ],
+    "min_elevation_m": 16.2,
+    "max_elevation_m": 17.3,
+    "mean_grade_pct": 2.3,
+    "max_grade_pct": 6.0,
+    "flattest_20m_grade_pct": 0.0
+  },
+  "signs": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "length_m": 141,
+      "images": {
+        "esri": "chunk1-esri.jpg",
+        "qld": "chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        160,
+        161
+      ],
+      "image_px": [
+        1067,
+        1074
+      ]
+    }
+  ],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "metres": 60,
+      "at_m": 0
+    },
+    {
+      "building": "shed",
+      "name": null,
+      "metres": 61,
+      "at_m": 0
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "metres": 62,
+      "at_m": 0
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "metres": 64,
+      "at_m": 0
+    },
+    {
+      "building": "carport",
+      "name": null,
+      "metres": 65,
+      "at_m": 0
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 67,
+      "at_m": 0
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 68,
+      "at_m": 0
+    },
+    {
+      "building": "house",
+      "name": null,
+      "metres": 69,
+      "at_m": 0
+    }
+  ]
+}

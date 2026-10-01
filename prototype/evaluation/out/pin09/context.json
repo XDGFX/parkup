@@ -1,0 +1,79 @@
+{
+  "id": "pin09",
+  "street": "Mabel Street",
+  "suburb": "Oxley",
+  "kind": "point",
+  "kerb": {
+    "length_m": 40,
+    "side": "pin",
+    "start": [
+      152.975499,
+      -27.557089
+    ],
+    "end": [
+      152.975905,
+      -27.557089
+    ]
+  },
+  "osm_tags": {},
+  "slope": {
+    "step_m": 5,
+    "elevation_m": [
+      6.52,
+      6.54,
+      6.45,
+      6.56,
+      6.51,
+      6.52,
+      6.38,
+      6.38,
+      6.44,
+      null,
+      6.23,
+      6.3,
+      6.34,
+      6.49,
+      6.51,
+      6.5,
+      6.5,
+      6.46,
+      6.43
+    ],
+    "min_elevation_m": 6.2,
+    "max_elevation_m": 6.6,
+    "mean_grade_pct": 1.1,
+    "max_grade_pct": 3.0,
+    "flattest_20m_grade_pct": 0.0
+  },
+  "signs": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "length_m": 141,
+      "images": {
+        "esri": "chunk1-esri.jpg",
+        "qld": "chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        160,
+        161
+      ],
+      "image_px": [
+        1067,
+        1074
+      ]
+    }
+  ],
+  "buildings": []
+}

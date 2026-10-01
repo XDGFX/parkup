@@ -1,0 +1,48 @@
+{
+  "candidate": "pin10",
+  "verdict": "good",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Rear bays along the tree line at the back of the car park, against the railway corridor, roughly 20m north-east of the pin",
+    "slope_pct": 0
+  },
+  "kind": "parking area",
+  "summary": "Tree-screened public car park backing onto the rail corridor, well clear of the nearest houses.",
+  "reasons": [
+    "Screened by trees, backs onto rail corridor",
+    "Houses are 60m+ away, across the road",
+    "Other cars already parked there"
+  ],
+  "drivers": {
+    "seclusion": "Rear bays are screened from the street by heavy tree canopy and back directly onto the railway corridor; nearest houses are over 60m away across Alderson Street.",
+    "access_and_room": "Sealed, marked car park with multiple full-size bays and turning room; easy in and out for a 2WD van.",
+    "traffic": "Sees daytime use (several cars present in both captures, likely a sports ground or community facility nearby) but sits off the road with no through traffic; should be quiet overnight.",
+    "convention": "Other vehicles are routinely parked here, so an overnight van is unlikely to stand out."
+  },
+  "flags": [
+    "Adjacent to an active rail corridor \u2014 train noise likely",
+    "Daytime use by other cars suggests the lot may not be empty early evening"
+  ],
+  "sun_shade": "Heavy tree canopy on the north and east sides shades the rear bays through most of the day; the front bays near the street entrance are more open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the car park has a gate that's closed overnight",
+    "Street or car park lighting at night",
+    "Any on-site signage restricting overnight parking"
+  ],
+  "confidence": "medium",
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:38:32+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 46,
+    "turns": 6
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "candidate": "adsett-st",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "kerb from the yellow ring south, backing onto the rail corridor, before the Adsett Residences driveway",
+    "slope_pct": 4.6
+  },
+  "drivers": {
+    "seclusion": "Backs onto the rail corridor and its tree screen; nearest listed building is about 44 m away at this end.",
+    "access_and_room": "Sealed kerb lane wide enough for a van, though tree canopy from the rail corridor overhangs part of it.",
+    "traffic": "Quiet residential street, 50 km/h, lit; some through traffic likely given the rail crossing nearby.",
+    "convention": "A car is parked further along the same kerb; the sign only restricts weekday daytime, so overnight parking appears accepted."
+  },
+  "flags": [
+    "Sloped: around 4.6% at this end, rising to 7% max elsewhere on the kerb",
+    "Rail corridor alongside: possible train noise",
+    "Tree canopy overhangs the kerb here, may limit headroom/room to pull in"
+  ],
+  "sun_shade": "Shaded by trees and bush along the rail corridor to the west/north.",
+  "rubbish": "None seen.",
+  "cannot_judge": [
+    "Street lighting intensity at this specific spot",
+    "Crossfall of the kerb",
+    "Kerb height",
+    "Exact width available to pull fully clear of the lane under the tree canopy"
+  ],
+  "confidence": "medium",
+  "kind": "kerb stretch",
+  "reasons": [
+    "No dwellings within 10 m here",
+    "Backs onto rail corridor and bush",
+    "Cars already park on this kerb"
+  ],
+  "summary": "Quiet kerb by the rail corridor, clear of nearby houses, with a car already parked further along.",
+  "verdict": "good",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:36:02+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 54,
+    "turns": 6
+  }
+}

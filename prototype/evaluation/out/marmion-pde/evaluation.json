@@ -1,0 +1,48 @@
+{
+  "candidate": "marmion-pde",
+  "best_section": {
+    "from_m": 330,
+    "to_m": 410,
+    "where": "south kerb opposite the oval/park, between Melrose Ct area and the next run of houses, roughly two-thirds along the stretch",
+    "slope_pct": 3.6
+  },
+  "drivers": {
+    "seclusion": "Kerb backs onto a tree-screened park/oval; nearest houses are across the road, 10-17m away.",
+    "access_and_room": "Straight, wide residential kerb with no driveways on the park side; easy pull-in for a light van.",
+    "traffic": "Quiet residential street, not a through route; low likelihood of night traffic.",
+    "convention": "Other cars already park along this kerb (visible in imagery), so a van won't stand out."
+  },
+  "flags": [
+    "Steep-ish: about 3.6% grade along the best section",
+    "2P parallel parking Mon-Fri 7am-7pm, resident permits excepted, so unrestricted overnight"
+  ],
+  "sun_shade": "Dense tree canopy from the park overhangs the kerb from the south side, likely shading most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting level",
+    "Exact kerb height/crossfall",
+    "Whether on-site signage differs from the extracted sign list"
+  ],
+  "confidence": "medium",
+  "kind": "kerb stretch",
+  "reasons": [
+    "Backs onto screened park, not houses",
+    "Other cars already park here",
+    "Mild downhill slope, not flat"
+  ],
+  "summary": "Tree-screened kerb beside a park, houses across the road, mild slope.",
+  "verdict": "good",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:36:34+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 57,
+    "turns": 6
+  }
+}

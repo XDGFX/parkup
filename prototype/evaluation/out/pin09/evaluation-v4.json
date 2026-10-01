@@ -1,0 +1,49 @@
+{
+  "candidate": "pin09",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 45,
+    "where": "on the sealed loop driveway where it curves down towards the main road, past the tree canopy over the pin",
+    "slope_pct": 1.1
+  },
+  "drivers": {
+    "seclusion": "Under tree canopy, screened from the main road; houses sit 80m+ away across the oval, nothing right behind it.",
+    "access_and_room": "A sealed loop driveway serving the park/clubhouse, wide enough for a van with room to turn via the loop; the ring itself sits on a narrower section.",
+    "traffic": "A park service/clubhouse driveway off a wider through road below; likely quiet at night but could see dog walkers or early sports users.",
+    "convention": "No cars seen parked overnight here; a car and trailer near the clubhouse building suggest daytime use only, not an established parking spot."
+  },
+  "flags": [
+    "Possible locked gate at night: park/clubhouse driveways often close, but no gate is visible in the imagery",
+    "Narrow path at the pin itself (~3m) \u2014 the wider, usable stretch is further along the loop"
+  ],
+  "kind": "off-road site",
+  "reasons": [
+    "Tree-canopy cover screens it from the road",
+    "Houses are far off across open oval",
+    "Driveway may be clubhouse-only, not public"
+  ],
+  "rubbish": "none seen",
+  "summary": "A shaded park driveway loop near a clubhouse, secluded but possibly private and gate-able overnight.",
+  "sun_shade": "Dense tree canopy to the north and west overhangs the pin and much of the loop driveway, giving shade most of the day.",
+  "verdict": "maybe",
+  "cannot_judge": [
+    "Whether the driveway has a gate or barrier closed at night",
+    "Street lighting along the loop",
+    "Whether this driveway is public park access or private clubhouse property",
+    "Kerb/surface condition at ground level (seal vs gravel transition)"
+  ],
+  "confidence": "low",
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:31:42+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 42,
+    "turns": 5
+  }
+}

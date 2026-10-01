@@ -1,0 +1,44 @@
+{
+  "candidate": "adsett-st",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 25,
+    "slope_pct": 2.1,
+    "where": "past the yellow ring, alongside the rail-embankment trees, opposite the two-storey grey-roofed house"
+  },
+  "drivers": {
+    "road": "Quiet residential cul-de-sac-style street running beside the rail corridor, not a through route.",
+    "room_and_convention": "A car is already parked kerbside near this stretch, showing parking here is normal; no driveway or crossing crosses the yellow line itself.",
+    "houses": "Houses sit across the road, roughly 10-15m from the kerb at the southern end of the section \u2014 closer than ideal but separated by the carriageway."
+  },
+  "flags": [
+    "Runs beside a railway line: trains may cause noise",
+    "Grade hits about 7% in short stretches elsewhere on this kerb (best section itself is flatter, ~2%)"
+  ],
+  "sun_shade": "Tree canopy from the rail-embankment side (north) overhangs most of the best section, giving shade for much of the day.",
+  "cannot_judge": [
+    "Street lighting at night",
+    "Exact kerb height and crossfall",
+    "Whether a driveway crossover interrupts the flat stretch near the houses"
+  ],
+  "confidence": "medium",
+  "verdict": "maybe",
+  "summary": "Quiet street by the rail line with an established parking spot, but houses sit fairly close across the road.",
+  "reasons": [
+    "Quiet residential street, not a through route",
+    "Car already parked shows kerbside parking is normal",
+    "Houses across road within ~10-15m at section's end"
+  ],
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T00:57:35+00:00",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 55,
+    "turns": 5
+  }
+}

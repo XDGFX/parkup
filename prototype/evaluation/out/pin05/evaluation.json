@@ -1,0 +1,49 @@
+{
+  "candidate": "pin05",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "small gravel car park on the creek track, about 30 m north-east of the pin",
+    "slope_pct": 0
+  },
+  "drivers": {
+    "seclusion": "Surrounded by mangroves and bush on three sides; no dwellings in view.",
+    "access_and_room": "Reached by a formed track off the road; other vehicles already parked there.",
+    "traffic": "Dead-end creek-side track, not a through route.",
+    "convention": "Cars (and what looks like a boat trailer) already parked here."
+  },
+  "flags": [
+    "Low-lying, tidal creek bank nearby (min elevation about -0.3 m) \u2014 check flood/tide risk",
+    "Steep creek bank close by (DEM shows up to 33% grade) \u2014 stay on the flat car park, not the bank"
+  ],
+  "kind": "parking area",
+  "reasons": [
+    "Gravel car park already used by other vehicles",
+    "Backs onto mangroves and bush, well hidden",
+    "Flat, formed track access from the road"
+  ],
+  "rubbish": "None seen.",
+  "summary": "Small secluded gravel car park off a creek-side track, already used by other vehicles.",
+  "sun_shade": "Open gravel patch ringed by trees; mixed shade from surrounding bush, more open to the sky than the creek banks either side.",
+  "verdict": "good",
+  "cannot_judge": [
+    "Whether the car park entrance has a gate or barrier",
+    "Ground firmness for a 2WD van (gravel vs soft sand/mud)",
+    "Street lighting",
+    "Local tide levels and whether the track floods"
+  ],
+  "confidence": "medium",
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:37:37+00:00",
+  "rubric": "v5",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 29,
+    "turns": 5
+  }
+}

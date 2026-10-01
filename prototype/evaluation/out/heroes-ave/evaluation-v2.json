@@ -1,0 +1,44 @@
+{
+  "candidate": "heroes-ave",
+  "best_section": {
+    "from_m": 60,
+    "to_m": 100,
+    "where": "along the Toowong Memorial Park fence, between the roundabout/zebra crossing and the sharp rise further east",
+    "slope_pct": 1
+  },
+  "drivers": {
+    "road": "Tertiary road, 60 km/h, two lanes plus turn lanes, zebra crossing and a roundabout at the western end \u2014 a through route, not a quiet street.",
+    "room_and_convention": "No parked cars anywhere along the kerb line itself; the only marked bays sit inside the roundabout splitter near the start, not usable. No kerbside parking convention on this stretch.",
+    "houses": "Park and oval on the kerb side; houses sit across the wide multi-lane road, which buffers them, but the road itself still rules this out."
+  },
+  "flags": [
+    "Steep: grade climbs to about 15.6% over the final ~40 m of the kerb (chunk 2 east end)",
+    "Busy 60 km/h through road with turn lanes and a zebra crossing/roundabout \u2014 traffic noise likely all evening"
+  ],
+  "sun_shade": "Large trees along the park/oval side (south of the road) overhang most of the best section, giving shade through the day; the open oval further east gets more direct sun.",
+  "cannot_judge": [
+    "Street lighting brightness at night (tagged lit=yes but not visible in overhead imagery)",
+    "Actual kerb height and crossfall",
+    "Noise level from the park/oval at night (events, early sports use)"
+  ],
+  "confidence": "medium",
+  "verdict": "poor",
+  "summary": "A busy 60 km/h through road with no parking convention anywhere along the kerb.",
+  "reasons": [
+    "Tertiary through road, not quiet",
+    "No cars ever parked here",
+    "Steep rise at eastern end"
+  ],
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T00:57:35+00:00",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 39,
+    "turns": 7
+  }
+}

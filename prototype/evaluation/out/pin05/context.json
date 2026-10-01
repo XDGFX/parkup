@@ -1,0 +1,79 @@
+{
+  "id": "pin05",
+  "street": "O'Quinn Street",
+  "suburb": "Nudgee Beach",
+  "kind": "point",
+  "kerb": {
+    "length_m": 40,
+    "side": "pin",
+    "start": [
+      153.097769,
+      -27.345189
+    ],
+    "end": [
+      153.098173,
+      -27.345189
+    ]
+  },
+  "osm_tags": {},
+  "slope": {
+    "step_m": 5,
+    "elevation_m": [
+      -0.27,
+      -0.27,
+      -0.27,
+      -0.27,
+      -0.27,
+      -0.27,
+      -0.16,
+      1.51,
+      1.04,
+      null,
+      -0.27,
+      -0.27,
+      -0.27,
+      -0.27,
+      -0.27,
+      -0.27,
+      0.51,
+      1.27,
+      0.82
+    ],
+    "min_elevation_m": -0.3,
+    "max_elevation_m": 1.5,
+    "mean_grade_pct": 5.3,
+    "max_grade_pct": 33.4,
+    "flattest_20m_grade_pct": 0.0
+  },
+  "signs": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "length_m": 141,
+      "images": {
+        "esri": "chunk1-esri.jpg",
+        "qld": "chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        160,
+        161
+      ],
+      "image_px": [
+        1067,
+        1074
+      ]
+    }
+  ],
+  "buildings": []
+}

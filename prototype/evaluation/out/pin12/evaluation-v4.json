@@ -1,0 +1,44 @@
+{
+  "candidate": "pin12",
+  "best_section": null,
+  "cannot_judge": [
+    "Whether the quarry/plantation compound is actively staffed overnight or only by day",
+    "Whether the dirt tracks shown are gated or private",
+    "Crossfall and surface firmness on the hillside track",
+    "Street lighting (irrelevant here, no street)"
+  ],
+  "confidence": "medium",
+  "drivers": {
+    "seclusion": "Pin sits in a planted crop/orchard block on a hillside, about 30-40m from an active-looking work compound (sheds, tent, several vehicles) just northwest.",
+    "access_and_room": "No track reaches the pinned point itself; it's inside cultivated rows on a slope. Nearest usable ground is the compound's cleared dirt area or a track skirting the plantation to the east, neither of which is a public pull-in.",
+    "traffic": "No through road nearby; only farm/site tracks, so passing traffic is minimal, but site vehicles use the compound.",
+    "convention": "Not applicable (not a kerb)."
+  },
+  "flags": [
+    "Steep ground: mean grade ~10%, locally up to 41% near the pin",
+    "Working compound with vehicles, tent and sheds roughly 30-40m away \u2014 likely occupied by day"
+  ],
+  "kind": "off-road site",
+  "reasons": [
+    "No vehicle access to the pin itself",
+    "Active work compound close by",
+    "Steep, cultivated hillside"
+  ],
+  "rubbish": "None seen.",
+  "summary": "Pin sits in a steep plantation block with no van access, right next to an active-looking work compound.",
+  "sun_shade": "Open crop rows give little shade; a line of taller trees along the compound boundary casts some shade from the northwest side.",
+  "verdict": "poor",
+  "imagery": {
+    "esri": [
+      "2024-06-10"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-01T01:32:00+00:00",
+  "rubric": "v4",
+  "model": "claude-sonnet-5",
+  "run": {
+    "seconds": 32,
+    "turns": 5
+  }
+}
