@@ -1,0 +1,704 @@
+{
+ "signs": [
+  {
+   "assetid": "SN-10-1000-1215264",
+   "street": "ADSETT STREET",
+   "suburb": "TARINGA",
+   "lon": 152.98298463537333,
+   "lat": -27.493993523822617,
+   "signdirection": "Left",
+   "bccallocationcode": "3WL",
+   "multisignsegment": 0,
+   "parkingrestrictiontype": "No Parking Specified Times",
+   "parkingrestrictiondaysandtimes": "MON-FRI:7am-6pm",
+   "parkingrestrictiondescription": null
+  },
+  {
+   "assetid": "SN-10-1000-1215285",
+   "street": "ADSETT STREET",
+   "suburb": "TARINGA",
+   "lon": 152.9830708821028,
+   "lat": -27.493511861164293,
+   "signdirection": "Right",
+   "bccallocationcode": "3WR",
+   "multisignsegment": 0,
+   "parkingrestrictiontype": "No Parking Specified Times",
+   "parkingrestrictiondaysandtimes": "MON-FRI:7am-6pm",
+   "parkingrestrictiondescription": null
+  },
+  {
+   "assetid": "SN-10-1000-1215368",
+   "street": "ADSETT STREET",
+   "suburb": "TARINGA",
+   "lon": 152.98246767180837,
+   "lat": -27.496256743992028,
+   "signdirection": "Left",
+   "bccallocationcode": "1L",
+   "multisignsegment": 0,
+   "parkingrestrictiontype": "No Stopping Any Time",
+   "parkingrestrictiondaysandtimes": null,
+   "parkingrestrictiondescription": null
+  },
+  {
+   "assetid": "SN-10-1000-1215406",
+   "street": "ADSETT STREET",
+   "suburb": "TARINGA",
+   "lon": 152.98286071438326,
+   "lat": -27.494553422551796,
+   "signdirection": "Right",
+   "bccallocationcode": "3WR",
+   "multisignsegment": 0,
+   "parkingrestrictiontype": "No Parking Specified Times",
+   "parkingrestrictiondaysandtimes": "MON-FRI:7am-6pm",
+   "parkingrestrictiondescription": null
+  },
+  {
+   "assetid": "SN-10-1000-1215430",
+   "street": "ADSETT STREET",
+   "suburb": "TARINGA",
+   "lon": 152.98296214719272,
+   "lat": -27.493502730559875,
+   "signdirection": "Right",
+   "bccallocationcode": "7R",
+   "multisignsegment": 0,
+   "parkingrestrictiontype": "P Angle (No Limit)",
+   "parkingrestrictiondaysandtimes": null,
+   "parkingrestrictiondescription": "ANGLE"
+  },
+  {
+   "assetid": "SN-10-1000-1215431",
+   "street": "ADSETT STREET",
+   "suburb": "TARINGA",
+   "lon": 152.98302384962975,
+   "lat": -27.49337277611948,
+   "signdirection": "Right",
+   "bccallocationcode": "3WR",
+   "multisignsegment": 0,
+   "parkingrestrictiontype": "No Parking Specified Times",
+   "parkingrestrictiondaysandtimes": "MON-FRI:7am-6pm",
+   "parkingrestrictiondescription": null
+  },
+  {
+   "assetid": "SN-10-1000-1215441",
+   "street": "ADSETT STREET",
+   "suburb": "TARINGA",
+   "lon": 152.98284413170938,
+   "lat": -27.494317961447177,
+   "signdirection": "Right",
+   "bccallocationcode": "3WR",
+   "multisignsegment": 0,
+   "parkingrestrictiontype": "No Parking Specified Times",
+   "parkingrestrictiondaysandtimes": "MON-FRI:7am-6pm",
+   "parkingrestrictiondescription": null
+  },
+  {
+   "assetid": "SN-10-1000-1215450",
+   "street": "ADSETT STREET",
+   "suburb": "TARINGA",
+   "lon": 152.98274975133634,
+   "lat": -27.495167199771004,
+   "signdirection": "Left",
+   "bccallocationcode": "3WL",
+   "multisignsegment": 0,
+   "parkingrestrictiontype": "No Parking Specified Times",
+   "parkingrestrictiondaysandtimes": "MON-FRI:7am-6pm",
+   "parkingrestrictiondescription": null
+  },
+  {
+   "assetid": "SN-10-1000-1215458",
+   "street": "ADSETT STREET",
+   "suburb": "TARINGA",
+   "lon": 152.98310052475946,
+   "lat": -27.492951309762486,
+   "signdirection": "Left",
+   "bccallocationcode": "3WL",
+   "multisignsegment": 0,
+   "parkingrestrictiontype": "No Parking Specified Times",
+   "parkingrestrictiondaysandtimes": "MON-FRI:7am-6pm",
+   "parkingrestrictiondescription": null
+  },
+  {
+   "assetid": "SN-10-1000-1215460",
+   "street": "ADSETT STREET",
+   "suburb": "TARINGA",
+   "lon": 152.98239289664258,
+   "lat": -27.4966568932326,
+   "signdirection": "Right",
+   "bccallocationcode": "1R",
+   "multisignsegment": 0,
+   "parkingrestrictiontype": "No Stopping Any Time",
+   "parkingrestrictiondaysandtimes": null,
+   "parkingrestrictiondescription": null
+  },
+  {
+   "assetid": "SN-10-1000-1215550",
+   "street": "ADSETT STREET",
+   "suburb": "TARINGA",
+   "lon": 152.98292508210187,
+   "lat": -27.493878797362296,
+   "signdirection": "Left",
+   "bccallocationcode": "3WL",
+   "multisignsegment": 0,
+   "parkingrestrictiontype": "No Parking Specified Times",
+   "parkingrestrictiondaysandtimes": "MON-FRI:7am-6pm",
+   "parkingrestrictiondescription": null
+  },
+  {
+   "assetid": "SN-10-1000-1299670",
+   "street": "ADSETT STREET",
+   "suburb": "TARINGA",
+   "lon": 152.98302373488787,
+   "lat": -27.493738035574573,
+   "signdirection": "Bi-Directional",
+   "bccallocationcode": "3WD",
+   "multisignsegment": 0,
+   "parkingrestrictiontype": "No Parking Specified Times",
+   "parkingrestrictiondaysandtimes": "MON-FRI:7am-6pm",
+   "parkingrestrictiondescription": null
+  },
+  {
+   "assetid": "SN-10-1000-1399816",
+   "street": "ADSETT STREET",
+   "suburb": "TARINGA",
+   "lon": 152.9829820595044,
+   "lat": -27.493370615139188,
+   "signdirection": "Left",
+   "bccallocationcode": "7L",
+   "multisignsegment": 0,
+   "parkingrestrictiontype": "P Angle (No Limit)",
+   "parkingrestrictiondaysandtimes": null,
+   "parkingrestrictiondescription": "ANGLE"
+  }
+ ],
+ "ways": [
+  {
+   "id": 5884070,
+   "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Pike Avenue",
+    "parking:both": "no",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "smoothness": "good",
+    "surface": "asphalt"
+   },
+   "nodes": [
+    47766941,
+    11520100203,
+    4908324400,
+    11563676826,
+    274634160,
+    47768773
+   ],
+   "coords": [
+    [
+     152.981951,
+     -27.4932275
+    ],
+    [
+     152.9819664,
+     -27.4932079
+    ],
+    [
+     152.9824259,
+     -27.4930324
+    ],
+    [
+     152.9825394,
+     -27.4929885
+    ],
+    [
+     152.9825944,
+     -27.4929673
+    ],
+    [
+     152.983108,
+     -27.4927769
+    ]
+   ]
+  },
+  {
+   "id": 47413427,
+   "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeed:type": "AU:urban",
+    "name": "Adsett Street",
+    "parking:both": "no",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "separate",
+    "smoothness": "good",
+    "surface": "asphalt"
+   },
+   "nodes": [
+    47768773,
+    11529077669,
+    603453845,
+    603453954,
+    11730507431,
+    603453952,
+    11730507433
+   ],
+   "coords": [
+    [
+     152.983108,
+     -27.4927769
+    ],
+    [
+     152.983128,
+     -27.4928063
+    ],
+    [
+     152.9831388,
+     -27.4928233
+    ],
+    [
+     152.9831563,
+     -27.4928602
+    ],
+    [
+     152.9831583,
+     -27.4928762
+    ],
+    [
+     152.9831616,
+     -27.4929019
+    ],
+    [
+     152.9831437,
+     -27.4929921
+    ]
+   ]
+  },
+  {
+   "id": 1239810256,
+   "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Pike Avenue",
+    "parking:both": "no",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "smoothness": "good",
+    "surface": "asphalt"
+   },
+   "nodes": [
+    47768773,
+    13067787487,
+    13067787488,
+    13067787489,
+    13067787490,
+    53885330
+   ],
+   "coords": [
+    [
+     152.983108,
+     -27.4927769
+    ],
+    [
+     152.9835321,
+     -27.4925951
+    ],
+    [
+     152.9835541,
+     -27.4925863
+    ],
+    [
+     152.9835684,
+     -27.4925818
+    ],
+    [
+     152.9835801,
+     -27.4925792
+    ],
+    [
+     152.9835867,
+     -27.4925786
+    ]
+   ]
+  },
+  {
+   "id": 1239810328,
+   "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "maxspeed": "50",
+    "maxspeed:type": "AU:urban",
+    "name": "Adsett Street",
+    "parking:left": "lane",
+    "parking:left:orientation": "parallel",
+    "parking:right": "no",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "smoothness": "good",
+    "surface": "asphalt"
+   },
+   "nodes": [
+    11924822386,
+    11520100237,
+    13859146181,
+    603454415
+   ],
+   "coords": [
+    [
+     152.98251,
+     -27.4962506
+    ],
+    [
+     152.9824271,
+     -27.4966834
+    ],
+    [
+     152.9824205,
+     -27.4967116
+    ],
+    [
+     152.9824073,
+     -27.4967679
+    ]
+   ]
+  },
+  {
+   "id": 1242369322,
+   "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "maxspeed": "50",
+    "name": "Cunningham Street",
+    "parking:both": "no",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "no",
+    "smoothness": "good",
+    "surface": "asphalt"
+   },
+   "nodes": [
+    47769153,
+    11941549761
+   ],
+   "coords": [
+    [
+     152.9828609,
+     -27.4944192
+    ],
+    [
+     152.9832404,
+     -27.4944809
+    ]
+   ]
+  },
+  {
+   "id": 1244828929,
+   "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "maxspeed": "50",
+    "name": "Cunningham Street",
+    "parking:both": "lane",
+    "parking:both:orientation": "parallel",
+    "parking:both:staggered": "yes",
+    "sidewalk:left": "separate",
+    "sidewalk:right": "no",
+    "smoothness": "good",
+    "surface": "asphalt"
+   },
+   "nodes": [
+    11527157295,
+    5492417571,
+    47769153
+   ],
+   "coords": [
+    [
+     152.9821617,
+     -27.4943154
+    ],
+    [
+     152.9828213,
+     -27.4944133
+    ],
+    [
+     152.9828609,
+     -27.4944192
+    ]
+   ]
+  },
+  {
+   "id": 1262538635,
+   "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeed:type": "AU:urban",
+    "name": "Adsett Street",
+    "parking:both": "lane",
+    "parking:both:orientation": "parallel",
+    "parking:both:staggered": "yes",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "smoothness": "good",
+    "surface": "asphalt"
+   },
+   "nodes": [
+    11924833896,
+    11529057064,
+    47769153
+   ],
+   "coords": [
+    [
+     152.9830444,
+     -27.4934934
+    ],
+    [
+     152.9828671,
+     -27.4943888
+    ],
+    [
+     152.9828609,
+     -27.4944192
+    ]
+   ]
+  },
+  {
+   "id": 1285474957,
+   "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeed:type": "AU:urban",
+    "name": "Adsett Street",
+    "parking:both": "lane",
+    "parking:both:orientation": "parallel",
+    "parking:both:staggered": "yes",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "smoothness": "good",
+    "surface": "asphalt"
+   },
+   "nodes": [
+    11730507433,
+    11924833895
+   ],
+   "coords": [
+    [
+     152.9831437,
+     -27.4929921
+    ],
+    [
+     152.9830707,
+     -27.4933609
+    ]
+   ]
+  },
+  {
+   "id": 1285474958,
+   "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "lit": "yes",
+    "maxspeed": "50",
+    "maxspeed:type": "AU:urban",
+    "name": "Adsett Street",
+    "parking:left": "lane",
+    "parking:left:orientation": "parallel",
+    "parking:right": "separate",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "smoothness": "good",
+    "surface": "asphalt"
+   },
+   "nodes": [
+    11924833895,
+    11924833896
+   ],
+   "coords": [
+    [
+     152.9830707,
+     -27.4933609
+    ],
+    [
+     152.9830444,
+     -27.4934934
+    ]
+   ]
+  },
+  {
+   "id": 1285476524,
+   "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "maxspeed": "50",
+    "maxspeed:type": "AU:urban",
+    "name": "Adsett Street",
+    "parking:both": "lane",
+    "parking:both:orientation": "parallel",
+    "parking:both:staggered": "yes",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "smoothness": "good",
+    "surface": "asphalt"
+   },
+   "nodes": [
+    47769153,
+    11924821752
+   ],
+   "coords": [
+    [
+     152.9828609,
+     -27.4944192
+    ],
+    [
+     152.9826078,
+     -27.4957403
+    ]
+   ]
+  },
+  {
+   "id": 1285476525,
+   "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "maxspeed": "50",
+    "maxspeed:type": "AU:urban",
+    "name": "Adsett Street",
+    "parking:both:orientation": "parallel",
+    "parking:left": "street_side",
+    "parking:right": "lane",
+    "parking:right:staggered": "yes",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "smoothness": "good",
+    "surface": "asphalt"
+   },
+   "nodes": [
+    11924821752,
+    11924821753
+   ],
+   "coords": [
+    [
+     152.9826078,
+     -27.4957403
+    ],
+    [
+     152.9825789,
+     -27.495891
+    ]
+   ]
+  },
+  {
+   "id": 1285476977,
+   "tags": {
+    "cycleway:both": "no",
+    "highway": "residential",
+    "lane_markings": "no",
+    "maxspeed": "50",
+    "maxspeed:type": "AU:urban",
+    "name": "Adsett Street",
+    "parking:both": "lane",
+    "parking:both:orientation": "parallel",
+    "parking:both:staggered": "yes",
+    "sidewalk:left": "no",
+    "sidewalk:right": "separate",
+    "smoothness": "good",
+    "surface": "asphalt"
+   },
+   "nodes": [
+    11924821753,
+    11924822386
+   ],
+   "coords": [
+    [
+     152.9825789,
+     -27.495891
+    ],
+    [
+     152.98251,
+     -27.4962506
+    ]
+   ]
+  },
+  {
+   "id": 1311889042,
+   "tags": {
+    "cycleway:both": "shared_lane",
+    "cycleway:both:lane": "pictogram",
+    "highway": "secondary",
+    "lanes": "2",
+    "lcn": "yes",
+    "lit": "yes",
+    "maxspeed": "50",
+    "name": "Swann Road",
+    "parking:both": "no",
+    "sidewalk:both": "separate",
+    "smoothness": "good",
+    "surface": "asphalt"
+   },
+   "nodes": [
+    603454415,
+    12143123825
+   ],
+   "coords": [
+    [
+     152.9824073,
+     -27.4967679
+    ],
+    [
+     152.9824744,
+     -27.4967935
+    ]
+   ]
+  },
+  {
+   "id": 1311889138,
+   "tags": {
+    "cycleway:both": "no",
+    "highway": "secondary",
+    "lanes": "2",
+    "lcn": "yes",
+    "maxspeed": "50",
+    "name": "Swann Road",
+    "parking:both": "no",
+    "sidewalk:both": "separate",
+    "smoothness": "good",
+    "surface": "asphalt"
+   },
+   "nodes": [
+    12143134344,
+    47831799,
+    603454415
+   ],
+   "coords": [
+    [
+     152.9820746,
+     -27.4966362
+    ],
+    [
+     152.9823261,
+     -27.4967372
+    ],
+    [
+     152.9824073,
+     -27.4967679
+    ]
+   ]
+  }
+ ]
+}

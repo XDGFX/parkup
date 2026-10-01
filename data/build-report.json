@@ -1,0 +1,74 @@
+{
+  "plates": 2239,
+  "areaPlates": 60,
+  "paidAreaPlates": 18,
+  "unsnapped": 58,
+  "unarrowed": 23,
+  "orphanRepeaters": 230,
+  "orientation": {
+    "carriageway": 0.63,
+    "footpath": 0.12,
+    "chosen": "carriageway",
+    "arrows": 1592
+  },
+  "unparsed": [
+    {
+      "text": "No Parking Specified Times: (no times)",
+      "count": 12
+    },
+    {
+      "text": "P 10 Minute Parallel: (no times)",
+      "count": 6
+    },
+    {
+      "text": "No Stopping Specified Times: (no times)",
+      "count": 5
+    },
+    {
+      "text": "1/4P Parallel: (no times)",
+      "count": 3
+    },
+    {
+      "text": "2P Parallel: ALL OTHER TIMES:-",
+      "count": 2
+    },
+    {
+      "text": "Clearway C Linear Repeater-Specified Times: (no times)",
+      "count": 2
+    },
+    {
+      "text": "Loading Zone Passengers 2 Min. Max: :7:30-9:30 ,SCHOOLDAYS:2pm-4pm",
+      "count": 2
+    },
+    {
+      "text": "Loading Zone: (no times)",
+      "count": 2
+    },
+    {
+      "text": "Loading Zone: ALL OTHER TIMES:-",
+      "count": 2
+    },
+    {
+      "text": "No Stopping Specified Times: ALL OTHER TIMES:-",
+      "count": 2
+    },
+    {
+      "text": "Taxi Zone: ALL OTHER TIMES:-",
+      "count": 2
+    },
+    {
+      "text": "4P Parallel: (no times)",
+      "count": 1
+    },
+    {
+      "text": "Bus Zone: MON-SAT:-",
+      "count": 1
+    }
+  ],
+  "short": 176,
+  "stretches": 969,
+  "failsScreen": 541,
+  "candidates": 428,
+  "lowConfidence": 200,
+  "dayOnly": 6
+}
