@@ -19,6 +19,7 @@ export const ORIENTATION = { MIN_SHARE: 0.6, MARGIN: 0.2 };
  * The screen. Overnight: parked at 6pm you can stay 8 h, on at least one night.
  * Daytime: 4 continuous hours between 7am and 7pm, on at least one day.
  * Both are tested over a reference week inside St Lucia's Feb–Nov term, so month-limited rules apply.
+ * A rule limited to months outside March would be missed; none in the snapshot is.
  */
 export const SCREEN = {
   REFERENCE_MONDAY: "2026-03-02",
@@ -28,3 +29,6 @@ export const SCREEN = {
   DAY_TO_HOUR: 19,
   DAY_HOURS: 4,
 };
+
+/** Plates flagged multisignsegment within this distance along a kerb are read as one post. */
+export const POST_M = 2;

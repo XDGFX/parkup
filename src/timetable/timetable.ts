@@ -30,6 +30,8 @@ const STEP = 15 * 60e3;
 const SCAN = 7 * 24 * HOUR;
 /** An overnight stay needs this long from the window start; shorter windows need their whole length. */
 export const MIN_STAY_HOURS = 8;
+/** The Now preset looks this far ahead. */
+export const NOW_HOURS = 3;
 
 /** Wall-clock parts of an instant in Brisbane. */
 export function brisbane(d: Date | number) {
@@ -79,7 +81,8 @@ export function limitName(hours: number): string {
 
 /** "8am", "5:30pm" in Brisbane time. */
 export function fmtTime(d: Date | number): string {
-  const h = brisbane(d).hour, hh = Math.floor(h), mm = Math.round((h - hh) * 60);
+  // Round to the minute first, so 9:59:45pm reads 10pm, not 9:60pm.
+  const minutes = Math.round(brisbane(d).hour * 60) % (24 * 60), hh = Math.floor(minutes / 60), mm = minutes % 60;
   const h12 = hh % 12 || 12;
   return `${h12}${mm ? `:${String(mm).padStart(2, "0")}` : ""}${hh < 12 ? "am" : "pm"}`;
 }
@@ -128,10 +131,10 @@ export function windows(now = new Date()): Preset[] {
     : { from: hour >= 18 ? now : brisbaneAt(now, 0, 18), to: brisbaneAt(now, 1, 7) };
   const fri = brisbaneAt(now, dow === 7 ? -2 : dow === 6 ? -1 : 5 - dow, 18);
   const weekend: Window = { from: now > fri ? now : fri, to: brisbaneAt(fri, 3, 7) };
-  const day: Window = { from: now, to: new Date(+now + 3 * HOUR) };
+  const soon: Window = { from: now, to: new Date(+now + NOW_HOURS * HOUR) };
   return [
     { key: "tonight", title: "Tonight", sub: `${fmtTime(tonight.from)}–${fmtTime(tonight.to)}`, ...tonight },
     { key: "weekend", title: "Weekend", sub: `${fmtDay(weekend.from)}–Mon ${fmtTime(weekend.to)}`, ...weekend },
-    { key: "now", title: "Now", sub: `til ${fmtTime(day.to)}`, ...day },
+    { key: "now", title: "Now", sub: `until ${fmtTime(soon.to)}`, ...soon },
   ];
 }

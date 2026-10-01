@@ -2,8 +2,8 @@
 // Centrelines are joined into links between intersections, each with a left and a right kerb.
 // Plates snap to a kerb, and opposite arrows of the same restriction pair up (road rules s 332).
 import type { Rule } from "../timetable/timetable.ts";
-import { HALF_WIDTH_M, MIN_STRETCH_M, ORIENTATION, SNAP_ANY_M, SNAP_NAMED_M } from "./config.ts";
-import { compassSide, length, offset, project, slice, toLonLat, toXY, type LonLat, type XY } from "./geo.ts";
+import { HALF_WIDTH_M, MIN_STRETCH_M, ORIENTATION, POST_M, SNAP_ANY_M, SNAP_NAMED_M } from "./config.ts";
+import { compassSide, type Compass, length, offset, project, slice, toLonLat, toXY, type LonLat, type XY } from "./geo.ts";
 import type { OsmWay, SignRecord } from "./inputs.ts";
 import { isAreaPlate, readPlate, type Plate } from "./plates.ts";
 
@@ -16,7 +16,7 @@ type Link = { id: string; name: string; highway: string; halfWidth: number; line
 export type Stretch = {
   link: Link;
   side: Side;
-  compass: "north" | "south" | "east" | "west";
+  compass: Compass;
   from: number;
   to: number;
   line: LonLat[];
@@ -29,6 +29,8 @@ export type Stretch = {
 
 export type KerbReport = {
   areaPlates: number;
+  /** Area plates for metered parking areas, which this build doesn't apply yet. */
+  paidAreaPlates: number;
   unsnapped: number;
   unarrowed: number;
   orphanRepeaters: number;
@@ -107,6 +109,27 @@ function direction(arrow: Arrow, side: Side, reading: Reading): number {
   return reading === "carriageway" ? d : -d;
 }
 
+/**
+ * Groups plates into posts: plates at the same point, or flagged `multisignsegment` and within POST_M
+ * along the same kerb (the council often records the plates on one post a metre or so apart).
+ */
+function posts(placed: Placed[]): Placed[][] {
+  const out: Placed[][] = [];
+  for (const kerb of Map.groupBy(placed, (p) => `${p.link.id}|${p.side}`).values()) {
+    kerb.sort((a, b) => a.along - b.along);
+    let post: Placed[] = [];
+    for (const p of kerb) {
+      const prev = post.at(-1);
+      const samePoint = prev && prev.record.lon === p.record.lon && prev.record.lat === p.record.lat;
+      const sameMulti = prev && prev.record.multisignsegment === 1 && p.record.multisignsegment === 1 && p.along - prev.along <= POST_M;
+      if (prev && !samePoint && !sameMulti) { out.push(post); post = []; }
+      post.push(p);
+    }
+    if (post.length) out.push(post);
+  }
+  return out;
+}
+
 type Interval = { from: number; to: number; placed: Placed; lowConfidence: boolean };
 
 /** Pairs the arrows of one restriction on one kerb. Returns its intervals and how many arrows paired cleanly. */
@@ -128,12 +151,16 @@ function pair(plates: Placed[], reading: Reading) {
 export function buildKerbs(signs: SignRecord[], ways: OsmWay[]): { stretches: Stretch[]; report: KerbReport } {
   const all = links(ways);
   const unparsed = new Map<string, number>();
-  let areaPlates = 0, unsnapped = 0, unarrowed = 0;
+  let areaPlates = 0, paidAreaPlates = 0, unsnapped = 0, unarrowed = 0;
 
   // Snap each plate to a kerb: the street it names if that's close, else the nearest centreline.
   const placed: Placed[] = [];
   signs.forEach((record, index) => {
-    if (isAreaPlate(record.parkingrestrictiontype ?? "")) { areaPlates++; return; }
+    if (isAreaPlate(record.parkingrestrictiontype ?? "")) {
+      areaPlates++;
+      if (/METER/i.test(record.parkingrestrictiondescription ?? "")) paidAreaPlates++;
+      return;
+    }
     const plate = readPlate(record);
     if (plate.unparsed) unparsed.set(plate.unparsed, (unparsed.get(plate.unparsed) ?? 0) + 1);
     const p = toXY([record.lon, record.lat]), street = norm(record.street ?? "");
@@ -149,8 +176,7 @@ export function buildKerbs(signs: SignRecord[], ways: OsmWay[]): { stretches: St
   });
 
   // Plates on one post are read together: one with no arrow takes the arrow its post-mates agree on.
-  const posts = Map.groupBy(placed, (p) => `${p.link.id}|${p.record.lon}|${p.record.lat}`);
-  for (const post of posts.values()) {
+  for (const post of posts(placed)) {
     const arrows = new Set(post.map((p) => p.arrow).filter(Boolean));
     for (const p of post) if (!p.arrow && arrows.size === 1) p.arrow = [...arrows][0];
   }
@@ -168,6 +194,7 @@ export function buildKerbs(signs: SignRecord[], ways: OsmWay[]): { stretches: St
   const carriageway = tally("carriageway"), footpath = tally("footpath");
   const chosen = orientation(carriageway, footpath);
   const { results } = chosen === "carriageway" ? carriageway : footpath;
+  const orphanRepeaters = results.reduce((n, r) => n + r.orphans, 0);
 
   // Split each kerb where the rules change: every piece carries the intervals that cover it.
   const stretches: Stretch[] = [];
@@ -190,11 +217,10 @@ export function buildKerbs(signs: SignRecord[], ways: OsmWay[]): { stretches: St
     }
   }
 
-  const sum = (k: "orphans") => (chosen === "carriageway" ? carriageway : footpath).results.reduce((n, r) => n + r[k], 0);
   return {
     stretches,
     report: {
-      areaPlates, unsnapped, unarrowed, orphanRepeaters: sum("orphans"),
+      areaPlates, paidAreaPlates, unsnapped, unarrowed, orphanRepeaters,
       orientation: { carriageway: round2(carriageway.share), footpath: round2(footpath.share), chosen, arrows: carriageway.arrows },
       unparsed: [...unparsed].map(([text, count]) => ({ text, count })).sort((a, b) => b.count - a.count || a.text.localeCompare(b.text)),
       short,

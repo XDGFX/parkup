@@ -1,6 +1,6 @@
 // The build: snapshot inputs in, the candidates dataset and the build report out.
 import type { Rule } from "../timetable/timetable.ts";
-import type { LonLat } from "./geo.ts";
+import type { Compass, LonLat } from "./geo.ts";
 import type { OsmWay, SignRecord } from "./inputs.ts";
 import { buildKerbs, type KerbReport } from "./kerbs.ts";
 import { maxStayHours, passesDaytime, passesOvernight } from "./screen.ts";
@@ -11,7 +11,7 @@ export type Candidate = {
   street: string;
   suburb: string;
   /** The compass side of the street the kerb is on. */
-  side: "north" | "south" | "east" | "west";
+  side: Compass;
   line: LonLat[];
   lengthM: number;
   rules: Rule[];

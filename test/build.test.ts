@@ -106,6 +106,19 @@ describe("plates on one post", () => {
     expect(candidates[0]!.lowConfidence).toBe(false);
     expect(candidates[0]!.plates).toHaveLength(2);
   });
+
+  it("are found by multisignsegment when the council records them a little apart", () => {
+    const signs = [
+      sign({ x: -4, y: -20, dir: "Left", type: NP, times: "MON-FRI:7am-9am", multi: 1 }),
+      sign({ x: -4.3, y: -21, dir: "Not applicable", type: "2P Parallel", times: "MON-FRI:9am-5pm", multi: 1 }),
+      sign({ x: -4, y: -80, dir: "Right", type: NP, times: "MON-FRI:7am-9am", multi: 1 }),
+      sign({ x: -4.2, y: -81, dir: "Not applicable", type: "2P Parallel", times: "MON-FRI:9am-5pm", multi: 1 }),
+    ];
+    const { candidates, report } = run(signs);
+    expect(report.unarrowed).toBe(0);
+    expect(candidates[0]!.plates).toHaveLength(2);
+    expect(candidates.every((c) => !c.lowConfidence)).toBe(true);
+  });
 });
 
 describe("overlaps", () => {

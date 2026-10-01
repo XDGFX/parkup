@@ -1,14 +1,15 @@
 {
   "plates": 2239,
   "areaPlates": 60,
+  "paidAreaPlates": 18,
   "unsnapped": 58,
-  "unarrowed": 25,
+  "unarrowed": 23,
   "orphanRepeaters": 230,
   "orientation": {
     "carriageway": 0.63,
     "footpath": 0.12,
     "chosen": "carriageway",
-    "arrows": 1591
+    "arrows": 1592
   },
   "unparsed": [
     {
@@ -65,8 +66,8 @@
     }
   ],
   "short": 176,
-  "stretches": 970,
-  "failsScreen": 542,
+  "stretches": 969,
+  "failsScreen": 541,
   "candidates": 428,
   "lowConfidence": 200,
   "dayOnly": 6

@@ -4,14 +4,14 @@ Snapshot taken 2026-10-01T06:25:28.165Z.
 
 ## Orientation
 
-Share of 1591 arrow plates that pair cleanly with an opposite arrow on the same kerb:
+Share of 1592 arrow plates that pair cleanly with an opposite arrow on the same kerb:
 
 | Reading | Clean-pairing share |
 |---|---|
 | Arrow read from the carriageway | 63% |
 | Arrow read from the footpath | 12% |
 
-Chosen: **carriageway**.
+Chosen: **carriageway**. The winner needs at least 60% and a 20-point lead (`ORIENTATION` in `src/build/config.ts`).
 
 ## Plates
 
@@ -19,17 +19,18 @@ Chosen: **carriageway**.
 |---|---|
 | Plates in the snapshot | 2239 |
 | Area plates (traffic area boundaries, end of clearway) | 60 |
+| … of which metered parking areas, not yet applied | 18 |
 | Not near a centreline | 58 |
-| No arrow, on the plate or its post | 25 |
+| No arrow, on the plate or its post | 23 |
 | Repeaters outside any paired stretch | 230 |
 
 ## Stretches
 
 | | Count |
 |---|---|
-| Signed stretches | 970 |
+| Signed stretches | 969 |
 | Dropped: shorter than 8 m | 176 |
-| Dropped: fail both the overnight and daytime tests | 542 |
+| Dropped: fail both the overnight and daytime tests | 541 |
 | Candidates | 428 |
 | … low confidence (unpaired arrow) | 200 |
 | … day only | 6 |

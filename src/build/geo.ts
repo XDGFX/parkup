@@ -3,6 +3,7 @@
 
 export type LonLat = [lon: number, lat: number];
 export type XY = [x: number, y: number];
+export type Compass = "north" | "south" | "east" | "west";
 
 const R = 6371008.8, RAD = Math.PI / 180, LAT0 = -27.5, LON0 = 153.0;
 const KX = R * RAD * Math.cos(LAT0 * RAD), KY = R * RAD;
@@ -70,7 +71,7 @@ export function offset(line: XY[], d: number): XY[] {
 }
 
 /** The compass side a kerb is on: the direction from the centreline to the kerb. */
-export function compassSide(line: XY[], side: "left" | "right"): "north" | "south" | "east" | "west" {
+export function compassSide(line: XY[], side: "left" | "right"): Compass {
   const a = line[0]!, b = line.at(-1)!;
   let [nx, ny] = [-(b[1] - a[1]), b[0] - a[0]];
   if (side === "right") [nx, ny] = [-nx, -ny];

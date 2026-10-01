@@ -147,6 +147,9 @@ describe("windows", () => {
     const { now } = byKey("2026-09-30T15:00");
     expect(now!.to).toEqual(at("2026-09-30T18:00"));
   });
+  it("labels round to the minute", () => {
+    expect(byKey("2026-09-30T18:59:45").now!.sub).toBe("until 10pm");
+  });
   it("Brisbane time is used whatever the device's time zone", () => {
     // 10pm UTC on Wednesday is 8am Thursday in Brisbane.
     const { tonight } = Object.fromEntries(windows(new Date("2026-09-30T22:00Z")).map((w) => [w.key, w]));

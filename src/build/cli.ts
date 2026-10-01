@@ -36,7 +36,7 @@ Share of ${r.orientation.arrows} arrow plates that pair cleanly with an opposite
 | Arrow read from the carriageway | ${pct(r.orientation.carriageway)} |
 | Arrow read from the footpath | ${pct(r.orientation.footpath)} |
 
-Chosen: **${r.orientation.chosen}**.
+Chosen: **${r.orientation.chosen}**. The winner needs at least 60% and a 20-point lead (\`ORIENTATION\` in \`src/build/config.ts\`).
 
 ## Plates
 
@@ -44,6 +44,7 @@ Chosen: **${r.orientation.chosen}**.
 |---|---|
 | Plates in the snapshot | ${r.plates} |
 | Area plates (traffic area boundaries, end of clearway) | ${r.areaPlates} |
+| … of which metered parking areas, not yet applied | ${r.paidAreaPlates} |
 | Not near a centreline | ${r.unsnapped} |
 | No arrow, on the plate or its post | ${r.unarrowed} |
 | Repeaters outside any paired stretch | ${r.orphanRepeaters} |

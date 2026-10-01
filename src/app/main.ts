@@ -5,7 +5,7 @@ import type { Geometry } from "geojson";
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import "./style.css";
 import type { Candidate } from "../build/build.ts";
-import { brisbane, canStay, fmtDay, fmtTime, limitName, outBy, windows, type Preset } from "../timetable/timetable.ts";
+import { brisbane, canStay, fmtDay, fmtTime, limitName, MIN_STAY_HOURS, NOW_HOURS, outBy, windows, type Preset } from "../timetable/timetable.ts";
 
 setWorkerUrl(workerUrl);
 
@@ -125,7 +125,8 @@ async function main(root: HTMLElement) {
     })),
   });
   function paint() {
-    caption.textContent = win.key === "now" ? "Faded: you'd have to move within 3 hours" : "Faded: you'd have to move within 8 hours";
+    const hours = Math.min(win.key === "now" ? NOW_HOURS : MIN_STAY_HOURS, Math.round((+win.to - +win.from) / 3600e3));
+    caption.textContent = `Faded: you'd have to move within ${hours} hours`;
     (map.getSource("kerbs") as GeoJSONSource | undefined)?.setData(features((c) => ({ type: "LineString", coordinates: c.line })));
     (map.getSource("dots") as GeoJSONSource | undefined)?.setData(features((c) => ({ type: "Point", coordinates: midpoint(c.line) })));
   }
