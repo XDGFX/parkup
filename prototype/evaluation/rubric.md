@@ -37,6 +37,8 @@ Any one of these makes the verdict `poor`, however secluded the place is:
 
 - **No way in or nowhere to stop.** A light 2WD van can't reach the best section, or there's no room to
   pull fully out of the traffic lane. A visible gate or barrier across the only access counts.
+  Off the road, the best evidence of a way in is **vehicles or tyre tracks** in the imagery. With
+  neither, assume a vehicle can't get there, unless a formed track or gravel surface clearly reaches it.
 - **A main road with no parking.** On a kerb: a through route or main road where no cars are parked
   along the kerb and there's no marked parking lane. A wide kerbside lane where other cars clearly
   park is fine.
