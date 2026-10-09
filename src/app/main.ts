@@ -24,6 +24,12 @@ const STREET_ZOOM = 15.5;
 const SUBURB_ZOOM = 12;
 const MAP_COLOURS = { land: "#121214", water: "#0C1820", park: "#131916", building: "#1B1B1E", minor: "#26262A", major: "#35353B",
   motorway: "#45454D", casing: "#121214", rail: "#2A2A2F", label: "#85858E", halo: "#121214" };
+/** Credits both the state data and the aerial photos; MapLibre shows a repeated credit once. */
+const QLD = "© <a href=\"https://www.data.qld.gov.au\" target=\"_blank\">State of Queensland</a>, CC BY 4.0";
+/** Queensland Government's latest public aerial photography, as ArcGIS tiles (z/y/x). */
+const AERIAL_TILES = "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/tile/{z}/{y}/{x}";
+const AERIAL_ICON = `<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true">
+  <path d="M12 3 2 8l10 5 10-5-10-5Z"/><path d="m2 13 10 5 10-5"/></svg>`;
 
 const $ = <T extends Element = HTMLElement>(html: string) => {
   const t = document.createElement("template");
@@ -191,6 +197,15 @@ async function main(root: HTMLElement) {
   const caption = root.appendChild($(`<div class="caption"></div>`));
   const sheet = root.appendChild($(`<section class="sheet" aria-live="polite"></section>`));
 
+  let aerial = (() => { try { return localStorage.getItem("aerial") === "1"; } catch { return false; } })();
+  const aerialBtn = root.appendChild($(`<button class="layer-toggle" aria-pressed="${aerial}" aria-label="Aerial view" title="Aerial view">${AERIAL_ICON}</button>`));
+  aerialBtn.onclick = () => {
+    aerial = !aerial;
+    aerialBtn.setAttribute("aria-pressed", String(aerial));
+    if (map.getLayer("aerial")) map.setLayoutProperty("aerial", "visibility", aerial ? "visible" : "none");
+    try { localStorage.setItem("aerial", aerial ? "1" : "0"); } catch { /* private mode: the choice just isn't remembered */ }
+  };
+
   for (const w of presets) {
     const b = top.appendChild($(`<button class="plate" aria-pressed="${w === win}">${w.title}<small>${w.sub}</small></button>`));
     b.onclick = () => {
@@ -210,12 +225,14 @@ async function main(root: HTMLElement) {
     fitBoundsOptions: { padding: { top: 110, bottom: 60, left: 30, right: 20 } },
     // The tiles credit OpenFreeMap, OpenMapTiles and OpenStreetMap; these credit the data parkup adds.
     attributionControl: { compact: true, customAttribution: [
-      "Kerb data derived from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a>, <a href=\"https://opendatacommons.org/licenses/odbl/\" target=\"_blank\">ODbL</a>",
-      "Parking signs and toilets © <a href=\"https://data.brisbane.qld.gov.au\" target=\"_blank\">Brisbane City Council</a>, CC BY 4.0",
-      "Toilets from the <a href=\"https://toiletmap.gov.au\" target=\"_blank\">National Public Toilet Map</a>",
-      "© State of Queensland, CC BY 4.0",
+      "Kerbs from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OSM</a>, ODbL",
+      "Signs, toilets © <a href=\"https://data.brisbane.qld.gov.au\" target=\"_blank\">Brisbane City Council</a>, CC BY 4.0",
+      "Toilets: <a href=\"https://toiletmap.gov.au\" target=\"_blank\">National Public Toilet Map</a>",
+      QLD,
     ] },
   });
+  // MapLibre opens compact credits until the first drag; start them folded behind the ⓘ instead.
+  map.once("load", () => mapEl.querySelector(".maplibregl-ctrl-attrib")?.classList.remove("maplibregl-compact-show"));
 
   const features = (of: Candidate[], geometry: (c: Candidate) => Geometry) => ({
     type: "FeatureCollection" as const,
@@ -239,6 +256,15 @@ async function main(root: HTMLElement) {
 
   map.on("load", () => {
     recolour(map);
+    // Aerial photos over the basemap but under its labels, for checking a kerb by eye; hidden until toggled on.
+    const labels = map.getStyle().layers.filter((l) => l.type === "symbol").map((l) => l.id);
+    // Only fetch photos around the candidates, with about 500 m to spare.
+    const pad = 0.005;
+    map.addSource("aerial", { type: "raster", tileSize: 256, maxzoom: 20, tiles: [AERIAL_TILES],
+      bounds: [bounds[0][0] - pad, bounds[0][1] - pad, bounds[1][0] + pad, bounds[1][1] + pad],
+      attribution: QLD });
+    map.addLayer({ id: "aerial", type: "raster", source: "aerial", layout: { visibility: aerial ? "visible" : "none" } });
+    for (const id of labels) map.moveLayer(id);
     addToiletLayer(map);
     map.addSource("kerbs", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
     map.addSource("dots", { type: "geojson", data: { type: "FeatureCollection", features: [] } });

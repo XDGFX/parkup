@@ -62,6 +62,13 @@ button:focus-visible, a:focus-visible { outline: 3px solid var(--warn); outline-
 .caption { position: absolute; top: calc(80px + var(--safe-t)); left: 0; right: 0; z-index: 5; text-align: center; pointer-events: none;
   font: 500 11px var(--body); color: var(--muted); text-shadow: 0 1px 6px var(--ink); }
 
+/* Aerial view toggle: etched glass like the idle plates, lit warm when on */
+.layer-toggle { position: absolute; top: calc(104px + var(--safe-t)); right: 12px; z-index: 5; display: grid; place-items: center;
+  width: 40px; height: 40px; padding: 0; border-radius: 12px; color: rgba(244, 244, 245, .85);
+  background: rgba(17, 17, 19, .55); border: 1.5px solid rgba(255, 255, 255, .28); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  transition: background .2s, color .2s; }
+.layer-toggle[aria-pressed="true"] { background: var(--dusk); color: #1C120D; border-color: transparent; }
+
 .sheet { position: absolute; left: 8px; right: 8px; bottom: 8px; z-index: 6; max-height: 72%; display: flex; flex-direction: column; overflow: hidden;
   border-radius: 28px; padding: 12px 20px calc(12px + var(--safe-b)); color: var(--text);
   background: var(--surface); backdrop-filter: blur(26px) saturate(1.5); -webkit-backdrop-filter: blur(26px) saturate(1.5);
@@ -115,8 +122,10 @@ ul.flags li::before { border-radius: 1px; transform: rotate(45deg); border-color
 .pulse { width: 16px; height: 16px; border-radius: 50%; border: 2px solid #fff; background: var(--c); animation: pulse 1.8s ease-out infinite; }
 @keyframes pulse { from { box-shadow: 0 0 0 0 color-mix(in srgb, var(--c) 70%, transparent); } to { box-shadow: 0 0 0 26px transparent; } }
 
-.maplibregl-ctrl-attrib { font-size: 10px; background: rgba(17, 17, 19, .6) !important; color: var(--muted); }
-.maplibregl-ctrl-attrib a { color: var(--muted); }
+.maplibregl-ctrl-attrib, .maplibregl-ctrl-attrib.maplibregl-compact { font-size: 11px; line-height: 1.5; background: var(--surface) !important; color: var(--muted);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+.maplibregl-ctrl-attrib.maplibregl-compact-show { max-width: calc(100vw - 20px); padding: 6px 30px 6px 10px; border-radius: 12px; }
+.maplibregl-ctrl-attrib a { color: var(--text); }
 .maplibregl-ctrl-attrib-button { filter: invert(1) opacity(.6); }
 
 @media (prefers-reduced-motion: reduce) {
