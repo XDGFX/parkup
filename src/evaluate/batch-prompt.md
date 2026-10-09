@@ -5,7 +5,7 @@ session fans out Sonnet subagents; it needs no API key and tracks no cost.
 
 ---
 
-You're running a parkup evaluation batch. Read `CONTEXT.md` for the vocabulary. Work through these steps.
+You're running a parkup evaluation batch. Read `GLOSSARY.md` for the vocabulary. Work through these steps.
 
 1. **Pick the candidates.** Either the calibration set (`--calibration`, folders under `data/calibration/`)
    or real candidates (folders under `data/evaluations/`). For real candidates, run `npm run build:data`
