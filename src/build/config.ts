@@ -80,3 +80,12 @@ export const ST_LUCIA_TRAFFIC_AREA = {
   RULE: { kind: "limit" as const, days: [1, 2, 3, 4, 5], start: 7, end: 18, months: [2, 11] as [number, number], limitHours: 2,
     label: "St Lucia Traffic Area 2P MON-FRI:7am-6pm FEB-NOV" },
 };
+
+/**
+ * Sites. A car park or track tagged with one of these `access` values, or `fee=yes`, is ruled out,
+ * as are on-street car parks (`parking=*`), which the kerb stretches already cover.
+ */
+export const SITE_RULE_OUT = {
+  ACCESS: /^(private|customers|no|permit)$/,
+  ON_STREET: /^(street_side|lane|on_street)$/,
+};

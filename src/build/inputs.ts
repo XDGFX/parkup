@@ -52,3 +52,18 @@ export type ToiletRecord = {
   /** Free text, such as "OPEN: Daylight hours", "OPEN: 24 hours" or "OPEN: Mon-Fri 6am-10pm". */
   openinghours: string | null;
 };
+
+/** An OSM car park (`amenity=parking`): an outline (a way, or a multipolygon's outer rings) or, for a node, a point. */
+export type OsmArea = { type: "node" | "way" | "relation"; id: number; tags: Record<string, string>; rings: [lon: number, lat: number][][] | null; lon?: number; lat?: number };
+
+/** A line from BCC "Park — Tracks and Trails": `ACCESS ROAD`, `MULTI-USE ACCESS` or `MANAGEMENT ACCESS ONLY`. */
+export type TrailLine = { id: string; itemType: string; park: string | null; description: string | null; coords: [lon: number, lat: number][] };
+
+/** A track from QLD Roads and Tracks, for its `trafficability` (such as "4WD"). */
+export type QldTrack = { trafficability: string | null; surface: string | null; coords: [lon: number, lat: number][] };
+
+/** A QLD cadastre point query at a site's point. Road parcels have no tenure and a "Road Type Parcel" type. */
+export type Parcel = { lon: number; lat: number; lotplan: string | null; tenure: string | null; parcelType: string | null };
+
+/** A BCC Council Vegetation polygon: land the council owns or controls. */
+export type CouncilLand = { rings: [lon: number, lat: number][][] };

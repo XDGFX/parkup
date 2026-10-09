@@ -3,16 +3,19 @@ import type { Rule } from "../timetable/timetable.ts";
 import type { Compass, LonLat } from "./geo.ts";
 import type { ToiletRecord } from "./inputs.ts";
 import { buildKerbs, type KerbInput, type KerbReport, type Stretch } from "./kerbs.ts";
+import { buildSites, type SiteInput, type SiteKind } from "./sites.ts";
 import { maxStayHours, passesDaytime, passesOvernight } from "./screen.ts";
 import { nearestToilets, type NearestToilet, type Toilet } from "./toilets.ts";
 
 export type Candidate = {
   id: string;
-  kind: "kerb";
+  kind: "kerb" | SiteKind;
+  /** The street a kerb is on, or a site's name. */
   street: string;
   suburb: string;
-  /** The compass side of the street the kerb is on. */
-  side: Compass;
+  /** The compass side of the street the kerb is on. Null for a site. */
+  side: Compass | null;
+  /** A kerb's line, a car park's outline (a closed ring), or an off-road site's single point. */
   line: LonLat[];
   lengthM: number;
   rules: Rule[];
@@ -48,7 +51,7 @@ export type BuildReport = Omit<KerbReport, "unparsed"> & {
   unparsed: UnparsedOutcome[];
 };
 
-export type BuildInput = KerbInput & { toilets?: ToiletRecord[]; /** Off in tests that only look at plate reading. */ screen?: boolean };
+export type BuildInput = KerbInput & SiteInput & { toilets?: ToiletRecord[]; /** Off in tests that only look at plate reading. */ screen?: boolean };
 
 export const UNREADABLE = "Unreadable sign: it may restrict parking here";
 
@@ -67,6 +70,7 @@ function screen(s: Stretch): { outcome: Outcome; rules: Rule[] } {
 
 export function build({ screen: screening = true, toilets = [], ...input }: BuildInput): { candidates: Candidate[]; toilets: Toilet[]; report: BuildReport } {
   const { stretches, report } = buildKerbs(input);
+  const sites = buildSites(input);
   const candidates: Candidate[] = [];
   const outcomes = new Map(report.unparsed.map((u) => [u.text, { ...u, dropped: 0, normal: 0, unreadable: 0 }]));
   let failsScreen = 0;
@@ -96,8 +100,19 @@ export function build({ screen: screening = true, toilets = [], ...input }: Buil
       toilet: null,
     });
   }
-  // Best frontage first; then a stable order by street, side and position along the kerb.
-  candidates.sort((a, b) => (a.tier ?? 4) - (b.tier ?? 4) || a.street.localeCompare(b.street) || a.id.localeCompare(b.id, undefined, { numeric: true }));
+  for (const s of sites) {
+    const rules = s.rules, overnight = passesOvernight({ rules }), daytime = passesDaytime({ rules });
+    candidates.push({
+      id: s.id, kind: s.kind, street: s.name, suburb: "", side: null, line: s.line, lengthM: 0,
+      rules, plates: s.plates, cautions: s.cautions, lowConfidence: false,
+      overnight, daytime, dayOnly: daytime && !overnight, maxStayHours: maxStayHours({ rules }),
+      frontage: null, tier: null, toilet: null,
+    });
+  }
+  // Best frontage first, untagged car parks after the rest of their tier; then a stable order by street, side and position along the kerb.
+  const unknownAccess = new Set(sites.filter((s) => !s.accessKnown).map((s) => s.id));
+  const demoted = (c: Candidate) => (unknownAccess.has(c.id) ? 1 : 0);
+  candidates.sort((a, b) => (a.tier ?? 4) - (b.tier ?? 4) || demoted(a) - demoted(b) || a.street.localeCompare(b.street) || a.id.localeCompare(b.id, undefined, { numeric: true }));
   const { nearest, layer } = nearestToilets(candidates.map((c) => c.line), toilets);
   candidates.forEach((c, i) => (c.toilet = nearest[i]!));
   const tierCount = (t: Candidate["tier"]) => candidates.filter((c) => c.tier === t).length;
