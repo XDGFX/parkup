@@ -1,0 +1,66 @@
+{
+  "candidate": "54625067-54625075-15703471-r-52",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a vacant lot; homes 12-17 m away and steep.",
+  "reasons": [
+    "Backs onto vacant lot",
+    "Homes 12-17 m away",
+    "Steep, about 9% grade"
+  ],
+  "drivers": {
+    "seclusion": "Vacant lot behind the kerb; nearest dwelling 17 m, next 7 m beyond 20 m.",
+    "access_and_room": "Plain kerb, narrow edge by a low wall; cars park further east, so room is limited.",
+    "traffic": "Quiet suburban street; cars park along the south side to the east.",
+    "convention": "No signs on this stretch; neighbours' cars park nearby."
+  },
+  "flags": [
+    "Steep: about 9% grade",
+    "Dwelling 7 m from the east end",
+    "No stopping signs on adjoining stretches"
+  ],
+  "sun_shade": "Open to the north and midday sun; trees shade the west edge.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "South kerb of Finney Road beside the vacant grassed lot",
+    "slope_pct": 9.5,
+    "points": [
+      [
+        152.969013,
+        -27.501398
+      ],
+      [
+        152.969153,
+        -27.50142
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 9.5,
+    "min_elevation_m": 33.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

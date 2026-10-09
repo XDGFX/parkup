@@ -1,0 +1,67 @@
+{
+  "candidate": "21616878-60666439-24229158-l-34",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb stretch where cars park, but apartments sit 13 m away.",
+  "reasons": [
+    "Apartments 13 m on same side",
+    "Cars park along this kerb",
+    "Only 16 m long"
+  ],
+  "drivers": {
+    "seclusion": "Apartment block 13 m away on the same side, more flats nearby; dense urban.",
+    "access_and_room": "Kerbside lane with parked cars; a van fits only if a space is free.",
+    "traffic": "Quiet street near a junction; some through traffic.",
+    "convention": "Cars park along both kerbs, though a passenger loading zone sign sits nearby."
+  },
+  "flags": [
+    "Steep: about 4% grade, max 7%",
+    "Loading zone sign 11 m from kerb line",
+    "Apartments within 13 m"
+  ],
+  "sun_shade": "Open kerb; trees to the south-east give some morning shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "Foxton Street east kerb, just south of the junction",
+    "slope_pct": 4.3,
+    "points": [
+      [
+        152.972923,
+        -27.502163
+      ],
+      [
+        152.972918,
+        -27.502191
+      ],
+      [
+        152.972896,
+        -27.502302
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 3.4,
+    "min_elevation_m": 36.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

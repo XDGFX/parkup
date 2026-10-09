@@ -1,0 +1,65 @@
+{
+  "candidate": "54625075-714281555-15703471-l-106",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy kerb in front of townhouses, 11 m away; cars park here.",
+  "reasons": [
+    "Townhouses 11 m from kerb",
+    "Cars parked along the kerb",
+    "Moderate slope, about 7%"
+  ],
+  "drivers": {
+    "seclusion": "Townhouse frontage 11 m behind the kerb; more homes across the road at 21 m and beyond.",
+    "access_and_room": "Plain kerb on a wide road with parking lanes on both sides; room is fine.",
+    "traffic": "Wide, busy through road; cars parked along both kerbs.",
+    "convention": "Cars park here, but two no-parking signs apply at specified times."
+  },
+  "flags": [
+    "Steep: about 7% grade",
+    "No parking signs, times not recorded",
+    "Dwelling 11 m from the kerb",
+    "Traffic noise"
+  ],
+  "sun_shade": "Mostly open; palms and trees on the north side give light morning shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Sign times"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 25,
+    "where": "North kerb of Finney Road in front of the townhouse row",
+    "slope_pct": 6.7,
+    "points": [
+      [
+        152.970766,
+        -27.501572
+      ],
+      [
+        152.971014,
+        -27.501607
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 6.6,
+    "min_elevation_m": 33.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

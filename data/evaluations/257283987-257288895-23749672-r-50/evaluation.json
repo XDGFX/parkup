@@ -1,0 +1,65 @@
+{
+  "candidate": "257283987-257288895-23749672-r-50",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb at the street's low point, nearest houses about 26 m away.",
+  "reasons": [
+    "Nearest mapped buildings about 26 m away",
+    "Flat: about 1% grade",
+    "Cars park along this street"
+  ],
+  "drivers": {
+    "seclusion": "Deep gardens and trees on the south side; houses 24-26 m from the kerb, more across the road.",
+    "access_and_room": "Sealed street with parked cars; room to stop at the kerb.",
+    "traffic": "Quiet residential street, little through traffic.",
+    "convention": "Cars park along the street, so a van blends in."
+  },
+  "flags": [
+    "Low-lying: lowest point 7.2 m, Brisbane River 181 m away",
+    "Houses at about 24-26 m, borderline",
+    "Mapped gate 110 m away has a way round",
+    "Steep either side (max about 14%)"
+  ],
+  "sun_shade": "Heavy tree shade from the south and west, with open sky to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Flood history of the low point"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 102,
+    "to_m": 126,
+    "where": "South kerb at the flat low point, beside trees and gardens",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.983605,
+        -27.509767
+      ],
+      [
+        152.983844,
+        -27.509805
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 7.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

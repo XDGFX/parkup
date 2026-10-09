@@ -1,0 +1,65 @@
+{
+  "candidate": "54625067-54625075-15703471-l-90",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short 14 m kerb with a house 8 m away and steep grade.",
+  "reasons": [
+    "Dwelling 8 m from kerb",
+    "Very steep, about 10%",
+    "No-stopping signs at peak times"
+  ],
+  "drivers": {
+    "seclusion": "Mapped dwelling 8 m from the kerb and more homes within 20 m; rules it out.",
+    "access_and_room": "Road kerb with a narrow verge; only 14 m long, barely a van length.",
+    "traffic": "Suburban through road with cars parked opposite.",
+    "convention": "Cars park nearby, but signed no stopping 7-9am and 4-6pm weekdays."
+  },
+  "flags": [
+    "Steep: about 10% grade",
+    "House within 10 m",
+    "No stopping 7-9am, 4-6pm Mon-Fri"
+  ],
+  "sun_shade": "Heavy tree canopy on the north side; shaded much of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "North kerb of Finney Road, in front of the house at the bend",
+    "slope_pct": 10.2,
+    "points": [
+      [
+        152.96941,
+        -27.501368
+      ],
+      [
+        152.969549,
+        -27.50139
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 10.2,
+    "min_elevation_m": 29.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

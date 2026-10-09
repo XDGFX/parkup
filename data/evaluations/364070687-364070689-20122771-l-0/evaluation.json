@@ -1,0 +1,68 @@
+{
+  "candidate": "364070687-364070689-20122771-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Bush-lined dirt track end off Dobell Street, homes 16 m or more away.",
+  "reasons": [
+    "Treed dirt track, dwellings 16 m or more",
+    "Steep descent, about 6.5% grade",
+    "Narrow, little room to pull off"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush both sides; nearest dwellings 16 m north and 38 m south at this end.",
+    "access_and_room": "Bare dirt track reaches this end; narrow with trees close, little room to pull off.",
+    "traffic": "Almost none; serves a few driveways.",
+    "convention": "No vehicles or campers seen; no sign of overnight use."
+  },
+  "flags": [
+    "Steep: mean 6.3%, max 10.7% grade",
+    "House 10 m from the track at 21 m",
+    "Access unclear: no tyre tracks visible under tree canopy"
+  ],
+  "sun_shade": "Heavy tree canopy covers the whole section; mostly shaded all day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "whether the track is a public road",
+    "surface condition",
+    "street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "east end of the dirt track, where it leaves the house driveways",
+    "slope_pct": 6.5,
+    "points": [
+      [
+        152.962588,
+        -27.514833
+      ],
+      [
+        152.962574,
+        -27.514835
+      ],
+      [
+        152.962468,
+        -27.514851
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 6.6,
+    "min_elevation_m": 12.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

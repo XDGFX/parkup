@@ -1,0 +1,66 @@
+{
+  "candidate": "364070687-364070689-20122771-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "off-road site",
+  "summary": "Narrow treed dirt track end with houses 7-11 m away at both ends.",
+  "reasons": [
+    "Houses 8-11 m from track at both ends",
+    "No clear room to pull off",
+    "Steep, 5.3% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Bush around the middle; dwellings 17-20 m at its edges and 7-11 m beyond.",
+    "access_and_room": "Bare dirt and canopy only; narrow, no visible tyre tracks or pull-off.",
+    "traffic": "Almost none; serves a few driveways.",
+    "convention": "No vehicles or campers seen."
+  },
+  "flags": [
+    "Dwelling within 10 m at both ends",
+    "Steep: mean 5.3%, max 8% grade",
+    "Access unclear under tree canopy"
+  ],
+  "sun_shade": "Dense tree canopy shades the whole section most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "whether the track is a public road",
+    "surface condition",
+    "street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 35,
+    "to_m": 52,
+    "where": "middle of the bush-lined dirt track between the two houses",
+    "slope_pct": 5.5,
+    "points": [
+      [
+        152.962224,
+        -27.514815
+      ],
+      [
+        152.962054,
+        -27.514841
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 6.1,
+    "min_elevation_m": 10.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "54626342-257253428-23748771-l-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet street of large homes; flattest stretch has houses 13-17 m off.",
+  "reasons": [
+    "Homes 13-17 m away on both sides",
+    "Few cars parked along the kerb",
+    "Level only near the 125-138 m mark"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 13-17 m away on the south side, others across the road; no open buffer.",
+    "access_and_room": "Sealed street with room at the kerb; a few cars park on the north side.",
+    "traffic": "Quiet residential street, local traffic only.",
+    "convention": "Some cars parked in the street, but no sign of overnight stays."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Steep elsewhere: mean 6.6%, max 16.8%; best section nearly flat",
+    "Low-lying: 8-16 m, Sandy Creek 91 m away"
+  ],
+  "sun_shade": "Open kerb; street trees on the north side give some midday shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Parking signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 125,
+    "to_m": 138,
+    "where": "South kerb of Garema Street, about 125 m west of the Moggill Road junction",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        152.988858,
+        -27.504902
+      ],
+      [
+        152.988728,
+        -27.504883
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 14.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "364070689-364070690-32340793-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Cul-de-sac head on Elmira Street, houses 14-22 m all round.",
+  "reasons": [
+    "Dwellings 14-22 m away all round",
+    "Cul-de-sac, little through traffic",
+    "Steep approach, 10% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 14-22 m away on every side; the end of the street is overlooked.",
+    "access_and_room": "Sealed cul-de-sac with turning space; a few cars parked.",
+    "traffic": "Dead-end street, very little traffic.",
+    "convention": "Residents park on the street; no sign of overnight vans."
+  },
+  "flags": [
+    "Steep: mean 10.1%, max 19.6% grade; flatter near the south end",
+    "Homes within about 25 m all round",
+    "House 10 m from kerb at the north end"
+  ],
+  "sun_shade": "Tree canopy over the middle and east side; open to the west and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "kerb height",
+    "resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 33,
+    "where": "east kerb at the southern turning head of Elmira Street",
+    "slope_pct": 4.8,
+    "points": [
+      [
+        152.96197,
+        -27.515201
+      ],
+      [
+        152.961991,
+        -27.515316
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 5.8,
+    "min_elevation_m": 12.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

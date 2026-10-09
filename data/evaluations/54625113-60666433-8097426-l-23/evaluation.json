@@ -1,0 +1,64 @@
+{
+  "candidate": "54625113-60666433-8097426-l-23",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short 10 m kerb on Goldieslie Road with homes 13-14 m away.",
+  "reasons": [
+    "Two homes 13-14 m away, own side",
+    "Cars park here; street is residential",
+    "Slope about 5%, steep"
+  ],
+  "drivers": {
+    "seclusion": "Homes on the same side 13-14 m away, with trees between the kerb and the houses.",
+    "access_and_room": "Sealed street, cars parked on both sides; only 10 m of kerb, a tight fit for a van.",
+    "traffic": "Residential street near a junction, light traffic.",
+    "convention": "Cars park along both sides, so a van would not stand out much."
+  },
+  "flags": [
+    "Steep: about 5.5% grade",
+    "Only 10 m of kerb, close to a junction",
+    "Dwellings 13-14 m away on the section's own side"
+  ],
+  "sun_shade": "Trees on the north side give partial shade; open to sun otherwise.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether a 7 m van fits between driveways"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "North kerb just past the junction, in front of the dark-roofed house",
+    "slope_pct": 5.5,
+    "points": [
+      [
+        152.966452,
+        -27.502373
+      ],
+      [
+        152.966542,
+        -27.502404
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 5.5,
+    "min_elevation_m": 38.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

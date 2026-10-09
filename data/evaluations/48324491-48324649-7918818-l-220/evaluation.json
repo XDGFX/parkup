@@ -1,0 +1,65 @@
+{
+  "candidate": "48324491-48324649-7918818-l-220",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short residential kerb with homes 9-11 m away, same side.",
+  "reasons": [
+    "Dwellings 9-11 m from kerb",
+    "Only 20 m of kerb",
+    "Houses front the kerb directly"
+  ],
+  "drivers": {
+    "seclusion": "Three mapped dwellings sit 9-11 m from the kerb on this side, with more behind; the whole stretch is in front of homes.",
+    "access_and_room": "Wide sealed street with a car parked at the kerb; room for a van to stop.",
+    "traffic": "Quiet suburban street; local traffic only.",
+    "convention": "Residents park along both kerbs; no sign of overnight stays."
+  },
+  "flags": [
+    "Dwellings 9-11 m away on same side",
+    "Only 20 m of kerb, barely over a van length"
+  ],
+  "sun_shade": "Open to the sun; a large tree shades the north side of the street, not the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Parking restrictions not shown by the screen"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "South kerb of Gladstone Street, in front of the low-set houses",
+    "slope_pct": 2.1,
+    "points": [
+      [
+        152.969071,
+        -27.495544
+      ],
+      [
+        152.968871,
+        -27.495514
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 42.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

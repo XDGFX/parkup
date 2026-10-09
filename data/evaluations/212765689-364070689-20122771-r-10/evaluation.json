@@ -1,0 +1,65 @@
+{
+  "candidate": "212765689-364070689-20122771-r-10",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb near the corner, with homes 17-26 m away.",
+  "reasons": [
+    "Nearest dwellings 17 m or more",
+    "Homes all round within 25 m",
+    "Quiet street, no parking convention"
+  ],
+  "drivers": {
+    "seclusion": "Homes 17 m (north, across road) and 26 m (west) from this section; houses close all round.",
+    "access_and_room": "Sealed street with kerb; a few cars park along it, room for a van.",
+    "traffic": "Quiet local street.",
+    "convention": "Some cars parked nearby but no sign of overnight stays."
+  },
+  "flags": [
+    "Homes within about 25 m all round",
+    "Low-lying: min 7.2 m, Cubberla Creek 169 m"
+  ],
+  "sun_shade": "Dense tree canopy on the south side, shading it in the afternoon; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "kerb height",
+    "resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "south kerb at the western corner of Dobell Street, before the first house",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        152.961009,
+        -27.515069
+      ],
+      [
+        152.961129,
+        -27.515052
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 7.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

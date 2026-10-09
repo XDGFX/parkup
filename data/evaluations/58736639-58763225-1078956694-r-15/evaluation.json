@@ -1,0 +1,64 @@
+{
+  "candidate": "58736639-58763225-1078956694-r-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow residential kerb, homes 12-19 m on this side, flat in the lower half.",
+  "reasons": [
+    "Homes 12-19 m away on this side",
+    "Cars park along both kerbs",
+    "Flat from 15 to 45 m"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 12-19 m from the kerb on this side, more homes opposite.",
+    "access_and_room": "Sealed narrow street; cars park on both kerbs, so a van would take a space in the line.",
+    "traffic": "Quiet residential street with light local traffic.",
+    "convention": "Several cars parked along the kerb, so a van would not stand out."
+  },
+  "flags": [
+    "Steep above 55 m: 7.6% mean, 19% max",
+    "No Stopping signs mapped near the corner",
+    "Dwellings 12 m away at 18 m along"
+  ],
+  "sun_shade": "Garden trees shade the kerb from the east in the morning; open to the afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact extent of the No Stopping zone"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 22,
+    "to_m": 45,
+    "where": "East kerb of Fairley Street, a short way up from the corner",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.980999,
+        -27.499793
+      ],
+      [
+        152.981039,
+        -27.499589
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 17.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

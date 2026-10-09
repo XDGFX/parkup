@@ -1,0 +1,67 @@
+{
+  "candidate": "591519815-4920414438-23240661-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep cul-de-sac kerb with homes 12-14 m away on the same side.",
+  "reasons": [
+    "Grade about 13%, above 12% limit",
+    "Homes 12-14 m away, same side",
+    "Residential cul-de-sac, very exposed"
+  ],
+  "drivers": {
+    "seclusion": "Gardens and houses back straight onto the kerb, 12-14 m away on this side and more all round.",
+    "access_and_room": "Sealed street with a van-sized kerb, but a steep fall of about 13% along the whole section.",
+    "traffic": "Quiet cul-de-sac; local traffic only.",
+    "convention": "Residents park along the kerb, but there is no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 13% grade, over the 12% limit",
+    "Dwellings 12-14 m away on same side",
+    "Witton Creek 23 m away; ground is 38-44 m, not low-lying"
+  ],
+  "sun_shade": "Mostly open, with trees at the western side giving some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 40,
+    "where": "West kerb at the head of Gilia Court's cul-de-sac bulb",
+    "slope_pct": 13.4,
+    "points": [
+      [
+        152.960412,
+        -27.494819
+      ],
+      [
+        152.960484,
+        -27.494762
+      ],
+      [
+        152.960575,
+        -27.494504
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 14.1,
+    "min_elevation_m": 38.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

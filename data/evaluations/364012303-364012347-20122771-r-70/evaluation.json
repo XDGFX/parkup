@@ -1,0 +1,70 @@
+{
+  "candidate": "364012303-364012347-20122771-r-70",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential south kerb, nearest homes 21 m away at the west end.",
+  "reasons": [
+    "Dwellings 21 m or more at west end",
+    "Homes within 25 m all round",
+    "Cars park along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwelling 21 m behind the kerb; house at 10 m starts beyond 10 m along; homes opposite.",
+    "access_and_room": "Sealed street, cars parked along the kerb; room for a van.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park along this kerb, no sign of overnight vans."
+  },
+  "flags": [
+    "Homes within about 25 m all round",
+    "Steep: mean 4.6%, max 6.8% grade",
+    "House 10 m from kerb from 12 m onward"
+  ],
+  "sun_shade": "Large tree to the north-west shades the west end in the morning; open to the sky otherwise.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "kerb height",
+    "resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 8,
+    "where": "south kerb of Dobell Street, in front of the open grassed lot",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.957625,
+        -27.515509
+      ],
+      [
+        152.957656,
+        -27.515507
+      ],
+      [
+        152.957706,
+        -27.515504
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 3.4,
+    "min_elevation_m": 13,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

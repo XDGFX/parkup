@@ -1,0 +1,63 @@
+{
+  "candidate": "257271248-257286050-23749656-l-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb with park-side trees; homes 15-20 m away on the same side.",
+  "reasons": [
+    "Homes 14-19 m away, same side",
+    "Bush and parkland across the road",
+    "Cars park here; flat grade"
+  ],
+  "drivers": {
+    "seclusion": "North side is trees and parkland; south side has hedged gardens with homes about 14-19 m away.",
+    "access_and_room": "Open sealed street with a car parked at the kerb; room for a van beside the lane.",
+    "traffic": "Quiet side street just off a busy road; little through traffic.",
+    "convention": "Cars park on this stretch, but a school no-stopping window applies 2-4 pm on school days."
+  },
+  "flags": [
+    "School no-stopping window 2-4 pm school days",
+    "Dwellings 14-19 m away on same side",
+    "Slope under 1% at best section"
+  ],
+  "sun_shade": "Heavy tree shade over the road from the north; some sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 70,
+    "where": "First straight east of the main road, under trees, with a hedged garden opposite the bush",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        152.987732,
+        -27.508854
+      ],
+      [
+        152.987328,
+        -27.50883
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 9.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

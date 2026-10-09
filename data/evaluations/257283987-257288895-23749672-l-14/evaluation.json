@@ -1,0 +1,65 @@
+{
+  "candidate": "257283987-257288895-23749672-l-14",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb with deep front gardens; houses over 25 m away, cars park nearby.",
+  "reasons": [
+    "Nearest mapped buildings 27 m or more away",
+    "Flat: under 1% grade",
+    "Cars park along this street"
+  ],
+  "drivers": {
+    "seclusion": "Large lots with deep front gardens and hedges; houses 27-34 m from the kerb.",
+    "access_and_room": "Sealed street, parked cars visible, room to stop at kerb.",
+    "traffic": "Quiet residential street, little through traffic.",
+    "convention": "Cars park along the street, so a van blends in."
+  },
+  "flags": [
+    "Low-lying: lowest point 7.2 m, Brisbane River 189 m away",
+    "Mapped gate 104 m away has a way round",
+    "Steep either side of the best section (max about 17%)",
+    "Houses on south side may be close to 25 m"
+  ],
+  "sun_shade": "Part shade from street trees and front-garden planting on both sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Flood history of the low point"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 118,
+    "to_m": 148,
+    "where": "Flat low point of Glencairn Avenue, north kerb",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        152.983512,
+        -27.509679
+      ],
+      [
+        152.983811,
+        -27.509727
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 7.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

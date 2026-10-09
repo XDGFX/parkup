@@ -1,0 +1,48 @@
+{
+  "candidate": "58736639-60667417-1079204351-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short corner kerb at a junction, too steep, with no stopping signs.",
+  "reasons": [
+    "12.5% mean grade, over the limit",
+    "At a junction mouth, 14 m long",
+    "Four No Stopping signs mapped"
+  ],
+  "drivers": {
+    "seclusion": "School 19 m away, a house beyond; building site beside the corner.",
+    "access_and_room": "Kerb right at the Fairley/Ward junction; less than a van length once the corner is clear.",
+    "traffic": "Junction of two through streets, busy with turning traffic.",
+    "convention": "Cars park further down the street, not at this corner."
+  },
+  "flags": [
+    "Steep: 12.5% mean, 18% max",
+    "No Stopping Any Time signs at the corner",
+    "Short: only 14 m"
+  ],
+  "sun_shade": "Open to sun; tree cover to the west.",
+  "rubbish": "Building materials in the adjoining plot, not dumping.",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 27,
+    "gated": false,
+    "slope_pct": 12.5,
+    "min_elevation_m": 20.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

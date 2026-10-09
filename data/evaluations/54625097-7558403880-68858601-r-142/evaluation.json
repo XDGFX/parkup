@@ -1,0 +1,66 @@
+{
+  "candidate": "54625097-7558403880-68858601-r-142",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Plain kerb opposite a car park; homes 13-15 m behind.",
+  "reasons": [
+    "Car park and retail opposite",
+    "Homes 13-15 m behind kerb",
+    "Gentle slope, about 3%"
+  ],
+  "drivers": {
+    "seclusion": "Houses 13 m and 10 m away just beyond this section; car park and wall across the road.",
+    "access_and_room": "Plain kerb on a wide road; cars park along the kerb, room for a van.",
+    "traffic": "Through road near a junction at the east end; quiet at night.",
+    "convention": "No signs; cars parked along both kerbs, plain kerb."
+  },
+  "flags": [
+    "Dwellings 10-13 m on own side",
+    "Slope about 3%",
+    "Junction and road noise"
+  ],
+  "sun_shade": "Mostly open; trees at the west end shade the morning side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 18,
+    "to_m": 30,
+    "where": "South kerb of Finney Road opposite the large car park",
+    "slope_pct": 2.8,
+    "points": [
+      [
+        152.967766,
+        -27.501198
+      ],
+      [
+        152.967886,
+        -27.501216
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 4.8,
+    "min_elevation_m": 37.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

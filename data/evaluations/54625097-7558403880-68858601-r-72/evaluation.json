@@ -1,0 +1,64 @@
+{
+  "candidate": "54625097-7558403880-68858601-r-72",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb under trees; car yards opposite, homes 15-20 m behind.",
+  "reasons": [
+    "Flat, under 1% grade",
+    "Car yards and shops opposite",
+    "Homes 15-20 m behind kerb"
+  ],
+  "drivers": {
+    "seclusion": "Dense trees and a vacant bush strip behind; nearest dwellings about 15-20 m away, set back.",
+    "access_and_room": "Plain kerb on a through road; cars park along it, so a van fits at the kerb.",
+    "traffic": "Moderate through traffic; commercial car parks across the road, quiet at night.",
+    "convention": "No signs here and a parked car at the west end; plain kerb, no overnight convention."
+  },
+  "flags": [
+    "Dwellings 12-20 m on own side",
+    "Mapped car parks within 18 m",
+    "Road noise"
+  ],
+  "sun_shade": "Heavy tree canopy shades the section from the south all day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 18,
+    "to_m": 34,
+    "where": "South kerb of Finney Road, under the big trees opposite the car yard",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.967074,
+        -27.501096
+      ],
+      [
+        152.967234,
+        -27.501119
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 0.9,
+    "min_elevation_m": 32.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

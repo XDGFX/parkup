@@ -1,0 +1,72 @@
+{
+  "candidate": "257271249-257286050-23749179-r-15",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside open parkland with treed bank behind; nearest home about 34 m.",
+  "reasons": [
+    "Parkland across; trees on this side",
+    "Nearest dwelling 34 m on this section",
+    "Cars park here; gentle grade"
+  ],
+  "drivers": {
+    "seclusion": "Dense trees on the north bank and open park opposite; homes 34 m or more away.",
+    "access_and_room": "Open sealed road bending beside the park; cars park on the kerb here.",
+    "traffic": "Quiet residential street next to a park; little through traffic.",
+    "convention": "Several cars parked along this stretch in both images; school no-stopping window 2-4 pm on school days."
+  },
+  "flags": [
+    "School no-stopping window 2-4 pm school days",
+    "Building site beside the road at about 40-60 m",
+    "Slope 1.6% at best section"
+  ],
+  "sun_shade": "Heavy tree shade over the section from the north bank; open sky to the south over the park.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Construction noise or hours at the building site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 100,
+    "where": "North kerb on the bend beside the park, below the wooded bank",
+    "slope_pct": 1.6,
+    "points": [
+      [
+        152.987494,
+        -27.508271
+      ],
+      [
+        152.987438,
+        -27.508259
+      ],
+      [
+        152.987362,
+        -27.508228
+      ],
+      [
+        152.987149,
+        -27.508022
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 35,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 11.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

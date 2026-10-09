@@ -1,0 +1,72 @@
+{
+  "candidate": "257283978-257283987-23749586-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "North kerb against a retaining wall; cars park here, homes 14-18 m across the road.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Homes 14-18 m across the road",
+    "Wall on the north side, no homes behind"
+  ],
+  "drivers": {
+    "seclusion": "Retaining wall and the upper road lie to the north; houses sit 14-18 m away across the lane on the south side.",
+    "access_and_room": "Sealed street with three cars parked along this stretch; room for a van at the kerb beside the wall.",
+    "traffic": "Quiet residential street, with a bend at the west end.",
+    "convention": "Other cars park here, but no sign of overnight stays."
+  },
+  "flags": [
+    "Elevation data is noisy; whole stretch averages 8.9% and shows max 23%",
+    "Homes 14-18 m away across the lane",
+    "Brisbane River 232 m away, low ground about 24 m"
+  ],
+  "sun_shade": "Open sky at the best section; tree shade near 40-110 m on the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether the parked cars belong to residents"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 160,
+    "to_m": 185,
+    "where": "Glencairn Avenue lower carriageway, north kerb under the retaining wall, opposite the pool house",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.98322,
+        -27.508833
+      ],
+      [
+        152.983018,
+        -27.508843
+      ],
+      [
+        152.982985,
+        -27.508845
+      ],
+      [
+        152.982967,
+        -27.508848
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 8.6,
+    "min_elevation_m": 25.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,74 @@
+{
+  "candidate": "212765687-364012308-20122862-l-14",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb where cars park, but homes sit 15-18 m away.",
+  "reasons": [
+    "Homes 15-18 m away on same side",
+    "Cars park along this street",
+    "Flattest stretch far up the hill"
+  ],
+  "drivers": {
+    "seclusion": "Dense suburban housing; mapped homes 15-18 m away on the section's own side, more across the road.",
+    "access_and_room": "Sealed street with cars parked on both sides; kerbside space looks available for a van.",
+    "traffic": "Quiet residential street, local traffic only.",
+    "convention": "Several cars parked along the kerb, so a van would not stand out much."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Steep elsewhere: mean 8.4%, max 18.6%; best section nearly flat",
+    "Low-lying at south end: about 7.6 m near Cubberla Creek"
+  ],
+  "sun_shade": "Mostly open; garden trees give patchy shade from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Parking signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 163,
+    "to_m": 185,
+    "where": "West kerb of Furlong Street, about 160 m up from the bottom junction",
+    "slope_pct": 0.7,
+    "points": [
+      [
+        152.960297,
+        -27.513611
+      ],
+      [
+        152.96031,
+        -27.513551
+      ],
+      [
+        152.96033,
+        -27.513461
+      ],
+      [
+        152.960339,
+        -27.513417
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 3.8,
+    "min_elevation_m": 20.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

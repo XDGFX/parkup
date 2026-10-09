@@ -1,0 +1,51 @@
+{
+  "candidate": "54625067-54625075-15703471-l-37",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep kerb on a through road with no parked cars and peak-hour No Stopping.",
+  "reasons": [
+    "Through road, no cars parked along kerb",
+    "Steep: about 10% mean grade",
+    "Houses 8-20 m behind the kerb"
+  ],
+  "drivers": {
+    "seclusion": "Dwelling 8 m away at the east end; sheds 5-8 m behind the kerb and homes 17-20 m on both sides.",
+    "access_and_room": "Kerb of a two-lane road with no verge or pull-in; no parked cars or marked parking lane.",
+    "traffic": "Through route with steady traffic, carrying power lines and overhead trees.",
+    "convention": "No cars parked along the stretch in either image; peak-hour No Stopping sign mapped."
+  },
+  "flags": [
+    "Steep: 9.7% mean, 16% max",
+    "No Stopping 7-9am and 4-6pm Mon-Fri",
+    "Homes within 8-20 m"
+  ],
+  "sun_shade": "Dense tree canopy over the north kerb, shading it through the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Traffic volume"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 10.1,
+    "min_elevation_m": 31.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

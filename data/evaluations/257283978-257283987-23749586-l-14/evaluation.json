@@ -1,0 +1,49 @@
+{
+  "candidate": "257283978-257283987-23749586-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep, curving street; houses 3-11 m from the south kerb throughout.",
+  "reasons": [
+    "Homes within 10 m of every section",
+    "Steep, with max grade 13.8%",
+    "Narrow lane under dense tree canopy"
+  ],
+  "drivers": {
+    "seclusion": "Mapped buildings sit 3-7 m from the kerb for most of its length, and the imagery shows houses with driveways onto it.",
+    "access_and_room": "Sealed lane beside a retaining wall and kerb-to-fence frontages; a few cars park at the kerb near 140-160 m.",
+    "traffic": "Quiet residential street with a sharp bend at the west end.",
+    "convention": "A few cars park near 140-160 m, but no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: 5.1% average, max 13.8%",
+    "Homes within 10 m along the kerb",
+    "Brisbane River 232 m away, low ground about 22 m"
+  ],
+  "sun_shade": "Heavy tree canopy over the middle section; open on the east end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether the OSM buildings tagged only 'yes' are homes or outbuildings"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 5.1,
+    "min_elevation_m": 22.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

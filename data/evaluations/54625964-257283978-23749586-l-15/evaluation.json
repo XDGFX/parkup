@@ -1,0 +1,49 @@
+{
+  "candidate": "54625964-257283978-23749586-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a busy junction corner; no cars parked, no room to stop.",
+  "reasons": [
+    "Main road, no cars parked along it",
+    "Right at a junction, 15 m only",
+    "Road markings and power pole at corner"
+  ],
+  "drivers": {
+    "seclusion": "A house sits 9 m behind the kerb at the corner, and the junction is fully open.",
+    "access_and_room": "Only 15 m of kerb, at the mouth of a junction with a painted island and power pole; no pull-off.",
+    "traffic": "Wide through road with a junction and turning traffic.",
+    "convention": "No cars parked on this stretch; no sign of overnight use."
+  },
+  "flags": [
+    "Steep: 6.8% average, max 9.2%",
+    "Junction corner with road markings",
+    "Noise from through traffic"
+  ],
+  "sun_shade": "Open to the sun, with a few small trees on the verge.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site",
+    "Exact no-stopping rules at the junction"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 32,
+    "gated": false,
+    "slope_pct": 6.8,
+    "min_elevation_m": 25,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

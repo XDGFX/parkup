@@ -1,0 +1,49 @@
+{
+  "candidate": "257287137-11590800930-24241181-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a junction mouth, steep, with a house beside it.",
+  "reasons": [
+    "Steep: about 14% grade",
+    "House about 4 m from kerb",
+    "Junction mouth, little room to stop"
+  ],
+  "drivers": {
+    "seclusion": "Houses (4 m and 13 m) sit right on the kerb; the rest is a junction.",
+    "access_and_room": "Only 19 m of kerb at an intersection with painted islands and crossing; no clear room.",
+    "traffic": "Junction of several streets, with turning traffic.",
+    "convention": "No parked cars at this spot."
+  },
+  "flags": [
+    "Steep: about 14% grade, max about 23%",
+    "House within 10 m of the kerb (imagery shows the building as a home)",
+    "Mapped gate 48 m away has a way round"
+  ],
+  "sun_shade": "Open to sun; the house shades the west side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Junction sight lines"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 31,
+    "gated": false,
+    "slope_pct": 11.3,
+    "min_elevation_m": 26.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

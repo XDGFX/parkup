@@ -1,0 +1,75 @@
+{
+  "candidate": "212765686-364012347-20122771-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat residential kerb with homes 12-14 m behind it; cars park here.",
+  "reasons": [
+    "Dwellings 12-14 m on this side",
+    "Homes within 25 m all round",
+    "Flat, under 1% grade"
+  ],
+  "drivers": {
+    "seclusion": "Houses 12-14 m behind the south kerb, with more across the road; no bush or park buffer.",
+    "access_and_room": "Sealed street; cars park on the kerb, so there is room to stop.",
+    "traffic": "Quiet suburban street, light traffic.",
+    "convention": "Residents park on the street; no camping convention."
+  },
+  "flags": [
+    "Low-lying: about 8 m elevation, waterway 54 m away",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Mostly open; trees give some shade near the 0 m end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Flood history"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 35,
+    "where": "Dobell Street south kerb, west of the corner bend",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        152.959067,
+        -27.51541
+      ],
+      [
+        152.958956,
+        -27.515432
+      ],
+      [
+        152.958941,
+        -27.515433
+      ],
+      [
+        152.958875,
+        -27.515439
+      ],
+      [
+        152.958868,
+        -27.515439
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 8.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "58761969-60801699-8111886-r-17",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "West kerb with homes 13-19 m behind; two motorhomes parked on the park side opposite.",
+  "reasons": [
+    "Homes 13-19 m behind the kerb",
+    "Motorhomes parked opposite beside bush and park",
+    "No Stopping sign only at the southern end"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 13-19 m away on the section's own side; bush and park across the road.",
+    "access_and_room": "Sealed street with a kerbside parking lane wide enough for a van; cars and motorhomes park along it.",
+    "traffic": "Quiet no-through residential street, light local traffic.",
+    "convention": "Two motorhomes and several cars parked along the street in the imagery."
+  },
+  "flags": [
+    "Dwellings 13 m away at about 71 m along",
+    "No Stopping Any Time sign at the southern end near Ward Street",
+    "Steeper further south: 12% max grade, 3.9% mean",
+    "Sign at 0.9 m from the kerb line is only at the end"
+  ],
+  "sun_shade": "Garden trees and house shade the kerb from the west; open to morning sun from the park side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the motorhomes stay overnight"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 45,
+    "to_m": 70,
+    "where": "West kerb opposite the bush-lined park edge, north of the motorhomes",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.982053,
+        -27.498818
+      ],
+      [
+        152.982011,
+        -27.49904
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 16.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

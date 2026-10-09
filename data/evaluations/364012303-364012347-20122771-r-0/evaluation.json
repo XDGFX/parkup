@@ -1,0 +1,68 @@
+{
+  "candidate": "364012303-364012347-20122771-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short south kerb at a bend, houses 12-15 m behind and opposite.",
+  "reasons": [
+    "Dwellings 12-15 m away on own side",
+    "Homes within 25 m all round",
+    "Steep, 5.7% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Houses 15 m behind the kerb and 24+ m opposite; others close on the bend.",
+    "access_and_room": "Sealed street, cars parked on this kerb; room for a van.",
+    "traffic": "Quiet dead-end style residential street.",
+    "convention": "Cars park here, but no sign of overnight vans."
+  },
+  "flags": [
+    "Dwellings 10-25 m on own side",
+    "Steep: mean 5.7%, max 10.4% grade",
+    "Houses close all round"
+  ],
+  "sun_shade": "Open to the sky with a big tree shading the south-west; sun from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "kerb height",
+    "resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 13,
+    "to_m": 28,
+    "where": "south kerb of Dobell Street just past the bend, beside the garage",
+    "slope_pct": 2.7,
+    "points": [
+      [
+        152.957002,
+        -27.515538
+      ],
+      [
+        152.957031,
+        -27.515537
+      ],
+      [
+        152.957154,
+        -27.515533
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 4,
+    "min_elevation_m": 11.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

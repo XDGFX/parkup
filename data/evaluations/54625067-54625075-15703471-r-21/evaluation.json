@@ -1,0 +1,65 @@
+{
+  "candidate": "54625067-54625075-15703471-r-21",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short steep kerb with homes 10 m and 13 m away.",
+  "reasons": [
+    "Dwelling 10 m from kerb",
+    "Very steep, about 8%",
+    "No-stopping signs at peak times"
+  ],
+  "drivers": {
+    "seclusion": "Two mapped dwellings within 13 m on the same side, more within 35 m.",
+    "access_and_room": "Narrow grass and gravel verge; only 18 m long, tight for a van.",
+    "traffic": "Quiet suburban street, one car parked here.",
+    "convention": "Signed no stopping 7-9am and 4-6pm weekdays."
+  },
+  "flags": [
+    "Steep: about 8% grade",
+    "Homes within 13 m",
+    "No stopping 7-9am, 4-6pm Mon-Fri"
+  ],
+  "sun_shade": "Trees shade the west end; open to the north and afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 18,
+    "where": "South kerb of Finney Road beside the corner houses",
+    "slope_pct": 8.3,
+    "points": [
+      [
+        152.968704,
+        -27.50135
+      ],
+      [
+        152.968884,
+        -27.501378
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 7.3,
+    "min_elevation_m": 35.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

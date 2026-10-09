@@ -1,0 +1,64 @@
+{
+  "candidate": "262134021-262134022-24209235-l-4",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, steep residential kerb with homes 12-16 m away; narrow street.",
+  "reasons": [
+    "Homes 12-16 m on the same side",
+    "Steep: 7% average grade",
+    "Narrow street, tight beside lane"
+  ],
+  "drivers": {
+    "seclusion": "Dwelling 16 m away at the start; non-dwelling buildings 11-17 m; more homes across the road.",
+    "access_and_room": "Sealed street; one car parked on the opposite kerb, so the lane is narrow with a fence line beside the kerb.",
+    "traffic": "Quiet residential side street.",
+    "convention": "Signed 4P parking, Mon-Fri 9am-4pm; nothing restricts evenings or overnight."
+  },
+  "flags": [
+    "Steep: 7.4% average, max 10.4%",
+    "Dwellings 12-16 m away on the street's own side",
+    "Brisbane River 191 m away, low ground about 30 m"
+  ],
+  "sun_shade": "Heavy tree canopy over the south end; open to the afternoon sun further north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Exact width beside the lane"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Southern end of Glasnevin Street west kerb, under the trees",
+    "slope_pct": 3.5,
+    "points": [
+      [
+        152.978725,
+        -27.506156
+      ],
+      [
+        152.978747,
+        -27.50605
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 7.3,
+    "min_elevation_m": 32.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

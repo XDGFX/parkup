@@ -1,0 +1,70 @@
+{
+  "candidate": "364012303-364012347-20122771-l-0",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb with homes 13-28 m from the north side.",
+  "reasons": [
+    "Dwellings 13 m or more away",
+    "Houses on both sides within 25 m",
+    "Cars park along this street"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings 13 m (north), 28 m at the section; homes also across the road.",
+    "access_and_room": "Sealed street, cars park along both kerbs; room for a van.",
+    "traffic": "Quiet residential street with low traffic.",
+    "convention": "A few cars park on the kerb, no overnight-van convention seen."
+  },
+  "flags": [
+    "Homes within about 25 m all round",
+    "Steep: mean 4.7%, max 10.6% grade",
+    "House 7 m from kerb at 23 m, avoid that part"
+  ],
+  "sun_shade": "Large tree shades the section from the north-east to midday; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "kerb height",
+    "resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 33,
+    "to_m": 50,
+    "where": "north kerb of Dobell Street, under the big tree mid-block",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        152.957289,
+        -27.515456
+      ],
+      [
+        152.957335,
+        -27.515454
+      ],
+      [
+        152.957461,
+        -27.515447
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 12.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

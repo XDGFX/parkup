@@ -1,0 +1,64 @@
+{
+  "candidate": "48324491-48324649-7918818-r-250",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short north kerb at a corner; homes 15-17 m away, cars park nearby.",
+  "reasons": [
+    "Homes 15-20 m on the same side",
+    "Cars park along both kerbs",
+    "Quiet residential, no camping convention"
+  ],
+  "drivers": {
+    "seclusion": "Nearest mapped dwellings 15-17 m away; houses also face it from across the road.",
+    "access_and_room": "Sealed street with kerbside parking and driveways; room to pull in at the kerb.",
+    "traffic": "Quiet residential street with a junction at the end.",
+    "convention": "Cars park here, but no sign of overnight stays."
+  },
+  "flags": [
+    "Dwellings 12-17 m away on the street's own side",
+    "Steep: about 3.5% grade at the best section, 6% average",
+    "Near a junction, so some turning traffic"
+  ],
+  "sun_shade": "Mostly open, with the north-side houses giving morning shade at the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 38,
+    "to_m": 52,
+    "where": "North kerb at the corner where Gladstone Street meets the side street",
+    "slope_pct": 3.5,
+    "points": [
+      [
+        152.968405,
+        -27.495372
+      ],
+      [
+        152.968266,
+        -27.495352
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 3.4,
+    "min_elevation_m": 40.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

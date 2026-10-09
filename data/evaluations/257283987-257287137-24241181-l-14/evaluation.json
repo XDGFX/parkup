@@ -1,0 +1,76 @@
+{
+  "candidate": "257283987-257287137-24241181-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet Glencairn Avenue kerb with homes all round; some cars park opposite.",
+  "reasons": [
+    "Homes within 25 m all round",
+    "Quiet residential street, no parking convention",
+    "Slope about 3% at best section"
+  ],
+  "drivers": {
+    "seclusion": "Houses and a building site line the north side; houses across the road too.",
+    "access_and_room": "Sealed street with parked cars opposite; room to stop at kerb.",
+    "traffic": "Quiet residential street, local traffic only.",
+    "convention": "Some cars park on the south side; no clear overnight convention."
+  },
+  "flags": [
+    "Dwellings within about 25 m on both sides",
+    "Mapped gate 63 m away has a way round",
+    "Steeper sections elsewhere (max about 15%)"
+  ],
+  "sun_shade": "Mixed tree shade, with afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Local parking enforcement"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 95,
+    "to_m": 112,
+    "where": "Under the tree shade, before the bend, north kerb opposite parked cars",
+    "slope_pct": 2.9,
+    "points": [
+      [
+        152.983593,
+        -27.508734
+      ],
+      [
+        152.983597,
+        -27.508734
+      ],
+      [
+        152.983623,
+        -27.508736
+      ],
+      [
+        152.983647,
+        -27.50874
+      ],
+      [
+        152.983763,
+        -27.508758
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 80,
+    "gated": false,
+    "slope_pct": 3.9,
+    "min_elevation_m": 25.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

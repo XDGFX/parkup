@@ -1,0 +1,64 @@
+{
+  "candidate": "257263101-257286050-1312558105-l-22",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "North kerb backing onto trees and a tennis court; cars park, homes 18 m across road.",
+  "reasons": [
+    "Backs onto bushy grounds and tennis court",
+    "Nearest home 18 m, across the road",
+    "Cars already park along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "North side is trees and open ground by a tennis court; nearest mapped homes are 18 m across the road and 36 m behind.",
+    "access_and_room": "Sealed street; cars park along the kerb here, leaving room for a van.",
+    "traffic": "Local street near a junction; modest traffic.",
+    "convention": "Several cars parked along this kerb; a van would blend in."
+  },
+  "flags": [
+    "No Stopping signs, schooldays 2pm-4pm, nearby",
+    "Steeper west end; best section about 2.5%",
+    "Slope mean 5.2%, max 10.2% along the full stretch"
+  ],
+  "sun_shade": "Open to the east and north; tree canopy shades the western part from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the school-hours No Stopping extends to this section"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 62,
+    "to_m": 91,
+    "where": "North kerb of Gilgandra Street, beside the tennis court on the eastern bend",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        152.985033,
+        -27.507485
+      ],
+      [
+        152.985318,
+        -27.507425
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 14,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

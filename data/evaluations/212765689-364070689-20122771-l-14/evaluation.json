@@ -1,0 +1,74 @@
+{
+  "candidate": "212765689-364070689-20122771-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb with houses 8-9 m from the line along its length.",
+  "reasons": [
+    "Dwellings 8-9 m away throughout",
+    "Quiet street, few parked cars",
+    "Steep rise toward east end"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the north kerb every 15-20 m, all within 10 m; more homes opposite.",
+    "access_and_room": "Sealed street with some parked cars; room to stop at kerb.",
+    "traffic": "Quiet local street, low traffic.",
+    "convention": "A few cars parked on the south side, but no overnight-parking convention evident."
+  },
+  "flags": [
+    "Dwelling within 10 m of whole stretch",
+    "Steep: mean 3.6%, max 8.4% grade",
+    "Low-lying: min 7.2 m, Cubberla Creek 178 m"
+  ],
+  "sun_shade": "Heavy tree canopy over the west and east parts; open mid-stretch from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "kerb height",
+    "resident attitudes"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 25,
+    "where": "north kerb of Dobell Street, just east of the western corner",
+    "slope_pct": 2.2,
+    "points": [
+      [
+        152.961136,
+        -27.514978
+      ],
+      [
+        152.961189,
+        -27.51497
+      ],
+      [
+        152.961286,
+        -27.514955
+      ],
+      [
+        152.961286,
+        -27.514955
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 7.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:30:44Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
