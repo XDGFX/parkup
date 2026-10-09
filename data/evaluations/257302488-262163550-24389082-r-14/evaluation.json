@@ -1,0 +1,66 @@
+{
+  "candidate": "257302488-262163550-24389082-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short residential kerb on Dell Road with houses 12 m away.",
+  "reasons": [
+    "Homes 12-13 m on both sides",
+    "Only 16 m long",
+    "Steep, about 7.5% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings mapped 12 m and 13 m away; homes all round within 20 m.",
+    "access_and_room": "Sealed street; cars park on the opposite side, little room on this kerb.",
+    "traffic": "Quiet residential street.",
+    "convention": "No sign of campers or a parking convention."
+  },
+  "flags": [
+    "Steep: about 7.5% mean grade, 11% max",
+    "Houses 12 m from kerb, front gardens facing it"
+  ],
+  "sun_shade": "Open sky over the road; trees shade the south side and the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "North kerb of Dell Road, St Lucia, at the bend",
+    "slope_pct": 7.5,
+    "points": [
+      [
+        153.005048,
+        -27.501667
+      ],
+      [
+        153.004929,
+        -27.501649
+      ],
+      [
+        153.004923,
+        -27.501684
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 7.5,
+    "min_elevation_m": 19.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

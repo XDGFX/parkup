@@ -1,0 +1,51 @@
+{
+  "candidate": "251813454-264603403-23730640-l-19",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow loading-zone dead end beside apartments, with a dwelling 5 m away.",
+  "reasons": [
+    "Apartments 5 m from kerb",
+    "Loading Zone signs",
+    "Narrow lane, no room to stop"
+  ],
+  "drivers": {
+    "seclusion": "Apartment building 5 m on one side, houses 21 to 22 m on the other; backs onto the river bank.",
+    "access_and_room": "Narrow lane squeezed between building and trees; a van would block it.",
+    "traffic": "Quiet dead-end lane.",
+    "convention": "Loading Zone signs at both ends; no parked cars in the lane."
+  },
+  "flags": [
+    "Dwelling within 10 m",
+    "Loading Zone signs",
+    "Steep: 4.2% mean, 10.2% max",
+    "Low-lying: about 5 m, Brisbane River 133 m away"
+  ],
+  "sun_shade": "Heavy tree shade over the lane; building shades the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 5.6,
+    "min_elevation_m": 4.6,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

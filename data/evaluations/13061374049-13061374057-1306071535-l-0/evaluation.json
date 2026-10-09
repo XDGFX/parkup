@@ -1,0 +1,73 @@
+{
+  "candidate": "13061374049-13061374057-1306071535-l-0",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very short, steep residential kerb with homes 10-13 m away.",
+  "reasons": [
+    "Homes 10-13 m on own side",
+    "Cars park nearby on street",
+    "Steep, about 10% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 10-13 m away on the section's side, more across the road.",
+    "access_and_room": "Sealed street; cars park along both kerbs; only 10 m of kerb, a tight fit for a van.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "No signs; cars park along this street."
+  },
+  "flags": [
+    "Steep: about 10.6% grade",
+    "Only 10 m long, beside a pedestrian crossing",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Open to the road; trees to the south-west give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "west kerb just north of the pedestrian crossing, outside the pool house",
+    "slope_pct": 10.6,
+    "points": [
+      [
+        153.000465,
+        -27.499388
+      ],
+      [
+        153.000495,
+        -27.499342
+      ],
+      [
+        153.000507,
+        -27.499325
+      ],
+      [
+        153.000517,
+        -27.499311
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 10.4,
+    "min_elevation_m": 39.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

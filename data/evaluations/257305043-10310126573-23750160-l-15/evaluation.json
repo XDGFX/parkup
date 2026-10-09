@@ -1,0 +1,66 @@
+{
+  "candidate": "257305043-10310126573-23750160-l-15",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet kerb beside bush, with a vacant lot opposite and homes 15 m away.",
+  "reasons": [
+    "Bush on the opposite side",
+    "Nearest homes about 15 m away",
+    "Quiet street, no parking convention"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings mapped 15 m away at 55 and 67 m along; bush on the far side, empty lot beside.",
+    "access_and_room": "Sealed street; narrow grassy verge, a few cars parked at the lower end.",
+    "traffic": "Quiet residential street.",
+    "convention": "A few cars park here, no campers; signs restrict only weekday 9am-5pm."
+  },
+  "flags": [
+    "Steep: about 4% over this section",
+    "Home 7 m away at 89 m, so stop short of that",
+    "Signs: no parking Mon-Fri 9am-5pm"
+  ],
+  "sun_shade": "Dense tree canopy from the bush side, shade through the morning and midday.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Verge width"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 60,
+    "to_m": 85,
+    "where": "Dell Road kerb past the vacant lot, with bush opposite",
+    "slope_pct": 3.7,
+    "points": [
+      [
+        153.008176,
+        -27.499983
+      ],
+      [
+        153.007984,
+        -27.50013
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 3.8,
+    "min_elevation_m": 15.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

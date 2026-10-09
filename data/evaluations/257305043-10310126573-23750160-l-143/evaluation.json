@@ -1,0 +1,67 @@
+{
+  "candidate": "257305043-10310126573-23750160-l-143",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow tree-covered kerb, bush opposite, homes 11-12 m away on this side.",
+  "reasons": [
+    "Bush opposite, homes 11-12 m on this side",
+    "Cars park along this stretch",
+    "Steep, about 7% at the start"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings mapped 11-12 m away at 0-4 m along; thick bush across the road.",
+    "access_and_room": "Narrow sealed road under canopy; verge is tight, cars already parked at about 30-40 m.",
+    "traffic": "Quiet residential no-through-feel street.",
+    "convention": "Other cars park here, no campers; signs restrict only weekday 9am-5pm."
+  },
+  "flags": [
+    "Steep: about 7% over 0-22 m",
+    "Home 7 m away at 27 m, so stop short of that",
+    "Low-lying: 11-13 m elevation, no mapped waterway",
+    "Signs: no parking Mon-Fri 9am-5pm"
+  ],
+  "sun_shade": "Dense tree canopy over the road, shade most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Verge width"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 22,
+    "where": "South kerb of the lower, bush-lined end of Dell Road",
+    "slope_pct": 7.2,
+    "points": [
+      [
+        153.007655,
+        -27.500382
+      ],
+      [
+        153.007486,
+        -27.500511
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 7.5,
+    "min_elevation_m": 12.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

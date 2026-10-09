@@ -1,0 +1,64 @@
+{
+  "candidate": "781304174-3522820766-1284572449-r-16",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "North kerb where a car parks, with homes 13-14 m behind hedges.",
+  "reasons": [
+    "Homes 13-14 m away on this side",
+    "Cars do park along this kerb",
+    "Steep: about 6% here"
+  ],
+  "drivers": {
+    "seclusion": "Two houses sit 13-14 m from the kerb behind trees; no homes opposite, only parkland.",
+    "access_and_room": "Sealed road with a parked car on the north side; room to stop at the kerb.",
+    "traffic": "Through road with centre markings, moderate local traffic.",
+    "convention": "A car is parked at the kerb, but it is outside someone's home."
+  },
+  "flags": [
+    "Steep: about 6% mean grade, 12.4% max on the full stretch",
+    "Homes 13-14 m away",
+    "Low-lying: about 9 m elevation, Sandy Creek 179 m away"
+  ],
+  "sun_shade": "Large trees shade the road from the south and west; open to the north-east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 22,
+    "to_m": 46,
+    "where": "Carawa Street north kerb, west of the bend by the pole line",
+    "slope_pct": 6,
+    "points": [
+      [
+        152.991682,
+        -27.502248
+      ],
+      [
+        152.991449,
+        -27.502183
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 6,
+    "min_elevation_m": 9.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "156764860-598730116-1305498588-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Northern end of the east kerb where cars park; homes 11-12 m away.",
+  "reasons": [
+    "Dwellings 11-12 m away on same side",
+    "Cars park along this kerb",
+    "Gentle slope, about 2%"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 11-12 m away on the east side and about 20 m across the road; no bush buffer here.",
+    "access_and_room": "Sealed street with parked cars along the east kerb, so room to stop.",
+    "traffic": "Quiet residential street, light local traffic.",
+    "convention": "Cars park along this kerb; No Parking 9am-5pm weekdays signed, No Stopping Any Time signs elsewhere on the stretch."
+  },
+  "flags": [
+    "Dwellings 10-25 m away on both sides",
+    "No Parking 9am-5pm Mon-Fri signs on this kerb",
+    "Earlier parts of the stretch have homes 2-5 m from the kerb"
+  ],
+  "sun_shade": "Street trees give partial shade over the east kerb from the east and midday; afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 94,
+    "to_m": 110,
+    "where": "East kerb near the northern end, past the construction block, before the bend",
+    "slope_pct": 1.8,
+    "points": [
+      [
+        153.007281,
+        -27.498949
+      ],
+      [
+        153.007338,
+        -27.498814
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 15.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

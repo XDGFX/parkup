@@ -1,0 +1,64 @@
+{
+  "candidate": "156750745-156750750-15697118-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet street kerb by a park, flat near the north end, homes about 20 m off.",
+  "reasons": [
+    "Faces an open park across the road",
+    "Nearest homes about 20 m away",
+    "Flat, about 1% grade"
+  ],
+  "drivers": {
+    "seclusion": "Park and trees across the road; hedge and a gap between houses on this side, nearest homes about 20 m away.",
+    "access_and_room": "Sealed street with cars parked on both kerbs; a van fits at the kerb.",
+    "traffic": "Quiet residential street; light local traffic.",
+    "convention": "2P Mon-Fri 7-6 with resident permits excepted; a few cars park along the kerb."
+  },
+  "flags": [
+    "Resident-permit 2P signs",
+    "Steep along most of the line: 6.4% mean, 12.2% max, but flat here",
+    "New houses at about 182 m (7 to 19 m)"
+  ],
+  "sun_shade": "Open to the sky with some shade from street trees on the park side; afternoon sun from the west blocked by houses.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the new houses at 182 m are occupied"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 160,
+    "to_m": 180,
+    "where": "Baty Street west kerb, between the pool house and the newer houses, opposite the park",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.998273,
+        -27.497591
+      ],
+      [
+        152.99831,
+        -27.497414
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 10.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

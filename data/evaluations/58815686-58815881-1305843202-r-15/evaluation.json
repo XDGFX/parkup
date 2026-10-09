@@ -1,0 +1,65 @@
+{
+  "candidate": "58815686-58815881-1305843202-r-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, homes 12 to 19 m away, steep.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Homes 12 to 19 m away",
+    "Steep, about 10% grade"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 12 m south at 75 m; apartments 18 to 19 m across the road.",
+    "access_and_room": "Kerb on a slip lane beside the main road, with a row of parked cars.",
+    "traffic": "Busy arterial beside a signalised junction.",
+    "convention": "A row of cars parked along the kerb in Esri, so a van blends in."
+  },
+  "flags": [
+    "Steep: about 10% grade, 20% max on the stretch",
+    "Dwellings within 12 m",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open kerb; small trees on the verge give light shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height",
+    "Parking limits on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 72,
+    "where": "Carmody Road south kerb, before the traffic-light junction",
+    "slope_pct": 10,
+    "points": [
+      [
+        153.004928,
+        -27.498007
+      ],
+      [
+        153.005098,
+        -27.498036
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 10.2,
+    "min_elevation_m": 4.8,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

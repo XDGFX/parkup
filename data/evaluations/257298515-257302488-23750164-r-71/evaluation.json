@@ -1,0 +1,69 @@
+{
+  "candidate": "257298515-257302488-23750164-r-71",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short Dell Road kerb with parked cars, homes 18-22 m away at the end.",
+  "reasons": [
+    "Homes 18-22 m at the far end",
+    "Cars park along the road",
+    "Nearer homes only 7-9 m"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings about 18-22 m from the end; closer ones 7-9 m earlier along the kerb.",
+    "access_and_room": "Sealed road with cars parked along it; room to pull in, but only about 8 m of usable kerb.",
+    "traffic": "Local street near Hawken Village shops; moderate traffic.",
+    "convention": "Cars park along Dell Road; no signs on this stretch."
+  },
+  "flags": [
+    "Very short usable section, tight for a van",
+    "Homes within 25 m all round",
+    "Steeper earlier: 4% mean, 6.8% max"
+  ],
+  "sun_shade": "Tree canopy to the north-west gives morning shade; open to the south for midday sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 28,
+    "where": "north kerb at the outer bend, opposite the white-roofed house",
+    "slope_pct": 0.2,
+    "points": [
+      [
+        153.005475,
+        -27.501542
+      ],
+      [
+        153.005448,
+        -27.501564
+      ],
+      [
+        153.005467,
+        -27.501596
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 3.7,
+    "min_elevation_m": 17.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

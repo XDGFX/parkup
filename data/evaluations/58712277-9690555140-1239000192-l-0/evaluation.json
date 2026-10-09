@@ -1,0 +1,65 @@
+{
+  "candidate": "58712277-9690555140-1239000192-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Plain kerb on a busy road where cars park, homes 13 to 19 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Dwellings 13 to 19 m on same side",
+    "Busy arterial, no lay-by"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses and apartments 13 to 19 m away on the same side.",
+    "access_and_room": "Parked cars on the kerb show it is usable; no separate pull-in.",
+    "traffic": "Busy four-lane through road with a junction just north.",
+    "convention": "Two or three cars parked on this kerb, so a van is less conspicuous."
+  },
+  "flags": [
+    "Steep: about 3% grade, 6.6% max",
+    "Dwellings within 13 m",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open kerb, large tree canopy at the south end shades from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height",
+    "Parking restrictions on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 37,
+    "where": "Carmody Road east kerb, beside the grassed yard before the large tree",
+    "slope_pct": 3.1,
+    "points": [
+      [
+        152.994346,
+        -27.49762
+      ],
+      [
+        152.994292,
+        -27.497765
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 3.1,
+    "min_elevation_m": 52.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

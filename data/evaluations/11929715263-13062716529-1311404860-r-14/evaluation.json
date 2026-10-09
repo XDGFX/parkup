@@ -1,0 +1,65 @@
+{
+  "candidate": "11929715263-13062716529-1311404860-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, steep kerb on a residential street with homes about 15 m away.",
+  "reasons": [
+    "Dwellings 15 m away on same side",
+    "Cars park on opposite kerb only",
+    "Steep: about 9% grade"
+  ],
+  "drivers": {
+    "seclusion": "Kindergarten 14 m away and dwellings 15 m on the same side; bush opposite.",
+    "access_and_room": "Sealed street; east kerb is clear, with the parked cars on the west side.",
+    "traffic": "Local street near the kindergarten; some drop-off traffic in the day.",
+    "convention": "Cars park on the west kerb, not the east; No Stopping 8am-4pm weekdays here, so overnight is outside it."
+  },
+  "flags": [
+    "Steep: about 9% grade, max 11%",
+    "No Stopping signs 8am-4pm Mon-Fri on this kerb",
+    "Only 16 m of kerb, barely over one van length",
+    "Dwellings 10-25 m away"
+  ],
+  "sun_shade": "Heavily shaded by trees over the east kerb; some afternoon sun through the canopy.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "East kerb of Baty Street beside the kindergarten, under tree canopy",
+    "slope_pct": 9,
+    "points": [
+      [
+        152.997893,
+        -27.499726
+      ],
+      [
+        152.997923,
+        -27.499585
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 8.9,
+    "min_elevation_m": 32.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

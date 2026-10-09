@@ -1,0 +1,50 @@
+{
+  "candidate": "262163603-12039462652-24212301-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow residential cul-de-sac, very steep, with homes right beside the kerb.",
+  "reasons": [
+    "Dwelling 9 m from kerb",
+    "Grade up to 17.8%",
+    "Resident-permit parking sign"
+  ],
+  "drivers": {
+    "seclusion": "Houses ring the cul-de-sac head, 9 to 12 m away, with a pool and tennis court beside.",
+    "access_and_room": "Narrow sealed lane with no verge; a parked van would block the head.",
+    "traffic": "Very quiet dead end serving a few homes.",
+    "convention": "2P Mon-Fri 7-6, residents excepted; no cars parked on the kerb in the imagery."
+  },
+  "flags": [
+    "Steep: 9% mean, 17.8% max",
+    "Dwellings within 10 m",
+    "Resident-permit sign"
+  ],
+  "sun_shade": "Mixed tree shade over the lane, mainly from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 9,
+    "min_elevation_m": 34,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

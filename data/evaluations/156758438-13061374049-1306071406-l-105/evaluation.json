@@ -1,0 +1,70 @@
+{
+  "candidate": "156758438-13061374049-1306071406-l-105",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow sloping residential kerb; homes 11-13 m behind it.",
+  "reasons": [
+    "Detached homes 9-13 m, same side",
+    "Steep: about 6.8% grade",
+    "Cars park at the south end"
+  ],
+  "drivers": {
+    "seclusion": "Large homes 9-15 m behind the kerb; homes across the road 30 m or more away.",
+    "access_and_room": "Narrow street, but cars already park at the south end; room to pull in.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park along the kerb, though signed 2P with resident permits."
+  },
+  "flags": [
+    "Steep: about 6.8% grade, up to 9.4% locally",
+    "Dwelling 9 m from the kerb at about 8 m",
+    "Narrow carriageway"
+  ],
+  "sun_shade": "Dense trees shade the section from the west and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "West kerb of Central Avenue, where cars already park below the bend",
+    "slope_pct": 6.5,
+    "points": [
+      [
+        153.000301,
+        -27.499671
+      ],
+      [
+        153.000234,
+        -27.49963
+      ],
+      [
+        153.000291,
+        -27.499612
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 6,
+    "min_elevation_m": 42.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "257305043-10310126573-23750160-r-14",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet kerb backing onto bush, nearest home about 16 m away.",
+  "reasons": [
+    "Backs onto bush, no homes 60-85 m",
+    "Nearest dwellings 16 m and 23 m",
+    "Quiet street, no parking convention"
+  ],
+  "drivers": {
+    "seclusion": "Bush behind the kerb; dwellings mapped 23 m back at 55 m and 16 m at 90 m along.",
+    "access_and_room": "Sealed street with a narrow grass and bush verge; a few cars park near the lower end.",
+    "traffic": "Quiet residential street.",
+    "convention": "A few cars park here, no campers; signs restrict only weekday 9am-5pm."
+  },
+  "flags": [
+    "Signs: no parking Mon-Fri 9am-5pm",
+    "Homes 10 m away at 9 and 21 m, so avoid the top end"
+  ],
+  "sun_shade": "Dense canopy from the bush on this side, shade on the morning and midday sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Verge width"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 60,
+    "to_m": 85,
+    "where": "North kerb of Dell Road, bush side, past the vacant lot opposite",
+    "slope_pct": 2.6,
+    "points": [
+      [
+        153.008128,
+        -27.499924
+      ],
+      [
+        153.007936,
+        -27.500071
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 14.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,67 @@
+{
+  "candidate": "251813454-251813455-24388803-r-12",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb where cars park, apartments and houses 15 to 20 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Apartments 19 m, houses 15 to 17 m",
+    "Gentle grade, 2.6% mean"
+  ],
+  "drivers": {
+    "seclusion": "Apartment block 19 m on this side, houses 15 to 17 m across the road; heavy tree cover.",
+    "access_and_room": "Cars are parked nose to tail along the kerb, so a van fits in the parking lane.",
+    "traffic": "Quiet residential street with a bend; light local traffic.",
+    "convention": "No signs; several cars parked along both kerbs in the imagery."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Steep in places: 4.2% max",
+    "Low-lying: 6 m elevation, Brisbane River 177 m away"
+  ],
+  "sun_shade": "Dense tree canopy over the kerb; shaded most of the day, sun from the east filters through.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height and crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 6,
+    "to_m": 22,
+    "where": "Austral Street west kerb, under the trees beside the apartment block",
+    "slope_pct": 2.6,
+    "points": [
+      [
+        152.997382,
+        -27.492377
+      ],
+      [
+        152.997364,
+        -27.492368
+      ],
+      [
+        152.997325,
+        -27.492489
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

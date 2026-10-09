@@ -1,0 +1,68 @@
+{
+  "candidate": "251813137-262450276-1284285272-l-30",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wide Carmody Road kerb backing onto bush, homes over 20m away across road.",
+  "reasons": [
+    "Bush behind, no homes on this side",
+    "Nearest home 23m, across road",
+    "Cars park along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush on the south side; nearest dwelling 23m away across the road.",
+    "access_and_room": "Wide road with painted edge; cars park beside the lane here in 2022 imagery.",
+    "traffic": "Through road, moderate traffic, but van stands out of the lane.",
+    "convention": "Cars parked on both kerbs in QLD image; none visible in the newer Esri image."
+  },
+  "flags": [
+    "Slope about 3%, at the steep threshold",
+    "Carmody Road is a through route with noise",
+    "Homes 23m across the road"
+  ],
+  "sun_shade": "Bush canopy overhangs the kerb from the south; shade much of the day, morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 29,
+    "where": "South kerb of Carmody Road below the bush bank, east of the bus bay bend",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.996941,
+        -27.496773
+      ],
+      [
+        152.996696,
+        -27.496743
+      ],
+      [
+        152.996653,
+        -27.496737
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 31.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

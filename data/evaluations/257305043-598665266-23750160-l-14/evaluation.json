@@ -1,0 +1,66 @@
+{
+  "candidate": "257305043-598665266-23750160-l-14",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb on Dell Road, homes 12-23 m away on this side.",
+  "reasons": [
+    "Homes 12-23 m away at start",
+    "Quiet street, no parking convention",
+    "Slope about 6% at start"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings 12-13 m from the kerb; homes all round within 25 m.",
+    "access_and_room": "Sealed street with a narrow grass verge; one car parked nearby, room for a van is tight.",
+    "traffic": "Quiet residential street, low traffic.",
+    "convention": "Few parked cars, no campers; signs only restrict 9am-5pm weekdays, not overnight."
+  },
+  "flags": [
+    "Steep: about 6% over 0-25 m",
+    "Houses 6 m away at 29 m along, so avoid further up",
+    "Signs: no parking Mon-Fri 9am-5pm, no stopping at the corner"
+  ],
+  "sun_shade": "Mostly open to the sky over the road, with tree shade from the south side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the verge is wide enough"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 25,
+    "where": "North kerb of Dell Road, St Lucia, from the Picardy Street corner",
+    "slope_pct": 6.1,
+    "points": [
+      [
+        153.008804,
+        -27.499407
+      ],
+      [
+        153.008995,
+        -27.49926
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 10.3,
+    "min_elevation_m": 18.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

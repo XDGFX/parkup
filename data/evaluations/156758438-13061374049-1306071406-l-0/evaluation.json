@@ -1,0 +1,63 @@
+{
+  "candidate": "156758438-13061374049-1306071406-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short residential kerb by a junction; homes 12-14 m behind it.",
+  "reasons": [
+    "Detached homes 12-14 m, same side",
+    "Homes within 25 m all round",
+    "Cars park along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Homes 12-17 m behind the kerb; open grounds across the junction.",
+    "access_and_room": "Plain kerb with parked cars; room to pull in.",
+    "traffic": "Quiet residential street at a junction.",
+    "convention": "Cars park along the kerb, though signed 2P with resident permits."
+  },
+  "flags": [
+    "Steep: about 4.6% grade, up to 7.2% locally",
+    "Short stretch, about one van length of usable kerb"
+  ],
+  "sun_shade": "Open; street tree shades the east end in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "North kerb of Central Avenue, just west of the junction",
+    "slope_pct": 4.6,
+    "points": [
+      [
+        152.999351,
+        -27.499935
+      ],
+      [
+        152.999492,
+        -27.499922
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 6.3,
+    "min_elevation_m": 41.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

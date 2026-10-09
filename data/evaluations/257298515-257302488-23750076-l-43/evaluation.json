@@ -1,0 +1,65 @@
+{
+  "candidate": "257298515-257302488-23750076-l-43",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Homes sit 5-7 m from the whole kerb stretch.",
+  "reasons": [
+    "Dwellings within 5-7 m throughout",
+    "Busy cars parked, but houses adjacent",
+    "Steep rise, 4% mean"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 5-7 m from every part of the kerb on its own side.",
+    "access_and_room": "Sealed road with cars parked along it; room to stop.",
+    "traffic": "Local street near Hawken Village shops; moderate traffic.",
+    "convention": "Cars park here; no signs on this stretch."
+  },
+  "flags": [
+    "Dwellings under 10 m along the whole stretch",
+    "Steep: 4.3% mean, 9.6% max",
+    "Shops and apartments nearby"
+  ],
+  "sun_shade": "Heavy tree canopy over the north end; open to the west afternoon sun further along.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "south kerb of Dell Road, opposite the tree-lined verge near Dell Gardens",
+    "slope_pct": 2.6,
+    "points": [
+      [
+        153.005913,
+        -27.501504
+      ],
+      [
+        153.005734,
+        -27.501589
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 5.7,
+    "min_elevation_m": 14.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

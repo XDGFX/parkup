@@ -1,0 +1,68 @@
+{
+  "candidate": "58815686-58815761-1305843202-l-8",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep arterial kerb beside bush, with almost no parked cars.",
+  "reasons": [
+    "Main road, no parking convention seen",
+    "Very steep, about 14% mean grade",
+    "Apartments 18 m across the road"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush on the south side; apartments 18 m or more across the road.",
+    "access_and_room": "Kerb of a through road, no shoulder or pull-in beside the lane.",
+    "traffic": "Busy arterial with a junction near the start.",
+    "convention": "One car at the far end only; Traffic Area signs apply Mon-Fri 7am-6pm."
+  },
+  "flags": [
+    "Steep: about 9.5% grade here, 21.6% max on the stretch",
+    "Arterial noise",
+    "Traffic area restriction nearby"
+  ],
+  "sun_shade": "Heavy bush canopy shades the section from the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 60,
+    "to_m": 95,
+    "where": "Carmody Road south kerb, backing onto the bushland",
+    "slope_pct": 9.5,
+    "points": [
+      [
+        153.003784,
+        -27.498017
+      ],
+      [
+        153.003536,
+        -27.49807
+      ],
+      [
+        153.003439,
+        -27.498091
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 12.9,
+    "min_elevation_m": 24.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

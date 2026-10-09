@@ -1,0 +1,66 @@
+{
+  "candidate": "156750745-156750750-15697118-r-90",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow shaded residential kerb, homes 12 m away on this side; steep.",
+  "reasons": [
+    "Dwellings 12 m away on same side",
+    "Cars park along the street",
+    "Steep: about 9% grade"
+  ],
+  "drivers": {
+    "seclusion": "Homes about 12 m away on the east side and about 20 m across the road.",
+    "access_and_room": "Narrow sealed street; cars parked on the west kerb, tree-lined east edge leaves modest room.",
+    "traffic": "Quiet local street, light traffic.",
+    "convention": "Cars park along the street; no signs on this stretch."
+  },
+  "flags": [
+    "Steep: about 9% grade, max 14%",
+    "Dwellings 10-25 m away on both sides",
+    "Street is narrow; room beside the lane is tight"
+  ],
+  "sun_shade": "Heavily shaded by street trees on the east side; some afternoon sun from the west.",
+  "rubbish": "Building debris skip on a west-side plot; no dumped rubbish at the kerb.",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 14,
+    "to_m": 30,
+    "where": "Baty Street east kerb between the two houses, under the street trees",
+    "slope_pct": 8.6,
+    "points": [
+      [
+        152.998222,
+        -27.498222
+      ],
+      [
+        152.998252,
+        -27.498081
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 8.3,
+    "min_elevation_m": 14.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

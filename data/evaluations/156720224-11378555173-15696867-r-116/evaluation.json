@@ -1,0 +1,64 @@
+{
+  "candidate": "156720224-11378555173-15696867-r-116",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet school-side street; homes 14-20 m from the kerb on this side.",
+  "reasons": [
+    "Dwellings 14-20 m away, same side",
+    "Cars park along both kerbs",
+    "School and playing field opposite"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 14-26 m on the south side; school field and trees opposite.",
+    "access_and_room": "Plain kerb with parked cars along both sides; room to pull in.",
+    "traffic": "Local street by a school; busy at drop-off times.",
+    "convention": "Cars park along the kerb, so a van blends in."
+  },
+  "flags": [
+    "Slope about 3% (max 5.8% locally)",
+    "School traffic at drop-off and pick-up",
+    "Locked gate mapped 189 m away, not on the only access"
+  ],
+  "sun_shade": "Trees on the north side shade the lane in the morning; open to afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 35,
+    "where": "Central Avenue south kerb, midway between the crossing and the apartments",
+    "slope_pct": 2.7,
+    "points": [
+      [
+        152.997252,
+        -27.500672
+      ],
+      [
+        152.997397,
+        -27.500546
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 34.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

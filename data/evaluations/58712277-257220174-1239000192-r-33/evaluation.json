@@ -1,0 +1,64 @@
+{
+  "candidate": "58712277-257220174-1239000192-r-33",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Eight metre kerb on a busy arterial, dwellings 12 m away.",
+  "reasons": [
+    "Dwellings 12 m from kerb",
+    "Only 8 m, barely a van",
+    "Sloping main road, 10% grade"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 12 m away at both ends of the stretch, more behind.",
+    "access_and_room": "Kerb is next to a wide through road; stretch is under a van length plus margin.",
+    "traffic": "Busy through road with some cars parked on the far side.",
+    "convention": "Cars park along the opposite kerb, but not on this side."
+  },
+  "flags": [
+    "Steep: about 10% grade",
+    "Dwellings within 12 m",
+    "Arterial noise"
+  ],
+  "sun_shade": "Tree canopy over the verge, shading from the east and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 8,
+    "where": "Carmody Road east kerb, beside the planted verge",
+    "slope_pct": 9.9,
+    "points": [
+      [
+        152.994514,
+        -27.497166
+      ],
+      [
+        152.99454,
+        -27.497098
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 8.8,
+    "min_elevation_m": 49,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,49 @@
+{
+  "candidate": "156764860-10310126598-1305498588-r-33",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow shaded lane with no parking, homes 10-14 m away, no stopping sign.",
+  "reasons": [
+    "Narrow lane, no cars park here",
+    "Dwellings 10-14 m along the stretch",
+    "No Stopping Any Time sign"
+  ],
+  "drivers": {
+    "seclusion": "Homes sit 10-14 m from the kerb on both sides with gardens facing the lane.",
+    "access_and_room": "Narrow lane with a thin grass strip beside a fenced garden; no clear pull-off.",
+    "traffic": "Quiet residential lane linking to a turning head.",
+    "convention": "No parked cars seen; No Stopping and No Parking signs apply."
+  },
+  "flags": [
+    "Steep: about 3% mean grade, 7.2% max",
+    "No Stopping Any Time sign mapped"
+  ],
+  "sun_shade": "Dense canopy shades the lane, mostly from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 14.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

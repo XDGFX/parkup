@@ -1,0 +1,66 @@
+{
+  "candidate": "156758437-156758438-1306071148-r-28",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb with homes 20-30 m away mid-stretch; cars park here.",
+  "reasons": [
+    "Nearest home about 20 m from midpoint",
+    "Homes within 25 m all round",
+    "Cars park along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Homes 20 m or more away here; houses 6 m away at the west end and 11 m at the east.",
+    "access_and_room": "Plain kerb with cars parked along it; room to pull in.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park along both kerbs, though signed 2P with resident permits."
+  },
+  "flags": [
+    "Steep: about 4.9% grade, up to 8.4% locally",
+    "Homes at 6-11 m at both ends of the stretch",
+    "Locked gate mapped 298 m away, not on the only access"
+  ],
+  "sun_shade": "Street tree shades the lane from the north; open to afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 28,
+    "to_m": 46,
+    "where": "South kerb of Central Avenue, under the street tree opposite the white house",
+    "slope_pct": 4.9,
+    "points": [
+      [
+        152.998613,
+        -27.500066
+      ],
+      [
+        152.998795,
+        -27.500051
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 6.3,
+    "min_elevation_m": 38,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

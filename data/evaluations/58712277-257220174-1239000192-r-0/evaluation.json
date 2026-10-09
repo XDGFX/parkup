@@ -1,0 +1,66 @@
+{
+  "candidate": "58712277-257220174-1239000192-r-0",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on busy Carmody Road where cars park, homes 10-16 m away.",
+  "reasons": [
+    "Plain kerb on a busy road",
+    "Homes 10-16 m on this side",
+    "Steep: about 8% grade"
+  ],
+  "drivers": {
+    "seclusion": "Houses sit 10-16 m behind hedges and a garden on this side; a pool house is nearby.",
+    "access_and_room": "Kerb has a parked car and some grass verge; room to stop looks tight on a busy road.",
+    "traffic": "Wide four-lane road with centre line and steady traffic.",
+    "convention": "Cars park along both kerbs, so a van would not stand out."
+  },
+  "flags": [
+    "Steep: about 7.6% mean grade, 8.8% max",
+    "Noise: busy arterial road",
+    "Short: only 27 m of kerb"
+  ],
+  "sun_shade": "Open to the sun, with some tree shade from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 14,
+    "to_m": 27,
+    "where": "East kerb of Carmody Road, north of the side street junction",
+    "slope_pct": 7.6,
+    "points": [
+      [
+        152.994453,
+        -27.497329
+      ],
+      [
+        152.994495,
+        -27.497218
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 7.7,
+    "min_elevation_m": 50,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

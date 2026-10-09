@@ -1,0 +1,66 @@
+{
+  "candidate": "58815715-264668360-1286146709-r-54",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb by a bus zone, houses 9 to 10 m away.",
+  "reasons": [
+    "Houses 9 to 10 m from kerb",
+    "Bus zone and 2P signs here",
+    "No cars parked, no room beside lane"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 9 to 10 m away, more within 25 m all round.",
+    "access_and_room": "Kerb beside a through road; wooded verge, no gravel or pull-in.",
+    "traffic": "Busy through road with a bus stop at this kerb.",
+    "convention": "No parked cars seen; signs give 2P Mon-Fri with resident permits."
+  },
+  "flags": [
+    "Steep: about 4% grade, 8.4% max",
+    "Dwellings within 10 m",
+    "Bus zone and 2P resident signs"
+  ],
+  "sun_shade": "Dense tree canopy over the verge shades from the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 12,
+    "to_m": 25,
+    "where": "Carmody Road south kerb, past the bus stop at the bend",
+    "slope_pct": 4,
+    "points": [
+      [
+        152.999968,
+        -27.497355
+      ],
+      [
+        153.000098,
+        -27.497344
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 4,
+    "min_elevation_m": 12.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,67 @@
+{
+  "candidate": "156750745-156750750-15697118-r-130",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb by wooded land, but homes 12-19 m away and steep.",
+  "reasons": [
+    "Homes 12-19 m away on both sides",
+    "Wooded block opposite the north end",
+    "Steep: about 8% grade"
+  ],
+  "drivers": {
+    "seclusion": "Wooded land on the east side near the end, but a dwelling sits 5 m off the start and others 12-19 m away.",
+    "access_and_room": "Narrow sealed street; a car stands at the kerb here, so some room to stop.",
+    "traffic": "Quiet local street, light traffic.",
+    "convention": "Cars park here; 2P resident-permit signs apply weekdays 7am-6pm."
+  },
+  "flags": [
+    "Steep: about 8% grade overall",
+    "Homes within 25 m on both sides",
+    "Short section, only 20 m",
+    "2P resident-permit signs apply weekdays 7am-6pm"
+  ],
+  "sun_shade": "Tree canopy over the east side, shading from the east and afternoon; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 12,
+    "to_m": 20,
+    "where": "Northern end of the stretch, beside the wooded block",
+    "slope_pct": 6.5,
+    "points": [
+      [
+        152.998293,
+        -27.497887
+      ],
+      [
+        152.998308,
+        -27.497816
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 5.2,
+    "min_elevation_m": 11.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,67 @@
+{
+  "candidate": "156750750-251813137-1286147691-l-40",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, very steep wooded bank beside Carmody Road with no room to stop.",
+  "reasons": [
+    "Mean grade 22%, max 38%",
+    "Treed bank beside lane, no pull-off",
+    "Apartments 12m across road"
+  ],
+  "drivers": {
+    "seclusion": "Bush behind, but apartments and detached homes 12-17m across the road.",
+    "access_and_room": "Ground beside the lane is a treed, steep bank; no level pull-off seen.",
+    "traffic": "Through road with painted lane lines; no cars parked along this kerb.",
+    "convention": "No parked cars or campervans seen on this stretch."
+  },
+  "flags": [
+    "Steep: mean 22%, max 38%",
+    "Main road with no kerbside parking",
+    "Dwellings within 12-17m"
+  ],
+  "sun_shade": "Heavy tree canopy over the south side; shaded most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 21,
+    "where": "South side of Carmody Road, beside the wooded bank",
+    "slope_pct": 22.3,
+    "points": [
+      [
+        152.998047,
+        -27.496908
+      ],
+      [
+        152.998029,
+        -27.496996
+      ],
+      [
+        152.997941,
+        -27.496936
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 22.9,
+    "min_elevation_m": 17,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:54:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
