@@ -1,0 +1,74 @@
+{
+  "candidate": "9339363162-9339363163-1012317721-r-14",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Cul-de-sac bulb kerb on the north-west arc, homes 16 m away.",
+  "reasons": [
+    "Nearest home 16 m from section",
+    "Houses ring the whole bulb",
+    "Cars already park in the bulb"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 16 m away, with homes 9 m at the arc's ends and all round.",
+    "access_and_room": "Sealed bulb with width to park along the arc; no obstruction seen.",
+    "traffic": "Very little, dead-end residential street.",
+    "convention": "Cars are parked at the bulb, so a van would blend in somewhat."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Houses 9 m from the arc's ends",
+    "Steep: whole stretch 3.8% mean, 7.4% max"
+  ],
+  "sun_shade": "Tree on the west side shades the afternoon; open to the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking restrictions on site",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 34,
+    "to_m": 46,
+    "where": "North-west arc of the Castile Street cul-de-sac bulb, under the tree",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.992136,
+        -27.507591
+      ],
+      [
+        152.992135,
+        -27.507591
+      ],
+      [
+        152.992068,
+        -27.507612
+      ],
+      [
+        152.99204,
+        -27.507648
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

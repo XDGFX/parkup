@@ -1,0 +1,87 @@
+{
+  "candidate": "156823619-156826465-15700567-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 3 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Arterial kerb beside apartments and a house; bus zone, no parking lane.",
+  "reasons": [
+    "Apartments 1 m and a house beside kerb",
+    "Arterial with bus zone, few parked cars",
+    "Rail yard and traffic noise"
+  ],
+  "drivers": {
+    "seclusion": "Apartment block touches the kerb at the start, Nordale Gardens is 8 m away, and an unmapped house sits just behind a tree strip.",
+    "access_and_room": "Narrow kerbside lane on a multi-lane arterial; a bus zone sign applies and only a couple of cars stop there.",
+    "traffic": "Busy arterial beside the railway; constant traffic and train noise.",
+    "convention": "No parking convention at the kerb; Bus Zone sign present."
+  },
+  "flags": [
+    "Bus Zone sign on this kerb",
+    "Dwellings within 10 m",
+    "Arterial and rail noise",
+    "DEM shows a spike at 40-55 m (max 36%), probably a retaining wall; ignore"
+  ],
+  "sun_shade": "Apartment block shades the kerb from the west; trees shade the north end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 35,
+    "where": "West kerb of Coonan Street beside the curved apartment block and the house behind it",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.97444,
+        -27.504012
+      ],
+      [
+        152.974482,
+        -27.503977
+      ],
+      [
+        152.974514,
+        -27.503949
+      ],
+      [
+        152.974538,
+        -27.503927
+      ],
+      [
+        152.974557,
+        -27.503908
+      ],
+      [
+        152.974577,
+        -27.503887
+      ],
+      [
+        152.974581,
+        -27.503883
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 3,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 21.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

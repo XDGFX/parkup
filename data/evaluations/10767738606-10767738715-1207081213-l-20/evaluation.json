@@ -1,0 +1,49 @@
+{
+  "candidate": "10767738606-10767738715-1207081213-l-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Island and carriageway edge at a busy junction, with no room to stop.",
+  "reasons": [
+    "Between live lanes and a painted gore",
+    "Clearway Mon-Sat, no parked cars",
+    "Very steep at start, 9% mean"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwelling 24 m at the far end; otherwise shops across the road; fully exposed at a junction.",
+    "access_and_room": "Kerb runs along a traffic island and a hatched painted island; no parking lane, no pull-off, no parked vehicles.",
+    "traffic": "Multi-lane junction, constant traffic and a bus stop.",
+    "convention": "Clearway C Mon-Sat 7am-7pm; nobody parks on this kerb."
+  },
+  "flags": [
+    "Steep: 9.3% mean (76% max is DEM noise at the ramp)",
+    "Clearway Mon-Sat 7am-7pm",
+    "Noise: arterial junction",
+    "Imagery differs: QLD shows construction works"
+  ],
+  "sun_shade": "Open to sky; street trees on the east verge shade the far side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 24,
+    "gated": false,
+    "slope_pct": 10,
+    "min_elevation_m": 25.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

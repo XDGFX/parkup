@@ -1,0 +1,65 @@
+{
+  "candidate": "257260655-13064881692-1242348679-r-25",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential west kerb by the corner; homes about 10 m off.",
+  "reasons": [
+    "Dwellings 9 to 11 m away on this side",
+    "Homes all round, none closer at the top",
+    "Cars park opposite, so a van blends in"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings 9 to 11 m, all clustered at 8 m along; homes on both sides.",
+    "access_and_room": "Sealed street; cars park on the east side and the west kerb looks clear for a van.",
+    "traffic": "Quiet residential street near a junction, light traffic.",
+    "convention": "Residential frontage with no camping convention; ordinary parked cars opposite."
+  },
+  "flags": [
+    "Dwelling borderline at about 9 to 11 m",
+    "Local grade up to 6.8%"
+  ],
+  "sun_shade": "Open lawn verge; house and trees to the west shade the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether residents object"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 7,
+    "where": "West kerb at the top of Dennis Street beside the lawn verge",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.980514,
+        -27.504519
+      ],
+      [
+        152.980444,
+        -27.504509
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 16.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

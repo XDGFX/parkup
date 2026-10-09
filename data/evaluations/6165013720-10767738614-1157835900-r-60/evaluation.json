@@ -1,0 +1,48 @@
+{
+  "candidate": "6165013720-10767738614-1157835900-r-60",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway arterial kerb beside a shopping centre, no parked cars, no pull-off.",
+  "reasons": [
+    "Main road, no cars parked at kerb",
+    "Clearway signs Mon-Sat and Mon-Fri",
+    "Footpath and verge trees, no room off lane"
+  ],
+  "drivers": {
+    "seclusion": "Shops and customer car park on the east side; apartments 25-30 m across the road; fully in view of traffic.",
+    "access_and_room": "Kerb of a busy through road with a footpath behind it; no parking lane and no parked cars along it.",
+    "traffic": "Constant arterial traffic near a signalised junction and ramps.",
+    "convention": "Clearway C signs apply Mon-Sat 7am-7pm; no one parks on this kerb."
+  },
+  "flags": [
+    "Steep: 4.8% mean (49% max is DEM noise at the far end)",
+    "Clearway Mon-Sat 7am-7pm",
+    "Noise: arterial and junction"
+  ],
+  "sun_shade": "Street trees on the east verge shade the kerb in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 29,
+    "gated": false,
+    "slope_pct": 2.8,
+    "min_elevation_m": 24,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

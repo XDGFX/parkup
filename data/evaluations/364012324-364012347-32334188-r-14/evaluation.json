@@ -1,0 +1,75 @@
+{
+  "candidate": "364012324-364012347-32334188-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat west kerb with homes 15-21 m behind and houses opposite on a quiet street.",
+  "reasons": [
+    "Homes 15-21 m away on own side",
+    "Houses across road within 25 m",
+    "Flat and wide enough to pull in"
+  ],
+  "drivers": {
+    "seclusion": "West-side houses 15-21 m back from 65 to 83 m; houses across the road about 18 m from the centre line.",
+    "access_and_room": "Sealed street with a grass verge beside the kerb; room to park clear of the lane.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Cars park along this street, but no strong parking convention for vans."
+  },
+  "flags": [
+    "Homes within about 25 m all round",
+    "Low-lying: min elevation 9.8 m, waterway 72 m away",
+    "Steeper stretch 30-65 m (max grade 10.4%), best section is flat"
+  ],
+  "sun_shade": "Open; grass verge with a few trees to the west giving afternoon shade in places.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 68,
+    "to_m": 84,
+    "where": "west kerb on the straight, beside the grassy verge by the low-set house",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.958123,
+        -27.514812
+      ],
+      [
+        152.958117,
+        -27.514846
+      ],
+      [
+        152.958109,
+        -27.514891
+      ],
+      [
+        152.958112,
+        -27.51493
+      ],
+      [
+        152.958114,
+        -27.514954
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 12.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

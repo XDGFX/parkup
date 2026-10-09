@@ -1,0 +1,68 @@
+{
+  "candidate": "156823619-156826465-15700567-l-103",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside a cinema on a busy road, cars park here.",
+  "reasons": [
+    "Backs onto cinema, no homes within 25 m",
+    "Busy road beside rail line",
+    "Signed 2-minute parking and bus zone"
+  ],
+  "drivers": {
+    "seclusion": "Cinema and shop roofs on the kerb side; nearest apartments 27 m away; rail yard across the road.",
+    "access_and_room": "Kerb lane where several cars park in the imagery; short 15 m stretch, a van barely fits clear of the bus zone.",
+    "traffic": "Busy through road with trains opposite; constant passing traffic and noise.",
+    "convention": "Cars park along this kerb, but the signs here are a bus zone and 2-minute parking, not overnight bays."
+  },
+  "flags": [
+    "Signs: 2-minute parallel and bus zone on this stretch",
+    "Noise: arterial and rail line",
+    "Busy commercial frontage, people about in the evening"
+  ],
+  "sun_shade": "Open to sky; cinema roof may shade the west side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Whether the bus zone covers the whole stretch"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "kerb outside the Eldorado cinema, opposite the rail corridor",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.974899,
+        -27.503509
+      ],
+      [
+        152.974958,
+        -27.50344
+      ],
+      [
+        152.974988,
+        -27.503405
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 27,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 20.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

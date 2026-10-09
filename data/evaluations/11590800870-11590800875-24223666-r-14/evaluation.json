@@ -1,0 +1,62 @@
+{
+  "candidate": "11590800870-11590800875-24223666-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, steep residential kerb with homes 16 m away; not worth stopping.",
+  "reasons": [
+    "Grade 12.4% mean, 28% max",
+    "Homes 16-21 m from kerb",
+    "Only 16 m long"
+  ],
+  "drivers": {
+    "seclusion": "Detached dwellings at 16, 17 and 21 m on both sides; houses all round.",
+    "access_and_room": "Quiet street with cars parked at the kerb; 16 m is barely a van length.",
+    "traffic": "Quiet residential street, low traffic.",
+    "convention": "Some cars park on the street, but no campervan sign seen."
+  },
+  "flags": [
+    "Steep: 12.4% mean grade, 28% max",
+    "Dwellings within 16 m"
+  ],
+  "sun_shade": "Heavy tree canopy over the start; open to afternoon sun further along.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "Dennis Street south kerb, short stretch under trees near the bend",
+    "slope_pct": 12.4,
+    "points": [
+      [
+        152.981152,
+        -27.505916
+      ],
+      [
+        152.981277,
+        -27.506008
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 12.4,
+    "min_elevation_m": 29.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

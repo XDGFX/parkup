@@ -1,0 +1,47 @@
+{
+  "candidate": "48324450-53860687-1287253476-l-97",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short angled bays on a busy shopping strip with time limits.",
+  "reasons": [
+    "Only 13 m, short-stay angle bays",
+    "Shops and apartments within 7-24 m",
+    "Busy arterial at the Indooroopilly junction"
+  ],
+  "drivers": {
+    "seclusion": "Retail frontage 7 m away, apartments 24 m, in the middle of a shopping strip.",
+    "access_and_room": "Angle bays at the road edge are filled with cars; a van would overhang the lane.",
+    "traffic": "Busy arterial with turning lanes at a junction.",
+    "convention": "Signed 10-minute and 2-hour angle parking, so no overnight use."
+  },
+  "flags": [
+    "Signs: 2P and P 10 Minute angle bays, peak-hour no stopping",
+    "Noise from arterial road"
+  ],
+  "sun_shade": "Large tree shades the north end; otherwise open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 24,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 16.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

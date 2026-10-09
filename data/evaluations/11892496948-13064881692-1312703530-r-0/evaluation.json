@@ -1,0 +1,49 @@
+{
+  "candidate": "11892496948-13064881692-1312703530-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 4 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Nine-metre kerb at a junction island, with a house 4 m away.",
+  "reasons": [
+    "Only 9 m, shorter than a van",
+    "Dwelling 4 m from kerb",
+    "Narrow lane beside house frontage"
+  ],
+  "drivers": {
+    "seclusion": "Detached dwellings at 4 m and 10 m; homes all round.",
+    "access_and_room": "Stretch is under a van length and sits at a junction beside a traffic island.",
+    "traffic": "Quiet suburban junction.",
+    "convention": "A few cars park nearby; no campervans seen."
+  },
+  "flags": [
+    "Dwelling within 4 m",
+    "Steep: 3.6% mean grade"
+  ],
+  "sun_shade": "Street tree shades the south end; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 4,
+    "gated": false,
+    "slope_pct": 3.6,
+    "min_elevation_m": 18.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

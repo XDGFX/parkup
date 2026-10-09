@@ -1,0 +1,63 @@
+{
+  "candidate": "48324504-58791944-7925096-l-20",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Level residential kerb with cars parked; houses 13-14 m away on this side.",
+  "reasons": [
+    "Houses 13-14 m away, same side",
+    "Cars park along this street",
+    "Nearly level here, about 1%"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses face this kerb 13-14 m away; homes opposite across the road too.",
+    "access_and_room": "Sealed street with a parking lane; a van fits in 25 m.",
+    "traffic": "Quiet suburban street, low traffic.",
+    "convention": "A few cars park on the street, but no campervans seen."
+  },
+  "flags": [
+    "Dwellings 13-14 m away on the same side",
+    "Falls to 15% max grade further east"
+  ],
+  "sun_shade": "Open sky; small garden trees give patchy shade from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 30,
+    "where": "Disraeli Street north kerb, first block east of the corner",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.968252,
+        -27.494419
+      ],
+      [
+        152.968502,
+        -27.494457
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 48.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

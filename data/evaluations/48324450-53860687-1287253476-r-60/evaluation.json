@@ -1,0 +1,50 @@
+{
+  "candidate": "48324450-53860687-1287253476-r-60",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 2 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Busy arterial kerb, no parking lane, apartments 2 m away.",
+  "reasons": [
+    "Main road, no kerbside parking",
+    "Apartments 2-17 m from kerb",
+    "No stopping and bus zone signs"
+  ],
+  "drivers": {
+    "seclusion": "Apartment block 2 m from the kerb at 19 m, more apartments 14-17 m along the stretch.",
+    "access_and_room": "Kerb lane carries traffic with no marked bay; no room to pull off.",
+    "traffic": "Busy multi-lane arterial next to a junction.",
+    "convention": "No cars parked along this kerb; signed no stopping and bus zone."
+  },
+  "flags": [
+    "Signs: No Stopping Any Time, peak-hour no stopping, bus zone",
+    "Noise from arterial road",
+    "Steep in places: max 10.8% grade, mean 3.1%"
+  ],
+  "sun_shade": "Open sun, tree shade near the south end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 2,
+    "gated": false,
+    "slope_pct": 3.1,
+    "min_elevation_m": 16.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

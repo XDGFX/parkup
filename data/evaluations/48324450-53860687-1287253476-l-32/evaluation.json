@@ -1,0 +1,50 @@
+{
+  "candidate": "48324450-53860687-1287253476-l-32",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Busy main road with no parking lane and apartments within 11 m.",
+  "reasons": [
+    "Main road, no kerbside parking",
+    "Apartments 11-18 m from kerb",
+    "No-stopping signs along the kerb"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks 11-19 m away on both sides, shops at the south end.",
+    "access_and_room": "Multi-lane road, kerb lane carries traffic and no-stopping signs; no room to pull off.",
+    "traffic": "Busy arterial near the Indooroopilly junction.",
+    "convention": "No cars parked along the kerb; signed no stopping at times or any time."
+  },
+  "flags": [
+    "Slope about 1.9% mean, 4.5% max",
+    "Noise from arterial road and junction",
+    "Signs: No Stopping Any Time and peak-hour no stopping"
+  ],
+  "sun_shade": "Tree shade at both ends, open elsewhere.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 16.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

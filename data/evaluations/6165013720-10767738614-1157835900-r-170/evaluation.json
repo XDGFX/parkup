@@ -1,0 +1,48 @@
+{
+  "candidate": "6165013720-10767738614-1157835900-r-170",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Edge of a planted traffic island between road ramps, nowhere to stop.",
+  "reasons": [
+    "Island between live carriageways",
+    "No parking, no pull-off",
+    "Steep: up to 13% grade"
+  ],
+  "drivers": {
+    "seclusion": "No dwellings near (retail 44 m), but the kerb is an island edge in full view of junction traffic.",
+    "access_and_room": "Kerb of a planted island at a junction; no lane to pull out of, no cars parked, no vehicle tracks.",
+    "traffic": "Multi-lane junction with constant traffic on all sides.",
+    "convention": "No parking here and no signs."
+  },
+  "flags": [
+    "Steep: 5.7% mean, 13.4% max",
+    "Noise: arterial junction",
+    "Imagery differs: QLD shows construction works, Esri shows finished island"
+  ],
+  "sun_shade": "Open to sky, low shrubs only.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 7.4,
+    "min_elevation_m": 28.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

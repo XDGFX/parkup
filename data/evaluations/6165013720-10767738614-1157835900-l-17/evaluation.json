@@ -1,0 +1,48 @@
+{
+  "candidate": "6165013720-10767738614-1157835900-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway arterial kerb, no parked cars, homes and apartments within 12-20 m.",
+  "reasons": [
+    "Main road, no kerb parking",
+    "Dwellings 12-20 m from kerb",
+    "Steep in places, up to 12%"
+  ],
+  "drivers": {
+    "seclusion": "Houses and apartments 12-21 m from the kerb along the west side; nothing screens them.",
+    "access_and_room": "Kerb of a multi-lane through road; no parking lane, no cars parked along it, no pull-off.",
+    "traffic": "Constant through traffic on a busy arterial with a nearby signalised junction.",
+    "convention": "Clearway C Mon-Fri 7am-7pm and no one parks on this kerb."
+  },
+  "flags": [
+    "Steep: 3.9% mean, 12% max",
+    "Clearway Mon-Fri 7am-7pm",
+    "Noise: arterial"
+  ],
+  "sun_shade": "Open to sky; trees over the footpath at the south end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 3.9,
+    "min_elevation_m": 24.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

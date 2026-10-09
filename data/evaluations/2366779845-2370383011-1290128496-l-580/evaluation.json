@@ -1,0 +1,50 @@
+{
+  "candidate": "2366779845-2370383011-1290128496-l-580",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Through-road kerb with no stopping signs, painted median and no parked cars.",
+  "reasons": [
+    "Main road, nobody parks at this kerb",
+    "No Stopping Any Time signs",
+    "Narrow grass edge, no room off lane"
+  ],
+  "drivers": {
+    "seclusion": "Kerb backs onto trees and a university car park; the nearest house is 9 m from the start.",
+    "access_and_room": "Discovery Drive is a through road; no pull-in and the edge is a narrow grass strip beside chevron markings.",
+    "traffic": "Busy two-lane through road beside a campus.",
+    "convention": "No cars park at this kerb; two No Stopping Any Time signs within 9 m."
+  },
+  "flags": [
+    "No Stopping Any Time signs (CSIRO access and Meiers Road)",
+    "Dwelling 9 m from the start of the kerb",
+    "Mapped gates nearby all have ways round"
+  ],
+  "sun_shade": "Tree canopy over the east side from the afternoon; open to the morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 3.2,
+    "min_elevation_m": 22.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

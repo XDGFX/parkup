@@ -1,0 +1,63 @@
+{
+  "candidate": "48324450-11394197586-1228649423-l-107",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb where cars park, but apartments 12 m away on own side.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Apartments 10-14 m on own side",
+    "Short 28 m stretch"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 12 m away behind trees; more apartments 10-14 m along the stretch.",
+    "access_and_room": "Sealed through road with cars parked along the kerb; room to stop.",
+    "traffic": "Moderately busy through road.",
+    "convention": "Cars park along the kerb; no sign of overnight stays."
+  },
+  "flags": [
+    "Apartment 10 m from kerb at 19 m",
+    "Slope about 1.4% in best section, 5% max"
+  ],
+  "sun_shade": "Tree canopy shades the section from the west and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Parking restrictions on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "Southern end, beside the tree-screened apartment block",
+    "slope_pct": 1.4,
+    "points": [
+      [
+        152.977366,
+        -27.501213
+      ],
+      [
+        152.977391,
+        -27.501089
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 21.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

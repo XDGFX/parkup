@@ -1,0 +1,72 @@
+{
+  "candidate": "9339363162-9339363163-1012317721-l-30",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short cul-de-sac bulb kerb with homes 15 m away, cars parked nearby.",
+  "reasons": [
+    "Dwellings 15-18 m away",
+    "Cars park around the bulb",
+    "Only 8 m of kerb"
+  ],
+  "drivers": {
+    "seclusion": "Three homes within 15-18 m, ringed by houses all round.",
+    "access_and_room": "Quiet cul-de-sac bulb, room beside the island; section is barely van length.",
+    "traffic": "Very little, dead-end residential street.",
+    "convention": "Cars are parked in the bulb, so a van would blend in somewhat."
+  },
+  "flags": [
+    "Steep: about 3.6% mean grade, 5.2% max",
+    "Homes 15-18 m on all sides",
+    "Section only 8 m long"
+  ],
+  "sun_shade": "Island trees give partial shade; open to sun from the north and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking restrictions on site",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 8,
+    "where": "Castile Street cul-de-sac bulb, south side by the central island",
+    "slope_pct": 3.6,
+    "points": [
+      [
+        152.992209,
+        -27.507686
+      ],
+      [
+        152.992192,
+        -27.507675
+      ],
+      [
+        152.992167,
+        -27.507665
+      ],
+      [
+        152.992138,
+        -27.507663
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 3.6,
+    "min_elevation_m": 8.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,48 @@
+{
+  "candidate": "10767738606-10767738715-1207081213-r-60",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb on a busy arterial with painted chevrons; no parking, flats close by.",
+  "reasons": [
+    "Through road, no parked cars now",
+    "Flats 19 m away",
+    "Only 10 m of kerb"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 19 m away on the same side; open to a major junction.",
+    "access_and_room": "Kerb of a multi-lane road beside chevron markings; no room to pull out of the lane.",
+    "traffic": "Heavy multi-lane arterial and junction.",
+    "convention": "No cars parked along the kerb in the current image; the cars in the older QLD image were queuing at the junction."
+  },
+  "flags": [
+    "Steep: about 3.2% mean grade",
+    "Noise from arterial road",
+    "Apartments within 25 m"
+  ],
+  "sun_shade": "Open, no cover.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signage on site",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 3.2,
+    "min_elevation_m": 25.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

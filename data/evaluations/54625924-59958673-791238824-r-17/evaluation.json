@@ -1,0 +1,71 @@
+{
+  "candidate": "54625924-59958673-791238824-r-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Multi-lane main road beside the railway with no parking lane.",
+  "reasons": [
+    "Main road, no parking lane",
+    "Apartments 9 m from kerb",
+    "Busy junction approach"
+  ],
+  "drivers": {
+    "seclusion": "Apartment building 9 m from the kerb; rail corridor on the far side of the road.",
+    "access_and_room": "Multi-lane road with turn lanes and arrows; only one dark car at the kerb, no marked parking lane or pull-in.",
+    "traffic": "Busy arterial next to the railway; noise from traffic and trains.",
+    "convention": "No parking convention; no signs mapped."
+  },
+  "flags": [
+    "Main road with no parking along the kerb",
+    "Apartment within 10 m",
+    "Rail and arterial noise",
+    "Slope 3.1% mean, max 6.9%"
+  ],
+  "sun_shade": "Apartment block shades the kerb from the west and north-west; open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 23,
+    "where": "West kerb of Coonan Street approaching the junction, below the apartment block",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.974416,
+        -27.504133
+      ],
+      [
+        152.974333,
+        -27.504214
+      ],
+      [
+        152.974293,
+        -27.504252
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 3.4,
+    "min_elevation_m": 20.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

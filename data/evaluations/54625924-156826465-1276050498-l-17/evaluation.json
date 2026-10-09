@@ -1,0 +1,69 @@
+{
+  "candidate": "54625924-156826465-1276050498-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy shopping-strip arterial beside the station; bus zones and 2-minute parking.",
+  "reasons": [
+    "Arterial with bus zones, no overnight parking",
+    "Cinema and shops lining the kerb",
+    "Rail yard and heavy traffic noise"
+  ],
+  "drivers": {
+    "seclusion": "Shops and cinema directly on the kerb; Nordale Gardens apartments 15 m away at the south end; station and rail yard opposite.",
+    "access_and_room": "Multi-lane road with a short kerbside lane used for brief stops; bus zones and No Stopping stretches.",
+    "traffic": "Busy arterial next to Indooroopilly station; constant traffic and trains.",
+    "convention": "Signs are 2-minute parking, Bus Zone and No Stopping Any Time, so no overnight stays."
+  },
+  "flags": [
+    "Signed 2-minute parking, bus zones and No Stopping Any Time",
+    "Arterial and rail noise",
+    "Station and shopping area, very exposed",
+    "Flat: about 0.9% grade"
+  ],
+  "sun_shade": "Open to the sky; buildings shade the kerb in the afternoon from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 40,
+    "where": "West kerb of Coonan Street opposite the railway, before the cinema block",
+    "slope_pct": 0.9,
+    "points": [
+      [
+        152.974807,
+        -27.503734
+      ],
+      [
+        152.974891,
+        -27.503643
+      ],
+      [
+        152.974934,
+        -27.503594
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 20.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

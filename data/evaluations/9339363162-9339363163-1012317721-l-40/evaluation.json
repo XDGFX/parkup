@@ -1,0 +1,47 @@
+{
+  "candidate": "9339363162-9339363163-1012317721-l-40",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Tiny 6 m kerb on cul-de-sac bulb, too short for a van.",
+  "reasons": [
+    "Only 6 m, under van length",
+    "Homes 15-17 m away",
+    "Circle is cramped"
+  ],
+  "drivers": {
+    "seclusion": "Homes 15-17 m away with more all round the bulb.",
+    "access_and_room": "Section is 6 m, shorter than a van; the bulb is tight around the island.",
+    "traffic": "Very little, dead-end residential street.",
+    "convention": "A couple of cars park by the island, but not on this stub."
+  },
+  "flags": [
+    "Steep: about 3.2% mean grade",
+    "Section under one van length"
+  ],
+  "sun_shade": "Island trees shade from the south-east; open otherwise.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking restrictions on site",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 3.6,
+    "min_elevation_m": 8.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

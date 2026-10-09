@@ -1,0 +1,68 @@
+{
+  "candidate": "11590800870-11590800875-24223666-r-30",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bush-backed kerb on a quiet bend; homes 18-20 m across the road.",
+  "reasons": [
+    "Bush slope behind, no homes on this side",
+    "Homes 18-20 m across narrow road",
+    "Sloping about 5%, narrow road"
+  ],
+  "drivers": {
+    "seclusion": "South side is dense bush; nearest dwellings are across the road, about 18-20 m away.",
+    "access_and_room": "Sealed through road; kerb meets bush edge, so room beside lane looks tight for a van.",
+    "traffic": "Quiet residential street, low traffic.",
+    "convention": "Residents park on the north side only; no campervans seen."
+  },
+  "flags": [
+    "Steep: about 5% grade here, 8% mean overall",
+    "Homes 18-20 m across the road",
+    "Narrow lane, little room off the lane"
+  ],
+  "sun_shade": "Heavy tree canopy from the south and west; shaded most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether the bush edge leaves room to pull in"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 85,
+    "where": "Dennis Street, south kerb along the straight past the bend, backing onto bush",
+    "slope_pct": 5,
+    "points": [
+      [
+        152.981721,
+        -27.5063
+      ],
+      [
+        152.981862,
+        -27.506302
+      ],
+      [
+        152.982025,
+        -27.506303
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 5.5,
+    "min_elevation_m": 35.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

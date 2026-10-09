@@ -1,0 +1,63 @@
+{
+  "candidate": "8806634175-13077554982-1309538293-r-22",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a residential street, houses 15-17 m behind trees.",
+  "reasons": [
+    "Houses 15-17 m away, screened by trees",
+    "Cars park along this street",
+    "Only 14 m of kerb"
+  ],
+  "drivers": {
+    "seclusion": "Houses 15 m and 17 m on the same side, behind a thick tree strip; open grass verge opposite.",
+    "access_and_room": "Sealed street with a row of cars parked on the east kerb already; room for a van.",
+    "traffic": "Quiet residential street leading to a dead end.",
+    "convention": "Residents park along the kerb; no signs mapped, no overnight convention."
+  },
+  "flags": [
+    "Quiet residential street with no overnight parking convention",
+    "Slope about 2.2%"
+  ],
+  "sun_shade": "Tree canopy shades the kerb from the east; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "East kerb of Clarence Road beside a tree-covered verge",
+    "slope_pct": 2.2,
+    "points": [
+      [
+        152.976678,
+        -27.505105
+      ],
+      [
+        152.976703,
+        -27.504981
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 30.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

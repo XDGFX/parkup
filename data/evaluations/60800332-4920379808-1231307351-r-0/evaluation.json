@@ -1,0 +1,67 @@
+{
+  "candidate": "60800332-4920379808-1231307351-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep residential kerb with houses 6-10 m away for most of it.",
+  "reasons": [
+    "Mean grade 13.8%, max 20.6%",
+    "Dwellings within 10 m for most of it",
+    "Homes close on both sides"
+  ],
+  "drivers": {
+    "seclusion": "Nearest houses 14-22 m at the bottom end, with homes on the opposite side.",
+    "access_and_room": "Narrow sealed street; at the bottom it meets a busy junction with little room clear of the lane.",
+    "traffic": "Close to a busy road and overpass at the bottom; quiet higher up.",
+    "convention": "Residents park here, but a van would sit right beside homes."
+  },
+  "flags": [
+    "Steep: about 13.8% mean grade, over the 12% limit",
+    "Dwellings 6-10 m from kerb for most of the stretch",
+    "Noise from the busy road and overpass at the bottom"
+  ],
+  "sun_shade": "Mostly open at the bottom; heavy tree shade at the top.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 108,
+    "to_m": 120,
+    "where": "west kerb near the bottom, by the junction with the main road",
+    "slope_pct": 8,
+    "points": [
+      [
+        152.965949,
+        -27.492243
+      ],
+      [
+        152.965976,
+        -27.492302
+      ],
+      [
+        152.965996,
+        -27.492343
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 10.5,
+    "min_elevation_m": 46.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

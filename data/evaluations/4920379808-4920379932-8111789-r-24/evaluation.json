@@ -1,0 +1,63 @@
+{
+  "candidate": "4920379808-4920379932-8111789-r-24",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep west kerb beside a motorway, with houses 11-13 m away.",
+  "reasons": [
+    "Mean grade 12.4%, max 16.8%",
+    "Houses 11-13 m behind kerb",
+    "Motorway noise nearby"
+  ],
+  "drivers": {
+    "seclusion": "Houses 12-23 m on the kerb side and 15-25 m across the road; gardens, no bush or park cover.",
+    "access_and_room": "Wide sealed street with marked lanes; cars park on both sides.",
+    "traffic": "Motorway close to the east and a busy junction at the top.",
+    "convention": "Residents park along the street; no sign of van-dwelling."
+  },
+  "flags": [
+    "Steep: about 12.4% mean grade, at the 12% limit",
+    "Motorway noise",
+    "Homes within 12-23 m all round"
+  ],
+  "sun_shade": "Open kerb; garden trees give some afternoon shade from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 35,
+    "where": "west kerb mid-slope, by the red-roofed house",
+    "slope_pct": 11,
+    "points": [
+      [
+        152.965743,
+        -27.492675
+      ],
+      [
+        152.965657,
+        -27.492786
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 13.6,
+    "min_elevation_m": 39.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

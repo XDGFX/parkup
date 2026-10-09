@@ -1,0 +1,48 @@
+{
+  "candidate": "6165013720-10767738614-1157835900-l-160",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb of a traffic island on a busy road ramp, nowhere to stop.",
+  "reasons": [
+    "Island between carriageways, no room off lane",
+    "Main road with no parked cars",
+    "Steep: up to 33% grade"
+  ],
+  "drivers": {
+    "seclusion": "No dwellings within 58 m, but the spot is a concrete island between live lanes and a junction.",
+    "access_and_room": "Kerb is a raised island edge beside fast carriageways; no parking lane or pull-off, no parked vehicles.",
+    "traffic": "Multi-lane arterial approach and junction, constant traffic on both sides.",
+    "convention": "No one parks here and no signs allow it."
+  },
+  "flags": [
+    "Steep: 8.5% mean, 33% max (DEM likely picks up the ramp edge)",
+    "Noise: arterial junction",
+    "Imagery differs: QLD shows construction works here, Esri shows finished road"
+  ],
+  "sun_shade": "Open to sky, no shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 58,
+    "gated": false,
+    "slope_pct": 10.2,
+    "min_elevation_m": 29.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

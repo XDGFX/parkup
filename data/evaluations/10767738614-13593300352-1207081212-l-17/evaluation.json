@@ -1,0 +1,48 @@
+{
+  "candidate": "10767738614-13593300352-1207081212-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a raised island on a busy arterial; no parking.",
+  "reasons": [
+    "Through road, no parked cars",
+    "No room to pull out of lane",
+    "Heavy junction traffic"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 45 m away, but the kerb is in an exposed junction.",
+    "access_and_room": "Kerb of a multi-lane road beside a raised island; no pull-off.",
+    "traffic": "Heavy multi-lane arterial and junction.",
+    "convention": "No cars parked along the kerb and no parking lane."
+  },
+  "flags": [
+    "Steep: about 4.8% mean grade",
+    "Noise from arterial road",
+    "Construction site visible in QLD image only"
+  ],
+  "sun_shade": "Open, no cover.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signage on site",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 45,
+    "gated": false,
+    "slope_pct": 4.8,
+    "min_elevation_m": 28.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

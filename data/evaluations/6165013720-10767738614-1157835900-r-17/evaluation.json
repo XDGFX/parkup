@@ -1,0 +1,48 @@
+{
+  "candidate": "6165013720-10767738614-1157835900-r-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Arterial kerb with no parked cars and no room to pull out of the lane.",
+  "reasons": [
+    "Main road, no parking lane or parked cars",
+    "Kerb meets footpath, no pull-off",
+    "Retail 11 m, houses 26 m away"
+  ],
+  "drivers": {
+    "seclusion": "Retail building 11 m away; nearest dwelling 26 m (house) and 28 m (apartments); open to the road.",
+    "access_and_room": "Kerb lane of a busy through road, footpath directly behind the kerb; no cars parked along it and no pull-off.",
+    "traffic": "Constant traffic on a multi-lane arterial near a junction.",
+    "convention": "No parked cars along this kerb and no signs here."
+  },
+  "flags": [
+    "Steep: 3.4% mean, 7.2% max",
+    "Noise: arterial"
+  ],
+  "sun_shade": "Open to sky; the building to the east shades the kerb in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Whether the Clearway on the neighbouring kerb extends here"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 26,
+    "gated": false,
+    "slope_pct": 3.1,
+    "min_elevation_m": 23.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

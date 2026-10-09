@@ -1,0 +1,49 @@
+{
+  "candidate": "48324450-11394197586-1228649423-l-48",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Kerb runs along an apartment block 6 m away; no secluded section.",
+  "reasons": [
+    "Apartments 6 m from kerb",
+    "Apartments and houses all round",
+    "Daytime no-stopping signs"
+  ],
+  "drivers": {
+    "seclusion": "Apartment block 6 m from the kerb from 15 m to about 50 m; more apartments 11 m beyond.",
+    "access_and_room": "Cars park along the kerb, but the sections not beside the apartments are shorter than a van.",
+    "traffic": "Moderately busy through road with parked cars.",
+    "convention": "Cars park along it; no sign of overnight stays."
+  },
+  "flags": [
+    "Signs: No Stopping Mon-Fri 7am-5pm",
+    "Steep: about 2.9% mean, 6% max"
+  ],
+  "sun_shade": "Apartment block shades the west side; street trees on the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 20.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

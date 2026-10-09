@@ -1,0 +1,70 @@
+{
+  "candidate": "257281326-257286085-23749658-l-15",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential street by the south end, homes 12-15 m away.",
+  "reasons": [
+    "Houses 9-15 m behind the kerb",
+    "Cars already park along the street",
+    "Gentle slope at the southern end"
+  ],
+  "drivers": {
+    "seclusion": "Homes 9-15 m away on this side, with more across the road.",
+    "access_and_room": "Narrow sealed street; cars park on both sides, with room to pull in tight to the kerb.",
+    "traffic": "Quiet cul-de-sac traffic.",
+    "convention": "Several cars park along both kerbs, so a van would not stand out much."
+  },
+  "flags": [
+    "Homes within 10-25 m on own side",
+    "Steep further north: 6% mean, 10.8% max over the stretch",
+    "Narrow street, construction site near the junction"
+  ],
+  "sun_shade": "Open to the sky, with a tree shading the kerb from the west at the junction.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking restrictions on site",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 2,
+    "to_m": 14,
+    "where": "West kerb just north of the Charlane Avenue junction with the cross street",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.989068,
+        -27.510569
+      ],
+      [
+        152.989082,
+        -27.5105
+      ],
+      [
+        152.989089,
+        -27.510463
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 22.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

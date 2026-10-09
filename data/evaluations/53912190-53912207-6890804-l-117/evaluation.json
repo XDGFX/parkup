@@ -1,0 +1,64 @@
+{
+  "candidate": "53912190-53912207-6890804-l-117",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb on Central Avenue where cars park, but apartments sit 12-17 m away.",
+  "reasons": [
+    "Apartments 12-17 m from section",
+    "Cars park along both kerbs",
+    "Quiet-ish unsigned stretch"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks 12-17 m away on the same side; more homes across the road.",
+    "access_and_room": "Sealed street with a kerbside parking lane where cars sit; room to pull in.",
+    "traffic": "A bus route with regular passing traffic.",
+    "convention": "Several cars park on both sides, so a van would blend in."
+  },
+  "flags": [
+    "Dwellings 10-25 m away on own side",
+    "Steep: 4.9% over the whole stretch, about 3% on the section",
+    "Bus route noise"
+  ],
+  "sun_shade": "Mostly open; trees on the west side shade the morning in places.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Parking time limits not shown in the signs data"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 17,
+    "where": "West kerb of Central Avenue, near the southern end opposite the new apartment block",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.978337,
+        -27.502681
+      ],
+      [
+        152.978358,
+        -27.502574
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 3.6,
+    "min_elevation_m": 14.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

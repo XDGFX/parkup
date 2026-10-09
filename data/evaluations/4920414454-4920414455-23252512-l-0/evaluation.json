@@ -1,0 +1,63 @@
+{
+  "candidate": "4920414454-4920414455-23252512-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat north kerb on a built-up street, houses 13-17 m behind and opposite.",
+  "reasons": [
+    "Homes 13-17 m away on own side",
+    "Houses across the road too",
+    "Cars park along the kerb"
+  ],
+  "drivers": {
+    "seclusion": "Houses 13-17 m back on the north side from 86 to 120 m; more homes opposite, a similar distance across the road.",
+    "access_and_room": "Wide sealed street with cars parked on both sides; plenty of room at the kerb.",
+    "traffic": "Residential through street, light traffic.",
+    "convention": "Several cars park along both kerbs, so a van would not stand out much."
+  },
+  "flags": [
+    "Dwellings 10-25 m away on own side",
+    "Steep elsewhere: mean 8.5%, max 19%; best section is flat",
+    "Low-lying risk low: min 34.5 m, Witton Creek 77 m away"
+  ],
+  "sun_shade": "Mostly open; trees on the south side give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 85,
+    "to_m": 125,
+    "where": "north kerb on the flat middle of Crotty Street, between the two tree-lined driveways",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.961351,
+        -27.496019
+      ],
+      [
+        152.961739,
+        -27.495914
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 48.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,63 @@
+{
+  "candidate": "262284152-11544294007-24223666-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep north kerb with homes 10 to 15 m off and no parking convention.",
+  "reasons": [
+    "About 11% grade along the best part",
+    "Homes 10 to 12 m on same side",
+    "Empty kerb; van would stand out"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 10 to 15 m away on the same side along the whole stretch.",
+    "access_and_room": "Sealed street with kerb-side width, but the grade is close to the 12% limit.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "No parked cars on this kerb; residents' frontage."
+  },
+  "flags": [
+    "Steep: about 11% at best section, 13% max",
+    "Dwelling 10 m at 15 m and 12 m at 45 m"
+  ],
+  "sun_shade": "Street trees shade the lower end; open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 38,
+    "to_m": 58,
+    "where": "Lower half of the north kerb, beyond the 30 m mark",
+    "slope_pct": 11,
+    "points": [
+      [
+        152.980705,
+        -27.505511
+      ],
+      [
+        152.980545,
+        -27.505401
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 10.3,
+    "min_elevation_m": 20.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

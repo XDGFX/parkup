@@ -1,0 +1,64 @@
+{
+  "candidate": "11590800870-11590800875-24223666-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Ten-metre corner kerb at a junction, steep, with homes 11 to 13 m off.",
+  "reasons": [
+    "Only 10 m, under a van length",
+    "Steep: about 8.5% grade",
+    "Homes 11 to 13 m, junction beside"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 11 m and 13 m away on the same side, others close round.",
+    "access_and_room": "Sealed road; the stretch is a short bend beside a junction, too short for a van to stop clear.",
+    "traffic": "Residential junction, light traffic.",
+    "convention": "No parked cars seen; no camping convention."
+  },
+  "flags": [
+    "Steep: about 8.5% grade, 10.8% max",
+    "Stretch shorter than a van",
+    "Homes 11 to 13 m away"
+  ],
+  "sun_shade": "Large tree canopy covers the kerb, mostly from the east and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Junction sight lines"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "North kerb just past the junction on Dennis Street",
+    "slope_pct": 8.5,
+    "points": [
+      [
+        152.981093,
+        -27.505781
+      ],
+      [
+        152.981172,
+        -27.505838
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 8.5,
+    "min_elevation_m": 27.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:22:56Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
