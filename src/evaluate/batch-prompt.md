@@ -1,7 +1,8 @@
 # Evaluation batch prompt
 
 Paste this into an interactive Claude Code session at the repository root, on the user's subscription. The
-session fans out Sonnet subagents; it needs no API key and tracks no cost.
+session fans out Sonnet subagents; it needs no API key and tracks no cost. For a real batch, run it on `main`:
+the session commits, pushes, waits for the deploy and then asks you to check the app on your phone.
 
 ---
 
@@ -32,9 +33,51 @@ You're running a parkup evaluation batch. Read `CONTEXT.md` for the vocabulary. 
    fails unless every good and poor call of the user's matches and every known place was judged under the
    current rubric version. `queue` and `prepare` for a real batch refuse to run until it passes; don't
    pass `--skip-calibration-gate` unless the user tells you to.
-7. **Real batch only:** run `npm run build:data` to fold the new evaluations into `public/candidates.json`.
-8. Commit the `context.json`, `agent.json` and `evaluation.json` files (and the report or the rebuilt
-   dataset). Never commit imagery.
+7. **Real batch only: publish after every round.** A round is one set of groups fanned out together. As
+   soon as a round's `check` is done (and before stopping for a usage limit, if you can), run
+   `npm run build:data` to fold the new evaluations into `public/candidates.json`, then commit the
+   `context.json`, `agent.json` and `evaluation.json` files and the rebuilt dataset and push `main`. The
+   user has authorised this session to commit and push directly to `main`; do all the git yourself. Then
+   take the next round from a fresh `npm run evaluate -- queue`.
+8. **Calibration only:** commit the `context.json`, `agent.json` and `evaluation.json` files and the report.
+9. Never commit imagery (`.cache/` is gitignored; don't force-add it).
+10. **If a usage limit stops the batch,** tell the user to paste this prompt again once the limit resets.
+    `queue` skips every candidate that already has a current evaluation, so the batch picks up where it
+    stopped. Commit and push whatever `check` has already stamped before you stop.
+
+## Real batch: deploy and spot-check with the user
+
+Once the queue is empty (or after the last round you can run):
+
+1. **Wait for the deploy.** Pushing `main` triggers the GitHub Pages workflow. Find its run with
+   `gh run list --workflow pages.yml --branch main --limit 1`, then `gh run watch <run id> --exit-status`.
+   If it fails, read `gh run view <run id> --log-failed`, fix the cause, commit, push and watch again.
+   Don't hand over to the user until a deploy of your last commit has succeeded.
+2. **Stop and ask the user to check on their phone** at <https://xdgfx.github.io/parkup/>. Give them:
+   - About 10 spot-check candidates from this batch, a mix of `good` and `maybe`, preferring ones in
+     Taringa, Indooroopilly and St Lucia. For each: street and suburb (`context.json`), the verdict and
+     summary (`evaluation.json`), and a Google Maps link to its best section:
+     `https://www.google.com/maps/search/?api=1&query=<lat>,<lon>`, using the middle of
+     `best_section.points` (each point is `[lon, lat]`).
+   - This phone checklist:
+     - toilet pins are grey across Tonight, Weekend and Now;
+     - a candidate's card shows the nearest toilet with its distance and hours;
+     - the install banner appears once only;
+     - Add to Home Screen opens full-screen with the icon;
+     - kerb dots show their kind icon at suburb zoom;
+     - `maybe` and `poor` pins show distinct colours.
+
+   Ask them to reply in this session with what they found, then wait.
+3. **When the user replies:**
+   - Post their findings as a comment on issue #21 with `gh issue comment 21 --body-file -`: each
+     spot-check candidate with their verdict against the agent's, each checklist item passed or failed,
+     and any rubric changes they suggest.
+   - Fix any app bug they report test-first: a failing test, then the fix, then `npm test` and
+     `npm run typecheck`. Commit, push `main`, wait for the deploy as in step 1 and ask them to re-check.
+   - Don't apply rubric changes they suggest silently. Propose the wording as a diff, and note that any
+     rubric change bumps its version and needs the calibration set re-run before another batch.
+   - Repeat until the user says they're happy. Then close #21 and #14
+     (`gh issue close 21` and `gh issue close 14`, each with a one-line comment).
 
 ## Subagent prompt
 
