@@ -2,7 +2,8 @@
 import { describe, expect, it } from "vitest";
 import { build, type BuildInput, type Candidate } from "../src/build/build.ts";
 import type { OsmArea } from "../src/build/inputs.ts";
-import { lonLat, node, testStreet, way, zone } from "./fixtures.ts";
+import { outBy, statusAt } from "../src/timetable/timetable.ts";
+import { lonLat, node, sign, testStreet, way, zone } from "./fixtures.ts";
 
 const run = (input: Partial<BuildInput>) => build({ signs: [], ways: testStreet, ...input });
 const sites = (input: Partial<BuildInput>) => run(input).candidates.filter((c) => c.kind !== "kerb");
@@ -70,5 +71,53 @@ describe("parking areas", () => {
 
   it("motor_vehicle=private is a caution, not a rule-out", () => {
     expect(sites({ parkings: [carPark({ access: "yes", motor_vehicle: "private" })] })[0]!.cautions).toContain("Motor vehicles: private");
+  });
+});
+
+describe("site timetables", () => {
+  const monday = (h: number) => new Date(`2026-03-02T${String(h).padStart(2, "0")}:00:00+10:00`);
+  const site = (tags: Record<string, string>, input: Partial<BuildInput> = {}) => sites({ parkings: [carPark({ access: "yes", ...tags })], ...input })[0];
+
+  it("OSM opening_hours: closed hours count as no parking", () => {
+    const c = site({ opening_hours: "Mo-Su 06:00-18:00" })!;
+    expect(c).toMatchObject({ overnight: false, daytime: true, dayOnly: true, cautions: [] });
+    expect(outBy(c, monday(17))).toMatchObject({ at: monday(18) });
+    expect(outBy(c, monday(17))!.why).toMatch(/Closed/);
+  });
+
+  it("reads days, several rules, off days, and hours past midnight", () => {
+    const weekdays = site({ opening_hours: "Mo-Fr 07:00-19:00; Sa,Su off" })!;
+    expect(outBy(weekdays, monday(8))).toMatchObject({ at: monday(19) });
+    expect(statusAt(weekdays, new Date("2026-03-07T12:00:00+10:00"))).toBe("no");
+    const late = site({ opening_hours: "Mo-Su 05:00-02:00" })!;
+    expect(outBy(late, monday(20))).toMatchObject({ at: new Date("2026-03-03T02:00:00+10:00") });
+    expect(site({ opening_hours: "24/7" })).toMatchObject({ rules: [], overnight: true, cautions: [] });
+  });
+
+  it("a car park that's always closed is dropped", () => {
+    expect(site({ opening_hours: "off" })).toBeUndefined();
+  });
+
+  it("unreadable opening_hours: open, with a caution quoting the tag", () => {
+    expect(site({ opening_hours: "Mo-Fr 08:00-17:00 \"by appointment\"" })).toMatchObject({ rules: [], cautions: ["Opening hours not read: Mo-Fr 08:00-17:00 \"by appointment\""] });
+  });
+
+  it("OSM maxstay is a time limit at all times", () => {
+    expect(site({ maxstay: "4 hours" })).toMatchObject({ maxStayHours: 4, overnight: false, daytime: true, cautions: [] });
+    expect(site({ maxstay: "30 minutes" })).toBeUndefined();
+  });
+
+  it("OSM fee:conditional counts as no parking while the fee applies", () => {
+    const c = site({ "fee:conditional": "yes @ (Mo-Fr 08:00-18:00)" })!;
+    expect(c).toMatchObject({ overnight: true, cautions: [] });
+    expect(outBy(c, monday(19))).toMatchObject({ at: new Date("2026-03-03T08:00:00+10:00") });
+    expect(outBy(c, monday(19))!.why).toMatch(/[Ff]ee/);
+  });
+
+  it("BCC plates inside the outline govern the site", () => {
+    const plate = sign({ x: 40, y: -70, dir: "Not applicable", type: "No Parking Specified Times", times: "DAILY:10pm-6am", street: "GARDEN CAR PARK" });
+    const c = site({}, { signs: [plate] })!;
+    expect(c.plates).toEqual(["No Parking DAILY:10pm-6am"]);
+    expect(c).toMatchObject({ overnight: false, daytime: true, cautions: [] });
   });
 });

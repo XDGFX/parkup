@@ -4,7 +4,9 @@ import type { Rule } from "../timetable/timetable.ts";
 import { BARRIER, EXCLUDED, SITE_RULE_OUT } from "./config.ts";
 import { frontageIndex, type Frontage } from "./frontage.ts";
 import { inRings, project, toLonLat, toXY, type LonLat, type XY } from "./geo.ts";
-import type { OsmArea, OsmNode, OsmWay, Zone } from "./inputs.ts";
+import type { OsmArea, OsmNode, OsmWay, SignRecord, Zone } from "./inputs.ts";
+import { osmTimetable } from "./osmHours.ts";
+import { readPlate } from "./plates.ts";
 
 export type SiteKind = "parking-area" | "off-road";
 
@@ -19,6 +21,8 @@ export type Site = {
   rules: Rule[];
   plates: string[];
   cautions: string[];
+  /** Any plates inside it or OSM time tags. Without them it's open at all times, with an "hours unknown" caution. */
+  hasTimetable: boolean;
   /** False for an untagged car park, which orders after car parks tagged access=yes|permissive. */
   accessKnown: boolean;
   /** The City Plan zone the site sits in. */
@@ -35,6 +39,8 @@ export type SiteInput = {
   /** OSM points: barriers, and schools and kindergartens. */
   nodes?: OsmNode[];
   zones?: Zone[];
+  /** BCC sign plates: those inside a car park's outline govern it. */
+  signs?: SignRecord[];
 };
 
 const blocks = (t: Record<string, string> | undefined) => !!t && BARRIER.BLOCKS.test(t.barrier ?? "") && t.locked !== "no";
@@ -45,8 +51,9 @@ function middle(ring: XY[]): XY {
   return [pts.reduce((s, p) => s + p[0], 0) / pts.length, pts.reduce((s, p) => s + p[1], 0) / pts.length];
 }
 
-export function buildSites({ parkings = [], minorWays = [], nodes = [], zones = [] }: SiteInput): Site[] {
+export function buildSites({ parkings = [], minorWays = [], nodes = [], zones = [], signs = [] }: SiteInput): Site[] {
   const out: Site[] = [];
+  const plates = signs.map((s) => ({ p: toXY([s.lon, s.lat]), plate: readPlate(s) }));
   const zoneOf = frontageIndex(zones, [], nodes);
   const schools = nodes.filter((n) => n.tags.amenity === "school" || EXCLUDED.KINDERGARTEN.test(n.tags.amenity ?? "")).map((n) => toXY([n.lon, n.lat]));
   const barriers = new Map(nodes.filter((n) => blocks(n.tags)).map((n) => [n.id, n]));
@@ -61,12 +68,15 @@ export function buildSites({ parkings = [], minorWays = [], nodes = [], zones = 
     const t = a.tags;
     if (SITE_RULE_OUT.ACCESS.test(t.access ?? "") || t.fee === "yes" || SITE_RULE_OUT.ON_STREET.test(t.parking ?? "")) continue;
     const accessKnown = !!t.access;
+    const rings = a.rings?.map((r) => r.map(toXY)) ?? null, outline = rings?.[0] ?? null;
+    const inside = rings ? plates.filter((p) => inRings(rings, p.p)).map((p) => p.plate) : [];
+    const osm = osmTimetable(t);
     const cautions = [
       ...(accessKnown ? [] : [ACCESS_UNKNOWN]),
       ...(t.motor_vehicle === "private" ? ["Motor vehicles: private"] : []),
-      HOURS_UNKNOWN,
+      ...osm.cautions,
+      ...(osm.hasData || inside.length ? [] : [HOURS_UNKNOWN]),
     ];
-    const rings = a.rings?.map((r) => r.map(toXY)) ?? null, outline = rings?.[0] ?? null;
     if (rings && gatedOff(rings)) continue;
     const p: XY = outline ? middle(outline) : toXY([a.lon!, a.lat!]);
     const frontage = zoneOf.at(p);
@@ -77,8 +87,9 @@ export function buildSites({ parkings = [], minorWays = [], nodes = [], zones = 
       name: a.tags.name ?? "Car park",
       line: outline ? outline.map(toLonLat) : [toLonLat(p)],
       point: toLonLat(p),
-      rules: [],
-      plates: [],
+      rules: [...inside.flatMap((p) => p.rules), ...osm.rules],
+      plates: inside.map((p) => p.label),
+      hasTimetable: osm.hasData || inside.length > 0,
       cautions,
       accessKnown,
       frontage,

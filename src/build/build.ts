@@ -73,7 +73,7 @@ export function build({ screen: screening = true, toilets = [], ...input }: Buil
   const sites = buildSites(input);
   const candidates: Candidate[] = [];
   const outcomes = new Map(report.unparsed.map((u) => [u.text, { ...u, dropped: 0, normal: 0, unreadable: 0 }]));
-  let failsScreen = 0;
+  let failsScreen = 0, siteFailsScreen = 0;
   for (const s of stretches) {
     const { outcome, rules } = screening ? screen(s) : { outcome: "normal" as const, rules: s.rules };
     for (const text of s.unparsed) outcomes.get(text)![outcome]++;
@@ -102,6 +102,7 @@ export function build({ screen: screening = true, toilets = [], ...input }: Buil
   }
   for (const s of sites) {
     const rules = s.rules, overnight = passesOvernight({ rules }), daytime = passesDaytime({ rules });
+    if (screening && !overnight && !daytime) { siteFailsScreen++; continue; }
     candidates.push({
       id: s.id, kind: s.kind, street: s.name, suburb: "", side: null, line: s.line, lengthM: 0,
       rules, plates: s.plates, cautions: s.cautions, lowConfidence: false,
