@@ -1,0 +1,65 @@
+{
+  "candidate": "58712277-257225353-23748146-l-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep residential street lined with homes; no usable section.",
+  "reasons": [
+    "Slope about 20% along whole stretch",
+    "Homes 11 to 20 m away",
+    "Narrow street, houses both sides"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 11 to 15 m away and apartments close along the whole kerb.",
+    "access_and_room": "Narrow sealed street with few cars parked; verge is landscaped, little room.",
+    "traffic": "Quiet side street, busy road at the bottom end.",
+    "convention": "A few cars park along the street but nobody camps."
+  },
+  "flags": [
+    "Steep: about 20% grade, max 29%",
+    "Dwelling 11 m from the start",
+    "Houses line the whole kerb"
+  ],
+  "sun_shade": "Mixed tree cover and building shade on both sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "crossfall",
+    "street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "South kerb just off the main road, Bishop Street",
+    "slope_pct": 20,
+    "points": [
+      [
+        152.994204,
+        -27.497395
+      ],
+      [
+        152.99403,
+        -27.497303
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 18,
+    "min_elevation_m": 46.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,50 @@
+{
+  "candidate": "58815905-156758460-7920174-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Main-road kerb with no cars parked, townhouses beside it and no room to pull off.",
+  "reasons": [
+    "Main road, no cars parked",
+    "Apartments 7 m from kerb",
+    "No verge or pull-in"
+  ],
+  "drivers": {
+    "seclusion": "Townhouse blocks sit right behind the kerb, 7 m at 34 m and 7 m at 56 m; bush only across the road.",
+    "access_and_room": "Kerb runs straight against a retaining bank and hedge; no pull-off. A No Stopping Any Time sign is on the stretch.",
+    "traffic": "Carmody Road through route; steady traffic and noise.",
+    "convention": "No cars parked on this kerb in either image."
+  },
+  "flags": [
+    "No Stopping Any Time sign nearby (screen already checked)",
+    "Slope about 4.5%, max 8%",
+    "Road noise"
+  ],
+  "sun_shade": "Trees and townhouses shade the north side; open from the road side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 4.5,
+    "min_elevation_m": 25,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

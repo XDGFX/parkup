@@ -1,0 +1,68 @@
+{
+  "candidate": "257003602-13038898591-24255520-l-63",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flatter shaded kerb near the bottom end, with homes 20-25 m away.",
+  "reasons": [
+    "Houses about 20-25 m away on this side",
+    "Cars park along this stretch",
+    "Steep above 130 m, over 15%"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 11-25 m on the south side near 162-168 m; apartments 34 m at the end. Homes close all round.",
+    "access_and_room": "Sealed narrow street with cars parked along the kerb; room to stop beside parked cars.",
+    "traffic": "Quiet side street; light traffic.",
+    "convention": "Cars park here, and the signs allow parallel and angle parking, but some stretches are no stopping or no parking."
+  },
+  "flags": [
+    "Slope about 3.5% at the best section; the rest of the kerb is 12-22% (14% mean)",
+    "Low-lying: about 5 m elevation, Toowong Creek 365 m away",
+    "Signs show No Stopping and No Parking stretches nearby; check on site"
+  ],
+  "sun_shade": "Heavy tree canopy shades the best section, mostly from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Which stretch each sign applies to"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 160,
+    "to_m": 180,
+    "where": "Bottom (north-west) end of the south kerb, near the corner with the cross street",
+    "slope_pct": 3.5,
+    "points": [
+      [
+        152.995444,
+        -27.493844
+      ],
+      [
+        152.995306,
+        -27.493772
+      ],
+      [
+        152.995326,
+        -27.493741
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 9,
+    "min_elevation_m": 5.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

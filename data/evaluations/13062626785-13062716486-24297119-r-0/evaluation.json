@@ -1,0 +1,47 @@
+{
+  "candidate": "13062626785-13062716486-24297119-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "A 9 m kerb at a busy multi-way junction; too short and no room.",
+  "reasons": [
+    "Shorter than a van plus margin",
+    "Junction islands, no parking",
+    "Through road, no cars parked"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 21 m away at the end; school and church close by.",
+    "access_and_room": "Kerb wraps a traffic island at a junction with painted islands; no space to pull out of lane.",
+    "traffic": "Junction of several streets with turning traffic.",
+    "convention": "No parked cars along this kerb; no signs mapped."
+  },
+  "flags": [
+    "Candidate only 9 m long",
+    "Junction islands and painted markings",
+    "Near school and kindergarten"
+  ],
+  "sun_shade": "Heavy tree canopy shades the kerb from the south and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 35.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

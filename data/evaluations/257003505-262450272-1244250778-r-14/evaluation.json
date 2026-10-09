@@ -1,0 +1,67 @@
+{
+  "candidate": "257003505-262450272-1244250778-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb with homes about 18 m away on both sides.",
+  "reasons": [
+    "Homes 18 m away on both sides",
+    "Quiet street, few parked cars",
+    "Gentle grade"
+  ],
+  "drivers": {
+    "seclusion": "Nearest homes about 18 m away; trees screen part of the kerb side.",
+    "access_and_room": "Sealed street with a few cars parked along the kerb; room to pull in.",
+    "traffic": "Quiet residential street; light traffic.",
+    "convention": "A few cars park along it; no convention of overnight vans; no signs."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Slope about 1% at best section (max 8.4% elsewhere)"
+  ],
+  "sun_shade": "Tree shade over most of the kerb side; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether residents object"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 48,
+    "where": "Douglas Street west kerb, midway between the bend and the lower junction",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.994444,
+        -27.494729
+      ],
+      [
+        152.994335,
+        -27.49489
+      ],
+      [
+        152.994324,
+        -27.494906
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 14.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

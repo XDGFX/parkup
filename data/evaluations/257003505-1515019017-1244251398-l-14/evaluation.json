@@ -1,0 +1,64 @@
+{
+  "candidate": "257003505-1515019017-1244251398-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Only the short level crest is usable, with homes 19-23 m all round.",
+  "reasons": [
+    "Level only on crest near 65-75 m",
+    "Homes 19-23 m on both sides",
+    "Steep either side, about 17% mean"
+  ],
+  "drivers": {
+    "seclusion": "Apartments and houses 19-23 m away on both sides of the street; none within 10 m.",
+    "access_and_room": "Sealed street, few parked cars; kerb room looks adequate for a van.",
+    "traffic": "Quiet residential street; low traffic.",
+    "convention": "A few cars park along it; no campers seen."
+  },
+  "flags": [
+    "Steep: mean 17%, max 54%; level only at crest",
+    "Homes within 25 m all round",
+    "No Stopping sign for Dengate Lane 13 m off the kerb line"
+  ],
+  "sun_shade": "Mixed tree shade and open sky; houses to the south give afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether the crest is wide enough to stop clear of the lane"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 62,
+    "to_m": 76,
+    "where": "Armadale Street south kerb at the crest, just past the middle of the block",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.994003,
+        -27.494124
+      ],
+      [
+        152.993882,
+        -27.494059
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 28.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

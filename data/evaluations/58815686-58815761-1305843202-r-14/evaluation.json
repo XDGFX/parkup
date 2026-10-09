@@ -1,0 +1,50 @@
+{
+  "candidate": "58815686-58815761-1305843202-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep through road with no cars parked on the kerb and apartments within 8-18 m.",
+  "reasons": [
+    "Grade 16%, over the 12% limit",
+    "Main road, no cars parked",
+    "Apartments 8-18 m from kerb"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks 8 m, 8 m and 10 m from the kerb along its length; bush only across the road.",
+    "access_and_room": "Narrow kerb with no verge or pull-in; no cars parked along it.",
+    "traffic": "Carmody Road is a through road linking suburbs; steady traffic.",
+    "convention": "No parked cars on this kerb in the imagery; a van would stand out."
+  },
+  "flags": [
+    "Steep: mean 16%, max 21%",
+    "Traffic area parking control sign (screen already checked)",
+    "Road noise"
+  ],
+  "sun_shade": "Mixed tree shade from the bush on the south side; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 17.1,
+    "min_elevation_m": 16.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,23 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Kerb on a main road where cars park; homes 20 m away on both sides.",
+  "reasons": ["Cars parked along this kerb", "Homes about 20 m away", "Steep, busy road"],
+  "best_section": {
+    "from_m": 28,
+    "to_m": 42,
+    "where": "Carmody Road north kerb, by the pedestrian crossing east of the bend",
+    "slope_pct": 8
+  },
+  "drivers": {
+    "seclusion": "Nearest homes 20 m or more behind a hedged bank; houses 9 m away only past 45 m.",
+    "access_and_room": "Sealed parking lane beside the kerb, with two cars already parked in it.",
+    "traffic": "Busy main road with a junction and crossing nearby.",
+    "convention": "No signs; cars park here in both images."
+  },
+  "flags": ["Steep: about 8% mean, 10% max", "Main-road noise and junction", "Pedestrian crossing at the east end"],
+  "sun_shade": "Mostly open; trees shade the south side and houses the north side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Crossfall", "Whether the lane is a clearway at peak hours"],
+  "confidence": "medium"
+}

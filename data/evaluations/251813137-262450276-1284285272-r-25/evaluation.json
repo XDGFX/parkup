@@ -1,0 +1,64 @@
+{
+  "candidate": "251813137-262450276-1284285272-r-25",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb where cars park; corner house 11 m away on the same side.",
+  "reasons": [
+    "Three cars parked on this kerb",
+    "House 11 m from start",
+    "Next house 22 m, gentle grade"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 11 m at the start, next house 22 m on the same side; bush opposite.",
+    "access_and_room": "Sealed kerb with a verge and driveway behind; three cars fit in the length.",
+    "traffic": "Through road with a junction just east; parked cars set the van among others.",
+    "convention": "No signs on this stretch; three cars parked in the QLD image."
+  },
+  "flags": [
+    "Dwelling within 25 m on the same side",
+    "Junction with double lines just east",
+    "Parked cars seen only in 2022 image"
+  ],
+  "sun_shade": "Trees shade the road from the south; open to the sun on this side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether parking here is common now"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 20,
+    "where": "Carmody Road north kerb, west of the corner house",
+    "slope_pct": 2.7,
+    "points": [
+      [
+        152.996929,
+        -27.496681
+      ],
+      [
+        152.996809,
+        -27.496666
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 31.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

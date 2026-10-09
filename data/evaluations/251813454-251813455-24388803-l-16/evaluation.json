@@ -1,0 +1,68 @@
+{
+  "candidate": "251813454-251813455-24388803-l-16",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Gently sloping kerb where cars park, but homes 11-12 m away.",
+  "reasons": [
+    "Houses and flats 11-12 m on same side",
+    "Cars park along the kerb",
+    "Low-lying ground near the river"
+  ],
+  "drivers": {
+    "seclusion": "Houses and flats 11-12 m away on the van's side; wooded ground with no buildings across the street.",
+    "access_and_room": "Sealed street with cars already parked along this kerb; a van fits in line.",
+    "traffic": "Quiet side street; low traffic.",
+    "convention": "Several cars park along it and no signs are listed."
+  },
+  "flags": [
+    "Low-lying: 6 m elevation, Brisbane River 181 m away",
+    "Dwellings 11-12 m away on same side",
+    "Slope under 3% on best section"
+  ],
+  "sun_shade": "Heavy tree canopy opposite to the west; open to the east afternoon sun partly blocked.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Flood history"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 30,
+    "where": "Austral Street east kerb, opposite the wooded lot",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.997404,
+        -27.492518
+      ],
+      [
+        152.997359,
+        -27.492585
+      ],
+      [
+        152.997289,
+        -27.492687
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 6.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,63 @@
+{
+  "candidate": "251812196-251812210-1307151688-r-22",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short east kerb beside a house, with no-stopping signs along it.",
+  "reasons": [
+    "House 7 m from kerb",
+    "No Stopping signs mapped",
+    "Narrow lane, little room"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 7 m at 12 m, another 15 m; bowling club and apartments nearby.",
+    "access_and_room": "Sealed street, cars park on the opposite side; east side has little verge and trees.",
+    "traffic": "Quiet dead-end side street off a main road.",
+    "convention": "Cars park in the street, but three No Stopping Any Time signs sit on this kerb."
+  },
+  "flags": [
+    "Dwelling within 10 m",
+    "Slope about 4.6% mean, 14% max over short steps",
+    "Low-lying: min elevation 5.6 m"
+  ],
+  "sun_shade": "Trees shade the east side from the east and midday.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 22,
+    "to_m": 36,
+    "where": "Northern end of Carr Street east kerb, past the red-roof house",
+    "slope_pct": 4.6,
+    "points": [
+      [
+        153.008088,
+        -27.493766
+      ],
+      [
+        153.008116,
+        -27.493643
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 6.4,
+    "min_elevation_m": 5.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,61 @@
+{
+  "candidate": "257003602-13038898591-24255520-r-170",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at about 16% grade, with flats 12 m away.",
+  "reasons": [
+    "Grade about 16%, over the 12% limit",
+    "Apartments 12 m away at the top end",
+    "Only 20 m long"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 12 m and 13 m away on the north side; houses 19-22 m on the south side.",
+    "access_and_room": "Sealed street with a parallel parking kerb; cars park nearby, and the stretch is short.",
+    "traffic": "Quiet side street.",
+    "convention": "Parallel parking is signed with no limit, and cars use it."
+  },
+  "flags": [
+    "Steep: about 16% mean, 20% max"
+  ],
+  "sun_shade": "Dense tree canopy shades the kerb, mostly from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall and kerb height",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 20,
+    "where": "North kerb below the shaded driveway, before the bend",
+    "slope_pct": 16,
+    "points": [
+      [
+        152.995901,
+        -27.494
+      ],
+      [
+        152.995772,
+        -27.493932
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 15.8,
+    "min_elevation_m": 6.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

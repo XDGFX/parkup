@@ -1,0 +1,75 @@
+{
+  "candidate": "251811569-251811672-1294876636-r-36",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy residential street where cars park, but homes sit 12-17 m away.",
+  "reasons": [
+    "Homes within 25 m all round",
+    "Cars park along kerb",
+    "Steep grade"
+  ],
+  "drivers": {
+    "seclusion": "Houses and apartments 12-17 m away on both sides; no buffer of bush or park.",
+    "access_and_room": "Sealed street with parked cars along the kerb; room to park in line.",
+    "traffic": "Quiet side street near a junction at the east end; low traffic.",
+    "convention": "Cars park along it, so a van blends in; signs are 2P with resident permits excepted."
+  },
+  "flags": [
+    "Steep: about 6% over best section, up to 24% elsewhere",
+    "Dwellings 12-13 m from best section",
+    "Signs restrict daytime parking Mon-Fri"
+  ],
+  "sun_shade": "Mostly open to sun; patchy tree shade on the south side near 100 m.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 100,
+    "to_m": 130,
+    "where": "Depper Street south kerb, mid-block between the two apartment blocks",
+    "slope_pct": 6,
+    "points": [
+      [
+        152.998685,
+        -27.496139
+      ],
+      [
+        152.998696,
+        -27.496141
+      ],
+      [
+        152.998774,
+        -27.496153
+      ],
+      [
+        152.998893,
+        -27.496171
+      ],
+      [
+        152.998984,
+        -27.496185
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 6.1,
+    "min_elevation_m": 12.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

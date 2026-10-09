@@ -1,0 +1,23 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Main-road kerb with houses 9-13 m away and no cars parked.",
+  "reasons": ["Houses 9 m from kerb", "Through road, no parked cars", "Resident-permit 2P sign"],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 8,
+    "where": "Carmody Road north kerb, west end beside the corner junction",
+    "slope_pct": 7
+  },
+  "drivers": {
+    "seclusion": "House 13 m at the start, 9 m at 8 m and 18 m; apartments 14 m at the far end.",
+    "access_and_room": "Plain sealed kerb with a narrow footpath and hedges; no bay.",
+    "traffic": "Through road beside a junction.",
+    "convention": "2P resident-permit sign; no cars parked along this kerb."
+  },
+  "flags": ["Dwellings within 10 m", "Steep: about 7% mean, 11% max", "Resident permit 2P sign Mon-Fri"],
+  "sun_shade": "Houses and hedges shade from the north; trees opposite shade the road.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Crossfall"],
+  "confidence": "high"
+}

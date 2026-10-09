@@ -1,0 +1,68 @@
+{
+  "candidate": "58815855-251813455-24388802-r-33",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow street kerb where cars park, but flats 12 m away and steep.",
+  "reasons": [
+    "Apartments 12 m away on same side",
+    "Cars park along the upper kerb",
+    "Grade about 8% on best section"
+  ],
+  "drivers": {
+    "seclusion": "Townhouse flats 12 m away on the van's side; houses 19 m or more across the street.",
+    "access_and_room": "Narrow sealed street; cars park along this kerb, so a van fits in line but has little spare room.",
+    "traffic": "Quiet side street off a busier road.",
+    "convention": "Several cars park here in the Esri image; a No Parking Any Time sign sits at the south end."
+  },
+  "flags": [
+    "Steep: about 8% grade, max 10.8%",
+    "No Parking Any Time sign at the start of the stretch",
+    "Flats 12 m away on same side"
+  ],
+  "sun_shade": "Open sky overhead; tree canopy to the north and west; flats shade the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact lane width"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 28,
+    "to_m": 46,
+    "where": "Austral Street east kerb, upper end beside the townhouse complex",
+    "slope_pct": 8,
+    "points": [
+      [
+        152.99709,
+        -27.492976
+      ],
+      [
+        152.997107,
+        -27.492951
+      ],
+      [
+        152.997185,
+        -27.492838
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 8.4,
+    "min_elevation_m": 8.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

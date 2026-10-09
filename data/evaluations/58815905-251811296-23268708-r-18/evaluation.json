@@ -1,0 +1,63 @@
+{
+  "candidate": "58815905-251811296-23268708-r-18",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Very steep residential kerb, 12% average, with homes 11-12 m away.",
+  "reasons": [
+    "Grade 12% mean, 21% max",
+    "Homes 11-12 m from kerb",
+    "Resident-permit street"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 11 m at the start, then houses 12 m away along the whole east side. Nothing secluded.",
+    "access_and_room": "Sealed street with a parked-car lane on the east kerb, so room to pull in, but the road is steep.",
+    "traffic": "Quiet residential street with some through traffic.",
+    "convention": "Cars park along both kerbs, but 2P resident-permit signs apply Mon-Fri 7am-6pm."
+  },
+  "flags": [
+    "Steep: about 13% at best section, 21% max",
+    "Signs: 2P Mon-Fri 7am-6pm, resident permits excepted",
+    "Gate 229 m away has a way round"
+  ],
+  "sun_shade": "Street trees on the east verge shade the kerb from the east; open to the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 14,
+    "to_m": 30,
+    "where": "East kerb of Brisbane Street, just up from the Carmody Road corner, beside the unit block",
+    "slope_pct": 13,
+    "points": [
+      [
+        153.001339,
+        -27.497323
+      ],
+      [
+        153.001365,
+        -27.497181
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 13,
+    "min_elevation_m": 17.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

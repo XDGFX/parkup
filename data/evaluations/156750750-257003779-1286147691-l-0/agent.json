@@ -1,0 +1,23 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Main-road kerb with apartments 6-8 m away and no parked cars.",
+  "reasons": ["Apartments 6-8 m from kerb", "Through road, nobody parks here", "No Stopping signs nearby"],
+  "best_section": {
+    "from_m": 25,
+    "to_m": 43,
+    "where": "Carmody Road north kerb, east end beside the garages",
+    "slope_pct": 6
+  },
+  "drivers": {
+    "seclusion": "Apartment blocks 6 m from the kerb at 10-26 m; garages at 40 m.",
+    "access_and_room": "Plain sealed kerb with a narrow footpath and hedges behind; no bay.",
+    "traffic": "Through road with a junction at the start.",
+    "convention": "2P resident-permit and No Stopping signs; no parked cars seen on this side."
+  },
+  "flags": ["Steep: about 8% mean, 18% max", "Dwellings within 10 m", "No Stopping Any Time signs nearby"],
+  "sun_shade": "Buildings and trees shade from the north; trees overhang from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Crossfall"],
+  "confidence": "high"
+}

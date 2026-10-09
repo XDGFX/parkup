@@ -1,0 +1,64 @@
+{
+  "candidate": "257003505-13038898591-23730600-l-14",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, grass verge behind, nearest homes over 30 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Homes 32 m or more away",
+    "Grass verge on kerb side"
+  ],
+  "drivers": {
+    "seclusion": "Mapped dwellings are 32 m or more away from this stretch, across the road or behind the verge.",
+    "access_and_room": "Sealed street with cars already parked along the kerb; room for a van.",
+    "traffic": "Quiet residential street; light traffic.",
+    "convention": "Several cars park along this kerb, so a van blends in; no signs."
+  },
+  "flags": [
+    "Steep: about 7.6% grade over best section",
+    "Low-lying: about 11-13 m elevation, Toowong Creek 356 m away",
+    "Large unmapped building beside the verge may be occupied"
+  ],
+  "sun_shade": "Mostly open to sun; tree shade at the lower end and some on the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Use of the building beside the verge"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 28,
+    "to_m": 52,
+    "where": "Douglas Street west kerb, beside the grass verge and cream-roofed building",
+    "slope_pct": 7.6,
+    "points": [
+      [
+        152.994866,
+        -27.494104
+      ],
+      [
+        152.99499,
+        -27.493918
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 7.2,
+    "min_elevation_m": 10.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

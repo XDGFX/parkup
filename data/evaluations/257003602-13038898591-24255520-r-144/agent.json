@@ -1,0 +1,32 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Short kerb at about 19% grade, with flats 11 m away.",
+  "reasons": [
+    "Grade about 19%, over the 12% limit",
+    "The Peak apartments 11 m away",
+    "Only 26 m, in a parked-car bend"
+  ],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 26,
+    "where": "North kerb on the bend below the tree-shaded driveway",
+    "slope_pct": 19
+  },
+  "drivers": {
+    "seclusion": "Apartments 11 m and 13 m away on the north side; more flats and houses 21-25 m beyond.",
+    "access_and_room": "Sealed street; cars park along the kerb and in angle bays opposite, leaving little room.",
+    "traffic": "Quiet side street.",
+    "convention": "Parallel and angle parking is signed and cars use it."
+  },
+  "flags": [
+    "Steep: about 19% mean, 25% max"
+  ],
+  "sun_shade": "Heavy tree shade over most of the kerb, from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall and kerb height",
+    "Street lighting"
+  ],
+  "confidence": "high"
+}

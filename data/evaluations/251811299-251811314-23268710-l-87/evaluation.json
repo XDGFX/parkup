@@ -1,0 +1,64 @@
+{
+  "candidate": "251811299-251811314-23268710-l-87",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet dead-end street beside parkland, but apartments sit 16-24 m away on the same side.",
+  "reasons": [
+    "Parkland on the far side",
+    "Apartments 16-24 m, same side",
+    "Cars already park here"
+  ],
+  "drivers": {
+    "seclusion": "Bush and park across the road. Apartments (River Park View) 16 m and 24 m from the section's start on the same side; a larger house nearer the north end.",
+    "access_and_room": "Open street, no gate. Cars park along the road so there is room to pull in.",
+    "traffic": "Short side street off a main road; little through traffic.",
+    "convention": "Cars park along the street; signs are 2P with resident exceptions, handled by the screen."
+  },
+  "flags": [
+    "Slope about 5% over the section; steeper than 3%",
+    "Low-lying: about 6-7 m elevation, Brisbane River 200 m away",
+    "Apartment 8 m from the kerb near 51 m, so avoid the north end"
+  ],
+  "sun_shade": "Trees and hedge on the west side shade the morning; open to the afternoon sun from the park side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Resident permit enforcement"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 4,
+    "to_m": 26,
+    "where": "Southern end of Bryce Street, west kerb, beside the hedged apartment block",
+    "slope_pct": 4.7,
+    "points": [
+      [
+        153.000146,
+        -27.49367
+      ],
+      [
+        153.000184,
+        -27.493475
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 5.2,
+    "min_elevation_m": 6.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

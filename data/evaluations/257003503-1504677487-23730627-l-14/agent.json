@@ -1,0 +1,34 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Parked-on residential kerb at the flat top, but homes 16-18 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Homes and flats 16-18 m away",
+    "Flat only near the top end"
+  ],
+  "best_section": {
+    "from_m": 85,
+    "to_m": 105,
+    "where": "Top (west) end of the south kerb, before the street bends",
+    "slope_pct": 1.5
+  },
+  "drivers": {
+    "seclusion": "Apartments (Beauty Point 16 m) and detached houses (18 m) on this side; more homes across the road.",
+    "access_and_room": "Sealed street with cars parked along the kerb; room to stop in the parking lane.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Several cars parked along this kerb, so a van is less conspicuous."
+  },
+  "flags": [
+    "Steep overall: about 12% mean, 18% max; flat only at 85-105 m",
+    "Dwellings within 25 m all round"
+  ],
+  "sun_shade": "Mostly open at the best section; some tree shade on the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium"
+}

@@ -1,0 +1,68 @@
+{
+  "candidate": "58815855-251813455-24388802-l-21",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, narrow, steep kerb with homes 8-11 m away and No Parking signs.",
+  "reasons": [
+    "Houses 8-9 m from kerb for first 40 m",
+    "Narrow street, cars parked opposite",
+    "Grade about 8% mean, 11% at far end"
+  ],
+  "drivers": {
+    "seclusion": "Nearest house 11 m, apartments 20 m or more; homes front the kerb for the rest of the stretch.",
+    "access_and_room": "Narrow sealed street with cars parked on the opposite side; little room to stop clear of the lane.",
+    "traffic": "Quiet side street off a busier road.",
+    "convention": "Cars park on the east side only; No Parking Any Time signs cover this kerb."
+  },
+  "flags": [
+    "Steep: about 10% at best section, max 12.8%",
+    "No Parking Any Time signs at both ends",
+    "Houses within 10 m along the first 40 m"
+  ],
+  "sun_shade": "Tree canopy over the south end; open to the west at the top; houses shade the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact lane width"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 40,
+    "to_m": 54,
+    "where": "Austral Street west kerb, top end near the apartment driveway",
+    "slope_pct": 10,
+    "points": [
+      [
+        152.996971,
+        -27.492994
+      ],
+      [
+        152.997038,
+        -27.492914
+      ],
+      [
+        152.997053,
+        -27.492893
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 11.4,
+    "min_elevation_m": 9.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

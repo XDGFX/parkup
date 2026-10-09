@@ -1,0 +1,65 @@
+{
+  "candidate": "58815905-251811296-23268708-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep residential kerb, 11% average, with homes 7-12 m away.",
+  "reasons": [
+    "Grade 11% mean, 17% max",
+    "Apartments 7-12 m from kerb",
+    "Resident-permit street, homes all round"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings line this side: St Lucia Lodge 8 m, a detached home 12 m, Saccharo apartments 7 m, Maiano Lodge 22 m. No quiet spot.",
+    "access_and_room": "Sealed street with cars parked along this kerb, so room to pull in, but the road falls steeply.",
+    "traffic": "Quiet residential street, through traffic to the north.",
+    "convention": "Cars park along this kerb all day, but resident-permit 2P signs apply Mon-Fri 7am-6pm."
+  },
+  "flags": [
+    "Steep: about 12.5% at best section, 17% max",
+    "Signs: 2P Mon-Fri 7am-6pm, resident permits excepted",
+    "Gate 243 m away has a way round"
+  ],
+  "sun_shade": "Open sky over the road, with some street trees; apartment block to the west casts morning-to-midday shade on the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 52,
+    "to_m": 68,
+    "where": "West kerb of Brisbane Street, between the two apartment blocks mid-stretch",
+    "slope_pct": 12.5,
+    "points": [
+      [
+        153.001283,
+        -27.497064
+      ],
+      [
+        153.001316,
+        -27.496923
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 12.9,
+    "min_elevation_m": 14.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

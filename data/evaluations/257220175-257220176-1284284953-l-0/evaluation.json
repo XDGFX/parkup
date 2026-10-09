@@ -1,0 +1,65 @@
+{
+  "candidate": "257220175-257220176-1284284953-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "12 m of kerb at a busy junction mouth with a house 8 m away.",
+  "reasons": [
+    "House 8 m from kerb",
+    "Junction mouth, hatched markings",
+    "Too short and steep"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 8 m from the kerb at 8 m; more houses within 13-20 m.",
+    "access_and_room": "Kerb sits on a wide junction with turning lanes; barely a van length.",
+    "traffic": "Busy signalled-style junction with several lanes.",
+    "convention": "No signs; only a few cars pulled up near the corner."
+  },
+  "flags": [
+    "Steep: about 9% mean, 12% max",
+    "Dwelling within 10 m",
+    "Junction and heavy traffic noise"
+  ],
+  "sun_shade": "Open to sun; the house and trees shade from the north-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Carmody Road north kerb at the junction corner",
+    "slope_pct": 9,
+    "points": [
+      [
+        152.994925,
+        -27.496584
+      ],
+      [
+        152.995022,
+        -27.496521
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 8.1,
+    "min_elevation_m": 40.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,62 @@
+{
+  "candidate": "257003602-13038898591-24255520-r-75",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, very steep kerb beside flats, with cars parked nose-in.",
+  "reasons": [
+    "Grade about 19%, over the 12% limit",
+    "Apartments 11 m away at the start",
+    "Only 26 m long, shared with parked cars"
+  ],
+  "drivers": {
+    "seclusion": "Flats on the north side at 11 m near the start; the next dwellings are 22 m or more away. Shaded and enclosed.",
+    "access_and_room": "Sealed street with parked cars along the kerb; little spare room on a short stretch.",
+    "traffic": "Quiet side street.",
+    "convention": "Cars park here, with parallel and angle bays, but a No Parking Any Time sign is on the kerb."
+  },
+  "flags": [
+    "Steep: about 19% mean, 27% max",
+    "No Parking Any Time sign on this kerb"
+  ],
+  "sun_shade": "Shaded by the flats and street trees, mostly from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall and kerb height",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 26,
+    "where": "Lower end of the north kerb, beside the flats' car bays",
+    "slope_pct": 19,
+    "points": [
+      [
+        152.996709,
+        -27.494387
+      ],
+      [
+        152.996564,
+        -27.494322
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 20.4,
+    "min_elevation_m": 22.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

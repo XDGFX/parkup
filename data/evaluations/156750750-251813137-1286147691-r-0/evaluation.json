@@ -1,0 +1,65 @@
+{
+  "candidate": "156750750-251813137-1286147691-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep kerb with apartments and houses 6-12 m away along the whole stretch.",
+  "reasons": [
+    "Dwellings 6-8 m from kerb",
+    "Grade about 16%, over 12% limit",
+    "Main road, no cars parked"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks 6 m and 8 m from the kerb at the start; 12 m beside them.",
+    "access_and_room": "Kerb beside a sealed through road; no parked cars seen.",
+    "traffic": "Through road with a junction at the start.",
+    "convention": "2P resident-permit signs; no overnight parking convention seen."
+  },
+  "flags": [
+    "Steep: about 16% mean, 21% max",
+    "Dwellings within 10 m",
+    "Resident permit 2P signs Mon-Fri"
+  ],
+  "sun_shade": "Buildings shade the kerb from the north; trees opposite give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Carmody Road north kerb, east end by the junction",
+    "slope_pct": 14,
+    "points": [
+      [
+        152.998458,
+        -27.496928
+      ],
+      [
+        152.998338,
+        -27.496909
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 14.3,
+    "min_elevation_m": 13.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

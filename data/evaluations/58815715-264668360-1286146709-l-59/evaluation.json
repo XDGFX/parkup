@@ -1,0 +1,50 @@
+{
+  "candidate": "58815715-264668360-1286146709-l-59",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Nine-metre bus-stop kerb on a main road with a house 9 m away.",
+  "reasons": [
+    "Bus zone, only 9 m long",
+    "Main road, no cars parked",
+    "House 9 m from kerb"
+  ],
+  "drivers": {
+    "seclusion": "Two houses 9 m from the kerb and more homes within 25 m on the same side.",
+    "access_and_room": "Kerb is 9 m, shorter than a van, and marked as a bus zone; no verge or pull-in.",
+    "traffic": "Carmody Road through route with a junction beside it.",
+    "convention": "No parked cars on this kerb; the sign is a bus zone."
+  },
+  "flags": [
+    "Bus zone sign",
+    "Slope about 5%",
+    "Road noise"
+  ],
+  "sun_shade": "Trees overhang the road from the south; buildings to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 4.8,
+    "min_elevation_m": 12.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

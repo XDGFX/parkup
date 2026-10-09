@@ -1,0 +1,23 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Quiet street where cars park nightly; apartments about 16-20 m behind the kerb.",
+  "reasons": ["Many cars parked along this kerb", "Apartments 16-20 m away", "Bowls club and bush opposite"],
+  "best_section": {
+    "from_m": 62,
+    "to_m": 82,
+    "where": "Carr Street west kerb, opposite the St Lucia Bowling Club",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Apartment blocks 16-20 m behind a hedged strip; bowls club and trees opposite.",
+    "access_and_room": "Sealed lane with a parking lane on the west side, lined with parked cars.",
+    "traffic": "Dead-end side street serving a club and flats; light traffic.",
+    "convention": "Cars park along the whole kerb, but seven No Stopping Any Time signs run along it."
+  },
+  "flags": ["Seven No Stopping Any Time signs; imagery shows cars parked beside them", "Low-lying: min elevation 4.6 m, waterway 50 m away", "Apartments 10-25 m on the same side"],
+  "sun_shade": "Street trees shade the kerb from the east and overhead in places; open to the west afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Which stretches the No Stopping signs cover", "Street lighting", "Crossfall", "Flooding frequency"],
+  "confidence": "medium"
+}

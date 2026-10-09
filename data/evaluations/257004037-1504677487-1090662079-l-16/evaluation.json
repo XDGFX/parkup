@@ -1,0 +1,67 @@
+{
+  "candidate": "257004037-1504677487-1090662079-l-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, very steep kerb beside an apartment block; not usable.",
+  "reasons": [
+    "Slope about 23%, far over limit",
+    "Apartments 11 m from start",
+    "Short 23 m, junction mouth"
+  ],
+  "drivers": {
+    "seclusion": "Dover Lodge apartments 11 m away on the section's own side; homes all round within 25 m.",
+    "access_and_room": "Narrow side street at a junction; a few cars park along it, room is tight.",
+    "traffic": "Busy main road just west; quiet street itself.",
+    "convention": "Cars park here, but a no stopping sign sits at the Dengate Lane end."
+  },
+  "flags": [
+    "Steep: about 23% grade, max 29%",
+    "Dwelling 11 m away",
+    "No Stopping Any Time sign at Dengate Lane"
+  ],
+  "sun_shade": "Apartment block shades the north side; trees to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "crossfall",
+    "street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 23,
+    "where": "Bellevue Terrace kerb beside Dover Lodge apartments, at the Dengate Lane corner",
+    "slope_pct": 22.7,
+    "points": [
+      [
+        152.993743,
+        -27.492836
+      ],
+      [
+        152.993866,
+        -27.492902
+      ],
+      [
+        152.993941,
+        -27.492942
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 22.7,
+    "min_elevation_m": 12.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

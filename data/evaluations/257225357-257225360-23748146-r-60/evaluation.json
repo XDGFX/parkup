@@ -1,0 +1,102 @@
+{
+  "candidate": "257225357-257225360-23748146-r-60",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short dead-end bend under trees with flats 7 m away.",
+  "reasons": [
+    "Apartments 7 m from start",
+    "Only 23 m, under trees",
+    "Homes within 25 m all round"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 7 m away, more homes 18 to 26 m; closely overlooked.",
+    "access_and_room": "Narrow sealed end with a parked car; little clear room beside the lane.",
+    "traffic": "Very quiet dead end.",
+    "convention": "Residents park at the end; no camping convention."
+  },
+  "flags": [
+    "Dwelling 7 m from the start",
+    "Slope 9.6% mean, 19.6% max over short stretch",
+    "Bollard mapped 2 m from the start"
+  ],
+  "sun_shade": "Heavy tree canopy over the whole section.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "crossfall",
+    "street lighting",
+    "whether the end is gated"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 23,
+    "where": "Dead-end bend of Bishop Street under trees, behind the townhouses",
+    "slope_pct": 4,
+    "points": [
+      [
+        152.991991,
+        -27.496078
+      ],
+      [
+        152.991986,
+        -27.496076
+      ],
+      [
+        152.991956,
+        -27.496064
+      ],
+      [
+        152.991932,
+        -27.496057
+      ],
+      [
+        152.991911,
+        -27.496052
+      ],
+      [
+        152.99188,
+        -27.496045
+      ],
+      [
+        152.991857,
+        -27.496041
+      ],
+      [
+        152.991811,
+        -27.496036
+      ],
+      [
+        152.991793,
+        -27.496036
+      ],
+      [
+        152.991778,
+        -27.496038
+      ],
+      [
+        152.991768,
+        -27.49604
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 9.6,
+    "min_elevation_m": 30.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

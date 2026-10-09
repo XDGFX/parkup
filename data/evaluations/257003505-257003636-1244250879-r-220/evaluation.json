@@ -1,0 +1,63 @@
+{
+  "candidate": "257003505-257003636-1244250879-r-220",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Very steep short kerb by a church and a main-road junction.",
+  "reasons": [
+    "Grade about 17%, over 12% limit",
+    "Dwelling 8 m at far end",
+    "No Stopping and No Parking signs"
+  ],
+  "drivers": {
+    "seclusion": "Flats and houses 13-19 m away; church 15 m; houses front the street.",
+    "access_and_room": "Sealed street with cars parked along the kerb; room to pull in.",
+    "traffic": "Quiet street but meets a busy main road at the end.",
+    "convention": "Cars park along it, but No Stopping and No Parking Any Time signs apply near the corner."
+  },
+  "flags": [
+    "Steep: about 17% mean, max 25%",
+    "Dwelling 8 m from the far end",
+    "Junction with a busy main road adds noise"
+  ],
+  "sun_shade": "Open to the north and east; some tree shade near the corner.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "Armadale Street south kerb, opposite the church, near the lawn beside the flats",
+    "slope_pct": 17,
+    "points": [
+      [
+        152.996577,
+        -27.495494
+      ],
+      [
+        152.996751,
+        -27.495586
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 16.8,
+    "min_elevation_m": 18.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

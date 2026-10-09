@@ -1,0 +1,50 @@
+{
+  "candidate": "58815905-264669531-7920174-r-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Junction kerb on a main road, no parking, apartments 9 m away, steep.",
+  "reasons": [
+    "Junction mouth, no cars parked",
+    "Apartments 9 m from kerb",
+    "Steep: 8.6% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "St Lucia Lodge apartments 9 m from the kerb at 15 m; houses 15-24 m on the same side.",
+    "access_and_room": "Kerb runs into a road junction with a No Stopping Any Time sign; no verge or pull-in.",
+    "traffic": "Carmody Road meets Brisbane Street here; steady traffic and noise.",
+    "convention": "No cars parked on this kerb in either image."
+  },
+  "flags": [
+    "Steep: mean 8.6%, max 10%",
+    "No Stopping Any Time sign (screen already checked)",
+    "Road noise"
+  ],
+  "sun_shade": "Mostly open; trees overhang from the south side of the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 8.6,
+    "min_elevation_m": 18.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

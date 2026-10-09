@@ -1,0 +1,50 @@
+{
+  "candidate": "1515019017-1515019019-1258071632-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 3 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "10 m kerb outside an apartment block, steep, with a No Stopping sign.",
+  "reasons": [
+    "Apartments 3 m from kerb",
+    "Only 10 m long",
+    "Steep, 10% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Signature Point apartments sit 3 m away along the whole stretch; houses all round.",
+    "access_and_room": "Narrow street with cars parked tight against the kerb; stretch is under a van length plus margin.",
+    "traffic": "Quiet residential street near a junction.",
+    "convention": "4P parallel sign and a No Stopping Any Time sign cover this kerb."
+  },
+  "flags": [
+    "Dwelling within 10 m",
+    "Steep: 10% mean grade, 13% max",
+    "Very short candidate"
+  ],
+  "sun_shade": "Apartment building shades the west side; trees at the north end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 3,
+    "gated": false,
+    "slope_pct": 10.1,
+    "min_elevation_m": 20.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "257225353-257230257-24339865-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow kerb where cars park, but houses sit 12-20 m off behind hedges.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Houses 12-20 m away, same side",
+    "Steep grade"
+  ],
+  "drivers": {
+    "seclusion": "Houses 12-15 m away on the kerb side behind dense planting; more homes across the road.",
+    "access_and_room": "Sealed street with cars already parked on this kerb; narrow, so a van takes most of the width of the parking space.",
+    "traffic": "Quiet residential street; light traffic.",
+    "convention": "Cars park along it; a No Stopping Any Time sign sits near the top junction, so check the kerb before stopping."
+  },
+  "flags": [
+    "Steep: about 7% grade over best section (max 10.4% elsewhere)",
+    "No Stopping Any Time sign nearby, near the junction at the top end",
+    "Dwellings 12-15 m from best section"
+  ],
+  "sun_shade": "Heavily shaded by trees on the west side; open to afternoon sun from the west in gaps.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact reach of the No Stopping sign"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 18,
+    "to_m": 38,
+    "where": "Douglas Street west kerb, below the bend where the parked cars sit",
+    "slope_pct": 7,
+    "points": [
+      [
+        152.993301,
+        -27.496541
+      ],
+      [
+        152.993403,
+        -27.496385
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 7.9,
+    "min_elevation_m": 20.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

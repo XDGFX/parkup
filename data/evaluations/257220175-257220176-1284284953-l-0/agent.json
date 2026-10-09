@@ -1,0 +1,23 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "12 m of kerb at a busy junction mouth with a house 8 m away.",
+  "reasons": ["House 8 m from kerb", "Junction mouth, hatched markings", "Too short and steep"],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Carmody Road north kerb at the junction corner",
+    "slope_pct": 9
+  },
+  "drivers": {
+    "seclusion": "Detached house 8 m from the kerb at 8 m; more houses within 13-20 m.",
+    "access_and_room": "Kerb sits on a wide junction with turning lanes; barely a van length.",
+    "traffic": "Busy signalled-style junction with several lanes.",
+    "convention": "No signs; only a few cars pulled up near the corner."
+  },
+  "flags": ["Steep: about 9% mean, 12% max", "Dwelling within 10 m", "Junction and heavy traffic noise"],
+  "sun_shade": "Open to sun; the house and trees shade from the north-west.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Crossfall"],
+  "confidence": "high"
+}

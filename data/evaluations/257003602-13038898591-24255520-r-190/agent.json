@@ -1,0 +1,34 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Very short, shaded kerb beside parked cars, with flats 12 m away.",
+  "reasons": [
+    "Apartments 12 m away on this side",
+    "Cars park here; heavy tree cover",
+    "Only 10 m long, about 9% grade"
+  ],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "North kerb at the narrow bend, under the large trees",
+    "slope_pct": 8.8
+  },
+  "drivers": {
+    "seclusion": "Apartments 12 m away and a house 17 m away on this side; heavily screened by trees.",
+    "access_and_room": "Sealed street with cars parked along the kerb; a 10 m stretch just fits a light van.",
+    "traffic": "Quiet side street.",
+    "convention": "Parallel parking is signed with no limit, and cars use it."
+  },
+  "flags": [
+    "Steep: about 9% mean, 11% max",
+    "Homes within about 12-25 m all round",
+    "Low-lying: about 5 m elevation; Toowong Creek 397 m away"
+  ],
+  "sun_shade": "Dense tree canopy over the whole stretch, mostly from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall and kerb height",
+    "Street lighting"
+  ],
+  "confidence": "medium"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "58815429-257003503-23730600-r-17",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, backing onto a lawn, but apartments sit 12-15 m off.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Apartment blocks within 15 m",
+    "Parkland across the road"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks 15 m or more on the kerb side; parkland and trees across the road.",
+    "access_and_room": "Sealed street with a parking lane where cars are stopped; room to pull in.",
+    "traffic": "Short street linking to a busy arterial at the top; moderate traffic.",
+    "convention": "Several cars park along the kerb, so a van blends in; only a weekday evening no-stopping sign nearby."
+  },
+  "flags": [
+    "Slope about 3% (max 11.6% elsewhere)",
+    "Apartments 12-15 m from the kerb",
+    "Evening no-stopping sign on Sir Fred Schonell Drive 4-6:30pm Mon-Fri",
+    "Low-lying: about 5 m elevation, Toowong Creek 309 m away"
+  ],
+  "sun_shade": "Heavy tree shade from both sides; sun mostly blocked.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "University event traffic"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 36,
+    "to_m": 58,
+    "where": "Douglas Street west kerb, beside the lawn south of the apartment car park",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.995415,
+        -27.493281
+      ],
+      [
+        152.995302,
+        -27.493451
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 4.5,
+    "min_elevation_m": 5.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

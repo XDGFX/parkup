@@ -1,0 +1,35 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Flatter shaded kerb near the bottom end, with homes 20-25 m away.",
+  "reasons": [
+    "Houses about 20-25 m away on this side",
+    "Cars park along this stretch",
+    "Steep above 130 m, over 15%"
+  ],
+  "best_section": {
+    "from_m": 160,
+    "to_m": 180,
+    "where": "Bottom (north-west) end of the south kerb, near the corner with the cross street",
+    "slope_pct": 3.5
+  },
+  "drivers": {
+    "seclusion": "Detached houses 11-25 m on the south side near 162-168 m; apartments 34 m at the end. Homes close all round.",
+    "access_and_room": "Sealed narrow street with cars parked along the kerb; room to stop beside parked cars.",
+    "traffic": "Quiet side street; light traffic.",
+    "convention": "Cars park here, and the signs allow parallel and angle parking, but some stretches are no stopping or no parking."
+  },
+  "flags": [
+    "Slope about 3.5% at the best section; the rest of the kerb is 12-22% (14% mean)",
+    "Low-lying: about 5 m elevation, Toowong Creek 365 m away",
+    "Signs show No Stopping and No Parking stretches nearby; check on site"
+  ],
+  "sun_shade": "Heavy tree canopy shades the best section, mostly from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Which stretch each sign applies to"
+  ],
+  "confidence": "medium"
+}

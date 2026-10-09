@@ -1,0 +1,66 @@
+{
+  "candidate": "257003602-13038898591-24255520-r-121",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at about 19% grade, too steep to park on.",
+  "reasons": [
+    "Grade about 19%, over the 12% limit",
+    "Apartments 18 m away across the kerb",
+    "Angle bays are shared with parked cars"
+  ],
+  "drivers": {
+    "seclusion": "The Peak apartments 18 m away; other flats 23-24 m. Wooded and enclosed, with homes on all sides.",
+    "access_and_room": "Sealed street with angle and parallel bays used by parked cars; room is limited on a 23 m stretch.",
+    "traffic": "Quiet side street.",
+    "convention": "Cars park here under P Angle signs, but a No Parking Any Time sign is on the kerb."
+  },
+  "flags": [
+    "Steep: about 19% mean, 23% max",
+    "No Parking Any Time sign on this kerb"
+  ],
+  "sun_shade": "Heavy tree canopy shades the kerb, mostly from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall and kerb height",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 23,
+    "where": "North kerb at the bend, under the large tree by the angle bays",
+    "slope_pct": 19,
+    "points": [
+      [
+        152.996382,
+        -27.49424
+      ],
+      [
+        152.996341,
+        -27.494222
+      ],
+      [
+        152.996178,
+        -27.49414
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 19.8,
+    "min_elevation_m": 14.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:44:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
