@@ -32,6 +32,8 @@ const QLD = "© <a href=\"https://www.data.qld.gov.au\" target=\"_blank\">State 
 const AERIAL_TILES = "https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/tile/{z}/{y}/{x}";
 const AERIAL_ICON = `<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true">
   <path d="M12 3 2 8l10 5 10-5-10-5Z"/><path d="m2 13 10 5 10-5"/></svg>`;
+const FILTER_ICON = `<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true">
+  <path d="M3 5h18l-7 8v6l-4 2v-8L3 5Z"/></svg>`;
 
 const $ = <T extends Element = HTMLElement>(html: string) => {
   const t = document.createElement("template");
@@ -199,14 +201,47 @@ async function main(root: HTMLElement) {
   const caption = root.appendChild($(`<div class="caption"></div>`));
   const sheet = root.appendChild($(`<section class="sheet" aria-live="polite"></section>`));
 
+  const controls = root.appendChild($(`<div class="controls"></div>`));
   let aerial = (() => { try { return localStorage.getItem("aerial") === "1"; } catch { return false; } })();
-  const aerialBtn = root.appendChild($(`<button class="layer-toggle" aria-pressed="${aerial}" aria-label="Aerial view" title="Aerial view">${AERIAL_ICON}</button>`));
+  const aerialBtn = controls.appendChild($(`<button class="layer-toggle" aria-pressed="${aerial}" aria-label="Aerial view" title="Aerial view">${AERIAL_ICON}</button>`));
   aerialBtn.onclick = () => {
     aerial = !aerial;
     aerialBtn.setAttribute("aria-pressed", String(aerial));
     if (map.getLayer("aerial")) map.setLayoutProperty("aerial", "visibility", aerial ? "visible" : "none");
     try { localStorage.setItem("aerial", aerial ? "1" : "0"); } catch { /* private mode: the choice just isn't remembered */ }
   };
+
+  // The filter: chips per verdict and per kind, each showing or hiding those pins. Keys are "verdict:good", "kind:kerb" and so on.
+  const keysOf = (c: Candidate) => [`verdict:${c.evaluation?.verdict ?? "none"}`, `kind:${c.kind}`];
+  const hidden = new Set<string>((() => { try { return JSON.parse(localStorage.getItem("hidden") ?? "[]") as string[]; } catch { return []; } })());
+  const shown = (c: Candidate) => keysOf(c).every((k) => !hidden.has(k));
+  const count = (key: string) => candidates.filter((c) => keysOf(c).includes(key)).length;
+  const chip = (key: string, label: string, colour: string) =>
+    `<button class="chip" data-key="${key}" aria-pressed="${!hidden.has(key)}" style="--c:${colour}">${label}<span class="kv">${count(key)}</span></button>`;
+  const filterBtn = controls.appendChild($(`<button class="layer-toggle" aria-pressed="${hidden.size > 0}" aria-expanded="false" aria-controls="filter" aria-label="Filter pins" title="Filter pins">${FILTER_ICON}</button>`));
+  const panel = root.appendChild($(`<div class="filter" id="filter" role="group" aria-label="Filter pins" hidden>
+    <div class="out-label">Verdict</div>
+    <div class="chips">${Object.entries(VERDICTS).map(([k, v]) => chip(`verdict:${k}`, v.label, v.color)).join("")}${chip("verdict:none", "Not evaluated", UNEVALUATED)}</div>
+    <div class="out-label">Kind</div>
+    <div class="chips">${(Object.keys(KINDS) as CandidateKind[]).map((k) => chip(`kind:${k}`, KINDS[k].name, "var(--muted)")).join("")}</div>
+    <button class="filter-reset">Show all</button>
+  </div>`));
+  const applyFilter = () => {
+    panel.querySelectorAll<HTMLElement>(".chip").forEach((b) => b.setAttribute("aria-pressed", String(!hidden.has(b.dataset.key!))));
+    filterBtn.setAttribute("aria-pressed", String(hidden.size > 0));
+    try { localStorage.setItem("hidden", JSON.stringify([...hidden])); } catch { /* private mode: the choice just isn't remembered */ }
+    paint();
+  };
+  const openFilter = (open: boolean) => { panel.hidden = !open; filterBtn.setAttribute("aria-expanded", String(open)); };
+  filterBtn.onclick = () => openFilter(!!panel.hidden);
+  panel.onclick = (e) => {
+    const t = e.target as HTMLElement;
+    const key = t.closest<HTMLElement>(".chip")?.dataset.key;
+    if (key) { if (!hidden.delete(key)) hidden.add(key); applyFilter(); }
+    else if (t.closest(".filter-reset")) { hidden.clear(); applyFilter(); }
+  };
+  document.addEventListener("pointerdown", (e) => { if (!panel.hidden && !panel.contains(e.target as Node) && !filterBtn.contains(e.target as Node)) openFilter(false); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !panel.hidden) { openFilter(false); filterBtn.focus(); } });
 
   for (const w of presets) {
     const b = top.appendChild($(`<button class="plate" aria-pressed="${w === win}">${w.title}<small>${w.sub}</small></button>`));
@@ -252,9 +287,9 @@ async function main(root: HTMLElement) {
   function paint() {
     const hours = Math.min(win.key === "now" ? NOW_HOURS : MIN_STAY_HOURS, Math.round((+win.to - +win.from) / 3600e3));
     caption.textContent = `Faded: you'd have to move within ${hours} hours`;
-    (map.getSource("kerbs") as GeoJSONSource | undefined)?.setData(features(kerbs, (c) => ({ type: "LineString", coordinates: c.line })));
-    (map.getSource("outlines") as GeoJSONSource | undefined)?.setData(features(outlines, (c) => ({ type: "Polygon", coordinates: [c.line] })));
-    (map.getSource("dots") as GeoJSONSource | undefined)?.setData(features(candidates, (c) => ({ type: "Point", coordinates: anchor(c) })));
+    (map.getSource("kerbs") as GeoJSONSource | undefined)?.setData(features(kerbs.filter(shown), (c) => ({ type: "LineString", coordinates: c.line })));
+    (map.getSource("outlines") as GeoJSONSource | undefined)?.setData(features(outlines.filter(shown), (c) => ({ type: "Polygon", coordinates: [c.line] })));
+    (map.getSource("dots") as GeoJSONSource | undefined)?.setData(features(candidates.filter(shown), (c) => ({ type: "Point", coordinates: anchor(c) })));
     paintToilets(map, toilets, win);
   }
 
