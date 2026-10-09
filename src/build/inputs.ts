@@ -26,3 +26,15 @@ export type OsmWay = {
 };
 
 export type Snapshot = { takenAt: string; signs: SignRecord[]; ways: OsmWay[] };
+
+/** One toilet from BCC's copy of the National Public Toilet Map, stations and service stations included. */
+export type ToiletRecord = {
+  facilityid: string;
+  name: string;
+  facilitytype: string | null;
+  address: string | null;
+  lon: number;
+  lat: number;
+  /** Free text, such as "OPEN: Daylight hours", "OPEN: 24 hours" or "OPEN: Mon-Fri 6am-10pm". */
+  openinghours: string | null;
+};
