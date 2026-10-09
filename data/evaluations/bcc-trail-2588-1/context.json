@@ -1,0 +1,447 @@
+{
+  "id": "bcc-trail-2588-1",
+  "street": "Brisbane Botanic Gardens Mt Coot-Tha access road",
+  "suburb": "",
+  "line": [
+    [
+      152.974903,
+      -27.474773
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "off-road",
+  "kind": "point",
+  "length_m": 0,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 24,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9749952,
+          -27.4750221
+        ],
+        [
+          152.97507,
+          -27.4750351
+        ],
+        [
+          152.9750821,
+          -27.4749802
+        ],
+        [
+          152.9750073,
+          -27.4749672
+        ],
+        [
+          152.9749952,
+          -27.4750221
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": "Maintenance Depot",
+      "dwelling": false,
+      "metres": 32,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9754361,
+          -27.4752201
+        ],
+        [
+          152.9750804,
+          -27.4751553
+        ],
+        [
+          152.9751249,
+          -27.474978
+        ],
+        [
+          152.9754765,
+          -27.4750456
+        ],
+        [
+          152.9754361,
+          -27.4752201
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 36,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9747494,
+          -27.4744223
+        ],
+        [
+          152.9747619,
+          -27.4744698
+        ],
+        [
+          152.974668,
+          -27.4744892
+        ],
+        [
+          152.9746555,
+          -27.4744417
+        ],
+        [
+          152.9747494,
+          -27.4744223
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 66,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9750262,
+          -27.4753605
+        ],
+        [
+          152.9749455,
+          -27.4754403
+        ],
+        [
+          152.9749968,
+          -27.4754811
+        ],
+        [
+          152.9750111,
+          -27.475467
+        ],
+        [
+          152.9750602,
+          -27.4755061
+        ],
+        [
+          152.9751266,
+          -27.4754403
+        ],
+        [
+          152.9750262,
+          -27.4753605
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 79,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9751363,
+          -27.4754538
+        ],
+        [
+          152.9750753,
+          -27.4755024
+        ],
+        [
+          152.9752009,
+          -27.4756263
+        ],
+        [
+          152.9752619,
+          -27.4755777
+        ],
+        [
+          152.9751363,
+          -27.4754538
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 100,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9753043,
+          -27.4755986
+        ],
+        [
+          152.9752474,
+          -27.4756523
+        ],
+        [
+          152.9752863,
+          -27.4756848
+        ],
+        [
+          152.9753432,
+          -27.4756311
+        ],
+        [
+          152.9753043,
+          -27.4755986
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9760721,
+      "lat": -27.4751035,
+      "metres": 121,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.9747,
+        "lat": -27.474773,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 42.1
+      },
+      {
+        "lon": 152.974751,
+        "lat": -27.474773,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 40.41
+      },
+      {
+        "lon": 152.974802,
+        "lat": -27.474773,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 39.13
+      },
+      {
+        "lon": 152.974852,
+        "lat": -27.474773,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 38.81
+      },
+      {
+        "lon": 152.974903,
+        "lat": -27.474773,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 38.32
+      },
+      {
+        "lon": 152.974954,
+        "lat": -27.474773,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 38.16
+      },
+      {
+        "lon": 152.975004,
+        "lat": -27.474773,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 37.96
+      },
+      {
+        "lon": 152.975055,
+        "lat": -27.474773,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 37.6
+      },
+      {
+        "lon": 152.975106,
+        "lat": -27.474773,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 37.48
+      },
+      {
+        "lon": 152.974903,
+        "lat": -27.474953,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 40.12
+      },
+      {
+        "lon": 152.974903,
+        "lat": -27.474908,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 40.09
+      },
+      {
+        "lon": 152.974903,
+        "lat": -27.474863,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 39.33
+      },
+      {
+        "lon": 152.974903,
+        "lat": -27.474818,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 38.71
+      },
+      {
+        "lon": 152.974903,
+        "lat": -27.474773,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 38.32
+      },
+      {
+        "lon": 152.974903,
+        "lat": -27.474728,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 38
+      },
+      {
+        "lon": 152.974903,
+        "lat": -27.474683,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 38.16
+      },
+      {
+        "lon": 152.974903,
+        "lat": -27.474638,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 38.14
+      },
+      {
+        "lon": 152.974903,
+        "lat": -27.474593,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 37.87
+      }
+    ],
+    "min_elevation_m": 37.5,
+    "max_elevation_m": 42.1,
+    "mean_grade_pct": 9,
+    "max_grade_pct": 33.8
+  },
+  "waterway": {
+    "name": null,
+    "metres": 39
+  },
+  "mapped_parking": [],
+  "mapped_ways": [
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": "private",
+      "metres": 0
+    },
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": "private",
+      "metres": 15
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": null,
+      "access": null,
+      "metres": 25
+    },
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": null,
+      "surface": "paved",
+      "access": null,
+      "metres": 28
+    },
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": null,
+      "surface": null,
+      "access": "private",
+      "metres": 40
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": null,
+      "access": "private",
+      "metres": 42
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": null,
+      "access": null,
+      "metres": 42
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": null,
+      "access": "private",
+      "metres": 62
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/bcc-trail-2588-1/chunk1-esri.jpg",
+        "qld": ".cache/imagery/bcc-trail-2588-1/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is in dense garden bush on a slope; only footpaths and a narrow garden road nearby.",
+  "reasons": ["Dense canopy, no track or vehicles", "Slope about 12% mean", "Garden road 51 m south has no verge"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Secluded under trees, nearest building the band shell 44 m away, but no place to stop.",
+    "access_and_room": "No vehicle track or tyre marks reach the pin; paths near it are narrow pedestrian garden paths, and the 20 km/h garden road to the south is tight with no pull-off and no parked cars.",
+    "traffic": "None at the pin.",
+    "convention": "No sign of anyone staying."
+  },
+  "flags": ["Steep: about 12% mean, 26% max", "Creek 34 m away, low-lying about 36 to 43 m"],
+  "sun_shade": "Full tree canopy over the pin.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether the garden paths are open to vehicles"],
+  "confidence": "high"
+}

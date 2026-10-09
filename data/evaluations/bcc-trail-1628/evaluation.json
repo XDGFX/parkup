@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-1628",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin sits beside the Fernhouse in the botanic gardens; footpaths only, no parking.",
+  "reasons": [
+    "Garden paths only, no vehicle access",
+    "Fernhouse 18 m, Dome 13 m away",
+    "Public attraction, busy by day"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by garden buildings and visitor paths; not secluded.",
+    "access_and_room": "Narrow garden paths; no tyre tracks. Only one car seen, at a small service area by the dome. Car park 63 m away is the visitor car park.",
+    "traffic": "Visitor attraction with foot traffic all day.",
+    "convention": "Botanic garden; no sign of overnight stays."
+  },
+  "flags": [
+    "Garden gates mapped 84 m and further, not on the only access",
+    "Mean slope 6.4%, max 18%",
+    "Pin is on managed gardens near a pond"
+  ],
+  "sun_shade": "Palms and trees to the north and west; Fernhouse shade cloth to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Garden road closures and hours",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 6.4,
+    "min_elevation_m": 29.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

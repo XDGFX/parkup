@@ -1,0 +1,75 @@
+{
+  "candidate": "osm-way-757531369",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small flat bush-enclosed car park, no buildings, a few cars in QLD image.",
+  "reasons": [
+    "Surrounded by dense bush",
+    "No buildings mapped or seen",
+    "Flat, room for a van"
+  ],
+  "drivers": {
+    "seclusion": "Bush on all sides; no buildings anywhere in the images.",
+    "access_and_room": "Sealed car park with marked bays opening off the road; a mapped lift gate 43 m away has a way round it.",
+    "traffic": "Quiet side road; bays are off the lane.",
+    "convention": "Cars are parked there in both images; a van would not stand out."
+  },
+  "flags": [
+    "Mapped lift gate 43 m away, not on the only access",
+    "Possible night closure of the road"
+  ],
+  "sun_shade": "Tall trees shade the west and south; the middle is open to midday sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Night closure or patrols",
+    "Lighting",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 40,
+    "where": "West side of the small triangular car park, bays against the bush",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.955288,
+        -27.4844
+      ],
+      [
+        152.955249,
+        -27.484454
+      ],
+      [
+        152.955188,
+        -27.484588
+      ],
+      [
+        152.955243,
+        -27.484607
+      ],
+      [
+        152.955245,
+        -27.484616
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 230.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

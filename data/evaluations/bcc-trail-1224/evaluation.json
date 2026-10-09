@@ -1,0 +1,60 @@
+{
+  "candidate": "bcc-trail-1224",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Pin sits in dense garden; nearest real stop is the busy visitor car park.",
+  "reasons": [
+    "Pin in dense planting, no track",
+    "Visitor car park 64 m away",
+    "Attraction car park, staff nearby"
+  ],
+  "drivers": {
+    "seclusion": "No homes nearby; car park backs onto gardens, but it is the main visitor hub with a visitor centre and cafe.",
+    "access_and_room": "Pin itself is under tree canopy with no track or tyre marks; the sealed car park has an unsigned-gate-free road in and plenty of room.",
+    "traffic": "Daytime tourist traffic; quiet after hours.",
+    "convention": "Public gardens car park, no sign of overnight stays; closing hours unknown."
+  },
+  "flags": [
+    "Slope data is sampled at the pin (mean 8.8%), not the car park",
+    "Pin is off: in dense garden planting",
+    "Mapped gates 58 m and 189 m away have ways round"
+  ],
+  "sun_shade": "Car park is open to sun all day with some trees on its edges.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Car park closing hours or overnight rules",
+    "Security patrols and lighting",
+    "Car park slope"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Asphalt visitor car park beside the Planetarium, about 64 m north-east of the pin",
+    "slope_pct": 8.8,
+    "points": [
+      [
+        152.977148,
+        -27.476511
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 8.8,
+    "min_elevation_m": 33.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

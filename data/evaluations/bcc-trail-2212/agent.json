@@ -1,0 +1,35 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Pin is on a steep garden footpath; small sealed car park lies west.",
+  "reasons": [
+    "Pin on footpath, 20% slope, no vehicle access",
+    "Small garden car park about 70 m west",
+    "No homes nearby; garden rules unknown"
+  ],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Small sealed car park at the bend of the gardens road, west of the pin",
+    "slope_pct": 0
+  },
+  "drivers": {
+    "seclusion": "Car park sits in bush with no dwellings; only the gardens road and paths are near.",
+    "access_and_room": "Pin is a narrow path on a steep bank. The car park off the sealed road has lined bays and room for a van.",
+    "traffic": "Gardens access road beside it, light traffic seen; no vehicles in the car park in either image.",
+    "convention": "Public gardens car park with no sign of overnight use; opening hours unknown."
+  },
+  "flags": [
+    "Pin lands on steep ground: about 20% mean, 32% max",
+    "Car park slope not sampled; DEM only covers the pin",
+    "Garden hours, gates or signs unseen"
+  ],
+  "sun_shade": "Car park edge is open to sun with trees close on the east and south sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Gardens opening hours and overnight rules",
+    "Street lighting",
+    "Slope of the car park itself"
+  ],
+  "confidence": "low"
+}

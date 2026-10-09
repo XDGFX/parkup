@@ -1,0 +1,68 @@
+{
+  "candidate": "osm-way-31510273",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Large park car park; west edge backs onto bush and lawn, homes 40 m+.",
+  "reasons": [
+    "West edge borders park lawn and trees",
+    "Nearest dwelling about 40 m, across road",
+    "Big lot, many cars parked"
+  ],
+  "drivers": {
+    "seclusion": "West side backs onto a grass strip and dense bush. Nearest dwellings (34 to 40 m) are south across Meiers Road; the pool and cafe buildings are non-residential.",
+    "access_and_room": "Sealed multi-row car park entering from the road on the south side. Spaces along the west edge.",
+    "traffic": "Busy road along the south edge; the west side is set back from it.",
+    "convention": "Public car park for Yeronga Park and the pool; hundreds of cars park there."
+  },
+  "flags": [
+    "Heavy daytime use by park and pool visitors",
+    "Locked gates mapped 5 m and 60 m away have a way round",
+    "Mapped waterway 2 m from outline, though ground is about 22 m"
+  ],
+  "sun_shade": "Bush shades the west edge in the afternoon; open to the morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Overnight restrictions",
+    "Street lighting",
+    "Whether the lot is locked after pool hours"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 45,
+    "where": "West edge of the car park, beside the grass strip and bush",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        153.021546,
+        -27.521327
+      ],
+      [
+        153.021619,
+        -27.520934
+      ],
+      [
+        153.021622,
+        -27.520928
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 36,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 21.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

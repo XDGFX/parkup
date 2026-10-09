@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Sealed park car park with marked bays, rugby fields around, no homes.",
+  "reasons": ["No dwellings nearby", "Marked bays off the access road", "Parkland and sports fields all round"],
+  "best_section": {
+    "from_m": 75,
+    "to_m": 110,
+    "where": "Northern bays of the sealed car park, north of the rugby clubhouse",
+    "slope_pct": 0.7
+  },
+  "drivers": {
+    "seclusion": "Surrounded by trees, parkland and rugby fields; only the club buildings 30 m or more away, no homes.",
+    "access_and_room": "Sealed loop road with marked bays; plenty of room to park out of the lane.",
+    "traffic": "Quiet park access road; some club traffic near the clubhouse.",
+    "convention": "Few cars in the northern bays; club events may bring people at night."
+  },
+  "flags": ["Rugby club nearby may be busy at evenings and weekends", "Low ground: about 37 m, no creek within 200 m", "Locked mapped gates beside the outline have a way round"],
+  "sun_shade": "Heavy tree shade from the west and north-east; bays partly open.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Club hours and floodlights", "Street lighting", "Signs at the car park"],
+  "confidence": "medium"
+}

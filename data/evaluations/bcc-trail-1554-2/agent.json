@@ -1,0 +1,23 @@
+{
+  "verdict": "maybe",
+  "kind": "parking area",
+  "summary": "Pin is steep bush; nearest stop is a gardens car park about 80 m east.",
+  "reasons": ["Pin in thick bush, 14% slope", "Sealed car park backs onto bush", "Public gardens: overnight use doubtful"],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Sealed car park with bays at the east edge of the image, off the gardens road",
+    "slope_pct": 0
+  },
+  "drivers": {
+    "seclusion": "No buildings mapped; car park sits against bush and parkland, no homes in view.",
+    "access_and_room": "Sealed car park with painted bays opens off the access road; only its edge is visible.",
+    "traffic": "Gardens access road beside it; visitor traffic by day.",
+    "convention": "Gardens visitor car park; no vans or tents seen."
+  },
+  "flags": ["Pin itself is steep bush: 14.5% mean grade, 26% max", "Slope at the car park not measured", "Waterway 24 m from pin; low ground near 47 m elevation", "May be gated or patrolled at night"],
+  "sun_shade": "Pin under full canopy; car park edge partly shaded by trees on the west.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Car park size and slope", "Night closing or signs", "Lighting"],
+  "confidence": "low"
+}

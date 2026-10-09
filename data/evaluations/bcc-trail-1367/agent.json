@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is in steep dense bush with no track, parking or way in.",
+  "reasons": ["Thick bush, no track or tyre marks", "Slope about 18% mean", "Quarry edge only, no parking"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Very secluded forest, no buildings within 100 m, but nowhere a van could stand.",
+    "access_and_room": "No mapped parking or ways, no tracks or vehicles visible under the canopy; the nearest open ground is a quarry batter to the north-west.",
+    "traffic": "None.",
+    "convention": "No sign of anyone staying."
+  },
+  "flags": ["Steep: about 18% mean, 39% max", "Waterway 11 m away"],
+  "sun_shade": "Full tree canopy over the pin.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether a hidden track runs under the canopy"],
+  "confidence": "high"
+}

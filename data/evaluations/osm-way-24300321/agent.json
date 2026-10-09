@@ -1,0 +1,18 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Tree-shaded car park beside a golf course; no homes within 50 m.",
+  "reasons": ["Enclosed by trees and golf course", "No dwellings within 55 m", "Level; vehicles already parked"],
+  "best_section": {"from_m": 20, "to_m": 45, "where": "South-west side of the shaded car park, along the golf course edge", "slope_pct": 0.5},
+  "drivers": {
+    "seclusion": "Dense tree canopy on three sides and open golf course to the south-west. Only mapped building is a small non-residential structure 55 m away.",
+    "access_and_room": "Sealed car park with painted bays, connected to a larger car park and road to the north-west. Cars parked, so a vehicle can reach it.",
+    "traffic": "Quiet side car park off Meiers Road; little passing traffic.",
+    "convention": "Mapped public car park; a few cars and trailers in the adjoining lot suggest regular use."
+  },
+  "flags": ["Low-lying: about 7 m elevation, Brisbane River 104 m away", "Heavy shade may hide bay layout and ground condition"],
+  "sun_shade": "Heavily shaded by tree canopy, mostly from the east and north; open to the south-west over the golf course.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Golf club or council overnight restrictions", "Street lighting"],
+  "confidence": "medium"
+}

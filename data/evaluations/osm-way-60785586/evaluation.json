@@ -1,0 +1,64 @@
+{
+  "candidate": "osm-way-60785586",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Sealed sports-field car park backing onto a tree belt, homes over 30 m away.",
+  "reasons": [
+    "Backs onto dense tree belt",
+    "Nearest apartments 32 m away",
+    "Open sealed bays, room for a van"
+  ],
+  "drivers": {
+    "seclusion": "Tree belt to the south and playing field to the east; apartments 32 m away beyond the trees, road side homes further across the road.",
+    "access_and_room": "Open entrance from the north end; marked bays with plenty of room for a van.",
+    "traffic": "Quiet side street running past the west edge.",
+    "convention": "A few cars in Esri, one in QLD; used as sports-ground parking, no campers seen."
+  },
+  "flags": [
+    "Toilet block 11 m from north end, not near the best section",
+    "Low ground: about 6.6 m elevation, no creek within 195 m",
+    "Evening sports use possible"
+  ],
+  "sun_shade": "Open sealed surface; tree belt shades the south edge from the south, with morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Gates or lock-up times",
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 75,
+    "to_m": 105,
+    "where": "South row of bays, against the tree belt beside the sports field",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        153.014863,
+        -27.510108
+      ],
+      [
+        153.014563,
+        -27.510063
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 32,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 6.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

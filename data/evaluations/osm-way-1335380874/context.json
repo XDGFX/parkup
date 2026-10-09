@@ -1,0 +1,181 @@
+{
+  "id": "osm-way-1335380874",
+  "street": "Car park off Sir William MacGregor Drive",
+  "suburb": "",
+  "line": [
+    [
+      153.013406,
+      -27.505781
+    ],
+    [
+      153.013408,
+      -27.505846
+    ],
+    [
+      153.013512,
+      -27.505843
+    ],
+    [
+      153.01351,
+      -27.505778
+    ],
+    [
+      153.013406,
+      -27.505781
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "parking-area",
+  "kind": "outline",
+  "length_m": 35,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 55,
+      "at_m": 25,
+      "outline": [
+        [
+          153.0140607,
+          -27.5057154
+        ],
+        [
+          153.0140984,
+          -27.5057148
+        ],
+        [
+          153.0140988,
+          -27.5057394
+        ],
+        [
+          153.0140871,
+          -27.5057396
+        ],
+        [
+          153.0140723,
+          -27.5057398
+        ],
+        [
+          153.0140612,
+          -27.50574
+        ],
+        [
+          153.0140607,
+          -27.5057154
+        ]
+      ]
+    }
+  ],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.013406,
+        "lat": -27.505781,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 7.6
+      },
+      {
+        "lon": 153.013407,
+        "lat": -27.505826,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 7.84
+      },
+      {
+        "lon": 153.013436,
+        "lat": -27.505845,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 7.77
+      },
+      {
+        "lon": 153.013487,
+        "lat": -27.505844,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 7.81
+      },
+      {
+        "lon": 153.013511,
+        "lat": -27.50582,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 7.66
+      },
+      {
+        "lon": 153.013507,
+        "lat": -27.505778,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 7.65
+      },
+      {
+        "lon": 153.013457,
+        "lat": -27.50578,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 7.48
+      },
+      {
+        "lon": 153.013406,
+        "lat": -27.505781,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 7.6
+      }
+    ],
+    "min_elevation_m": 7.5,
+    "max_elevation_m": 7.8,
+    "mean_grade_pct": 2.3,
+    "max_grade_pct": 4.8
+  },
+  "waterway": {
+    "name": null,
+    "metres": 69
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 0,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 35,
+      "length_m": 35,
+      "images": {
+        "esri": ".cache/imagery/osm-way-1335380874/chunk1-esri.jpg",
+        "qld": ".cache/imagery/osm-way-1335380874/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        70,
+        68
+      ],
+      "image_px": [
+        470,
+        450
+      ]
+    }
+  ]
+}

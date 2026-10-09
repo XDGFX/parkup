@@ -1,0 +1,29 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is on a private depot access track, steep, beside a working quarry.",
+  "reasons": [
+    "Mapped private asphalt track at the pin",
+    "Steep: 17% mean, 37% max",
+    "Narrow gardens road below, no pull-off"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Wooded strip between a quarry yard and the gardens road, but it is a working service route.",
+    "access_and_room": "Short sealed spur marked private leads up to the depot. No bay or verge beside the gardens road to stop clear of the lane.",
+    "traffic": "Quarry trucks and staff cars use the area; gardens road is close below.",
+    "convention": "Staff cars park along the depot road to the north-east; no visitor parking seen."
+  },
+  "flags": [
+    "Steep: about 17% mean grade, 37% max",
+    "Mapped access=private on the way at the pin",
+    "Quarry noise and dust from the west"
+  ],
+  "sun_shade": "Trees overhead and to the west and south; open to the morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs and gates on site",
+    "Depot hours"
+  ],
+  "confidence": "medium"
+}

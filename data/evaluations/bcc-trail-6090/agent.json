@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Small empty bush car park off the Mt Coot-tha road, nothing built nearby.",
+  "reasons": ["Car park ringed by bush", "Nearest building 46 m, non-residential", "Flat on the car park surface"],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Small asphalt car park just north of the pin, off the bend in the road",
+    "slope_pct": 1
+  },
+  "drivers": {
+    "seclusion": "Enclosed by dense bush; only a non-dwelling building 46 m away, no homes.",
+    "access_and_room": "Sealed car park with marked bays opens straight off the road; no gate seen.",
+    "traffic": "Quiet park road; car park is off the lane.",
+    "convention": "Public visitor car park; empty in both images, so a van would be the only one."
+  },
+  "flags": ["Steep around the pin: 11% mean grade, but the car park itself is about 1%", "Possible night closure of the park road"],
+  "sun_shade": "Bush canopy shades the west and south edges; the middle is open to sun.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Night closure or patrols", "Street lighting", "Signs on site"],
+  "confidence": "medium"
+}

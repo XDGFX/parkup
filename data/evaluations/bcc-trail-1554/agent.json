@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is a lakeside footpath landing in the gardens; no vehicle way in.",
+  "reasons": ["Footpath only, no vehicle access seen", "Dense bush and steep ground around", "Botanic gardens lake edge"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Very secluded: bush and lake all round, no dwellings mapped or seen.",
+    "access_and_room": "Only a narrow paved path reaches the pin; no tyre tracks, vehicles or clearing. Nearest road is about 65 m away.",
+    "traffic": "No road traffic at the pin; walkers on gardens paths nearby.",
+    "convention": "No sign of people staying overnight; public gardens."
+  },
+  "flags": ["Pin ground is steep: 14% mean grade, 39% max", "Low ground near the lake, about 47 to 53 m elevation, waterway 35 m away", "Small hut beside the pin, likely a pump or utility building"],
+  "sun_shade": "Under tree canopy, open to the south over the water.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether the path is open to service vehicles", "Night closing or signs"],
+  "confidence": "medium"
+}

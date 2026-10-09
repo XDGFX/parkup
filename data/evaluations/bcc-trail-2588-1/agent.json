@@ -1,0 +1,29 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is on a private depot road by the quarry entrance and maintenance depot.",
+  "reasons": [
+    "Mapped private road at the pin",
+    "Working depot and quarry entrance, no room",
+    "No verge or bay clear of the lane"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Wooded, but it is a working depot and quarry entrance with staff and trucks.",
+    "access_and_room": "Narrow sealed depot road with a gate-like entrance beside the pin. A van would block the lane; no pull-off seen.",
+    "traffic": "Depot and quarry vehicles use it; roundabout and gardens road just north.",
+    "convention": "Only staff vehicles parked, in the depot yard to the south-east."
+  },
+  "flags": [
+    "Mapped access=private on the way at the pin",
+    "Maintenance depot 32 m away, quarry yard to the west",
+    "Slope 9% mean, 34% max at the pin"
+  ],
+  "sun_shade": "Tree canopy on the east and north sides; open to the west afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Gate or sign on site",
+    "Depot hours"
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Small netball-club car park, homes 28 m or more away behind trees.",
+  "reasons": ["Beside netball courts and fields", "Nearest home about 55 m", "Flat sealed car park"],
+  "best_section": {
+    "from_m": 55,
+    "to_m": 85,
+    "where": "South edge of the small car park, next to the netball courts",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Courts and playing fields to the south; mapped homes start 28 m north and the nearest tagged dwelling is 55 m.",
+    "access_and_room": "Sealed car park with a short drive in from the road, no gate seen; room for several vehicles.",
+    "traffic": "Dead-end club car park, little through traffic.",
+    "convention": "A few cars parked in Esri; sport club use, overnight stays unproven."
+  },
+  "flags": ["Low-lying: 4.7 to 5.8 m elevation, flood risk possible", "Netball building 9 m from the outline, non-residential", "Club activity on evenings and weekends"],
+  "sun_shade": "Trees shade the north and east edges; the south edge is open to the sun.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Club gate closure at night", "Signs on site"],
+  "confidence": "medium"
+}

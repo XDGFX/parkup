@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is steep bush above the gardens road; nowhere to stop.",
+  "reasons": ["Pin in steep bush, 21% grade", "Gardens road has no parking or verge", "No tracks or vehicles seen"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Very secluded bush, with a quarry road above; no dwellings mapped or seen.",
+    "access_and_room": "No track or clearing reaches the pin. The nearby sealed gardens road has yellow edge lines and no pull-off.",
+    "traffic": "Gardens road passes about 25 m east; quarry works lie beyond the cliff to the north-west.",
+    "convention": "No sign of anyone staying here."
+  },
+  "flags": ["Steep: 21% mean grade, 47% max at the pin", "Quarry noise and workings to the north-west", "Waterway 31 m away"],
+  "sun_shade": "Under dense tree canopy; open to the north-west over the quarry.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Parking rules on the gardens road", "Night closing or signs"],
+  "confidence": "medium"
+}

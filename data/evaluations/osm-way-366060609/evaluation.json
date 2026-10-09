@@ -1,0 +1,71 @@
+{
+  "candidate": "osm-way-366060609",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Tiny tree-shaded park car park, no buildings nearby, cars parked there.",
+  "reasons": [
+    "Park and trees all round",
+    "No buildings within 100 m",
+    "Signs only limit weekday daytime"
+  ],
+  "drivers": {
+    "seclusion": "Open parkland and bush around; no buildings mapped or visible.",
+    "access_and_room": "Sealed lane in off Dampier Street, three or four bays; tight for a long van but fits.",
+    "traffic": "Quiet park access lane, no through traffic.",
+    "convention": "Cars parked in both images; 4P limit applies Mon-Fri 7 AM-4 PM only."
+  },
+  "flags": [
+    "Small car park, may be full by day",
+    "Gate 209 m away is on a side path, not the access"
+  ],
+  "sun_shade": "Dense tree canopy over the southern end, shade most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Park night closure",
+    "Lighting",
+    "Whether bays fit a 7 m van"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 45,
+    "where": "Southern end of the small car park, under the trees",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.98175,
+        -27.479262
+      ],
+      [
+        152.981754,
+        -27.479259
+      ],
+      [
+        152.98164,
+        -27.479126
+      ],
+      [
+        152.981632,
+        -27.479131
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 20.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,18 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Sealed park car park beside playground; nearest homes across the access road.",
+  "reasons": ["Backs onto park and playground", "Level sealed surface", "Homes over 30 m from north side"],
+  "best_section": {"from_m": 0, "to_m": 30, "where": "North edge of the car park, nearest the playground", "slope_pct": 0.9},
+  "drivers": {
+    "seclusion": "North edge backs onto park lawn and trees. Nearest dwelling (15 m) is at the south-west corner, across the access road; school buildings 40 m away.",
+    "access_and_room": "Mapped asphalt car park with an entrance from the south road. Several cars parked, room for a van. No gate seen.",
+    "traffic": "Busy road about 60 m east, screened by trees. Quiet in the car park.",
+    "convention": "Public car park serving a playground and court; cars park there by day."
+  },
+  "flags": ["Possible daytime use by park visitors and school", "Dwellings 15 m from the south-west corner"],
+  "sun_shade": "Open to sun; tree shade from the west and over the middle of the lot.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Signs on site or time limits"],
+  "confidence": "medium"
+}

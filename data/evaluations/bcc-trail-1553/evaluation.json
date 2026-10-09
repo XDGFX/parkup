@@ -1,0 +1,61 @@
+{
+  "candidate": "bcc-trail-1553",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Pin is in steep bush; nearest stop is the gardens car park about 95 m east.",
+  "reasons": [
+    "Pin in thick bush, 17% slope",
+    "Asphalt car park backs onto bush",
+    "Botanic gardens: likely managed"
+  ],
+  "drivers": {
+    "seclusion": "No buildings mapped; car park sits against bush and gardens, no homes in view.",
+    "access_and_room": "Sealed car park with marked bays off the gardens road; only its edge is visible.",
+    "traffic": "Gardens access road runs alongside; light but steady visitor traffic.",
+    "convention": "Public gardens car park; overnight use is unlikely to be accepted and no vehicles seen."
+  },
+  "flags": [
+    "Pin itself is steep bush: 17% mean grade, 39% max",
+    "Slope at the car park not measured",
+    "Waterway 11 m from pin; low ground near 48 m elevation",
+    "Gardens car park may be gated or patrolled at night"
+  ],
+  "sun_shade": "Pin is under full tree canopy; car park edge is partly shaded by trees on the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Car park size and surface slope",
+    "Night closing or signs",
+    "Lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Mapped asphalt car park at the south-east edge of the image, beside the access road",
+    "slope_pct": 0,
+    "points": [
+      [
+        152.971203,
+        -27.479255
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 17.3,
+    "min_elevation_m": 48.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

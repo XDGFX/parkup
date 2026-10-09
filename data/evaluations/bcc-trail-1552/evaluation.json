@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-1552",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is in steep dense bush; the garden road beside it has no parking.",
+  "reasons": [
+    "Dense bush, no track or vehicles",
+    "Slope about 17% mean",
+    "Road edged with yellow lines"
+  ],
+  "drivers": {
+    "seclusion": "No buildings within 100 m and heavily wooded, but nowhere a van could stand off the road.",
+    "access_and_room": "No track or tyre marks reach the pin. The garden road 25 m east is a through route with yellow edge lines and a grass strip on the bank side; the small car park 86 m south is the visitor car park with marked bays.",
+    "traffic": "Light garden-road traffic.",
+    "convention": "No sign of anyone staying."
+  },
+  "flags": [
+    "Steep: about 17% mean, 37% max",
+    "Creek 20 m away",
+    "Yellow edge lines on the road suggest no stopping"
+  ],
+  "sun_shade": "Full tree canopy over the pin.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Meaning of the yellow edge lines on site",
+    "Overnight rules at the small car park to the south"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 17.3,
+    "min_elevation_m": 55.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

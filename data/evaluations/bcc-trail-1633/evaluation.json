@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-1633",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is on a lagoon-side footpath in the botanic gardens; no place for a van.",
+  "reasons": [
+    "Footpath between two lagoons",
+    "No parking or vehicle access",
+    "Busy garden visitor area"
+  ],
+  "drivers": {
+    "seclusion": "Open garden with paths and visitors; not secluded.",
+    "access_and_room": "Narrow footpath on a causeway between lagoons. One white vehicle on a lawn path to the east, likely a service vehicle; no parking area.",
+    "traffic": "Main road about 100 m east; garden foot traffic close by.",
+    "convention": "Botanic garden; no sign of overnight stays."
+  },
+  "flags": [
+    "Low-lying: pin is 1 m from water, elevation about 23 m",
+    "Mean slope 10.2%, max 28% (DEM noise at lagoon edge)",
+    "Gates mapped 140 m and further, not on the only access"
+  ],
+  "sun_shade": "Open to sun from the south and west; trees to the north-east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Closure of garden roads after hours",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 10.2,
+    "min_elevation_m": 22.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

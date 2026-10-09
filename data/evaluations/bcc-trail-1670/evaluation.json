@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-1670",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Botanic Gardens band shell lawn and footpath; no vehicle access, steep ground.",
+  "reasons": [
+    "Narrow garden path only",
+    "No vehicles or tyre tracks",
+    "Steep, up to 24% grade"
+  ],
+  "drivers": {
+    "seclusion": "Bush around, but it is a public garden lawn beside the band shell and visitor buildings.",
+    "access_and_room": "Only a narrow footpath reaches the ring; no vehicles or tyre tracks, no parking area mapped.",
+    "traffic": "Little traffic, but garden visitors and staff pass; the nearest road is 19 m away.",
+    "convention": "No sign anyone parks or stays here; botanic gardens are likely closed overnight."
+  },
+  "flags": [
+    "Steep: mean 9.4%, max 24% grade",
+    "Mapped gates nearby (127 m, 253 m, 298 m), not on only access",
+    "Likely managed and patrolled garden"
+  ],
+  "sun_shade": "Open lawn in sun, trees shading the west and north edges.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Garden opening hours",
+    "Whether the road 19 m away has usable parking"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 9.4,
+    "min_elevation_m": 39.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

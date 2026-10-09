@@ -1,0 +1,18 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Botanic gardens car park bays backing onto rainforest; no homes nearby.",
+  "reasons": ["Bays back onto dense bush", "No dwellings mapped or seen", "Nearly level at 55-95 m"],
+  "best_section": {"from_m": 55, "to_m": 95, "where": "Eastern bays along the bush edge, north of the cafe", "slope_pct": 0.6},
+  "drivers": {
+    "seclusion": "Bays on the east side back onto rainforest. Only gardens buildings nearby (cafe, visitor centre); no dwellings.",
+    "access_and_room": "Sealed public car park with marked bays and a through road. Bays are fully off the lane.",
+    "traffic": "Busy daytime visitor car park; quiet after hours.",
+    "convention": "Mapped free public car park for the botanic gardens and planetarium; many cars park there."
+  },
+  "flags": ["Busy by day with visitors and cafe", "Mapped gates 18 m and 58 m away have a way round", "Slope 6% average across whole outline, 12% max"],
+  "sun_shade": "Bush canopy shades the east side from the morning sun; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Overnight restrictions or patrols", "Street lighting"],
+  "confidence": "medium"
+}

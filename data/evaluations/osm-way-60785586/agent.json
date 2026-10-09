@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Sealed sports-field car park backing onto a tree belt, homes over 30 m away.",
+  "reasons": ["Backs onto dense tree belt", "Nearest apartments 32 m away", "Open sealed bays, room for a van"],
+  "best_section": {
+    "from_m": 75,
+    "to_m": 105,
+    "where": "South row of bays, against the tree belt beside the sports field",
+    "slope_pct": 0.3
+  },
+  "drivers": {
+    "seclusion": "Tree belt to the south and playing field to the east; apartments 32 m away beyond the trees, road side homes further across the road.",
+    "access_and_room": "Open entrance from the north end; marked bays with plenty of room for a van.",
+    "traffic": "Quiet side street running past the west edge.",
+    "convention": "A few cars in Esri, one in QLD; used as sports-ground parking, no campers seen."
+  },
+  "flags": ["Toilet block 11 m from north end, not near the best section", "Low ground: about 6.6 m elevation, no creek within 195 m", "Evening sports use possible"],
+  "sun_shade": "Open sealed surface; tree belt shades the south edge from the south, with morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Gates or lock-up times", "Street lighting", "Signs on site"],
+  "confidence": "medium"
+}

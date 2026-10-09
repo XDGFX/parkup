@@ -1,0 +1,319 @@
+{
+  "id": "bcc-trail-2248",
+  "street": "Brisbane Botanic Gardens Mt Coot-Tha access road",
+  "suburb": "",
+  "line": [
+    [
+      152.975054,
+      -27.476522
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "off-road",
+  "kind": "point",
+  "length_m": 0,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "greenhouse",
+      "name": "Queensland Herbarium",
+      "dwelling": false,
+      "metres": 88,
+      "at_m": 0,
+      "outline": [
+        [
+          152.975492,
+          -27.4755247
+        ],
+        [
+          152.9756087,
+          -27.4755735
+        ],
+        [
+          152.9756809,
+          -27.4754377
+        ],
+        [
+          152.9759143,
+          -27.4755354
+        ],
+        [
+          152.9758838,
+          -27.4755927
+        ],
+        [
+          152.9759648,
+          -27.4756267
+        ],
+        [
+          152.9760976,
+          -27.4756822
+        ],
+        [
+          152.975987,
+          -27.4758901
+        ],
+        [
+          152.975659,
+          -27.4757528
+        ],
+        [
+          152.9755928,
+          -27.4758773
+        ],
+        [
+          152.9753569,
+          -27.4757786
+        ],
+        [
+          152.975492,
+          -27.4755247
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 96,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9753043,
+          -27.4755986
+        ],
+        [
+          152.9752474,
+          -27.4756523
+        ],
+        [
+          152.9752863,
+          -27.4756848
+        ],
+        [
+          152.9753432,
+          -27.4756311
+        ],
+        [
+          152.9753043,
+          -27.4755986
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9760721,
+      "lat": -27.4751035,
+      "metres": 187,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9775481,
+      "lat": -27.4761333,
+      "metres": 250,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9769479,
+      "lat": -27.4782335,
+      "metres": 267,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.974851,
+        "lat": -27.476522,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 44.38
+      },
+      {
+        "lon": 152.974902,
+        "lat": -27.476522,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 43.47
+      },
+      {
+        "lon": 152.974953,
+        "lat": -27.476522,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 43.18
+      },
+      {
+        "lon": 152.975003,
+        "lat": -27.476522,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 42.55
+      },
+      {
+        "lon": 152.975054,
+        "lat": -27.476522,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 41.65
+      },
+      {
+        "lon": 152.975105,
+        "lat": -27.476522,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 41.23
+      },
+      {
+        "lon": 152.975155,
+        "lat": -27.476522,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 39.38
+      },
+      {
+        "lon": 152.975206,
+        "lat": -27.476522,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 37.92
+      },
+      {
+        "lon": 152.975257,
+        "lat": -27.476522,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 38.71
+      },
+      {
+        "lon": 152.975054,
+        "lat": -27.476702,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 39.8
+      },
+      {
+        "lon": 152.975054,
+        "lat": -27.476657,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 40.24
+      },
+      {
+        "lon": 152.975054,
+        "lat": -27.476612,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 40.65
+      },
+      {
+        "lon": 152.975054,
+        "lat": -27.476567,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 40.94
+      },
+      {
+        "lon": 152.975054,
+        "lat": -27.476522,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 41.65
+      },
+      {
+        "lon": 152.975054,
+        "lat": -27.476477,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 41.52
+      },
+      {
+        "lon": 152.975054,
+        "lat": -27.476432,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 41.63
+      },
+      {
+        "lon": 152.975054,
+        "lat": -27.476387,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 40.62
+      },
+      {
+        "lon": 152.975054,
+        "lat": -27.476342,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 41.02
+      }
+    ],
+    "min_elevation_m": 37.9,
+    "max_elevation_m": 44.4,
+    "mean_grade_pct": 13.4,
+    "max_grade_pct": 37
+  },
+  "waterway": {
+    "name": null,
+    "metres": 17
+  },
+  "mapped_parking": [],
+  "mapped_ways": [
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 64
+    },
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": "private",
+      "metres": 94
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/bcc-trail-2248/chunk1-esri.jpg",
+        "qld": ".cache/imagery/bcc-trail-2248/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

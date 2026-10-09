@@ -1,0 +1,239 @@
+{
+  "id": "bcc-trail-1667",
+  "street": "Brisbane Botanic Gardens Mt Coot-Tha access road",
+  "suburb": "",
+  "line": [
+    [
+      152.973944,
+      -27.477807
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "off-road",
+  "kind": "point",
+  "length_m": 0,
+  "signs": [],
+  "buildings": [],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.973741,
+        "lat": -27.477807,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 67.5
+      },
+      {
+        "lon": 152.973792,
+        "lat": -27.477807,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 66.69
+      },
+      {
+        "lon": 152.973843,
+        "lat": -27.477807,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 65.4
+      },
+      {
+        "lon": 152.973893,
+        "lat": -27.477807,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 64.5
+      },
+      {
+        "lon": 152.973944,
+        "lat": -27.477807,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 63.48
+      },
+      {
+        "lon": 152.973995,
+        "lat": -27.477807,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 61.51
+      },
+      {
+        "lon": 152.974045,
+        "lat": -27.477807,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 60.37
+      },
+      {
+        "lon": 152.974096,
+        "lat": -27.477807,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 58.87
+      },
+      {
+        "lon": 152.974147,
+        "lat": -27.477807,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 57.76
+      },
+      {
+        "lon": 152.973944,
+        "lat": -27.477987,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 63.42
+      },
+      {
+        "lon": 152.973944,
+        "lat": -27.477942,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 63.89
+      },
+      {
+        "lon": 152.973944,
+        "lat": -27.477897,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 63.83
+      },
+      {
+        "lon": 152.973944,
+        "lat": -27.477852,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 63.43
+      },
+      {
+        "lon": 152.973944,
+        "lat": -27.477807,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 63.48
+      },
+      {
+        "lon": 152.973944,
+        "lat": -27.477762,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 62.81
+      },
+      {
+        "lon": 152.973944,
+        "lat": -27.477717,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 62.37
+      },
+      {
+        "lon": 152.973944,
+        "lat": -27.477672,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 61.51
+      },
+      {
+        "lon": 152.973944,
+        "lat": -27.477627,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 60.88
+      }
+    ],
+    "min_elevation_m": 57.8,
+    "max_elevation_m": 67.5,
+    "mean_grade_pct": 16.6,
+    "max_grade_pct": 39.4
+  },
+  "waterway": {
+    "name": null,
+    "metres": 88
+  },
+  "mapped_parking": [],
+  "mapped_ways": [
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 17
+    },
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 39
+    },
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 47
+    },
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 62
+    },
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 81
+    },
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 81
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/bcc-trail-1667/chunk1-esri.jpg",
+        "qld": ".cache/imagery/bcc-trail-1667/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

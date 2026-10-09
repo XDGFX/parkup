@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-3598",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is in bush behind the depot and herbarium staff yards; no public stop.",
+  "reasons": [
+    "Only private service roads reach the pin",
+    "Depot 28 m, auditorium 17 m away",
+    "No public pull-off within reach"
+  ],
+  "drivers": {
+    "seclusion": "Wooded slope behind staff buildings; no homes, but gardens staff work all around.",
+    "access_and_room": "Nearest sealed ways are mapped private service roads into the depot yard. No track enters the bush at the pin.",
+    "traffic": "Staff and depot vehicles to the south and west; gardens road beyond trees north.",
+    "convention": "Only staff vehicles parked, in the depot yard; no public or overnight use seen."
+  },
+  "flags": [
+    "Mapped access=private on the nearest ways",
+    "Mapped gate 31 m away, depot and auditorium close",
+    "Slope 4% mean, 25% max at the pin"
+  ],
+  "sun_shade": "Full tree cover over the pin.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Gate or sign on site",
+    "Depot hours"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 4.2,
+    "min_elevation_m": 37.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

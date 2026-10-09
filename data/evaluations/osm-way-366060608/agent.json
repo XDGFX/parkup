@@ -1,0 +1,18 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Angled kerb bays along parkland on Hunter Street; nearest homes over 25 m away.",
+  "reasons": ["Bays back onto botanic gardens parkland", "Cars park there all along", "Homes 26 m+ away across the cross street"],
+  "best_section": {"from_m": 0, "to_m": 40, "where": "Southern end of the angled bays, just north of the cross street", "slope_pct": 6},
+  "drivers": {
+    "seclusion": "Bays back onto trees and park lawn. Nearest dwellings are 26 m south, across the side street; industrial and bus depot buildings sit opposite.",
+    "access_and_room": "Angled bays off a wide road, fully out of the through lanes. Roughly 20 bays marked.",
+    "traffic": "Busy through road next to the bays; noise from buses and cars.",
+    "convention": "Bays are full of parked cars along the whole stretch, so a van will blend in."
+  },
+  "flags": ["Steep: about 6% here, 7% average along the bays", "Council No Stopping and Bus Zone signs on nearby streets; check the bays themselves on site", "Busy road noise and bus depot opposite"],
+  "sun_shade": "Tree canopy to the west shades afternoon sun; open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Overnight limits on bays", "Street lighting", "Crossfall"],
+  "confidence": "medium"
+}

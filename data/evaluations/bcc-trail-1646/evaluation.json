@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-1646",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is on a lagoon-side garden footpath; walkers seen, no van access.",
+  "reasons": [
+    "Narrow paved garden footpath",
+    "No parking or tyre tracks",
+    "Walkers and garden beds all round"
+  ],
+  "drivers": {
+    "seclusion": "Public garden path with visitors; community garden 40 m away.",
+    "access_and_room": "Footpath only, about a van's width at most with garden beds each side. One vehicle seen on a lawn path 100 m east.",
+    "traffic": "Foot traffic by day; main road about 150 m north-east.",
+    "convention": "Botanic garden; no sign of overnight stays."
+  },
+  "flags": [
+    "Low-lying: lagoon 23 m away, elevation about 25 m",
+    "Mean slope 7.1%, max 22%",
+    "Gates mapped 152 m and further, not on the only access"
+  ],
+  "sun_shade": "Mostly open to sun; trees to the south and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Garden road closures and hours",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 7.1,
+    "min_elevation_m": 23.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

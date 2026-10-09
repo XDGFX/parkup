@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-2588",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is on a private depot access track, steep, beside a working quarry.",
+  "reasons": [
+    "Mapped private asphalt track at the pin",
+    "Steep: 17% mean, 37% max",
+    "Narrow gardens road below, no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Wooded strip between a quarry yard and the gardens road, but it is a working service route.",
+    "access_and_room": "Short sealed spur marked private leads up to the depot. No bay or verge beside the gardens road to stop clear of the lane.",
+    "traffic": "Quarry trucks and staff cars use the area; gardens road is close below.",
+    "convention": "Staff cars park along the depot road to the north-east; no visitor parking seen."
+  },
+  "flags": [
+    "Steep: about 17% mean grade, 37% max",
+    "Mapped access=private on the way at the pin",
+    "Quarry noise and dust from the west"
+  ],
+  "sun_shade": "Trees overhead and to the west and south; open to the morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs and gates on site",
+    "Depot hours"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 16.7,
+    "min_elevation_m": 53.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

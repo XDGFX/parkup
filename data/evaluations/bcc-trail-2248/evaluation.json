@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-2248",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is in steep, dense garden bush with no track or place to stop.",
+  "reasons": [
+    "No track or vehicles reach the pin",
+    "Steep: 13% mean, 37% max",
+    "Nearest road is narrow gardens road, no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Very secluded in bush, no dwellings, but nowhere a van can get to.",
+    "access_and_room": "Only footpaths reach the pin. The gardens road 64 m north has no visible pull-off or car park.",
+    "traffic": "Quiet gardens road and herbarium building to the north.",
+    "convention": "No sign of parking or overnight use."
+  },
+  "flags": [
+    "Steep: about 13% mean grade, 37% max at pin",
+    "Pin is 17 m from a mapped waterway",
+    "Herbarium and private-access road nearby"
+  ],
+  "sun_shade": "Under dense tree canopy on all sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Gardens opening hours",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 13.4,
+    "min_elevation_m": 37.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

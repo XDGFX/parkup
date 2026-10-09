@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Large sealed commuter car park by the arterial, no homes, many cars.",
+  "reasons": ["No dwellings; industrial and road around", "Large sealed car park, cars blend in", "Van stands clear of traffic lanes"],
+  "best_section": {
+    "from_m": 225,
+    "to_m": 265,
+    "where": "Eastern end of the large car park, along the tree belt by the roundabout",
+    "slope_pct": 1.3
+  },
+  "drivers": {
+    "seclusion": "Bordered by arterial roads, a bus depot and tree belts; no homes mapped or visible.",
+    "access_and_room": "Open sealed car park with many bays and several entrances; plenty of room.",
+    "traffic": "Arterial and roundabout alongside, so noisy, but the van stands clear of the lanes.",
+    "convention": "Commuter-style car park with dozens of cars by day and a few left in the newer imagery."
+  },
+  "flags": ["Noise from the arterial and the roundabout", "Cyan signs on the car park edge: check the posted rules on site", "Bus depot opposite may run early and late"],
+  "sun_shade": "Tree belt shades the south and east edge; open to the north and west.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Signs inside the car park", "Street lighting and patrols", "Time limits on bays"],
+  "confidence": "medium"
+}

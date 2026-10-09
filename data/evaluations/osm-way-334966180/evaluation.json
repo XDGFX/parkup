@@ -1,0 +1,71 @@
+{
+  "candidate": "osm-way-334966180",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Large gravel club car park, no homes nearby, east end near croquet lawns.",
+  "reasons": [
+    "No dwellings nearby",
+    "Open gravel car park",
+    "Surrounded by sports clubs and parkland"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto croquet and bowls greens and parkland; only sports buildings nearby, no homes mapped or visible.",
+    "access_and_room": "Open gravel car park off the road at the west end; plenty of room to pull out of traffic.",
+    "traffic": "Quiet side road; car park busy by day with club cars.",
+    "convention": "Club car park with many cars by day; clubs are non-residential. Overnight use unknown."
+  },
+  "flags": [
+    "Busy with club cars in the daytime, may be used for evening events",
+    "Mapped locked gates 57 m and 151 m away have a way round"
+  ],
+  "sun_shade": "Open gravel, little cover; a few palms to the south-east give partial shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Club hours and evening events",
+    "Street lighting",
+    "Whether the car park is closed or signed at night"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 125,
+    "to_m": 170,
+    "where": "East end of the gravel car park, by the path past the war memorial",
+    "slope_pct": 1.4,
+    "points": [
+      [
+        153.027517,
+        -27.519133
+      ],
+      [
+        153.027506,
+        -27.519189
+      ],
+      [
+        153.027133,
+        -27.519259
+      ],
+      [
+        153.027123,
+        -27.519257
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 41.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

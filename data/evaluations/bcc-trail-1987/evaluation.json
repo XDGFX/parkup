@@ -1,0 +1,49 @@
+{
+  "candidate": "bcc-trail-1987",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Steep wooded bank beside a narrow winding road; no pull-off or track.",
+  "reasons": [
+    "Pin on steep bank, 36% max",
+    "No pull-off beside narrow lane",
+    "No vehicles or tyre tracks"
+  ],
+  "drivers": {
+    "seclusion": "Bush on one side and a quarry across the road, no homes within 90 m; secluded if a van could stop.",
+    "access_and_room": "Sealed lane passes 12 m away, edged by yellow lines and a narrow grass strip; no bare pull-off or track, and the bank is steep.",
+    "traffic": "Gardens access road with quarry and visitor traffic; a van would sit in or beside the lane.",
+    "convention": "No parked vehicles or campers seen on this stretch."
+  },
+  "flags": [
+    "Steep: mean 19.6%, max 36% grade",
+    "Edge-line markings along the road; parking rules not checked",
+    "Mapped car park 19 m away not visible in imagery"
+  ],
+  "sun_shade": "Heavy tree canopy over the bank; quarry open to the north-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the road edge is no-stopping",
+    "Where the mapped car park is",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 19.6,
+    "min_elevation_m": 54.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Big empty sealed cricket club car park in parkland, no homes.",
+  "reasons": ["No dwellings nearby", "Large open sealed car park", "Parkland and nets on all sides"],
+  "best_section": {
+    "from_m": 50,
+    "to_m": 85,
+    "where": "South edge of the cricket club car park, beside the grass verge",
+    "slope_pct": 0.8
+  },
+  "drivers": {
+    "seclusion": "Parkland, cricket nets and a basketball court around; only the club building, no homes within 50 m.",
+    "access_and_room": "Wide sealed car park opening onto the park road; no gate seen, room for a van.",
+    "traffic": "Dead-end park road, little through traffic.",
+    "convention": "Nearly empty in both images; no campers seen."
+  },
+  "flags": ["No Stopping midnight to 6 am signs on the park road 5 to 7 m from the outline", "Low ground: about 3.8 m elevation", "Club may use floodlights or events in the evening"],
+  "sun_shade": "Open sealed surface, full sun, a few trees to the west.",
+  "rubbish": "Two bins by the club, no dumping seen.",
+  "cannot_judge": ["Whether the midnight to 6 am no-stopping signs cover the car park", "Gates closed at night", "Street lighting and flood risk"],
+  "confidence": "medium"
+}

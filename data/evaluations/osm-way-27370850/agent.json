@@ -1,0 +1,18 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Park car park beside a hall and open lawn; homes across the road.",
+  "reasons": ["Northern bays back onto open park lawn", "Nearest home 40 m+ from north edge", "Marked bays, cars parked"],
+  "best_section": {"from_m": 35, "to_m": 65, "where": "Northern row of bays, backing onto the park lawn", "slope_pct": 3.8},
+  "drivers": {
+    "seclusion": "North edge faces open parkland with trees. Hall to the east is non-residential. Nearest dwellings (25 m and more) are across the road to the south-west.",
+    "access_and_room": "Sealed car park with painted bays, entering directly from the road. Several cars parked, room for a van.",
+    "traffic": "Collector road along the south edge; moderate traffic, set back from the north bays.",
+    "convention": "Mapped public car park serving the park and hall; cars park there."
+  },
+  "flags": ["Steep: about 4% on the north edge", "Low-lying: about 5 to 8 m elevation, waterway 107 m away", "Bus zone sign on the road outside", "Hall and school activity by day"],
+  "sun_shade": "Trees shade the north-east and west sides; bays largely open to the midday sun.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Hall event use at night", "Street lighting"],
+  "confidence": "medium"
+}

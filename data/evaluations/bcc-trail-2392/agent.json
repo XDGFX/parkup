@@ -1,0 +1,36 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Large gardens car park just south-west; no homes close, plenty of cars.",
+  "reasons": [
+    "Mapped car park 34 m away, many cars",
+    "No dwellings within 90 m",
+    "Pin itself is bush, so car park judged"
+  ],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Western edge of the sealed gardens car park below the pin",
+    "slope_pct": 2
+  },
+  "drivers": {
+    "seclusion": "Surrounded by garden bush; nearest homes are over 90 m north-east beyond trees. Cafe and studio are non-residential.",
+    "access_and_room": "Sealed car park with marked bays off the gardens road; room for a van. Pin itself has no track.",
+    "traffic": "Mt Coot-tha Road passes 20 m north behind trees; visitor traffic by day.",
+    "convention": "Busy visitor car park, so a van does not stand out; overnight rules unknown."
+  },
+  "flags": [
+    "Pin is in bush and steep, 7% mean; car park is on flatter ground",
+    "Slope for the car park not sampled",
+    "Waterway mapped at the pin; low ground about 26 m",
+    "Gardens hours or overnight signs not visible"
+  ],
+  "sun_shade": "Car park is open to sun with tree shade along the north and east edges.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Gardens opening hours and overnight rules",
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "low"
+}

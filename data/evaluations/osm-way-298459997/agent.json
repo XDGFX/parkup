@@ -1,0 +1,18 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Landscaped park car park; southern bays back onto trees, no homes nearby.",
+  "reasons": ["Bays back onto planted trees and shrubs", "No dwellings within 50 m", "Level, cars already parked"],
+  "best_section": {"from_m": 5, "to_m": 45, "where": "Southern row of bays, east end, against the garden strip", "slope_pct": 0.8},
+  "drivers": {
+    "seclusion": "South row backs onto a planted garden strip and trees; parkland lies to the north. No dwellings mapped or seen; nearest buildings are a small shelter and sports centre, non-residential.",
+    "access_and_room": "Sealed car park with painted bays, entered from the access road. Cars parked, so a vehicle gets in.",
+    "traffic": "Quiet loop road serving the park; the road below is separated by trees.",
+    "convention": "Public car park for a riverside park and sports centre; cars park in the bays."
+  },
+  "flags": ["Accessible Parking Only bays on the north row; avoid them", "Elevation about 8 m, Brisbane River 163 m away", "Locked gates mapped 70 m and 246 m away have a way round"],
+  "sun_shade": "Tree canopy shades the south and west edges; open to the north and midday sun.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Overnight restrictions", "Street lighting", "Sports centre night use"],
+  "confidence": "medium"
+}

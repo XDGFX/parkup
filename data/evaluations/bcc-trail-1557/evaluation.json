@@ -1,0 +1,61 @@
+{
+  "candidate": "bcc-trail-1557",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Empty sealed gardens bay 40 m east of the pin, no homes near.",
+  "reasons": [
+    "Sealed bay off gardens road",
+    "Bush and gardens all round",
+    "No dwellings mapped or seen"
+  ],
+  "drivers": {
+    "seclusion": "Gardens and bush all round; no dwellings mapped or visible.",
+    "access_and_room": "Wide sealed bay with a disabled marking, opens off the access road; room for a van.",
+    "traffic": "Gardens road runs just north; visitor and bus traffic by day.",
+    "convention": "No vans or tents seen; looks like a visitor drop-off bay, overnight acceptance unknown."
+  },
+  "flags": [
+    "Pin itself is steep bush: 13% mean grade, 38% max",
+    "Slope at the bay not measured",
+    "Likely patrolled or closed at night as a gardens attraction",
+    "Mapped gate 286 m away has a way round"
+  ],
+  "sun_shade": "Mostly open sun; trees shade the west and north edges.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Night closing or signs",
+    "Exact bay slope",
+    "Lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Wide sealed bay east of the pin, below the road junction, ending at the curved Freedom Wall",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.974044,
+        -27.478207
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 13,
+    "min_elevation_m": 53.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

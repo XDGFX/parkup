@@ -1,0 +1,23 @@
+{
+  "verdict": "maybe",
+  "kind": "parking area",
+  "summary": "Pin is on a garden footpath; nearest real stop is the busy visitor car park.",
+  "reasons": ["Pin on pedestrian garden path", "Visitor car park 81 m away", "Attraction car park, staff nearby"],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Asphalt visitor car park beside the Planetarium, about 81 m north-east of the pin",
+    "slope_pct": 9.4
+  },
+  "drivers": {
+    "seclusion": "No homes nearby; car park backs onto gardens, but it is the main visitor hub with buildings and staff around.",
+    "access_and_room": "The pin sits on a narrow footpath among plantings with no vehicle tracks; the sealed car park has a road in and plenty of room.",
+    "traffic": "Daytime tourist traffic; quiet after hours.",
+    "convention": "Public gardens car park, no sign of overnight stays; closing hours unknown."
+  },
+  "flags": ["Slope data is sampled at the pin (mean 9.4%), not the car park", "Pin is off: on a garden footpath", "Mapped gates 101 m and beyond have ways round"],
+  "sun_shade": "Car park is open to sun all day with some trees on its edges.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Car park closing hours or overnight rules", "Security patrols and lighting", "Car park slope"],
+  "confidence": "low"
+}

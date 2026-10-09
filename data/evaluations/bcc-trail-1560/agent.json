@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Small sealed gardens car park about 20 m south-east, backed by bush.",
+  "reasons": ["Marked car park, bush behind", "No dwellings mapped or seen", "Pin itself is steep bush"],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Sealed car park with painted bays just south-east of the pin, off the gardens road bend",
+    "slope_pct": 0
+  },
+  "drivers": {
+    "seclusion": "Car park backs onto bush and gardens; no buildings mapped, only a small gardens hut nearby.",
+    "access_and_room": "Sealed lot with painted bays opens straight off the access road; room for a van.",
+    "traffic": "Gardens road passes beside it; visitor traffic by day.",
+    "convention": "Public gardens car park; no vans or tents seen, so overnight acceptance is unknown."
+  },
+  "flags": ["Ground around the pin is steep: 9.6% mean grade, 22% max", "Slope of the car park itself not measured", "Gardens car park may be gated, signed or patrolled at night", "Waterway 43 m away; elevation about 52 to 59 m"],
+  "sun_shade": "Tree canopy over the pin; the lot is partly shaded by trees on the west and north-east.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Car park slope", "Night closing or signs", "Lighting"],
+  "confidence": "low"
+}

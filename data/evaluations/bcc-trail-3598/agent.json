@@ -1,0 +1,29 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is in bush behind the depot and herbarium staff yards; no public stop.",
+  "reasons": [
+    "Only private service roads reach the pin",
+    "Depot 28 m, auditorium 17 m away",
+    "No public pull-off within reach"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Wooded slope behind staff buildings; no homes, but gardens staff work all around.",
+    "access_and_room": "Nearest sealed ways are mapped private service roads into the depot yard. No track enters the bush at the pin.",
+    "traffic": "Staff and depot vehicles to the south and west; gardens road beyond trees north.",
+    "convention": "Only staff vehicles parked, in the depot yard; no public or overnight use seen."
+  },
+  "flags": [
+    "Mapped access=private on the nearest ways",
+    "Mapped gate 31 m away, depot and auditorium close",
+    "Slope 4% mean, 25% max at the pin"
+  ],
+  "sun_shade": "Full tree cover over the pin.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Gate or sign on site",
+    "Depot hours"
+  ],
+  "confidence": "medium"
+}

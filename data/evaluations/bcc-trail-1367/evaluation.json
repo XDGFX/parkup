@@ -1,0 +1,46 @@
+{
+  "candidate": "bcc-trail-1367",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is in steep dense bush with no track, parking or way in.",
+  "reasons": [
+    "Thick bush, no track or tyre marks",
+    "Slope about 18% mean",
+    "Quarry edge only, no parking"
+  ],
+  "drivers": {
+    "seclusion": "Very secluded forest, no buildings within 100 m, but nowhere a van could stand.",
+    "access_and_room": "No mapped parking or ways, no tracks or vehicles visible under the canopy; the nearest open ground is a quarry batter to the north-west.",
+    "traffic": "None.",
+    "convention": "No sign of anyone staying."
+  },
+  "flags": [
+    "Steep: about 18% mean, 39% max",
+    "Waterway 11 m away"
+  ],
+  "sun_shade": "Full tree canopy over the pin.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether a hidden track runs under the canopy"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 18.2,
+    "min_elevation_m": 55.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

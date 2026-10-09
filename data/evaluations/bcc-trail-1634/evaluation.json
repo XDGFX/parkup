@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-1634",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is on the edge of the Fernhouse in the botanic gardens; no van access.",
+  "reasons": [
+    "Pin on garden building and bush edge",
+    "No tyre tracks or parking",
+    "Fernhouse 11 m, dome 33 m away"
+  ],
+  "drivers": {
+    "seclusion": "Garden buildings and paths within 11-33 m; visitor attraction.",
+    "access_and_room": "Only narrow garden paths reach it; no vehicles or tracks. Mapped car park 47 m away is the visitor car park.",
+    "traffic": "Foot traffic by day; garden road nearby.",
+    "convention": "Botanic garden; no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: mean 7.8%, max 34% at the bank",
+    "Garden gates mapped 102 m and further, not on the only access",
+    "Waterway 15 m away"
+  ],
+  "sun_shade": "Shade cloth of the Fernhouse to the north; dense trees south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Garden road closures and hours",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 7.8,
+    "min_elevation_m": 25.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

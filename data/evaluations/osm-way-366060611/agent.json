@@ -1,0 +1,18 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Parallel bays on a parkland lane in the botanic gardens; no homes near.",
+  "reasons": ["Surrounded by park lawn and trees", "No dwellings within 55 m", "Cars already park in the bays"],
+  "best_section": {"from_m": 45, "to_m": 70, "where": "Far (north-east) end of the lane bays, away from the junction", "slope_pct": 2.8},
+  "drivers": {
+    "seclusion": "Lane runs through gardens with lawn and tree cover on both sides. No dwellings mapped or seen; nearest building is 55 m away and non-residential.",
+    "access_and_room": "Paved park lane with marked parallel bays and a few cars parked. Room for a van in the bays.",
+    "traffic": "Quiet lane; larger car park with traffic is about 60 m east.",
+    "convention": "Public bays used by garden visitors and staff; signs limit stay to 4 hours Mon-Fri 7 am-4 pm only."
+  },
+  "flags": ["Slope about 3% at the best section, 9% max across outline", "Daytime 4P limit applies Mon-Fri only"],
+  "sun_shade": "Tree canopy to the east and north-west; partial shade, open to the south-west.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Gardens closing times or gate on the lane"],
+  "confidence": "medium"
+}

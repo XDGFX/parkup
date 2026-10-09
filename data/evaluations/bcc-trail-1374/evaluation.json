@@ -1,0 +1,46 @@
+{
+  "candidate": "bcc-trail-1374",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is in dense garden bush on a slope; only footpaths nearby.",
+  "reasons": [
+    "Dense canopy, no track or vehicles",
+    "Only narrow garden footpaths nearby",
+    "Slope about 11% mean"
+  ],
+  "drivers": {
+    "seclusion": "Secluded bushland, nearest building the band shell 50 m away, but no place to stop.",
+    "access_and_room": "No vehicle track or tyre marks reach the pin; paths around it are narrow pedestrian garden paths and the lawn by the band shell is parkland, not a road.",
+    "traffic": "None.",
+    "convention": "No sign of anyone staying."
+  },
+  "flags": [
+    "Steep: about 11% mean, 31% max",
+    "Creek 12 m away, low-lying about 32 to 35 m"
+  ],
+  "sun_shade": "Full tree canopy over the pin.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the garden paths are open to vehicles"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 11.4,
+    "min_elevation_m": 31.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

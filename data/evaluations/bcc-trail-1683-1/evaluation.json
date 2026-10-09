@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-1683-1",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Narrow footpath inside the Botanic Gardens; no vehicle access, steep slope.",
+  "reasons": [
+    "Garden footpath only",
+    "No vehicles or tyre tracks",
+    "Steep, up to 27% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dense planted garden, but a public visitor area near the planetarium and information centre.",
+    "access_and_room": "Ring sits on a narrow garden path in dense planting; no vehicles or tyre tracks, no room to stop a van.",
+    "traffic": "Visitor car park about 97 m north; little road traffic at the ring.",
+    "convention": "No sign anyone parks or stays; botanic gardens are likely closed overnight."
+  },
+  "flags": [
+    "Steep: mean 10.3%, max 27% grade",
+    "Mapped gates nearby (109 m, 173 m, 186 m), not on only access",
+    "Likely managed and patrolled garden"
+  ],
+  "sun_shade": "Dense tree canopy over and around the path.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Garden opening hours",
+    "Whether the mapped car park 97 m away allows overnight stays"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 10.3,
+    "min_elevation_m": 32.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

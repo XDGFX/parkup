@@ -1,0 +1,61 @@
+{
+  "candidate": "bcc-trail-2062",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Pin is in dense garden bush; nearest van spot is the gardens car park west.",
+  "reasons": [
+    "Pin itself has no track or vehicles",
+    "Gardens car park 83 m away, no homes",
+    "Cafe and staffed grounds, busy by day"
+  ],
+  "drivers": {
+    "seclusion": "No dwellings nearby; surrounded by garden bush, but cafe and visitor car park are close.",
+    "access_and_room": "Pin is in thick bush with no track. Sealed car park aisles off the access road have bays for a van.",
+    "traffic": "Mt Coot-tha Road passes to the north with buses and cars; car park busy by day.",
+    "convention": "Many cars parked there by day; overnight use inside the botanic gardens is unknown."
+  },
+  "flags": [
+    "Pin lands in bush; place judged is the car park about 83 m away",
+    "Slope at pin about 5% mean, 14.6% max in bush",
+    "Possible overnight closure or signs not visible from above",
+    "Pond and creek nearby, ground about 25 m elevation"
+  ],
+  "sun_shade": "Car park edge is mostly open with tree shade from the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Gardens opening hours and overnight rules",
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Sealed gardens car park beside the cafe, west of the pin",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.978548,
+        -27.475215
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 5.2,
+    "min_elevation_m": 25.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

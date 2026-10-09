@@ -1,0 +1,60 @@
+{
+  "candidate": "bcc-trail-4974",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Large bush-ringed Botanic Gardens car park, no homes nearby, busy with day visitors.",
+  "reasons": [
+    "Car park backs onto bush",
+    "No dwellings within 60 m",
+    "Many cars park there"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by bush and road; nearest building is a studio 68 m away, no homes.",
+    "access_and_room": "Open asphalt car park with marked bays off the road; no gate across it in imagery.",
+    "traffic": "Arterial-style road alongside; car park is set back from the lane.",
+    "convention": "Public car park full of day visitors; an overnight van would blend in."
+  },
+  "flags": [
+    "Steep at the pin: about 7.6% mean grade",
+    "Noise from the road",
+    "Gates mapped nearby; car park may close at night"
+  ],
+  "sun_shade": "Mostly open asphalt with bush shade along the east and south edges.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Opening hours or night closure",
+    "Car park slope (DEM only covers the pin)",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Bush-edged car park just north of the access road, 40 m from the pin",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.977109,
+        -27.474611
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 7.6,
+    "min_elevation_m": 28.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,96 @@
+{
+  "candidate": "osm-way-366060612",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Large sealed commuter car park by the arterial, no homes, many cars.",
+  "reasons": [
+    "No dwellings; industrial and road around",
+    "Large sealed car park, cars blend in",
+    "Van stands clear of traffic lanes"
+  ],
+  "drivers": {
+    "seclusion": "Bordered by arterial roads, a bus depot and tree belts; no homes mapped or visible.",
+    "access_and_room": "Open sealed car park with many bays and several entrances; plenty of room.",
+    "traffic": "Arterial and roundabout alongside, so noisy, but the van stands clear of the lanes.",
+    "convention": "Commuter-style car park with dozens of cars by day and a few left in the newer imagery."
+  },
+  "flags": [
+    "Noise from the arterial and the roundabout",
+    "Cyan signs on the car park edge: check the posted rules on site",
+    "Bus depot opposite may run early and late"
+  ],
+  "sun_shade": "Tree belt shades the south and east edge; open to the north and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs inside the car park",
+    "Street lighting and patrols",
+    "Time limits on bays"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 225,
+    "to_m": 265,
+    "where": "Eastern end of the large car park, along the tree belt by the roundabout",
+    "slope_pct": 1.3,
+    "points": [
+      [
+        152.984694,
+        -27.478725
+      ],
+      [
+        152.984704,
+        -27.47868
+      ],
+      [
+        152.984705,
+        -27.478665
+      ],
+      [
+        152.984701,
+        -27.478647
+      ],
+      [
+        152.984689,
+        -27.478618
+      ],
+      [
+        152.984666,
+        -27.478571
+      ],
+      [
+        152.984619,
+        -27.478515
+      ],
+      [
+        152.984552,
+        -27.47849
+      ],
+      [
+        152.984502,
+        -27.478481
+      ],
+      [
+        152.984481,
+        -27.478478
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 14.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

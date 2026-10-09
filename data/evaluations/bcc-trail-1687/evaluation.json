@@ -1,0 +1,61 @@
+{
+  "candidate": "bcc-trail-1687",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Busy sealed Botanic Gardens visitor car park by the cafe; no homes, but staffed.",
+  "reasons": [
+    "Pin sits on cafe building",
+    "Nearest van space is visitor car park",
+    "Busy attraction, staff and visitors nearby"
+  ],
+  "drivers": {
+    "seclusion": "No dwellings within 90 m, but surrounded by cafe, planetarium and information centre; not hidden.",
+    "access_and_room": "Sealed car park with road access and marked bays; the pin itself is on the cafe and lawn, which a van cannot reach.",
+    "traffic": "Busy by day with many cars; likely quiet overnight.",
+    "convention": "No campers seen; a managed gardens car park, so overnight stays are doubtful."
+  },
+  "flags": [
+    "Pin is off: on the cafe, not a parking place",
+    "Slope at the car park not measured; ground near the pin 7.7% mean, 24% max",
+    "Mapped gates nearby (57 m to 288 m), not on only access",
+    "Likely managed, closed or patrolled overnight"
+  ],
+  "sun_shade": "Open sealed car park with scattered trees; mostly sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Car park opening hours and time limits",
+    "Overnight patrols",
+    "Slope in the car park itself"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Sealed visitor car park about 40 m west of the pin, beside the planetarium",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.978007,
+        -27.475817
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 7.7,
+    "min_elevation_m": 28,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

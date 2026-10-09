@@ -4,40 +4,44 @@
   "agent_verdict": "good",
   "rule_outs": [],
   "kind": "parking area",
-  "summary": "Large Summit car park at Mount Coot-tha, bush behind, no homes nearby.",
+  "summary": "Summit restaurant car park on bush ridge, no homes, cars parked all day.",
   "reasons": [
-    "No dwellings nearby",
-    "Open asphalt car park, bush around",
-    "Plenty of room off the road"
+    "Backs onto bush, no dwellings",
+    "Busy car park hides a van",
+    "Mostly flat along west edge"
   ],
   "drivers": {
-    "seclusion": "Surrounded by bush and the restaurant; no homes within sight.",
-    "access_and_room": "Sealed car park off the Summit road, many bays, vans can pull fully off.",
-    "traffic": "Visitor traffic by day to the restaurant and lookout; road noise is distant.",
-    "convention": "Many cars parked in the QLD image; one sign here is for motorcycle bays only."
+    "seclusion": "Bush on the west and east; only restaurant and cafe buildings nearby, no dwellings.",
+    "access_and_room": "Open asphalt car park with a sealed road in and many marked bays.",
+    "traffic": "Main Coot-tha road passes on the east; the bays sit well off the lane.",
+    "convention": "Full of cars in both images, so a van is unremarkable; overnight use unproven."
   },
   "flags": [
-    "Tourist car park, likely busy until closing",
-    "Perimeter grade reads steep (22% max), but bays look level",
-    "Sign is motorcycle bays only"
+    "Restaurant staff and evening diners may notice a van",
+    "Steep elsewhere on the outline: 10.6% mean grade overall",
+    "Motorbike-only signs nearby on Sir Samuel Griffith Drive"
   ],
-  "sun_shade": "Mostly open asphalt; tree shade along the west and north edges, so morning shade on the west side.",
+  "sun_shade": "Open to sun; trees shade the north and east edges in the morning.",
   "rubbish": "none seen",
   "cannot_judge": [
-    "Overnight rules or gate closing times",
-    "Patrols",
-    "Street lighting"
+    "Night closure or patrols",
+    "Lighting",
+    "Signs on site"
   ],
   "confidence": "medium",
   "best_section": {
-    "from_m": 20,
-    "to_m": 50,
-    "where": "Western end of the Summit car park, near the restaurant side",
-    "slope_pct": 1,
+    "from_m": 15,
+    "to_m": 45,
+    "where": "West edge of the car park, bush on the left, restaurant just south",
+    "slope_pct": 1.5,
     "points": [
       [
-        152.959397,
-        -27.484406
+        152.959391,
+        -27.484374
+      ],
+      [
+        152.959377,
+        -27.484382
       ],
       [
         152.95941,
@@ -68,20 +72,16 @@
         -27.484528
       ],
       [
-        152.959585,
-        -27.484572
-      ],
-      [
-        152.959587,
-        -27.484565
+        152.95955,
+        -27.484551
       ]
     ]
   },
   "facts": {
     "nearest_dwelling_m": null,
     "gated": false,
-    "slope_pct": 5.1,
-    "min_elevation_m": 217.8,
+    "slope_pct": 5.6,
+    "min_elevation_m": 217.7,
     "low_lying": false
   },
   "imagery": {
@@ -90,7 +90,7 @@
     ],
     "qld": "2022-07"
   },
-  "evaluated_at": "2026-10-09T09:47:30Z",
+  "evaluated_at": "2026-10-09T11:01:45Z",
   "model": "claude-sonnet-5-5",
-  "rubric": "v10"
+  "rubric": "v11"
 }

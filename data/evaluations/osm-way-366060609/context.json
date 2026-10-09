@@ -1,0 +1,212 @@
+{
+  "id": "osm-way-366060609",
+  "street": "Car park off Dampier Street",
+  "suburb": "",
+  "line": [
+    [
+      152.981584,
+      -27.479164
+    ],
+    [
+      152.981701,
+      -27.479297
+    ],
+    [
+      152.981754,
+      -27.479259
+    ],
+    [
+      152.98164,
+      -27.479126
+    ],
+    [
+      152.981584,
+      -27.479164
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "parking-area",
+  "kind": "outline",
+  "length_m": 51,
+  "signs": [
+    {
+      "street": "ROAD",
+      "restriction": "4P Parallel",
+      "days_times": "MON-FRI:7 AM-4 PM",
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 4.7
+    },
+    {
+      "street": "ROAD",
+      "restriction": "4P Parallel",
+      "days_times": "MON-FRI:7 AM-4 PM",
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 7.8
+    }
+  ],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9834561,
+      "lat": -27.4781322,
+      "metres": 209,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9802917,
+      "lat": -27.4773381,
+      "metres": 239,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.981584,
+        "lat": -27.479164,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 21.03
+      },
+      {
+        "lon": 152.981615,
+        "lat": -27.479199,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 20.91
+      },
+      {
+        "lon": 152.981646,
+        "lat": -27.479235,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 20.78
+      },
+      {
+        "lon": 152.981678,
+        "lat": -27.47927,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 20.72
+      },
+      {
+        "lon": 152.981711,
+        "lat": -27.47929,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 20.53
+      },
+      {
+        "lon": 152.98175,
+        "lat": -27.479262,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 20.23
+      },
+      {
+        "lon": 152.981726,
+        "lat": -27.479227,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 20.42
+      },
+      {
+        "lon": 152.981696,
+        "lat": -27.479191,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 20.5
+      },
+      {
+        "lon": 152.981665,
+        "lat": -27.479155,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 20.55
+      },
+      {
+        "lon": 152.981632,
+        "lat": -27.479131,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 20.63
+      },
+      {
+        "lon": 152.981592,
+        "lat": -27.479158,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 20.95
+      },
+      {
+        "lon": 152.981584,
+        "lat": -27.479164,
+        "at_m": 51,
+        "line": 0,
+        "elevation_m": 21.03
+      }
+    ],
+    "min_elevation_m": 20.2,
+    "max_elevation_m": 21,
+    "mean_grade_pct": 3.5,
+    "max_grade_pct": 8
+  },
+  "waterway": {
+    "name": null,
+    "metres": 162
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 0,
+      "access": "yes",
+      "fee": "no",
+      "surface": "asphalt"
+    },
+    {
+      "name": null,
+      "metres": 98,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 51,
+      "length_m": 51,
+      "images": {
+        "esri": ".cache/imagery/osm-way-366060609/chunk1-esri.jpg",
+        "qld": ".cache/imagery/osm-way-366060609/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        77,
+        79
+      ],
+      "image_px": [
+        512,
+        527
+      ]
+    }
+  ]
+}

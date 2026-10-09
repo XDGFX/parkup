@@ -1,0 +1,61 @@
+{
+  "candidate": "bcc-trail-6946",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Planetarium car park east of the pin, among gardens buildings, no homes.",
+  "reasons": [
+    "Public car park, no dwellings near",
+    "Cars already park there",
+    "Pin itself is a pedestrian forecourt"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by gardens and institutional buildings; no homes in view, but it is the visitor hub.",
+    "access_and_room": "Sealed car park with marked bays and a road in; red-paved forecourt at the pin has no vehicles.",
+    "traffic": "Visitor traffic by day; park road is quiet at night.",
+    "convention": "Full of parked cars by day; overnight stays unproven."
+  },
+  "flags": [
+    "Planetarium, auditorium and herbarium nearby: staff or events may be present",
+    "Pin sits on a paved forecourt with no vehicles, not usable",
+    "Slope is DEM at the pin (4.6%); car park not sampled"
+  ],
+  "sun_shade": "Open asphalt, sun all day; scattered trees on the edges.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Night closure or security patrols",
+    "Car park slope",
+    "Lighting",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Asphalt planetarium car park at the top right, about 70 m east-north-east of the pin",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.976569,
+        -27.476172
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 41.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

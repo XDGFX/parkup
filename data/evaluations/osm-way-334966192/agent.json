@@ -1,0 +1,23 @@
+{
+  "verdict": "maybe",
+  "kind": "parking area",
+  "summary": "Small tree-shaded gravel car park by Girl Guides hall; signs mention loading zones.",
+  "reasons": ["Homes 40 m+ from west side", "Small, near school and hall", "Loading and no-parking signs around"],
+  "best_section": {
+    "from_m": 95,
+    "to_m": 125,
+    "where": "West side of the small gravel car park, beside the Girl Guides hall",
+    "slope_pct": 3.0
+  },
+  "drivers": {
+    "seclusion": "Trees and park around the west side; nearest mapped home 40 m or more away, but one house sits 5 m from the north-east corner.",
+    "access_and_room": "Gravel car park opens straight off the road bend; room for a van, with one car seen at the south end.",
+    "traffic": "Beside a roundabout and a school loading zone; busy at drop-off and pick-up times.",
+    "convention": "No campers seen; cyan signs show loading zones, no parking and no stopping nearby."
+  },
+  "flags": ["Steep: about 3% falling to the south-west", "Loading zone and no-parking signs near the car park mouth", "School and Girl Guides use may bring people early or late"],
+  "sun_shade": "Heavy tree shade over most of the car park, open sky to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether the signs apply inside the car park", "Street lighting", "Night-time use by the school or guides"],
+  "confidence": "low"
+}

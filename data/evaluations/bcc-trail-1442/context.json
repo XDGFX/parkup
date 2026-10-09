@@ -1,0 +1,324 @@
+{
+  "id": "bcc-trail-1442",
+  "street": "Brisbane Botanic Gardens Mt Coot-Tha access road",
+  "suburb": "",
+  "line": [
+    [
+      152.975407,
+      -27.477538
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "off-road",
+  "kind": "point",
+  "length_m": 0,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": "Band Shell",
+      "dwelling": false,
+      "metres": 44,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9759537,
+          -27.4773352
+        ],
+        [
+          152.9760147,
+          -27.4773529
+        ],
+        [
+          152.9760067,
+          -27.4775032
+        ],
+        [
+          152.9758347,
+          -27.4774312
+        ],
+        [
+          152.9759537,
+          -27.4773352
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 83,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9762836,
+          -27.4773178
+        ],
+        [
+          152.9763936,
+          -27.4774015
+        ],
+        [
+          152.9763366,
+          -27.4774606
+        ],
+        [
+          152.9762266,
+          -27.4773768
+        ],
+        [
+          152.9762836,
+          -27.4773178
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": "Bonsai House",
+      "dwelling": false,
+      "metres": 99,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9763939,
+          -27.4772932
+        ],
+        [
+          152.9764394,
+          -27.4772958
+        ],
+        [
+          152.9765262,
+          -27.4772954
+        ],
+        [
+          152.9765233,
+          -27.4774315
+        ],
+        [
+          152.9764442,
+          -27.4774302
+        ],
+        [
+          152.9764454,
+          -27.4773751
+        ],
+        [
+          152.9763922,
+          -27.4773742
+        ],
+        [
+          152.9763939,
+          -27.4772932
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9769479,
+      "lat": -27.4782335,
+      "metres": 171,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9775481,
+      "lat": -27.4761333,
+      "metres": 263,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9760721,
+      "lat": -27.4751035,
+      "metres": 279,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.975204,
+        "lat": -27.477538,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 40.78
+      },
+      {
+        "lon": 152.975255,
+        "lat": -27.477538,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 40.69
+      },
+      {
+        "lon": 152.975306,
+        "lat": -27.477538,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 39.97
+      },
+      {
+        "lon": 152.975356,
+        "lat": -27.477538,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 39.31
+      },
+      {
+        "lon": 152.975407,
+        "lat": -27.477538,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 39.22
+      },
+      {
+        "lon": 152.975458,
+        "lat": -27.477538,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 39.39
+      },
+      {
+        "lon": 152.975508,
+        "lat": -27.477538,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 39.45
+      },
+      {
+        "lon": 152.975559,
+        "lat": -27.477538,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 39.18
+      },
+      {
+        "lon": 152.97561,
+        "lat": -27.477538,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 39.24
+      },
+      {
+        "lon": 152.975407,
+        "lat": -27.477718,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 43.36
+      },
+      {
+        "lon": 152.975407,
+        "lat": -27.477673,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 42.5
+      },
+      {
+        "lon": 152.975407,
+        "lat": -27.477628,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 41.55
+      },
+      {
+        "lon": 152.975407,
+        "lat": -27.477583,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 40.52
+      },
+      {
+        "lon": 152.975407,
+        "lat": -27.477538,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 39.22
+      },
+      {
+        "lon": 152.975407,
+        "lat": -27.477493,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 38.43
+      },
+      {
+        "lon": 152.975407,
+        "lat": -27.477448,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 37.51
+      },
+      {
+        "lon": 152.975407,
+        "lat": -27.477403,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 36.53
+      },
+      {
+        "lon": 152.975407,
+        "lat": -27.477358,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 35.76
+      }
+    ],
+    "min_elevation_m": 35.8,
+    "max_elevation_m": 43.4,
+    "mean_grade_pct": 12.2,
+    "max_grade_pct": 26
+  },
+  "waterway": {
+    "name": null,
+    "metres": 34
+  },
+  "mapped_parking": [],
+  "mapped_ways": [
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 51
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/bcc-trail-1442/chunk1-esri.jpg",
+        "qld": ".cache/imagery/bcc-trail-1442/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

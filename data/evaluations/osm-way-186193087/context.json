@@ -93,8 +93,8 @@
     ]
   ],
   "osm_tags": {},
-  "kind": "outline",
   "candidate_kind": "parking-area",
+  "kind": "outline",
   "length_m": 130,
   "signs": [
     {

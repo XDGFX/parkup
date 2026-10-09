@@ -1,0 +1,60 @@
+{
+  "candidate": "bcc-trail-1443",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Pin is in bush by the garden road; a small sealed dead-end pad lies nearby.",
+  "reasons": [
+    "Pin in bush, no track",
+    "Sealed dead-end pad about 40 m south-east",
+    "No buildings within 100 m"
+  ],
+  "drivers": {
+    "seclusion": "No buildings or homes within 100 m; pad is ringed by trees and garden, though it is on a visitor road.",
+    "access_and_room": "Pin is under canopy with no track; the sealed pad off the 20 km/h garden road is wide enough for a van to pull fully off, with an arch footbridge at its far end.",
+    "traffic": "Light garden-road traffic by day; quiet at night.",
+    "convention": "No vehicles or campers seen on the pad; it may be a bus or service bay."
+  },
+  "flags": [
+    "Steep at the pin: about 15.7% mean; pad itself not sampled",
+    "Mapped gate 274 m away has a way round",
+    "Botanic gardens, overnight rules unknown"
+  ],
+  "sun_shade": "Pad is open to sun, with trees shading its north and west edges.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Pad slope",
+    "Whether the pad is a bus or service bay",
+    "Overnight rules and gate closing times"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Sealed dead-end pad off the garden road junction, about 40 m south-east of the pin",
+    "slope_pct": 15.7,
+    "points": [
+      [
+        152.974184,
+        -27.477972
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 15.7,
+    "min_elevation_m": 55.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

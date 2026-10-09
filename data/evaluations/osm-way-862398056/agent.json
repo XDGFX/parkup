@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Sealed rowing-club car park by the river, trees on the east edge, no homes.",
+  "reasons": ["No homes nearby", "Backs onto riverside bush", "Open sealed car park, room for a van"],
+  "best_section": {
+    "from_m": 40,
+    "to_m": 65,
+    "where": "East edge of the rowing club car park, beside the river trees",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Riverside bush to the north and east, boat shed to the west; only the water sports centre 5 m from the west end, no dwellings seen.",
+    "access_and_room": "Open entrance off the park road; marked bays with plenty of room.",
+    "traffic": "Quiet dead-end spur off the park road.",
+    "convention": "A few cars and stored rowing boats; clubs use it by day, no campers seen."
+  },
+  "flags": ["Low ground: about 6 m elevation and a waterway 28 m away, flood-prone", "Rowing club may be busy early mornings and weekends", "Locked mapped gate 47 m away has another way round"],
+  "sun_shade": "Tree shade from the east and north in the morning, open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Signs on site", "Street lighting", "Club access at night"],
+  "confidence": "medium"
+}

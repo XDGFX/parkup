@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "parking area",
+  "summary": "Tiny three-bay lay-by on a through road; too small for a van.",
+  "reasons": ["Three short bays, one disabled", "No room for a 7 m van", "Exposed on the road edge"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Open to the road and the park path; a park pavilion and picnic area sit just behind, no homes within 50 m.",
+    "access_and_room": "Bays are about 10 m by 6 m in total with a disabled bay; a van would overhang the lane or the footpath.",
+    "traffic": "Directly on a through road beside a roundabout.",
+    "convention": "Short-stay park parking; cars in the bays by day, no campers seen."
+  },
+  "flags": ["Disabled bay marking in the bays", "Low-ish ground: about 7.6 m, waterway 69 m away"],
+  "sun_shade": "Tree shade from the west and south-west; open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Bay length on the ground", "Signs on site", "Street lighting"],
+  "confidence": "medium"
+}

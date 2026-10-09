@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Large sports-ground car park, south edge against the oval, homes across the road.",
+  "reasons": ["Backs onto sports fields", "Homes over 25 m, across road", "Wide sealed car park"],
+  "best_section": {
+    "from_m": 20,
+    "to_m": 60,
+    "where": "South edge of the sports car park, beside the oval and water tank",
+    "slope_pct": 3
+  },
+  "drivers": {
+    "seclusion": "Playing fields and club buildings to the south; houses sit across Hepworth Street, well over 25 m from this edge.",
+    "access_and_room": "Wide sealed car park with marked bays, open to the street at the west end; plenty of room.",
+    "traffic": "Quiet residential street along the north; bays are off the lane.",
+    "convention": "Cars park there; Saturday 8am-4pm no-parking signs are daytime only."
+  },
+  "flags": ["Saturday 8am-4pm no parking: leave early on Saturdays", "Sloping: 7% mean grade over the whole outline, about 3% on the best section", "Club events and training at weekends and evenings"],
+  "sun_shade": "Open to sun; trees shade the east end and south-west corner, morning shade from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Night closure", "Club gate activity at night"],
+  "confidence": "medium"
+}

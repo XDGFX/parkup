@@ -1,0 +1,68 @@
+{
+  "candidate": "osm-way-298459997",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Landscaped park car park; southern bays back onto trees, no homes nearby.",
+  "reasons": [
+    "Bays back onto planted trees and shrubs",
+    "No dwellings within 50 m",
+    "Level, cars already parked"
+  ],
+  "drivers": {
+    "seclusion": "South row backs onto a planted garden strip and trees; parkland lies to the north. No dwellings mapped or seen; nearest buildings are a small shelter and sports centre, non-residential.",
+    "access_and_room": "Sealed car park with painted bays, entered from the access road. Cars parked, so a vehicle gets in.",
+    "traffic": "Quiet loop road serving the park; the road below is separated by trees.",
+    "convention": "Public car park for a riverside park and sports centre; cars park in the bays."
+  },
+  "flags": [
+    "Accessible Parking Only bays on the north row; avoid them",
+    "Elevation about 8 m, Brisbane River 163 m away",
+    "Locked gates mapped 70 m and 246 m away have a way round"
+  ],
+  "sun_shade": "Tree canopy shades the south and west edges; open to the north and midday sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Overnight restrictions",
+    "Street lighting",
+    "Sports centre night use"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 45,
+    "where": "Southern row of bays, east end, against the garden strip",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        153.005456,
+        -27.524691
+      ],
+      [
+        153.005074,
+        -27.524604
+      ],
+      [
+        153.005065,
+        -27.524598
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 8.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,312 @@
+{
+  "id": "osm-way-24300321",
+  "street": "Car park off Meiers Road",
+  "suburb": "",
+  "line": [
+    [
+      153.007631,
+      -27.51768
+    ],
+    [
+      153.007721,
+      -27.517788
+    ],
+    [
+      153.007541,
+      -27.517917
+    ],
+    [
+      153.007298,
+      -27.517609
+    ],
+    [
+      153.007453,
+      -27.517642
+    ],
+    [
+      153.007631,
+      -27.51768
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "parking-area",
+  "kind": "outline",
+  "length_m": 113,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 55,
+      "at_m": 80,
+      "outline": [
+        [
+          153.0066843,
+          -27.5175196
+        ],
+        [
+          153.0066975,
+          -27.5174741
+        ],
+        [
+          153.0067575,
+          -27.5174878
+        ],
+        [
+          153.0067443,
+          -27.5175332
+        ],
+        [
+          153.0066843,
+          -27.5175196
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.008998,
+      "lat": -27.5185229,
+      "metres": 150,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.007631,
+        "lat": -27.51768,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 7.3
+      },
+      {
+        "lon": 153.007661,
+        "lat": -27.517716,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 7.27
+      },
+      {
+        "lon": 153.007691,
+        "lat": -27.517752,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 7.12
+      },
+      {
+        "lon": 153.00772,
+        "lat": -27.517788,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 6.72
+      },
+      {
+        "lon": 153.007681,
+        "lat": -27.517817,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 6.85
+      },
+      {
+        "lon": 153.007642,
+        "lat": -27.517845,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 6.63
+      },
+      {
+        "lon": 153.007602,
+        "lat": -27.517873,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 6.77
+      },
+      {
+        "lon": 153.007563,
+        "lat": -27.517901,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 6.79
+      },
+      {
+        "lon": 153.007528,
+        "lat": -27.5179,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 6.66
+      },
+      {
+        "lon": 153.007499,
+        "lat": -27.517864,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 6.89
+      },
+      {
+        "lon": 153.00747,
+        "lat": -27.517827,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 7.14
+      },
+      {
+        "lon": 153.007441,
+        "lat": -27.51779,
+        "at_m": 55,
+        "line": 0,
+        "elevation_m": 7.02
+      },
+      {
+        "lon": 153.007412,
+        "lat": -27.517753,
+        "at_m": 60,
+        "line": 0,
+        "elevation_m": 7
+      },
+      {
+        "lon": 153.007383,
+        "lat": -27.517716,
+        "at_m": 65,
+        "line": 0,
+        "elevation_m": 7.04
+      },
+      {
+        "lon": 153.007354,
+        "lat": -27.517679,
+        "at_m": 70,
+        "line": 0,
+        "elevation_m": 7.07
+      },
+      {
+        "lon": 153.007325,
+        "lat": -27.517643,
+        "at_m": 75,
+        "line": 0,
+        "elevation_m": 7.34
+      },
+      {
+        "lon": 153.007302,
+        "lat": -27.51761,
+        "at_m": 80,
+        "line": 0,
+        "elevation_m": 7.61
+      },
+      {
+        "lon": 153.007352,
+        "lat": -27.51762,
+        "at_m": 85,
+        "line": 0,
+        "elevation_m": 7.61
+      },
+      {
+        "lon": 153.007401,
+        "lat": -27.517631,
+        "at_m": 90,
+        "line": 0,
+        "elevation_m": 7.44
+      },
+      {
+        "lon": 153.00745,
+        "lat": -27.517641,
+        "at_m": 95,
+        "line": 0,
+        "elevation_m": 7.41
+      },
+      {
+        "lon": 153.0075,
+        "lat": -27.517652,
+        "at_m": 100,
+        "line": 0,
+        "elevation_m": 7.44
+      },
+      {
+        "lon": 153.007549,
+        "lat": -27.517662,
+        "at_m": 105,
+        "line": 0,
+        "elevation_m": 7.33
+      },
+      {
+        "lon": 153.007598,
+        "lat": -27.517673,
+        "at_m": 110,
+        "line": 0,
+        "elevation_m": 7.26
+      },
+      {
+        "lon": 153.007631,
+        "lat": -27.51768,
+        "at_m": 113.3,
+        "line": 0,
+        "elevation_m": 7.3
+      }
+    ],
+    "min_elevation_m": 6.6,
+    "max_elevation_m": 7.6,
+    "mean_grade_pct": 2.5,
+    "max_grade_pct": 8
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 104
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 0,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 8,
+      "access": null,
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 10,
+      "access": null,
+      "fee": null,
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 113,
+      "length_m": 113,
+      "images": {
+        "esri": ".cache/imagery/osm-way-24300321/chunk1-esri.jpg",
+        "qld": ".cache/imagery/osm-way-24300321/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        102,
+        94
+      ],
+      "image_px": [
+        678,
+        628
+      ]
+    }
+  ]
+}

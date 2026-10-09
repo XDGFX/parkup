@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-2266",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is in dense, steep garden bush above a gully; no vehicle access.",
+  "reasons": [
+    "Only footpaths nearby, no vehicle tracks",
+    "Steep: 16% mean, 63% max",
+    "No pull-off or car park within 100 m"
+  ],
+  "drivers": {
+    "seclusion": "Deep in bush, no dwellings, but no way for a van to reach it.",
+    "access_and_room": "Narrow garden footpaths only; the nearest road is 91 m south with no visible pull-off.",
+    "traffic": "Quiet; band shell lawn 64 m east, paths only.",
+    "convention": "No sign of parking or overnight use."
+  },
+  "flags": [
+    "Steep: about 16% mean grade, 63% max at pin",
+    "Waterway 3 m from the pin, low ground about 33 m",
+    "Band shell and lawn are public daytime space"
+  ],
+  "sun_shade": "Full tree canopy over the pin.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Gardens opening hours",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 15.7,
+    "min_elevation_m": 32.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

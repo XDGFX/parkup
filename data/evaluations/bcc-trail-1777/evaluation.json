@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-1777",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Ring is in dense garden bush on a steep slope; no vehicle access.",
+  "reasons": [
+    "Thick planting, no track to ring",
+    "No vehicles or tyre tracks",
+    "Steep, up to 31% grade"
+  ],
+  "drivers": {
+    "seclusion": "Secluded in dense Botanic Gardens bush, but it is inside a managed public garden.",
+    "access_and_room": "Only narrow garden paths nearby; no vehicles or tyre tracks, no clearing a van could reach. Nearest road is 48 m away.",
+    "traffic": "Quiet at the ring; garden visitors on paths north and east.",
+    "convention": "No sign anyone parks or stays; gardens are likely closed overnight."
+  },
+  "flags": [
+    "Steep: mean 10.3%, max 31% grade",
+    "Mapped gates nearby (158 m to 223 m), not on only access",
+    "Likely managed and patrolled garden"
+  ],
+  "sun_shade": "Dense tree canopy over the whole area.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Garden opening hours",
+    "Whether the road 48 m away has any usable verge"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 10.3,
+    "min_elevation_m": 36.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:01:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
