@@ -1,0 +1,68 @@
+{
+  "candidate": "251813455-251813521-1297867018-l-22",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parked-up street among apartment blocks; flats 13-14 m away on this side.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Apartments 13-14 m from section",
+    "Homes all round within 25 m"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 13-14 m away on the south side and a large tower across the road; no real privacy.",
+    "access_and_room": "Kerbside lane where cars are parked in the imagery; room for a van to stop at the kerb.",
+    "traffic": "Quiet residential street, dead-end feel at the river end.",
+    "convention": "Residents park along the kerb, so a van is less conspicuous, but nobody visibly stays overnight."
+  },
+  "flags": [
+    "Apartments 13-14 m on the section's own side",
+    "Low-lying: min elevation 3.2 m, Brisbane River 207 m away",
+    "Dense apartment area, many residents to notice"
+  ],
+  "sun_shade": "Mixed: tall blocks cast heavy shade in the morning and afternoon, trees overhang the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Parking restrictions on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 50,
+    "to_m": 80,
+    "where": "Middle of Sandford Street, between the two apartment blocks",
+    "slope_pct": 2.9,
+    "points": [
+      [
+        152.996556,
+        -27.492449
+      ],
+      [
+        152.996425,
+        -27.492354
+      ],
+      [
+        152.996319,
+        -27.49228
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 3.4,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

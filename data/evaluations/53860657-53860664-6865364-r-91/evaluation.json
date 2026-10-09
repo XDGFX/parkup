@@ -1,0 +1,68 @@
+{
+  "candidate": "53860657-53860664-6865364-r-91",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short flat kerb on a parked-up residential street; house 13 m away.",
+  "reasons": [
+    "Detached house 13 m, same side",
+    "Cars park along this street",
+    "Flat, about 1% grade"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 13 m on the same side, kindergarten 11 m; apartments 22 m or more across the road.",
+    "access_and_room": "Sealed street with parking lane; only 12 m of kerb, so room for one van at most.",
+    "traffic": "Quiet residential street, modest local traffic.",
+    "convention": "Cars park here, but No Stopping, No Parking and 1/4P signs sit right at this stretch."
+  },
+  "flags": [
+    "Mixed No Stopping and short-stay signs close by",
+    "Only 12 m long",
+    "Homes within about 25 m all round"
+  ],
+  "sun_shade": "Street trees on the east side shade the morning; west kerb open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Which signs apply at the exact spot"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 2,
+    "to_m": 11,
+    "where": "West kerb of York Street, level with the kindergarten, beside a parked car",
+    "slope_pct": 0.6,
+    "points": [
+      [
+        152.977246,
+        -27.496277
+      ],
+      [
+        152.97722,
+        -27.49634
+      ],
+      [
+        152.977215,
+        -27.496353
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 0,
+    "min_elevation_m": 30.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

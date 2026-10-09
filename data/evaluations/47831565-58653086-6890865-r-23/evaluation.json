@@ -1,0 +1,51 @@
+{
+  "candidate": "47831565-58653086-6890865-r-23",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Ten-metre kerb at a junction corner, steep, with a home 10 m away.",
+  "reasons": [
+    "Only 10 m, at junction corner",
+    "Home 10 m away, same side",
+    "Steep: 9.2% mean, 15.2% max"
+  ],
+  "drivers": {
+    "seclusion": "Residential block 10 m from the kerb, directly behind the verge; more homes within 25 m.",
+    "access_and_room": "Ten-metre kerb ending at the junction; shorter than a van and too close to the corner to stop.",
+    "traffic": "Corner of Waverley Road with a stop-controlled cross street.",
+    "convention": "One car parked on the kerb, but no room for a van beyond it."
+  },
+  "flags": [
+    "Steep: about 9.2% mean, 15.2% max grade",
+    "Dwelling within 10 m",
+    "Junction corner"
+  ],
+  "sun_shade": "Mostly open; a small tree and house shade from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 13.8,
+    "min_elevation_m": 41.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

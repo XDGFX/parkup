@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Short stretch in dense trees at a junction; nowhere to stop.",
+  "reasons": ["Line runs through tree-covered ground", "No visible road surface to pull onto", "Houses 11-13 m away"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Detached houses 11 m and 13 m away on both sides.",
+    "access_and_room": "Line sits under canopy beside the junction, not on a visible lane; no clear stopping room.",
+    "traffic": "Corner of a through street with parked cars on the main road.",
+    "convention": "Cars park on the main road to the east, not here."
+  },
+  "flags": ["Steep: about 6% grade, max 11.6%", "Dwellings within 11-16 m"],
+  "sun_shade": "Heavy tree shade over the whole stretch.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether the lane under the canopy is drivable"],
+  "confidence": "medium"
+}

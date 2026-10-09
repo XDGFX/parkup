@@ -1,0 +1,46 @@
+{
+  "candidate": "60666439-3493107715-8111763-r-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short stretch in dense trees at a junction; nowhere to stop.",
+  "reasons": [
+    "Line runs through tree-covered ground",
+    "No visible road surface to pull onto",
+    "Houses 11-13 m away"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 11 m and 13 m away on both sides.",
+    "access_and_room": "Line sits under canopy beside the junction, not on a visible lane; no clear stopping room.",
+    "traffic": "Corner of a through street with parked cars on the main road.",
+    "convention": "Cars park on the main road to the east, not here."
+  },
+  "flags": [
+    "Steep: about 6% grade, max 11.6%",
+    "Dwellings within 11-16 m"
+  ],
+  "sun_shade": "Heavy tree shade over the whole stretch.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the lane under the canopy is drivable"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 6.1,
+    "min_elevation_m": 27.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,63 @@
+{
+  "candidate": "60666439-3493107715-8111763-l-60",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parked-up street with apartments and houses 11-18 m away; steep.",
+  "reasons": [
+    "Cars park along kerb",
+    "Dwellings 11-18 m away",
+    "Steep, about 7%"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 17-18 m north, houses 11-13 m behind; bush on south side.",
+    "access_and_room": "Cars already parked along this kerb, so room to stop.",
+    "traffic": "Quiet short residential street.",
+    "convention": "Several cars parked here; 4P Mon-Fri 8am-5pm sign."
+  },
+  "flags": [
+    "Steep: about 7% grade, max 11.5%",
+    "Many dwellings close by",
+    "4P limit weekdays 8am-5pm"
+  ],
+  "sun_shade": "Tree canopy to the south and west; tall buildings shade north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 22,
+    "to_m": 40,
+    "where": "Priory Street south kerb, between the two parked-car clusters",
+    "slope_pct": 7.7,
+    "points": [
+      [
+        152.971871,
+        -27.503017
+      ],
+      [
+        152.971692,
+        -27.502989
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 7.7,
+    "min_elevation_m": 23.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

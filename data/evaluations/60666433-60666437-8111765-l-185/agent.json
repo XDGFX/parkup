@@ -1,0 +1,23 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Short residential kerb; houses 14-20 m away on same side.",
+  "reasons": ["Houses 14-20 m on same side", "Wide street, cars park nearby", "Steep, about 7%"],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 13,
+    "where": "Rankin Street north kerb, under the street tree",
+    "slope_pct": 7.5
+  },
+  "drivers": {
+    "seclusion": "Houses 14-20 m behind the kerb; homes across the road.",
+    "access_and_room": "Wide sealed street with room beside the lane.",
+    "traffic": "Residential through street, moderate traffic.",
+    "convention": "Cars park along this street; 2P Mon-Fri 9am-5pm sign."
+  },
+  "flags": ["Steep: about 7.5% grade, max 14.4%", "2P limit weekdays 9am-5pm"],
+  "sun_shade": "Street tree shades the kerb from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Crossfall", "Street lighting"],
+  "confidence": "medium"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "53912628-58736617-1257090248-r-25",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb by a junction; houses 12 m away, cars park just east.",
+  "reasons": [
+    "Dwellings 12 m on same side",
+    "Cars park along nearby kerb",
+    "Short 21 m stretch near junction"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 12 m away at 0 m and 18 m; apartments 15 m at 21 m; hedged front gardens.",
+    "access_and_room": "Wide sealed street; kerb free of cars on this stretch, so room to pull in. Van fits in 21 m.",
+    "traffic": "Collector street next to a busy signalised junction.",
+    "convention": "Cars park along both kerbs just east of here, so a van blends in."
+  },
+  "flags": [
+    "Close to a busy junction; traffic noise",
+    "Homes within 12 m on the section's own side",
+    "Short stretch, only about 21 m"
+  ],
+  "sun_shade": "Partly shaded by garden trees on the south side; open to north sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Distance to the junction's no-stopping zone"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 21,
+    "where": "South kerb of Ward Street, first 20 m east of the corner",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.97804,
+        -27.499593
+      ],
+      [
+        152.978196,
+        -27.499617
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 16.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,23 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Through-road bend at a busy junction, no parking, house 9 m away.",
+  "reasons": ["Main road, no cars parked", "House 9 m from kerb", "Steep: mean 10%"],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "West kerb on the bend of Riverview Terrace before the junction",
+    "slope_pct": 8
+  },
+  "drivers": {
+    "seclusion": "Residential building 9 m from the kerb, more homes behind it.",
+    "access_and_room": "Narrow carriageway on a bend; no pull-off, no parked cars.",
+    "traffic": "Busy through route into a signalled junction with a bus lane.",
+    "convention": "No cars parked on this kerb; No Stopping Any Time signs all round."
+  },
+  "flags": ["Steep: about 8-10% grade", "Dwelling within 10 m", "Junction noise"],
+  "sun_shade": "Heavy tree cover on the west side shades the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Crossfall", "Street lighting"],
+  "confidence": "high"
+}

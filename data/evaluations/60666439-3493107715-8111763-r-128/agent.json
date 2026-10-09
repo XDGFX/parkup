@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Line runs into dense bush past the street end; no road or room.",
+  "reasons": ["Runs through thick bush, no surface", "No tyre tracks or parked vehicles", "Apartments 8 m from start"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Bush on the west side, but Vogue apartments are 8 m from the start.",
+    "access_and_room": "Beyond the end of the sealed street; canopy and no visible track a van could use.",
+    "traffic": "Quiet dead end, busier road about 50 m north-west.",
+    "convention": "No parking seen here."
+  },
+  "flags": ["Steep: about 6% mean, max 14.6%", "Overhead powerlines nearby"],
+  "sun_shade": "Heavy tree canopy over the whole line.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether a rough track exists under the canopy"],
+  "confidence": "medium"
+}

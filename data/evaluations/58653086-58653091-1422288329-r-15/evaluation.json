@@ -1,0 +1,65 @@
+{
+  "candidate": "58653086-58653091-1422288329-r-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet street kerb with some cars parked, but steep and flats within 10-25 m.",
+  "reasons": [
+    "A few cars parked along this kerb",
+    "Flats and houses within about 25 m",
+    "Steep, about 8% grade"
+  ],
+  "drivers": {
+    "seclusion": "Tree cover on the verge, but apartments and houses sit 15-25 m back and others face it across the road.",
+    "access_and_room": "Narrow sealed street; parked cars in the lane show vehicles stop here, but no wide verge on this side.",
+    "traffic": "Quiet side street between two junctions.",
+    "convention": "A few cars park here; no strong convention."
+  },
+  "flags": [
+    "Steep: mean 8.3%, max 11.6%",
+    "Dwellings 10-25 m away",
+    "Mapped gate 289 m away has a way round; ignore"
+  ],
+  "sun_shade": "Shaded by dense trees along the east kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height",
+    "On-site signs"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 22,
+    "to_m": 40,
+    "where": "East kerb under the trees, between the two apartment blocks",
+    "slope_pct": 8,
+    "points": [
+      [
+        152.973795,
+        -27.493116
+      ],
+      [
+        152.973825,
+        -27.492956
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 9.9,
+    "min_elevation_m": 37.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

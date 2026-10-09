@@ -1,0 +1,64 @@
+{
+  "candidate": "21616876-58791897-7925104-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parked-up residential kerb, nearest homes about 24 m away, mild slope.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Homes about 24 m away, flats all round",
+    "Slope about 4.5% at best section"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwelling 24 m (at 50 m); police station about 22-28 m; flats and houses both sides.",
+    "access_and_room": "Sealed street with cars parked on both kerbs; room to pull in.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Many cars parked along both kerbs, so a van blends in."
+  },
+  "flags": [
+    "Steep: about 4.5% at the best section, 3.4% mean over the stretch",
+    "Dense flats and houses around",
+    "Police station nearby"
+  ],
+  "sun_shade": "Heavily shaded by tree canopy on the south side and from the north building.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Residents' attitude to overnight parking"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 60,
+    "where": "South kerb of Vincent Street beside the small car park and trees",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        152.971534,
+        -27.496785
+      ],
+      [
+        152.971831,
+        -27.496725
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 4.8,
+    "min_elevation_m": 27.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

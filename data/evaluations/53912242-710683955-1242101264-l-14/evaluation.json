@@ -1,0 +1,64 @@
+{
+  "candidate": "53912242-710683955-1242101264-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside townhouses near a junction; homes 14-17 m away.",
+  "reasons": [
+    "Townhouses 14-17 m on this side",
+    "Cars already park here",
+    "Only 25 m long"
+  ],
+  "drivers": {
+    "seclusion": "Townhouse complex 14-17 m from the kerb, more homes across the road.",
+    "access_and_room": "Sealed street, cars park along this kerb; room for a van just past the junction.",
+    "traffic": "Quiet residential street; corner is open to traffic from the side street.",
+    "convention": "Cars park here, but no sign of overnight stays."
+  },
+  "flags": [
+    "Steep at the east end: max 16%",
+    "Close to junction",
+    "Homes close all round"
+  ],
+  "sun_shade": "Open to sun; townhouse shades the kerb in the morning from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking restrictions near junction"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 4,
+    "to_m": 14,
+    "where": "North kerb of Rennie Street just east of the side-street junction",
+    "slope_pct": 4,
+    "points": [
+      [
+        152.980113,
+        -27.497074
+      ],
+      [
+        152.980213,
+        -27.49709
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 38.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

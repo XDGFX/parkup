@@ -1,0 +1,23 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Short south kerb with a house 9 m from the best spot.",
+  "reasons": ["House 9 m from kerb", "More homes 22-25 m", "Only 25 m long"],
+  "best_section": {
+    "from_m": 4,
+    "to_m": 14,
+    "where": "South kerb of Rennie Street just east of the side-street junction",
+    "slope_pct": 3
+  },
+  "drivers": {
+    "seclusion": "Detached house with pool 9 m from the kerb, others 22-26 m.",
+    "access_and_room": "Sealed street, a van could stop at the kerb.",
+    "traffic": "Quiet residential street near a junction.",
+    "convention": "No sign of overnight stays."
+  },
+  "flags": ["Dwelling within 10 m", "Steep at east end: max 50% on DEM", "Close to junction"],
+  "sun_shade": "Street trees shade the kerb from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Crossfall", "Street lighting"],
+  "confidence": "medium"
+}

@@ -1,0 +1,48 @@
+{
+  "candidate": "60666439-3493107715-8111763-r-128",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Line runs into dense bush past the street end; no road or room.",
+  "reasons": [
+    "Runs through thick bush, no surface",
+    "No tyre tracks or parked vehicles",
+    "Apartments 8 m from start"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the west side, but Vogue apartments are 8 m from the start.",
+    "access_and_room": "Beyond the end of the sealed street; canopy and no visible track a van could use.",
+    "traffic": "Quiet dead end, busier road about 50 m north-west.",
+    "convention": "No parking seen here."
+  },
+  "flags": [
+    "Steep: about 6% mean, max 14.6%",
+    "Overhead powerlines nearby"
+  ],
+  "sun_shade": "Heavy tree canopy over the whole line.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether a rough track exists under the canopy"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 6.3,
+    "min_elevation_m": 21.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

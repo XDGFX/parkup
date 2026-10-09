@@ -1,0 +1,51 @@
+{
+  "candidate": "58815429-58815855-1054336260-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 4 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Busy main road, no kerbside parking, houses 4-18 m from kerb.",
+  "reasons": [
+    "Main road, no cars parked at kerb",
+    "Houses and flats 4-18 m away",
+    "Steep: about 6% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 4 m, 6 m, 13 m, 17 m and 18 m from the kerb along its length.",
+    "access_and_room": "Narrow kerb beside a multi-lane road with no verge or bay; no room to pull out of the lane.",
+    "traffic": "Sir Fred Schonell Drive is a busy bus route and through road.",
+    "convention": "No parked cars along this kerb and no marked parking lane."
+  },
+  "flags": [
+    "Dwellings within 10 m at 61 m and 88 m",
+    "Steep: 5.9% mean, 13.8% max",
+    "Noise: busy arterial and bus route"
+  ],
+  "sun_shade": "Trees shade the kerb in patches; open to the sun in between.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site (none mapped)"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 4,
+    "gated": false,
+    "slope_pct": 5.9,
+    "min_elevation_m": 7.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

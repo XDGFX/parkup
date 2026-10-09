@@ -1,0 +1,65 @@
+{
+  "candidate": "60666439-3493107715-8111763-r-34",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short residential street where cars park; apartments and houses 19-27 m away.",
+  "reasons": [
+    "Cars park along this street",
+    "Dwellings 19-27 m away",
+    "Steep, about 6%"
+  ],
+  "drivers": {
+    "seclusion": "Apartments and houses 19-27 m away; trees and apartments surround.",
+    "access_and_room": "Sealed street with parked cars along the kerb; room to stop.",
+    "traffic": "Short quiet street serving apartments.",
+    "convention": "Several cars parked; 4P Mon-Fri 8am-5pm sign."
+  },
+  "flags": [
+    "Steep: about 6.5% here, max 17% elsewhere",
+    "4P limit weekdays 8am-5pm",
+    "Apartments overlook street"
+  ],
+  "sun_shade": "Apartment block shades north side; trees to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 26,
+    "to_m": 46,
+    "where": "North kerb of Priory Street, midway along, opposite the parked cars",
+    "slope_pct": 6.5,
+    "points": [
+      [
+        152.972107,
+        -27.502981
+      ],
+      [
+        152.971908,
+        -27.502949
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 7.9,
+    "min_elevation_m": 24.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

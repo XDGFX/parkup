@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a junction and zebra crossing; no parked cars.",
+  "reasons": ["Junction mouth beside a zebra crossing", "No cars parked, through road", "Only 17 m long"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Bush to the west; nearest homes 18 m away, apartments across the road.",
+    "access_and_room": "Kerb sits at an intersection with a crossing and median; no room to pull out of the lane.",
+    "traffic": "Through route linking roads, with a pedestrian crossing.",
+    "convention": "No parked cars on this kerb; no signs."
+  },
+  "flags": ["Flat: about 1.5% grade", "Low-lying: about 9 m, Brisbane River 117 m away"],
+  "sun_shade": "Open to the sky; bush shade from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Signs on site"],
+  "confidence": "high"
+}

@@ -1,0 +1,48 @@
+{
+  "candidate": "58736617-58736639-1290385353-l-18",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep kerb at a junction mouth with no parked cars and no parking lane.",
+  "reasons": [
+    "Junction mouth, no cars parked",
+    "Steep: 10.5% mean grade",
+    "Apartments 13 m away"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 13 m from the kerb at 12 m along; church and school opposite.",
+    "access_and_room": "Kerb runs from a junction splay past a painted island and bike box; no parking lane or cars along it.",
+    "traffic": "Through road beside a signalled-style junction with painted lane markings.",
+    "convention": "No cars parked on this kerb in either image; 2P Mon-Fri 7am-5pm sign applies."
+  },
+  "flags": [
+    "Steep: about 10.5% mean, 12.6% max grade",
+    "Junction and painted markings at start",
+    "Apartments within 13 m"
+  ],
+  "sun_shade": "Heavy tree canopy over the western half; open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 10,
+    "min_elevation_m": 20.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

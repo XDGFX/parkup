@@ -1,0 +1,80 @@
+{
+  "candidate": "264499379-5000959772-1295107747-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep, narrow dead-end lane start; homes 20-25 m away, houses close further up.",
+  "reasons": [
+    "Dwellings 20-25 m from first 10 m",
+    "Cars already park at lane mouth",
+    "Steep: about 6% over first 10 m"
+  ],
+  "drivers": {
+    "seclusion": "Bush and trees on the lane's east side; homes 23 m (house) and 20 m (house) away, more beyond; garage and house within 6 m only past 30 m.",
+    "access_and_room": "Sealed lane at the bend with a parked car at the start; narrow beyond, trees close in. Room for one van at the mouth.",
+    "traffic": "Quiet residential dead-end street, little through traffic.",
+    "convention": "Residents park cars at the lane mouth, but no sign of overnight van stays."
+  },
+  "flags": [
+    "Steep: about 6% over first 10 m, 13.5% mean over whole stretch",
+    "Dwellings 20-25 m away on both sides",
+    "Houses 5-6 m from the lane above 30 m"
+  ],
+  "sun_shade": "Heavy tree canopy on the west and north; open to afternoon sun at the bend.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether the narrow lane is wide enough to pull fully off"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Mouth of the lane at the bend, west side of Ryans Road",
+    "slope_pct": 6,
+    "points": [
+      [
+        152.999034,
+        -27.492958
+      ],
+      [
+        152.999028,
+        -27.492945
+      ],
+      [
+        152.999024,
+        -27.492931
+      ],
+      [
+        152.99902,
+        -27.49291
+      ],
+      [
+        152.99902,
+        -27.492885
+      ],
+      [
+        152.99902,
+        -27.49287
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 6.3,
+    "min_elevation_m": 15.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

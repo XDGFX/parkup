@@ -1,0 +1,66 @@
+{
+  "candidate": "53860676-440590156-37584732-r-20",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Treed kerb near the main road junction; homes 14-16 m away.",
+  "reasons": [
+    "Homes 14-16 m away, across street",
+    "Cars already park along this kerb",
+    "Close to the junction and main road"
+  ],
+  "drivers": {
+    "seclusion": "Nearest homes are 14 m and 16 m away across the street; the north-side house starts about 19 m along.",
+    "access_and_room": "Wide sealed street with parked cars along the kerb, so room to stop is fine.",
+    "traffic": "Quiet side street beside a busy main road junction.",
+    "convention": "Resident cars park along both kerbs; no campers seen."
+  },
+  "flags": [
+    "Steep: mean 4.3%, max 6.6%",
+    "Noise from the adjoining main road",
+    "Dwellings 14-16 m away on both sides"
+  ],
+  "sun_shade": "Mature trees shade the corner end; morning sun from the east, shaded by houses to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 2,
+    "to_m": 13,
+    "where": "North side of York Street, under trees just up from the main road corner",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        152.977702,
+        -27.497988
+      ],
+      [
+        152.977613,
+        -27.497928
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 30.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

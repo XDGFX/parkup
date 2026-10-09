@@ -1,0 +1,74 @@
+{
+  "candidate": "60666433-60666437-8111765-l-148",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wide residential kerb where cars park; houses 15-20 m away; steep.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Houses 15-20 m on same side",
+    "Steep, about 10%"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 20 m back on the same side; homes across the road too.",
+    "access_and_room": "Wide sealed street; parked cars already sit on this kerb.",
+    "traffic": "Residential street, moderate through traffic.",
+    "convention": "Cars park here; 2P Mon-Fri 9am-5pm sign."
+  },
+  "flags": [
+    "Steep: about 10% grade, max 13%",
+    "2P limit weekdays 9am-5pm"
+  ],
+  "sun_shade": "Street trees shade the kerb from the north-east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 30,
+    "where": "Rankin Street north kerb, in front of the houses east of the driveway",
+    "slope_pct": 9.7,
+    "points": [
+      [
+        152.970403,
+        -27.502557
+      ],
+      [
+        152.970425,
+        -27.50256
+      ],
+      [
+        152.970458,
+        -27.502563
+      ],
+      [
+        152.970491,
+        -27.502565
+      ],
+      [
+        152.970626,
+        -27.502567
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 11.3,
+    "min_elevation_m": 21.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

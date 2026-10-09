@@ -1,0 +1,64 @@
+{
+  "candidate": "47831565-58653086-6890865-l-113",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep parked-on kerb below a leafy bank; flats 15 m away.",
+  "reasons": [
+    "Flats 15 m away, same side",
+    "Steep: about 10% grade",
+    "Cars park here in QLD image"
+  ],
+  "drivers": {
+    "seclusion": "Westbury flats 15 m and North View 16 m on the same side, screened by dense trees; homes all round.",
+    "access_and_room": "Parking lane where cars sit in the QLD image; one car on the lane in Esri; room for a van at the start.",
+    "traffic": "Residential through street; the stretch ends at a junction with a give-way line.",
+    "convention": "Cars park along both kerbs; no council signs on this stretch."
+  },
+  "flags": [
+    "Steep: about 10.5% mean, 14.2% max grade",
+    "Homes within 25 m all round",
+    "Junction at the west end"
+  ],
+  "sun_shade": "Dense tree canopy on the south side shades much of the kerb, mainly from the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "south kerb of Waverley Road at the eastern end, beside the hedge and bank",
+    "slope_pct": 9.5,
+    "points": [
+      [
+        152.974077,
+        -27.493542
+      ],
+      [
+        152.973937,
+        -27.493521
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 13.4,
+    "min_elevation_m": 37.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

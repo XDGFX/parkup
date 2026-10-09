@@ -1,0 +1,47 @@
+{
+  "candidate": "54625758-1434099933-1428901876-l-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a junction and zebra crossing; no parked cars.",
+  "reasons": [
+    "Junction mouth beside a zebra crossing",
+    "No cars parked, through road",
+    "Only 17 m long"
+  ],
+  "drivers": {
+    "seclusion": "Bush to the west; nearest homes 18 m away, apartments across the road.",
+    "access_and_room": "Kerb sits at an intersection with a crossing and median; no room to pull out of the lane.",
+    "traffic": "Through route linking roads, with a pedestrian crossing.",
+    "convention": "No parked cars on this kerb; no signs."
+  },
+  "flags": [
+    "Flat: about 1.5% grade",
+    "Low-lying: about 9 m, Brisbane River 117 m away"
+  ],
+  "sun_shade": "Open to the sky; bush shade from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 9.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

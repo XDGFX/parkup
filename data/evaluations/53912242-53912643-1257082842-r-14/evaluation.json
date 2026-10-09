@@ -1,0 +1,67 @@
+{
+  "candidate": "53912242-53912643-1257082842-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat dip on a quiet residential street, homes 11-14 m off.",
+  "reasons": [
+    "Houses 11-14 m on this side",
+    "Cars park on street",
+    "Rest of street steep"
+  ],
+  "drivers": {
+    "seclusion": "Houses 11-14 m from the kerb on this side; no bush or open space.",
+    "access_and_room": "Sealed street with cars parked along it; room at the kerb.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Residents park along the kerb, but no overnight camping convention."
+  },
+  "flags": [
+    "Steep elsewhere: mean 15%, max 23%",
+    "Homes close on both sides"
+  ],
+  "sun_shade": "Tree canopy shades much of this kerb, mainly from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Local parking habits"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 48,
+    "to_m": 66,
+    "where": "Low point of Rennie Street, north kerb opposite the grassy verge",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.979313,
+        -27.496952
+      ],
+      [
+        152.979227,
+        -27.496939
+      ],
+      [
+        152.979133,
+        -27.496925
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 8.1,
+    "min_elevation_m": 27.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

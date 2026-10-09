@@ -1,0 +1,50 @@
+{
+  "candidate": "603459040-603459174-47413989-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a busy junction with painted islands and a house 8 m away.",
+  "reasons": [
+    "House 8 m from kerb",
+    "Junction with painted chevrons, no room",
+    "Main road, no cars parked"
+  ],
+  "drivers": {
+    "seclusion": "Tudor Mews house 8 m from the start; vacant grassy lot opposite the junction side.",
+    "access_and_room": "Kerb runs into a signalised junction with painted chevron markings and a slip lane; no room to pull clear of the lane.",
+    "traffic": "Arterial junction right beside it; heavy traffic.",
+    "convention": "No cars parked along this stretch."
+  },
+  "flags": [
+    "Steep: mean 9.6%, max 11.2%",
+    "Arterial traffic noise",
+    "Painted junction markings"
+  ],
+  "sun_shade": "Mostly open; trees shade the western end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 9.6,
+    "min_elevation_m": 31.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,23 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Short residential street where cars park; apartments and houses 19-27 m away.",
+  "reasons": ["Cars park along this street", "Dwellings 19-27 m away", "Steep, about 6%"],
+  "best_section": {
+    "from_m": 26,
+    "to_m": 46,
+    "where": "North kerb of Priory Street, midway along, opposite the parked cars",
+    "slope_pct": 6.5
+  },
+  "drivers": {
+    "seclusion": "Apartments and houses 19-27 m away; trees and apartments surround.",
+    "access_and_room": "Sealed street with parked cars along the kerb; room to stop.",
+    "traffic": "Short quiet street serving apartments.",
+    "convention": "Several cars parked; 4P Mon-Fri 8am-5pm sign."
+  },
+  "flags": ["Steep: about 6.5% here, max 17% elsewhere", "4P limit weekdays 8am-5pm", "Apartments overlook street"],
+  "sun_shade": "Apartment block shades north side; trees to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Crossfall", "Street lighting"],
+  "confidence": "medium"
+}

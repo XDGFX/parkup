@@ -1,0 +1,68 @@
+{
+  "candidate": "21616884-11921552370-15705266-r-50",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb among shops and car parks, cars parked all along, no home within 22 m.",
+  "reasons": [
+    "Commercial buildings on this side",
+    "Nearest dwelling 22 m",
+    "Cars park along the kerb"
+  ],
+  "drivers": {
+    "seclusion": "Shops, a cafe and car parks beside it; nearest apartments 22 m away.",
+    "access_and_room": "Sealed street with a parked-car kerb lane; short 13 m stretch fits a van.",
+    "traffic": "Busy shopping street by day, quiet at night.",
+    "convention": "Cars park all along both kerbs, so a van blends in."
+  },
+  "flags": [
+    "Signed 1/4P, loading zone and no stopping at times (kerb screen)",
+    "Busy by day",
+    "Shop and cafe activity"
+  ],
+  "sun_shade": "Open to sun; trees and buildings shade parts of the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Night-time activity from cafe or venues",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 13,
+    "where": "West kerb of Riverview Terrace beside the shops and rear car park",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.974222,
+        -27.502489
+      ],
+      [
+        152.974211,
+        -27.502542
+      ],
+      [
+        152.9742,
+        -27.5026
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 22,
+    "gated": false,
+    "slope_pct": 0.5,
+    "min_elevation_m": 27.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "54682448-13072517319-7918587-r-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep kerb, about 12% at best, with flats 13 m and houses 12 m away.",
+  "reasons": [
+    "Slope about 12% even at best",
+    "Apartments 13 m, houses 12 m away",
+    "No Parking Any Time signs nearby"
+  ],
+  "drivers": {
+    "seclusion": "Apartment block 13 m away at 24 m; houses 12 m at 49 m and 75 m; tree-screened but close.",
+    "access_and_room": "Cars park along this kerb so room exists, but three No Parking Any Time signs sit 9-13 m from the line.",
+    "traffic": "Short street between a main road junction and a police station; moderate traffic.",
+    "convention": "Cars park along the kerb in both images, though the signs say no parking."
+  },
+  "flags": [
+    "Steep: 13.3% mean, 23% max; about 11% at the best section",
+    "Three No Parking Any Time signs on this stretch",
+    "Police station 45 m from the north end",
+    "Main road noise at the south end"
+  ],
+  "sun_shade": "Heavily shaded by tree canopy on the east side; open to west sun over the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact extent of the no-parking zone"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 20,
+    "where": "East kerb of Stanley Street just north of the main road junction",
+    "slope_pct": 11,
+    "points": [
+      [
+        152.970982,
+        -27.497605
+      ],
+      [
+        152.971008,
+        -27.497472
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 10.9,
+    "min_elevation_m": 40.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

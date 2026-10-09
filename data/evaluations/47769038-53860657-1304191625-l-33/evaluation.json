@@ -1,0 +1,64 @@
+{
+  "candidate": "47769038-53860657-1304191625-l-33",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Level kerb at the foot of York Street, cars park here, flats 16-20 m away.",
+  "reasons": [
+    "Cars park along both kerbs",
+    "Flats and homes 16-20 m away",
+    "Rest of the stretch is steep"
+  ],
+  "drivers": {
+    "seclusion": "Townhouses and apartments close on the east; homes and flats across the road. Nearest mapped dwellings 16-20 m near the bottom.",
+    "access_and_room": "Parking lane on the east kerb is lined with parked cars; a van fits.",
+    "traffic": "Residential street near a rail line and junction; moderate local traffic.",
+    "convention": "Cars park along both kerbs, so a van blends in."
+  },
+  "flags": [
+    "Steep overall: mean 12.4%, max 20.6%; only the bottom 70-87 m is near level",
+    "Signs: No Parking Specified Times; check times on site",
+    "Rail noise from the corridor to the north-west"
+  ],
+  "sun_shade": "Mixed: trees shade the east verge in the afternoon, kerb open to morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Sign times (not in data)",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 68,
+    "to_m": 84,
+    "where": "East kerb at the bottom of the hill, beside the grey-roofed townhouses near the cross street",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.97781,
+        -27.495247
+      ],
+      [
+        152.97773,
+        -27.495373
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 3.4,
+    "min_elevation_m": 32.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

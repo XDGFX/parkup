@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Kerb among shops and car parks, cars parked all along, no home within 22 m.",
+  "reasons": ["Commercial buildings on this side", "Nearest dwelling 22 m", "Cars park along the kerb"],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 13,
+    "where": "West kerb of Riverview Terrace beside the shops and rear car park",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Shops, a cafe and car parks beside it; nearest apartments 22 m away.",
+    "access_and_room": "Sealed street with a parked-car kerb lane; short 13 m stretch fits a van.",
+    "traffic": "Busy shopping street by day, quiet at night.",
+    "convention": "Cars park all along both kerbs, so a van blends in."
+  },
+  "flags": ["Signed 1/4P, loading zone and no stopping at times (kerb screen)", "Busy by day", "Shop and cafe activity"],
+  "sun_shade": "Open to sun; trees and buildings shade parts of the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Night-time activity from cafe or venues", "Crossfall"],
+  "confidence": "medium"
+}

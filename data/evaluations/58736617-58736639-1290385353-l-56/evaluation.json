@@ -1,0 +1,51 @@
+{
+  "candidate": "58736617-58736639-1290385353-l-56",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Eight-metre kerb, too short for a van, steep, with a house 8 m away.",
+  "reasons": [
+    "Only 8 m long, 12.4% slope",
+    "House 8 m from kerb",
+    "No cars parked on this side"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 8 m from the kerb at the end of the stretch; apartments 18 m behind.",
+    "access_and_room": "Kerb is only 8 m long, shorter than a van, beside a zebra crossing; no parking lane on this side.",
+    "traffic": "Through road with crossing markings; no No Stopping zone ahead.",
+    "convention": "No cars parked on the north kerb; a No Stopping Any Time sign lies just beyond."
+  },
+  "flags": [
+    "Steep: about 12.4% mean, 13.3% max grade",
+    "No Stopping Any Time sign close by",
+    "Zebra crossing next to the section",
+    "House within 10 m"
+  ],
+  "sun_shade": "Tree canopy covers the western end; open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 12.4,
+    "min_elevation_m": 24.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

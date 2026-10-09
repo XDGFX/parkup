@@ -1,0 +1,23 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Flat dip on a quiet residential street, homes 11-14 m off.",
+  "reasons": ["Houses 11-14 m on this side", "Cars park on street", "Rest of street steep"],
+  "best_section": {
+    "from_m": 48,
+    "to_m": 66,
+    "where": "Low point of Rennie Street, north kerb opposite the grassy verge",
+    "slope_pct": 1.5
+  },
+  "drivers": {
+    "seclusion": "Houses 11-14 m from the kerb on this side; no bush or open space.",
+    "access_and_room": "Sealed street with cars parked along it; room at the kerb.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Residents park along the kerb, but no overnight camping convention."
+  },
+  "flags": ["Steep elsewhere: mean 15%, max 23%", "Homes close on both sides"],
+  "sun_shade": "Tree canopy shades much of this kerb, mainly from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Crossfall", "Street lighting", "Local parking habits"],
+  "confidence": "medium"
+}

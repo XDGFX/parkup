@@ -1,0 +1,77 @@
+{
+  "candidate": "712861192-11921552369-1285082224-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Through-road bend at a busy junction, no parking, house 9 m away.",
+  "reasons": [
+    "Main road, no cars parked",
+    "House 9 m from kerb",
+    "Steep: mean 10%"
+  ],
+  "drivers": {
+    "seclusion": "Residential building 9 m from the kerb, more homes behind it.",
+    "access_and_room": "Narrow carriageway on a bend; no pull-off, no parked cars.",
+    "traffic": "Busy through route into a signalled junction with a bus lane.",
+    "convention": "No cars parked on this kerb; No Stopping Any Time signs all round."
+  },
+  "flags": [
+    "Steep: about 8-10% grade",
+    "Dwelling within 10 m",
+    "Junction noise"
+  ],
+  "sun_shade": "Heavy tree cover on the west side shades the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "West kerb on the bend of Riverview Terrace before the junction",
+    "slope_pct": 8,
+    "points": [
+      [
+        152.973763,
+        -27.504594
+      ],
+      [
+        152.973789,
+        -27.504583
+      ],
+      [
+        152.973799,
+        -27.504575
+      ],
+      [
+        152.973807,
+        -27.504559
+      ],
+      [
+        152.97382,
+        -27.504507
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 8.5,
+    "min_elevation_m": 16.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,23 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside townhouses near a junction; homes 14-17 m away.",
+  "reasons": ["Townhouses 14-17 m on this side", "Cars already park here", "Only 25 m long"],
+  "best_section": {
+    "from_m": 4,
+    "to_m": 14,
+    "where": "North kerb of Rennie Street just east of the side-street junction",
+    "slope_pct": 4
+  },
+  "drivers": {
+    "seclusion": "Townhouse complex 14-17 m from the kerb, more homes across the road.",
+    "access_and_room": "Sealed street, cars park along this kerb; room for a van just past the junction.",
+    "traffic": "Quiet residential street; corner is open to traffic from the side street.",
+    "convention": "Cars park here, but no sign of overnight stays."
+  },
+  "flags": ["Steep at the east end: max 16%", "Close to junction", "Homes close all round"],
+  "sun_shade": "Open to sun; townhouse shades the kerb in the morning from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Crossfall", "Street lighting", "Parking restrictions near junction"],
+  "confidence": "medium"
+}

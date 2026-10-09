@@ -1,0 +1,63 @@
+{
+  "candidate": "48336837-58791944-1469954138-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb near the north end, but homes sit 11-18 m away.",
+  "reasons": [
+    "Dwellings 11-18 m on same side",
+    "Cars park along this kerb",
+    "Flat 0-25 m, steep beyond"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 11, 13 and 18 m away on the east side; homes across the road further off.",
+    "access_and_room": "Sealed residential street with cars parked at the kerb; room to pull in.",
+    "traffic": "Quiet residential street near a junction.",
+    "convention": "Several cars parked along both kerbs, so a van blends in."
+  },
+  "flags": [
+    "Steep south of 30 m: 9.7% mean, 16.4% max over the whole stretch",
+    "Dwellings 11 m and 13 m from the best section"
+  ],
+  "sun_shade": "Open to the west sun over the road; some shade from street trees on the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Residents' attitude to overnight parking"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 25,
+    "where": "East kerb of Stanley Street just south of the northern junction",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        152.971626,
+        -27.494219
+      ],
+      [
+        152.971592,
+        -27.494397
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 39.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

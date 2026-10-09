@@ -1,0 +1,50 @@
+{
+  "candidate": "53860657-53860664-6865364-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Nine-metre kerb at a junction, apartments 9 m away; too short for a van.",
+  "reasons": [
+    "Apartment block 9 m from kerb",
+    "Only 9 m long, under van length",
+    "Next to junction mouth"
+  ],
+  "drivers": {
+    "seclusion": "Orion on York apartments 9 m away on the same side; more apartments and a kindergarten nearby.",
+    "access_and_room": "Kerb is only 9 m long and ends at a junction, so a van would not fit clear of it.",
+    "traffic": "Busy corner of York Street with turning traffic.",
+    "convention": "Short-stay 1/4P sign here; cars park further down the street."
+  },
+  "flags": [
+    "Dwelling within 10 m",
+    "Short-stay 1/4P restriction sign",
+    "Slope about 3% (borderline)"
+  ],
+  "sun_shade": "Mostly open; tall building to the west shades the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 33.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

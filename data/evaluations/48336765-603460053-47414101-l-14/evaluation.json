@@ -1,0 +1,63 @@
+{
+  "candidate": "48336765-603460053-47414101-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb where cars park, with homes 12-25 m away on both sides.",
+  "reasons": [
+    "Cars parked along this kerb",
+    "Homes within about 25 m all round",
+    "Gentle slope, about 2%"
+  ],
+  "drivers": {
+    "seclusion": "West side backs onto a bushy strip and a flat block behind it; apartments across the road, dwellings about 20-25 m both sides.",
+    "access_and_room": "Parked cars line the kerb; narrow street but a van fits in the parking lane.",
+    "traffic": "Quiet side street; occasional local traffic.",
+    "convention": "Several cars parked here, so a van is less conspicuous, though residents will see it."
+  },
+  "flags": [
+    "Dwellings 10-25 m away",
+    "Mapped gate 210 m away has a way round; ignore"
+  ],
+  "sun_shade": "Heavily shaded by tall trees on both sides, especially the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "On-site signs"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 42,
+    "to_m": 58,
+    "where": "West kerb of Wooley Street beside the treed strip, halfway up towards the top junction",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.973504,
+        -27.493814
+      ],
+      [
+        152.973532,
+        -27.493672
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 33,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "60200781-60801690-1078961147-l-15",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential street, homes about 15 m away on both sides.",
+  "reasons": [
+    "Houses 15 m across and beside",
+    "Cars already park here",
+    "Flat at 1-2%"
+  ],
+  "drivers": {
+    "seclusion": "Houses 15 m across the road and about 10-15 m up the east side.",
+    "access_and_room": "Sealed street with cars parked on both kerbs; room for a van on the verge side.",
+    "traffic": "Quiet residential street, light local traffic.",
+    "convention": "Residents park on the kerb, no sign of overnight camping."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Dwellings 9-10 m at 33 m and 4 m along"
+  ],
+  "sun_shade": "Street trees shade this kerb, mainly from the east in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 13,
+    "to_m": 28,
+    "where": "East kerb of Sovereign Street beside the tree-lined verge between two houses",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.979795,
+        -27.501896
+      ],
+      [
+        152.979769,
+        -27.502029
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 5.2,
+    "min_elevation_m": 13.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

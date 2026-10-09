@@ -1,0 +1,77 @@
+{
+  "candidate": "53860664-440590156-1304768761-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow York Street kerb with homes and apartments 4-7 m away along its whole length.",
+  "reasons": [
+    "Dwellings within 7 m throughout",
+    "Narrow lane, little room to pull off",
+    "Steep, 6% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings at 4, 6, 7 and 7 m line the east side; apartments overlook the bend.",
+    "access_and_room": "Narrow sealed street with trees and fences close to the edge; no clear pull-off beside the lane.",
+    "traffic": "Quiet residential street; few cars seen parked.",
+    "convention": "No sign of campers; a few residents' cars park nearby."
+  },
+  "flags": [
+    "Steep: mean 6.1%, max 15.8%",
+    "Dwellings 4-7 m from kerb"
+  ],
+  "sun_shade": "Heavy tree and building shade from the west and south; patchy morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 42,
+    "where": "Bend in York Street, beside the apartment block's side",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.977044,
+        -27.497343
+      ],
+      [
+        152.97704,
+        -27.49736
+      ],
+      [
+        152.977033,
+        -27.497384
+      ],
+      [
+        152.977037,
+        -27.497432
+      ],
+      [
+        152.977046,
+        -27.497448
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 0.8,
+    "min_elevation_m": 25.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

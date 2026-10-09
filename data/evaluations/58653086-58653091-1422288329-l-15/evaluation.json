@@ -1,0 +1,66 @@
+{
+  "candidate": "58653086-58653091-1422288329-l-15",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet street with a wide grass verge, but steep and homes close on both sides.",
+  "reasons": [
+    "Wide grass verge, a few cars parked",
+    "Dwellings 10-25 m away",
+    "Steep, about 7% grade"
+  ],
+  "drivers": {
+    "seclusion": "Houses sit back behind the verge on the west and flats face them across the street; mapped dwellings 9-23 m away.",
+    "access_and_room": "Wide mown verge and parking lane beside a narrow street; a van fits.",
+    "traffic": "Quiet side street between two junctions; local traffic only.",
+    "convention": "One or two cars park along it; no strong convention."
+  },
+  "flags": [
+    "Steep: mean 7.4%, max 10%",
+    "Dwellings 10-25 m away",
+    "Mapped gate 293 m away has a way round; ignore"
+  ],
+  "sun_shade": "Open on the west verge; trees shade the east side and give afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "On-site signs"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 28,
+    "to_m": 46,
+    "where": "West kerb beside the wide grass verge in front of the grey-roofed houses",
+    "slope_pct": 7.5,
+    "points": [
+      [
+        152.973725,
+        -27.493051
+      ],
+      [
+        152.973755,
+        -27.492891
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 7.1,
+    "min_elevation_m": 37.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:23:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
