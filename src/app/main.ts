@@ -24,6 +24,8 @@ const STREET_ZOOM = 15.5;
 const SUBURB_ZOOM = 12;
 const MAP_COLOURS = { land: "#121214", water: "#0C1820", park: "#131916", building: "#1B1B1E", minor: "#26262A", major: "#35353B",
   motorway: "#45454D", casing: "#121214", rail: "#2A2A2F", label: "#85858E", halo: "#121214" };
+/** Degrees of slack around the candidates that the map may pan to. */
+const AREA_PAD = 0.1;
 /** Credits both the state data and the aerial photos; MapLibre shows a repeated credit once. */
 const QLD = "© <a href=\"https://www.data.qld.gov.au\" target=\"_blank\">State of Queensland</a>, CC BY 4.0";
 /** Queensland Government's latest public aerial photography, as ArcGIS tiles (z/y/x). */
@@ -222,6 +224,8 @@ async function main(root: HTMLElement) {
     hash: true,
     style: "https://tiles.openfreemap.org/styles/dark",
     bounds,
+    // The map stops about 10 km past the candidates, which keeps every tile request local while still fitting them all on a portrait phone.
+    maxBounds: [[bounds[0][0] - AREA_PAD, bounds[0][1] - AREA_PAD], [bounds[1][0] + AREA_PAD, bounds[1][1] + AREA_PAD]],
     fitBoundsOptions: { padding: { top: 110, bottom: 60, left: 30, right: 20 } },
     // The tiles credit OpenFreeMap, OpenMapTiles and OpenStreetMap; these credit the data parkup adds.
     attributionControl: { compact: true, customAttribution: [
@@ -258,11 +262,7 @@ async function main(root: HTMLElement) {
     recolour(map);
     // Aerial photos over the basemap but under its labels, for checking a kerb by eye; hidden until toggled on.
     const labels = map.getStyle().layers.filter((l) => l.type === "symbol").map((l) => l.id);
-    // Only fetch photos around the candidates, with about 500 m to spare.
-    const pad = 0.005;
-    map.addSource("aerial", { type: "raster", tileSize: 256, maxzoom: 20, tiles: [AERIAL_TILES],
-      bounds: [bounds[0][0] - pad, bounds[0][1] - pad, bounds[1][0] + pad, bounds[1][1] + pad],
-      attribution: QLD });
+    map.addSource("aerial", { type: "raster", tileSize: 256, maxzoom: 20, tiles: [AERIAL_TILES], attribution: QLD });
     map.addLayer({ id: "aerial", type: "raster", source: "aerial", layout: { visibility: aerial ? "visible" : "none" } });
     for (const id of labels) map.moveLayer(id);
     addToiletLayer(map);
