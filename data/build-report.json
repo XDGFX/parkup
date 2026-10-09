@@ -45,7 +45,7 @@
       "count": 2,
       "dropped": 0,
       "normal": 0,
-      "unreadable": 1
+      "unreadable": 0
     },
     {
       "text": "Clearway C Linear Repeater-Specified Times: (no times)",
@@ -104,33 +104,33 @@
       "unreadable": 0
     }
   ],
-  "short": 954,
-  "parkingNoM": 22266,
+  "short": 908,
+  "parkingNoM": 21343,
   "excludedM": {
-    "school": 3989,
-    "kindergarten": 0
+    "school": 3872,
+    "kindergarten": 137
   },
   "coverage": {
     "schools": {
-      "mapped": 0,
-      "inExcludedZone": 0
+      "mapped": 38,
+      "inExcludedZone": 35
     },
     "kindergartens": {
-      "mapped": 0,
-      "inExcludedZone": 0
+      "mapped": 40,
+      "inExcludedZone": 9
     }
   },
-  "noFrontageM": 7293,
-  "stretches": 2662,
-  "unsigned": 1966,
-  "failsScreen": 279,
-  "candidates": 2383,
-  "lowConfidence": 148,
-  "dayOnly": 8,
+  "noFrontageM": 6883,
+  "stretches": 2628,
+  "unsigned": 1940,
+  "failsScreen": 276,
+  "candidates": 2352,
+  "lowConfidence": 145,
+  "dayOnly": 7,
   "byTier": {
-    "1": 299,
-    "2": 629,
-    "3": 1286,
-    "none": 169
+    "1": 294,
+    "2": 621,
+    "3": 1274,
+    "none": 163
   }
 }

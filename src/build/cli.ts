@@ -100,6 +100,7 @@ How many schools and kindergartens mapped in OSM fall in a zone the build exclud
 
 Each stretch is screened reading the plate strictly (the rule always applies) and leniently (it never applies).
 Fails leniently: dropped. Passes strictly: a normal candidate. Passes only leniently: a candidate with an "unreadable sign" caution.
+A row of zeros means the plate governs no stretch: it was unpaired, trimmed away or left under 8 m.
 
 | Plates | Text | Stretches dropped | Normal | Unreadable-sign caution |
 |---|---|---|---|---|

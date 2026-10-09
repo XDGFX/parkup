@@ -5,7 +5,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import type { KerbLine, OsmNode, OsmWay, PermitArea, SignRecord, Snapshot, ToiletRecord, Zone } from "./inputs.ts";
 
 const BCC = "https://data.brisbane.qld.gov.au/api/explore/v2.1/catalog/datasets";
-const OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter"];
+const OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter", "https://maps.mail.ru/osm/tools/overpass/api/interpreter"];
 const SUBURBS = ["TARINGA", "INDOOROOPILLY", "ST LUCIA"];
 // OSM admin_level=9 relations for Indooroopilly, St Lucia and Taringa.
 const SUBURB_RELATIONS = [11677824, 11677827, 11677828];
@@ -73,11 +73,10 @@ out body geom;`;
 
 /** Traffic signals, crossings and bus stops, and schools and kindergartens as their centre point. */
 async function nodes(): Promise<OsmNode[]> {
-  const query = `[out:json][timeout:180];
-(${SUBURB_RELATIONS.map((id) => `rel(${id});`).join("")})->.subs;
-.subs map_to_area->.a;
-(node(area.a)[highway~"^(traffic_signals|crossing|bus_stop)$"];
- nwr(area.a)[amenity~"^(school|kindergarten|childcare)$"];);
+  // By bounding box rather than suburb area: quicker on busy servers, and it catches signals just over the boundary.
+  const query = `[out:json][timeout:180][bbox:-27.53,152.94,-27.475,153.03];
+(node[highway~"^(traffic_signals|crossing|bus_stop)$"];
+ nwr[amenity~"^(school|kindergarten|childcare)$"];);
 out tags center;`;
   const { elements } = (await overpass(query)) as { elements: any[] };
   return elements
