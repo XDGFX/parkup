@@ -65,6 +65,8 @@ export function frontageIndex(zones: Zone[], areas: PermitArea[], nodes: OsmNode
       }
       return null;
     },
+    /** The zone the point sits in, for a site. */
+    at: (p: XY): Frontage | null => zoneIndex.at(p) ?? null,
     /** The permit area the point is in, if any. */
     area: (p: XY) => areaIndex.at(p),
     /** How many mapped schools and kindergartens fall in a zone the build excludes. */

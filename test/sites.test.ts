@@ -49,6 +49,25 @@ describe("parking areas", () => {
     expect(sites({ parkings: [carPark({ access: "yes" })], minorWays: [aisle(60, -70), aisle(61, -80)], nodes: [barrier(60, { barrier: "gate" })] })).toHaveLength(1);
   });
 
+  it("take their tier from the zone they sit in, with no boost over kerbs", () => {
+    const [site] = sites({ parkings: [carPark({ access: "yes" })], zones: [zone("OS2", 10, 0, 100, -200)] });
+    expect(site).toMatchObject({ tier: 1, frontage: { zone: "OS2", name: "OS2" } });
+    expect(sites({ parkings: [carPark({ access: "yes" })], zones: [zone("LMR2", 10, 0, 100, -200)] })[0]!.tier).toBe(2);
+    // The kerbs facing the same zone sort alongside the site, by name.
+    const { candidates } = run({ parkings: [carPark({ access: "yes", name: "Aa Car Park" })], zones: [zone("OS2", 10, 0, 100, -200)] });
+    expect(candidates.map((c) => c.street)[0]).toBe("Aa Car Park");
+    expect(new Set(candidates.filter((c) => c.tier === 1).map((c) => c.street))).toEqual(new Set(["Aa Car Park", "Bottom Road", "Test Street", "Top Road"]));
+  });
+
+  it("are ruled out at schools and kindergartens", () => {
+    expect(sites({ parkings: [carPark({ access: "yes" })], zones: [zone("CF5", 10, 0, 100, -200)] })).toEqual([]);
+    const cf4 = [zone("CF4", 10, 0, 100, -200)];
+    expect(sites({ parkings: [carPark({ access: "yes" })], zones: cf4, nodes: [node(800, 80, -150, { amenity: "kindergarten" })] })).toEqual([]);
+    expect(sites({ parkings: [carPark({ access: "yes" })], zones: cf4 })).toHaveLength(1);
+    // A school mapped inside the car park's outline, whatever the zone.
+    expect(sites({ parkings: [carPark({ access: "yes" })], nodes: [node(801, 40, -70, { amenity: "school" })] })).toEqual([]);
+  });
+
   it("motor_vehicle=private is a caution, not a rule-out", () => {
     expect(sites({ parkings: [carPark({ access: "yes", motor_vehicle: "private" })] })[0]!.cautions).toContain("Motor vehicles: private");
   });
