@@ -105,3 +105,18 @@ export function inRings(rings: XY[][], p: XY): boolean {
   }
   return inside;
 }
+
+/** A candidate's geometry by shape: a single point, a closed ring (a car park's outline), or an open line (a kerb). */
+export type Shape = "point" | "ring" | "line";
+
+export function shapeOf(line: readonly (readonly [number, number])[]): Shape {
+  if (line.length < 2) return "point";
+  const a = line[0]!, b = line.at(-1)!;
+  return line.length >= 4 && a[0] === b[0] && a[1] === b[1] ? "ring" : "line";
+}
+
+/** The middle of a ring, or of any points, as the mean of its corners (a ring's closing corner counted once). */
+export function centreOf<T extends [number, number]>(pts: T[]): T {
+  const corners = shapeOf(pts) === "ring" ? pts.slice(0, -1) : pts;
+  return [corners.reduce((s, p) => s + p[0], 0) / corners.length, corners.reduce((s, p) => s + p[1], 0) / corners.length] as T;
+}

@@ -151,11 +151,11 @@ describe("site carry-over", () => {
   /** An OSM car park east of Test Street, 40 m square. */
   const carPark = (id: number, dx = 0): OsmArea => ({ type: "way", id, tags: { amenity: "parking", access: "yes" }, rings: [ring(20 + dx, -50, 60 + dx, -90)] });
   const outlinePrior = (candidate: string, dx: number): PriorEvaluation =>
-    ({ candidate, kind: "outline", side: null, line: ring(20 + dx, -50, 60 + dx, -90), evaluation: evaluation(candidate, "good") });
+    ({ candidate, kind: "parking-area", side: null, line: ring(20 + dx, -50, 60 + dx, -90), evaluation: evaluation(candidate, "good") });
   /** A BCC access road south of Bottom Road, whose site is 20 m in at (-50, -225). */
   const trail = (id: string): TrailLine => ({ id, itemType: "ACCESS ROAD", park: "Test Park", description: null, coords: [lonLat(-50, -205), lonLat(-50, -300)] });
   const pointPrior = (candidate: string, dy: number): PriorEvaluation =>
-    ({ candidate, kind: "point", side: null, line: [lonLat(-50, -225 + dy)], evaluation: evaluation(candidate, "maybe") });
+    ({ candidate, kind: "off-road", side: null, line: [lonLat(-50, -225 + dy)], evaluation: evaluation(candidate, "maybe") });
   const site = (input: Partial<BuildInput>) => run(input).candidates.find((c) => c.kind !== "kerb")!;
 
   it("a car park inherits by its OSM id, even if its outline was redrawn", () => {
@@ -176,6 +176,13 @@ describe("site carry-over", () => {
   it("a site with a new rubric version keeps its evaluation, not current", () => {
     const prior = { ...outlinePrior("osm-way-500", 0), evaluation: evaluation("osm-way-500", "poor", { rubric: "v9" }) };
     expect(site({ parkings: [carPark(500)], evaluations: [prior] }).evaluation).toMatchObject({ verdict: "poor", current: false });
+  });
+
+  it("an off-road site's evaluation never carries over to a parking area in the same place", () => {
+    const pointCarPark: OsmArea = { type: "node", id: 502, tags: { amenity: "parking", access: "yes" }, rings: null, lon: lonLat(-50, -225)[0], lat: lonLat(-50, -225)[1] };
+    const c = site({ parkings: [pointCarPark], evaluations: [pointPrior("bcc-trail-1", 0)] });
+    expect(c.kind).toBe("parking-area");
+    expect(c.evaluation).toBeNull();
   });
 
   it("a kerb evaluation never carries over to a site", () => {

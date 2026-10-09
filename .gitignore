@@ -1,5 +1,5 @@
 node_modules/
 dist/
-# Evaluation imagery: refetched by `npm run eval -- prepare`; only the context and evaluation JSON are committed.
+# Evaluation imagery: refetched by `npm run evaluate -- prepare`; only the context and evaluation JSON are committed.
 .cache/
 .claude/worktrees/

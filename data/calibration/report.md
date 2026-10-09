@@ -1,13 +1,14 @@
 # Calibration report
 
-**FAIL**: 23 of 31 match, 7 near misses involving maybe, 1 failure, 0 missing.
+**FAIL**: 23 of 31 match, 7 near misses involving maybe, 1 failure, 0 missing, 0 judged under another rubric.
 
-Rule: every good and poor call of the user's must match; a spot the user calls maybe may come back good or poor.
+Rule: every good and poor call of the user's must match; a known place the user calls maybe may come back good or poor.
+Every known place must have been judged under the current rubric (v10).
 Rubric v10, model claude-sonnet-5-5, run 2026-10-09.
-Each spot's context and evaluation are in `data/calibration/<spot>/`. Imagery is in the gitignored cache;
+Each known place's context and evaluation are in `data/calibration/<place>/`. Imagery is in the gitignored cache;
 `npm run evaluate -- prepare --calibration` refetches it.
 
-| Spot | You | Agent | Result | Agent's summary | Your note |
+| Known place | You | Agent | Result | Agent's summary | Your note |
 |---|---|---|---|---|---|
 | heroes-ave | poor | poor | match | Through road beside a ballpark; no cars park along this kerb. | poor: main road with no clear parking. Would need a much wider kerb and other cars parking there. |
 | keith-st | maybe | good | near miss | Bowls club kerb with other cars parked, no homes nearby, university opposite. | maybe throughout (revised in the 2026-10 review, was good on the lower section). |
@@ -43,20 +44,20 @@ Each spot's context and evaluation are in `data/calibration/<spot>/`. Imagery is
 
 ## Notes on this run (hand-written; `calibrate` regenerates the table above)
 
-The set doesn't pass yet. Rubric v5 to v10 were each run on all 31 spots:
+The set doesn't pass yet. Rubric v5 to v10 were each run on all 31 known places:
 
 | Rubric | Failures (you → agent) |
 |---|---|
-| v5 (18 spots only) | mt-coot-tha-reserve, mcafees-lookout, pin07, durack-kerb good → maybe or poor; latimers-crossing-rd poor → maybe |
+| v5 (18 known places only) | mt-coot-tha-reserve, mcafees-lookout, pin07, durack-kerb good → maybe or poor; latimers-crossing-rd poor → maybe |
 | v6 | pin05 good → poor, pin06 good → maybe, latimers-crossing-rd poor → good |
 | v7 | mcafees-lookout good → maybe, minnippi-bvd poor → maybe |
 | v8 | pin09 good → maybe |
 | v9 | green-hill-reservoir good → maybe |
 | v10 | pin09 good → maybe |
 
-From v8 on, each run fails on a single borderline spot, and a different one each time: Sonnet's verdict there
+From v8 on, each run fails on a single borderline known place, and a different one each time: Sonnet's verdict there
 changes from run to run (pin09 was good, maybe, good, maybe over v7–v10). pin09 is a sealed park lane off
 Mabel St with homes 40 m or more away; the agent doubts there's room to pull off the lane. Your note calls it
 a large kerb/off-road site, so the pin may sit on the lane rather than the verge you used. Moving the pin, or
-your view of whether the lane is the spot, would settle it. Rubric changes beyond v10 started to look like
-tuning to single spots, so they stopped there.
+your view of whether the lane is where you parked, would settle it. Rubric changes beyond v10 started to look like
+tuning to single known places, so they stopped there.

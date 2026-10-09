@@ -163,13 +163,15 @@ describe("off-road sites", () => {
       expect(offRoad({ minorWays: [southTrack(tags)] })).toEqual([]);
   });
 
-  it("are reached from service roads, but not driveways; an untagged service road is never a site itself", () => {
+  it("are reached from tagged service roads, but not driveways or untagged service ways; a service road is never a site itself", () => {
     // A service road north from Top Road's east end (node 11), and a track off its end.
     const service = (tags: Record<string, string>) => ({ ...way(80, "", [11, 81], [[100, 0], [100, 50]], "service"), tags: { highway: "service", ...tags } });
     const north = track(82, [81, 83], [[100, 50], [100, 150]]);
-    expect(offRoad({ minorWays: [service({})] })).toEqual([]);
-    expect(offRoad({ minorWays: [service({}), north] }).map(([id]) => id)).toEqual(["osm-track-82-81", "osm-track-82-83-end"]);
+    expect(offRoad({ minorWays: [service({ service: "alley" })] })).toEqual([]);
+    expect(offRoad({ minorWays: [service({ service: "alley" }), north] }).map(([id]) => id)).toEqual(["osm-track-82-81", "osm-track-82-83-end"]);
     expect(offRoad({ minorWays: [service({ service: "driveway" }), north] })).toEqual([]);
+    // Untagged service ways are dropped like driveways, so a track off one isn't reached.
+    expect(offRoad({ minorWays: [service({}), north] })).toEqual([]);
   });
 
   it("carry QLD Roads and Tracks trafficability where a segment matches", () => {

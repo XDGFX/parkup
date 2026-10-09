@@ -82,9 +82,14 @@ describe("hard trims", () => {
     expect(kerb({ ways: tagged({ "parking:left": "no" }, true) }, "east")).toEqual([[-14, -186]]);
   });
 
-  it("paired plates override OSM parking:*=no", () => {
+  it("OSM parking:*=no trims signed kerbs too: paired plates don't override it", () => {
     const { candidates } = run({ signs: westPair(-20, -120, "2P Parallel", "MON-FRI:7am-6pm"), ways: tagged({ "parking:both": "no" }) });
-    expect(onTest(candidates).map(extent)).toEqual([[-20, -120]]);
+    expect(onTest(candidates).map(extent)).toEqual([]);
+  });
+
+  it("the s 170 setback trims signed kerbs too: paired plates don't override it", () => {
+    const signed = onTest(run({ signs: westPair(-4, -120, "2P Parallel", "MON-FRI:7am-6pm") }).candidates).filter((c) => c.plates.length);
+    expect(signed.map(extent)).toEqual([[-14, -120]]);
   });
 
   it("drops whatever is left under 8 m", () => {
@@ -136,10 +141,16 @@ describe("the St Lucia Traffic Area", () => {
     expect(c!.overnight).toBe(true);
   });
 
-  it("doesn't apply outside the polygon, or where plates sign the kerb", () => {
+  it("doesn't apply outside the polygon", () => {
     expect(onTest(run({ areas: [area("ST LUCIA TRAFFIC AREA", 500, 500, 600, 400)] }).candidates)[0]!.rules).toEqual([]);
-    const signed = onTest(run({ areas, signs: westPair(-20, -80, NP, "MON-FRI:7am-9am") }).candidates).find((c) => c.plates.length && !/Traffic Area/.test(c.plates[0]!));
-    expect(signed!.rules.map((r) => r.label)).toEqual(["No Parking MON-FRI:7am-9am"]);
+  });
+
+  it("applies on signed kerbs too, with the most restrictive rule winning at each moment", () => {
+    const signed = onTest(run({ areas, signs: westPair(-20, -80, NP, "MON-FRI:7am-9am") }).candidates).find((c) => c.plates.some((p) => /No Parking/.test(p)));
+    expect(signed!.rules.map((r) => r.label).sort()).toEqual(["No Parking MON-FRI:7am-9am", "St Lucia Traffic Area 2P MON-FRI:7am-6pm FEB-NOV"]);
+    // At 8am the No Parking plate wins; at 10am the area's 2P limit does.
+    expect(outBy(signed!, at("2026-03-02T08:00"))?.at).toEqual(at("2026-03-02T08:00"));
+    expect(outBy(signed!, at("2026-03-02T10:00"))?.at).toEqual(at("2026-03-02T12:00"));
   });
 });
 

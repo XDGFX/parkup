@@ -25,7 +25,7 @@ council parking signs (Brisbane City Council area only).
 - `outline`: the yellow line is the **outline** of an unsigned car park or gravel area, measured the same
   way from the ring.
 - `point`: the yellow ring marks a pin someone dropped by hand. It's **approximate** and may land in a
-  creek or on a hillside next to the real spot. Find the best place a van could stop within about
+  creek or on a hillside next to the real place. Find the best place a van could stop within about
   100 m of the ring: a track, clearing, gravel area, car park or kerb. Look for parked vehicles and
   tyre tracks. The image shows 100 m each way from the ring. `mapped_parking` lists OSM car parks and
   `mapped_ways` OSM service roads and tracks within 100 m; one close to the ring is probably the place
@@ -94,7 +94,7 @@ If nothing rules it out, grade the best section on **seclusion: who would care?*
 Surface these, but don't let them decide the verdict unless they're extreme.
 
 - **Slope.** Use `context.json` → `slope`. Give the grade at the best section, and flag it as steep if
-  it's over about 3%. Only rule a spot out on slope above about 12%. The DEM can't show crossfall.
+  it's over about 3%. Only rule a place out on slope above about 12%. The DEM can't show crossfall.
 - **Gate (not closed in imagery), low-lying or flood-prone ground** (`slope.min_elevation_m` under about
   5 m near a creek or river; `waterway` is the nearest mapped one), **noise** (rail, venues, an arterial).
 - **Signs vs imagery.** Painted markings or features that contradict or add to the signs. Don't restate

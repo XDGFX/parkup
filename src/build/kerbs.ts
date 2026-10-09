@@ -4,13 +4,13 @@
 // Every kerb is then cut where its rules or frontage change, trimmed, and dropped where too short.
 import type { Rule } from "../timetable/timetable.ts";
 import {
-  BUS_STOP, CROSSING, FRONTAGE, HALF_WIDTH_M, KERB_NEAR_M, MIN_STRETCH_M, NO_UNSIGNED, ORIENTATION, POST_M, SETBACK,
+  BUS_STOP, CROSSING, FRONTAGE, halfWidthOf, KERB_NEAR_M, MIN_STRETCH_M, NO_UNSIGNED, ORIENTATION, POST_M, SETBACK,
   SNAP_ANY_M, SNAP_NAMED_M, ST_LUCIA_TRAFFIC_AREA,
 } from "./config.ts";
 import { frontageIndex, type Frontage, type FrontageCoverage } from "./frontage.ts";
 import { compassSide, type Compass, dist, length, offset, pointAt, project, slice, toLonLat, toXY, type LonLat, type XY } from "./geo.ts";
 import type { KerbLine, OsmNode, OsmWay, PermitArea, SignRecord, Zone } from "./inputs.ts";
-import { isAreaPlate, readPlate, type Plate } from "./plates.ts";
+import { isAreaPlate, readPlate, titleCase, type Plate } from "./plates.ts";
 
 type Side = "left" | "right";
 export type Reading = "carriageway" | "footpath";
@@ -68,11 +68,6 @@ export type KerbReport = {
 export type KerbInput = { signs: SignRecord[]; ways: OsmWay[]; nodes?: OsmNode[]; lines?: KerbLine[]; zones?: Zone[]; areas?: PermitArea[] };
 
 const norm = (s: string) => s.toUpperCase().replace(/[^A-Z0-9]+/g, " ").trim();
-const titleCase = (s: string) => s.toLowerCase().replace(/\b[a-z]/g, (c) => c.toUpperCase());
-const halfWidthOf = (tags: Record<string, string>) => {
-  const width = Number.parseFloat(tags.width ?? "");
-  return width > 0 ? width / 2 : HALF_WIDTH_M[(tags.highway ?? "").replace(/_link$/, "")] ?? 4;
-};
 const SIDES: Side[] = ["left", "right"];
 
 /** Joins OSM ways into links that run between intersections, dead ends and name changes. */
@@ -198,7 +193,8 @@ function posts(placed: Placed[]): Placed[][] {
 }
 
 type Interval = { from: number; to: number; placed: Placed; lowConfidence: boolean };
-type Span = { from: number; to: number };
+/** Part of one kerb, in metres along its link. */
+type Extent = { from: number; to: number };
 
 /** Pairs the arrows of one restriction on one kerb. Returns its intervals and how many arrows paired cleanly. */
 function pair(plates: Placed[], reading: Reading) {
@@ -227,10 +223,10 @@ function nearestKerb(all: Link[], p: XY, reach: (l: Link) => number) {
 }
 
 const kerbKey = (link: Link, side: Side) => `${link.id}|${side}`;
-const within = (spans: Span[], s: number) => spans.some((x) => x.from <= s && s <= x.to);
-const overlaps = (spans: Span[], a: number, b: number) => spans.some((x) => x.from < b && x.to > a);
+const within = (spans: Extent[], s: number) => spans.some((x) => x.from <= s && s <= x.to);
+const overlaps = (spans: Extent[], a: number, b: number) => spans.some((x) => x.from < b && x.to > a);
 /** Traffic passes the left kerb going forwards along the link, and the right kerb going backwards. */
-const buffer = (side: Side, at: number, before: number, after: number): Span =>
+const buffer = (side: Side, at: number, before: number, after: number): Extent =>
   side === "left" ? { from: at - before, to: at + after } : { from: at - after, to: at + before };
 
 export function buildKerbs(input: KerbInput): { stretches: Stretch[]; report: KerbReport } {
@@ -285,7 +281,7 @@ export function buildKerbs(input: KerbInput): { stretches: Stretch[]; report: Ke
   const orphanRepeaters = results.reduce((n, r) => n + r.orphans, 0);
 
   // Yellow no-stopping lines, and the cautions from OSM points, onto their kerbs.
-  const yellow = new Map<string, Span[]>(), cautions = new Map<string, (Span & { text: string })[]>();
+  const yellow = new Map<string, Extent[]>(), cautions = new Map<string, (Extent & { text: string })[]>();
   const add = <T>(m: Map<string, T[]>, k: string, v: T) => m.set(k, [...(m.get(k) ?? []), v]);
   for (const l of lines) {
     const pts = l.coords.map(toXY), mid = pointAt(pts, length(pts) / 2).p;
@@ -333,7 +329,7 @@ export function buildKerbs(input: KerbInput): { stretches: Stretch[]; report: Ke
       if (!intervals.length && !unsignedAllowed) continue;
       const ys = yellow.get(k) ?? [];
       const noParking = link.segments.filter((s) => parkingNo(s.tags, s.reversed ? (side === "left" ? "right" : "left") : side));
-      const setbacks: Span[] = [{ from: 0, to: link.setback.start[side] }, { from: link.length - link.setback.end[side], to: link.length }];
+      const setbacks: Extent[] = [{ from: 0, to: link.setback.start[side] }, { from: link.length - link.setback.end[side], to: link.length }];
       const sign = side === "left" ? 1 : -1;
       const blocks = Math.max(1, Math.ceil(link.length / FRONTAGE.STEP_M));
       const blockAt = new Map<number, { frontage: Frontage | null; area?: string }>();
@@ -358,11 +354,9 @@ export function buildKerbs(input: KerbInput): { stretches: Stretch[]; report: Ke
         if (to - from < 0.01) continue;
         const cover = intervals.filter((i) => i.from <= from && i.to >= to);
         if (!cover.length && !unsignedAllowed) continue;
-        if (within(ys, mid)) continue;
-        // Where paired plates govern the kerb, they override OSM's parking:*=no and the s 170 setback.
-        const paired = cover.some((i) => !i.lowConfidence);
-        if (!paired && within(setbacks, mid)) continue;
-        if (!paired && within(noParking, mid)) { parkingNoM += to - from; continue; }
+        // Hard trims, whatever the plates say: yellow lines, s 170 setbacks and OSM parking:*=no.
+        if (within(ys, mid) || within(setbacks, mid)) continue;
+        if (within(noParking, mid)) { parkingNoM += to - from; continue; }
         const at = block(mid);
         if (at.frontage?.excluded) { excludedM[at.frontage.excluded] += to - from; continue; }
         if (!at.frontage) noFrontageM += to - from;
@@ -442,8 +436,9 @@ function stretch(link: Link, side: Side, piece: { from: number; to: number; cove
   const kerb = offset(centre, side === "left" ? link.halfWidth : -link.halfWidth);
   const plates = cover.map((i) => i.placed.plate);
   const record = cover[0]?.placed.record;
-  // An unsigned kerb in the St Lucia Traffic Area takes the area's rule; signed kerbs there are "as signed".
-  const sta = !cover.length && at.area === ST_LUCIA_TRAFFIC_AREA.NAME;
+  // A kerb in the St Lucia Traffic Area takes the area's rule alongside its plates', and the timetable
+  // resolves them to the most restrictive at each moment.
+  const area: Rule[] = at.area === ST_LUCIA_TRAFFIC_AREA.NAME ? [{ ...ST_LUCIA_TRAFFIC_AREA.RULE }] : [];
   const lowConfidence = cover.some((i) => i.lowConfidence);
   return {
     link, side, from, to,
@@ -451,9 +446,9 @@ function stretch(link: Link, side: Side, piece: { from: number; to: number; cove
     line: kerb.map(toLonLat),
     street: link.name || titleCase(record?.street ?? ""),
     suburb: record ? titleCase(record.suburb ?? "") : suburbOf(pointAt(kerb, (to - from) / 2).p),
-    plates: sta ? [ST_LUCIA_TRAFFIC_AREA.RULE.label] : [...new Set(plates.map((p) => p.label))],
-    rules: sta ? [{ ...ST_LUCIA_TRAFFIC_AREA.RULE }] : dedupe(plates.flatMap((p) => p.rules)),
-    lenientRules: sta ? [{ ...ST_LUCIA_TRAFFIC_AREA.RULE }] : dedupe(plates.filter((p) => !p.unparsed).flatMap((p) => p.rules)),
+    plates: [...new Set([...plates.map((p) => p.label), ...area.map((r) => r.label)])],
+    rules: dedupe([...plates.flatMap((p) => p.rules), ...area]),
+    lenientRules: dedupe([...plates.filter((p) => !p.unparsed).flatMap((p) => p.rules), ...area]),
     unparsed: [...new Set(plates.flatMap((p) => (p.unparsed ? [p.unparsed] : [])))],
     cautions: [...(lowConfidence ? ["Low-confidence stretch"] : []), ...cautions],
     lowConfidence,

@@ -14,12 +14,12 @@ You're running a parkup evaluation batch. Read `CONTEXT.md` for the vocabulary. 
    to 8; candidates that inherited a current evaluation from an earlier build are left out. Take groups
    from the top. For the calibration set, skip any folder that already has an `evaluation.json` with the
    current rubric version (the first line of `src/evaluate/rubric.md`), unless told to redo everything.
-2. **Prepare the context.** Run `npm run evaluate -- prepare --calibration [spot-id ...]` or
+2. **Prepare the context.** Run `npm run evaluate -- prepare --calibration [place-id ...]` or
    `npm run evaluate -- prepare <candidate-id ...>`. It writes `context.json` per folder and the imagery to
    the gitignored `.cache/imagery/`. If Esri refuses keyless export, a chunk's `images.esri` is `null` and
    the agents use the QLD aerial alone. Re-run it for any folder that failed.
 3. **Group the work.** For a real batch, one group per line of the queue. For the calibration set, up to
-   about 8 spots per group.
+   about 8 known places per group.
 4. **Fan out.** For each group, start a subagent with the Agent tool, `model: "sonnet"`, all groups in one
    message so they run in parallel. Give each the prompt below with its folders filled in.
 5. **Check and stamp.** When the subagents finish, run
@@ -29,8 +29,9 @@ You're running a parkup evaluation batch. Read `CONTEXT.md` for the vocabulary. 
    points, stamps the imagery dates, `evaluated_at`, the model and the rubric version, and writes
    `evaluation.json`. Send any folder it rejects back to a fresh subagent with the error.
 6. **Calibration only:** run `npm run evaluate -- calibrate`. It writes `data/calibration/report.md` and
-   fails unless every good and poor call of the user's matches. Don't start a real batch on a failing
-   calibration.
+   fails unless every good and poor call of the user's matches and every known place was judged under the
+   current rubric version. `queue` and `prepare` for a real batch refuse to run until it passes; don't
+   pass `--skip-calibration-gate` unless the user tells you to.
 7. **Real batch only:** run `npm run build:data` to fold the new evaluations into `public/candidates.json`.
 8. Commit the `context.json`, `agent.json` and `evaluation.json` files (and the report or the rebuilt
    dataset). Never commit imagery.

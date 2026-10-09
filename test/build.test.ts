@@ -74,12 +74,12 @@ describe("pairing opposite arrows (s 332)", () => {
   });
 
   it("snaps a plate to the street it names, not just the nearest centreline", () => {
-    // 3 m south of Top Road and 8 m west of Test Street: nearer Top Road's centreline.
+    // 3 m south of Top Road and 8 m west of Test Street: nearer Top Road's centreline. The s 170 setback still trims it.
     const signs = [
       sign({ x: -8, y: -3, dir: "Left", type: NP, times: "MON-FRI:7am-6pm" }),
       sign({ x: -4, y: -60, dir: "Right", type: NP, times: "MON-FRI:7am-6pm" }),
     ];
-    expect(run(signs).candidates.map((c) => [c.street, extent(c)])).toEqual([["Test Street", [-3, -60]]]);
+    expect(run(signs).candidates.map((c) => [c.street, extent(c)])).toEqual([["Test Street", [-14, -60]]]);
   });
 });
 

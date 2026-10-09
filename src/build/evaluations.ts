@@ -1,15 +1,16 @@
 // The evaluation store and carry-over: matches committed evaluations to rebuilt candidates by geometry, and decides
 // what still needs evaluating. Signs play no part, so a sign change re-runs the screen and keeps the evaluation.
 import type { Evaluation } from "../evaluate/check.ts";
-import { CARRY_OVER, QUEUE_GROUP } from "./config.ts";
-import { dist, inRings, length, pointAt, project, toXY, type Compass, type LonLat, type XY } from "./geo.ts";
+import type { CandidateKind } from "./build.ts";
+import { CARRY_OVER, QUEUE_GROUP, type Tier } from "./config.ts";
+import { centreOf, dist, inRings, length, pointAt, project, shapeOf, toXY, type Compass, type LonLat, type XY } from "./geo.ts";
 
 /** A committed evaluation with the geometry of the candidate it judged, as the batch saw it. */
 export type PriorEvaluation = {
   /** The id of the candidate it judged, which a rebuild may have renumbered. */
   candidate: string;
-  /** kerb: a kerb line. outline: a parking area's boundary. point: a single point. */
-  kind: "kerb" | "outline" | "point";
+  /** The kind of candidate it judged. An evaluation carries over only to a candidate of the same kind. */
+  kind: CandidateKind;
   line: LonLat[];
   /** The compass side of a kerb. */
   side: string | null;
@@ -33,10 +34,11 @@ export type CandidateEvaluation = Pick<Evaluation, "verdict" | "summary" | "reas
   current: boolean;
 };
 
-type Target = { id: string; kind: "kerb" | "parking-area" | "off-road"; side: Compass | null; line: LonLat[] };
+/** A rebuilt candidate, as carry-over sees it. */
+type Rebuilt = { id: string; kind: CandidateKind; side: Compass | null; line: LonLat[] };
 
 /** The evaluation `c` inherits, if any: the closest geometric match, then the newest. */
-export function inherit(c: Target, priors: PriorEvaluation[], current: CurrentEvaluation): CandidateEvaluation | null {
+export function inherit(c: Rebuilt, priors: PriorEvaluation[], current: CurrentEvaluation): CandidateEvaluation | null {
   let best: { prior: PriorEvaluation; score: number } | null = null;
   for (const prior of priors) {
     const score = match(c, prior);
@@ -56,14 +58,14 @@ export function inherit(c: Target, priors: PriorEvaluation[], current: CurrentEv
 }
 
 /** One subagent's share of a batch: candidates of one tier in one suburb. */
-export type QueueGroup = { tier: 1 | 2 | 3 | null; suburb: string; ids: string[] };
+export type QueueGroup = { tier: Tier | null; suburb: string; ids: string[] };
 
 /**
  * The candidates still to evaluate, in tier order, grouped by suburb into groups of up to `size`. Candidates with a
  * current evaluation are skipped, so re-running after a stop carries on; `force` queues them all.
  */
 export function evaluationQueue(
-  candidates: { id: string; tier: 1 | 2 | 3 | null; suburb: string; evaluation: { current: boolean } | null }[],
+  candidates: { id: string; tier: Tier | null; suburb: string; evaluation: { current: boolean } | null }[],
   { force = false, size = QUEUE_GROUP }: { force?: boolean; size?: number } = {},
 ): QueueGroup[] {
   const due = candidates.filter((c) => force || !c.evaluation?.current);
@@ -89,20 +91,20 @@ function isCurrent(e: Evaluation, current: CurrentEvaluation): boolean {
 }
 
 /** How well a prior evaluation's geometry matches the candidate, higher is better; null when it doesn't. */
-function match(c: Target, prior: PriorEvaluation): number | null {
+function match(c: Rebuilt, prior: PriorEvaluation): number | null {
+  if (prior.kind !== c.kind) return null;
   if (c.kind === "kerb") {
-    if (prior.kind !== "kerb" || prior.side !== c.side) return null;
+    if (prior.side !== c.side) return null;
     const share = kerbOverlap(c.line.map(toXY), prior.line.map(toXY));
     return share >= CARRY_OVER.KERB_OVERLAP ? share : null;
   }
-  if (prior.kind === "kerb") return null;
   if (prior.candidate === c.id) return 2;
   const a = c.line.map(toXY), b = prior.line.map(toXY);
-  if (a.length > 3 && b.length > 3) {
+  if (shapeOf(a) === "ring" && shapeOf(b) === "ring") {
     const share = outlineOverlap(a, b);
     return share >= CARRY_OVER.OUTLINE_OVERLAP ? share : null;
   }
-  const d = dist(centre(a), centre(b));
+  const d = dist(centreOf(a), centreOf(b));
   return d <= CARRY_OVER.POINT_M ? 1 - d / CARRY_OVER.POINT_M / 2 : null;
 }
 
@@ -132,4 +134,3 @@ function outlineOverlap(a: XY[], b: XY[]): number {
   return both / Math.max(inA, inB, 1);
 }
 
-const centre = (pts: XY[]): XY => [pts.reduce((s, p) => s + p[0], 0) / pts.length, pts.reduce((s, p) => s + p[1], 0) / pts.length];

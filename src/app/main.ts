@@ -4,7 +4,8 @@ import type { Geometry } from "geojson";
 // MapLibre finds its worker next to its own module, which bundling breaks, so hand it the bundled worker.
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import "./style.css";
-import type { Candidate } from "../build/build.ts";
+import type { Candidate, CandidateKind } from "../build/build.ts";
+import { centreOf, shapeOf } from "../build/geo.ts";
 import { installBanner } from "./install.ts";
 import { addToiletLayer, loadToilets, paintToilets, toiletFact } from "./toilets.ts";
 import { brisbane, canStay, fmtDay, fmtTime, limitName, MIN_STAY_HOURS, NOW_HOURS, outBy, windows, type Preset } from "../timetable/timetable.ts";
@@ -19,6 +20,8 @@ const VERDICTS = { good: { label: "Good", color: "#6EE7B7" }, maybe: { label: "M
 const colour = (c: Candidate) => (c.evaluation ? VERDICTS[c.evaluation.verdict].color : UNEVALUATED);
 // Kerb lines are too thin to tap at suburb zoom, so each stretch is a dot until street zoom.
 const STREET_ZOOM = 15.5;
+/** Suburb zoom, from which every pin shows its kind icon. */
+const SUBURB_ZOOM = 12;
 const MAP_COLOURS = { land: "#121214", water: "#0C1820", park: "#131916", building: "#1B1B1E", minor: "#26262A", major: "#35353B",
   motorway: "#45454D", casing: "#121214", rail: "#2A2A2F", label: "#85858E", halo: "#121214" };
 
@@ -51,24 +54,51 @@ function midpoint(line: LonLat[]): LonLat {
 function anchor(c: Candidate): LonLat {
   const best = c.evaluation?.best_section?.points;
   if (best?.length) return midpoint(best);
-  if (c.kind !== "parking-area" || c.line.length < 3) return midpoint(c.line);
-  const pts = c.line.slice(0, -1);
-  return [pts.reduce((s, p) => s + p[0], 0) / pts.length, pts.reduce((s, p) => s + p[1], 0) / pts.length];
+  return shapeOf(c.line) === "ring" ? centreOf(c.line) : midpoint(c.line);
 }
 
-const KIND_NAMES: Record<Candidate["kind"], string> = { "kerb": "Kerb", "parking-area": "Parking area", "off-road": "Off-road site" };
+/** What the app shows per kind of candidate: its name, its icon, its meta line and the card's wording. */
+type KindInfo = {
+  name: string;
+  /** Draws the icon's mark onto a 32 px canvas. */
+  mark: (cx: CanvasRenderingContext2D) => void;
+  /** The meta line's parts after the suburb. */
+  meta: (c: Candidate) => string[];
+  noLimit: string;
+  noSigns: string;
+  /** Sites show their tenure; a kerb is road reserve. */
+  tenure: boolean;
+};
+const KINDS: Record<CandidateKind, KindInfo> = {
+  "kerb": {
+    name: "Kerb",
+    mark: (cx) => { cx.beginPath(); cx.moveTo(9, 20); cx.lineTo(23, 12); cx.stroke(); },
+    meta: (c) => [`${c.side} side`, `${Math.round(c.lengthM)} m of kerb`],
+    noLimit: "No limit on the plates", noSigns: "No signs: road rules only", tenure: false,
+  },
+  "parking-area": {
+    name: "Parking area",
+    mark: (cx) => { cx.font = "bold 19px system-ui, sans-serif"; cx.textAlign = "center"; cx.textBaseline = "middle"; cx.fillText("P", 16, 17); },
+    meta: () => ["Off-street car park"],
+    noLimit: "No limit mapped", noSigns: "No signs mapped here", tenure: true,
+  },
+  "off-road": {
+    name: "Off-road site",
+    mark: (cx) => { cx.beginPath(); cx.moveTo(7, 22); cx.lineTo(14, 11); cx.lineTo(18, 17); cx.lineTo(20, 14); cx.lineTo(25, 22); cx.closePath(); cx.fill(); },
+    meta: (c) => [c.trafficability ? `Track, ${c.trafficability}` : "Track or clearing"],
+    noLimit: "No limit mapped", noSigns: "No signs mapped here", tenure: true,
+  },
+};
 
 /** A small icon per kind, drawn once onto a canvas: a kerb line, a P for a parking area, a peak for an off-road site. */
-function kindIcon(kind: Candidate["kind"]): ImageData {
+function kindIcon(kind: CandidateKind): ImageData {
   const size = 32, cx = document.createElement("canvas").getContext("2d")!;
   cx.canvas.width = cx.canvas.height = size;
   cx.fillStyle = "#111113";
   cx.beginPath(); cx.arc(16, 16, 15, 0, Math.PI * 2); cx.fill();
   cx.strokeStyle = cx.fillStyle = "#E8E8EC";
   cx.lineWidth = 3; cx.lineCap = "round";
-  if (kind === "kerb") { cx.beginPath(); cx.moveTo(9, 20); cx.lineTo(23, 12); cx.stroke(); }
-  else if (kind === "parking-area") { cx.font = "bold 19px system-ui, sans-serif"; cx.textAlign = "center"; cx.textBaseline = "middle"; cx.fillText("P", 16, 17); }
-  else { cx.beginPath(); cx.moveTo(7, 22); cx.lineTo(14, 11); cx.lineTo(18, 17); cx.lineTo(20, 14); cx.lineTo(25, 22); cx.closePath(); cx.fill(); }
+  KINDS[kind].mark(cx);
   return cx.getImageData(0, 0, size, size);
 }
 
@@ -78,11 +108,7 @@ const frontage = (c: Candidate) => (c.tier && c.frontage ? `Tier ${c.tier} · ${
 
 /** The line under the name: where it is, and what it is. */
 function meta(c: Candidate): string {
-  const parts = [c.suburb];
-  if (c.kind === "kerb") parts.push(`${c.side} side`, `${Math.round(c.lengthM)} m of kerb`);
-  else if (c.kind === "parking-area") parts.push("Off-street car park");
-  else parts.push(c.trafficability ? `Track, ${c.trafficability}` : "Track or clearing");
-  return parts.filter(Boolean).join(" · ");
+  return [c.suburb, ...KINDS[c.kind].meta(c)].filter(Boolean).join(" · ");
 }
 
 const gmaps = (c: Candidate) => { const [lon, lat] = anchor(c); return `https://www.google.com/maps/search/?api=1&query=${lat.toFixed(6)},${lon.toFixed(6)}`; };
@@ -201,7 +227,7 @@ async function main(root: HTMLElement) {
     })),
   });
   const kerbs = candidates.filter((c) => c.kind === "kerb");
-  const outlines = candidates.filter((c) => c.kind === "parking-area" && c.line.length > 3);
+  const outlines = candidates.filter((c) => shapeOf(c.line) === "ring");
   function paint() {
     const hours = Math.min(win.key === "now" ? NOW_HOURS : MIN_STAY_HOURS, Math.round((+win.to - +win.from) / 3600e3));
     caption.textContent = `Faded: you'd have to move within ${hours} hours`;
@@ -232,7 +258,7 @@ async function main(root: HTMLElement) {
       paint: { "line-color": ["get", "color"], "line-width": 2, "line-opacity": ["get", "opacity"] } }, "kerb-glow");
     const isKerb = ["==", ["get", "kind"], "kerb"] as ExpressionSpecification;
     const dotPaint = {
-      "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, ["+", 2, ["*", 0.5, ["get", "rank"]]], 15, ["+", 3.5, ["get", "rank"]]] as ExpressionSpecification,
+      "circle-radius": ["interpolate", ["linear"], ["zoom"], SUBURB_ZOOM, ["+", 2, ["*", 0.5, ["get", "rank"]]], 15, ["+", 3.5, ["get", "rank"]]] as ExpressionSpecification,
       "circle-color": ["get", "color"] as ExpressionSpecification, "circle-opacity": ["get", "opacity"] as ExpressionSpecification,
       "circle-stroke-color": "#111113", "circle-stroke-width": 1.5, "circle-stroke-opacity": ["get", "opacity"] as ExpressionSpecification,
     };
@@ -242,11 +268,14 @@ async function main(root: HTMLElement) {
     // At street zoom an evaluated kerb keeps a pin on its line, at the best section.
     map.addLayer({ id: "best-dot", type: "circle", source: "dots", minzoom: STREET_ZOOM, filter: ["all", isKerb, ["get", "evaluated"]],
       paint: { ...dotPaint, "circle-radius": 7, "circle-stroke-color": "#fff", "circle-stroke-width": 2 } });
-    // The kind icon: kerbs while they're dots, sites from a little further out.
-    for (const kind of ["kerb", "parking-area", "off-road"] as const) map.addImage(`kind-${kind}`, kindIcon(kind), { pixelRatio: 2 });
-    const icon = { "icon-image": ["concat", "kind-", ["get", "kind"]] as ExpressionSpecification, "icon-allow-overlap": true, "icon-size": 1, "symbol-sort-key": ["get", "order"] as ExpressionSpecification };
-    map.addLayer({ id: "kerb-icon", type: "symbol", source: "dots", minzoom: 14, maxzoom: STREET_ZOOM, filter: isKerb, layout: icon, paint: { "icon-opacity": ["get", "opacity"] } });
-    map.addLayer({ id: "site-icon", type: "symbol", source: "dots", minzoom: 13, filter: ["!", isKerb], layout: icon, paint: { "icon-opacity": ["get", "opacity"] } });
+    // The kind icon on every pin from suburb zoom, small at first: kerbs while they're dots, sites throughout.
+    for (const kind of Object.keys(KINDS) as CandidateKind[]) map.addImage(`kind-${kind}`, kindIcon(kind), { pixelRatio: 2 });
+    const icon = {
+      "icon-image": ["concat", "kind-", ["get", "kind"]] as ExpressionSpecification, "icon-allow-overlap": true,
+      "icon-size": ["interpolate", ["linear"], ["zoom"], SUBURB_ZOOM, 0.6, 14, 1] as ExpressionSpecification, "symbol-sort-key": ["get", "order"] as ExpressionSpecification,
+    };
+    map.addLayer({ id: "kerb-icon", type: "symbol", source: "dots", minzoom: SUBURB_ZOOM, maxzoom: STREET_ZOOM, filter: isKerb, layout: icon, paint: { "icon-opacity": ["get", "opacity"] } });
+    map.addLayer({ id: "site-icon", type: "symbol", source: "dots", minzoom: SUBURB_ZOOM, filter: ["!", isKerb], layout: icon, paint: { "icon-opacity": ["get", "opacity"] } });
     paint();
   });
 
@@ -276,15 +305,15 @@ async function main(root: HTMLElement) {
     selected = c;
     const e = c.evaluation;
     sheet.innerHTML = `<div class="grab"></div><div class="body">
-      <div class="tags"><span class="tag" style="--c:${colour(c)}">${e ? VERDICTS[e.verdict].label : "Not evaluated"}</span><span class="tag" style="--c:var(--muted)">${KIND_NAMES[c.kind]}</span><span class="tag" style="--c:var(--muted)">${esc(frontage(c))}</span></div>
+      <div class="tags"><span class="tag" style="--c:${colour(c)}">${e ? VERDICTS[e.verdict].label : "Not evaluated"}</span><span class="tag" style="--c:var(--muted)">${KINDS[c.kind].name}</span><span class="tag" style="--c:var(--muted)">${esc(frontage(c))}</span></div>
       <h2>${esc(c.street)}</h2>
       <div class="kv">${esc(meta(c))}</div>
       ${c.dayOnly ? `<div class="day-only">Day only: the signs don't allow a night here</div>` : ""}
       ${e ? evaluationBlock(e) : ""}
       ${outBlock(c)}
-      <dl class="facts"><dt>Max stay</dt><dd>${c.maxStayHours ? limitName(c.maxStayHours) : c.kind === "kerb" ? "No limit on the plates" : "No limit mapped"}</dd>${
-        c.kind === "kerb" ? "" : `<dt>Tenure</dt><dd>${esc(c.tenure ?? "Unknown")}</dd>`}${toiletFact(c, toilets, win)}</dl>
-      <div class="plates">${c.plates.length ? c.plates.map(plate).join("") : `<span class="kv">${c.kind === "kerb" ? "No signs: road rules only" : "No signs mapped here"}</span>`}</div>
+      <dl class="facts"><dt>Max stay</dt><dd>${c.maxStayHours ? limitName(c.maxStayHours) : KINDS[c.kind].noLimit}</dd>${
+        !KINDS[c.kind].tenure ? "" : `<dt>Tenure</dt><dd>${esc(c.tenure ?? "Unknown")}</dd>`}${toiletFact(c, toilets, win)}</dl>
+      <div class="plates">${c.plates.length ? c.plates.map(plate).join("") : `<span class="kv">${KINDS[c.kind].noSigns}</span>`}</div>
       ${c.cautions.length ? `<ul class="cautions">${c.cautions.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
       <p class="check">Check the signs on arrival. No sign isn't permission.</p>
       </div><a class="gmaps" href="${gmaps(c)}" target="_blank" rel="noopener">Open in Google Maps <span aria-hidden="true">↗</span></a>`;

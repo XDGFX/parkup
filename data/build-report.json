@@ -80,7 +80,7 @@
       "count": 2,
       "dropped": 0,
       "normal": 0,
-      "unreadable": 1
+      "unreadable": 0
     },
     {
       "text": "Taxi Zone: ALL OTHER TIMES:-",
@@ -104,11 +104,11 @@
       "unreadable": 0
     }
   ],
-  "short": 908,
-  "parkingNoM": 21343,
+  "short": 896,
+  "parkingNoM": 25053,
   "excludedM": {
-    "school": 3872,
-    "kindergarten": 137
+    "school": 3715,
+    "kindergarten": 135
   },
   "coverage": {
     "schools": {
@@ -120,22 +120,22 @@
       "inExcludedZone": 9
     }
   },
-  "noFrontageM": 6883,
-  "stretches": 2628,
+  "noFrontageM": 6785,
+  "stretches": 2544,
   "unsigned": 1940,
-  "failsScreen": 276,
-  "candidates": 2659,
+  "failsScreen": 206,
+  "candidates": 2642,
   "lowConfidence": 145,
-  "dayOnly": 7,
+  "dayOnly": 6,
   "byTier": {
-    "1": 507,
-    "2": 627,
-    "3": 1337,
-    "none": 188
+    "1": 505,
+    "2": 625,
+    "3": 1328,
+    "none": 184
   },
   "sites": {
     "parkingAreas": 163,
-    "offRoad": 144,
+    "offRoad": 141,
     "withTimetable": 1,
     "failsScreen": 2
   },
@@ -143,6 +143,6 @@
     "evaluated": 6,
     "current": 6,
     "carriedOver": 3,
-    "queued": 2653
+    "queued": 2636
   }
 }

@@ -15,7 +15,7 @@
 
 </div>
 
-parkup combines Brisbane City Council's parking-sign data with OpenStreetMap to find kerbs and car parks where you can legally stay the night. It then ranks them by how secluded they look from overhead imagery. Pick **Tonight**, **Weekend** or **Now**, tap a spot to see when you'd have to move and where the nearest toilet is, then open it in Google Maps to check it and save it.
+parkup combines Brisbane City Council's parking-sign data with OpenStreetMap to find kerbs and car parks where you can legally stay the night. It then ranks them by how secluded they look from overhead imagery. Pick **Tonight**, **Weekend** or **Now**, tap a pin to see when you'd have to move and where the nearest toilet is, then open it in Google Maps to check it and save it.
 
 It runs as a static site on GitHub Pages. Imagery is evaluated offline beforehand, so the app needs no account or API key.
 
@@ -32,9 +32,11 @@ It runs as a static site on GitHub Pages. Imagery is evaluated offline beforehan
 |---|---|
 | `npm run snapshot` | Fetches BCC parking signs and OSM centrelines into `data/snapshot/` (committed). |
 | `npm run build:data` | Snapshot to candidates: writes `public/candidates.json` and `data/build-report.{md,json}`. Add `-- --snapshot` to take a fresh snapshot first. |
+| `npm run evaluate -- queue [--force] [--json]` | Lists the candidates without a current evaluation, in tier order, grouped by suburb. Rebuild the data first. |
 | `npm run evaluate -- prepare\|check\|calibrate` | Evaluation batch helpers: fetch each candidate's context and imagery, check and stamp the agents' output, and compare the calibration set with your verdicts. The agents themselves run in a Claude Code session following `src/evaluate/batch-prompt.md`. |
+| `--skip-calibration-gate` | `queue` and `prepare` for a batch refuse to run until the committed calibration passes on the current rubric version; this flag overrides that, for calibration work itself. |
 | `npm run dev` | Runs the app locally. |
-| `npm test` | Timetable (seam 1) and build (seam 2) tests. |
+| `npm test` | Timetable (seam 1), build (seam 2, including sites, toilets and evaluation carry-over) and evaluation post-processing and calibration tests. |
 | `npm run typecheck` | TypeScript check. |
 
 The app deploys to GitHub Pages from `main`.
