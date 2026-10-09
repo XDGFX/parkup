@@ -1,4 +1,4 @@
-<!-- parkup evaluation rubric v6. Sent to each subagent with the batch prompt; bump the version on any change and re-run the calibration set. -->
+<!-- parkup evaluation rubric v10. Sent to each subagent with the batch prompt; bump the version on any change and re-run the calibration set. -->
 
 You are evaluating one **candidate** for parkup: a place in or near Brisbane where someone might park a
 light campervan (under 7.5 m) overnight and sleep in it. What they want most is **seclusion**: somewhere
@@ -27,8 +27,12 @@ council parking signs (Brisbane City Council area only).
 - `point`: the yellow ring marks a pin someone dropped by hand. It's **approximate** and may land in a
   creek or on a hillside next to the real spot. Find the best place a van could stop within about
   100 m of the ring: a track, clearing, gravel area, car park or kerb. Look for parked vehicles and
-  tyre tracks. `mapped_parking` lists OSM car parks within 100 m; one close to the ring is probably the
-  place meant. Judge that place, and say what kind it is.
+  tyre tracks. The image shows 100 m each way from the ring. `mapped_parking` lists OSM car parks and
+  `mapped_ways` OSM service roads and tracks within 100 m; one close to the ring is probably the place
+  meant. A ring in water or thick bush usually means the pin is off, not that there's nowhere to stop.
+  A mapped car park at or right beside the ring is a parking area with a way in: judge it as one, even
+  if trees hide it from above. Small is fine if a van fits.
+  Judge that place, and say what kind it is.
 
 Esri can be shifted by several metres against QLD, or hide the ground under tree canopy. If a road or
 clearing sits in a different place in the two images, go by QLD for where things are.
@@ -50,17 +54,19 @@ Any one of these makes the verdict `poor`, however secluded the place is:
 - **A utility track.** A van stopped on a powerline, pipeline or water-main easement track, past where it
   leaves the road, is on a track that's normally gated or closed to the public. A pale bar across a
   track's mouth is a gate, not a vehicle. A wide verge or pull-in beside the road, next to such a track,
-  is not on it.
-- **A main road with no parking.** On a kerb: a through route or main road where no cars are parked
-  along the kerb and there's no marked parking lane. A wide kerbside lane where other cars clearly
-  park is fine.
+  is not on it. But the apron at a utility track's mouth, in front of where its gate is or would be, is
+  part of the track: a van there blocks the access.
+- **A main road with no parking.** On a kerb: a through route, collector or main road (one linking
+  roundabouts or suburbs, not a quiet residential street) where no cars are parked along the kerb and
+  there's no marked parking lane. A wide kerbside lane where other cars clearly park is fine.
 - **A house right there.** `context.json` → `buildings` lists OSM buildings with their distance from the
   kerb or outline (`metres`), where along it they sit (`at_m`) and whether their tags mark them as a home
   (`dwelling`). A house, apartment or other dwelling within about 10 m of the best section rules it out.
   Sheds, clubhouses, toilets and other non-residential buildings don't count. OSM misses some buildings
   and tags many homes only as `yes`, so check the imagery too. Code re-checks mapped dwellings and mapped
   gates (`gates`, with `on_only_access`) against your best section afterwards, so give `from_m` and `to_m`
-  accurately.
+  accurately. A mapped gate with `on_only_access: false` has a mapped way round it: mention it as a flag
+  if it's close, but don't mark the place down for it.
 
 ## Grading
 
@@ -74,9 +80,14 @@ If nothing rules it out, grade the best section on **seclusion: who would care?*
 - **Traffic and noise are flags, not drawbacks**, wherever the van stands clear of the lane: a car park,
   lay-by, wide gravel verge, clearing or off-road site beside a busy road, among industry, bush or
   fields, is still `good`. Passing drivers don't care about a parked van; neighbours do.
+- **People already stay there.** Campervans, caravans, motorhomes or tents in the imagery are the
+  strongest sign a place is accepted for the night. Grade it `good` unless something rules it out;
+  don't mark it down because it might be managed or patrolled.
+- **Distance is what counts.** Homes more than about 25 m away, across a road, park, oval or field,
+  don't count against a place, even if they look onto it.
 - `maybe`: workable, with one real drawback: dwellings 10–25 m away on the section's own side, homes
-  facing it closely all round, a kerb with no parking convention, or a plain kerb on a busy through
-  road (not a lay-by or verge set off the lane).
+  within about 25 m all round, a kerb on a quiet residential street with no parking convention, or a
+  plain kerb on a busy road where cars do park (not a lay-by or verge set off the lane).
 
 ## Flags
 

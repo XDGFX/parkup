@@ -1,0 +1,28 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Boat-ramp car park beside Nudgee Creek, mangroves all round, no homes.",
+  "reasons": ["Mangroves and creek surround it", "No buildings in range", "Vehicles and trailers already parked"],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Gravel and sealed bay about 60 m north-east of the pin, at the creek-side end of the ramp road",
+    "slope_pct": 1
+  },
+  "drivers": {
+    "seclusion": "Mangrove and creek bank on all sides; no dwellings mapped or seen.",
+    "access_and_room": "Sealed road curls down to a gravel apron where cars and trailers park; room for a van.",
+    "traffic": "Dead-end ramp road; light traffic.",
+    "convention": "Cars, utes and trailers parked; boat launch use, no campers seen."
+  },
+  "flags": [
+    "Pin is in the creek, so the spot is a nearby car park",
+    "Very low-lying: about 0 m elevation by tidal Nudgee Creek, flood and king tide risk",
+    "Ramp users arrive early",
+    "Mosquitoes likely among the mangroves"
+  ],
+  "sun_shade": "Largely open with scattered trees; afternoon sun from the west over the creek.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Gates or night closure", "Signs on site", "Surface firmness of the gravel apron", "Tide levels"],
+  "confidence": "low"
+}

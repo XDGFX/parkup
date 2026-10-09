@@ -1,0 +1,449 @@
+{
+  "id": "garden-car-park",
+  "street": "Taringa Community Garden car park",
+  "suburb": "Taringa",
+  "kind": "outline",
+  "line": [
+    [
+      152.9923321,
+      -27.4922861
+    ],
+    [
+      152.9924092,
+      -27.4923223
+    ],
+    [
+      152.9924975,
+      -27.4923637
+    ],
+    [
+      152.9926313,
+      -27.4921393
+    ],
+    [
+      152.9924659,
+      -27.4920617
+    ],
+    [
+      152.9923573,
+      -27.4922438
+    ],
+    [
+      152.9923321,
+      -27.4922861
+    ]
+  ],
+  "side": "outline",
+  "osm_tags": {
+    "access": "yes",
+    "amenity": "parking",
+    "fee": "no",
+    "parking": "surface"
+  },
+  "length_m": 93,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "service",
+      "name": null,
+      "dwelling": false,
+      "metres": 1,
+      "at_m": 15,
+      "outline": [
+        [
+          152.9924639,
+          -27.4923621
+        ],
+        [
+          152.9924816,
+          -27.492371
+        ],
+        [
+          152.9924504,
+          -27.4924196
+        ],
+        [
+          152.9924328,
+          -27.4924107
+        ],
+        [
+          152.9924639,
+          -27.4923621
+        ]
+      ]
+    },
+    {
+      "building": "service",
+      "name": null,
+      "dwelling": false,
+      "metres": 12,
+      "at_m": 9,
+      "outline": [
+        [
+          152.9923593,
+          -27.4924162
+        ],
+        [
+          152.9923835,
+          -27.4924284
+        ],
+        [
+          152.9923525,
+          -27.4924768
+        ],
+        [
+          152.9923283,
+          -27.4924646
+        ],
+        [
+          152.9923593,
+          -27.4924162
+        ]
+      ]
+    },
+    {
+      "building": "service",
+      "name": null,
+      "dwelling": false,
+      "metres": 21,
+      "at_m": 0,
+      "outline": [
+        [
+          152.992311,
+          -27.4924887
+        ],
+        [
+          152.9922265,
+          -27.4924461
+        ],
+        [
+          152.9921907,
+          -27.4925021
+        ],
+        [
+          152.9922752,
+          -27.4925446
+        ],
+        [
+          152.992311,
+          -27.4924887
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 25,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9920656,
+          -27.4923793
+        ],
+        [
+          152.9921114,
+          -27.4924024
+        ],
+        [
+          152.9920857,
+          -27.4924424
+        ],
+        [
+          152.99204,
+          -27.4924193
+        ],
+        [
+          152.9920656,
+          -27.4923793
+        ]
+      ]
+    },
+    {
+      "building": "service",
+      "name": null,
+      "dwelling": false,
+      "metres": 36,
+      "at_m": 11,
+      "outline": [
+        [
+          152.9922219,
+          -27.4926708
+        ],
+        [
+          152.9922552,
+          -27.4926188
+        ],
+        [
+          152.9923317,
+          -27.4926574
+        ],
+        [
+          152.9922984,
+          -27.4927094
+        ],
+        [
+          152.9922219,
+          -27.4926708
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9922478,
+      "lat": -27.4921613,
+      "metres": 14,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9922434,
+      "lat": -27.4921407,
+      "metres": 15,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9920277,
+      "lat": -27.4922581,
+      "metres": 30,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9934588,
+      "lat": -27.4907253,
+      "metres": 177,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9939478,
+      "lat": -27.4904482,
+      "metres": 229,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9919935,
+      "lat": -27.4948832,
+      "metres": 285,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.992332,
+        "lat": -27.492286,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 2.25
+      },
+      {
+        "lon": 152.992377,
+        "lat": -27.492307,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 2.26
+      },
+      {
+        "lon": 152.992422,
+        "lat": -27.492328,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 2.3
+      },
+      {
+        "lon": 152.992467,
+        "lat": -27.492349,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 2.45
+      },
+      {
+        "lon": 152.992505,
+        "lat": -27.492351,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 2.53
+      },
+      {
+        "lon": 152.992529,
+        "lat": -27.492312,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 2.55
+      },
+      {
+        "lon": 152.992552,
+        "lat": -27.492272,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 2.53
+      },
+      {
+        "lon": 152.992576,
+        "lat": -27.492232,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 2.45
+      },
+      {
+        "lon": 152.9926,
+        "lat": -27.492192,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 2.44
+      },
+      {
+        "lon": 152.992623,
+        "lat": -27.492153,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 2.52
+      },
+      {
+        "lon": 152.992602,
+        "lat": -27.492125,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 2.29
+      },
+      {
+        "lon": 152.992557,
+        "lat": -27.492104,
+        "at_m": 55,
+        "line": 0,
+        "elevation_m": 2.32
+      },
+      {
+        "lon": 152.992512,
+        "lat": -27.492083,
+        "at_m": 60,
+        "line": 0,
+        "elevation_m": 2.21
+      },
+      {
+        "lon": 152.992467,
+        "lat": -27.492062,
+        "at_m": 65,
+        "line": 0,
+        "elevation_m": 2.25
+      },
+      {
+        "lon": 152.992443,
+        "lat": -27.4921,
+        "at_m": 70,
+        "line": 0,
+        "elevation_m": 2.21
+      },
+      {
+        "lon": 152.992419,
+        "lat": -27.49214,
+        "at_m": 75,
+        "line": 0,
+        "elevation_m": 2.26
+      },
+      {
+        "lon": 152.992395,
+        "lat": -27.49218,
+        "at_m": 80,
+        "line": 0,
+        "elevation_m": 2.27
+      },
+      {
+        "lon": 152.992372,
+        "lat": -27.49222,
+        "at_m": 85,
+        "line": 0,
+        "elevation_m": 2.32
+      },
+      {
+        "lon": 152.992348,
+        "lat": -27.492259,
+        "at_m": 90,
+        "line": 0,
+        "elevation_m": 2.27
+      },
+      {
+        "lon": 152.992332,
+        "lat": -27.492286,
+        "at_m": 93.4,
+        "line": 0,
+        "elevation_m": 2.25
+      }
+    ],
+    "min_elevation_m": 2.2,
+    "max_elevation_m": 2.6,
+    "mean_grade_pct": 1.2,
+    "max_grade_pct": 4.6
+  },
+  "waterway": {
+    "name": "Toowong Creek",
+    "metres": 48
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 0,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 6,
+      "access": "customers",
+      "fee": "no",
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 51,
+      "access": "customers",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 93,
+      "length_m": 93,
+      "images": {
+        "esri": ".cache/imagery/garden-car-park/chunk1-esri.jpg",
+        "qld": ".cache/imagery/garden-car-park/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_CBD_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-12-07",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        90,
+        94
+      ],
+      "image_px": [
+        597,
+        624
+      ]
+    }
+  ]
+}

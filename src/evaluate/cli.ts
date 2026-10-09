@@ -2,7 +2,7 @@
 //
 //   npm run evaluate -- prepare <candidate-id ...>        context for candidates from public/candidates.json
 //   npm run evaluate -- prepare --calibration [spot-id ...] context for the calibration set
-//   npm run evaluate -- check --model <id> <folder ...>   validate agent.json, apply rule-outs, stamp, write evaluation.json
+//   npm run evaluate -- check --model <id> <folder ...> | --calibration   validate agent.json, apply rule-outs, stamp, write evaluation.json
 //   npm run evaluate -- calibrate                          compare the calibration set with the user's verdicts
 import { readFile, stat, writeFile } from "node:fs/promises";
 import { HALF_WIDTH_M } from "../build/config.ts";
@@ -57,7 +57,9 @@ if (command === "prepare") {
   const m = args.indexOf("--model");
   if (m < 0 || !args[m + 1]) throw new Error("check needs --model <model id>");
   const model = args[m + 1]!;
-  const dirs = args.filter((_, i) => i !== m && i !== m + 1);
+  const dirs = args.filter((a, i) => i !== m && i !== m + 1 && a !== "--calibration");
+  if (args.includes("--calibration"))
+    dirs.push(...(await readJson<Spot[]>(`${CALIBRATION}/spots.json`)).map((s) => `${CALIBRATION}/${s.id}`));
   let failed = 0;
   for (const dir of dirs) {
     const agentFile = `${dir}/agent.json`;

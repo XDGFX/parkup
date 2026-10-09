@@ -68,5 +68,7 @@ export type Context = {
   waterway?: { name: string | null; metres: number } | null;
   /** OSM car parks (amenity=parking) within 100 m, nearest first. */
   mapped_parking?: { name: string | null; metres: number; access: string | null; fee: string | null; surface: string | null }[];
+  /** For a point: OSM service roads and tracks within 100 m, nearest first. */
+  mapped_ways?: { highway: string; service: string | null; name: string | null; surface: string | null; access: string | null; metres: number }[];
   chunks: Chunk[];
 };

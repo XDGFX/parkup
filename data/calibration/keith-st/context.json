@@ -1,0 +1,1450 @@
+{
+  "id": "keith-st",
+  "street": "Keith St",
+  "suburb": "St Lucia",
+  "kind": "kerb",
+  "line": [
+    [
+      153.009617,
+      -27.492373
+    ],
+    [
+      153.009616,
+      -27.492357
+    ],
+    [
+      153.009616,
+      -27.492349
+    ],
+    [
+      153.009615,
+      -27.492346
+    ],
+    [
+      153.009606,
+      -27.492318
+    ],
+    [
+      153.009633,
+      -27.492346
+    ],
+    [
+      153.008912,
+      -27.494277
+    ],
+    [
+      153.00891,
+      -27.494147
+    ],
+    [
+      153.008919,
+      -27.494125
+    ],
+    [
+      153.008989,
+      -27.493944
+    ]
+  ],
+  "side": "left",
+  "osm_tags": {
+    "highway": "residential",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "50",
+    "parking:both": "no",
+    "surface": "asphalt",
+    "sidewalk": "separate"
+  },
+  "length_m": 275,
+  "signs": [
+    {
+      "street": "KEITH STREET",
+      "restriction": "P (No Limit)",
+      "days_times": null,
+      "extra_text": "NO LIMIT",
+      "arrow": "Left",
+      "metres_from_kerb_line": 0.3
+    },
+    {
+      "street": "KEITH STREET",
+      "restriction": "P (No Limit)",
+      "days_times": null,
+      "extra_text": "NO LIMIT",
+      "arrow": "Right",
+      "metres_from_kerb_line": 4
+    },
+    {
+      "street": "KEITH STREET",
+      "restriction": "P (No Limit)",
+      "days_times": null,
+      "extra_text": "NO LIMIT",
+      "arrow": "Left",
+      "metres_from_kerb_line": 1.7
+    },
+    {
+      "street": "MACQUARIE STREET",
+      "restriction": "1/2P Parallel",
+      "days_times": "SCHOOLDAYS:7am-7pm",
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 9.4
+    },
+    {
+      "street": "KEITH STREET",
+      "restriction": "P (No Limit)",
+      "days_times": null,
+      "extra_text": "NO LIMIT",
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 3.5
+    },
+    {
+      "street": "KEITH STREET",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 1.7
+    },
+    {
+      "street": "KEITH STREET",
+      "restriction": "P (No Limit)",
+      "days_times": null,
+      "extra_text": "NO LIMIT",
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 2.7
+    },
+    {
+      "street": "KEITH STREET",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 0.3
+    },
+    {
+      "street": "SIR FRED SCHONELL DRIVE",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 13.2
+    },
+    {
+      "street": "KEITH STREET",
+      "restriction": "P (No Limit)",
+      "days_times": null,
+      "extra_text": "NO LIMIT",
+      "arrow": "Right",
+      "metres_from_kerb_line": 0.3
+    },
+    {
+      "street": "KEITH STREET",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 4
+    },
+    {
+      "street": "SIR FRED SCHONELL DRIVE",
+      "restriction": "No Stopping Specified Times",
+      "days_times": ":7-9:30am ,:4-6:30pm",
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 13.4
+    }
+  ],
+  "buildings": [
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 9,
+      "at_m": 27,
+      "outline": [
+        [
+          153.009352,
+          -27.4925184
+        ],
+        [
+          153.0093757,
+          -27.4924568
+        ],
+        [
+          153.009426,
+          -27.492472
+        ],
+        [
+          153.0094353,
+          -27.4924478
+        ],
+        [
+          153.0094888,
+          -27.4924641
+        ],
+        [
+          153.0094557,
+          -27.4925499
+        ],
+        [
+          153.009352,
+          -27.4925184
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 9,
+      "at_m": 37,
+      "outline": [
+        [
+          153.0094557,
+          -27.4925499
+        ],
+        [
+          153.0094291,
+          -27.4926188
+        ],
+        [
+          153.0093254,
+          -27.4925874
+        ],
+        [
+          153.009352,
+          -27.4925184
+        ],
+        [
+          153.0094557,
+          -27.4925499
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 10,
+      "at_m": 45,
+      "outline": [
+        [
+          153.0093017,
+          -27.4926489
+        ],
+        [
+          153.0093254,
+          -27.4925874
+        ],
+        [
+          153.0094291,
+          -27.4926188
+        ],
+        [
+          153.0094054,
+          -27.4926803
+        ],
+        [
+          153.0093017,
+          -27.4926489
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 10,
+      "at_m": 53,
+      "outline": [
+        [
+          153.0094054,
+          -27.4926803
+        ],
+        [
+          153.0093827,
+          -27.4927393
+        ],
+        [
+          153.009279,
+          -27.4927078
+        ],
+        [
+          153.0093017,
+          -27.4926489
+        ],
+        [
+          153.0094054,
+          -27.4926803
+        ]
+      ]
+    },
+    {
+      "building": "apartments",
+      "name": "Sir Fred",
+      "dwelling": true,
+      "metres": 11,
+      "at_m": 257,
+      "outline": [
+        [
+          153.0085747,
+          -27.4938407
+        ],
+        [
+          153.0088731,
+          -27.4939297
+        ],
+        [
+          153.0088221,
+          -27.4940645
+        ],
+        [
+          153.0085347,
+          -27.4940129
+        ],
+        [
+          153.008548,
+          -27.4939779
+        ],
+        [
+          153.0085349,
+          -27.493974
+        ],
+        [
+          153.0085667,
+          -27.4938901
+        ],
+        [
+          153.0085571,
+          -27.4938872
+        ],
+        [
+          153.0085747,
+          -27.4938407
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 11,
+      "at_m": 69,
+      "outline": [
+        [
+          153.0092343,
+          -27.4927876
+        ],
+        [
+          153.0092133,
+          -27.4928436
+        ],
+        [
+          153.0093145,
+          -27.4928734
+        ],
+        [
+          153.0093354,
+          -27.4928175
+        ],
+        [
+          153.0092343,
+          -27.4927876
+        ]
+      ]
+    },
+    {
+      "building": "university",
+      "name": "Warehouse, Book Repository and Solvent Store",
+      "dwelling": false,
+      "metres": 16,
+      "at_m": 237,
+      "outline": [
+        [
+          153.0082596,
+          -27.4946383
+        ],
+        [
+          153.0086229,
+          -27.4946894
+        ],
+        [
+          153.0085865,
+          -27.4948932
+        ],
+        [
+          153.0086764,
+          -27.4949059
+        ],
+        [
+          153.0086854,
+          -27.4948555
+        ],
+        [
+          153.0087534,
+          -27.4948651
+        ],
+        [
+          153.0088352,
+          -27.4944077
+        ],
+        [
+          153.0087597,
+          -27.4943971
+        ],
+        [
+          153.0087083,
+          -27.4943898
+        ],
+        [
+          153.0087165,
+          -27.4943436
+        ],
+        [
+          153.0083222,
+          -27.4942881
+        ],
+        [
+          153.0082596,
+          -27.4946383
+        ]
+      ]
+    },
+    {
+      "building": "kindergarten",
+      "name": "Playhouse Parent and Childcare Centre",
+      "dwelling": false,
+      "metres": 17,
+      "at_m": 141,
+      "outline": [
+        [
+          153.0093771,
+          -27.4935045
+        ],
+        [
+          153.0094125,
+          -27.4934129
+        ],
+        [
+          153.0094397,
+          -27.4934244
+        ],
+        [
+          153.0094525,
+          -27.4933942
+        ],
+        [
+          153.0094386,
+          -27.4933888
+        ],
+        [
+          153.0094586,
+          -27.4933544
+        ],
+        [
+          153.0094721,
+          -27.4932917
+        ],
+        [
+          153.0094908,
+          -27.4932978
+        ],
+        [
+          153.0095038,
+          -27.4932612
+        ],
+        [
+          153.0095135,
+          -27.4932339
+        ],
+        [
+          153.009507,
+          -27.4932315
+        ],
+        [
+          153.0095325,
+          -27.4931377
+        ],
+        [
+          153.0095642,
+          -27.4930895
+        ],
+        [
+          153.0095823,
+          -27.4930115
+        ],
+        [
+          153.009629,
+          -27.4929207
+        ],
+        [
+          153.009637,
+          -27.4928979
+        ],
+        [
+          153.0096455,
+          -27.4928736
+        ],
+        [
+          153.0096611,
+          -27.4928786
+        ],
+        [
+          153.0096818,
+          -27.4928204
+        ],
+        [
+          153.0097075,
+          -27.4928187
+        ],
+        [
+          153.0097266,
+          -27.4927725
+        ],
+        [
+          153.0099507,
+          -27.4927558
+        ],
+        [
+          153.0099522,
+          -27.4927935
+        ],
+        [
+          153.009974,
+          -27.4927911
+        ],
+        [
+          153.0099887,
+          -27.4929316
+        ],
+        [
+          153.0098313,
+          -27.4929458
+        ],
+        [
+          153.009803,
+          -27.493018
+        ],
+        [
+          153.0097662,
+          -27.4930111
+        ],
+        [
+          153.0096414,
+          -27.493315
+        ],
+        [
+          153.0096727,
+          -27.4933287
+        ],
+        [
+          153.0096412,
+          -27.4934149
+        ],
+        [
+          153.0097185,
+          -27.4934258
+        ],
+        [
+          153.0098622,
+          -27.4934098
+        ],
+        [
+          153.0098804,
+          -27.4935509
+        ],
+        [
+          153.0097042,
+          -27.4935691
+        ],
+        [
+          153.0095155,
+          -27.493543
+        ],
+        [
+          153.0094228,
+          -27.49351
+        ],
+        [
+          153.0093771,
+          -27.4935045
+        ]
+      ]
+    },
+    {
+      "building": "retail",
+      "name": "Lady Gowrie St Thomas's Riverview Community Kindergarten",
+      "dwelling": false,
+      "metres": 26,
+      "at_m": 6,
+      "outline": [
+        [
+          153.009355,
+          -27.4920329
+        ],
+        [
+          153.0093672,
+          -27.4921162
+        ],
+        [
+          153.0095097,
+          -27.4920997
+        ],
+        [
+          153.0095012,
+          -27.4920422
+        ],
+        [
+          153.0095444,
+          -27.4920372
+        ],
+        [
+          153.009527,
+          -27.4919193
+        ],
+        [
+          153.0093061,
+          -27.4919448
+        ],
+        [
+          153.0093196,
+          -27.492037
+        ],
+        [
+          153.009355,
+          -27.4920329
+        ]
+      ]
+    },
+    {
+      "building": "apartments",
+      "name": null,
+      "dwelling": true,
+      "metres": 29,
+      "at_m": 34,
+      "outline": [
+        [
+          153.0088495,
+          -27.4925755
+        ],
+        [
+          153.0091927,
+          -27.4926824
+        ],
+        [
+          153.0092773,
+          -27.4924687
+        ],
+        [
+          153.0092353,
+          -27.4924556
+        ],
+        [
+          153.0092272,
+          -27.4924758
+        ],
+        [
+          153.0091914,
+          -27.4924647
+        ],
+        [
+          153.0091837,
+          -27.492484
+        ],
+        [
+          153.0091467,
+          -27.4924725
+        ],
+        [
+          153.0091355,
+          -27.4925008
+        ],
+        [
+          153.0090575,
+          -27.4924765
+        ],
+        [
+          153.00905,
+          -27.4924956
+        ],
+        [
+          153.0090206,
+          -27.4924864
+        ],
+        [
+          153.0090088,
+          -27.4925162
+        ],
+        [
+          153.0089593,
+          -27.4925008
+        ],
+        [
+          153.008939,
+          -27.4925519
+        ],
+        [
+          153.0088677,
+          -27.4925297
+        ],
+        [
+          153.0088495,
+          -27.4925755
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 31,
+      "at_m": 64,
+      "outline": [
+        [
+          153.0091424,
+          -27.4927635
+        ],
+        [
+          153.0091607,
+          -27.4927148
+        ],
+        [
+          153.0090643,
+          -27.4926864
+        ],
+        [
+          153.009047,
+          -27.4927324
+        ],
+        [
+          153.0091424,
+          -27.4927635
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 31,
+      "at_m": 70,
+      "outline": [
+        [
+          153.009047,
+          -27.4927324
+        ],
+        [
+          153.009028,
+          -27.4927832
+        ],
+        [
+          153.0091244,
+          -27.4928117
+        ],
+        [
+          153.0091424,
+          -27.4927635
+        ],
+        [
+          153.009047,
+          -27.4927324
+        ]
+      ]
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 34,
+      "at_m": 6,
+      "outline": [
+        [
+          153.0091456,
+          -27.4919574
+        ],
+        [
+          153.0092677,
+          -27.4919388
+        ],
+        [
+          153.0093098,
+          -27.4921565
+        ],
+        [
+          153.0091877,
+          -27.492175
+        ],
+        [
+          153.0091456,
+          -27.4919574
+        ]
+      ]
+    },
+    {
+      "building": "shed",
+      "name": null,
+      "dwelling": false,
+      "metres": 35,
+      "at_m": 6,
+      "outline": [
+        [
+          153.0096326,
+          -27.492001
+        ],
+        [
+          153.0097022,
+          -27.4920196
+        ],
+        [
+          153.0097234,
+          -27.491957
+        ],
+        [
+          153.0096538,
+          -27.4919384
+        ],
+        [
+          153.0096326,
+          -27.492001
+        ]
+      ]
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 52,
+      "at_m": 274,
+      "outline": [
+        [
+          153.0082276,
+          -27.4938514
+        ],
+        [
+          153.0082749,
+          -27.4937323
+        ],
+        [
+          153.0084886,
+          -27.4937992
+        ],
+        [
+          153.008456,
+          -27.4938812
+        ],
+        [
+          153.0083713,
+          -27.4938547
+        ],
+        [
+          153.0083566,
+          -27.4938917
+        ],
+        [
+          153.0082276,
+          -27.4938514
+        ]
+      ]
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 52,
+      "at_m": 6,
+      "outline": [
+        [
+          153.0089967,
+          -27.4919962
+        ],
+        [
+          153.0091151,
+          -27.4919764
+        ],
+        [
+          153.009142,
+          -27.4921032
+        ],
+        [
+          153.0090917,
+          -27.4921116
+        ],
+        [
+          153.009104,
+          -27.4921695
+        ],
+        [
+          153.0090359,
+          -27.4921809
+        ],
+        [
+          153.0089967,
+          -27.4919962
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0094213,
+      "lat": -27.4948122,
+      "metres": 78,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0084546,
+      "lat": -27.4952221,
+      "metres": 114,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0093249,
+      "lat": -27.4953314,
+      "metres": 124,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0091436,
+      "lat": -27.4954576,
+      "metres": 133,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.011114,
+      "lat": -27.4939566,
+      "metres": 195,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0110851,
+      "lat": -27.4941327,
+      "metres": 198,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.011165,
+      "lat": -27.4941269,
+      "metres": 206,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0095579,
+      "lat": -27.4966907,
+      "metres": 276,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0103505,
+      "lat": -27.4898659,
+      "metres": 282,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0095945,
+      "lat": -27.496757,
+      "metres": 284,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.009617,
+        "lat": -27.492373,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 5.35
+      },
+      {
+        "lon": 153.009609,
+        "lat": -27.492329,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 5.51
+      },
+      {
+        "lon": 153.009631,
+        "lat": -27.492344,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 5.56
+      },
+      {
+        "lon": 153.009618,
+        "lat": -27.492386,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 5.41
+      },
+      {
+        "lon": 153.009602,
+        "lat": -27.492428,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 5.45
+      },
+      {
+        "lon": 153.009586,
+        "lat": -27.492471,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 5.57
+      },
+      {
+        "lon": 153.00957,
+        "lat": -27.492514,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 5.46
+      },
+      {
+        "lon": 153.009554,
+        "lat": -27.492556,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 5.47
+      },
+      {
+        "lon": 153.009538,
+        "lat": -27.492599,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 5.44
+      },
+      {
+        "lon": 153.009523,
+        "lat": -27.492642,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 5.3
+      },
+      {
+        "lon": 153.009507,
+        "lat": -27.492684,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 5.37
+      },
+      {
+        "lon": 153.009491,
+        "lat": -27.492727,
+        "at_m": 55,
+        "line": 0,
+        "elevation_m": 5.38
+      },
+      {
+        "lon": 153.009475,
+        "lat": -27.49277,
+        "at_m": 60,
+        "line": 0,
+        "elevation_m": 5.39
+      },
+      {
+        "lon": 153.009459,
+        "lat": -27.492813,
+        "at_m": 65,
+        "line": 0,
+        "elevation_m": 5.39
+      },
+      {
+        "lon": 153.009443,
+        "lat": -27.492855,
+        "at_m": 70,
+        "line": 0,
+        "elevation_m": 5.35
+      },
+      {
+        "lon": 153.009427,
+        "lat": -27.492898,
+        "at_m": 75,
+        "line": 0,
+        "elevation_m": 5.42
+      },
+      {
+        "lon": 153.009411,
+        "lat": -27.492941,
+        "at_m": 80,
+        "line": 0,
+        "elevation_m": 5.36
+      },
+      {
+        "lon": 153.009395,
+        "lat": -27.492983,
+        "at_m": 85,
+        "line": 0,
+        "elevation_m": 5.59
+      },
+      {
+        "lon": 153.009379,
+        "lat": -27.493026,
+        "at_m": 90,
+        "line": 0,
+        "elevation_m": 5.54
+      },
+      {
+        "lon": 153.009363,
+        "lat": -27.493069,
+        "at_m": 95,
+        "line": 0,
+        "elevation_m": 5.66
+      },
+      {
+        "lon": 153.009347,
+        "lat": -27.493111,
+        "at_m": 100,
+        "line": 0,
+        "elevation_m": 5.71
+      },
+      {
+        "lon": 153.009331,
+        "lat": -27.493154,
+        "at_m": 105,
+        "line": 0,
+        "elevation_m": 5.81
+      },
+      {
+        "lon": 153.009315,
+        "lat": -27.493197,
+        "at_m": 110,
+        "line": 0,
+        "elevation_m": 5.88
+      },
+      {
+        "lon": 153.009299,
+        "lat": -27.493239,
+        "at_m": 115,
+        "line": 0,
+        "elevation_m": 6.09
+      },
+      {
+        "lon": 153.009283,
+        "lat": -27.493282,
+        "at_m": 120,
+        "line": 0,
+        "elevation_m": 6.28
+      },
+      {
+        "lon": 153.009268,
+        "lat": -27.493325,
+        "at_m": 125,
+        "line": 0,
+        "elevation_m": 6.41
+      },
+      {
+        "lon": 153.009252,
+        "lat": -27.493367,
+        "at_m": 130,
+        "line": 0,
+        "elevation_m": 6.57
+      },
+      {
+        "lon": 153.009236,
+        "lat": -27.49341,
+        "at_m": 135,
+        "line": 0,
+        "elevation_m": 6.76
+      },
+      {
+        "lon": 153.00922,
+        "lat": -27.493453,
+        "at_m": 140,
+        "line": 0,
+        "elevation_m": 6.89
+      },
+      {
+        "lon": 153.009204,
+        "lat": -27.493495,
+        "at_m": 145,
+        "line": 0,
+        "elevation_m": 6.9
+      },
+      {
+        "lon": 153.009188,
+        "lat": -27.493538,
+        "at_m": 150,
+        "line": 0,
+        "elevation_m": 6.99
+      },
+      {
+        "lon": 153.009172,
+        "lat": -27.493581,
+        "at_m": 155,
+        "line": 0,
+        "elevation_m": 7.04
+      },
+      {
+        "lon": 153.009156,
+        "lat": -27.493624,
+        "at_m": 160,
+        "line": 0,
+        "elevation_m": 7.07
+      },
+      {
+        "lon": 153.00914,
+        "lat": -27.493666,
+        "at_m": 165,
+        "line": 0,
+        "elevation_m": 7.09
+      },
+      {
+        "lon": 153.009124,
+        "lat": -27.493709,
+        "at_m": 170,
+        "line": 0,
+        "elevation_m": 7.04
+      },
+      {
+        "lon": 153.009108,
+        "lat": -27.493752,
+        "at_m": 175,
+        "line": 0,
+        "elevation_m": 7.05
+      },
+      {
+        "lon": 153.009092,
+        "lat": -27.493794,
+        "at_m": 180,
+        "line": 0,
+        "elevation_m": 6.8
+      },
+      {
+        "lon": 153.009076,
+        "lat": -27.493837,
+        "at_m": 185,
+        "line": 0,
+        "elevation_m": 6.72
+      },
+      {
+        "lon": 153.00906,
+        "lat": -27.49388,
+        "at_m": 190,
+        "line": 0,
+        "elevation_m": 6.58
+      },
+      {
+        "lon": 153.009044,
+        "lat": -27.493922,
+        "at_m": 195,
+        "line": 0,
+        "elevation_m": 6.31
+      },
+      {
+        "lon": 153.009028,
+        "lat": -27.493965,
+        "at_m": 200,
+        "line": 0,
+        "elevation_m": 6.13
+      },
+      {
+        "lon": 153.009013,
+        "lat": -27.494008,
+        "at_m": 205,
+        "line": 0,
+        "elevation_m": 5.78
+      },
+      {
+        "lon": 153.008997,
+        "lat": -27.49405,
+        "at_m": 210,
+        "line": 0,
+        "elevation_m": 5.61
+      },
+      {
+        "lon": 153.008981,
+        "lat": -27.494093,
+        "at_m": 215,
+        "line": 0,
+        "elevation_m": 5.28
+      },
+      {
+        "lon": 153.008965,
+        "lat": -27.494136,
+        "at_m": 220,
+        "line": 0,
+        "elevation_m": 5.05
+      },
+      {
+        "lon": 153.008949,
+        "lat": -27.494178,
+        "at_m": 225,
+        "line": 0,
+        "elevation_m": 5.1
+      },
+      {
+        "lon": 153.008933,
+        "lat": -27.494221,
+        "at_m": 230,
+        "line": 0,
+        "elevation_m": 5.05
+      },
+      {
+        "lon": 153.008917,
+        "lat": -27.494264,
+        "at_m": 235,
+        "line": 0,
+        "elevation_m": 5.02
+      },
+      {
+        "lon": 153.008912,
+        "lat": -27.494246,
+        "at_m": 240,
+        "line": 0,
+        "elevation_m": 4.78
+      },
+      {
+        "lon": 153.008911,
+        "lat": -27.494201,
+        "at_m": 245,
+        "line": 0,
+        "elevation_m": 5.14
+      },
+      {
+        "lon": 153.00891,
+        "lat": -27.494156,
+        "at_m": 250,
+        "line": 0,
+        "elevation_m": 4.94
+      },
+      {
+        "lon": 153.008924,
+        "lat": -27.494113,
+        "at_m": 255,
+        "line": 0,
+        "elevation_m": 4.95
+      },
+      {
+        "lon": 153.00894,
+        "lat": -27.494071,
+        "at_m": 260,
+        "line": 0,
+        "elevation_m": 5.01
+      },
+      {
+        "lon": 153.008957,
+        "lat": -27.494028,
+        "at_m": 265,
+        "line": 0,
+        "elevation_m": 5.49
+      },
+      {
+        "lon": 153.008973,
+        "lat": -27.493985,
+        "at_m": 270,
+        "line": 0,
+        "elevation_m": 5.87
+      },
+      {
+        "lon": 153.008989,
+        "lat": -27.493944,
+        "at_m": 274.9,
+        "line": 0,
+        "elevation_m": 6.05
+      }
+    ],
+    "min_elevation_m": 4.8,
+    "max_elevation_m": 7.1,
+    "mean_grade_pct": 2.5,
+    "max_grade_pct": 9.6
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 151
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 14,
+      "access": null,
+      "fee": null,
+      "surface": "asphalt"
+    },
+    {
+      "name": "Multi Level Carpark 2",
+      "metres": 74,
+      "access": null,
+      "fee": null,
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 137,
+      "length_m": 137,
+      "images": {
+        "esri": ".cache/imagery/keith-st/chunk1-esri.jpg",
+        "qld": ".cache/imagery/keith-st/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_CBD_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-12-07",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        100,
+        184
+      ],
+      "image_px": [
+        666,
+        1225
+      ]
+    },
+    {
+      "chunk": 2,
+      "from_m": 137,
+      "to_m": 275,
+      "length_m": 137,
+      "images": {
+        "esri": ".cache/imagery/keith-st/chunk2-esri.jpg",
+        "qld": ".cache/imagery/keith-st/chunk2-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        91,
+        154
+      ],
+      "image_px": [
+        609,
+        1027
+      ]
+    }
+  ]
+}

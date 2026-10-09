@@ -1,0 +1,61 @@
+{
+  "candidate": "fletcher-pde",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Gravel pull-off under trees by Ithaca Creek bush, homes about 35 m away.",
+  "reasons": [
+    "Gravel pad clear of the lane",
+    "Creek bush behind",
+    "Homes over 30 m away"
+  ],
+  "drivers": {
+    "seclusion": "Dense creek bush behind; nearest houses about 35 m, across the road or beyond the trees.",
+    "access_and_room": "Bare gravel pad meets the road edge, two vehicles seen parked on it; room for one van.",
+    "traffic": "Quiet suburban road beside a junction; the pad is set off the lane.",
+    "convention": "Cars parked on the pad, likely walkers using the bush track; no campers seen."
+  },
+  "flags": [
+    "Pin lies in thick bush by Ithaca Creek, not on the pad",
+    "Creek 26 m from pin; ground steepens towards it",
+    "Pad is small and near a junction"
+  ],
+  "sun_shade": "Shaded by tall trees from the north and east; open to the south road side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Crossfall",
+    "Street lighting",
+    "Pad size for 7.5 m van"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Gravel pad south of the pin, meeting the Fletcher Parade edge, with cars parked on it",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.980645,
+        -27.451573
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 46,
+    "gated": false,
+    "slope_pct": 4.9,
+    "min_elevation_m": 22.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T09:34:39Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v10"
+}

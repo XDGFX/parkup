@@ -1,0 +1,61 @@
+{
+  "candidate": "tinchi-tamba",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Sealed reserve car park in bush by the river; no homes mapped.",
+  "reasons": [
+    "Bush behind, river park in front",
+    "No dwellings nearby",
+    "Cars and boat trailers parked"
+  ],
+  "drivers": {
+    "seclusion": "Forest to the south, picnic lawn and river to the north; no buildings other than park shelters.",
+    "access_and_room": "Sealed car park on an unclassified road, with room for a van beside the parked vehicles.",
+    "traffic": "Dead-end reserve road; very little through traffic.",
+    "convention": "Boat trailers and cars parked; park users, no campers seen."
+  },
+  "flags": [
+    "Low-lying: about 2 m elevation near the Pine River, tidal flooding possible",
+    "Reserve may close the car park at night",
+    "Picnic and boat-ramp users by day"
+  ],
+  "sun_shade": "Mixed: trees shade the strip from the south and east; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Gate or closing hours",
+    "Signs on site",
+    "Street lighting",
+    "Flood risk at high tide"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Sealed car park strip at the pin, south of the picnic lawn and above the river",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.033561,
+        -27.299944
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 1.7,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2024-06-10"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T09:35:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v10"
+}

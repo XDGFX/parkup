@@ -1,0 +1,60 @@
+{
+  "candidate": "durack-kerb",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Wide gravel verge off Bowhill Road beside paddocks, with tyre marks and no close homes.",
+  "reasons": [
+    "Wide gravel pull-in clear of the lane",
+    "Paddocks behind; houses over 40 m south",
+    "Tyre tracks show vehicles stop here"
+  ],
+  "drivers": {
+    "seclusion": "Paddocks to the north; nearest homes across the road, about 40-60 m away.",
+    "access_and_room": "Open gravel verge meets the road edge; room for a van fully off the lane.",
+    "traffic": "Rural through road with moving traffic; the van stands clear of the lane.",
+    "convention": "Tyre tracks on the verge; no vans or tents seen."
+  },
+  "flags": [
+    "Powerline track gate just east; keep clear of its mouth",
+    "Low-lying: about 5 m elevation, Blunder Creek 59 m away",
+    "Road noise from passing traffic"
+  ],
+  "sun_shade": "Open to the north and east; trees along the west edge shade the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "No-stopping signs on site",
+    "Firmness of the verge after rain",
+    "Lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Gravel verge on the north side, just west of the powerline track mouth",
+    "slope_pct": 1.4,
+    "points": [
+      [
+        152.990991,
+        -27.586286
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 5.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T09:35:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v10"
+}

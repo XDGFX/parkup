@@ -169,6 +169,18 @@ async function osmApiMap(w: number, s: number, e: number, n: number): Promise<an
   }).filter((x: any) => x.type === "node" || x.geometry.every(Boolean));
 }
 
+/** Mapped service roads and tracks within 100 m of a point: where a van could actually get to. */
+function waysNear(line: XY[], els: any[]): Context["mapped_ways"] {
+  const out: NonNullable<Context["mapped_ways"]> = [];
+  for (const e of els) {
+    if (e.type !== "way" || !/^(service|track|unclassified)$/.test(e.tags?.highway ?? "") || !e.geometry) continue;
+    const d = Math.min(...line.map((p) => toLine(p, e.geometry.map((g: any) => toXY([g.lon, g.lat])))));
+    if (d > FETCH.BUILDING_POINT_M) continue;
+    out.push({ highway: e.tags.highway, service: e.tags.service ?? null, name: e.tags.name ?? null, surface: e.tags.surface ?? null, access: e.tags.access ?? null, metres: Math.round(d) });
+  }
+  return out.sort((a, b) => a.metres - b.metres).slice(0, 8);
+}
+
 /** Mapped car parks near the candidate, so a hand-dropped pin next to one isn't judged on the wrong patch of ground. */
 function parkingNear(line: XY[], els: any[]): Context["mapped_parking"] {
   const out: NonNullable<Context["mapped_parking"]> = [];
@@ -408,6 +420,7 @@ export async function fetchContext(target: Target, outFile: string): Promise<Con
     },
     waterway: waterwayNear(line, els),
     mapped_parking: parkingNear(line, els),
+    ...(target.kind === "point" ? { mapped_ways: waysNear(line, els) } : {}),
     chunks,
   };
   await mkdir(dirname(outFile), { recursive: true });

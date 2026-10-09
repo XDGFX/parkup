@@ -1,0 +1,28 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Small sealed car park in Bowman Park, bush behind, homes 47 m or more away.",
+  "reasons": ["Car park backs onto bush and park", "Nearest house 47 m, across the road", "Free public parking, mapped"],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Angled bays of the small car park beside the toilet block, off Simpsons Road",
+    "slope_pct": 3
+  },
+  "drivers": {
+    "seclusion": "Trees and park around; nearest dwellings 47 m south across Simpsons Road.",
+    "access_and_room": "Sealed drive from the road to bays; a van fits, probably across two bays.",
+    "traffic": "Busy junction to the south; the car park sits back from it.",
+    "convention": "Public car park with cars parked; no campers seen."
+  },
+  "flags": [
+    "Pin is on the toilet block, not the bays",
+    "Kindy 54 m and hall 61 m away: daytime activity",
+    "Junction noise from Simpsons Road",
+    "Bays are tight under trees"
+  ],
+  "sun_shade": "Heavy tree shade over most of the car park; sun reaches the bays from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Time limits or signs on site", "Street lighting", "Bay length for a 7.5 m van"],
+  "confidence": "medium"
+}

@@ -1,0 +1,60 @@
+{
+  "candidate": "shailer-pioneer-park",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Sealed park car park by courts and open parkland; homes over 60 m away.",
+  "reasons": [
+    "Car park backs onto park and courts",
+    "Houses well over 25 m away",
+    "Plenty of bays for a van"
+  ],
+  "drivers": {
+    "seclusion": "Faces parkland and a wetland; the nearest houses are on the hill 60-80 m to the north-west.",
+    "access_and_room": "Sealed access from Harley Street into marked bays; there is room to park a van off the lane.",
+    "traffic": "Arterial road and motorway lie south, but the car park is set back and clear of the lane.",
+    "convention": "Public sports and park car park; a few cars, no vans or tents seen."
+  },
+  "flags": [
+    "Motorway and arterial noise",
+    "Courts and playground nearby may mean evening use and lighting",
+    "Slope about 2% at the pin; DEM shows a steeper bank on the south edge"
+  ],
+  "sun_shade": "Open to sun; scattered trees shade the south and east edges.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Court lighting and curfew",
+    "Signs on site",
+    "Night closure"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Eastern bays of the car park south of the tennis courts, by the park path",
+    "slope_pct": 2,
+    "points": [
+      [
+        153.158501,
+        -27.649163
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 6.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-11-27"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T09:35:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v10"
+}

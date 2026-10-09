@@ -1,0 +1,27 @@
+{
+  "verdict": "good",
+  "kind": "off-road site",
+  "summary": "Bare dirt clearing in bush just off Mount Nebo Road, nobody close.",
+  "reasons": ["Bush all round", "Bare dirt pad fits a van", "Nearest building 48 m, unmapped as home"],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Cleared dirt pad at the pin, just southwest of the road bend",
+    "slope_pct": 3
+  },
+  "drivers": {
+    "seclusion": "Thick forest on all sides; one building 48 m away, mapped as non-dwelling.",
+    "access_and_room": "Bare dirt pad of van length, reaching the road edge by a short cut, probably a short spur.",
+    "traffic": "Quiet mountain road about 20 m away, screened by trees.",
+    "convention": "No vehicles or campers visible; pad looks like a lookout or break access."
+  },
+  "flags": [
+    "Steep ground around the pad: up to 12% mean grade nearby",
+    "Building 48 m northeast may be a house or hut",
+    "Link from road to pad is hidden by trees"
+  ],
+  "sun_shade": "Mostly tree shade from the east and south; open overhead.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether the pad's entrance is passable for 2WD", "Crossfall", "Signs on site"],
+  "confidence": "medium"
+}

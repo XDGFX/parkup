@@ -45,8 +45,8 @@ export function calibrationMarkdown(r: Calibration, spots: KnownSpot[], evaluati
   });
   return `# Calibration report
 
-${r.passed ? "**PASS**" : "**FAIL**"}: ${r.exact} of ${spots.length} match, ${r.nearMisses} near misses involving maybe, ` +
-`${r.failures.length} failures, ${r.missing.length} missing.
+${r.passed ? "**PASS**" : "**FAIL**"}: ${r.exact} of ${spots.length} match, ${r.nearMisses} near miss${r.nearMisses === 1 ? "" : "es"} involving maybe, ` +
+`${r.failures.length} failure${r.failures.length === 1 ? "" : "s"}, ${r.missing.length} missing.
 
 Rule: every good and poor call of the user's must match; a spot the user calls maybe may come back good or poor.
 ${any ? `Rubric ${any.rubric}, model ${any.model}, run ${[...evaluations.values()].map((e) => e.evaluated_at).sort()[0]?.slice(0, 10)}.` : ""}

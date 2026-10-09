@@ -25,8 +25,8 @@ export const FETCH = {
   /** Buildings this close to the line are listed (a point looks further, since a pin is approximate). */
   BUILDING_M: 60,
   BUILDING_POINT_M: 100,
-  /** A point candidate is shown in a box this far each way, and its slope read along lines this long. */
-  POINT_BOX_M: 50,
+  /** A point candidate is shown in a box this far each way (the agent looks for the real spot within 100 m), and its slope read along lines this long. */
+  POINT_BOX_M: 100,
   POINT_SLOPE_M: 20,
   /** Gates and access ways are searched this far around the candidate. */
   ACCESS_M: 300,

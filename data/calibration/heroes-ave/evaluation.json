@@ -1,0 +1,49 @@
+{
+  "candidate": "heroes-ave",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Through road beside a ballpark; no cars park along this kerb.",
+  "reasons": [
+    "Tertiary 60 km/h road, no parking",
+    "No parked cars along kerb",
+    "Low-lying, near Toowong Creek"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto park and oval, homes over 20 m away, but the road is a through route.",
+    "access_and_room": "No pull-in or marked parking lane; a van would stand in or beside the traffic lane.",
+    "traffic": "Busy tertiary road with junctions at both ends; moving traffic only.",
+    "convention": "OSM tags parking:both=no and no cars are parked along the kerb in either image."
+  },
+  "flags": [
+    "Main road with no parking rules it out",
+    "Low-lying: 2 to 5 m elevation, creek 82 m away",
+    "Slope up to 15.6% near the east end",
+    "Traffic noise"
+  ],
+  "sun_shade": "Tree canopy shades the west half; the east end is open grass.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 5.3,
+    "min_elevation_m": 2.1,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T09:33:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v10"
+}

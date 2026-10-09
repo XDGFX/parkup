@@ -1,0 +1,255 @@
+{
+  "id": "pin09",
+  "street": "Mabel Street",
+  "suburb": "Oxley",
+  "kind": "point",
+  "line": [
+    [
+      152.975702,
+      -27.557089
+    ]
+  ],
+  "osm_tags": {},
+  "length_m": 0,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9753481,
+      "lat": -27.5570945,
+      "metres": 35,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.975367,
+      "lat": -27.5572478,
+      "metres": 37,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9750912,
+      "lat": -27.5572669,
+      "metres": 63,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9744026,
+      "lat": -27.557084,
+      "metres": 128,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.975499,
+        "lat": -27.557089,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 6.52
+      },
+      {
+        "lon": 152.97555,
+        "lat": -27.557089,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 6.54
+      },
+      {
+        "lon": 152.975601,
+        "lat": -27.557089,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 6.45
+      },
+      {
+        "lon": 152.975651,
+        "lat": -27.557089,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 6.56
+      },
+      {
+        "lon": 152.975702,
+        "lat": -27.557089,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 6.51
+      },
+      {
+        "lon": 152.975753,
+        "lat": -27.557089,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 6.52
+      },
+      {
+        "lon": 152.975803,
+        "lat": -27.557089,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 6.38
+      },
+      {
+        "lon": 152.975854,
+        "lat": -27.557089,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 6.38
+      },
+      {
+        "lon": 152.975905,
+        "lat": -27.557089,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 6.44
+      },
+      {
+        "lon": 152.975702,
+        "lat": -27.557269,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 6.23
+      },
+      {
+        "lon": 152.975702,
+        "lat": -27.557224,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 6.3
+      },
+      {
+        "lon": 152.975702,
+        "lat": -27.557179,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 6.34
+      },
+      {
+        "lon": 152.975702,
+        "lat": -27.557134,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 6.49
+      },
+      {
+        "lon": 152.975702,
+        "lat": -27.557089,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 6.51
+      },
+      {
+        "lon": 152.975702,
+        "lat": -27.557044,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 6.5
+      },
+      {
+        "lon": 152.975702,
+        "lat": -27.556999,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 6.5
+      },
+      {
+        "lon": 152.975702,
+        "lat": -27.556954,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 6.46
+      },
+      {
+        "lon": 152.975702,
+        "lat": -27.556909,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 6.43
+      }
+    ],
+    "min_elevation_m": 6.2,
+    "max_elevation_m": 6.6,
+    "mean_grade_pct": 1,
+    "max_grade_pct": 3
+  },
+  "waterway": {
+    "name": null,
+    "metres": 106
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 72,
+      "access": null,
+      "fee": null,
+      "surface": null
+    }
+  ],
+  "mapped_ways": [
+    {
+      "highway": "service",
+      "service": "driveway",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 57
+    },
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 75
+    },
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 87
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/pin09/chunk1-esri.jpg",
+        "qld": ".cache/imagery/pin09/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

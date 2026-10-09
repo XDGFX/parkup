@@ -1,0 +1,84 @@
+{
+  "candidate": "garden-car-park",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small gravel car park beside community garden and park, no homes near.",
+  "reasons": [
+    "No dwellings anywhere near",
+    "Backs onto garden, park and oval",
+    "Cars already parked, open access"
+  ],
+  "drivers": {
+    "seclusion": "Garden plots, park and sports ground around it; only sheds nearby, no homes.",
+    "access_and_room": "Formed gravel road reaches it; marked bays with room for a van; mapped gates are not on the only way in.",
+    "traffic": "Off the road network, only garden and park users.",
+    "convention": "Open public car park (access yes, no fee) with a few cars in it."
+  },
+  "flags": [
+    "Low-lying: about 2.3 m elevation, Toowong Creek 48 m away",
+    "Mapped gates 14 to 30 m off; none seen closed in imagery",
+    "Sheds 1 m and 12 m away"
+  ],
+  "sun_shade": "Open to the sky; trees along the east edge shade the morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Gate closing hours",
+    "Street lighting",
+    "Whether the garden locks the access road"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 93,
+    "where": "Gravel car park at the community garden, east of the park path",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        152.992332,
+        -27.492286
+      ],
+      [
+        152.992409,
+        -27.492322
+      ],
+      [
+        152.992498,
+        -27.492364
+      ],
+      [
+        152.992631,
+        -27.492139
+      ],
+      [
+        152.992466,
+        -27.492062
+      ],
+      [
+        152.992357,
+        -27.492244
+      ],
+      [
+        152.992334,
+        -27.492283
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 2.2,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T09:34:31Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v10"
+}
