@@ -1,0 +1,48 @@
+{
+  "candidate": "54625924-156826465-1276050498-r-113",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside Indooroopilly station on a busy main road, with a bus zone.",
+  "reasons": [
+    "Bus Zone sign on this kerb",
+    "Main road, no parked cars",
+    "No pull-off beside the lane"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto the rail corridor with no dwellings, but it is a busy town-centre road.",
+    "access_and_room": "Kerb sits against the station fence and rail edge with no verge; a van would block the lane.",
+    "traffic": "Multi-lane arterial beside rail; heavy traffic and train noise.",
+    "convention": "Bus Zone sign; no cars parked along the kerb."
+  },
+  "flags": [
+    "Bus Zone sign on this kerb",
+    "Noise: rail and arterial",
+    "Steep: about 13% mean grade on the stretch"
+  ],
+  "sun_shade": "Open to sky, no tree cover.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 8.2,
+    "min_elevation_m": 17.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

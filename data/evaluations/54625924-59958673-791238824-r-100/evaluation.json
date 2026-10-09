@@ -1,0 +1,48 @@
+{
+  "candidate": "54625924-59958673-791238824-r-100",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Ten-metre kerb on a bridge approach, no stopping, no room off the lane.",
+  "reasons": [
+    "No Stopping Any Time signs here",
+    "Main road onto bridge, no parking",
+    "Kerb barely a van long"
+  ],
+  "drivers": {
+    "seclusion": "Homes are 31 m or more away, but the spot is in full view of traffic at a bridge abutment.",
+    "access_and_room": "Kerb runs into the bridge parapet with no verge or pull-off; any van would sit in the traffic lane.",
+    "traffic": "Busy through road with steady cars and buses at a junction.",
+    "convention": "No Stopping Any Time signs for Coonan and Radnor Streets; no cars parked along the kerb."
+  },
+  "flags": [
+    "No Stopping Any Time signs nearby",
+    "Low-lying, 103 m from Brisbane River",
+    "Slope figure is unreliable on a 10 m stub at a bridge"
+  ],
+  "sun_shade": "Open to sun all day, with trees to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Noise level overnight",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 31,
+    "gated": false,
+    "slope_pct": 98.4,
+    "min_elevation_m": 15.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

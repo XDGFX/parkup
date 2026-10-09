@@ -1,0 +1,68 @@
+{
+  "candidate": "60667480-60667481-20292022-r-14",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wide dirt verge beside bush, near the expressway, homes over 30 m away.",
+  "reasons": [
+    "Bush behind, nearest home 32 m",
+    "Wide bare verge off the lane",
+    "Flat ground"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush on the west side; nearest mapped homes 32 m and 45 m away at the far end.",
+    "access_and_room": "Bare dirt and grass verge about a lane wide meets the road edge; a van can pull fully off.",
+    "traffic": "Expressway runs close by to the south-east; the street itself looks quiet.",
+    "convention": "No parked cars seen and no signs; verge looks informally usable."
+  },
+  "flags": [
+    "Low-lying: about 4.7 m elevation, mapped waterway 5 m away",
+    "Expressway noise",
+    "Guard posts at the south end of the verge"
+  ],
+  "sun_shade": "Heavy tree shade from the west, open to morning sun over the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Verge softness after rain"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 32,
+    "where": "West verge of Market Street North, beside the bush before the bend",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.961393,
+        -27.507473
+      ],
+      [
+        152.961331,
+        -27.507602
+      ],
+      [
+        152.961274,
+        -27.507658
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 34,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 4.7,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin sits in steep dense bush behind houses, with no track or vehicle access.",
+  "reasons": ["No track or tyre marks reach it", "Steep slope up to 29%", "Houses ring the bush edge"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Bush to the east is secluded, but the pin is on a wooded hillside with homes within 40 to 80 m to the west and south.",
+    "access_and_room": "No formed track, clearing or vehicle visible within 100 m; the cleared ground to the north-west looks like private yards.",
+    "traffic": "Quiet residential streets nearby; none at the pin.",
+    "convention": "No sign of vans, tents or parking here."
+  },
+  "flags": ["Steep: up to about 29% grade, 11% mean", "Cleared area north-west appears to be private property"],
+  "sun_shade": "Under dense tree canopy, shaded from all sides.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether a walking track runs through the bush", "Land tenure"],
+  "confidence": "medium"
+}

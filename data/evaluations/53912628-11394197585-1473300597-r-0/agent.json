@@ -1,0 +1,18 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a sports club, with cars parked and homes across the road.",
+  "reasons": ["Backs onto bowls club grounds", "Cars park along this kerb", "Homes 27 m+ away across road"],
+  "best_section": {"from_m": 0, "to_m": 15, "where": "west kerb on Clarence Road beside the bowls club, north of the crossing", "slope_pct": 1},
+  "drivers": {
+    "seclusion": "West side backs onto club greens and fence; nearest homes are across the road, about 27 m or more.",
+    "access_and_room": "Cars are parked along this kerb in both images, so a van can pull in; short stretch near a crossing.",
+    "traffic": "Through road with an intersection just east; steady passing traffic.",
+    "convention": "Other cars park here, so a van will not stand out."
+  },
+  "flags": ["Busy road with junction and zebra crossing nearby", "Mapped gates 6 m and 18 m away have a way round"],
+  "sun_shade": "Open to the sky; trees to the north end give some shade; afternoon sun from the west over the club.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Parking restrictions on site", "Street lighting", "Kerb height"],
+  "confidence": "medium"
+}

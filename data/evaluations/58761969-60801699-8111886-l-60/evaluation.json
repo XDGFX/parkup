@@ -1,0 +1,65 @@
+{
+  "candidate": "58761969-60801699-8111886-l-60",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb backing onto a treed park, with homes across the road about 19 m away.",
+  "reasons": [
+    "Backs onto park and dense trees",
+    "Homes across the road, 19 m or more",
+    "Large vehicles seen parked here in 2022"
+  ],
+  "drivers": {
+    "seclusion": "East side backs onto a park and dense trees; the nearest homes are about 19 to 21 m away across the road.",
+    "access_and_room": "Narrow sealed street; the east kerb runs along trees, with room for one parked vehicle.",
+    "traffic": "Quiet residential street.",
+    "convention": "Two white vans stand along this kerb in the 2022 image; the 2025 image shows none, so the convention is unconfirmed."
+  },
+  "flags": [
+    "Mapped No Stopping sign 8 m from the kerb line, check on site",
+    "Slope up to 5% in places",
+    "Narrow road, parked van may block the lane"
+  ],
+  "sun_shade": "Heavy shade from park trees on the east, with sun from the west only.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site",
+    "Whether vans still park here"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 80,
+    "where": "East kerb of Essex Road beside the treed park, south of the first bend",
+    "slope_pct": 2.4,
+    "points": [
+      [
+        152.982085,
+        -27.499082
+      ],
+      [
+        152.981999,
+        -27.499525
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 14.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

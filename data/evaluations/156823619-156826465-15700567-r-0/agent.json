@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Busy arterial beside the railway, with bus zones and no stopping signs.",
+  "reasons": ["Bus Zone and No Stopping signs", "Main road, no parked cars on this side", "No verge to pull off onto"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Rail corridor on this side; dwellings about 15 to 22 m across a busy road, with shops and a cinema beyond.",
+    "access_and_room": "Kerb is against the rail fence with no verge or parking lane; a van would sit in the lane.",
+    "traffic": "Multi-lane arterial with queued traffic and trains; heavy noise.",
+    "convention": "Bus Zone, No Stopping and 2-minute parking signs; cars do not park along this kerb."
+  },
+  "flags": ["Bus Zone and No Stopping Any Time signs", "Noise: arterial and rail", "Street edge is a through route into the station precinct"],
+  "sun_shade": "Open to sky; sun all day except a few trees near the south end.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Kerb height"],
+  "confidence": "high"
+}

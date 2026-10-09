@@ -1,0 +1,47 @@
+{
+  "candidate": "2366779845-2370383011-1290128496-r-580",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Eight-metre scrap of kerb in trees beside Discovery Drive; no room for a van.",
+  "reasons": [
+    "Shorter than a van",
+    "Under trees beside a main road",
+    "Home about 17 m away"
+  ],
+  "drivers": {
+    "seclusion": "Dwelling about 17 m south; trees screen the spot but the stretch is too short to use.",
+    "access_and_room": "Only 8 m long, wedged between a chevron-marked island and trees; nowhere to pull fully off.",
+    "traffic": "Beside the multi-lane Discovery Drive with no parked cars.",
+    "convention": "No parking convention; No Stopping sign mapped right at the kerb."
+  },
+  "flags": [
+    "No Stopping Any Time sign within 1 m",
+    "Steep: about 13% mean grade on the DEM"
+  ],
+  "sun_shade": "Under dense tree canopy, shaded all day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerb height",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 13.1,
+    "min_elevation_m": 23.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

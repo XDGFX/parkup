@@ -1,0 +1,66 @@
+{
+  "candidate": "58736649-7821565023-1242096858-r-115",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, beside a park, with houses about 20 m north.",
+  "reasons": [
+    "Cars parked here, so a van blends in",
+    "Park and lawn to the west",
+    "House 9 m from the north end"
+  ],
+  "drivers": {
+    "seclusion": "Park lawn and trees to the south-west; houses at the north end, about 20 m from the best section.",
+    "access_and_room": "Parked cars show the kerb is usable; wide sealed road with room beside the lane.",
+    "traffic": "Local road by a school and bus stop; busier at school times.",
+    "convention": "Cars park along both kerbs; signs only restrict bus and school-time stopping."
+  },
+  "flags": [
+    "Bus Zone and No Stopping 7-9am and 2-4pm on schooldays",
+    "Dwelling 9 m from the start of the kerb"
+  ],
+  "sun_shade": "Tree shade over the middle and south; trees to the west block afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 32,
+    "where": "West kerb of Carnarvon Road, south of the houses, beside the park",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        152.982697,
+        -27.501591
+      ],
+      [
+        152.982671,
+        -27.501707
+      ],
+      [
+        152.98271,
+        -27.501714
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 22,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 11.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

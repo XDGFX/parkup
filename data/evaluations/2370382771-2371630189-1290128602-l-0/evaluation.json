@@ -1,0 +1,67 @@
+{
+  "candidate": "2370382771-2371630189-1290128602-l-0",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Angled bays in a bush-edged university car park, with homes over 35 m away.",
+  "reasons": [
+    "Car park with cars already parked",
+    "Backs onto bush and university",
+    "Nearest home 36 m away"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto bush and university buildings; the nearest mapped dwellings are 36 m or more away, across the road.",
+    "access_and_room": "Open from the road, with marked angled bays and a wider sealed apron.",
+    "traffic": "Quiet campus car park, some daytime comings and goings.",
+    "convention": "Other cars are parked in the bays, so a van will not stand out."
+  },
+  "flags": [
+    "University car park, may be patrolled or time-limited",
+    "Slope about 2.7%, mild"
+  ],
+  "sun_shade": "Partly shaded by tall trees, mainly from the north and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Posted car park rules",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 24,
+    "where": "Angled bays at the top of the small car park off Discovery Drive",
+    "slope_pct": 2.7,
+    "points": [
+      [
+        152.994842,
+        -27.508924
+      ],
+      [
+        152.994673,
+        -27.508832
+      ],
+      [
+        152.994695,
+        -27.508801
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 36,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 28.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

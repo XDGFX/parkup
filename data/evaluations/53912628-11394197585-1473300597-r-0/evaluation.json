@@ -1,0 +1,63 @@
+{
+  "candidate": "53912628-11394197585-1473300597-r-0",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a sports club, with cars parked and homes across the road.",
+  "reasons": [
+    "Backs onto bowls club grounds",
+    "Cars park along this kerb",
+    "Homes 27 m+ away across road"
+  ],
+  "drivers": {
+    "seclusion": "West side backs onto club greens and fence; nearest homes are across the road, about 27 m or more.",
+    "access_and_room": "Cars are parked along this kerb in both images, so a van can pull in; short stretch near a crossing.",
+    "traffic": "Through road with an intersection just east; steady passing traffic.",
+    "convention": "Other cars park here, so a van will not stand out."
+  },
+  "flags": [
+    "Busy road with junction and zebra crossing nearby",
+    "Mapped gates 6 m and 18 m away have a way round"
+  ],
+  "sun_shade": "Open to the sky; trees to the north end give some shade; afternoon sun from the west over the club.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking restrictions on site",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "west kerb on Clarence Road beside the bowls club, north of the crossing",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.977705,
+        -27.499502
+      ],
+      [
+        152.977678,
+        -27.499635
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 16.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "54625983-257281326-1274758634-l-60",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Verge beside bushland and golf course; cars park here, homes across the road.",
+  "reasons": [
+    "Backs onto bush and golf course",
+    "Cars park on verge and opposite kerb",
+    "Homes only across the road"
+  ],
+  "drivers": {
+    "seclusion": "South side is bush and golf course; nearest houses are across the road, 40 m or more from this section.",
+    "access_and_room": "Dirt verge beside the lane with a car already pulled onto it in the QLD image.",
+    "traffic": "Residential road with moderate traffic; the van stands clear of the lane.",
+    "convention": "Cars park on both kerbs here, so a van will not stand out."
+  },
+  "flags": [
+    "Steep: about 6% grade, falling to the west",
+    "Houses 20-22 m across the road at 26 m and 83 m, outside the best section",
+    "Powerlines along the verge"
+  ],
+  "sun_shade": "Tree canopy covers much of the verge, mainly from the south; open to the north sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the verge ground is firm"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 60,
+    "where": "Harts Road south side, along the bushy verge west of the corner house",
+    "slope_pct": 6.4,
+    "points": [
+      [
+        152.989751,
+        -27.510816
+      ],
+      [
+        152.989448,
+        -27.510796
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 6.4,
+    "min_elevation_m": 25.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

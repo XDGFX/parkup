@@ -1,0 +1,68 @@
+{
+  "candidate": "2366779845-2370382771-1290128502-l-39",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Bush-edged university car park bays with only non-residential buildings close.",
+  "reasons": [
+    "Backs onto bush and tree canopy",
+    "Nearest buildings are university, not homes",
+    "Cars already park in the bays"
+  ],
+  "drivers": {
+    "seclusion": "Bays sit under dense trees; university buildings are 10 m or more away and the nearest homes are 39 m or more.",
+    "access_and_room": "Sealed lot with angled bays open to the road; plenty of room to stop clear of the lane.",
+    "traffic": "Quiet campus lot off Discovery Drive.",
+    "convention": "Cars are parked in the bays in both images; no signs shown, so campus rules are unknown."
+  },
+  "flags": [
+    "Steep: about 6% mean, up to 14% on the line",
+    "University car park; permit rules may apply",
+    "Mapped gates 28 m and 33 m away have a way round"
+  ],
+  "sun_shade": "Heavy tree shade over the bays, mostly from the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Campus parking restrictions",
+    "Street lighting",
+    "Security patrols"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 25,
+    "where": "angled bays at the bush edge, north-west end of the line",
+    "slope_pct": 6,
+    "points": [
+      [
+        152.994978,
+        -27.509027
+      ],
+      [
+        152.994978,
+        -27.509027
+      ],
+      [
+        152.994848,
+        -27.508927
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 39,
+    "gated": false,
+    "slope_pct": 5.8,
+    "min_elevation_m": 28,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "54625972-257271248-1290130491-r-140",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Arterial kerb beside golf course trees, no parked cars, no room off the lane.",
+  "reasons": [
+    "Main road, no cars parked",
+    "No verge, trees at kerb edge",
+    "Dwellings 11 m and 17 m away"
+  ],
+  "drivers": {
+    "seclusion": "Golf course and trees on the east side, but dwellings sit 11 m away at the south end and 17 m at 17 m along.",
+    "access_and_room": "Kerb runs straight into trees with no verge or pull-in; a van would sit in the lane.",
+    "traffic": "Indooroopilly Road is a through route with steady traffic.",
+    "convention": "No cars parked along this kerb in either image."
+  },
+  "flags": [
+    "Steep: about 3.7% grade",
+    "Low-lying: about 10 m elevation, a mapped waterway 44 m away",
+    "Arterial road noise",
+    "Mapped gate 5 m away with a way round"
+  ],
+  "sun_shade": "Heavy tree shade over the kerb, mostly from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 43,
+    "where": "Indooroopilly Road east kerb, beside the golf course tree line",
+    "slope_pct": 3.7,
+    "points": [
+      [
+        152.988237,
+        -27.50909
+      ],
+      [
+        152.988241,
+        -27.508839
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 3.7,
+    "min_elevation_m": 9.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

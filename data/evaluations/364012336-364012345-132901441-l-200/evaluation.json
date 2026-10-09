@@ -1,0 +1,47 @@
+{
+  "candidate": "364012336-364012345-132901441-l-200",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a junction mouth, steep and wooded, with no room to stop.",
+  "reasons": [
+    "Junction with traffic island",
+    "Wooded bank beside lane",
+    "Very steep, about 12%"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the east side, but house 23 m and garage 18 m away.",
+    "access_and_room": "Only 14 m, at a junction with a median island; wooded bank leaves no pull-off.",
+    "traffic": "Through road with a car moving nearby; junction turning traffic.",
+    "convention": "No cars seen parked along this stretch."
+  },
+  "flags": [
+    "Steep: about 12% mean grade, 17% max",
+    "Junction mouth with island"
+  ],
+  "sun_shade": "Dense tree canopy over the east side; shaded much of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 14.3,
+    "min_elevation_m": 36.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

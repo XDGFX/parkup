@@ -1,0 +1,63 @@
+{
+  "candidate": "54625964-54625972-24223947-r-150",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wide dirt verge backing onto bush and parkland; homes across the road.",
+  "reasons": [
+    "Backs onto bush and park",
+    "Wide verge, a car already parked",
+    "Nearest dwelling about 28 m"
+  ],
+  "drivers": {
+    "seclusion": "South side is bush and open park; nearest houses are across the road, 28 m or more from this section.",
+    "access_and_room": "Flat dirt and grass verge beside the lane with a car parked on it; room to pull fully off.",
+    "traffic": "Quiet residential road; traffic is a flag only as the van stands clear of the lane.",
+    "convention": "A car sits on the verge in both images, so parking here is accepted."
+  },
+  "flags": [
+    "No Stopping Any Time sign mapped near the junction end, beyond the best section",
+    "Powerlines along the verge"
+  ],
+  "sun_shade": "Open verge in sun; bush behind gives some afternoon shade from the south-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Exact extent of the no-stopping sign",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 60,
+    "where": "Harts Road south side, on the dirt verge beside the bushy park",
+    "slope_pct": 0.9,
+    "points": [
+      [
+        152.98685,
+        -27.510037
+      ],
+      [
+        152.987151,
+        -27.510078
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 19.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

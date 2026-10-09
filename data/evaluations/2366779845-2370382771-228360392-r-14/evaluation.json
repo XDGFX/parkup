@@ -1,0 +1,71 @@
+{
+  "candidate": "2366779845-2370382771-228360392-r-14",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Campus road kerb backing onto bush, other cars parked, no homes nearby.",
+  "reasons": [
+    "Bush behind, no dwellings",
+    "Cars already parked here",
+    "Flat, level section"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the north side; only university buildings nearby, nearest homes about 55 m away.",
+    "access_and_room": "Sealed campus road with cars parked along the kerb; room for a van at the verge.",
+    "traffic": "Quiet campus loop road, light traffic likely.",
+    "convention": "Several cars parked along this kerb in both images, so a van blends in."
+  },
+  "flags": [
+    "Campus land: may have its own parking rules",
+    "Steeper elsewhere on loop; best section is flat"
+  ],
+  "sun_shade": "Mostly open to morning sun, bush shade from the north side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Campus parking signs or permits",
+    "Street lighting",
+    "Security patrols"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 92,
+    "to_m": 125,
+    "where": "Top bend of Links Loop, north kerb beside bush where cars park",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.995897,
+        -27.508269
+      ],
+      [
+        152.995688,
+        -27.508222
+      ],
+      [
+        152.995644,
+        -27.508212
+      ],
+      [
+        152.995571,
+        -27.508203
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 115,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 20.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

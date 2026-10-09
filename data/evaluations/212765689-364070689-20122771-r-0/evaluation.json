@@ -1,0 +1,46 @@
+{
+  "candidate": "212765689-364070689-20122771-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Ten-metre corner kerb, too short for a van and close to homes.",
+  "reasons": [
+    "Shorter than a van",
+    "Homes 14 m away",
+    "Corner, shaded by trees"
+  ],
+  "drivers": {
+    "seclusion": "Houses sit 14 to 20 m away on the same side and across the junction.",
+    "access_and_room": "Only 10 m of kerb at a street corner, under a van's length.",
+    "traffic": "Quiet residential junction.",
+    "convention": "No parking convention seen; one car parked nearby."
+  },
+  "flags": [
+    "Low-lying: about 7 m elevation, Cubberla Creek 165 m away"
+  ],
+  "sun_shade": "Heavy tree shade from the south and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 0.8,
+    "min_elevation_m": 7.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

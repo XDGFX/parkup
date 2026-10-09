@@ -1,0 +1,65 @@
+{
+  "candidate": "54626342-257241020-1289527606-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Arterial kerb by a junction, no parked cars, no pull-off, houses close.",
+  "reasons": [
+    "Main road, no cars parked",
+    "No verge, junction and crossing nearby",
+    "House 11 m away at north end"
+  ],
+  "drivers": {
+    "seclusion": "Grass park and trees to the east, but houses sit at the park edge, 11-15 m from the north end and 21-22 m from the start.",
+    "access_and_room": "Kerb meets grass with trees and no pull-in; a van would sit in the lane beside a junction.",
+    "traffic": "Indooroopilly Road is a through route with steady traffic and turning vehicles.",
+    "convention": "No cars parked along this kerb; the only car seen is moving."
+  },
+  "flags": [
+    "Low-lying: about 7 m elevation, Sandy Creek 72 m away",
+    "Arterial road and junction noise",
+    "Pedestrian crossing markings nearby",
+    "Mapped gate 35 m away with a way round"
+  ],
+  "sun_shade": "Large tree to the south-east shades the kerb; otherwise open to the sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "Indooroopilly Road east kerb, just north of the Harts Road junction",
+    "slope_pct": 1.7,
+    "points": [
+      [
+        152.990315,
+        -27.505068
+      ],
+      [
+        152.990287,
+        -27.50489
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

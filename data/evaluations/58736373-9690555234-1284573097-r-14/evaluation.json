@@ -1,0 +1,64 @@
+{
+  "candidate": "58736373-9690555234-1284573097-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short quiet-street kerb backing onto bush, with a home 17 m across the road.",
+  "reasons": [
+    "South side backs onto dense bush",
+    "Home 17 m away across the road",
+    "Quiet street, cars parked opposite"
+  ],
+  "drivers": {
+    "seclusion": "Bush behind the van. Nearest dwelling is 17 m away across the road near 5 m; next are 31 m or more away.",
+    "access_and_room": "Short sealed street; ground beside the south lane is trees and scrub, so room to stop is the lane edge only.",
+    "traffic": "Quiet residential street, probably little traffic.",
+    "convention": "A couple of cars parked along the street in the QLD image; no marked parking lane."
+  },
+  "flags": [
+    "Steep-ish: about 2.7% over the best section, 8% max on the data",
+    "Home within 25 m across the road",
+    "Only about 26 m of kerb"
+  ],
+  "sun_shade": "Bush canopy overhangs the south side, shading it from the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether residents object to overnight vans"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 26,
+    "where": "south kerb of Iona Terrace at the bush edge, east end",
+    "slope_pct": 2.7,
+    "points": [
+      [
+        152.988999,
+        -27.501982
+      ],
+      [
+        152.989158,
+        -27.502006
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 14.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

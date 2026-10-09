@@ -1,0 +1,64 @@
+{
+  "candidate": "53912190-53912207-6890804-r-300",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short residential kerb where cars park, with homes 12-16 m away.",
+  "reasons": [
+    "Cars park along both kerbs",
+    "House 12 m away on this side",
+    "Apartments 16 m away opposite"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 12 m away on this side, apartments 16 m opposite, more flats within 26 m; street trees screen the kerb.",
+    "access_and_room": "Narrow sealed street; parked cars on both sides show the kerb is used, but the section is only 10 m long.",
+    "traffic": "Quiet local street; a painted school zone sits just north.",
+    "convention": "Cars park along both kerbs in both images; no signs on this stretch."
+  },
+  "flags": [
+    "School zone marking just north of the section",
+    "Homes within 25 m on every side",
+    "Only 10 m of kerb, barely a van length"
+  ],
+  "sun_shade": "Street trees shade the kerb from the east and north; open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "School-time restrictions on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "East kerb of Central Avenue, just south of the painted school zone",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.978726,
+        -27.501114
+      ],
+      [
+        152.978743,
+        -27.501025
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 15.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

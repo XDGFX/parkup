@@ -1,0 +1,63 @@
+{
+  "candidate": "3593813900-3593813929-1296759280-r-130",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, backing onto open parkland, with a building site opposite.",
+  "reasons": [
+    "Cars parked along this kerb",
+    "Open parkland behind, no homes on this side",
+    "Terraces 34 m or more away across road"
+  ],
+  "drivers": {
+    "seclusion": "Park and field on the east side. Opposite is a construction site (non-dwelling, 14-34 m); the nearest terrace home is 34 m away at 103 m, none beyond.",
+    "access_and_room": "Sealed street with cars parked along the kerb, and a path between kerb and park.",
+    "traffic": "Residential street with little through traffic evident.",
+    "convention": "Cars are parked along the east kerb in both images, so a van blends in."
+  },
+  "flags": [
+    "Construction noise opposite in the day",
+    "Gentle climb of about 0.9% over the section"
+  ],
+  "sun_shade": "Open to sun; trees at the north end shade the kerb from the west in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Local parking restrictions beyond the screen"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 125,
+    "to_m": 165,
+    "where": "east kerb of Jacaranda Place, opposite the building site",
+    "slope_pct": 0.9,
+    "points": [
+      [
+        152.997371,
+        -27.512085
+      ],
+      [
+        152.99738,
+        -27.511726
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 41,
+    "gated": false,
+    "slope_pct": 0.9,
+    "min_elevation_m": 18.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

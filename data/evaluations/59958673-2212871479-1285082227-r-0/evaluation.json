@@ -1,0 +1,47 @@
+{
+  "candidate": "59958673-2212871479-1285082227-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Approach to the Walter Taylor Bridge, no stopping, no parking and no verge.",
+  "reasons": [
+    "No Stopping Any Time signs",
+    "Through road onto bridge, no parked cars",
+    "Barrier edge, nowhere to pull off"
+  ],
+  "drivers": {
+    "seclusion": "Homes are 35 m or more away, but the kerb is in full view of traffic beside a bridge.",
+    "access_and_room": "Kerb runs along a crash barrier above the rail cutting with no verge or pull-in.",
+    "traffic": "Busy two-lane approach with queued vehicles and rail noise.",
+    "convention": "No Stopping Any Time signs; no cars parked along it."
+  },
+  "flags": [
+    "No Stopping Any Time signs",
+    "Noise: arterial and rail",
+    "Slope up to 10%, 6% mean"
+  ],
+  "sun_shade": "Mostly open to sun; a few trees on the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 35,
+    "gated": false,
+    "slope_pct": 5.3,
+    "min_elevation_m": 16.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

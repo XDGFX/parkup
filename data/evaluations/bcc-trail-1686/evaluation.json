@@ -1,0 +1,49 @@
+{
+  "candidate": "bcc-trail-1686",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Narrow riverside park track through scrub, no clear spot for a van.",
+  "reasons": [
+    "One-vehicle-wide dirt track in scrub",
+    "Only one maintenance-type vehicle seen",
+    "Steep sections, likely closed to the public"
+  ],
+  "drivers": {
+    "seclusion": "Very secluded: scrub and the Brisbane River on one side, a construction site and university on the other, no dwellings near.",
+    "access_and_room": "A narrow dirt track runs through trees along the river bank; no clearing or widening wide enough for a van to stop clear of the track, and one vehicle in the QLD image looks like a park maintenance vehicle.",
+    "traffic": "Almost none; the mapped road, Discovery Drive, is 61 m away.",
+    "convention": "No campervans or tyre marks beyond the single vehicle on the track; mapped car parks nearby belong to the university."
+  },
+  "flags": [
+    "Max grade 16.6% near the pin",
+    "Brisbane River 154 m away, low-lying bank at about 17-19 m",
+    "Track probably gated or park-managed; mapped gates 114 m and further"
+  ],
+  "sun_shade": "Dense tree canopy over most of the track; shaded from the west and north.",
+  "rubbish": "Building rubble and materials on the construction land to the west, not on the track.",
+  "cannot_judge": [
+    "Whether the track is open to vehicles",
+    "Gate or barrier at the track ends",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 16.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

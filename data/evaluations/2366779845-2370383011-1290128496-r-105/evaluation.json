@@ -1,0 +1,67 @@
+{
+  "candidate": "2366779845-2370383011-1290128496-r-105",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Campus access road where cars already park, backing onto university buildings and gardens.",
+  "reasons": [
+    "Cars parked along kerb here",
+    "Only university buildings nearby",
+    "Nearest home about 50 m away"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto university labs, a garden and bush; the nearest mapped dwellings are over 45 m away.",
+    "access_and_room": "Sealed campus road with cars parked on the kerb, so there is room to stop.",
+    "traffic": "Quiet internal campus road, mostly daytime staff traffic.",
+    "convention": "Several cars park along this stretch, so a van will not stand out."
+  },
+  "flags": [
+    "Campus road, may be patrolled or restricted",
+    "Steep stretch of road earlier at 20-60 m"
+  ],
+  "sun_shade": "Partly shaded by trees, mainly on the north and west sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Campus parking rules",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 285,
+    "to_m": 330,
+    "where": "Along the campus road beside the community garden, west of the lab buildings",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        152.997037,
+        -27.510796
+      ],
+      [
+        152.996996,
+        -27.510802
+      ],
+      [
+        152.99659,
+        -27.510878
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 65,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 19.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,18 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Campus road through bush where cars park along the kerb, no homes near.",
+  "reasons": ["Bush on both sides of the road", "Cars park along this kerb", "No dwellings within 400 m of start"],
+  "best_section": {"from_m": 30, "to_m": 70, "where": "wooded stretch of Discovery Drive just south-east of the first campus car park", "slope_pct": 5},
+  "drivers": {
+    "seclusion": "Under dense bush canopy; the only nearby buildings are university buildings, and the nearest homes are 400 m or more along the line.",
+    "access_and_room": "Parked cars sit tight to the kerb here, so a van can stop clear of the lane.",
+    "traffic": "Quiet campus access road.",
+    "convention": "Several cars are parked along the kerb in both images, so a van will not stand out."
+  },
+  "flags": ["Steep: about 5% mean, up to 14% on the line", "University land; permit or time rules may apply", "Mapped gates have a way round"],
+  "sun_shade": "Full tree canopy over the section, shaded all day.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Campus parking restrictions", "Street lighting", "Security patrols"],
+  "confidence": "medium"
+}

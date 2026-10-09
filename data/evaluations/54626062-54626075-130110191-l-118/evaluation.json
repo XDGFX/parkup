@@ -1,0 +1,67 @@
+{
+  "candidate": "54626062-54626075-130110191-l-118",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short east kerb stretch by university trees; loading zone signs and homes 20 m across the road.",
+  "reasons": [
+    "Only 15 m, one van length",
+    "Loading zone signs at both ends",
+    "Homes about 20 m across road"
+  ],
+  "drivers": {
+    "seclusion": "University buildings and trees on the kerb side; homes 20 m away across the road.",
+    "access_and_room": "Sealed kerbside lane; room for one van, few cars parked beside it.",
+    "traffic": "Campus access road with moderate traffic.",
+    "convention": "Only one or two cars parked along this stretch; loading zone signs (Mon-Fri 7am-6pm) both directions."
+  },
+  "flags": [
+    "Steep: about 4.5% mean grade",
+    "Loading zone signs Mon-Fri 7am-6pm"
+  ],
+  "sun_shade": "Mostly shaded by tall trees from the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether the loading zone is enforced overnight",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "East kerb of Meiers Road opposite the houses, under the trees by Cycad building",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        152.995062,
+        -27.509671
+      ],
+      [
+        152.995077,
+        -27.509764
+      ],
+      [
+        152.995079,
+        -27.509805
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 26.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,63 @@
+{
+  "candidate": "53860687-53912199-7797437-l-64",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parked-car kerb along a park edge, shops opposite and no homes close.",
+  "reasons": [
+    "Backs onto open park",
+    "Cars already park here",
+    "Nearest apartments 23 m away"
+  ],
+  "drivers": {
+    "seclusion": "Park behind; retail 16 m across road; apartments 23 m east across the junction.",
+    "access_and_room": "Kerb has cars parked and the park edge is open; van fits along the kerb.",
+    "traffic": "Quiet end of the village street by a turning circle, with some shop traffic.",
+    "convention": "Cars park along this kerb, so a van will not stand out."
+  },
+  "flags": [
+    "Signed time-limited bays, daytime turnover",
+    "Rail noise likely nearby"
+  ],
+  "sun_shade": "Open to sun; a few trees west of the section.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Overnight enforcement"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 4,
+    "to_m": 18,
+    "where": "Lambert Road kerb on the park side, west of the apartment block",
+    "slope_pct": 1.4,
+    "points": [
+      [
+        152.976299,
+        -27.503318
+      ],
+      [
+        152.976164,
+        -27.503278
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 27,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 17.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

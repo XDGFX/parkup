@@ -1,0 +1,63 @@
+{
+  "candidate": "4920414455-4920414456-8111795-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet street kerb against bush; nearest homes 37 m or more away.",
+  "reasons": [
+    "Bush along the whole east kerb",
+    "Nearest homes 37 m+ across the road",
+    "Quiet street, no parking convention"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the kerb side; houses opposite are 37 m or more from the first 15 m.",
+    "access_and_room": "Narrow sealed street; verge is bush and grass, room to pull off is unclear.",
+    "traffic": "Quiet residential street, local traffic only.",
+    "convention": "No parked cars along this stretch and no signs, so no parking habit."
+  },
+  "flags": [
+    "Steep: about 4% grade",
+    "Creek mapped 72 m away, ground is 34 m up"
+  ],
+  "sun_shade": "Mostly shaded by bush canopy to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Width of verge under canopy"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "East kerb of Carinya Street, beside bush, uphill from the side lane",
+    "slope_pct": 4.4,
+    "points": [
+      [
+        152.963412,
+        -27.495499
+      ],
+      [
+        152.96346,
+        -27.495627
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 4.4,
+    "min_elevation_m": 33.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

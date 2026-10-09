@@ -1,0 +1,48 @@
+{
+  "candidate": "4920413420-4920414421-501161170-r-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short steep kerb at a junction mouth beside a main road, with no room to stop.",
+  "reasons": [
+    "Junction with islands and give-way markings",
+    "No parked cars, no pull-off",
+    "Steep: about 10% grade"
+  ],
+  "drivers": {
+    "seclusion": "Bush to the south and houses 34 m or more away, but the stretch is in the open junction.",
+    "access_and_room": "Kerb is a turning area beside a traffic island; a van would block the junction.",
+    "traffic": "Busy main road alongside; vehicles turning through the junction.",
+    "convention": "No parked vehicles seen along this kerb."
+  },
+  "flags": [
+    "Steep: about 10% mean grade, 12% max",
+    "Junction mouth, a van would block turning traffic",
+    "Noise from the main road"
+  ],
+  "sun_shade": "Open at the junction; tree canopy to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 34,
+    "gated": false,
+    "slope_pct": 10.4,
+    "min_elevation_m": 67.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "60667417-1011976219-37584723-l-0",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "East kerb backing onto soccer ground, other cars parked here, homes across road.",
+  "reasons": [
+    "Backs onto park and soccer club",
+    "Cars park along this kerb",
+    "Homes only across the road"
+  ],
+  "drivers": {
+    "seclusion": "East side is a tree strip and soccer ground; the nearest homes are about 21 m away across the street.",
+    "access_and_room": "Open street, cars already parked along the east kerb so there is room.",
+    "traffic": "Quiet suburban street beside a school and sports ground; some daytime activity likely.",
+    "convention": "Several cars parked along this kerb in the QLD image, so a van will not stand out."
+  },
+  "flags": [
+    "Slope up to 3.8% in places, mean 1.6%",
+    "Soccer club and school nearby, daytime activity",
+    "No signs mapped"
+  ],
+  "sun_shade": "Heavily shaded by trees on the east side, most of the section.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 50,
+    "where": "East kerb of Fairley Street beside the soccer ground, south of the club buildings",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.980656,
+        -27.501859
+      ],
+      [
+        152.980588,
+        -27.502213
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 12.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

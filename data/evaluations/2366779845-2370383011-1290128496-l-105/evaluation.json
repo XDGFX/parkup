@@ -1,0 +1,68 @@
+{
+  "candidate": "2366779845-2370383011-1290128496-l-105",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Campus road through bush where cars park along the kerb, no homes near.",
+  "reasons": [
+    "Bush on both sides of the road",
+    "Cars park along this kerb",
+    "No dwellings within 400 m of start"
+  ],
+  "drivers": {
+    "seclusion": "Under dense bush canopy; the only nearby buildings are university buildings, and the nearest homes are 400 m or more along the line.",
+    "access_and_room": "Parked cars sit tight to the kerb here, so a van can stop clear of the lane.",
+    "traffic": "Quiet campus access road.",
+    "convention": "Several cars are parked along the kerb in both images, so a van will not stand out."
+  },
+  "flags": [
+    "Steep: about 5% mean, up to 14% on the line",
+    "University land; permit or time rules may apply",
+    "Mapped gates have a way round"
+  ],
+  "sun_shade": "Full tree canopy over the section, shaded all day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Campus parking restrictions",
+    "Street lighting",
+    "Security patrols"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 70,
+    "where": "wooded stretch of Discovery Drive just south-east of the first campus car park",
+    "slope_pct": 5,
+    "points": [
+      [
+        152.996318,
+        -27.509544
+      ],
+      [
+        152.996358,
+        -27.509554
+      ],
+      [
+        152.996686,
+        -27.509693
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 194,
+    "gated": false,
+    "slope_pct": 8.6,
+    "min_elevation_m": 9.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

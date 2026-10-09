@@ -1,0 +1,63 @@
+{
+  "candidate": "257271248-257271249-1290130525-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Through road beside golf course; no parked cars, grass strip narrow and treed.",
+  "reasons": [
+    "Through road, no cars parked along kerb",
+    "Grass strip beside lane is narrow, treed",
+    "Golf course behind, homes 30 m+ away"
+  ],
+  "drivers": {
+    "seclusion": "Golf course on the east side, nearest dwellings 31 m or more away across the road.",
+    "access_and_room": "Grass strip of roughly 3-5 m between lane and fence/ditch, partly under trees; tight for a van.",
+    "traffic": "Through route with a moving car; no vehicles parked on either side.",
+    "convention": "No parked cars or markings suggesting kerbside parking here."
+  },
+  "flags": [
+    "Low-lying: about 9 m elevation, waterway 12 m away",
+    "Road noise from through traffic"
+  ],
+  "sun_shade": "Trees shade the verge, mainly from the west and north; open to morning sun over the course.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether the grass strip is firm and level"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 45,
+    "where": "east edge of Indooroopilly Road, grass strip beside the golf course fence",
+    "slope_pct": 1.4,
+    "points": [
+      [
+        152.988241,
+        -27.508794
+      ],
+      [
+        152.988241,
+        -27.508434
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 35,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 9.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,71 @@
+{
+  "candidate": "212765687-212765689-20122771-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb backing onto a grassy reserve, with homes across the road.",
+  "reasons": [
+    "Backs onto open reserve",
+    "Homes about 16 m across the road",
+    "Quiet street, no parking convention"
+  ],
+  "drivers": {
+    "seclusion": "South side backs onto open grass and trees; the nearest homes are about 16 m away across the street.",
+    "access_and_room": "Plain sealed street with a wide mown verge; room to pull to the kerb.",
+    "traffic": "Quiet residential street with little through traffic.",
+    "convention": "Only one car seen parked on the street, so a van would be noticed by neighbours."
+  },
+  "flags": [
+    "Low-lying: about 7 m elevation, Cubberla Creek 147 m away",
+    "Homes face the stretch"
+  ],
+  "sun_shade": "Mostly open; trees on the reserve cast some shade from the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Flooding history"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 65,
+    "where": "South kerb of Dobell Street beside the grassed reserve, between the two corners",
+    "slope_pct": 1.1,
+    "points": [
+      [
+        152.960328,
+        -27.515179
+      ],
+      [
+        152.960426,
+        -27.515163
+      ],
+      [
+        152.960621,
+        -27.515131
+      ],
+      [
+        152.960727,
+        -27.515113
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 7.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

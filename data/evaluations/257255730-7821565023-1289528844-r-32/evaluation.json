@@ -1,0 +1,48 @@
+{
+  "candidate": "257255730-7821565023-1289528844-r-32",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Eight metres of through road by a park, with no parking.",
+  "reasons": [
+    "Main road, no cars parked",
+    "Only 8 m long",
+    "Houses 26 m across road"
+  ],
+  "drivers": {
+    "seclusion": "Treed park to the north; houses 26 m and further away.",
+    "access_and_room": "Kerb is at the lane edge beside a red cycle crossing; no pull-off.",
+    "traffic": "Lambert Road is a through route past a school.",
+    "convention": "No parked vehicles seen along this kerb."
+  },
+  "flags": [
+    "Cycle crossing marking at the west end",
+    "Low-lying ground near Sandy Creek, 44 m",
+    "Road noise"
+  ],
+  "sun_shade": "Heavy tree shade from the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 26,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 9.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

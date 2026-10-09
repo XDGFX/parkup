@@ -1,0 +1,48 @@
+{
+  "candidate": "156823619-156826465-15700567-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy arterial beside the railway, with bus zones and no stopping signs.",
+  "reasons": [
+    "Bus Zone and No Stopping signs",
+    "Main road, no parked cars on this side",
+    "No verge to pull off onto"
+  ],
+  "drivers": {
+    "seclusion": "Rail corridor on this side; dwellings about 15 to 22 m across a busy road, with shops and a cinema beyond.",
+    "access_and_room": "Kerb is against the rail fence with no verge or parking lane; a van would sit in the lane.",
+    "traffic": "Multi-lane arterial with queued traffic and trains; heavy noise.",
+    "convention": "Bus Zone, No Stopping and 2-minute parking signs; cars do not park along this kerb."
+  },
+  "flags": [
+    "Bus Zone and No Stopping Any Time signs",
+    "Noise: arterial and rail",
+    "Street edge is a through route into the station precinct"
+  ],
+  "sun_shade": "Open to sky; sun all day except a few trees near the south end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 20.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

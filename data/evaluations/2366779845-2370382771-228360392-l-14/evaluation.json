@@ -1,0 +1,76 @@
+{
+  "candidate": "2366779845-2370382771-228360392-l-14",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Campus loop road in bush, cars parked, no homes within 55 m.",
+  "reasons": [
+    "Bush and university buildings only",
+    "Cars park along this loop",
+    "Nearest home 57 m away"
+  ],
+  "drivers": {
+    "seclusion": "Bush and university buildings all round; nearest dwellings 57 m away at the far end.",
+    "access_and_room": "Open loop road with cars parked along the edge; room to pull in.",
+    "traffic": "Low-volume campus loop; some daytime traffic.",
+    "convention": "Cars parked along the kerb in the imagery, so a van will not stand out."
+  },
+  "flags": [
+    "Slope about 5.6% on average",
+    "Yellow painted kerb markings elsewhere on the loop",
+    "Daytime campus activity"
+  ],
+  "sun_shade": "Open sky over the road with bush shade from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Campus security patrols",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 85,
+    "to_m": 115,
+    "where": "Top of Links Loop where the cars park, north of the large grey building",
+    "slope_pct": 5.6,
+    "points": [
+      [
+        152.995748,
+        -27.50831
+      ],
+      [
+        152.995668,
+        -27.508292
+      ],
+      [
+        152.995628,
+        -27.508283
+      ],
+      [
+        152.995479,
+        -27.508264
+      ],
+      [
+        152.995449,
+        -27.508262
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 133,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 21.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

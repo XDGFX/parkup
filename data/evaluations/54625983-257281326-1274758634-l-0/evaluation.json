@@ -1,0 +1,63 @@
+{
+  "candidate": "54625983-257281326-1274758634-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short 10 m kerb by a driveway; houses 17 m away.",
+  "reasons": [
+    "House 17 m away on same side",
+    "Only about one van length",
+    "Car parked here in Esri image"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 17 m away on the same side; others 22 m or more, one across the side street.",
+    "access_and_room": "Sealed kerb about one van long, beside a side street mouth and a driveway.",
+    "traffic": "Residential road with steady traffic.",
+    "convention": "A car is parked at this kerb in the Esri image, and cars park along the north side."
+  },
+  "flags": [
+    "Next to a side street junction",
+    "Very short stretch"
+  ],
+  "sun_shade": "Tree canopy to the east shades the morning; open to the sun from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Harts Road south kerb, just west of the ring, by the side street",
+    "slope_pct": 2.1,
+    "points": [
+      [
+        152.990663,
+        -27.510722
+      ],
+      [
+        152.990565,
+        -27.510744
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 27.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

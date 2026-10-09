@@ -1,0 +1,71 @@
+{
+  "candidate": "257271249-257271256-7315017-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Through road edged by dense bush; no parked cars and no room to pull off.",
+  "reasons": [
+    "Through road, no cars parked along kerb",
+    "Bush and trees right at lane edge",
+    "No pull-off or verge wide enough"
+  ],
+  "drivers": {
+    "seclusion": "Bush and golf course on the east side; homes only on the far side of the road, far from this stretch.",
+    "access_and_room": "Dense trees and scrub meet the lane edge; no gravel or grass shoulder visible to pull fully off.",
+    "traffic": "Through route; one moving car seen, none parked anywhere along it.",
+    "convention": "No parked vehicles or markings suggesting kerbside parking."
+  },
+  "flags": [
+    "Road noise from through traffic",
+    "Dwelling mapped 18 m away near the far end, outside the best section"
+  ],
+  "sun_shade": "Heavy tree canopy shades the east edge for most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Slope for this stretch",
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 50,
+    "to_m": 100,
+    "where": "east edge of Indooroopilly Road, bush between road and golf course",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.988361,
+        -27.507796
+      ],
+      [
+        152.988463,
+        -27.50752
+      ],
+      [
+        152.98851,
+        -27.507399
+      ],
+      [
+        152.988526,
+        -27.507371
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 39,
+    "gated": false,
+    "slope_pct": 2.5,
+    "min_elevation_m": 8.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

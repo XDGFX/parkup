@@ -1,0 +1,64 @@
+{
+  "candidate": "2371630189-12097985489-130110190-r-14",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "East kerb against bush on a quiet street, homes over 30 m away.",
+  "reasons": [
+    "Bush and university land behind east kerb",
+    "Cars parked on this lane",
+    "Nearest home 33 m, across road"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the east; construction buildings 17 m away across the road and the nearest home 33 m away.",
+    "access_and_room": "Sealed street with a dirt strip on the east edge and cars parked beside it in the Esri image, so a van can pull in.",
+    "traffic": "Quiet street serving the university and a few homes; local traffic.",
+    "convention": "Cars parked at the east edge near 90 m. Three No Stopping Any Time signs sit at the south end, within about 25 m of the start, not at this section."
+  },
+  "flags": [
+    "Steep: mean 7.7%, max 14.2% in the first 60 m; about 3.7% at the section",
+    "No Stopping Any Time signs near the south end",
+    "Mapped gates 4 m and 17-26 m from the line, with ways round them"
+  ],
+  "sun_shade": "Tree canopy shades the east side from the east; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether the cars at the east edge are residents or university users"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 70,
+    "to_m": 105,
+    "where": "East side of Handel Street, north of the university buildings, where cars park against the bush",
+    "slope_pct": 3.7,
+    "points": [
+      [
+        152.994617,
+        -27.508019
+      ],
+      [
+        152.994684,
+        -27.507709
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 33,
+    "gated": false,
+    "slope_pct": 3.5,
+    "min_elevation_m": 19.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

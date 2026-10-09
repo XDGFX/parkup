@@ -1,0 +1,64 @@
+{
+  "candidate": "251461259-4920414514-23240663-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Cul-de-sac head with bush on the west edge, but a home 13 m away.",
+  "reasons": [
+    "Bush behind the west kerb",
+    "House 13 m from stretch end",
+    "Quiet cul-de-sac, no parking convention"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush to the west; the nearest house is 13 m away to the south, the next 20 m, others 28 m or more.",
+    "access_and_room": "Wide sealed turning head, enough width for a van beside the bush; the stretch is only 10 m long.",
+    "traffic": "Dead end serving a few houses; very little traffic.",
+    "convention": "No parked cars seen in either image and no signs mapped."
+  },
+  "flags": [
+    "Home 13 m away at the south end, another 20 m",
+    "Stretch is only 10 m, about one van length",
+    "Witton Creek 103 m away; ground about 54 m elevation so not flood-prone"
+  ],
+  "sun_shade": "Bush shades the west side in the afternoon; open to morning sun and midday sun on the sealed head.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether residents use the turning head"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 8,
+    "where": "West edge of the wide cul-de-sac turning head on Greenhood Street, against the bush",
+    "slope_pct": 1.9,
+    "points": [
+      [
+        152.960582,
+        -27.491551
+      ],
+      [
+        152.960609,
+        -27.491619
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 54.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

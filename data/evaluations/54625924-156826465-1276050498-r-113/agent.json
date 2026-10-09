@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Kerb beside Indooroopilly station on a busy main road, with a bus zone.",
+  "reasons": ["Bus Zone sign on this kerb", "Main road, no parked cars", "No pull-off beside the lane"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Backs onto the rail corridor with no dwellings, but it is a busy town-centre road.",
+    "access_and_room": "Kerb sits against the station fence and rail edge with no verge; a van would block the lane.",
+    "traffic": "Multi-lane arterial beside rail; heavy traffic and train noise.",
+    "convention": "Bus Zone sign; no cars parked along the kerb."
+  },
+  "flags": ["Bus Zone sign on this kerb", "Noise: rail and arterial", "Steep: about 13% mean grade on the stretch"],
+  "sun_shade": "Open to sky, no tree cover.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Kerb height"],
+  "confidence": "high"
+}

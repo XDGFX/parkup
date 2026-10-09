@@ -1,0 +1,68 @@
+{
+  "candidate": "54625964-54625972-24223947-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a private garden lot; homes 24 m or more across the road.",
+  "reasons": [
+    "Backs onto large private garden",
+    "Houses 24-28 m across road",
+    "Some cars park along road"
+  ],
+  "drivers": {
+    "seclusion": "South side is a private garden with hedge; dwellings across the road 24-28 m away, more homes close at the ends.",
+    "access_and_room": "Wide sealed road with a few cars parked on it; room to pull in at the kerb.",
+    "traffic": "Residential road, light traffic, one or two cars passing.",
+    "convention": "A few cars park along this road but no clear parking convention."
+  },
+  "flags": [
+    "Mean slope about 3.5%, steep at the north end",
+    "Residential street, neighbours may notice",
+    "Powerlines along the kerb"
+  ],
+  "sun_shade": "Mostly open to the sun; palms and trees on the garden side give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height and crossfall",
+    "Whether the garden lot has a house on it"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 50,
+    "to_m": 100,
+    "where": "Harts Road south kerb, beside the big garden lot midway along",
+    "slope_pct": 2.8,
+    "points": [
+      [
+        152.985857,
+        -27.509494
+      ],
+      [
+        152.986174,
+        -27.509719
+      ],
+      [
+        152.986253,
+        -27.509775
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 18.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:38:50Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
