@@ -72,7 +72,8 @@ type KindInfo = {
 const KINDS: Record<CandidateKind, KindInfo> = {
   "kerb": {
     name: "Kerb",
-    mark: (cx) => { cx.beginPath(); cx.moveTo(9, 20); cx.lineTo(23, 12); cx.stroke(); },
+    // Kerbs are most pins, so a plain disc means kerb and only sites carry a mark.
+    mark: () => {},
     meta: (c) => [`${c.side} side`, `${Math.round(c.lengthM)} m of kerb`],
     noLimit: "No limit on the plates", noSigns: "No signs: road rules only", tenure: false,
   },
@@ -90,13 +91,22 @@ const KINDS: Record<CandidateKind, KindInfo> = {
   },
 };
 
-/** A small icon per kind, drawn once onto a canvas: a kerb line, a P for a parking area, a peak for an off-road site. */
-function kindIcon(kind: CandidateKind): ImageData {
-  const size = 32, cx = document.createElement("canvas").getContext("2d")!;
+/** Every colour a pin can be: unevaluated or a verdict. */
+const PIN_COLOURS = [UNEVALUATED, ...Object.values(VERDICTS).map((v) => v.color)];
+/** A pin's disc radius in its icon at size 1, in CSS px. */
+const PIN_ICON_RADIUS = 8.5;
+
+/**
+ * A whole pin as one image: a coloured disc with an ink ring and the kind's mark (none for a kerb, a P for a parking
+ * area, a peak for an off-road site). One image per pin keeps each mark with its own disc where pins overlap.
+ */
+function pinIcon(kind: CandidateKind, colour: string): ImageData {
+  const size = 40, cx = document.createElement("canvas").getContext("2d")!;
   cx.canvas.width = cx.canvas.height = size;
-  cx.fillStyle = "#111113";
-  cx.beginPath(); cx.arc(16, 16, 15, 0, Math.PI * 2); cx.fill();
-  cx.strokeStyle = cx.fillStyle = "#E8E8EC";
+  cx.fillStyle = colour; cx.strokeStyle = "#111113"; cx.lineWidth = 3;
+  cx.beginPath(); cx.arc(20, 20, PIN_ICON_RADIUS * 2, 0, Math.PI * 2); cx.fill(); cx.stroke();
+  cx.translate(4, 4);
+  cx.strokeStyle = cx.fillStyle = "#111113";
   cx.lineWidth = 3; cx.lineCap = "round";
   KINDS[kind].mark(cx);
   return cx.getImageData(0, 0, size, size);
@@ -257,29 +267,31 @@ async function main(root: HTMLElement) {
     map.addLayer({ id: "outline", type: "line", source: "outlines", minzoom: STREET_ZOOM - 1,
       paint: { "line-color": ["get", "color"], "line-width": 2, "line-opacity": ["get", "opacity"] } }, "kerb-glow");
     const isKerb = ["==", ["get", "kind"], "kerb"] as ExpressionSpecification;
+    // A pin's radius by zoom, grown by tier: a plain dot below suburb zoom, then a pin icon big enough to carry its mark.
+    const radius = (base: number, perRank: number) => ["+", base, ["*", perRank, ["get", "rank"]]] as ExpressionSpecification;
+    const pin = [[SUBURB_ZOOM, radius(4, 0.5)], [15, radius(6, 1)]] as const;
     const dotPaint = {
-      "circle-radius": ["interpolate", ["linear"], ["zoom"], SUBURB_ZOOM, ["+", 2, ["*", 0.5, ["get", "rank"]]], 15, ["+", 3.5, ["get", "rank"]]] as ExpressionSpecification,
+      "circle-radius": ["interpolate", ["linear"], ["zoom"], SUBURB_ZOOM - 1, radius(2, 0.5), ...pin.flat()] as ExpressionSpecification,
       "circle-color": ["get", "color"] as ExpressionSpecification, "circle-opacity": ["get", "opacity"] as ExpressionSpecification,
       "circle-stroke-color": "#111113", "circle-stroke-width": 1.5, "circle-stroke-opacity": ["get", "opacity"] as ExpressionSpecification,
     };
-    // Kerbs are dots until street zoom, then lines; sites stay dots, as their outline is too small to tap from afar.
-    map.addLayer({ id: "dot", type: "circle", source: "dots", maxzoom: STREET_ZOOM, filter: isKerb, layout: { "circle-sort-key": ["get", "order"] }, paint: dotPaint });
-    map.addLayer({ id: "site-dot", type: "circle", source: "dots", filter: ["!", isKerb], layout: { "circle-sort-key": ["get", "order"] }, paint: dotPaint });
+    // Every pin is a dot until suburb zoom; then kerbs are pin icons until street zoom, where they become lines, and sites stay pin icons.
+    map.addLayer({ id: "dot", type: "circle", source: "dots", maxzoom: SUBURB_ZOOM, layout: { "circle-sort-key": ["get", "order"] }, paint: dotPaint });
     // At street zoom an evaluated kerb keeps a pin on its line, at the best section.
     map.addLayer({ id: "best-dot", type: "circle", source: "dots", minzoom: STREET_ZOOM, filter: ["all", isKerb, ["get", "evaluated"]],
       paint: { ...dotPaint, "circle-radius": 7, "circle-stroke-color": "#fff", "circle-stroke-width": 2 } });
-    // The kind icon on every pin from suburb zoom, small at first: kerbs while they're dots, sites throughout.
-    for (const kind of Object.keys(KINDS) as CandidateKind[]) map.addImage(`kind-${kind}`, kindIcon(kind), { pixelRatio: 2 });
+    for (const kind of Object.keys(KINDS) as CandidateKind[]) for (const c of PIN_COLOURS) map.addImage(`pin-${kind}-${c}`, pinIcon(kind, c), { pixelRatio: 2 });
     const icon = {
-      "icon-image": ["concat", "kind-", ["get", "kind"]] as ExpressionSpecification, "icon-allow-overlap": true,
-      "icon-size": ["interpolate", ["linear"], ["zoom"], SUBURB_ZOOM, 0.6, 14, 1] as ExpressionSpecification, "symbol-sort-key": ["get", "order"] as ExpressionSpecification,
+      "icon-image": ["concat", "pin-", ["get", "kind"], "-", ["get", "color"]] as ExpressionSpecification, "icon-allow-overlap": true,
+      "icon-size": ["interpolate", ["linear"], ["zoom"], ...pin.flatMap(([z, r]) => [z, ["/", r, PIN_ICON_RADIUS]])] as ExpressionSpecification,
+      "symbol-sort-key": ["get", "order"] as ExpressionSpecification,
     };
     map.addLayer({ id: "kerb-icon", type: "symbol", source: "dots", minzoom: SUBURB_ZOOM, maxzoom: STREET_ZOOM, filter: isKerb, layout: icon, paint: { "icon-opacity": ["get", "opacity"] } });
     map.addLayer({ id: "site-icon", type: "symbol", source: "dots", minzoom: SUBURB_ZOOM, filter: ["!", isKerb], layout: icon, paint: { "icon-opacity": ["get", "opacity"] } });
     paint();
   });
 
-  const TAPPABLE = ["kerb-hit", "dot", "site-dot", "best-dot", "kerb-icon", "site-icon", "outline-fill"];
+  const TAPPABLE = ["kerb-hit", "dot", "best-dot", "kerb-icon", "site-icon", "outline-fill"];
   for (const id of TAPPABLE) {
     map.on("click", id, (e: MapLayerMouseEvent) => { const c = byId.get(String(e.features?.[0]?.properties.id)); if (c) show(c); });
     map.on("mouseenter", id, () => (map.getCanvas().style.cursor = "pointer"));
