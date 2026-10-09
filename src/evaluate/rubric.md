@@ -6,10 +6,11 @@ nobody who would care is likely to notice. A cheap screen has already checked co
 where there are any. Your job is what that screen can't see, judged from overhead imagery and elevation
 data.
 
-Read `context.json` in the candidate's folder, then look at every image it lists. Each chunk has two
-images of the same box:
+Read `context.json` in the candidate's folder, then look at every image it lists under `chunks` →
+`images` (paths are relative to the repository root). Each chunk has two images of the same box:
 
 - `*-esri.jpg`: Esri World Imagery, about 30 cm per pixel. Recent; its capture date is in `esri_capture`.
+  It can be missing (`null`) if Esri refused the export; then use the QLD image alone.
 - `*-qld.jpg`: Queensland aerial, 10 cm per pixel. Sharper but older; its dates are in `qld_capture`.
 
 If Esri and QLD disagree, trust Esri for what's there now and QLD for fine detail. **Cyan dots** are
@@ -19,8 +20,10 @@ council parking signs (Brisbane City Council area only).
 
 - `kerb`: a kerb stretch. The **yellow line** is drawn about 5 m off the OSM road centreline, so it may sit
   slightly in the lane; the kerb is the nearest road edge on that side. The yellow ring marks its start,
-  and distances are measured along the kerb from there. Chunks run in order, each `length_m` long.
-- `off-street area`: the yellow line is the **outline** of an unsigned car park or gravel area.
+  and distances are measured along the kerb from there. Small yellow dots mark every 10 m, labelled every
+  50 m. Each chunk covers `from_m` to `to_m` along the line.
+- `outline`: the yellow line is the **outline** of an unsigned car park or gravel area, measured the same
+  way from the ring.
 - `point`: the yellow ring marks a pin someone dropped by hand. It's **approximate** and may land in a
   creek or on a hillside next to the real spot. Find the best place a van could stop within about
   100 m of the ring: a track, clearing, gravel area, car park or kerb. Look for parked vehicles and
@@ -43,9 +46,12 @@ Any one of these makes the verdict `poor`, however secluded the place is:
   along the kerb and there's no marked parking lane. A wide kerbside lane where other cars clearly
   park is fine.
 - **A house right there.** `context.json` → `buildings` lists OSM buildings with their distance from the
-  kerb or outline (`metres`) and where along it they sit (`at_m`). A house, apartment or other dwelling
-  within about 10 m of the best section rules it out. Sheds, clubhouses, toilets and other
-  non-residential buildings don't count. OSM misses some buildings, so check the imagery too.
+  kerb or outline (`metres`), where along it they sit (`at_m`) and whether their tags mark them as a home
+  (`dwelling`). A house, apartment or other dwelling within about 10 m of the best section rules it out.
+  Sheds, clubhouses, toilets and other non-residential buildings don't count. OSM misses some buildings
+  and tags many homes only as `yes`, so check the imagery too. Code re-checks mapped dwellings and mapped
+  gates (`gates`, with `on_only_access`) against your best section afterwards, so give `from_m` and `to_m`
+  accurately.
 
 ## Grading
 
@@ -66,7 +72,7 @@ Surface these, but don't let them decide the verdict unless they're extreme.
 - **Slope.** Use `context.json` → `slope`. Give the grade at the best section, and flag it as steep if
   it's over about 3%. Only rule a spot out on slope above about 12%. The DEM can't show crossfall.
 - **Gate (not closed in imagery), low-lying or flood-prone ground** (`slope.min_elevation_m` under about
-  5 m near a creek or river), **noise** (rail, venues, an arterial).
+  5 m near a creek or river; `waterway` is the nearest mapped one), **noise** (rail, venues, an arterial).
 - **Signs vs imagery.** Painted markings or features that contradict or add to the signs. Don't restate
   the sign rules.
 
