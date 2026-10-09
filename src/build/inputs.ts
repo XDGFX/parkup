@@ -26,3 +26,17 @@ export type OsmWay = {
 };
 
 export type Snapshot = { takenAt: string; signs: SignRecord[]; ways: OsmWay[] };
+
+/** An OSM point: traffic signals, crossings, bus stops, and schools and kindergartens (as their centre). */
+export type OsmNode = { id: number; lon: number; lat: number; tags: Record<string, string> };
+
+/** A painted line at the kerb from BCC "Parking — Line locations". The snapshot keeps only yellow no-stopping lines. */
+export type KerbLine = { assetid: string; coords: [lon: number, lat: number][] };
+
+type Rings = [lon: number, lat: number][][];
+
+/** A City Plan 2014 zone polygon. `code` is the zone or precinct code, e.g. "LDR", "CF5", "OS2"; road reserves have none. */
+export type Zone = { code: string; name: string; rings: Rings };
+
+/** A BCC regulated permit parking area, such as the St Lucia Traffic Area. */
+export type PermitArea = { name: string; rings: Rings };
