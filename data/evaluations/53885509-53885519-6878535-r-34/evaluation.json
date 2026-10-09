@@ -1,0 +1,69 @@
+{
+  "candidate": "53885509-53885519-6878535-r-34",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short steep kerb under trees with apartments 9 m away on its own side.",
+  "reasons": [
+    "Apartments 9 m at 8 m",
+    "Grade 8.8% mean, 12.6% max",
+    "No cars parked on this stretch"
+  ],
+  "drivers": {
+    "seclusion": "Woodland Green apartments 9 m and a house 12 m away on the same side; semi-detached homes opposite.",
+    "access_and_room": "Narrow street with a tree-covered verge beside the kerb; no cars parked on this stretch and little room to pull off the lane.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "No signs; no parked-car convention seen."
+  },
+  "flags": [
+    "Steep: about 8.8% mean, 12.6% max",
+    "Dwelling within 10 m of the kerb"
+  ],
+  "sun_shade": "Dense tree canopy over the kerb, from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "South kerb of Moore Street, beside the tree-covered verge",
+    "slope_pct": 8.8,
+    "points": [
+      [
+        152.990769,
+        -27.495834
+      ],
+      [
+        152.990841,
+        -27.495875
+      ],
+      [
+        152.990861,
+        -27.495848
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 11.8,
+    "min_elevation_m": 10.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,75 @@
+{
+  "candidate": "47456388-47769235-9309293-l-50",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy through road on a bridge approach, signed no parking, bus zone and clearway.",
+  "reasons": [
+    "Main road, no cars parked on kerb",
+    "Bus zone and no-stopping signs",
+    "House 8-13 m from kerb"
+  ],
+  "drivers": {
+    "seclusion": "Houses 8-13 m away along the section, with a kindergarten and car park across the road.",
+    "access_and_room": "Kerb beside a wide through lane; no pull-off, and the verge is narrow and fenced.",
+    "traffic": "Busy road with the Walker Street arterial and tunnel approach next to it.",
+    "convention": "No cars parked on this kerb; signs show Bus Zone, No Parking and No Stopping."
+  },
+  "flags": [
+    "Steep: 10% mean grade, 83% max near the bridge start",
+    "Heavy traffic noise",
+    "Signed No Parking, Bus Zone, No Stopping and Clearway"
+  ],
+  "sun_shade": "Mostly open; trees along the back of the footpath shade it from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 45,
+    "to_m": 71,
+    "where": "Rokeby Terrace south kerb, west of the bend past the bridge",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        152.976826,
+        -27.492804
+      ],
+      [
+        152.9768,
+        -27.492798
+      ],
+      [
+        152.976767,
+        -27.492793
+      ],
+      [
+        152.976594,
+        -27.492766
+      ],
+      [
+        152.976567,
+        -27.492761
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 7.3,
+    "min_elevation_m": 42.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

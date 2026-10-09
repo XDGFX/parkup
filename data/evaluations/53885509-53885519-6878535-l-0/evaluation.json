@@ -1,0 +1,70 @@
+{
+  "candidate": "53885509-53885519-6878535-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Junction-corner kerb beside apartment car park; steep, with a house 9 m away.",
+  "reasons": [
+    "Semi-detached house 9 m at 11 m",
+    "Grade 10.8% mean, 16.8% max",
+    "Junction corner, little room to stop"
+  ],
+  "drivers": {
+    "seclusion": "Semi-detached house 9 m away, apartments 14-21 m; overlooked from several sides.",
+    "access_and_room": "Short kerb at a junction mouth next to an apartment car park entrance; no parked cars seen on it.",
+    "traffic": "Local street junction; light traffic.",
+    "convention": "No signs and no cars parked on this stretch."
+  },
+  "flags": [
+    "Steep: about 10.8% mean, 16.8% max",
+    "Dwelling within 10 m of the kerb",
+    "Low-ish ground, 6-8 m elevation"
+  ],
+  "sun_shade": "Open to the sun; trees shade the south side from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 8,
+    "where": "North kerb just east of the junction, beside the apartment garden",
+    "slope_pct": 10.8,
+    "points": [
+      [
+        152.99052,
+        -27.495606
+      ],
+      [
+        152.990576,
+        -27.495638
+      ],
+      [
+        152.990588,
+        -27.495645
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 16.8,
+    "min_elevation_m": 6.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

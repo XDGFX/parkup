@@ -1,0 +1,46 @@
+{
+  "candidate": "257002948-334425331-532523835-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "14 m of live lane on Moggill Road; no room to stop.",
+  "reasons": [
+    "Arterial lane, no parked cars",
+    "Kerb beside traffic, no pull-off",
+    "Only 14 m long"
+  ],
+  "drivers": {
+    "seclusion": "In full view of passing traffic; no dwelling within 16 m but nothing screens it.",
+    "access_and_room": "Line sits on a through lane with a slip road beside it; no clear ground to pull fully off.",
+    "traffic": "Busy arterial with lanes either side.",
+    "convention": "No cars parked along this kerb; no signs mapped."
+  },
+  "flags": [
+    "Steep: about 7.7% mean grade",
+    "Noise: arterial and rail nearby"
+  ],
+  "sun_shade": "Mostly open; trees shade the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the slip road allows stopping"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 47,
+    "gated": false,
+    "slope_pct": 7.7,
+    "min_elevation_m": 17.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

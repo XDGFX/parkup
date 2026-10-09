@@ -1,0 +1,63 @@
+{
+  "candidate": "53885344-53895379-1243815813-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb with parked cars nearby; homes 14-18 m away on this side.",
+  "reasons": [
+    "Cars park along this street",
+    "Homes 14-18 m away, own side",
+    "Dense housing all round"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 14 m (at 25 m) and 18 m (at 41 m); apartments and homes all round within 25 m.",
+    "access_and_room": "Sealed street, kerb free of cars on this south side; room beside the lane.",
+    "traffic": "Quiet residential street near a junction to the east.",
+    "convention": "Cars are parked along the opposite kerb and further west, so a van blends in."
+  },
+  "flags": [
+    "Dwellings within 25 m on own side",
+    "Dense residential area"
+  ],
+  "sun_shade": "Open to the sun; tree shade at the west end and over the middle from the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 35,
+    "where": "south kerb of Norman Street, east of the trees by the driveway",
+    "slope_pct": 2.9,
+    "points": [
+      [
+        152.984145,
+        -27.495451
+      ],
+      [
+        152.984295,
+        -27.495475
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 12.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

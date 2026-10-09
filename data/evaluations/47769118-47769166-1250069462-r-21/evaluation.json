@@ -1,0 +1,65 @@
+{
+  "candidate": "47769118-47769166-1250069462-r-21",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 1 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow dead-end lane with homes 1-7 m from the kerb and no-stopping signs.",
+  "reasons": [
+    "Dwellings 1-7 m from kerb",
+    "Narrow lane, cars squeezed to one side",
+    "Steep: about 5% grade"
+  ],
+  "drivers": {
+    "seclusion": "Mapped houses at 1 m and 5 m, townhouse apartments within 6 m at the far end; homes on both sides.",
+    "access_and_room": "Narrow lane beside the rail corridor; the east side is a hedge and townhouse fence with no pull-off.",
+    "traffic": "Low traffic, but the rail line is just north so train noise is likely.",
+    "convention": "Cars park mainly on the west side; No Stopping signs cover this kerb."
+  },
+  "flags": [
+    "No Stopping signs along this kerb",
+    "Steep at the start: 17% max, 5% mean",
+    "Rail noise from adjacent corridor"
+  ],
+  "sun_shade": "Trees and townhouses shade the kerb, mostly from the east in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 14,
+    "to_m": 30,
+    "where": "Queens Road east kerb, beside the townhouse block",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.98077,
+        -27.493856
+      ],
+      [
+        152.980766,
+        -27.493716
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 1,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 20.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

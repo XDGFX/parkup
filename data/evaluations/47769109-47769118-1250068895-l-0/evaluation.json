@@ -1,0 +1,70 @@
+{
+  "candidate": "47769109-47769118-1250068895-l-0",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Dead-end turning head backing onto bush, but apartments sit about 10 m away.",
+  "reasons": [
+    "Backs onto dense bush on the west",
+    "Apartments 10 m, more homes within 18 m",
+    "Only 8 m long, in the turning area"
+  ],
+  "drivers": {
+    "seclusion": "Bush and tree canopy to the north and west; Blenheim apartments 10 m and others 16-18 m.",
+    "access_and_room": "Sealed dead end with a wide turning head; room to stand clear but it is also where drivers turn.",
+    "traffic": "Dead-end residential street; little through traffic.",
+    "convention": "A car parks at the kerb nearby; sign bans parking weekdays 8am-4pm only."
+  },
+  "flags": [
+    "Slightly steep: 3.1% grade",
+    "Homes within about 25 m all round",
+    "Short section, about one van length"
+  ],
+  "sun_shade": "Heavy tree shade from the north and west; open to the south-east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the turning head is kept clear"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 8,
+    "where": "West edge of the Queens Road dead-end turning head, against the bush",
+    "slope_pct": 3.1,
+    "points": [
+      [
+        152.980331,
+        -27.495444
+      ],
+      [
+        152.980358,
+        -27.495412
+      ],
+      [
+        152.980375,
+        -27.495384
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 3.2,
+    "min_elevation_m": 34,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

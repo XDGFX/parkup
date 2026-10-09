@@ -1,0 +1,103 @@
+{
+  "candidate": "47831366-603457940-5884058-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, very steep kerb on a junction slip lane beside a main road.",
+  "reasons": [
+    "Slip lane at busy junction, no parking",
+    "Grade about 17%, over the limit",
+    "Apartments 27 m behind the kerb"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks and a car park lie behind the kerb; the junction is open on all sides.",
+    "access_and_room": "Narrow curved kerb with no cars parked; stopping would sit in or at the edge of the lane.",
+    "traffic": "Beside a main arterial junction with constant traffic.",
+    "convention": "No parked cars; 2P sign, resident permits excepted."
+  },
+  "flags": [
+    "Steep: about 17% grade, above the 12% limit",
+    "Main road junction, no kerb parking",
+    "Arterial noise"
+  ],
+  "sun_shade": "Trees on the west side shade the morning; open to afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "West kerb of the curved slip lane off Montrose Road",
+    "slope_pct": 17,
+    "points": [
+      [
+        152.978443,
+        -27.492055
+      ],
+      [
+        152.978442,
+        -27.492055
+      ],
+      [
+        152.978453,
+        -27.492031
+      ],
+      [
+        152.978457,
+        -27.492017
+      ],
+      [
+        152.978461,
+        -27.492003
+      ],
+      [
+        152.978462,
+        -27.491998
+      ],
+      [
+        152.978462,
+        -27.491989
+      ],
+      [
+        152.978462,
+        -27.491982
+      ],
+      [
+        152.978461,
+        -27.491974
+      ],
+      [
+        152.978457,
+        -27.491966
+      ],
+      [
+        152.97845,
+        -27.491956
+      ],
+      [
+        152.978449,
+        -27.491954
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 22,
+    "gated": false,
+    "slope_pct": 17.2,
+    "min_elevation_m": 29.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

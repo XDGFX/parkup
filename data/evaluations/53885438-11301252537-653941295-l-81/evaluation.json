@@ -1,0 +1,69 @@
+{
+  "candidate": "53885438-11301252537-653941295-l-81",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 2 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a house and apartment block, 2-3 m away, with a no-stopping sign.",
+  "reasons": [
+    "Dwellings 2-3 m from kerb",
+    "No Stopping Any Time sign nearby",
+    "Homes all round, no seclusion"
+  ],
+  "drivers": {
+    "seclusion": "A detached house is 2 m away at 8 m, an apartment block 3 m away from 33 m onward, and more homes across the road.",
+    "access_and_room": "Sealed street with a kerb lane and a couple of parked cars; no pull-off.",
+    "traffic": "Quiet street near a junction and cycle lane.",
+    "convention": "A few cars park here, but a No Stopping Any Time sign covers part of the kerb."
+  },
+  "flags": [
+    "Dwellings within 10 m of the whole section",
+    "No Stopping Any Time sign close by",
+    "Steep: 5% mean, 9% max"
+  ],
+  "sun_shade": "Buildings shade the kerb from the north; open to afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "Seven Oaks Street north kerb, below the building site at the bend",
+    "slope_pct": 1.8,
+    "points": [
+      [
+        152.988525,
+        -27.49742
+      ],
+      [
+        152.988488,
+        -27.497356
+      ],
+      [
+        152.988545,
+        -27.497337
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 2,
+    "gated": false,
+    "slope_pct": 3.4,
+    "min_elevation_m": 19.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

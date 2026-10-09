@@ -1,0 +1,66 @@
+{
+  "candidate": "47831048-47831293-129221357-r-60",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Very steep narrow street kerb with homes 12-13 m away on the section's side.",
+  "reasons": [
+    "Grade about 15%, over 12% limit",
+    "Homes 12-13 m from kerb",
+    "Cars park here but residents everywhere"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings at 12, 13, 13 and 19 m along the stretch; houses on both sides of the street.",
+    "access_and_room": "Cars park on the kerb so room exists, but the grade is about 15% (max 17%).",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Residential parking with 2P resident-permit signs; parked cars are common."
+  },
+  "flags": [
+    "Steep: about 15% mean, 17% max",
+    "Signs: 2P Mon-Fri 7am-7pm, resident permits excepted"
+  ],
+  "sun_shade": "Mostly open to the road; trees shade the south end from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 28,
+    "where": "West kerb of Moorak Street, uphill end near the lane junction",
+    "slope_pct": 15.1,
+    "points": [
+      [
+        152.979158,
+        -27.490246
+      ],
+      [
+        152.979129,
+        -27.4904
+      ],
+      [
+        152.979111,
+        -27.490494
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 17,
+    "min_elevation_m": 25.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

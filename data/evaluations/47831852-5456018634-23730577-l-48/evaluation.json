@@ -1,0 +1,67 @@
+{
+  "candidate": "47831852-5456018634-23730577-l-48",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep narrow lane beside the rail line, with homes 2-5 m away.",
+  "reasons": [
+    "Slope 13% mean, 22% max",
+    "Dwellings 2-5 m away along most of it",
+    "Narrow lane, no cars parked"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 4 m away at 23 m and 5 m at the start; another block 16 m at 37 m. Rail cutting across the lane.",
+    "access_and_room": "Narrow sealed lane, kerb to embankment and fence; no room to pull out of the lane.",
+    "traffic": "Lane serving the houses; rail noise from the adjacent tracks.",
+    "convention": "No cars parked along it in the imagery; a van would stand out."
+  },
+  "flags": [
+    "Steep: about 16% at the best section, 22% max",
+    "Dwellings within 5 m",
+    "Rail noise from adjacent tracks",
+    "Gate mapped 12 m away with a way round"
+  ],
+  "sun_shade": "Trees on the north side shade the lane; open to the sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 28,
+    "to_m": 40,
+    "where": "Kerb of the narrow Pike Avenue lane beside the rail embankment, between the two apartment blocks",
+    "slope_pct": 16,
+    "points": [
+      [
+        152.984528,
+        -27.492082
+      ],
+      [
+        152.984428,
+        -27.492143
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 18,
+    "min_elevation_m": 16.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

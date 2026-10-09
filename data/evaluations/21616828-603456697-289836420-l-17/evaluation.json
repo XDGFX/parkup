@@ -1,0 +1,49 @@
+{
+  "candidate": "21616828-603456697-289836420-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Triangular island at a Moggill Road slip-road junction; nowhere to stop.",
+  "reasons": [
+    "Junction island, no parking space",
+    "Main road with bus zone",
+    "Steep, 7% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 17 m away and a busy road junction on every side.",
+    "access_and_room": "Kerb is a slip-lane island beside a railway bridge; no room to pull out of the lane.",
+    "traffic": "Moggill Road arterial, slip lane and bus zone; loud.",
+    "convention": "No Stopping Any Time and Bus Zone signs nearby; no parked cars."
+  },
+  "flags": [
+    "Steep: about 7% mean, 13.8% max",
+    "Main road with no parking",
+    "Bus zone and no-stopping signs",
+    "Noise: arterial and rail"
+  ],
+  "sun_shade": "Trees shade the west and the bridge overhead; open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 9.5,
+    "min_elevation_m": 32.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

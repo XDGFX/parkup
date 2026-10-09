@@ -1,0 +1,66 @@
+{
+  "candidate": "53895366-13067825649-1238481115-l-0",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Flat residential kerb where cars park, with homes 12-23 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Homes 12-22 m on the same side",
+    "Flat: about 1% grade"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 12 m at 5 m and 22 m at 28 m on the north side; apartments 23 m at the start.",
+    "access_and_room": "Sealed street with cars parked along it; room at the kerb.",
+    "traffic": "Quiet residential street near a junction.",
+    "convention": "Cars park along both kerbs, so a van blends in."
+  },
+  "flags": [
+    "No Stopping sign at the east end of the stretch",
+    "Homes close on the same side",
+    "Low-lying: about 9 m, creek 330 m away"
+  ],
+  "sun_shade": "Mostly open; trees on the south side shade the middle in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Sign positions on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 30,
+    "where": "North kerb of Oxford Terrace, west of the apartment block, opposite the treed corner",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.9854,
+        -27.493735
+      ],
+      [
+        152.985599,
+        -27.493768
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

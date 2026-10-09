@@ -1,0 +1,64 @@
+{
+  "candidate": "47456388-47769235-9309293-r-84",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, with homes about 20-24 m away on the same side.",
+  "reasons": [
+    "Cars parked along this kerb",
+    "Homes 19-24 m away, own side",
+    "Sloping: about 4% grade"
+  ],
+  "drivers": {
+    "seclusion": "Nearest mapped homes are 22-24 m away on the same side, with more across the road; none within 10 m.",
+    "access_and_room": "Sealed kerb lane with several cars already parked on it; room for a van.",
+    "traffic": "Side street off the main road; moderate through traffic.",
+    "convention": "Cars park along the north kerb, but No Parking and Bus Zone signs sit near the start."
+  },
+  "flags": [
+    "Signs show No Parking Any Time and Bus Zone nearby",
+    "Steep: about 4% mean grade, 10% max",
+    "Traffic noise from the Walker Street arterial"
+  ],
+  "sun_shade": "Trees on the south side shade the kerb in the afternoon; open to the morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Exact extent of the No Parking sign zones",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 100,
+    "to_m": 125,
+    "where": "Rokeby Terrace north kerb, near the west end before the junction",
+    "slope_pct": 3.7,
+    "points": [
+      [
+        152.975994,
+        -27.49257
+      ],
+      [
+        152.975744,
+        -27.492532
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 3.7,
+    "min_elevation_m": 38.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

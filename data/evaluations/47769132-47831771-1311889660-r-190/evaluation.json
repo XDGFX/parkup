@@ -1,0 +1,65 @@
+{
+  "candidate": "47769132-47831771-1311889660-r-190",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep residential kerb with houses 4-6 m away on the same side.",
+  "reasons": [
+    "Mean grade 22%, max 29%",
+    "Dwellings 4 m and 6 m from kerb",
+    "Narrow street lined with homes"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 6 m away at 16 m and 4 m at 27 m; apartments and houses all round.",
+    "access_and_room": "Narrow sealed street with cars parked on the west side; no pull-off.",
+    "traffic": "Quiet dead-end style residential street off the cross road.",
+    "convention": "Residents park along the kerb; no signs mapped."
+  },
+  "flags": [
+    "Steep: about 22% grade, 29% max",
+    "Mapped dwellings within 10 m"
+  ],
+  "sun_shade": "Mostly open; tree shade from the east at the lower end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Kerb height",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Top end of the west kerb, above the houses, near the northern parked cars",
+    "slope_pct": 22,
+    "points": [
+      [
+        152.981398,
+        -27.495935
+      ],
+      [
+        152.981378,
+        -27.496041
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 24.8,
+    "min_elevation_m": 31.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

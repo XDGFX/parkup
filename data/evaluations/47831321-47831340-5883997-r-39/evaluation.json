@@ -1,0 +1,62 @@
+{
+  "candidate": "47831321-47831340-5883997-r-39",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb where cars park; nearest house about 15 m, behind a pool and fence.",
+  "reasons": [
+    "Houses 11-19 m from kerb",
+    "Cars park along this kerb",
+    "Resident-permit 2P signs"
+  ],
+  "drivers": {
+    "seclusion": "Garden, pool and tennis court sit between kerb and houses; nearest house 15 m at the east end.",
+    "access_and_room": "Open kerb with parked cars; room for a van.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park here, but 2P Mon-Fri resident-permit signs and no sign of overnight stays."
+  },
+  "flags": [
+    "Dwellings 10-25 m away on the same side",
+    "2P Mon-Fri resident permits excepted"
+  ],
+  "sun_shade": "Mostly open; trees across the road shade the north side. Morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 14,
+    "to_m": 28,
+    "where": "Marmion Parade south kerb, in front of the pool and tennis-court garden",
+    "slope_pct": 1.3,
+    "points": [
+      [
+        152.981345,
+        -27.490751
+      ],
+      [
+        152.981485,
+        -27.490774
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 18.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

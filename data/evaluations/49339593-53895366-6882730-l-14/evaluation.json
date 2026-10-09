@@ -1,0 +1,64 @@
+{
+  "candidate": "49339593-53895366-6882730-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "North kerb where cars park, with apartment blocks 11-16 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Apartments 11-16 m away, own side",
+    "Dense housing all round"
+  ],
+  "drivers": {
+    "seclusion": "Dwelling 16 m away at 2 m, apartments 11 m at 13 m; apartments and houses within 25 m all round.",
+    "access_and_room": "Sealed street with a row of parked cars along this kerb; room for a van.",
+    "traffic": "Through street linking junctions, with bus stops further east.",
+    "convention": "A row of cars parks along this kerb, so a van blends in."
+  },
+  "flags": [
+    "Steep: about 5% grade",
+    "Bus Zone signs on the street, probably east of the section",
+    "Dwellings within 25 m"
+  ],
+  "sun_shade": "Open to sun; some shade from garden trees on the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact position of the bus zone"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "north kerb of Oxford Terrace just east of the western junction",
+    "slope_pct": 5,
+    "points": [
+      [
+        152.984336,
+        -27.493564
+      ],
+      [
+        152.984456,
+        -27.493583
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 6,
+    "min_elevation_m": 13.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

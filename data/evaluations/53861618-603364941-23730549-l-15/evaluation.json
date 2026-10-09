@@ -1,0 +1,71 @@
+{
+  "candidate": "53861618-603364941-23730549-l-15",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "North kerb under big trees; homes 14-27 m away, cars park along the street.",
+  "reasons": [
+    "Homes 14-27 m away all round",
+    "Cars park along both kerbs",
+    "Leafy tree cover on the north side"
+  ],
+  "drivers": {
+    "seclusion": "Dense houses within about 25 m both sides; nearest dwelling to the section is the bungalow 8 m off the line at 117 m, with others 15-27 m away.",
+    "access_and_room": "Sealed residential street with cars parked along the kerb; room for a van.",
+    "traffic": "Through street linking junctions; moderate traffic.",
+    "convention": "Several cars park along this kerb, so a van blends in."
+  },
+  "flags": [
+    "Dwellings within 25 m all round",
+    "No Stopping Any Time sign about 10 m from the kerb line, location not clear; probably near the west junction",
+    "Slope rises steeply along the full stretch (7.4% mean, up to 13%), but about 2.4% at the section",
+    "Toowong Creek 244 m away, low ground at the west end"
+  ],
+  "sun_shade": "Heavy tree canopy over the section, mainly from the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact position of the No Stopping sign",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 130,
+    "to_m": 142,
+    "where": "north kerb of Oxford Terrace under the large trees near the eastern end",
+    "slope_pct": 2.4,
+    "points": [
+      [
+        152.98784,
+        -27.494131
+      ],
+      [
+        152.987921,
+        -27.494145
+      ],
+      [
+        152.987959,
+        -27.494151
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 22.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

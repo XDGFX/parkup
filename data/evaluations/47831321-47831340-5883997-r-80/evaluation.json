@@ -1,0 +1,65 @@
+{
+  "candidate": "47831321-47831340-5883997-r-80",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short corner kerb at a junction with a house 8 m away.",
+  "reasons": [
+    "House 8 m from kerb",
+    "Only 16 m, at a junction",
+    "Corner verge, little room to stop"
+  ],
+  "drivers": {
+    "seclusion": "House 8 m away at 13 m; the corner is overgrown with scrub but is close to the junction.",
+    "access_and_room": "Kerb curves into the junction and is overgrown; a van would sit near the give-way line.",
+    "traffic": "Busy road with parked cars just east of the junction.",
+    "convention": "Residential parking with 2P resident-permit signs; no sign of overnight stays."
+  },
+  "flags": [
+    "Dwelling within 10 m of the section",
+    "Junction corner, short stretch",
+    "2P Mon-Fri resident permits excepted"
+  ],
+  "sun_shade": "Tree and scrub canopy over the kerb; shade much of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "Marmion Parade south kerb, last stretch before the Taringa Parade junction",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        152.981607,
+        -27.490796
+      ],
+      [
+        152.981763,
+        -27.490822
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 18.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

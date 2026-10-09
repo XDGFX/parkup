@@ -1,0 +1,73 @@
+{
+  "candidate": "47831408-603458008-129221347-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "13 m kerb with a dwelling 6 m behind it.",
+  "reasons": [
+    "Dwelling 6 m away on same side",
+    "Units and houses 13-14 m behind",
+    "Only 13 m of kerb"
+  ],
+  "drivers": {
+    "seclusion": "Units 6 m and 13-14 m behind the kerb; homes close all round.",
+    "access_and_room": "Cars park along this kerb, but the stretch is barely one van long.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park here; signed 2P Mon-Fri 7am-7pm, resident permits excepted."
+  },
+  "flags": [
+    "Dwelling within 10 m rules it out",
+    "Steep: about 4% grade",
+    "Signed 2P daytime weekdays, resident permits excepted"
+  ],
+  "sun_shade": "Large tree over the western end gives afternoon shade; otherwise open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 13,
+    "where": "North kerb of Montrose Road, by the unit block's tree and car park",
+    "slope_pct": 4.1,
+    "points": [
+      [
+        152.976798,
+        -27.491541
+      ],
+      [
+        152.976872,
+        -27.491539
+      ],
+      [
+        152.976907,
+        -27.491539
+      ],
+      [
+        152.97693,
+        -27.491539
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 4.5,
+    "min_elevation_m": 30,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

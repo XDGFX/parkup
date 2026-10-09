@@ -1,0 +1,62 @@
+{
+  "candidate": "47831048-47831293-129221357-r-88",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Nine-metre kerb at a junction mouth; too short for a van, apartments 14 m away.",
+  "reasons": [
+    "Only 9 m, shorter than a van",
+    "Junction mouth, little room to stop",
+    "Apartments 14 m, homes all round"
+  ],
+  "drivers": {
+    "seclusion": "Koala Garden apartments 14 m away, houses 19-21 m on the far side; overlooked all round.",
+    "access_and_room": "Stretch is 9 m and runs into the junction corner, so a van would overhang the mouth.",
+    "traffic": "Quiet residential street with a junction beside it.",
+    "convention": "Resident-permit 2P signs; a few cars park nearby."
+  },
+  "flags": [
+    "Steep: about 8% grade",
+    "Signs: 2P Mon-Fri 7am-7pm, resident permits excepted"
+  ],
+  "sun_shade": "Tree canopy to the south-west shades the kerb; open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 9,
+    "where": "West kerb of Moorak Street, just before the junction",
+    "slope_pct": 8,
+    "points": [
+      [
+        152.979111,
+        -27.490497
+      ],
+      [
+        152.979097,
+        -27.490574
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 8.4,
+    "min_elevation_m": 24.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

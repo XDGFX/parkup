@@ -1,0 +1,70 @@
+{
+  "candidate": "11291275742-13033616513-1218562394-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb on a signalised junction approach with a median island; no room to stop.",
+  "reasons": [
+    "Multi-lane junction approach, no parking",
+    "Dwelling 12 m, grade up to 15%",
+    "Steep and exposed to traffic"
+  ],
+  "drivers": {
+    "seclusion": "House 12 m and Bona Place apartments 16 m away on the same side.",
+    "access_and_room": "Kerb runs along a widened junction approach with a painted island; no parked cars seen and no space to pull out of the lane.",
+    "traffic": "Busy junction with lanes and signals; noisy.",
+    "convention": "Resident-permit 2P signs; no cars parked on this stretch."
+  },
+  "flags": [
+    "Steep: about 9.6% mean, 15% max",
+    "Signs: 2P Mon-Fri 7am-7pm, resident permits excepted"
+  ],
+  "sun_shade": "Open to the sky; trees shade the east side only.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "West kerb of Moorak Street on the approach to the main-road junction",
+    "slope_pct": 9.6,
+    "points": [
+      [
+        152.978929,
+        -27.491566
+      ],
+      [
+        152.978927,
+        -27.491584
+      ],
+      [
+        152.97892,
+        -27.491632
+      ],
+      [
+        152.978908,
+        -27.4917
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 12.8,
+    "min_elevation_m": 23.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

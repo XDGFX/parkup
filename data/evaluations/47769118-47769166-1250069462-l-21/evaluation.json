@@ -1,0 +1,69 @@
+{
+  "candidate": "47769118-47769166-1250069462-l-21",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 0 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow dead-end lane with houses at the kerb and no-stopping signs.",
+  "reasons": [
+    "Dwellings 0-7 m from kerb",
+    "Narrow lane, little room off lane",
+    "Steep: about 9% grade"
+  ],
+  "drivers": {
+    "seclusion": "Mapped houses at 0 m, 7 m and 10 m along the whole stretch, with homes all round.",
+    "access_and_room": "Narrow lane by the rail corridor; cars park tight to the west kerb, little room beside the lane.",
+    "traffic": "Low traffic, but the rail line is just north so train noise is likely.",
+    "convention": "A few cars park along the lane, but No Stopping signs cover the kerb."
+  },
+  "flags": [
+    "Steep: about 9% mean grade, 18% max",
+    "Rail noise from adjacent corridor",
+    "No Stopping signs along this kerb"
+  ],
+  "sun_shade": "Open lane; houses and trees on the east side shade it in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Queens Road west kerb near the Hilda Street end of the lane",
+    "slope_pct": 9.4,
+    "points": [
+      [
+        152.980692,
+        -27.493899
+      ],
+      [
+        152.980612,
+        -27.493887
+      ],
+      [
+        152.980618,
+        -27.49387
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 0,
+    "gated": false,
+    "slope_pct": 8.2,
+    "min_elevation_m": 21.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

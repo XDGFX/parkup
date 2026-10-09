@@ -1,0 +1,74 @@
+{
+  "candidate": "603364941-603364946-47402270-r-14",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "South kerb behind a hedge where cars park; houses 14 m away, garages closer.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Nearest home 14 m; garages 3-6 m",
+    "Steep: about 5% grade"
+  ],
+  "drivers": {
+    "seclusion": "Rear garages 3-6 m away (non-residential) and a terrace home 14 m at 50 m; house 7 m at 28 m and 6 m at 84 m just outside the section. A hedge screens the kerb.",
+    "access_and_room": "Sealed street with cars parked along the south kerb; room to stop.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Cars park here in the imagery, so a van blends in."
+  },
+  "flags": [
+    "Steep: about 5% over the best section, 14% max over the stretch",
+    "Homes within 25 m all round",
+    "No council signs on this stretch"
+  ],
+  "sun_shade": "Hedge and trees on the south side shade the kerb in the afternoon; open to morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 42,
+    "to_m": 66,
+    "where": "South kerb behind the hedge, opposite the Parque on Oxford apartments",
+    "slope_pct": 5,
+    "points": [
+      [
+        152.988725,
+        -27.494383
+      ],
+      [
+        152.98879,
+        -27.494393
+      ],
+      [
+        152.988871,
+        -27.494406
+      ],
+      [
+        152.988964,
+        -27.494421
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 5.4,
+    "min_elevation_m": 13.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

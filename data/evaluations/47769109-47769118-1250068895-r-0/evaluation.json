@@ -1,0 +1,74 @@
+{
+  "candidate": "47769109-47769118-1250068895-r-0",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "East kerb at the dead end; homes 13-23 m away on this side.",
+  "reasons": [
+    "Apartments 13 m and homes within 25 m",
+    "Bush opposite across the narrow street",
+    "Gentle rise, about 4%, near the turning head"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 13-16 m and 23 m on this side; bush and trees opposite; the next house is 7 m at 29 m.",
+    "access_and_room": "Sealed dead end with a turning head; cars already parked along this kerb.",
+    "traffic": "No-through residential street; light traffic.",
+    "convention": "Residents park along it; signs ban parking weekdays 8am-4pm only."
+  },
+  "flags": [
+    "Steep: about 4-5% on the best section, 12% mean along whole stretch",
+    "Homes within about 25 m all round",
+    "Weekday 8am-4pm no-parking signs"
+  ],
+  "sun_shade": "Partly shaded by trees to the south and west; open to morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether residents mind a van overnight"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "East kerb at the Queens Road dead end, by the turning head",
+    "slope_pct": 4.6,
+    "points": [
+      [
+        152.980397,
+        -27.495487
+      ],
+      [
+        152.980427,
+        -27.49545
+      ],
+      [
+        152.980454,
+        -27.495406
+      ],
+      [
+        152.98047,
+        -27.495323
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 8.7,
+    "min_elevation_m": 33.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

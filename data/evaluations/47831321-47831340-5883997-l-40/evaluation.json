@@ -1,0 +1,62 @@
+{
+  "candidate": "47831321-47831340-5883997-l-40",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb where cars park; houses 14-23 m away at the east end.",
+  "reasons": [
+    "Houses 14 m and 23 m away",
+    "Cars park along both kerbs",
+    "Resident-permit 2P signs"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwelling 14 m at the east end, others 21-23 m; thick trees screen the north side.",
+    "access_and_room": "Open kerb with parked cars on both sides; room for a van.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park here, but 2P Mon-Fri resident-permit signs and no sign of overnight stays."
+  },
+  "flags": [
+    "Dwellings 10-25 m away on the same side",
+    "2P Mon-Fri resident permits excepted"
+  ],
+  "sun_shade": "Dense tree canopy over the north side; shade much of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 18,
+    "to_m": 28,
+    "where": "Marmion Parade north kerb, east end beneath the dense trees before the next house",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.981408,
+        -27.490688
+      ],
+      [
+        152.981506,
+        -27.490705
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 18.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

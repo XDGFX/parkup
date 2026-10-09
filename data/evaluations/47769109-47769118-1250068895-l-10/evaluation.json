@@ -1,0 +1,72 @@
+{
+  "candidate": "47769109-47769118-1250068895-l-10",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat west kerb backing onto bush, homes only across the road.",
+  "reasons": [
+    "Bush on the west side of the kerb",
+    "Nearest homes 12 m or more, across road",
+    "Cars park along this street already"
+  ],
+  "drivers": {
+    "seclusion": "West side is dense bush and tree canopy; apartments 12 m and houses 19 m away, across the street.",
+    "access_and_room": "Sealed narrow street with cars parked at the kerb nearby; level crest gives a van a stopping place.",
+    "traffic": "Quiet no-through residential street; light traffic.",
+    "convention": "Residents park along it; signs only ban parking weekdays 8am-4pm."
+  },
+  "flags": [
+    "Steep either side: 12-18% grades; best section is the flat crest",
+    "Narrow street, a van may restrict passing",
+    "Weekday 8am-4pm no-parking signs"
+  ],
+  "sun_shade": "Shaded by bush and canopy from the west; open overhead near the crest.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether residents mind a van overnight"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 28,
+    "to_m": 42,
+    "where": "West kerb of Queens Road on the level crest, about 30 m up from the dead end, beside the bush",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.980422,
+        -27.495134
+      ],
+      [
+        152.980426,
+        -27.495109
+      ],
+      [
+        152.980437,
+        -27.495046
+      ],
+      [
+        152.980444,
+        -27.49501
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 37.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "49339593-53895366-6882730-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short corner kerb with a house 8 m away.",
+  "reasons": [
+    "Detached house 8 m away",
+    "Only 11 m long, beside a junction",
+    "Apartments 19-24 m away"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 8 m away at 2 m; apartments 19-24 m away.",
+    "access_and_room": "Sealed street with a grass verge; kerb is only 11 m long, near the corner.",
+    "traffic": "Through street at a junction.",
+    "convention": "A few cars park nearby, but the section is too short for a van."
+  },
+  "flags": [
+    "Dwelling within 10 m",
+    "Steep: about 6% grade",
+    "Shorter than a van-length margin beside the junction"
+  ],
+  "sun_shade": "Open, with tree shade from the south-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 11,
+    "where": "south kerb of Oxford Terrace at the western junction, outside the solar-roofed house",
+    "slope_pct": 6.2,
+    "points": [
+      [
+        152.984321,
+        -27.493635
+      ],
+      [
+        152.984431,
+        -27.493652
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 4.8,
+    "min_elevation_m": 13.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

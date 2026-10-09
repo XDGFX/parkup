@@ -1,0 +1,64 @@
+{
+  "candidate": "47766941-47769132-1239739044-r-30",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Nine metres of west kerb outside a cafe by Taringa station.",
+  "reasons": [
+    "Cafe and station beside it, no dwelling under 10 m",
+    "Apartments 11 m away on same side",
+    "Cars already park at this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Cafe 0-3 m is non-residential; apartments 11 m behind it, other homes 17 m or more.",
+    "access_and_room": "Cars are parked at this kerb; stretch is only about a van length with a narrow footpath beside it.",
+    "traffic": "Through street next to the station and park 'n' ride; steady traffic.",
+    "convention": "Cars park here, but signs give 1/4P and no stopping on weekday mornings."
+  },
+  "flags": [
+    "Short section, barely one van length",
+    "Rail noise from Taringa station",
+    "Flat, 1% mean grade"
+  ],
+  "sun_shade": "Open to the sky; tree shade from the east side of the street in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerb height",
+    "Street lighting",
+    "Overnight signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 9,
+    "where": "West kerb outside the Scatter Bean cafe, just south of Taringa station",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.981857,
+        -27.493486
+      ],
+      [
+        152.981842,
+        -27.493566
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 18.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

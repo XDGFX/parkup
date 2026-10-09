@@ -1,0 +1,65 @@
+{
+  "candidate": "47766941-47769132-1239739044-r-86",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep west kerb on Princess Street with two houses 8 m away.",
+  "reasons": [
+    "Two dwellings 8 m from kerb",
+    "Mean grade 11%, max 18%",
+    "Narrow street, houses close all round"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 8 m away at 3 m and 15 m along; apartments 13 m.",
+    "access_and_room": "Cars park along the kerb but the lane is narrow, with houses and fences directly behind.",
+    "traffic": "Residential through street towards the station; moderate traffic.",
+    "convention": "Cars park here; only a weekday 7-9am no-parking sign."
+  },
+  "flags": [
+    "Steep: about 11% grade, 18% max",
+    "Mapped dwellings within 10 m"
+  ],
+  "sun_shade": "Mostly open; some tree shade from the west at the north end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Kerb height",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "West kerb of Princess Street, just north of the cross street",
+    "slope_pct": 11.1,
+    "points": [
+      [
+        152.981762,
+        -27.493987
+      ],
+      [
+        152.981736,
+        -27.494125
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 8.7,
+    "min_elevation_m": 19.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

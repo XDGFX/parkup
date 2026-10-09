@@ -1,0 +1,52 @@
+{
+  "candidate": "21616910-362259378-7792599-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 0 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Moggill Road arterial kerb at a major junction; clearway, no parking.",
+  "reasons": [
+    "Arterial with clearway tow-away",
+    "No cars parked along kerb",
+    "House on the kerb at 49 m"
+  ],
+  "drivers": {
+    "seclusion": "Dealership car park behind the west end, but the road is exposed; a house sits on the kerb at 49 m.",
+    "access_and_room": "Kerb is a traffic lane beside a busy junction; no bay or shoulder to pull into.",
+    "traffic": "Six-lane arterial and signalised junction; loud.",
+    "convention": "Clearway Mon-Sat 7am-7pm tow away; no cars parked along it in either image."
+  },
+  "flags": [
+    "Main road with no parking",
+    "Clearway tow-away",
+    "Dwelling at 0 m from kerb at 49 m",
+    "Steep: about 4% mean, 7.6% max",
+    "Noise: arterial junction"
+  ],
+  "sun_shade": "Open to sun; large tree shades the opposite side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 0,
+    "gated": false,
+    "slope_pct": 3.8,
+    "min_elevation_m": 17,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "47768781-53885330-54233313-l-14",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a grassed island and rail corridor; homes 25 m+ away.",
+  "reasons": [
+    "Backs onto grass island and rail corridor",
+    "Nearest home 26 m from best section",
+    "Cars already park along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Grass island and rail corridor on this side. Nearest home 26 m at the start; houses 15 m away only at the far end, beyond the section.",
+    "access_and_room": "Sealed road with a row of cars parked along the kerb; room to stop.",
+    "traffic": "Junction with moderate traffic and rail noise; van stands off the live lane.",
+    "convention": "Five or so cars parked in a line here in the Esri image."
+  },
+  "flags": [
+    "1/4P Parallel and No Stopping signs on this stretch",
+    "Rail noise from trains alongside",
+    "Junction traffic",
+    "Only about 21 m long"
+  ],
+  "sun_shade": "Open; a tree on the island shades the east side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Which signs apply to the exact spot"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Kerb along the grass triangle island at the Pike Avenue and Ada Street junction, beside the rail line",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.983915,
+        -27.49246
+      ],
+      [
+        152.983808,
+        -27.492512
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 12.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

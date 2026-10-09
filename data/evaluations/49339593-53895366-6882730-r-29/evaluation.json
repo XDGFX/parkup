@@ -1,0 +1,66 @@
+{
+  "candidate": "49339593-53895366-6882730-r-29",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "South kerb with some parked cars; apartments 13-22 m away; bus zone nearby.",
+  "reasons": [
+    "Apartments 13-22 m away",
+    "Some cars park along this kerb",
+    "Bus Zone sign near the east end"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 13-22 m away at 13-33 m; house 8 m away at 9 m lies just west of the section.",
+    "access_and_room": "Sealed street with a grass and dirt verge; room beside the lane.",
+    "traffic": "Through street with bus services.",
+    "convention": "Cars park on both kerbs here, but the south kerb is sparser."
+  },
+  "flags": [
+    "Bus Zone sign 3 m from the kerb, near the east end",
+    "Steep: about 5.5% grade",
+    "Dwellings within 25 m"
+  ],
+  "sun_shade": "Open at the west end; heavy tree shade from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact limit of the bus zone",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 12,
+    "to_m": 28,
+    "where": "south kerb of Oxford Terrace, past the solar-roofed house and before the trees",
+    "slope_pct": 5.5,
+    "points": [
+      [
+        152.984593,
+        -27.493678
+      ],
+      [
+        152.984752,
+        -27.493703
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 5.5,
+    "min_elevation_m": 11.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

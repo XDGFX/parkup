@@ -1,0 +1,47 @@
+{
+  "candidate": "362259378-362259439-129221354-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "No Stopping kerb on a slip lane at a Moggill Road junction.",
+  "reasons": [
+    "No Stopping Any Time sign",
+    "Junction slip lane, no parked cars",
+    "Dwelling 21 m away"
+  ],
+  "drivers": {
+    "seclusion": "Open junction under a large tree; detached house 21 m off the start.",
+    "access_and_room": "Kerb is the edge of a slip lane beside a grass island; no room to pull out of the lane.",
+    "traffic": "Busy arterial junction with turning traffic.",
+    "convention": "No cars parked here; No Stopping Any Time signed."
+  },
+  "flags": [
+    "No Stopping sign",
+    "Steep: about 6.1% mean grade, 8.8% max",
+    "Noise: arterial junction"
+  ],
+  "sun_shade": "Large tree canopy shades the whole section.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Out-of-hours enforcement"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 5.4,
+    "min_elevation_m": 17.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

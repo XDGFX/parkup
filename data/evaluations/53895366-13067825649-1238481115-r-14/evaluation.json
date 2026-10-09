@@ -1,0 +1,64 @@
+{
+  "candidate": "53895366-13067825649-1238481115-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Treed south kerb where cars park; homes about 18 m away on this side.",
+  "reasons": [
+    "Cars parked along this kerb",
+    "Homes 18 m away on same side",
+    "Flat: about 2% grade"
+  ],
+  "drivers": {
+    "seclusion": "Semidetached house 18 m at 25 m and apartments 18 m at 30 m on the south side, screened by dense trees. Detached house 15 m near the start.",
+    "access_and_room": "Sealed street with cars parked along the south kerb; room to stop.",
+    "traffic": "Quiet residential street near a junction.",
+    "convention": "Several cars parked along this kerb, so a van blends in."
+  },
+  "flags": [
+    "No Stopping sign 8 m off the line, east end",
+    "Homes within 25 m all round",
+    "Low-lying: about 9 m, creek 336 m away"
+  ],
+  "sun_shade": "Dense tree canopy over the south side shades the middle section, mainly in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Sign positions on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 45,
+    "where": "South kerb of Oxford Terrace beside the large tree canopy near the west corner",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.985524,
+        -27.493829
+      ],
+      [
+        152.985872,
+        -27.493888
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 8.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:17:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
