@@ -1,7 +1,7 @@
 // Context fetch for one candidate: imagery chunks with the kerb drawn on, capture dates, DEM samples, nearby
 // council signs, OSM buildings (and which are dwellings), mapped gates on the access, and the nearest waterway.
 // Imagery goes in the gitignored cache; context.json is written next to the evaluation and committed.
-import { mkdir, stat, writeFile } from "node:fs/promises";
+import { mkdir, readFile, stat, writeFile } from "node:fs/promises";
 import { dirname } from "node:path";
 import sharp from "sharp";
 import { dist, length, offset, project, slice, toLonLat, toXY, type LonLat, type XY } from "../build/geo.ts";
@@ -17,7 +17,10 @@ const QLD = "https://spatial-img.information.qld.gov.au/arcgis/rest/services";
 const QLD_AERIAL = `${QLD}/Basemaps/LatestStateProgram_AllUsers/ImageServer`;
 const QLD_DEM = `${QLD}/Elevation/QldDem/ImageServer`;
 const SIGNS = "https://data.brisbane.qld.gov.au/api/explore/v2.1/catalog/datasets/parking-sign-locations/records";
-const OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter"];
+const OVERPASS = [
+  "https://overpass-api.de/api/interpreter", "https://overpass.private.coffee/api/interpreter",
+  "https://overpass.kumi.systems/api/interpreter", "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+];
 export const CACHE = ".cache/imagery";
 
 // --- HTTP, with retries: the QLD services drop the odd request and Overpass is often busy ---
@@ -38,7 +41,15 @@ async function get(url: string, params?: Record<string, string | number>, init?:
 }
 const json = async (url: string, params?: Record<string, string | number>) => (await get(url, params)).json() as Promise<any>;
 
-async function overpass(query: string): Promise<any[]> {
+// Overpass allows only a couple of requests at a time per client, so calls queue behind each other.
+let overpassQueue: Promise<unknown> = Promise.resolve();
+function overpass(query: string): Promise<any[]> {
+  const run = overpassQueue.then(() => overpassNow(query));
+  overpassQueue = run.catch(() => undefined);
+  return run;
+}
+
+async function overpassNow(query: string): Promise<any[]> {
   const errors: string[] = [];
   for (const url of OVERPASS) {
     try {
@@ -129,12 +140,47 @@ async function signsNear(line: XY[]): Promise<Record<string, unknown>[]> {
   });
 }
 
-/** OSM buildings, ways and barriers around the candidate, in one Overpass call. */
-async function osmAround(line: XY[], pad: number) {
+/** OSM buildings, ways, parking and barriers around the candidate, in one Overpass call, cached beside the imagery. */
+async function osmAround(id: string, line: XY[], pad: number): Promise<any[]> {
   const [w, s] = toLonLat([Math.min(...line.map((p) => p[0])) - pad, Math.min(...line.map((p) => p[1])) - pad]);
   const [e, n] = toLonLat([Math.max(...line.map((p) => p[0])) + pad, Math.max(...line.map((p) => p[1])) + pad]);
   const bb = `${s},${w},${n},${e}`;
-  return overpass(`[out:json][timeout:120];(way[building](${bb});way[highway](${bb});way[waterway](${bb});node[barrier](${bb}););out body geom;`);
+  const query = `[out:json][timeout:120];(way[building](${bb});way[highway](${bb});way[waterway](${bb});` +
+    `way[amenity=parking](${bb});node[amenity=parking](${bb});node[barrier](${bb}););out body geom;`;
+  const cache = `${CACHE}/${id}/osm.json`;
+  try {
+    const hit = JSON.parse(await readFile(cache, "utf8"));
+    if (hit.query === query) return hit.elements;
+  } catch { /* not cached */ }
+  // The OSM API's map call is the steadier source for a box this small; Overpass is the fallback.
+  const elements = await osmApiMap(w, s, e, n).catch(() => overpass(query));
+  await mkdir(dirname(cache), { recursive: true });
+  await writeFile(cache, JSON.stringify({ query, elements }));
+  return elements;
+}
+
+/** Everything in a small box from the OSM API, reshaped like Overpass `out body geom` and cut to what the context uses. */
+async function osmApiMap(w: number, s: number, e: number, n: number): Promise<any[]> {
+  const { elements } = await json(`https://api.openstreetmap.org/api/0.6/map.json`, { bbox: `${w},${s},${e},${n}` });
+  const nodes = new Map<number, any>(elements.filter((x: any) => x.type === "node").map((x: any) => [x.id, x]));
+  const wanted = (t: any) => t && (t.building || t.highway || t.waterway || t.amenity === "parking" || t.barrier);
+  return elements.filter((x: any) => x.type !== "relation" && wanted(x.tags)).map((x: any) => x.type === "node" ? x : {
+    ...x, geometry: x.nodes.map((id: number) => { const nd = nodes.get(id); return nd ? { lon: nd.lon, lat: nd.lat } : null; }),
+  }).filter((x: any) => x.type === "node" || x.geometry.every(Boolean));
+}
+
+/** Mapped car parks near the candidate, so a hand-dropped pin next to one isn't judged on the wrong patch of ground. */
+function parkingNear(line: XY[], els: any[]): Context["mapped_parking"] {
+  const out: NonNullable<Context["mapped_parking"]> = [];
+  for (const e of els) {
+    if (e.tags?.amenity !== "parking") continue;
+    const pts: XY[] = e.type === "node" ? [toXY([e.lon, e.lat])] : (e.geometry ?? []).map((g: any) => toXY([g.lon, g.lat]));
+    if (!pts.length) continue;
+    const d = Math.min(...line.map((p) => toLine(p, pts)));
+    if (d > FETCH.BUILDING_POINT_M) continue;
+    out.push({ name: e.tags.name ?? null, metres: Math.round(d), access: e.tags.access ?? null, fee: e.tags.fee ?? null, surface: e.tags.surface ?? null });
+  }
+  return out.sort((a, b) => a.metres - b.metres).slice(0, 5);
 }
 
 const PUBLIC = /^(motorway|trunk|primary|secondary|tertiary|unclassified|residential|living_street)(_link)?$/;
@@ -309,7 +355,7 @@ export async function fetchContext(target: Target, outFile: string): Promise<Con
   const total = line.length < 2 ? 0 : length(line);
   const [signs, els] = await Promise.all([
     target.kind === "kerb" ? signsNear(line) : signsNear(line.length < 2 ? [line[0]!, line[0]!] : line).catch(() => []),
-    osmAround(line, FETCH.ACCESS_M),
+    osmAround(target.id, line, FETCH.ACCESS_M),
   ]);
 
   // DEM: every 5 m along the line; for a point, along an east–west and a north–south line through it.
@@ -361,6 +407,7 @@ export async function fetchContext(target: Target, outFile: string): Promise<Con
       max_grade_pct: grades.length ? r1(Math.max(...grades)) : null,
     },
     waterway: waterwayNear(line, els),
+    mapped_parking: parkingNear(line, els),
     chunks,
   };
   await mkdir(dirname(outFile), { recursive: true });

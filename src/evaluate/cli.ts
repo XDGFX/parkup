@@ -39,8 +39,8 @@ if (command === "prepare") {
   }
   // A few at a time: the QLD services and Overpass don't like being hammered.
   let failed = 0;
-  for (let i = 0; i < targets.length; i += 3) {
-    await Promise.all(targets.slice(i, i + 3).map(async ({ target, dir }) => {
+  for (let i = 0; i < targets.length; i += 4) {
+    await Promise.all(targets.slice(i, i + 4).map(async ({ target, dir }) => {
       try {
         const ctx = await fetchContext(await target(), `${dir}/context.json`);
         const esri = ctx.chunks.every((c) => c.images.esri) ? "" : " (no Esri: QLD only)";

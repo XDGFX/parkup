@@ -1,4 +1,4 @@
-<!-- parkup evaluation rubric v5. Sent to each subagent with the batch prompt; bump the version on any change and re-run the calibration set. -->
+<!-- parkup evaluation rubric v6. Sent to each subagent with the batch prompt; bump the version on any change and re-run the calibration set. -->
 
 You are evaluating one **candidate** for parkup: a place in or near Brisbane where someone might park a
 light campervan (under 7.5 m) overnight and sleep in it. What they want most is **seclusion**: somewhere
@@ -27,7 +27,11 @@ council parking signs (Brisbane City Council area only).
 - `point`: the yellow ring marks a pin someone dropped by hand. It's **approximate** and may land in a
   creek or on a hillside next to the real spot. Find the best place a van could stop within about
   100 m of the ring: a track, clearing, gravel area, car park or kerb. Look for parked vehicles and
-  tyre tracks. Judge that place, and say what kind it is.
+  tyre tracks. `mapped_parking` lists OSM car parks within 100 m; one close to the ring is probably the
+  place meant. Judge that place, and say what kind it is.
+
+Esri can be shifted by several metres against QLD, or hide the ground under tree canopy. If a road or
+clearing sits in a different place in the two images, go by QLD for where things are.
 
 ## Find the best section
 
@@ -42,6 +46,11 @@ Any one of these makes the verdict `poor`, however secluded the place is:
   pull fully out of the traffic lane. A visible gate or barrier across the only access counts.
   Off the road, the best evidence of a way in is **vehicles or tyre tracks** in the imagery. With
   neither, assume a vehicle can't get there, unless a formed track or gravel surface clearly reaches it.
+  A bare dirt or gravel pull-off that meets the road edge is a way in.
+- **A utility track.** A van stopped on a powerline, pipeline or water-main easement track, past where it
+  leaves the road, is on a track that's normally gated or closed to the public. A pale bar across a
+  track's mouth is a gate, not a vehicle. A wide verge or pull-in beside the road, next to such a track,
+  is not on it.
 - **A main road with no parking.** On a kerb: a through route or main road where no cars are parked
   along the kerb and there's no marked parking lane. A wide kerbside lane where other cars clearly
   park is fine.
@@ -62,8 +71,12 @@ If nothing rules it out, grade the best section on **seclusion: who would care?*
   a kerb, other cars park there too, so a van won't stand out. Off-road sites and parking areas don't
   need other cars; nobody else being there is the point. A wide or 50 km/h road isn't a drawback if
   cars park along it.
-- `maybe`: workable, with one real drawback: dwellings 10–25 m away on the section's own side, a kerb
-  with no parking convention, through traffic at night, or exposure to a busy road.
+- **Traffic and noise are flags, not drawbacks**, wherever the van stands clear of the lane: a car park,
+  lay-by, wide gravel verge, clearing or off-road site beside a busy road, among industry, bush or
+  fields, is still `good`. Passing drivers don't care about a parked van; neighbours do.
+- `maybe`: workable, with one real drawback: dwellings 10–25 m away on the section's own side, homes
+  facing it closely all round, a kerb with no parking convention, or a plain kerb on a busy through
+  road (not a lay-by or verge set off the lane).
 
 ## Flags
 
