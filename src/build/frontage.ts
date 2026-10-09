@@ -1,10 +1,10 @@
 // Frontage: the City Plan zone a kerb faces, found by probing outward from the kerb across the unzoned road reserve.
 // Also the permit areas a kerb lies in, and the frontage exclusions (schools and kindergartens).
-import { EXCLUDED, FRONTAGE, OTHER_TIER, TIERS } from "./config.ts";
+import { EXCLUDED, FRONTAGE, OTHER_TIER, TIERS, type Tier } from "./config.ts";
 import { inRings, toXY, type XY } from "./geo.ts";
 import type { OsmNode, PermitArea, Zone } from "./inputs.ts";
 
-export type Frontage = { zone: string; name: string; tier: 1 | 2 | 3; excluded?: "school" | "kindergarten" };
+export type Frontage = { zone: string; name: string; tier: Tier; excluded?: "school" | "kindergarten" };
 
 type Shape<T> = { rings: XY[][]; box: [number, number, number, number]; value: T };
 const CELL = 200;
@@ -32,7 +32,7 @@ class PolygonIndex<T> {
 }
 
 /** The tier for a zone or precinct code: in full ("CF4", "SC1"), else by its letters ("OS2" → "OS"). */
-export function tierOf(code: string): 1 | 2 | 3 {
+export function tierOf(code: string): Tier {
   return TIERS[code] ?? TIERS[code.replace(/\d+$/, "")] ?? OTHER_TIER;
 }
 

@@ -1,5 +1,6 @@
 // What the batch gathers for one candidate before an agent evaluates it. Written to context.json, which the
 // agent reads and the post-processing step uses to compute facts at the agent's best section.
+import type { CandidateKind } from "../build/build.ts";
 import type { LonLat } from "../build/geo.ts";
 
 export type EsriCapture = { date: string; resolution_m: number; sensor: string };
@@ -48,6 +49,8 @@ export type Context = {
   suburb: string;
   /** kerb: a kerb line. outline: the boundary of a parking area. point: a single point (a pin or a track entrance). */
   kind: "kerb" | "outline" | "point";
+  /** The kind of candidate, so an evaluation carries over only to one of the same kind. Absent for a calibration known place. */
+  candidate_kind?: CandidateKind;
   /** The kerb line, the outline, or a single point. Distances along it start at its first vertex. */
   line: LonLat[];
   length_m: number;

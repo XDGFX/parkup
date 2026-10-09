@@ -9,7 +9,7 @@ import { DWELLINGS, FETCH } from "./config.ts";
 import type { Building, Chunk, Context, DemSample, EsriCapture, Gate, QldCapture } from "./context.ts";
 
 /** What to evaluate: a kerb line, a parking-area outline or a point. */
-export type Target = Pick<Context, "id" | "street" | "suburb" | "kind" | "line" | "side" | "osm_tags">;
+export type Target = Pick<Context, "id" | "street" | "suburb" | "kind" | "candidate_kind" | "line" | "side" | "osm_tags">;
 
 const UA = { "User-Agent": "parkup-evaluation (https://github.com/XDGFX/parkup)" };
 const ESRI = "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer";

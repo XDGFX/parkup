@@ -17,7 +17,8 @@ export async function loadEvaluations(dir = EVALUATIONS): Promise<PriorEvaluatio
     try {
       [context, evaluation] = await Promise.all(["context", "evaluation"].map(async (n) => JSON.parse(await readFile(`${dir}/${f}/${n}.json`, "utf8"))));
     } catch { continue; }
-    out.push({ candidate: context.id, kind: context.kind, line: context.line, side: context.side ?? null, evaluation });
+    if (!context.candidate_kind) throw new Error(`${dir}/${f}/context.json has no candidate_kind: re-run prepare for it`);
+    out.push({ candidate: context.id, kind: context.candidate_kind, line: context.line, side: context.side ?? null, evaluation });
   }
   return out;
 }

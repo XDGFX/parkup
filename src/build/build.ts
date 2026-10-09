@@ -8,10 +8,15 @@ import { buildKerbs, suburbFinder, type KerbInput, type KerbReport, type Stretch
 import { buildSites, type SiteInput, type SiteKind } from "./sites.ts";
 import { maxStayHours, passesDaytime, passesOvernight } from "./screen.ts";
 import { nearestToilets, type NearestToilet, type Toilet } from "./toilets.ts";
+import type { Tier } from "./config.ts";
+import type { Frontage } from "./frontage.ts";
+
+/** The kinds of candidate: a kerb stretch, a parking area or an off-road site. */
+export type CandidateKind = "kerb" | SiteKind;
 
 export type Candidate = {
   id: string;
-  kind: "kerb" | SiteKind;
+  kind: CandidateKind;
   /** The street a kerb is on, or a site's name. */
   street: string;
   suburb: string;
@@ -33,7 +38,7 @@ export type Candidate = {
   /** The City Plan zone the kerb faces, e.g. "OS1" or "LDR", or null when the probe found none. */
   frontage: { zone: string; name: string } | null;
   /** 1 orders first. Null when there's no frontage, which orders last. */
-  tier: 1 | 2 | 3 | null;
+  tier: Tier | null;
   /** The nearest toilet in the toilets layer, measured from the nearest point of the candidate. */
   toilet: NearestToilet | null;
   /** A site's tenure label, such as "Public: council land" or "Freehold (owner unknown)". Null for a kerb, or when unknown. */
@@ -88,6 +93,20 @@ function screen(s: Stretch): { outcome: Outcome; rules: Rule[] } {
   return { outcome: "dropped", rules: s.rules };
 }
 
+/** A candidate from a kerb stretch or site: the screen's results, its frontage and tier, and nothing nearby yet. */
+function candidate(
+  c: Omit<Candidate, "overnight" | "daytime" | "dayOnly" | "maxStayHours" | "frontage" | "tier" | "toilet" | "evaluation">,
+  frontage: Frontage | null,
+): Candidate {
+  const overnight = passesOvernight(c), daytime = passesDaytime(c);
+  const { tenure, trafficability, ...rest } = c;
+  return {
+    ...rest, overnight, daytime, dayOnly: daytime && !overnight, maxStayHours: maxStayHours(c),
+    frontage: frontage && { zone: frontage.zone, name: frontage.name }, tier: frontage?.tier ?? null,
+    toilet: null, tenure, trafficability, evaluation: null,
+  };
+}
+
 export function build({
   screen: screening = true, toilets = [], evaluations = [], current = { rubric: RUBRIC_VERSION, imagery: CURRENT_IMAGERY }, ...input
 }: BuildInput): { candidates: Candidate[]; toilets: Toilet[]; report: BuildReport } {
@@ -100,41 +119,23 @@ export function build({
     const { outcome, rules } = screening ? screen(s) : { outcome: "normal" as const, rules: s.rules };
     for (const text of s.unparsed) outcomes.get(text)![outcome]++;
     if (outcome === "dropped") { failsScreen++; continue; }
-    const overnight = passesOvernight({ rules }), daytime = passesDaytime({ rules });
-    candidates.push({
-      id: `${s.link.id}-${s.side[0]}-${Math.round(s.from)}`,
-      kind: "kerb",
-      street: s.street,
-      suburb: s.suburb,
-      side: s.compass,
-      line: s.line,
-      lengthM: Math.round((s.to - s.from) * 10) / 10,
-      rules,
-      plates: s.plates,
-      cautions: outcome === "unreadable" ? [...s.cautions, UNREADABLE] : s.cautions,
-      lowConfidence: s.lowConfidence,
-      overnight,
-      daytime,
-      dayOnly: daytime && !overnight,
-      maxStayHours: maxStayHours({ rules }),
-      frontage: s.frontage && { zone: s.frontage.zone, name: s.frontage.name },
-      tier: s.frontage?.tier ?? null,
-      toilet: null, tenure: null, trafficability: null, evaluation: null,
-    });
+    candidates.push(candidate({
+      id: `${s.link.id}-${s.side[0]}-${Math.round(s.from)}`, kind: "kerb", street: s.street, suburb: s.suburb, side: s.compass,
+      line: s.line, lengthM: Math.round((s.to - s.from) * 10) / 10, rules, plates: s.plates,
+      cautions: outcome === "unreadable" ? [...s.cautions, UNREADABLE] : s.cautions, lowConfidence: s.lowConfidence,
+      tenure: null, trafficability: null,
+    }, s.frontage));
   }
   const suburbOf = suburbFinder(input.signs);
   const timetabled = new Set<string>();
   for (const s of sites) {
-    const rules = s.rules, overnight = passesOvernight({ rules }), daytime = passesDaytime({ rules });
-    if (screening && !overnight && !daytime) { siteFailsScreen++; continue; }
-    if (s.hasTimetable) timetabled.add(s.id);
-    candidates.push({
+    const c = candidate({
       id: s.id, kind: s.kind, street: s.name, suburb: suburbOf(toXY(s.point)), side: null, line: s.line, lengthM: 0,
-      rules, plates: s.plates, cautions: s.cautions, lowConfidence: false,
-      overnight, daytime, dayOnly: daytime && !overnight, maxStayHours: maxStayHours({ rules }),
-      frontage: s.frontage && { zone: s.frontage.zone, name: s.frontage.name }, tier: s.frontage?.tier ?? null, toilet: null,
-      tenure: s.tenure, trafficability: s.trafficability, evaluation: null,
-    });
+      rules: s.rules, plates: s.plates, cautions: s.cautions, lowConfidence: false, tenure: s.tenure, trafficability: s.trafficability,
+    }, s.frontage);
+    if (screening && !c.overnight && !c.daytime) { siteFailsScreen++; continue; }
+    if (s.hasTimetable) timetabled.add(s.id);
+    candidates.push(c);
   }
   for (const c of candidates) c.evaluation = inherit(c, evaluations, current);
   // Best frontage first, untagged car parks after the rest of their tier; then a stable order by street, side and position along the kerb.

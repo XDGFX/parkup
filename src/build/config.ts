@@ -60,12 +60,13 @@ export const FRONTAGE = { STEP_M: 10, PROBE_M: 40, PROBE_STEP_M: 2 };
  * Tier 1 orders first. A code is matched in full first, then by its zone letters ("OS2" → "OS").
  * Zones the table doesn't name (centres, mixed use, high density, other community facilities) sit with tier 3.
  */
-export const TIERS: Record<string, 1 | 2 | 3> = {
+export type Tier = 1 | 2 | 3;
+export const TIERS: Record<string, Tier> = {
   OS: 1, SR: 1, EM: 1, CN: 1, SP: 1, LII: 1, MI: 1, GI: 1, HI: 1, SI: 1, IN: 1, SC1: 1,
   MDR: 2, LMR: 2, CF4: 2,
   LDR: 3, CR: 3,
 };
-export const OTHER_TIER = 3;
+export const OTHER_TIER: Tier = 3;
 
 /** Frontage that excludes a candidate: CF5 Education purpose, and CF4 Community purpose with OSM amenity=kindergarten|childcare in it. */
 export const EXCLUDED = { ZONES: ["CF5"], KINDERGARTEN_ZONES: ["CF4"], KINDERGARTEN: /^(kindergarten|childcare)$/ };

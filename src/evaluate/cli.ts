@@ -10,6 +10,7 @@
 // --skip-calibration-gate overrides that, for calibration work itself.
 import { readFile, writeFile } from "node:fs/promises";
 import { HALF_WIDTH_M } from "../build/config.ts";
+import { shapeOf } from "../build/geo.ts";
 import type { Candidate } from "../build/build.ts";
 import { evaluationQueue } from "../build/evaluations.ts";
 import { EVALUATIONS } from "./store.ts";
@@ -58,8 +59,8 @@ if (command === "queue") {
       targets.push({
         // A kerb's line, a car park's outline, or an off-road site's single point.
         target: async () => ({
-          id: c.id, street: c.street, suburb: c.suburb, line: c.line, osm_tags: {},
-          kind: c.kind === "kerb" ? "kerb" : c.line.length > 1 ? "outline" : "point",
+          id: c.id, street: c.street, suburb: c.suburb, line: c.line, osm_tags: {}, candidate_kind: c.kind,
+          kind: c.kind === "kerb" ? "kerb" : shapeOf(c.line) === "ring" ? "outline" : "point",
           ...(c.side ? { side: c.side } : {}),
         }),
         dir: `${EVALUATIONS}/${c.id}`,
