@@ -1,0 +1,72 @@
+{
+  "candidate": "47769235-47831269-1469965254-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep kerb where cars park, with homes 12-13 m away on the same side.",
+  "reasons": [
+    "Homes 12-13 m away, same side",
+    "Grade about 10% at best section",
+    "Cars already park along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Residential blocks 13 m from the kerb at the start and 12 m at 37 m; more homes within 25 m. Bush and trees to the north.",
+    "access_and_room": "Sealed street with a parking strip; several cars parked along this kerb show room for a van.",
+    "traffic": "Quiet street at a T-junction with a bend; low traffic.",
+    "convention": "Cars park along the west kerb, but No Stopping Any Time signs mark the nearby junction and bend."
+  },
+  "flags": [
+    "Steep: about 10% at best section, mean 14%, max 20%",
+    "Homes 10-25 m away on same side",
+    "No Stopping Any Time signs near the bend; check where they apply"
+  ],
+  "sun_shade": "Open kerb in the morning; units to the west shade it in the afternoon; trees close in to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact reach of the no-stopping signs"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "West kerb of Manchester Terrace just north of the Rokeby Terrace junction",
+    "slope_pct": 10,
+    "points": [
+      [
+        152.975383,
+        -27.492577
+      ],
+      [
+        152.975403,
+        -27.492474
+      ],
+      [
+        152.975406,
+        -27.492457
+      ],
+      [
+        152.975408,
+        -27.492444
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 11.7,
+    "min_elevation_m": 37.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

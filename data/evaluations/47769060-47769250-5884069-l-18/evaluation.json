@@ -1,0 +1,65 @@
+{
+  "candidate": "47769060-47769250-5884069-l-18",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep kerb on a narrow hill street with flats 5 m away.",
+  "reasons": [
+    "Grade 29%, far over the limit",
+    "Apartments 5 m from kerb",
+    "Narrow street, little room to pull in"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 5 m away on the same side and a house 10 m further up; more flats across the road.",
+    "access_and_room": "Kerb on a narrow street with a few cars parked; no pull-off.",
+    "traffic": "Quiet residential hill street.",
+    "convention": "A few cars park along the street, but none overnight evidence."
+  },
+  "flags": [
+    "Steep: 29% mean, 39% max",
+    "Dwelling 5 m away"
+  ],
+  "sun_shade": "Open to the sky; the apartment block shades the morning side, with hedges and trees nearby.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking restrictions on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 32,
+    "where": "Kings Road west kerb, uphill from the junction, beside the apartment block",
+    "slope_pct": 29.3,
+    "points": [
+      [
+        152.979127,
+        -27.495034
+      ],
+      [
+        152.97935,
+        -27.49483
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 30.6,
+    "min_elevation_m": 43.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

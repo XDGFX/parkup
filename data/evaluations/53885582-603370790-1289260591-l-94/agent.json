@@ -1,0 +1,23 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Main road kerb lined with homes and driveways; no parking convention.",
+  "reasons": ["Homes 8-14 m from kerb", "Main road, no cars on this side", "No Parking Any Time sign"],
+  "best_section": {
+    "from_m": 55,
+    "to_m": 75,
+    "where": "South kerb of Indooroopilly Road, by the garages and driveways",
+    "slope_pct": 1
+  },
+  "drivers": {
+    "seclusion": "Houses and apartments 9-14 m from the kerb along almost the whole length.",
+    "access_and_room": "Plain kerb beside a two-lane road; no cars parked on this side, driveways frequent.",
+    "traffic": "Through road near a roundabout; steady traffic.",
+    "convention": "No Parking Any Time sign; no one parks on this side."
+  },
+  "flags": ["Dwellings within 10 m", "No Parking Any Time sign", "Low-lying: about 4 m, Toowong Creek 20 m away", "Road noise"],
+  "sun_shade": "Open to the sun; trees shade the far side of the road to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Crossfall"],
+  "confidence": "high"
+}

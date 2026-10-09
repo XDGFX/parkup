@@ -1,0 +1,66 @@
+{
+  "candidate": "47831565-58643891-6890869-r-15",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb near the southern end; homes 18-22 m away on the same side.",
+  "reasons": [
+    "Homes 18-22 m away, same side",
+    "Cars park along this street",
+    "No Stopping signs nearby"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 18-22 m from the east kerb along 10-35 m, with a flats block behind trees; houses closer (8-9 m) beyond 45 m.",
+    "access_and_room": "Sealed street with a parking lane where cars are parked; room to pull in.",
+    "traffic": "Quiet residential street with a busy cross road just south.",
+    "convention": "Cars park along the street, but two No Stopping Any Time signs sit close to this kerb."
+  },
+  "flags": [
+    "Two No Stopping Any Time signs near this kerb",
+    "Steep-ish: about 2.7% over the section, 4.6% max",
+    "Noise from the cross road at the south end"
+  ],
+  "sun_shade": "Street trees shade the kerb from the east and afternoon; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Exact extent of the No Stopping zone",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 35,
+    "where": "East kerb of Manchester Terrace, just north of the cross street",
+    "slope_pct": 2.7,
+    "points": [
+      [
+        152.975309,
+        -27.493456
+      ],
+      [
+        152.975352,
+        -27.493235
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 36.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

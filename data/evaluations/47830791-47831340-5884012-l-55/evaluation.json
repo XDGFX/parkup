@@ -1,0 +1,63 @@
+{
+  "candidate": "47830791-47831340-5884012-l-55",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Very steep 11 m kerb on a residential road; too short and too sloped.",
+  "reasons": [
+    "Grade about 37%, far over limit",
+    "Only 11 m of kerb",
+    "Homes 16-17 m away"
+  ],
+  "drivers": {
+    "seclusion": "Homes 16-17 m away on both sides; a dirt verge and trees on the east side.",
+    "access_and_room": "Sealed road with cars parked on the west side; dirt verge on the east gives some room.",
+    "traffic": "Quiet residential street.",
+    "convention": "Resident-permit 2P signs and a no-stopping sign mark this length; cars park along the road."
+  },
+  "flags": [
+    "Steep: mean 36.6%, max 78% on DEM",
+    "Signs: no stopping at the north end"
+  ],
+  "sun_shade": "Heavy tree canopy on the north end, open further south; shade mostly from the west and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 11,
+    "where": "east kerb of Harrys Road beside the dirt verge",
+    "slope_pct": 37,
+    "points": [
+      [
+        152.982039,
+        -27.490355
+      ],
+      [
+        152.982021,
+        -27.490449
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 36.6,
+    "min_elevation_m": 26.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

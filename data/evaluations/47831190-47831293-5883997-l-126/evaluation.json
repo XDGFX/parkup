@@ -1,0 +1,65 @@
+{
+  "candidate": "47831190-47831293-5883997-l-126",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb where cars park, but homes 13 m away and a steep grade.",
+  "reasons": [
+    "Homes 13 m away, same side",
+    "Cars park along the kerb",
+    "Steep: about 6.5% in section"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings about 13 m from the kerb at 18 m and 9 m at 40 m; apartments across the road at 18-22 m.",
+    "access_and_room": "Sealed street with cars parked on both sides; room at the kerb.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park here, but signs give 2P parking Mon-Fri 7am-7pm, resident permits excepted."
+  },
+  "flags": [
+    "Steep: about 6.5% over the section, 18.7% max on the stretch",
+    "2P limit Mon-Fri 7am-7pm for non-residents",
+    "Homes close on both sides"
+  ],
+  "sun_shade": "Large tree canopy shades the kerb from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 34,
+    "where": "North kerb of Marmion Parade, under the tree canopy mid-stretch",
+    "slope_pct": 6.5,
+    "points": [
+      [
+        152.977415,
+        -27.490507
+      ],
+      [
+        152.977555,
+        -27.490532
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 6.1,
+    "min_elevation_m": 36.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

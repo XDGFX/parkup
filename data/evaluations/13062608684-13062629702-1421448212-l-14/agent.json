@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Painted median hatching on a main road; no stopping, nowhere to pull out.",
+  "reasons": ["No Stopping Any Time signs", "Painted hatching, no room to stop", "Main road, no parked cars"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Houses 15-17 m on the north-west side; fully exposed to traffic and the junction.",
+    "access_and_room": "Kerb beside painted hatching at a junction; no pull-off clear of the lane.",
+    "traffic": "Busy arterial with a junction immediately north.",
+    "convention": "Three No Stopping Any Time signs; no cars park along this stretch."
+  },
+  "flags": ["No Stopping Any Time signs", "Dwellings 15 m away", "Junction and arterial noise", "Short: only 16 m"],
+  "sun_shade": "Open to the sky; trees shade the roadside to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Crossfall"],
+  "confidence": "high"
+}

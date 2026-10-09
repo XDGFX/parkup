@@ -1,0 +1,65 @@
+{
+  "candidate": "47831269-13070849026-7918581-l-88",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very short, steep kerb with a home 10 m away on the same side.",
+  "reasons": [
+    "Dwelling 10 m from kerb",
+    "Grade 12%, max 13.6%",
+    "Only 14 m long, barely a van"
+  ],
+  "drivers": {
+    "seclusion": "Mapped dwelling 10 m away at 4 m along, another 14 m away; flats directly behind the kerb.",
+    "access_and_room": "Residential street with cars parked on the opposite kerb; stretch is only 14 m, barely one van length.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park on the north side; no signs on this stretch."
+  },
+  "flags": [
+    "Steep: about 12% mean, 13.6% max",
+    "Home within 10 m on the same side",
+    "Very short stretch"
+  ],
+  "sun_shade": "Mixed tree cover over the kerb with trees to the north and east; flats shade the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "South kerb of Goldsbrough Road, outside the unit block",
+    "slope_pct": 12.1,
+    "points": [
+      [
+        152.974616,
+        -27.491908
+      ],
+      [
+        152.974479,
+        -27.491887
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 12.1,
+    "min_elevation_m": 51.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

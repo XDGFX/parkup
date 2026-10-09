@@ -1,0 +1,49 @@
+{
+  "candidate": "13062608684-13062629702-1421448212-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Painted median hatching on a main road; no stopping, nowhere to pull out.",
+  "reasons": [
+    "No Stopping Any Time signs",
+    "Painted hatching, no room to stop",
+    "Main road, no parked cars"
+  ],
+  "drivers": {
+    "seclusion": "Houses 15-17 m on the north-west side; fully exposed to traffic and the junction.",
+    "access_and_room": "Kerb beside painted hatching at a junction; no pull-off clear of the lane.",
+    "traffic": "Busy arterial with a junction immediately north.",
+    "convention": "Three No Stopping Any Time signs; no cars park along this stretch."
+  },
+  "flags": [
+    "No Stopping Any Time signs",
+    "Dwellings 15 m away",
+    "Junction and arterial noise",
+    "Short: only 16 m"
+  ],
+  "sun_shade": "Open to the sky; trees shade the roadside to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 3.9,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

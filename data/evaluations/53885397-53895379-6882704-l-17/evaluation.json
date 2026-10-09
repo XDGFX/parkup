@@ -1,0 +1,69 @@
+{
+  "candidate": "53885397-53895379-6882704-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep street by an apartment block with no parked cars along the kerb.",
+  "reasons": [
+    "Grade 20%, over the limit",
+    "Apartments 7 m from kerb",
+    "No cars parked along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Paragon Crest apartments 7 m away on the same side; a house 14 m at the top end.",
+    "access_and_room": "Narrow sealed street with a bare verge on the west; room is tight and steep.",
+    "traffic": "Quiet side street just above a through road.",
+    "convention": "No parked cars on this kerb; a few sit in the apartment car park."
+  },
+  "flags": [
+    "Steep: 20% mean, 29% max",
+    "Dwelling 7 m away"
+  ],
+  "sun_shade": "Large trees shade the upper end and the west verge; open to the east and midday sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking restrictions on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 41,
+    "where": "Lucinda Street west kerb, north of the junction, beside Paragon Crest",
+    "slope_pct": 20.3,
+    "points": [
+      [
+        152.984683,
+        -27.496736
+      ],
+      [
+        152.984603,
+        -27.496725
+      ],
+      [
+        152.984697,
+        -27.49644
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 20.2,
+    "min_elevation_m": 27.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

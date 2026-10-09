@@ -1,0 +1,23 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a busy main road with apartments 12 m away.",
+  "reasons": ["Apartments 12 m from kerb", "Busy arterial, little parking", "Only 17 m long"],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 17,
+    "where": "Indooroopilly Road east kerb, beside apartment block",
+    "slope_pct": 2.1
+  },
+  "drivers": {
+    "seclusion": "Apartments 12 m and 18 m from the kerb, houses 14-21 m on the far side; overlooked.",
+    "access_and_room": "Kerb beside a multi-lane road; one or two cars parked along it.",
+    "traffic": "Busy arterial with multiple lanes and a marked median.",
+    "convention": "Few cars park here; sign says No Stopping Any Time."
+  },
+  "flags": ["Dwelling within 10-15 m", "No Stopping Any Time sign", "Low-lying: about 3.7 m elevation", "Arterial noise"],
+  "sun_shade": "Tree canopy on the east side; open to the west across the road.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Crossfall"],
+  "confidence": "high"
+}

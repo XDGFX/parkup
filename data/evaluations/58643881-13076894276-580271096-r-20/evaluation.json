@@ -1,0 +1,66 @@
+{
+  "candidate": "58643881-13076894276-580271096-r-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb beside a corner house 9 m away, with bus zone signs.",
+  "reasons": [
+    "Dwelling 9 m from kerb",
+    "Bus zone signs on this kerb",
+    "Beside shops and a junction"
+  ],
+  "drivers": {
+    "seclusion": "Large dwelling 9 m from the kerb; shops and cafes 15-37 m to the north.",
+    "access_and_room": "Sealed road with a few cars parked on the east kerb; room at the kerb, but a bus zone applies.",
+    "traffic": "Busy through road past a small shopping strip.",
+    "convention": "Cars park here, but two Bus Zone signs mark the kerb."
+  },
+  "flags": [
+    "Bus Zone signs",
+    "Dwelling within 10 m",
+    "Busy road and shops, noise"
+  ],
+  "sun_shade": "Open from the west; the large house and a few trees shade the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 25,
+    "where": "east kerb of Hillsdon Road just north of the side street junction",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.972069,
+        -27.492183
+      ],
+      [
+        152.972184,
+        -27.491983
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 34.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

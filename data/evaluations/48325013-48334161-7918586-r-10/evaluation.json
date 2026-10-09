@@ -1,0 +1,78 @@
+{
+  "candidate": "48325013-48334161-7918586-r-10",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat northern end of a busy hill road; homes 20 m or more away.",
+  "reasons": [
+    "Flat at north end, about 0%",
+    "Homes 22 m or more away",
+    "Busy road, cars park nearby"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings 22-23 m east across the verge, kindergarten 21 m; trees screen the kerb.",
+    "access_and_room": "Sealed road; cars parked on the east kerb just south, so room at the kerb is likely but trees narrow the verge.",
+    "traffic": "Busy through road with buses; noise.",
+    "convention": "Cars park along the east kerb from 50 to 110 m; a 10-minute school-hours sign sits near the kerb."
+  },
+  "flags": [
+    "School-hours 10 minute parking sign mapped on this kerb",
+    "Steep to the south: mean 10.5%, max 17.6%",
+    "Busy road, noise",
+    "Kindergarten 21 m away"
+  ],
+  "sun_shade": "Mostly shaded by tree canopy on the east side; open to the west and sky above the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height",
+    "Room to pull in at the bend"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 118,
+    "to_m": 139,
+    "where": "east kerb at the top of the bend, opposite the kindergarten end",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.973573,
+        -27.489707
+      ],
+      [
+        152.973576,
+        -27.489687
+      ],
+      [
+        152.973579,
+        -27.489618
+      ],
+      [
+        152.973567,
+        -27.489536
+      ],
+      [
+        152.973565,
+        -27.48952
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 65.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

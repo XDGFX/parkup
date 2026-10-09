@@ -1,0 +1,23 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Plain kerb on a busy road, homes about 13 m back, some cars parked.",
+  "reasons": ["Homes 13 m away on same side", "Cars park along this road", "Playing fields across the road"],
+  "best_section": {
+    "from_m": 40,
+    "to_m": 65,
+    "where": "West kerb of Indooroopilly Road, bend opposite the playing fields",
+    "slope_pct": 1.8
+  },
+  "drivers": {
+    "seclusion": "Nearest home about 13 m (detached at 51 m); open sports fields on the far side.",
+    "access_and_room": "Plain kerb beside a two-lane road, with a few cars parked on this side and the opposite verge.",
+    "traffic": "Busy suburban road with a bus route.",
+    "convention": "Some cars park here; a Bus Zone sign sits at the start, so keep clear of 0-20 m."
+  },
+  "flags": ["Bus Zone sign at start", "Homes 11-16 m away along most of the stretch", "Low-lying: about 5 m, Toowong Creek 99 m away", "Road and bus noise"],
+  "sun_shade": "Tree canopy on both sides; sun mainly from the north and overhead.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Crossfall"],
+  "confidence": "medium"
+}

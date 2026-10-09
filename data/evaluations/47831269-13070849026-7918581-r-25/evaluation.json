@@ -1,0 +1,63 @@
+{
+  "candidate": "47831269-13070849026-7918581-r-25",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb where cars park; homes 16-19 m away all round.",
+  "reasons": [
+    "Homes 16-19 m away on both sides",
+    "Cars already park along this kerb",
+    "Slope about 5% in the middle"
+  ],
+  "drivers": {
+    "seclusion": "Houses 16-19 m away on the north side and flats and houses across the road to the south; all within 25 m.",
+    "access_and_room": "Cars park along this kerb in the imagery, so there is room beside the lane.",
+    "traffic": "Quiet residential street, low traffic.",
+    "convention": "Cars park along the kerb; one No Stopping Any Time sign near the start, outside the section."
+  },
+  "flags": [
+    "Steep: about 5% on the best section, 7% mean, 12.8% max",
+    "Homes within 25 m on all sides",
+    "No Stopping Any Time sign near the start"
+  ],
+  "sun_shade": "Mostly open to the sky with a tree canopy at the eastern start; afternoon shade from the houses to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 60,
+    "where": "North kerb of Goldsbrough Road, midway between the two junctions",
+    "slope_pct": 5.4,
+    "points": [
+      [
+        152.974969,
+        -27.491889
+      ],
+      [
+        152.974669,
+        -27.491843
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 5.7,
+    "min_elevation_m": 50,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

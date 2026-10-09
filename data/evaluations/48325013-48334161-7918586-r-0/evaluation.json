@@ -1,0 +1,65 @@
+{
+  "candidate": "48325013-48334161-7918586-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Ten metres of steep kerb on a busy main road with no parking.",
+  "reasons": [
+    "Grade about 13%, over limit",
+    "Main road, no cars parked here",
+    "Only 10 m long"
+  ],
+  "drivers": {
+    "seclusion": "Houses 17-19 m away behind trees; the junction and bus route are right here.",
+    "access_and_room": "Kerb is beside a junction mouth on a wide through road; trees overhang the verge and no cars park on this length.",
+    "traffic": "Busy through road with buses.",
+    "convention": "No parked cars on this kerb; a bus was in the older imagery."
+  },
+  "flags": [
+    "Steep: mean 13%, max 16%",
+    "Junction corner",
+    "Busy road, noise"
+  ],
+  "sun_shade": "Heavy tree canopy over the east verge; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height",
+    "Bus stop signage"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "east kerb of Hillsdon Road just north of the side street junction",
+    "slope_pct": 13,
+    "points": [
+      [
+        152.972936,
+        -27.490706
+      ],
+      [
+        152.972985,
+        -27.490627
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 13.4,
+    "min_elevation_m": 49.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,63 @@
+{
+  "candidate": "53885397-53895379-6882704-r-40",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep narrow street; only flatter bit is at the junction beside homes.",
+  "reasons": [
+    "Mean grade 16%, max 27%",
+    "Flattest part is at the junction",
+    "Houses and apartments 15-24 m away"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 15 m away at 89 m, detached houses 22-24 m on the same side, more houses beyond the junction.",
+    "access_and_room": "Sealed street, cars park on the west side; east kerb is tree-lined and tight beside the junction.",
+    "traffic": "Quiet residential street, meeting a busier cross street at the north end.",
+    "convention": "Several cars park along the west kerb, but the east side is mostly driveways and trees."
+  },
+  "flags": [
+    "Steep: mean 16.1%, max 27.4%; only the last 10 m is under 6%",
+    "Best section sits at a junction, likely no room to stop legally"
+  ],
+  "sun_shade": "Heavy tree canopy over the east kerb, shade through most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Junction no-stopping zone"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 88,
+    "to_m": 98,
+    "where": "Top end of Lucinda Street, east kerb, just before the cross street",
+    "slope_pct": 5,
+    "points": [
+      [
+        152.984913,
+        -27.495758
+      ],
+      [
+        152.984931,
+        -27.49567
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 4.4,
+    "min_elevation_m": 13.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

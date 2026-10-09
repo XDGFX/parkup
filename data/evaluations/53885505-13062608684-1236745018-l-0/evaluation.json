@@ -1,0 +1,69 @@
+{
+  "candidate": "53885505-13062608684-1236745018-l-0",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb on a busy road with a parked car, houses 11-15 m away.",
+  "reasons": [
+    "Cars park on this kerb",
+    "Houses 11-16 m, same side",
+    "Flat ground, busy road"
+  ],
+  "drivers": {
+    "seclusion": "Houses 11-16 m on this side; detached house 9 m at the far end; homes all round.",
+    "access_and_room": "One car parked at the kerb; room for a van is plausible but tight beside the lane.",
+    "traffic": "Busy road with a signalled crossing nearby; steady passing traffic.",
+    "convention": "Some kerb parking seen, but few cars; no sign of overnight stays."
+  },
+  "flags": [
+    "No Stopping Any Time sign 11 m from the kerb line",
+    "Low-lying: about 3.8-4.1 m elevation, Toowong Creek 303 m away",
+    "Arterial noise"
+  ],
+  "sun_shade": "Heavy tree cover from the west; open to the east and over the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "which stretch the No Stopping sign covers",
+    "street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 22,
+    "where": "Indooroopilly Road west kerb, north of the junction, behind the parked car",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.989735,
+        -27.495099
+      ],
+      [
+        152.989813,
+        -27.495019
+      ],
+      [
+        152.989827,
+        -27.495004
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 3.8,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,66 @@
+{
+  "candidate": "47769060-47769250-5884069-l-50",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Mid-stretch of a narrow residential street where cars park, but steep with homes close.",
+  "reasons": [
+    "Cars already park along this kerb",
+    "Homes 10-16 m away on both sides",
+    "Grade about 9%, steep"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 10 m behind the kerb at the start and flats 14-16 m away across the road; no home within 10 m of this part.",
+    "access_and_room": "Narrow sealed street with cars parked along the kerb; a van fits in line with them.",
+    "traffic": "Quiet residential dead-end style street; railway noise from the north.",
+    "convention": "Several cars park along this kerb, so a van would not stand out."
+  },
+  "flags": [
+    "Steep: about 9% here, 14% over the whole line",
+    "Dwellings 10-16 m away",
+    "Rail noise to the north"
+  ],
+  "sun_shade": "Mixed tree cover over the kerb and gardens; sun from the east and west reaches the lane.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking restrictions on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 40,
+    "to_m": 62,
+    "where": "Kings Road west kerb, midway up the straight, in the run of parked cars",
+    "slope_pct": 8.8,
+    "points": [
+      [
+        152.979469,
+        -27.494501
+      ],
+      [
+        152.979508,
+        -27.494306
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 9.8,
+    "min_elevation_m": 32.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,62 @@
+{
+  "candidate": "53885397-53895379-6882704-r-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short steep dead-end kerb beside apartment blocks; too steep and too close to homes.",
+  "reasons": [
+    "Apartments 7 m away",
+    "Grade 18% mean, 26% max",
+    "Narrow street, little room off lane"
+  ],
+  "drivers": {
+    "seclusion": "Ellenmac apartments 7 m from the kerb at 9 m; Paragon Crest 15 m; detached houses about 24 m at the north end.",
+    "access_and_room": "Narrow sealed street with kerb and grass strip; no wide pull-off. Reachable from the cross street.",
+    "traffic": "Quiet dead-end style residential street; low traffic.",
+    "convention": "No cars seen parked on this stretch; a few park in the apartment driveway opposite."
+  },
+  "flags": [
+    "Steep: mean 17.8%, max 26.2%, over the 12% limit",
+    "Apartments within 10 m of the kerb"
+  ],
+  "sun_shade": "Tree canopy shades the west side and road; building shades the east kerb in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 31,
+    "where": "Northern end of Lucinda Street, east kerb, past the apartment block",
+    "slope_pct": 19.5,
+    "points": [
+      [
+        152.984761,
+        -27.496639
+      ],
+      [
+        152.984761,
+        -27.49654
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 24.7,
+    "min_elevation_m": 29.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,63 @@
+{
+  "candidate": "53885493-11301252537-1236745160-r-81",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb with parked cars, flats 17 m away at the top, steep.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Flats and houses 9-17 m on this side",
+    "Steep, about 7.7% grade"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings 17 m (flats, semi-detached); Elysium 9 m from 24 m onward.",
+    "access_and_room": "Parked cars line the kerb, so a van has room beside the lane.",
+    "traffic": "Busy road with cycle lanes; constant passing traffic.",
+    "convention": "Other cars park along this kerb all day, so a van blends in."
+  },
+  "flags": [
+    "Steep: about 7.7% grade, 7.5% mean",
+    "Arterial noise"
+  ],
+  "sun_shade": "Mostly open; some street-tree shade from the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "parking time limits",
+    "crossfall",
+    "street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "Indooroopilly Road west kerb at the top of the hill, beside the parked cars",
+    "slope_pct": 7.7,
+    "points": [
+      [
+        152.98906,
+        -27.496203
+      ],
+      [
+        152.989026,
+        -27.496335
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 7.7,
+    "min_elevation_m": 10.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

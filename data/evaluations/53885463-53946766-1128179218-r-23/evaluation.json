@@ -1,0 +1,68 @@
+{
+  "candidate": "53885463-53946766-1128179218-r-23",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a busy main road beside a house, no parking.",
+  "reasons": [
+    "Dwelling 7 m from kerb",
+    "Main road, bike lane, no parked cars",
+    "Only 18 m long"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 7 m and another 12 m away on the same side.",
+    "access_and_room": "Kerb has a green cycle lane beside it; no room to pull out of the lane.",
+    "traffic": "Busy arterial next to the Five Ways junction.",
+    "convention": "No cars parked along this kerb in either image."
+  },
+  "flags": [
+    "Steep: about 3.6% grade",
+    "Arterial noise and junction"
+  ],
+  "sun_shade": "Heavy tree cover over the kerb, mainly from the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "signs on site",
+    "street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 18,
+    "where": "Indooroopilly Road south kerb, just east of the Five Ways junction",
+    "slope_pct": 3.6,
+    "points": [
+      [
+        152.989229,
+        -27.497421
+      ],
+      [
+        152.989222,
+        -27.497448
+      ],
+      [
+        152.989317,
+        -27.49743
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 4.4,
+    "min_elevation_m": 22.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

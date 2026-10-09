@@ -1,0 +1,23 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Short, steep kerb by a bus stop at Five Ways; No Stopping.",
+  "reasons": ["No Stopping Any Time sign", "Apartments 7 m away", "Steep about 7% grade"],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 19,
+    "where": "South kerb at the Five Ways junction, beside the bus stop",
+    "slope_pct": 6.9
+  },
+  "drivers": {
+    "seclusion": "Apartment block 7 m away at the end; shopping centre car park opposite; fully exposed.",
+    "access_and_room": "Kerb at a junction mouth with a bus stop; little room clear of the lane.",
+    "traffic": "Heavy: busy signalised junction and buses.",
+    "convention": "No Stopping Any Time; no one parks overnight here."
+  },
+  "flags": ["Dwelling within 10 m", "No Stopping Any Time sign", "Steep: about 7% grade, up to 10%", "Junction noise"],
+  "sun_shade": "Open to the sky; some shrubs on the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Crossfall"],
+  "confidence": "high"
+}

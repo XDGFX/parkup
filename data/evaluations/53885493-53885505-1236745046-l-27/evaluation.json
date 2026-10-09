@@ -1,0 +1,65 @@
+{
+  "candidate": "53885493-53885505-1236745046-l-27",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Busy-road kerb where cars park, but apartments sit about 11 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Apartments 11 m on same side",
+    "Busy road, many homes around"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 10-11 m on the section's side; more homes all round.",
+    "access_and_room": "Parking lane with parked cars; room for a van at the southern end.",
+    "traffic": "Busy road near the Five Ways junction; passing traffic.",
+    "convention": "Cars park along the kerb here, so a van won't stand out."
+  },
+  "flags": [
+    "Steep: about 3% grade, 6% max",
+    "Low-lying: lowest point 4.1 m elevation",
+    "Arterial noise"
+  ],
+  "sun_shade": "Large tree canopy over the kerb from the west; open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "parking time limits on site",
+    "street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Indooroopilly Road west kerb, south end where cars are parked",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.989524,
+        -27.495326
+      ],
+      [
+        152.9896,
+        -27.495242
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 4.5,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

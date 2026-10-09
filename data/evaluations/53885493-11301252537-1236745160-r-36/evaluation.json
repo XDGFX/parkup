@@ -1,0 +1,65 @@
+{
+  "candidate": "53885493-11301252537-1236745160-r-36",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, but flats sit about 10-15 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Flats within 10-15 m, same side",
+    "Busy road, grade about 6%"
+  ],
+  "drivers": {
+    "seclusion": "Semi-detached house 10 m at 33 m and Durrebar flats about 8-12 m; flats all round.",
+    "access_and_room": "Parked cars line this kerb, so a van has room beside the lane.",
+    "traffic": "Busy road with cycle lanes and a junction just north.",
+    "convention": "Other cars park along this kerb, so a van blends in."
+  },
+  "flags": [
+    "Steep: about 6% grade, 11% max",
+    "No Stopping Any Time sign 5 m from the kerb line",
+    "Arterial noise"
+  ],
+  "sun_shade": "Some street-tree shade from the east; otherwise open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "which kerb stretch the No Stopping sign covers",
+    "street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 30,
+    "where": "Indooroopilly Road west kerb, past the Durrebar flats where cars are parked",
+    "slope_pct": 6,
+    "points": [
+      [
+        152.989113,
+        -27.495866
+      ],
+      [
+        152.989096,
+        -27.496
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 5.4,
+    "min_elevation_m": 7.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,63 @@
+{
+  "candidate": "47769235-47831269-1469965254-r-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short steep east kerb at a junction with a No Stopping sign.",
+  "reasons": [
+    "Mean grade 15.5%, max 18.8%",
+    "No Stopping Any Time sign on kerb",
+    "Narrow bend beside the junction"
+  ],
+  "drivers": {
+    "seclusion": "Homes about 20 m away on the opposite side; units opposite the junction; bush to the north.",
+    "access_and_room": "Sealed street narrowing at a bend; east kerb is kerb-to-garden with no pull-off, and a sign bans stopping.",
+    "traffic": "Quiet street at a T-junction.",
+    "convention": "Cars park on the west side only; the east kerb has a No Stopping Any Time sign 0.8 m from it."
+  },
+  "flags": [
+    "Steep: mean 15.5%, over the 12% limit",
+    "No Stopping Any Time sign at the kerb",
+    "Junction mouth, no room off the lane"
+  ],
+  "sun_shade": "Heavy tree shade from the north and east; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "East kerb of Manchester Terrace at the junction mouth, beside the shrub garden",
+    "slope_pct": 12,
+    "points": [
+      [
+        152.975489,
+        -27.492455
+      ],
+      [
+        152.975504,
+        -27.492366
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 13.4,
+    "min_elevation_m": 39.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

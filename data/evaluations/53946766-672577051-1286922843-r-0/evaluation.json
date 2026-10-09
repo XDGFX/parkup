@@ -1,0 +1,64 @@
+{
+  "candidate": "53946766-672577051-1286922843-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a busy intersection, taxi zone, house 8 m away.",
+  "reasons": [
+    "House 8 m from kerb",
+    "Busy main road, no parked cars",
+    "Taxi Zone signs"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 8 m at the start, apartments 14 m at the end; shopping centre car park opposite.",
+    "access_and_room": "Plain kerb beside a multi-lane road with no parked cars on this side.",
+    "traffic": "Heavy: signalised junction, buses and a bus stop beside the end.",
+    "convention": "Taxi Zone signs; nobody parks overnight on this kerb."
+  },
+  "flags": [
+    "Dwelling within 10 m",
+    "Taxi Zone signs",
+    "Steep: about 7% grade",
+    "Busy junction noise"
+  ],
+  "sun_shade": "Mostly shaded by trees on the south side; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 36,
+    "where": "South kerb of Indooroopilly Road west of the Five Ways bus stop",
+    "slope_pct": 7,
+    "points": [
+      [
+        152.989464,
+        -27.497462
+      ],
+      [
+        152.989667,
+        -27.497505
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 7.6,
+    "min_elevation_m": 24.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

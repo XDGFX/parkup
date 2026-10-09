@@ -1,0 +1,68 @@
+{
+  "candidate": "47769060-47769250-5884069-r-50",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Tiny steep kerb at a bend, flats and houses 14 m away.",
+  "reasons": [
+    "Grade 14.8%, over the limit",
+    "Only 16 m long, bend in road",
+    "Dwellings 14 m away"
+  ],
+  "drivers": {
+    "seclusion": "Apartments and a detached house 14 m away across the road; more flats within 25 m.",
+    "access_and_room": "Narrow kerb on a bend with a car already parked at the end; room is tight.",
+    "traffic": "Quiet residential street.",
+    "convention": "A few cars park nearby, none clearly overnight."
+  },
+  "flags": [
+    "Steep: 14.8% mean, 27.8% max",
+    "Dwellings 14 m away",
+    "Very short stretch"
+  ],
+  "sun_shade": "Open sky with trees and shrubs along the kerb; sun from the east and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking restrictions on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "Kings Road east kerb at the bend, by the sunken garden",
+    "slope_pct": 14.8,
+    "points": [
+      [
+        152.979408,
+        -27.49488
+      ],
+      [
+        152.979496,
+        -27.494801
+      ],
+      [
+        152.979469,
+        -27.494778
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 18.1,
+    "min_elevation_m": 40.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "48324410-13070849037-1422288330-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow residential street lined with houses; dwellings within 10 m all along.",
+  "reasons": [
+    "Houses 4-10 m from kerb",
+    "Dense homes both sides",
+    "Steep fall along street"
+  ],
+  "drivers": {
+    "seclusion": "Houses on both sides; nearest dwellings 6-7 m away along the south side and 10 m opposite.",
+    "access_and_room": "Sealed street with cars parked along both kerbs; room for a van at the kerb.",
+    "traffic": "Quiet side street linking two roads; light traffic.",
+    "convention": "Residents park along it, but a van overnight would be seen by neighbours."
+  },
+  "flags": [
+    "Steep: mean 5.7%, max 11%",
+    "Dwellings within 10 m of every section"
+  ],
+  "sun_shade": "Mostly open to sky with some tree shade from the south side; sun from the east and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 18,
+    "to_m": 28,
+    "where": "south kerb mid-block between the two corner houses",
+    "slope_pct": 4,
+    "points": [
+      [
+        152.97384,
+        -27.490913
+      ],
+      [
+        152.97374,
+        -27.490897
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 10.6,
+    "min_elevation_m": 48.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "47831321-7163405885-5884000-r-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep residential street with houses within 5-10 m along almost its whole length.",
+  "reasons": [
+    "Dwellings 5-10 m from kerb throughout",
+    "Grade averages 11%, up to 17.6%",
+    "Resident-permit 2P signs on the street"
+  ],
+  "drivers": {
+    "seclusion": "Houses and apartments line both sides; mapped dwellings at 5 m (at 113 m), 8 m (at 151 m) and 15 m (at 138 m).",
+    "access_and_room": "Cars park along the kerb on both sides, so room to stop exists.",
+    "traffic": "Quiet residential street, low traffic.",
+    "convention": "Cars park here, but signs restrict parking 2P Mon-Fri with resident permits excepted."
+  },
+  "flags": [
+    "Steep: about 11% mean, 17.6% max",
+    "Dwellings within 10 m of every section",
+    "Resident-permit 2P signs, Mon-Fri 7am-7pm"
+  ],
+  "sun_shade": "Mixed tree cover over the kerb, with shade from the west side trees; open to the east morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 118,
+    "to_m": 135,
+    "where": "East side, upper end of Frederick Street below the cross road",
+    "slope_pct": 11,
+    "points": [
+      [
+        152.981087,
+        -27.489472
+      ],
+      [
+        152.981116,
+        -27.489322
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 14.7,
+    "min_elevation_m": 32.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

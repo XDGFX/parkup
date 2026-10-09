@@ -1,0 +1,66 @@
+{
+  "candidate": "58763437-58763440-1252705500-l-0",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Tree-shaded kerb near the junction, townhouses clear behind but homes within 25 m.",
+  "reasons": [
+    "Nearest home about 20 m, across the road",
+    "Townhouses 8-10 m away on rest of stretch",
+    "Cars park along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Townhouses end about 40 m along; the best section has homes 20 m across the road and 26 m on its own side, all within 25 m.",
+    "access_and_room": "Wide street with cars parked along this kerb; room to stop.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park along the north kerb; no signs on this stretch."
+  },
+  "flags": [
+    "Steep: about 4% on the best section, 8.8% mean, 15% max overall",
+    "Homes within 25 m on all sides",
+    "Close to the side-street junction"
+  ],
+  "sun_shade": "Large tree canopy over the kerb gives shade, mainly from the morning and midday sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact clearance from the junction"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 43,
+    "to_m": 55,
+    "where": "North kerb of Greenlaw Street under the big tree, just before the side-street junction",
+    "slope_pct": 4,
+    "points": [
+      [
+        152.981767,
+        -27.498171
+      ],
+      [
+        152.981886,
+        -27.498191
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 4.1,
+    "min_elevation_m": 18.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

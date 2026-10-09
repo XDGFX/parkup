@@ -1,0 +1,64 @@
+{
+  "candidate": "603365963-13067787485-47402496-r-14",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb backing onto wooded garden, homes 22 m or more away, cars parked.",
+  "reasons": [
+    "Backs onto thick trees and gardens",
+    "Nearest homes 22 m or more",
+    "Other cars park along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Treed, overgrown block behind the kerb; nearest dwellings 22-24 m on this side; houses across the road are further.",
+    "access_and_room": "Sealed street with a grass verge and parked cars alongside; room for a van.",
+    "traffic": "Quiet residential street; arterial only near the east end.",
+    "convention": "Residents park along this kerb, so a van blends in."
+  },
+  "flags": [
+    "Homes about 22-24 m away, close to the 25 m line",
+    "Slope 1.5% at the best section; stretch mean 4.4%, max 15%",
+    "Arterial junction noise at the east end"
+  ],
+  "sun_shade": "Tree canopy shades the kerb from the south and west; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 28,
+    "to_m": 50,
+    "where": "South kerb of the lower Ellerslie Crescent carriageway, opposite the wooded gap",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.98775,
+        -27.493408
+      ],
+      [
+        152.987968,
+        -27.493454
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 16.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

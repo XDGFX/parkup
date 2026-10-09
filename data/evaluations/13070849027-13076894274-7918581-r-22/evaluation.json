@@ -1,0 +1,63 @@
+{
+  "candidate": "13070849027-13076894274-7918581-r-22",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Very steep through road, 16% grade, with few parked cars.",
+  "reasons": [
+    "Grade 16.5% mean, 21% max",
+    "Through road, few cars parked on this kerb",
+    "Flats and homes 13-20 m away"
+  ],
+  "drivers": {
+    "seclusion": "Homes 13-14 m from the kerb on the same side near the start; more homes 20 m across the road.",
+    "access_and_room": "Few cars parked on this kerb; a couple in the lane near the 50 m mark.",
+    "traffic": "Through road with traffic.",
+    "convention": "A few cars park along the north kerb; no signs."
+  },
+  "flags": [
+    "Steep: 16.5% mean, 21.4% max, over 12%",
+    "Homes within 15 m of the best section",
+    "Noise from through traffic"
+  ],
+  "sun_shade": "Mixed tree cover on the south side; the north kerb is mostly open with tree shade at the east end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "North kerb at the eastern junction of Goldsbrough Road",
+    "slope_pct": 14,
+    "points": [
+      [
+        152.973785,
+        -27.491713
+      ],
+      [
+        152.973585,
+        -27.491682
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 14,
+    "min_elevation_m": 51.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

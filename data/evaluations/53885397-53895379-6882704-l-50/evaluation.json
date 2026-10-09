@@ -1,0 +1,63 @@
+{
+  "candidate": "53885397-53895379-6882704-l-50",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Lower end of a narrow residential street, steep with homes 16 m away.",
+  "reasons": [
+    "Cars parked here in 2022 imagery",
+    "Detached house 16 m on same side",
+    "Grade about 9%, steep"
+  ],
+  "drivers": {
+    "seclusion": "House 16 m on the same side, flats 23 m, more houses across the road 30 m or further.",
+    "access_and_room": "Narrow sealed street; west kerb has cars parked in QLD imagery but only one in recent Esri.",
+    "traffic": "Quiet residential street running up to a cross street.",
+    "convention": "Parking along this kerb is sparse in recent imagery; a van would be noticeable."
+  },
+  "flags": [
+    "Steep: about 9% here, 15% over the whole line",
+    "Dwellings 16 m away on the same side"
+  ],
+  "sun_shade": "Street trees and house gardens shade the middle of the stretch; open to the sky near the top.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking restrictions on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 65,
+    "to_m": 85,
+    "where": "Lucinda Street west kerb, near the top end by the cross street",
+    "slope_pct": 8.9,
+    "points": [
+      [
+        152.984809,
+        -27.495862
+      ],
+      [
+        152.984845,
+        -27.495685
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 8.9,
+    "min_elevation_m": 13.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:02:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
