@@ -7,10 +7,12 @@ import { build, type BuildReport } from "./build.ts";
 if (process.argv.includes("--snapshot")) execFileSync("npx", ["tsx", "src/build/snapshot.ts"], { stdio: "inherit" });
 
 const read = async (name: string) => JSON.parse(await readFile(`data/snapshot/${name}.json`, "utf8"));
-const [signs, osm, lines, areas, zones, toiletSnapshot] = await Promise.all(["signs", "osm", "lines", "areas", "zones", "toilets"].map(read));
+const [signs, osm, lines, areas, zones, toiletSnapshot, sites, tenure] = await Promise.all(["signs", "osm", "lines", "areas", "zones", "toilets", "sites", "tenure"].map(read));
 const { candidates, toilets, report } = build({
-  signs: signs.signs, ways: osm.ways, nodes: osm.nodes ?? [], lines: lines.lines, areas: areas.areas, zones: zones.zones,
+  signs: signs.signs, ways: osm.ways, nodes: [...(osm.nodes ?? []), ...sites.barriers], lines: lines.lines, areas: areas.areas, zones: zones.zones,
   toilets: toiletSnapshot.toilets,
+  parkings: sites.parkings, minorWays: sites.minorWays, trails: sites.trails, qldTracks: sites.qldTracks, councilLand: sites.councilLand,
+  parcels: tenure.parcels,
 });
 
 await mkdir("public", { recursive: true });
@@ -20,8 +22,8 @@ await writeFile("public/toilets.json", JSON.stringify({
   toilets,
 }));
 await writeFile("public/candidates.json", JSON.stringify({
-  builtFrom: { signs: signs.takenAt, osm: osm.takenAt, lines: lines.takenAt, areas: areas.takenAt, zones: zones.takenAt },
-  licence: "Derived from OpenStreetMap (ODbL) and Brisbane City Council open data (CC BY 4.0).",
+  builtFrom: { signs: signs.takenAt, osm: osm.takenAt, lines: lines.takenAt, areas: areas.takenAt, zones: zones.takenAt, sites: sites.takenAt, tenure: tenure.takenAt },
+  licence: "Derived from OpenStreetMap (ODbL), Brisbane City Council open data (CC BY 4.0) and State of Queensland data (CC BY 4.0).",
   candidates,
 }));
 await writeFile("data/build-report.json", JSON.stringify(report, null, 2) + "\n");
@@ -95,6 +97,17 @@ How many schools and kindergartens mapped in OSM fall in a zone the build exclud
 | 2 | ${r.byTier[2]} |
 | 3 | ${r.byTier[3]} |
 | No frontage | ${r.byTier.none} |
+
+## Sites
+
+| | Count |
+|---|---|
+| Parking areas | ${r.sites.parkingAreas} |
+| Off-road sites | ${r.sites.offRoad} |
+| … with any timetable data (plates inside, \`opening_hours\`, \`maxstay\`, \`fee:conditional\`) | ${r.sites.withTimetable} |
+| Dropped: fail both the overnight and daytime tests | ${r.sites.failsScreen} |
+
+Sites without timetable data count as open at all times, with an "hours unknown" caution.
 
 ## Unparsed plate text
 

@@ -1,4 +1,5 @@
 // Sites (parking areas and off-road sites): generators, rule-outs, timetables, tier and tenure, through the build seam.
+import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { build, type BuildInput, type Candidate } from "../src/build/build.ts";
 import type { OsmArea, Parcel, TrailLine } from "../src/build/inputs.ts";
@@ -22,6 +23,10 @@ describe("parking areas", () => {
       overnight: true, daytime: true, dayOnly: false, cautions: ["Hours unknown"],
     } satisfies Partial<Candidate>);
     expect(site!.line).toHaveLength(5);
+  });
+
+  it("an unnamed car park is named after the nearest road", () => {
+    expect(sites({ parkings: [carPark({ access: "yes" })] })[0]!.street).toBe("Car park off Test Street");
   });
 
   it("an untagged car park gets an access-unknown caution and orders after access=yes|permissive", () => {
@@ -172,6 +177,14 @@ describe("off-road sites", () => {
     expect(sites({ minorWays: [southTrack()], qldTracks: qld }).map((c) => c.trafficability)).toEqual(["4WD", "4WD"]);
     const far = [{ trafficability: "4WD", surface: "Unsealed", coords: [lonLat(160, -205), lonLat(160, -330)] }];
     expect(sites({ minorWays: [southTrack()], qldTracks: far }).map((c) => c.trafficability)).toEqual([null, null]);
+  });
+});
+
+describe("Taringa Community Garden in the real snapshot", () => {
+  it("its car park (way 47972652) is a parking area, with the service ways and barriers around it", () => {
+    const f = JSON.parse(readFileSync(new URL("./fixtures/taringa-garden.json", import.meta.url), "utf8"));
+    const found = build({ signs: [], ways: [], parkings: f.parkings, minorWays: f.minorWays, nodes: f.barriers }).candidates;
+    expect(found.find((c) => c.id === "osm-way-47972652")).toMatchObject({ kind: "parking-area", overnight: true, cautions: ["Hours unknown"] });
   });
 });
 

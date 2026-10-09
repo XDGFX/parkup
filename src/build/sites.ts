@@ -82,6 +82,13 @@ export function buildSites({ ways = [], parkings = [], minorWays = [], nodes = [
     return ins.length > 0 && ins.every((m) => m.gated);
   };
 
+  const named = ways.filter((w) => w.tags.name).map((w) => ({ name: w.tags.name!, line: w.coords.map(toXY) }));
+  const nearestRoad = (p: XY) => {
+    let best: { d: number; name: string } | undefined;
+    for (const w of named) { const d = Math.abs(project(w.line, p).offset); if (!best || d < best.d) best = { d, name: w.name }; }
+    return best ? `Car park off ${best.name}` : "Car park";
+  };
+
   const raw: Raw[] = [];
   for (const a of parkings) {
     const t = a.tags;
@@ -92,7 +99,7 @@ export function buildSites({ ways = [], parkings = [], minorWays = [], nodes = [
     const osm = osmTimetable(t);
     const p: XY = outline ? middle(outline) : toXY([a.lon!, a.lat!]);
     raw.push({
-      id: `osm-${a.type}-${a.id}`, kind: "parking-area", name: t.name ?? "Car park",
+      id: `osm-${a.type}-${a.id}`, kind: "parking-area", name: t.name ?? nearestRoad(p),
       line: outline ? outline.map(toLonLat) : [toLonLat(p)], p, rings,
       rules: [...inside.flatMap((x) => x.rules), ...osm.rules], plates: inside.map((x) => x.label),
       cautions: [...(t.access ? [] : [ACCESS_UNKNOWN]), ...(t.motor_vehicle === "private" ? ["Motor vehicles: private"] : []), ...osm.cautions],

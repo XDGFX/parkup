@@ -1,8 +1,15 @@
 // Fetches and pins the build's inputs for the three suburbs: BCC parking signs, yellow lines, the St Lucia Traffic Area
 // and City Plan zoning, and OSM road centrelines and points (signals, crossings, bus stops, schools and kindergartens).
-// Run: npm run snapshot. Writes data/snapshot/*.json, which are committed so a rebuild is repeatable.
-import { mkdir, writeFile } from "node:fs/promises";
-import type { KerbLine, OsmNode, OsmWay, PermitArea, SignRecord, Snapshot, ToiletRecord, Zone } from "./inputs.ts";
+// Then the site layers: OSM car parks, tracks and barriers, BCC Tracks and Trails, QLD Roads and Tracks, BCC Council
+// Vegetation, and a QLD cadastre query at each site.
+// Run: npm run snapshot (add -- --sites for the site layers alone). Writes data/snapshot/*.json, which are committed so a rebuild is repeatable.
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { TRAILS } from "./config.ts";
+import type { LonLat } from "./geo.ts";
+import type {
+  CouncilLand, KerbLine, OsmArea, OsmNode, OsmWay, Parcel, PermitArea, QldTrack, SignRecord, Snapshot, ToiletRecord, TrailLine, Zone,
+} from "./inputs.ts";
+import { buildSites } from "./sites.ts";
 
 const BCC = "https://data.brisbane.qld.gov.au/api/explore/v2.1/catalog/datasets";
 const OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter", "https://maps.mail.ru/osm/tools/overpass/api/interpreter"];
@@ -149,7 +156,119 @@ async function toilets(): Promise<ToiletRecord[]> {
     .sort((a, b) => a.facilityid.localeCompare(b.facilityid));
 }
 
-// Overpass allows few concurrent requests, so the two OSM queries go one after the other.
+const OSM_BBOX = "-27.53,152.94,-27.475,153.03";
+
+/** Car parks, tracks and service roads (with their barriers), as of the same Overpass query. */
+async function osmSites(): Promise<{ parkings: OsmArea[]; minorWays: OsmWay[]; barriers: OsmNode[] }> {
+  const query = `[out:json][timeout:180][bbox:${OSM_BBOX}];
+way[highway~"^(track|service)$"]->.minor;
+nwr[amenity=parking];
+out body geom;
+.minor out body geom;
+node(w.minor)[barrier];
+out body;`;
+  const { elements } = (await overpass(query)) as { elements: any[] };
+  const ring = (g: { lon: number; lat: number }[]) => g.map((p) => pt([p.lon, p.lat]));
+  const closed = (r: [number, number][]) => r.length > 3 && r[0]![0] === r.at(-1)![0] && r[0]![1] === r.at(-1)![1];
+  const parkings: OsmArea[] = [], minorWays: OsmWay[] = [], barriers: OsmNode[] = [];
+  for (const e of elements) {
+    const tags = e.tags ?? {};
+    if (tags.amenity === "parking") {
+      if (e.type === "node") parkings.push({ type: "node", id: e.id, tags, rings: null, lon: round6(e.lon), lat: round6(e.lat) });
+      else if (e.type === "way") parkings.push({ type: "way", id: e.id, tags, rings: [ring(e.geometry)] });
+      else {
+        const rings = (e.members ?? []).filter((m: any) => m.role === "outer" && m.geometry).map((m: any) => ring(m.geometry)).filter(closed);
+        if (rings.length) parkings.push({ type: "relation", id: e.id, tags, rings });
+      }
+    } else if (e.type === "way") minorWays.push({ id: e.id, tags, nodes: e.nodes, coords: ring(e.geometry) });
+    else if (e.type === "node" && tags.barrier) barriers.push({ id: e.id, lon: round6(e.lon), lat: round6(e.lat), tags });
+  }
+  const byId = <T extends { id: number }>(xs: T[]) => [...new Map(xs.map((x) => [x.id, x])).values()].sort((a, b) => a.id - b.id);
+  return { parkings: byId(parkings), minorWays: byId(minorWays), barriers: byId(barriers) };
+}
+
+/** BCC Park — Tracks and Trails access lines in the three suburbs' extent. */
+async function trails(): Promise<TrailLine[]> {
+  const types = TRAILS.ITEM_TYPES.map((t) => `item_type="${t}"`).join(" or ");
+  const rows = await bcc("tracks-and-trails", `(${types}) and intersects(geo_shape, geom'${BBOX}')`);
+  return rows
+    .flatMap((r) => linesOf(r.geo_shape).map((coords, i) => ({
+      id: i ? `${r.objectid}-${i}` : String(r.objectid), itemType: r.item_type, park: r.park_name ?? null, description: r.item_description ?? null, coords,
+    })))
+    .sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
+}
+
+/** BCC Council Vegetation: land the council owns or controls, which the cadastre shows as freehold. */
+async function councilLand(): Promise<CouncilLand[]> {
+  const rows = await bcc("protected-vegetation-natural-assets-local-law-2003-council-vegetation", `intersects(geo_shape, geom'${BBOX}')`);
+  return rows
+    .sort((a, b) => String(a.objectid).localeCompare(String(b.objectid), undefined, { numeric: true }))
+    .flatMap((r) => polygonsOf(r.geo_shape).map((rings) => ({ rings })));
+}
+
+const QLD = "https://spatial-gis.information.qld.gov.au/arcgis/rest/services";
+async function arcgis(path: string, params: Record<string, string>): Promise<any> {
+  const res = await fetch(`${QLD}/${path}/query?${new URLSearchParams({ f: "json", inSR: "4326", outSR: "4326", ...params })}`);
+  if (!res.ok) throw new Error(`QLD ${path}: ${res.status} ${await res.text()}`);
+  const body = await res.json() as any;
+  if (body.error) throw new Error(`QLD ${path}: ${JSON.stringify(body.error)}`);
+  return body;
+}
+
+/** QLD Roads and Tracks: tracks in the three suburbs' extent, for their trafficability. */
+async function qldTracks(): Promise<QldTrack[]> {
+  const body = await arcgis("Transportation/RoadsAndTracks/MapServer/10", {
+    where: "class='Track'", geometry: "152.94,-27.53,153.03,-27.475", geometryType: "esriGeometryEnvelope",
+    outFields: "segment_id,trafficability,surface_type", returnGeometry: "true",
+  });
+  return (body.features as any[])
+    .sort((a, b) => String(a.attributes.segment_id).localeCompare(String(b.attributes.segment_id)))
+    .flatMap((f) => (f.geometry.paths as number[][][]).map((p) => ({
+      trafficability: f.attributes.trafficability ?? null, surface: f.attributes.surface_type ?? null, coords: p.map(pt),
+    })));
+}
+
+/** One QLD cadastre point query per site, at the site's point as the build places it. */
+async function parcels(points: LonLat[]): Promise<Parcel[]> {
+  const out: Parcel[] = [];
+  const queue = [...new Map(points.map((p) => [p.join(","), p])).values()];
+  await Promise.all(Array.from({ length: 4 }, async () => {
+    for (let p = queue.shift(); p; p = queue.shift()) {
+      const body = await arcgis("PlanningCadastre/LandParcelPropertyFramework/MapServer/4", {
+        geometry: `${p[0]},${p[1]}`, geometryType: "esriGeometryPoint", outFields: "lotplan,tenure,parcel_typ", returnGeometry: "false",
+      });
+      const a = body.features?.[0]?.attributes;
+      out.push({ lon: p[0], lat: p[1], lotplan: a?.lotplan ?? null, tenure: a?.tenure ?? null, parcelType: a?.parcel_typ ?? null });
+    }
+  }));
+  return out.sort((a, b) => a.lon - b.lon || a.lat - b.lat);
+}
+
+const save = (name: string, takenAt: string, data: Record<string, unknown>) =>
+  writeFile(`data/snapshot/${name}.json`, JSON.stringify({ takenAt, ...data }, null, 0));
+const load = async (name: string) => JSON.parse(await readFile(`data/snapshot/${name}.json`, "utf8"));
+
+/** The site layers, then the tenure of each site the build would make from them and the rest of the snapshot. */
+async function snapshotSites(takenAt: string) {
+  const osm = await osmSites();
+  const [tr, q, c] = await Promise.all([trails(), qldTracks(), councilLand()]);
+  await save("sites", takenAt, { ...osm, trails: tr, qldTracks: q, councilLand: c });
+  const [base, signSnapshot] = await Promise.all([load("osm"), load("signs")]);
+  const points = buildSites({ ways: base.ways, nodes: [...base.nodes, ...osm.barriers], signs: signSnapshot.signs, ...osm, trails: tr }).map((s) => s.point);
+  const p = await parcels(points);
+  await save("tenure", takenAt, { parcels: p });
+  console.log(`sites snapshot: ${osm.parkings.length} car parks, ${osm.minorWays.length} tracks and service roads, ${osm.barriers.length} barriers, ` +
+    `${tr.length} BCC access lines, ${q.length} QLD tracks, ${c.length} council land polygons, ${p.length} cadastre queries`);
+}
+
+await mkdir("data/snapshot", { recursive: true });
+// `--sites` refreshes only the site layers and tenure, against the rest of the snapshot as it stands.
+if (process.argv.includes("--sites")) {
+  await snapshotSites(new Date().toISOString());
+  process.exit(0);
+}
+
+// Overpass allows few concurrent requests, so the OSM queries go one after the other.
 const [s, l, a, z, t] = await Promise.all([signs(), lines(), areas(), zones(), toilets()]);
 const w = await ways(), n = await nodes();
 const snapshot: Snapshot = { takenAt: new Date().toISOString(), signs: s, ways: w, nodes: n, lines: l, areas: a, zones: z };
@@ -162,3 +281,4 @@ await writeFile("data/snapshot/zones.json", JSON.stringify({ takenAt: snapshot.t
 await writeFile("data/snapshot/toilets.json", JSON.stringify({ takenAt: snapshot.takenAt, toilets: t }, null, 0));
 console.log(`snapshot: ${s.length} sign plates, ${w.length} OSM ways, ${n.length} OSM points, ${l.length} yellow lines, ` +
   `${a.length} traffic-area polygons, ${z.length} zone polygons, ${t.length} toilets`);
+await snapshotSites(snapshot.takenAt);
