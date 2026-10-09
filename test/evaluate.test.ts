@@ -129,6 +129,18 @@ describe("stamping", () => {
     expect(e.rubric).toMatch(/^v\d+$/);
   });
 
+  it("never restamps an evaluation already stamped from the same agent output", () => {
+    const first = checked(agentSays(), kerb());
+    const again = checkEvaluation(agentSays(), kerb(), { ...stamp, evaluatedAt: "2026-10-20T09:00:00+10:00" }, first);
+    expect(again.ok && again.evaluation.evaluated_at).toBe("2026-10-09T10:00:00+10:00");
+  });
+
+  it("stamps a new agent output afresh, even over an earlier evaluation", () => {
+    const first = checked(agentSays(), kerb());
+    const redone = checkEvaluation(agentSays({ verdict: "maybe" }), kerb(), { ...stamp, evaluatedAt: "2026-10-20T09:00:00+10:00" }, first);
+    expect(redone.ok && redone.evaluation.evaluated_at).toBe("2026-10-20T09:00:00+10:00");
+  });
+
   it("resolves a kerb's best section to lon/lat points at each end", () => {
     const e = checked(agentSays({ best_section: { from_m: 0, to_m: 30, where: "north end", slope_pct: 1 } }));
     expect(e.best_section!.points).toHaveLength(2);

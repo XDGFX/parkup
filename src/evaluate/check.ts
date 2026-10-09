@@ -23,6 +23,7 @@ export type AgentEvaluation = {
   confidence: "low" | "medium" | "high";
 };
 
+/** The model, and the clock time at post-processing: the evaluation's `evaluated_at` unless it was already stamped. */
 export type Stamp = { model: string; evaluatedAt: string };
 
 /** Measured by code at the best section, so they don't depend on the agent's eye. */
@@ -58,7 +59,22 @@ export type CheckResult = { ok: true; evaluation: Evaluation } | { ok: false; er
 
 const validate = new Ajv({ allErrors: true }).compile<AgentEvaluation>(schema);
 
-export function checkEvaluation(raw: unknown, context: Context, stamp: Stamp): CheckResult {
+/** The agent's output an evaluation was made from, as the agent wrote it. */
+const agentOutput = ({ agent_verdict, best_section, kind, summary, reasons, drivers, flags, sun_shade, rubbish, cannot_judge, confidence }: Evaluation): AgentEvaluation => {
+  const section = best_section && (({ points: _, ...s }) => s)(best_section);
+  return { verdict: agent_verdict, kind, summary, reasons, best_section: section, drivers, flags, sun_shade, rubbish, cannot_judge, confidence };
+};
+/** JSON with object keys sorted, so two values compare by content whatever their key order. */
+const canonical = (v: unknown): string =>
+  Array.isArray(v) ? `[${v.map(canonical).join(",")}]`
+  : v && typeof v === "object" ? `{${Object.keys(v).sort().map((k) => `${JSON.stringify(k)}:${canonical((v as Record<string, unknown>)[k])}`).join(",")}}`
+  : JSON.stringify(v ?? null);
+
+/**
+ * Checks and stamps one agent evaluation. `previous` is the evaluation already written for this candidate, if any:
+ * when it was made from the same agent output by the same model, its `evaluated_at` stands and isn't restamped.
+ */
+export function checkEvaluation(raw: unknown, context: Context, stamp: Stamp, previous?: Evaluation | null): CheckResult {
   if (!validate(raw)) {
     return {
       ok: false,
@@ -74,6 +90,7 @@ export function checkEvaluation(raw: unknown, context: Context, stamp: Stamp): C
   if (facts.gated) ruleOuts.push("Mapped gate on the only access");
   const { verdict, best_section, ...rest } = raw;
   const esri = [...new Set(context.chunks.flatMap((c) => c.esri_capture ? [c.esri_capture.date] : []))].sort();
+  const stamped = previous && previous.model === stamp.model && canonical(agentOutput(previous)) === canonical(raw) ? previous.evaluated_at : null;
   return {
     ok: true,
     evaluation: {
@@ -85,7 +102,7 @@ export function checkEvaluation(raw: unknown, context: Context, stamp: Stamp): C
       best_section: best_section && { ...best_section, points: section.map(toLonLat) },
       facts,
       imagery: { esri, qld: context.chunks[0]?.qld_capture.start.slice(0, 7) ?? null },
-      evaluated_at: stamp.evaluatedAt,
+      evaluated_at: stamped ?? stamp.evaluatedAt,
       model: stamp.model,
       rubric: RUBRIC_VERSION,
     },

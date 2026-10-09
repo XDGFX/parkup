@@ -5,7 +5,7 @@
 //   npm run evaluate -- prepare --calibration [spot-id ...] context for the calibration set
 //   npm run evaluate -- check --model <id> <folder ...> | --calibration   validate agent.json, apply rule-outs, stamp, write evaluation.json
 //   npm run evaluate -- calibrate                          compare the calibration set with the user's verdicts
-import { readFile, stat, writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import { HALF_WIDTH_M } from "../build/config.ts";
 import type { Candidate } from "../build/build.ts";
 import { evaluationQueue } from "../build/evaluations.ts";
@@ -76,15 +76,15 @@ if (command === "queue") {
   const dirs = args.filter((a, i) => i !== m && i !== m + 1 && a !== "--calibration");
   if (args.includes("--calibration"))
     dirs.push(...(await readJson<Spot[]>(`${CALIBRATION}/spots.json`)).map((s) => `${CALIBRATION}/${s.id}`));
+  // Stamped once, from the clock, as the batch post-processes; an evaluation already stamped keeps its time.
+  const evaluatedAt = new Date().toISOString().replace(/\.\d+Z$/, "Z");
   let failed = 0;
   for (const dir of dirs) {
-    const agentFile = `${dir}/agent.json`;
     let raw: unknown;
-    try { raw = await readJson(agentFile); } catch (e) { failed++; console.error(`${dir}: can't read agent.json: ${e}`); continue; }
+    try { raw = await readJson(`${dir}/agent.json`); } catch (e) { failed++; console.error(`${dir}: can't read agent.json: ${e}`); continue; }
     const context = await readJson<Context>(`${dir}/context.json`);
-    // The agent wrote its file as soon as it finished, so the file's time is when it evaluated.
-    const evaluatedAt = (await stat(agentFile)).mtime.toISOString().replace(/\.\d+Z$/, "Z");
-    const res = checkEvaluation(raw, context, { model, evaluatedAt });
+    const previous = await readJson<Evaluation>(`${dir}/evaluation.json`).catch(() => null);
+    const res = checkEvaluation(raw, context, { model, evaluatedAt }, previous);
     if (!res.ok) { failed++; console.error(`${dir}: ${res.errors.join("; ")}`); continue; }
     await writeFile(`${dir}/evaluation.json`, JSON.stringify(res.evaluation, null, 2) + "\n");
     const e = res.evaluation;
