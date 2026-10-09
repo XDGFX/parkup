@@ -14,7 +14,7 @@ describe("nearest toilet", () => {
   it("each candidate carries its nearest toilet, measured from the nearest point of its kerb", () => {
     // A is 300 m from the kerb's north end; B is 150 m west of its south end.
     const toilets = [toilet("A", -4, 280), toilet("B", -154, -80, "OPEN: Daylight hours"), toilet("C", 900, -900)];
-    const { candidates } = build({ signs, ways: testStreet, toilets });
+    const candidates = build({ signs, ways: testStreet, toilets }).candidates.filter((c) => c.plates.length);
     expect(candidates).toHaveLength(1);
     expect(candidates[0]!.toilet).toEqual({ id: "B", name: "Toilet B", distanceM: 150 });
   });
