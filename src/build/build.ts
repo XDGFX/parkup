@@ -1,9 +1,10 @@
 // The build: snapshot inputs in, the candidates dataset and the build report out.
 import type { Rule } from "../timetable/timetable.ts";
 import type { Compass, LonLat } from "./geo.ts";
-import type { OsmWay, SignRecord } from "./inputs.ts";
+import type { OsmWay, SignRecord, ToiletRecord } from "./inputs.ts";
 import { buildKerbs, type KerbReport } from "./kerbs.ts";
 import { maxStayHours, passesDaytime, passesOvernight } from "./screen.ts";
+import { nearestToilets, type NearestToilet, type Toilet } from "./toilets.ts";
 
 export type Candidate = {
   id: string;
@@ -24,6 +25,8 @@ export type Candidate = {
   /** Passes the daytime test but no night. */
   dayOnly: boolean;
   maxStayHours: number | null;
+  /** The nearest toilet in the toilets layer, measured from the nearest point of the candidate. */
+  toilet: NearestToilet | null;
 };
 
 export type BuildReport = KerbReport & {
@@ -35,9 +38,12 @@ export type BuildReport = KerbReport & {
   dayOnly: number;
 };
 
-export type BuildInput = { signs: SignRecord[]; ways: OsmWay[]; /** Off in tests that only look at plate reading. */ screen?: boolean };
+export type BuildInput = {
+  signs: SignRecord[]; ways: OsmWay[]; toilets?: ToiletRecord[];
+  /** Off in tests that only look at plate reading. */ screen?: boolean;
+};
 
-export function build({ signs, ways, screen = true }: BuildInput): { candidates: Candidate[]; report: BuildReport } {
+export function build({ signs, ways, toilets = [], screen = true }: BuildInput): { candidates: Candidate[]; toilets: Toilet[]; report: BuildReport } {
   const { stretches, report } = buildKerbs(signs, ways);
   const candidates: Candidate[] = [];
   let failsScreen = 0;
@@ -62,10 +68,14 @@ export function build({ signs, ways, screen = true }: BuildInput): { candidates:
       daytime,
       dayOnly: daytime && !overnight,
       maxStayHours: maxStayHours(s),
+      toilet: null,
     });
   }
+  const { nearest, layer } = nearestToilets(candidates.map((c) => c.line), toilets);
+  candidates.forEach((c, i) => (c.toilet = nearest[i]!));
   return {
     candidates,
+    toilets: layer,
     report: {
       plates: signs.length, ...report, stretches: stretches.length, failsScreen, candidates: candidates.length,
       lowConfidence: candidates.filter((c) => c.lowConfidence).length,
