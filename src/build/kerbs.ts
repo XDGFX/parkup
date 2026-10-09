@@ -358,11 +358,9 @@ export function buildKerbs(input: KerbInput): { stretches: Stretch[]; report: Ke
         if (to - from < 0.01) continue;
         const cover = intervals.filter((i) => i.from <= from && i.to >= to);
         if (!cover.length && !unsignedAllowed) continue;
-        if (within(ys, mid)) continue;
-        // Where paired plates govern the kerb, they override OSM's parking:*=no and the s 170 setback.
-        const paired = cover.some((i) => !i.lowConfidence);
-        if (!paired && within(setbacks, mid)) continue;
-        if (!paired && within(noParking, mid)) { parkingNoM += to - from; continue; }
+        // Hard trims, whatever the plates say: yellow lines, s 170 setbacks and OSM parking:*=no.
+        if (within(ys, mid) || within(setbacks, mid)) continue;
+        if (within(noParking, mid)) { parkingNoM += to - from; continue; }
         const at = block(mid);
         if (at.frontage?.excluded) { excludedM[at.frontage.excluded] += to - from; continue; }
         if (!at.frontage) noFrontageM += to - from;
@@ -442,8 +440,9 @@ function stretch(link: Link, side: Side, piece: { from: number; to: number; cove
   const kerb = offset(centre, side === "left" ? link.halfWidth : -link.halfWidth);
   const plates = cover.map((i) => i.placed.plate);
   const record = cover[0]?.placed.record;
-  // An unsigned kerb in the St Lucia Traffic Area takes the area's rule; signed kerbs there are "as signed".
-  const sta = !cover.length && at.area === ST_LUCIA_TRAFFIC_AREA.NAME;
+  // A kerb in the St Lucia Traffic Area takes the area's rule alongside its plates', and the timetable
+  // resolves them to the most restrictive at each moment.
+  const area: Rule[] = at.area === ST_LUCIA_TRAFFIC_AREA.NAME ? [{ ...ST_LUCIA_TRAFFIC_AREA.RULE }] : [];
   const lowConfidence = cover.some((i) => i.lowConfidence);
   return {
     link, side, from, to,
@@ -451,9 +450,9 @@ function stretch(link: Link, side: Side, piece: { from: number; to: number; cove
     line: kerb.map(toLonLat),
     street: link.name || titleCase(record?.street ?? ""),
     suburb: record ? titleCase(record.suburb ?? "") : suburbOf(pointAt(kerb, (to - from) / 2).p),
-    plates: sta ? [ST_LUCIA_TRAFFIC_AREA.RULE.label] : [...new Set(plates.map((p) => p.label))],
-    rules: sta ? [{ ...ST_LUCIA_TRAFFIC_AREA.RULE }] : dedupe(plates.flatMap((p) => p.rules)),
-    lenientRules: sta ? [{ ...ST_LUCIA_TRAFFIC_AREA.RULE }] : dedupe(plates.filter((p) => !p.unparsed).flatMap((p) => p.rules)),
+    plates: [...new Set([...plates.map((p) => p.label), ...area.map((r) => r.label)])],
+    rules: dedupe([...plates.flatMap((p) => p.rules), ...area]),
+    lenientRules: dedupe([...plates.filter((p) => !p.unparsed).flatMap((p) => p.rules), ...area]),
     unparsed: [...new Set(plates.flatMap((p) => (p.unparsed ? [p.unparsed] : [])))],
     cautions: [...(lowConfidence ? ["Low-confidence stretch"] : []), ...cautions],
     lowConfidence,
