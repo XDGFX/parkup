@@ -2,7 +2,7 @@
 // and City Plan zoning, and OSM road centrelines and points (signals, crossings, bus stops, schools and kindergartens).
 // Run: npm run snapshot. Writes data/snapshot/*.json, which are committed so a rebuild is repeatable.
 import { mkdir, writeFile } from "node:fs/promises";
-import type { KerbLine, OsmNode, OsmWay, PermitArea, SignRecord, Snapshot, Zone } from "./inputs.ts";
+import type { KerbLine, OsmNode, OsmWay, PermitArea, SignRecord, Snapshot, ToiletRecord, Zone } from "./inputs.ts";
 
 const BCC = "https://data.brisbane.qld.gov.au/api/explore/v2.1/catalog/datasets";
 const OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter"];
@@ -132,8 +132,26 @@ async function zones(): Promise<Zone[]> {
     .map(({ id: _, ...z }) => z);
 }
 
+// BCC's copy of the National Public Toilet Map, for all of Brisbane: it's small, and the build keeps the nearby ones.
+async function toilets(): Promise<ToiletRecord[]> {
+  const res = await fetch(`${BCC}/public-toilets-in-brisbane/exports/json`);
+  if (!res.ok) throw new Error(`BCC toilets: ${res.status} ${await res.text()}`);
+  const rows = (await res.json()) as Record<string, any>[];
+  return rows
+    .map((r) => ({
+      facilityid: String(r.facilityid),
+      name: r.name,
+      facilitytype: r.facilitytype,
+      address: r.address1,
+      lon: r.longitude,
+      lat: r.latitude,
+      openinghours: r.openinghours,
+    }))
+    .sort((a, b) => a.facilityid.localeCompare(b.facilityid));
+}
+
 // Overpass allows few concurrent requests, so the two OSM queries go one after the other.
-const [s, l, a, z] = await Promise.all([signs(), lines(), areas(), zones()]);
+const [s, l, a, z, t] = await Promise.all([signs(), lines(), areas(), zones(), toilets()]);
 const w = await ways(), n = await nodes();
 const snapshot: Snapshot = { takenAt: new Date().toISOString(), signs: s, ways: w, nodes: n, lines: l, areas: a, zones: z };
 await mkdir("data/snapshot", { recursive: true });
@@ -142,5 +160,6 @@ await writeFile("data/snapshot/osm.json", JSON.stringify({ takenAt: snapshot.tak
 await writeFile("data/snapshot/lines.json", JSON.stringify({ takenAt: snapshot.takenAt, lines: l }, null, 0));
 await writeFile("data/snapshot/areas.json", JSON.stringify({ takenAt: snapshot.takenAt, areas: a }, null, 0));
 await writeFile("data/snapshot/zones.json", JSON.stringify({ takenAt: snapshot.takenAt, zones: z }, null, 0));
+await writeFile("data/snapshot/toilets.json", JSON.stringify({ takenAt: snapshot.takenAt, toilets: t }, null, 0));
 console.log(`snapshot: ${s.length} sign plates, ${w.length} OSM ways, ${n.length} OSM points, ${l.length} yellow lines, ` +
-  `${a.length} traffic-area polygons, ${z.length} zone polygons`);
+  `${a.length} traffic-area polygons, ${z.length} zone polygons, ${t.length} toilets`);

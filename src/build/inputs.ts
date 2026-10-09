@@ -40,3 +40,15 @@ export type Zone = { code: string; name: string; rings: Rings };
 
 /** A BCC regulated permit parking area, such as the St Lucia Traffic Area. */
 export type PermitArea = { name: string; rings: Rings };
+
+/** One toilet from BCC's copy of the National Public Toilet Map, stations and service stations included. */
+export type ToiletRecord = {
+  facilityid: string;
+  name: string;
+  facilitytype: string | null;
+  address: string | null;
+  lon: number;
+  lat: number;
+  /** Free text, such as "OPEN: Daylight hours", "OPEN: 24 hours" or "OPEN: Mon-Fri 6am-10pm". */
+  openinghours: string | null;
+};

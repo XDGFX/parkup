@@ -1,8 +1,10 @@
 // The build: snapshot inputs in, the candidates dataset and the build report out.
 import type { Rule } from "../timetable/timetable.ts";
 import type { Compass, LonLat } from "./geo.ts";
+import type { ToiletRecord } from "./inputs.ts";
 import { buildKerbs, type KerbInput, type KerbReport, type Stretch } from "./kerbs.ts";
 import { maxStayHours, passesDaytime, passesOvernight } from "./screen.ts";
+import { nearestToilets, type NearestToilet, type Toilet } from "./toilets.ts";
 
 export type Candidate = {
   id: string;
@@ -27,6 +29,8 @@ export type Candidate = {
   frontage: { zone: string; name: string } | null;
   /** 1 orders first. Null when there's no frontage, which orders last. */
   tier: 1 | 2 | 3 | null;
+  /** The nearest toilet in the toilets layer, measured from the nearest point of the candidate. */
+  toilet: NearestToilet | null;
 };
 
 /** What became of the stretches governed by an unreadable plate. */
@@ -44,7 +48,7 @@ export type BuildReport = Omit<KerbReport, "unparsed"> & {
   unparsed: UnparsedOutcome[];
 };
 
-export type BuildInput = KerbInput & { /** Off in tests that only look at plate reading. */ screen?: boolean };
+export type BuildInput = KerbInput & { toilets?: ToiletRecord[]; /** Off in tests that only look at plate reading. */ screen?: boolean };
 
 export const UNREADABLE = "Unreadable sign: it may restrict parking here";
 
@@ -61,7 +65,7 @@ function screen(s: Stretch): { outcome: Outcome; rules: Rule[] } {
   return { outcome: "dropped", rules: s.rules };
 }
 
-export function build({ screen: screening = true, ...input }: BuildInput): { candidates: Candidate[]; report: BuildReport } {
+export function build({ screen: screening = true, toilets = [], ...input }: BuildInput): { candidates: Candidate[]; toilets: Toilet[]; report: BuildReport } {
   const { stretches, report } = buildKerbs(input);
   const candidates: Candidate[] = [];
   const outcomes = new Map(report.unparsed.map((u) => [u.text, { ...u, dropped: 0, normal: 0, unreadable: 0 }]));
@@ -89,13 +93,17 @@ export function build({ screen: screening = true, ...input }: BuildInput): { can
       maxStayHours: maxStayHours({ rules }),
       frontage: s.frontage && { zone: s.frontage.zone, name: s.frontage.name },
       tier: s.frontage?.tier ?? null,
+      toilet: null,
     });
   }
   // Best frontage first; then a stable order by street, side and position along the kerb.
   candidates.sort((a, b) => (a.tier ?? 4) - (b.tier ?? 4) || a.street.localeCompare(b.street) || a.id.localeCompare(b.id, undefined, { numeric: true }));
+  const { nearest, layer } = nearestToilets(candidates.map((c) => c.line), toilets);
+  candidates.forEach((c, i) => (c.toilet = nearest[i]!));
   const tierCount = (t: Candidate["tier"]) => candidates.filter((c) => c.tier === t).length;
   return {
     candidates,
+    toilets: layer,
     report: {
       plates: input.signs.length, ...report, stretches: stretches.length,
       unsigned: stretches.filter((s) => !s.signed).length,

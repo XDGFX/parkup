@@ -7,12 +7,18 @@ import { build, type BuildReport } from "./build.ts";
 if (process.argv.includes("--snapshot")) execFileSync("npx", ["tsx", "src/build/snapshot.ts"], { stdio: "inherit" });
 
 const read = async (name: string) => JSON.parse(await readFile(`data/snapshot/${name}.json`, "utf8"));
-const [signs, osm, lines, areas, zones] = await Promise.all(["signs", "osm", "lines", "areas", "zones"].map(read));
-const { candidates, report } = build({
+const [signs, osm, lines, areas, zones, toiletSnapshot] = await Promise.all(["signs", "osm", "lines", "areas", "zones", "toilets"].map(read));
+const { candidates, toilets, report } = build({
   signs: signs.signs, ways: osm.ways, nodes: osm.nodes ?? [], lines: lines.lines, areas: areas.areas, zones: zones.zones,
+  toilets: toiletSnapshot.toilets,
 });
 
 await mkdir("public", { recursive: true });
+await writeFile("public/toilets.json", JSON.stringify({
+  builtFrom: { toilets: toiletSnapshot.takenAt },
+  licence: "National Public Toilet Map, via Brisbane City Council open data (CC BY 4.0).",
+  toilets,
+}));
 await writeFile("public/candidates.json", JSON.stringify({
   builtFrom: { signs: signs.takenAt, osm: osm.takenAt, lines: lines.takenAt, areas: areas.takenAt, zones: zones.takenAt },
   licence: "Derived from OpenStreetMap (ODbL) and Brisbane City Council open data (CC BY 4.0).",
