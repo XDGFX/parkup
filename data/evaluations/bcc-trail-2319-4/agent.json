@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Narrow venue access road beside Riverstage and university; gated, with event trucks.",
+  "reasons": ["Mapped gate 27 m away on only access", "Event trucks and marquees line the road", "Narrow road, no room to pull off"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Bush on the east side, but university blocks, a residence and the event lawn sit within 50 m.",
+    "access_and_room": "Narrow paved road with a mapped gate on the only access 27 m away; marquees and trucks fill the sides, leaving no space to stop.",
+    "traffic": "Event, delivery and university service traffic; noise from concerts.",
+    "convention": "Event vehicles and temporary structures only; no campervans or tents seen."
+  },
+  "flags": ["Mapped gate on only access, 27 m away", "Slope is steep in the DEM, about 13% mean near the pin", "Noise from Riverstage events and university", "Curator's Residence 42 m away"],
+  "sun_shade": "Partly shaded by dense bush on the east; open to the west and south.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether the gate is closed at night", "Event schedule and security"],
+  "confidence": "high"
+}

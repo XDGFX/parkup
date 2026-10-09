@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is on a footpath junction in the Botanic Gardens; no place for a van.",
+  "reasons": ["Pedestrian garden paths only", "No parking or tracks nearby", "Gates and university buildings around"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Open lawns and garden paths with university buildings 34-57 m away; visitors and staff likely.",
+    "access_and_room": "Narrow paved paths between lawns; one small service vehicle on a path in Esri, no mapped service road or car park within 100 m, many gates and bollards mapped 105 m and further.",
+    "traffic": "Quiet inside the gardens, no road at the pin.",
+    "convention": "Public botanic gardens, no sign of overnight stays."
+  },
+  "flags": ["Slope: up to 12.6% locally, mean 6.8%", "Low-lying: about 5-8 m, Brisbane River 290 m away", "Gates and bollards mapped nearby"],
+  "sun_shade": "Pin is under tree canopy to the north; lawns around are open to sun.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Gate closing times", "Street lighting", "Garden rules on vehicles"],
+  "confidence": "high"
+}

@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Large sealed bush car park, no buildings nearby, far corner backs onto forest.",
+  "reasons": ["Surrounded by bush, no buildings", "Big sealed lot with plenty of room", "Gentle grade along north edge"],
+  "best_section": {
+    "from_m": 140,
+    "to_m": 200,
+    "where": "North-east edge of the car park, backing onto bush, furthest from the main road",
+    "slope_pct": 1.1
+  },
+  "drivers": {
+    "seclusion": "Bush on three sides; no buildings in the data or imagery.",
+    "access_and_room": "Sealed lot off the main road, marked bays, no gate seen; room for many vans.",
+    "traffic": "Main road passes about 60 m away; a van in the lot stands clear of the lane.",
+    "convention": "Busy with a market or event in the QLD image; cars and a van parked in Esri image."
+  },
+  "flags": ["Traffic noise from the main road", "Busy at events", "Council signs (No Stopping, Bus Zone) apply to the road, not the lot"],
+  "sun_shade": "Open sun on the lot; bush shades the north edge from the north and east in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Car park hours or on-site signs", "Street lighting", "Whether the lot is closed at night"],
+  "confidence": "medium"
+}

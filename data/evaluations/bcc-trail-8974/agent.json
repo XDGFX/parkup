@@ -1,0 +1,35 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Pin is in bush among club halls; best stop is the street kerb to the south.",
+  "reasons": [
+    "No track reaches the pin",
+    "North kerb backs onto park bush",
+    "Homes face it across the road"
+  ],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "North kerb of the street 40 m south-west of the pin, beside the bushy strip west of the corner",
+    "slope_pct": 5
+  },
+  "drivers": {
+    "seclusion": "Park bush and club buildings behind; houses on the opposite side, roughly 25 m or more across the road.",
+    "access_and_room": "Pin is in trees between the CWA hall and kindergarten with no tyre tracks; the street kerb is open and cars park along it.",
+    "traffic": "Busy collector road beside a large signalled junction with an arterial.",
+    "convention": "Several cars parked on both kerbs in both images; no campervans seen."
+  },
+  "flags": [
+    "Steep: about 5% mean grade at the pin, 9% max",
+    "Noise from the arterial junction and nearby construction",
+    "Pin is approximate; judged the kerb instead"
+  ],
+  "sun_shade": "Tall trees shade the north kerb, mainly in the morning from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerbside parking limits or signs",
+    "Street lighting",
+    "Exact distance to houses across the road"
+  ],
+  "confidence": "low"
+}

@@ -1,0 +1,60 @@
+{
+  "candidate": "bcc-trail-3154",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Pin is on a steep bush slope; the usable spot is the public car park or kerb nearby.",
+  "reasons": [
+    "Ring is 34% bush slope, no track",
+    "Car park and kerb parking about 80-90 m away",
+    "No houses; busy visitor area"
+  ],
+  "drivers": {
+    "seclusion": "No dwellings mapped; bush on one side, but a visitor car park with a building and many cars sits at the top.",
+    "access_and_room": "Sealed road and car park, with cars parked along the kerb in the QLD image; room for a van.",
+    "traffic": "Busy visitor road and car park by day; likely quiet at night.",
+    "convention": "Cars park along the kerb and in the car park; no campers seen."
+  },
+  "flags": [
+    "Ring area is extremely steep: about 34% mean grade",
+    "Mapped gate 161 m away, not on the only access",
+    "Likely popular daytime lookout, so rangers or signs possible"
+  ],
+  "sun_shade": "Car park has scattered trees; kerb lane is open to the sun, with bush shading from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Slope of the car park and kerb, as elevation samples cover only the ring",
+    "Night-time closure or signs",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Kerbside parking lane or the sealed car park north-west of the ring, beside the visitor building",
+    "slope_pct": 0,
+    "points": [
+      [
+        152.960415,
+        -27.485105
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 33.6,
+    "min_elevation_m": 166.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

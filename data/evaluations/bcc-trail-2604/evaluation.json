@@ -1,0 +1,61 @@
+{
+  "candidate": "bcc-trail-2604",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Large stadium car park beside the rail line, no homes within 90 m.",
+  "reasons": [
+    "Big car park, many cars parked",
+    "Backs onto rail, industry and parkland",
+    "No dwellings within 97 m"
+  ],
+  "drivers": {
+    "seclusion": "Car park backs onto parkland, a rail corridor and warehouses; the only mapped dwelling is 97 m away and the rest are stadium and commercial buildings.",
+    "access_and_room": "Sealed road off the roundabout leads straight in; marked bays with plenty of room for a van. Mapped lift gates nearby may close it out of hours.",
+    "traffic": "Rail line and event crowds nearby, but the van stands in a bay off the lane.",
+    "convention": "Dozens of cars parked in the imagery; mapped as staff permit and paid customer parking."
+  },
+  "flags": [
+    "Mapped as permit or fee parking; overnight rules unknown",
+    "Lift gates mapped 66 to 81 m away, not closed in imagery, with a way round",
+    "Noise from the rail line and stadium events",
+    "Low-lying: 2.5 to 3.1 m, Brisbane River 306 m away"
+  ],
+  "sun_shade": "Open car park, full sun; trees along the park edge shade the east side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Overnight parking rules and closing times",
+    "Street lighting",
+    "Security patrols"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Edge of the car park just north-east of the roundabout, by the park",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.996681,
+        -27.478934
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 97,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 2.5,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

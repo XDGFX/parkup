@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Back of Riverstage venue on a steep riverbank; loading yard, gated, busy.",
+  "reasons": ["Pin on steep, vegetated riverbank", "Venue loading yard, staff and event trucks", "Gates and bollards on access"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Tucked behind the Riverstage and mangroves, but the yard is an active venue and crew area.",
+    "access_and_room": "Pin is in thick bush on the bank. The service road and yard are venue-controlled, with gates 99 m away and no room to stop clear of work vehicles.",
+    "traffic": "Event and delivery traffic, with crew and equipment around the stage.",
+    "convention": "Work vans and trailers belong to the venue; no campervans or tents seen."
+  },
+  "flags": ["Brisbane Riverstage 3 m from the pin", "Steep bank: DEM shows over 12% and a drop to about 0 m", "Low-lying: about 4 m, river 170 m away", "Noise from concerts and events"],
+  "sun_shade": "Pin sits in dense tree shade, with the stage building to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Event schedule", "Overnight security at the venue"],
+  "confidence": "high"
+}

@@ -1,0 +1,554 @@
+{
+  "id": "bcc-trail-1027",
+  "street": "Musgrave Park access road",
+  "suburb": "",
+  "line": [
+    [
+      153.017068,
+      -27.479669
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "off-road",
+  "kind": "point",
+  "length_m": 0,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 12,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0169471,
+          -27.4797314
+        ],
+        [
+          153.0169124,
+          -27.4797807
+        ],
+        [
+          153.0169716,
+          -27.4798135
+        ],
+        [
+          153.0170063,
+          -27.4797642
+        ],
+        [
+          153.0169471,
+          -27.4797314
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 28,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0168274,
+          -27.4797959
+        ],
+        [
+          153.0167416,
+          -27.4797479
+        ],
+        [
+          153.0165843,
+          -27.4799692
+        ],
+        [
+          153.0166701,
+          -27.4800172
+        ],
+        [
+          153.0168274,
+          -27.4797959
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": "Jagera Community Hall",
+      "dwelling": false,
+      "metres": 62,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0175287,
+          -27.4800966
+        ],
+        [
+          153.0175795,
+          -27.4799963
+        ],
+        [
+          153.0179456,
+          -27.4801424
+        ],
+        [
+          153.0178947,
+          -27.4802427
+        ],
+        [
+          153.0175287,
+          -27.4800966
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 71,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0162773,
+          -27.4793941
+        ],
+        [
+          153.0163958,
+          -27.4794411
+        ],
+        [
+          153.0163502,
+          -27.4795316
+        ],
+        [
+          153.0162317,
+          -27.4794845
+        ],
+        [
+          153.0162773,
+          -27.4793941
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 71,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0170828,
+          -27.4789951
+        ],
+        [
+          153.0170877,
+          -27.4790236
+        ],
+        [
+          153.017121,
+          -27.4790331
+        ],
+        [
+          153.0171454,
+          -27.4790109
+        ],
+        [
+          153.0171394,
+          -27.478985
+        ],
+        [
+          153.0171102,
+          -27.4789763
+        ],
+        [
+          153.0170828,
+          -27.4789951
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": "West End Croquet Club",
+      "dwelling": false,
+      "metres": 78,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0175393,
+          -27.478925
+        ],
+        [
+          153.0174297,
+          -27.4789839
+        ],
+        [
+          153.0174895,
+          -27.4790707
+        ],
+        [
+          153.0176015,
+          -27.4790149
+        ],
+        [
+          153.0175393,
+          -27.478925
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 93,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0164663,
+          -27.4804268
+        ],
+        [
+          153.0165159,
+          -27.4804004
+        ],
+        [
+          153.0165389,
+          -27.4803881
+        ],
+        [
+          153.0165806,
+          -27.4804497
+        ],
+        [
+          153.0165888,
+          -27.4804618
+        ],
+        [
+          153.0166632,
+          -27.4804221
+        ],
+        [
+          153.0167039,
+          -27.4804822
+        ],
+        [
+          153.0167564,
+          -27.4804541
+        ],
+        [
+          153.0168258,
+          -27.4805564
+        ],
+        [
+          153.0167733,
+          -27.4805844
+        ],
+        [
+          153.0167967,
+          -27.480619
+        ],
+        [
+          153.0167302,
+          -27.4806545
+        ],
+        [
+          153.0166541,
+          -27.4805423
+        ],
+        [
+          153.0166751,
+          -27.4805311
+        ],
+        [
+          153.0166629,
+          -27.4805131
+        ],
+        [
+          153.0165616,
+          -27.4805672
+        ],
+        [
+          153.0164663,
+          -27.4804268
+        ]
+      ]
+    },
+    {
+      "building": "utility",
+      "name": null,
+      "dwelling": false,
+      "metres": 94,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0173277,
+          -27.4788057
+        ],
+        [
+          153.0173475,
+          -27.4788638
+        ],
+        [
+          153.0174068,
+          -27.4788479
+        ],
+        [
+          153.017395,
+          -27.4788135
+        ],
+        [
+          153.017387,
+          -27.4787899
+        ],
+        [
+          153.0173277,
+          -27.4788057
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.017182,
+      "lat": -27.4798415,
+      "metres": 22,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0177934,
+      "lat": -27.4790505,
+      "metres": 99,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0160876,
+      "lat": -27.4799818,
+      "metres": 103,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0176216,
+      "lat": -27.4787748,
+      "metres": 113,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0158448,
+      "lat": -27.4779044,
+      "metres": 230,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0194863,
+      "lat": -27.4791835,
+      "metres": 245,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0196244,
+      "lat": -27.4790883,
+      "metres": 260,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0196669,
+      "lat": -27.479036,
+      "metres": 266,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.016865,
+        "lat": -27.479669,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 12.91
+      },
+      {
+        "lon": 153.016916,
+        "lat": -27.479669,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 14.25
+      },
+      {
+        "lon": 153.016967,
+        "lat": -27.479669,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 13.99
+      },
+      {
+        "lon": 153.017017,
+        "lat": -27.479669,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 12.8
+      },
+      {
+        "lon": 153.017068,
+        "lat": -27.479669,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 13.02
+      },
+      {
+        "lon": 153.017119,
+        "lat": -27.479669,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 13.07
+      },
+      {
+        "lon": 153.017169,
+        "lat": -27.479669,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 13.11
+      },
+      {
+        "lon": 153.01722,
+        "lat": -27.479669,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 12.81
+      },
+      {
+        "lon": 153.017271,
+        "lat": -27.479669,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 11.9
+      },
+      {
+        "lon": 153.017068,
+        "lat": -27.479849,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 14.97
+      },
+      {
+        "lon": 153.017068,
+        "lat": -27.479804,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 14.2
+      },
+      {
+        "lon": 153.017068,
+        "lat": -27.479759,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 13.65
+      },
+      {
+        "lon": 153.017068,
+        "lat": -27.479714,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 13.42
+      },
+      {
+        "lon": 153.017068,
+        "lat": -27.479669,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 13.02
+      },
+      {
+        "lon": 153.017068,
+        "lat": -27.479624,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 12.6
+      },
+      {
+        "lon": 153.017068,
+        "lat": -27.479579,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 12.27
+      },
+      {
+        "lon": 153.017068,
+        "lat": -27.479534,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 11.84
+      },
+      {
+        "lon": 153.017068,
+        "lat": -27.479489,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 11.24
+      }
+    ],
+    "min_elevation_m": 11.2,
+    "max_elevation_m": 15,
+    "mean_grade_pct": 10,
+    "max_grade_pct": 26.8
+  },
+  "waterway": null,
+  "mapped_parking": [],
+  "mapped_ways": [
+    {
+      "highway": "service",
+      "service": "driveway",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 56
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/bcc-trail-1027/chunk1-esri.jpg",
+        "qld": ".cache/imagery/bcc-trail-1027/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_CBD_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-12-07",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "id": "bcc-trail-4198-2",
+  "street": "Yeronga Memorial Park access road",
+  "suburb": "",
+  "line": [
+    [
+      153.02627,
+      -27.51941
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "off-road",
+  "kind": "point",
+  "length_m": 0,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "sports_centre",
+      "name": "Brisbane Bridge Centre Inc.",
+      "dwelling": false,
+      "metres": 48,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0265226,
+          -27.5188605
+        ],
+        [
+          153.0264915,
+          -27.5190289
+        ],
+        [
+          153.0267001,
+          -27.5190592
+        ],
+        [
+          153.0267105,
+          -27.5190028
+        ],
+        [
+          153.0267312,
+          -27.5188908
+        ],
+        [
+          153.0265226,
+          -27.5188605
+        ]
+      ]
+    },
+    {
+      "building": "sports_centre",
+      "name": null,
+      "dwelling": false,
+      "metres": 83,
+      "at_m": 0,
+      "outline": [
+        [
+          153.026994,
+          -27.5189691
+        ],
+        [
+          153.0271499,
+          -27.5189933
+        ],
+        [
+          153.0271415,
+          -27.5190362
+        ],
+        [
+          153.0269856,
+          -27.519012
+        ],
+        [
+          153.026994,
+          -27.5189691
+        ]
+      ]
+    },
+    {
+      "building": "sports_centre",
+      "name": "Souths Rugby Union Club",
+      "dwelling": false,
+      "metres": 84,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0255379,
+          -27.5198187
+        ],
+        [
+          153.0256449,
+          -27.5199294
+        ],
+        [
+          153.0256208,
+          -27.5199477
+        ],
+        [
+          153.0256498,
+          -27.5199777
+        ],
+        [
+          153.0255408,
+          -27.5200605
+        ],
+        [
+          153.0255291,
+          -27.5200484
+        ],
+        [
+          153.0254507,
+          -27.520108
+        ],
+        [
+          153.0254323,
+          -27.5200889
+        ],
+        [
+          153.0253656,
+          -27.5201396
+        ],
+        [
+          153.0253301,
+          -27.5201028
+        ],
+        [
+          153.0253112,
+          -27.5200833
+        ],
+        [
+          153.0253677,
+          -27.5200404
+        ],
+        [
+          153.0253162,
+          -27.5199871
+        ],
+        [
+          153.0253102,
+          -27.5199808
+        ],
+        [
+          153.0255318,
+          -27.5198124
+        ],
+        [
+          153.0255379,
+          -27.5198187
+        ]
+      ]
+    },
+    {
+      "building": "roof",
+      "name": null,
+      "dwelling": false,
+      "metres": 94,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0256435,
+          -27.5200996
+        ],
+        [
+          153.0256743,
+          -27.5200678
+        ],
+        [
+          153.0256859,
+          -27.5200767
+        ],
+        [
+          153.0256552,
+          -27.5201085
+        ],
+        [
+          153.0256435,
+          -27.5200996
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": "yes",
+      "lon": 153.02584,
+      "lat": -27.5193436,
+      "metres": 43,
+      "on_only_access": false
+    },
+    {
+      "barrier": "swing_gate",
+      "locked": "yes",
+      "lon": 153.0251922,
+      "lat": -27.5200113,
+      "metres": 126,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.026067,
+        "lat": -27.51941,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 38.19
+      },
+      {
+        "lon": 153.026118,
+        "lat": -27.51941,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 38.56
+      },
+      {
+        "lon": 153.026169,
+        "lat": -27.51941,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 38.83
+      },
+      {
+        "lon": 153.026219,
+        "lat": -27.51941,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 38.8
+      },
+      {
+        "lon": 153.02627,
+        "lat": -27.51941,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 38.74
+      },
+      {
+        "lon": 153.026321,
+        "lat": -27.51941,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 39.23
+      },
+      {
+        "lon": 153.026371,
+        "lat": -27.51941,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 39.41
+      },
+      {
+        "lon": 153.026422,
+        "lat": -27.51941,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 39.52
+      },
+      {
+        "lon": 153.026473,
+        "lat": -27.51941,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 39.59
+      },
+      {
+        "lon": 153.02627,
+        "lat": -27.51959,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 39.07
+      },
+      {
+        "lon": 153.02627,
+        "lat": -27.519545,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 38.95
+      },
+      {
+        "lon": 153.02627,
+        "lat": -27.5195,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 38.91
+      },
+      {
+        "lon": 153.02627,
+        "lat": -27.519455,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 38.84
+      },
+      {
+        "lon": 153.02627,
+        "lat": -27.51941,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 38.74
+      },
+      {
+        "lon": 153.02627,
+        "lat": -27.519365,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 38.62
+      },
+      {
+        "lon": 153.02627,
+        "lat": -27.51932,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 38.55
+      },
+      {
+        "lon": 153.02627,
+        "lat": -27.519275,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 38.45
+      },
+      {
+        "lon": 153.02627,
+        "lat": -27.51923,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 38.38
+      }
+    ],
+    "min_elevation_m": 38.2,
+    "max_elevation_m": 39.6,
+    "mean_grade_pct": 2.8,
+    "max_grade_pct": 9.8
+  },
+  "waterway": null,
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 23,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 31,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "mapped_ways": [
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": "Frederick Street",
+      "surface": "asphalt",
+      "access": "destination",
+      "metres": 0
+    },
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": "Honour Avenue",
+      "surface": "asphalt",
+      "access": "destination",
+      "metres": 20
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 22
+    },
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 32
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 35
+    },
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 41
+    },
+    {
+      "highway": "service",
+      "service": "driveway",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 41
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": "Honour Avenue",
+      "surface": "asphalt",
+      "access": null,
+      "metres": 43
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/bcc-trail-4198-2/chunk1-esri.jpg",
+        "qld": ".cache/imagery/bcc-trail-4198-2/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

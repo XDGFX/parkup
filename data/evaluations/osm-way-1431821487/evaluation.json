@@ -1,0 +1,68 @@
+{
+  "candidate": "osm-way-1431821487",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Tiny bay behind a large building, houses about 15-25 m away.",
+  "reasons": [
+    "Homes 10-25 m from the east end",
+    "Small bay, tight for a van",
+    "Park and oval on the west side"
+  ],
+  "drivers": {
+    "seclusion": "Large building to the north and an oval to the south-west; red-roofed houses sit south-east, roughly 15-25 m from the best end.",
+    "access_and_room": "Reached by the sealed yard on the east; bay holds about four cars so a van would fill it.",
+    "traffic": "Quiet service yard and residential street beyond.",
+    "convention": "Four cars parked in the bay in the imagery."
+  },
+  "flags": [
+    "Houses within about 25 m on the same side",
+    "Mapped small buildings touch the outline (sheds, non-dwelling)",
+    "DEM grade spiky at the outline edge"
+  ],
+  "sun_shade": "Building shades the north side; open to the afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site",
+    "Whether the bay belongs to the building's users"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 20,
+    "where": "West end of the small bay behind the large building, nearest the oval",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.010898,
+        -27.527748
+      ],
+      [
+        153.010799,
+        -27.527747
+      ],
+      [
+        153.010802,
+        -27.527727
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 9.8,
+    "min_elevation_m": 9.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,229 @@
+{
+  "id": "osm-way-1296769910",
+  "street": "Car park off Meiers Road",
+  "suburb": "",
+  "line": [
+    [
+      153.007436,
+      -27.517479
+    ],
+    [
+      153.007724,
+      -27.517557
+    ],
+    [
+      153.0077,
+      -27.517625
+    ],
+    [
+      153.007412,
+      -27.517547
+    ],
+    [
+      153.007436,
+      -27.517479
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "parking-area",
+  "kind": "outline",
+  "length_m": 75,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.008998,
+      "lat": -27.5185229,
+      "metres": 162,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.007436,
+        "lat": -27.517479,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 7.7
+      },
+      {
+        "lon": 153.007484,
+        "lat": -27.517492,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 7.7
+      },
+      {
+        "lon": 153.007533,
+        "lat": -27.517505,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 7.61
+      },
+      {
+        "lon": 153.007581,
+        "lat": -27.517518,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 7.44
+      },
+      {
+        "lon": 153.00763,
+        "lat": -27.517532,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 7.59
+      },
+      {
+        "lon": 153.007678,
+        "lat": -27.517545,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 7.57
+      },
+      {
+        "lon": 153.007723,
+        "lat": -27.51756,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 6.97
+      },
+      {
+        "lon": 153.007708,
+        "lat": -27.517602,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 7.23
+      },
+      {
+        "lon": 153.007677,
+        "lat": -27.517619,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 7.35
+      },
+      {
+        "lon": 153.007628,
+        "lat": -27.517606,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 7.43
+      },
+      {
+        "lon": 153.00758,
+        "lat": -27.517592,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 7.53
+      },
+      {
+        "lon": 153.007532,
+        "lat": -27.517579,
+        "at_m": 55,
+        "line": 0,
+        "elevation_m": 7.59
+      },
+      {
+        "lon": 153.007483,
+        "lat": -27.517566,
+        "at_m": 60,
+        "line": 0,
+        "elevation_m": 7.68
+      },
+      {
+        "lon": 153.007435,
+        "lat": -27.517553,
+        "at_m": 65,
+        "line": 0,
+        "elevation_m": 7.76
+      },
+      {
+        "lon": 153.00742,
+        "lat": -27.517524,
+        "at_m": 70,
+        "line": 0,
+        "elevation_m": 7.91
+      },
+      {
+        "lon": 153.007435,
+        "lat": -27.517481,
+        "at_m": 75,
+        "line": 0,
+        "elevation_m": 7.7
+      },
+      {
+        "lon": 153.007436,
+        "lat": -27.517479,
+        "at_m": 75.2,
+        "line": 0,
+        "elevation_m": 7.7
+      }
+    ],
+    "min_elevation_m": 7,
+    "max_elevation_m": 7.9,
+    "mean_grade_pct": 2.7,
+    "max_grade_pct": 12
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 88
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 0,
+      "access": null,
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 7,
+      "access": null,
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 9,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 75,
+      "length_m": 75,
+      "images": {
+        "esri": ".cache/imagery/osm-way-1296769910/chunk1-esri.jpg",
+        "qld": ".cache/imagery/osm-way-1296769910/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        91,
+        76
+      ],
+      "image_px": [
+        605,
+        508
+      ]
+    }
+  ]
+}

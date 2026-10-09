@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-2172-1",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Garden maintenance yard by a gazebo on a pedestrian path; not a place to stay.",
+  "reasons": [
+    "Garden service yard with work vehicles",
+    "Pedestrian path only, in public gardens",
+    "Gates and bollards on access"
+  ],
+  "drivers": {
+    "seclusion": "Open lawns and paths of the Botanic Gardens, with a gazebo beside the pin; visitors pass constantly.",
+    "access_and_room": "Wide path leads in, but it is a garden path with mapped bollards 142 m away and gates 163 m away; the small yard holds service vehicles.",
+    "traffic": "Foot and cycle traffic only; little noise at night.",
+    "convention": "Only garden work vehicles seen; no campervans or tyre tracks from visitors."
+  },
+  "flags": [
+    "Low-lying: about 3.5 m, river 279 m away",
+    "Gates and bollards on the garden access roads",
+    "Roof structure 7 m from the pin"
+  ],
+  "sun_shade": "Partly shaded by trees to the north and east; open lawn to the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether vehicles can enter after hours",
+    "Patrols and closing times"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.8,
+    "min_elevation_m": 3.2,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

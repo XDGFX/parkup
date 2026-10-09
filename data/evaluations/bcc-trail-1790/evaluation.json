@@ -1,0 +1,46 @@
+{
+  "candidate": "bcc-trail-1790",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Open bush above a motorway; no track, vehicles or way in.",
+  "reasons": [
+    "No track or tyre marks to the pin",
+    "Motorway verge has no pull-in",
+    "Bush slope, nothing to drive on"
+  ],
+  "drivers": {
+    "seclusion": "Bush with no buildings, though the motorway is about 80 m away.",
+    "access_and_room": "No formed track or vehicle marks; only sandy patches in bush. The motorway edge has a barrier and no stopping room.",
+    "traffic": "Heavy multi-lane motorway to the north-west.",
+    "convention": "No parked vehicles or camping seen."
+  },
+  "flags": [
+    "Steep in places: max grade about 30%, mean 8%",
+    "Noise from the motorway"
+  ],
+  "sun_shade": "Light to medium tree cover; open sandy patches.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether a maintenance track runs through the bush"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 7.9,
+    "min_elevation_m": 56.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

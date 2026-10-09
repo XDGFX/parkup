@@ -1,0 +1,46 @@
+{
+  "candidate": "bcc-trail-1581",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Walking track beside a creek pool; no vehicle access or room.",
+  "reasons": [
+    "Footpath only, no tyre tracks",
+    "Creek pool with walkers beside it",
+    "Low-lying, steep banks"
+  ],
+  "drivers": {
+    "seclusion": "Bush reserve, no buildings, but walkers use the pool and track.",
+    "access_and_room": "Narrow walking track and sandy creek bank; no vehicles seen, no road or car park within 100 m.",
+    "traffic": "None; foot traffic only.",
+    "convention": "No sign of vehicles or camping."
+  },
+  "flags": [
+    "Steep: mean grade 14%, max about 34%",
+    "Low-lying: 93 m, 4 m from East Ithaca Creek, flood-prone"
+  ],
+  "sun_shade": "Tree canopy on all sides; small open patch over the pool.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether management vehicles reach the pool"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 14.3,
+    "min_elevation_m": 93.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

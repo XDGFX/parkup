@@ -1,0 +1,425 @@
+{
+  "id": "osm-node-478425802",
+  "street": "Car park off Gower Street",
+  "suburb": "",
+  "line": [
+    [
+      152.977649,
+      -27.477287
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "parking-area",
+  "kind": "point",
+  "length_m": 0,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": "The Fernhouse",
+      "dwelling": false,
+      "metres": 39,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9778163,
+          -27.476884
+        ],
+        [
+          152.978175,
+          -27.4767734
+        ],
+        [
+          152.9782184,
+          -27.4768841
+        ],
+        [
+          152.9778596,
+          -27.4769947
+        ],
+        [
+          152.9778163,
+          -27.476884
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 65,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9768741,
+          -27.4771771
+        ],
+        [
+          152.9768787,
+          -27.4771921
+        ],
+        [
+          152.9770014,
+          -27.4771626
+        ],
+        [
+          152.9769968,
+          -27.4771476
+        ],
+        [
+          152.9768741,
+          -27.4771771
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": "Tropical Display Dome",
+      "dwelling": false,
+      "metres": 76,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9781799,
+          -27.4765006
+        ],
+        [
+          152.9781944,
+          -27.4765409
+        ],
+        [
+          152.9781934,
+          -27.4765832
+        ],
+        [
+          152.9781769,
+          -27.4766229
+        ],
+        [
+          152.9781469,
+          -27.4766556
+        ],
+        [
+          152.9781066,
+          -27.4766778
+        ],
+        [
+          152.9780603,
+          -27.4766873
+        ],
+        [
+          152.978013,
+          -27.476683
+        ],
+        [
+          152.9779699,
+          -27.4766653
+        ],
+        [
+          152.9779356,
+          -27.4766361
+        ],
+        [
+          152.9779137,
+          -27.4765987
+        ],
+        [
+          152.9779068,
+          -27.476557
+        ],
+        [
+          152.9779155,
+          -27.4765155
+        ],
+        [
+          152.9779388,
+          -27.4764788
+        ],
+        [
+          152.9779744,
+          -27.4764507
+        ],
+        [
+          152.9780184,
+          -27.4764344
+        ],
+        [
+          152.978066,
+          -27.4764317
+        ],
+        [
+          152.978112,
+          -27.4764429
+        ],
+        [
+          152.9781514,
+          -27.4764667
+        ],
+        [
+          152.9781799,
+          -27.4765006
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 77,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9782456,
+          -27.4777269
+        ],
+        [
+          152.9782556,
+          -27.477759
+        ],
+        [
+          152.978264,
+          -27.4777863
+        ],
+        [
+          152.9784241,
+          -27.4777473
+        ],
+        [
+          152.9784057,
+          -27.4776878
+        ],
+        [
+          152.978387,
+          -27.4776923
+        ],
+        [
+          152.9782456,
+          -27.4777269
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9769479,
+      "lat": -27.4782335,
+      "metres": 126,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9775481,
+      "lat": -27.4761333,
+      "metres": 129,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9802917,
+      "lat": -27.4773381,
+      "metres": 261,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9760721,
+      "lat": -27.4751035,
+      "metres": 288,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.977446,
+        "lat": -27.477287,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 28.49
+      },
+      {
+        "lon": 152.977497,
+        "lat": -27.477287,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 28.45
+      },
+      {
+        "lon": 152.977548,
+        "lat": -27.477287,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 28.06
+      },
+      {
+        "lon": 152.977598,
+        "lat": -27.477287,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 28.16
+      },
+      {
+        "lon": 152.977649,
+        "lat": -27.477287,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 27.97
+      },
+      {
+        "lon": 152.9777,
+        "lat": -27.477287,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 27.93
+      },
+      {
+        "lon": 152.97775,
+        "lat": -27.477287,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 27.34
+      },
+      {
+        "lon": 152.977801,
+        "lat": -27.477287,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 27.15
+      },
+      {
+        "lon": 152.977852,
+        "lat": -27.477287,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 27.53
+      },
+      {
+        "lon": 152.977649,
+        "lat": -27.477467,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 27.35
+      },
+      {
+        "lon": 152.977649,
+        "lat": -27.477422,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 27.48
+      },
+      {
+        "lon": 152.977649,
+        "lat": -27.477377,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 28.01
+      },
+      {
+        "lon": 152.977649,
+        "lat": -27.477332,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 28.14
+      },
+      {
+        "lon": 152.977649,
+        "lat": -27.477287,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 27.97
+      },
+      {
+        "lon": 152.977649,
+        "lat": -27.477242,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 28.09
+      },
+      {
+        "lon": 152.977649,
+        "lat": -27.477197,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 28.05
+      },
+      {
+        "lon": 152.977649,
+        "lat": -27.477152,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 27.96
+      },
+      {
+        "lon": 152.977649,
+        "lat": -27.477107,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 28.06
+      }
+    ],
+    "min_elevation_m": 27.2,
+    "max_elevation_m": 28.5,
+    "mean_grade_pct": 4,
+    "max_grade_pct": 11.8
+  },
+  "waterway": {
+    "name": null,
+    "metres": 8
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 0,
+      "access": null,
+      "fee": null,
+      "surface": "asphalt"
+    }
+  ],
+  "mapped_ways": [
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 2
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/osm-node-478425802/chunk1-esri.jpg",
+        "qld": ".cache/imagery/osm-node-478425802/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

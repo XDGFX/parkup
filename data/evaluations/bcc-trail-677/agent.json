@@ -1,0 +1,36 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Small gravel car area by the croquet club, no homes within 75 m.",
+  "reasons": [
+    "Park and club on one side, offices opposite",
+    "Gravel apron meets road edge",
+    "Nearest dwelling about 79 m away"
+  ],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Gravel forecourt beside the West End Croquet Club, just south-west of the ring, off the main road",
+    "slope_pct": 10
+  },
+  "drivers": {
+    "seclusion": "Park grounds behind, club building next to it; only commercial and school buildings nearby, apartments 79 m away.",
+    "access_and_room": "Gravel and dirt forecourt with cars parked in it; open to the road, room for a van.",
+    "traffic": "Busy multi-lane inner-city road beside it; van stands clear of the lane.",
+    "convention": "Cars use the forecourt; no campers seen."
+  },
+  "flags": [
+    "Steep: DEM shows about 10% mean grade at the ring, though the forecourt looks flat",
+    "Inner-city arterial noise",
+    "Club building 14 m away; users may notice a van",
+    "Several mapped gates nearby, none on the only access"
+  ],
+  "sun_shade": "Large tree shades the north-west side; forecourt open to afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Club hours and any signs",
+    "Street lighting",
+    "Whether the forecourt is reserved for members"
+  ],
+  "confidence": "low"
+}

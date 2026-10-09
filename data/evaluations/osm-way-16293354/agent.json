@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Large golf club car park, quiet northern edge under trees, no homes.",
+  "reasons": ["No dwellings in range", "Large car park, many cars parked", "Nearly flat"],
+  "best_section": {
+    "from_m": 55,
+    "to_m": 120,
+    "where": "Northern edge of the Meiers Road golf club car park, under the trees beside the road verge",
+    "slope_pct": 0.8
+  },
+  "drivers": {
+    "seclusion": "Golf club car park between a main road and rail line; nearest mapped building is a non-dwelling 16 m away at the clubhouse end.",
+    "access_and_room": "Sealed entry from the east; open bitumen and dirt strip along the north edge wide enough for a van.",
+    "traffic": "Busy road and railway just north; car park itself is quiet.",
+    "convention": "Dozens of cars parked in the lot in the imagery."
+  },
+  "flags": ["Traffic and rail noise", "Mapped gates 88 m and 142 m away have a way round", "May be club customer parking"],
+  "sun_shade": "Tree cover over the north strip, mostly shading the afternoon from the west and the morning from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Signs on site", "Whether the club locks the car park"],
+  "confidence": "medium"
+}

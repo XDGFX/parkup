@@ -1,0 +1,36 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Large grass and gravel car park in the park; no homes within 100 m.",
+  "reasons": [
+    "Many cars already parked there",
+    "Only non-residential buildings nearby",
+    "Open to road, room for a van"
+  ],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Grass and gravel car park south-east of the ring, between the tree belt and the main road",
+    "slope_pct": 5.8
+  },
+  "drivers": {
+    "seclusion": "Park, croquet club and school and commercial buildings only; nearest dwelling beyond 100 m.",
+    "access_and_room": "Gravel entry from the sealed driveway into a wide grass lot; cars parked in rows, plenty of room.",
+    "traffic": "Beside a busy multi-lane inner-city road; van stands well clear of the lane.",
+    "convention": "About 20 cars parked in it; no campers seen."
+  },
+  "flags": [
+    "Steep: DEM shows about 5.8% mean grade at the ring; the car park looks flat",
+    "Inner-city arterial noise",
+    "Likely daytime lot for school or club users; may be signed or patrolled",
+    "Several mapped gates nearby, none on the only access"
+  ],
+  "sun_shade": "Open to sun, with trees shading the west and north sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs or time limits on the car park",
+    "Street lighting",
+    "Ground firmness of the grass"
+  ],
+  "confidence": "low"
+}

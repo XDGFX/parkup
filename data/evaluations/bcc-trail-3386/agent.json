@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Back-of-house apron at Riverstage venue; work area, gated, no place to stay.",
+  "reasons": ["Riverstage loading apron, 14 m away", "Crew trucks and equipment fill the yard", "Gates and bollards control access"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Screened by trees and mangroves, but it is an active venue yard with crew nearby.",
+    "access_and_room": "Paved venue service road with gates 63 m away; the apron is full of equipment and work vehicles, leaving no clear room.",
+    "traffic": "Event, delivery and crew traffic, plus concert noise.",
+    "convention": "Venue work vehicles only; no campervans or tents seen."
+  },
+  "flags": ["Brisbane Riverstage 14 m away", "Mapped gates 63-66 m away, bollards 123 m", "Low-lying: about 5-7 m, river 200 m away", "Noise from concerts"],
+  "sun_shade": "Palms and trees shade the south and west; stage building to the east; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Event schedule", "Overnight security and gate closing"],
+  "confidence": "high"
+}

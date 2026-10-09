@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-3403",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin sits in dense bush with no track or vehicle access.",
+  "reasons": [
+    "Thick bush, no track or tyre marks",
+    "No mapped parking or ways",
+    "Steep slope down to Cubberla Creek"
+  ],
+  "drivers": {
+    "seclusion": "Bush reserve, but ringed by homes: nearest dwellings 42 to 45 m away and many more within 100 m.",
+    "access_and_room": "No formed track, gravel or tyre tracks reach the pin; only a small grassy patch by the road bend, with no sign vehicles use it.",
+    "traffic": "Collector road bends past the reserve edge; a van there would stand on the verge of a through road.",
+    "convention": "No vehicles or camping seen in the reserve."
+  },
+  "flags": [
+    "Steep: about 8% mean, 23% max at the pin",
+    "Creek 5 m away, flood-prone ground",
+    "Mapped gate 60 m away has a way round it"
+  ],
+  "sun_shade": "Dense tree canopy over the pin; open to the sun only at the road-edge patch.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the road-edge patch is firm enough to stop on",
+    "Foot tracks hidden under the canopy"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 42,
+    "gated": false,
+    "slope_pct": 8.1,
+    "min_elevation_m": 57.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,35 @@
+{
+  "verdict": "maybe",
+  "kind": "parking area",
+  "summary": "Pin is on a steep bush slope; the usable spot is the public car park or kerb nearby.",
+  "reasons": [
+    "Ring is 34% bush slope, no track",
+    "Car park and kerb parking about 80-90 m away",
+    "No houses; busy visitor area"
+  ],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Kerbside parking lane or the sealed car park north-west of the ring, beside the visitor building",
+    "slope_pct": 0
+  },
+  "drivers": {
+    "seclusion": "No dwellings mapped; bush on one side, but a visitor car park with a building and many cars sits at the top.",
+    "access_and_room": "Sealed road and car park, with cars parked along the kerb in the QLD image; room for a van.",
+    "traffic": "Busy visitor road and car park by day; likely quiet at night.",
+    "convention": "Cars park along the kerb and in the car park; no campers seen."
+  },
+  "flags": [
+    "Ring area is extremely steep: about 34% mean grade",
+    "Mapped gate 161 m away, not on the only access",
+    "Likely popular daytime lookout, so rangers or signs possible"
+  ],
+  "sun_shade": "Car park has scattered trees; kerb lane is open to the sun, with bush shading from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Slope of the car park and kerb, as elevation samples cover only the ring",
+    "Night-time closure or signs",
+    "Street lighting"
+  ],
+  "confidence": "low"
+}

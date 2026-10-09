@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Tree-shaded riverside parking bay with no buildings nearby.",
+  "reasons": ["No buildings in range", "Dense trees around the bay", "Open to the car park, level ground"],
+  "best_section": {
+    "from_m": 40,
+    "to_m": 70,
+    "where": "Shaded bay at the end of the riverside car park off Meiers Road, under the big trees",
+    "slope_pct": 1
+  },
+  "drivers": {
+    "seclusion": "Trees on three sides and the river bank beyond; no mapped buildings.",
+    "access_and_room": "Sealed car park connects directly to the bay; a vehicle already sits at the west end and there is room for a van.",
+    "traffic": "One-way riverside access road passes about 20 m north.",
+    "convention": "Public free car park (access yes, fee no) with cars parked."
+  },
+  "flags": ["Low-lying: about 7 m elevation, 88 m from the Brisbane River", "Mapped gate 162 m away has a way round"],
+  "sun_shade": "Heavy tree canopy, shaded most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Signs on site", "Surface condition under the trees"],
+  "confidence": "medium"
+}

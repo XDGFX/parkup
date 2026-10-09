@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is on a bush walking track on a hillside; no vehicle access.",
+  "reasons": ["Single-width track, no tyre marks", "Slope about 13% mean", "No road or car park nearby"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Deep bush, no buildings; fully secluded but unreachable.",
+    "access_and_room": "Only a narrow dirt track on a slope; no vehicles, clearing, mapped way or car park within 100 m.",
+    "traffic": "None; walkers and riders only.",
+    "convention": "No sign of vehicles or camping."
+  },
+  "flags": ["Steep: mean grade 13%, max about 31%", "Mapped lift gate 232 m away, not on only access"],
+  "sun_shade": "Mixed tree cover, thinner along the track.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether the track is a fire trail open to vehicles"],
+  "confidence": "high"
+}

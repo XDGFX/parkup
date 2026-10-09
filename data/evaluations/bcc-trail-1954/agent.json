@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is a riverbank footpath behind the Riverstage; only a service yard nearby.",
+  "reasons": ["Pin on narrow riverside path", "Backstage service yard, gated area", "Low-lying, beside Brisbane River"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Riverstage venue 25 m away and a busy production yard of trailers and containers; in view of staff and events.",
+    "access_and_room": "Pin sits on a narrow path between mangroves and the yard; the nearby yard is an operational compound reached through mapped gates, with no clear public pull-off.",
+    "traffic": "Expressway across the river to the south-west; service roads from the gardens to the north-west.",
+    "convention": "Venue back-of-house; no sign of people staying overnight."
+  },
+  "flags": ["Low-lying: about 4 m elevation beside the Brisbane River, flood-prone", "Gates and bollards mapped 80 m and more away", "Event noise from the Riverstage"],
+  "sun_shade": "Palms and mangroves shade the path; the yard is partly open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Gate status at night", "Street lighting", "Event schedule"],
+  "confidence": "medium"
+}

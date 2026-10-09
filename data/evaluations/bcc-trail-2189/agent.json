@@ -1,0 +1,23 @@
+{
+  "verdict": "maybe",
+  "kind": "parking area",
+  "summary": "Small bush car park off a main road; mapped gate on its only access.",
+  "reasons": ["Secluded bush car park, homes 96 m off", "Mapped gate on the only access", "Cars parked inside in both images"],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Small gravel car park about 30 m south of the pin, entered from the main road to the south",
+    "slope_pct": 3
+  },
+  "drivers": {
+    "seclusion": "Bush on all sides; nearest house 96 m away across the side road, behind trees.",
+    "access_and_room": "Driveway from the main road to a sealed bay holding several cars; room for a van off the lane. A mapped gate on the driveway, about 66 m from the pin, is on the only access.",
+    "traffic": "Busy road at the entrance, but the car park sits about 40 m back in the bush.",
+    "convention": "Four to five cars parked in both images, likely a trailhead; overnight use unknown."
+  },
+  "flags": ["Mapped gate (locked not tagged) on the only access, not seen closed in imagery; may shut at night", "Locked mapped gate 19 m from pin on a side track, not on the only access", "Noise from the main road to the south"],
+  "sun_shade": "Heavy tree cover over and around the car park; open sky only over the bays.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether the gate is locked overnight", "Car park surface and slope (DEM samples are at the pin, not the car park)", "Signed hours of use"],
+  "confidence": "low"
+}

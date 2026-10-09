@@ -1,0 +1,68 @@
+{
+  "candidate": "54626133-3593813933-1296753661-r-0",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Boat-ramp car park with marked bays, parked cars and trailers, no homes near.",
+  "reasons": [
+    "Marked bays with cars parked",
+    "No dwellings mapped or seen nearby",
+    "Flat, about 1.5% grade"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto grass, trees and the river access road; only mapped building is a non-residential shed 9 m away at 104 m. No houses in view.",
+    "access_and_room": "Wide sealed car park with marked bays and a sealed loop; room for a van beside the cars already there.",
+    "traffic": "Quiet reserve road serving the ramp; van stands clear of the through lane.",
+    "convention": "Cars, boat trailers and a boat are parked here in the imagery."
+  },
+  "flags": [
+    "Boat-ramp traffic and early starts possible",
+    "Low-lying: 7.3 to 8.4 m, Brisbane River 86 m away",
+    "Mapped gate 161 m away has a way round it"
+  ],
+  "sun_shade": "Mostly open; large trees to the east give morning shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Street lighting",
+    "Whether the car park is locked at night"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 65,
+    "where": "North-side parking bays in the wide boat-ramp car park, Meiers Road",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        153.007435,
+        -27.517539
+      ],
+      [
+        153.007249,
+        -27.51749
+      ],
+      [
+        153.007093,
+        -27.517456
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 7.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

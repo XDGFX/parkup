@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Sealed club car park beside ovals, no homes within 90 m.",
+  "reasons": ["Backs onto park and ovals", "Open sealed car park, easy access", "Nearest dwelling about 90 m"],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "West edge of the sealed car park beside the sports club, next to the park",
+    "slope_pct": 1.4
+  },
+  "drivers": {
+    "seclusion": "Faces open park to the north and west; only a club building and a church hall within 50 m.",
+    "access_and_room": "Sealed car park off the road with marked bays and room for a van; no gate seen.",
+    "traffic": "Moderate road passes 20-30 m south-west; railway further west.",
+    "convention": "Club car park with daytime cars; no sign of overnight stays."
+  },
+  "flags": ["Rail noise from line about 150 m west", "Likely busy at club events", "Steep spots: max 5.4% grade locally, mean 1.4%"],
+  "sun_shade": "Mostly open sun; trees shade the north edge and tree shadows fall from the north-west.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Club hours or event days", "Street lighting", "On-site signs"],
+  "confidence": "medium"
+}

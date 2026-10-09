@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is in dense bush behind houses; no track or clearing.",
+  "reasons": ["No track or tyre marks to pin", "Houses 59 m south, driveway nearby", "Dense canopy, nowhere to stop"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Bush buffer, nearest mapped houses 59 m south; more homes and a private drive to the east.",
+    "access_and_room": "No formed track, clearing or vehicles seen within 100 m; the only road is residential, beyond the houses.",
+    "traffic": "Quiet residential street beyond the houses.",
+    "convention": "No sign of parked vans or camping."
+  },
+  "flags": ["Slope up to 23% max, mean 7%", "Private driveway and homes close to the east"],
+  "sun_shade": "Full tree canopy over the pin.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether a walking track runs under the canopy"],
+  "confidence": "high"
+}

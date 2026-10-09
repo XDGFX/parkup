@@ -1,0 +1,35 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Gravel car park beside the pool and tennis courts; no homes near.",
+  "reasons": [
+    "Park, pool and courts all round",
+    "Gravel lot with cars parked in it",
+    "No dwellings mapped within 100 m"
+  ],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Gravel car park south-east of the ring, between the swimming pool and the tennis centre clubhouse",
+    "slope_pct": 10
+  },
+  "drivers": {
+    "seclusion": "Nearest buildings are the pool, courts, halls and clubs; only non-residential buildings mapped.",
+    "access_and_room": "Gravel and dirt surface with cars parked on it, reached by a sealed driveway; room for a van.",
+    "traffic": "Inside the park, off the main roads; quiet at night.",
+    "convention": "Cars use it by day; no campers seen."
+  },
+  "flags": [
+    "Steep: DEM shows about 10% mean grade at the ring, which sits on a path; the car park looks flat",
+    "Mapped gate 22 m away, not on the only access",
+    "Park and pool users and staff may notice a van"
+  ],
+  "sun_shade": "Trees shade the west and east edges; open to midday sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the car park is for pool or tennis users only",
+    "Park curfew and signs",
+    "Street lighting"
+  ],
+  "confidence": "low"
+}

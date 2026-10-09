@@ -1,0 +1,31 @@
+{
+  "verdict": "poor",
+  "kind": "parking area",
+  "summary": "Mapped car park is hidden in rainforest garden; no vehicles or bays visible.",
+  "reasons": [
+    "Pin on a narrow garden path",
+    "No vehicles, bays or tyre tracks seen",
+    "Inside Botanic Gardens, likely closed overnight"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Dense rainforest and display buildings only; no homes within 100 m, but a staffed public garden.",
+    "access_and_room": "A narrow red-surfaced path runs through the pin under heavy canopy; no bays or pull-off a van could fit. The sealed loop 80 m south-east looks like a service turnaround.",
+    "traffic": "Motorway 100 m south; quiet at the pin.",
+    "convention": "No campervans or parked vehicles seen."
+  },
+  "flags": [
+    "Steep: 4% mean grade, 12% max",
+    "Mapped asphalt car park at the ring is not visible under the canopy",
+    "Noise from the motorway to the south",
+    "Garden likely gated or patrolled after hours"
+  ],
+  "sun_shade": "Full rainforest canopy; shaded all day from every side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the mapped car park really exists under the trees",
+    "Garden opening hours and gates",
+    "Signs on site"
+  ],
+  "confidence": "low"
+}

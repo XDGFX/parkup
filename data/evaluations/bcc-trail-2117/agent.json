@@ -1,0 +1,29 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is in dense creek-gully bush; no track or room for a van.",
+  "reasons": [
+    "Thick bush, no track or tyre marks",
+    "Very steep gully ground",
+    "Houses ring the bush within 50 m"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Secluded bush strip, but houses sit 48 m and closer all round on both sides.",
+    "access_and_room": "No formed track, clearing or vehicles; the nearest road ends are cul-de-sacs among private homes.",
+    "traffic": "Quiet residential streets beyond the bush.",
+    "convention": "No campervans or overnight use seen."
+  },
+  "flags": [
+    "Steep: about 12% mean grade, 38% max",
+    "Low-lying creek gully, Little Gubberly Creek 18 m away",
+    "Mapped gate 13 m away, not on only access"
+  ],
+  "sun_shade": "Full tree canopy; shaded from all sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Parking rules on nearby cul-de-sacs"
+  ],
+  "confidence": "high"
+}

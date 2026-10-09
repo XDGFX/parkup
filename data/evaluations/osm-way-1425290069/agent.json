@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Industrial estate car park, no homes, nearly flat, full of staff cars.",
+  "reasons": ["Only industrial buildings around", "No dwellings in range", "Level sealed surface"],
+  "best_section": {
+    "from_m": 55,
+    "to_m": 90,
+    "where": "North edge of the factory car park off Meiers Road, in front of the yard",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Surrounded by factories and warehouses; nearest mapped building is non-residential.",
+    "access_and_room": "Open sealed lot with a clear strip along the north edge; avoid blocking the yard and truck access.",
+    "traffic": "Delivery trucks and staff movement likely by day; probably quiet at night.",
+    "convention": "Lot is full of parked cars; one mapped bay is permit-only."
+  },
+  "flags": ["Part of the lot is permit access", "Possible truck movements and industrial noise", "Locked gate 24 m away has a way round"],
+  "sun_shade": "Open sealed lot; buildings shade the western edge in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Signs on site", "Night-time security or patrols"],
+  "confidence": "low"
+}

@@ -1,0 +1,29 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is on a riverside footpath and lawn; no vehicle way in.",
+  "reasons": [
+    "Pedestrian path and memorial lawn only",
+    "No tyre tracks or vehicles seen",
+    "Busy Southbank road has no kerb parking"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Open riverside park beside the maritime museum and busy Southbank apartments; very public.",
+    "access_and_room": "Sealed footpath and grass only; no vehicle route reaches the pin. Museum yard looks private.",
+    "traffic": "Arterial and cycleway 50 m south; river to the north.",
+    "convention": "No campervans or overnight use seen."
+  },
+  "flags": [
+    "Low-lying: about 5 m, Brisbane River 127 m away on the mapped line",
+    "Noise from arterial road and Southbank",
+    "Apartments 62 m or more away"
+  ],
+  "sun_shade": "Open lawn with a few small trees; full sun most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Street lighting"
+  ],
+  "confidence": "high"
+}

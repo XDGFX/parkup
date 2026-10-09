@@ -1,0 +1,46 @@
+{
+  "candidate": "bcc-trail-1093",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is in dense bush beside a water reservoir; no usable vehicle spot.",
+  "reasons": [
+    "Pin in bush, no tracks or clearing",
+    "Only hard standing is the reservoir's",
+    "Steep ground around the pin"
+  ],
+  "drivers": {
+    "seclusion": "Secluded forest; the only building is the reservoir 61 m east, non-residential.",
+    "access_and_room": "The service road ends at the reservoir apron behind a lift gate 67 m away; that is a utility site. No vehicle tracks reach the pin through the trees.",
+    "traffic": "None.",
+    "convention": "No parked vehicles or campers seen."
+  },
+  "flags": [
+    "Steep: mean grade 11.6%, max 46.2%",
+    "Reservoir apron is a utility access, behind a mapped lift gate"
+  ],
+  "sun_shade": "Dense canopy all round the pin.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the reservoir road is open to the public"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 11.6,
+    "min_elevation_m": 120.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

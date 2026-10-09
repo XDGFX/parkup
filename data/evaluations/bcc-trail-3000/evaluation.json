@@ -1,0 +1,50 @@
+{
+  "candidate": "bcc-trail-3000",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 2 m from the best section"
+  ],
+  "kind": "off-road site",
+  "summary": "Pin sits in a back garden; nowhere to stop except among houses.",
+  "reasons": [
+    "Pin lands on private house lot",
+    "Houses within 6 m",
+    "Riverside path is sealed cycleway only"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by dwellings: two within 6 m, a dozen more within 50 m.",
+    "access_and_room": "No track, clearing or car park near the pin; the creek path is a narrow sealed cycleway with no vehicles.",
+    "traffic": "Quiet residential street 35 m west.",
+    "convention": "No campervans, tents or parked vans seen."
+  },
+  "flags": [
+    "Steep: 4.6% mean grade, 19% max at the pin",
+    "Low-lying: about 9 m, Jindalee Creek 72 m away",
+    "Pin is approximate; lot looks private"
+  ],
+  "sun_shade": "Open to sun; tall bush shades the east side along the creek.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street parking rules on the adjacent cul-de-sac",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 2,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 8.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

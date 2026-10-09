@@ -1,0 +1,34 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Grassy clearing beside a sealed bush road, no buildings anywhere near.",
+  "reasons": [
+    "Surrounded by bush, no buildings mapped",
+    "Open clearing set off the sealed road",
+    "Ring itself is steep thick bush"
+  ],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Pale grassy clearing on the inside of the road bend, about 50 m south-west of the ring",
+    "slope_pct": 11.5
+  },
+  "drivers": {
+    "seclusion": "Eucalypt bush all round; no buildings in the 100 m shown.",
+    "access_and_room": "Clearing about 30 m across meets the sealed road edge; room for a van fully off the lane.",
+    "traffic": "Narrow bush road, probably little traffic.",
+    "convention": "No vans, tents or tyre tracks seen in the clearing."
+  },
+  "flags": [
+    "Steep: ring area averages 11.5% grade, clearing probably flatter",
+    "Road may be closed or restricted at night; unknown"
+  ],
+  "sun_shade": "Open to sun in the clearing; trees shade the road edge on the north-east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the road is gated or open to the public",
+    "Actual slope of the clearing",
+    "Ground firmness"
+  ],
+  "confidence": "low"
+}

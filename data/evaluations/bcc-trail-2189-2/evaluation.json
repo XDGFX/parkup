@@ -1,0 +1,60 @@
+{
+  "candidate": "bcc-trail-2189-2",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Sandy bush-edge verge on Fleming Road; homes about 25 m across the road.",
+  "reasons": [
+    "Backs onto dense bush",
+    "Homes about 25 m across road",
+    "Small sandy verge, no tracks seen"
+  ],
+  "drivers": {
+    "seclusion": "Bush behind; nearest mapped houses 41 m from the ring, about 25 m from the verge across the road.",
+    "access_and_room": "Bare sandy patch meets the road edge; small, no vehicles or tyre tracks visible.",
+    "traffic": "Through road with cars parked further north on the kerb; light residential traffic.",
+    "convention": "No campers or vans seen; a mapped car park lies 18 m away."
+  },
+  "flags": [
+    "Steep: about 4.5% mean grade around the ring",
+    "Powerline runs along the bush edge",
+    "Ring itself sits in thick bush, not drivable"
+  ],
+  "sun_shade": "Tree canopy over most of it; shaded from the east by bush, open to the west over the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the sandy patch is firm enough for a van",
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Sandy bare patch on the bush side of Fleming Road, just south of the side-street junction, west of the ring",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.944471,
+        -27.490561
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 41,
+    "gated": false,
+    "slope_pct": 4.5,
+    "min_elevation_m": 60.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

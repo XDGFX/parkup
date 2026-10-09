@@ -1,0 +1,60 @@
+{
+  "candidate": "bcc-trail-3973",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Wooded park lane by the tennis courts; cars park here, no homes nearby.",
+  "reasons": [
+    "No dwellings within 100 m",
+    "Cars already parked along the lane",
+    "Backs onto trees and open park"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by trees, courts and playing fields; only non-residential buildings within 100 m.",
+    "access_and_room": "Asphalt lane open from the west with cars parked at its edge; dirt verge and a small widening at the pin.",
+    "traffic": "Low-traffic park lane; courts and paths are nearby.",
+    "convention": "Several cars parked along the lane in both images; no campervans seen."
+  },
+  "flags": [
+    "Slope about 3% mean, 9% max locally",
+    "Mapped bollard 27 m east, not on only access",
+    "Tennis courts and park users may bring daytime noise"
+  ],
+  "sun_shade": "Heavy tree cover; shaded most of the day, especially from the east and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Park closing hours or signs on site",
+    "Street lighting",
+    "Crossfall and exact lane width"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Honour Avenue lane just south of the tennis courts, at the pin, among the trees",
+    "slope_pct": 2.8,
+    "points": [
+      [
+        153.022639,
+        -27.518591
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.8,
+    "min_elevation_m": 29,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

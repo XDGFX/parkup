@@ -1,0 +1,625 @@
+{
+  "id": "bcc-trail-2604",
+  "street": "Moorlands Park access road",
+  "suburb": "",
+  "line": [
+    [
+      152.996681,
+      -27.478934
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "off-road",
+  "kind": "point",
+  "length_m": 0,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "stadium",
+      "name": "NAB Stadium",
+      "dwelling": false,
+      "metres": 74,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9958114,
+          -27.4792404
+        ],
+        [
+          152.9959325,
+          -27.4789561
+        ],
+        [
+          152.9957367,
+          -27.4788905
+        ],
+        [
+          152.9956157,
+          -27.4791748
+        ],
+        [
+          152.9958114,
+          -27.4792404
+        ]
+      ]
+    },
+    {
+      "building": "stadium",
+      "name": "NAB Stadium",
+      "dwelling": false,
+      "metres": 74,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9958506,
+          -27.478645
+        ],
+        [
+          152.9960473,
+          -27.4785814
+        ],
+        [
+          152.9959296,
+          -27.4782948
+        ],
+        [
+          152.9957328,
+          -27.4783585
+        ],
+        [
+          152.9957721,
+          -27.4784541
+        ],
+        [
+          152.9958506,
+          -27.478645
+        ]
+      ]
+    },
+    {
+      "building": "stadium",
+      "name": "NAB Stadium",
+      "dwelling": false,
+      "metres": 75,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9959275,
+          -27.4788288
+        ],
+        [
+          152.9958506,
+          -27.478645
+        ],
+        [
+          152.9957721,
+          -27.4784541
+        ],
+        [
+          152.9954521,
+          -27.4785578
+        ],
+        [
+          152.9956066,
+          -27.4789329
+        ],
+        [
+          152.9957367,
+          -27.4788905
+        ],
+        [
+          152.9959275,
+          -27.4788288
+        ]
+      ]
+    },
+    {
+      "building": "garage",
+      "name": "Public car park",
+      "dwelling": false,
+      "metres": 94,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9969198,
+          -27.4769672
+        ],
+        [
+          152.9969643,
+          -27.4769771
+        ],
+        [
+          152.9970122,
+          -27.4769878
+        ],
+        [
+          152.9971074,
+          -27.477009
+        ],
+        [
+          152.9969592,
+          -27.4775319
+        ],
+        [
+          152.9969465,
+          -27.4775766
+        ],
+        [
+          152.9973274,
+          -27.4776616
+        ],
+        [
+          152.9973128,
+          -27.477713
+        ],
+        [
+          152.9973678,
+          -27.4777252
+        ],
+        [
+          152.9973047,
+          -27.4779478
+        ],
+        [
+          152.9972875,
+          -27.477944
+        ],
+        [
+          152.9972771,
+          -27.4779808
+        ],
+        [
+          152.9968327,
+          -27.4778816
+        ],
+        [
+          152.9967898,
+          -27.478033
+        ],
+        [
+          152.9966742,
+          -27.478087
+        ],
+        [
+          152.9966067,
+          -27.4780719
+        ],
+        [
+          152.9969198,
+          -27.4769672
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 97,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9961413,
+          -27.4801613
+        ],
+        [
+          152.996131,
+          -27.480195
+        ],
+        [
+          152.9961129,
+          -27.4801907
+        ],
+        [
+          152.9960947,
+          -27.4802507
+        ],
+        [
+          152.996076,
+          -27.4802462
+        ],
+        [
+          152.9960714,
+          -27.4802615
+        ],
+        [
+          152.9959701,
+          -27.4802373
+        ],
+        [
+          152.9959811,
+          -27.4802011
+        ],
+        [
+          152.9959945,
+          -27.4802042
+        ],
+        [
+          152.9960036,
+          -27.4801742
+        ],
+        [
+          152.9960141,
+          -27.4801634
+        ],
+        [
+          152.9960224,
+          -27.4799018
+        ],
+        [
+          152.9960445,
+          -27.4797656
+        ],
+        [
+          152.9960665,
+          -27.4797662
+        ],
+        [
+          152.9961041,
+          -27.4796593
+        ],
+        [
+          152.9962033,
+          -27.4796926
+        ],
+        [
+          152.9961684,
+          -27.4797687
+        ],
+        [
+          152.9962037,
+          -27.4797696
+        ],
+        [
+          152.9961888,
+          -27.4798866
+        ],
+        [
+          152.9962103,
+          -27.4799211
+        ],
+        [
+          152.9962143,
+          -27.4799866
+        ],
+        [
+          152.9961996,
+          -27.4800092
+        ],
+        [
+          152.9961936,
+          -27.4800936
+        ],
+        [
+          152.9961413,
+          -27.4801613
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 152.9966904,
+      "lat": -27.4783437,
+      "metres": 66,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 152.9966412,
+      "lat": -27.4782091,
+      "metres": 81,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9966067,
+      "lat": -27.478109,
+      "metres": 92,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 152.997925,
+      "lat": -27.4798252,
+      "metres": 158,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 152.9973741,
+      "lat": -27.4772705,
+      "metres": 197,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9972299,
+      "lat": -27.4807819,
+      "metres": 212,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9972556,
+      "lat": -27.4808049,
+      "metres": 216,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9990203,
+      "lat": -27.4781997,
+      "metres": 245,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9972747,
+      "lat": -27.481145,
+      "metres": 253,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.996478,
+        "lat": -27.478934,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 2.58
+      },
+      {
+        "lon": 152.996529,
+        "lat": -27.478934,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 2.53
+      },
+      {
+        "lon": 152.99658,
+        "lat": -27.478934,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 2.75
+      },
+      {
+        "lon": 152.99663,
+        "lat": -27.478934,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 2.93
+      },
+      {
+        "lon": 152.996681,
+        "lat": -27.478934,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 2.99
+      },
+      {
+        "lon": 152.996732,
+        "lat": -27.478934,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 3.03
+      },
+      {
+        "lon": 152.996782,
+        "lat": -27.478934,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 3
+      },
+      {
+        "lon": 152.996833,
+        "lat": -27.478934,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 3.1
+      },
+      {
+        "lon": 152.996884,
+        "lat": -27.478934,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 3.14
+      },
+      {
+        "lon": 152.996681,
+        "lat": -27.479114,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 2.82
+      },
+      {
+        "lon": 152.996681,
+        "lat": -27.479069,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 2.89
+      },
+      {
+        "lon": 152.996681,
+        "lat": -27.479024,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 2.97
+      },
+      {
+        "lon": 152.996681,
+        "lat": -27.478979,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 2.99
+      },
+      {
+        "lon": 152.996681,
+        "lat": -27.478934,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 2.99
+      },
+      {
+        "lon": 152.996681,
+        "lat": -27.478889,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 2.93
+      },
+      {
+        "lon": 152.996681,
+        "lat": -27.478844,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 2.85
+      },
+      {
+        "lon": 152.996681,
+        "lat": -27.478799,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 2.78
+      },
+      {
+        "lon": 152.996681,
+        "lat": -27.478754,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 2.72
+      }
+    ],
+    "min_elevation_m": 2.5,
+    "max_elevation_m": 3.1,
+    "mean_grade_pct": 1.5,
+    "max_grade_pct": 4.4
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 306
+  },
+  "mapped_parking": [
+    {
+      "name": "Staff car park",
+      "metres": 16,
+      "access": "permit",
+      "fee": "yes",
+      "surface": null
+    },
+    {
+      "name": "Public car park",
+      "metres": 94,
+      "access": "customers",
+      "fee": "yes",
+      "surface": null
+    }
+  ],
+  "mapped_ways": [
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 24
+    },
+    {
+      "highway": "service",
+      "service": "driveway",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 27
+    },
+    {
+      "highway": "service",
+      "service": "driveway",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 35
+    },
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 37
+    },
+    {
+      "highway": "service",
+      "service": "driveway",
+      "name": null,
+      "surface": "asphalt",
+      "access": "private",
+      "metres": 48
+    },
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 50
+    },
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 53
+    },
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 58
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/bcc-trail-2604/chunk1-esri.jpg",
+        "qld": ".cache/imagery/bcc-trail-2604/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_CBD_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-12-07",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

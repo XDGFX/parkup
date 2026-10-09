@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Bush-fringed summit overflow car park, only restaurants nearby, no homes.",
+  "reasons": ["Bush around, no dwellings", "Connected to main summit car park", "Nearest building is a restaurant"],
+  "best_section": {
+    "from_m": 25,
+    "to_m": 45,
+    "where": "Southern edge of the upper car park, above the main summit lot",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Trees on three sides; nearest buildings are the Summit restaurant and cafe, 20 m or more away.",
+    "access_and_room": "Joins the main summit car park and the loop road; cars already parked there, room for a van.",
+    "traffic": "Summit road loops around the north and east edges; van stands clear of the lane.",
+    "convention": "Tourist car park with day visitors; no sign of overnight stays."
+  },
+  "flags": ["Busy tourist area by day", "Steep elsewhere: edge grades up to 50% at the bank", "Restaurant activity and evening visitors likely"],
+  "sun_shade": "Patchy tree shade across the lot, mostly from the north and east; open to western sun.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Closing times or rangers patrols", "Street lighting", "On-site signs"],
+  "confidence": "medium"
+}

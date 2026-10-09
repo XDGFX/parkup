@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Garden maintenance yard by a gazebo on a pedestrian path; not a place to stay.",
+  "reasons": ["Garden service yard with work vehicles", "Pedestrian path only, in public gardens", "Gates and bollards on access"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Open lawns and paths of the Botanic Gardens, with a gazebo beside the pin; visitors pass constantly.",
+    "access_and_room": "Wide path leads in, but it is a garden path with mapped bollards 134 m away and gates 156 m away; the small yard holds service vehicles.",
+    "traffic": "Foot and cycle traffic only; little noise at night.",
+    "convention": "Only garden work vehicles seen; no campervans or tyre tracks from visitors."
+  },
+  "flags": ["Low-lying: about 4 m, river 277 m away", "Gates and bollards on the garden access roads", "Roof structure 9 m from the pin"],
+  "sun_shade": "Partly shaded by trees to the east and north; open lawn to the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether vehicles can enter after hours", "Patrols and closing times"],
+  "confidence": "medium"
+}

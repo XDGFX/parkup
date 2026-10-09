@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Sealed park car park with cars already parked, no homes nearby.",
+  "reasons": ["Backs onto park and bush", "No buildings mapped nearby", "Cars already parked overnight-style"],
+  "best_section": {
+    "from_m": 65,
+    "to_m": 100,
+    "where": "West edge of the car park beside the grassy park, below the end of the entry road",
+    "slope_pct": 3
+  },
+  "drivers": {
+    "seclusion": "Open park to the west, dense trees to the east; no OSM buildings in range.",
+    "access_and_room": "Sealed road enters at the north end; the lot is wide enough for a van beside the two parked cars.",
+    "traffic": "Dead-end park access road; little through traffic.",
+    "convention": "Two cars parked in the lot in the imagery."
+  },
+  "flags": ["Slope about 3% along the west edge", "Mapped gate 198 m away has a way round"],
+  "sun_shade": "Open to the west and morning sun partly blocked by trees on the east; southern end shaded.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Signs on site", "Whether the park closes at night"],
+  "confidence": "medium"
+}

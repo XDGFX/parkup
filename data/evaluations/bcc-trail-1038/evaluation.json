@@ -1,0 +1,60 @@
+{
+  "candidate": "bcc-trail-1038",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Gravel pull-off beside the bush road, with cars parked, backing onto forest.",
+  "reasons": [
+    "Gravel pull-off with parked cars",
+    "Bush behind, no dwellings nearby",
+    "Clear of the traffic lane"
+  ],
+  "drivers": {
+    "seclusion": "Forest behind and around it; no buildings in the data or imagery.",
+    "access_and_room": "Wide gravel apron meets the road edge; several cars sit on it in the QLD image, so a van fits.",
+    "traffic": "Bends in a through road to the lookout; passing cars, but the van stands clear of the lane.",
+    "convention": "Four or five cars parked there in QLD imagery, so stopping is normal."
+  },
+  "flags": [
+    "Pin itself is steep bush (mean 12%); the pull-off is a few metres off the pin and gentler, but the DEM samples don't cover it",
+    "Lift gate 92 m away has a mapped way round it",
+    "Road noise and passing traffic"
+  ],
+  "sun_shade": "Part shaded by trees from the north-west and east; open gravel to the road side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact slope of the pull-off",
+    "Whether parking is restricted at night",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Gravel pull-off on the north-west side of the road bend, about 30 m south-west of the pin",
+    "slope_pct": 4,
+    "points": [
+      [
+        152.964576,
+        -27.479137
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 12,
+    "min_elevation_m": 154.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

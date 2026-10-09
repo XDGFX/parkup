@@ -1,0 +1,303 @@
+{
+  "id": "bcc-trail-1905",
+  "street": "Cubberla Creek Reserve access road",
+  "suburb": "",
+  "line": [
+    [
+      152.952818,
+      -27.514455
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "off-road",
+  "kind": "point",
+  "length_m": 0,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": "Kenmore Districts Rugby Clubhouse",
+      "dwelling": false,
+      "metres": 5,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9525117,
+          -27.5144588
+        ],
+        [
+          152.9524848,
+          -27.5146498
+        ],
+        [
+          152.9526224,
+          -27.514665
+        ],
+        [
+          152.9526245,
+          -27.5146496
+        ],
+        [
+          152.9527539,
+          -27.514664
+        ],
+        [
+          152.9527787,
+          -27.5144884
+        ],
+        [
+          152.9525117,
+          -27.5144588
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": "University of Queensland Football Club (UQFC)",
+      "dwelling": false,
+      "metres": 47,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9532817,
+          -27.5145318
+        ],
+        [
+          152.953473,
+          -27.5146904
+        ],
+        [
+          152.9535462,
+          -27.514621
+        ],
+        [
+          152.953355,
+          -27.5144623
+        ],
+        [
+          152.9532817,
+          -27.5145318
+        ]
+      ]
+    },
+    {
+      "building": "shed",
+      "name": null,
+      "dwelling": false,
+      "metres": 53,
+      "at_m": 0,
+      "outline": [
+        [
+          152.952189,
+          -27.5144768
+        ],
+        [
+          152.9521815,
+          -27.5145333
+        ],
+        [
+          152.9522726,
+          -27.5145428
+        ],
+        [
+          152.9522801,
+          -27.5144862
+        ],
+        [
+          152.952189,
+          -27.5144768
+        ]
+      ]
+    }
+  ],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.952615,
+        "lat": -27.514455,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 13.74
+      },
+      {
+        "lon": 152.952666,
+        "lat": -27.514455,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 14.52
+      },
+      {
+        "lon": 152.952717,
+        "lat": -27.514455,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 14.52
+      },
+      {
+        "lon": 152.952767,
+        "lat": -27.514455,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 15.67
+      },
+      {
+        "lon": 152.952818,
+        "lat": -27.514455,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 15.56
+      },
+      {
+        "lon": 152.952869,
+        "lat": -27.514455,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 15.72
+      },
+      {
+        "lon": 152.952919,
+        "lat": -27.514455,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 15.73
+      },
+      {
+        "lon": 152.95297,
+        "lat": -27.514455,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 15.68
+      },
+      {
+        "lon": 152.953021,
+        "lat": -27.514455,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 15.34
+      },
+      {
+        "lon": 152.952818,
+        "lat": -27.514635,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 11.79
+      },
+      {
+        "lon": 152.952818,
+        "lat": -27.51459,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 12.42
+      },
+      {
+        "lon": 152.952818,
+        "lat": -27.514545,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 13.34
+      },
+      {
+        "lon": 152.952818,
+        "lat": -27.5145,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 14.42
+      },
+      {
+        "lon": 152.952818,
+        "lat": -27.514455,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 15.56
+      },
+      {
+        "lon": 152.952818,
+        "lat": -27.51441,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 16.76
+      },
+      {
+        "lon": 152.952818,
+        "lat": -27.514365,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 17.62
+      },
+      {
+        "lon": 152.952818,
+        "lat": -27.51432,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 18.35
+      },
+      {
+        "lon": 152.952818,
+        "lat": -27.514275,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 19.49
+      }
+    ],
+    "min_elevation_m": 11.8,
+    "max_elevation_m": 19.5,
+    "mean_grade_pct": 12.9,
+    "max_grade_pct": 24
+  },
+  "waterway": {
+    "name": "Cubberla Creek",
+    "metres": 162
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 15,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "mapped_ways": [
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 29
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/bcc-trail-1905/chunk1-esri.jpg",
+        "qld": ".cache/imagery/bcc-trail-1905/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

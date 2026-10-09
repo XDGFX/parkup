@@ -1,0 +1,60 @@
+{
+  "candidate": "bcc-trail-2605",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential cul-de-sac head below the bush; homes close all round.",
+  "reasons": [
+    "Ring itself is steep thick bush",
+    "Cul-de-sac head has cars parked",
+    "Homes within about 20 m all round"
+  ],
+  "drivers": {
+    "seclusion": "Bush to the north, but houses close on the west, east and south sides; nearest mapped house 40 m from ring.",
+    "access_and_room": "Sealed street reaches it; bush edge has no visible track, so a van would stay on the kerb.",
+    "traffic": "Quiet dead-end street, local traffic only.",
+    "convention": "Residents park along the street, but no camping seen."
+  },
+  "flags": [
+    "Steep: about 12% mean grade around the ring",
+    "Ring sits in bush with no track or tyre marks",
+    "Homes within about 25 m of the cul-de-sac head"
+  ],
+  "sun_shade": "Bush canopy shades the north side; open sky over the sealed street.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height and crossfall",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Head of the cul-de-sac about 45 m south of the ring, beside the bush edge",
+    "slope_pct": 12.2,
+    "points": [
+      [
+        152.942995,
+        -27.482458
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 40,
+    "gated": false,
+    "slope_pct": 12.2,
+    "min_elevation_m": 89.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

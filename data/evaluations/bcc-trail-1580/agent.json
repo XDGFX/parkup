@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is on a narrow bush walking track; no room or vehicle access.",
+  "reasons": ["Single-width footpath under canopy", "No tyre tracks or vehicles", "Slope about 10% mean"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Deep in bush, no buildings; walkers use the track and a pool to the north-east.",
+    "access_and_room": "Only a narrow walking track, too narrow for a van; no clearing or car park within 100 m.",
+    "traffic": "None; foot traffic only.",
+    "convention": "No sign of vehicles or camping."
+  },
+  "flags": ["Steep: mean grade 10%, max about 24%", "Walkers visit the waterhole nearby"],
+  "sun_shade": "Dense canopy all round.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether the track is wide enough for management vehicles"],
+  "confidence": "high"
+}

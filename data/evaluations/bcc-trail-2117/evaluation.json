@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-2117",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is in dense creek-gully bush; no track or room for a van.",
+  "reasons": [
+    "Thick bush, no track or tyre marks",
+    "Very steep gully ground",
+    "Houses ring the bush within 50 m"
+  ],
+  "drivers": {
+    "seclusion": "Secluded bush strip, but houses sit 48 m and closer all round on both sides.",
+    "access_and_room": "No formed track, clearing or vehicles; the nearest road ends are cul-de-sacs among private homes.",
+    "traffic": "Quiet residential streets beyond the bush.",
+    "convention": "No campervans or overnight use seen."
+  },
+  "flags": [
+    "Steep: about 12% mean grade, 38% max",
+    "Low-lying creek gully, Little Gubberly Creek 18 m away",
+    "Mapped gate 13 m away, not on only access"
+  ],
+  "sun_shade": "Full tree canopy; shaded from all sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Parking rules on nearby cul-de-sacs"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 48,
+    "gated": false,
+    "slope_pct": 12.1,
+    "min_elevation_m": 16.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

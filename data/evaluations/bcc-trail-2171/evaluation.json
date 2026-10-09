@@ -1,0 +1,59 @@
+{
+  "candidate": "bcc-trail-2171",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Pin is in dense garden shrubbery; only nearby parking is Parliament's busy car park.",
+  "reasons": [
+    "Pin in thick planting, no track",
+    "Nearest car park beside Parliament House",
+    "Central, overlooked, heavily used area"
+  ],
+  "drivers": {
+    "seclusion": "Pin is hidden by trees, but the only vehicle spot is a car park among Parliament buildings, a club and a hotel tower.",
+    "access_and_room": "Pin has no vehicle track or tyre marks. The car park has marked bays and a controlled access road with a lift gate 252 m away.",
+    "traffic": "Busy city road and parliamentary traffic close by, with pedestrians in the gardens.",
+    "convention": "Cars with marked bays; no campervans or tents seen."
+  },
+  "flags": [
+    "Parliament House 67 m and Quay West apartments 99 m away",
+    "Mapped parking nearby is permissive or private",
+    "Lift gate and bollards on the garden access"
+  ],
+  "sun_shade": "Pin is under dense canopy; car park to the west is partly shaded by trees to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking restrictions and permit rules",
+    "Security patrols and CCTV"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Small asphalt car park beside the access road south-west of the pin, by Parliament House",
+    "slope_pct": 3,
+    "points": [
+      [
+        153.027997,
+        -27.474951
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 99,
+    "gated": false,
+    "slope_pct": 5.2,
+    "min_elevation_m": 8.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

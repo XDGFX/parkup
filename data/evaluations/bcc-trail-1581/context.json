@@ -1,0 +1,190 @@
+{
+  "id": "bcc-trail-1581",
+  "street": "Mt Coot-Tha Reserve access road",
+  "suburb": "",
+  "line": [
+    [
+      152.963636,
+      -27.476295
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "off-road",
+  "kind": "point",
+  "length_m": 0,
+  "signs": [],
+  "buildings": [],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.963433,
+        "lat": -27.476295,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 96.66
+      },
+      {
+        "lon": 152.963484,
+        "lat": -27.476295,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 95.74
+      },
+      {
+        "lon": 152.963535,
+        "lat": -27.476295,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 94.72
+      },
+      {
+        "lon": 152.963585,
+        "lat": -27.476295,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 93.48
+      },
+      {
+        "lon": 152.963636,
+        "lat": -27.476295,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 93.1
+      },
+      {
+        "lon": 152.963687,
+        "lat": -27.476295,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 93.71
+      },
+      {
+        "lon": 152.963737,
+        "lat": -27.476295,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 94.36
+      },
+      {
+        "lon": 152.963788,
+        "lat": -27.476295,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 94.44
+      },
+      {
+        "lon": 152.963839,
+        "lat": -27.476295,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 94.48
+      },
+      {
+        "lon": 152.963636,
+        "lat": -27.476475,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 95.59
+      },
+      {
+        "lon": 152.963636,
+        "lat": -27.47643,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 95.52
+      },
+      {
+        "lon": 152.963636,
+        "lat": -27.476385,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 94.53
+      },
+      {
+        "lon": 152.963636,
+        "lat": -27.47634,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 93.6
+      },
+      {
+        "lon": 152.963636,
+        "lat": -27.476295,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 93.1
+      },
+      {
+        "lon": 152.963636,
+        "lat": -27.47625,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 93.43
+      },
+      {
+        "lon": 152.963636,
+        "lat": -27.476205,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 93.82
+      },
+      {
+        "lon": 152.963636,
+        "lat": -27.47616,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 95.52
+      },
+      {
+        "lon": 152.963636,
+        "lat": -27.476115,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 97.08
+      }
+    ],
+    "min_elevation_m": 93.1,
+    "max_elevation_m": 97.1,
+    "mean_grade_pct": 14.3,
+    "max_grade_pct": 34
+  },
+  "waterway": {
+    "name": "East Ithaca Creek",
+    "metres": 4
+  },
+  "mapped_parking": [],
+  "mapped_ways": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/bcc-trail-1581/chunk1-esri.jpg",
+        "qld": ".cache/imagery/bcc-trail-1581/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Staff car park beside a rail yard, no homes, flat.",
+  "reasons": ["Backs onto rail corridor and industry", "No dwellings in range", "Level, sealed, cars parked"],
+  "best_section": {
+    "from_m": 10,
+    "to_m": 45,
+    "where": "North-west edge of the car park against the rail fence, east of the small depot building",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Rail tracks along one side, depot and warehouse on the others; no mapped buildings or homes nearby.",
+    "access_and_room": "Sealed bays along the rail edge sit clear of the truck lane; cars already use them.",
+    "traffic": "Trucks and trailers manoeuvre in the yard just south; the bays themselves are off the lane.",
+    "convention": "Rows of parked cars in the imagery; looks like staff parking."
+  },
+  "flags": ["Rail and truck noise", "Likely staff-only parking; may be patrolled", "Gates at 37 m and 46 m have a way round"],
+  "sun_shade": "Open sky, no tree cover; the depot building shades the west end in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Signs on site", "Night-time security or access control"],
+  "confidence": "low"
+}

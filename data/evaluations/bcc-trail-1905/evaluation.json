@@ -1,0 +1,60 @@
+{
+  "candidate": "bcc-trail-1905",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Sealed rugby club car park beside playing fields; homes only across the road.",
+  "reasons": [
+    "Open sealed car park, no gate seen",
+    "Backs onto sports fields and verge",
+    "Homes more than 25 m away, across road"
+  ],
+  "drivers": {
+    "seclusion": "Fields to the south, a grass verge and road to the north; nearest homes are across the road, about 30 m or more away.",
+    "access_and_room": "Sealed car park with marked bays opens straight onto the street; plenty of room to park fully off the road.",
+    "traffic": "Quiet residential street plus club-day traffic; little at night.",
+    "convention": "Club car park with a couple of cars parked; no campervans seen."
+  },
+  "flags": [
+    "Pin itself is on a steep wooded bank, 12.9% mean in DEM; the car park is the real place",
+    "Townhouses about 25 m east of the pin, near the car park's east end",
+    "Floodlit fields and club activity on training nights"
+  ],
+  "sun_shade": "Open car park, sun all day; eucalypts shade the north-west side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Slope of the car park itself, which is not sampled in the DEM",
+    "Parking signs or time limits on site",
+    "Street lighting and club curfews"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "West end of the sealed car park north of the rugby clubhouse, 40-100 m west of the pin",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.952818,
+        -27.514455
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 12.9,
+    "min_elevation_m": 11.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

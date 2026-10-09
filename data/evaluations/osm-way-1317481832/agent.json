@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Small gravel car park beside a park, with a vehicle already parked.",
+  "reasons": ["Backs onto park and trees", "Nearest home over 30 m from north side", "Vehicle already parked there"],
+  "best_section": {
+    "from_m": 30,
+    "to_m": 48,
+    "where": "North-west side of the small car park off Gower Street, furthest from the houses",
+    "slope_pct": 5.4
+  },
+  "drivers": {
+    "seclusion": "Park and trees to the north and west; nearest mapped home is 20 m from the start corner but over 30 m from the north-west side.",
+    "access_and_room": "Gravel drive from the south-west reaches a sealed-looking pad; room for a van beside the parked vehicle.",
+    "traffic": "Quiet dead-end car park off a local street.",
+    "convention": "Another vehicle is parked in it in the imagery; mapped parking area."
+  },
+  "flags": ["Steep: about 5% grade, noisy DEM", "Mapped gate 267 m away has a way round"],
+  "sun_shade": "Open to the sky in the middle; trees shade the west and south sides.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Signs on site", "Surface condition"],
+  "confidence": "medium"
+}

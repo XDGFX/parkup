@@ -1,0 +1,36 @@
+{
+  "verdict": "maybe",
+  "kind": "parking area",
+  "summary": "Small pool-side car park in Musgrave Park; busy, overlooked, likely staff or patron use.",
+  "reasons": [
+    "Cars parked at pool edge",
+    "Busy public park and road",
+    "Homes 58 m or more away"
+  ],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Small car park at the north-west end of Musgrave pool, reached by the paved path off Edmondstone St",
+    "slope_pct": 5.7
+  },
+  "drivers": {
+    "seclusion": "Backs onto trees and pool; nearest dwellings 58 m or more, but park, pool and busy road all in view.",
+    "access_and_room": "Cars sit in the car park; access looks like a narrow paved path from the road, so van entry is uncertain.",
+    "traffic": "Busy arterial 40 m west with kerb parking; pool users and park walkers pass nearby.",
+    "convention": "No campervans seen; looks like pool staff or patron parking."
+  },
+  "flags": [
+    "Steep: about 6% mean grade, 12% max",
+    "Noise from busy road and pool",
+    "Mapped gate 17 m away, not on only access",
+    "Pin is approximate; place judged is pool car park"
+  ],
+  "sun_shade": "Shaded by large trees, mostly from the north and east; open to the afternoon sun from the south-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the car park is signed or gated for pool users only",
+    "Whether a van can fit the path entrance",
+    "Street lighting"
+  ],
+  "confidence": "low"
+}

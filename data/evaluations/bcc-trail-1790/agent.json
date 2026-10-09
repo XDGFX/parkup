@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Open bush above a motorway; no track, vehicles or way in.",
+  "reasons": ["No track or tyre marks to the pin", "Motorway verge has no pull-in", "Bush slope, nothing to drive on"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Bush with no buildings, though the motorway is about 80 m away.",
+    "access_and_room": "No formed track or vehicle marks; only sandy patches in bush. The motorway edge has a barrier and no stopping room.",
+    "traffic": "Heavy multi-lane motorway to the north-west.",
+    "convention": "No parked vehicles or camping seen."
+  },
+  "flags": ["Steep in places: max grade about 30%, mean 8%", "Noise from the motorway"],
+  "sun_shade": "Light to medium tree cover; open sandy patches.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether a maintenance track runs through the bush"],
+  "confidence": "medium"
+}

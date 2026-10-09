@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "parking area",
+  "summary": "Mapped car park is under dense trees with no visible access; homes 10 m away.",
+  "reasons": ["No track or surface reaches it", "Dwelling 10 m at start", "Hidden under canopy"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Backs onto park, but houses sit 10-15 m west of the outline.",
+    "access_and_room": "Outline is solid tree canopy; no sealed or gravel surface, tyre tracks or vehicles visible.",
+    "traffic": "Quiet suburban street to the south-west; park to the east.",
+    "convention": "No sign of parking or overnight stays."
+  },
+  "flags": ["Low-lying: about 3.5 m elevation", "Dwellings 10, 14 and 15 m away", "Locked gate mapped 65 m away, not on only access"],
+  "sun_shade": "Fully shaded by dense tree canopy.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether a car park exists under the trees", "Street lighting"],
+  "confidence": "medium"
+}

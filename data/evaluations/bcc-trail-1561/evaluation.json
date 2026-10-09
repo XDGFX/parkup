@@ -1,0 +1,60 @@
+{
+  "candidate": "bcc-trail-1561",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Pin is steep bush; the mapped car park by the roundabout suits a van.",
+  "reasons": [
+    "Mapped free car park with cars",
+    "Forest all round, no dwellings",
+    "Off the road, clear of lane"
+  ],
+  "drivers": {
+    "seclusion": "Bush on all sides; no buildings in the data or imagery.",
+    "access_and_room": "Asphalt car park off the roundabout, access yes, no fee, with cars parked in both images. The road at the pin has no shoulder.",
+    "traffic": "Reserve access road with some traffic; the car park is off the lane.",
+    "convention": "Several cars parked in the car park; it is a public car park."
+  },
+  "flags": [
+    "Pin itself is steep hillside (mean 19.9%); the car park is not covered by the slope samples",
+    "Lift gate 130 m away has a mapped way round it",
+    "Car park only partly in frame, so its size is uncertain"
+  ],
+  "sun_shade": "Tree canopy close on the north side; open asphalt otherwise.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Car park slope",
+    "Overnight restrictions or signs",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Asphalt car park at the lower-right edge of the image, about 90 m east-south-east of the pin, past the roundabout",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.956598,
+        -27.484489
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 19.9,
+    "min_elevation_m": 210.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

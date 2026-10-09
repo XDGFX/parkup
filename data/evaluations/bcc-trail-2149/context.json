@@ -1,0 +1,199 @@
+{
+  "id": "bcc-trail-2149",
+  "street": "Mt Coot-Tha Reserve access road",
+  "suburb": "",
+  "line": [
+    [
+      152.954064,
+      -27.485667
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "off-road",
+  "kind": "point",
+  "length_m": 0,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 152.955419,
+      "lat": -27.4839591,
+      "metres": 232,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.953861,
+        "lat": -27.485667,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 231.46
+      },
+      {
+        "lon": 152.953912,
+        "lat": -27.485667,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 232.13
+      },
+      {
+        "lon": 152.953963,
+        "lat": -27.485667,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 232.67
+      },
+      {
+        "lon": 152.954013,
+        "lat": -27.485667,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 233.33
+      },
+      {
+        "lon": 152.954064,
+        "lat": -27.485667,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 233.99
+      },
+      {
+        "lon": 152.954115,
+        "lat": -27.485667,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 234.59
+      },
+      {
+        "lon": 152.954165,
+        "lat": -27.485667,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 234.92
+      },
+      {
+        "lon": 152.954216,
+        "lat": -27.485667,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 234.65
+      },
+      {
+        "lon": 152.954267,
+        "lat": -27.485667,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 233.99
+      },
+      {
+        "lon": 152.954064,
+        "lat": -27.485847,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 230.69
+      },
+      {
+        "lon": 152.954064,
+        "lat": -27.485802,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 232
+      },
+      {
+        "lon": 152.954064,
+        "lat": -27.485757,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 233.55
+      },
+      {
+        "lon": 152.954064,
+        "lat": -27.485712,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 233.94
+      },
+      {
+        "lon": 152.954064,
+        "lat": -27.485667,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 233.99
+      },
+      {
+        "lon": 152.954064,
+        "lat": -27.485622,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 234.29
+      },
+      {
+        "lon": 152.954064,
+        "lat": -27.485577,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 234.01
+      },
+      {
+        "lon": 152.954064,
+        "lat": -27.485532,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 233.15
+      },
+      {
+        "lon": 152.954064,
+        "lat": -27.485487,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 231.74
+      }
+    ],
+    "min_elevation_m": 230.7,
+    "max_elevation_m": 234.9,
+    "mean_grade_pct": 13.2,
+    "max_grade_pct": 31
+  },
+  "waterway": {
+    "name": "Witton Creek",
+    "metres": 121
+  },
+  "mapped_parking": [],
+  "mapped_ways": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/bcc-trail-2149/chunk1-esri.jpg",
+        "qld": ".cache/imagery/bcc-trail-2149/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

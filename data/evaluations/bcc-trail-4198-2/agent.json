@@ -1,0 +1,35 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Free sealed park car park off Honour Avenue, no homes nearby.",
+  "reasons": [
+    "Mapped free car park beside pin",
+    "Park, fields and clubs; no dwellings",
+    "Plenty of room off the lane"
+  ],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Sealed bay car park just south-west of the pin, off Honour Avenue, edged by trees",
+    "slope_pct": 2.8
+  },
+  "drivers": {
+    "seclusion": "Open park and playing fields; only sports clubs within 100 m, nearest dwelling not in the data.",
+    "access_and_room": "Honour Avenue is sealed and open from the south; the car park has painted bays and wide turning space.",
+    "traffic": "Quiet park road; busy arterial about 180 m south-east.",
+    "convention": "Mapped car parks are free and open (access yes, no fee); cars use the nearby gravel lot, no campervans seen."
+  },
+  "flags": [
+    "Slope about 3% mean, 10% max locally",
+    "Mapped gate 43 m away is locked but not on the only access",
+    "Club events may fill the car parks"
+  ],
+  "sun_shade": "Partly shaded by palms and trees, mainly on the north and east edges; open to afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Time limits or park closing signs",
+    "Street lighting",
+    "Crossfall in the bays"
+  ],
+  "confidence": "medium"
+}

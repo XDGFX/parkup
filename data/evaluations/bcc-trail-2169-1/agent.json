@@ -1,0 +1,23 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Narrow paved garden service path by the river; no sensible van access.",
+  "reasons": ["Inside Botanic Gardens, bollards and gates", "Only a small buggy seen, no vans", "Path narrow, tree-lined, no room"],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Paved path end by the river, east of the glasshouses",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Tree-screened riverbank, but inside a busy public garden with no dwellings mapped.",
+    "access_and_room": "Reached only by garden paths with mapped bollards and a gate 209-275 m away; path is narrow with no room to pull off.",
+    "traffic": "Little vehicle traffic, but heavy foot traffic and river-side walkers.",
+    "convention": "No campervans or tyre tracks; a single small white vehicle (likely a garden buggy)."
+  },
+  "flags": ["Low-lying: about 6 m at the path, river 168 m away, drops to 2 m", "Bollards and a gate nearby on the garden access", "Pedestrian garden path, not a road"],
+  "sun_shade": "Dense tree canopy over and around the path, mostly shaded; open river to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether the garden service road is open to public vehicles", "Overnight patrols or closing hours"],
+  "confidence": "medium"
+}

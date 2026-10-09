@@ -1,0 +1,72 @@
+{
+  "candidate": "osm-way-40352789",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small sealed car park in bushland and gardens, no homes nearby.",
+  "reasons": [
+    "Surrounded by bush and gardens",
+    "No buildings mapped or seen",
+    "Sealed lot straight off the road"
+  ],
+  "drivers": {
+    "seclusion": "Trees and garden beds on all sides; only a small toilet or amenity block beside it.",
+    "access_and_room": "Opens directly off the road, no gate seen; about five bays plus a hatched disabled bay, tight for a 7 m van.",
+    "traffic": "Quiet two-lane road passes along the west edge; van would sit clear of the lane.",
+    "convention": "Visitor car park for the gardens; two cars parked, no sign of overnight stays."
+  },
+  "flags": [
+    "Small lot: a long van may take two bays",
+    "Disabled bay and hatched area must be kept clear",
+    "Slope: edge grades reach 8.6% but the south side is nearly level"
+  ],
+  "sun_shade": "Partly shaded by trees on the north and south sides; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "On-site time limits or closing signs",
+    "Street lighting",
+    "Whether the gardens' gates close the road at night"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 55,
+    "where": "South side of the small car park, beside the toilet block",
+    "slope_pct": 1.4,
+    "points": [
+      [
+        152.972416,
+        -27.479254
+      ],
+      [
+        152.972266,
+        -27.479294
+      ],
+      [
+        152.972219,
+        -27.479305
+      ],
+      [
+        152.9722,
+        -27.479266
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 3.7,
+    "min_elevation_m": 61.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

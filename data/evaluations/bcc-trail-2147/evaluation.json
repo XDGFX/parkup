@@ -1,0 +1,59 @@
+{
+  "candidate": "bcc-trail-2147",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Sealed bush car park off the reserve road; no homes nearby.",
+  "reasons": [
+    "Sealed car park with cars, in bush",
+    "No buildings within 100 m",
+    "Room to pull fully off the road"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by bush; no mapped or visible dwellings within 100 m.",
+    "access_and_room": "Marked bays and an apron off the asphalt service road; plenty of room for a van to park fully off the lane.",
+    "traffic": "Reserve road passes the car park; light traffic, van stands clear of the lane.",
+    "convention": "Cars park here in both images, so a van won't stand out."
+  },
+  "flags": [
+    "Mapped lift gate 94 m away on the road, not on the only access; may close the road at night",
+    "Bush slopes around the pin reach 36% max, but the car park is level-looking",
+    "Trailhead use by walkers likely early morning"
+  ],
+  "sun_shade": "Open sealed area in the sun; bush shade from the west and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact car park slope (DEM samples fall on the hillside, not the car park)",
+    "Signed time limits or road closure hours"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Sealed car park about 17 m north-east of the pin, on the reserve road bend",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.955114,
+        -27.484758
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 16.7,
+    "min_elevation_m": 223.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:12:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

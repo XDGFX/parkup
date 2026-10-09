@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Walking track beside a creek pool; no vehicle access or room.",
+  "reasons": ["Footpath only, no tyre tracks", "Creek pool with walkers beside it", "Low-lying, steep banks"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Bush reserve, no buildings, but walkers use the pool and track.",
+    "access_and_room": "Narrow walking track and sandy creek bank; no vehicles seen, no road or car park within 100 m.",
+    "traffic": "None; foot traffic only.",
+    "convention": "No sign of vehicles or camping."
+  },
+  "flags": ["Steep: mean grade 14%, max about 34%", "Low-lying: 93 m, 4 m from East Ithaca Creek, flood-prone"],
+  "sun_shade": "Tree canopy on all sides; small open patch over the pool.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether management vehicles reach the pool"],
+  "confidence": "high"
+}

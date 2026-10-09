@@ -1,0 +1,23 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Pin is in park bush with no way in; kerb opposite faces a school.",
+  "reasons": ["Pin itself has no track or vehicles", "Cars park on kerb beside school grounds", "Busy road, no homes within 50 m"],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "East kerb of the main road, 50-70 m north-north-east of the pin, beside school playing field",
+    "slope_pct": 1.8
+  },
+  "drivers": {
+    "seclusion": "Park and oval on one side, school grounds on the other; nearest school building 54 m and no dwellings mapped within 100 m.",
+    "access_and_room": "Pin sits in grass and trees, no tyre tracks or vehicles; only a dirt foot path to the oval. Parked cars line the road's east kerb.",
+    "traffic": "Busy through road with traffic and powerlines; cars park along the kerb.",
+    "convention": "School-side parking looks daytime; no sign of overnight stays."
+  },
+  "flags": ["Busy road noise", "Pin location unreachable by vehicle", "Low-lying: about 5.4 m elevation", "Slope: local max 8.8% but kerb grade gentle"],
+  "sun_shade": "Street trees give patchy shade from the east side; kerb mostly open to afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Kerb parking restrictions on site", "Street lighting", "School-day versus overnight use"],
+  "confidence": "low"
+}
