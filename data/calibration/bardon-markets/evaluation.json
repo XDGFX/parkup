@@ -4,36 +4,36 @@
   "agent_verdict": "good",
   "rule_outs": [],
   "kind": "kerb stretch",
-  "summary": "Wide parking strip between bushland and a park; homes 70 m or more away.",
+  "summary": "Wide lane lined with parked cars and vans, bush behind, homes far off.",
   "reasons": [
-    "Bush on one side, park on the other",
-    "Many cars and vans parked here",
-    "Nearest house 74 m"
+    "Backs onto dense bush",
+    "Dozens of cars and vans parked here",
+    "Nearest home over 70 m away"
   ],
   "drivers": {
-    "seclusion": "Forest to the north, open park to the south; houses 74 m or more away across the park.",
-    "access_and_room": "Wide sealed strip where many vehicles park nose to tail, with plenty of room for a van.",
-    "traffic": "Quiet side strip, set well back from the main road to the south.",
-    "convention": "Rows of cars, white vans and motorhome-style vehicles park here, so a van won't stand out."
+    "seclusion": "Forest on the north side; park and a road to the south; mapped homes are 74 m or more away.",
+    "access_and_room": "Wide sealed road with parking along it; several vans and trucks already stop here.",
+    "traffic": "Quiet no-through road beside the park; the busy main road is about 90 m south.",
+    "convention": "Rows of parked vehicles, including van-sized ones, so a van blends in."
   },
   "flags": [
-    "Markets or event parking: crowded at times",
-    "Pin sits on the road itself, not a marked bay",
-    "Nearby main road gives some noise"
+    "Steep: about 3 to 6% grade along the road",
+    "Heavy parking at busy times, possibly market-related",
+    "Slope check: DEM shows up to 22% on the bank beside the road"
   ],
-  "sun_shade": "Shaded by bush from the north and morning trees; open to the west in the afternoon.",
+  "sun_shade": "Mixed: bush on the north gives afternoon shade, open to the sun from the south.",
   "rubbish": "none seen",
   "cannot_judge": [
-    "Time limits or signs on site",
     "Street lighting",
+    "Parking signs or event restrictions",
     "Crossfall"
   ],
   "confidence": "medium",
   "best_section": {
     "from_m": null,
     "to_m": null,
-    "where": "Wide road-edge parking strip beside the park, at the pin",
-    "slope_pct": 2,
+    "where": "Northern kerb of the road along the bush edge, at the ring and just east",
+    "slope_pct": 3.4,
     "points": [
       [
         152.990776,
@@ -54,7 +54,7 @@
     ],
     "qld": "2022-07"
   },
-  "evaluated_at": "2026-10-09T09:34:07Z",
+  "evaluated_at": "2026-10-09T10:25:59Z",
   "model": "claude-sonnet-5-5",
-  "rubric": "v10"
+  "rubric": "v11"
 }

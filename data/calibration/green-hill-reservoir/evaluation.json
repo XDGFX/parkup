@@ -4,35 +4,34 @@
   "agent_verdict": "good",
   "rule_outs": [],
   "kind": "parking area",
-  "summary": "Sealed bay beside the reservoir pump house, surrounded by forest, with cars parked.",
+  "summary": "Sealed bush-edged parking apron beside a small utility building, no homes nearby.",
   "reasons": [
-    "Forest all round, no homes",
-    "Sealed road and parked cars",
-    "Gate mapped 21 m west"
+    "Backs onto dense bush",
+    "No dwellings mapped or visible",
+    "Sealed apron with several parked cars"
   ],
   "drivers": {
-    "seclusion": "Dense bush on three sides, reservoir to the south; no buildings other than utility structures.",
-    "access_and_room": "Sealed road reaches it, with a wide asphalt apron and several cars parked east of the building.",
-    "traffic": "Quiet service road; a main road runs through the forest 60 to 80 m north.",
-    "convention": "Cars (and possibly a camper) in the bay, so it is used; it is utility land though."
+    "seclusion": "Dense bush to the north and east, reservoir and open grass to the south; no homes in view.",
+    "access_and_room": "Sealed road reaches a wide apron with several cars; room for a van well off the lane.",
+    "traffic": "Quiet internal road; a through road runs about 60 m north through the bush.",
+    "convention": "Cars already park on the apron, so a van would not stand out."
   },
   "flags": [
-    "Mapped gate 21 m west, not shown closed",
-    "Reservoir utility land, so access could be restricted",
-    "Slope about 1.8%, fine"
+    "Gates mapped nearby but each has a way round",
+    "Reservoir site may be managed; signs not visible"
   ],
-  "sun_shade": "Tall trees shade the north and east; open sky to the south over the reservoir bank.",
+  "sun_shade": "Mostly shaded by tall trees to the north and east; open to the south.",
   "rubbish": "none seen",
   "cannot_judge": [
-    "Whether the gate is locked at night",
+    "Street lighting",
     "Signs on site",
-    "Street lighting"
+    "Whether the site is patrolled"
   ],
-  "confidence": "low",
+  "confidence": "medium",
   "best_section": {
     "from_m": null,
     "to_m": null,
-    "where": "Sealed bay on the east side of the small building, just north of the reservoir",
+    "where": "Sealed apron at the ring, east of the junction beside the small square building",
     "slope_pct": 1.8,
     "points": [
       [
@@ -54,7 +53,7 @@
     ],
     "qld": "2022-07"
   },
-  "evaluated_at": "2026-10-09T09:34:48Z",
+  "evaluated_at": "2026-10-09T10:25:59Z",
   "model": "claude-sonnet-5-5",
-  "rubric": "v10"
+  "rubric": "v11"
 }

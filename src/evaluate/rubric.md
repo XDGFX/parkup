@@ -1,4 +1,4 @@
-<!-- parkup evaluation rubric v10. Sent to each subagent with the batch prompt; bump the version on any change and re-run the calibration set. -->
+<!-- parkup evaluation rubric v11. Sent to each subagent with the batch prompt; bump the version on any change and re-run the calibration set. -->
 
 You are evaluating one **candidate** for parkup: a place in or near Brisbane where someone might park a
 light campervan (under 7.5 m) overnight and sleep in it. What they want most is **seclusion**: somewhere
@@ -51,6 +51,10 @@ Any one of these makes the verdict `poor`, however secluded the place is:
   Off the road, the best evidence of a way in is **vehicles or tyre tracks** in the imagery. With
   neither, assume a vehicle can't get there, unless a formed track or gravel surface clearly reaches it.
   A bare dirt or gravel pull-off that meets the road edge is a way in.
+  Judge room to stop by the clear, level ground beside the lane, not the width of the sealed lane: a
+  gravel, dirt or mown-grass shoulder or pull-off about as wide as the lane itself is room to pull fully
+  off, even beside a narrow lane. Only call it tight when the ground beside the lane is narrower than a
+  van, or is kerb-to-fence, ditch, trees or steep bank.
 - **A utility track.** A van stopped on a powerline, pipeline or water-main easement track, past where it
   leaves the road, is on a track that's normally gated or closed to the public. A pale bar across a
   track's mouth is a gate, not a vehicle. A wide verge or pull-in beside the road, next to such a track,
@@ -66,7 +70,8 @@ Any one of these makes the verdict `poor`, however secluded the place is:
   and tags many homes only as `yes`, so check the imagery too. Code re-checks mapped dwellings and mapped
   gates (`gates`, with `on_only_access`) against your best section afterwards, so give `from_m` and `to_m`
   accurately. A mapped gate with `on_only_access: false` has a mapped way round it: mention it as a flag
-  if it's close, but don't mark the place down for it.
+  if it's close, but don't mark the place down for it, and don't doubt access because of it. On a through
+  road or lane (open to traffic at both ends), mapped gates on side paths and tracks don't affect access.
 
 ## Grading
 
@@ -84,7 +89,9 @@ If nothing rules it out, grade the best section on **seclusion: who would care?*
   strongest sign a place is accepted for the night. Grade it `good` unless something rules it out;
   don't mark it down because it might be managed or patrolled.
 - **Distance is what counts.** Homes more than about 25 m away, across a road, park, oval or field,
-  don't count against a place, even if they look onto it.
+  don't count against a place, even if they look onto it. Homes 40 m or more away across open parkland
+  feel far off on the ground: being in open view of them doesn't on its own make a place exposed or
+  `maybe`.
 - `maybe`: workable, with one real drawback: dwellings 10–25 m away on the section's own side, homes
   within about 25 m all round, a kerb on a quiet residential street with no parking convention, or a
   plain kerb on a busy road where cars do park (not a lay-by or verge set off the lane).

@@ -4,37 +4,36 @@
   "agent_verdict": "good",
   "rule_outs": [],
   "kind": "parking area",
-  "summary": "Wide gravel pull-off on a bend, forest behind, vehicles already stopped there.",
+  "summary": "Wide gravel rest area on a bend, bush behind, cars already parked.",
   "reasons": [
-    "Large gravel apron off the lane",
-    "Forest behind, no homes",
-    "Vehicles parked in imagery"
+    "Large gravel pull-off clear of the lane",
+    "Bush behind, quarry across the road",
+    "Several cars already parked"
   ],
   "drivers": {
-    "seclusion": "Forest on the west and north, quarry cut to the south east; no dwellings anywhere in view.",
-    "access_and_room": "Bare gravel meets the road edge with room for several vehicles clear of the traffic lane.",
-    "traffic": "Two lane scenic road runs along the apron, with quarry traffic and sightseers.",
-    "convention": "Several cars and a white van or camper stopped on the gravel in both images."
+    "seclusion": "Backs onto forest; quarry on the far side. No buildings within 100 m.",
+    "access_and_room": "Wide gravel apron opens straight onto the road edge; room for many vehicles well off the lane.",
+    "traffic": "Passing traffic on the bend, but the van stands off the lane.",
+    "convention": "Informal rest area; three or four vehicles parked in both images."
   },
   "flags": [
-    "Road noise and passing traffic beside the apron",
-    "Quarry operations nearby",
-    "Slope about 2% at the pin, steeper beyond",
-    "Exposed bend, headlights from passing vehicles"
+    "Steep: about 5.7% mean, 15% max in DEM",
+    "Road and quarry noise",
+    "Mapped gates 232 m away, not on the only access"
   ],
-  "sun_shade": "Open to the sky, with trees shading the west edge in the afternoon.",
+  "sun_shade": "Open gravel in the sun; trees shade the north and west edge in the afternoon.",
   "rubbish": "none seen",
   "cannot_judge": [
     "Signs on site",
-    "Street lighting",
-    "Night closures of the road or quarry"
+    "Crossfall of the gravel",
+    "Quarry hours and noise"
   ],
   "confidence": "medium",
   "best_section": {
     "from_m": null,
     "to_m": null,
-    "where": "Gravel apron on the inside of the bend, west of the road, just at the pin",
-    "slope_pct": 2,
+    "where": "Gravel rest area on the inside of the bend, at the ring",
+    "slope_pct": 5.7,
     "points": [
       [
         152.968206,
@@ -55,7 +54,7 @@
     ],
     "qld": "2022-07"
   },
-  "evaluated_at": "2026-10-09T09:35:12Z",
+  "evaluated_at": "2026-10-09T10:25:59Z",
   "model": "claude-sonnet-5-5",
-  "rubric": "v10"
+  "rubric": "v11"
 }

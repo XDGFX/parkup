@@ -4,35 +4,35 @@
   "agent_verdict": "good",
   "rule_outs": [],
   "kind": "parking area",
-  "summary": "Small gravel car park beside community garden and park, no homes near.",
+  "summary": "Open gravel car park beside a community garden, parkland and playing fields.",
   "reasons": [
     "No dwellings anywhere near",
-    "Backs onto garden, park and oval",
-    "Cars already parked, open access"
+    "Backs onto garden and bush",
+    "Gravel lot with room for a van"
   ],
   "drivers": {
-    "seclusion": "Garden plots, park and sports ground around it; only sheds nearby, no homes.",
-    "access_and_room": "Formed gravel road reaches it; marked bays with room for a van; mapped gates are not on the only way in.",
-    "traffic": "Off the road network, only garden and park users.",
-    "convention": "Open public car park (access yes, no fee) with a few cars in it."
+    "seclusion": "Surrounded by parkland, garden plots, trees and fields; only sheds and garden buildings nearby.",
+    "access_and_room": "Formed gravel lot of about 25 by 40 m with marked bays and a track in; plenty of room.",
+    "traffic": "Low-use park car park, no through road.",
+    "convention": "Public car park, access yes, no fee; a few cars parked in both images."
   },
   "flags": [
     "Low-lying: about 2.3 m elevation, Toowong Creek 48 m away",
-    "Mapped gates 14 to 30 m off; none seen closed in imagery",
-    "Sheds 1 m and 12 m away"
+    "Mapped gates nearby have a way round and don't block access",
+    "Rail line not close but suburb noise possible"
   ],
-  "sun_shade": "Open to the sky; trees along the east edge shade the morning sun.",
+  "sun_shade": "Open in the middle; trees shade the east side in the morning.",
   "rubbish": "none seen",
   "cannot_judge": [
-    "Gate closing hours",
     "Street lighting",
-    "Whether the garden locks the access road"
+    "Evening closing of the car park",
+    "Surface condition after rain"
   ],
   "confidence": "medium",
   "best_section": {
-    "from_m": 0,
-    "to_m": 93,
-    "where": "Gravel car park at the community garden, east of the park path",
+    "from_m": null,
+    "to_m": null,
+    "where": "Western side of the community garden car park, away from the access track",
     "slope_pct": 1.2,
     "points": [
       [
@@ -60,8 +60,8 @@
         -27.492244
       ],
       [
-        152.992334,
-        -27.492283
+        152.992332,
+        -27.492286
       ]
     ]
   },
@@ -78,7 +78,7 @@
     ],
     "qld": "2022-07"
   },
-  "evaluated_at": "2026-10-09T09:34:31Z",
+  "evaluated_at": "2026-10-09T10:25:59Z",
   "model": "claude-sonnet-5-5",
-  "rubric": "v10"
+  "rubric": "v11"
 }
