@@ -1,0 +1,63 @@
+{
+  "candidate": "48336765-48336860-1469954137-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a unit block; dwellings 14 m and homes opposite 20 m away.",
+  "reasons": [
+    "Units 14 m away on own side",
+    "Homes opposite within about 25 m",
+    "Few cars park on this side"
+  ],
+  "drivers": {
+    "seclusion": "Unit block 14 m from the kerb on its own side, homes across the road 20-24 m away.",
+    "access_and_room": "Sealed street; a couple of cars park at this kerb, room to stop beside the footpath.",
+    "traffic": "Quiet residential street with light local traffic.",
+    "convention": "Cars park mainly on the south side; this kerb is lightly used."
+  },
+  "flags": [
+    "Steep overall: mean 4.1%, max 10.4%, about 3% at the best section",
+    "Homes within about 25 m on both sides"
+  ],
+  "sun_shade": "Unit block shades the kerb in the morning; open to the north sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 12,
+    "to_m": 28,
+    "where": "North kerb of Payne Street, west of the corner, along the unit block frontage",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.973193,
+        -27.494244
+      ],
+      [
+        152.973033,
+        -27.494221
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 4.3,
+    "min_elevation_m": 30.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

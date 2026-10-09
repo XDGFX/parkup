@@ -1,0 +1,51 @@
+{
+  "candidate": "60666439-3493107715-8111763-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short stub under dense trees, no visible road surface, homes 8-20 m away.",
+  "reasons": [
+    "No clear road surface under canopy",
+    "Dwellings 8-21 m, all round",
+    "4P parallel sign applies by day"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 8 m (at 17 m), 20 m and 21 m; apartments and houses on every side.",
+    "access_and_room": "The line runs through tree canopy and lawn off the corner; no sealed lane or pull-off is visible, and only 17 m long.",
+    "traffic": "Side street off a through road with parked cars; light traffic on the stub.",
+    "convention": "4P Parallel, Mon-Fri 8 am-5 pm; no overnight sign seen, no vans seen."
+  },
+  "flags": [
+    "Steep: about 4.7% mean grade, max 6%",
+    "Dwelling 8 m from the far end",
+    "Mapped gates 130 m away have a way round"
+  ],
+  "sun_shade": "Dense tree canopy covers the whole stretch.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether a vehicle can reach the stub",
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 4.7,
+    "min_elevation_m": 27.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

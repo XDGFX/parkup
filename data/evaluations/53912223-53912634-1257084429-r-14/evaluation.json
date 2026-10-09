@@ -1,0 +1,72 @@
+{
+  "candidate": "53912223-53912634-1257084429-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat north kerb where cars park, but homes only 11-13 m away.",
+  "reasons": [
+    "Homes 11-13 m away, own side",
+    "Cars park along this kerb",
+    "Flat in the dip, steep either end"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the kerb 11-13 m away on this side; garage 6 m back near 50 m.",
+    "access_and_room": "Cars park along this kerb, so there is room beside the lane.",
+    "traffic": "Quiet residential street between two cross roads.",
+    "convention": "No signs; cars park along the street, but residents would notice a van."
+  },
+  "flags": [
+    "Homes 10-25 m away on the section's own side",
+    "Steep at both ends: up to 14%",
+    "Dwelling 9 m away at 38 m"
+  ],
+  "sun_shade": "Mostly open; street and garden trees shade the kerb in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Local overnight rules"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 68,
+    "where": "North kerb of Newcross Street in the dip, in front of the houses",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.978807,
+        -27.498713
+      ],
+      [
+        152.978777,
+        -27.498708
+      ],
+      [
+        152.978756,
+        -27.498705
+      ],
+      [
+        152.978677,
+        -27.498692
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 18.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

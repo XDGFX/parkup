@@ -1,0 +1,64 @@
+{
+  "candidate": "47831565-48324736-1469954135-r-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb by trees near the junction; homes within 20 m across the road.",
+  "reasons": [
+    "Homes 17-36 m away, one across the road",
+    "Quiet residential street, vehicles parked here",
+    "Flat at the south end"
+  ],
+  "drivers": {
+    "seclusion": "Trees and a non-dwelling building (10 m) on this side; red-roofed home 17 m across the road, flats about 13-36 m away.",
+    "access_and_room": "Sealed street with a vehicle parked on this kerb; room to stop beside the lane.",
+    "traffic": "Short side street off a busy road; light local traffic.",
+    "convention": "A truck and cars park on this kerb, so a van would not stand out much."
+  },
+  "flags": [
+    "Steep further north: up to about 10% grade",
+    "Homes within 25 m on all sides",
+    "Busy road at both ends adds some noise"
+  ],
+  "sun_shade": "Trees on the west side shade the kerb in the afternoon; open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 52,
+    "to_m": 66,
+    "where": "west kerb of Manchester Terrace near the southern junction, beside the tree-lined flats",
+    "slope_pct": 0.9,
+    "points": [
+      [
+        152.975053,
+        -27.494257
+      ],
+      [
+        152.975027,
+        -27.494381
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 34.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

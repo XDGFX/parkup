@@ -1,0 +1,67 @@
+{
+  "candidate": "48324736-53912135-654227227-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb on a quiet street with parked cars; homes 17-19 m away.",
+  "reasons": [
+    "Homes 17-19 m away on all sides",
+    "Cars park along this street",
+    "Flat here, very steep elsewhere"
+  ],
+  "drivers": {
+    "seclusion": "Mapped dwellings 17-19 m away on this side; houses across the road are similar, screened by trees and hedges.",
+    "access_and_room": "Sealed street with cars parked on both sides; room to stop beside the lane.",
+    "traffic": "Quiet residential street, light local traffic.",
+    "convention": "Residents' cars line the street, so a van would blend in loosely."
+  },
+  "flags": [
+    "Dwellings 11-21 m from kerb along the whole stretch",
+    "Very steep either side of the flat: up to 23% grade"
+  ],
+  "sun_shade": "Street trees shade the kerb from the east in the morning; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 78,
+    "to_m": 98,
+    "where": "east kerb of Manchester Terrace on the flat top of the hill, beside the tree strip",
+    "slope_pct": 0.4,
+    "points": [
+      [
+        152.974487,
+        -27.495213
+      ],
+      [
+        152.974441,
+        -27.495265
+      ],
+      [
+        152.974363,
+        -27.495355
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 45.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

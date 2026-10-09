@@ -1,0 +1,47 @@
+{
+  "candidate": "21616842-21616844-1111888224-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Moggill Road clearway on a flyover approach, no parking, tow-away.",
+  "reasons": [
+    "Main road, no cars parked",
+    "Clearway tow-away signs, Mon-Sat 7am-7pm",
+    "No room to pull out of lane"
+  ],
+  "drivers": {
+    "seclusion": "Open to a busy arterial, shopping centre and police station nearby.",
+    "access_and_room": "Kerb-side lane of a multi-lane road with a ramp; no pull-in or verge.",
+    "traffic": "Heavy arterial traffic.",
+    "convention": "Clearway signs; no cars parked along this kerb."
+  },
+  "flags": [
+    "Clearway tow-away Mon-Fri/Sat 7am-7pm",
+    "Steep in places: max grade 30%",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open road, patchy tree shade to the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Overnight enforcement"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 8.7,
+    "min_elevation_m": 33.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

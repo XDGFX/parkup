@@ -1,0 +1,34 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Apartments and houses 7-10 m from the kerb all along; no stopping sign.",
+  "reasons": [
+    "Dwellings within 10 m along whole stretch",
+    "No Stopping Any Time sign",
+    "Busy through road, few cars parked"
+  ],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "north kerb of Lambert Road at the western end, beside apartment blocks",
+    "slope_pct": 1.5
+  },
+  "drivers": {
+    "seclusion": "Apartment blocks and houses 7-23 m away along the north side; no gap without a dwelling.",
+    "access_and_room": "Kerbside lane on a wide road; north side shows few parked cars.",
+    "traffic": "Busy multi-lane road with steady traffic.",
+    "convention": "Signed No Stopping Any Time; little parking convention on this side."
+  },
+  "flags": [
+    "No Stopping Any Time sign",
+    "Mapped dwellings 7-10 m from kerb",
+    "Steep in places: max grade about 6%"
+  ],
+  "sun_shade": "Street trees shade the north kerb in patches; buildings to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high"
+}

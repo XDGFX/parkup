@@ -1,0 +1,63 @@
+{
+  "candidate": "60667417-1011976219-37584723-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy-ish kerb where cars park, with homes 13 m away behind the kerb.",
+  "reasons": [
+    "Homes 13-14 m away, same side",
+    "Cars park along kerb",
+    "Gentle grade, park opposite"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 13 m (at 33 m) and 14 m (apartments at 55 m) on the same side; park and trees opposite.",
+    "access_and_room": "Kerbside parking lane, cars parked along it; no drive-in needed.",
+    "traffic": "Collector road past a park and school; steady traffic likely.",
+    "convention": "Cars park along both sides, so a van would not stand out."
+  },
+  "flags": [
+    "Dwellings 10-25 m away on same side",
+    "Traffic noise from collector road"
+  ],
+  "sun_shade": "Mixed: street trees shade the kerb, mostly from the east and afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Time-limited parking signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 38,
+    "to_m": 52,
+    "where": "West kerb of Fairley Street, midway along, opposite the Taringa soccer fields",
+    "slope_pct": 0.4,
+    "points": [
+      [
+        152.980504,
+        -27.502219
+      ],
+      [
+        152.98048,
+        -27.502343
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 0.4,
+    "min_elevation_m": 12.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

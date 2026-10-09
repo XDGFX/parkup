@@ -1,0 +1,68 @@
+{
+  "candidate": "48324759-53860657-1252698133-r-23",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Very steep kerb among apartment blocks, signed No Parking and No Stopping.",
+  "reasons": [
+    "Very steep: about 14% grade",
+    "No Parking and No Stopping signs",
+    "Apartments and houses close on all sides"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks 30-32 m north; houses 17 m at the junction end; flats across the road.",
+    "access_and_room": "Sealed street with parked cars along the kerb, but signs ban parking and stopping.",
+    "traffic": "Residential street at a busy junction with steady local traffic.",
+    "convention": "Signed No Parking Any Time and No Stopping Any Time; cars still park here."
+  },
+  "flags": [
+    "Steep: about 14% mean grade, max 19%",
+    "No Stopping Any Time sign 1.3 m from kerb line",
+    "No Parking Any Time sign 10.3 m from kerb line"
+  ],
+  "sun_shade": "Street trees and apartment blocks give patchy shade, mostly from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact extent of each sign's restriction"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 40,
+    "where": "Prince Street north kerb, opposite the white apartment block",
+    "slope_pct": 13,
+    "points": [
+      [
+        152.978117,
+        -27.495717
+      ],
+      [
+        152.978066,
+        -27.495691
+      ],
+      [
+        152.977985,
+        -27.495651
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 15.5,
+    "min_elevation_m": 39.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

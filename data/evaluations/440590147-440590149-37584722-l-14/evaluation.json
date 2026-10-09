@@ -1,0 +1,64 @@
+{
+  "candidate": "440590147-440590149-37584722-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow residential street ending at a T; houses 2-7 m from kerb.",
+  "reasons": [
+    "Dwellings within 1-7 m of kerb",
+    "Steep: about 8% grade",
+    "Tight residential cul-de-sac stub"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes at 2 m (at 2 m) and 6 m (at 13 m) on the section's side, houses all round.",
+    "access_and_room": "Narrow lane with cars already parked tightly along it; little room beside the lane.",
+    "traffic": "Quiet side street, local traffic only.",
+    "convention": "Residents' cars park here; no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 8% mean, 10.8% max",
+    "Dwelling within 10 m"
+  ],
+  "sun_shade": "Street trees shade the east side; houses and trees shade the west kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "West kerb at the south end of this Fairley Street stub",
+    "slope_pct": 7.8,
+    "points": [
+      [
+        152.981099,
+        -27.498632
+      ],
+      [
+        152.981119,
+        -27.498526
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 7.3,
+    "min_elevation_m": 28.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

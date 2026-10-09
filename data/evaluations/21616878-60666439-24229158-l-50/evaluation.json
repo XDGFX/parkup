@@ -1,0 +1,64 @@
+{
+  "candidate": "21616878-60666439-24229158-l-50",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb on a street where cars park; apartments about 23 m behind it.",
+  "reasons": [
+    "Apartments 23 m away, same side",
+    "Homes within 25 m all round",
+    "Cars park along this street"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks 23 m away behind trees on the east side; houses and flats across the road.",
+    "access_and_room": "Kerbside lane on a two-way street; cars park on both sides, so a van fits in the line.",
+    "traffic": "Collector street with steady traffic.",
+    "convention": "Cars park along the street; passenger loading zone sign nearer 0 m only."
+  },
+  "flags": [
+    "Dwellings within 25 m all round",
+    "Passengers loading zone sign at the start",
+    "Steep further south: up to 20% max, 8% mean overall"
+  ],
+  "sun_shade": "Tall trees on the east verge shade the kerb in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site beyond the mapped one"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 14,
+    "to_m": 30,
+    "where": "East kerb of Foxton Street, a short way south of the signed zone",
+    "slope_pct": 2.2,
+    "points": [
+      [
+        152.972872,
+        -27.502426
+      ],
+      [
+        152.972844,
+        -27.502568
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 35.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

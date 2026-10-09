@@ -1,0 +1,62 @@
+{
+  "candidate": "60666439-262475790-24229158-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, very steep kerb with houses and apartments within 12-20 m.",
+  "reasons": [
+    "Houses 12 m away on same side",
+    "Slope about 15%, over limit",
+    "Only 10 m long"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 12 m (houses) and 20 m (apartments) from the kerb, all on this side.",
+    "access_and_room": "Sealed street; cars park on the west side, east kerb is narrow with trees.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park along the street, but the stretch is too short and steep."
+  },
+  "flags": [
+    "Steep: about 15% grade, over 12% limit",
+    "Houses within 12 m"
+  ],
+  "sun_shade": "Tree canopy over the kerb; apartment block shades from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Foxton Street east kerb, by the Hillside apartments",
+    "slope_pct": 15.4,
+    "points": [
+      [
+        152.972737,
+        -27.503115
+      ],
+      [
+        152.972721,
+        -27.503201
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 16.4,
+    "min_elevation_m": 28.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

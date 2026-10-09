@@ -1,0 +1,67 @@
+{
+  "candidate": "60667417-1011976219-37584723-r-150",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb where cars park; homes 18 m away on the same side.",
+  "reasons": [
+    "Detached home 18 m, same side",
+    "Cars park along both kerbs",
+    "Park and church nearby"
+  ],
+  "drivers": {
+    "seclusion": "Detached home 18 m and apartments 14 m on the section's side; church 27 m; park opposite.",
+    "access_and_room": "Kerbside parking lane with cars parked; stretch is only 21 m, enough for one van.",
+    "traffic": "Through street beside a park; moderate traffic.",
+    "convention": "Cars park along the kerb; sign is 3P angle Mon-Fri 9am-4pm, so overnight is outside it."
+  },
+  "flags": [
+    "Dwellings 10-25 m away on same side",
+    "Short stretch, about one van length of room"
+  ],
+  "sun_shade": "Heavy tree canopy shades the section, mostly from the east and above.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 9,
+    "to_m": 21,
+    "where": "West kerb of Fairley Street, beside the church grounds south of the apartments",
+    "slope_pct": 2.4,
+    "points": [
+      [
+        152.980354,
+        -27.503174
+      ],
+      [
+        152.980357,
+        -27.503189
+      ],
+      [
+        152.980391,
+        -27.503277
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 13.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

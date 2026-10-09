@@ -1,0 +1,63 @@
+{
+  "candidate": "47490510-11052341774-1207081215-r-71",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "10 m of Moggill Road kerb: no stopping, busy arterial, homes 15 m away.",
+  "reasons": [
+    "No Stopping Any Time sign",
+    "Busy arterial, no parked cars",
+    "Dwelling 15 m; slope 13%"
+  ],
+  "drivers": {
+    "seclusion": "Detached dwelling 15 m and apartments nearby, in full view of road.",
+    "access_and_room": "Narrow kerb strip beside multi-lane road; no pull-off.",
+    "traffic": "Multi-lane arterial with constant traffic.",
+    "convention": "No Stopping Any Time; no cars parked along the kerb."
+  },
+  "flags": [
+    "Steep: about 13% grade",
+    "No Stopping Any Time sign",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open; no shade, sun all day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Moggill Road west kerb beside vacant lot",
+    "slope_pct": 13.1,
+    "points": [
+      [
+        152.975444,
+        -27.495509
+      ],
+      [
+        152.975385,
+        -27.495577
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 13.1,
+    "min_elevation_m": 29.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

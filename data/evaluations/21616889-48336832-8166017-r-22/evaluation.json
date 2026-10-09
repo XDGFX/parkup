@@ -1,0 +1,49 @@
+{
+  "candidate": "21616889-48336832-8166017-r-22",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb by a junction, with homes 8-9 m away.",
+  "reasons": [
+    "Dwellings 8-9 m from kerb",
+    "Short stretch at a junction",
+    "Homes close all round"
+  ],
+  "drivers": {
+    "seclusion": "Two dwellings within 9 m of the kerb, one at each end.",
+    "access_and_room": "Short 15 m kerb beside a junction; cars park here but it is tight for a van.",
+    "traffic": "Quiet residential junction.",
+    "convention": "No signs; a few cars park on this kerb."
+  },
+  "flags": [
+    "Dwelling 8 m from kerb",
+    "Flat, about 1% grade"
+  ],
+  "sun_shade": "Tree shade on the east side; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 27.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

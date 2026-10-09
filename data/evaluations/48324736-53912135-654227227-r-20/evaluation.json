@@ -1,0 +1,66 @@
+{
+  "candidate": "48324736-53912135-654227227-r-20",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Flat gap mid-hill with cars parked; homes just beyond 10 m either side.",
+  "reasons": [
+    "Dwellings 6-11 m away just beyond the gap",
+    "Cars park along this kerb",
+    "Very steep elsewhere on the stretch"
+  ],
+  "drivers": {
+    "seclusion": "Nearest mapped dwellings 11 m before and 6 m after the gap; the ones directly opposite are 27 m away, behind trees.",
+    "access_and_room": "Sealed street with cars parked along the kerb; room to stop beside the lane.",
+    "traffic": "Quiet residential street, light local traffic.",
+    "convention": "Residents' cars line this kerb, so a van would blend in loosely."
+  },
+  "flags": [
+    "Dwellings 3-11 m from kerb along most of the stretch",
+    "Very steep elsewhere: up to 21% grade",
+    "No Stopping sign for Payne Street at the top, not this kerb"
+  ],
+  "sun_shade": "Trees and hedges along the west edge shade the kerb in the afternoon; open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 122,
+    "to_m": 133,
+    "where": "west kerb of Manchester Terrace on the flat shoulder, between the two hedged properties",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        152.974113,
+        -27.495525
+      ],
+      [
+        152.974044,
+        -27.495603
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 48.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

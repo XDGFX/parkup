@@ -1,0 +1,68 @@
+{
+  "candidate": "603459271-10767738620-129221353-r-140",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Moggill Road clearway and no-stopping kerb; no cars parked, dwelling 19 m away.",
+  "reasons": [
+    "Clearway tow-away and No Stopping signs",
+    "Busy multi-lane arterial, no parked cars",
+    "Dwelling 19 m at start"
+  ],
+  "drivers": {
+    "seclusion": "Exposed on a six-lane road; houses 41 m away behind the footpath.",
+    "access_and_room": "Kerb of a major through road with no parking lane; no room to pull out of traffic.",
+    "traffic": "Constant multi-lane traffic.",
+    "convention": "Clearway Mon-Sat 7am-7pm and No Stopping Any Time; no parked cars seen."
+  },
+  "flags": [
+    "Clearway tow-away 7am-7pm",
+    "No Stopping Any Time",
+    "Arterial noise",
+    "Steep at far end: max 19% grade"
+  ],
+  "sun_shade": "Open; no tree cover on the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 45,
+    "where": "Moggill Road kerb opposite the car park, between the junctions",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.976028,
+        -27.495019
+      ],
+      [
+        152.975955,
+        -27.495109
+      ],
+      [
+        152.975883,
+        -27.495203
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 26.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

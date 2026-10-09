@@ -1,0 +1,34 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Flat kerb on a quiet street where cars park; homes 16-19 m away.",
+  "reasons": [
+    "Homes 16-19 m away on all sides",
+    "Cars park along this street",
+    "Flat here, steep elsewhere"
+  ],
+  "best_section": {
+    "from_m": 78,
+    "to_m": 92,
+    "where": "west kerb of Manchester Terrace on the flat shoulder of the hill, between the hedges",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Mapped dwellings 16-19 m away on this side and houses across the road; hedges and trees screen some of them.",
+    "access_and_room": "Sealed street with cars parked on both sides; room to stop beside the lane.",
+    "traffic": "Quiet residential street, light local traffic.",
+    "convention": "Residents' cars line the street, so a van would blend in loosely."
+  },
+  "flags": [
+    "Dwellings 12-20 m from kerb along the whole stretch",
+    "Steep either side of the flat: up to 12% grade"
+  ],
+  "sun_shade": "Hedge and trees shade the kerb from the west; open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium"
+}

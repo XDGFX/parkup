@@ -1,0 +1,64 @@
+{
+  "candidate": "48324854-53912235-1259261016-r-14",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "South kerb backing onto overgrown bush block; cars park here, homes only across road.",
+  "reasons": [
+    "Backs onto bush, no house on this side",
+    "Nearest homes 19 m, across the road",
+    "Cars park along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush and vegetation on the south side; nearest dwellings are 19 m away across the road, 26 m or more on this side.",
+    "access_and_room": "Sealed street with cars parked on the south kerb; room to stop.",
+    "traffic": "Quiet residential side street, a main road at the western corner.",
+    "convention": "Several cars parked on both kerbs in both images; no signs."
+  },
+  "flags": [
+    "Steep: about 11-12% grade over this section",
+    "Houses 19 m opposite",
+    "Noise from the main road at the west corner"
+  ],
+  "sun_shade": "Bush canopy shades the kerb from the south; open to morning and midday sun otherwise.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 45,
+    "where": "Greenlaw Street south kerb, beside the overgrown vacant block near the Coronation Drive end",
+    "slope_pct": 11.4,
+    "points": [
+      [
+        152.978214,
+        -27.497789
+      ],
+      [
+        152.978514,
+        -27.497832
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 11.4,
+    "min_elevation_m": 29.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

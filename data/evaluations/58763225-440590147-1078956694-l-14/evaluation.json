@@ -1,0 +1,64 @@
+{
+  "candidate": "58763225-440590147-1078956694-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short residential kerb with a house 8 m away and a steep grade.",
+  "reasons": [
+    "Dwelling 8 m from kerb",
+    "Houses all round",
+    "Grade about 11%"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes at 8 m and 13 m on the section's side, more all round.",
+    "access_and_room": "Kerb on a narrow residential street; only 11 m long, less than a van.",
+    "traffic": "Quiet residential street, a few cars parked.",
+    "convention": "Residents park on the street; no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 11% mean, 15.8% max",
+    "Dwelling within 10 m"
+  ],
+  "sun_shade": "Street trees shade the kerb in places; houses on the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 11,
+    "where": "West kerb of Fairley Street, outside the corner house",
+    "slope_pct": 10.9,
+    "points": [
+      [
+        152.981076,
+        -27.498978
+      ],
+      [
+        152.981095,
+        -27.49888
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 13.8,
+    "min_elevation_m": 26.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,61 @@
+{
+  "candidate": "53912096-53912135-47414039-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Very steep residential street with houses 12-17 m from the kerb.",
+  "reasons": [
+    "Slope about 19%, over 12% limit",
+    "Dwellings 12-17 m away on this side",
+    "Narrow street lined with homes"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the kerb along its length; nearest dwellings 12-17 m away.",
+    "access_and_room": "Sealed street with a few cars parked on both sides; usable but the gradient is extreme.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park along the street, but dense housing makes a van conspicuous."
+  },
+  "flags": [
+    "Steep: mean grade 18.8%, max 22.6%"
+  ],
+  "sun_shade": "Mostly open sealed street; trees shade parts of the east verge.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Bottom of Manchester Terrace at the corner, east kerb",
+    "slope_pct": 11,
+    "points": [
+      [
+        152.97352,
+        -27.496392
+      ],
+      [
+        152.973582,
+        -27.496321
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 21.6,
+    "min_elevation_m": 37.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

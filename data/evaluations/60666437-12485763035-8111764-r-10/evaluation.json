@@ -1,0 +1,63 @@
+{
+  "candidate": "60666437-12485763035-8111764-r-10",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, but homes 16-22 m away and steep.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Homes 16-22 m away on this side",
+    "Steep, about 11% near the top"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 16-22 m away; church 14 m; apartments close at the lower end.",
+    "access_and_room": "Parked cars line the kerb, so there is room to stop.",
+    "traffic": "Residential road with moderate traffic; cars park both sides.",
+    "convention": "2P parking sign weekdays 9-5; cars park here routinely."
+  },
+  "flags": [
+    "Steep: about 11% grade in the best section",
+    "Dense housing and apartments all round",
+    "Weekday 2P limit 9am-5pm"
+  ],
+  "sun_shade": "Mostly open; trees shade the kerb from the west and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 40,
+    "to_m": 62,
+    "where": "Upper Musgrave Road east kerb, beside the church and houses",
+    "slope_pct": 11,
+    "points": [
+      [
+        152.971454,
+        -27.502312
+      ],
+      [
+        152.971492,
+        -27.502117
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 11.4,
+    "min_elevation_m": 30.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

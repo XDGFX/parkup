@@ -1,0 +1,64 @@
+{
+  "candidate": "54625075-714281555-15703471-r-57",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Ten-metre kerb on a busy road, home 11 m away, steep.",
+  "reasons": [
+    "Only 10 m, under a van length",
+    "Home 11 m behind kerb",
+    "Grade about 12%"
+  ],
+  "drivers": {
+    "seclusion": "Residential unit blocks 11 m and 16 m away on the section's side; houses all round.",
+    "access_and_room": "Kerb on a busy two-way road, stretch shorter than a van and next to a driveway.",
+    "traffic": "Through road with steady traffic.",
+    "convention": "Cars park on the opposite side; this side has a driveway and little parking."
+  },
+  "flags": [
+    "Steep: about 12% mean, 12.8% max",
+    "Dwelling within 15 m",
+    "Busy road noise"
+  ],
+  "sun_shade": "Small tree over the western end; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "South kerb of Finney Road beside a driveway entrance",
+    "slope_pct": 12.1,
+    "points": [
+      [
+        152.970258,
+        -27.501587
+      ],
+      [
+        152.970356,
+        -27.501602
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 12.1,
+    "min_elevation_m": 28.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

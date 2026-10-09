@@ -1,0 +1,49 @@
+{
+  "candidate": "21616844-156871696-198993886-l-80",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short 12 m kerb on busy Moggill Road, bus zone, houses beside.",
+  "reasons": [
+    "Main road, no cars parked",
+    "Bus zone sign; shorter than a van's usable room",
+    "Dwelling 9 m from end of kerb"
+  ],
+  "drivers": {
+    "seclusion": "Shops and detached houses 7-9 m from the kerb, multi-lane road in front.",
+    "access_and_room": "Only 12 m of kerb beside a junction and zebra-hatched island; no pull-in.",
+    "traffic": "Heavy arterial traffic, buses.",
+    "convention": "Bus zone (Mon-Sat 4-7pm); no cars parked along this kerb."
+  },
+  "flags": [
+    "Bus zone sign Mon-Sat 4pm-7pm",
+    "Arterial noise",
+    "Slope 2.8%, fine"
+  ],
+  "sun_shade": "Large tree shades the kerb from the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Overnight enforcement"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 2.8,
+    "min_elevation_m": 52.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

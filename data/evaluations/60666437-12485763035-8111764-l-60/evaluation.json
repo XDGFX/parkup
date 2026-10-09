@@ -1,0 +1,63 @@
+{
+  "candidate": "60666437-12485763035-8111764-l-60",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short Musgrave Road kerb, too steep at about 13%, homes 12 m away.",
+  "reasons": [
+    "Slope about 13%, over limit",
+    "Dwellings 12 m on own side",
+    "Only 15 m of kerb"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 12 m away on both sides; church 16 m.",
+    "access_and_room": "Cars park along this kerb, but the 15 m stretch is barely a van length.",
+    "traffic": "Quiet residential street.",
+    "convention": "No signs mapped; cars park along it."
+  },
+  "flags": [
+    "Steep: about 13% grade",
+    "Homes within 12 m"
+  ],
+  "sun_shade": "Street trees overhead on the west side; partly shaded.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether a van-length gap is free"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "West kerb of Musgrave Road, uphill of the first bend",
+    "slope_pct": 12.7,
+    "points": [
+      [
+        152.971398,
+        -27.502175
+      ],
+      [
+        152.971423,
+        -27.502046
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 12.3,
+    "min_elevation_m": 32.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

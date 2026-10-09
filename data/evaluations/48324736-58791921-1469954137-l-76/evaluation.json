@@ -1,0 +1,64 @@
+{
+  "candidate": "48324736-58791921-1469954137-l-76",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short corner kerb on a residential street; homes 18-19 m away.",
+  "reasons": [
+    "Homes 18-19 m away on the far side",
+    "Short 13 m stretch at a bend",
+    "No Stopping signs beside the kerb"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 18-19 m away across the road and a house on the corner lot behind the kerb; trees to the east.",
+    "access_and_room": "Sealed street, one car parked at the kerb; just over one van length of kerb.",
+    "traffic": "Quiet residential bend with light local traffic.",
+    "convention": "Cars park nearby, but two No Stopping Any Time signs sit at this kerb."
+  },
+  "flags": [
+    "Steep: about 6% grade, max 11.8%",
+    "No Stopping Any Time signs at both ends of the stretch",
+    "Homes within about 25 m on both sides"
+  ],
+  "sun_shade": "Open to the sky; trees to the east shade the morning sun at the east end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 13,
+    "where": "South kerb at the Payne Street bend, beside the grassed corner lot",
+    "slope_pct": 6,
+    "points": [
+      [
+        152.974269,
+        -27.494463
+      ],
+      [
+        152.974138,
+        -27.494452
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 7.5,
+    "min_elevation_m": 38,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

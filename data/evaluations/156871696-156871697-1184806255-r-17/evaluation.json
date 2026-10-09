@@ -1,0 +1,67 @@
+{
+  "candidate": "156871696-156871697-1184806255-r-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bus zone kerb on a busy Moggill Road junction, dwelling 14 m away.",
+  "reasons": [
+    "Bus Zone sign, junction frontage",
+    "Busy main road, no parked cars",
+    "Detached dwelling 14 m away"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 14 m and 20 m on the same side; shops and an office beside.",
+    "access_and_room": "Kerb of a through road at a junction; no pull-off, no cars parked.",
+    "traffic": "Busy multi-lane road with a painted island at the junction.",
+    "convention": "Bus Zone 4-7pm Mon-Sat; no parked cars seen along this kerb."
+  },
+  "flags": [
+    "Bus Zone sign",
+    "Main road noise",
+    "Flat: about 1% grade"
+  ],
+  "sun_shade": "Large tree canopy over the kerb; shade most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 13,
+    "where": "South kerb of Moggill Road at the side-street junction, under a large tree",
+    "slope_pct": 1.1,
+    "points": [
+      [
+        152.969609,
+        -27.498349
+      ],
+      [
+        152.969694,
+        -27.498293
+      ],
+      [
+        152.969713,
+        -27.498282
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 52.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

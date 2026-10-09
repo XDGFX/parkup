@@ -1,0 +1,66 @@
+{
+  "candidate": "48336765-58791921-1469954137-r-0",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Shaded residential kerb at a bend, homes 10-17 m away on its own side.",
+  "reasons": [
+    "Dwellings 10-17 m away, same side",
+    "Steep: about 7% grade",
+    "Quiet street, tree-shaded kerb"
+  ],
+  "drivers": {
+    "seclusion": "Homes at 10, 12 and 17 m on the same side; more homes across the road.",
+    "access_and_room": "Sealed street; cars park near the corner, kerbside room looks adequate.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "No signs; ordinary street parking, no overnight convention known."
+  },
+  "flags": [
+    "Steep: about 7% mean grade, max 15.6% locally",
+    "Dwellings only 10-12 m from the section",
+    "Mapped gate 193 m away, has a way round"
+  ],
+  "sun_shade": "Heavy tree canopy over most of the section, shading from the north and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 22,
+    "where": "Payne Street south kerb under the large trees, east of the corner",
+    "slope_pct": 6,
+    "points": [
+      [
+        152.97354,
+        -27.494367
+      ],
+      [
+        152.97366,
+        -27.494385
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 7.1,
+    "min_elevation_m": 34.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

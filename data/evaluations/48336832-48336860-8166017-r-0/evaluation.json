@@ -1,0 +1,63 @@
+{
+  "candidate": "48336832-48336860-8166017-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb where cars park; homes 20-25 m away all round.",
+  "reasons": [
+    "Homes within 25 m all round",
+    "Residential street, cars park here",
+    "Flat, about 2% grade"
+  ],
+  "drivers": {
+    "seclusion": "Nearest homes 21-23 m away on this side, houses opposite too.",
+    "access_and_room": "Kerb is clear with room for a van beside the lane.",
+    "traffic": "Quiet residential street.",
+    "convention": "No signs; cars park along the street, but residents would notice a van."
+  },
+  "flags": [
+    "Homes within about 25 m all round",
+    "No parking signs mapped for this stretch"
+  ],
+  "sun_shade": "Street trees shade the kerb from the east and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Local overnight rules"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 48,
+    "where": "East kerb of Nelson Parade, beside the leafy side fences",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.97246,
+        -27.49525
+      ],
+      [
+        152.972491,
+        -27.49509
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 28,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

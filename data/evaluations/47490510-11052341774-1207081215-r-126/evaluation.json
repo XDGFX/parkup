@@ -1,0 +1,68 @@
+{
+  "candidate": "47490510-11052341774-1207081215-r-126",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Plain kerb on busy Moggill Road where cars park; building with pool close by.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Busy arterial, exposed to traffic",
+    "Large building with pool about 13 m"
+  ],
+  "drivers": {
+    "seclusion": "Mapped commercial building 13 m away; imagery shows a pool and cars, so it may be homes. Open to the road.",
+    "access_and_room": "Kerbside parking lane where cars are parked; room for a van.",
+    "traffic": "Multi-lane arterial beside the lane; noisy.",
+    "convention": "2P parallel sign; cars park here, so a van blends in."
+  },
+  "flags": [
+    "Steep: about 6% grade",
+    "2P time limit sign",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open; small trees on the building side, sun most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the large building is residential"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 9,
+    "where": "Moggill Road west kerb beside the building with the pool",
+    "slope_pct": 6.1,
+    "points": [
+      [
+        152.975107,
+        -27.495899
+      ],
+      [
+        152.975057,
+        -27.495957
+      ],
+      [
+        152.975053,
+        -27.495961
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 46,
+    "gated": false,
+    "slope_pct": 6.1,
+    "min_elevation_m": 32.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

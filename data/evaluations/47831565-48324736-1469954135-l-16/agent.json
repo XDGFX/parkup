@@ -1,0 +1,35 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Quiet street kerb beside a lawn; flats and homes 10-25 m away.",
+  "reasons": [
+    "Dwellings 10-21 m away on all sides",
+    "Quiet residential street, no parking convention",
+    "Moderately steep, about 3.5%"
+  ],
+  "best_section": {
+    "from_m": 20,
+    "to_m": 38,
+    "where": "east kerb of Manchester Terrace, beside the lawn and trees south of the flats",
+    "slope_pct": 3.5
+  },
+  "drivers": {
+    "seclusion": "Lawn and trees on this side; nearest mapped dwellings 9-11 m away at the ends and Easton Ridge flats 21 m across the road.",
+    "access_and_room": "Sealed street with a few cars parked; grass verge gives room beside the lane.",
+    "traffic": "Short side street off a busy road; light local traffic.",
+    "convention": "A few cars park on the street, but it is not a clear parking street."
+  },
+  "flags": [
+    "Steep: about 3.5% here, 10% max nearby",
+    "Dwellings 9-11 m away at either end of the section",
+    "Busy road at the north end adds noise"
+  ],
+  "sun_shade": "Trees along the east edge shade the kerb from the east; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium"
+}

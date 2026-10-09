@@ -1,0 +1,34 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Steep street with houses 4-12 m from the kerb nearly all the way.",
+  "reasons": [
+    "Dwellings within 12 m almost throughout",
+    "Steep: about 11% at the best gap",
+    "Narrow street with hedges and fences"
+  ],
+  "best_section": {
+    "from_m": 58,
+    "to_m": 66,
+    "where": "east kerb of Manchester Terrace, midway up the hill between two houses",
+    "slope_pct": 11
+  },
+  "drivers": {
+    "seclusion": "Houses 10-21 m from this gap and 8-12 m at either side; homes front the whole east side.",
+    "access_and_room": "Narrow sealed street; cars park on the opposite side, little clear ground beside this kerb.",
+    "traffic": "Quiet residential street, light local traffic.",
+    "convention": "Residents park on the west side; no sign of overnight vans."
+  },
+  "flags": [
+    "Steep: about 11% here, 18% max along the stretch",
+    "Mapped dwellings 4-12 m from kerb along most of the length"
+  ],
+  "sun_shade": "Hedges and trees shade the east kerb from the east; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "high"
+}

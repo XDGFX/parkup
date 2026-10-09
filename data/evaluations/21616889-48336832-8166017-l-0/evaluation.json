@@ -1,0 +1,48 @@
+{
+  "candidate": "21616889-48336832-8166017-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a junction mouth, signed No Stopping, with homes 13 m away.",
+  "reasons": [
+    "Junction corner, no room to park",
+    "No Stopping Any Time sign",
+    "Home 13 m away"
+  ],
+  "drivers": {
+    "seclusion": "Dwelling 13 m from the kerb at 8 m; homes all round.",
+    "access_and_room": "Kerb is at a road junction corner; no clear room to stop out of the lane.",
+    "traffic": "Quiet residential junction, with turning traffic.",
+    "convention": "No Stopping Any Time sign, no parked cars on this stretch."
+  },
+  "flags": [
+    "No Stopping Any Time sign on the stretch",
+    "Junction corner",
+    "Slope about 3.7% mean"
+  ],
+  "sun_shade": "Trees shade the kerb from the west and south-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 3.7,
+    "min_elevation_m": 27.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

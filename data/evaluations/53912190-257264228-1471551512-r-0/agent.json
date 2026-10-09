@@ -1,0 +1,35 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Busy road kerb where cars park, but flats and houses sit 10-20 m back.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Dwellings 12-19 m away on own side",
+    "Busy road, little privacy"
+  ],
+  "best_section": {
+    "from_m": 56,
+    "to_m": 68,
+    "where": "south kerb of Lambert Road, east of the red-roofed units, near the middle of the stretch",
+    "slope_pct": 1.0
+  },
+  "drivers": {
+    "seclusion": "Apartments and houses 12-19 m away on the same side, others closer either side; no clear gap.",
+    "access_and_room": "Kerbside parking lane with cars in it; room to stop clear of traffic.",
+    "traffic": "Busy multi-lane road with constant passing traffic.",
+    "convention": "Cars visibly park along this kerb; no signs mapped here."
+  },
+  "flags": [
+    "Mapped dwellings 8-10 m from kerb just either side of the section",
+    "Busy road noise",
+    "Slope max about 5.6% at the ends"
+  ],
+  "sun_shade": "Mostly open; street trees opposite shade the lane in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Unsigned time limits"
+  ],
+  "confidence": "medium"
+}

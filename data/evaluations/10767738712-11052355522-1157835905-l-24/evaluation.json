@@ -1,0 +1,72 @@
+{
+  "candidate": "10767738712-11052355522-1157835905-l-24",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway kerb on a busy Moggill Road ramp section with no parking.",
+  "reasons": [
+    "Clearway sign, 7am-7pm Mon-Fri",
+    "Main road, no parked cars",
+    "No pull-off beside the lane"
+  ],
+  "drivers": {
+    "seclusion": "Homes 33 m or more away, but the kerb is in open view of a multi-lane road.",
+    "access_and_room": "Kerb runs straight on to the traffic lane beside a median; no bay or shoulder.",
+    "traffic": "Heavy multi-lane arterial with an interchange and roadworks.",
+    "convention": "Clearway weekdays 7am-7pm; no cars parked along this stretch."
+  },
+  "flags": [
+    "Clearway Mon-Fri 7am-7pm",
+    "Arterial noise",
+    "Roadworks beside the road",
+    "DEM slope figures unreliable here, about 2.5% on the samples"
+  ],
+  "sun_shade": "Open; no tree cover.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 35,
+    "where": "North kerb of Moggill Road beside the new interchange",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        152.97432,
+        -27.497006
+      ],
+      [
+        152.97433,
+        -27.497
+      ],
+      [
+        152.974463,
+        -27.496916
+      ],
+      [
+        152.974601,
+        -27.496814
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 33,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 25.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

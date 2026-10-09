@@ -1,0 +1,51 @@
+{
+  "candidate": "60666439-3493107715-8111763-l-35",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short overgrown stub, house 8 m away and no visible road surface.",
+  "reasons": [
+    "Detached house 8 m from start",
+    "No clear road surface under canopy",
+    "Only 15 m long, steep 6.6%"
+  ],
+  "drivers": {
+    "seclusion": "Detached home 8 m away at the start; houses and apartments overlook it on every side.",
+    "access_and_room": "The line crosses trees and scrub west of the corner; no sealed lane or pull-off is visible, and only 15 m long.",
+    "traffic": "Quiet dead-end stub off a street with parked cars.",
+    "convention": "No signs; no vans or tents seen."
+  },
+  "flags": [
+    "Steep: about 6.6% mean grade, max 8.6%",
+    "Dwelling 8 m from the section",
+    "Low-lying: min elevation 26 m, creek 239 m away"
+  ],
+  "sun_shade": "Dense tree canopy covers the whole stretch.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether a vehicle can reach the stub",
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 6.6,
+    "min_elevation_m": 26.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

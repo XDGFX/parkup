@@ -1,0 +1,48 @@
+{
+  "candidate": "21616889-13168634166-1432673043-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow lane with No Stopping signs and homes 11-13 m away.",
+  "reasons": [
+    "No Stopping Any Time signs",
+    "Dwellings 11-13 m away",
+    "Narrow, tree-lined, nowhere to pull off"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 11 m and 13 m from the kerb; apartments and houses all round.",
+    "access_and_room": "Narrow lane edged by trees and kerb; no room to pull clear of the lane.",
+    "traffic": "Quiet lane off a junction.",
+    "convention": "Two No Stopping Any Time signs along the stretch; no parked cars."
+  },
+  "flags": [
+    "No Stopping Any Time signs",
+    "Mapped gate 4 m away, not on the only access",
+    "Slope about 2.7% mean"
+  ],
+  "sun_shade": "Heavy tree shade from both sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 28.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:10:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
