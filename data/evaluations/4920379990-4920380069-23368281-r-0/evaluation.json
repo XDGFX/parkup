@@ -1,0 +1,48 @@
+{
+  "candidate": "4920379990-4920380069-23368281-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short stretch across a junction mouth and turning bend; parking would block the road.",
+  "reasons": [
+    "Junction give-way line across stretch",
+    "No clear ground beside the lane",
+    "Only 14 m long, a bend"
+  ],
+  "drivers": {
+    "seclusion": "Bush to the south and homes 24 m or more away, but the spot itself is a junction.",
+    "access_and_room": "The line runs along a give-way marking at the junction and a tight bend; no room to pull out of the lane.",
+    "traffic": "Quiet residential junction, but a van would block turning vehicles.",
+    "convention": "No parked cars seen."
+  },
+  "flags": [
+    "Junction and bend, markings across the stretch",
+    "Steep: about 6% mean, 8% max",
+    "Witton Creek 63 m away"
+  ],
+  "sun_shade": "Open road; dense tree canopy to the south and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 24,
+    "gated": false,
+    "slope_pct": 4.8,
+    "min_elevation_m": 42.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

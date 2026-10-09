@@ -1,0 +1,98 @@
+{
+  "id": "4920414462-4920414474-501161177-r-13",
+  "street": "",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.962308,
+      -27.498427
+    ],
+    [
+      152.962212,
+      -27.49841
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "north",
+  "length_m": 10,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9619125,
+      "lat": -27.5009232,
+      "metres": 280,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.962308,
+        "lat": -27.498427,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 37.69
+      },
+      {
+        "lon": 152.962258,
+        "lat": -27.498418,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 37.9
+      },
+      {
+        "lon": 152.962212,
+        "lat": -27.49841,
+        "at_m": 9.7,
+        "line": 0,
+        "elevation_m": 38.02
+      }
+    ],
+    "min_elevation_m": 37.7,
+    "max_elevation_m": 38,
+    "mean_grade_pct": 3.4,
+    "max_grade_pct": 4.2
+  },
+  "waterway": {
+    "name": null,
+    "metres": 47
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 10,
+      "length_m": 10,
+      "images": {
+        "esri": ".cache/imagery/4920414462-4920414474-501161177-r-13/chunk1-esri.jpg",
+        "qld": ".cache/imagery/4920414462-4920414474-501161177-r-13/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        69,
+        62
+      ],
+      "image_px": [
+        463,
+        413
+      ]
+    }
+  ]
+}

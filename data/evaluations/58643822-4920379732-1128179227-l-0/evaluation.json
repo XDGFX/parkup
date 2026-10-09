@@ -1,0 +1,46 @@
+{
+  "candidate": "58643822-4920379732-1128179227-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "The candidate is a roundabout's central island; no place to stop.",
+  "reasons": [
+    "Roundabout centre island, not parkable",
+    "Traffic circulates all round it",
+    "Homes 24-30 m away"
+  ],
+  "drivers": {
+    "seclusion": "Open junction with homes about 24 m and more around; no cover.",
+    "access_and_room": "The line is the roundabout island kerb; stopping means blocking the circulating lane.",
+    "traffic": "Continuous junction traffic on all legs.",
+    "convention": "No parked cars or marked bays at the junction."
+  },
+  "flags": [
+    "Roundabout island, not a kerb",
+    "Steep: 8% mean grade over the 7 m"
+  ],
+  "sun_shade": "Island has small trees; mostly open sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking on the approach roads"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 24,
+    "gated": false,
+    "slope_pct": 9.4,
+    "min_elevation_m": 51.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

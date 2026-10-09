@@ -1,0 +1,76 @@
+{
+  "candidate": "osm-way-1343612049",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small paved lot behind St Andrews church, screened by trees, no homes nearby.",
+  "reasons": [
+    "Church and school only nearby",
+    "Cars parked there, so reachable",
+    "Tree-screened from both roads"
+  ],
+  "drivers": {
+    "seclusion": "Church wall to south, trees and lawn north; no dwellings within 50 m.",
+    "access_and_room": "Small paved bay with cars parked, joined to the drive on the east side; room for one van.",
+    "traffic": "Two roads either side, both screened by trees.",
+    "convention": "Church parking behind the building; no campers seen."
+  },
+  "flags": [
+    "Small lot, access route into it is unclear",
+    "Church may use it for events",
+    "Steeper on the lawn side, up to 17% on outline"
+  ],
+  "sun_shade": "Church shades it from the south; tree canopy covers the north and west sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact entrance and any gate",
+    "Signs on site",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 50,
+    "to_m": 70,
+    "where": "paved area against the back wall of St Andrews church",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.019341,
+        -27.48144
+      ],
+      [
+        153.019291,
+        -27.481465
+      ],
+      [
+        153.019284,
+        -27.481443
+      ],
+      [
+        153.019171,
+        -27.481412
+      ],
+      [
+        153.01917,
+        -27.481412
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 17.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

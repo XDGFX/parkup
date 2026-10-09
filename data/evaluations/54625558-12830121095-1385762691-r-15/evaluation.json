@@ -1,0 +1,66 @@
+{
+  "candidate": "54625558-12830121095-1385762691-r-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Tiny dead-end stub serving a house that sits right at its end.",
+  "reasons": [
+    "Unmapped house at the stub's end",
+    "Looks like private driveway, no room",
+    "Under 16 m, hemmed in by trees"
+  ],
+  "drivers": {
+    "seclusion": "Bush around, but a house stands within a few metres of the stub's end, unmapped in OSM.",
+    "access_and_room": "Narrow paved stub, apparently the house's driveway; no clear space to stop clear of access.",
+    "traffic": "Negligible traffic, but any van blocks the residents.",
+    "convention": "No sign of parking or camping here."
+  },
+  "flags": [
+    "Low-lying: min 6.6 m, Witton Creek 20 m",
+    "Likely private drive"
+  ],
+  "sun_shade": "Heavy tree canopy, especially from the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the stub is private",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "short sealed stub off the lane, ending at a house",
+    "slope_pct": 2.7,
+    "points": [
+      [
+        152.970417,
+        -27.504319
+      ],
+      [
+        152.970377,
+        -27.504269
+      ],
+      [
+        152.970306,
+        -27.504218
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 25,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 6.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

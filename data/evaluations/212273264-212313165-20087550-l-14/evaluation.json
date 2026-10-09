@@ -1,0 +1,50 @@
+{
+  "candidate": "212273264-212313165-20087550-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow private-looking townhouse street, steep, with homes beside every stretch.",
+  "reasons": [
+    "Townhouses within 10 m along most of it",
+    "Narrow lane, no room to pull off",
+    "Steep: about 7.7% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Dense townhouse estate; homes right at the kerb from about 50 m to the end. The 0-50 m stretch has a house about 10 m east and homes opposite.",
+    "access_and_room": "Narrow sealed lane with kerb to fence and bank on both sides; no verge or pull-off wide enough for a van.",
+    "traffic": "Quiet cul-de-sac loop, but residents only; a highway runs beyond bush to the east.",
+    "convention": "No parked cars on the lane, apart from one car near the far end; looks like a private complex road."
+  },
+  "flags": [
+    "Steep: about 7.7% mean, up to 20% max",
+    "Looks like a private estate road",
+    "Homes not mapped in OSM but clear in imagery",
+    "Gate 12 m from the end, with a way round"
+  ],
+  "sun_shade": "Mostly open to sun; bush shades the western side near the end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the estate road is private",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 7.7,
+    "min_elevation_m": 27.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

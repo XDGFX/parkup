@@ -1,0 +1,100 @@
+{
+  "candidate": "4920379990-4920380069-23252484-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb by the junction backing onto bush; homes about 20 m away.",
+  "reasons": [
+    "Bush on this side, homes 19 m+",
+    "Flat here, steep further up",
+    "Quiet street, no cars parked"
+  ],
+  "drivers": {
+    "seclusion": "Bush and trees beside the kerb; nearest homes about 19-25 m away.",
+    "access_and_room": "Sealed road reaches it; kerb beside the junction mouth has room for a van.",
+    "traffic": "Quiet residential street, low traffic.",
+    "convention": "No cars parked along this stretch in the imagery."
+  },
+  "flags": [
+    "Quiet street with no parking convention",
+    "Steep beyond 20 m, up to 33% locally",
+    "Near Witton Creek about 66 m"
+  ],
+  "sun_shade": "Dense tree canopy to the south-west shades the afternoon; open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Parking restrictions on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 2,
+    "to_m": 20,
+    "where": "Blackstone Street west kerb at the lower junction, beside the bush",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.964599,
+        -27.494318
+      ],
+      [
+        152.964575,
+        -27.494296
+      ],
+      [
+        152.964566,
+        -27.494287
+      ],
+      [
+        152.964556,
+        -27.494274
+      ],
+      [
+        152.964549,
+        -27.49426
+      ],
+      [
+        152.964543,
+        -27.494246
+      ],
+      [
+        152.96454,
+        -27.494232
+      ],
+      [
+        152.964536,
+        -27.494216
+      ],
+      [
+        152.964532,
+        -27.494197
+      ],
+      [
+        152.964529,
+        -27.494182
+      ],
+      [
+        152.964529,
+        -27.494174
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 3.1,
+    "min_elevation_m": 42.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

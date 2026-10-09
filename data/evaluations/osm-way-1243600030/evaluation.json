@@ -1,0 +1,65 @@
+{
+  "candidate": "osm-way-1243600030",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Open church car park beside an arterial, no homes within 28 m.",
+  "reasons": [
+    "Church and car park, not homes, beside it",
+    "Nearest dwelling 28 m or more",
+    "Direct access from Sir William MacGregor Drive"
+  ],
+  "drivers": {
+    "seclusion": "Church next door; nearest dwellings 28 m west and 29 m student block across the road.",
+    "access_and_room": "Open sealed lot with several bays free, entered straight off the drive; no gate seen.",
+    "traffic": "Busy arterial just north; noise but van stands clear of the lane.",
+    "convention": "Church lot with some parked cars; no campers seen."
+  },
+  "flags": [
+    "Noisy arterial alongside",
+    "Church use may bring people on Sundays",
+    "Houses 13-16 m from south edge, avoid that side",
+    "Steeper west edge up to about 11%"
+  ],
+  "sun_shade": "Open sealed surface, full sun; church roof shades the south side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site limiting church parking",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 190,
+    "to_m": 207,
+    "where": "north-west corner of the Serbian Orthodox church car park, off the main road entrance",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.022656,
+        -27.482674
+      ],
+      [
+        153.022486,
+        -27.482649
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 29,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 19,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

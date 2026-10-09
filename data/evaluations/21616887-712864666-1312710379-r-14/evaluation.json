@@ -1,0 +1,64 @@
+{
+  "candidate": "21616887-712864666-1312710379-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside apartment blocks at a signalised junction; dwellings within 6 m.",
+  "reasons": [
+    "Apartments 6 m from kerb",
+    "Only 19 m, at busy junction",
+    "Main road, little kerb parking"
+  ],
+  "drivers": {
+    "seclusion": "Apartments at 6 m and 10 m, more within 30 m.",
+    "access_and_room": "Kerb lane beside a junction; room is tight at the corner.",
+    "traffic": "Busy signalised junction with queuing cars.",
+    "convention": "A few cars park on the south kerb but it is a main road."
+  },
+  "flags": [
+    "Dwelling within 10 m",
+    "Busy junction noise"
+  ],
+  "sun_shade": "Mostly open; tree shade at the west end, tall buildings to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Parking restrictions on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 19,
+    "where": "Belgrave Road south kerb, beside Reeze on the Park apartments",
+    "slope_pct": 1.7,
+    "points": [
+      [
+        152.975259,
+        -27.500282
+      ],
+      [
+        152.975448,
+        -27.500314
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 19.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

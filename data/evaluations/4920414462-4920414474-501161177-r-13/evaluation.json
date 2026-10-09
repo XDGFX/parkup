@@ -1,0 +1,49 @@
+{
+  "candidate": "4920414462-4920414474-501161177-r-13",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "10 m kerb at a townhouse estate road end, with a house beside it.",
+  "reasons": [
+    "Townhouse within 10 m of kerb",
+    "Private estate road, tight dead end",
+    "Only 10 m long"
+  ],
+  "drivers": {
+    "seclusion": "Townhouse right beside the kerb on the north and homes across the lane; unmapped in OSM but clear in imagery.",
+    "access_and_room": "Short kerb at the end of the estate road, kerb to fence and garage apron; no pull-off beyond the lane.",
+    "traffic": "Residents-only street; a highway beyond bush to the east.",
+    "convention": "Looks like a private complex road; cars park only in resident bays."
+  },
+  "flags": [
+    "Looks like a private estate road",
+    "Slight slope: about 3.4% mean",
+    "Homes not mapped in OSM but clear in imagery"
+  ],
+  "sun_shade": "Open to sun; trees shade the west end in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the estate road is private",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 4.2,
+    "min_elevation_m": 37.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,69 @@
+{
+  "candidate": "364012308-364012309-32334187-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep narrow lane with houses 7-10 m from the kerb.",
+  "reasons": [
+    "Grade about 16%, max 19%",
+    "Dwellings 7-10 m away",
+    "Narrow lane, little room to pull off"
+  ],
+  "drivers": {
+    "seclusion": "Houses on the same side 7-10 m from the kerb for most of the stretch.",
+    "access_and_room": "Narrow sealed lane with kerb-to-garden edges; no pull-off beside the lane.",
+    "traffic": "Quiet residential link, light traffic.",
+    "convention": "A few cars park at the top end; none seen on the steep part."
+  },
+  "flags": [
+    "Steep: about 16% mean, 19% max (over 12%)",
+    "Dwellings within 10 m",
+    "Power lines overhead"
+  ],
+  "sun_shade": "Part shaded by garden trees; heavy bush shade to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "South side of the steep link at its upper end",
+    "slope_pct": 15.8,
+    "points": [
+      [
+        152.960604,
+        -27.5132
+      ],
+      [
+        152.960668,
+        -27.513239
+      ],
+      [
+        152.960687,
+        -27.513251
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 15.2,
+    "min_elevation_m": 20.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

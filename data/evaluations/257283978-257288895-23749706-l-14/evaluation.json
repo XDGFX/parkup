@@ -1,0 +1,49 @@
+{
+  "candidate": "257283978-257288895-23749706-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow steep lane with hedges at the kerb and homes about 13 m away.",
+  "reasons": [
+    "Narrow lane, no room to pull off",
+    "Houses 13 m away, tagged only 'yes'",
+    "Steep: about 11% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the east kerb within 13-20 m, partly screened by trees; more homes across the lane.",
+    "access_and_room": "Lane is about one and a half cars wide with trees, hedges and fences hard against the kerb; no clear ground to stop off the carriageway.",
+    "traffic": "Quiet local lane near a junction.",
+    "convention": "A ute and a car are parked near the top on the west side only; none on this side."
+  },
+  "flags": [
+    "Steep: 10.8% mean, 14% max",
+    "Mapped buildings tagged 'yes' look like homes in imagery",
+    "Mapped gate 52 m away, not on the only access"
+  ],
+  "sun_shade": "Mixed tree shade over the east kerb, mainly from the east and afternoon west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 57,
+    "gated": false,
+    "slope_pct": 10.8,
+    "min_elevation_m": 17,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,68 @@
+{
+  "candidate": "4920414462-4920414476-501161177-l-13",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Estate road end by a bush-backed turning circle; townhouses 10-20 m off.",
+  "reasons": [
+    "Bush backs the end turning circle",
+    "Townhouses 10-20 m west of section",
+    "Vehicle already parked at the turning circle"
+  ],
+  "drivers": {
+    "seclusion": "Bush and the highway embankment east; the nearest townhouse is about 10-20 m back along the lane. Homes are unmapped in OSM.",
+    "access_and_room": "Sealed lane runs into a wider turning circle with a vehicle parked in it; enough room for a van to pull off the through line.",
+    "traffic": "Residents-only dead end; the highway is beyond bush to the east.",
+    "convention": "Looks like part of a private townhouse estate; a vehicle is parked at the end."
+  },
+  "flags": [
+    "Looks like a private estate road",
+    "Highway noise from the east",
+    "Homes not mapped in OSM but clear in imagery"
+  ],
+  "sun_shade": "Bush shades the east and south sides in the morning; open to afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the estate road is private",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 40,
+    "to_m": 49,
+    "where": "At the end of the estate road, by the bush-edged turning circle",
+    "slope_pct": 1.9,
+    "points": [
+      [
+        152.96292,
+        -27.498406
+      ],
+      [
+        152.962935,
+        -27.498392
+      ],
+      [
+        152.962976,
+        -27.498345
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 0.2,
+    "min_elevation_m": 36.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

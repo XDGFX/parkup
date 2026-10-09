@@ -1,0 +1,71 @@
+{
+  "candidate": "364012317-364012322-32334187-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat stretch of quiet residential street with homes about 11-13 m away.",
+  "reasons": [
+    "Homes 11-13 m away on this side",
+    "Quiet street, a few cars parked",
+    "Flat at 220-250 m"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 11-13 m from the kerb, with more homes across the road. No bush or park backing it.",
+    "access_and_room": "Sealed street with a few cars parked along it; room to pull in at the kerb.",
+    "traffic": "Quiet local street; a main road runs about 100 m to the west.",
+    "convention": "Ordinary residential kerb with some parked cars and a boat; no camping convention."
+  },
+  "flags": [
+    "Steep elsewhere: up to 17% between 130 and 200 m",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Mixed tree cover from the east and north-east; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 220,
+    "to_m": 250,
+    "where": "On the straight run south-west of the bend, past the boat driveway",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.958325,
+        -27.512779
+      ],
+      [
+        152.958284,
+        -27.51286
+      ],
+      [
+        152.958241,
+        -27.512948
+      ],
+      [
+        152.958202,
+        -27.513025
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 19.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

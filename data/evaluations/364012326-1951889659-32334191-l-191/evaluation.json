@@ -1,0 +1,50 @@
+{
+  "candidate": "364012326-1951889659-32334191-l-191",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short bushy corner stub with a house 8 m away and no stopping signs.",
+  "reasons": [
+    "House 8 m from the start",
+    "No Stopping Any Time signs here",
+    "Line runs through bush, no way in"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush to the west, but a dwelling sits 8 m from the start and more homes 20-30 m away.",
+    "access_and_room": "The line itself runs into thick tree cover with no track; the bare dirt apron beside the bend is under the signs.",
+    "traffic": "Quiet bend at the top of a residential street.",
+    "convention": "A car is parked near the bend in the QLD image; two No Stopping Any Time signs sit within 9 m."
+  },
+  "flags": [
+    "No Stopping Any Time signs",
+    "Dwelling within 10 m",
+    "Steep: max 11.5% on a 16 m run"
+  ],
+  "sun_shade": "Heavy bush shade from the west and north; open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the dirt apron is legal to stop on",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 4.7,
+    "min_elevation_m": 32.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

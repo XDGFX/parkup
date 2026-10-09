@@ -1,0 +1,69 @@
+{
+  "candidate": "364012303-364012322-32334187-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Ten-metre kerb on a bend with a house 9 m away.",
+  "reasons": [
+    "House 9 m from kerb",
+    "Steep: about 11% grade",
+    "Only 10 m long"
+  ],
+  "drivers": {
+    "seclusion": "Dwelling 9 m away at the top of the section; other homes 18-30 m around.",
+    "access_and_room": "Sealed bend with a verge strip; room is marginal for a van within 10 m.",
+    "traffic": "Quiet end-of-street bend, light traffic.",
+    "convention": "Cars park on the street nearby but not clearly on this stretch."
+  },
+  "flags": [
+    "Dwelling within 10 m",
+    "Steep: about 11% mean, 16% max",
+    "Power poles on the verge"
+  ],
+  "sun_shade": "Mostly open; trees shade the east side from the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "East kerb at the bend at the south end of Almeida Street",
+    "slope_pct": 11.2,
+    "points": [
+      [
+        152.956991,
+        -27.515448
+      ],
+      [
+        152.957008,
+        -27.515415
+      ],
+      [
+        152.957032,
+        -27.515366
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 6.2,
+    "min_elevation_m": 12.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

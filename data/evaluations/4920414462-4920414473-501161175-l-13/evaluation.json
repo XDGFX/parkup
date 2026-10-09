@@ -1,0 +1,49 @@
+{
+  "candidate": "4920414462-4920414473-501161175-l-13",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Townhouse complex cul-de-sac with marked resident bays; homes at the kerb.",
+  "reasons": [
+    "Townhouses within 10 m of kerb",
+    "Marked resident bays, private estate",
+    "Steep: about 9.7% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Townhouses and a pool directly beside the kerb along the whole 58 m; unmapped in OSM but clear in imagery.",
+    "access_and_room": "Kerb of the estate's turning head; the south side is occupied by marked resident bays, so no free room to stop.",
+    "traffic": "Residents-only cul-de-sac; a highway runs beyond bush to the east.",
+    "convention": "Resident parking bays and cars in them; looks like a private complex."
+  },
+  "flags": [
+    "Steep: about 9.7% mean, up to 25% max",
+    "Looks like a private estate road",
+    "Homes not mapped in OSM but clear in imagery"
+  ],
+  "sun_shade": "Open to sun; bush shades the east end in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the estate road is private",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 9.7,
+    "min_elevation_m": 30.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

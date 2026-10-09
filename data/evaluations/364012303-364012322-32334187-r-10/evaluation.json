@@ -1,0 +1,73 @@
+{
+  "candidate": "364012303-364012322-32334187-r-10",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 4 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "East kerb lined with houses 3-9 m away along its length.",
+  "reasons": [
+    "Dwellings within 10 m throughout",
+    "Steep stretches up to 15%",
+    "Residential frontages, no screening"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 3-9 m from the kerb at every point along the line; front yards face the road.",
+    "access_and_room": "Sealed street, cars park along the east side so there is kerbside room.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Residents park here, but only directly outside homes."
+  },
+  "flags": [
+    "Dwelling within 10 m everywhere",
+    "Steep: about 7% mean, 15.6% max",
+    "Motorway noise to the west"
+  ],
+  "sun_shade": "Mostly open; street trees give patchy shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 40,
+    "where": "East kerb of Almeida Street, mid-block near the first garages",
+    "slope_pct": 7.5,
+    "points": [
+      [
+        152.957114,
+        -27.515202
+      ],
+      [
+        152.957125,
+        -27.51518
+      ],
+      [
+        152.957174,
+        -27.515082
+      ],
+      [
+        152.957196,
+        -27.515037
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 4,
+    "gated": false,
+    "slope_pct": 7.7,
+    "min_elevation_m": 16.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

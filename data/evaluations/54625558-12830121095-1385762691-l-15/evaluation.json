@@ -1,0 +1,71 @@
+{
+  "candidate": "54625558-12830121095-1385762691-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow steep lane with houses hard against it and nowhere to pull off.",
+  "reasons": [
+    "Dwellings 1-10 m from kerb",
+    "Narrow lane, no room off lane",
+    "Steep: up to 26% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dense housing all round; dwellings within 1-13 m beyond 50 m, others 31 m at the start.",
+    "access_and_room": "Narrow lane squeezed between houses and bush; no clear shoulder, looks like shared driveway access.",
+    "traffic": "Very little through traffic; a dead-end style lane serving homes.",
+    "convention": "No parked-vehicle convention beyond residents' own cars."
+  },
+  "flags": [
+    "Steep: 10.8% mean, 26% max grade",
+    "Low-lying: min 5.2 m, Witton Creek 15 m",
+    "Residents would notice a van"
+  ],
+  "sun_shade": "Heavy tree canopy over most of it, shading from the south and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the lane is private",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 25,
+    "where": "flat lower end of the narrow lane, near its start",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.9703,
+        -27.504284
+      ],
+      [
+        152.97027,
+        -27.504262
+      ],
+      [
+        152.970214,
+        -27.504243
+      ],
+      [
+        152.970161,
+        -27.504237
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 25,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 6.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "4920379990-4920380069-23252484-r-20",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow bushy kerb on the climb; homes about 13 m away, tight and sloping.",
+  "reasons": [
+    "Homes 12-13 m away, close all round",
+    "Steep, about 5% at best",
+    "Narrow road, no cars parked"
+  ],
+  "drivers": {
+    "seclusion": "Bush on this side; nearest homes about 12-13 m, others 6-8 m elsewhere.",
+    "access_and_room": "Narrow sealed road with tree verge; room beside the lane is limited.",
+    "traffic": "Quiet residential street.",
+    "convention": "No cars parked along this stretch in the imagery."
+  },
+  "flags": [
+    "Steep: about 5% at best section, 9% mean, 21% max",
+    "Homes within about 25 m all round",
+    "Near Witton Creek about 87 m"
+  ],
+  "sun_shade": "Heavy tree canopy shades the section, mostly from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Parking restrictions on site",
+    "Exact verge width"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 54,
+    "to_m": 70,
+    "where": "Blackstone Street east kerb, bushy bend above the junction",
+    "slope_pct": 5,
+    "points": [
+      [
+        152.964542,
+        -27.49367
+      ],
+      [
+        152.964465,
+        -27.493544
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 10.4,
+    "min_elevation_m": 48.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

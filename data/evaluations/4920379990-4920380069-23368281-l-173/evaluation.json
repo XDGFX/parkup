@@ -1,0 +1,64 @@
+{
+  "candidate": "4920379990-4920380069-23368281-l-173",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb on a steep street, homes 24 m or more away.",
+  "reasons": [
+    "Nearest homes 24-27 m from 15-40 m",
+    "Quiet residential street, few parked cars",
+    "Steep: about 9% grade"
+  ],
+  "drivers": {
+    "seclusion": "Mapped homes 24 m or more away on both sides of the road, but houses all round and the south ones look onto it.",
+    "access_and_room": "Sealed through street; the kerb looks wide enough to park along, though a driveway and bushes line the south edge.",
+    "traffic": "Low-traffic residential loop.",
+    "convention": "One ute parked at the western bend; otherwise few cars park along it."
+  },
+  "flags": [
+    "Steep: about 9% mean, 16% max",
+    "Homes within about 25 m all round",
+    "Witton Creek 170 m away"
+  ],
+  "sun_shade": "Mostly open; trees shade parts of the south edge in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 40,
+    "where": "Straight middle of the south kerb, below the tree-lined verge",
+    "slope_pct": 9,
+    "points": [
+      [
+        152.963796,
+        -27.493245
+      ],
+      [
+        152.963543,
+        -27.493257
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 10,
+    "min_elevation_m": 54.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

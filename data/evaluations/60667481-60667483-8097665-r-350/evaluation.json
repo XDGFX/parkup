@@ -1,0 +1,69 @@
+{
+  "candidate": "60667481-60667483-8097665-r-350",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Dead-end road tip backing onto bush, with homes 18 m away.",
+  "reasons": [
+    "Homes 18-19 m away on this side",
+    "Bush ends the road",
+    "Steep, about 8% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush at the road end and a vacant lot to the south; nearest dwellings 18-19 m away.",
+    "access_and_room": "Sealed road reaches the end; a car and a boat are parked just before it. Section is only 12 m, about one van.",
+    "traffic": "Dead-end street; almost no through traffic.",
+    "convention": "Vehicles and a boat park near the end; no camping convention."
+  },
+  "flags": [
+    "Steep: about 8% grade",
+    "Section is barely one van long",
+    "Homes within 25 m",
+    "Motorway noise"
+  ],
+  "sun_shade": "Heavy bush shade from the north and west; open to the east and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Turning room at the road end",
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "At the very end of Aragon Street, where the sealed road meets bush",
+    "slope_pct": 8.2,
+    "points": [
+      [
+        152.958325,
+        -27.507971
+      ],
+      [
+        152.958359,
+        -27.507989
+      ],
+      [
+        152.958438,
+        -27.508008
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 7.7,
+    "min_elevation_m": 11.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

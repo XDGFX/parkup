@@ -1,0 +1,72 @@
+{
+  "candidate": "364012317-364012322-32334187-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb on a quiet residential street, homes roughly 10-13 m away.",
+  "reasons": [
+    "Homes 10-13 m away on this side",
+    "Quiet street, a few cars parked",
+    "Flat at 280-310 m"
+  ],
+  "drivers": {
+    "seclusion": "No dwellings within 10 m of this section; houses 10-13 m along both ends and across the road. Tree belt screens the motorway to the west.",
+    "access_and_room": "Sealed street with cars and a boat parked along the kerb; room to pull in.",
+    "traffic": "Quiet local street; motorway noise from the west, about 60 m away.",
+    "convention": "Ordinary residential kerb with some parked cars; no camping convention."
+  },
+  "flags": [
+    "Steep elsewhere: up to 16% between 140 and 250 m",
+    "Homes within 25 m all round",
+    "Motorway noise"
+  ],
+  "sun_shade": "Mixed tree shade, mostly from the west and north-west; open to morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 280,
+    "to_m": 310,
+    "where": "Straight run south-west of the bend, beside the pool house",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.958135,
+        -27.512982
+      ],
+      [
+        152.958112,
+        -27.513028
+      ],
+      [
+        152.95808,
+        -27.513091
+      ],
+      [
+        152.958012,
+        -27.513229
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 19.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

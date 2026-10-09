@@ -1,0 +1,63 @@
+{
+  "candidate": "60800346-4920380069-8111793-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb near the bottom corner; homes about 11 m away, sloping.",
+  "reasons": [
+    "Homes 11 m and 24 m away",
+    "Quiet street, some cars parked",
+    "Steeper than 3% even at best"
+  ],
+  "drivers": {
+    "seclusion": "Houses 11 m away on this side and homes all round.",
+    "access_and_room": "Narrow sealed street; a few cars park on the kerb so a van fits.",
+    "traffic": "Quiet dead-end style residential street.",
+    "convention": "Cars park along the kerb, no marked parking lane."
+  },
+  "flags": [
+    "Steep: about 6% at best section, 10.6% mean over the stretch",
+    "Homes within about 25 m all round"
+  ],
+  "sun_shade": "Heavy tree canopy on the east side shades mornings; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Parking restrictions on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 68,
+    "to_m": 82,
+    "where": "Blackstone Street east kerb, last stretch before the bend at the bottom",
+    "slope_pct": 6,
+    "points": [
+      [
+        152.963141,
+        -27.492869
+      ],
+      [
+        152.963217,
+        -27.492975
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 6.6,
+    "min_elevation_m": 60,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

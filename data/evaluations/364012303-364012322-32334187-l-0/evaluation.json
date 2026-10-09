@@ -1,0 +1,88 @@
+{
+  "candidate": "364012303-364012322-32334187-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb on a quiet residential street, with homes 11-13 m away.",
+  "reasons": [
+    "Homes 11-16 m away all round",
+    "Cars park along this street",
+    "Nearly flat at 60-95 m"
+  ],
+  "drivers": {
+    "seclusion": "Houses line both sides, dwellings 11-13 m from the kerb; no bush or open ground.",
+    "access_and_room": "Sealed street with kerbside room; a few cars parked along it.",
+    "traffic": "Quiet residential street; a motorway runs parallel about 80 m west.",
+    "convention": "Residents park on the street, so a van would not stand out much."
+  },
+  "flags": [
+    "Dwellings 11-13 m from section",
+    "Motorway noise to the west",
+    "Steeper near the start: up to 13.8% max in places"
+  ],
+  "sun_shade": "Mostly open to sun; some garden trees shade patches from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Resident tolerance"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 60,
+    "to_m": 95,
+    "where": "West side of Almeida Street, about a third of the way up from the bend",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.957164,
+        -27.514926
+      ],
+      [
+        152.957171,
+        -27.514911
+      ],
+      [
+        152.957178,
+        -27.514897
+      ],
+      [
+        152.957215,
+        -27.514823
+      ],
+      [
+        152.957233,
+        -27.514787
+      ],
+      [
+        152.957238,
+        -27.514777
+      ],
+      [
+        152.957302,
+        -27.514649
+      ],
+      [
+        152.957307,
+        -27.514638
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 18,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

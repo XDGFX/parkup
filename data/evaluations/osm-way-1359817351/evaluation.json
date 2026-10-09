@@ -1,0 +1,80 @@
+{
+  "candidate": "osm-way-1359817351",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small full nursing home staff car park, houses 3 m and 14 m away.",
+  "reasons": [
+    "Houses 3 m and 14 m on north side",
+    "Bays all occupied, no spare room",
+    "Nursing home wall along south edge"
+  ],
+  "drivers": {
+    "seclusion": "Nursing home rooms overlook the south edge; houses right behind the north fence.",
+    "access_and_room": "Narrow bay car park off the east side lane; every bay filled, no free space for a van.",
+    "traffic": "Hampstead Road close by to the east.",
+    "convention": "Looks like private staff or resident parking; no campers seen."
+  },
+  "flags": [
+    "House 3 m from outline at 19 m",
+    "Loading zone sign on Hampstead Road frontage",
+    "DEM spikes at corners inflate steepness"
+  ],
+  "sun_shade": "Open sealed lot; nursing home shades the south edge at midday.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the lot is private",
+    "Gate at night",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 50,
+    "to_m": 80,
+    "where": "south edge of the lot along the nursing home wall",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.016244,
+        -27.482272
+      ],
+      [
+        153.016233,
+        -27.48227
+      ],
+      [
+        153.01623,
+        -27.482286
+      ],
+      [
+        153.016125,
+        -27.48227
+      ],
+      [
+        153.016126,
+        -27.482263
+      ],
+      [
+        153.015968,
+        -27.482238
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 3.5,
+    "min_elevation_m": 18.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

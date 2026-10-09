@@ -1,0 +1,49 @@
+{
+  "candidate": "4920414462-4920414473-501161175-r-13",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Townhouse complex cul-de-sac with homes at the kerb and no room.",
+  "reasons": [
+    "Townhouses within 10 m of kerb",
+    "Kerb to fence, no pull-off",
+    "Steep: about 9.8% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Townhouses directly beside the kerb along its whole 69 m; unmapped in OSM but clear in imagery.",
+    "access_and_room": "Kerb of a narrow estate turning head; kerb to fence, no verge or pull-off wide enough for a van.",
+    "traffic": "Residents-only cul-de-sac; a highway runs beyond bush to the east.",
+    "convention": "Resident bays opposite with cars; looks like a private complex."
+  },
+  "flags": [
+    "Steep: about 9.8% mean, up to 31% max",
+    "Looks like a private estate road",
+    "Homes not mapped in OSM but clear in imagery"
+  ],
+  "sun_shade": "Open to sun; bush shades the east end in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the estate road is private",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 9.8,
+    "min_elevation_m": 30.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

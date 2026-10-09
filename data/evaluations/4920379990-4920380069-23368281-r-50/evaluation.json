@@ -1,0 +1,100 @@
+{
+  "candidate": "4920379990-4920380069-23368281-r-50",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Fairly level kerb on a quiet loop street, homes 19-20 m away on both sides.",
+  "reasons": [
+    "Homes 19-20 m away, own side",
+    "Quiet residential street, no parking convention",
+    "Level at 95-120 m, steep elsewhere"
+  ],
+  "drivers": {
+    "seclusion": "Mapped dwellings 19-20 m away on the north side and more across the road to the south; homes all round.",
+    "access_and_room": "Sealed through street with a planted verge and trees along the north kerb; room to stop looks workable but not generous.",
+    "traffic": "Low-traffic residential loop.",
+    "convention": "One car parked at the west bend; no general parking convention seen."
+  },
+  "flags": [
+    "Homes within about 25 m all round",
+    "Steep overall: 8.6% mean, 19% max, but about 1% at the best section",
+    "Witton Creek 90 m away"
+  ],
+  "sun_shade": "Street trees and verge shrubs shade the north kerb from the south and west; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 92,
+    "to_m": 120,
+    "where": "North kerb through the bend at the top of the hill, before the straight",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.964227,
+        -27.493335
+      ],
+      [
+        152.96417,
+        -27.493242
+      ],
+      [
+        152.964156,
+        -27.493221
+      ],
+      [
+        152.964143,
+        -27.493207
+      ],
+      [
+        152.96413,
+        -27.493196
+      ],
+      [
+        152.964116,
+        -27.493186
+      ],
+      [
+        152.964103,
+        -27.493177
+      ],
+      [
+        152.964086,
+        -27.493171
+      ],
+      [
+        152.96407,
+        -27.493167
+      ],
+      [
+        152.964052,
+        -27.493164
+      ],
+      [
+        152.964041,
+        -27.493163
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 8.3,
+    "min_elevation_m": 51.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,66 @@
+{
+  "candidate": "21616888-53912610-41699254-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "No Stopping signs and apartments 13 m off beside the rail bridge.",
+  "reasons": [
+    "Apartments 13-14 m from kerb",
+    "No Stopping Any Time signs",
+    "Busy street beside rail line"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks directly behind the kerb on the north side.",
+    "access_and_room": "Kerb of a through street; a few cars park here but signs forbid stopping.",
+    "traffic": "Rail line beside it and traffic from a nearby junction.",
+    "convention": "No campers seen; signed no stopping."
+  },
+  "flags": [
+    "Apartment dwelling 13 m from the kerb",
+    "Rail noise",
+    "Signs say No Stopping Any Time"
+  ],
+  "sun_shade": "Buildings shade the north kerb; open to the afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "Allwood Street north kerb at the rail bridge, west end",
+    "slope_pct": 1.1,
+    "points": [
+      [
+        152.976655,
+        -27.500095
+      ],
+      [
+        152.976799,
+        -27.500081
+      ],
+      [
+        152.976806,
+        -27.50008
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 17.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

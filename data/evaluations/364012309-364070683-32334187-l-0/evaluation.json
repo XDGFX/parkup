@@ -1,0 +1,68 @@
+{
+  "candidate": "364012309-364070683-32334187-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Gentle wooded kerb on a quiet street, with homes 16-21 m away.",
+  "reasons": [
+    "Homes 16-21 m away, none closer",
+    "Bush-covered lot on the north side",
+    "Gentle grade near the bend"
+  ],
+  "drivers": {
+    "seclusion": "Treed block on the north side; nearest dwellings 16-21 m away, mostly behind trees.",
+    "access_and_room": "Sealed street with a grass and dirt verge under trees; room for a van is plausible but not clear.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "A few cars parked nearby; no clear parking convention on this stretch."
+  },
+  "flags": [
+    "Dwellings 16-21 m away on the section's side",
+    "Slope rises to 9% max further along",
+    "Power lines overhead"
+  ],
+  "sun_shade": "Heavily shaded by canopy, mostly from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact width of the verge under the canopy"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 20,
+    "where": "North side of Almeida Street, just past the bend beside the wooded block",
+    "slope_pct": 2.7,
+    "points": [
+      [
+        152.961236,
+        -27.513479
+      ],
+      [
+        152.961311,
+        -27.513466
+      ],
+      [
+        152.961385,
+        -27.513453
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 12.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

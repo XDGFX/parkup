@@ -1,0 +1,72 @@
+{
+  "candidate": "364012301-364012317-32334187-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, steep kerb at a junction corner with homes about 12 m away.",
+  "reasons": [
+    "Only 17 m, at a junction",
+    "About 10% grade",
+    "Houses 12-13 m away"
+  ],
+  "drivers": {
+    "seclusion": "Dense tree cover beside the kerb, but houses 12-13 m away and 8 homes within 30 m.",
+    "access_and_room": "Kerb sits at a road junction with trees and a bank beside it; little clear level ground to pull off.",
+    "traffic": "Quiet residential junction, light traffic.",
+    "convention": "No cars seen parked along this stretch."
+  },
+  "flags": [
+    "Steep: about 10% mean, 14% max",
+    "Junction corner, short stretch",
+    "Houses within 13 m"
+  ],
+  "sun_shade": "Heavily shaded by tree canopy, mainly from the east and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking restrictions near the junction",
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 17,
+    "where": "Almeida Street, east side, at the junction corner under trees",
+    "slope_pct": 10.2,
+    "points": [
+      [
+        152.960195,
+        -27.512629
+      ],
+      [
+        152.960182,
+        -27.51261
+      ],
+      [
+        152.96014,
+        -27.512551
+      ],
+      [
+        152.960104,
+        -27.512499
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 11.5,
+    "min_elevation_m": 22.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "60800365-60800366-8111799-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet cul-de-sac kerb, homes 10-11 m away and a steep stem.",
+  "reasons": [
+    "Homes 10-11 m away, own side",
+    "Quiet cul-de-sac, little through traffic",
+    "Steep: about 12% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Mapped dwellings 10-11 m away on the east side, with more homes round the cul-de-sac; lawn verges front the houses.",
+    "access_and_room": "Sealed dead-end street about one car wide each side; the kerb verge is private lawn, so room to stop is only the lane edge.",
+    "traffic": "Very low; residents only.",
+    "convention": "One car parked at the bowl further down; little parking convention."
+  },
+  "flags": [
+    "Steep: 11.7% mean, 17% max, about 6% at the best section",
+    "Homes within 10-12 m, own side",
+    "Witton Creek 24 m away, low-lying at about 37 m is not flood-prone"
+  ],
+  "sun_shade": "Mostly open; trees on the west shade it in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 2,
+    "to_m": 14,
+    "where": "East kerb at the mouth of the cul-de-sac, just off the main road",
+    "slope_pct": 6,
+    "points": [
+      [
+        152.961262,
+        -27.49466
+      ],
+      [
+        152.961257,
+        -27.494768
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 15,
+    "min_elevation_m": 36.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

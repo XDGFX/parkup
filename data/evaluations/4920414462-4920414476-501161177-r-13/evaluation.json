@@ -1,0 +1,87 @@
+{
+  "candidate": "4920414462-4920414476-501161177-r-13",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Dead-end of a townhouse complex; homes directly beside the kerb.",
+  "reasons": [
+    "Townhouses within a few metres",
+    "Likely private complex road",
+    "Cul-de-sac end is residents' space"
+  ],
+  "drivers": {
+    "seclusion": "Townhouses line the south side and face the north side; bush only to the east.",
+    "access_and_room": "Narrow complex street ending in a turning bulb; little room to stop clear.",
+    "traffic": "Quiet, but only residents use it.",
+    "convention": "No sign of campers; resident parking only."
+  },
+  "flags": [
+    "Dwellings not in OSM but visible within 10 m",
+    "Probably private road",
+    "Slope 2.6% mean, 4.2% max over the stretch"
+  ],
+  "sun_shade": "Open road; bush to the east shades the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the road is private",
+    "Signage on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 40,
+    "where": "Cul-de-sac head at the east end of the townhouse street",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        152.962806,
+        -27.498557
+      ],
+      [
+        152.962811,
+        -27.498558
+      ],
+      [
+        152.962825,
+        -27.498557
+      ],
+      [
+        152.962837,
+        -27.498554
+      ],
+      [
+        152.96285,
+        -27.49855
+      ],
+      [
+        152.962861,
+        -27.498544
+      ],
+      [
+        152.962871,
+        -27.498537
+      ],
+      [
+        152.962924,
+        -27.498483
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 36.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

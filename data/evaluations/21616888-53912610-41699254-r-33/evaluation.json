@@ -1,0 +1,69 @@
+{
+  "candidate": "21616888-53912610-41699254-r-33",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "South kerb beside a construction site; quiet-ish but signed No Stopping.",
+  "reasons": [
+    "Construction site, not a dwelling, beside kerb",
+    "Nearest dwellings 45 m or more at east end",
+    "No Stopping signs near the start"
+  ],
+  "drivers": {
+    "seclusion": "Construction site on the south side; sports field across the road; nearest homes about 45 m.",
+    "access_and_room": "Cars park along this stretch; a van fits at the kerb.",
+    "traffic": "Through street close to a busy signalised junction.",
+    "convention": "Several cars park here; no campers seen."
+  },
+  "flags": [
+    "No Stopping Any Time signs at 9 m and 12 m; check which way they apply",
+    "Apartments 8 m from the kerb at 14 m, outside the best section",
+    "Construction may become new homes",
+    "Slope 3.1% mean overall, flatter in the best section"
+  ],
+  "sun_shade": "Open; afternoon shade from the building to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Which stretch the No Stopping signs cover",
+    "Street lighting",
+    "Construction hours"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 40,
+    "where": "South kerb of Allwood Street opposite the sports field, beside the construction site",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.977147,
+        -27.50021
+      ],
+      [
+        152.977299,
+        -27.500217
+      ],
+      [
+        152.977299,
+        -27.500217
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 18.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

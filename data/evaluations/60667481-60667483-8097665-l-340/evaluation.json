@@ -1,0 +1,47 @@
+{
+  "candidate": "60667481-60667483-8097665-l-340",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short stub through dense bush; no formed road or tracks to reach it.",
+  "reasons": [
+    "No road or tyre tracks visible",
+    "Steep, about 10% grade",
+    "House 11 m from the end"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush all round, but a house sits 11 m away at the end of the stub.",
+    "access_and_room": "Line runs into thick tree canopy off the road end; no sealed surface, gravel or tracks seen.",
+    "traffic": "Minimal; motorway about 100 m north-west.",
+    "convention": "No sign of vehicles stopping here."
+  },
+  "flags": [
+    "Steep: about 10% grade, max 12%",
+    "No visible way in",
+    "Motorway noise"
+  ],
+  "sun_shade": "Heavy tree shade on all sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether an unmapped track runs under the canopy"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 9.1,
+    "min_elevation_m": 11,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:48:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
