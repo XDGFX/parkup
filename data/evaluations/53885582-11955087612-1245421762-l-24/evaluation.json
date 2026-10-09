@@ -1,0 +1,68 @@
+{
+  "candidate": "53885582-11955087612-1245421762-l-24",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "East kerb backing onto trees and a sports field, where cars already park.",
+  "reasons": [
+    "Backs onto bush and open field",
+    "Other cars park along this kerb",
+    "Homes only across the road, 16m+"
+  ],
+  "drivers": {
+    "seclusion": "Treed edge and open field on the van side; nearest mapped homes are across the road, 16 to 21 m away.",
+    "access_and_room": "Cars are parked at the kerb on this side, so there is room to stop out of the lane.",
+    "traffic": "Curving through road beside a junction at the top; moderate traffic noise.",
+    "convention": "Several cars parked along the east kerb in both images, so a van blends in."
+  },
+  "flags": [
+    "Low-lying: 4.7 to 5.5 m elevation, Toowong Creek 97 m away",
+    "Houses across the road 16 to 18 m from the kerb",
+    "Traffic noise from the junction"
+  ],
+  "sun_shade": "Tree canopy along the east side shades the section in the morning; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height and crossfall",
+    "Parking signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 38,
+    "to_m": 68,
+    "where": "East kerb of Indooroopilly Road, beside the tree belt along the field",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.991606,
+        -27.493341
+      ],
+      [
+        152.991547,
+        -27.493443
+      ],
+      [
+        152.991486,
+        -27.493588
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 5.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

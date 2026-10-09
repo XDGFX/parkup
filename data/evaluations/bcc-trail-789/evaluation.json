@@ -1,0 +1,61 @@
+{
+  "candidate": "bcc-trail-789",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Pin is in garden bush; nearest real option is the busy visitor car park to the north-east.",
+  "reasons": [
+    "Ring in dense planting, footpaths only",
+    "Visitor car park about 90 m away",
+    "Busy attraction with centre and planetarium"
+  ],
+  "drivers": {
+    "seclusion": "No dwellings mapped or visible. The car park sits among gardens and visitor buildings, so it is in the middle of a day-use attraction rather than hidden.",
+    "access_and_room": "Sealed asphalt car park with marked bays, mapped access yes, no fee. The ring itself has no track, only garden footpaths.",
+    "traffic": "Visitor traffic by day; quiet at night apart from any patrols.",
+    "convention": "Cars fill the bays in the imagery. Nothing suggests overnight stays."
+  },
+  "flags": [
+    "Slope figure is for the ring (about 12% mean, max 44%); car park not sampled",
+    "Car park is well beyond the ring, at the edge of the image",
+    "Gardens car park may be gated, lit or patrolled after hours",
+    "Waterway 23 m from the ring"
+  ],
+  "sun_shade": "Open sealed surface in the sun, with garden trees around the edges.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Closing hours and night gate",
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Sealed visitor car park beside the Visitor Information Centre, about 90 m north-east of the ring",
+    "slope_pct": 12.4,
+    "points": [
+      [
+        152.977004,
+        -27.476726
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 12.4,
+    "min_elevation_m": 27.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

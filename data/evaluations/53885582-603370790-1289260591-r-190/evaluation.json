@@ -1,0 +1,48 @@
+{
+  "candidate": "53885582-603370790-1289260591-r-190",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb on a junction approach with painted chevrons and no parked cars.",
+  "reasons": [
+    "Painted chevron island beside the kerb",
+    "No parked cars; through road at junction",
+    "Low-lying, creek 10 m away"
+  ],
+  "drivers": {
+    "seclusion": "Creek park and trees behind the kerb, but homes 19-24 m opposite and the spot is in view of the junction.",
+    "access_and_room": "The kerb runs along the approach to a junction with a chevron island and tight lanes; no room to pull fully out of the lane.",
+    "traffic": "Busy junction of Indooroopilly Road with turning traffic.",
+    "convention": "No cars parked along this kerb; no signs."
+  },
+  "flags": [
+    "Low-lying: 3.5-3.9 m elevation, Toowong Creek 10 m away",
+    "Junction and painted island",
+    "Homes 19-24 m away across the road"
+  ],
+  "sun_shade": "Trees shade the kerb from the north and east; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 3.5,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,61 @@
+{
+  "candidate": "bcc-trail-1084-1",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Botanic Gardens visitor car park backing onto bush, no homes nearby.",
+  "reasons": [
+    "Pin is in bush; real place is car park",
+    "No dwellings, only garden buildings",
+    "Bush behind, gardens and planetarium around"
+  ],
+  "drivers": {
+    "seclusion": "Bush on one side, gardens and car park around; nearest buildings are non-residential.",
+    "access_and_room": "Sealed road and aisles reach the car park, with many marked bays.",
+    "traffic": "Busy by day with visitors; quiet road beside it overnight.",
+    "convention": "Public car park listed as free, no fee; many cars by day."
+  },
+  "flags": [
+    "Ring sits in thick bush on a steep slope (max 17.8%), so the pin is off",
+    "Gate 15 m from ring, mapped way round it",
+    "Gardens may close or be patrolled at night",
+    "Busy attraction: day-time visitors"
+  ],
+  "sun_shade": "Open asphalt with palms along the edge; bush shades the north-west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Night closing hours and patrols",
+    "Signs on site",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Edge of the large car park east-south-east of the pin, beside the bush",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.976227,
+        -27.475081
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 6.5,
+    "min_elevation_m": 37.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

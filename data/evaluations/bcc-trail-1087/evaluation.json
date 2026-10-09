@@ -1,0 +1,61 @@
+{
+  "candidate": "bcc-trail-1087",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small empty sealed car park at the Freedom Wall, ringed by bush.",
+  "reasons": [
+    "Pin is on a steep footpath, not stoppable",
+    "Dead-end car park in bush, empty",
+    "No dwellings; only a memorial wall"
+  ],
+  "drivers": {
+    "seclusion": "Bush on all sides; nearest building is the non-residential Freedom Wall.",
+    "access_and_room": "Sealed spur off the garden road reaches a wide empty bay; room for a van.",
+    "traffic": "Quiet garden road; little through traffic seen.",
+    "convention": "Unmapped as parking; no vehicles in imagery, no sign of overnight use."
+  },
+  "flags": [
+    "Pin is on a steep slope (mean 21%, max 61%); the car park itself was not sampled",
+    "Gardens may close or be patrolled at night",
+    "Mapped gate 233 m away, way round exists"
+  ],
+  "sun_shade": "Open sealed area, tree shade from the north-west and south edges.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Slope at the car park",
+    "Night closing hours and patrols",
+    "Signs on site",
+    "Whether the spur is open to cars"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Sealed bay by the Freedom Wall, about 70 m south of the pin",
+    "slope_pct": 0,
+    "points": [
+      [
+        152.974611,
+        -27.477899
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 21,
+    "min_elevation_m": 43.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

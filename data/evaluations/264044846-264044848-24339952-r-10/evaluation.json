@@ -1,0 +1,49 @@
+{
+  "candidate": "264044846-264044848-24339952-r-10",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Seven metres of roundabout island kerb; no place to stop a van.",
+  "reasons": [
+    "Kerb is a roundabout circulating lane",
+    "No parking room, traffic all round",
+    "Too short, on a busy junction"
+  ],
+  "drivers": {
+    "seclusion": "Open junction with traffic on all sides; dwellings 29 m or more away, but the spot is fully exposed.",
+    "access_and_room": "The line follows the central island of a roundabout; a van would sit in the circulating lane.",
+    "traffic": "Busy five-arm roundabout; a bus is circulating in the Esri image.",
+    "convention": "No parked cars anywhere on the roundabout."
+  },
+  "flags": [
+    "Roundabout island: nowhere to pull out of the lane",
+    "Low-lying: about 4.5 m elevation, Toowong Creek 19 m away",
+    "Only 7 m long, shorter than a van",
+    "Slope figure is noise on a 7 m line (11% max)"
+  ],
+  "sun_shade": "Open sky; no cover.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 29,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 4.6,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

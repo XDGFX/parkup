@@ -9,8 +9,8 @@
     ]
   ],
   "osm_tags": {},
-  "kind": "point",
   "candidate_kind": "off-road",
+  "kind": "point",
   "length_m": 0,
   "signs": [],
   "buildings": [

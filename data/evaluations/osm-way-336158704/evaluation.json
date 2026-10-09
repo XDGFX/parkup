@@ -1,0 +1,64 @@
+{
+  "candidate": "osm-way-336158704",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Sealed car park beside the oval and clubhouse, homes across the road.",
+  "reasons": [
+    "Backs onto clubhouse and oval",
+    "Sealed car park, open to Union Street",
+    "Homes over 24 m away"
+  ],
+  "drivers": {
+    "seclusion": "Clubhouse and oval to the north and east; nearest dwellings are 24 m or more away across the road or beyond the west edge.",
+    "access_and_room": "Open sealed car park with direct entry from Union Street and about 30 marked bays.",
+    "traffic": "Quiet local street; little through traffic.",
+    "convention": "Full of cars by day in the QLD image, so a van fits in; the night use is unknown."
+  },
+  "flags": [
+    "Signs on the street: 2P Mon-Fri 8am-5:30pm and No Stopping; none seen for the car park",
+    "Non-residential building (clubhouse) 16 m away",
+    "Toowong Creek 137 m away; elevation 12-14 m"
+  ],
+  "sun_shade": "Open sky; clubhouse and trees shade the north-west corner, the oval is open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether the car park is locked or time-limited",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 90,
+    "to_m": 115,
+    "where": "north edge of the car park, towards the oval end, below the clubhouse",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.98477,
+        -27.489488
+      ],
+      [
+        152.984521,
+        -27.489449
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 37,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 12.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

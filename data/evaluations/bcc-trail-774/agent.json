@@ -1,0 +1,36 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Small sealed gardens car park in bush, no homes nearby; pin itself is on a footpath.",
+  "reasons": [
+    "Car park ringed by bush and gardens",
+    "No buildings mapped near",
+    "Marked bays, open access, sealed"
+  ],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Small sealed car park on the east side of the gardens road, about 60 m south of the ring",
+    "slope_pct": 8.7
+  },
+  "drivers": {
+    "seclusion": "Bush on both sides of the road, gardens to the east, no dwellings mapped or visible.",
+    "access_and_room": "Sealed road reaches a car park with about six marked bays and a pull-in; mapped access yes, no fee. Ring itself is on a garden footpath, not drivable.",
+    "traffic": "Quiet gardens access road, no through traffic apart from visitors.",
+    "convention": "Two cars parked in the bays. Yellow edge lines along the road mean no kerbside stopping. Public car park for gardens visitors, not an overnight site."
+  },
+  "flags": [
+    "Slope figure is for the ring area (about 9% mean); car park itself not sampled",
+    "Yellow edge lines along the road: stop only in the car park",
+    "Botanic gardens car park may be gated or patrolled after hours",
+    "Small: only a handful of bays"
+  ],
+  "sun_shade": "Partly open to the sky; trees to the north and east give some shade, afternoon sun from the west over the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Closing hours or night gate on the gardens road",
+    "Signs on site (time limits, no camping)",
+    "Level of the car park surface"
+  ],
+  "confidence": "low"
+}

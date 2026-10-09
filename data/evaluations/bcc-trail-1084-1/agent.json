@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Botanic Gardens visitor car park backing onto bush, no homes nearby.",
+  "reasons": ["Pin is in bush; real place is car park", "No dwellings, only garden buildings", "Bush behind, gardens and planetarium around"],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Edge of the large car park east-south-east of the pin, beside the bush",
+    "slope_pct": 1
+  },
+  "drivers": {
+    "seclusion": "Bush on one side, gardens and car park around; nearest buildings are non-residential.",
+    "access_and_room": "Sealed road and aisles reach the car park, with many marked bays.",
+    "traffic": "Busy by day with visitors; quiet road beside it overnight.",
+    "convention": "Public car park listed as free, no fee; many cars by day."
+  },
+  "flags": ["Ring sits in thick bush on a steep slope (max 17.8%), so the pin is off", "Gate 15 m from ring, mapped way round it", "Gardens may close or be patrolled at night", "Busy attraction: day-time visitors"],
+  "sun_shade": "Open asphalt with palms along the edge; bush shades the north-west side.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Night closing hours and patrols", "Signs on site", "Street lighting"],
+  "confidence": "low"
+}

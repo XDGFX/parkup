@@ -1,0 +1,69 @@
+{
+  "candidate": "53885862-11654703186-6878505-r-15",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb backing onto a park, with many cars parked along it.",
+  "reasons": [
+    "Park and trees behind the kerb",
+    "Many cars parked along this kerb",
+    "Homes 25 m or more away across road"
+  ],
+  "drivers": {
+    "seclusion": "Grassy park and trees on the south side; across the road are a retail building (27 m) and apartments (46 m or more).",
+    "access_and_room": "Parking lane is full of parked cars in both images; a van fits in line with them.",
+    "traffic": "Quiet side street off a busy road; cars park here so a van blends in.",
+    "convention": "Row of parked cars along the kerb throughout the stretch."
+  },
+  "flags": [
+    "Low-lying: about 5.8 m elevation, Toowong Creek only 18 m away, flood-prone",
+    "Bus Zone sign is for Whitmore Street at the west end, not this kerb",
+    "Apartments 19 m away at the 62 m end",
+    "Noise from the nearby main road"
+  ],
+  "sun_shade": "Open to the north; trees shade the south side from the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking time limits on site",
+    "Street lighting",
+    "Flood risk in rain"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 45,
+    "where": "Campbell Street south kerb, opposite the shop car park, beside the grassy park",
+    "slope_pct": 0.6,
+    "points": [
+      [
+        152.98726,
+        -27.490832
+      ],
+      [
+        152.98745,
+        -27.490859
+      ],
+      [
+        152.987611,
+        -27.490882
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 0.5,
+    "min_elevation_m": 5.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

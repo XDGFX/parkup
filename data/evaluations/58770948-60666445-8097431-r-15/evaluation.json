@@ -1,0 +1,64 @@
+{
+  "candidate": "58770948-60666445-8097431-r-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bushland kerb on Crag Road where cars park; houses 18-27 m opposite.",
+  "reasons": [
+    "Bush on the van's own side",
+    "Houses 18-27 m away across road",
+    "Steep, about 4% at best section"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush on the north side; the nearest homes are 18-27 m away across the road, so close enough to notice a van.",
+    "access_and_room": "Sealed road; a few cars parked along the north edge; ground beside the lane looks narrow with bush behind.",
+    "traffic": "Quiet residential street leading to a bush dead end; little through traffic expected.",
+    "convention": "No signs; other cars park along this kerb, but not a clear overnight convention."
+  },
+  "flags": [
+    "Steep: about 4% at the best section, 5.6% mean, max 12.2% elsewhere",
+    "Dwellings 18-22 m opposite",
+    "Possible bushfire-prone bush edge"
+  ],
+  "sun_shade": "Bush canopy shades the kerb, mostly from the north and east; open to afternoon sun from the west along the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Width of verge beside the lane"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 100,
+    "to_m": 125,
+    "where": "North kerb of Crag Road where cars park against the bush, opposite the houses at the 112 m mark",
+    "slope_pct": 4.1,
+    "points": [
+      [
+        152.968766,
+        -27.487185
+      ],
+      [
+        152.968524,
+        -27.487116
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 4.1,
+    "min_elevation_m": 71.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

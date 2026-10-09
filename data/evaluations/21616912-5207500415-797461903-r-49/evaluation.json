@@ -1,0 +1,50 @@
+{
+  "candidate": "21616912-5207500415-797461903-r-49",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway kerb on an arterial beside the rail line; no verge, no parking.",
+  "reasons": [
+    "Clearway and tow-away signs along it",
+    "Rail corridor edge, no room off lane",
+    "Arterial traffic, nobody parked at kerb"
+  ],
+  "drivers": {
+    "seclusion": "Rail corridor on the van side and no dwellings within 35 m, but a van would sit in the live lane in full view.",
+    "access_and_room": "The kerb is the outer traffic lane; only a thin strip of weeds lies between it and the tracks, with no pull-off.",
+    "traffic": "Multi-lane arterial with steady traffic, plus the busy rail line alongside.",
+    "convention": "Cars seen along the stretch are moving traffic; none parked at the kerb. Clearway signs with tow-away show stopping is banned."
+  },
+  "flags": [
+    "Main road with no parking",
+    "Clearway C and tow-away signs, Mon-Fri or Mon-Sat 7am-7pm",
+    "Low-lying at the start: about 9 m elevation, Toowong Creek 4 m away",
+    "Steep in places: 15% max grade, 3.3% mean",
+    "Rail and arterial noise"
+  ],
+  "sun_shade": "Tree shade falls across the lanes from the north side in the morning; open sun otherwise.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether the rail strip could hold a van (it is rail land, not a verge)"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 35,
+    "gated": false,
+    "slope_pct": 3.3,
+    "min_elevation_m": 8.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

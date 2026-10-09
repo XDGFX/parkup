@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Small empty sealed car park at the Freedom Wall, ringed by bush.",
+  "reasons": ["Pin is on a steep footpath, not stoppable", "Dead-end car park in bush, empty", "No buildings or homes nearby"],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Sealed bay by the Freedom Wall, about 85 m south-east of the pin",
+    "slope_pct": 0
+  },
+  "drivers": {
+    "seclusion": "Bush on all sides; no buildings mapped within 100 m.",
+    "access_and_room": "Sealed spur off the garden road reaches a wide empty bay; room for a van.",
+    "traffic": "Quiet garden road; little through traffic seen.",
+    "convention": "Unmapped as parking; no vehicles in imagery, no sign of overnight use."
+  },
+  "flags": ["Pin is on a steep slope (mean 17%, max 38%); the car park itself was not sampled", "Gardens may close or be patrolled at night", "Mapped gate 263 m away, way round exists"],
+  "sun_shade": "Open sealed area, tree shade from the north-west and south edges.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Slope at the car park", "Night closing hours and patrols", "Signs on site", "Whether the spur is open to cars"],
+  "confidence": "low"
+}

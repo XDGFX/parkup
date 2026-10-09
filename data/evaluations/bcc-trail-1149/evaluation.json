@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-1149",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is in dense garden bush; only footpaths nearby, no vehicle access.",
+  "reasons": [
+    "Dense canopy, no track or vehicles",
+    "Only footpaths and lawn nearby",
+    "Slope averages 13%, max 27%"
+  ],
+  "drivers": {
+    "seclusion": "Deep in the gardens, but nowhere a van can reach.",
+    "access_and_room": "No tracks or tyre marks; paths are pedestrian, and the road is over 80 m away.",
+    "traffic": "Footpath and lawn traffic by day; band shell and bonsai house within 65 m.",
+    "convention": "Botanic Gardens grounds; no parking convention."
+  },
+  "flags": [
+    "Steep: about 13% mean, 27% max",
+    "Low-lying ground near a watercourse 15 m away",
+    "Gardens may be closed or patrolled at night"
+  ],
+  "sun_shade": "Under dense tree canopy.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Night closing hours",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 13.2,
+    "min_elevation_m": 30.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,60 @@
+{
+  "candidate": "bcc-trail-470-1",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Staff depot yard behind the gardens; private access and in use.",
+  "reasons": [
+    "Maintenance depot yard, ways tagged private",
+    "Work vehicles and buildings all round",
+    "Roadside cars to west are staff or visitors"
+  ],
+  "drivers": {
+    "seclusion": "Bush behind, but the yard is ringed by depot, herbarium and glasshouse buildings with work vehicles parked.",
+    "access_and_room": "Sealed, but the service ways into the yard are mapped private and it is a staff compound.",
+    "traffic": "Staff and service traffic by day; quiet at night.",
+    "convention": "No sign of overnight use; this is a working depot, so a van would be noticed."
+  },
+  "flags": [
+    "Mapped ways are access private",
+    "Staff compound, likely gated or locked at night",
+    "Slope data around the pin: mean 4.5%, max 25% at the bush edge"
+  ],
+  "sun_shade": "Open asphalt; bush shades the north edge and the depot roof the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the yard is gated after hours",
+    "Signs on site",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Asphalt yard beside the maintenance depot, south-east of the pin",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        152.975459,
+        -27.475127
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 4.5,
+    "min_elevation_m": 37.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

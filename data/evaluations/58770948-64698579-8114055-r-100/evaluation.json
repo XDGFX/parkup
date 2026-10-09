@@ -1,0 +1,47 @@
+{
+  "candidate": "58770948-64698579-8114055-r-100",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Through road in bush; no parked cars and no clear pull-off.",
+  "reasons": [
+    "Through road, no parking seen",
+    "Verge is scrub, no tracks or vehicles",
+    "Houses 53 m away, bush between"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the west side, nearest dwellings 53 m away beyond the scrub.",
+    "access_and_room": "A small bare patch near the end shows no tyre tracks and is tree-covered in QLD; not clearly usable.",
+    "traffic": "Through road with centre line marked.",
+    "convention": "No cars parked along this kerb."
+  },
+  "flags": [
+    "Slope about 2%, max 3%"
+  ],
+  "sun_shade": "Heavy tree shade from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the bare patch near the 30-41 m end is drivable",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 53,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 61.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,69 @@
+{
+  "candidate": "53885582-603370790-1289260591-r-100",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Creekside kerb where cars park, but flats and houses sit 19-25 m opposite.",
+  "reasons": [
+    "Cars parked along this kerb",
+    "Homes 19-25 m away across road",
+    "Low-lying beside Toowong Creek"
+  ],
+  "drivers": {
+    "seclusion": "Creek, palms and parkland behind the kerb; flats and houses 19-25 m away across a wide road.",
+    "access_and_room": "Sealed road wide enough for parked cars on this side; several cars parked in the imagery, so a van fits at the kerb.",
+    "traffic": "Through road linking suburbs, but cars park along it so a van does not stand out.",
+    "convention": "Cars park here, but one No Parking Any Time sign (left arrow) sits near the stretch; its extent is unclear."
+  },
+  "flags": [
+    "One No Parking Any Time sign near the stretch",
+    "Low-lying: 3.7-4.5 m elevation, Toowong Creek 15 m away",
+    "Homes 19-25 m away across the road",
+    "Flat: about 1% at the best section"
+  ],
+  "sun_shade": "Palms and trees shade the kerb from the north; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Where the No Parking sign applies",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 50,
+    "where": "North kerb of Indooroopilly Road beside the creek park, where cars are parked, opposite the garages",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        152.990667,
+        -27.492378
+      ],
+      [
+        152.990662,
+        -27.492378
+      ],
+      [
+        152.990363,
+        -27.492364
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 3.8,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

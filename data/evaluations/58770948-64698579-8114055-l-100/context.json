@@ -1,0 +1,135 @@
+{
+  "id": "58770948-64698579-8114055-l-100",
+  "street": "Broseley Road",
+  "suburb": "Taringa",
+  "line": [
+    [
+      152.970669,
+      -27.487331
+    ],
+    [
+      152.970667,
+      -27.487332
+    ],
+    [
+      152.970651,
+      -27.487342
+    ],
+    [
+      152.970634,
+      -27.487354
+    ],
+    [
+      152.970611,
+      -27.487374
+    ],
+    [
+      152.970601,
+      -27.487384
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "south",
+  "length_m": 9,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 57,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9712684,
+          -27.4872286
+        ],
+        [
+          152.9713775,
+          -27.4872431
+        ],
+        [
+          152.9713449,
+          -27.4874368
+        ],
+        [
+          152.9712358,
+          -27.4874223
+        ],
+        [
+          152.9712684,
+          -27.4872286
+        ]
+      ]
+    }
+  ],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.970669,
+        "lat": -27.487331,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 61.37
+      },
+      {
+        "lon": 152.970629,
+        "lat": -27.487358,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 61.64
+      },
+      {
+        "lon": 152.970601,
+        "lat": -27.487384,
+        "at_m": 9,
+        "line": 0,
+        "elevation_m": 61.69
+      }
+    ],
+    "min_elevation_m": 61.4,
+    "max_elevation_m": 61.7,
+    "mean_grade_pct": 3.3,
+    "max_grade_pct": 5.4
+  },
+  "waterway": {
+    "name": "Toowong Creek",
+    "metres": 224
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 9,
+      "length_m": 9,
+      "images": {
+        "esri": ".cache/imagery/58770948-64698579-8114055-l-100/chunk1-esri.jpg",
+        "qld": ".cache/imagery/58770948-64698579-8114055-l-100/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        67,
+        66
+      ],
+      "image_px": [
+        445,
+        439
+      ]
+    }
+  ]
+}

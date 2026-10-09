@@ -1,0 +1,417 @@
+{
+  "id": "53885582-53901974-6878515-l-30",
+  "street": "Heroes Avenue",
+  "suburb": "Taringa",
+  "line": [
+    [
+      152.992033,
+      -27.492825
+    ],
+    [
+      152.992188,
+      -27.492827
+    ],
+    [
+      152.992241,
+      -27.492833
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "north",
+  "length_m": 21,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "service",
+      "name": null,
+      "dwelling": false,
+      "metres": 15,
+      "at_m": 21,
+      "outline": [
+        [
+          152.9922219,
+          -27.4926708
+        ],
+        [
+          152.9922552,
+          -27.4926188
+        ],
+        [
+          152.9923317,
+          -27.4926574
+        ],
+        [
+          152.9922984,
+          -27.4927094
+        ],
+        [
+          152.9922219,
+          -27.4926708
+        ]
+      ]
+    },
+    {
+      "building": "service",
+      "name": null,
+      "dwelling": false,
+      "metres": 32,
+      "at_m": 20,
+      "outline": [
+        [
+          152.992311,
+          -27.4924887
+        ],
+        [
+          152.9922265,
+          -27.4924461
+        ],
+        [
+          152.9921907,
+          -27.4925021
+        ],
+        [
+          152.9922752,
+          -27.4925446
+        ],
+        [
+          152.992311,
+          -27.4924887
+        ]
+      ]
+    },
+    {
+      "building": "service",
+      "name": null,
+      "dwelling": false,
+      "metres": 41,
+      "at_m": 21,
+      "outline": [
+        [
+          152.9923593,
+          -27.4924162
+        ],
+        [
+          152.9923835,
+          -27.4924284
+        ],
+        [
+          152.9923525,
+          -27.4924768
+        ],
+        [
+          152.9923283,
+          -27.4924646
+        ],
+        [
+          152.9923593,
+          -27.4924162
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 43,
+      "at_m": 5,
+      "outline": [
+        [
+          152.9920656,
+          -27.4923793
+        ],
+        [
+          152.9921114,
+          -27.4924024
+        ],
+        [
+          152.9920857,
+          -27.4924424
+        ],
+        [
+          152.99204,
+          -27.4924193
+        ],
+        [
+          152.9920656,
+          -27.4923793
+        ]
+      ]
+    },
+    {
+      "building": "service",
+      "name": null,
+      "dwelling": false,
+      "metres": 50,
+      "at_m": 21,
+      "outline": [
+        [
+          152.9924639,
+          -27.4923621
+        ],
+        [
+          152.9924816,
+          -27.492371
+        ],
+        [
+          152.9924504,
+          -27.4924196
+        ],
+        [
+          152.9924328,
+          -27.4924107
+        ],
+        [
+          152.9924639,
+          -27.4923621
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 52,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9914703,
+          -27.4929369
+        ],
+        [
+          152.9914812,
+          -27.4929517
+        ],
+        [
+          152.9915058,
+          -27.4929375
+        ],
+        [
+          152.9915363,
+          -27.4929791
+        ],
+        [
+          152.99142,
+          -27.4930464
+        ],
+        [
+          152.9913786,
+          -27.4929899
+        ],
+        [
+          152.9914703,
+          -27.4929369
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 54,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9913786,
+          -27.4929899
+        ],
+        [
+          152.991332,
+          -27.4929266
+        ],
+        [
+          152.9914268,
+          -27.4928717
+        ],
+        [
+          152.9914443,
+          -27.4928955
+        ],
+        [
+          152.9914653,
+          -27.4928833
+        ],
+        [
+          152.9914944,
+          -27.492923
+        ],
+        [
+          152.9914703,
+          -27.4929369
+        ],
+        [
+          152.9913786,
+          -27.4929899
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9920277,
+      "lat": -27.4922581,
+      "metres": 63,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9922478,
+      "lat": -27.4921613,
+      "metres": 74,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9922434,
+      "lat": -27.4921407,
+      "metres": 77,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9919935,
+      "lat": -27.4948832,
+      "metres": 229,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9934588,
+      "lat": -27.4907253,
+      "metres": 263,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9918114,
+      "lat": -27.4952614,
+      "metres": 272,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9917316,
+      "lat": -27.4953799,
+      "metres": 286,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.992033,
+        "lat": -27.492825,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 2.39
+      },
+      {
+        "lon": 152.992084,
+        "lat": -27.492826,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 2.3
+      },
+      {
+        "lon": 152.992134,
+        "lat": -27.492826,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 2.24
+      },
+      {
+        "lon": 152.992185,
+        "lat": -27.492827,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 2.31
+      },
+      {
+        "lon": 152.992235,
+        "lat": -27.492832,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 2.22
+      },
+      {
+        "lon": 152.992241,
+        "lat": -27.492833,
+        "at_m": 20.6,
+        "line": 0,
+        "elevation_m": 2.19
+      }
+    ],
+    "min_elevation_m": 2.2,
+    "max_elevation_m": 2.4,
+    "mean_grade_pct": 2.2,
+    "max_grade_pct": 5
+  },
+  "waterway": {
+    "name": "Toowong Creek",
+    "metres": 90
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 33,
+      "access": "customers",
+      "fee": "no",
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 56,
+      "access": "customers",
+      "fee": "no",
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 58,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 21,
+      "length_m": 21,
+      "images": {
+        "esri": ".cache/imagery/53885582-53901974-6878515-l-30/chunk1-esri.jpg",
+        "qld": ".cache/imagery/53885582-53901974-6878515-l-30/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        81,
+        61
+      ],
+      "image_px": [
+        537,
+        406
+      ]
+    }
+  ]
+}

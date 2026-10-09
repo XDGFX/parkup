@@ -1,0 +1,65 @@
+{
+  "candidate": "53885862-11654703186-6878505-l-15",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, backing onto a shop car park; no homes close.",
+  "reasons": [
+    "Cars parked along this kerb",
+    "Backs onto retail car park",
+    "Apartments 25 m or more from first 15 m"
+  ],
+  "drivers": {
+    "seclusion": "North side is a retail building and its car park; nearest apartments are about 25-38 m away at 0-15 m, 12 m only at the 35 m end.",
+    "access_and_room": "Wide street with a parking lane; several cars parked along both sides in Esri and QLD.",
+    "traffic": "Quiet side street off a busy 50 km/h road; the van would be among parked cars.",
+    "convention": "Cars park along this kerb, so a van will not stand out."
+  },
+  "flags": [
+    "Low-lying: about 5.8 m elevation, Toowong Creek 46 m away",
+    "Apartments (Campbellbrook) 12 m from the 35 m end",
+    "Slope about 1%, flat",
+    "Noise from the nearby main road"
+  ],
+  "sun_shade": "Open in the morning; a tree shades the west end in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking time limits on site",
+    "Street lighting",
+    "Whether the shops operate at night"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "Campbell Street north kerb, beside the shop car park, west end of the stretch",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.987173,
+        -27.490747
+      ],
+      [
+        152.987323,
+        -27.490768
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 26,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 5.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

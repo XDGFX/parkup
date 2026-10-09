@@ -1,0 +1,29 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin sits in dense bush on a steep slope; no track or vehicles.",
+  "reasons": [
+    "Ring is in thick canopy, no track",
+    "Slope averages about 20%, max 48%",
+    "Nearby paved patch is inside botanic gardens"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Very secluded: dense forest all round, no buildings mapped.",
+    "access_and_room": "No tyre tracks or formed surface reach the ring. Small paved patch 35 m south-west sits on access-restricted gardens roads, so access is doubtful.",
+    "traffic": "Quiet, away from through roads.",
+    "convention": "No sign of vehicles or people staying; gardens service area likely closed to the public."
+  },
+  "flags": [
+    "Steep: about 20% mean grade at the pin, max 48%",
+    "Nearby mapped tracks are access=no or private",
+    "Waterway 22 m away"
+  ],
+  "sun_shade": "Full canopy shade on all sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the paved patch SW is publicly accessible",
+    "Gate status on the gardens access road"
+  ],
+  "confidence": "medium"
+}

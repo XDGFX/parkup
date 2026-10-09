@@ -1,0 +1,49 @@
+{
+  "candidate": "47456388-47769023-6885761-l-70",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a through road at a rail bridge, no parking.",
+  "reasons": [
+    "Through road with no parked cars",
+    "Kerb meets bridge approach, no room",
+    "Blank wall and footpath, no pull-in"
+  ],
+  "drivers": {
+    "seclusion": "Supermarket wall on one side and the rail cutting on the other, with no homes within 50 m; but the spot is in full view of a busy road.",
+    "access_and_room": "Kerb runs straight into the bridge parapet; no shoulder or bay, so a van would stand in the lane.",
+    "traffic": "Busy road feeding the bridge and the shopping centre.",
+    "convention": "No cars parked on this kerb in Esri; the few cars parked in QLD are further up the west side."
+  },
+  "flags": [
+    "Main road with no parking",
+    "Noise: rail line and arterial traffic",
+    "Only 15 m long"
+  ],
+  "sun_shade": "Mostly open; the building shades the kerb in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Any time limits on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 57,
+    "gated": false,
+    "slope_pct": 2.8,
+    "min_elevation_m": 44.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

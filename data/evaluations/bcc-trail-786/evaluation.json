@@ -1,0 +1,47 @@
+{
+  "candidate": "bcc-trail-786",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is in garden shrubbery behind the Bonsai House; footpaths only, no van access.",
+  "reasons": [
+    "Ring in dense planting, no vehicle track",
+    "Only footpaths reach it",
+    "Bonsai House 19 m away"
+  ],
+  "drivers": {
+    "seclusion": "Enclosed by garden planting, but inside a visited public botanic garden.",
+    "access_and_room": "No tyre tracks or vehicles; the surrounding surfaces are narrow footpaths. The nearest road is 65 m away with no pull-off on this side.",
+    "traffic": "Quiet, pedestrians only.",
+    "convention": "Formal gardens with Bonsai House, band shell and lawn; no sign of overnight stays."
+  },
+  "flags": [
+    "Bonsai House 19 m away (non-residential)",
+    "Slope about 6% mean at the pin, max 21%",
+    "Waterway 20 m away, low ground about 30 m elevation"
+  ],
+  "sun_shade": "Dense canopy shade on all sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Gate or closing times for the gardens"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 6.3,
+    "min_elevation_m": 29.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

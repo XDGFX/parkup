@@ -1,0 +1,49 @@
+{
+  "candidate": "21616912-5207500415-797461903-l-25",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway kerb on a busy arterial, with bush behind and no room to pull off.",
+  "reasons": [
+    "Arterial kerb, no parked cars",
+    "No verge, bush against the kerb",
+    "Clearway Mon-Sat 7am-7pm"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush behind the kerb and rail beyond the road, with no dwellings nearby; the van would still be in view of passing traffic.",
+    "access_and_room": "Bush runs right up to the kerb with no verge or pull-off, and the 25 m stretch sits beside a signalled junction.",
+    "traffic": "Multi-lane arterial beside the rail line; heavy traffic and noise.",
+    "convention": "No cars parked along the kerb; the Clearway sign shows stopping is restricted."
+  },
+  "flags": [
+    "Main road with no parking",
+    "Clearway C Mon-Sat 7am-7pm",
+    "Low-lying: 8.3 m elevation, Toowong Creek 7 m away",
+    "Rail and arterial noise"
+  ],
+  "sun_shade": "Dense tree canopy over the north side of the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether the bush behind the kerb hides a usable pull-off"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 8.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

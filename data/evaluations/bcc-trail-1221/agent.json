@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is in dense garden bush with only footpaths nearby.",
+  "reasons": ["Dense canopy, no track or vehicles", "No mapped road or parking within 100 m", "Pedestrian paths only"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Deep in the gardens, but nowhere a van can reach.",
+    "access_and_room": "No tracks or tyre marks; only narrow footpaths, no mapped vehicle way.",
+    "traffic": "Garden visitors on distant paths; band shell 83 m away.",
+    "convention": "Botanic Gardens grounds; no parking convention."
+  },
+  "flags": ["Steep in places: 8.1% mean, 31% max", "Low-lying ground near a watercourse 23 m away", "Gardens may be closed or patrolled at night"],
+  "sun_shade": "Under dense tree canopy.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Night closing hours", "Signs on site"],
+  "confidence": "high"
+}

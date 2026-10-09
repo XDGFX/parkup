@@ -1,0 +1,23 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a 60 km/h through road under a rail bridge.",
+  "reasons": ["Main road, no parked cars along kerb", "Bus zone sign at the kerb", "Retail building 12 m away"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Rail viaduct to the north and a retail building 12 m east; no dwellings within 44 m, but the spot is exposed.",
+    "access_and_room": "Kerb runs beside a sealed lane marked 60; only one vehicle visible beside it, no wide shoulder or pull-off.",
+    "traffic": "Busy 60 km/h through road with trains overhead.",
+    "convention": "No row of parked cars here and a bus zone sign; nothing suggests overnight parking."
+  },
+  "flags": [
+    "Bus zone sign at the kerb",
+    "Low-lying: about 6 m elevation, Toowong Creek 59 m away",
+    "Noise from trains and a busy road",
+    "Slope about 3% (max 4.8%)"
+  ],
+  "sun_shade": "Rail bridge shades the north end; otherwise open.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Kerb height", "Whether the bus zone is enforced"],
+  "confidence": "medium"
+}

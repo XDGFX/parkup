@@ -1,0 +1,68 @@
+{
+  "candidate": "47831698-334425331-5884078-l-97",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Union Street kerb beside car park and oval, homes across the road.",
+  "reasons": [
+    "Backs onto car park and oval",
+    "Cars park along this kerb",
+    "Homes 21m+ away, across road"
+  ],
+  "drivers": {
+    "seclusion": "North side is a car park then an oval with trees; nearest homes 21-25 m away across the road.",
+    "access_and_room": "Open street with a parked row on this side; room to stop at the kerb.",
+    "traffic": "Quiet suburban street; passing cars only.",
+    "convention": "Several cars park along this kerb in the QLD image, so a van blends in."
+  },
+  "flags": [
+    "Slope about 3% here, steeper downhill to east (up to 8.4%)",
+    "Signs: 2P parallel, Mon-Fri 8am-5:30pm",
+    "Toowong Creek 102 m away; elevation 12-14 m"
+  ],
+  "sun_shade": "Mostly open; large tree shades the east end of the section, oval open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether the car park is locked at night"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 55,
+    "where": "north kerb between the car park exit and the big tree, beside the oval",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.984692,
+        -27.48965
+      ],
+      [
+        152.984796,
+        -27.489667
+      ],
+      [
+        152.984991,
+        -27.489698
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 24,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 12.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

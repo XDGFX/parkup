@@ -1,0 +1,47 @@
+{
+  "candidate": "bcc-trail-664",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Steep dense bush; no track, clearing or way in within 100 m.",
+  "reasons": [
+    "Pin in 16% bush slope, 42% max",
+    "No track or tyre marks reach it",
+    "Gravel works area north is beyond reach"
+  ],
+  "drivers": {
+    "seclusion": "Thick bush, no buildings within 100 m. Very secluded but unreachable.",
+    "access_and_room": "Only a mapped track (access no) 40 m away; no formed surface or tyre tracks lead to the pin. Gravel pit road to the north is a works area about 90 m up the slope.",
+    "traffic": "None.",
+    "convention": "No vehicles, vans or tents seen near the pin."
+  },
+  "flags": [
+    "Steep: mean 16.4%, max 42.2% around the pin",
+    "Waterway 7 m from the pin, gully ground",
+    "Mapped track is access no"
+  ],
+  "sun_shade": "Full tree canopy; shaded all day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the gravel area to the north is open to the public"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 16.4,
+    "min_elevation_m": 57,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

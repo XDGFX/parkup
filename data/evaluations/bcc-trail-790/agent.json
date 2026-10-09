@@ -1,0 +1,29 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is on a garden footpath among display beds; no vehicle access.",
+  "reasons": [
+    "Pedestrian paths in busy display gardens",
+    "No mapped ways or parking within 100 m",
+    "Dome and glasshouses 44 m away"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "In the middle of the visited botanic gardens, overlooked by paths, glasshouses and a lagoon walkway.",
+    "access_and_room": "Only narrow footpaths; no tyre tracks and no mapped service road or car park within 100 m. A small paved forecourt by the dome is pedestrian space.",
+    "traffic": "Foot traffic by day; quiet at night.",
+    "convention": "No sign of overnight use; formal gardens."
+  },
+  "flags": [
+    "Slope about 9% mean at the pin, max 20%",
+    "Waterway 53 m away, low ground about 27 to 31 m elevation",
+    "Gardens likely closed or patrolled at night"
+  ],
+  "sun_shade": "Mostly open beds with scattered tree shade; sun from all sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether staff vehicles use the paths",
+    "Closing hours"
+  ],
+  "confidence": "high"
+}

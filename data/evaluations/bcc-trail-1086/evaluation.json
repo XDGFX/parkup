@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-1086",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is in steep garden bush; nearest road has no pull-off.",
+  "reasons": [
+    "Dense bush, no track or vehicles",
+    "Slope averages 16.8% around the pin",
+    "Road to north is narrow, no parking room"
+  ],
+  "drivers": {
+    "seclusion": "Very secluded bush, but nothing a van can reach.",
+    "access_and_room": "No tracks or tyre marks; the road above has a thin grass edge and cycle markings, no pull-off.",
+    "traffic": "Quiet garden road to the north; garden buildings to the north-east.",
+    "convention": "No parking convention; inside Botanic Gardens grounds."
+  },
+  "flags": [
+    "Steep: about 17% mean, 36% max",
+    "Gardens grounds may be closed or patrolled at night"
+  ],
+  "sun_shade": "Under dense tree canopy.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Night closing hours",
+    "Signs on site",
+    "Road verge firmness"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 16.8,
+    "min_elevation_m": 41.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

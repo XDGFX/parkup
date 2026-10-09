@@ -1,0 +1,47 @@
+{
+  "candidate": "bcc-trail-785",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is in dense garden bush on a slope; no track or vehicle access.",
+  "reasons": [
+    "Ring under thick canopy, no track",
+    "Slope averages 12%, max 42%",
+    "Nearest road 98 m away, narrow verge"
+  ],
+  "drivers": {
+    "seclusion": "Very secluded botanic-gardens bush, no buildings mapped.",
+    "access_and_room": "No tyre tracks, vehicles or formed surface reach the ring; only footpaths nearby. The road to the north has a narrow edge with no clear pull-off.",
+    "traffic": "Quiet; sealed gardens road 98 m north.",
+    "convention": "No sign of anyone staying."
+  },
+  "flags": [
+    "Steep: about 12% mean grade near the pin, max 42%",
+    "Waterway 14 m away, gully floor at about 35 m elevation",
+    "Gates mapped 230 m and more away, none on the only access"
+  ],
+  "sun_shade": "Full canopy shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the verge on the northern road allows parking"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 11.9,
+    "min_elevation_m": 35.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

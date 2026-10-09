@@ -1,0 +1,36 @@
+{
+  "verdict": "maybe",
+  "kind": "parking area",
+  "summary": "Pin is in bush; the big gardens visitor car park lies just east.",
+  "reasons": [
+    "Ring in dense bush, no track",
+    "Large sealed visitor car park 41 m away",
+    "Busy by day, among gardens buildings"
+  ],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Edge of the large sealed visitor car park east of the ring, backing onto the bush",
+    "slope_pct": 7.3
+  },
+  "drivers": {
+    "seclusion": "No dwellings mapped or visible. The car park backs onto bush on its west side, but gardens buildings, the planetarium and a main road are all within about 80 m.",
+    "access_and_room": "Sealed car park with many marked bays, mapped access yes, no fee. The ring itself has no track.",
+    "traffic": "Busy visitor and through traffic by day; the main road lies about 60 m north.",
+    "convention": "Dozens of cars parked; a van would blend in by day. Nothing suggests overnight stays."
+  },
+  "flags": [
+    "Slope figure is for the ring (about 7% mean, max 14%); car park not sampled",
+    "Gardens car park may be gated, lit or patrolled after hours",
+    "Noise from the main road and visitor traffic",
+    "Maintenance depot and staff buildings within 85 m"
+  ],
+  "sun_shade": "Open car park in full sun, with shade from the bush on the west side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Closing hours and night gate",
+    "Street lighting",
+    "Signs on site, such as time limits"
+  ],
+  "confidence": "low"
+}

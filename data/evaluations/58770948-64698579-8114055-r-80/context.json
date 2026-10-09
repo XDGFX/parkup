@@ -1,0 +1,115 @@
+{
+  "id": "58770948-64698579-8114055-r-80",
+  "street": "Broseley Road",
+  "suburb": "Taringa",
+  "line": [
+    [
+      152.970554,
+      -27.487372
+    ],
+    [
+      152.970563,
+      -27.487368
+    ],
+    [
+      152.970611,
+      -27.487313
+    ],
+    [
+      152.970642,
+      -27.487261
+    ],
+    [
+      152.970626,
+      -27.48727
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "south",
+  "length_m": 17,
+  "signs": [],
+  "buildings": [],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.970554,
+        "lat": -27.487372,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 61.83
+      },
+      {
+        "lon": 152.970588,
+        "lat": -27.48734,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 61.75
+      },
+      {
+        "lon": 152.970617,
+        "lat": -27.487303,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 61.72
+      },
+      {
+        "lon": 152.970641,
+        "lat": -27.487263,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 61.6
+      },
+      {
+        "lon": 152.970626,
+        "lat": -27.48727,
+        "at_m": 17.1,
+        "line": 0,
+        "elevation_m": 61.66
+      }
+    ],
+    "min_elevation_m": 61.6,
+    "max_elevation_m": 61.8,
+    "mean_grade_pct": 1.9,
+    "max_grade_pct": 2.9
+  },
+  "waterway": {
+    "name": "Toowong Creek",
+    "metres": 216
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 17,
+      "length_m": 17,
+      "images": {
+        "esri": ".cache/imagery/58770948-64698579-8114055-r-80/chunk1-esri.jpg",
+        "qld": ".cache/imagery/58770948-64698579-8114055-r-80/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        69,
+        72
+      ],
+      "image_px": [
+        458,
+        482
+      ]
+    }
+  ]
+}

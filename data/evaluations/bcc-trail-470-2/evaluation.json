@@ -1,0 +1,60 @@
+{
+  "candidate": "bcc-trail-470-2",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Pin is on the auditorium roof; nearest van spot is the gardens car park.",
+  "reasons": [
+    "Pin sits on a building, so it is off",
+    "Sealed visitor car park 81 m east",
+    "No dwellings anywhere near"
+  ],
+  "drivers": {
+    "seclusion": "Bush behind the car park; only gardens buildings nearby, no dwellings.",
+    "access_and_room": "Sealed road runs to the car park, many bays; room to stop. Yards beside the pin are staff-only.",
+    "traffic": "Visitor traffic by day; quiet at night.",
+    "convention": "Mapped public car park (access yes, no fee) with many cars parked."
+  },
+  "flags": [
+    "Pin is on a building, car park is the nearest sensible place",
+    "Slope data is at the pin, mean 6.5%; car park looks flatter",
+    "May be patrolled or closed at night"
+  ],
+  "sun_shade": "Open asphalt, sun all day; palms and bush shade some edges.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Night closure or signs on site",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Edge of the asphalt visitor car park north-east of the auditorium, about 80 m from the pin",
+    "slope_pct": 6.5,
+    "points": [
+      [
+        152.975815,
+        -27.475348
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 6.5,
+    "min_elevation_m": 40.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

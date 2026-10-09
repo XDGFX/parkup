@@ -1,0 +1,48 @@
+{
+  "candidate": "11291275742-13033616513-1218562394-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a signalised junction with lane markings, no parked cars.",
+  "reasons": [
+    "Multi-lane approach with median island",
+    "No cars parked along kerb",
+    "Very steep, about 12% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Trees and a car park behind the kerb, but homes and apartments sit 21-24 m away across the road.",
+    "access_and_room": "Kerb abuts a marked traffic lane with lane arrows and no pull-in; only 12 m long, less than a van beside a junction.",
+    "traffic": "Busy junction approach with a central island and turn lanes.",
+    "convention": "No parked cars on this kerb in either image."
+  },
+  "flags": [
+    "Steep: about 12% mean grade, 22% max",
+    "Main road with no parking",
+    "Noise from junction traffic"
+  ],
+  "sun_shade": "Tree canopy over the kerb from the east and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 12.4,
+    "min_elevation_m": 23.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

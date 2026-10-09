@@ -1,0 +1,171 @@
+{
+  "id": "21616912-5207500415-797461903-l-25",
+  "street": "Moggill Road",
+  "suburb": "Taringa",
+  "line": [
+    [
+      152.98703,
+      -27.489791
+    ],
+    [
+      152.987173,
+      -27.48971
+    ],
+    [
+      152.987244,
+      -27.48967
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "north",
+  "length_m": 25,
+  "signs": [
+    {
+      "street": "MOGGILL ROAD",
+      "restriction": "Clearway C",
+      "days_times": "MON-SAT:7am-7pm",
+      "extra_text": null,
+      "arrow": "Not applicable",
+      "metres_from_kerb_line": 4.2
+    }
+  ],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 152.9874188,
+      "lat": -27.4895219,
+      "metres": 24,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.988055,
+      "lat": -27.4908263,
+      "metres": 151,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9855317,
+      "lat": -27.4908643,
+      "metres": 190,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9892598,
+      "lat": -27.4884651,
+      "metres": 240,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.98703,
+        "lat": -27.489791,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 8.32
+      },
+      {
+        "lon": 152.987073,
+        "lat": -27.489767,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 8.54
+      },
+      {
+        "lon": 152.987115,
+        "lat": -27.489743,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 8.66
+      },
+      {
+        "lon": 152.987158,
+        "lat": -27.489718,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 8.81
+      },
+      {
+        "lon": 152.987201,
+        "lat": -27.489694,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 8.81
+      },
+      {
+        "lon": 152.987244,
+        "lat": -27.48967,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 8.9
+      },
+      {
+        "lon": 152.987244,
+        "lat": -27.48967,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 8.9
+      }
+    ],
+    "min_elevation_m": 8.3,
+    "max_elevation_m": 8.9,
+    "mean_grade_pct": 2.3,
+    "max_grade_pct": 4.4
+  },
+  "waterway": {
+    "name": "Toowong Creek",
+    "metres": 7
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 99,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 25,
+      "length_m": 25,
+      "images": {
+        "esri": ".cache/imagery/21616912-5207500415-797461903-l-25/chunk1-esri.jpg",
+        "qld": ".cache/imagery/21616912-5207500415-797461903-l-25/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_CBD_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-12-07",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        81,
+        73
+      ],
+      "image_px": [
+        541,
+        490
+      ]
+    }
+  ]
+}

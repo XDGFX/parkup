@@ -1,0 +1,68 @@
+{
+  "candidate": "60801676-60801678-1311695135-l-140",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb where cars park, but homes sit 19-24 m all round.",
+  "reasons": [
+    "Homes within 25 m on both sides",
+    "Cars already park at this kerb",
+    "Flat, under 2% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dense housing: dwellings 19-24 m away on the opposite side and garages 11 m away on this side; no bush or open ground.",
+    "access_and_room": "Sealed street; a car is parked at this kerb, so a van fits at the kerb.",
+    "traffic": "Quiet side street with little through traffic.",
+    "convention": "No signs; parked cars along the street, but no sign of overnight stays."
+  },
+  "flags": [
+    "Dwellings 19-24 m away",
+    "Garages 5-11 m from the kerb",
+    "Flat: about 1% at the best section"
+  ],
+  "sun_shade": "Trees shade the north side; the kerb is mostly open to sun, with morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height and crossfall",
+    "Whether residents object to parked vans"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "South kerb at the top of Dopson Street, by the parked cars near the start",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.990053,
+        -27.498862
+      ],
+      [
+        152.989924,
+        -27.498923
+      ],
+      [
+        152.989879,
+        -27.498953
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 19.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

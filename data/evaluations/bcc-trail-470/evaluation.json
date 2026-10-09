@@ -1,0 +1,60 @@
+{
+  "candidate": "bcc-trail-470",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Large asphalt gardens car park beside bush; no homes nearby.",
+  "reasons": [
+    "Backs onto bush, no dwellings",
+    "Big sealed car park, easy access",
+    "Only gardens buildings nearby"
+  ],
+  "drivers": {
+    "seclusion": "Pin is in thick bush above the auditorium; car park backs onto bush. No dwellings mapped or seen.",
+    "access_and_room": "Sealed road reaches the car park, many marked bays; plenty of room to stop.",
+    "traffic": "Visitor traffic by day; quiet road end otherwise. Busy road lies further north.",
+    "convention": "Public car park (fee no, access yes); many cars park there so a van blends in."
+  },
+  "flags": [
+    "Slope data is around the pin, mean 5.6%; car park looks flatter",
+    "Gardens visitor car park, may be patrolled or closed at night",
+    "Gates mapped nearby with a way round"
+  ],
+  "sun_shade": "Open asphalt, sun all day; palms and bush shade some edges.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Night closure or signs on site",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Edge of the big asphalt car park north-east of the pin, beside the bush",
+    "slope_pct": 5.6,
+    "points": [
+      [
+        152.976202,
+        -27.475111
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 5.6,
+    "min_elevation_m": 37.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,28 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is in dense garden bush; no track, vehicles or parking nearby.",
+  "reasons": [
+    "Ring under thick canopy, no track",
+    "No parking or drivable way within 88 m",
+    "Waterway 8 m away"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Very enclosed by bush, no dwellings; but inside the public botanic gardens.",
+    "access_and_room": "No tyre tracks or vehicles reach the ring; only narrow footpaths and a small clearing. Nearest road is 89 m away with no mapped parking.",
+    "traffic": "Quiet, pedestrians only.",
+    "convention": "No sign of anyone staying."
+  },
+  "flags": [
+    "Slope about 7.5% mean at the pin, max 18%",
+    "Waterway 8 m away, low ground about 34 m elevation",
+    "Band Shell 66 m away (non-residential)"
+  ],
+  "sun_shade": "Full canopy shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the small clearings are reachable by service vehicles"
+  ],
+  "confidence": "medium"
+}

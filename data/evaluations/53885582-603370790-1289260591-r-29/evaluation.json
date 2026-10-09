@@ -1,0 +1,48 @@
+{
+  "candidate": "53885582-603370790-1289260591-r-29",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "No Parking Any Time kerb on a through road, with homes 13-17 m away.",
+  "reasons": [
+    "No Parking Any Time signs",
+    "No parked cars; narrow road",
+    "Homes 13-17 m across the road"
+  ],
+  "drivers": {
+    "seclusion": "Parkland and trees on the van's side, but flats and houses 13-17 m away across the road.",
+    "access_and_room": "Sealed lane with no verge or pull-in; the kerb abuts trees and a grass bank beside the creek.",
+    "traffic": "Through route linking the Heroes Avenue junction to Indooroopilly Road.",
+    "convention": "Three No Parking Any Time signs cover the stretch; no cars park here."
+  },
+  "flags": [
+    "No Parking Any Time signs",
+    "Low-lying: 3.5-5.3 m elevation, Toowong Creek 19 m away",
+    "Steep spots: max 25.8% grade, 5.6% mean"
+  ],
+  "sun_shade": "Tree canopy shades the kerb from the north and east; open to sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 6,
+    "min_elevation_m": 3.5,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:53:45Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "off-road site",
+  "summary": "Pin is in steep garden bush; nearest road has no pull-off.",
+  "reasons": ["Dense bush, no track or vehicles", "Slope averages 16.8% around the pin", "Road to north is narrow, no parking room"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Very secluded bush, but nothing a van can reach.",
+    "access_and_room": "No tracks or tyre marks; the road above has a thin grass edge and cycle markings, no pull-off.",
+    "traffic": "Quiet garden road to the north; garden buildings to the north-east.",
+    "convention": "No parking convention; inside Botanic Gardens grounds."
+  },
+  "flags": ["Steep: about 17% mean, 36% max", "Gardens grounds may be closed or patrolled at night"],
+  "sun_shade": "Under dense tree canopy.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Night closing hours", "Signs on site", "Road verge firmness"],
+  "confidence": "medium"
+}
