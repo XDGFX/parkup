@@ -1,0 +1,48 @@
+{
+  "candidate": "58711599-262446457-1090665528-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Junction mouth beside a painted island; no room to stop clear of traffic.",
+  "reasons": [
+    "Stretch lies on junction splitter island",
+    "No Stopping sign nearby",
+    "Parked cars start further west"
+  ],
+  "drivers": {
+    "seclusion": "Bush and a path to the south, but the spot is an open junction.",
+    "access_and_room": "The 13 m line runs along the chevron island at a junction mouth. No pull-out beside the lane.",
+    "traffic": "Through road with a slip lane and island; vans would block turning traffic.",
+    "convention": "Cars park along the kerb about 20 m west, past the junction, but not on this stretch."
+  },
+  "flags": [
+    "No Stopping Any Time sign at 9.5 m",
+    "Only 13 m long, at a junction",
+    "Dormitory 57 m away (non-issue)"
+  ],
+  "sun_shade": "Open to the sun; tree shade from the north-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact sign coverage",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 57,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 9.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

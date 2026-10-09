@@ -1,0 +1,65 @@
+{
+  "candidate": "58711599-262446457-1090665528-l-23",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb with cars parked along it, bush behind; dormitory 58 m away.",
+  "reasons": [
+    "Cars parked along this kerb",
+    "Bush behind the kerb",
+    "Nearest dwelling 58 m away"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush behind; the only dormitory is 58 m away.",
+    "access_and_room": "Cars park here; a grass and dirt verge with a path sits beside the kerb.",
+    "traffic": "Campus road beside a junction; moderate traffic.",
+    "convention": "Cars already park along this kerb, so a van blends in."
+  },
+  "flags": [
+    "Sign: No Stopping Any Time (arrow left, 1.5 m from kerb), although cars are parked here",
+    "Section is only 18 m, about one van length plus a little",
+    "Low-lying: about 9 m elevation, Brisbane River 208 m away",
+    "Campus setting, may be patrolled"
+  ],
+  "sun_shade": "Bush canopy shades the south side; open to midday sun from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Where the No Stopping sign applies"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 18,
+    "where": "South kerb of Sir William MacGregor Drive, just west of the junction island",
+    "slope_pct": 1.1,
+    "points": [
+      [
+        153.011474,
+        -27.502491
+      ],
+      [
+        153.0113,
+        -27.502441
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 55,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 9.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

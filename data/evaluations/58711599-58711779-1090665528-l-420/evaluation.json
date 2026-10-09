@@ -1,0 +1,49 @@
+{
+  "candidate": "58711599-58711779-1090665528-l-420",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Only 8 m of kerb, painted as a pick-up zone, with homes 17 m away.",
+  "reasons": [
+    "Stretch about one van length",
+    "Painted pick-up marking on the kerb",
+    "Homes 17-18 m away"
+  ],
+  "drivers": {
+    "seclusion": "Residential buildings 17-18 m away; college car park behind.",
+    "access_and_room": "8 m of kerb is too short and is marked for pick-up.",
+    "traffic": "Campus road, moderate traffic.",
+    "convention": "Cars park along the road nearby, but this stretch is marked as a pick-up zone."
+  },
+  "flags": [
+    "Painted pick-up marking in the lane at the stretch",
+    "Mapped lift gate 47 m away has a way round",
+    "Low-lying: about 9 m elevation, river 216 m away"
+  ],
+  "sun_shade": "Mostly open; trees to the south cast some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact wording of the road marking",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 0.4,
+    "min_elevation_m": 9.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

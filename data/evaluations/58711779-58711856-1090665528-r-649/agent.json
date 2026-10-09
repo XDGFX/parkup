@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Riverside kerb crowded with parked cars, backing onto bush; no homes.",
+  "reasons": ["Backs onto river bank bush", "Cars parked bumper to bumper", "No dwellings; only sports buildings"],
+  "best_section": {
+    "from_m": 160,
+    "to_m": 215,
+    "where": "East kerb beside the river, just north of the hockey field junction",
+    "slope_pct": 0.7
+  },
+  "drivers": {
+    "seclusion": "River bank bush on the east; sports fields and university buildings on the west, no homes.",
+    "access_and_room": "Cars line the kerb in Esri over most of the length, so there is room.",
+    "traffic": "Riverside campus road; quiet at night.",
+    "convention": "Dense parking along this kerb under the metered University zone; a van blends in."
+  },
+  "flags": ["Low-lying: 4.1 to 6.9 m, 115 m from Brisbane River; flood-prone", "Metered University zone Mon-Fri 7am-9pm", "2-minute passenger loading zone signs near the south end", "DEM max grade 22% is noise; mean 1.8%"],
+  "sun_shade": "Tree canopy from the east over the section; open to the afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Campus security patrols", "Exact sign positions"],
+  "confidence": "medium"
+}

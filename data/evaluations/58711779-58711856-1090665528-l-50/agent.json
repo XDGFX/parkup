@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Kerb backing onto bush and playing field, with other cars parked along it.",
+  "reasons": ["Backs onto bush and sports oval", "No homes nearby", "Cars already park along this road"],
+  "best_section": {
+    "from_m": 15,
+    "to_m": 45,
+    "where": "West kerb of the drive, just north-east of the oval pavilion bend",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Bush and oval on the west side; only a university building 45 m away at the far end.",
+    "access_and_room": "Cars are lined along this kerb in the current Esri image; the road is wide enough for parked cars.",
+    "traffic": "Campus access road with moderate daytime traffic; quieter at night.",
+    "convention": "Many cars park along both kerbs; the van would blend in."
+  },
+  "flags": ["No Stopping Any Time signs near the start; check where they apply", "Metered University zone Mon-Fri 7am-9pm", "Low-lying: about 7.5 m, 140 m from Brisbane River", "Utility building 17 m away at 175 m, outside section"],
+  "sun_shade": "Heavy tree shade from the west and south-west; open to afternoon sun in gaps.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Campus security patrols", "Exact sign positions"],
+  "confidence": "medium"
+}

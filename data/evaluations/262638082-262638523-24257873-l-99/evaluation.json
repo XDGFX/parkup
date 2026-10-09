@@ -1,0 +1,47 @@
+{
+  "candidate": "262638082-262638523-24257873-l-99",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "No road here; line runs through a planted gap between university buildings.",
+  "reasons": [
+    "No road surface or vehicle access",
+    "Timed No Stopping sign, 7am-5:30pm",
+    "Boxed in by university buildings"
+  ],
+  "drivers": {
+    "seclusion": "Enclosed by lab buildings 3-6 m away, but nowhere a van could stand.",
+    "access_and_room": "Dense shrubs and trees fill the gap; no tracks, no vehicles, no pavement wide enough for a van.",
+    "traffic": "Service area beside plant rooms; no traffic seen.",
+    "convention": "No sign of anyone staying; permit parking mapped 64 m away."
+  },
+  "flags": [
+    "No Stopping Specified Times sign (7:00AM-5:30PM)",
+    "Slope fine at about 1%",
+    "Plant-room noise from rooftop fans nearby"
+  ],
+  "sun_shade": "Heavily shaded by buildings and trees.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether a service path exists under the canopy"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 9.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Parked-up riverside bay backed by bush; no homes near.",
+  "reasons": ["Backs onto dense riverside bush", "Cars parked here in Esri", "No dwellings in range"],
+  "best_section": {
+    "from_m": 15,
+    "to_m": 37,
+    "where": "East side of the road at the small widened bay, north of the speed hump",
+    "slope_pct": 1.9
+  },
+  "drivers": {
+    "seclusion": "Bush to the east, river beyond; only a small utility building (non-residential) near the start.",
+    "access_and_room": "The road widens here and several cars are parked on the east side in Esri.",
+    "traffic": "Narrow campus lane; quiet at night.",
+    "convention": "Cars park here under the metered University zone sign."
+  },
+  "flags": ["Metered University zone Mon-Fri 7am-9pm", "Low-lying: about 7.3 m, 134 m from Brisbane River", "Utility building 6 m away at the start (non-dwelling)", "Slope 1.9% over the best section"],
+  "sun_shade": "Dense tree canopy from the east and overhead; mostly shaded.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Campus security patrols", "Whether the east strip is formal bays"],
+  "confidence": "medium"
+}

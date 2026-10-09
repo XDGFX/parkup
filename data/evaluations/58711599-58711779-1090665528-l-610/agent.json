@@ -1,0 +1,36 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Short kerb under trees by the tennis courts; College Playhouse 20 m off.",
+  "reasons": [
+    "Mapped dwelling (College Playhouse) 20 m away",
+    "Cars park along the opposite kerb",
+    "Trees and tennis courts on the north side"
+  ],
+  "best_section": {
+    "from_m": 3,
+    "to_m": 13,
+    "where": "Sir William MacGregor Drive, north kerb just east of the tennis courts",
+    "slope_pct": 1
+  },
+  "drivers": {
+    "seclusion": "Trees and tennis courts to the north; College Playhouse 20 m away on the same side, Women's College 47 m; bush to the south.",
+    "access_and_room": "Sealed road with a parking lane; cars park on the south kerb, room to pull in on the north.",
+    "traffic": "Campus road with moderate traffic; parked van sits outside the lane.",
+    "convention": "Cars park along this road by day; overnight use unknown."
+  },
+  "flags": [
+    "Mapped dwelling 20 m from the section",
+    "Lift gate 19 m away, not on the only access",
+    "Low-lying: about 7.9 m elevation, Brisbane River 200 m away",
+    "Campus: parking rules on site unknown"
+  ],
+  "sun_shade": "Tree canopy over the north kerb shades it from the north and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the College Playhouse is lived in",
+    "Campus parking permits and signs",
+    "Street lighting"
+  ],
+  "confidence": "low"
+}

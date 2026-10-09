@@ -1,0 +1,69 @@
+{
+  "candidate": "58711599-58711779-1090665528-l-610",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb under trees by the tennis courts; College Playhouse 20 m off.",
+  "reasons": [
+    "Mapped dwelling (College Playhouse) 20 m away",
+    "Cars park along the opposite kerb",
+    "Trees and tennis courts on the north side"
+  ],
+  "drivers": {
+    "seclusion": "Trees and tennis courts to the north; College Playhouse 20 m away on the same side, Women's College 47 m; bush to the south.",
+    "access_and_room": "Sealed road with a parking lane; cars park on the south kerb, room to pull in on the north.",
+    "traffic": "Campus road with moderate traffic; parked van sits outside the lane.",
+    "convention": "Cars park along this road by day; overnight use unknown."
+  },
+  "flags": [
+    "Mapped dwelling 20 m from the section",
+    "Lift gate 19 m away, not on the only access",
+    "Low-lying: about 7.9 m elevation, Brisbane River 200 m away",
+    "Campus: parking rules on site unknown"
+  ],
+  "sun_shade": "Tree canopy over the north kerb shades it from the north and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the College Playhouse is lived in",
+    "Campus parking permits and signs",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 3,
+    "to_m": 13,
+    "where": "Sir William MacGregor Drive, north kerb just east of the tennis courts",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.017764,
+        -27.501766
+      ],
+      [
+        153.017798,
+        -27.501756
+      ],
+      [
+        153.017857,
+        -27.501739
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 7.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

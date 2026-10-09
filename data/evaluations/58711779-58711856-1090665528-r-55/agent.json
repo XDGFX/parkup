@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Parked-up kerb backed by riverside bush; no homes anywhere near.",
+  "reasons": ["Backs onto riverside bush", "Cars parked along this kerb", "No dwellings in range"],
+  "best_section": {
+    "from_m": 40,
+    "to_m": 90,
+    "where": "East kerb of the curving drive, beside the playing field bend",
+    "slope_pct": 0.8
+  },
+  "drivers": {
+    "seclusion": "Dense bush between the road and river; only a utility building 32 m away at the far end.",
+    "access_and_room": "Esri shows cars parked in a continuous line along this kerb.",
+    "traffic": "Campus road; low traffic at night.",
+    "convention": "Heavily parked in the current image, so a van blends in."
+  },
+  "flags": ["No Stopping Any Time sign at 10.7 m, near the start", "Metered University zone nearby", "Low-lying: about 7.8 m, 154 m from Brisbane River", "DEM shows a 10% spike; likely noise, mean 1.3%"],
+  "sun_shade": "Bush shade from the south-east; open to afternoon sun from the west across the oval.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Campus security patrols", "Exact sign positions"],
+  "confidence": "medium"
+}

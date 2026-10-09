@@ -1,0 +1,35 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Shaded north kerb on Heroes Avenue beside a gravel lot and trees.",
+  "reasons": [
+    "Backs onto trees and gravel car park",
+    "Nearest homes over 40 m away",
+    "Cars already stop on this kerb"
+  ],
+  "best_section": {
+    "from_m": 15,
+    "to_m": 50,
+    "where": "North kerb opposite the baseball park, beside the trees and gravel lot",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Trees and a gravel club car park behind the kerb; only sheds within 14-48 m and homes 42 m or more beyond the end.",
+    "access_and_room": "Two cars sit at the north road edge here, so there is room beside the lane; the gravel lot is also reachable nearby.",
+    "traffic": "Through road near a signalled junction; moderate traffic and some noise.",
+    "convention": "A white and a dark car stand on this edge in the imagery; a caravan is parked in the lot to the north-east."
+  },
+  "flags": [
+    "Low-lying: about 2 m elevation, Toowong Creek 102 m away",
+    "Slope rises to about 14% past 70 m, outside the best section",
+    "Junction noise at the east end"
+  ],
+  "sun_shade": "Large trees shade the kerb from the north and west; open to midday sun from the road side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking signs or time limits on site",
+    "Whether the parked cars stay overnight",
+    "Crossfall and street lighting"
+  ],
+  "confidence": "medium"
+}

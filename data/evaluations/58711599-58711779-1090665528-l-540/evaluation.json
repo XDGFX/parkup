@@ -1,0 +1,69 @@
+{
+  "candidate": "58711599-58711779-1090665528-l-540",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short campus kerb by car park and lawn; nearest mapped dwelling 25 m.",
+  "reasons": [
+    "Car park and lawn on the north side",
+    "Nearest mapped dwellings 25 m and 27 m",
+    "Cars park along this road"
+  ],
+  "drivers": {
+    "seclusion": "Car park, lawn and tennis courts to the north; bush to the south; mapped dwellings 25 m and 27 m away.",
+    "access_and_room": "Sealed road with cars parked along both kerbs; 10 m of kerb fits a van.",
+    "traffic": "Campus road with moderate traffic; parked van sits outside the lane.",
+    "convention": "Cars park along the road by day; overnight use unknown."
+  },
+  "flags": [
+    "Mapped residential building 25 m and Women's College dormitory 27 m away",
+    "Car park entrance beside the section",
+    "Low-lying: about 8.4 m elevation, Brisbane River 204 m away",
+    "Campus: parking rules on site unknown"
+  ],
+  "sun_shade": "Palm and tree shade from the west and north; the car park and lawn are open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the mapped residential building is really a dwelling",
+    "Campus parking permits and signs",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Sir William MacGregor Drive, north kerb at the car park entrance opposite the bush strip",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        153.017047,
+        -27.501927
+      ],
+      [
+        153.017092,
+        -27.501917
+      ],
+      [
+        153.017146,
+        -27.501906
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 25,
+    "gated": false,
+    "slope_pct": 0.7,
+    "min_elevation_m": 8.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

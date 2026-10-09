@@ -1,0 +1,211 @@
+{
+  "id": "58711779-58711856-1090665528-r-222",
+  "street": "Sir William MacGregor Drive",
+  "suburb": "St Lucia",
+  "line": [
+    [
+      153.020093,
+      -27.500371
+    ],
+    [
+      153.020174,
+      -27.500377
+    ],
+    [
+      153.020157,
+      -27.50013
+    ],
+    [
+      153.020156,
+      -27.500121
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "east",
+  "length_m": 37,
+  "signs": [
+    {
+      "street": "SIR WILLIAM MACGREGOR DRIVE",
+      "restriction": "ST LUCIA TRAFFIC AREA",
+      "days_times": "MON-FRI:7am-9pm",
+      "extra_text": "PARKING AREA,METER,EXCEPT AS SIGNED",
+      "arrow": "Not applicable",
+      "metres_from_kerb_line": 1
+    }
+  ],
+  "buildings": [
+    {
+      "building": "utility",
+      "name": "SP175",
+      "dwelling": false,
+      "metres": 6,
+      "at_m": 8,
+      "outline": [
+        [
+          153.0202295,
+          -27.5003111
+        ],
+        [
+          153.0202751,
+          -27.5003111
+        ],
+        [
+          153.0202751,
+          -27.500386
+        ],
+        [
+          153.0202295,
+          -27.500386
+        ],
+        [
+          153.0202295,
+          -27.5003111
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0190225,
+      "lat": -27.5015029,
+      "metres": 164,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0177677,
+      "lat": -27.5005512,
+      "metres": 230,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0178039,
+      "lat": -27.5015773,
+      "metres": 263,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0228924,
+      "lat": -27.4991755,
+      "metres": 290,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.020093,
+        "lat": -27.500371,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 7.24
+      },
+      {
+        "lon": 153.020144,
+        "lat": -27.500375,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 7.47
+      },
+      {
+        "lon": 153.020173,
+        "lat": -27.500359,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 7.58
+      },
+      {
+        "lon": 153.02017,
+        "lat": -27.500314,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 7.51
+      },
+      {
+        "lon": 153.020167,
+        "lat": -27.500269,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 7.39
+      },
+      {
+        "lon": 153.020164,
+        "lat": -27.500225,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 7.34
+      },
+      {
+        "lon": 153.02016,
+        "lat": -27.50018,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 7.26
+      },
+      {
+        "lon": 153.020157,
+        "lat": -27.500135,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 7.13
+      },
+      {
+        "lon": 153.020156,
+        "lat": -27.500121,
+        "at_m": 36.5,
+        "line": 0,
+        "elevation_m": 7.17
+      }
+    ],
+    "min_elevation_m": 7.1,
+    "max_elevation_m": 7.6,
+    "mean_grade_pct": 2.3,
+    "max_grade_pct": 4.6
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 134
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 37,
+      "length_m": 37,
+      "images": {
+        "esri": ".cache/imagery/58711779-58711856-1090665528-r-222/chunk1-esri.jpg",
+        "qld": ".cache/imagery/58711779-58711856-1090665528-r-222/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        68,
+        88
+      ],
+      "image_px": [
+        453,
+        590
+      ]
+    }
+  ]
+}

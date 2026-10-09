@@ -1,0 +1,68 @@
+{
+  "candidate": "251812214-251812236-1125290316-l-57",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "West kerb beside bowling greens, lined with parked cars, no homes within 14 m.",
+  "reasons": [
+    "Backs onto bowling club greens",
+    "Cars already park along kerb",
+    "Nearest dwelling 14 m, only at far end"
+  ],
+  "drivers": {
+    "seclusion": "Greens and clubhouse grounds on the van's side; no dwellings mapped within 30 m of this section.",
+    "access_and_room": "Sealed public street with a parked-car lane along the west kerb; room for a van in the row.",
+    "traffic": "Short access street beside a large car park; some university or club traffic.",
+    "convention": "Many cars parked along the kerb in imagery; P (No Limit) signs, with some No Stopping signs to check."
+  },
+  "flags": [
+    "Mixed P (No Limit) and No Stopping Any Time signs; check exact bays",
+    "Low-lying: 6-7 m elevation, nearest waterway 147 m",
+    "Likely daytime activity from adjacent car park"
+  ],
+  "sun_shade": "Street trees on the east side shade the afternoon; open to morning sun from the greens side only partly.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Which stretch the No Stopping signs cover",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 45,
+    "where": "Keith Street west kerb, beside the bowling greens",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.009055,
+        -27.493678
+      ],
+      [
+        153.00916,
+        -27.493513
+      ],
+      [
+        153.009207,
+        -27.493395
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 33,
+    "gated": false,
+    "slope_pct": 3.1,
+    "min_elevation_m": 6.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,68 @@
+{
+  "candidate": "58711603-1112584422-24626864-r-13",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Campus service lane between labs; two cars seen in 2022, nothing in 2025.",
+  "reasons": [
+    "No homes, only university buildings",
+    "Access and parking rights unclear",
+    "Cars in 2022 image, none in 2025"
+  ],
+  "drivers": {
+    "seclusion": "No dwellings; surrounded by university labs 3-18 m away, so empty at night but a managed campus.",
+    "access_and_room": "Two small cars sit on the lane edge in the QLD image, so vehicles can get in; room for a van is tight and unproven.",
+    "traffic": "Little through traffic, mostly foot and service use.",
+    "convention": "No sign of overnight stays; Esri 2025 shows no parked cars at all."
+  },
+  "flags": [
+    "Steep: about 3-5% grade",
+    "Mapped bollards 46 m and gates nearby may restrict vehicles",
+    "Likely campus security and permit parking"
+  ],
+  "sun_shade": "Mostly shaded by the surrounding buildings; trees on the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Campus parking permits and security",
+    "Whether bollards block the lane",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 32,
+    "where": "Campus lane between Ritchie Laboratories and the Hawken building, beside the small planted area",
+    "slope_pct": 3.1,
+    "points": [
+      [
+        153.012683,
+        -27.499852
+      ],
+      [
+        153.012642,
+        -27.499876
+      ],
+      [
+        153.012579,
+        -27.499908
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 13,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

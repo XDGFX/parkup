@@ -1,0 +1,47 @@
+{
+  "candidate": "595314487-1438206874-84698777-r-171",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "North kerb runs along a loading dock wall; no room to stop.",
+  "reasons": [
+    "Building and loading dock at the kerb",
+    "No clear ground beside the lane",
+    "Campus service road, not for parking"
+  ],
+  "drivers": {
+    "seclusion": "No homes near, but glasshouses sit 2-10 m from the kerb and the chemical store 11 m.",
+    "access_and_room": "Kerb meets a building wall and loading area with only a thin verge; a van would sit in the lane.",
+    "traffic": "Service traffic to the glasshouses and chemical store.",
+    "convention": "No cars park along this side."
+  },
+  "flags": [
+    "Low-lying: about 3.5 m elevation",
+    "Chemical store and loading dock on this side"
+  ],
+  "sun_shade": "Building shades the kerb in the morning; tree at the west end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Campus parking rules",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 3.6,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

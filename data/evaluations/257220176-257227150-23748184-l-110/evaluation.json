@@ -1,0 +1,51 @@
+{
+  "candidate": "257220176-257227150-23748184-l-110",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Tiny steep kerb on a narrow lane, with a house 6 m away.",
+  "reasons": [
+    "House 6 m from the kerb",
+    "Only 9 m long, about 15% grade",
+    "Narrow lane, no pull-off room"
+  ],
+  "drivers": {
+    "seclusion": "A detached house sits 6 m from the start of the kerb and others 12 and 22 m away.",
+    "access_and_room": "Narrow sealed lane with bush and steep bank beside it; no room to pull fully out of the lane.",
+    "traffic": "Quiet residential lane, light traffic.",
+    "convention": "No signs; one or two cars parked further along the lane."
+  },
+  "flags": [
+    "Steep: about 15% mean grade, up to 17%",
+    "Dwelling within 10 m of the kerb",
+    "Narrow lane, tight for a van"
+  ],
+  "sun_shade": "Dense tree canopy over the kerb, shaded most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 15.4,
+    "min_elevation_m": 27.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

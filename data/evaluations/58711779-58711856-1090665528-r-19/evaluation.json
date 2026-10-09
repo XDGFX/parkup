@@ -1,0 +1,64 @@
+{
+  "candidate": "58711779-58711856-1090665528-r-19",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb with parked cars, backing onto dense bush; no buildings.",
+  "reasons": [
+    "Backs onto dense bush and path",
+    "Cars already parked here",
+    "No buildings mapped"
+  ],
+  "drivers": {
+    "seclusion": "Thick bush and a footpath to the south; no homes anywhere near.",
+    "access_and_room": "Esri shows about five cars parked along this kerb; gravel verge continues past the end.",
+    "traffic": "Campus road; modest traffic at night.",
+    "convention": "Cars park here in the current image, so a van fits in."
+  },
+  "flags": [
+    "No Stopping Any Time signs at 3.2 m and 9.3 m; check where they apply",
+    "Only 23 m long, close to a junction",
+    "Low-lying: about 7.4 m, 188 m from Brisbane River"
+  ],
+  "sun_shade": "Bush shade from the south and overhead trees; sun in gaps.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Exact sign coverage",
+    "Campus patrols"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 23,
+    "where": "South kerb just east of the junction with the side road",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        153.018696,
+        -27.501507
+      ],
+      [
+        153.018833,
+        -27.501447
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 0.3,
+    "min_elevation_m": 7.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

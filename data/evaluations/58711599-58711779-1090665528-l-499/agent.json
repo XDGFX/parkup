@@ -1,0 +1,36 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Very short campus kerb beside parked cars; mapped dwelling 10 m off.",
+  "reasons": [
+    "Mapped residential building 10 m away",
+    "Cars park along the adjoining kerb",
+    "Only 9 m long, barely fits a van"
+  ],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 9,
+    "where": "Sir William MacGregor Drive, north kerb at the car park entrance by the blue-roofed building",
+    "slope_pct": 0.2
+  },
+  "drivers": {
+    "seclusion": "Building and small car park to the north (mapped residential, 10 m); trees and bush to the south.",
+    "access_and_room": "Sealed road with cars parked beside it; 9 m of kerb, tight but a van under 7.5 m fits.",
+    "traffic": "Campus road with moderate traffic; the car park entrance is next to the section.",
+    "convention": "Cars park along the adjoining kerb by day; overnight use unknown."
+  },
+  "flags": [
+    "Mapped residential building 10 m from the kerb",
+    "Low-lying: about 8.5 m elevation, Brisbane River 208 m away",
+    "Car park entrance beside the section",
+    "Campus: parking rules on site unknown"
+  ],
+  "sun_shade": "Palm and tree shade from the north and east; large building shades the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the mapped residential building is really a dwelling",
+    "Campus parking permits and signs",
+    "Street lighting"
+  ],
+  "confidence": "low"
+}

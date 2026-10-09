@@ -1,0 +1,64 @@
+{
+  "candidate": "262450272-262450276-1292771652-l-170",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bush-backed north kerb, but no verge to pull off and no cars park there.",
+  "reasons": [
+    "Kerb meets bush with no verge",
+    "No cars parked along this side",
+    "Dwellings 6-8 m at both ends"
+  ],
+  "drivers": {
+    "seclusion": "Dense bushland on the van's side; nearest dwellings 20 m or more in the middle, but 6 m and 8 m at the ends.",
+    "access_and_room": "Sealed street; only a narrow grass strip between kerb and trees or bank, so a van would sit in the lane.",
+    "traffic": "Through residential street linking up the hill; moderate local traffic.",
+    "convention": "No parked cars along the bush side in either image; no signs mapped."
+  },
+  "flags": [
+    "Narrow verge: kerb to trees, no room to pull fully off",
+    "Dwelling 6 m from the start and 8 m from the end of the stretch",
+    "Steep ground nearby, DEM shows 1-4% along the kerb"
+  ],
+  "sun_shade": "Tree canopy overhangs from the north and east; shaded in the morning, open to afternoon sun across the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Exact verge width under the vegetation",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 40,
+    "where": "Prospect Terrace north kerb, beside the bushland",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.995813,
+        -27.496001
+      ],
+      [
+        152.996031,
+        -27.496115
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 0.8,
+    "min_elevation_m": 27.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

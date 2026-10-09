@@ -1,0 +1,378 @@
+{
+  "id": "58711599-58711779-1090665528-l-635",
+  "street": "Sir William MacGregor Drive",
+  "suburb": "St Lucia",
+  "line": [
+    [
+      153.017973,
+      -27.501706
+    ],
+    [
+      153.017999,
+      -27.501699
+    ],
+    [
+      153.018281,
+      -27.501596
+    ],
+    [
+      153.018282,
+      -27.501596
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "north",
+  "length_m": 33,
+  "signs": [
+    {
+      "street": "SIR WILLIAM MACGREGOR DRIVE",
+      "restriction": "ST LUCIA TRAFFIC AREA",
+      "days_times": "MON-FRI:7am-9pm",
+      "extra_text": "PARKING AREA,ANGLE,EXCEPT AS SIGNED",
+      "arrow": "Not applicable",
+      "metres_from_kerb_line": 3.1
+    },
+    {
+      "street": "SIR WILLIAM MACGREGOR DRIVE",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 11
+    }
+  ],
+  "buildings": [
+    {
+      "building": "residential",
+      "name": "The College Playhouse",
+      "dwelling": true,
+      "metres": 30,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0176981,
+          -27.5015977
+        ],
+        [
+          153.0178695,
+          -27.5014469
+        ],
+        [
+          153.0177547,
+          -27.5013442
+        ],
+        [
+          153.017699,
+          -27.5013932
+        ],
+        [
+          153.0176385,
+          -27.5013392
+        ],
+        [
+          153.0175229,
+          -27.5014409
+        ],
+        [
+          153.0176981,
+          -27.5015977
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": "Piddington Wing",
+      "dwelling": true,
+      "metres": 41,
+      "at_m": 24,
+      "outline": [
+        [
+          153.0177722,
+          -27.5010931
+        ],
+        [
+          153.0177338,
+          -27.5012028
+        ],
+        [
+          153.0180445,
+          -27.5012882
+        ],
+        [
+          153.0180828,
+          -27.5011786
+        ],
+        [
+          153.0177722,
+          -27.5010931
+        ]
+      ]
+    },
+    {
+      "building": "dormitory",
+      "name": "The Women's College",
+      "dwelling": true,
+      "metres": 58,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0169296,
+          -27.5011544
+        ],
+        [
+          153.0170881,
+          -27.5013076
+        ],
+        [
+          153.0172492,
+          -27.5011764
+        ],
+        [
+          153.0174874,
+          -27.5014066
+        ],
+        [
+          153.0173579,
+          -27.501512
+        ],
+        [
+          153.017287,
+          -27.5014435
+        ],
+        [
+          153.0171963,
+          -27.5015174
+        ],
+        [
+          153.0172655,
+          -27.5015843
+        ],
+        [
+          153.0171645,
+          -27.5016666
+        ],
+        [
+          153.0170425,
+          -27.5015487
+        ],
+        [
+          153.0171432,
+          -27.5014667
+        ],
+        [
+          153.0171042,
+          -27.501429
+        ],
+        [
+          153.017019,
+          -27.5014983
+        ],
+        [
+          153.0169652,
+          -27.5014463
+        ],
+        [
+          153.0169969,
+          -27.5014205
+        ],
+        [
+          153.016976,
+          -27.5014004
+        ],
+        [
+          153.016948,
+          -27.5014232
+        ],
+        [
+          153.0168948,
+          -27.5013718
+        ],
+        [
+          153.0169556,
+          -27.5013223
+        ],
+        [
+          153.0169003,
+          -27.5012689
+        ],
+        [
+          153.0168494,
+          -27.5012197
+        ],
+        [
+          153.0169296,
+          -27.5011544
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0178039,
+      "lat": -27.5015773,
+      "metres": 22,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0190225,
+      "lat": -27.5015029,
+      "metres": 74,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0177677,
+      "lat": -27.5005512,
+      "metres": 127,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0168551,
+      "lat": -27.5004367,
+      "metres": 179,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0161206,
+      "lat": -27.501103,
+      "metres": 195,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0156478,
+      "lat": -27.5015001,
+      "metres": 230,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0153793,
+      "lat": -27.502173,
+      "metres": 261,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0154016,
+      "lat": -27.5008934,
+      "metres": 269,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.017973,
+        "lat": -27.501706,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 7.68
+      },
+      {
+        "lon": 153.018021,
+        "lat": -27.501691,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 7.67
+      },
+      {
+        "lon": 153.018068,
+        "lat": -27.501674,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 7.61
+      },
+      {
+        "lon": 153.018115,
+        "lat": -27.501657,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 7.63
+      },
+      {
+        "lon": 153.018161,
+        "lat": -27.50164,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 7.63
+      },
+      {
+        "lon": 153.018208,
+        "lat": -27.501623,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 7.62
+      },
+      {
+        "lon": 153.018255,
+        "lat": -27.501605,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 7.66
+      },
+      {
+        "lon": 153.018282,
+        "lat": -27.501596,
+        "at_m": 32.9,
+        "line": 0,
+        "elevation_m": 7.65
+      }
+    ],
+    "min_elevation_m": 7.6,
+    "max_elevation_m": 7.7,
+    "mean_grade_pct": 0.4,
+    "max_grade_pct": 1.2
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 199
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 33,
+      "length_m": 33,
+      "images": {
+        "esri": ".cache/imagery/58711599-58711779-1090665528-l-635/chunk1-esri.jpg",
+        "qld": ".cache/imagery/58711599-58711779-1090665528-l-635/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        90,
+        72
+      ],
+      "image_px": [
+        603,
+        482
+      ]
+    }
+  ]
+}

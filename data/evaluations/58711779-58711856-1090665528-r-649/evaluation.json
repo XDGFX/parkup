@@ -1,0 +1,73 @@
+{
+  "candidate": "58711779-58711856-1090665528-r-649",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Riverside kerb crowded with parked cars, backing onto bush; no homes.",
+  "reasons": [
+    "Backs onto river bank bush",
+    "Cars parked bumper to bumper",
+    "No dwellings; only sports buildings"
+  ],
+  "drivers": {
+    "seclusion": "River bank bush on the east; sports fields and university buildings on the west, no homes.",
+    "access_and_room": "Cars line the kerb in Esri over most of the length, so there is room.",
+    "traffic": "Riverside campus road; quiet at night.",
+    "convention": "Dense parking along this kerb under the metered University zone; a van blends in."
+  },
+  "flags": [
+    "Low-lying: 4.1 to 6.9 m, 115 m from Brisbane River; flood-prone",
+    "Metered University zone Mon-Fri 7am-9pm",
+    "2-minute passenger loading zone signs near the south end",
+    "DEM max grade 22% is noise; mean 1.8%"
+  ],
+  "sun_shade": "Tree canopy from the east over the section; open to the afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Campus security patrols",
+    "Exact sign positions"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 160,
+    "to_m": 215,
+    "where": "East kerb beside the river, just north of the hockey field junction",
+    "slope_pct": 0.7,
+    "points": [
+      [
+        153.017936,
+        -27.495506
+      ],
+      [
+        153.017775,
+        -27.495274
+      ],
+      [
+        153.01763,
+        -27.49511
+      ],
+      [
+        153.01762,
+        -27.4951
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 0.8,
+    "min_elevation_m": 5,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

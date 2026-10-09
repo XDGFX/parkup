@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Short kerb with parked cars, backing onto dense bush; no buildings.",
+  "reasons": ["Backs onto dense bush and path", "Cars already parked here", "No buildings mapped"],
+  "best_section": {
+    "from_m": 8,
+    "to_m": 23,
+    "where": "South kerb just east of the junction with the side road",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Thick bush and a footpath to the south; no homes anywhere near.",
+    "access_and_room": "Esri shows about five cars parked along this kerb; gravel verge continues past the end.",
+    "traffic": "Campus road; modest traffic at night.",
+    "convention": "Cars park here in the current image, so a van fits in."
+  },
+  "flags": ["No Stopping Any Time signs at 3.2 m and 9.3 m; check where they apply", "Only 23 m long, close to a junction", "Low-lying: about 7.4 m, 188 m from Brisbane River"],
+  "sun_shade": "Bush shade from the south and overhead trees; sun in gaps.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Exact sign coverage", "Campus patrols"],
+  "confidence": "medium"
+}

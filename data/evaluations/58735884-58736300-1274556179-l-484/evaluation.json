@@ -1,0 +1,81 @@
+{
+  "candidate": "58735884-58736300-1274556179-l-484",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb beside golf course trees, homes 24-30 m across the road.",
+  "reasons": [
+    "Backs onto golf course bush",
+    "Homes about 25 m across road",
+    "Few cars parked; through-road feel"
+  ],
+  "drivers": {
+    "seclusion": "Tree belt and golf course on the kerb side; nearest dwellings 24-30 m across the road.",
+    "access_and_room": "Open public street; trees run to the kerb edge so pull-over room is unclear, one or two cars seem parked at the kerb.",
+    "traffic": "Wide through street linking to a junction; moderate traffic likely.",
+    "convention": "2P resident-permit signs Mon-Fri 7am-6pm; little visible parking along this stretch."
+  },
+  "flags": [
+    "Flat at the best section, about 0.5% grade",
+    "Low-lying: 8.8-9.0 m, Sandy Creek 138 m away",
+    "Steep further along: up to 22% near the far end",
+    "2P signs, resident permits excepted, Mon-Fri 7am-6pm"
+  ],
+  "sun_shade": "Heavy tree canopy on the south side; shaded most of the day, open golf course beyond.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height and verge width under trees",
+    "Whether cars park here overnight"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 140,
+    "to_m": 170,
+    "where": "South kerb on the flat stretch below the golf course trees, opposite the mid-street homes",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.995196,
+        -27.503333
+      ],
+      [
+        152.995172,
+        -27.50333
+      ],
+      [
+        152.995129,
+        -27.503321
+      ],
+      [
+        152.995084,
+        -27.503311
+      ],
+      [
+        152.994984,
+        -27.503287
+      ],
+      [
+        152.994904,
+        -27.50326
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 22,
+    "gated": false,
+    "slope_pct": 0.7,
+    "min_elevation_m": 8.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

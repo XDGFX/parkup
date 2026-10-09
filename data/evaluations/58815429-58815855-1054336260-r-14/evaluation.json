@@ -1,0 +1,49 @@
+{
+  "candidate": "58815429-58815855-1054336260-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy arterial kerb with no parking lane or shoulder; peak-hour no stopping.",
+  "reasons": [
+    "Main road, no parked cars along kerb",
+    "No shoulder, kerb beside vegetation",
+    "Dwellings 14 m at end of stretch"
+  ],
+  "drivers": {
+    "seclusion": "Bush and a small park on the south side, but a house sits 14 m from the east end and apartments 27-35 m away.",
+    "access_and_room": "Kerb runs straight against trees with no pull-off or verge wide enough for a van; it is a live traffic lane.",
+    "traffic": "Multi-lane arterial with a bus using it; heavy through traffic.",
+    "convention": "No vehicles parked along this kerb; two Mon-Fri 4-6:30pm No Stopping signs."
+  },
+  "flags": [
+    "Steep in places: 3.7% mean, 8% max grade",
+    "No Stopping Mon-Fri 4-6:30pm",
+    "Noise from the arterial",
+    "Low-lying at about 7-9 m, 313 m from the Brisbane River"
+  ],
+  "sun_shade": "Tree canopy shades the kerb from the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 4.2,
+    "min_elevation_m": 7.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

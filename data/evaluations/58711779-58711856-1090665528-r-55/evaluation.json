@@ -1,0 +1,73 @@
+{
+  "candidate": "58711779-58711856-1090665528-r-55",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parked-up kerb backed by riverside bush; no homes anywhere near.",
+  "reasons": [
+    "Backs onto riverside bush",
+    "Cars parked along this kerb",
+    "No dwellings in range"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush between the road and river; only a utility building 32 m away at the far end.",
+    "access_and_room": "Esri shows cars parked in a continuous line along this kerb.",
+    "traffic": "Campus road; low traffic at night.",
+    "convention": "Heavily parked in the current image, so a van blends in."
+  },
+  "flags": [
+    "No Stopping Any Time sign at 10.7 m, near the start",
+    "Metered University zone nearby",
+    "Low-lying: about 7.8 m, 154 m from Brisbane River",
+    "DEM shows a 10% spike; likely noise, mean 1.3%"
+  ],
+  "sun_shade": "Bush shade from the south-east; open to afternoon sun from the west across the oval.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Campus security patrols",
+    "Exact sign positions"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 40,
+    "to_m": 90,
+    "where": "East kerb of the curving drive, beside the playing field bend",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        153.019318,
+        -27.501238
+      ],
+      [
+        153.019416,
+        -27.501196
+      ],
+      [
+        153.019687,
+        -27.501041
+      ],
+      [
+        153.01974,
+        -27.500994
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 7.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

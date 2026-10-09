@@ -1,0 +1,29 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "South kerb runs straight against a park fence with no room to stop.",
+  "reasons": [
+    "Kerb meets fence and powerline strip",
+    "No cars park on this side",
+    "Through road to a junction"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Open baseball park behind the fence; nearest homes 39 m or more past the end, so seclusion would be fine.",
+    "access_and_room": "Fence and a narrow strip sit right at the road edge; a van would stay in the lane.",
+    "traffic": "Collector road feeding a signalled junction at the east end.",
+    "convention": "No parked cars along the south edge in either image."
+  },
+  "flags": [
+    "Low-lying: about 2 m elevation, Toowong Creek 113 m away",
+    "Slope rises to about 19% near the east end",
+    "Powerlines run along the fence"
+  ],
+  "sun_shade": "Trees shade the west end; open to midday sun over the park.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking signs or time limits on site",
+    "Street lighting"
+  ],
+  "confidence": "medium"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "251811809-251811811-1305502613-l-60",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Park-backed north kerb packed with parked cars; homes 20 m or more across the road.",
+  "reasons": [
+    "Backs onto open parkland",
+    "Parked cars and vans line the kerb",
+    "Homes 20+ m away across road"
+  ],
+  "drivers": {
+    "seclusion": "Open park on the van's side; nearest dwellings 20-25 m away across the road.",
+    "access_and_room": "Sealed street with a continuous parked-car lane on both sides; plenty of kerb for a van.",
+    "traffic": "Residential street, local traffic and student parking.",
+    "convention": "Dense row of parked cars and vans along the park kerb; P (No Limit) signs at the kerb."
+  },
+  "flags": [
+    "Mixed signs: 2P Mon-Fri 7am-6pm resident permits excepted and No Stopping signs nearby",
+    "Low-lying: about 6 m elevation, Brisbane River 204 m away",
+    "Homes about 20 m away across the road"
+  ],
+  "sun_shade": "Open to the park on the north; scattered trees at the east end shade some afternoon; midday sun from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Which signs apply at the exact spot",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 45,
+    "where": "Macquarie Street north kerb, along the park's southern edge",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        153.002048,
+        -27.493562
+      ],
+      [
+        153.002428,
+        -27.493436
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 5.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

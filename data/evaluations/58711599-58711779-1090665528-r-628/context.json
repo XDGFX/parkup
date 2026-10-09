@@ -1,0 +1,311 @@
+{
+  "id": "58711599-58711779-1090665528-r-628",
+  "street": "Sir William MacGregor Drive",
+  "suburb": "St Lucia",
+  "line": [
+    [
+      153.017932,
+      -27.501794
+    ],
+    [
+      153.018027,
+      -27.501767
+    ],
+    [
+      153.018311,
+      -27.501663
+    ],
+    [
+      153.01833,
+      -27.501656
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "south",
+  "length_m": 42,
+  "signs": [
+    {
+      "street": "SIR WILLIAM MACGREGOR DRIVE",
+      "restriction": "ST LUCIA TRAFFIC AREA",
+      "days_times": "MON-FRI:7am-9pm",
+      "extra_text": "PARKING AREA,EXCEPT AS SIGNED",
+      "arrow": "Not applicable",
+      "metres_from_kerb_line": 14.9
+    },
+    {
+      "street": "SIR WILLIAM MACGREGOR DRIVE",
+      "restriction": "ST LUCIA TRAFFIC AREA",
+      "days_times": "MON-FRI:7am-9pm",
+      "extra_text": "PARKING AREA,ANGLE,EXCEPT AS SIGNED",
+      "arrow": "Not applicable",
+      "metres_from_kerb_line": 11.1
+    },
+    {
+      "street": "SIR WILLIAM MACGREGOR DRIVE",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 2.9
+    },
+    {
+      "street": "SIR WILLIAM MACGREGOR DRIVE",
+      "restriction": "ST LUCIA TRAFFIC AREA",
+      "days_times": "MON-FRI:7am-9pm",
+      "extra_text": "PARKING AREA,METER,EXCEPT AS SIGNED",
+      "arrow": "Not applicable",
+      "metres_from_kerb_line": 13.1
+    }
+  ],
+  "buildings": [
+    {
+      "building": "residential",
+      "name": "The College Playhouse",
+      "dwelling": true,
+      "metres": 32,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0176981,
+          -27.5015977
+        ],
+        [
+          153.0178695,
+          -27.5014469
+        ],
+        [
+          153.0177547,
+          -27.5013442
+        ],
+        [
+          153.017699,
+          -27.5013932
+        ],
+        [
+          153.0176385,
+          -27.5013392
+        ],
+        [
+          153.0175229,
+          -27.5014409
+        ],
+        [
+          153.0176981,
+          -27.5015977
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": "Piddington Wing",
+      "dwelling": true,
+      "metres": 49,
+      "at_m": 32,
+      "outline": [
+        [
+          153.0177722,
+          -27.5010931
+        ],
+        [
+          153.0177338,
+          -27.5012028
+        ],
+        [
+          153.0180445,
+          -27.5012882
+        ],
+        [
+          153.0180828,
+          -27.5011786
+        ],
+        [
+          153.0177722,
+          -27.5010931
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0178039,
+      "lat": -27.5015773,
+      "metres": 27,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0190225,
+      "lat": -27.5015029,
+      "metres": 70,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0177677,
+      "lat": -27.5005512,
+      "metres": 135,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0168551,
+      "lat": -27.5004367,
+      "metres": 185,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0161206,
+      "lat": -27.501103,
+      "metres": 194,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0156478,
+      "lat": -27.5015001,
+      "metres": 228,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0153793,
+      "lat": -27.502173,
+      "metres": 255,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0154016,
+      "lat": -27.5008934,
+      "metres": 269,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.017932,
+        "lat": -27.501794,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 7.93
+      },
+      {
+        "lon": 153.01798,
+        "lat": -27.50178,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 7.91
+      },
+      {
+        "lon": 153.018029,
+        "lat": -27.501766,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 7.93
+      },
+      {
+        "lon": 153.018075,
+        "lat": -27.501749,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 7.8
+      },
+      {
+        "lon": 153.018122,
+        "lat": -27.501732,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 7.78
+      },
+      {
+        "lon": 153.018169,
+        "lat": -27.501715,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 7.72
+      },
+      {
+        "lon": 153.018216,
+        "lat": -27.501698,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 7.64
+      },
+      {
+        "lon": 153.018263,
+        "lat": -27.501681,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 7.6
+      },
+      {
+        "lon": 153.01831,
+        "lat": -27.501663,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 7.59
+      },
+      {
+        "lon": 153.01833,
+        "lat": -27.501656,
+        "at_m": 42.2,
+        "line": 0,
+        "elevation_m": 7.55
+      }
+    ],
+    "min_elevation_m": 7.6,
+    "max_elevation_m": 7.9,
+    "mean_grade_pct": 1,
+    "max_grade_pct": 2.6
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 191
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 42,
+      "length_m": 42,
+      "images": {
+        "esri": ".cache/imagery/58711599-58711779-1090665528-r-628/chunk1-esri.jpg",
+        "qld": ".cache/imagery/58711599-58711779-1090665528-r-628/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        99,
+        75
+      ],
+      "image_px": [
+        662,
+        502
+      ]
+    }
+  ]
+}

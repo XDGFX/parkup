@@ -1,0 +1,64 @@
+{
+  "candidate": "58711599-58711779-1090665528-r-60",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb among many parked cars, bush behind; nearest dormitory 29 m across road.",
+  "reasons": [
+    "Many cars parked along this road",
+    "Bush on the south side",
+    "Dormitories 29 m or more away"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush behind; dormitories 29 m and 35 m away across the road.",
+    "access_and_room": "Cars park along both sides, dirt verge on the south; room to pull off.",
+    "traffic": "Campus road with a line of parked cars shielding the verge.",
+    "convention": "Continuous line of parked cars, so a van blends in."
+  },
+  "flags": [
+    "Low-lying: about 8 m elevation, Brisbane River 171 m away",
+    "Campus setting, may be patrolled",
+    "No signs mapped here, check on site"
+  ],
+  "sun_shade": "Heavy tree shade from bush on the south and overhead canopy.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 22,
+    "where": "Sir William MacGregor Drive south kerb, just east of the bend, among parked cars",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.01228,
+        -27.502718
+      ],
+      [
+        153.012499,
+        -27.502757
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 29,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "257002485-257002486-1240889707-l-30",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a playing field on Gailey Road, with other cars parked.",
+  "reasons": [
+    "Backs onto open oval",
+    "Other cars park along kerb",
+    "Flats only across the road"
+  ],
+  "drivers": {
+    "seclusion": "West kerb backs onto a large oval and trees. Nearest flats are across the road, 22-24 m from the line.",
+    "access_and_room": "Cars parked nose to tail along this kerb, so there is a parking lane to pull into.",
+    "traffic": "Moderately busy through road near a junction at the north end.",
+    "convention": "Several cars parked here in both images, so a van would not stand out."
+  },
+  "flags": [
+    "Low-lying: lowest point about 5 m elevation",
+    "Apartments 11 m from the start of the line, outside the best section",
+    "Road noise near the junction"
+  ],
+  "sun_shade": "Trees shade the kerb from the west and north-west; open to morning sun over the oval.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Parking signs or time limits on site",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 68,
+    "where": "Along the oval fence line, before the corner shops at the north end",
+    "slope_pct": 2.4,
+    "points": [
+      [
+        152.992245,
+        -27.494662
+      ],
+      [
+        152.992446,
+        -27.49437
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 5.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

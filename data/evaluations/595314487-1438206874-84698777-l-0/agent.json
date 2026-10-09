@@ -1,0 +1,28 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Narrow university campus road bend, steep, with no room to stop.",
+  "reasons": [
+    "Steep: about 14% grade",
+    "Narrow campus road, no pull-off",
+    "University buildings within 3-10 m"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Campus lab and glasshouse buildings line both sides, 3-17 m away, though none are homes.",
+    "access_and_room": "Road is a narrow bend with building walls and path edges beside it; no clear ground to pull fully off.",
+    "traffic": "Campus service road next to the multi-level car parks.",
+    "convention": "Only a couple of cars at the road edge to the north-east; no overnight parking convention."
+  },
+  "flags": [
+    "Steep: about 14% mean grade, 16% max",
+    "Works compound and crane on the QLD image, older than the Esri one"
+  ],
+  "sun_shade": "Open to sky; nearby buildings shade parts of the road in the morning and afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Campus access restrictions",
+    "Parking signs on site"
+  ],
+  "confidence": "high"
+}

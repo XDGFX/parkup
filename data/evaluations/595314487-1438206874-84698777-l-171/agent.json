@@ -1,0 +1,35 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Quiet campus service road kerb beside a university works yard.",
+  "reasons": [
+    "No homes anywhere near",
+    "Backs onto fenced yard and glasshouses",
+    "No cars parked here; campus patrols likely"
+  ],
+  "best_section": {
+    "from_m": 8,
+    "to_m": 34,
+    "where": "South kerb of the glasshouse service road, beside the works yard",
+    "slope_pct": 2
+  },
+  "drivers": {
+    "seclusion": "Only university buildings and a works yard nearby; nearest home is the Directors Residence, hundreds of metres off.",
+    "access_and_room": "Sealed service road open at both ends; narrow footpath strip beside the south kerb, so room to pull off is unclear.",
+    "traffic": "Campus delivery and staff traffic by day; quiet at night.",
+    "convention": "No cars stop along this kerb; the large lot to the west is where people park."
+  },
+  "flags": [
+    "Low-lying: about 3.5 m elevation",
+    "Lift gates mapped nearby on side access, not on this road",
+    "Painted road markings at the east end"
+  ],
+  "sun_shade": "Open to the sky; a tree shades the west end in the afternoon.",
+  "rubbish": "Scrap and dumped material in the yard to the south.",
+  "cannot_judge": [
+    "Campus parking rules and security patrols",
+    "Whether the road is wide enough to stop clear of the lane",
+    "Street lighting"
+  ],
+  "confidence": "low"
+}

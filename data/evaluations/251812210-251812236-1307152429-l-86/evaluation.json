@@ -1,0 +1,72 @@
+{
+  "candidate": "251812210-251812236-1307152429-l-86",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short north kerb fronting houses and a kindergarten; dwellings 14-20 m on this side.",
+  "reasons": [
+    "Dwellings 14-20 m on same side",
+    "Kindergarten 17 m away",
+    "Only 21 m of kerb"
+  ],
+  "drivers": {
+    "seclusion": "Houses and a kindergarten sit behind the kerb; nearest dwelling 14 m, another 20 m.",
+    "access_and_room": "Sealed street with cars already parked along both kerbs; room for one van.",
+    "traffic": "Quiet residential street, school drop-off traffic on schooldays.",
+    "convention": "Cars park along this kerb, with a 1/2P schooldays 7am-7pm sign at the kerb."
+  },
+  "flags": [
+    "Dwellings 10-25 m on the section's own side",
+    "1/2P restriction on schooldays 7am-7pm",
+    "Low-lying: about 5.5 m elevation, Brisbane River 143 m away"
+  ],
+  "sun_shade": "Large tree canopy shades the kerb from the north and east; morning sun partly blocked.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Exact school-day enforcement"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 21,
+    "where": "Macquarie Street north kerb, in front of the houses by the kindergarten",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.009356,
+        -27.492276
+      ],
+      [
+        153.009442,
+        -27.492261
+      ],
+      [
+        153.009527,
+        -27.492248
+      ],
+      [
+        153.009534,
+        -27.492282
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 5.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,23 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Tiny 13 m kerb among bush; tight, but one car parks here.",
+  "reasons": ["Bush all round, no homes", "Only 13 m, narrow lane", "A car parks here in Esri"],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 13,
+    "where": "East kerb, just north of the speed hump on the narrow riverside lane",
+    "slope_pct": 1.1
+  },
+  "drivers": {
+    "seclusion": "Dense bush on the east; only a small utility building 13 m away, non-residential.",
+    "access_and_room": "One car sits at the kerb in Esri, but the lane is narrow with trees at the edge; a van may overhang the lane.",
+    "traffic": "Narrow campus lane; light traffic at night.",
+    "convention": "Cars park in short runs along the lane, mainly to the north; not a firm convention here."
+  },
+  "flags": ["Very short, barely a van length", "Low-lying: about 7.6 m, 143 m from Brisbane River", "Utility building 13 m away (non-dwelling)", "No signs mapped on this stretch"],
+  "sun_shade": "Heavy tree canopy over and beside the section; shaded most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Campus patrols", "True lane width for passing"],
+  "confidence": "low"
+}

@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Kerb lined with parked cars, backing onto trees and lawn; no homes.",
+  "reasons": ["Backs onto lawn and trees", "Cars park along this kerb", "No dwellings in range"],
+  "best_section": {
+    "from_m": 15,
+    "to_m": 50,
+    "where": "West kerb, north of the large roofed hall by the river road",
+    "slope_pct": 0.3
+  },
+  "drivers": {
+    "seclusion": "Trees and lawn on the west side, river bush to the east; nearest buildings are university, 44 m away.",
+    "access_and_room": "Cars are parked nose-to-tail along this kerb in the Esri image, so there is room.",
+    "traffic": "Campus riverside road; light at night, some noise from the bridge to the north.",
+    "convention": "Many cars park on both sides; a van would not stand out."
+  },
+  "flags": ["No Stopping Any Time signs near the line; check their position", "Metered University zone Mon-Fri 7am-9pm", "Low-lying: about 6.4 m, 152 m from Brisbane River", "Noise from Go Between Bridge to the north"],
+  "sun_shade": "Tree shade from the west and overhead in places; open to the east over the river.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Campus security patrols", "Exact sign positions"],
+  "confidence": "medium"
+}

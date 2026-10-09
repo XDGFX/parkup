@@ -1,0 +1,36 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Short campus kerb by car park and lawn; nearest mapped dwelling 25 m.",
+  "reasons": [
+    "Car park and lawn on the north side",
+    "Nearest mapped dwellings 25 m and 27 m",
+    "Cars park along this road"
+  ],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Sir William MacGregor Drive, north kerb at the car park entrance opposite the bush strip",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Car park, lawn and tennis courts to the north; bush to the south; mapped dwellings 25 m and 27 m away.",
+    "access_and_room": "Sealed road with cars parked along both kerbs; 10 m of kerb fits a van.",
+    "traffic": "Campus road with moderate traffic; parked van sits outside the lane.",
+    "convention": "Cars park along the road by day; overnight use unknown."
+  },
+  "flags": [
+    "Mapped residential building 25 m and Women's College dormitory 27 m away",
+    "Car park entrance beside the section",
+    "Low-lying: about 8.4 m elevation, Brisbane River 204 m away",
+    "Campus: parking rules on site unknown"
+  ],
+  "sun_shade": "Palm and tree shade from the west and north; the car park and lawn are open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the mapped residential building is really a dwelling",
+    "Campus parking permits and signs",
+    "Street lighting"
+  ],
+  "confidence": "low"
+}

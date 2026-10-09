@@ -1,0 +1,65 @@
+{
+  "candidate": "58711599-58711779-1090665528-r-179",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "East end of kerb, bush behind, homes 41 m or more away; signed parking nearby.",
+  "reasons": [
+    "Bush and river bank behind the kerb",
+    "Nearest dwellings 41 m or more away",
+    "Parked cars along the road, car park opposite"
+  ],
+  "drivers": {
+    "seclusion": "Bush and river bank behind; residential buildings 41-59 m away across a car park and road.",
+    "access_and_room": "Sealed road with a wide kerbside lane and a path verge; cars park here.",
+    "traffic": "Campus access road; moderate traffic, but the van stands in the parking lane.",
+    "convention": "Cars park along the kerb and signs include P (No Limit) here."
+  },
+  "flags": [
+    "Mixed signs here: Bus Zone, 14P Parallel and P (No Limit); check the position of each against the section",
+    "Low-lying: about 8-10 m elevation, Brisbane River 173 m away",
+    "Whole stretch reaches 5% grade near the west end, flat in the best section",
+    "Dwellings 20-22 m away at the west and middle parts, so avoid 0-80 m"
+  ],
+  "sun_shade": "Mixed: bush canopy shades the south side; open to afternoon sun from the west at the east end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Where exactly each sign applies",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 112,
+    "to_m": 150,
+    "where": "South kerb of Sir William MacGregor Drive, opposite the large car park, east of the pedestrian crossing",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        153.014603,
+        -27.502471
+      ],
+      [
+        153.014979,
+        -27.502398
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 40,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 9.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

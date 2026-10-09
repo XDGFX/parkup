@@ -1,0 +1,50 @@
+{
+  "candidate": "262638522-262638529-24257936-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow dead-end lane beside student apartments; no stopping, no room, dwellings within 9-14 m.",
+  "reasons": [
+    "Student apartments 9-14 m away",
+    "No Stopping Any Time signs",
+    "Narrow lane, no space off carriageway"
+  ],
+  "drivers": {
+    "seclusion": "Kev Carmody House 9 m, UniLodge 12 m and several residential towers within 20 m on both sides.",
+    "access_and_room": "Narrow sealed lane between apartment blocks and trees; no shoulder, no pull-off.",
+    "traffic": "Dead-end service lane to residences with some car traffic.",
+    "convention": "No parked cars along the kerb; two No Stopping Any Time signs."
+  },
+  "flags": [
+    "Steep: about 5.9% mean grade, 8.4% max",
+    "Lift gate mapped 28 m away",
+    "No Stopping Any Time signs"
+  ],
+  "sun_shade": "Shaded by tall apartment blocks on the west and trees on the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Security patrols"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 5.9,
+    "min_elevation_m": 9.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

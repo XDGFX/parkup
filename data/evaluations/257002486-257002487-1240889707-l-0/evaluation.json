@@ -1,0 +1,64 @@
+{
+  "candidate": "257002486-257002487-1240889707-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb by the oval, right at a busy junction with shops opposite.",
+  "reasons": [
+    "Backs onto oval and trees",
+    "Apartments 19 m across the road",
+    "Short, at a junction"
+  ],
+  "drivers": {
+    "seclusion": "Oval and trees on the near side. Apartments 19 m and a shop 13-17 m away across the road.",
+    "access_and_room": "Cars park on this kerb, so there is a lane to pull into; only about 21 m of line, close to a junction.",
+    "traffic": "Junction with turning traffic and signals right here.",
+    "convention": "A few cars parked along the kerb, so a van would not stand out much."
+  },
+  "flags": [
+    "Low-lying: about 5 m elevation",
+    "Junction noise and traffic",
+    "Too close to the junction to stop legally is possible"
+  ],
+  "sun_shade": "Tree canopy shades the kerb from the west and south-west; open sky to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs and no-stopping zones near the junction",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "West kerb beside the oval, just before the junction at the shops",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.992474,
+        -27.49433
+      ],
+      [
+        152.992547,
+        -27.494222
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 3.2,
+    "min_elevation_m": 5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

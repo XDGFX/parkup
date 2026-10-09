@@ -1,0 +1,68 @@
+{
+  "candidate": "251811809-251811811-1305502613-l-30",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parkland-backed north kerb with cars and vans parked; nearest home 23 m away.",
+  "reasons": [
+    "Backs onto open park",
+    "Cars and vans already park here",
+    "Nearest dwelling 23 m, across the park"
+  ],
+  "drivers": {
+    "seclusion": "Open park on the van's side; the nearest dwellings are 23 m or more away.",
+    "access_and_room": "Sealed street with a full parked-car lane along the kerb; short 19 m stretch fits one van.",
+    "traffic": "Residential street near the theatre and university; moderate local traffic.",
+    "convention": "Row of parked cars and white vans along the north kerb; a P (No Limit) sign sits right at the kerb."
+  },
+  "flags": [
+    "Mixed signs: 2P Mon-Fri 7am-6pm resident permits excepted, No Stopping and a passenger loading zone nearby",
+    "Low-lying: about 6 m elevation, Brisbane River 238 m away",
+    "Only 19 m long, one van"
+  ],
+  "sun_shade": "Open to the north park; trees at the west end give some shade; afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Which signs apply at the exact spot",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 19,
+    "where": "Macquarie Street north kerb, beside the park near the bend",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        153.001732,
+        -27.493706
+      ],
+      [
+        153.001703,
+        -27.493639
+      ],
+      [
+        153.001811,
+        -27.493642
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 6.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

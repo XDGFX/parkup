@@ -1,0 +1,35 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Short kerb by the oval, right at a busy junction with shops opposite.",
+  "reasons": [
+    "Backs onto oval and trees",
+    "Apartments 19 m across the road",
+    "Short, at a junction"
+  ],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "West kerb beside the oval, just before the junction at the shops",
+    "slope_pct": 1
+  },
+  "drivers": {
+    "seclusion": "Oval and trees on the near side. Apartments 19 m and a shop 13-17 m away across the road.",
+    "access_and_room": "Cars park on this kerb, so there is a lane to pull into; only about 21 m of line, close to a junction.",
+    "traffic": "Junction with turning traffic and signals right here.",
+    "convention": "A few cars parked along the kerb, so a van would not stand out much."
+  },
+  "flags": [
+    "Low-lying: about 5 m elevation",
+    "Junction noise and traffic",
+    "Too close to the junction to stop legally is possible"
+  ],
+  "sun_shade": "Tree canopy shades the kerb from the west and south-west; open sky to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs and no-stopping zones near the junction",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low"
+}

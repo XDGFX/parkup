@@ -1,0 +1,47 @@
+{
+  "candidate": "595314487-1438206874-84698777-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow university campus road bend, steep, with no room to stop.",
+  "reasons": [
+    "Steep: about 14% grade",
+    "Narrow campus road, no pull-off",
+    "University buildings within 3-10 m"
+  ],
+  "drivers": {
+    "seclusion": "Campus lab and glasshouse buildings line both sides, 3-17 m away, though none are homes.",
+    "access_and_room": "Road is a narrow bend with building walls and path edges beside it; no clear ground to pull fully off.",
+    "traffic": "Campus service road next to the multi-level car parks.",
+    "convention": "Only a couple of cars at the road edge to the north-east; no overnight parking convention."
+  },
+  "flags": [
+    "Steep: about 14% mean grade, 16% max",
+    "Works compound and crane on the QLD image, older than the Esri one"
+  ],
+  "sun_shade": "Open to sky; nearby buildings shade parts of the road in the morning and afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Campus access restrictions",
+    "Parking signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 32,
+    "gated": false,
+    "slope_pct": 13.7,
+    "min_elevation_m": 5.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "58711599-58711779-1090665528-l-403",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short parked-car kerb with homes about 19 m away on own side.",
+  "reasons": [
+    "Homes 19 m away on own side",
+    "Cars park along this kerb",
+    "Only 13 m of kerb"
+  ],
+  "drivers": {
+    "seclusion": "Residential buildings 19 m away at the far end; flats and car park behind.",
+    "access_and_room": "Kerbside lane with parked cars; 13 m fits one van.",
+    "traffic": "Campus road, moderate traffic.",
+    "convention": "Cars park along both sides here; no signs mapped."
+  },
+  "flags": [
+    "Painted road markings near the kerb; check on site",
+    "Mapped lift gate 30 m away has a way round",
+    "Low-lying: about 9 m elevation, river 213 m away"
+  ],
+  "sun_shade": "Mostly open; trees to the south cast some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Meaning of the road markings",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 13,
+    "where": "Sir William MacGregor Drive north kerb, opposite the bushy slope",
+    "slope_pct": 0.9,
+    "points": [
+      [
+        153.015687,
+        -27.50219
+      ],
+      [
+        153.015811,
+        -27.502166
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 0.9,
+    "min_elevation_m": 9.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

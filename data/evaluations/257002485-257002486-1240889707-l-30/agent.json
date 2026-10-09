@@ -1,0 +1,35 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a playing field on Gailey Road, with other cars parked.",
+  "reasons": [
+    "Backs onto open oval",
+    "Other cars park along kerb",
+    "Flats only across the road"
+  ],
+  "best_section": {
+    "from_m": 30,
+    "to_m": 68,
+    "where": "Along the oval fence line, before the corner shops at the north end",
+    "slope_pct": 2.4
+  },
+  "drivers": {
+    "seclusion": "West kerb backs onto a large oval and trees. Nearest flats are across the road, 22-24 m from the line.",
+    "access_and_room": "Cars parked nose to tail along this kerb, so there is a parking lane to pull into.",
+    "traffic": "Moderately busy through road near a junction at the north end.",
+    "convention": "Several cars parked here in both images, so a van would not stand out."
+  },
+  "flags": [
+    "Low-lying: lowest point about 5 m elevation",
+    "Apartments 11 m from the start of the line, outside the best section",
+    "Road noise near the junction"
+  ],
+  "sun_shade": "Trees shade the kerb from the west and north-west; open to morning sun over the oval.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Parking signs or time limits on site",
+    "Crossfall"
+  ],
+  "confidence": "medium"
+}

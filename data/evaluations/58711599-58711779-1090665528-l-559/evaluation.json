@@ -1,0 +1,64 @@
+{
+  "candidate": "58711599-58711779-1090665528-l-559",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside tennis courts where cars park; dwellings over 25 m away.",
+  "reasons": [
+    "Tennis courts and lawn behind the kerb",
+    "Cars parked along both kerbs",
+    "Mapped dwellings 23 m or more away"
+  ],
+  "drivers": {
+    "seclusion": "Tennis courts and lawn to the north, bush to the south; nearest mapped dwellings (Women's College, College Playhouse) 23-26 m at the section ends, further from the middle.",
+    "access_and_room": "Sealed road with a parking lane; cars already park along both kerbs.",
+    "traffic": "Campus road with moderate traffic; parked van sits outside the lane.",
+    "convention": "Many cars park along this kerb by day; overnight use unknown."
+  },
+  "flags": [
+    "Low-lying: about 8.2 m elevation, Brisbane River 200 m away",
+    "Colleges (Women's College, College Playhouse) nearby; residents may notice",
+    "Campus: parking rules on site unknown"
+  ],
+  "sun_shade": "Trees along the north edge shade it in the afternoon; open to the morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Campus parking permits and signs",
+    "Street lighting",
+    "Whether college security patrols the road"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 30,
+    "where": "Sir William MacGregor Drive, north kerb along the tennis courts",
+    "slope_pct": 0.6,
+    "points": [
+      [
+        153.017311,
+        -27.501872
+      ],
+      [
+        153.017528,
+        -27.501827
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 27,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 8.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

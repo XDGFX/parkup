@@ -1,0 +1,48 @@
+{
+  "candidate": "58711603-1112584422-24626864-l-13",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Pedestrian path between university buildings; no vehicle access and nowhere to stop.",
+  "reasons": [
+    "Footpath and plaza, not a road",
+    "No vehicles or tyre tracks",
+    "University buildings within 6-12 m"
+  ],
+  "drivers": {
+    "seclusion": "Enclosed by university lab buildings 6-12 m away; busy campus by day.",
+    "access_and_room": "Paved walkway with zebra-style markings and trees; no vehicle in either image and no road surface.",
+    "traffic": "Foot traffic only; bollards and gates mapped nearby.",
+    "convention": "No sign of anyone staying overnight; campus precinct."
+  },
+  "flags": [
+    "Slope up to 4.8% (mean 2.4%)",
+    "Mapped bollards 42 m and gates nearby",
+    "Campus security likely"
+  ],
+  "sun_shade": "Heavily shaded by surrounding buildings and trees.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether service vehicles use the path",
+    "Campus parking rules"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 12.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

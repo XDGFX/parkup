@@ -1,0 +1,73 @@
+{
+  "candidate": "58711599-58711779-1090665528-r-355",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb lined with parked cars, bush behind; nearest college buildings about 30 m or more.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Bush behind the south side",
+    "Dwellings across road and car parks"
+  ],
+  "drivers": {
+    "seclusion": "Bush behind; college buildings across the road and car parks, 26 m or more from the section.",
+    "access_and_room": "Cars already park along the kerb; narrow path verge beside bush.",
+    "traffic": "Campus road with steady university traffic by day.",
+    "convention": "Row of parked cars along this kerb, so a van fits in."
+  },
+  "flags": [
+    "Sign: St Lucia Traffic Area metered parking Mon-Fri 7am-9pm",
+    "Dwellings at 18 m near 143 m and 26 m near 64 m; avoid the east end",
+    "Low-lying: about 9 m elevation, Brisbane River 196 m away",
+    "Campus setting, may be patrolled"
+  ],
+  "sun_shade": "Tree canopy from bush on the south side gives shade; open to the north for midday sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Campus enforcement"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 75,
+    "to_m": 115,
+    "where": "South kerb of Sir William MacGregor Drive, between the bus stop and the college building bend",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.015979,
+        -27.502207
+      ],
+      [
+        153.016144,
+        -27.502175
+      ],
+      [
+        153.016307,
+        -27.502144
+      ],
+      [
+        153.016375,
+        -27.502131
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 0.7,
+    "min_elevation_m": 8.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

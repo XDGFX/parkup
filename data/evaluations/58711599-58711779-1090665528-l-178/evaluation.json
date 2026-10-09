@@ -1,0 +1,67 @@
+{
+  "candidate": "58711599-58711779-1090665528-l-178",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb among parked cars, with a college building 12 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Dormitory 12 m away on own side",
+    "Bus zone sign at the stretch"
+  ],
+  "drivers": {
+    "seclusion": "Dormitory 12 m at the start; other dorms 29 m or more; trees behind.",
+    "access_and_room": "Parked-car kerbside lane; room for a van, but only 15 m of kerb.",
+    "traffic": "Campus road, moderate traffic.",
+    "convention": "Cars parked both sides; P no limit sign, but a bus zone sign sits beside it."
+  },
+  "flags": [
+    "Bus zone sign at the stretch; keep clear",
+    "Low-lying: about 7.5 m elevation, river 181 m away"
+  ],
+  "sun_shade": "Mostly tree shade from the north and east; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Where the bus zone ends",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "Sir William MacGregor Drive north kerb, by the college building at the bend",
+    "slope_pct": 2.8,
+    "points": [
+      [
+        153.01346,
+        -27.502609
+      ],
+      [
+        153.013511,
+        -27.502597
+      ],
+      [
+        153.013604,
+        -27.502582
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 2.8,
+    "min_elevation_m": 7.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

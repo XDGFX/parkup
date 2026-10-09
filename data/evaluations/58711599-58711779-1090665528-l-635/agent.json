@@ -1,0 +1,36 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Kerb beside lawn and trees west of a junction; dwellings 30 m or more away.",
+  "reasons": [
+    "Lawn and trees behind the kerb",
+    "Nearest mapped dwelling 30 m",
+    "Cars park along the opposite kerb"
+  ],
+  "best_section": {
+    "from_m": 4,
+    "to_m": 18,
+    "where": "Sir William MacGregor Drive, north kerb beside the lawn east of the car park, before the junction",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Lawn, trees and a car park to the north; bush to the south; nearest mapped dwelling (College Playhouse) 30 m away.",
+    "access_and_room": "Sealed road, with parking along the south kerb and room to pull in on the north; angle parking area signed here.",
+    "traffic": "Campus road with moderate traffic; the junction at the east end is busier. Stay west of the no-stopping zone.",
+    "convention": "Signed St Lucia Traffic Area parking, Mon-Fri 7am-9pm; the screen found no overnight restriction."
+  },
+  "flags": [
+    "No Stopping Any Time sign near the junction at the east end; stay clear",
+    "Junction with a red-surfaced crossing at the east end",
+    "Low-lying: about 7.7 m elevation, Brisbane River 199 m away",
+    "Campus: permit or time limits possible outside the signed hours"
+  ],
+  "sun_shade": "Trees on the north side shade it from the north and west; open to the east morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Campus parking permits and signs on site",
+    "Street lighting",
+    "Whether college security patrols the road"
+  ],
+  "confidence": "medium"
+}

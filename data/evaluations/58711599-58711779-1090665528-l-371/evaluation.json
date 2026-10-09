@@ -1,0 +1,48 @@
+{
+  "candidate": "58711599-58711779-1090665528-l-371",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Only 8 m of kerb, beside a footpath and car park entrance.",
+  "reasons": [
+    "Stretch about one van length",
+    "Footpath meets kerb at the start",
+    "Lift gate 8 m away"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto a small car park and trees; nearest home 31 m away.",
+    "access_and_room": "Kerb is 8 m, too short for a van to stand clear of the path entrance.",
+    "traffic": "Campus road, moderate traffic.",
+    "convention": "Cars park further along the road, but not on this short stretch."
+  },
+  "flags": [
+    "Mapped lift gate 8 m away has a way round",
+    "Low-lying: about 9.5 m elevation, river 209 m away"
+  ],
+  "sun_shade": "Open to the sun; trees to the south and west cast partial shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 30,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 9.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

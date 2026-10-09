@@ -1,0 +1,65 @@
+{
+  "candidate": "58711599-58711779-1090665528-l-513",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short campus kerb with a grass verge; mapped dwelling 15 m away.",
+  "reasons": [
+    "Mapped residential building 15 m away",
+    "Cars park along this road",
+    "Grass verge and trees on the north side"
+  ],
+  "drivers": {
+    "seclusion": "Grass strip and trees to the north, building beyond (mapped residential, 15 m; Women's College dormitory 39 m east); bush to the south.",
+    "access_and_room": "Sealed road with cars parked along the kerbs; room to pull in.",
+    "traffic": "Campus road with moderate traffic; parked van sits outside the lane.",
+    "convention": "Cars park here by day; overnight use unknown."
+  },
+  "flags": [
+    "Mapped residential building 15 m from the kerb",
+    "Women's College dormitory 39 m east",
+    "Low-lying: about 8.5 m elevation, Brisbane River 206 m away",
+    "Campus: parking rules on site unknown"
+  ],
+  "sun_shade": "Palms and trees shade the north side from the east and west; building shades the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the mapped residential building is really a dwelling",
+    "Campus parking permits and signs",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "Sir William MacGregor Drive, north kerb beside the grass strip east of the building car park",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        153.016784,
+        -27.501978
+      ],
+      [
+        153.016931,
+        -27.50195
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 0.3,
+    "min_elevation_m": 8.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

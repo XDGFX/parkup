@@ -1,0 +1,51 @@
+{
+  "candidate": "58735884-58736300-1274556179-l-117",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Line runs through dense bush off the road end; no visible way to stop.",
+  "reasons": [
+    "No formed road visible under trees",
+    "House 9 m from the road-end section",
+    "Resident-permit parking signs"
+  ],
+  "drivers": {
+    "seclusion": "Heavy tree cover and the park behind, but houses sit 9-26 m from the line on the road side.",
+    "access_and_room": "The road ends at the north-west end; the rest of the line is under canopy with no visible tracks or vehicles.",
+    "traffic": "Quiet residential street end.",
+    "convention": "No parked cars visible; two 2P signs with resident permits excepted, Mon-Fri 7am-6pm."
+  },
+  "flags": [
+    "Steep: about 6% mean grade, 12.6% max",
+    "Sandy Creek 89 m away",
+    "Canopy hides the ground, so the kerb position is uncertain"
+  ],
+  "sun_shade": "Dense tree canopy covers the whole line, shading it all day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether a sealed road or track runs under the trees",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 5.9,
+    "min_elevation_m": 8.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

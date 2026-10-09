@@ -1,0 +1,329 @@
+{
+  "id": "58711599-58711779-1090665528-l-610",
+  "street": "Sir William MacGregor Drive",
+  "suburb": "St Lucia",
+  "line": [
+    [
+      153.017735,
+      -27.501774
+    ],
+    [
+      153.017798,
+      -27.501756
+    ],
+    [
+      153.017857,
+      -27.501739
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "north",
+  "length_m": 13,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "residential",
+      "name": "The College Playhouse",
+      "dwelling": true,
+      "metres": 20,
+      "at_m": 3,
+      "outline": [
+        [
+          153.0176981,
+          -27.5015977
+        ],
+        [
+          153.0178695,
+          -27.5014469
+        ],
+        [
+          153.0177547,
+          -27.5013442
+        ],
+        [
+          153.017699,
+          -27.5013932
+        ],
+        [
+          153.0176385,
+          -27.5013392
+        ],
+        [
+          153.0175229,
+          -27.5014409
+        ],
+        [
+          153.0176981,
+          -27.5015977
+        ]
+      ]
+    },
+    {
+      "building": "dormitory",
+      "name": "The Women's College",
+      "dwelling": true,
+      "metres": 47,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0169296,
+          -27.5011544
+        ],
+        [
+          153.0170881,
+          -27.5013076
+        ],
+        [
+          153.0172492,
+          -27.5011764
+        ],
+        [
+          153.0174874,
+          -27.5014066
+        ],
+        [
+          153.0173579,
+          -27.501512
+        ],
+        [
+          153.017287,
+          -27.5014435
+        ],
+        [
+          153.0171963,
+          -27.5015174
+        ],
+        [
+          153.0172655,
+          -27.5015843
+        ],
+        [
+          153.0171645,
+          -27.5016666
+        ],
+        [
+          153.0170425,
+          -27.5015487
+        ],
+        [
+          153.0171432,
+          -27.5014667
+        ],
+        [
+          153.0171042,
+          -27.501429
+        ],
+        [
+          153.017019,
+          -27.5014983
+        ],
+        [
+          153.0169652,
+          -27.5014463
+        ],
+        [
+          153.0169969,
+          -27.5014205
+        ],
+        [
+          153.016976,
+          -27.5014004
+        ],
+        [
+          153.016948,
+          -27.5014232
+        ],
+        [
+          153.0168948,
+          -27.5013718
+        ],
+        [
+          153.0169556,
+          -27.5013223
+        ],
+        [
+          153.0169003,
+          -27.5012689
+        ],
+        [
+          153.0168494,
+          -27.5012197
+        ],
+        [
+          153.0169296,
+          -27.5011544
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": "Piddington Wing",
+      "dwelling": true,
+      "metres": 53,
+      "at_m": 13,
+      "outline": [
+        [
+          153.0177722,
+          -27.5010931
+        ],
+        [
+          153.0177338,
+          -27.5012028
+        ],
+        [
+          153.0180445,
+          -27.5012882
+        ],
+        [
+          153.0180828,
+          -27.5011786
+        ],
+        [
+          153.0177722,
+          -27.5010931
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0178039,
+      "lat": -27.5015773,
+      "metres": 19,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0190225,
+      "lat": -27.5015029,
+      "metres": 118,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0177677,
+      "lat": -27.5005512,
+      "metres": 132,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0168551,
+      "lat": -27.5004367,
+      "metres": 172,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0161206,
+      "lat": -27.501103,
+      "metres": 176,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0156478,
+      "lat": -27.5015001,
+      "metres": 208,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0153793,
+      "lat": -27.502173,
+      "metres": 237,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0154016,
+      "lat": -27.5008934,
+      "metres": 250,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.017735,
+        "lat": -27.501774,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 7.96
+      },
+      {
+        "lon": 153.017783,
+        "lat": -27.50176,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 7.95
+      },
+      {
+        "lon": 153.017831,
+        "lat": -27.501746,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 7.85
+      },
+      {
+        "lon": 153.017857,
+        "lat": -27.501739,
+        "at_m": 12.6,
+        "line": 0,
+        "elevation_m": 7.83
+      }
+    ],
+    "min_elevation_m": 7.8,
+    "max_elevation_m": 8,
+    "mean_grade_pct": 1,
+    "max_grade_pct": 2
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 200
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 13,
+      "length_m": 13,
+      "images": {
+        "esri": ".cache/imagery/58711599-58711779-1090665528-l-610/chunk1-esri.jpg",
+        "qld": ".cache/imagery/58711599-58711779-1090665528-l-610/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        72,
+        64
+      ],
+      "image_px": [
+        480,
+        426
+      ]
+    }
+  ]
+}

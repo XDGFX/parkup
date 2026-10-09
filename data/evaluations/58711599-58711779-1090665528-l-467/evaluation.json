@@ -1,0 +1,64 @@
+{
+  "candidate": "58711599-58711779-1090665528-l-467",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short campus kerb under trees; mapped dwelling 10 m away.",
+  "reasons": [
+    "Mapped residential building 10 m from kerb",
+    "Cars park along this road",
+    "Trees and bush opposite"
+  ],
+  "drivers": {
+    "seclusion": "Tree-covered strip on the north side; large building behind it (mapped residential, 10 m at the east end); bush to the south.",
+    "access_and_room": "Sealed campus road with cars parked along both kerbs; room to pull in.",
+    "traffic": "Campus road, moderate traffic; parked van sits outside the lane.",
+    "convention": "Cars park along the road by day; overnight use unknown."
+  },
+  "flags": [
+    "Mapped residential building 10 m from the kerb",
+    "Low-lying: about 8.5 m elevation, Brisbane River 209 m away",
+    "Campus: parking rules on site unknown"
+  ],
+  "sun_shade": "Heavy tree canopy over the north side shades it; building shades the north-side morning light.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the mapped residential building is really a dwelling",
+    "Campus parking permits and signs",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "Sir William MacGregor Drive, north kerb beside the tree-covered strip west of the blue-roofed building",
+    "slope_pct": 0.9,
+    "points": [
+      [
+        153.016329,
+        -27.502066
+      ],
+      [
+        153.016527,
+        -27.502027
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 0.9,
+    "min_elevation_m": 8.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,72 @@
+{
+  "candidate": "262638522-262638523-24257933-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Campus through-street kerb with no-stopping signs and no cars parked along it.",
+  "reasons": [
+    "No Stopping Any Time signs on stretch",
+    "No cars parked along this kerb",
+    "Steep first 60 m, 8% mean"
+  ],
+  "drivers": {
+    "seclusion": "Flat east end has a construction site and university buildings alongside; no dwellings within 40 m, so seclusion itself is fine.",
+    "access_and_room": "Kerb abuts a footpath and construction fencing; no pull-off, so a van stands in the lane edge of a through street.",
+    "traffic": "Campus road linking the car park and the tower precinct; steady vehicle traffic.",
+    "convention": "No Stopping Any Time signs 2.8 m and 6.5 m from the kerb line; no cars parked along it."
+  },
+  "flags": [
+    "No Stopping Any Time and Specified Times signs on this kerb",
+    "Steep over the first 60 m: up to 17% grade",
+    "Active construction site alongside the best section",
+    "Bishop and Jarvis Towers 13 m from the west half"
+  ],
+  "sun_shade": "Open to sun at the east end; trees shade the west half.",
+  "rubbish": "Construction debris on the adjacent site, not dumped rubbish.",
+  "cannot_judge": [
+    "Street lighting",
+    "Hours of the specified no-stopping restriction"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 62,
+    "to_m": 94,
+    "where": "South kerb of Hood Street beside the construction site, east end",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        153.009526,
+        -27.497288
+      ],
+      [
+        153.009656,
+        -27.497306
+      ],
+      [
+        153.009819,
+        -27.497329
+      ],
+      [
+        153.009846,
+        -27.497332
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 6.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

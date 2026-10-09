@@ -1,0 +1,50 @@
+{
+  "candidate": "262638522-262638523-24257933-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb 5 m from university apartment towers, steep, with no-stopping signs.",
+  "reasons": [
+    "Apartment towers 5 m from kerb",
+    "Only 16 m long, about 15% grade",
+    "No-stopping signs at both ends"
+  ],
+  "drivers": {
+    "seclusion": "Bishop and Jarvis Towers (dwellings) sit 5 m from the kerb, windows facing it.",
+    "access_and_room": "Kerb is a narrow bend beside the buildings; cars already stand at the kerb but room for a van is tight.",
+    "traffic": "Campus street with passing traffic and a car park opposite.",
+    "convention": "No Stopping signs at both ends of the stretch."
+  },
+  "flags": [
+    "Steep: about 15% mean grade, up to 20%",
+    "No Stopping Any Time sign 14.7 m from the kerb line",
+    "Dwellings within 10 m"
+  ],
+  "sun_shade": "Tree cover and tall buildings shade the kerb, mostly from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Exact extent of the no-stopping zone"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 15.4,
+    "min_elevation_m": 9.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:18:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
