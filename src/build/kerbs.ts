@@ -361,8 +361,8 @@ export function buildKerbs(input: KerbInput): { stretches: Stretch[]; report: Ke
         if (within(ys, mid)) continue;
         // Where paired plates govern the kerb, they override OSM's parking:*=no and the s 170 setback.
         const paired = cover.some((i) => !i.lowConfidence);
-        if (!paired && within(noParking, mid)) { parkingNoM += to - from; continue; }
         if (!paired && within(setbacks, mid)) continue;
+        if (!paired && within(noParking, mid)) { parkingNoM += to - from; continue; }
         const at = block(mid);
         if (at.frontage?.excluded) { excludedM[at.frontage.excluded] += to - from; continue; }
         if (!at.frontage) noFrontageM += to - from;
