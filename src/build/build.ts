@@ -2,6 +2,8 @@
 import type { Rule } from "../timetable/timetable.ts";
 import { toXY, type Compass, type LonLat } from "./geo.ts";
 import type { ToiletRecord } from "./inputs.ts";
+import { CURRENT_IMAGERY, RUBRIC_VERSION } from "../evaluate/config.ts";
+import { inherit, type CandidateEvaluation, type CurrentEvaluation, type PriorEvaluation } from "./evaluations.ts";
 import { buildKerbs, suburbFinder, type KerbInput, type KerbReport, type Stretch } from "./kerbs.ts";
 import { buildSites, type SiteInput, type SiteKind } from "./sites.ts";
 import { maxStayHours, passesDaytime, passesOvernight } from "./screen.ts";
@@ -38,6 +40,8 @@ export type Candidate = {
   tenure: string | null;
   /** QLD Roads and Tracks trafficability of an off-road site's track, such as "4WD". */
   trafficability: string | null;
+  /** The evaluation this candidate has, made for it or carried over from an earlier build. Null when unevaluated. */
+  evaluation: CandidateEvaluation | null;
 };
 
 /** What became of the stretches governed by an unreadable plate. */
@@ -57,7 +61,15 @@ export type BuildReport = Omit<KerbReport, "unparsed"> & {
   sites: { parkingAreas: number; offRoad: number; withTimetable: number; failsScreen: number };
 };
 
-export type BuildInput = KerbInput & SiteInput & { toilets?: ToiletRecord[]; /** Off in tests that only look at plate reading. */ screen?: boolean };
+export type BuildInput = KerbInput & SiteInput & {
+  toilets?: ToiletRecord[];
+  /** Off in tests that only look at plate reading. */
+  screen?: boolean;
+  /** The committed evaluations, to carry over to the rebuilt candidates. */
+  evaluations?: PriorEvaluation[];
+  /** The rubric and imagery an evaluation must have been made with to be current. Defaults to the batch's. */
+  current?: CurrentEvaluation;
+};
 
 export const UNREADABLE = "Unreadable sign: it may restrict parking here";
 
@@ -74,7 +86,9 @@ function screen(s: Stretch): { outcome: Outcome; rules: Rule[] } {
   return { outcome: "dropped", rules: s.rules };
 }
 
-export function build({ screen: screening = true, toilets = [], ...input }: BuildInput): { candidates: Candidate[]; toilets: Toilet[]; report: BuildReport } {
+export function build({
+  screen: screening = true, toilets = [], evaluations = [], current = { rubric: RUBRIC_VERSION, imagery: CURRENT_IMAGERY }, ...input
+}: BuildInput): { candidates: Candidate[]; toilets: Toilet[]; report: BuildReport } {
   const { stretches, report } = buildKerbs(input);
   const sites = buildSites(input);
   const candidates: Candidate[] = [];
@@ -103,7 +117,7 @@ export function build({ screen: screening = true, toilets = [], ...input }: Buil
       maxStayHours: maxStayHours({ rules }),
       frontage: s.frontage && { zone: s.frontage.zone, name: s.frontage.name },
       tier: s.frontage?.tier ?? null,
-      toilet: null, tenure: null, trafficability: null,
+      toilet: null, tenure: null, trafficability: null, evaluation: null,
     });
   }
   const suburbOf = suburbFinder(input.signs);
@@ -117,9 +131,10 @@ export function build({ screen: screening = true, toilets = [], ...input }: Buil
       rules, plates: s.plates, cautions: s.cautions, lowConfidence: false,
       overnight, daytime, dayOnly: daytime && !overnight, maxStayHours: maxStayHours({ rules }),
       frontage: s.frontage && { zone: s.frontage.zone, name: s.frontage.name }, tier: s.frontage?.tier ?? null, toilet: null,
-      tenure: s.tenure, trafficability: s.trafficability,
+      tenure: s.tenure, trafficability: s.trafficability, evaluation: null,
     });
   }
+  for (const c of candidates) c.evaluation = inherit(c, evaluations, current);
   // Best frontage first, untagged car parks after the rest of their tier; then a stable order by street, side and position along the kerb.
   const unknownAccess = new Set(sites.filter((s) => !s.accessKnown).map((s) => s.id));
   const demoted = (c: Candidate) => (unknownAccess.has(c.id) ? 1 : 0);

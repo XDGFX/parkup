@@ -113,3 +113,13 @@ export const TENURE = { MATCH_M: 1 };
  * sampled every SAMPLE_M along it lie within MATCH_M of an OSM road, track or service way.
  */
 export const TRAILS = { ITEM_TYPES: ["ACCESS ROAD", "MULTI-USE ACCESS", "MANAGEMENT ACCESS ONLY"], SAMPLE_M: 10, MATCH_M: 15, MAPPED_SHARE: 0.5 };
+
+/**
+ * Evaluation carry-over to a rebuilt candidate. A kerb stretch inherits from one on the same side whose line lies within
+ * KERB_M of it over at least KERB_OVERLAP of the longer of the two. A site inherits by the same id (its OSM id), from an
+ * outline overlapping it by at least OUTLINE_OVERLAP of the larger, or from a point within POINT_M.
+ */
+export const CARRY_OVER = { KERB_M: 3, KERB_OVERLAP: 0.9, OUTLINE_OVERLAP: 0.8, POINT_M: 20 };
+
+/** Candidates per evaluation subagent. */
+export const QUEUE_GROUP = 8;
