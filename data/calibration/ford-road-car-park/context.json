@@ -1,0 +1,274 @@
+{
+  "id": "ford-road-car-park",
+  "street": "Ford Road",
+  "suburb": "Sheldon",
+  "kind": "point",
+  "line": [
+    [
+      153.184207,
+      -27.608697
+    ]
+  ],
+  "osm_tags": {},
+  "length_m": 0,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 29,
+      "at_m": 0,
+      "outline": [
+        [
+          153.1843097,
+          -27.6089709
+        ],
+        [
+          153.1843211,
+          -27.6089379
+        ],
+        [
+          153.1843598,
+          -27.6089483
+        ],
+        [
+          153.1843485,
+          -27.6089813
+        ],
+        [
+          153.1843097,
+          -27.6089709
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.1842685,
+      "lat": -27.6088736,
+      "metres": 21,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.1846563,
+      "lat": -27.6085383,
+      "metres": 48,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.1849086,
+      "lat": -27.6067226,
+      "metres": 230,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.184004,
+        "lat": -27.608697,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 77.17
+      },
+      {
+        "lon": 153.184055,
+        "lat": -27.608697,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 76.83
+      },
+      {
+        "lon": 153.184106,
+        "lat": -27.608697,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 76.24
+      },
+      {
+        "lon": 153.184156,
+        "lat": -27.608697,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 75.91
+      },
+      {
+        "lon": 153.184207,
+        "lat": -27.608697,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 75.53
+      },
+      {
+        "lon": 153.184258,
+        "lat": -27.608697,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 75.03
+      },
+      {
+        "lon": 153.184308,
+        "lat": -27.608697,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 74.61
+      },
+      {
+        "lon": 153.184359,
+        "lat": -27.608697,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 74.51
+      },
+      {
+        "lon": 153.18441,
+        "lat": -27.608697,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 74.17
+      },
+      {
+        "lon": 153.184207,
+        "lat": -27.608877,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 75.99
+      },
+      {
+        "lon": 153.184207,
+        "lat": -27.608832,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 76.1
+      },
+      {
+        "lon": 153.184207,
+        "lat": -27.608787,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 75.89
+      },
+      {
+        "lon": 153.184207,
+        "lat": -27.608742,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 75.74
+      },
+      {
+        "lon": 153.184207,
+        "lat": -27.608697,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 75.53
+      },
+      {
+        "lon": 153.184207,
+        "lat": -27.608652,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 75.28
+      },
+      {
+        "lon": 153.184207,
+        "lat": -27.608607,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 75.08
+      },
+      {
+        "lon": 153.184207,
+        "lat": -27.608562,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 75.24
+      },
+      {
+        "lon": 153.184207,
+        "lat": -27.608517,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 74.78
+      }
+    ],
+    "min_elevation_m": 74.2,
+    "max_elevation_m": 77.2,
+    "mean_grade_pct": 5.9,
+    "max_grade_pct": 11.8
+  },
+  "waterway": null,
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 10,
+      "access": "yes",
+      "fee": "no",
+      "surface": "asphalt"
+    }
+  ],
+  "mapped_ways": [
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 11
+    },
+    {
+      "highway": "track",
+      "service": null,
+      "name": "DC Burnett Entrance Road",
+      "surface": "ground",
+      "access": null,
+      "metres": 21
+    },
+    {
+      "highway": "track",
+      "service": null,
+      "name": null,
+      "surface": "gravel",
+      "access": null,
+      "metres": 29
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/ford-road-car-park/chunk1-esri.jpg",
+        "qld": ".cache/imagery/ford-road-car-park/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Logan_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

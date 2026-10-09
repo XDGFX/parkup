@@ -1,0 +1,49 @@
+{
+  "candidate": "latimers-crossing-rd",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Dirt apron at the mouth of a powerline easement track off a rural road.",
+  "reasons": [
+    "Pin sits on powerline easement track mouth",
+    "Track runs between pylons into bush",
+    "Verge slopes steeply, about 10% mean"
+  ],
+  "drivers": {
+    "seclusion": "Bush behind and farmland across the road; nearest house about 50 m away, so seclusion itself is good.",
+    "access_and_room": "Dirt apron meets the road, but it is the entry to a pylon access track, normally gated.",
+    "traffic": "Rural main road, fast traffic, apron is clear of the lane.",
+    "convention": "No vehicles, tents or tyre marks beyond the track itself."
+  },
+  "flags": [
+    "Steep: mean 10%, up to 40% on the DEM",
+    "Powerline easement track, access likely restricted",
+    "Nerang River about 83 m away, 43 to 47 m elevation so not low-lying"
+  ],
+  "sun_shade": "Open to sky; bush shade from the south-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether a gate is placed at the track mouth",
+    "Surface firmness",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 10.1,
+    "min_elevation_m": 43,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-10-01"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:25:59Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

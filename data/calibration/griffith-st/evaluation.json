@@ -1,0 +1,51 @@
+{
+  "candidate": "griffith-st",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow riverside street with houses and apartments right on the kerb.",
+  "reasons": [
+    "Homes 10 to 20 m from the pin",
+    "Narrow street, few cars parked",
+    "Dense housing on both sides"
+  ],
+  "drivers": {
+    "seclusion": "Houses 10, 16 and 19 m from the pin; apartment blocks within 20 to 25 m; no quiet stretch within 100 m.",
+    "access_and_room": "Sealed street meets a narrow lane at the pin; little room beside the lane, mostly kerb to fence.",
+    "traffic": "Quiet local street, but a van would sit in front of homes.",
+    "convention": "A few cars parked near the corner, but they look like residents' cars."
+  },
+  "flags": [
+    "Dwelling within 10 m of the pin",
+    "Low-lying at 4.6 to 5.8 m, Brisbane River 187 m away",
+    "Mean slope 2.6%, fine"
+  ],
+  "sun_shade": "Mixed tree shade, with large trees on the north side and tall buildings to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Parking signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 4.6,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:25:59Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

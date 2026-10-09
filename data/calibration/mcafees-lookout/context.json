@@ -1,0 +1,266 @@
+{
+  "id": "mcafees-lookout",
+  "street": "Mount Nebo Road",
+  "suburb": "Brisbane",
+  "kind": "point",
+  "line": [
+    [
+      152.877632,
+      -27.428854
+    ]
+  ],
+  "osm_tags": {},
+  "length_m": 0,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 48,
+      "at_m": 0,
+      "outline": [
+        [
+          152.8780476,
+          -27.4286239
+        ],
+        [
+          152.8780087,
+          -27.428509
+        ],
+        [
+          152.8781116,
+          -27.4284815
+        ],
+        [
+          152.8781505,
+          -27.4285964
+        ],
+        [
+          152.8780476,
+          -27.4286239
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.8795149,
+      "lat": -27.4298755,
+      "metres": 218,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.877429,
+        "lat": -27.428854,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 320.44
+      },
+      {
+        "lon": 152.87748,
+        "lat": -27.428854,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 321.31
+      },
+      {
+        "lon": 152.877531,
+        "lat": -27.428854,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 321.27
+      },
+      {
+        "lon": 152.877581,
+        "lat": -27.428854,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 321.19
+      },
+      {
+        "lon": 152.877632,
+        "lat": -27.428854,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 321.03
+      },
+      {
+        "lon": 152.877683,
+        "lat": -27.428854,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 320.95
+      },
+      {
+        "lon": 152.877733,
+        "lat": -27.428854,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 320.74
+      },
+      {
+        "lon": 152.877784,
+        "lat": -27.428854,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 319.96
+      },
+      {
+        "lon": 152.877835,
+        "lat": -27.428854,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 318.12
+      },
+      {
+        "lon": 152.877632,
+        "lat": -27.429034,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 319.65
+      },
+      {
+        "lon": 152.877632,
+        "lat": -27.428989,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 320.44
+      },
+      {
+        "lon": 152.877632,
+        "lat": -27.428944,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 321
+      },
+      {
+        "lon": 152.877632,
+        "lat": -27.428899,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 321.08
+      },
+      {
+        "lon": 152.877632,
+        "lat": -27.428854,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 321.03
+      },
+      {
+        "lon": 152.877632,
+        "lat": -27.428809,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 321.89
+      },
+      {
+        "lon": 152.877632,
+        "lat": -27.428764,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 321.59
+      },
+      {
+        "lon": 152.877632,
+        "lat": -27.428719,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 319.81
+      },
+      {
+        "lon": 152.877632,
+        "lat": -27.428674,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 318.98
+      }
+    ],
+    "min_elevation_m": 318.1,
+    "max_elevation_m": 321.9,
+    "mean_grade_pct": 11.6,
+    "max_grade_pct": 36.8
+  },
+  "waterway": null,
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 2,
+      "access": null,
+      "fee": null,
+      "surface": null
+    }
+  ],
+  "mapped_ways": [
+    {
+      "highway": "service",
+      "service": null,
+      "name": "McAfees Lookout",
+      "surface": null,
+      "access": null,
+      "metres": 5
+    },
+    {
+      "highway": "track",
+      "service": null,
+      "name": "Hell Hole Break",
+      "surface": "dirt",
+      "access": null,
+      "metres": 50
+    },
+    {
+      "highway": "track",
+      "service": null,
+      "name": "Nebo Road Break",
+      "surface": null,
+      "access": null,
+      "metres": 54
+    },
+    {
+      "highway": "track",
+      "service": null,
+      "name": null,
+      "surface": null,
+      "access": null,
+      "metres": 57
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/mcafees-lookout/chunk1-esri.jpg",
+        "qld": ".cache/imagery/mcafees-lookout/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-08-12",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

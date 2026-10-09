@@ -1,0 +1,268 @@
+{
+  "id": "shailer-pioneer-park",
+  "street": "Harley Street",
+  "suburb": "Shailer Park",
+  "kind": "point",
+  "line": [
+    [
+      153.158501,
+      -27.649163
+    ]
+  ],
+  "osm_tags": {},
+  "length_m": 0,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 68,
+      "at_m": 0,
+      "outline": [
+        [
+          153.1587612,
+          -27.6485586
+        ],
+        [
+          153.1587829,
+          -27.6486034
+        ],
+        [
+          153.1588789,
+          -27.6485668
+        ],
+        [
+          153.1588572,
+          -27.648522
+        ],
+        [
+          153.1587612,
+          -27.6485586
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.1585065,
+      "lat": -27.6484457,
+      "metres": 80,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.1588154,
+      "lat": -27.6476101,
+      "metres": 175,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.158298,
+        "lat": -27.649163,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 7.92
+      },
+      {
+        "lon": 153.158349,
+        "lat": -27.649163,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 7.94
+      },
+      {
+        "lon": 153.1584,
+        "lat": -27.649163,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 7.98
+      },
+      {
+        "lon": 153.15845,
+        "lat": -27.649163,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 8.04
+      },
+      {
+        "lon": 153.158501,
+        "lat": -27.649163,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 8.07
+      },
+      {
+        "lon": 153.158552,
+        "lat": -27.649163,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 8.1
+      },
+      {
+        "lon": 153.158602,
+        "lat": -27.649163,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 8.15
+      },
+      {
+        "lon": 153.158653,
+        "lat": -27.649163,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 8.17
+      },
+      {
+        "lon": 153.158704,
+        "lat": -27.649163,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 8.24
+      },
+      {
+        "lon": 153.158501,
+        "lat": -27.649343,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 6.93
+      },
+      {
+        "lon": 153.158501,
+        "lat": -27.649298,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 7.36
+      },
+      {
+        "lon": 153.158501,
+        "lat": -27.649253,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 7.97
+      },
+      {
+        "lon": 153.158501,
+        "lat": -27.649208,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 8.19
+      },
+      {
+        "lon": 153.158501,
+        "lat": -27.649163,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 8.07
+      },
+      {
+        "lon": 153.158501,
+        "lat": -27.649118,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 8.1
+      },
+      {
+        "lon": 153.158501,
+        "lat": -27.649073,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 8.12
+      },
+      {
+        "lon": 153.158501,
+        "lat": -27.649028,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 8.2
+      },
+      {
+        "lon": 153.158501,
+        "lat": -27.648983,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 8.29
+      }
+    ],
+    "min_elevation_m": 6.9,
+    "max_elevation_m": 8.3,
+    "mean_grade_pct": 2.4,
+    "max_grade_pct": 12.2
+  },
+  "waterway": {
+    "name": null,
+    "metres": 53
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 8,
+      "access": "yes",
+      "fee": "no",
+      "surface": "asphalt"
+    },
+    {
+      "name": null,
+      "metres": 72,
+      "access": "yes",
+      "fee": null,
+      "surface": "asphalt"
+    }
+  ],
+  "mapped_ways": [
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 0
+    },
+    {
+      "highway": "service",
+      "service": "driveway",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 73
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/shailer-pioneer-park/chunk1-esri.jpg",
+        "qld": ".cache/imagery/shailer-pioneer-park/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-11-27",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Logan_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

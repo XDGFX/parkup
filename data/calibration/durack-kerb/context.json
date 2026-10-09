@@ -1,0 +1,189 @@
+{
+  "id": "durack-kerb",
+  "street": "Bowhill Road",
+  "suburb": "Durack",
+  "kind": "point",
+  "line": [
+    [
+      152.990991,
+      -27.586286
+    ]
+  ],
+  "osm_tags": {},
+  "length_m": 0,
+  "signs": [],
+  "buildings": [],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.990788,
+        "lat": -27.586286,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 5.26
+      },
+      {
+        "lon": 152.990839,
+        "lat": -27.586286,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 5.35
+      },
+      {
+        "lon": 152.99089,
+        "lat": -27.586286,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 5.36
+      },
+      {
+        "lon": 152.99094,
+        "lat": -27.586286,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 5.32
+      },
+      {
+        "lon": 152.990991,
+        "lat": -27.586286,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 5.31
+      },
+      {
+        "lon": 152.991042,
+        "lat": -27.586286,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 5.39
+      },
+      {
+        "lon": 152.991092,
+        "lat": -27.586286,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 5.46
+      },
+      {
+        "lon": 152.991143,
+        "lat": -27.586286,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 5.55
+      },
+      {
+        "lon": 152.991194,
+        "lat": -27.586286,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 5.59
+      },
+      {
+        "lon": 152.990991,
+        "lat": -27.586466,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 5.35
+      },
+      {
+        "lon": 152.990991,
+        "lat": -27.586421,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 5.4
+      },
+      {
+        "lon": 152.990991,
+        "lat": -27.586376,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 5.6
+      },
+      {
+        "lon": 152.990991,
+        "lat": -27.586331,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 5.56
+      },
+      {
+        "lon": 152.990991,
+        "lat": -27.586286,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 5.31
+      },
+      {
+        "lon": 152.990991,
+        "lat": -27.586241,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 5.3
+      },
+      {
+        "lon": 152.990991,
+        "lat": -27.586196,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 5.25
+      },
+      {
+        "lon": 152.990991,
+        "lat": -27.586151,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 5.25
+      },
+      {
+        "lon": 152.990991,
+        "lat": -27.586106,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 5.36
+      }
+    ],
+    "min_elevation_m": 5.3,
+    "max_elevation_m": 5.6,
+    "mean_grade_pct": 1.4,
+    "max_grade_pct": 5
+  },
+  "waterway": {
+    "name": "Blunder Creek",
+    "metres": 59
+  },
+  "mapped_parking": [],
+  "mapped_ways": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/durack-kerb/chunk1-esri.jpg",
+        "qld": ".cache/imagery/durack-kerb/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "id": "pin06",
+  "street": "Champions Way",
+  "suburb": "Brisbane",
+  "kind": "point",
+  "line": [
+    [
+      152.671475,
+      -27.6937
+    ]
+  ],
+  "osm_tags": {},
+  "length_m": 0,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 8,
+      "at_m": 0,
+      "outline": [
+        [
+          152.6713826,
+          -27.6936327
+        ],
+        [
+          152.6714191,
+          -27.6936528
+        ],
+        [
+          152.6714424,
+          -27.6936197
+        ],
+        [
+          152.6714059,
+          -27.6935996
+        ],
+        [
+          152.6713826,
+          -27.6936327
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 19,
+      "at_m": 0,
+      "outline": [
+        [
+          152.6714338,
+          -27.6939085
+        ],
+        [
+          152.6714789,
+          -27.6939336
+        ],
+        [
+          152.6715087,
+          -27.6938916
+        ],
+        [
+          152.6714636,
+          -27.6938665
+        ],
+        [
+          152.6714338,
+          -27.6939085
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 24,
+      "at_m": 0,
+      "outline": [
+        [
+          152.6712161,
+          -27.6935956
+        ],
+        [
+          152.6712526,
+          -27.6936158
+        ],
+        [
+          152.6712759,
+          -27.6935826
+        ],
+        [
+          152.6712394,
+          -27.6935625
+        ],
+        [
+          152.6712161,
+          -27.6935956
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.6702078,
+      "lat": -27.6948493,
+      "metres": 179,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.671272,
+        "lat": -27.6937,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 42.09
+      },
+      {
+        "lon": 152.671323,
+        "lat": -27.6937,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 41.81
+      },
+      {
+        "lon": 152.671374,
+        "lat": -27.6937,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 41.77
+      },
+      {
+        "lon": 152.671424,
+        "lat": -27.6937,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 41.65
+      },
+      {
+        "lon": 152.671475,
+        "lat": -27.6937,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 41.5
+      },
+      {
+        "lon": 152.671526,
+        "lat": -27.6937,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 41.35
+      },
+      {
+        "lon": 152.671576,
+        "lat": -27.6937,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 41.27
+      },
+      {
+        "lon": 152.671627,
+        "lat": -27.6937,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 41.05
+      },
+      {
+        "lon": 152.671678,
+        "lat": -27.6937,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 41.06
+      },
+      {
+        "lon": 152.671475,
+        "lat": -27.69388,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 41.44
+      },
+      {
+        "lon": 152.671475,
+        "lat": -27.693835,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 41.43
+      },
+      {
+        "lon": 152.671475,
+        "lat": -27.69379,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 41.5
+      },
+      {
+        "lon": 152.671475,
+        "lat": -27.693745,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 41.59
+      },
+      {
+        "lon": 152.671475,
+        "lat": -27.6937,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 41.5
+      },
+      {
+        "lon": 152.671475,
+        "lat": -27.693655,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 41.48
+      },
+      {
+        "lon": 152.671475,
+        "lat": -27.69361,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 41.53
+      },
+      {
+        "lon": 152.671475,
+        "lat": -27.693565,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 41.44
+      },
+      {
+        "lon": 152.671475,
+        "lat": -27.69352,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 41.43
+      }
+    ],
+    "min_elevation_m": 41.1,
+    "max_elevation_m": 42.1,
+    "mean_grade_pct": 1.9,
+    "max_grade_pct": 5.6
+  },
+  "waterway": null,
+  "mapped_parking": [],
+  "mapped_ways": [
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": null,
+      "access": null,
+      "metres": 21
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": null,
+      "access": null,
+      "metres": 51
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": null,
+      "access": null,
+      "metres": 62
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": null,
+      "access": null,
+      "metres": 80
+    },
+    {
+      "highway": "track",
+      "service": null,
+      "name": null,
+      "surface": null,
+      "access": null,
+      "metres": 94
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/pin06/chunk1-esri.jpg",
+        "qld": ".cache/imagery/pin06/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-10-21",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Ipswich_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

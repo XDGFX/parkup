@@ -1,0 +1,255 @@
+{
+  "id": "mt-coot-tha-reserve",
+  "street": "Sir Samuel Griffith Drive",
+  "suburb": "Brisbane",
+  "kind": "point",
+  "line": [
+    [
+      152.944775,
+      -27.463832
+    ]
+  ],
+  "osm_tags": {},
+  "length_m": 0,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9456936,
+      "lat": -27.4634896,
+      "metres": 98,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9461619,
+      "lat": -27.463196,
+      "metres": 154,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9469974,
+      "lat": -27.4635848,
+      "metres": 221,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.947099,
+      "lat": -27.4633348,
+      "metres": 236,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9473741,
+      "lat": -27.463601,
+      "metres": 258,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9476313,
+      "lat": -27.4632696,
+      "metres": 289,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.944572,
+        "lat": -27.463832,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 263.69
+      },
+      {
+        "lon": 152.944623,
+        "lat": -27.463832,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 263.92
+      },
+      {
+        "lon": 152.944674,
+        "lat": -27.463832,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 264.04
+      },
+      {
+        "lon": 152.944724,
+        "lat": -27.463832,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 264.11
+      },
+      {
+        "lon": 152.944775,
+        "lat": -27.463832,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 264.26
+      },
+      {
+        "lon": 152.944826,
+        "lat": -27.463832,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 264.43
+      },
+      {
+        "lon": 152.944876,
+        "lat": -27.463832,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 264.71
+      },
+      {
+        "lon": 152.944927,
+        "lat": -27.463832,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 264.96
+      },
+      {
+        "lon": 152.944978,
+        "lat": -27.463832,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 265.29
+      },
+      {
+        "lon": 152.944775,
+        "lat": -27.464012,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 262.78
+      },
+      {
+        "lon": 152.944775,
+        "lat": -27.463967,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 263.52
+      },
+      {
+        "lon": 152.944775,
+        "lat": -27.463922,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 264.29
+      },
+      {
+        "lon": 152.944775,
+        "lat": -27.463877,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 264.05
+      },
+      {
+        "lon": 152.944775,
+        "lat": -27.463832,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 264.26
+      },
+      {
+        "lon": 152.944775,
+        "lat": -27.463787,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 264.82
+      },
+      {
+        "lon": 152.944775,
+        "lat": -27.463742,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 265.19
+      },
+      {
+        "lon": 152.944775,
+        "lat": -27.463697,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 265.19
+      },
+      {
+        "lon": 152.944775,
+        "lat": -27.463652,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 262.89
+      }
+    ],
+    "min_elevation_m": 262.8,
+    "max_elevation_m": 265.3,
+    "mean_grade_pct": 8.5,
+    "max_grade_pct": 46
+  },
+  "waterway": {
+    "name": null,
+    "metres": 126
+  },
+  "mapped_parking": [],
+  "mapped_ways": [
+    {
+      "highway": "service",
+      "service": null,
+      "name": "Sir Samuel Griffith Drive",
+      "surface": "asphalt",
+      "access": null,
+      "metres": 7
+    },
+    {
+      "highway": "service",
+      "service": "driveway",
+      "name": null,
+      "surface": null,
+      "access": null,
+      "metres": 93
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/mt-coot-tha-reserve/chunk1-esri.jpg",
+        "qld": ".cache/imagery/mt-coot-tha-reserve/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

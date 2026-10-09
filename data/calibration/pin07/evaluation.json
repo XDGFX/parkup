@@ -1,0 +1,59 @@
+{
+  "candidate": "pin07",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Open gravel and dirt clearing beside Boundary Road, backing onto empty paddock.",
+  "reasons": [
+    "Tyre tracks and gravel apron from road",
+    "No homes nearby, paddock and industry only",
+    "Clear of the traffic lane"
+  ],
+  "drivers": {
+    "seclusion": "Open paddock east, road and wetland west, one industrial shed about 150 m north-west. No dwellings mapped or seen.",
+    "access_and_room": "Gravel entry off the road edge with tyre tracks; wide cleared dirt and gravel area, plenty of room.",
+    "traffic": "Busy road beside it, but the van stands well off the lane.",
+    "convention": "Rough informal clearing with some dumped soil and rubbish; no vans seen."
+  },
+  "flags": [
+    "Low-lying: about 4 m elevation, Oxley Creek 124 m away",
+    "Road noise from Boundary Road",
+    "Mapped gate 234 m away, not on the only access"
+  ],
+  "sun_shade": "Open and unshaded; full sun all day.",
+  "rubbish": "Some dumped soil heaps and a small rubbish pile near the entrance.",
+  "cannot_judge": [
+    "Whether the entrance is gated at night",
+    "Ground softness after rain"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Gravel clearing just east of Boundary Road, a little south of the entrance",
+    "slope_pct": 1.7,
+    "points": [
+      [
+        152.986993,
+        -27.56719
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 4,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:25:59Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

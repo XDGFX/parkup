@@ -1,0 +1,67 @@
+{
+  "candidate": "heroes-ave",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Through road with no parking and no cars along the park-side kerb.",
+  "reasons": [
+    "Tertiary road, mapped no parking",
+    "No cars parked along kerb",
+    "Homes 15-25 m at both ends"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto open parkland and ball field, but homes sit 15-25 m away at both ends.",
+    "access_and_room": "Kerb is on the lane edge with no verge or bay to pull out of traffic.",
+    "traffic": "Tertiary 60 km/h link road meeting a busy signalled junction.",
+    "convention": "OSM has parking:both no and no parked cars seen along this kerb."
+  },
+  "flags": [
+    "Low-lying: about 2 m elevation, Toowong Creek 82 m away",
+    "Steep at the ends: up to 15% max grade, flat mid-section",
+    "Junction noise"
+  ],
+  "sun_shade": "Mostly open to the park on the south side; some tree shade near 50 m.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Painted no-stopping lines",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 85,
+    "to_m": 125,
+    "where": "Park-side kerb beside the ball field, before the junction",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.992568,
+        -27.492991
+      ],
+      [
+        152.992864,
+        -27.49309
+      ],
+      [
+        152.992947,
+        -27.493119
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 52,
+    "gated": false,
+    "slope_pct": 3.6,
+    "min_elevation_m": 2.2,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:25:59Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

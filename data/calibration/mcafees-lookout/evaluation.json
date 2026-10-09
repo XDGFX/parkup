@@ -1,0 +1,60 @@
+{
+  "candidate": "mcafees-lookout",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Small dirt pull-off in forest just off Mount Nebo Road, no homes near.",
+  "reasons": [
+    "Bare dirt pad linked to the road",
+    "Dense bush all round",
+    "Only a hut about 48 m away"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by dense forest. The only building is a non-dwelling about 48 m north-east, across the road.",
+    "access_and_room": "Bare dirt pad about 15 m long meets the road edge via a short track; a van should fit but it is tight.",
+    "traffic": "Quiet mountain road; the pad is set off the lane.",
+    "convention": "Mapped as parking at the lookout, so stopping here is expected."
+  },
+  "flags": [
+    "Steep: DEM about 11.6% mean, higher in places; the pad itself may be flatter",
+    "Small pad, turning room limited",
+    "Tracks nearby are fire breaks, not for use"
+  ],
+  "sun_shade": "Tree canopy over most of it; partly open from the east and south over the pad.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact levelness of the pad",
+    "Signs on site",
+    "Surface condition after rain"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Dirt pad at the ring, just south-west of the road bend",
+    "slope_pct": 11.6,
+    "points": [
+      [
+        152.877632,
+        -27.428854
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 11.6,
+    "min_elevation_m": 318.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-08-12"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:25:59Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

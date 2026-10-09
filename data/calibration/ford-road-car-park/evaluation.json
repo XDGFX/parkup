@@ -1,0 +1,60 @@
+{
+  "candidate": "ford-road-car-park",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small sealed trailhead car park in forest off Ford Road, no homes near.",
+  "reasons": [
+    "Sealed car park with its own entrance",
+    "Forest all round, no dwellings",
+    "Mapped free public parking"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by bushland. The only mapped building is a non-dwelling about 29 m away.",
+    "access_and_room": "Sealed entrance off Ford Road; several marked bays with room for a van at the top end.",
+    "traffic": "Moderate traffic on Ford Road, but the car park is set back from the lane.",
+    "convention": "Mapped access yes, no fee; 6 to 8 cars parked, likely walkers using the trails."
+  },
+  "flags": [
+    "Steep: about 5.9% mean in DEM, 11.8% max",
+    "Walkers and trail users may come and go early",
+    "Mapped gates 21 m and 48 m away, not on the only access"
+  ],
+  "sun_shade": "Mixed; a tree shades the north end, the rest is open to the sky.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Crossfall of the car park",
+    "Whether the car park closes at night"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Sealed car park just off Ford Road, at the ring",
+    "slope_pct": 5.9,
+    "points": [
+      [
+        153.184207,
+        -27.608697
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 5.9,
+    "min_elevation_m": 74.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:25:59Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

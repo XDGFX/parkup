@@ -93,6 +93,19 @@ button:focus-visible, a:focus-visible { outline: 3px solid var(--warn); outline-
 ul.cautions { list-style: none; padding: 0; margin: 10px 0 0; }
 ul.cautions li { position: relative; padding-left: 18px; margin: 4px 0; color: var(--muted); font-size: 14.5px; }
 ul.cautions li::before { content: ""; position: absolute; left: 3px; top: .62em; width: 6px; height: 6px; border-radius: 50%; border: 1.5px solid var(--warn); }
+/* The evaluation: summary, where to park, reasons and flags, then the dates behind it */
+.evaluation { margin-top: 14px; }
+.evaluation .summary { margin: 0; font-size: 16px; line-height: 1.4; }
+.evaluation .where { margin-top: 8px; font-size: 14.5px; }
+.evaluation .where .out-label { margin-right: 6px; }
+ul.reasons, ul.flags { list-style: none; padding: 0; margin: 10px 0 0; }
+ul.reasons li, ul.flags li { position: relative; padding-left: 18px; margin: 4px 0; color: var(--muted); font-size: 14.5px; }
+ul.reasons li::before, ul.flags li::before { content: ""; position: absolute; left: 3px; top: .62em; width: 6px; height: 6px; border-radius: 50%; border: 1.5px solid var(--muted); }
+ul.flags li::before { border-radius: 1px; transform: rotate(45deg); border-color: var(--warn); }
+.evaluation .facts { grid-template-columns: 1fr; gap: 0 0; }
+.evaluation .facts dd { margin-bottom: 6px; font-size: 14.5px; }
+.evaluation .dates { margin-top: 10px; }
+
 .check { margin: 12px 0 0; color: var(--muted); font-size: 14.5px; }
 
 .gmaps { flex: none; margin-top: 12px; display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; min-height: 54px;
@@ -110,3 +123,17 @@ ul.cautions li::before { content: ""; position: absolute; left: 3px; top: .62em;
   .sky, .top button.plate, .pulse { animation: none; }
   .sheet { transition: none; }
 }
+
+/* Toilets on the card: hours under the name, warm when shut for the window */
+.facts .toilet-hours { display: block; }
+.facts .toilet-hours.shut { color: var(--warn); }
+
+/* The one-time install banner, above the sheet */
+.install { position: absolute; left: 8px; right: 8px; bottom: calc(8px + var(--safe-b)); z-index: 7; display: flex; align-items: center; gap: 12px;
+  padding: 12px 12px 12px 14px; border-radius: 18px; background: var(--surface); border: 1px solid var(--line);
+  backdrop-filter: blur(18px) saturate(1.4); -webkit-backdrop-filter: blur(18px) saturate(1.4); animation: install .4s ease-out both; }
+.install img { border-radius: 9px; flex: none; }
+.install p { margin: 0; flex: 1; font-size: 14px; line-height: 1.35; }
+.install-go { padding: 8px 14px; border: 0; border-radius: 999px; background: var(--dusk); color: #1C120D; font-weight: 600; }
+.install-close { padding: 6px; border: 0; background: none; color: var(--muted); }
+@keyframes install { from { transform: translateY(12px); opacity: 0; } }

@@ -1,0 +1,82 @@
+{
+  "candidate": "adsett-st",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short residential kerb with houses 4-6 m from it.",
+  "reasons": [
+    "Detached houses 4 m and 6 m away",
+    "Only 28 m long",
+    "Weekday no-parking sign 7am-6pm"
+  ],
+  "drivers": {
+    "seclusion": "Rail corridor to the north, but a house sits about 6 m from the kerb and more across the street.",
+    "access_and_room": "Two cars park on the street beyond the section; the kerb is narrow and the section is shorter than a van length of clear room.",
+    "traffic": "Quiet end of a residential street by a junction and rail line.",
+    "convention": "Mapped parking:both no, and a Mon-Fri 7am-6pm no-parking sign."
+  },
+  "flags": [
+    "Steep: about 4.5% average, up to 7% grade",
+    "Rail noise",
+    "Building site opposite in QLD image, gone in Esri"
+  ],
+  "sun_shade": "Open to the north over the rail corridor; trees shade the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Overnight enforcement of the sign"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "Kerb where Adsett St meets the road beside the rail line",
+    "slope_pct": 4,
+    "points": [
+      [
+        152.983143,
+        -27.492758
+      ],
+      [
+        152.983163,
+        -27.492788
+      ],
+      [
+        152.983175,
+        -27.492807
+      ],
+      [
+        152.983196,
+        -27.492851
+      ],
+      [
+        152.983199,
+        -27.492872
+      ],
+      [
+        152.983199,
+        -27.492872
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 6,
+    "min_elevation_m": 15.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:25:59Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

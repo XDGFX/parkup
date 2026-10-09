@@ -1,0 +1,255 @@
+{
+  "id": "green-hill-reservoir",
+  "street": "Russell Terrace",
+  "suburb": "Indooroopilly",
+  "kind": "point",
+  "line": [
+    [
+      152.957156,
+      -27.494381
+    ]
+  ],
+  "osm_tags": {},
+  "length_m": 0,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9569554,
+      "lat": -27.4944387,
+      "metres": 21,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9561461,
+      "lat": -27.4930633,
+      "metres": 177,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9593511,
+      "lat": -27.495727,
+      "metres": 263,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.956953,
+        "lat": -27.494381,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 85.88
+      },
+      {
+        "lon": 152.957004,
+        "lat": -27.494381,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 86.03
+      },
+      {
+        "lon": 152.957055,
+        "lat": -27.494381,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 86.03
+      },
+      {
+        "lon": 152.957105,
+        "lat": -27.494381,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 86.09
+      },
+      {
+        "lon": 152.957156,
+        "lat": -27.494381,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 85.88
+      },
+      {
+        "lon": 152.957207,
+        "lat": -27.494381,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 85.88
+      },
+      {
+        "lon": 152.957257,
+        "lat": -27.494381,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 85.86
+      },
+      {
+        "lon": 152.957308,
+        "lat": -27.494381,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 85.83
+      },
+      {
+        "lon": 152.957359,
+        "lat": -27.494381,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 85.76
+      },
+      {
+        "lon": 152.957156,
+        "lat": -27.494561,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 86.3
+      },
+      {
+        "lon": 152.957156,
+        "lat": -27.494516,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 86.32
+      },
+      {
+        "lon": 152.957156,
+        "lat": -27.494471,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 86.13
+      },
+      {
+        "lon": 152.957156,
+        "lat": -27.494426,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 86.15
+      },
+      {
+        "lon": 152.957156,
+        "lat": -27.494381,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 85.88
+      },
+      {
+        "lon": 152.957156,
+        "lat": -27.494336,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 85.77
+      },
+      {
+        "lon": 152.957156,
+        "lat": -27.494291,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 85.74
+      },
+      {
+        "lon": 152.957156,
+        "lat": -27.494246,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 85.6
+      },
+      {
+        "lon": 152.957156,
+        "lat": -27.494201,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 85.5
+      }
+    ],
+    "min_elevation_m": 85.5,
+    "max_elevation_m": 86.3,
+    "mean_grade_pct": 1.8,
+    "max_grade_pct": 5.4
+  },
+  "waterway": {
+    "name": null,
+    "metres": 123
+  },
+  "mapped_parking": [],
+  "mapped_ways": [
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 3
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": null,
+      "access": null,
+      "metres": 10
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": null,
+      "access": null,
+      "metres": 18
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": null,
+      "access": null,
+      "metres": 85
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 90
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/green-hill-reservoir/chunk1-esri.jpg",
+        "qld": ".cache/imagery/green-hill-reservoir/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

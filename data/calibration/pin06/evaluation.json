@@ -1,0 +1,60 @@
+{
+  "candidate": "pin06",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Highway rest area with a loop road, shelters and caravans already parked.",
+  "reasons": [
+    "Caravans and motorhomes parked in imagery",
+    "No dwellings, only shelters and toilets",
+    "Wide loop road and bays"
+  ],
+  "drivers": {
+    "seclusion": "Open bushland rest area; only small non-residential shelters within 100 m, no homes.",
+    "access_and_room": "Sealed loop road and wide gravel bays, with plenty of room to pull well off the highway.",
+    "traffic": "Busy highway on the east edge, but the van stands clear of the lane.",
+    "convention": "Caravans, motorhomes and utes parked in both images; typical overnight rest stop."
+  },
+  "flags": [
+    "Highway noise from the east side",
+    "Mapped buildings are shelters and toilets, none a dwelling",
+    "Pin sits on the grass in the loop, not on the road"
+  ],
+  "sun_shade": "Scattered tall gums shade the loop from the west; east pull-in is open to the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Stay limits or signs on site",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Gravel and sealed bays on the loop road and east pull-in of the rest area",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.671475,
+        -27.6937
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 41.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-10-21"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:25:59Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

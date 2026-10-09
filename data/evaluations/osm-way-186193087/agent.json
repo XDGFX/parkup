@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Large Summit car park at Mount Coot-tha, bush behind, no homes nearby.",
+  "reasons": ["No dwellings nearby", "Open asphalt car park, bush around", "Plenty of room off the road"],
+  "best_section": {
+    "from_m": 20,
+    "to_m": 50,
+    "where": "Western end of the Summit car park, near the restaurant side",
+    "slope_pct": 1
+  },
+  "drivers": {
+    "seclusion": "Surrounded by bush and the restaurant; no homes within sight.",
+    "access_and_room": "Sealed car park off the Summit road, many bays, vans can pull fully off.",
+    "traffic": "Visitor traffic by day to the restaurant and lookout; road noise is distant.",
+    "convention": "Many cars parked in the QLD image; one sign here is for motorcycle bays only."
+  },
+  "flags": ["Tourist car park, likely busy until closing", "Perimeter grade reads steep (22% max), but bays look level", "Sign is motorcycle bays only"],
+  "sun_shade": "Mostly open asphalt; tree shade along the west and north edges, so morning shade on the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Overnight rules or gate closing times", "Patrols", "Street lighting"],
+  "confidence": "medium"
+}

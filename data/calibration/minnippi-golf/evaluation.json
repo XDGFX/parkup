@@ -1,0 +1,61 @@
+{
+  "candidate": "minnippi-golf",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Large sealed golf club car park, bush behind, nearest homes about 80 m off.",
+  "reasons": [
+    "Big sealed car park, plenty of room",
+    "Bush and golf course around",
+    "Nearest dwellings about 80 m away"
+  ],
+  "drivers": {
+    "seclusion": "Bush to the west and south, golf course east; new homes lie about 80 m north-east, beyond the clubhouse.",
+    "access_and_room": "Sealed drive off Minnippi Boulevard into a large lot; no barrier seen, plenty of van-length bays.",
+    "traffic": "Internal club road only; light traffic outside opening hours.",
+    "convention": "Dozens of cars parked in the Esri image, so a van fits in by day."
+  },
+  "flags": [
+    "Clubhouse and restaurant 9 m from the ring; busy in the day",
+    "Venue may close or patrol the lot at night",
+    "Slope: about 3 to 6% across the site",
+    "Low-lying: about 7 m elevation, water 56 m away"
+  ],
+  "sun_shade": "Open sealed lot in full sun; bush shades the western edge in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Lighting",
+    "Signs on site or closing gates",
+    "Whether the lot is patrolled"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Western bays of the golf club car park, away from the clubhouse",
+    "slope_pct": 3,
+    "points": [
+      [
+        153.103094,
+        -27.478559
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 5.9,
+    "min_elevation_m": 6.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:25:59Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

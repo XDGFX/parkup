@@ -1,5 +1,5 @@
 // Hand-made build inputs, laid out in metres around a point in Taringa and converted to lon/lat.
-import type { OsmWay, SignRecord } from "../src/build/inputs.ts";
+import type { KerbLine, OsmNode, OsmWay, PermitArea, SignRecord, Zone } from "../src/build/inputs.ts";
 
 const LON0 = 153.0, LAT0 = -27.5, R = 6371008.8, RAD = Math.PI / 180;
 export const lonLat = (x: number, y: number): [number, number] =>
@@ -50,3 +50,18 @@ export const eastPair = (y0: number, y1: number, type: string, times: string | n
   sign({ x: 4, y: y0, dir: "Right", type, times }),
   sign({ x: 4, y: y1, dir: "Left", type, times }),
 ];
+
+/** An OSM point feature, such as traffic signals, a crossing, a bus stop or a kindergarten. */
+export const node = (id: number, x: number, y: number, tags: Record<string, string>): OsmNode => {
+  const [lon, lat] = lonLat(x, y);
+  return { id, lon, lat, tags };
+};
+
+/** A BCC yellow no-stopping line from (x0, y0) to (x1, y1). */
+export const yellowLine = (x0: number, y0: number, x1: number, y1: number): KerbLine => ({ assetid: `YL-${++n}`, coords: [lonLat(x0, y0), lonLat(x1, y1)] });
+
+const rect = (x0: number, y0: number, x1: number, y1: number) => [[lonLat(x0, y0), lonLat(x1, y0), lonLat(x1, y1), lonLat(x0, y1), lonLat(x0, y0)]];
+/** A City Plan zone covering the rectangle between (x0, y0) and (x1, y1). */
+export const zone = (code: string, x0: number, y0: number, x1: number, y1: number): Zone => ({ code, name: code, rings: rect(x0, y0, x1, y1) });
+/** A permit area covering the rectangle between (x0, y0) and (x1, y1). */
+export const area = (name: string, x0: number, y0: number, x1: number, y1: number): PermitArea => ({ name, rings: rect(x0, y0, x1, y1) });

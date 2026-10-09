@@ -1,0 +1,60 @@
+{
+  "candidate": "pin09",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Dead-end park access road beside an oval, shaded, homes 60 m or more off.",
+  "reasons": [
+    "Dead-end road into park, little traffic",
+    "Oval one side, trees the other",
+    "Nearest homes about 60 m away"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto an oval and tree belt. Nearest houses are about 60 m north-west and 70 m or more north-east, behind fences.",
+    "access_and_room": "Sealed road in from Mabel Street; gravel strip beside it and a dead-end turning area. A car sits in the trees at the end.",
+    "traffic": "Only park users; the main road is about 60 m south.",
+    "convention": "Park access road, so cars stopping here are normal."
+  },
+  "flags": [
+    "Powerlines cross the park to the south-west",
+    "Mapped gates 35 m and 37 m away, not on the only access",
+    "Road width at the end is modest; verge room not certain"
+  ],
+  "sun_shade": "Heavily shaded by tall trees on the west and north; open sky to the east over the oval.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Whether the road is gated at night",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "End of the park access road off Mabel Street, by the oval edge",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.975702,
+        -27.557089
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 6.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:25:59Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
