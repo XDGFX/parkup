@@ -112,7 +112,7 @@ export function build({ screen: screening = true, toilets = [], ...input }: Buil
       rules, plates: s.plates, cautions: s.cautions, lowConfidence: false,
       overnight, daytime, dayOnly: daytime && !overnight, maxStayHours: maxStayHours({ rules }),
       frontage: s.frontage && { zone: s.frontage.zone, name: s.frontage.name }, tier: s.frontage?.tier ?? null, toilet: null,
-      tenure: null, trafficability: s.trafficability,
+      tenure: s.tenure, trafficability: s.trafficability,
     });
   }
   // Best frontage first, untagged car parks after the rest of their tier; then a stable order by street, side and position along the kerb.

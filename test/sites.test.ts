@@ -1,7 +1,7 @@
 // Sites (parking areas and off-road sites): generators, rule-outs, timetables, tier and tenure, through the build seam.
 import { describe, expect, it } from "vitest";
 import { build, type BuildInput, type Candidate } from "../src/build/build.ts";
-import type { OsmArea, TrailLine } from "../src/build/inputs.ts";
+import type { OsmArea, Parcel, TrailLine } from "../src/build/inputs.ts";
 import { outBy, statusAt } from "../src/timetable/timetable.ts";
 import { lonLat, node, sign, testStreet, way, zone } from "./fixtures.ts";
 
@@ -172,6 +172,30 @@ describe("off-road sites", () => {
     expect(sites({ minorWays: [southTrack()], qldTracks: qld }).map((c) => c.trafficability)).toEqual(["4WD", "4WD"]);
     const far = [{ trafficability: "4WD", surface: "Unsealed", coords: [lonLat(160, -205), lonLat(160, -330)] }];
     expect(sites({ minorWays: [southTrack()], qldTracks: far }).map((c) => c.trafficability)).toEqual([null, null]);
+  });
+});
+
+describe("tenure label", () => {
+  // The car park's point is the middle of its outline, (40, -70).
+  const parcel = (tenure: string | null, parcelType: string | null = "Lot Type Parcel"): Parcel => {
+    const [lon, lat] = lonLat(40, -70);
+    return { lon, lat, lotplan: "1RP000", tenure, parcelType };
+  };
+  const tenureOf = (input: Partial<BuildInput>) => sites({ parkings: [carPark({ access: "yes" })], ...input })[0]!.tenure;
+
+  it("labels a site from the QLD cadastre parcel at its point", () => {
+    expect(tenureOf({ parcels: [parcel("Freehold")] })).toBe("Freehold (owner unknown)");
+    expect(tenureOf({ parcels: [parcel("Reserve")] })).toBe("Public: reserve");
+    expect(tenureOf({ parcels: [parcel("National Park")] })).toBe("Public: national park");
+    expect(tenureOf({ parcels: [parcel("State Forest")] })).toBe("Public: state forest");
+    expect(tenureOf({ parcels: [parcel(null, "Road Type Parcel")] })).toBe("Public: road reserve");
+    expect(tenureOf({})).toBeNull();
+  });
+
+  it("council land from BCC Council Vegetation overrides freehold, and it never filters", () => {
+    const councilLand = [{ rings: ring(0, 0, 100, -200) }];
+    expect(tenureOf({ parcels: [parcel("Freehold")], councilLand })).toBe("Public: council land");
+    expect(run({ parcels: [parcel("Freehold")] }).candidates.filter((c) => c.kind === "kerb").every((c) => c.tenure === null)).toBe(true);
   });
 });
 

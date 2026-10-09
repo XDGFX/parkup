@@ -105,6 +105,9 @@ export const BARRIER = { BLOCKS: /^(gate|lift_gate|bollard|swing_gate|chain|bloc
  */
 export const TRACKS = { ENTRY_M: 20, END_MIN_M: 40, QLD_MATCH_M: 15 };
 
+/** A cadastre parcel query belongs to the site whose point it was made at, to within MATCH_M. */
+export const TENURE = { MATCH_M: 1 };
+
 /**
  * BCC Park — Tracks and Trails lines that make off-road sites. A line is already in OSM when MAPPED_SHARE of the points
  * sampled every SAMPLE_M along it lie within MATCH_M of an OSM road, track or service way.

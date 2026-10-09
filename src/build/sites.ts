@@ -1,10 +1,10 @@
 // Sites: parking areas from OSM car parks, and off-road sites from OSM tracks and BCC Tracks and Trails access lines.
 // Each is ruled out or kept, given a timetable from plates inside it and OSM tags, a zone tier and a tenure label.
 import type { Rule } from "../timetable/timetable.ts";
-import { BARRIER, EXCLUDED, SITE_RULE_OUT, TRACKS, TRAILS } from "./config.ts";
+import { BARRIER, EXCLUDED, SITE_RULE_OUT, TENURE, TRACKS, TRAILS } from "./config.ts";
 import { frontageIndex, type Frontage } from "./frontage.ts";
 import { dist, inRings, length, pointAt, project, toLonLat, toXY, type LonLat, type XY } from "./geo.ts";
-import type { OsmArea, OsmNode, OsmWay, QldTrack, SignRecord, TrailLine, Zone } from "./inputs.ts";
+import type { CouncilLand, OsmArea, OsmNode, OsmWay, Parcel, QldTrack, SignRecord, TrailLine, Zone } from "./inputs.ts";
 import { osmTimetable } from "./osmHours.ts";
 import { readPlate } from "./plates.ts";
 
@@ -29,6 +29,8 @@ export type Site = {
   frontage: Frontage | null;
   /** QLD Roads and Tracks `trafficability` of the track it's on, such as "4WD". */
   trafficability: string | null;
+  /** Whose land it is, such as "Public: council land" or "Freehold (owner unknown)". Null when no parcel was found. */
+  tenure: string | null;
 };
 
 export const ACCESS_UNKNOWN = "Access unknown";
@@ -47,6 +49,9 @@ export type SiteInput = {
   signs?: SignRecord[];
   qldTracks?: QldTrack[];
   trails?: TrailLine[];
+  /** QLD cadastre point queries, made by the snapshot at each site's point. */
+  parcels?: Parcel[];
+  councilLand?: CouncilLand[];
 };
 
 const blocks = (t: Record<string, string> | undefined) => !!t && BARRIER.BLOCKS.test(t.barrier ?? "") && t.locked !== "no";
@@ -59,11 +64,11 @@ function middle(ring: XY[]): XY {
 }
 
 /** A site before its zone, exclusions and default timetable are applied. */
-type Raw = Omit<Site, "frontage" | "hasTimetable" | "cautions" | "trafficability" | "point"> & {
+type Raw = Omit<Site, "frontage" | "hasTimetable" | "cautions" | "trafficability" | "point" | "tenure"> & {
   p: XY; rings: XY[][] | null; cautions: string[]; hasTimetable: boolean; trafficability?: string | null;
 };
 
-export function buildSites({ ways = [], parkings = [], minorWays = [], nodes = [], zones = [], signs = [], qldTracks = [], trails = [] }: SiteInput): Site[] {
+export function buildSites({ ways = [], parkings = [], minorWays = [], nodes = [], zones = [], signs = [], qldTracks = [], trails = [], parcels = [], councilLand = [] }: SiteInput): Site[] {
   const plates = signs.map((s) => ({ p: toXY([s.lon, s.lat]), plate: readPlate(s) }));
   const zoneOf = frontageIndex(zones, [], nodes);
   const schools = nodes.filter((n) => n.tags.amenity === "school" || EXCLUDED.KINDERGARTEN.test(n.tags.amenity ?? "")).map((n) => toXY([n.lon, n.lat]));
@@ -97,6 +102,8 @@ export function buildSites({ ways = [], parkings = [], minorWays = [], nodes = [
   raw.push(...trackSites(ways, minorWays, barriers), ...trailSites(trails, ways, minorWays));
 
   const qld = qldTracks.map((q) => ({ ...q, line: q.coords.map(toXY) }));
+  const parcelsXY = parcels.map((parcel) => ({ p: toXY([parcel.lon, parcel.lat]), parcel }));
+  const council = councilLand.map((c) => c.rings.map((r) => r.map(toXY)));
   const out: Site[] = [];
   for (const { p, rings, ...r } of raw) {
     const frontage = zoneOf.at(p);
@@ -104,7 +111,7 @@ export function buildSites({ ways = [], parkings = [], minorWays = [], nodes = [
     const trafficability = r.kind === "off-road"
       ? qld.find((q) => Math.abs(project(q.line, p).offset) <= TRACKS.QLD_MATCH_M)?.trafficability ?? null
       : null;
-    out.push({ ...r, point: toLonLat(p), frontage, trafficability, cautions: [...r.cautions, ...(r.hasTimetable ? [] : [HOURS_UNKNOWN])] });
+    out.push({ ...r, point: toLonLat(p), frontage, trafficability, tenure: tenureLabel(p, parcelsXY, council), cautions: [...r.cautions, ...(r.hasTimetable ? [] : [HOURS_UNKNOWN])] });
   }
   return out;
 }
@@ -194,3 +201,22 @@ function trailSites(trails: TrailLine[], roads: OsmWay[], minorWays: OsmWay[]): 
 
 const MANAGEMENT = /management access only/i;
 const titleCase = (s: string) => s.toLowerCase().replace(/\b[a-z]/g, (c) => c.toUpperCase());
+
+const PUBLIC: Record<string, string> = {
+  "Reserve": "reserve", "National Park": "national park", "State Forest": "state forest", "State Land": "state land",
+  "Railway": "rail corridor", "Main Road": "road reserve",
+};
+
+/**
+ * The tenure label: council land inside BCC Council Vegetation (the cadastre shows council parkland as freehold),
+ * else from the QLD cadastre parcel queried at the site's point. A label only: it never filters.
+ */
+function tenureLabel(p: XY, parcels: { p: XY; parcel: Parcel }[], council: XY[][][]): string | null {
+  if (council.some((rings) => inRings(rings, p))) return "Public: council land";
+  const found = parcels.find((x) => dist(x.p, p) <= TENURE.MATCH_M)?.parcel;
+  if (!found) return null;
+  if (!found.tenure) return /road/i.test(found.parcelType ?? "") ? "Public: road reserve" : null;
+  if (found.tenure === "Freehold") return "Freehold (owner unknown)";
+  if (found.tenure === "Lands Lease") return "Leasehold (state land)";
+  return PUBLIC[found.tenure] ? `Public: ${PUBLIC[found.tenure]}` : found.tenure;
+}
