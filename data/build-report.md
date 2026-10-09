@@ -74,6 +74,15 @@ How many schools and kindergartens mapped in OSM fall in a zone the build exclud
 
 Sites without timetable data count as open at all times, with an "hours unknown" caution.
 
+## Evaluations
+
+| | Candidates |
+|---|---|
+| With an evaluation (from `data/evaluations/`) | 0 |
+| … current (this rubric, current imagery) | 0 |
+| … carried over from an earlier build's candidate | 0 |
+| Queued for evaluation (`npm run evaluate -- queue`) | 2659 |
+
 ## Unparsed plate text
 
 Each stretch is screened reading the plate strictly (the rule always applies) and leniently (it never applies).

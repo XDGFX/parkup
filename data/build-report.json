@@ -138,5 +138,11 @@
     "offRoad": 144,
     "withTimetable": 1,
     "failsScreen": 2
+  },
+  "evaluations": {
+    "evaluated": 0,
+    "current": 0,
+    "carriedOver": 0,
+    "queued": 2659
   }
 }

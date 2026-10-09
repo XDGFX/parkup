@@ -3,7 +3,7 @@ import type { Rule } from "../timetable/timetable.ts";
 import { toXY, type Compass, type LonLat } from "./geo.ts";
 import type { ToiletRecord } from "./inputs.ts";
 import { CURRENT_IMAGERY, RUBRIC_VERSION } from "../evaluate/config.ts";
-import { inherit, type CandidateEvaluation, type CurrentEvaluation, type PriorEvaluation } from "./evaluations.ts";
+import { evaluationQueue, inherit, type CandidateEvaluation, type CurrentEvaluation, type PriorEvaluation } from "./evaluations.ts";
 import { buildKerbs, suburbFinder, type KerbInput, type KerbReport, type Stretch } from "./kerbs.ts";
 import { buildSites, type SiteInput, type SiteKind } from "./sites.ts";
 import { maxStayHours, passesDaytime, passesOvernight } from "./screen.ts";
@@ -59,6 +59,8 @@ export type BuildReport = Omit<KerbReport, "unparsed"> & {
   unparsed: UnparsedOutcome[];
   /** Site candidates by kind, how many have any timetable data (plates inside, or OSM time tags), and sites dropped by the screen. */
   sites: { parkingAreas: number; offRoad: number; withTimetable: number; failsScreen: number };
+  /** Candidates with an evaluation, how many are current, how many carried over from another id, and how many are queued. */
+  evaluations: { evaluated: number; current: number; carriedOver: number; queued: number };
 };
 
 export type BuildInput = KerbInput & SiteInput & {
@@ -158,6 +160,12 @@ export function build({
         offRoad: candidates.filter((c) => c.kind === "off-road").length,
         withTimetable: timetabled.size,
         failsScreen: siteFailsScreen,
+      },
+      evaluations: {
+        evaluated: candidates.filter((c) => c.evaluation).length,
+        current: candidates.filter((c) => c.evaluation?.current).length,
+        carriedOver: candidates.filter((c) => c.evaluation && c.evaluation.from !== c.id).length,
+        queued: evaluationQueue(candidates).reduce((n, g) => n + g.ids.length, 0),
       },
     },
   };

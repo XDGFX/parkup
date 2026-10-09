@@ -135,6 +135,15 @@ describe("the evaluation queue", () => {
     expect(queued).toHaveLength(candidates.length - 1);
     expect(evaluationQueue(rebuilt, { force: true }).flatMap((g) => g.ids)).toHaveLength(candidates.length);
   });
+
+  it("the build report counts evaluated, current, carried-over and queued candidates", () => {
+    const { candidates } = run(queueInput);
+    const [a, b] = candidates.filter((c) => c.plates.length);
+    const evaluations = [priorFor(a!, "good", 2), { ...priorFor(b!, "good", 0, { rubric: "v9" }), candidate: "old-id" }];
+    expect(run({ ...queueInput, evaluations }).report.evaluations).toEqual({
+      evaluated: 2, current: 1, carriedOver: 1, queued: candidates.length - 1,
+    });
+  });
 });
 
 describe("site carry-over", () => {
