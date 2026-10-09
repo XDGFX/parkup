@@ -88,6 +88,8 @@ export const ST_LUCIA_TRAFFIC_AREA = {
 export const SITE_RULE_OUT = {
   ACCESS: /^(private|customers|no|permit)$/,
   ON_STREET: /^(street_side|lane|on_street)$/,
+  /** A track, or service road, tagged `access` or `motor_vehicle` with one of these isn't driven along. */
+  NO_VEHICLES: /^(no|private)$/,
 };
 
 /**
@@ -95,3 +97,10 @@ export const SITE_RULE_OUT = {
  * A way touches a car park when one of its nodes is inside the outline or within TOUCH_M of it.
  */
 export const BARRIER = { BLOCKS: /^(gate|lift_gate|bollard|swing_gate|chain|block|jersey_barrier|log)$/, TOUCH_M: 2 };
+
+/**
+ * Off-road sites on OSM tracks: one ENTRY_M in from where a track leaves the road, and one at each dead end of the
+ * reachable track network, unless it's within END_MIN_M of an entry. A QLD Roads and Tracks line within QLD_MATCH_M
+ * of the site gives its trafficability.
+ */
+export const TRACKS = { ENTRY_M: 20, END_MIN_M: 40, QLD_MATCH_M: 15 };

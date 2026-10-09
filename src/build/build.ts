@@ -34,6 +34,10 @@ export type Candidate = {
   tier: 1 | 2 | 3 | null;
   /** The nearest toilet in the toilets layer, measured from the nearest point of the candidate. */
   toilet: NearestToilet | null;
+  /** A site's tenure label, such as "Public: council land" or "Freehold (owner unknown)". Null for a kerb, or when unknown. */
+  tenure: string | null;
+  /** QLD Roads and Tracks trafficability of an off-road site's track, such as "4WD". */
+  trafficability: string | null;
 };
 
 /** What became of the stretches governed by an unreadable plate. */
@@ -97,7 +101,7 @@ export function build({ screen: screening = true, toilets = [], ...input }: Buil
       maxStayHours: maxStayHours({ rules }),
       frontage: s.frontage && { zone: s.frontage.zone, name: s.frontage.name },
       tier: s.frontage?.tier ?? null,
-      toilet: null,
+      toilet: null, tenure: null, trafficability: null,
     });
   }
   for (const s of sites) {
@@ -108,6 +112,7 @@ export function build({ screen: screening = true, toilets = [], ...input }: Buil
       rules, plates: s.plates, cautions: s.cautions, lowConfidence: false,
       overnight, daytime, dayOnly: daytime && !overnight, maxStayHours: maxStayHours({ rules }),
       frontage: s.frontage && { zone: s.frontage.zone, name: s.frontage.name }, tier: s.frontage?.tier ?? null, toilet: null,
+      tenure: null, trafficability: s.trafficability,
     });
   }
   // Best frontage first, untagged car parks after the rest of their tier; then a stable order by street, side and position along the kerb.

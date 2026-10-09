@@ -121,3 +121,56 @@ describe("site timetables", () => {
     expect(c).toMatchObject({ overnight: false, daytime: true, cautions: [] });
   });
 });
+
+/** A site's single point as metres around the fixtures' origin, to the nearest metre. */
+const R = 6371008.8, RAD = Math.PI / 180;
+const xy = (c: Candidate) => { const [lon, lat] = c.line[0]!; return [Math.round((lon - 153) * R * RAD * Math.cos(-27.5 * RAD)), Math.round((lat + 27.5) * R * RAD)]; };
+const track = (id: number, nodes: number[], pts: [number, number][], tags: Record<string, string> = {}) => {
+  const w = way(id, "", nodes, pts, "track");
+  return { ...w, tags: { highway: "track", ...tags } };
+};
+/** A 120 m track leaving Bottom Road at its east end (node 21) and running south. */
+const southTrack = (tags: Record<string, string> = {}) => track(70, [21, 71, 72], [[100, -200], [100, -260], [100, -320]], tags);
+const offRoad = (input: Partial<BuildInput>) => sites(input).map((c) => [c.id, xy(c)]);
+
+describe("off-road sites", () => {
+  it("go where an OSM track leaves a public road, and at its far end", () => {
+    const found = sites({ minorWays: [southTrack()] });
+    expect(found.map((c) => [c.id, c.kind, xy(c)])).toEqual([
+      ["osm-track-70-21", "off-road", [100, -220]],
+      ["osm-track-70-72-end", "off-road", [100, -320]],
+    ]);
+    expect(found[0]).toMatchObject({ street: "Track off Bottom Road", line: [expect.any(Array)], cautions: ["Hours unknown"], overnight: true });
+  });
+
+  it("follow the track network from the road, but not past a mapped barrier unless it's locked=no", () => {
+    const onward = track(73, [72, 74], [[100, -320], [160, -320]]);
+    expect(offRoad({ minorWays: [southTrack(), onward] }).map(([id]) => id)).toEqual(["osm-track-70-21", "osm-track-73-74-end"]);
+    // A gate 60 m in: the entry is reachable, the far end isn't.
+    expect(offRoad({ minorWays: [southTrack()], nodes: [node(71, 100, -260, { barrier: "gate" })] }).map(([id]) => id)).toEqual(["osm-track-70-21"]);
+    expect(offRoad({ minorWays: [southTrack()], nodes: [node(71, 100, -260, { barrier: "gate", locked: "no" })] })).toHaveLength(2);
+    // A gate where the track leaves the road shuts the lot.
+    expect(offRoad({ minorWays: [southTrack()], nodes: [node(21, 100, -200, { barrier: "lift_gate" })] })).toEqual([]);
+  });
+
+  it("aren't reached along a track tagged access or motor_vehicle no|private", () => {
+    for (const tags of [{ access: "private" }, { access: "no" }, { motor_vehicle: "no" }, { motor_vehicle: "private" }] as Record<string, string>[])
+      expect(offRoad({ minorWays: [southTrack(tags)] })).toEqual([]);
+  });
+
+  it("are reached from service roads, but not driveways; an untagged service road is never a site itself", () => {
+    // A service road north from Top Road's east end (node 11), and a track off its end.
+    const service = (tags: Record<string, string>) => ({ ...way(80, "", [11, 81], [[100, 0], [100, 50]], "service"), tags: { highway: "service", ...tags } });
+    const north = track(82, [81, 83], [[100, 50], [100, 150]]);
+    expect(offRoad({ minorWays: [service({})] })).toEqual([]);
+    expect(offRoad({ minorWays: [service({}), north] }).map(([id]) => id)).toEqual(["osm-track-82-81", "osm-track-82-83-end"]);
+    expect(offRoad({ minorWays: [service({ service: "driveway" }), north] })).toEqual([]);
+  });
+
+  it("carry QLD Roads and Tracks trafficability where a segment matches", () => {
+    const qld = [{ trafficability: "4WD", surface: "Unsealed", coords: [lonLat(103, -205), lonLat(103, -330)] }];
+    expect(sites({ minorWays: [southTrack()], qldTracks: qld }).map((c) => c.trafficability)).toEqual(["4WD", "4WD"]);
+    const far = [{ trafficability: "4WD", surface: "Unsealed", coords: [lonLat(160, -205), lonLat(160, -330)] }];
+    expect(sites({ minorWays: [southTrack()], qldTracks: far }).map((c) => c.trafficability)).toEqual([null, null]);
+  });
+});
