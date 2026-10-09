@@ -1,0 +1,48 @@
+{
+  "candidate": "156758450-156769805-24389054-r-330",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a road junction mouth, no room to stop.",
+  "reasons": [
+    "Junction mouth with give-way line",
+    "No Stopping Any Time signs nearby",
+    "Bush verge, no pull-off room"
+  ],
+  "drivers": {
+    "seclusion": "Bush behind the kerb, but houses 18-22 m away at the start.",
+    "access_and_room": "The stretch is the road end where it meets a curved through road at a give-way line; no clear ground beside the lane to pull off.",
+    "traffic": "Junction with a curved through road, passing traffic.",
+    "convention": "No cars parked on this stretch; parked cars sit further along the curved road."
+  },
+  "flags": [
+    "No Stopping Any Time signs within 9 m of the kerb",
+    "Grade up to about 13% over 22 m",
+    "Houses 18 m and 22 m away at the start"
+  ],
+  "sun_shade": "Bush canopy over the verge, shade from the west and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 6.2,
+    "min_elevation_m": 9.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

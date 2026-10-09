@@ -1,0 +1,69 @@
+{
+  "candidate": "osm-way-1065769361",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Large university car park, no homes within 37 m, shaded west bays.",
+  "reasons": [
+    "Only university and research buildings around",
+    "Nearest dwelling 37 m, across a road",
+    "Large lot, many vehicles"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by university buildings, glasshouses and a solar-roofed car park; the nearest dwelling is the Sir Fred apartment block, 37 m away across a road.",
+    "access_and_room": "Sealed lot with marked bays and several entrances; bays under the tree look free and fit a van.",
+    "traffic": "Campus car park with daytime movement; quiet at night; road along the north edge.",
+    "convention": "Lot full of parked vehicles; a van would not stand out."
+  },
+  "flags": [
+    "Signed Traffic Area restriction Mon-Fri 7am-6pm, Feb-Nov",
+    "Loading zone signs near the lot",
+    "Multi-level car park next door is mapped as paid",
+    "Campus security patrols likely"
+  ],
+  "sun_shade": "Large tree canopy shades the western bays, with shade from the west building in the afternoon.",
+  "rubbish": "Some stacked items beside the sheds at the lot's east edge; none in the bays.",
+  "cannot_judge": [
+    "Whether bays are permit-only",
+    "Street lighting",
+    "Overnight security patrols"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 150,
+    "to_m": 190,
+    "where": "western bays of the big car park under the large tree, beside the university building",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        153.00883,
+        -27.494613
+      ],
+      [
+        153.008869,
+        -27.494398
+      ],
+      [
+        153.009027,
+        -27.494421
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 37,
+    "gated": false,
+    "slope_pct": 4.3,
+    "min_elevation_m": 4.6,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,35 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Marked college car park among trees; north end is 40 m or more from homes.",
+  "reasons": [
+    "Dwellings 16 m away only at south end",
+    "Trees and lawn all round the north end",
+    "Cars already parked in the bays"
+  ],
+  "best_section": {
+    "from_m": 70,
+    "to_m": 100,
+    "where": "north bays of the car park, near the road bend facing the river",
+    "slope_pct": 1
+  },
+  "drivers": {
+    "seclusion": "North end backs onto trees and open grass; nearest dwelling is a house 16 m from the south edge, and the college buildings are 34 m or more away.",
+    "access_and_room": "Sealed car park off College Road with marked bays; open bays visible and room for a van.",
+    "traffic": "Quiet side car park off the loop road; low through traffic.",
+    "convention": "Mapped car park with several cars parked; nobody would notice another vehicle."
+  },
+  "flags": [
+    "Mapped lift gate 7 m from the car park edge; mapped way round it",
+    "Likely college or university car park, so permits may apply",
+    "Brisbane River 300 m away, ground about 9 m elevation"
+  ],
+  "sun_shade": "Large trees shade the south and east sides; the north bays are open to sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs at the entrance",
+    "Street lighting",
+    "Whether the car park is permit-only"
+  ],
+  "confidence": "medium"
+}

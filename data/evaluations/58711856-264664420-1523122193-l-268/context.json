@@ -1,0 +1,113 @@
+{
+  "id": "58711856-264664420-1523122193-l-268",
+  "street": "Sir William MacGregor Drive",
+  "suburb": "St Lucia",
+  "line": [
+    [
+      153.014789,
+      -27.492712
+    ],
+    [
+      153.014666,
+      -27.492653
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "south",
+  "length_m": 14,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0148159,
+      "lat": -27.4906043,
+      "metres": 228,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.014789,
+        "lat": -27.492712,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 4.65
+      },
+      {
+        "lon": 153.014744,
+        "lat": -27.492691,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 4.7
+      },
+      {
+        "lon": 153.0147,
+        "lat": -27.492669,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 4.75
+      },
+      {
+        "lon": 153.014666,
+        "lat": -27.492653,
+        "at_m": 13.8,
+        "line": 0,
+        "elevation_m": 4.69
+      }
+    ],
+    "min_elevation_m": 4.7,
+    "max_elevation_m": 4.8,
+    "mean_grade_pct": 1.2,
+    "max_grade_pct": 1.6
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 101
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 51,
+      "access": "yes",
+      "fee": "no",
+      "surface": "concrete"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 14,
+      "length_m": 14,
+      "images": {
+        "esri": ".cache/imagery/58711856-264664420-1523122193-l-268/chunk1-esri.jpg",
+        "qld": ".cache/imagery/58711856-264664420-1523122193-l-268/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        72,
+        67
+      ],
+      "image_px": [
+        481,
+        444
+      ]
+    }
+  ]
+}

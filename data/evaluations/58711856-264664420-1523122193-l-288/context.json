@@ -1,0 +1,147 @@
+{
+  "id": "58711856-264664420-1523122193-l-288",
+  "street": "Sir William MacGregor Drive",
+  "suburb": "St Lucia",
+  "line": [
+    [
+      153.014614,
+      -27.49263
+    ],
+    [
+      153.014422,
+      -27.492549
+    ],
+    [
+      153.014439,
+      -27.492516
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "south",
+  "length_m": 25,
+  "signs": [
+    {
+      "street": "SIR WILLIAM MACGREGOR DRIVE",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 11.4
+    }
+  ],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0148159,
+      "lat": -27.4906043,
+      "metres": 216,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.014614,
+        "lat": -27.49263,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 4.69
+      },
+      {
+        "lon": 153.014568,
+        "lat": -27.492611,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 4.67
+      },
+      {
+        "lon": 153.014522,
+        "lat": -27.492591,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 4.72
+      },
+      {
+        "lon": 153.014477,
+        "lat": -27.492572,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 4.7
+      },
+      {
+        "lon": 153.014431,
+        "lat": -27.492553,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 4.74
+      },
+      {
+        "lon": 153.014439,
+        "lat": -27.492516,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 4.8
+      },
+      {
+        "lon": 153.014439,
+        "lat": -27.492516,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 4.8
+      }
+    ],
+    "min_elevation_m": 4.7,
+    "max_elevation_m": 4.8,
+    "mean_grade_pct": 0.8,
+    "max_grade_pct": 1.2
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 97
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 24,
+      "access": "yes",
+      "fee": "no",
+      "surface": "concrete"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 25,
+      "length_m": 25,
+      "images": {
+        "esri": ".cache/imagery/58711856-264664420-1523122193-l-288/chunk1-esri.jpg",
+        "qld": ".cache/imagery/58711856-264664420-1523122193-l-288/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_CBD_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-12-07",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        79,
+        73
+      ],
+      "image_px": [
+        526,
+        485
+      ]
+    }
+  ]
+}

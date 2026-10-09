@@ -1,0 +1,68 @@
+{
+  "candidate": "1438206874-9690555040-1090665510-l-16",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Long row of angle bays beside a sports field, no homes within 48 m.",
+  "reasons": [
+    "Nearest dwelling 48 m, across fields",
+    "Dense row of cars parked along edge",
+    "Backs onto playing field"
+  ],
+  "drivers": {
+    "seclusion": "Playing field and tree line to the west, university warehouse and yard to the east; houses 48 m or more away at the north end.",
+    "access_and_room": "Sealed street; angle bays on the west edge, with a dirt strip behind the cars, hold a long row of vehicles.",
+    "traffic": "Light campus traffic; junction at the north end and a depot opposite.",
+    "convention": "Signed 4P angle parking in the Traffic Area; around 30 cars parked, so a van blends in."
+  },
+  "flags": [
+    "Signed 4P Angle: a 4-hour limit applies",
+    "Signed Traffic Area restriction Mon-Fri 7am-6pm, Feb-Nov",
+    "Low-lying: about 3 m elevation, flood-prone"
+  ],
+  "sun_shade": "Open to the sky; a line of trees on the west gives afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether bays are enforced overnight"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 50,
+    "where": "west edge of Walcott Street, in the angle bays beside the playing field",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.008074,
+        -27.494956
+      ],
+      [
+        153.008088,
+        -27.494876
+      ],
+      [
+        153.008129,
+        -27.494645
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 76,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 3.3,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

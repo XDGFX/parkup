@@ -1,0 +1,64 @@
+{
+  "candidate": "58815715-257003996-24210746-r-18",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside open park on Townley Street, where other cars park; houses across the road.",
+  "reasons": [
+    "Backs onto park, homes across road",
+    "Cars park along this kerb",
+    "Nearest dwellings about 20 m opposite"
+  ],
+  "drivers": {
+    "seclusion": "Park on the west side; houses only across the road, 19-20 m from this section.",
+    "access_and_room": "Ordinary two-way street; parked cars show the kerb is used, and the grass verge is wide.",
+    "traffic": "Quiet residential street off a signalled junction.",
+    "convention": "Several cars parked on this kerb in the 2022 image. 2P signs apply Mon-Fri 7am-6pm, resident permits excepted."
+  },
+  "flags": [
+    "Steep: about 6% grade along the section",
+    "2P Mon-Fri 7am-6pm signs, resident permits excepted",
+    "Houses face the section across the road"
+  ],
+  "sun_shade": "Open grass to the west gives afternoon sun; park trees shade the northern end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Resident reactions"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 50,
+    "where": "Townley Street west kerb beside the park, south of the Carmody Road corner",
+    "slope_pct": 5.9,
+    "points": [
+      [
+        152.999318,
+        -27.497399
+      ],
+      [
+        152.99928,
+        -27.497667
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 5.9,
+    "min_elevation_m": 11.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

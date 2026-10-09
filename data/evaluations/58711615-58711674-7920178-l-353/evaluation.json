@@ -1,0 +1,70 @@
+{
+  "candidate": "58711615-58711674-7920178-l-353",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Tiny campus turning bay beside university buildings, busy with foot traffic.",
+  "reasons": [
+    "No homes nearby",
+    "Small bay, accessible bays marked",
+    "Buildings 5-7 m, busy campus"
+  ],
+  "drivers": {
+    "seclusion": "No dwellings; university buildings 5-7 m on the west side and trees on the east, but students and staff pass constantly.",
+    "access_and_room": "Sealed road reaches the bay; room for a van is tight, with painted accessible bays on the west edge and one car parked on the east side.",
+    "traffic": "Low vehicle traffic, heavy pedestrian use in the day.",
+    "convention": "Mapped customer car park at 2 m; a campus bay used by day, overnight use unknown."
+  },
+  "flags": [
+    "Accessible bays marked beside the road",
+    "Bollards mapped 46 m away",
+    "Slope up to 7% along the stretch, about 3% at the best section",
+    "Campus security may patrol"
+  ],
+  "sun_shade": "Trees shade the east and north; buildings shade the west in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Campus parking permits and signs",
+    "Street lighting",
+    "Security patrols",
+    "Room for a van to turn"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 25,
+    "where": "small turning and parking bay east of the Global Change Institute",
+    "slope_pct": 3,
+    "points": [
+      [
+        153.014817,
+        -27.49778
+      ],
+      [
+        153.014859,
+        -27.497738
+      ],
+      [
+        153.014903,
+        -27.49767
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 3.8,
+    "min_elevation_m": 18.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

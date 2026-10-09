@@ -1,0 +1,69 @@
+{
+  "candidate": "58711615-58711674-7920178-r-14",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bays on a campus road with parked cars, no homes, trees behind.",
+  "reasons": [
+    "Cars parked along east kerb at start",
+    "No dwellings, only university buildings",
+    "Trees and bays beside the kerb"
+  ],
+  "drivers": {
+    "seclusion": "No dwellings anywhere; university buildings 14 m or more away at the start, with trees on the east side.",
+    "access_and_room": "Sealed campus road with a row of cars already in bays along the east side, so a van fits in line.",
+    "traffic": "Low vehicle traffic on a dead-end campus spur; pedestrians pass by day.",
+    "convention": "Several cars park along this kerb, so a van will not stand out."
+  },
+  "flags": [
+    "Steep: about 6% over the best section",
+    "Bollards mapped 8 m and 10 m from the kerb",
+    "Campus parking permits and security cannot be seen"
+  ],
+  "sun_shade": "Trees shade the east side; tall buildings shade the road from the west in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Campus parking rules and permits",
+    "Security patrols",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "east kerb at the southern end, beside the angled bays off the road from the main street",
+    "slope_pct": 5.9,
+    "points": [
+      [
+        153.014661,
+        -27.500594
+      ],
+      [
+        153.014691,
+        -27.50044
+      ],
+      [
+        153.014716,
+        -27.500329
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 5.7,
+    "min_elevation_m": 6.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

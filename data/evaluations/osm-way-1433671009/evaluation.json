@@ -1,0 +1,47 @@
+{
+  "candidate": "osm-way-1433671009",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Two or three tenant bays under a warehouse wall; no room for a van.",
+  "reasons": [
+    "Tiny bay strip against building",
+    "Shadowed loading-side bays",
+    "Cafe building overlaps outline"
+  ],
+  "drivers": {
+    "seclusion": "Industrial estate with no homes, but the bays are beside warehouses and the cafe, in active use.",
+    "access_and_room": "A short strip of marked bays tight against the building wall, with cars parked in them; no spare room for a van.",
+    "traffic": "Estate traffic and cafe customers; quiet at night.",
+    "convention": "Staff or tenant bays; no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: up to 9.6% grade, mean 3.5%",
+    "Moolabin Creek 21 m away, ground about 10 m elevation",
+    "Cafe and bar building at 0 m"
+  ],
+  "sun_shade": "Shaded by the warehouse to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the bays are reserved for tenants"
+  ],
+  "confidence": "low",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 3.5,
+    "min_elevation_m": 9.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,50 @@
+{
+  "candidate": "58711615-58711674-7920178-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow university service road between buildings, no room to stop clear of the lane.",
+  "reasons": [
+    "Kerb-to-building, no room beside lane",
+    "Bollards mapped along it",
+    "Steep, up to 10% grade"
+  ],
+  "drivers": {
+    "seclusion": "Walled in by university buildings 4-10 m from the kerb, with foot traffic and services; no homes.",
+    "access_and_room": "Narrow campus road with the west side running kerb-to-building and bollards mapped at 2 m and 4 m; the only bays are the car park on the east side near the start, not on this kerb.",
+    "traffic": "Campus service route with pedestrians and delivery vehicles.",
+    "convention": "No cars parked along the west kerb; the few vehicles seen are in the car park bays or at the far end."
+  },
+  "flags": [
+    "Bollards mapped at the start",
+    "Grade up to 10%, mean 6%",
+    "Campus buildings 4-10 m away, constant foot traffic",
+    "Sloping steeply uphill north"
+  ],
+  "sun_shade": "Mostly shaded by tall buildings either side; open overhead only at the road line.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Campus parking rules",
+    "Street lighting",
+    "Security patrols"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 6.4,
+    "min_elevation_m": 6.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

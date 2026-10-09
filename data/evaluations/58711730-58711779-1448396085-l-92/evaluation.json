@@ -1,0 +1,47 @@
+{
+  "candidate": "58711730-58711779-1448396085-l-92",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Line runs through dense bush beside a car park; no road or pull-off.",
+  "reasons": [
+    "Under a van length (13 m)",
+    "Dense trees, no drivable surface",
+    "Beside paid multistorey car park"
+  ],
+  "drivers": {
+    "seclusion": "Bush-covered, but nothing drivable to stop on.",
+    "access_and_room": "Imagery shows trees and scrub, no road edge, track or tyre marks; only 13 m long.",
+    "traffic": "Conifer Knoll Parking Station wall 14 m away.",
+    "convention": "Paid university car park nearby; no roadside parking convention."
+  },
+  "flags": [
+    "Under one van length",
+    "Low-lying: minimum elevation 6.8 m",
+    "Slope 1.8% mean"
+  ],
+  "sun_shade": "Full tree canopy cover.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Ground under canopy"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 48,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 6.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

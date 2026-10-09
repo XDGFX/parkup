@@ -1,0 +1,68 @@
+{
+  "candidate": "257300178-262446457-1090665528-r-104",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, backing onto lawn, with tennis courts opposite.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Nearest dorm over 25 m from start",
+    "Lawn and courts, no homes opposite"
+  ],
+  "drivers": {
+    "seclusion": "Lawn and trees behind the kerb; nearest mapped dorms 33 m and 39 m away at the start. Sports courts across the road.",
+    "access_and_room": "Public road with a row of cars already parked along the kerb, so a van fits in line.",
+    "traffic": "Curving college access road with moderate traffic; the parked van stands out of the lane.",
+    "convention": "Several cars park along this kerb, so a van will not stand out."
+  },
+  "flags": [
+    "Slope about 3% over the best section",
+    "Dorm 15 m away further along, past 35 m",
+    "Lift gates mapped nearby, none on the only access"
+  ],
+  "sun_shade": "Mixed: tree shade over the middle of the kerb from the east and north; lawn open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Night-time student activity"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "first stretch of the south kerb, beside the parked cars below the pedestrian crossing",
+    "slope_pct": 3.1,
+    "points": [
+      [
+        153.010205,
+        -27.50193
+      ],
+      [
+        153.010254,
+        -27.501989
+      ],
+      [
+        153.010346,
+        -27.502058
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 3.1,
+    "min_elevation_m": 13.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

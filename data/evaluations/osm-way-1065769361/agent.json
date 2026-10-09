@@ -1,0 +1,36 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Large university car park, no homes within 37 m, shaded west bays.",
+  "reasons": [
+    "Only university and research buildings around",
+    "Nearest dwelling 37 m, across a road",
+    "Large lot, many vehicles"
+  ],
+  "best_section": {
+    "from_m": 150,
+    "to_m": 190,
+    "where": "western bays of the big car park under the large tree, beside the university building",
+    "slope_pct": 2.5
+  },
+  "drivers": {
+    "seclusion": "Surrounded by university buildings, glasshouses and a solar-roofed car park; the nearest dwelling is the Sir Fred apartment block, 37 m away across a road.",
+    "access_and_room": "Sealed lot with marked bays and several entrances; bays under the tree look free and fit a van.",
+    "traffic": "Campus car park with daytime movement; quiet at night; road along the north edge.",
+    "convention": "Lot full of parked vehicles; a van would not stand out."
+  },
+  "flags": [
+    "Signed Traffic Area restriction Mon-Fri 7am-6pm, Feb-Nov",
+    "Loading zone signs near the lot",
+    "Multi-level car park next door is mapped as paid",
+    "Campus security patrols likely"
+  ],
+  "sun_shade": "Large tree canopy shades the western bays, with shade from the west building in the afternoon.",
+  "rubbish": "Some stacked items beside the sheds at the lot's east edge; none in the bays.",
+  "cannot_judge": [
+    "Whether bays are permit-only",
+    "Street lighting",
+    "Overnight security patrols"
+  ],
+  "confidence": "medium"
+}

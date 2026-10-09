@@ -1,0 +1,429 @@
+{
+  "id": "58711730-58711779-1448396085-l-0",
+  "street": "Thynne Road",
+  "suburb": "St Lucia",
+  "line": [
+    [
+      153.01692,
+      -27.499687
+    ],
+    [
+      153.016996,
+      -27.49966
+    ],
+    [
+      153.017403,
+      -27.499791
+    ],
+    [
+      153.017406,
+      -27.499792
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "north",
+  "length_m": 51,
+  "signs": [
+    {
+      "street": "THYNNE ROAD",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 0.7
+    },
+    {
+      "street": "THYNNE ROAD",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 10.8
+    }
+  ],
+  "buildings": [
+    {
+      "building": "parking",
+      "name": "Conifer Knoll Parking Station",
+      "dwelling": false,
+      "metres": 38,
+      "at_m": 51,
+      "outline": [
+        [
+          153.0177719,
+          -27.4989535
+        ],
+        [
+          153.0181688,
+          -27.4987488
+        ],
+        [
+          153.0182064,
+          -27.4988012
+        ],
+        [
+          153.0182654,
+          -27.4987726
+        ],
+        [
+          153.0184424,
+          -27.4990581
+        ],
+        [
+          153.0184371,
+          -27.4996006
+        ],
+        [
+          153.018142,
+          -27.5000241
+        ],
+        [
+          153.0178416,
+          -27.4998623
+        ],
+        [
+          153.0179113,
+          -27.4997576
+        ],
+        [
+          153.0178346,
+          -27.4997173
+        ],
+        [
+          153.0177995,
+          -27.4996988
+        ],
+        [
+          153.0177665,
+          -27.4996815
+        ],
+        [
+          153.0179328,
+          -27.4994531
+        ],
+        [
+          153.0179435,
+          -27.4991914
+        ],
+        [
+          153.0177719,
+          -27.4989535
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": "Centenary Wing",
+      "dwelling": true,
+      "metres": 48,
+      "at_m": 51,
+      "outline": [
+        [
+          153.0168724,
+          -27.5002638
+        ],
+        [
+          153.0168852,
+          -27.500203
+        ],
+        [
+          153.0168662,
+          -27.5001998
+        ],
+        [
+          153.0168796,
+          -27.500137
+        ],
+        [
+          153.0170233,
+          -27.5001609
+        ],
+        [
+          153.0170112,
+          -27.5002182
+        ],
+        [
+          153.0171983,
+          -27.5002493
+        ],
+        [
+          153.0172062,
+          -27.5002123
+        ],
+        [
+          153.0172668,
+          -27.5002224
+        ],
+        [
+          153.0172813,
+          -27.5002248
+        ],
+        [
+          153.0172847,
+          -27.500209
+        ],
+        [
+          153.0173916,
+          -27.5002268
+        ],
+        [
+          153.017385,
+          -27.5002579
+        ],
+        [
+          153.0174275,
+          -27.500265
+        ],
+        [
+          153.0174101,
+          -27.5003473
+        ],
+        [
+          153.0172607,
+          -27.5003225
+        ],
+        [
+          153.0172478,
+          -27.5003835
+        ],
+        [
+          153.0169523,
+          -27.5003343
+        ],
+        [
+          153.016964,
+          -27.500279
+        ],
+        [
+          153.0168724,
+          -27.5002638
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0168551,
+      "lat": -27.5004367,
+      "metres": 84,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0177677,
+      "lat": -27.5005512,
+      "metres": 92,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0161206,
+      "lat": -27.501103,
+      "metres": 176,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0154016,
+      "lat": -27.5008934,
+      "metres": 201,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0178039,
+      "lat": -27.5015773,
+      "metres": 202,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0156478,
+      "lat": -27.5015001,
+      "metres": 237,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.014516,
+      "lat": -27.4998174,
+      "metres": 238,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0146087,
+      "lat": -27.5004249,
+      "metres": 242,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0190225,
+      "lat": -27.5015029,
+      "metres": 248,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0162446,
+      "lat": -27.4973237,
+      "metres": 270,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.01692,
+        "lat": -27.499687,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 6.58
+      },
+      {
+        "lon": 153.016967,
+        "lat": -27.49967,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 6.73
+      },
+      {
+        "lon": 153.017014,
+        "lat": -27.499666,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 6.83
+      },
+      {
+        "lon": 153.017062,
+        "lat": -27.499681,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 6.74
+      },
+      {
+        "lon": 153.01711,
+        "lat": -27.499697,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 6.63
+      },
+      {
+        "lon": 153.017157,
+        "lat": -27.499712,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 6.55
+      },
+      {
+        "lon": 153.017205,
+        "lat": -27.499727,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 6.45
+      },
+      {
+        "lon": 153.017253,
+        "lat": -27.499743,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 6.37
+      },
+      {
+        "lon": 153.0173,
+        "lat": -27.499758,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 6.33
+      },
+      {
+        "lon": 153.017348,
+        "lat": -27.499773,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 6.28
+      },
+      {
+        "lon": 153.017396,
+        "lat": -27.499789,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 6.24
+      },
+      {
+        "lon": 153.017406,
+        "lat": -27.499792,
+        "at_m": 51.1,
+        "line": 0,
+        "elevation_m": 6.23
+      }
+    ],
+    "min_elevation_m": 6.2,
+    "max_elevation_m": 6.8,
+    "mean_grade_pct": 1.6,
+    "max_grade_pct": 3
+  },
+  "waterway": null,
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 18,
+      "access": "customers",
+      "fee": "yes",
+      "surface": null
+    },
+    {
+      "name": "Conifer Knoll Parking Station",
+      "metres": 38,
+      "access": "customers",
+      "fee": "yes",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 51,
+      "length_m": 51,
+      "images": {
+        "esri": ".cache/imagery/58711730-58711779-1448396085-l-0/chunk1-esri.jpg",
+        "qld": ".cache/imagery/58711730-58711779-1448396085-l-0/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        108,
+        75
+      ],
+      "image_px": [
+        720,
+        498
+      ]
+    }
+  ]
+}

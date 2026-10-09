@@ -1,0 +1,65 @@
+{
+  "candidate": "osm-way-1450023183",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Sealed club car park beside playing fields and a gravel works yard, no homes.",
+  "reasons": [
+    "Surrounded by sport and industry",
+    "No dwellings nearby",
+    "Sealed with room to park"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto a gravel works yard and playing fields; only non-residential sheds nearby, no homes in view.",
+    "access_and_room": "Open sealed car park off the road along its west side; no gate seen; plenty of bays.",
+    "traffic": "Quiet internal car park; only club or yard traffic.",
+    "convention": "About a dozen cars parked in it; likely day use by the club."
+  },
+  "flags": [
+    "Slope 4% mean over whole outline; best section about 1.5%",
+    "Works yard to the north has trucks and may start early",
+    "Waterway 70 m away, ground about 10 m elevation"
+  ],
+  "sun_shade": "Open sealed surface; trees shade the east edge in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site",
+    "Club rules or patrols",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 75,
+    "to_m": 95,
+    "where": "North edge of the car park, backing onto the gravel yard",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        153.012099,
+        -27.508947
+      ],
+      [
+        153.011898,
+        -27.508924
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 9.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

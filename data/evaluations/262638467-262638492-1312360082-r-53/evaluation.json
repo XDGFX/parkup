@@ -1,0 +1,64 @@
+{
+  "candidate": "262638467-262638492-1312360082-r-53",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Campus lane edge among parked cars; college dormitories 12-21 m away.",
+  "reasons": [
+    "Cars already parked along this edge",
+    "Dormitories within 12-21 m all round",
+    "Flat at the start of the lane"
+  ],
+  "drivers": {
+    "seclusion": "Nearest mapped dormitory is 21 m west at the start and 12 m east from about 19 m; residential colleges surround the lane.",
+    "access_and_room": "Sealed lane with a row of cars parked along the east edge; a van would fit in line with them.",
+    "traffic": "Low-speed campus lane serving college car parks; light traffic.",
+    "convention": "Many cars parked along the kerb, so a van would not stand out."
+  },
+  "flags": [
+    "Dormitories within about 25 m all round",
+    "Steepest part is the northern end, about 11% max; start is flat",
+    "Mapped private parking close by"
+  ],
+  "sun_shade": "Tree canopy shades the northern half; the start is open with morning sun from the lawn side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the lane is private college parking",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "east edge of the lane at its southern end, beside the lawn and parked cars",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        153.007647,
+        -27.49771
+      ],
+      [
+        153.007669,
+        -27.497586
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 4,
+    "min_elevation_m": 22.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

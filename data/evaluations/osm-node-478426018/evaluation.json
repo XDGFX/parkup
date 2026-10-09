@@ -1,0 +1,61 @@
+{
+  "candidate": "osm-node-478426018",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small sealed car park in bushland off a park road, no homes near.",
+  "reasons": [
+    "Bush all round",
+    "No dwellings nearby",
+    "Sealed bays, empty in imagery"
+  ],
+  "drivers": {
+    "seclusion": "Wooded hillside on all sides; the only building within 100 m is a small non-residential block 7 m north.",
+    "access_and_room": "Sealed bays with a way in from the park road to the south-east; no gate mapped or seen; room for several vehicles.",
+    "traffic": "Quiet park road; the Western Freeway is further north-west behind the hill.",
+    "convention": "No vehicles parked in either image; an official car park for the park or lookout."
+  },
+  "flags": [
+    "Pin sits on the car park's north edge at a steep bank; ground drops 5-9 m east and west",
+    "Possible after-hours closure not visible from above",
+    "Freeway noise possible"
+  ],
+  "sun_shade": "Tall trees shade the car park from the north and west; open to the south-east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "After-hours gate or closure",
+    "Signs on site",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Sealed car park at the ring, just south of the small amenity building",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.973065,
+        -27.477293
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 15.5,
+    "min_elevation_m": 71.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

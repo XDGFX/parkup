@@ -1,0 +1,64 @@
+{
+  "candidate": "156769805-262164403-1306965998-r-14",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet street kerb backed by dense bush; cars park here; houses across the road.",
+  "reasons": [
+    "Backs onto dense bush",
+    "Cars parked along this kerb",
+    "Homes 15-20 m opposite, across road"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush on the west side; the nearest dwellings are across the road, 15-35 m away.",
+    "access_and_room": "Narrow street; parked cars in the imagery show the kerb is used, but there is little verge.",
+    "traffic": "Quiet residential street climbing away from a junction.",
+    "convention": "Cars parked on this kerb in both images; no signs listed."
+  },
+  "flags": [
+    "Steep: about 9% grade along the section",
+    "Narrow carriageway with little verge",
+    "Homes face the section across the road"
+  ],
+  "sun_shade": "Heavy bush shade over the west side, with morning sun blocked.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Resident reactions"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 35,
+    "to_m": 60,
+    "where": "Twelfth Avenue west kerb, where parked cars sit beside the bush",
+    "slope_pct": 9.3,
+    "points": [
+      [
+        153.004394,
+        -27.499604
+      ],
+      [
+        153.004343,
+        -27.499824
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 9.3,
+    "min_elevation_m": 14.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

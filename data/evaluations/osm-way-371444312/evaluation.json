@@ -1,0 +1,71 @@
+{
+  "candidate": "osm-way-371444312",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Marked bays in a rugby club car park, trees and fields around.",
+  "reasons": [
+    "Club car park with playing fields beside",
+    "Dwellings 40 m or more away",
+    "Cars parked in marked bays"
+  ],
+  "drivers": {
+    "seclusion": "Playing fields to the east, dense trees to the south and the club pavilion to the north; nearest apartments are over 40 m away beyond trees.",
+    "access_and_room": "Sealed car park with marked bays, reached from Sylvan Road by a tree-lined driveway; no gate seen. Room to pull into a bay.",
+    "traffic": "Sylvan Road is busy but screened by trees; club traffic at events.",
+    "convention": "Car park full of cars through the day, so a van blends in."
+  },
+  "flags": [
+    "Sylvan Road has No Stopping signs 6-9am Mon-Fri near the driveway mouth, not in the bays",
+    "Low-lying, about 5 m elevation, no mapped waterway",
+    "Steep: up to 8.2% grade on the driveway, bays about 0.5%"
+  ],
+  "sun_shade": "Open to sun; trees shade the south and west edges.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Club-only or time-limited parking rules",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 120,
+    "to_m": 157,
+    "where": "Bays at the north-east end of the lower car park, beside the club pavilion",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.992762,
+        -27.480903
+      ],
+      [
+        152.99277,
+        -27.480851
+      ],
+      [
+        152.992776,
+        -27.480729
+      ],
+      [
+        152.992904,
+        -27.480836
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 43,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 4.7,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

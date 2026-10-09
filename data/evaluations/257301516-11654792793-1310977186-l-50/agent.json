@@ -1,0 +1,35 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Narrow campus road with no parking convention and no room to pull off.",
+  "reasons": [
+    "Through campus road, no cars parked",
+    "Tree-lined edge, no pull-off width",
+    "University buildings and dormitory close by"
+  ],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "east edge of Upland Road at the top of the bend, beside the Brain Institute",
+    "slope_pct": 2
+  },
+  "drivers": {
+    "seclusion": "Backs onto trees and university buildings; service building 10 m away, dormitory 20 m, no homes within 10 m.",
+    "access_and_room": "Road is narrow and the east edge is trees and kerb; one vehicle at the start but no clear pull-off.",
+    "traffic": "Campus through road used by staff, students and service vehicles.",
+    "convention": "No other cars parked along the kerb; signs show loading zone and no stopping."
+  },
+  "flags": [
+    "Signs show no stopping and a loading zone along this kerb",
+    "Several mapped bollards and gates close by",
+    "Busy university site, likely patrolled"
+  ],
+  "sun_shade": "Heavily shaded by tree canopy on the east side; morning sun blocked.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Campus security patrols"
+  ],
+  "confidence": "medium"
+}

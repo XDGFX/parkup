@@ -1,0 +1,64 @@
+{
+  "candidate": "262638492-1438206874-1312357361-l-140",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Angle parking beside a sports field, no homes nearby, many cars parked.",
+  "reasons": [
+    "No dwellings, only university stores and sheds",
+    "Row of cars already parked along edge",
+    "Backs onto playing field"
+  ],
+  "drivers": {
+    "seclusion": "Playing field and tree line on the west, university stores and yard on the east; nearest building 20 m, none a dwelling.",
+    "access_and_room": "Sealed street with a line of angle bays on the west edge, about 20 cars in them; room for a van among them.",
+    "traffic": "Light campus traffic; lane serves stores and a depot.",
+    "convention": "Signed 4P angle parking; many cars parked, so a van blends in."
+  },
+  "flags": [
+    "Signed 4P Angle: a 4-hour limit applies",
+    "Low-lying: about 3 m elevation, flood-prone",
+    "Industrial yard and construction noise nearby"
+  ],
+  "sun_shade": "Open to the sky; tree line on the west gives some afternoon shade.",
+  "rubbish": "Scrap and rubbish in the yard across the road; none on the kerb.",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether bays are enforced overnight"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 45,
+    "where": "west edge of Walcott Street, in the angle bays beside the playing field",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        153.007949,
+        -27.49563
+      ],
+      [
+        153.008,
+        -27.495364
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 0.9,
+    "min_elevation_m": 3.2,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

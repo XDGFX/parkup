@@ -1,0 +1,48 @@
+{
+  "candidate": "osm-way-1433671008",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Narrow strip tight against a warehouse wall in an industrial yard.",
+  "reasons": [
+    "Outline overlaps the cafe building",
+    "Tight strip against warehouse wall",
+    "Working yard with trucks and vehicles"
+  ],
+  "drivers": {
+    "seclusion": "Industrial estate with no homes, but the strip sits against the Andonis Cafe and Bar building and warehouses in active use.",
+    "access_and_room": "Outline runs along a building wall, mostly in shadow; no clear bay or tyre marks, and the mapped footprint overlaps the cafe building. The open concrete yard nearby is working space.",
+    "traffic": "Trucks and workers in the yard; cafe customers during the day.",
+    "convention": "No overnight convention; cars in the yard belong to businesses."
+  },
+  "flags": [
+    "Cafe and bar building at 0 m",
+    "Steep: up to 8.6% grade, mean 5.1%",
+    "Moolabin Creek 18 m away, ground about 10 m elevation"
+  ],
+  "sun_shade": "Shaded by the warehouse to the north, open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the strip is a real bay or a loading area",
+    "Business hours and access arrangements"
+  ],
+  "confidence": "low",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 5.1,
+    "min_elevation_m": 9.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

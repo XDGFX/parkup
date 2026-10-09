@@ -1,0 +1,62 @@
+{
+  "candidate": "257004936-2478952242-1365214790-r-152",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Full campus car-park kerb below lawn, no homes, university buildings 24 m or more away.",
+  "reasons": [
+    "Lined with parked cars, van blends in",
+    "Only university buildings nearby, no dwellings",
+    "Level, easy angle bays beside lawn"
+  ],
+  "drivers": {
+    "seclusion": "Lawn to the north, university buildings 24 m or more to the south; no homes in the data.",
+    "access_and_room": "Marked bays beside a one-way loop; room to pull fully off the lane.",
+    "traffic": "Campus loop road, busy on weekdays, quiet at night.",
+    "convention": "Cars park along this kerb daily; no signs recorded here."
+  },
+  "flags": [
+    "Likely campus security patrols",
+    "Ground sits near the main UQ pedestrian route"
+  ],
+  "sun_shade": "Mostly open; trees south-east around 50 to 70 m give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Overnight enforcement or permit rules on campus"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 60,
+    "where": "South kerb of the University Drive parking row, below the lawn and above the Forgan Smith building",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        153.012794,
+        -27.496702
+      ],
+      [
+        153.013221,
+        -27.496562
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 19,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

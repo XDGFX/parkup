@@ -1,0 +1,46 @@
+{
+  "candidate": "osm-way-1433671010",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Four small bays beside a public building; occupied, no room for a van.",
+  "reasons": [
+    "Only about four bays, cars in them",
+    "Beside cafe and cultural building",
+    "Bays too short for a van"
+  ],
+  "drivers": {
+    "seclusion": "No homes close by, but the bays sit beside the cafe and the Cultural Precinct building in public view.",
+    "access_and_room": "Tiny angled bays reached from a concrete apron; cars fill them in both images, and a van would stick out into the apron.",
+    "traffic": "Moderate road 30 m away with cars parked along it.",
+    "convention": "Short-stay bays for the building; no sign of overnight use."
+  },
+  "flags": [
+    "Moolabin Creek 31 m away, ground about 10 m elevation",
+    "Slope up to 3.8%, mean 2%"
+  ],
+  "sun_shade": "Trees shade the bays from the east and north-east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the bays are time-limited or reserved"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 9.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

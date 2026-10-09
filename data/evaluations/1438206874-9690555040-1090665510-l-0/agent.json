@@ -1,0 +1,35 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Angle bays beside a sports field, packed with parked cars, no homes.",
+  "reasons": [
+    "No dwellings, only university stores",
+    "Cars parked nose to kerb all along",
+    "Backs onto playing field"
+  ],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 13,
+    "where": "west edge of Walcott Street, in the angle bays beside the playing field",
+    "slope_pct": 0.4
+  },
+  "drivers": {
+    "seclusion": "Playing field and trees to the west; non-residential university stores 14 m or more east; no dwellings mapped.",
+    "access_and_room": "Sealed street with angle bays on the west edge, filled with cars; the section is just over one van length.",
+    "traffic": "Light campus traffic; lane serves stores and a depot.",
+    "convention": "Signed 4P angle parking; a dense row of cars is parked, so a van blends in."
+  },
+  "flags": [
+    "Signed 4P Angle: a 4-hour limit applies",
+    "Low-lying: about 3 m elevation, flood-prone",
+    "Section is short, about one van length"
+  ],
+  "sun_shade": "Open to the sky; tree line on the west gives some afternoon shade.",
+  "rubbish": "Scrap in the yard across the road; none on the kerb.",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether bays are enforced overnight"
+  ],
+  "confidence": "medium"
+}

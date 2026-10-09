@@ -1,0 +1,47 @@
+{
+  "candidate": "58712595-433567252-1090665520-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Campus turning circle with No Stopping signs; steep and busy with buildings close.",
+  "reasons": [
+    "Four No Stopping Any Time signs",
+    "Turning circle, would block traffic",
+    "Campus buildings 5 m away"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by university buildings, footpaths and a pedestrian plaza; no homes but constant foot traffic.",
+    "access_and_room": "Small paved turning circle at the road end; no clear space to stop out of the way.",
+    "traffic": "Campus road with pedestrians and service vehicles.",
+    "convention": "No Stopping Any Time signs along the kerb; no overnight convention."
+  },
+  "flags": [
+    "Steep: max 10.2% grade, 7.2% mean",
+    "Signs say no stopping; imagery shows no parked cars on the circle"
+  ],
+  "sun_shade": "Open paving with trees to the south-east; building shade from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Campus security patrols"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 8.1,
+    "min_elevation_m": 14.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

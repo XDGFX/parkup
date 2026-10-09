@@ -1,0 +1,49 @@
+{
+  "candidate": "257300178-262446457-1090665528-l-194",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Through road kerb beside a lawn; cars park only on the opposite side.",
+  "reasons": [
+    "Main road, no cars on this kerb",
+    "Cars park on south side only",
+    "Zebra crossing at start"
+  ],
+  "drivers": {
+    "seclusion": "Open lawn on the kerb side, bush and a dormitory 35 m away across the road. Secluded in itself.",
+    "access_and_room": "Kerb runs along a through road lane with no pull-off or parked cars on the north side, so a van would sit in the lane.",
+    "traffic": "Through route past the college, with a crossing at the kerb start.",
+    "convention": "Cars line the south kerb in both images, none on this north kerb."
+  },
+  "flags": [
+    "Steep: about 3.2% mean grade, 5.4% max",
+    "Mapped lift gate 44 m away, not on the only access",
+    "Student housing within 35 m"
+  ],
+  "sun_shade": "Open to the sky; a tree shades the kerb from the north-east at the start.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site",
+    "Whether the north kerb is signed no stopping"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 35,
+    "gated": false,
+    "slope_pct": 3.9,
+    "min_elevation_m": 9.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

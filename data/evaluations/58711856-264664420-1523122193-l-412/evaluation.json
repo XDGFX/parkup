@@ -1,0 +1,72 @@
+{
+  "candidate": "58711856-264664420-1523122193-l-412",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb with cars parked, backing onto netball courts; boathouse opposite is non-residential.",
+  "reasons": [
+    "Cars parked along kerb",
+    "Backs onto netball courts",
+    "No homes nearby"
+  ],
+  "drivers": {
+    "seclusion": "Netball courts and palms on the kerb side; boathouse across the road is non-residential. No dwellings mapped or seen.",
+    "access_and_room": "Open road with a line of parked cars at the kerb; 35 m gives room for a van.",
+    "traffic": "Riverside drive, moderate traffic; van stands in the parking lane.",
+    "convention": "A row of cars parked along this kerb in QLD and some in Esri, so a van blends in."
+  },
+  "flags": [
+    "Low-lying: about 4.8 m, 106 m from Brisbane River",
+    "A No Stopping Any Time sign lies near the western end",
+    "Courts and boathouse busy at times",
+    "Slope up to 3.8% near the far end, flat at the best section"
+  ],
+  "sun_shade": "Palms give partial shade from the south; open to morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Exact reach of the No Stopping sign"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 50,
+    "where": "South kerb alongside the netball courts, opposite the boathouse",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        153.013368,
+        -27.492258
+      ],
+      [
+        153.013278,
+        -27.492221
+      ],
+      [
+        153.013063,
+        -27.492191
+      ],
+      [
+        153.013025,
+        -27.492186
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 0.6,
+    "min_elevation_m": 4.8,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

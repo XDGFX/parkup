@@ -1,0 +1,69 @@
+{
+  "candidate": "257300178-262446457-1090665528-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a college street; student dormitories about 21 m across the road.",
+  "reasons": [
+    "Dormitories 21 m across the road",
+    "College street, cars park opposite side",
+    "Treed verge and private car park behind"
+  ],
+  "drivers": {
+    "seclusion": "Treed verge and a private college car park on the kerb side. Dormitories lie 21 m away across the road and 31 m beyond.",
+    "access_and_room": "Sealed two-way road; no parked cars on the east kerb, so room to pull in is uncertain. A mapped lift gate sits 5 m away, with a way round.",
+    "traffic": "Quiet college road, light traffic.",
+    "convention": "Cars park on the west side only; no parking convention on the east kerb."
+  },
+  "flags": [
+    "Steep: about 3.2% mean grade, 4.2% max",
+    "Mapped lift gate 5 m away, not on the only access",
+    "Student housing close by",
+    "Union College parking behind is private"
+  ],
+  "sun_shade": "Dense tree canopy over the east kerb shades it from the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether the kerb is wide enough to stop clear of the lane",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "East kerb of the college access road, just south of the lift gate",
+    "slope_pct": 3.2,
+    "points": [
+      [
+        153.009964,
+        -27.501145
+      ],
+      [
+        153.009978,
+        -27.501187
+      ],
+      [
+        153.010004,
+        -27.501266
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 3.3,
+    "min_elevation_m": 15,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

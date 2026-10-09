@@ -1,0 +1,88 @@
+{
+  "candidate": "osm-way-1450023185",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small bay strip between two industrial sheds, no homes, room for a van.",
+  "reasons": [
+    "Industrial units on all sides",
+    "No dwellings nearby",
+    "About 16 m long strip"
+  ],
+  "drivers": {
+    "seclusion": "Enclosed by sheds and a hedge; only non-residential buildings within 60 m.",
+    "access_and_room": "Open from the access road; strip is about 16 m by 6 m with a car or two parked, so a van fits along it.",
+    "traffic": "Quiet industrial lane; only unit staff and visitors.",
+    "convention": "Two cars parked in the strip in both images, so it looks like unit parking."
+  },
+  "flags": [
+    "Looks like forecourt parking for the sheds, so occupiers may notice a van",
+    "Slope fine: about 1% at the strip",
+    "Tight, with sheds 0 m from the outline"
+  ],
+  "sun_shade": "Sheds shade the strip from the north and south; open to morning and afternoon sun along its length.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site",
+    "Whether the strip is private to the units"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 45,
+    "where": "Parking strip between the two sheds, east of the club access road",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.011811,
+        -27.5098
+      ],
+      [
+        153.01181,
+        -27.509807
+      ],
+      [
+        153.01199,
+        -27.50983
+      ],
+      [
+        153.012013,
+        -27.509835
+      ],
+      [
+        153.012019,
+        -27.509802
+      ],
+      [
+        153.012029,
+        -27.509738
+      ],
+      [
+        153.012014,
+        -27.509736
+      ],
+      [
+        153.011998,
+        -27.509734
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 13.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

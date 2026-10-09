@@ -1,0 +1,47 @@
+{
+  "candidate": "osm-way-1450023184",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Two tiny bays by a shed on a club access road; too small for a van.",
+  "reasons": [
+    "Only two car bays",
+    "Van would block access road",
+    "Shed on one side"
+  ],
+  "drivers": {
+    "seclusion": "Beside a sports club shed and open field; no homes, but the spot is in the middle of the club's access road.",
+    "access_and_room": "Outline is about 10 m by 4 m, two bays with cars in them; a van would stick out into the lane.",
+    "traffic": "Club access road leading to a larger car park and a works yard.",
+    "convention": "Used for day parking by club users."
+  },
+  "flags": [
+    "Bays too small for a 7.5 m van",
+    "Better parking in the larger car parks nearby"
+  ],
+  "sun_shade": "Open; shed on the south-east side gives some shade in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 8.9,
+    "min_elevation_m": 10,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

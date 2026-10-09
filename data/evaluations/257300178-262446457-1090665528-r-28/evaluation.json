@@ -1,0 +1,68 @@
+{
+  "candidate": "257300178-262446457-1090665528-r-28",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb with parked cars beside college dorms, 13-16 m away on the same side.",
+  "reasons": [
+    "Other cars park along this kerb",
+    "Dorm buildings 10-16 m on same side",
+    "Gentle slope, about 1%"
+  ],
+  "drivers": {
+    "seclusion": "Dormitories sit 16 m away at the start and 10 m by 27 m along, on the same side; oval and trees on the far side.",
+    "access_and_room": "Public road with a row of parked cars along the west kerb, so room to park in line.",
+    "traffic": "Through road to the college and oval with moderate traffic; parked van stands outside the lane.",
+    "convention": "Cars park here regularly; a 2 minute passenger loading zone sign sits near the southern end, away from the best section."
+  },
+  "flags": [
+    "Dorm buildings 10-16 m away on the same side",
+    "Loading zone sign (2 min) near the southern end",
+    "Mapped lift gates around, none on the only access"
+  ],
+  "sun_shade": "Heavy tree canopy over the road, mostly shade; trees on both sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Night-time student activity"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "northern end of the stretch, beside the parked cars opposite the oval side",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        153.009928,
+        -27.50129
+      ],
+      [
+        153.009952,
+        -27.501362
+      ],
+      [
+        153.00999,
+        -27.501461
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 14.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,48 @@
+{
+  "candidate": "58711730-58711779-1448396085-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bus turnaround at the road end with No Stopping signs; nowhere legitimate to stay.",
+  "reasons": [
+    "No Stopping Any Time signs",
+    "Paved turnaround, not a parking area",
+    "Busy campus bus loop"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto bush to the north, but the turnaround is a campus transport hub.",
+    "access_and_room": "Wide paved turnaround, but it is signed No Stopping and used by buses.",
+    "traffic": "Campus road end beside the Conifer Knoll parking station entrance.",
+    "convention": "No Stopping Any Time signs at 0.7 m and 10.8 m from the kerb line."
+  },
+  "flags": [
+    "No Stopping Any Time signs",
+    "Low-lying: minimum elevation 6.2 m",
+    "Slope 1.6% mean, 3% max"
+  ],
+  "sun_shade": "Open paving with tree shade from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Bus timetable use",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 48,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 6.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

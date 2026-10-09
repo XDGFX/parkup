@@ -1,0 +1,247 @@
+{
+  "id": "osm-node-12289949867",
+  "street": "Car park off Russell Terrace",
+  "suburb": "",
+  "line": [
+    [
+      152.944681,
+      -27.493478
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "parking-area",
+  "kind": "point",
+  "length_m": 0,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": "yes",
+      "lon": 152.9446545,
+      "lat": -27.4933712,
+      "metres": 12,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9447377,
+      "lat": -27.4937873,
+      "metres": 35,
+      "on_only_access": true
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.944478,
+        "lat": -27.493478,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 53.13
+      },
+      {
+        "lon": 152.944529,
+        "lat": -27.493478,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 53.22
+      },
+      {
+        "lon": 152.94458,
+        "lat": -27.493478,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 53.14
+      },
+      {
+        "lon": 152.94463,
+        "lat": -27.493478,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 52.93
+      },
+      {
+        "lon": 152.944681,
+        "lat": -27.493478,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 52.74
+      },
+      {
+        "lon": 152.944732,
+        "lat": -27.493478,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 52.54
+      },
+      {
+        "lon": 152.944782,
+        "lat": -27.493478,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 52.27
+      },
+      {
+        "lon": 152.944833,
+        "lat": -27.493478,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 52.03
+      },
+      {
+        "lon": 152.944884,
+        "lat": -27.493478,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 51
+      },
+      {
+        "lon": 152.944681,
+        "lat": -27.493658,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 52.84
+      },
+      {
+        "lon": 152.944681,
+        "lat": -27.493613,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 52.85
+      },
+      {
+        "lon": 152.944681,
+        "lat": -27.493568,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 52.91
+      },
+      {
+        "lon": 152.944681,
+        "lat": -27.493523,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 52.85
+      },
+      {
+        "lon": 152.944681,
+        "lat": -27.493478,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 52.74
+      },
+      {
+        "lon": 152.944681,
+        "lat": -27.493433,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 52.72
+      },
+      {
+        "lon": 152.944681,
+        "lat": -27.493388,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 52.7
+      },
+      {
+        "lon": 152.944681,
+        "lat": -27.493343,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 52.65
+      },
+      {
+        "lon": 152.944681,
+        "lat": -27.493298,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 52.47
+      }
+    ],
+    "min_elevation_m": 51,
+    "max_elevation_m": 53.2,
+    "mean_grade_pct": 3.5,
+    "max_grade_pct": 20.6
+  },
+  "waterway": {
+    "name": null,
+    "metres": 101
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 0,
+      "access": null,
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 89,
+      "access": "customers",
+      "fee": "no",
+      "surface": "asphalt"
+    }
+  ],
+  "mapped_ways": [
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": null,
+      "access": null,
+      "metres": 0
+    },
+    {
+      "highway": "service",
+      "service": "driveway",
+      "name": null,
+      "surface": null,
+      "access": null,
+      "metres": 35
+    },
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 97
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/osm-node-12289949867/chunk1-esri.jpg",
+        "qld": ".cache/imagery/osm-node-12289949867/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

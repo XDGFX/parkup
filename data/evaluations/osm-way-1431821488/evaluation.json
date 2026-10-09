@@ -1,0 +1,72 @@
+{
+  "candidate": "osm-way-1431821488",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Industrial car park beside a rail corridor; no homes nearby, flat.",
+  "reasons": [
+    "Industry and rail corridor around",
+    "No dwellings mapped or seen",
+    "Flat, marked bays"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto a planted strip, road and rail line; only commercial buildings nearby, no homes.",
+    "access_and_room": "Sealed car park with marked bays, entered from Meiers Road; room to stop clear of the road.",
+    "traffic": "Busy road and railway just north; noise but the van stands clear of the lane.",
+    "convention": "Business car park with cars parked in the bays; a van blends in, though it may be for tenants."
+  },
+  "flags": [
+    "Rail and road noise",
+    "Nearby No Stopping Any Time sign on Varley Street, 3.8 m from kerb line",
+    "Mapped locked gate 200 m away, not on only access",
+    "Possibly private business parking"
+  ],
+  "sun_shade": "Open to sun; hedge and trees on the north edge give some shade, trees to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the car park is tenant-only",
+    "Street lighting or CCTV"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 40,
+    "where": "Northern row of bays at the west end of the car park off Meiers Road",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        153.010818,
+        -27.526984
+      ],
+      [
+        153.011048,
+        -27.526978
+      ],
+      [
+        153.011129,
+        -27.526981
+      ],
+      [
+        153.01122,
+        -27.527002
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 0.8,
+    "min_elevation_m": 11.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

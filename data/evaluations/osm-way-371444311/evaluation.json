@@ -1,0 +1,71 @@
+{
+  "candidate": "osm-way-371444311",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Big club car park; south-west bays back onto trees and park.",
+  "reasons": [
+    "Backs onto trees and park",
+    "Nearest dwelling about 40 m away",
+    "Large car park, many cars"
+  ],
+  "drivers": {
+    "seclusion": "Bays back onto dense trees and a park with a playground; nearest mapped dwelling about 40 m away across trees and the car park, and the club building is not a home.",
+    "access_and_room": "Open sealed car park with marked bays, entered from the south off Moggill Road; no gate seen. Room to pull in beside the tree edge.",
+    "traffic": "Moggill Road is some way off; club traffic at events and evenings.",
+    "convention": "Large car park busy with cars through the day; a van would blend in."
+  },
+  "flags": [
+    "Club events may bring evening traffic",
+    "Low-lying, about 5 m elevation, no mapped waterway",
+    "Slope up to 2.8% along the outline"
+  ],
+  "sun_shade": "Large trees shade the south-west edge, mainly from the west and afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Time limits or club-only rules",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 60,
+    "to_m": 100,
+    "where": "South-west edge of the club car park, bays backing onto trees by the playground",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        152.99231,
+        -27.480326
+      ],
+      [
+        152.992366,
+        -27.480396
+      ],
+      [
+        152.992382,
+        -27.480425
+      ],
+      [
+        152.992536,
+        -27.480624
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

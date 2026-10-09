@@ -1,0 +1,63 @@
+{
+  "candidate": "58711856-264664420-1523122193-l-268",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb where cars park, backing onto a riverside park and playground.",
+  "reasons": [
+    "Cars parked along this kerb",
+    "Backs onto park, no homes",
+    "Short but fits one van"
+  ],
+  "drivers": {
+    "seclusion": "Park and playground on the kerb side, river park across the road. No buildings mapped or seen.",
+    "access_and_room": "Open road with cars parked along the kerb. Only 14 m, enough for one van.",
+    "traffic": "Riverside drive, moderate traffic; van stands in the parking lane.",
+    "convention": "Cars parked in both images at this kerb, so a van blends in."
+  },
+  "flags": [
+    "Low-lying: about 4.7 m, 101 m from Brisbane River",
+    "Very short stretch, room for one van only",
+    "No council signs mapped here"
+  ],
+  "sun_shade": "Trees overhead from the park side give shade; open to the sky from the river side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "South kerb beside the playground shade sails, near the boat display",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        153.014789,
+        -27.492712
+      ],
+      [
+        153.014666,
+        -27.492653
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 4.7,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

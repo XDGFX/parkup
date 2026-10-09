@@ -1,0 +1,48 @@
+{
+  "candidate": "58711883-58712595-7920186-l-39",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow campus service lane by sports buildings with a loading zone sign.",
+  "reasons": [
+    "Loading Zone sign, 2 hours max",
+    "Narrow lane between university buildings",
+    "No pull-off, working campus yard"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by university sports buildings 9-20 m away, with a busy service yard beside it.",
+    "access_and_room": "Lane runs between buildings, trees and a loading dock; no clear ground to pull fully off.",
+    "traffic": "Campus service and delivery traffic into the yard.",
+    "convention": "Loading Zone sign, Mon-Fri 7am-6pm, 2 hours max; no overnight parking convention."
+  },
+  "flags": [
+    "Loading Zone sign, Mon-Fri 7am-6pm",
+    "Low-lying: minimum elevation 6.1 m, Brisbane River 235 m away",
+    "Campus buildings within 10 m (non-residential)"
+  ],
+  "sun_shade": "Building shade from the east and tree shade to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Campus parking rules",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 0.7,
+    "min_elevation_m": 6.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

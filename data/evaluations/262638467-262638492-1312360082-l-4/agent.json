@@ -1,0 +1,35 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Campus lane where cars park nose to kerb; student housing around.",
+  "reasons": [
+    "Other cars park along this kerb",
+    "Dormitories 26 m or more away here",
+    "Students overlook it from all sides"
+  ],
+  "best_section": {
+    "from_m": 30,
+    "to_m": 55,
+    "where": "west side of the lane, beside the long flat-roofed building, before the parked-car rows",
+    "slope_pct": 7
+  },
+  "drivers": {
+    "seclusion": "Mapped dormitories lie 26 m or more from this section, but residential college buildings sit all round within about 30 m.",
+    "access_and_room": "Sealed lane with parking bays and cars already parked along the west edge; a van would fit among them.",
+    "traffic": "Low-speed campus lane serving college car parks; some traffic day and night.",
+    "convention": "Rows of cars parked along the kerb, so a van would not stand out."
+  },
+  "flags": [
+    "Steep: about 7% over 30-55 m, 16% max on the climb from the start",
+    "Mapped dormitory only 5 m away from 60 m onwards",
+    "Mapped private parking right beside the lane"
+  ],
+  "sun_shade": "Mostly open; building on the west gives afternoon shade, trees shade the south end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the lane is private college parking",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low"
+}

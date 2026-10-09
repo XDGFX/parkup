@@ -1,0 +1,481 @@
+{
+  "id": "osm-way-1412699742",
+  "street": "Car park off Sir William MacGregor Drive",
+  "suburb": "St Lucia",
+  "line": [
+    [
+      153.022588,
+      -27.497014
+    ],
+    [
+      153.022626,
+      -27.497012
+    ],
+    [
+      153.022691,
+      -27.497005
+    ],
+    [
+      153.022704,
+      -27.49696
+    ],
+    [
+      153.022853,
+      -27.496985
+    ],
+    [
+      153.022841,
+      -27.497034
+    ],
+    [
+      153.022847,
+      -27.497039
+    ],
+    [
+      153.022852,
+      -27.497043
+    ],
+    [
+      153.022848,
+      -27.497061
+    ],
+    [
+      153.022842,
+      -27.497089
+    ],
+    [
+      153.02263,
+      -27.497047
+    ],
+    [
+      153.022626,
+      -27.497057
+    ],
+    [
+      153.022662,
+      -27.497069
+    ],
+    [
+      153.022657,
+      -27.497083
+    ],
+    [
+      153.022595,
+      -27.497249
+    ],
+    [
+      153.022566,
+      -27.497239
+    ],
+    [
+      153.02256,
+      -27.497246
+    ],
+    [
+      153.022545,
+      -27.497242
+    ],
+    [
+      153.022507,
+      -27.497228
+    ],
+    [
+      153.022546,
+      -27.497125
+    ],
+    [
+      153.022492,
+      -27.497107
+    ],
+    [
+      153.022531,
+      -27.497
+    ],
+    [
+      153.022588,
+      -27.497014
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "parking-area",
+  "kind": "outline",
+  "length_m": 136,
+  "signs": [
+    {
+      "street": "T J MEMORIAL PARK DRIVE",
+      "restriction": "2P Parallel",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 8.2
+    },
+    {
+      "street": "T J MEMORIAL PARK DRIVE",
+      "restriction": "2P Parallel",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 8.6
+    },
+    {
+      "street": "T J MEMORIAL PARK DRIVE",
+      "restriction": "Accessible Parking",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 0.1
+    },
+    {
+      "street": "T J MEMORIAL PARK DRIVE",
+      "restriction": "Accessible Parking",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 0.1
+    },
+    {
+      "street": "T J MEMORIAL PARK DRIVE",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 13.3
+    }
+  ],
+  "buildings": [
+    {
+      "building": "toilets",
+      "name": "Murri Watch Community Shed",
+      "dwelling": false,
+      "metres": 0,
+      "at_m": 71,
+      "outline": [
+        [
+          153.0226573,
+          -27.4970831
+        ],
+        [
+          153.0227686,
+          -27.4971199
+        ],
+        [
+          153.0227174,
+          -27.497254
+        ],
+        [
+          153.0227093,
+          -27.4973711
+        ],
+        [
+          153.0225925,
+          -27.4972887
+        ],
+        [
+          153.0225949,
+          -27.4972493
+        ],
+        [
+          153.0226573,
+          -27.4970831
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0228924,
+      "lat": -27.4991755,
+      "metres": 216,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0250864,
+      "lat": -27.4961768,
+      "metres": 238,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0253654,
+      "lat": -27.496122,
+      "metres": 266,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0238225,
+      "lat": -27.4944358,
+      "metres": 299,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.022588,
+        "lat": -27.497014,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 10.73
+      },
+      {
+        "lon": 153.022639,
+        "lat": -27.497011,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 10.88
+      },
+      {
+        "lon": 153.022689,
+        "lat": -27.497005,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 11.05
+      },
+      {
+        "lon": 153.022703,
+        "lat": -27.496963,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 11.7
+      },
+      {
+        "lon": 153.02275,
+        "lat": -27.496968,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 11.66
+      },
+      {
+        "lon": 153.0228,
+        "lat": -27.496976,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 11.68
+      },
+      {
+        "lon": 153.02285,
+        "lat": -27.496984,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 11.93
+      },
+      {
+        "lon": 153.022843,
+        "lat": -27.497026,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 11.33
+      },
+      {
+        "lon": 153.022847,
+        "lat": -27.497066,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 10.87
+      },
+      {
+        "lon": 153.022818,
+        "lat": -27.497084,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 10.79
+      },
+      {
+        "lon": 153.022769,
+        "lat": -27.497074,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 10.81
+      },
+      {
+        "lon": 153.022719,
+        "lat": -27.497065,
+        "at_m": 55,
+        "line": 0,
+        "elevation_m": 10.76
+      },
+      {
+        "lon": 153.02267,
+        "lat": -27.497055,
+        "at_m": 60,
+        "line": 0,
+        "elevation_m": 10.75
+      },
+      {
+        "lon": 153.022627,
+        "lat": -27.497055,
+        "at_m": 65,
+        "line": 0,
+        "elevation_m": 10.8
+      },
+      {
+        "lon": 153.022659,
+        "lat": -27.497078,
+        "at_m": 70,
+        "line": 0,
+        "elevation_m": 10.8
+      },
+      {
+        "lon": 153.022643,
+        "lat": -27.49712,
+        "at_m": 75,
+        "line": 0,
+        "elevation_m": 10.65
+      },
+      {
+        "lon": 153.022627,
+        "lat": -27.497163,
+        "at_m": 80,
+        "line": 0,
+        "elevation_m": 10.52
+      },
+      {
+        "lon": 153.022611,
+        "lat": -27.497206,
+        "at_m": 85,
+        "line": 0,
+        "elevation_m": 10.32
+      },
+      {
+        "lon": 153.022595,
+        "lat": -27.497248,
+        "at_m": 90,
+        "line": 0,
+        "elevation_m": 10.48
+      },
+      {
+        "lon": 153.022551,
+        "lat": -27.497244,
+        "at_m": 95,
+        "line": 0,
+        "elevation_m": 10.19
+      },
+      {
+        "lon": 153.022508,
+        "lat": -27.497226,
+        "at_m": 100,
+        "line": 0,
+        "elevation_m": 10.52
+      },
+      {
+        "lon": 153.022524,
+        "lat": -27.497183,
+        "at_m": 105,
+        "line": 0,
+        "elevation_m": 10.27
+      },
+      {
+        "lon": 153.02254,
+        "lat": -27.49714,
+        "at_m": 110,
+        "line": 0,
+        "elevation_m": 10.35
+      },
+      {
+        "lon": 153.022516,
+        "lat": -27.497115,
+        "at_m": 115,
+        "line": 0,
+        "elevation_m": 10.5
+      },
+      {
+        "lon": 153.0225,
+        "lat": -27.497086,
+        "at_m": 120,
+        "line": 0,
+        "elevation_m": 10.5
+      },
+      {
+        "lon": 153.022515,
+        "lat": -27.497043,
+        "at_m": 125,
+        "line": 0,
+        "elevation_m": 10.64
+      },
+      {
+        "lon": 153.022531,
+        "lat": -27.497,
+        "at_m": 130,
+        "line": 0,
+        "elevation_m": 10.76
+      },
+      {
+        "lon": 153.02258,
+        "lat": -27.497012,
+        "at_m": 135,
+        "line": 0,
+        "elevation_m": 10.71
+      },
+      {
+        "lon": 153.022588,
+        "lat": -27.497014,
+        "at_m": 135.8,
+        "line": 0,
+        "elevation_m": 10.73
+      }
+    ],
+    "min_elevation_m": 10.2,
+    "max_elevation_m": 11.9,
+    "mean_grade_pct": 3.4,
+    "max_grade_pct": 13
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 170
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 0,
+      "access": null,
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 20,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 136,
+      "length_m": 136,
+      "images": {
+        "esri": ".cache/imagery/osm-way-1412699742/chunk1-esri.jpg",
+        "qld": ".cache/imagery/osm-way-1412699742/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        96,
+        92
+      ],
+      "image_px": [
+        637,
+        614
+      ]
+    }
+  ]
+}

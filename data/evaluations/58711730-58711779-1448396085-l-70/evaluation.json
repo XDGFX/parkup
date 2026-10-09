@@ -1,0 +1,48 @@
+{
+  "candidate": "58711730-58711779-1448396085-l-70",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Ten metres of narrow road beside a car park ramp; too short, no room.",
+  "reasons": [
+    "Under a van length",
+    "Beside multistorey car park ramp",
+    "Bush bank, no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Bush and a car park ramp beside it, but the stretch is a through lane on a campus.",
+    "access_and_room": "Only 10 m long, narrower than a van's clearance; trees and car park ramp flank the lane.",
+    "traffic": "Campus road feeding Conifer Knoll Parking Station, 14 m away.",
+    "convention": "No signs, but no parking convention on this lane."
+  },
+  "flags": [
+    "Under one van length",
+    "Low-lying: minimum elevation 6.5 m",
+    "Slope 0.8% mean"
+  ],
+  "sun_shade": "Dense tree shade from the south and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Campus parking rules"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 46,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 6.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

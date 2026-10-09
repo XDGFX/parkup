@@ -1,0 +1,47 @@
+{
+  "candidate": "osm-way-1450023190",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Three small bays at the back of a shed in a working yard.",
+  "reasons": [
+    "Car-sized bays only",
+    "In active loading yard",
+    "Van would block yard"
+  ],
+  "drivers": {
+    "seclusion": "Industrial yard with no homes nearby, but it is an active unit forecourt.",
+    "access_and_room": "Outline is about 10 m by 6 m holding three car bays; a 7.5 m van would block the yard beside it.",
+    "traffic": "Loading yard with trucks and vans moving in and out.",
+    "convention": "Cars parked in the bays in QLD; staff parking for the unit."
+  },
+  "flags": [
+    "Bays too small for a van",
+    "Working yard likely used early and late"
+  ],
+  "sun_shade": "Shade from the shed on the north side; open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 14.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

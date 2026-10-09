@@ -1,0 +1,430 @@
+{
+  "id": "262638492-1438206874-1312357361-l-140",
+  "street": "Walcott Street",
+  "suburb": "St Lucia",
+  "line": [
+    [
+      153.007924,
+      -27.495763
+    ],
+    [
+      153.008005,
+      -27.495336
+    ],
+    [
+      153.008025,
+      -27.495231
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "west",
+  "length_m": 60,
+  "signs": [
+    {
+      "street": "WALCOTT STREET",
+      "restriction": "4P Angle",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 13.9
+    },
+    {
+      "street": "UNDERHILL STREET",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 7.8
+    },
+    {
+      "street": "WALCOTT STREET",
+      "restriction": "4P Angle",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 5
+    },
+    {
+      "street": "WALCOTT STREET",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 7.8
+    }
+  ],
+  "buildings": [
+    {
+      "building": "university",
+      "name": "Chemical Store",
+      "dwelling": false,
+      "metres": 20,
+      "at_m": 60,
+      "outline": [
+        [
+          153.0081873,
+          -27.495124
+        ],
+        [
+          153.0084276,
+          -27.4951572
+        ],
+        [
+          153.0084627,
+          -27.4949575
+        ],
+        [
+          153.0083486,
+          -27.4949418
+        ],
+        [
+          153.0083533,
+          -27.494915
+        ],
+        [
+          153.0083555,
+          -27.4949026
+        ],
+        [
+          153.0082854,
+          -27.494893
+        ],
+        [
+          153.0082832,
+          -27.4949054
+        ],
+        [
+          153.0082787,
+          -27.4949315
+        ],
+        [
+          153.0082225,
+          -27.4949237
+        ],
+        [
+          153.0081873,
+          -27.495124
+        ]
+      ]
+    },
+    {
+      "building": "greenhouse",
+      "name": "Glasshouse 13",
+      "dwelling": false,
+      "metres": 48,
+      "at_m": 60,
+      "outline": [
+        [
+          153.0085579,
+          -27.4950217
+        ],
+        [
+          153.0086639,
+          -27.4950378
+        ],
+        [
+          153.0086197,
+          -27.4952656
+        ],
+        [
+          153.0085138,
+          -27.4952494
+        ],
+        [
+          153.0085579,
+          -27.4950217
+        ]
+      ]
+    },
+    {
+      "building": "shed",
+      "name": null,
+      "dwelling": false,
+      "metres": 50,
+      "at_m": 43,
+      "outline": [
+        [
+          153.0084598,
+          -27.4956794
+        ],
+        [
+          153.0084981,
+          -27.4954562
+        ],
+        [
+          153.0085621,
+          -27.4954648
+        ],
+        [
+          153.0085387,
+          -27.4956011
+        ],
+        [
+          153.0085238,
+          -27.4956881
+        ],
+        [
+          153.0084598,
+          -27.4956794
+        ]
+      ]
+    },
+    {
+      "building": "shed",
+      "name": null,
+      "dwelling": false,
+      "metres": 57,
+      "at_m": 28,
+      "outline": [
+        [
+          153.0085238,
+          -27.4956881
+        ],
+        [
+          153.0085387,
+          -27.4956011
+        ],
+        [
+          153.0086079,
+          -27.4956104
+        ],
+        [
+          153.0085929,
+          -27.4956974
+        ],
+        [
+          153.0085238,
+          -27.4956881
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0084546,
+      "lat": -27.4952221,
+      "metres": 42,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0091436,
+      "lat": -27.4954576,
+      "metres": 113,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0093249,
+      "lat": -27.4953314,
+      "metres": 129,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0094213,
+      "lat": -27.4948122,
+      "metres": 145,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0078236,
+      "lat": -27.4973615,
+      "metres": 178,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0095579,
+      "lat": -27.4966907,
+      "metres": 191,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0088931,
+      "lat": -27.4972962,
+      "metres": 195,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0095945,
+      "lat": -27.496757,
+      "metres": 198,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.005693,
+      "lat": -27.4958974,
+      "metres": 221,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0077063,
+      "lat": -27.4978034,
+      "metres": 228,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.007924,
+        "lat": -27.495763,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 3.74
+      },
+      {
+        "lon": 153.007932,
+        "lat": -27.495719,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 3.56
+      },
+      {
+        "lon": 153.007941,
+        "lat": -27.495674,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 3.45
+      },
+      {
+        "lon": 153.007949,
+        "lat": -27.49563,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 3.39
+      },
+      {
+        "lon": 153.007958,
+        "lat": -27.495586,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 3.33
+      },
+      {
+        "lon": 153.007966,
+        "lat": -27.495541,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 3.28
+      },
+      {
+        "lon": 153.007974,
+        "lat": -27.495497,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 3.27
+      },
+      {
+        "lon": 153.007983,
+        "lat": -27.495453,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 3.17
+      },
+      {
+        "lon": 153.007991,
+        "lat": -27.495408,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 3.17
+      },
+      {
+        "lon": 153.008,
+        "lat": -27.495364,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 3.21
+      },
+      {
+        "lon": 153.008008,
+        "lat": -27.49532,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 3.15
+      },
+      {
+        "lon": 153.008017,
+        "lat": -27.495275,
+        "at_m": 55,
+        "line": 0,
+        "elevation_m": 3.12
+      },
+      {
+        "lon": 153.008025,
+        "lat": -27.495231,
+        "at_m": 60,
+        "line": 0,
+        "elevation_m": 3.23
+      }
+    ],
+    "min_elevation_m": 3.1,
+    "max_elevation_m": 3.7,
+    "mean_grade_pct": 1.4,
+    "max_grade_pct": 3.6
+  },
+  "waterway": {
+    "name": null,
+    "metres": 246
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 85,
+      "access": null,
+      "fee": null,
+      "surface": "asphalt"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 60,
+      "length_m": 60,
+      "images": {
+        "esri": ".cache/imagery/262638492-1438206874-1312357361-l-140/chunk1-esri.jpg",
+        "qld": ".cache/imagery/262638492-1438206874-1312357361-l-140/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        70,
+        119
+      ],
+      "image_px": [
+        466,
+        794
+      ]
+    }
+  ]
+}

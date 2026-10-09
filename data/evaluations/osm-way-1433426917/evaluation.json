@@ -1,0 +1,68 @@
+{
+  "candidate": "osm-way-1433426917",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Marked car park beside a rail depot; no homes, but full of cars.",
+  "reasons": [
+    "Rail depot and bush surround it",
+    "No dwellings nearby",
+    "Esri shows bays mostly full"
+  ],
+  "drivers": {
+    "seclusion": "Rail depot sheds to the east, trees and parkland to the west; no homes.",
+    "access_and_room": "Sealed car park with marked bays off the depot road; open at the north end, no gate seen. Esri shows most bays occupied, QLD shows nearly empty.",
+    "traffic": "Quiet depot road; rail noise and work traffic likely.",
+    "convention": "Looks like a staff car park for the depot, so a van may be noticed in the morning."
+  },
+  "flags": [
+    "Likely staff or depot parking",
+    "Rail depot noise",
+    "Mapped gate 237 m away, not on only access",
+    "Moolabin Creek 139 m away, ground about 10 m elevation"
+  ],
+  "sun_shade": "Open to sun; trees shade the west edge in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the car park is staff-only",
+    "Security patrols or lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 45,
+    "where": "Marked bays along the west side of the depot access road",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        153.012908,
+        -27.529599
+      ],
+      [
+        153.012977,
+        -27.529594
+      ],
+      [
+        153.013012,
+        -27.529936
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 9.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:29:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

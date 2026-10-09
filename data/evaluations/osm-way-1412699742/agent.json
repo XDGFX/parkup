@@ -1,0 +1,34 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Marked car park in parkland off a loop road, no homes nearby.",
+  "reasons": [
+    "No dwellings in sight or mapped",
+    "Backs onto trees and park",
+    "Level on northern bays"
+  ],
+  "best_section": {
+    "from_m": 15,
+    "to_m": 30,
+    "where": "Northern row of bays at the top of the car park, beside the loop road",
+    "slope_pct": 1.6
+  },
+  "drivers": {
+    "seclusion": "Surrounded by bush and parkland; only a community shed nearby, no homes.",
+    "access_and_room": "Open car park off the loop road with marked bays; van fits end bays.",
+    "traffic": "Loop road passes close; light local traffic and a nearby car park.",
+    "convention": "Busy day-use car park, nearly full in Esri; no sign of overnight stays."
+  },
+  "flags": [
+    "Signs: 2P parallel, accessible bays and no stopping nearby",
+    "Low-lying: about 10 to 12 m, Brisbane River 170 m away",
+    "Slope over the whole outline up to 13% at edges, best section flat"
+  ],
+  "sun_shade": "Open to sun in the north bays; tree shade from the east and south edges.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether the car park is locked or patrolled overnight"
+  ],
+  "confidence": "medium"
+}
