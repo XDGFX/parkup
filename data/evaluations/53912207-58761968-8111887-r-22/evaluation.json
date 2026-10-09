@@ -1,0 +1,64 @@
+{
+  "candidate": "53912207-58761968-8111887-r-22",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short 12 m kerb by a school with homes 12-13 m away.",
+  "reasons": [
+    "Detached homes 12 m and 13 m away",
+    "Barely one van length",
+    "School frontage, cars park nearby"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 12-13 m away on the south side; school grounds and trees to the north; psychologist 7 m.",
+    "access_and_room": "Kerbside on a quiet side street; 12 m is about one van length.",
+    "traffic": "Light residential traffic, school drop-off peaks.",
+    "convention": "Cars park along the street nearby, but short and school-adjacent."
+  },
+  "flags": [
+    "Short stretch, only about one van length",
+    "Homes 10-25 m away on same side",
+    "School pick-up and drop-off activity"
+  ],
+  "sun_shade": "Heavy tree canopy to the north and east; mostly shaded.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Cecil Street kerb beside the tree-shaded school corner",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        152.979045,
+        -27.50067
+      ],
+      [
+        152.979165,
+        -27.500687
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 0.9,
+    "min_elevation_m": 15.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

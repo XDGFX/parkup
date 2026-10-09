@@ -1,0 +1,66 @@
+{
+  "candidate": "53860687-13077554982-15699280-l-38",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Kerb among apartment blocks where cars park; homes within 25 m all round.",
+  "reasons": [
+    "Cars parked along this street",
+    "Apartments and houses 16-17 m away",
+    "Rises about 7% along section"
+  ],
+  "drivers": {
+    "seclusion": "Dense apartments across the road and a detached house 16 m at the south end; The Henry is 8 m away further north.",
+    "access_and_room": "Kerb lane with parked cars along the east side; room to pull in where a car already stops.",
+    "traffic": "Busy through street with apartments and shops nearby.",
+    "convention": "Cars park along both kerbs; 2P limit applies Monday to Friday daytime only."
+  },
+  "flags": [
+    "Steep: about 7% over the best section, DEM shows up to 30% in spots",
+    "2P Mon-Fri 7am-5pm sign",
+    "Brisbane River 295 m away, ground 20-23 m"
+  ],
+  "sun_shade": "Large tree canopy at the south end shades it; apartment blocks shade the west side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Residents' attitude"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 28,
+    "to_m": 40,
+    "where": "East kerb of Clarence Road south of the Henry apartments",
+    "slope_pct": 7,
+    "points": [
+      [
+        152.976914,
+        -27.503993
+      ],
+      [
+        152.976878,
+        -27.504097
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 7.8,
+    "min_elevation_m": 22,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

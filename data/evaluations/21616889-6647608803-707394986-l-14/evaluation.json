@@ -1,0 +1,66 @@
+{
+  "candidate": "21616889-6647608803-707394986-l-14",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short, steep kerb at a corner with houses 19-29 m away on all sides.",
+  "reasons": [
+    "Homes within 25 m all round",
+    "Very steep, about 11% at best",
+    "Short stretch beside a junction"
+  ],
+  "drivers": {
+    "seclusion": "Houses surround it: 19 m and 29 m on this side, a house 9 m beyond the far end, more across the road.",
+    "access_and_room": "Plain kerbside lane on a quiet street; a couple of cars park nearby, but only about 9-17 m of kerb is clear of the junction.",
+    "traffic": "Quiet residential street with a pedestrian crossing at the corner.",
+    "convention": "Cars park on this street at the driveways, but no clear parking convention along this kerb."
+  },
+  "flags": [
+    "Steep: about 11% over the best section, 12.8% max",
+    "Close to the junction; short length for a van",
+    "Homes within about 25 m all round"
+  ],
+  "sun_shade": "Tree canopy to the south-east shades it in the morning; open to the afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether the kerb is far enough from the junction to park legally"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 9,
+    "where": "West kerb of Eldon Street just past the corner, beside the corner house's garden",
+    "slope_pct": 11,
+    "points": [
+      [
+        152.972733,
+        -27.495679
+      ],
+      [
+        152.972789,
+        -27.495615
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 9.4,
+    "min_elevation_m": 30,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

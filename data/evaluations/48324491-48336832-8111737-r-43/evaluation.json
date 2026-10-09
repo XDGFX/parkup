@@ -1,0 +1,76 @@
+{
+  "candidate": "48324491-48336832-8111737-r-43",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat south kerb on a quiet residential street; homes across the road and behind.",
+  "reasons": [
+    "Cars park along this street",
+    "Dwellings 14-16 m across the road",
+    "Flat at 45-60 m"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 14-15 m away across the road, plus unit blocks close behind the south verge; homes all round.",
+    "access_and_room": "Sealed street with cars parked along both kerbs; room for a van at the kerb.",
+    "traffic": "Quiet residential street with a junction at the end.",
+    "convention": "Parked cars are common here; no sign of overnight stays."
+  },
+  "flags": [
+    "Steep only at the west end (mean 6.8%); flat at the best section",
+    "Homes within about 25 m all round",
+    "Near junction with a main road"
+  ],
+  "sun_shade": "Part-shaded by a large tree on the north verge and bushy plantings on the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Driveway use on the south side"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 42,
+    "to_m": 60,
+    "where": "South kerb of Auburn Terrace, beside the driveway and bushy verge before the corner",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.972128,
+        -27.495732
+      ],
+      [
+        152.972242,
+        -27.495708
+      ],
+      [
+        152.972269,
+        -27.495701
+      ],
+      [
+        152.972286,
+        -27.495696
+      ],
+      [
+        152.972304,
+        -27.495689
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 0.7,
+    "min_elevation_m": 27.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,66 @@
+{
+  "candidate": "48324854-53860676-1312564604-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short steep kerb on a through road, houses 12 m away.",
+  "reasons": [
+    "House 12 m away",
+    "Through road, no parked cars",
+    "Steep 10.7% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 12-16 m away behind a narrow verge strip on this side.",
+    "access_and_room": "Narrow grass verge with power pole and fence; kerb is only 20 m long.",
+    "traffic": "Two-lane through road with a junction; steady traffic.",
+    "convention": "No parked cars along the kerb in either image, no parking lane."
+  },
+  "flags": [
+    "Steep: about 10.7% mean, 16% max",
+    "House 12 m away"
+  ],
+  "sun_shade": "Mostly open; trees to the east give some afternoon-less morning shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "West kerb of Clarence Road, just north of the junction",
+    "slope_pct": 10.7,
+    "points": [
+      [
+        152.97789,
+        -27.497708
+      ],
+      [
+        152.977869,
+        -27.497851
+      ],
+      [
+        152.977909,
+        -27.497855
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 10.7,
+    "min_elevation_m": 33.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

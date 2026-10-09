@@ -1,0 +1,64 @@
+{
+  "candidate": "53912235-53912242-1242101110-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "East kerb where other cars park; homes 17 m away, steep at about 6%.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Homes 17 m away on own side",
+    "Steep, about 6% grade"
+  ],
+  "drivers": {
+    "seclusion": "Houses 17 m away on the east side at the best section, garages 37 m; west side is an embankment with homes beyond 30 m.",
+    "access_and_room": "Sealed street with a kerbside lane where several cars are parked; room for a van.",
+    "traffic": "Collector-style street with two junctions; moderate traffic expected.",
+    "convention": "Cars are parked nose to tail on this kerb in the 10 cm image; no signs mapped."
+  },
+  "flags": [
+    "Steep: about 6% here, 8.8% mean, 12.5% max overall",
+    "Homes within 25 m on own side",
+    "Likely moderate through traffic"
+  ],
+  "sun_shade": "Trees along the east side shade the kerb from the east and above; open to the west sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Road traffic volume"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 42,
+    "to_m": 56,
+    "where": "east kerb of Central Avenue, among the parked cars north of the first bend",
+    "slope_pct": 6,
+    "points": [
+      [
+        152.979965,
+        -27.497506
+      ],
+      [
+        152.979966,
+        -27.49738
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 6.9,
+    "min_elevation_m": 34.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

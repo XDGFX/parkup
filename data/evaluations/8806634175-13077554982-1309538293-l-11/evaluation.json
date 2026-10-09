@@ -1,0 +1,64 @@
+{
+  "candidate": "8806634175-13077554982-1309538293-l-11",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb backing onto wooded parkland, with a row of cars already parked.",
+  "reasons": [
+    "Backs onto tree-covered open land",
+    "Cars parked all along it",
+    "Nearest houses 25 m or more away"
+  ],
+  "drivers": {
+    "seclusion": "West side is open wooded land with no buildings; houses across the road sit 25 m or more away, behind trees.",
+    "access_and_room": "Ordinary kerbside lane with a continuous row of parked cars, so there is room to park in line.",
+    "traffic": "Quiet residential street running to a junction at the north end.",
+    "convention": "Parked cars line this kerb in both images, so a van would blend in."
+  },
+  "flags": [
+    "Steep: about 4% over the best section, 12% max on the whole stretch",
+    "No Stopping Any Time signs near the ends; keep to the middle",
+    "Brisbane River 171 m away, ground 29-31 m so flood risk is low"
+  ],
+  "sun_shade": "Trees on the west side shade it from the afternoon; open to the morning sun over the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact sign positions along the kerb",
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 55,
+    "where": "West kerb of Clarence Road along the wooded open land, mid-block",
+    "slope_pct": 4.4,
+    "points": [
+      [
+        152.97658,
+        -27.505033
+      ],
+      [
+        152.976652,
+        -27.504771
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 4.4,
+    "min_elevation_m": 29.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

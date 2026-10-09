@@ -1,0 +1,51 @@
+{
+  "candidate": "53912207-58736617-6890804-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "13 m kerb at a junction by a school, flats 10 m away, bus zone and time limits.",
+  "reasons": [
+    "Flats 10 m from kerb",
+    "Bus zone and school-time signs",
+    "13 m at a junction mouth"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks 10 m and 12 m from the kerb on the same side; school across the road.",
+    "access_and_room": "Only 13 m of kerb beside dense hedge and trees at a junction mouth; little room to stop.",
+    "traffic": "Junction with islands next to a school; heavy drop-off traffic.",
+    "convention": "Bus zone and school-hour no-parking signs apply; kerb is not a place for overnight stays."
+  },
+  "flags": [
+    "Bus Zone sign within 13 m",
+    "No Parking 8-9am and 2:30-3:30pm on school days",
+    "1/4P Parallel school-day limit",
+    "Apartments within 10 m"
+  ],
+  "sun_shade": "Dense trees and hedge over the kerb shade it from the west and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Exact bus zone extent"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 15.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

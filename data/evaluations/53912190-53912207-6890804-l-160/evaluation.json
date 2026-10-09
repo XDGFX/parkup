@@ -1,0 +1,64 @@
+{
+  "candidate": "53912190-53912207-6890804-l-160",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy bus route where cars park; apartments about 14-17 m behind the kerb.",
+  "reasons": [
+    "Cars parked along this kerb",
+    "Apartments and houses 14-18 m away",
+    "Bus route, busy road"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 14 m and houses 17 m on the west side; homes across the road too.",
+    "access_and_room": "Parked cars line the kerb, so there is a parking lane; room for a van.",
+    "traffic": "Bus route with steady traffic, bus stop at the south end.",
+    "convention": "Several cars parked along the kerb in both images, so a van would not stand out."
+  },
+  "flags": [
+    "Dwellings 10-25 m away on same side",
+    "Bus Zone at the start, section is clear of it",
+    "Steep towards the south: about 8% max"
+  ],
+  "sun_shade": "Open with some tree shade from the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 36,
+    "to_m": 53,
+    "where": "Central Avenue west kerb, north end beside the car-lined stretch",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        152.978467,
+        -27.502023
+      ],
+      [
+        152.978496,
+        -27.501872
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 18.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

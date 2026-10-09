@@ -1,0 +1,64 @@
+{
+  "candidate": "53912207-11394197591-8111887-l-24",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, but apartments sit 11-13 m behind it.",
+  "reasons": [
+    "Apartments 11-13 m away on this side",
+    "Cars park along both kerbs",
+    "Flat in the middle stretch"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks 11-13 m behind the kerb along the whole stretch, more across the road.",
+    "access_and_room": "Open kerb on a two-way street with cars parked both sides; room for a van.",
+    "traffic": "Quiet residential side street between two through roads.",
+    "convention": "Parked cars line this kerb in both images, so a van would not stand out."
+  },
+  "flags": [
+    "Dwellings 10-25 m away on same side",
+    "Steepens to about 7% towards the 86 m end",
+    "Main road noise at both ends"
+  ],
+  "sun_shade": "Mostly open; patchy tree shade from the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 30,
+    "where": "Cecil Street south kerb, in front of Ceci Lodge and the strata units",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.978438,
+        -27.500575
+      ],
+      [
+        152.978288,
+        -27.500552
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 15.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

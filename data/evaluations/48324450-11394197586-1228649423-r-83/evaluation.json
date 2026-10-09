@@ -1,0 +1,66 @@
+{
+  "candidate": "48324450-11394197586-1228649423-r-83",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short tree-lined kerb on Clarence Road; houses 10-16 m away on this side.",
+  "reasons": [
+    "Detached houses 10-16 m away",
+    "Cars park on the opposite kerb",
+    "Only 14 m long"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 10 m at 4 m and 15-16 m beyond; apartments across the road over 17 m away.",
+    "access_and_room": "Kerb lane under trees; barely one van length, no cars seen parked on this side.",
+    "traffic": "Busy collector road; steady traffic past the kerb.",
+    "convention": "Cars park on the west kerb; Mon-Fri 7am-5pm No Stopping signs cover this kerb."
+  },
+  "flags": [
+    "Mon-Fri 7am-5pm No Stopping signs at the kerb",
+    "Traffic noise",
+    "Houses within 10-16 m on own side"
+  ],
+  "sun_shade": "Dense street-tree canopy over the kerb; shade most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall",
+    "whether the east kerb is parked overnight"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 4,
+    "to_m": 14,
+    "where": "Clarence Road east kerb under the street trees, just north of the kindergarten",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.977409,
+        -27.501411
+      ],
+      [
+        152.977426,
+        -27.501325
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 0.6,
+    "min_elevation_m": 21.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

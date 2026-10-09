@@ -1,0 +1,48 @@
+{
+  "candidate": "59958673-2212871479-1285082227-l-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a bridge-approach junction, with four No Stopping signs.",
+  "reasons": [
+    "Four No Stopping Any Time signs",
+    "Junction and bridge approach, no room off lane",
+    "Steep grade, about 9%"
+  ],
+  "drivers": {
+    "seclusion": "Nearest house is 21 m west; rail corridor to the east, but the kerb is exposed at a busy junction.",
+    "access_and_room": "Narrow kerb strip beside a median and turning lanes; no verge or pull-off for a van.",
+    "traffic": "Through route onto the bridge with turn lanes and arrows, plus rail noise.",
+    "convention": "No parked cars on this kerb; signs prohibit stopping."
+  },
+  "flags": [
+    "Steep: about 9% mean grade, 11% max",
+    "No Stopping Any Time signs at the kerb",
+    "Rail and road noise"
+  ],
+  "sun_shade": "Open to the sky with a little shade from trees on the west side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 9,
+    "min_elevation_m": 16.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

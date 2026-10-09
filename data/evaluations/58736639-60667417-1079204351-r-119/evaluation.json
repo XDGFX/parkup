@@ -1,0 +1,49 @@
+{
+  "candidate": "58736639-60667417-1079204351-r-119",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, very steep school-street kerb with a pedestrian crossing and stopping signs.",
+  "reasons": [
+    "Grade 15.9%, over the 12% limit",
+    "No Stopping Any Time sign",
+    "Narrow lane, kerb-to-fence, school frontage"
+  ],
+  "drivers": {
+    "seclusion": "No dwellings within 36 m, but the school and pool front the kerb and it is busy by day.",
+    "access_and_room": "Narrow sealed lane with kerb-to-fence on the west; a pedestrian crossing sits at the south end.",
+    "traffic": "School street with drop-off traffic on schooldays.",
+    "convention": "1/4P Parallel schooldays 8am-4pm plus No Stopping Any Time; no sign of overnight parking."
+  },
+  "flags": [
+    "Steep: mean 15.9%, max 17% grade",
+    "No Stopping Any Time and 1/4P school-day signs",
+    "Mapped car park 13 m away may be a better option"
+  ],
+  "sun_shade": "Tall trees and school buildings shade the kerb from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "crossfall",
+    "street lighting",
+    "kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 36,
+    "gated": false,
+    "slope_pct": 16.5,
+    "min_elevation_m": 16.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

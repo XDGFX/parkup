@@ -1,0 +1,64 @@
+{
+  "candidate": "60200781-60667417-8111883-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb under trees by a school building; house 13 m across the road.",
+  "reasons": [
+    "School building and trees on this side",
+    "Detached house 13 m across",
+    "Short, tree-shaded, no parked cars"
+  ],
+  "drivers": {
+    "seclusion": "School building and lawn behind the kerb; one detached house 13 m across the road, others 27 m or more away.",
+    "access_and_room": "Sealed paved road, a wide dark apron running to the school; 12 m of kerb fits a van but it may block school access.",
+    "traffic": "Very light, school and neighbour use only.",
+    "convention": "No parked cars seen; 2P signs apply Mon-Fri 8 am-4 pm only."
+  },
+  "flags": [
+    "Slope about 2.9% (under the steep threshold)",
+    "House within 13 m across the road",
+    "Road may be a school access that people need clear"
+  ],
+  "sun_shade": "Mostly shaded by a large tree canopy on the north and west; open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the road beyond is gated at night"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "North side of Campus Street under the big trees, just before the school building",
+    "slope_pct": 2.9,
+    "points": [
+      [
+        152.979958,
+        -27.501628
+      ],
+      [
+        152.980077,
+        -27.501646
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 12.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,558 @@
+{
+  "id": "53912207-58761968-8111887-r-44",
+  "street": "Cecil Street",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.979264,
+      -27.500701
+    ],
+    [
+      152.97938,
+      -27.500718
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "south",
+  "length_m": 12,
+  "signs": [
+    {
+      "street": "CECIL STREET",
+      "restriction": "Loading Zone Passengers 2 Min. Max",
+      "days_times": ":8am-9am ,SCHOOLDAYS:2:30pm-3:30pm",
+      "extra_text": "2 MIN MAX",
+      "arrow": "Left",
+      "metres_from_kerb_line": 3
+    },
+    {
+      "street": "CECIL STREET",
+      "restriction": "1/4P Parallel",
+      "days_times": ":8am-9am ,SCHOOLDAYS:2:30pm-3:30pm",
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 3.1
+    },
+    {
+      "street": "CECIL STREET",
+      "restriction": "1P Parallel",
+      "days_times": "MON-FRI:8am-5:30pm",
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 9.8
+    },
+    {
+      "street": "CECIL STREET",
+      "restriction": "1/4P Parallel",
+      "days_times": ":8am-9am ,SCHOOLDAYS:2:30pm-3:30pm",
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 3
+    },
+    {
+      "street": "CECIL STREET",
+      "restriction": "Loading Zone Passengers 2 Min. Max",
+      "days_times": ":8am-9am ,SCHOOLDAYS:2:30pm-3:30pm",
+      "extra_text": "2 MIN MAX",
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 8
+    }
+  ],
+  "buildings": [
+    {
+      "building": "retail",
+      "name": "Sheridan Psychologists",
+      "dwelling": false,
+      "metres": 11,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9790811,
+          -27.5007396
+        ],
+        [
+          152.9791732,
+          -27.5007544
+        ],
+        [
+          152.9791309,
+          -27.5009606
+        ],
+        [
+          152.9790388,
+          -27.5009457
+        ],
+        [
+          152.9790811,
+          -27.5007396
+        ]
+      ]
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 11,
+      "at_m": 8,
+      "outline": [
+        [
+          152.9792219,
+          -27.5007912
+        ],
+        [
+          152.9793293,
+          -27.5008063
+        ],
+        [
+          152.9792994,
+          -27.5009739
+        ],
+        [
+          152.9791919,
+          -27.5009588
+        ],
+        [
+          152.9792219,
+          -27.5007912
+        ]
+      ]
+    },
+    {
+      "building": "school",
+      "name": "The Bridgid Centre",
+      "dwelling": false,
+      "metres": 17,
+      "at_m": 12,
+      "outline": [
+        [
+          152.9798612,
+          -27.5008604
+        ],
+        [
+          152.9797926,
+          -27.5011725
+        ],
+        [
+          152.9794493,
+          -27.5011192
+        ],
+        [
+          152.9795179,
+          -27.5008071
+        ],
+        [
+          152.9798612,
+          -27.5008604
+        ]
+      ]
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 25,
+      "at_m": 0,
+      "outline": [
+        [
+          152.978901,
+          -27.5007535
+        ],
+        [
+          152.9788793,
+          -27.5008585
+        ],
+        [
+          152.9790057,
+          -27.500879
+        ],
+        [
+          152.9790274,
+          -27.5007741
+        ],
+        [
+          152.978901,
+          -27.5007535
+        ]
+      ]
+    },
+    {
+      "building": "school",
+      "name": null,
+      "dwelling": false,
+      "metres": 28,
+      "at_m": 4,
+      "outline": [
+        [
+          152.9794578,
+          -27.5001371
+        ],
+        [
+          152.9793474,
+          -27.5004575
+        ],
+        [
+          152.979031,
+          -27.50037
+        ],
+        [
+          152.9791574,
+          -27.5000457
+        ],
+        [
+          152.9794578,
+          -27.5001371
+        ]
+      ]
+    },
+    {
+      "building": "school",
+      "name": null,
+      "dwelling": false,
+      "metres": 33,
+      "at_m": 12,
+      "outline": [
+        [
+          152.9794779,
+          -27.5003238
+        ],
+        [
+          152.9797447,
+          -27.5003671
+        ],
+        [
+          152.979737,
+          -27.5004046
+        ],
+        [
+          152.9799917,
+          -27.5004458
+        ],
+        [
+          152.979953,
+          -27.5006335
+        ],
+        [
+          152.9796768,
+          -27.5005888
+        ],
+        [
+          152.9797023,
+          -27.5004651
+        ],
+        [
+          152.9794569,
+          -27.5004254
+        ],
+        [
+          152.9794779,
+          -27.5003238
+        ]
+      ]
+    },
+    {
+      "building": "school",
+      "name": null,
+      "dwelling": false,
+      "metres": 47,
+      "at_m": 12,
+      "outline": [
+        [
+          152.9795111,
+          -27.5001629
+        ],
+        [
+          152.9797992,
+          -27.5002119
+        ],
+        [
+          152.9797694,
+          -27.5003495
+        ],
+        [
+          152.9794813,
+          -27.5003004
+        ],
+        [
+          152.9795111,
+          -27.5001629
+        ]
+      ]
+    },
+    {
+      "building": "school",
+      "name": null,
+      "dwelling": false,
+      "metres": 54,
+      "at_m": 12,
+      "outline": [
+        [
+          152.9798677,
+          -27.5009384
+        ],
+        [
+          152.9799881,
+          -27.5009587
+        ],
+        [
+          152.9799667,
+          -27.5010586
+        ],
+        [
+          152.9801533,
+          -27.5010902
+        ],
+        [
+          152.9801307,
+          -27.5011954
+        ],
+        [
+          152.979934,
+          -27.5011622
+        ],
+        [
+          152.979945,
+          -27.5011114
+        ],
+        [
+          152.9798346,
+          -27.5010927
+        ],
+        [
+          152.9798677,
+          -27.5009384
+        ]
+      ]
+    },
+    {
+      "building": "school",
+      "name": null,
+      "dwelling": false,
+      "metres": 55,
+      "at_m": 12,
+      "outline": [
+        [
+          152.9798931,
+          -27.5001075
+        ],
+        [
+          152.9800836,
+          -27.5001333
+        ],
+        [
+          152.980033,
+          -27.5004275
+        ],
+        [
+          152.9798102,
+          -27.5003973
+        ],
+        [
+          152.979829,
+          -27.5002881
+        ],
+        [
+          152.9799312,
+          -27.500302
+        ],
+        [
+          152.9799381,
+          -27.5002615
+        ],
+        [
+          152.9798438,
+          -27.5002488
+        ],
+        [
+          152.9798595,
+          -27.5001577
+        ],
+        [
+          152.9798839,
+          -27.500161
+        ],
+        [
+          152.9798931,
+          -27.5001075
+        ]
+      ]
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 58,
+      "at_m": 12,
+      "outline": [
+        [
+          152.9793356,
+          -27.5013377
+        ],
+        [
+          152.9794401,
+          -27.5014027
+        ],
+        [
+          152.979515,
+          -27.5013081
+        ],
+        [
+          152.9794105,
+          -27.5012431
+        ],
+        [
+          152.9793356,
+          -27.5013377
+        ]
+      ]
+    },
+    {
+      "building": "apartments",
+      "name": "Central Garden",
+      "dwelling": true,
+      "metres": 59,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9785114,
+          -27.5002899
+        ],
+        [
+          152.9786178,
+          -27.5003053
+        ],
+        [
+          152.9786107,
+          -27.500344
+        ],
+        [
+          152.9786606,
+          -27.5003513
+        ],
+        [
+          152.9786685,
+          -27.5003089
+        ],
+        [
+          152.9787631,
+          -27.5003226
+        ],
+        [
+          152.9787427,
+          -27.5004333
+        ],
+        [
+          152.9785976,
+          -27.5004123
+        ],
+        [
+          152.9784917,
+          -27.5003969
+        ],
+        [
+          152.9785114,
+          -27.5002899
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 152.9794878,
+      "lat": -27.5014571,
+      "metres": 83,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.977575,
+      "lat": -27.4998342,
+      "metres": 192,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9776115,
+      "lat": -27.4996402,
+      "metres": 201,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.979264,
+        "lat": -27.500701,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 15.29
+      },
+      {
+        "lon": 152.979314,
+        "lat": -27.500708,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 15.34
+      },
+      {
+        "lon": 152.979364,
+        "lat": -27.500716,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 15.32
+      },
+      {
+        "lon": 152.97938,
+        "lat": -27.500718,
+        "at_m": 11.6,
+        "line": 0,
+        "elevation_m": 15.33
+      }
+    ],
+    "min_elevation_m": 15.3,
+    "max_elevation_m": 15.3,
+    "mean_grade_pct": 0.7,
+    "max_grade_pct": 1
+  },
+  "waterway": {
+    "name": null,
+    "metres": 342
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 12,
+      "length_m": 12,
+      "images": {
+        "esri": ".cache/imagery/53912207-58761968-8111887-r-44/chunk1-esri.jpg",
+        "qld": ".cache/imagery/53912207-58761968-8111887-r-44/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        71,
+        62
+      ],
+      "image_px": [
+        476,
+        413
+      ]
+    }
+  ]
+}

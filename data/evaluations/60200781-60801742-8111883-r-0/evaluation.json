@@ -1,0 +1,85 @@
+{
+  "candidate": "60200781-60801742-8111883-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Lane edge beside a school lawn; houses 19 m and more away, bollard ahead.",
+  "reasons": [
+    "Backs onto school lawn and trees",
+    "Houses 19 m or more away",
+    "Narrow lane to a mapped bollard"
+  ],
+  "drivers": {
+    "seclusion": "School lawn and trees on this side; nearest house 19 m away at the start, houses 12-18 m away further along the lane.",
+    "access_and_room": "Sealed narrow lane; a car is parked near the lane end, and a mapped bollard at 10 m may block through traffic. Room beside the lane is limited.",
+    "traffic": "Very light, serves a few houses and a small car park at the end.",
+    "convention": "Cars park at the lane end; 2P sign applies Mon-Fri 8 am-4 pm only."
+  },
+  "flags": [
+    "Mapped bollard 10 m along, not on the only access",
+    "Houses within about 25 m on the far side",
+    "Narrow lane, little room to pull fully off",
+    "Lane ends near houses"
+  ],
+  "sun_shade": "Heavy tree shade from the east and north-east; the lawn is open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the bollard blocks vans"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 9,
+    "where": "West edge of Campus Street where it turns, beside the school lawn and trees",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.979831,
+        -27.50161
+      ],
+      [
+        152.979821,
+        -27.501606
+      ],
+      [
+        152.979816,
+        -27.501603
+      ],
+      [
+        152.979807,
+        -27.501598
+      ],
+      [
+        152.979795,
+        -27.50159
+      ],
+      [
+        152.979785,
+        -27.501582
+      ],
+      [
+        152.979759,
+        -27.501561
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 0.6,
+    "min_elevation_m": 13.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "53912207-11394197591-8111887-r-20",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parked-car kerb, but apartment blocks sit 12 m behind it.",
+  "reasons": [
+    "Apartments 12 m away on this side",
+    "Cars park along the kerb",
+    "Flat in the middle stretch"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks 12 m behind the kerb along most of the stretch; more across the road.",
+    "access_and_room": "Open kerb on a two-way street with cars parked; room for a van.",
+    "traffic": "Quiet residential side street between two through roads.",
+    "convention": "Parked cars line the kerb in both images, so a van would not stand out."
+  },
+  "flags": [
+    "Dwellings 10-25 m away on same side",
+    "Steepens to about 7% towards the 90 m end",
+    "Main road noise at both ends"
+  ],
+  "sun_shade": "Patchy tree shade from the north side around 40-60 m; otherwise open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 38,
+    "where": "Cecil Street north kerb, in front of the Cecil Gardens apartments",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.97844,
+        -27.500503
+      ],
+      [
+        152.97826,
+        -27.500475
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 15.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,69 @@
+{
+  "candidate": "60200781-60667417-8111883-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside a school lawn; houses 13-16 m away, shaded by trees.",
+  "reasons": [
+    "Backs onto school lawn and trees",
+    "Dwellings 13-16 m away",
+    "Narrow street, no parked cars seen"
+  ],
+  "drivers": {
+    "seclusion": "School lawn and building on the north side; detached house 13 m across the road and houses 16 m to the west.",
+    "access_and_room": "Sealed street with a narrow lane and a short 13 m kerb; room is tight at the bend.",
+    "traffic": "Quiet local street serving the school and a few houses.",
+    "convention": "No parked cars seen along this stretch; 2P signs apply Mon-Fri 8 am-4 pm only."
+  },
+  "flags": [
+    "Slope about 2.4% (under the steep threshold)",
+    "Houses within about 25 m on two sides",
+    "Tight room at a bend in a narrow street",
+    "School traffic during the day"
+  ],
+  "sun_shade": "Heavily shaded by large trees on the north side; open sun from the south and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height and crossfall",
+    "Whether the school patrols overnight"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 13,
+    "where": "North kerb of Campus Street at the bend, beside the school lawn and trees",
+    "slope_pct": 2.4,
+    "points": [
+      [
+        152.979827,
+        -27.501608
+      ],
+      [
+        152.979838,
+        -27.501611
+      ],
+      [
+        152.979957,
+        -27.501628
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 13,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

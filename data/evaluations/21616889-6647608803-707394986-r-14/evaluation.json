@@ -1,0 +1,48 @@
+{
+  "candidate": "21616889-6647608803-707394986-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a junction, too steep at 11-13% with houses 15 m away.",
+  "reasons": [
+    "Grade over 12% in places",
+    "Starts at the junction, only 17 m long",
+    "Houses 15-16 m away"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings sit 15 m and 16 m away on this side, with more within 25 m.",
+    "access_and_room": "Plain kerb lane right at the junction; limited clear kerb before the corner.",
+    "traffic": "Quiet residential street with a pedestrian crossing at the corner.",
+    "convention": "A few cars park on the street, but not a recognised parking stretch."
+  },
+  "flags": [
+    "Too steep: about 11.5% mean, 13.2% max",
+    "Starts at the junction",
+    "Homes within about 25 m all round"
+  ],
+  "sun_shade": "Heavy trees south-east shade the morning; open to the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 11.3,
+    "min_elevation_m": 30.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

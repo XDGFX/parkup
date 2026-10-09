@@ -1,0 +1,63 @@
+{
+  "candidate": "48324759-53912643-8166014-r-53",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Unsigned Clarence Road kerb where cars park; homes 12-20 m away.",
+  "reasons": [
+    "Cars parked along this kerb",
+    "Dwellings 12-20 m on own side",
+    "Busy road, flat 2% grade"
+  ],
+  "drivers": {
+    "seclusion": "Houses 15-19 m away on the west side; apartments 12 m at 30 m, flats and houses opposite 17 m or more.",
+    "access_and_room": "Kerbside lane where several cars are parked; room for a van in line.",
+    "traffic": "Busy through road with steady traffic.",
+    "convention": "Cars park here day to day and no signs are mapped, so a van fits in."
+  },
+  "flags": [
+    "Traffic noise",
+    "Homes within about 25 m all round"
+  ],
+  "sun_shade": "Mostly open; street trees on the east side shade the road in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall",
+    "overnight parking occupancy"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 25,
+    "where": "Clarence Road west kerb, midway between the two junctions",
+    "slope_pct": 0.2,
+    "points": [
+      [
+        152.978264,
+        -27.496451
+      ],
+      [
+        152.97821,
+        -27.496597
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 44.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

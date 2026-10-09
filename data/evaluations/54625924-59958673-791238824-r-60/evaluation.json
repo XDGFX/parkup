@@ -1,0 +1,48 @@
+{
+  "candidate": "54625924-59958673-791238824-r-60",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Junction approach to a bridge, signed No Stopping with no room off the lane.",
+  "reasons": [
+    "No Stopping signs line the kerb",
+    "Junction and bridge approach, no verge",
+    "Through road with moving traffic"
+  ],
+  "drivers": {
+    "seclusion": "Rail corridor on the east and apartments 28 m or more west, but the kerb is at a busy junction.",
+    "access_and_room": "Narrow lane between a median island and a kerb at a bridge approach; no pull-off wide enough for a van.",
+    "traffic": "Through route to the bridge, with junction lanes, turn arrows and a rail line alongside.",
+    "convention": "Three No Stopping Any Time signs; the few cars in the image are moving or at the junction."
+  },
+  "flags": [
+    "Steep: about 6% mean grade, 11% max",
+    "No Stopping Any Time signs on the kerb",
+    "Rail and road noise"
+  ],
+  "sun_shade": "Open to the sky; the bridge structure shades the south end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact sign extents along the kerb",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 28,
+    "gated": false,
+    "slope_pct": 6.2,
+    "min_elevation_m": 16.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

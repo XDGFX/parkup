@@ -1,0 +1,65 @@
+{
+  "candidate": "48324759-53912643-8166014-r-22",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short Clarence Road kerb with houses 8-13 m away and a No Parking sign.",
+  "reasons": [
+    "Houses 8-13 m from kerb",
+    "No Parking Any Time sign on kerb",
+    "Only 23 m, sloping 5%"
+  ],
+  "drivers": {
+    "seclusion": "House 13 m away at the start, with two more houses 8-9 m away by 11-15 m.",
+    "access_and_room": "Kerb lane with a couple of cars stopped; narrow verge, tree-lined.",
+    "traffic": "Busy through road with a junction at the north end.",
+    "convention": "No Parking Any Time sign 2.4 m from the kerb line; cars still stop there."
+  },
+  "flags": [
+    "No Parking Any Time sign at the kerb",
+    "Steep: about 5% mean, 8% max",
+    "Traffic noise"
+  ],
+  "sun_shade": "Tree canopy over the kerb; shade from the east side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 9,
+    "where": "Clarence Road west kerb at the bend, just south of the junction",
+    "slope_pct": 4.6,
+    "points": [
+      [
+        152.978394,
+        -27.496119
+      ],
+      [
+        152.97836,
+        -27.496194
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 3.4,
+    "min_elevation_m": 46.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

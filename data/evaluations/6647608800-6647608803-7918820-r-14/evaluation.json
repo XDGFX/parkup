@@ -1,0 +1,50 @@
+{
+  "candidate": "6647608800-6647608803-7918820-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 2 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep residential kerb with homes 2-9 m from it for most of its length.",
+  "reasons": [
+    "Dwellings 2-9 m away on own side",
+    "Mean grade 8.2%, max 17.4%",
+    "Narrow street, cars parked tightly"
+  ],
+  "drivers": {
+    "seclusion": "Houses sit 2-16 m from the kerb from 0 to 110 m; no stretch is clear of dwellings.",
+    "access_and_room": "Narrow sealed street with kerb-to-fence verge and trees; a few cars park along it.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "No signs mapped; residents' cars park here, but no sign of campervans staying."
+  },
+  "flags": [
+    "Steep: mean 8.2%, max 17.4% grade",
+    "Mapped gate 74 m away has a way round it (not on only access)"
+  ],
+  "sun_shade": "Street trees shade the road, mainly from the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "crossfall",
+    "street lighting",
+    "kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 2,
+    "gated": false,
+    "slope_pct": 7.8,
+    "min_elevation_m": 35.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

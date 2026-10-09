@@ -1,0 +1,51 @@
+{
+  "candidate": "53912207-58736617-6890804-l-27",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "30 m school-front kerb with bus stop and flats 10-12 m away.",
+  "reasons": [
+    "Flats 10-12 m from kerb",
+    "School no-stopping and bus zone signs",
+    "Narrow kerb between hedges and bus shelter"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks 10 m and 12 m from the kerb along the section; school grounds on the same side.",
+    "access_and_room": "Kerb is fronted by a bus shelter and hedges; signs restrict stopping on the whole stretch.",
+    "traffic": "Short approach to a junction beside a school; heavy at drop-off and pick-up.",
+    "convention": "Bus zone plus No Stopping 7:30am-3:30pm on school days and No Parking times; no overnight custom."
+  },
+  "flags": [
+    "No Stopping school days 7:30am-3:30pm",
+    "Bus Zone sign within 14 m",
+    "Apartments within 10 m",
+    "Slope up to 6% max grade"
+  ],
+  "sun_shade": "Hedges and a large tree shade the south end; the rest is open to the afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Exact bus zone extent"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 3.2,
+    "min_elevation_m": 15.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

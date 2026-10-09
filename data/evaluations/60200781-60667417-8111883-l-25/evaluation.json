@@ -1,0 +1,64 @@
+{
+  "candidate": "60200781-60667417-8111883-l-25",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow shaded lane beside a school; houses 15-25 m across, little room to pull off.",
+  "reasons": [
+    "School building and trees on this side",
+    "Dwellings 15 m or more away",
+    "Narrow lane, room is tight"
+  ],
+  "drivers": {
+    "seclusion": "School building and trees behind the kerb; nearest house 15 m away at 23 m along, further houses 28 m and more at this end.",
+    "access_and_room": "Sealed narrow lane with no clear shoulder beside it; a van may sit partly in the lane.",
+    "traffic": "Light local traffic, with school and soccer club use nearby.",
+    "convention": "No parked cars seen on this stretch; 2P signs apply Mon-Fri 8 am-4 pm only."
+  },
+  "flags": [
+    "Steep: about 5% rise at the best section; max 10% near the end",
+    "Room to pull off is tight",
+    "School and soccer club activity nearby"
+  ],
+  "sun_shade": "Heavily shaded by tree canopy from the east and north at the best section; school building shades the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact lane width"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 28,
+    "to_m": 41,
+    "where": "North side of Campus Street under the trees, near the junction with the main street",
+    "slope_pct": 5,
+    "points": [
+      [
+        152.980357,
+        -27.501687
+      ],
+      [
+        152.980487,
+        -27.501705
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 5.3,
+    "min_elevation_m": 12.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

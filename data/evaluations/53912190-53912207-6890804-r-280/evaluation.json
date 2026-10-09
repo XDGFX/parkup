@@ -1,0 +1,50 @@
+{
+  "candidate": "53912190-53912207-6890804-r-280",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short 20 m kerb with houses 10-11 m away beside a school zone.",
+  "reasons": [
+    "Houses 10-11 m from kerb",
+    "Only 20 m long",
+    "School zone just north"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses sit 10 m and 11 m from the kerb on the same side, with homes all round.",
+    "access_and_room": "Open street with a few cars parked along the kerb; no gate. Room is ordinary parallel parking.",
+    "traffic": "Residential street leading to a school zone and roundabout; busy at drop-off times.",
+    "convention": "Cars park on both kerbs, but the dwellings are too close to this short stretch."
+  },
+  "flags": [
+    "Dwelling within about 10 m of the whole section",
+    "School zone marking just north",
+    "Slope 1.8% mean, fine"
+  ],
+  "sun_shade": "Street trees cover the north and east of the kerb, giving morning and midday shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 15.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

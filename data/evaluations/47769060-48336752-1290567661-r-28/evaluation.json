@@ -1,0 +1,62 @@
+{
+  "candidate": "47769060-48336752-1290567661-r-28",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb on a busy Clarence Road bend with no parking and homes close.",
+  "reasons": [
+    "Through road, no cars parked on kerb",
+    "Apartments 12 m from kerb",
+    "Steep downhill, junction nearby"
+  ],
+  "drivers": {
+    "seclusion": "Summit View apartments 12 m at 21 m; houses and terraces overlooking the kerb to the west.",
+    "access_and_room": "Narrow verge and fence line beside a sealed carriageway; no lay-by or parking lane.",
+    "traffic": "Busy through road beside a signalled junction with a clear markings.",
+    "convention": "Cars park in the private apartment driveway, not along the kerb."
+  },
+  "flags": [
+    "Steep: mean 8.3%, max 21% on DEM",
+    "Junction and arterial noise"
+  ],
+  "sun_shade": "Open to the sky; tree shade from the west side in the late afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "crossfall",
+    "street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 53,
+    "where": "Clarence Road west kerb, south of the Summit View driveway",
+    "slope_pct": 6.2,
+    "points": [
+      [
+        152.978703,
+        -27.495527
+      ],
+      [
+        152.978619,
+        -27.49572
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 8.9,
+    "min_elevation_m": 47.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

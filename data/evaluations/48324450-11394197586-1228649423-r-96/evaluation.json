@@ -1,0 +1,64 @@
+{
+  "candidate": "48324450-11394197586-1228649423-r-96",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park on busy Clarence Road; homes 15-18 m away.",
+  "reasons": [
+    "Cars parked on this kerb",
+    "Dwellings 15-18 m on own side",
+    "Mon-Fri daytime No Stopping signs"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 17 m and apartments 15 m at 38 m on the same side; flats across the road 18 m or more.",
+    "access_and_room": "Kerbside lane with several cars parked; a van fits in line.",
+    "traffic": "Busy collector road with steady traffic.",
+    "convention": "Cars park along this kerb, so a van blends in; Mon-Fri 7am-5pm No Stopping signs apply."
+  },
+  "flags": [
+    "Mon-Fri 7am-5pm No Stopping signs at the kerb",
+    "Traffic noise",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Open at the north end; trees shade the southern half from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall",
+    "how strictly the signs are enforced"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 26,
+    "to_m": 40,
+    "where": "Clarence Road east kerb, in the parked-car bay north of the street trees",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.977472,
+        -27.501095
+      ],
+      [
+        152.977496,
+        -27.500973
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 4.1,
+    "min_elevation_m": 20.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

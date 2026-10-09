@@ -1,0 +1,66 @@
+{
+  "candidate": "48324491-48336832-8111737-l-21",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb near the junction; homes about 22 m away on both sides.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Dwellings 22-23 m away",
+    "Near junction, flat ground"
+  ],
+  "drivers": {
+    "seclusion": "Apartments and houses back onto the kerb; nearest mapped dwellings 22-23 m from the best section, but homes close on all sides.",
+    "access_and_room": "Sealed street with parked cars along the kerb; room for a van beside the lane, close to the junction.",
+    "traffic": "Quiet residential street, light local traffic.",
+    "convention": "Other cars park along this kerb, but no sign of overnight stays."
+  },
+  "flags": [
+    "Steep along the whole stretch (mean 9%), but only about 1-2% at the best section",
+    "Homes within about 25 m all round",
+    "Close to junction corner"
+  ],
+  "sun_shade": "Mostly open; trees to the south-west and a tree canopy near 45-50 m.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Corner sightlines"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 62,
+    "to_m": 74,
+    "where": "Auburn Terrace north kerb, last stretch before the corner junction",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.972094,
+        -27.495666
+      ],
+      [
+        152.972212,
+        -27.495641
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 27.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

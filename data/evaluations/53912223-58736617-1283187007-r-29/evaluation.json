@@ -1,0 +1,63 @@
+{
+  "candidate": "53912223-58736617-1283187007-r-29",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "West kerb below the school zone; homes 11-20 m away on the same side.",
+  "reasons": [
+    "Homes 11-20 m on own side",
+    "Cars park here, 1/2P signs nearby",
+    "Slope about 4-5%"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 11 m away at both ends of the stretch, apartments 20 m away; homes on both sides.",
+    "access_and_room": "Sealed street with a kerbside lane; a car is parked on this kerb, so room for a van is likely.",
+    "traffic": "Quiet residential street, school zone and junction at the top.",
+    "convention": "Two cyan signs near 0 m mark 1/2P, 9am-4pm weekdays and Saturday mornings; overnight is outside those hours."
+  },
+  "flags": [
+    "Steep: about 4% mean, 7.2% max",
+    "Homes within 25 m all round",
+    "School zone at the north end"
+  ],
+  "sun_shade": "Trees on the east side and over the west verge shade the section in the afternoon and morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 24,
+    "to_m": 36,
+    "where": "west kerb of Central Avenue below the school-zone hump, between the two houses",
+    "slope_pct": 4.4,
+    "points": [
+      [
+        152.979273,
+        -27.499305
+      ],
+      [
+        152.979233,
+        -27.499407
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 5.8,
+    "min_elevation_m": 21.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

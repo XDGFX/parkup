@@ -1,0 +1,72 @@
+{
+  "candidate": "48336903-53912634-1304769291-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, but too steep at 12.6% mean.",
+  "reasons": [
+    "Grade 12.6% mean, 16% max",
+    "Houses 12-17 m away",
+    "Cars park along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Houses 14-17 m away on the same side; flats and homes across the road.",
+    "access_and_room": "Cars park along the kerb in Esri, so there is room off the lane.",
+    "traffic": "Wide through road with turning lanes; steady traffic.",
+    "convention": "Several cars parked here, so a van would blend in."
+  },
+  "flags": [
+    "Too steep: 12.6% mean, 16.1% max",
+    "Dwellings 12-17 m away",
+    "Noise from arterial road"
+  ],
+  "sun_shade": "Tree canopy at the south end; the north part is more open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 30,
+    "where": "East kerb of Clarence Road, between the two junctions beside the units",
+    "slope_pct": 11.4,
+    "points": [
+      [
+        152.977883,
+        -27.499006
+      ],
+      [
+        152.977909,
+        -27.498872
+      ],
+      [
+        152.977913,
+        -27.498846
+      ],
+      [
+        152.977916,
+        -27.498829
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 12.7,
+    "min_elevation_m": 20.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,75 @@
+{
+  "candidate": "48324491-48336832-8111737-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short 17 m kerb at a junction corner, very steep and beside homes.",
+  "reasons": [
+    "Grade about 14%, over the limit",
+    "Dwelling 11 m away",
+    "Right at a junction corner"
+  ],
+  "drivers": {
+    "seclusion": "Apartment block behind the kerb to the south and a house 11 m away; unsecluded.",
+    "access_and_room": "Sealed street, one car already parked on this kerb; barely one van length at a corner.",
+    "traffic": "Quiet residential street, junction adjacent.",
+    "convention": "Parked cars on the street, no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 14% mean, 23% max",
+    "Junction corner with stop line",
+    "Dwelling within 11 m"
+  ],
+  "sun_shade": "Mostly open; small trees along the verge and a tree to the north-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 17,
+    "where": "South kerb of Auburn Terrace at the corner of the side street",
+    "slope_pct": 14.2,
+    "points": [
+      [
+        152.971423,
+        -27.495874
+      ],
+      [
+        152.971447,
+        -27.495872
+      ],
+      [
+        152.971466,
+        -27.49587
+      ],
+      [
+        152.971483,
+        -27.495868
+      ],
+      [
+        152.971591,
+        -27.495845
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 14.2,
+    "min_elevation_m": 33,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

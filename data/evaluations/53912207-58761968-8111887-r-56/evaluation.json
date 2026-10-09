@@ -1,0 +1,64 @@
+{
+  "candidate": "53912207-58761968-8111887-r-56",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "School-fronting kerb at street end, nearest home about 20 m behind a hall.",
+  "reasons": [
+    "Backs onto school, not homes",
+    "Home 11 m at start, further along",
+    "School drop-off zone, busy by day"
+  ],
+  "drivers": {
+    "seclusion": "South side backs onto school buildings (8 m); the only dwelling is 11 m away at the start and drops out further along.",
+    "access_and_room": "Kerbside on a narrow street; about 12 m clear beside the school frontage, one van length.",
+    "traffic": "Quiet outside school hours; school drop-off traffic at start and end of day.",
+    "convention": "Cars park at the west end of the street; none parked along this frontage."
+  },
+  "flags": [
+    "Short stretch, about one van length",
+    "School pick-up and drop-off activity",
+    "Dwelling 11 m away near the start"
+  ],
+  "sun_shade": "Mostly open; tree shade to the west end, shade sail south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 22,
+    "where": "Cecil Street south kerb beside the school hall and shade sail",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        152.979482,
+        -27.500733
+      ],
+      [
+        152.979602,
+        -27.50075
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 15.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

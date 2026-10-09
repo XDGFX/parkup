@@ -1,0 +1,49 @@
+{
+  "candidate": "58736639-60667417-1079204351-r-143",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short school-frontage kerb, no room beside the lane, stopping signs, sloping.",
+  "reasons": [
+    "No Stopping Any Time sign nearby",
+    "Kerb meets school footpath, no pull-off",
+    "Grade up to 13.2%, mean 8.6%"
+  ],
+  "drivers": {
+    "seclusion": "No dwellings within 31 m, but school buildings 11 m away and a soccer club across the road.",
+    "access_and_room": "Narrow sealed lane; west kerb abuts school footpath and trees, with no pull-off.",
+    "traffic": "School street with drop-off traffic on schooldays.",
+    "convention": "1/4P Parallel schooldays 8am-4pm and No Stopping Any Time; other cars park only on the east side."
+  },
+  "flags": [
+    "Steep: mean 8.6%, max 13.2% grade",
+    "No Stopping Any Time and 1/4P school-day signs",
+    "Mapped car park 13 m away may suit better"
+  ],
+  "sun_shade": "Trees shade the kerb from the west and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "crossfall",
+    "street lighting",
+    "kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 31,
+    "gated": false,
+    "slope_pct": 9.3,
+    "min_elevation_m": 13.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

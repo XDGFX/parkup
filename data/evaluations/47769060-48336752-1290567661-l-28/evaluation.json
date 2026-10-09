@@ -1,0 +1,64 @@
+{
+  "candidate": "47769060-48336752-1290567661-l-28",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside apartments at a junction; no parking and very steep.",
+  "reasons": [
+    "Apartments 6 m from kerb",
+    "No cars parked on this side",
+    "Slope far over 12%"
+  ],
+  "drivers": {
+    "seclusion": "Sofia apartments 6 m away at 8 m; the construction site and neighbouring blocks all within 30 m.",
+    "access_and_room": "Kerb beside a busy carriageway with no marked parking lane or pull-off on this side.",
+    "traffic": "Busy through road at a junction with several lanes.",
+    "convention": "Cars park on the west side only; none on this kerb."
+  },
+  "flags": [
+    "Steep: mean 16.8%, max 40% on DEM",
+    "Junction and arterial noise"
+  ],
+  "sun_shade": "Mostly open; trees to the east and building shadow in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "crossfall",
+    "street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 39,
+    "where": "Clarence Road east kerb, south of the junction beside the apartment block",
+    "slope_pct": 17.6,
+    "points": [
+      [
+        152.978861,
+        -27.495497
+      ],
+      [
+        152.978755,
+        -27.495639
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 17.2,
+    "min_elevation_m": 48.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

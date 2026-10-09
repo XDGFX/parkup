@@ -1,0 +1,65 @@
+{
+  "candidate": "53912207-58761968-8111887-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Only 8 m of kerb at a school junction with painted islands.",
+  "reasons": [
+    "8 m at a junction mouth",
+    "School loading zone and traffic islands",
+    "Dwelling 12 m, clinic 9 m"
+  ],
+  "drivers": {
+    "seclusion": "School grounds to the north; detached house 12 m and a psychology clinic 9 m away on the south side; very exposed at a junction.",
+    "access_and_room": "Sealed street; the kerb is barely a van length and sits beside painted chevron islands at the junction mouth.",
+    "traffic": "Busy school drop-off area with a loading zone and through traffic from the junction.",
+    "convention": "Cars park along the next stretch; 1P signs weekdays and a passenger loading zone at school times."
+  },
+  "flags": [
+    "Passenger loading zone 2 min max at school times",
+    "Junction with painted islands",
+    "Dwelling within 12 m, clinic within 9 m",
+    "School traffic and noise"
+  ],
+  "sun_shade": "Mostly open to the south; large tree canopy shades from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the junction apron is usable for stopping"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 8,
+    "where": "South kerb of Cecil Street beside the junction islands, near the school drop-off",
+    "slope_pct": 0.7,
+    "points": [
+      [
+        152.978965,
+        -27.500658
+      ],
+      [
+        152.979045,
+        -27.50067
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 0.7,
+    "min_elevation_m": 15.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

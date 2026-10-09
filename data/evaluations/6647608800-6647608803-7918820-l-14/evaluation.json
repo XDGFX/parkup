@@ -1,0 +1,51 @@
+{
+  "candidate": "6647608800-6647608803-7918820-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep, narrow residential street with houses 10-20 m away along the whole stretch.",
+  "reasons": [
+    "Dwellings within 10-20 m throughout",
+    "Mean grade 9.9%, max 21%",
+    "No Parking Any Time signs both ends"
+  ],
+  "drivers": {
+    "seclusion": "Homes line both sides, 10-24 m from the kerb all along; nowhere is clear of dwellings.",
+    "access_and_room": "Narrow sealed lane with kerb-to-fence verges; little room to pull fully off.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Two No Parking Any Time signs about 11 m off the line; a few cars park on the street but not as a camping convention."
+  },
+  "flags": [
+    "Steep: mean 9.9%, max 21% grade",
+    "No Parking Any Time signs on Eldon Street",
+    "Mapped gate 72 m away has a way round it (not on only access)"
+  ],
+  "sun_shade": "Mixed street trees shade the road, mostly from the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "crossfall",
+    "street lighting",
+    "kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 9.9,
+    "min_elevation_m": 35.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

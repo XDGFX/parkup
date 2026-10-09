@@ -1,0 +1,51 @@
+{
+  "candidate": "58736639-58763225-1078956694-l-25",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow residential kerb, houses 8-13 m away, No Stopping Any Time signs.",
+  "reasons": [
+    "Dwellings 8-13 m on own side",
+    "No Stopping Any Time signs",
+    "Narrow lane, little room to pull off"
+  ],
+  "drivers": {
+    "seclusion": "Houses sit 8-9 m from the kerb at 0-23 m and 8-13 m at 56-74 m; no clear stretch.",
+    "access_and_room": "Narrow sealed street, kerb-to-fence on the west side; cars park in the lane.",
+    "traffic": "Quiet residential street.",
+    "convention": "No Stopping Any Time signs at both ends of the stretch; a few residents' cars park nearby."
+  },
+  "flags": [
+    "No Stopping Any Time signs on Fairley Street",
+    "Steeper at the north end: max 14% grade, mean 5.7%",
+    "Mapped bollard and gate are over 220 m away with ways round"
+  ],
+  "sun_shade": "Street trees and hedges shade the kerb patchily from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "crossfall",
+    "street lighting",
+    "kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 5.2,
+    "min_elevation_m": 18.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

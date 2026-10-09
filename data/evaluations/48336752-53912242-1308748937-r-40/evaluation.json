@@ -1,0 +1,50 @@
+{
+  "candidate": "48336752-53912242-1308748937-r-40",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Line runs through dense bush and gardens; no road a van can use.",
+  "reasons": [
+    "No visible road, only vegetation",
+    "Steep, up to 11.6% grade",
+    "Homes 8-14 m from the line"
+  ],
+  "drivers": {
+    "seclusion": "Houses 8-14 m from the line, apartments beyond; no clear ground to stop on.",
+    "access_and_room": "Both images show trees and gardens along the line; the only road surface is at the 60 m end, with a bus zone.",
+    "traffic": "Not applicable: no usable carriageway along the stretch.",
+    "convention": "No parked cars; No Stopping Any Time and Bus Zone signs mapped at the kerb."
+  },
+  "flags": [
+    "Steep: about 6% mean, 11.6% max grade",
+    "No Stopping Any Time and Bus Zone signs",
+    "Dwellings within 10 m"
+  ],
+  "sun_shade": "Dense tree canopy over most of the line.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether a track or steps lie under the canopy",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 6.4,
+    "min_elevation_m": 39.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "48336903-53912628-1304769291-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a busy arterial at a junction, no parking.",
+  "reasons": [
+    "Arterial with no marked parking",
+    "Houses 12 m away",
+    "Kerb ends at junction markings"
+  ],
+  "drivers": {
+    "seclusion": "Houses 12 m away behind a tree strip; more homes and apartments across the road.",
+    "access_and_room": "Kerb runs against the lane with hatched markings and a junction by 25 m; no clear pull-off.",
+    "traffic": "Multi-lane through road with turning lanes and an island; heavy traffic.",
+    "convention": "A couple of cars sit near the start only; the stretch itself is not a parking kerb."
+  },
+  "flags": [
+    "Slope 5.7% mean, 10.2% max",
+    "Houses 12 m away",
+    "Noise from arterial road"
+  ],
+  "sun_shade": "Dense tree canopy over the east verge; shaded much of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Parking restrictions on site",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "East kerb of Clarence Road, just south of the first junction",
+    "slope_pct": 5.7,
+    "points": [
+      [
+        152.977866,
+        -27.499096
+      ],
+      [
+        152.97784,
+        -27.499229
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 8.2,
+    "min_elevation_m": 17.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

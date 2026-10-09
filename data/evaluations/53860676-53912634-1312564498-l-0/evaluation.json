@@ -1,0 +1,68 @@
+{
+  "candidate": "53860676-53912634-1312564498-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Through-road kerb with no parked cars, steep, scrub edge.",
+  "reasons": [
+    "Through road, no cars parked",
+    "No Stopping sign nearby",
+    "Steep 8.9% grade"
+  ],
+  "drivers": {
+    "seclusion": "Scrub and trees on the east side; nearest dwelling 19 m, with one at 10 m near the south end.",
+    "access_and_room": "Narrow kerb against bush and fence; no verge or pull-off clear of the lane.",
+    "traffic": "Two-lane through road with a junction at the south end; steady traffic.",
+    "convention": "No cars parked along this kerb, and a No Stopping Any Time sign sits near the road."
+  },
+  "flags": [
+    "Steep: 8.9% mean, 15.5% max",
+    "No Stopping Any Time sign about 10 m off the line, on the west side",
+    "Dwelling 10 m from the south end"
+  ],
+  "sun_shade": "Heavy tree cover on the east side; shaded much of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Which kerb the No Stopping sign covers",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "East kerb of Clarence Road beside the scrub, north of the side street",
+    "slope_pct": 7.7,
+    "points": [
+      [
+        152.977913,
+        -27.498107
+      ],
+      [
+        152.977897,
+        -27.49822
+      ],
+      [
+        152.977888,
+        -27.498285
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 7.8,
+    "min_elevation_m": 29.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:49:41Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
