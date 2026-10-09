@@ -1,15 +1,19 @@
 // The weekly timetable: when a candidate can be parked on, shared by the build screen and the app.
 // Every time is read in Australia/Brisbane time, whatever the device's time zone.
 
-export type Rule = {
-  kind: "no" | "limit";
+/** A weekly span of time, shared by parking rules and toilet opening hours. */
+export type Span = {
   /** ISO weekdays, 1 = Mon … 7 = Sun. */
   days: number[];
-  /** Hours, local Brisbane time. A rule that runs past midnight is split into two rules. */
+  /** Hours, local Brisbane time. A span that runs past midnight is split into two spans. */
   start: number;
   end: number;
-  /** Months the rule applies in, inclusive, e.g. [2, 11] for Feb–Nov. All year when absent. */
+  /** Months the span applies in, inclusive, e.g. [2, 11] for Feb–Nov. All year when absent. */
   months?: [from: number, to: number];
+};
+
+export type Rule = Span & {
+  kind: "no" | "limit";
   /** For kind "limit": hours you may stay, e.g. 2 for 2P or 0.25 for ¼P. */
   limitHours?: number;
   /** Raw plate text, for the card. */
@@ -51,7 +55,8 @@ export function brisbaneAt(base: Date | number, days: number, hour: number): Dat
   return new Date(Date.UTC(b.year, b.month - 1, b.date + days) + hour * HOUR - BRISBANE_OFFSET);
 }
 
-function applies(r: Rule, t: ReturnType<typeof brisbane>): boolean {
+/** True when `t`, as Brisbane wall-clock parts, falls inside the span. */
+export function applies(r: Span, t: ReturnType<typeof brisbane>): boolean {
   if (!r.days.includes(t.dow) || t.hour < r.start || t.hour >= r.end) return false;
   if (!r.months) return true;
   const [from, to] = r.months;
