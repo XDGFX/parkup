@@ -1,8 +1,8 @@
 // The build: snapshot inputs in, the candidates dataset and the build report out.
 import type { Rule } from "../timetable/timetable.ts";
-import type { Compass, LonLat } from "./geo.ts";
+import { toXY, type Compass, type LonLat } from "./geo.ts";
 import type { ToiletRecord } from "./inputs.ts";
-import { buildKerbs, type KerbInput, type KerbReport, type Stretch } from "./kerbs.ts";
+import { buildKerbs, suburbFinder, type KerbInput, type KerbReport, type Stretch } from "./kerbs.ts";
 import { buildSites, type SiteInput, type SiteKind } from "./sites.ts";
 import { maxStayHours, passesDaytime, passesOvernight } from "./screen.ts";
 import { nearestToilets, type NearestToilet, type Toilet } from "./toilets.ts";
@@ -53,6 +53,8 @@ export type BuildReport = Omit<KerbReport, "unparsed"> & {
   dayOnly: number;
   byTier: Record<"1" | "2" | "3" | "none", number>;
   unparsed: UnparsedOutcome[];
+  /** Site candidates by kind, how many have any timetable data (plates inside, or OSM time tags), and sites dropped by the screen. */
+  sites: { parkingAreas: number; offRoad: number; withTimetable: number; failsScreen: number };
 };
 
 export type BuildInput = KerbInput & SiteInput & { toilets?: ToiletRecord[]; /** Off in tests that only look at plate reading. */ screen?: boolean };
@@ -104,11 +106,14 @@ export function build({ screen: screening = true, toilets = [], ...input }: Buil
       toilet: null, tenure: null, trafficability: null,
     });
   }
+  const suburbOf = suburbFinder(input.signs);
+  const timetabled = new Set<string>();
   for (const s of sites) {
     const rules = s.rules, overnight = passesOvernight({ rules }), daytime = passesDaytime({ rules });
     if (screening && !overnight && !daytime) { siteFailsScreen++; continue; }
+    if (s.hasTimetable) timetabled.add(s.id);
     candidates.push({
-      id: s.id, kind: s.kind, street: s.name, suburb: "", side: null, line: s.line, lengthM: 0,
+      id: s.id, kind: s.kind, street: s.name, suburb: suburbOf(toXY(s.point)), side: null, line: s.line, lengthM: 0,
       rules, plates: s.plates, cautions: s.cautions, lowConfidence: false,
       overnight, daytime, dayOnly: daytime && !overnight, maxStayHours: maxStayHours({ rules }),
       frontage: s.frontage && { zone: s.frontage.zone, name: s.frontage.name }, tier: s.frontage?.tier ?? null, toilet: null,
@@ -133,6 +138,12 @@ export function build({ screen: screening = true, toilets = [], ...input }: Buil
       dayOnly: candidates.filter((c) => c.dayOnly).length,
       byTier: { 1: tierCount(1), 2: tierCount(2), 3: tierCount(3), none: tierCount(null) },
       unparsed: [...outcomes.values()],
+      sites: {
+        parkingAreas: candidates.filter((c) => c.kind === "parking-area").length,
+        offRoad: candidates.filter((c) => c.kind === "off-road").length,
+        withTimetable: timetabled.size,
+        failsScreen: siteFailsScreen,
+      },
     },
   };
 }

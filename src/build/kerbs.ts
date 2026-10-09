@@ -400,7 +400,7 @@ function parkingNo(tags: Record<string, string>, side: Side): boolean {
 }
 
 /** The suburb of the nearest plate, for kerbs with none of their own. */
-function suburbFinder(signs: SignRecord[]) {
+export function suburbFinder(signs: SignRecord[]) {
   const CELL = 300, grid = new Map<string, { p: XY; suburb: string }[]>();
   for (const s of signs) {
     const p = toXY([s.lon, s.lat]), k = `${Math.floor(p[0] / CELL)},${Math.floor(p[1] / CELL)}`;

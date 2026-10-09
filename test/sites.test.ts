@@ -175,6 +175,13 @@ describe("off-road sites", () => {
   });
 });
 
+describe("build report", () => {
+  it("counts sites by kind, those with any timetable data, and those failing the screen", () => {
+    const parkings = [carPark({ access: "yes" }, 1), carPark({ access: "yes", opening_hours: "Mo-Su 06:00-20:00" }, 2), carPark({ access: "yes", maxstay: "1 hour" }, 3)];
+    expect(run({ parkings, minorWays: [southTrack()] }).report.sites).toEqual({ parkingAreas: 2, offRoad: 2, withTimetable: 1, failsScreen: 1 });
+  });
+});
+
 describe("tenure label", () => {
   // The car park's point is the middle of its outline, (40, -70).
   const parcel = (tenure: string | null, parcelType: string | null = "Lot Type Parcel"): Parcel => {
