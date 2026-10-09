@@ -430,12 +430,12 @@ export async function fetchContext(target: Target, outFile: string): Promise<Con
 
 // --- targets ---
 
-/** A kerb beside an OSM way chain (side 1 left, -1 right, of the chain's direction), the outline of an area (side 0), or a pin. */
-export type Spot = { id: string; street: string; suburb: string; ways?: number[]; side?: number; point?: LonLat; note?: string; known: string };
+/** A calibration known place: a kerb beside an OSM way chain (side 1 left, -1 right, of the chain's direction), the outline of an area (side 0), or a pin. */
+export type KnownPlace = { id: string; street: string; suburb: string; ways?: number[]; side?: number; point?: LonLat; note?: string; known: string };
 
-export async function spotTarget(spot: Spot, halfWidth: Record<string, number>): Promise<Target> {
-  if (spot.point) return { id: spot.id, street: spot.street, suburb: spot.suburb, kind: "point", line: [spot.point], osm_tags: {} };
-  const ways = await Promise.all(spot.ways!.map(async (id) => {
+export async function knownPlaceTarget(place: KnownPlace, halfWidth: Record<string, number>): Promise<Target> {
+  if (place.point) return { id: place.id, street: place.street, suburb: place.suburb, kind: "point", line: [place.point], osm_tags: {} };
+  const ways = await Promise.all(place.ways!.map(async (id) => {
     const { elements } = await json(`https://api.openstreetmap.org/api/0.6/way/${id}/full.json`);
     const nodes = new Map<number, LonLat>(elements.filter((e: any) => e.type === "node").map((e: any) => [e.id, [e.lon, e.lat]]));
     const way = elements.find((e: any) => e.type === "way");
@@ -445,10 +445,10 @@ export async function spotTarget(spot: Spot, halfWidth: Record<string, number>):
   const tags = Object.assign({}, ...ways.map((w) => w.tags)) as Record<string, string>;
   const osmTags = Object.fromEntries(Object.entries(tags).filter(([k]) =>
     ["highway", "maxspeed", "oneway", "lanes", "lit", "surface", "width", "sidewalk", "amenity", "access", "fee"].includes(k) || k.startsWith("parking")));
-  if (!spot.side) return { id: spot.id, street: spot.street, suburb: spot.suburb, kind: "outline", line: centre, side: "outline", osm_tags: osmTags };
-  const d = (halfWidth[tags.highway ?? ""] ?? 5) * spot.side;
+  if (!place.side) return { id: place.id, street: place.street, suburb: place.suburb, kind: "outline", line: centre, side: "outline", osm_tags: osmTags };
+  const d = (halfWidth[tags.highway ?? ""] ?? 5) * place.side;
   const kerb = offset(centre.map(toXY), d).map(toLonLat);
-  return { id: spot.id, street: spot.street, suburb: spot.suburb, kind: "kerb", line: kerb, side: spot.side > 0 ? "left" : "right", osm_tags: osmTags };
+  return { id: place.id, street: place.street, suburb: place.suburb, kind: "kerb", line: kerb, side: place.side > 0 ? "left" : "right", osm_tags: osmTags };
 }
 
 /** Chain ways into one line, flipping any that run backwards. */
