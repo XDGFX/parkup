@@ -2,7 +2,7 @@
 import { describe, expect, it } from "vitest";
 import { build, type BuildInput, type Candidate } from "../src/build/build.ts";
 import type { OsmArea } from "../src/build/inputs.ts";
-import { lonLat, testStreet, zone } from "./fixtures.ts";
+import { lonLat, node, testStreet, way, zone } from "./fixtures.ts";
 
 const run = (input: Partial<BuildInput>) => build({ signs: [], ways: testStreet, ...input });
 const sites = (input: Partial<BuildInput>) => run(input).candidates.filter((c) => c.kind !== "kerb");
@@ -31,9 +31,22 @@ describe("parking areas", () => {
   });
 
   it("are ruled out by access=private|customers|no|permit or fee=yes, and off-street only", () => {
-    const ruledOut = [{ access: "private" }, { access: "customers" }, { access: "no" }, { access: "permit" }, { fee: "yes" }, { parking: "street_side" }];
+    const ruledOut: Record<string, string>[] = [{ access: "private" }, { access: "customers" }, { access: "no" }, { access: "permit" }, { fee: "yes" }, { parking: "street_side" }];
     expect(sites({ parkings: ruledOut.map((t, i) => carPark(t, 510 + i)) })).toEqual([]);
     expect(sites({ parkings: [carPark({ fee: "no" })] })).toHaveLength(1);
+  });
+
+  it("are ruled out by a mapped gate, lift gate or bollard on the only access way, unless it's locked=no", () => {
+    // A service way from Test Street into the car park, with a barrier 10 m along it.
+    const aisle = (id: number, y: number) => ({ ...way(id, "", [id * 10, id * 10 + 1, id * 10 + 2], [[0, y], [10, y], [30, y]], "service"), tags: { highway: "service" } });
+    const barrier = (wayId: number, tags: Record<string, string>) => node(wayId * 10 + 1, 10, -70, tags);
+    const withGate = (tags: Record<string, string>) => sites({ parkings: [carPark({ access: "yes" })], minorWays: [aisle(60, -70)], nodes: [barrier(60, tags)] });
+    expect(withGate({ barrier: "gate" })).toEqual([]);
+    expect(withGate({ barrier: "lift_gate" })).toEqual([]);
+    expect(withGate({ barrier: "bollard" })).toEqual([]);
+    expect(withGate({ barrier: "gate", locked: "no" })).toHaveLength(1);
+    // A second, open way in keeps it.
+    expect(sites({ parkings: [carPark({ access: "yes" })], minorWays: [aisle(60, -70), aisle(61, -80)], nodes: [barrier(60, { barrier: "gate" })] })).toHaveLength(1);
   });
 
   it("motor_vehicle=private is a caution, not a rule-out", () => {

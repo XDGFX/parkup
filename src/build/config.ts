@@ -89,3 +89,9 @@ export const SITE_RULE_OUT = {
   ACCESS: /^(private|customers|no|permit)$/,
   ON_STREET: /^(street_side|lane|on_street)$/,
 };
+
+/**
+ * Barriers that stop a vehicle, on a car park's access way or along a track, unless tagged `locked=no`.
+ * A way touches a car park when one of its nodes is inside the outline or within TOUCH_M of it.
+ */
+export const BARRIER = { BLOCKS: /^(gate|lift_gate|bollard|swing_gate|chain|block|jersey_barrier|log)$/, TOUCH_M: 2 };
