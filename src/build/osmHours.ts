@@ -1,22 +1,16 @@
 // OSM time tags on a site, read into timetable rules: `opening_hours` (closed hours are no parking), `maxstay`
 // (a limit at all times) and `fee:conditional` (no parking while the fee applies). Only the common forms are read.
+import { ALL_DAYS as ALL, DAYLIGHT, dailySpans, names } from "../timetable/hours.ts";
 import type { Rule, Span } from "../timetable/timetable.ts";
 
-const ALL = [1, 2, 3, 4, 5, 6, 7];
-const DAYS = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"];
-/** sunrise–sunset and dawn–dusk, taken as 6am–6pm like the toilets' "Daylight hours". */
-const SUN: Record<string, number> = { sunrise: 6, dawn: 6, sunset: 18, dusk: 18 };
+const DAYS = ["mo", "tu", "we", "th", "fr", "sa", "su"];
+/** sunrise–sunset and dawn–dusk, taken as daylight, like the toilets' "Daylight hours". */
+const SUN: Record<string, number> = { sunrise: DAYLIGHT.start, dawn: DAYLIGHT.start, sunset: DAYLIGHT.end, dusk: DAYLIGHT.end };
 
-/** "Mo-Fr,Su" → [1, 2, 3, 4, 5, 7]. Public holidays (PH) are left out. Null if a name isn't recognised. */
+/** "Mo-Fr,Su" → [1, 2, 3, 4, 5, 7]. Public and school holidays (PH, SH) are left out. Null if a name isn't recognised. */
 function days(list: string): number[] | null {
-  const out: number[] = [];
-  for (const part of list.split(",")) {
-    if (part === "PH" || part === "SH") continue;
-    const [a, b] = part.split("-").map((d) => DAYS.indexOf(d) + 1);
-    if (!a || (b !== undefined && !b)) return null;
-    for (let i = a; ; i = (i % 7) + 1) { out.push(i); if (i === (b ?? a)) break; }
-  }
-  return out;
+  const named = list.split(",").filter((p) => p !== "PH" && p !== "SH");
+  return named.length ? names(named.join(","), DAYS) : [];
 }
 
 /** "06:30" → 6.5, "sunset" → 18. */
@@ -39,9 +33,7 @@ function rule(text: string): { days: number[]; open: Span[] } | null {
   for (const range of times.split(",")) {
     const [a, b, extra] = range.trim().split("-").map(time);
     if (a == null || b == null || extra !== undefined) return null;
-    const end = b || 24;
-    if (end > a) open.push({ days: d, start: a, end });
-    else open.push({ days: d, start: a, end: 24 }, { days: d.map((x) => (x % 7) + 1), start: 0, end });
+    open.push(...dailySpans(d, a, b));
   }
   return { days: d, open };
 }
