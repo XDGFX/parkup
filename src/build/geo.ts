@@ -78,3 +78,30 @@ export function compassSide(line: XY[], side: "left" | "right"): Compass {
   if (Math.abs(nx) > Math.abs(ny)) return nx > 0 ? "east" : "west";
   return ny > 0 ? "north" : "south";
 }
+
+/** The point `s` metres along `line`, and the unit direction of the line there. */
+export function pointAt(line: XY[], s: number): { p: XY; dir: XY } {
+  let run = 0;
+  for (let i = 1; i < line.length; i++) {
+    const a = line[i - 1]!, b = line[i]!, len = dist(a, b);
+    if (!len) continue;
+    if (run + len >= s || i === line.length - 1) {
+      const t = Math.max(0, Math.min(1, (s - run) / len));
+      return { p: [a[0] + t * (b[0] - a[0]), a[1] + t * (b[1] - a[1])], dir: [(b[0] - a[0]) / len, (b[1] - a[1]) / len] };
+    }
+    run += len;
+  }
+  return { p: line[0]!, dir: [1, 0] };
+}
+
+/** Whether `p` is inside a polygon given as rings (the first the outline, the rest holes), by the even-odd rule. */
+export function inRings(rings: XY[][], p: XY): boolean {
+  let inside = false;
+  for (const ring of rings) {
+    for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+      const [xi, yi] = ring[i]!, [xj, yj] = ring[j]!;
+      if (yi > p[1] !== yj > p[1] && p[0] < ((xj - xi) * (p[1] - yi)) / (yj - yi) + xi) inside = !inside;
+    }
+  }
+  return inside;
+}

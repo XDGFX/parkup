@@ -12,7 +12,11 @@ const extent = (c: Candidate) => {
   const ys = [yOf(c.line[0]!), yOf(c.line.at(-1)!)].map(Math.round);
   return [Math.max(...ys), Math.min(...ys)];
 };
-const run = (signs: SignRecord[], ways: OsmWay[] = testStreet) => build({ signs, ways });
+/** The signed candidates: these tests are about plates, so they leave out the unsigned kerbs around them. */
+const run = (signs: SignRecord[], ways: OsmWay[] = testStreet) => {
+  const out = build({ signs, ways });
+  return { ...out, candidates: out.candidates.filter((c) => c.plates.length) };
+};
 const NP = "No Parking Specified Times";
 const at = (s: string) => new Date(`${s}+10:00`);
 
@@ -46,17 +50,17 @@ describe("pairing opposite arrows (s 332)", () => {
     expect(candidates.map(extent)).toEqual([[-20, -80]]);
   });
 
-  it("an unpaired arrow runs to the next intersection and is flagged low confidence", () => {
+  it("an unpaired arrow runs to the next intersection and is flagged low confidence, stopping short of the s 170 setback", () => {
     const { candidates } = run([sign({ x: -4, y: -120, dir: "Left", type: NP, times: "MON-FRI:7am-6pm" })]);
     expect(candidates).toHaveLength(1);
-    expect(extent(candidates[0]!)).toEqual([-120, -200]);
+    expect(extent(candidates[0]!)).toEqual([-120, -186]);
     expect(candidates[0]!.lowConfidence).toBe(true);
     expect(candidates[0]!.cautions).toContain("Low-confidence stretch");
   });
 
-  it("an unpaired arrow pointing back runs to the intersection behind it", () => {
+  it("an unpaired arrow pointing back runs back to the setback of the intersection behind it", () => {
     const { candidates } = run([sign({ x: -4, y: -50, dir: "Right", type: NP, times: "MON-FRI:7am-6pm" })]);
-    expect(candidates.map(extent)).toEqual([[0, -50]]);
+    expect(candidates.map(extent)).toEqual([[-14, -50]]);
   });
 
   it("only pairs plates with the same restriction", () => {
@@ -139,7 +143,7 @@ describe("plate reading", () => {
       sign({ x: -4, y: -20, dir: "Left", type, times, desc }),
       sign({ x: -4, y: -80, dir: "Right", type, times, desc }),
     ];
-    return build({ signs, ways: testStreet, screen: false }).candidates[0]?.rules;
+    return build({ signs, ways: testStreet, screen: false }).candidates.find((c) => c.plates.length)?.rules;
   };
 
   it("reads time limits", () => {
@@ -210,8 +214,9 @@ describe("plate reading", () => {
       ...westPair(-100, -150, NP, "ALL OTHER TIMES:-"),
       ...westPair(-160, -190, NP, null),
     ];
-    const { candidates, report } = build({ signs, ways: testStreet, screen: false });
-    expect(report.unparsed).toEqual([
+    const { report, ...out } = build({ signs, ways: testStreet, screen: false });
+    const candidates = out.candidates.filter((c) => c.plates.length);
+    expect(report.unparsed).toMatchObject([
       { text: "No Parking Specified Times: (no times)", count: 2 },
       { text: "No Parking Specified Times: ALL OTHER TIMES:-", count: 2 },
     ]);
@@ -287,7 +292,7 @@ describe("Adsett St in the real snapshot", () => {
   });
 
   it("pairs the plates into the measured stretches", () => {
-    const adsett = candidates.filter((c) => c.street === "Adsett Street");
+    const adsett = candidates.filter((c) => c.street === "Adsett Street" && c.plates.length);
     const lengths = (side: string) => adsett.filter((c) => c.side === side).map((c) => c.lengthM).sort((a, b) => a - b);
     // The no-stopping stretch at the Moggill Rd end fails the screen.
     expect(lengths("west")).toEqual([expect.closeTo(14, -1), expect.closeTo(47, -1), expect.closeTo(49, -1)]);
