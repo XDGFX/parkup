@@ -1,0 +1,34 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Small dead-end lot between shops, off a larger car park; homes over 30 m away.",
+  "reasons": [
+    "Walled in by commercial buildings on three sides",
+    "Nearest dwellings 33 m or more from best section",
+    "Room for a van beside the few parked cars"
+  ],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "Open ground at the north end of the small lot behind the shops",
+    "slope_pct": 1.5
+  },
+  "drivers": {
+    "seclusion": "Shops and storage buildings 1-15 m away; nearest dwellings 33-34 m west, house 16 m but only near the south end (35 m along).",
+    "access_and_room": "Opens straight onto the larger car park to the north; about 12 m by 18 m of sealed ground with a few cars.",
+    "traffic": "Back lot, tucked away from the street; only car park movements.",
+    "convention": "Part of a commercial car park area; no sign of overnight stays."
+  },
+  "flags": [
+    "Mapped as private parking, access may be restricted",
+    "House 16 m from the south end of the outline"
+  ],
+  "sun_shade": "Open to sky; buildings to the east and west shade the morning and afternoon edges, trees on the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Private-parking signs and time limits",
+    "Whether the car park is locked or patrolled at night",
+    "Street lighting"
+  ],
+  "confidence": "medium"
+}

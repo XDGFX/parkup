@@ -1,0 +1,75 @@
+{
+  "candidate": "osm-way-1470783593",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Tiny forecourt of a commercial building in a dense apartment area.",
+  "reasons": [
+    "Private-looking forecourt, no vehicles seen",
+    "Apartments 18 m away, homes all round",
+    "Loading and no-stopping signs on frontage"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by apartment blocks 18 to 26 m away and busy commercial frontage.",
+    "access_and_room": "Small hard-standing strip against a building with no vehicles or tracks visible; looks like a private forecourt.",
+    "traffic": "Inner-city street with traffic, pedestrians and nearby businesses.",
+    "convention": "Signs show loading zone and no stopping at specified times; no sign of overnight parking."
+  },
+  "flags": [
+    "Low-lying: about 5.5 m elevation, 253 m from Brisbane River",
+    "Loading zone and no-stopping signs on adjacent kerb",
+    "Apartments Aura and Arriva 18 m away"
+  ],
+  "sun_shade": "Mostly open, shaded by the building to the east in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the forecourt is private or gated",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 45,
+    "where": "Strip beside The Nest Creative Space on the corner of Brisbane Street",
+    "slope_pct": 1.6,
+    "points": [
+      [
+        152.999409,
+        -27.48577
+      ],
+      [
+        152.999435,
+        -27.485729
+      ],
+      [
+        152.999283,
+        -27.485653
+      ],
+      [
+        152.999257,
+        -27.485695
+      ],
+      [
+        152.999409,
+        -27.48577
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 5.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

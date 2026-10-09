@@ -1,0 +1,48 @@
+{
+  "candidate": "osm-way-442977783",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Customer car park for a medical centre, with lift gates at the entry.",
+  "reasons": [
+    "Mapped lift gates at the entrance",
+    "Customers-only car park, bays in use",
+    "Exposed to street, houses 20 m away"
+  ],
+  "drivers": {
+    "seclusion": "Open to Catherine Street on the north side, with apartments 20 m and houses 21 m away on the east.",
+    "access_and_room": "Lift gates are mapped at 0 m and 10 m, right at the entrance, and the mapped parking is customers-only. Marked bays are partly occupied.",
+    "traffic": "Busy commercial street along the north edge; metered parking and no-stopping signs.",
+    "convention": "Medical centre customer parking, with metered 4P and 1/2P parking on the street; no overnight use seen."
+  },
+  "flags": [
+    "Lift gates on the entrance, likely closed after hours",
+    "Customers-only access tagged",
+    "Street signs: 4P meter Mon-Fri 8am-5pm, 1/2P parallel and no stopping nearby"
+  ],
+  "sun_shade": "Open to sun; the large building on the west shades the bays in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the lift gates are closed at night",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 3.8,
+    "min_elevation_m": 14.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

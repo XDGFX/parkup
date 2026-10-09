@@ -1,0 +1,68 @@
+{
+  "candidate": "osm-way-461995560",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Sealed shop and childcare car park with planted bush on east and south sides.",
+  "reasons": [
+    "Open car park, homes over 25 m from bays",
+    "Flat sealed bays backing onto planting",
+    "Busy road is separated by planting"
+  ],
+  "drivers": {
+    "seclusion": "Bays face planting to the south and east; nearest houses are across a hedge to the west, roughly 25 m or more from the southern bays, and the Montessori building is non-residential.",
+    "access_and_room": "Sealed driveway opens off the road and the bays are marked; room for a van if the aisle is clear. No gate seen across the entrance.",
+    "traffic": "Busy curving road close by, but screened by planting; passers-by are retail and childcare customers in the day.",
+    "convention": "No signs and no campervans seen; customer car park, so overnight use is unconfirmed."
+  },
+  "flags": [
+    "Customer car park for retail and Montessori; overnight use unconfirmed",
+    "Outline slope data picks up the bank; the sealed lot itself is flat",
+    "Noise from the adjacent main road"
+  ],
+  "sun_shade": "Open; trees to the south shade the bays in the middle of the day, the building shades the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking signs on site",
+    "Street lighting",
+    "Whether the car park is locked at night"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 80,
+    "to_m": 100,
+    "where": "Southern bays at the car park's rear, beside the planted strip next to Jerrang Street",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.947031,
+        -27.507449
+      ],
+      [
+        152.946937,
+        -27.507458
+      ],
+      [
+        152.946925,
+        -27.507362
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 24,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 32.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

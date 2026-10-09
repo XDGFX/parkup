@@ -1,0 +1,68 @@
+{
+  "candidate": "osm-way-590892214",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Narrow strip of bays with an unmapped house beside it, about 3 m away.",
+  "reasons": [
+    "House roof beside west edge, unmapped",
+    "Narrow lane between house and shops",
+    "Cluttered end, cars packed in"
+  ],
+  "drivers": {
+    "seclusion": "A house with solar panels sits right against the west edge of the strip, closer than 10 m though OSM does not list it as a dwelling. Shops on the east side.",
+    "access_and_room": "Reachable from the street by a short sealed entrance; width is about one car bay plus a lane, tight for a van.",
+    "traffic": "Quiet side street with shop traffic; little through noise.",
+    "convention": "Cars parked in bays; looks like shop or staff parking. Daytime signs on nearby streets, nothing against overnight."
+  },
+  "flags": [
+    "Unmapped house within 10 m on the west side",
+    "Narrow strip, tight for a long van",
+    "Possibly private shop parking"
+  ],
+  "sun_shade": "Open sealed strip; house and trees shade the west side in the morning.",
+  "rubbish": "Some clutter and pallets at the north end.",
+  "cannot_judge": [
+    "Street lighting",
+    "Overnight rules",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 25,
+    "where": "Bays at the street end of the strip between the house and the shop building",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.975438,
+        -27.521591
+      ],
+      [
+        152.975499,
+        -27.5216
+      ],
+      [
+        152.97553,
+        -27.521432
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 14.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

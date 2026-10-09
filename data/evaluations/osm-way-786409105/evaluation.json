@@ -1,0 +1,66 @@
+{
+  "candidate": "osm-way-786409105",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "parking area",
+  "summary": "Gravel lot ringed by apartment towers; workable but heavily overlooked.",
+  "reasons": [
+    "Apartments 5 to 19 m away on all sides",
+    "Gravel lot with cars parked in it",
+    "Flat, with room for a van"
+  ],
+  "drivers": {
+    "seclusion": "Towers surround it: Building 2 is 19 m away, Building 1 is 5 m away at 37 m, The Plaza is 10 m away at 92 m; many windows look down.",
+    "access_and_room": "Open gravel lot with cars parked and a way in from the side street; room for a van.",
+    "traffic": "Quiet one-way side street; city noise from the surrounding blocks.",
+    "convention": "Looks like an informal car park on a development site; overnight use unknown."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Possible redevelopment or private land",
+    "Low-lying: lowest point about 5.8 m, no mapped waterway",
+    "Council signs on the nearby street: meters, loading zone, no stopping"
+  ],
+  "sun_shade": "Open gravel; tall towers shade it much of the day, especially from the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Who owns the lot and whether overnight stays are allowed",
+    "Street lighting and security cameras"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 30,
+    "where": "North-east end of the gravel lot, beside the side street entrance, away from the south tower",
+    "slope_pct": 1.1,
+    "points": [
+      [
+        153.015633,
+        -27.476796
+      ],
+      [
+        153.015414,
+        -27.476908
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 5.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

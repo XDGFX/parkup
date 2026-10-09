@@ -1,0 +1,65 @@
+{
+  "candidate": "osm-way-1470776459",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Warehouse car park off Brisbane Street; homes 38 m+ from the north bays.",
+  "reasons": [
+    "Backs onto large warehouse and commercial buildings",
+    "Nearest dwellings 38 m or more away",
+    "Open lot with many cars parked"
+  ],
+  "drivers": {
+    "seclusion": "Warehouse wall on one side, commercial buildings opposite; apartments 38 m at 91 m, 22-23 m elsewhere along the western edge.",
+    "access_and_room": "Open driveway entrances from both streets; wide aisles and bays fit a van.",
+    "traffic": "Moderate street traffic on the north edge; quiet beside the warehouse.",
+    "convention": "Many cars parked; no campervans or tents seen."
+  },
+  "flags": [
+    "Mapped parking is private or customers only",
+    "Terrace 13 m away at 158 m, apartments 22 m on the west side",
+    "Low-lying: min 5.1 m, Brisbane River 272 m away",
+    "Locked gates mapped nearby (not on the access)"
+  ],
+  "sun_shade": "Open to sun; warehouse shades the lot from the east in the morning and a few trees shade the west edge.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the lot is private or time-limited",
+    "Security patrols and lighting",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 105,
+    "to_m": 135,
+    "where": "Northern bays beside the warehouse, off the side street opposite the commercial block",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        153.001164,
+        -27.482796
+      ],
+      [
+        153.00143,
+        -27.482927
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 5.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,68 @@
+{
+  "candidate": "osm-way-513229654",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Row of angled street bays in a shopping strip; no homes, but exposed.",
+  "reasons": [
+    "No dwellings mapped within 50 m",
+    "Angled bays short for a van",
+    "Open to the street and shops"
+  ],
+  "drivers": {
+    "seclusion": "Shops and a church all round, nearest dwellings not mapped within 50 m. The bays face a street and a car park, so a van is plainly visible.",
+    "access_and_room": "Open angled bays off the street; marked bays about car length, a 7 m van would overhang.",
+    "traffic": "Town-centre street with a railway about 60 m east; quiet overnight but visible.",
+    "convention": "Signed 1P and 4P angle parking in daytime hours; cars park here, overnight use not signed against."
+  },
+  "flags": [
+    "Daytime time limits on surrounding signs",
+    "Rail noise to the east",
+    "Angled bays may not fit a long van"
+  ],
+  "sun_shade": "Open to sun; the building to the south shades the bays at midday.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Overnight enforcement",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 25,
+    "where": "Angled bays on the north side of the shop block, by the Bank Road corner",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        152.975842,
+        -27.521804
+      ],
+      [
+        152.976042,
+        -27.521832
+      ],
+      [
+        152.976034,
+        -27.521877
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 14.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "parking area",
+  "summary": "Small private-looking forecourt between buildings, apartments 4 m away.",
+  "reasons": ["Adagio apartments 4 m from the lot", "Enclosed by commercial buildings, no overnight use", "Forecourt opens straight onto Brisbane Street"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Hemmed in by warehouses and the Adagio apartments, which sit 4 m from the east edge; street frontage is open to view.",
+    "access_and_room": "Brick-paved forecourt opens onto the street, but a few cars park in it, apparently for the adjoining businesses; the Esri image is shadowed and shows less detail.",
+    "traffic": "Busy inner-city street with parked cars along it and pedestrians.",
+    "convention": "No signs and no campervans; mapped as a private car park."
+  },
+  "flags": ["Dwelling (Adagio) within 4 m", "Low-lying: down to 3.3 m elevation, 325 m from Brisbane River", "Mapped car park 4 m away is tagged private", "Max grade 14.8% on the outline, from steps and edges"],
+  "sun_shade": "Shaded by tall buildings to the east and south for much of the day.",
+  "rubbish": "Some clutter near the north-west corner in QLD image.",
+  "cannot_judge": ["Whether the forecourt is gated at night", "Street lighting"],
+  "confidence": "medium"
+}

@@ -1,0 +1,60 @@
+{
+  "candidate": "osm-node-12432792063",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Rooftop shop car park in West End's busy centre, with homes beyond the sides.",
+  "reasons": [
+    "Pin is on a shop roof, deck is east",
+    "Town-centre location, close to homes",
+    "Ramp access and hours unknown"
+  ],
+  "drivers": {
+    "seclusion": "Deck sits behind the Boundary Street frontage; nearest dwelling 26 m west, houses and apartments 48 to 60 m away, church and shops closer.",
+    "access_and_room": "Pin lands on a shop roof, so I judged the open car deck 15 to 25 m east, with several cars parked. Entry ramp not visible.",
+    "traffic": "Busy main road and traffic lights 40 to 60 m north; noise and pedestrians likely.",
+    "convention": "Shopper parking in a commercial centre with no sign of overnight stays."
+  },
+  "flags": [
+    "Town-centre noise and foot traffic",
+    "Possible entry barrier or time limit",
+    "Slope figures come from the pin, which is on a building; the deck looks flat"
+  ],
+  "sun_shade": "Open deck in sun; the buildings to the west shade it in the late afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Access ramp, barrier and height clearance",
+    "Hours and fees",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Rooftop deck of the shopping block, just east of the pin",
+    "slope_pct": 2,
+    "points": [
+      [
+        153.012154,
+        -27.481345
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 26,
+    "gated": false,
+    "slope_pct": 7.2,
+    "min_elevation_m": 12,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

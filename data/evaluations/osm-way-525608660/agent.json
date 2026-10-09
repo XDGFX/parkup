@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Full row of bays in a retail car park, nearest house 36 m.",
+  "reasons": ["Retail surroundings, nearest house 36 m", "Bays full of cars, van blends in", "Level sealed surface"],
+  "best_section": {
+    "from_m": 10,
+    "to_m": 40,
+    "where": "Bay row along the east edge of the car park, beside the roadside verge on Marshall Lane",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Shops to the west, a roadside verge and the road to the east; the nearest mapped houses are 36 m away to the south.",
+    "access_and_room": "Marked bays open off the lot's aisle and the lot has no gate; the row is nearly full, so a space may be hard to find.",
+    "traffic": "Busy road about 15 m away beyond a verge; the lot is busy by day.",
+    "convention": "Many cars are parked in the row, so a van would blend in; no campervans seen and overnight rules unknown."
+  },
+  "flags": ["Retail car park: overnight rules unknown", "Marshall Lane has No Stopping Any Time and Bus Zone signs, which apply to the road rather than the bays", "Noise from the main road"],
+  "sun_shade": "Open; a large tree shades the south end, and the row is lit by sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Parking signs on site", "Street lighting", "Whether the car park is closed at night"],
+  "confidence": "medium"
+}

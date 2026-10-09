@@ -1,0 +1,68 @@
+{
+  "candidate": "osm-way-1243599998",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Tiny private apartment car park beside a pool, with towers close.",
+  "reasons": [
+    "Apartments 11 m away, pool beside bays",
+    "Only a few small bays",
+    "Private resident parking, overlooked"
+  ],
+  "drivers": {
+    "seclusion": "River Plaza Apartments are 11 m away at 39 m and Southbank Apartments 14 m away; the building and its pool sit directly beside the lot.",
+    "access_and_room": "Sealed lot opening onto Dock Street; marked bays about car width, tight for a van.",
+    "traffic": "Dock Street curves past with no stopping on the kerb; the Riverside Expressway lies beyond.",
+    "convention": "Serves the adjoining apartment block; no sign of overnight stays."
+  },
+  "flags": [
+    "Steep along the outline: about 3% grade at 0 to 20 m",
+    "Likely private resident parking",
+    "No Stopping Any Time signs on the adjacent kerb",
+    "Brisbane River 154 m away, ground about 11 m"
+  ],
+  "sun_shade": "Open asphalt in full sun; the tower shades the south-west corner in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Gating or entry barriers",
+    "Signage on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "Western bays of the small car park off Dock Street",
+    "slope_pct": 3,
+    "points": [
+      [
+        153.027623,
+        -27.482248
+      ],
+      [
+        153.027806,
+        -27.482275
+      ],
+      [
+        153.027803,
+        -27.48229
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 3.4,
+    "min_elevation_m": 10.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

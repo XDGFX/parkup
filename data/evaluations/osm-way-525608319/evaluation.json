@@ -1,0 +1,64 @@
+{
+  "candidate": "osm-way-525608319",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Open shopping-strip car park, no homes within about 45 m.",
+  "reasons": [
+    "Commercial surroundings, nearest house 49 m",
+    "Sealed car park with marked bays",
+    "Flat on the lot itself"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by shops and offices; nearest mapped house is 49 m away and apartments sit behind a planted screen to the south-west.",
+    "access_and_room": "Sealed lot with open access from the internal lane and no gate; marked bays have room for a van, though it is well used by day.",
+    "traffic": "A busy main road runs along the north-west side, and the lot is full of shoppers by day.",
+    "convention": "No signs and no campervans seen; many cars parked, so a van would blend in, though overnight use is unconfirmed."
+  },
+  "flags": [
+    "Customer-style car park: overnight rules unknown",
+    "Outline slope figures are inflated by the bank edge; the lot is level",
+    "Noise from the main road to the north-west"
+  ],
+  "sun_shade": "Open to sun; palms and planting shade the north-east and south-west edges.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking signs on site",
+    "Street lighting",
+    "Whether the lot is chained at night"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 105,
+    "to_m": 120,
+    "where": "South-east bays of the car park, beside the access lane and retail units",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        152.947153,
+        -27.508695
+      ],
+      [
+        152.94704,
+        -27.508786
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 61,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 24.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

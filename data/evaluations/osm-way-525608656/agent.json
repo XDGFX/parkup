@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Marked bays in a retail car park, no homes nearby.",
+  "reasons": ["Only shops around, no dwellings mapped", "Marked bays, many cars parked", "Flat sealed surface"],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 25,
+    "where": "Row of bays in the middle of the shopping-centre car park, near the Marshall Lane exit",
+    "slope_pct": 0.4
+  },
+  "drivers": {
+    "seclusion": "Surrounded by retail buildings and car parking; no dwellings in the mapped data.",
+    "access_and_room": "Sealed bays open off the internal aisle with no gate seen; bays are marked and a light van should fit, possibly across two.",
+    "traffic": "Main road runs along the east side, 25 m or more away; shoppers and delivery vehicles by day.",
+    "convention": "Lot is full of parked cars so a van blends in; no campervans seen and overnight rules are unknown."
+  },
+  "flags": ["Retail car park: overnight rules unknown", "No Stopping Any Time sign on Marshall Lane 13 m off the outline, on the lane rather than the bays", "Noise from the main road"],
+  "sun_shade": "Open; the nearby palms give little shade.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Parking signs on site", "Street lighting", "Whether the car park is closed at night"],
+  "confidence": "medium"
+}

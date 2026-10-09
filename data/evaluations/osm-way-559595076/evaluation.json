@@ -1,0 +1,68 @@
+{
+  "candidate": "osm-way-559595076",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Marked bays between two shop buildings; nearest homes 30 m or more from the west end.",
+  "reasons": [
+    "Bays hemmed in by shop buildings",
+    "No dwelling within 30 m of west end",
+    "Flat, sealed, van-length bays"
+  ],
+  "drivers": {
+    "seclusion": "Shops either side; the nearest mapped houses are 33 m or more away to the east behind trees, and the closest (16 m) is beside the far end only.",
+    "access_and_room": "Open from the car park forecourt; sealed, marked bays, a van fits along the row.",
+    "traffic": "Arterial road 40 m to the west; the forecourt is quiet at night apart from the shop.",
+    "convention": "Looks like shop or customer parking; some cars in bays. Overnight rules unknown."
+  },
+  "flags": [
+    "Possibly customer-only parking",
+    "Houses 16-23 m away at the eastern end, 43 m or more from the best section",
+    "Arterial road noise"
+  ],
+  "sun_shade": "Open sealed bays, shaded from the north by the building; tree canopy on the east end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Overnight parking rules",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 25,
+    "where": "Western end of the bay row, between the two shop buildings off the main road",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.948174,
+        -27.508012
+      ],
+      [
+        152.948424,
+        -27.508046
+      ],
+      [
+        152.948425,
+        -27.508046
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 25,
+    "gated": false,
+    "slope_pct": 3.1,
+    "min_elevation_m": 23.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

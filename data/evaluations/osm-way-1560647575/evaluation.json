@@ -1,0 +1,69 @@
+{
+  "candidate": "osm-way-1560647575",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small rear shop car park; west side is about 38 m from the nearest homes.",
+  "reasons": [
+    "Shops on west and south sides",
+    "Nearest houses 21 m+ from east edge",
+    "Flat, sealed, one van parked"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto shop buildings and a garden centre; the nearest mapped houses are 21-28 m from the east edge, so about 35 m or more from the west edge, with trees between.",
+    "access_and_room": "Enters from the lane on the south side; a sealed lot about 20 m by 12 m, with a van parked in it and room for one more.",
+    "traffic": "Tucked behind the main road shops; little through traffic.",
+    "convention": "Appears to be private shop or staff parking; overnight rules unknown."
+  },
+  "flags": [
+    "Houses 21-28 m away to the east beyond trees",
+    "Likely private shop parking",
+    "Mean grade 4.5% around outline, flat on the west edge"
+  ],
+  "sun_shade": "Open sealed surface; trees shade the east side in the morning, buildings shade the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Overnight parking rules",
+    "Crossfall",
+    "Whether the lane is gated at night"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 45,
+    "to_m": 60,
+    "where": "West edge of the small car park behind the shops, off the side lane",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.948116,
+        -27.50877
+      ],
+      [
+        152.948091,
+        -27.508766
+      ],
+      [
+        152.948112,
+        -27.508655
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 36,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 23.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

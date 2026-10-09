@@ -1,0 +1,627 @@
+{
+  "id": "osm-way-1243599998",
+  "street": "Car park off Sir William MacGregor Drive",
+  "suburb": "",
+  "line": [
+    [
+      153.027623,
+      -27.482248
+    ],
+    [
+      153.027806,
+      -27.482275
+    ],
+    [
+      153.027787,
+      -27.482376
+    ],
+    [
+      153.027604,
+      -27.482348
+    ],
+    [
+      153.027623,
+      -27.482248
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "parking-area",
+  "kind": "outline",
+  "length_m": 59,
+  "signs": [
+    {
+      "street": "CHRISTIE STREET",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 2.8
+    },
+    {
+      "street": "CHRISTIE STREET",
+      "restriction": "No Parking Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 9.4
+    },
+    {
+      "street": "DOCK STREET",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 7.1
+    },
+    {
+      "street": "CHRISTIE STREET",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 9.4
+    }
+  ],
+  "buildings": [
+    {
+      "building": "apartments",
+      "name": "River Plaza Apartments",
+      "dwelling": true,
+      "metres": 11,
+      "at_m": 39,
+      "outline": [
+        [
+          153.0271988,
+          -27.48252
+        ],
+        [
+          153.0272337,
+          -27.4825081
+        ],
+        [
+          153.0272283,
+          -27.4824926
+        ],
+        [
+          153.0273798,
+          -27.4824427
+        ],
+        [
+          153.0275153,
+          -27.4824332
+        ],
+        [
+          153.0276776,
+          -27.482457
+        ],
+        [
+          153.0276722,
+          -27.48247
+        ],
+        [
+          153.0277124,
+          -27.482476
+        ],
+        [
+          153.0276883,
+          -27.4826164
+        ],
+        [
+          153.0276025,
+          -27.4826009
+        ],
+        [
+          153.0276078,
+          -27.4825664
+        ],
+        [
+          153.0275461,
+          -27.4825605
+        ],
+        [
+          153.02753,
+          -27.4825367
+        ],
+        [
+          153.0274858,
+          -27.4825402
+        ],
+        [
+          153.0274871,
+          -27.4825593
+        ],
+        [
+          153.0274415,
+          -27.482564
+        ],
+        [
+          153.0274375,
+          -27.482545
+        ],
+        [
+          153.0273919,
+          -27.4825486
+        ],
+        [
+          153.0273772,
+          -27.4825735
+        ],
+        [
+          153.0272377,
+          -27.4826152
+        ],
+        [
+          153.0271988,
+          -27.48252
+        ]
+      ]
+    },
+    {
+      "building": "apartments",
+      "name": "Southbank Apartments",
+      "dwelling": true,
+      "metres": 14,
+      "at_m": 30,
+      "outline": [
+        [
+          153.0283149,
+          -27.4826421
+        ],
+        [
+          153.028331,
+          -27.482635
+        ],
+        [
+          153.0283498,
+          -27.4825803
+        ],
+        [
+          153.028846,
+          -27.4827135
+        ],
+        [
+          153.0288635,
+          -27.4826493
+        ],
+        [
+          153.0288138,
+          -27.4825719
+        ],
+        [
+          153.0284745,
+          -27.4824791
+        ],
+        [
+          153.0284571,
+          -27.4824553
+        ],
+        [
+          153.0283605,
+          -27.4824327
+        ],
+        [
+          153.028327,
+          -27.4824518
+        ],
+        [
+          153.0283163,
+          -27.4824779
+        ],
+        [
+          153.028268,
+          -27.4824994
+        ],
+        [
+          153.0282318,
+          -27.4824875
+        ],
+        [
+          153.0282184,
+          -27.4824922
+        ],
+        [
+          153.0280011,
+          -27.4824339
+        ],
+        [
+          153.0279233,
+          -27.4824744
+        ],
+        [
+          153.0278895,
+          -27.482466
+        ],
+        [
+          153.0278747,
+          -27.4825087
+        ],
+        [
+          153.027926,
+          -27.482522
+        ],
+        [
+          153.0279059,
+          -27.4825767
+        ],
+        [
+          153.0279099,
+          -27.4825874
+        ],
+        [
+          153.0281795,
+          -27.4826588
+        ],
+        [
+          153.0281956,
+          -27.4826528
+        ],
+        [
+          153.028209,
+          -27.4826112
+        ],
+        [
+          153.0283149,
+          -27.4826421
+        ]
+      ]
+    },
+    {
+      "building": "industrial",
+      "name": null,
+      "dwelling": false,
+      "metres": 30,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0273017,
+          -27.4820882
+        ],
+        [
+          153.0267349,
+          -27.482202
+        ],
+        [
+          153.026717,
+          -27.4821316
+        ],
+        [
+          153.0268707,
+          -27.4821008
+        ],
+        [
+          153.0268599,
+          -27.4820583
+        ],
+        [
+          153.0269357,
+          -27.4820431
+        ],
+        [
+          153.0269441,
+          -27.4820759
+        ],
+        [
+          153.026983,
+          -27.4820681
+        ],
+        [
+          153.0269637,
+          -27.4819924
+        ],
+        [
+          153.0269919,
+          -27.4819529
+        ],
+        [
+          153.0271125,
+          -27.4819287
+        ],
+        [
+          153.0271207,
+          -27.4819609
+        ],
+        [
+          153.0274083,
+          -27.4819032
+        ],
+        [
+          153.0274422,
+          -27.4820361
+        ],
+        [
+          153.0272959,
+          -27.4820654
+        ],
+        [
+          153.0273017,
+          -27.4820882
+        ]
+      ]
+    },
+    {
+      "building": "apartments",
+      "name": "Oxley + Stirling",
+      "dwelling": true,
+      "metres": 45,
+      "at_m": 30,
+      "outline": [
+        [
+          153.0278389,
+          -27.4827815
+        ],
+        [
+          153.0282779,
+          -27.4828492
+        ],
+        [
+          153.0281931,
+          -27.4832818
+        ],
+        [
+          153.0277542,
+          -27.4832141
+        ],
+        [
+          153.0278389,
+          -27.4827815
+        ]
+      ]
+    },
+    {
+      "building": "apartments",
+      "name": null,
+      "dwelling": true,
+      "metres": 59,
+      "at_m": 32,
+      "outline": [
+        [
+          153.0272243,
+          -27.4828478
+        ],
+        [
+          153.027228,
+          -27.4830367
+        ],
+        [
+          153.0272119,
+          -27.4831147
+        ],
+        [
+          153.0276182,
+          -27.4831713
+        ],
+        [
+          153.0276668,
+          -27.482897
+        ],
+        [
+          153.0272243,
+          -27.4828478
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0259644,
+      "lat": -27.4814441,
+      "metres": 186,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0254252,
+      "lat": -27.4820673,
+      "metres": 217,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0254003,
+      "lat": -27.4820312,
+      "metres": 220,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0257575,
+      "lat": -27.4811424,
+      "metres": 221,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0253878,
+      "lat": -27.4820132,
+      "metres": 222,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0256622,
+      "lat": -27.4809696,
+      "metres": 240,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0254461,
+      "lat": -27.4835675,
+      "metres": 252,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.027623,
+        "lat": -27.482248,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 10.67
+      },
+      {
+        "lon": 153.027673,
+        "lat": -27.482255,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 10.99
+      },
+      {
+        "lon": 153.027723,
+        "lat": -27.482263,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 11.28
+      },
+      {
+        "lon": 153.027773,
+        "lat": -27.48227,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 11.26
+      },
+      {
+        "lon": 153.027803,
+        "lat": -27.48229,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 11.2
+      },
+      {
+        "lon": 153.027795,
+        "lat": -27.482334,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 11.57
+      },
+      {
+        "lon": 153.027784,
+        "lat": -27.482376,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 12.11
+      },
+      {
+        "lon": 153.027734,
+        "lat": -27.482368,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 13.17
+      },
+      {
+        "lon": 153.027684,
+        "lat": -27.48236,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 14.39
+      },
+      {
+        "lon": 153.027634,
+        "lat": -27.482353,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 14.34
+      },
+      {
+        "lon": 153.027607,
+        "lat": -27.48233,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 11.48
+      },
+      {
+        "lon": 153.027616,
+        "lat": -27.482286,
+        "at_m": 55,
+        "line": 0,
+        "elevation_m": 11.24
+      },
+      {
+        "lon": 153.027623,
+        "lat": -27.482248,
+        "at_m": 59.3,
+        "line": 0,
+        "elevation_m": 10.67
+      }
+    ],
+    "min_elevation_m": 10.7,
+    "max_elevation_m": 14.4,
+    "mean_grade_pct": 12.8,
+    "max_grade_pct": 57.2
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 154
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 0,
+      "access": null,
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 20,
+      "access": null,
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 50,
+      "access": null,
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 66,
+      "access": null,
+      "fee": null,
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 59,
+      "length_m": 59,
+      "images": {
+        "esri": ".cache/imagery/osm-way-1243599998/chunk1-esri.jpg",
+        "qld": ".cache/imagery/osm-way-1243599998/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_CBD_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-12-07",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        80,
+        74
+      ],
+      "image_px": [
+        533,
+        495
+      ]
+    }
+  ]
+}

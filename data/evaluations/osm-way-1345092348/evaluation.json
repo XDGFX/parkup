@@ -1,0 +1,69 @@
+{
+  "candidate": "osm-way-1345092348",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small shop-backed courtyard car park; homes close on the north side.",
+  "reasons": [
+    "Southern bays 40 m or more from dwellings",
+    "Enclosed by shops and apartments",
+    "Bays look occupied; likely business parking"
+  ],
+  "drivers": {
+    "seclusion": "Tucked behind shops, but a mapped house sits 1 m from the north edge and homes 16 to 23 m away; the southern bays are about 15 m from the nearest of them.",
+    "access_and_room": "Narrow lane from Army Street reaches the courtyard; bays are marked and mostly filled with cars, so room for a van is tight.",
+    "traffic": "Quiet side lane, but a commercial courtyard with shop and apartment activity around.",
+    "convention": "Looks like private shop or resident parking; no sign of overnight stays. Loading zone signs sit at the lane mouth."
+  },
+  "flags": [
+    "Dwelling mapped 1 m from outline at 9 m",
+    "Likely private or business parking",
+    "Loading zone signs on Army Street at lane mouth",
+    "Slope about 3% at best section"
+  ],
+  "sun_shade": "Open to the sky mid-day; buildings shade the edges, west side and south side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the car park is private or signed",
+    "Gate or barrier at the lane",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 40,
+    "to_m": 60,
+    "where": "Southern bays of the courtyard behind West Quarter, off Army Street",
+    "slope_pct": 3,
+    "points": [
+      [
+        153.010911,
+        -27.480543
+      ],
+      [
+        153.010909,
+        -27.480552
+      ],
+      [
+        153.01072,
+        -27.480522
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 3.2,
+    "min_elevation_m": 13.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

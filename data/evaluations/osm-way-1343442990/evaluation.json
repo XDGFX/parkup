@@ -1,0 +1,72 @@
+{
+  "candidate": "osm-way-1343442990",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Tiny walled-in lot of a few bays, reached through the neighbouring shop car park.",
+  "reasons": [
+    "Enclosed by shops; homes 20 m or more away",
+    "Apartments 9 m from the south-east side",
+    "Reached through another private-looking lot"
+  ],
+  "drivers": {
+    "seclusion": "Retail walls on the west and south; nearest dwellings 20 m (residential) and 22 m (house) to the east, apartments 9 m on the far side.",
+    "access_and_room": "Opens onto the adjoining car park; room for about three or four cars, a van would take most of the width.",
+    "traffic": "Quiet back lot away from the street.",
+    "convention": "Cars parked in the bays; looks like private shop or tenant parking, no sign of overnight stays."
+  },
+  "flags": [
+    "Apartments 9 m from the outline at 31 m along",
+    "Likely private or tenant parking",
+    "DEM grade figures (11.9% mean) are distorted by roofs; the lot looks level"
+  ],
+  "sun_shade": "Open to sky; tall retail building to the west shades the afternoon, trees to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Private signage and whether it is permit parking",
+    "Whether a van fits the bays",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "North end of the small lot, just inside the opening from the shop car park",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        153.012288,
+        -27.481662
+      ],
+      [
+        153.012368,
+        -27.481673
+      ],
+      [
+        153.012358,
+        -27.481727
+      ],
+      [
+        153.012367,
+        -27.481728
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 3.8,
+    "min_elevation_m": 13,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

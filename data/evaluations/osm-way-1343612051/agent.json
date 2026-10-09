@@ -1,0 +1,34 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Small shop-yard car park hemmed in by commercial buildings; only one house nearby.",
+  "reasons": [
+    "Surrounded by shops and storage buildings",
+    "Only dwelling 14 m away, at the north end",
+    "Level ground with room for a van"
+  ],
+  "best_section": {
+    "from_m": 20,
+    "to_m": 40,
+    "where": "South half of the yard, away from the house at the north-west corner",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Commercial buildings 3-12 m on the south and east; the only dwelling is a house 14 m from the north-west corner (0 m).",
+    "access_and_room": "Opens west onto a shared back yard of parked cars; around 12 m by 20 m of sealed ground.",
+    "traffic": "Back yard away from the street; only car park movements.",
+    "convention": "Cars parked in the yard; mapped as private parking, no sign of overnight stays."
+  },
+  "flags": [
+    "Mapped private parking nearby (33 m), access may be restricted",
+    "House 14 m from the north end of the outline"
+  ],
+  "sun_shade": "Open to sky; tall shop buildings to the east and south shade the morning and midday edges, tree to the north-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Private-parking signs and time limits",
+    "Whether the yard is gated or locked at night",
+    "Street lighting"
+  ],
+  "confidence": "medium"
+}

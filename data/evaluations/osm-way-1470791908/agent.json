@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "parking area",
+  "summary": "Outline lies on the roof of the Breeze apartment block; no usable stop.",
+  "reasons": ["Mapped car park is on a building roof", "Breeze apartments at 0 m", "Residential towers all round"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Surrounded by apartment towers, pool decks and residents' driveways.",
+    "access_and_room": "The outline covers the roof and plant of the Breeze building; any real parking is a resident basement or driveway, with no public way in visible.",
+    "traffic": "Quiet private driveway, but residents pass constantly.",
+    "convention": "No signs and no parked campervans; resident-only parking."
+  },
+  "flags": ["Breeze apartments (dwelling) at 0 m", "Low-lying: about 6 m elevation, 203 m from Brisbane River", "Max grade 13% along outline, which is the roof edge"],
+  "sun_shade": "Heavily shaded by towers to the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Whether the basement car park is public", "Street lighting"],
+  "confidence": "high"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "osm-way-1243599997",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small apartment-block car park wedged between towers and a house.",
+  "reasons": [
+    "Residential buildings within a few metres",
+    "Tower overlooks the whole lot",
+    "Looks like resident or customer parking"
+  ],
+  "drivers": {
+    "seclusion": "River Plaza Apartments touch the lot at 60 m, another block is 19 m away, and a building at the south-west corner looks like a home; the tower looms over it.",
+    "access_and_room": "Sealed bays open to Dock Street; room for a van but only a handful of bays.",
+    "traffic": "Dock Street beside it with metered kerb parking, 4P limits and resident permits.",
+    "convention": "Serves the adjoining apartment buildings; no sign of overnight stays."
+  },
+  "flags": [
+    "Steep along the outline: about 3% from 20 m to 40 m",
+    "Likely private resident parking",
+    "Street signs: 4P meter with resident permits, Mon to Sun daytime and evening",
+    "Brisbane River 205 m away"
+  ],
+  "sun_shade": "Mostly shaded by the tower to the east and south; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Gating or entry barriers",
+    "Signage on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 40,
+    "where": "Middle bays of the small car park off Dock Street, beside the kerb parking",
+    "slope_pct": 3,
+    "points": [
+      [
+        153.026922,
+        -27.482652
+      ],
+      [
+        153.027083,
+        -27.482543
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 4.5,
+    "min_elevation_m": 12.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

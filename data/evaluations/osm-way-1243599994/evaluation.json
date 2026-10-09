@@ -1,0 +1,67 @@
+{
+  "candidate": "osm-way-1243599994",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Private resident car park of an apartment tower, right beside the pool.",
+  "reasons": [
+    "Apartment tower touches the outline",
+    "Private resident parking, residents overlook",
+    "Pool and gardens beside the bays"
+  ],
+  "drivers": {
+    "seclusion": "Riverview Gardens apartments touch the outline at 63 m and Southbank Apartments are 19 m away; the tower overlooks the whole lot.",
+    "access_and_room": "Sealed lot opening off the road with marked bays; room for a van, but it is a resident car park.",
+    "traffic": "Main road with kerb parking 15 m to the north.",
+    "convention": "Serves the apartment block; no sign of overnight stays by outsiders."
+  },
+  "flags": [
+    "Dwellings within 10 m of the outline",
+    "Likely private resident parking",
+    "Brisbane River 172 m away, ground about 8 m"
+  ],
+  "sun_shade": "Open asphalt; the tower shades it from the south and east in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Gating or entry barriers",
+    "Signage on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 30,
+    "where": "North-west bays of the small car park off the main road",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.029072,
+        -27.482582
+      ],
+      [
+        153.02909,
+        -27.482486
+      ],
+      [
+        153.029181,
+        -27.4825
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 7.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

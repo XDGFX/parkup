@@ -1,0 +1,65 @@
+{
+  "candidate": "osm-way-526615914",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 0 m from the best section"
+  ],
+  "kind": "parking area",
+  "summary": "Small church car park hemmed in by homes within a few metres.",
+  "reasons": [
+    "Dwellings within 10 m on three sides",
+    "Overlooked by apartments and houses",
+    "Club hall tight against south edge"
+  ],
+  "drivers": {
+    "seclusion": "Mapped dwellings 0 to 8 m along most of the outline; the club building is tagged residential at 4 m; apartments and houses overlook it.",
+    "access_and_room": "Open to the street on the north-east side with room for vans in the bays.",
+    "traffic": "Busy Sir William MacGregor Drive beside it with cars parked along the kerb.",
+    "convention": "Appears to serve a church and club; no sign of overnight stays."
+  },
+  "flags": [
+    "Steep in places: the western section rises over 6%",
+    "Dwelling within 10 m of every part of the outline",
+    "Likely private church or club parking"
+  ],
+  "sun_shade": "Open pale surface in full sun; a few trees shade the edges.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Overnight restrictions or gating",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 45,
+    "where": "South-east side of the small car park, beside the club hall",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        153.015338,
+        -27.479421
+      ],
+      [
+        153.015123,
+        -27.479539
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 0,
+    "gated": false,
+    "slope_pct": 7.2,
+    "min_elevation_m": 15.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

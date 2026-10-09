@@ -1,0 +1,68 @@
+{
+  "candidate": "osm-way-559595075",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small sealed car park on a road island, no homes nearby, several cars parked.",
+  "reasons": [
+    "No dwellings mapped nearby",
+    "Marked sealed car park, room for a van",
+    "Enclosed by roads and shop wall"
+  ],
+  "drivers": {
+    "seclusion": "Only commercial buildings close by; no homes within 25 m. Exposed to passing traffic on three sides, but nobody who would care.",
+    "access_and_room": "Entered from the south beside the shop; sealed, with room for a van among the parked cars.",
+    "traffic": "Sits between a busy arterial and a junction slip road; noisy and visible.",
+    "convention": "Cars parked there, but it looks like shop or customer parking; overnight rules unknown."
+  },
+  "flags": [
+    "Busy arterial and junction noise",
+    "Possibly customer-only parking",
+    "Mean grade 5% around the outline, but flat in the best section"
+  ],
+  "sun_shade": "Open, no tree cover over the bays; some trees on the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Overnight parking rules",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 35,
+    "where": "Eastern side of the small car park beside the shop, facing the main road",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.947731,
+        -27.508032
+      ],
+      [
+        152.947798,
+        -27.508045
+      ],
+      [
+        152.947821,
+        -27.507927
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 23.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

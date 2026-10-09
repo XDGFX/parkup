@@ -1,0 +1,64 @@
+{
+  "candidate": "osm-way-528710381",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Large shopping-centre car park with no homes nearby; flat bays along the building wall.",
+  "reasons": [
+    "Commercial car park, no dwellings mapped",
+    "Bays along building wall, flat",
+    "Many cars; van blends in"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by shops and other car parks; nearest homes are across the main road, well over 25 m away.",
+    "access_and_room": "Open sealed car park with marked bays and clear entrances; plenty of room for a van.",
+    "traffic": "Busy arterial on the east side and active shop traffic by day; the wall side is further from the road.",
+    "convention": "Retail car park, likely used by shoppers and staff; overnight rules unknown and it may be patrolled."
+  },
+  "flags": [
+    "Busy arterial road to the east",
+    "Retail car park may be patrolled or have time limits",
+    "Whole outline slopes up to about 4.5% mean; chosen section is flatter"
+  ],
+  "sun_shade": "Open sealed surface with no tree cover; the building shades the bays in the morning from the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Overnight parking rules or security patrols",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 135,
+    "to_m": 165,
+    "where": "Bays along the south-west wall of the shopping centre, by the entrance near the 0 m ring",
+    "slope_pct": 1.6,
+    "points": [
+      [
+        152.947414,
+        -27.508288
+      ],
+      [
+        152.947164,
+        -27.508442
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 25.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

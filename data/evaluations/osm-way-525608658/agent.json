@@ -1,0 +1,23 @@
+{
+  "verdict": "maybe",
+  "kind": "parking area",
+  "summary": "Row of bays at the back of a retail lot, apartments about 15 m west.",
+  "reasons": ["Apartments and pool about 15 m west", "Tree screen along the western edge", "Retail lot, other cars parked"],
+  "best_section": {
+    "from_m": 12,
+    "to_m": 35,
+    "where": "Western bay row at the south end of the lot, beside the tree screen",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Backs onto thick trees, but an unmapped apartment block with a pool sits about 15 m beyond them; mapped houses are 36 m or more away.",
+    "access_and_room": "Marked bays off the lot's internal aisle, with no gate seen; a van fits in the end bays, and Esri shows canopy overhanging the row.",
+    "traffic": "Quiet dead-end corner of the car park, away from the main road; shop traffic by day.",
+    "convention": "Cars are parked in the bays in the QLD image; no campervans seen and overnight rules unknown."
+  },
+  "flags": ["Apartments about 15 m west (not in OSM buildings)", "Retail car park: overnight rules unknown", "Outline slope figures are inflated by the bank edge; the bays are level"],
+  "sun_shade": "Shaded by trees on the west side in the afternoon; open to morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Parking signs on site", "Street lighting", "How far the apartment windows face the bays"],
+  "confidence": "medium"
+}

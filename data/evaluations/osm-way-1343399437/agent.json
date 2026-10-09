@@ -1,0 +1,34 @@
+{
+  "verdict": "poor",
+  "kind": "parking area",
+  "summary": "Small private-looking car park hemmed in by homes and shops; dwellings within 5 m.",
+  "reasons": [
+    "Dwellings 1-8 m from the whole outline",
+    "Enclosed by apartments, houses and retail",
+    "Full of parked cars, no visible way to stay unseen"
+  ],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "Northern end of the narrow car park behind the retail strip",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Residential building 5 m away at 12 m, apartments 5 m at 66 m, house 1 m at 58 m; overlooked on all sides.",
+    "access_and_room": "Single narrow lane off the street between buildings; parking bays already occupied by cars.",
+    "traffic": "Busy retail and cafe precinct next door; foot and car traffic likely.",
+    "convention": "Looks like a shared business or residential car park; no sign of overnight stays."
+  },
+  "flags": [
+    "Dwelling within 10 m of the best section",
+    "Steep over the whole outline: 7.6% mean grade, rising towards the south end",
+    "Cafe and retail precinct noise"
+  ],
+  "sun_shade": "Open to sky; buildings shade it from the east and west at the edges, small trees on the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the car park is private or customer-only",
+    "Street lighting"
+  ],
+  "confidence": "high"
+}

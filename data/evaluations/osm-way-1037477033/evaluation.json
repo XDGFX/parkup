@@ -1,0 +1,72 @@
+{
+  "candidate": "osm-way-1037477033",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Shop car park off Oxley Road, no dwellings within 40 m of the southern end.",
+  "reasons": [
+    "Backs onto shop building",
+    "Nearest mapped home 43 m away",
+    "Open entry, bays at south end"
+  ],
+  "drivers": {
+    "seclusion": "Bays back onto the shop building and car park; nearest mapped house 43 m, unmapped house to the north about 15 m from the top end only.",
+    "access_and_room": "Open entrance from the road, marked bays, room for a van at the south end.",
+    "traffic": "Busy arterial and bus zone alongside; shop customers by day.",
+    "convention": "Commercial car park with many cars; overnight stays not evident."
+  },
+  "flags": [
+    "Busy road and bus zone beside the car park",
+    "Retail car park, may be signed or patrolled for customers",
+    "Max grade 4.4% on the outline but about 0.5% at the best section"
+  ],
+  "sun_shade": "Open, unshaded; shop roof to the east blocks some morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Lighting",
+    "Any overnight time limit or patrols"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 35,
+    "to_m": 60,
+    "where": "Southern bays of the shop car park at the Allardyce Street corner",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.980859,
+        -27.524199
+      ],
+      [
+        152.980887,
+        -27.52422
+      ],
+      [
+        152.981071,
+        -27.524249
+      ],
+      [
+        152.981074,
+        -27.524223
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 56,
+    "gated": false,
+    "slope_pct": 0.8,
+    "min_elevation_m": 16.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

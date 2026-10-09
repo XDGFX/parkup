@@ -1,0 +1,68 @@
+{
+  "candidate": "osm-way-1343442989",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small shop back-lot car park enclosed by retail; nearest homes about 30 m away.",
+  "reasons": [
+    "Backs onto retail buildings on three sides",
+    "Nearest dwelling 30 m from entrance end",
+    "Cars already parked in the bays"
+  ],
+  "drivers": {
+    "seclusion": "Shops and a multi-level car park around it; nearest dwelling 30 m at 0 m, church and Rachel's Place non-residential at 17-22 m.",
+    "access_and_room": "Sealed lane in from the street leads to open bays; room for a van beside parked cars.",
+    "traffic": "Quiet back lot; street traffic only at the lane mouth.",
+    "convention": "Looks like a commercial customer lot, so overnight use may not be accepted; nobody seen sleeping here."
+  },
+  "flags": [
+    "Slope about 3.5% over 0-25 m, rising away from the lane",
+    "Likely private or customer-only commercial car park",
+    "Dwellings 21-24 m away from the east end of the outline (37-51 m along)"
+  ],
+  "sun_shade": "Open to sky; shops to the west shade the afternoon sun, trees on the east edge.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Private signage or time limits in the lot",
+    "Street lighting",
+    "Whether the entrance is gated after hours"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 25,
+    "where": "Entrance end of the lot, off the lane behind the Boundary Street shops",
+    "slope_pct": 3.5,
+    "points": [
+      [
+        153.012165,
+        -27.481412
+      ],
+      [
+        153.012371,
+        -27.481443
+      ],
+      [
+        153.012411,
+        -27.48146
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 27,
+    "gated": false,
+    "slope_pct": 3.6,
+    "min_elevation_m": 13.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

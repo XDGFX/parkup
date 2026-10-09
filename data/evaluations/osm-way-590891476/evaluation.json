@@ -1,0 +1,47 @@
+{
+  "candidate": "osm-way-590891476",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Site is now a new building with rooftop solar; no usable parking seen.",
+  "reasons": [
+    "Esri shows a new building on the site",
+    "QLD image was a construction site",
+    "No access or bays visible"
+  ],
+  "drivers": {
+    "seclusion": "Not applicable; homes sit 24 m or less on the west side, with a railway and street to the east.",
+    "access_and_room": "Recent Esri imagery shows a built-over lot with solar panels on the roof; no open ground or bays for a van. The 2022 QLD image shows only a demolition and construction site.",
+    "traffic": "Rail line and a through street on the east side.",
+    "convention": "Nearby street bays carry 2P and 4P daytime limits; the mapped car park no longer appears to exist."
+  },
+  "flags": [
+    "Mapped car park looks built over",
+    "Rail noise",
+    "Houses along the west boundary"
+  ],
+  "sun_shade": "Not applicable.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether a basement or undercroft car park exists under the new building"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 24,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 12.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

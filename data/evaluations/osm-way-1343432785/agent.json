@@ -1,0 +1,30 @@
+{
+  "verdict": "poor",
+  "kind": "parking area",
+  "summary": "Outline mostly lies over motorway lanes; only a small car park under the viaduct.",
+  "reasons": [
+    "Outline traces expressway carriageways, not a car park",
+    "Small bays under viaduct, no clear way in",
+    "CBD site beside river, motorbike and no-stopping signs"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Bays under the viaduct are in full view of the motorway and ramps; no dwellings mapped nearby, nearest building 30 m.",
+    "access_and_room": "Outline follows motorway lanes; the few bays at about 50-100 m have no access visible from the road edge.",
+    "traffic": "Heavy motorway and ramp traffic on every side.",
+    "convention": "Signs show No Stopping Any Time and motorcycle-only temporary parking; no vans or tents seen."
+  },
+  "flags": [
+    "Outline mostly over live motorway lanes",
+    "Low-lying: elevation about 2-3 m, Brisbane River 115 m away",
+    "No Stopping Any Time signs at 8.7 m and 14.1 m from outline",
+    "Heavy motorway noise"
+  ],
+  "sun_shade": "Bays are shaded by the elevated roadway above; trees at the north end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the small car park is public, paid or permit only",
+    "Street lighting"
+  ],
+  "confidence": "medium"
+}

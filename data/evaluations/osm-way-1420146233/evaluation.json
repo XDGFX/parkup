@@ -1,0 +1,77 @@
+{
+  "candidate": "osm-way-1420146233",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Four marked bays in a park beside halls, no homes nearby.",
+  "reasons": [
+    "Park and public buildings, no dwellings",
+    "Sealed access road leads to the bays",
+    "Short bays, van may overhang"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by lawn, paths and non-residential buildings; no mapped dwellings within 50 m.",
+    "access_and_room": "Sealed drive reaches the bays; four bays about 10 m wide, a van fits across two with some overhang onto the apron.",
+    "traffic": "Quiet park drive, light use.",
+    "convention": "One car parked; no campervans seen."
+  },
+  "flags": [
+    "Steep: about 4.5% mean grade, 8% max on the outline",
+    "Hall and paths beside the bays may be visited by day or for events",
+    "Public park, may be locked or patrolled at night"
+  ],
+  "sun_shade": "Open, unshaded; trees to the south-west cast some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Lighting",
+    "Whether the drive is gated at night",
+    "Hall events"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 41,
+    "where": "Four-bay car park at the end of the sealed drive, beside the red-roofed hall",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        153.011258,
+        -27.52441
+      ],
+      [
+        153.011393,
+        -27.524432
+      ],
+      [
+        153.01138,
+        -27.524494
+      ],
+      [
+        153.011246,
+        -27.524472
+      ],
+      [
+        153.011258,
+        -27.52441
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 4.4,
+    "min_elevation_m": 10.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

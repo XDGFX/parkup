@@ -1,0 +1,34 @@
+{
+  "verdict": "poor",
+  "kind": "parking area",
+  "summary": "Backpackers hostel car park with houses 0-6 m away on every side.",
+  "reasons": [
+    "Hostel building touches the south edge",
+    "Houses 6 m from north and south ends",
+    "Private guest parking in a residential street"
+  ],
+  "best_section": {
+    "from_m": 20,
+    "to_m": 40,
+    "where": "Middle of the hostel car park, off the east street",
+    "slope_pct": 1.5
+  },
+  "drivers": {
+    "seclusion": "Backpackers (dwelling) at 0 m, houses 6 m at 15 m and 62 m along; pool and terrace to the west.",
+    "access_and_room": "Open from the street; the bays hold parked cars, little free space for a van.",
+    "traffic": "Quiet residential street.",
+    "convention": "Looks like guest parking for the hostel; no vans or tents seen."
+  },
+  "flags": [
+    "Dwellings within 10 m of every part of the outline",
+    "Mapped private parking nearby (85 m)",
+    "Slope over 3% mean (4.2%), though the lot looks level"
+  ],
+  "sun_shade": "Open to sky; hedge and tree shade on the north edge, buildings to the west shade the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs restricting use to guests",
+    "Street lighting"
+  ],
+  "confidence": "high"
+}

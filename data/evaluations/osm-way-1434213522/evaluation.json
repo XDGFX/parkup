@@ -1,0 +1,47 @@
+{
+  "candidate": "osm-way-1434213522",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Four marked bays in an industrial yard, all occupied, beside offices and sheds.",
+  "reasons": [
+    "Bays full with cars in both images",
+    "Office building only 5 m away",
+    "Marked bays too small for a van"
+  ],
+  "drivers": {
+    "seclusion": "Industrial estate with no dwellings close, but the bays sit directly beside an office building and a busy yard.",
+    "access_and_room": "Four small marked bays, all filled; stopping in the aisle would block the yard's turning space.",
+    "traffic": "Internal estate road with business traffic during the day.",
+    "convention": "Staff or customer bays for the surrounding businesses; no overnight use seen."
+  },
+  "flags": [
+    "Bays occupied in Esri and QLD",
+    "Likely private business parking"
+  ],
+  "sun_shade": "Open to sun; tall sheds to the west shade it in the late afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Whether bays empty at night"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 4,
+    "min_elevation_m": 15.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

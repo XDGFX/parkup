@@ -1,0 +1,67 @@
+{
+  "candidate": "osm-way-782868424",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Flat commercial car park among shops, no homes within 30 m.",
+  "reasons": [
+    "Backed by shops and a large warehouse",
+    "Nearest dwelling about 30 m away",
+    "Flat and sealed, room for a van"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by commercial buildings and other car parks; the nearest mapped dwellings are detached houses about 30 m away at 116 m.",
+    "access_and_room": "Sealed, marked bays, open to the lane on the south side; a van fits.",
+    "traffic": "Busy main road 60 m north; the lot itself sits behind buildings.",
+    "convention": "Inner-city business car park with a customers-only car park beside it; overnight use unknown, probably time-limited or paid."
+  },
+  "flags": [
+    "Possible paid or customers-only parking in the area",
+    "Noise from the main road and nearby venues",
+    "Busy with daytime cars"
+  ],
+  "sun_shade": "Open asphalt in full sun; the large shed shades the east edge in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Overnight restrictions or ownership",
+    "Security patrols and lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 140,
+    "to_m": 165,
+    "where": "East side of the car park, against the blank wall of the large shed",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        153.030005,
+        -27.486089
+      ],
+      [
+        153.029891,
+        -27.486073
+      ],
+      [
+        153.029913,
+        -27.485952
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 41,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 11.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

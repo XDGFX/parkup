@@ -1,0 +1,72 @@
+{
+  "candidate": "osm-way-632791333",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Tiny shop-side strip with an unmapped house about 5 m to the east.",
+  "reasons": [
+    "House roof close on east side, unmapped",
+    "Narrow strip beside shop and street",
+    "Houses and pool across the back"
+  ],
+  "drivers": {
+    "seclusion": "An unmapped house sits about 5 m east of the strip, with more homes behind it. Shops on the west side.",
+    "access_and_room": "Open to the street at the north end; the strip fits a couple of cars and is tight for a van.",
+    "traffic": "Side street with parked cars; quiet but overlooked from the house and the street.",
+    "convention": "Cars use the bays during the day; nearby signs set 1P and no parking limits."
+  },
+  "flags": [
+    "Unmapped house within 10 m on the east side",
+    "Narrow strip, tight for a van",
+    "No Parking and 1P signs on the adjoining street"
+  ],
+  "sun_shade": "Open to sun; the shop shades the west side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Overnight rules",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 45,
+    "where": "Narrow bays behind the corner shop, off Long Street East",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.981568,
+        -27.52513
+      ],
+      [
+        152.981545,
+        -27.525264
+      ],
+      [
+        152.98148,
+        -27.525255
+      ],
+      [
+        152.981493,
+        -27.52518
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 17.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:15:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
