@@ -1,0 +1,45 @@
+{
+  "candidate": "bcc-trail-2190",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Steep bush above houses; only a narrow track, no vehicles or clearing.",
+  "reasons": [
+    "Slope 16% mean, 33% max",
+    "No vehicles or tyre marks seen",
+    "Narrow track, nowhere to pull off"
+  ],
+  "drivers": {
+    "seclusion": "Bush, but houses sit 29 m and 49 m to the south-west.",
+    "access_and_room": "A narrow dirt track runs up from the street to the pin; no clearing, no vehicles, too steep.",
+    "traffic": "None at the pin.",
+    "convention": "No sign anyone stops here."
+  },
+  "flags": [
+    "Steep: mean 16.3%, max 33%, above the 12% limit"
+  ],
+  "sun_shade": "Full tree canopy.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the track is gated or closed to vehicles"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 29,
+    "gated": false,
+    "slope_pct": 16.3,
+    "min_elevation_m": 92.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,67 @@
+{
+  "candidate": "48336601-13073509590-7917841-l-78",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wide dirt verge against bushland, cars park along it, homes across the road.",
+  "reasons": [
+    "Bush behind, wide dirt verge",
+    "Cars parked along this kerb",
+    "Near level at 20-45 m"
+  ],
+  "drivers": {
+    "seclusion": "Dense bushland behind the verge; nearest homes are 25 m or more away across the road.",
+    "access_and_room": "Bare dirt verge about a lane wide meets the road edge, room to pull fully off.",
+    "traffic": "Two-lane suburban road with moderate traffic; van stands clear of the lane.",
+    "convention": "Several cars parked on this verge and kerb in both Esri and QLD."
+  },
+  "flags": [
+    "Steep further north: up to 9.6% grade beyond 55 m",
+    "School zone marking at 55 m; no signs on this kerb",
+    "Low-ish ground near Witton Creek, 118 m away"
+  ],
+  "sun_shade": "Bush to the west shades the afternoon; the verge is open to the morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and soil softness of the verge"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 45,
+    "where": "West side of Taringa Parade, north of the school zone, beside the bushland",
+    "slope_pct": 1.4,
+    "points": [
+      [
+        152.967506,
+        -27.497444
+      ],
+      [
+        152.967513,
+        -27.497385
+      ],
+      [
+        152.967503,
+        -27.49722
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 25,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 54.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "60667480-60915839-8119412-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Dirt verge on a quiet Spring Street, bush behind, houses about 25 m north.",
+  "reasons": [
+    "Wide dirt verge beside narrow lane",
+    "Bush behind; house about 25 m north",
+    "Quiet residential street, one car parked"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush behind the verge to the west and south; an unmapped house and yard sit roughly 25 m to the north on the same side.",
+    "access_and_room": "Dirt verge about as wide as a van beside a narrow sealed lane; the yellow line itself runs into trees and is not usable.",
+    "traffic": "Quiet local street with little through traffic; one car parked on the road.",
+    "convention": "No signs; no clear parking convention, though a car is parked on the road."
+  },
+  "flags": [
+    "Waterway 14 m away; elevation about 5 m, possible flood-prone ground",
+    "Unmapped house about 25 m north, not in OSM buildings",
+    "Verge is narrow; check it is clear of the lane"
+  ],
+  "sun_shade": "Tree canopy over and behind the verge from the west; morning sun reaches the verge from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall and verge firmness",
+    "Street lighting",
+    "Exact distance to unmapped houses"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 8,
+    "where": "Dirt verge at the west side of the lane, just south of the nearest yard",
+    "slope_pct": 2.6,
+    "points": [
+      [
+        152.96133,
+        -27.507297
+      ],
+      [
+        152.96125,
+        -27.507283
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 4.9,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

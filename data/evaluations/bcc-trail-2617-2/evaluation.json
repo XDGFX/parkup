@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-2617-2",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Golf-course cart path end by the river; no road access for a van.",
+  "reasons": [
+    "Narrow cart path on golf course",
+    "No road, vehicles or tyre tracks",
+    "Low-lying ground beside river"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto river bush and fairway; nearest mapped buildings 52 m away, large houses beyond trees.",
+    "access_and_room": "Only a narrow paved golf cart path reaches the ring; no vehicles or tracks seen, no mapped ways or parking.",
+    "traffic": "No road nearby; golfers on the green 60 m away.",
+    "convention": "No sign of campers or parked vehicles; golf club land."
+  },
+  "flags": [
+    "Low-lying: about 6-8 m elevation beside the river",
+    "Steep: max grade 19%, mean 6.5%",
+    "Golf course, likely managed and patrolled"
+  ],
+  "sun_shade": "Heavy tree canopy to the north and west; open fairway to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the cart path is open to vehicles",
+    "Golf club rules"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 6.5,
+    "min_elevation_m": 6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "54625481-60200190-8050664-r-120",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb with a dirt verge beside bush; homes 20 m away across the road.",
+  "reasons": [
+    "Bush and dirt verge on own side",
+    "Dwellings only across road, 20 m",
+    "A car parks here in both images"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto bush and a dirt verge; nearest homes 20-21 m away across the road.",
+    "access_and_room": "Dirt verge beside the kerb is wide enough to pull off; 18 m fits a van.",
+    "traffic": "Through road, moderate traffic; the van sits off the lane on the verge.",
+    "convention": "A car sits at the kerb in the 2022 image and on the verge in the 2025 one."
+  },
+  "flags": [
+    "Witton Creek 29 m away; elevation about 7 m",
+    "Next to a side-street corner at the lower end",
+    "Road noise from through traffic"
+  ],
+  "sun_shade": "Bush shades from the west and north; morning sun from the east over the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height and crossfall",
+    "Council signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 18,
+    "where": "Bush-side kerb on Witton Road, just before the side-street corner",
+    "slope_pct": 1.3,
+    "points": [
+      [
+        152.967557,
+        -27.505446
+      ],
+      [
+        152.967443,
+        -27.505571
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 7.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

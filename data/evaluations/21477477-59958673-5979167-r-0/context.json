@@ -1,0 +1,154 @@
+{
+  "id": "21477477-59958673-5979167-r-0",
+  "street": "Walter Taylor Bridge",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.973259,
+      -27.507109
+    ],
+    [
+      152.973399,
+      -27.506677
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "east",
+  "length_m": 50,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9740908,
+      "lat": -27.5047508,
+      "metres": 225,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.973259,
+        "lat": -27.507109,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 16.59
+      },
+      {
+        "lon": 152.973273,
+        "lat": -27.507066,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 16.4
+      },
+      {
+        "lon": 152.973287,
+        "lat": -27.507023,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 16.35
+      },
+      {
+        "lon": 152.973301,
+        "lat": -27.506979,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 16.28
+      },
+      {
+        "lon": 152.973315,
+        "lat": -27.506936,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 16.16
+      },
+      {
+        "lon": 152.973329,
+        "lat": -27.506893,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 15.71
+      },
+      {
+        "lon": 152.973343,
+        "lat": -27.50685,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 14.89
+      },
+      {
+        "lon": 152.973357,
+        "lat": -27.506806,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 14.84
+      },
+      {
+        "lon": 152.973371,
+        "lat": -27.506763,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 13.01
+      },
+      {
+        "lon": 152.973385,
+        "lat": -27.50672,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 8.41
+      },
+      {
+        "lon": 152.973399,
+        "lat": -27.506677,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 8.03
+      }
+    ],
+    "min_elevation_m": 8,
+    "max_elevation_m": 16.6,
+    "mean_grade_pct": 17.1,
+    "max_grade_pct": 92
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 109
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 50,
+      "length_m": 50,
+      "images": {
+        "esri": ".cache/imagery/21477477-59958673-5979167-r-0/chunk1-esri.jpg",
+        "qld": ".cache/imagery/21477477-59958673-5979167-r-0/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        74,
+        108
+      ],
+      "image_px": [
+        492,
+        720
+      ]
+    }
+  ]
+}

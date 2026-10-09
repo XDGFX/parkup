@@ -1,0 +1,387 @@
+{
+  "id": "osm-way-1290134903",
+  "street": "Car park off Discovery Drive",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.996179,
+      -27.509567
+    ],
+    [
+      152.996314,
+      -27.509605
+    ],
+    [
+      152.9963,
+      -27.509647
+    ],
+    [
+      152.996164,
+      -27.509609
+    ],
+    [
+      152.996179,
+      -27.509567
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "parking-area",
+  "kind": "outline",
+  "length_m": 38,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "university",
+      "name": "Tuckeroo Building",
+      "dwelling": false,
+      "metres": 23,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9958978,
+          -27.509179
+        ],
+        [
+          152.9960531,
+          -27.5092022
+        ],
+        [
+          152.9960102,
+          -27.5094282
+        ],
+        [
+          152.9958549,
+          -27.509405
+        ],
+        [
+          152.9958978,
+          -27.509179
+        ]
+      ]
+    },
+    {
+      "building": "university",
+      "name": "Cycad",
+      "dwelling": false,
+      "metres": 27,
+      "at_m": 33,
+      "outline": [
+        [
+          152.9954329,
+          -27.5096294
+        ],
+        [
+          152.9958035,
+          -27.5096835
+        ],
+        [
+          152.9959046,
+          -27.5096982
+        ],
+        [
+          152.9958794,
+          -27.5098338
+        ],
+        [
+          152.9954015,
+          -27.5097641
+        ],
+        [
+          152.9954126,
+          -27.5097046
+        ],
+        [
+          152.9953363,
+          -27.5096935
+        ],
+        [
+          152.9953201,
+          -27.5097808
+        ],
+        [
+          152.9952007,
+          -27.5097633
+        ],
+        [
+          152.9952547,
+          -27.5094722
+        ],
+        [
+          152.9953277,
+          -27.5094829
+        ],
+        [
+          152.9953448,
+          -27.5094854
+        ],
+        [
+          152.9953605,
+          -27.5094876
+        ],
+        [
+          152.9953774,
+          -27.5094901
+        ],
+        [
+          152.9953446,
+          -27.5096666
+        ],
+        [
+          152.9954238,
+          -27.5096781
+        ],
+        [
+          152.9954329,
+          -27.5096294
+        ]
+      ]
+    },
+    {
+      "building": "university",
+      "name": "Foxtail",
+      "dwelling": false,
+      "metres": 59,
+      "at_m": 33,
+      "outline": [
+        [
+          152.9956197,
+          -27.5100544
+        ],
+        [
+          152.9956035,
+          -27.5101416
+        ],
+        [
+          152.9955638,
+          -27.5101354
+        ],
+        [
+          152.9955391,
+          -27.5102431
+        ],
+        [
+          152.9959108,
+          -27.5103036
+        ],
+        [
+          152.9959248,
+          -27.5102269
+        ],
+        [
+          152.9959473,
+          -27.5102302
+        ],
+        [
+          152.9959559,
+          -27.5101768
+        ],
+        [
+          152.9959344,
+          -27.510173
+        ],
+        [
+          152.9959473,
+          -27.510103
+        ],
+        [
+          152.9956197,
+          -27.5100544
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9951352,
+      "lat": -27.509822,
+      "metres": 104,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9978968,
+      "lat": -27.5102634,
+      "metres": 172,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9945676,
+      "lat": -27.5088611,
+      "metres": 177,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9945598,
+      "lat": -27.5087783,
+      "metres": 182,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9952166,
+      "lat": -27.5111661,
+      "metres": 197,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9946481,
+      "lat": -27.5076829,
+      "metres": 258,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.996179,
+        "lat": -27.509567,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 13.98
+      },
+      {
+        "lon": 152.996227,
+        "lat": -27.509581,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 13.41
+      },
+      {
+        "lon": 152.996276,
+        "lat": -27.509594,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 12.7
+      },
+      {
+        "lon": 152.996311,
+        "lat": -27.509614,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 12.42
+      },
+      {
+        "lon": 152.996289,
+        "lat": -27.509644,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 12.77
+      },
+      {
+        "lon": 152.99624,
+        "lat": -27.50963,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 13.37
+      },
+      {
+        "lon": 152.996192,
+        "lat": -27.509617,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 14.03
+      },
+      {
+        "lon": 152.99617,
+        "lat": -27.509591,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 14.33
+      },
+      {
+        "lon": 152.996179,
+        "lat": -27.509567,
+        "at_m": 37.8,
+        "line": 0,
+        "elevation_m": 13.98
+      }
+    ],
+    "min_elevation_m": 12.4,
+    "max_elevation_m": 14.3,
+    "mean_grade_pct": 10.2,
+    "max_grade_pct": 14.2
+  },
+  "waterway": {
+    "name": null,
+    "metres": 309
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 0,
+      "access": null,
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 1,
+      "access": null,
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 18,
+      "access": null,
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 36,
+      "access": null,
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 65,
+      "access": null,
+      "fee": null,
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 38,
+      "length_m": 38,
+      "images": {
+        "esri": ".cache/imagery/osm-way-1290134903/chunk1-esri.jpg",
+        "qld": ".cache/imagery/osm-way-1290134903/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        75,
+        69
+      ],
+      "image_px": [
+        499,
+        459
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "candidate": "47490279-4916596647-1184806259-l-250",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway on a multi-lane main road with no parking and no pull-off.",
+  "reasons": [
+    "Clearway sign on this stretch",
+    "Multi-lane arterial, no parked cars",
+    "No verge or pull-off beside lane"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the south side, but a few houses sit 28 m or more away.",
+    "access_and_room": "Kerb abuts the live lane of a divided road; nowhere to pull fully out.",
+    "traffic": "Heavy, fast arterial traffic in both directions.",
+    "convention": "No cars parked along it; clearway sign applies."
+  },
+  "flags": [
+    "Clearway sign 12 m from the kerb line",
+    "Arterial noise",
+    "Slope 2.5% mean, 7.5% max over 21 m"
+  ],
+  "sun_shade": "Open to sun; trees to the south give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Clearway times"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 21.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

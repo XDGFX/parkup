@@ -1,0 +1,147 @@
+{
+  "id": "54625310-54625462-8050664-l-30",
+  "street": "Witton Road",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.965047,
+      -27.506868
+    ],
+    [
+      152.965168,
+      -27.506829
+    ],
+    [
+      152.965324,
+      -27.506795
+    ],
+    [
+      152.965358,
+      -27.506796
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "north",
+  "length_m": 32,
+  "signs": [],
+  "buildings": [],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.965047,
+        "lat": -27.506868,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 3.68
+      },
+      {
+        "lon": 152.965095,
+        "lat": -27.506853,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 3.62
+      },
+      {
+        "lon": 152.965142,
+        "lat": -27.506837,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 3.52
+      },
+      {
+        "lon": 152.965191,
+        "lat": -27.506824,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 3.51
+      },
+      {
+        "lon": 152.96524,
+        "lat": -27.506813,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 3.47
+      },
+      {
+        "lon": 152.965289,
+        "lat": -27.506803,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 3.46
+      },
+      {
+        "lon": 152.965339,
+        "lat": -27.506795,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 3.42
+      },
+      {
+        "lon": 152.965358,
+        "lat": -27.506796,
+        "at_m": 31.9,
+        "line": 0,
+        "elevation_m": 3.43
+      }
+    ],
+    "min_elevation_m": 3.4,
+    "max_elevation_m": 3.7,
+    "mean_grade_pct": 0.8,
+    "max_grade_pct": 2
+  },
+  "waterway": {
+    "name": "Witton Creek",
+    "metres": 12
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 42,
+      "access": "customers",
+      "fee": "no",
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 83,
+      "access": "customers",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 32,
+      "length_m": 32,
+      "images": {
+        "esri": ".cache/imagery/54625310-54625462-8050664-l-30/chunk1-esri.jpg",
+        "qld": ".cache/imagery/54625310-54625462-8050664-l-30/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        91,
+        68
+      ],
+      "image_px": [
+        604,
+        454
+      ]
+    }
+  ]
+}

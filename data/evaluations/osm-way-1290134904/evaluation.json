@@ -1,0 +1,69 @@
+{
+  "candidate": "osm-way-1290134904",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Campus car park with parked cars, backing onto bush, no dwellings.",
+  "reasons": [
+    "Bush on east and south sides",
+    "Only university buildings nearby, no homes",
+    "Cars already parked here"
+  ],
+  "drivers": {
+    "seclusion": "Bush behind the east and south edges; nearest buildings are university blocks 6 m or more away, none residential.",
+    "access_and_room": "Sealed campus lot with way in from the west; cars parked in the imagery, room for a van among them.",
+    "traffic": "Low; campus car park with daytime comings and goings.",
+    "convention": "Many cars use it, so a van would not stand out."
+  },
+  "flags": [
+    "Cycad building 6 m from the west end, non-residential",
+    "Mapped gates nearby have ways round",
+    "Campus may be patrolled",
+    "Slope about 3% at best section; steeper elsewhere"
+  ],
+  "sun_shade": "Mixed; tree shade from the east and south, open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Campus signage or security",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 30,
+    "where": "East side of the car park by the parked cars, bush behind",
+    "slope_pct": 3.3,
+    "points": [
+      [
+        152.996146,
+        -27.509639
+      ],
+      [
+        152.99613,
+        -27.509683
+      ],
+      [
+        152.996083,
+        -27.50967
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 3.3,
+    "min_elevation_m": 14.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

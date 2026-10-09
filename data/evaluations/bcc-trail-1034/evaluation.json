@@ -1,0 +1,60 @@
+{
+  "candidate": "bcc-trail-1034",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Dirt pull-off beside the reserve road, backing onto bush, homes about 50 m off.",
+  "reasons": [
+    "Bare dirt pull-off meets road edge",
+    "Bush behind, homes 45 m+ away",
+    "Cars parked there in QLD image"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto dense bush; nearest homes across the roundabout, roughly 45 m or more away.",
+    "access_and_room": "Bare dirt apron meets the road edge, wide enough to pull fully off; cars parked on it in QLD image.",
+    "traffic": "Quiet reserve access road, minor local traffic.",
+    "convention": "Cars park on it; no signs in the data."
+  },
+  "flags": [
+    "Slope under the pin 4-25%; pull-off itself about 3%",
+    "Mapped gate 20 m away, with a way round",
+    "Roundabout lighting and residents may pass"
+  ],
+  "sun_shade": "Open dirt with trees to the east and north giving morning shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact pull-off extent under trees",
+    "Signs on site",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Dirt pull-off on the bush side of the road just past the roundabout, about 25 m west of the pin",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.956351,
+        -27.493083
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 9.7,
+    "min_elevation_m": 74.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

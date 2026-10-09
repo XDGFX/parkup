@@ -1,0 +1,49 @@
+{
+  "candidate": "48336809-9426846577-5987856-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a through road, no parked cars, steep, shorter than a van.",
+  "reasons": [
+    "Through road, no cars parked",
+    "Steep: about 9% grade",
+    "Only 10 m long, narrow edge"
+  ],
+  "drivers": {
+    "seclusion": "Bank and bush to the west, nearest home 52 m away; seclusion would be fine.",
+    "access_and_room": "Sealed road with no pull-off; a dirt strip beyond the end looks like a footpath, not a stopping place.",
+    "traffic": "Through route next to a junction with painted islands.",
+    "convention": "No cars parked along the kerb and no marked parking lane."
+  },
+  "flags": [
+    "Steep: about 9% mean grade, 11% max",
+    "Junction nearby",
+    "No signs mapped here"
+  ],
+  "sun_shade": "Open to sun; shaded by trees on the south-west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the dirt strip is driveable"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 52,
+    "gated": false,
+    "slope_pct": 9.4,
+    "min_elevation_m": 67.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

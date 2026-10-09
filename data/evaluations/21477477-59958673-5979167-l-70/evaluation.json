@@ -1,0 +1,48 @@
+{
+  "candidate": "21477477-59958673-5979167-l-70",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "On the Walter Taylor Bridge abutment itself; no place to stop.",
+  "reasons": [
+    "On the bridge, no verge",
+    "Through road, no parked cars",
+    "Barrier edge, nowhere to pull off"
+  ],
+  "drivers": {
+    "seclusion": "No homes mapped, but this is the bridge deck and tower over the river.",
+    "access_and_room": "Two traffic lanes between barriers; no room to pull fully out of the lane.",
+    "traffic": "Busy through route linking Indooroopilly and Chelmer.",
+    "convention": "No cars parked here in either image."
+  },
+  "flags": [
+    "Main road with no parking",
+    "DEM slope is unreliable on the bridge (max 45%)",
+    "Low-lying beside the Brisbane River",
+    "Road and rail noise"
+  ],
+  "sun_shade": "Open sky; bridge tower casts shade on the south end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 24.2,
+    "min_elevation_m": 0.5,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

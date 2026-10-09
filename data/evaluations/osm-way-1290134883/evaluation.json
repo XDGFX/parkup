@@ -1,0 +1,68 @@
+{
+  "candidate": "osm-way-1290134883",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Campus car park with angled bays, no homes nearby, university buildings only.",
+  "reasons": [
+    "No dwellings within 100 m",
+    "Bays beside a university building",
+    "Cars parked in both images"
+  ],
+  "drivers": {
+    "seclusion": "No mapped homes nearby; university buildings 20-24 m away, bush and gardens around.",
+    "access_and_room": "Sealed lane with angled bays; a van can park in the row or at the end.",
+    "traffic": "Quiet campus lane; light traffic.",
+    "convention": "Several cars parked in the bays in 2022 and 2025."
+  },
+  "flags": [
+    "Steep in places: 3.8% mean, 7.5% max on the outline",
+    "Campus use by day; staff and students around",
+    "Rubble and building debris to the south in 2025"
+  ],
+  "sun_shade": "Tree canopy over the bays from the east and south; building to the north.",
+  "rubbish": "Some rubble and debris south of the lane in the 2025 image.",
+  "cannot_judge": [
+    "Signs on site",
+    "Street lighting",
+    "Whether bays are permit-only"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "Row of angled bays on the north side of the Discovery Drive lane",
+    "slope_pct": 2.2,
+    "points": [
+      [
+        152.996599,
+        -27.510828
+      ],
+      [
+        152.996892,
+        -27.510775
+      ],
+      [
+        152.99689,
+        -27.510779
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 3.5,
+    "min_elevation_m": 19.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

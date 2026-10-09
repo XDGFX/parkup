@@ -1,0 +1,64 @@
+{
+  "candidate": "58736480-58762385-1245997495-r-50",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb along an empty lawn; homes across the road, no parking habit.",
+  "reasons": [
+    "Backs onto open grass lot",
+    "Homes 25 m or more away across road",
+    "Quiet street, no parked cars"
+  ],
+  "drivers": {
+    "seclusion": "North side is open lawn with no building. Nearest dwellings are across the road, 25 m or more from the western part, 17 to 21 m at the east end.",
+    "access_and_room": "Sealed residential street with a kerbside strip beside the lawn; room for a van.",
+    "traffic": "Quiet side street at a junction; low traffic.",
+    "convention": "No cars parked on this kerb in either image, so a van would stand out."
+  },
+  "flags": [
+    "Steep: about 6% grade rising westward",
+    "Homes 17 to 25 m away across the road",
+    "Junction with painted crossing at the east end"
+  ],
+  "sun_shade": "Mostly open; a tree at the west end shades the afternoon side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 12,
+    "to_m": 29,
+    "where": "North kerb of Ward Street along the grass lot, west of the paved crossing at the corner",
+    "slope_pct": 6.3,
+    "points": [
+      [
+        152.982115,
+        -27.500278
+      ],
+      [
+        152.981946,
+        -27.50025
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 5.3,
+    "min_elevation_m": 13.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

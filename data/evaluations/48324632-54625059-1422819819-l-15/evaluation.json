@@ -1,0 +1,48 @@
+{
+  "candidate": "48324632-54625059-1422819819-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Traffic lane approaching a signalised junction; no parking and nowhere to pull off.",
+  "reasons": [
+    "Main road approach lane, no parked cars",
+    "Painted chevrons and junction at the end",
+    "Steep, about 8% grade"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the east side; school buildings 20 m and more away across the road; nearest home 45 m.",
+    "access_and_room": "Kerb is a live lane with a painted island and no bay or verge to stop clear of traffic.",
+    "traffic": "Busy road and signalised junction with moving cars, noisy.",
+    "convention": "No parked cars along the kerb; only moving traffic seen."
+  },
+  "flags": [
+    "Main road with no parking",
+    "Steep: about 8% mean grade, 13% max",
+    "School passenger loading zone sign"
+  ],
+  "sun_shade": "Dense trees shade the kerb from the east in the morning; open to afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Exact road markings"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 45,
+    "gated": false,
+    "slope_pct": 9.3,
+    "min_elevation_m": 42.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

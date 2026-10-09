@@ -1,0 +1,75 @@
+{
+  "candidate": "54625481-60200190-8050664-r-60",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb backing onto bush on a bend; homes across the road, little parking.",
+  "reasons": [
+    "Bush on own side",
+    "Homes 18-39 m across road",
+    "Only two cars seen parked, in 2022"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto dense bush; dwellings are across the road, 18-39 m away.",
+    "access_and_room": "Narrow kerb strip beside bush and path; room to pull off is tight but a van fits.",
+    "traffic": "Through road with lane markings, moderate traffic.",
+    "convention": "Two cars parked here in the 2022 image, none in the 2025 one; no clear parking convention."
+  },
+  "flags": [
+    "Through road on a bend; passing traffic",
+    "Witton Creek 25 m away; elevation about 7-8 m"
+  ],
+  "sun_shade": "Bush canopy shades the kerb from the west and north; morning sun from the east over the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height and crossfall",
+    "Council signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 60,
+    "where": "Bush-side kerb on the bend, before the junction at the lower end",
+    "slope_pct": 1.8,
+    "points": [
+      [
+        152.967854,
+        -27.505229
+      ],
+      [
+        152.967821,
+        -27.505239
+      ],
+      [
+        152.967725,
+        -27.505288
+      ],
+      [
+        152.96765,
+        -27.505343
+      ],
+      [
+        152.96758,
+        -27.50542
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 7.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

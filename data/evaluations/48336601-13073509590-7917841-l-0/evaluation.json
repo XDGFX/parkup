@@ -1,0 +1,47 @@
+{
+  "candidate": "48336601-13073509590-7917841-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a junction with turn lanes; no room to stop.",
+  "reasons": [
+    "Turn-lane arrows at the kerb",
+    "14 m only, below van length",
+    "Passenger loading zone sign nearby"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the west side, homes 25 m or more away, but the stretch is a junction approach.",
+    "access_and_room": "Kerb lies in a marked turn-lane approach with a median island; no pull-off clear of traffic.",
+    "traffic": "Busy arterial junction with multiple lanes and turn arrows.",
+    "convention": "No parked cars on this stretch; signed 2 min passenger loading zone on school days."
+  },
+  "flags": [
+    "Steep: about 5% grade",
+    "Loading zone sign 6.4 m away",
+    "Busy junction noise"
+  ],
+  "sun_shade": "Bush canopy shades the west edge; open to the east sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 25,
+    "gated": false,
+    "slope_pct": 4.9,
+    "min_elevation_m": 50.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

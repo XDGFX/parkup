@@ -1,0 +1,48 @@
+{
+  "candidate": "48324632-48336601-7917841-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy Taringa Parade kerb with a marked lane and no parked cars.",
+  "reasons": [
+    "Main road, no cars parked on this side",
+    "Dashed marked lane against the kerb",
+    "Bush behind footpath, but no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Bush and a footpath on the west side; homes 17 m and 25 m away across the road to the east.",
+    "access_and_room": "Kerb is a marked lane with a footpath behind it; no bay, verge or pull-off to get clear of traffic.",
+    "traffic": "Busy two-way road near a bus stop and school drop-off area.",
+    "convention": "No parked cars on the west kerb; the markings suggest a bus or cycle lane."
+  },
+  "flags": [
+    "Main road with no parking",
+    "Signs mention bus zone and passenger loading zones",
+    "Noise from road traffic"
+  ],
+  "sun_shade": "Bush shades the kerb from the west in the afternoon; open to morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact meaning of the dashed lane markings",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 47.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

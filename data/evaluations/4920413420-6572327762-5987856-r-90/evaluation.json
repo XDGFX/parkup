@@ -1,0 +1,48 @@
+{
+  "candidate": "4920413420-6572327762-5987856-r-90",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Through road kerb through bush: no parked cars, no verge, steep.",
+  "reasons": [
+    "Through road, no cars parked",
+    "Bush right to the road edge",
+    "Steep: about 8% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush to the east; homes 12 m or more away at the start only, none beyond 70 m.",
+    "access_and_room": "Sealed road with trees and bank against the edge; no clear verge or pull-off wide enough for a van.",
+    "traffic": "Through route linking suburbs, with power lines along the road.",
+    "convention": "No cars parked along this kerb and no marked parking lane."
+  },
+  "flags": [
+    "Steep: about 8% mean grade, 12.8% max",
+    "Mapped gate near the start, a route runs around it",
+    "No signs mapped here"
+  ],
+  "sun_shade": "Mostly shaded by tree canopy from the east and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 8,
+    "min_elevation_m": 62.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

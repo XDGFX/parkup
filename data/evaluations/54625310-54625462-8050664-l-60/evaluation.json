@@ -1,0 +1,68 @@
+{
+  "candidate": "54625310-54625462-8050664-l-60",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Dirt pull-off beside Witton Road backing onto bush, with no homes nearby.",
+  "reasons": [
+    "Wide dirt verge off the lane",
+    "Backs onto bush and creek bank",
+    "No buildings mapped"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush and creek bank behind. No buildings mapped near; the car park to the east is across trees.",
+    "access_and_room": "Bare dirt pull-off meets the road edge and is wide enough for a van; two cars sit on it in the QLD image.",
+    "traffic": "Busy Witton Road passes alongside; traffic is a flag, not a drawback, as the van stands clear of the lane.",
+    "convention": "Two cars parked on the pull-off in QLD (2022), none in Esri (2025); the wider car park next door is busy with parked cars."
+  },
+  "flags": [
+    "No Stopping Any Time sign 15 m from the kerb line, arrow Right; check it does not cover the pull-off",
+    "Low-lying: 3.4 m, Witton Creek 18 m away, flood-prone",
+    "Road noise"
+  ],
+  "sun_shade": "Heavy tree shade from the north and east; open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Street lighting",
+    "Whether the dirt is firm when wet"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Bare dirt pull-off on the north side of Witton Road, just east of the roundabout",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        152.965358,
+        -27.506796
+      ],
+      [
+        152.965462,
+        -27.506799
+      ],
+      [
+        152.965479,
+        -27.506802
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 0.3,
+    "min_elevation_m": 3.4,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

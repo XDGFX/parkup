@@ -1,0 +1,49 @@
+{
+  "candidate": "osm-way-955137690",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Mapped car park is a school courtyard with shade sails; no vehicles, buildings alongside.",
+  "reasons": [
+    "Shade sails cover most of the surface",
+    "No vehicles or tyre marks seen",
+    "Classroom buildings 1-6 m away"
+  ],
+  "drivers": {
+    "seclusion": "Enclosed by school-style buildings and bush; the hard court looks like a playground, not parking.",
+    "access_and_room": "Narrow asphalt lane enters from the north car park, but no vehicles in either image and the court is mostly covered by shade sails.",
+    "traffic": "Quiet inside, but school grounds with staff and security likely.",
+    "convention": "No vans, cars or tents seen in either image."
+  },
+  "flags": [
+    "Looks like school or institutional grounds",
+    "Two mapped gates 67 m and 123 m away, both with a way round",
+    "Slope 2.8% mean; steep in places on the outline"
+  ],
+  "sun_shade": "Shade sails over the middle; tree canopy on the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the lane is open to the public",
+    "Signs on site",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 20.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

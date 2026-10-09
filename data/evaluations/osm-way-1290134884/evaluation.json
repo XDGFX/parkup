@@ -1,0 +1,72 @@
+{
+  "candidate": "osm-way-1290134884",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Bush-edged campus bays on a quiet lane, no homes anywhere near.",
+  "reasons": [
+    "No dwellings within 100 m",
+    "Bush along the east side",
+    "Cars parked in the bays in both images"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush to the east; only university buildings nearby, the closest 4 m away.",
+    "access_and_room": "Sealed lane with marked bays; a van fits in a bay or along the end of the lane.",
+    "traffic": "Dead-end campus lane; light traffic.",
+    "convention": "Four to five cars parked in the bays in 2022 and 2025."
+  },
+  "flags": [
+    "University building 4 m away; daytime staff and students",
+    "Bays are short, so a long van may overhang",
+    "Gate 27 m away on the lane, with a way round"
+  ],
+  "sun_shade": "Bush canopy shades from the east and south; building to the west and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Street lighting",
+    "Whether bays are permit-only"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "Row of marked bays on the lane beside the Hibiscus building",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        152.997576,
+        -27.510327
+      ],
+      [
+        152.997644,
+        -27.510359
+      ],
+      [
+        152.997539,
+        -27.510537
+      ],
+      [
+        152.997538,
+        -27.510537
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 0.8,
+    "min_elevation_m": 19,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

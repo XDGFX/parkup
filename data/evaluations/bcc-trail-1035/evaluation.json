@@ -1,0 +1,45 @@
+{
+  "candidate": "bcc-trail-1035",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin sits in dense bush with no road, track or vehicles within 100 m.",
+  "reasons": [
+    "Solid canopy, no formed track",
+    "No tyre tracks or vehicles",
+    "Steep ground, up to 20%"
+  ],
+  "drivers": {
+    "seclusion": "Totally secluded bush, but nowhere a van can reach.",
+    "access_and_room": "No road, track or clearing visible in either image; no mapped ways or parking.",
+    "traffic": "None.",
+    "convention": "No sign anyone stops here."
+  },
+  "flags": [
+    "Steep: mean 9.4%, max 20% around the pin"
+  ],
+  "sun_shade": "Full tree canopy.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Faint tracks under canopy"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 9.4,
+    "min_elevation_m": 91.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,171 @@
+{
+  "id": "47490279-48336554-982388434-r-253",
+  "street": "Russell Terrace",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.963867,
+      -27.500192
+    ],
+    [
+      152.96379,
+      -27.500181
+    ],
+    [
+      152.963697,
+      -27.500167
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "north",
+  "length_m": 17,
+  "signs": [
+    {
+      "street": "RUSSELL TERRACE",
+      "restriction": "Loading Zone Passengers 2 Min. Max",
+      "days_times": ":7am-9am ,SCHOOLDAYS:2pm-4pm",
+      "extra_text": "2 MIN MAX",
+      "arrow": "Right",
+      "metres_from_kerb_line": 0.1
+    }
+  ],
+  "buildings": [
+    {
+      "building": "school",
+      "name": "Module 9",
+      "dwelling": false,
+      "metres": 58,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9643666,
+          -27.4999131
+        ],
+        [
+          152.964399,
+          -27.4997476
+        ],
+        [
+          152.9645306,
+          -27.4997635
+        ],
+        [
+          152.9645044,
+          -27.4998952
+        ],
+        [
+          152.9644831,
+          -27.4998923
+        ],
+        [
+          152.9644768,
+          -27.4999283
+        ],
+        [
+          152.9643666,
+          -27.4999131
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9619125,
+      "lat": -27.5009232,
+      "metres": 195,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9666329,
+      "lat": -27.5007668,
+      "metres": 280,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.963867,
+        "lat": -27.500192,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 14.52
+      },
+      {
+        "lon": 152.963817,
+        "lat": -27.500185,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 14.68
+      },
+      {
+        "lon": 152.963767,
+        "lat": -27.500178,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 14.72
+      },
+      {
+        "lon": 152.963717,
+        "lat": -27.50017,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 14.82
+      },
+      {
+        "lon": 152.963697,
+        "lat": -27.500167,
+        "at_m": 17,
+        "line": 0,
+        "elevation_m": 14.93
+      }
+    ],
+    "min_elevation_m": 14.5,
+    "max_elevation_m": 14.9,
+    "mean_grade_pct": 2.9,
+    "max_grade_pct": 5.5
+  },
+  "waterway": {
+    "name": "Witton Creek",
+    "metres": 5
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 17,
+      "length_m": 17,
+      "images": {
+        "esri": ".cache/imagery/47490279-48336554-982388434-r-253/chunk1-esri.jpg",
+        "qld": ".cache/imagery/47490279-48336554-982388434-r-253/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        77,
+        63
+      ],
+      "image_px": [
+        512,
+        419
+      ]
+    }
+  ]
+}

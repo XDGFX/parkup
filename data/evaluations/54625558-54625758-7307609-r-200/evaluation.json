@@ -1,0 +1,48 @@
+{
+  "candidate": "54625558-54625758-7307609-r-200",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow shaded ramp by the river under trees; signed No Stopping.",
+  "reasons": [
+    "No Stopping Any Time sign",
+    "Narrow lane, trees and bank beside",
+    "Steep, about 11% mean"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush and river around, nearest dwelling 43 m, so well hidden.",
+    "access_and_room": "Narrow sealed ramp with vegetation and bank either side; nowhere to pull fully off.",
+    "traffic": "Short link road near a bridge approach, little traffic.",
+    "convention": "No Stopping Any Time applies; no other vehicles parked."
+  },
+  "flags": [
+    "Steep: about 11% mean, 15% max",
+    "Low-lying: 7.6 m, Brisbane River 92 m away",
+    "Signed No Stopping Any Time"
+  ],
+  "sun_shade": "Heavy tree shade, mostly over the whole section.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Whether the ramp is a public road"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 43,
+    "gated": false,
+    "slope_pct": 10.8,
+    "min_elevation_m": 7.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

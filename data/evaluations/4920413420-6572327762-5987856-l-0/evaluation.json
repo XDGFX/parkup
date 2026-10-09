@@ -1,0 +1,72 @@
+{
+  "candidate": "4920413420-6572327762-5987856-l-0",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Gravel picnic clearing off the road, ringed by bush, no homes nearby.",
+  "reasons": [
+    "Off-lane gravel clearing in dense bush",
+    "Nearest home over 400 m away",
+    "Cars already pull off nearby"
+  ],
+  "drivers": {
+    "seclusion": "Dense eucalypt bush on all sides; nearest mapped home is about 36 m from the start of the line, far from this section.",
+    "access_and_room": "Gravel apron meets the road edge; room for a van clear of the lane, tyre-compacted ground visible.",
+    "traffic": "Quiet bush road, power lines overhead; a few cars parked off the road nearby.",
+    "convention": "Cars park on the pull-offs here; the picnic tables suggest day use, no signs mapped."
+  },
+  "flags": [
+    "Slightly steep: about 3.6% grade, up to 5% either side",
+    "Day-use picnic area, may see visitors in daytime",
+    "Mapped gate near the start of the line, a route runs around it"
+  ],
+  "sun_shade": "Heavy canopy shade, mostly from the east and south; open gravel patch gets midday sun from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Gravel surface condition",
+    "Street lighting",
+    "Whether the picnic area is closed at night"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 485,
+    "to_m": 515,
+    "where": "Gravel picnic area with tables, just south of the bend at the 500 m mark",
+    "slope_pct": 3.6,
+    "points": [
+      [
+        152.956891,
+        -27.493924
+      ],
+      [
+        152.956739,
+        -27.49389
+      ],
+      [
+        152.95665,
+        -27.493857
+      ],
+      [
+        152.956606,
+        -27.493834
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 350,
+    "gated": false,
+    "slope_pct": 8.2,
+    "min_elevation_m": 72.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "60666439-3493107715-8111763-l-50",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short Priory Street kerb at a dead end, homes all around within 25 m.",
+  "reasons": [
+    "Apartments 13 m, houses 17-21 m",
+    "Cars park along street",
+    "Only 10 m long"
+  ],
+  "drivers": {
+    "seclusion": "Apartment block 13 m away and several houses 17-24 m, so homes all round.",
+    "access_and_room": "Sealed street with parked cars in the lane edge; 10 m section is barely a van length.",
+    "traffic": "Quiet end of residential street, low traffic.",
+    "convention": "Cars park along the street, so a van would not stand out much."
+  },
+  "flags": [
+    "Steep: about 3.5% mean, 4.4% max",
+    "Dwellings within 25 m on all sides",
+    "Section only about one van length"
+  ],
+  "sun_shade": "Open to sun with trees to the east; apartments shade from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Parking restrictions on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Priory Street south kerb, at the road's eastern end by the overgrown lot",
+    "slope_pct": 3.5,
+    "points": [
+      [
+        152.972191,
+        -27.503066
+      ],
+      [
+        152.972091,
+        -27.503051
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 3.5,
+    "min_elevation_m": 25.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,46 @@
+{
+  "candidate": "bcc-trail-2188",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is in steep bush above houses; no track or vehicle access.",
+  "reasons": [
+    "No road, track or vehicles seen",
+    "Steep ground, 11% mean, 24% max",
+    "House 18 m away at bush edge"
+  ],
+  "drivers": {
+    "seclusion": "Bush around the pin, but houses sit 18 m and 45 m away on the east side.",
+    "access_and_room": "No formed track or clearing; the nearest road is a residential cul-de-sac outside the reserve.",
+    "traffic": "None at the pin.",
+    "convention": "No sign of vehicles or camping."
+  },
+  "flags": [
+    "Steep: mean 11.1%, max 24%",
+    "Witton Creek 80 m away"
+  ],
+  "sun_shade": "Full tree canopy.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Faint tracks under canopy"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 11.1,
+    "min_elevation_m": 54.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

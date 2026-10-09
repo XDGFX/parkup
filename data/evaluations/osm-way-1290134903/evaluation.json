@@ -1,0 +1,72 @@
+{
+  "candidate": "osm-way-1290134903",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small bush-edge car park with several cars parked, no homes nearby.",
+  "reasons": [
+    "Backs onto dense bushland",
+    "Only university buildings 23 m or more away",
+    "Cars already park here"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush to the south and east; nearest buildings are university blocks 23 m or more away, none residential.",
+    "access_and_room": "Reached from the sealed campus car park on the west; cars parked along the strip show it is usable, room for a van looks tight.",
+    "traffic": "Low; campus parking area with daytime comings and goings.",
+    "convention": "Several cars and a parked vehicle at the east end, so a van would not stand out."
+  },
+  "flags": [
+    "DEM shows steep ground, mean 10% and max 14%; best section about level at 10 to 20 m",
+    "Campus may be patrolled",
+    "Mapped gates nearby have ways round"
+  ],
+  "sun_shade": "Heavy tree shade over most of it, strongest from east and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Campus signage or security",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 20,
+    "where": "Eastern end of the small car park at the bush edge",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.996276,
+        -27.509594
+      ],
+      [
+        152.996314,
+        -27.509605
+      ],
+      [
+        152.9963,
+        -27.509647
+      ],
+      [
+        152.996289,
+        -27.509644
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 6.3,
+    "min_elevation_m": 12.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

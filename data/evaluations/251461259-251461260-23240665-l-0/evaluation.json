@@ -1,0 +1,64 @@
+{
+  "candidate": "251461259-251461260-23240665-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Cul-de-sac head backing onto bush, but homes within 20-27 m and no parking convention.",
+  "reasons": [
+    "Bush behind the cul-de-sac kerb",
+    "Houses 19-27 m away round the bulb",
+    "Quiet residential street, no parked cars"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush to the north and west; nearest dwellings are 19 m and 26-27 m away on the other sides of the bulb.",
+    "access_and_room": "Sealed cul-de-sac head with width to pull in; only 10 m of kerb, enough for a van.",
+    "traffic": "Dead-end residential street; local traffic only.",
+    "convention": "No cars parked in Esri or QLD; a van would stand out to residents."
+  },
+  "flags": [
+    "Steep per DEM about 5%, but only 0.5 m rise over 10 m",
+    "Low-lying: Witton Creek 105 m away, elevation about 54 m so not flood-prone",
+    "Residents close by"
+  ],
+  "sun_shade": "Bush canopy to the north and west shades the section; open to the east and south sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether residents object to overnight vans"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Bush-side kerb at the head of the Thea Court turning circle",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.960597,
+        -27.491509
+      ],
+      [
+        152.96068,
+        -27.491458
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 54.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

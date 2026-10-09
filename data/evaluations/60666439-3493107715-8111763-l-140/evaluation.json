@@ -1,0 +1,48 @@
+{
+  "candidate": "60666439-3493107715-8111763-l-140",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow shaded lane to apartments; no room to pull off and steep.",
+  "reasons": [
+    "Narrow lane, trees both sides",
+    "Slope about 10%",
+    "House 13 m, apartments 19 m"
+  ],
+  "drivers": {
+    "seclusion": "Dense tree cover, but house 13 m and apartment block 19 m away.",
+    "access_and_room": "Single narrow lane under canopy; no clear ground beside it to pull fully off.",
+    "traffic": "Very little traffic; lane serves the apartments.",
+    "convention": "One car stands in the lane; no sign of overnight parking. A 4P weekday sign applies."
+  },
+  "flags": [
+    "Steep: about 10% grade",
+    "Dwellings within 20 m",
+    "Mapped gates 11-22 m away with a way round"
+  ],
+  "sun_shade": "Heavy tree shade over the whole section.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the lane is private",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 10,
+    "min_elevation_m": 21.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,72 @@
+{
+  "candidate": "osm-way-1290134899",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small car park ringed by bush, no homes near, cars parked.",
+  "reasons": [
+    "Surrounded by dense bush",
+    "No dwellings within 100 m",
+    "Cars parked in both images"
+  ],
+  "drivers": {
+    "seclusion": "Bush on three sides; only university sheds and labs 6-23 m away, no homes.",
+    "access_and_room": "Sealed lane enters from the north; bays and aisle have room for a van.",
+    "traffic": "Dead-end campus car park; light traffic.",
+    "convention": "Two to three cars parked in 2022 and a few in 2025."
+  },
+  "flags": [
+    "Outline max grade 18% is a corner artefact; bays are about 1.7%",
+    "University buildings 6-8 m from the south-east edge; daytime activity",
+    "Mapped parking may be permit-only"
+  ],
+  "sun_shade": "Bush canopy shades from the west and north; open to afternoon sun from the south-east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Street lighting",
+    "Whether bays are permit-only"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 50,
+    "where": "Marked bays on the east side of the bush-enclosed car park off Discovery Drive",
+    "slope_pct": 1.7,
+    "points": [
+      [
+        152.996689,
+        -27.509951
+      ],
+      [
+        152.99671,
+        -27.509954
+      ],
+      [
+        152.996666,
+        -27.510194
+      ],
+      [
+        152.996657,
+        -27.510193
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 10.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

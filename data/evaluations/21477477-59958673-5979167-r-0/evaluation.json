@@ -1,0 +1,47 @@
+{
+  "candidate": "21477477-59958673-5979167-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bridge approach beside the rail line; through road, no parking, nowhere to pull off.",
+  "reasons": [
+    "Through route, no parked cars",
+    "Barrier and rail cutting beside lane",
+    "No room to pull out of lane"
+  ],
+  "drivers": {
+    "seclusion": "No homes mapped, but the road is open and in full view of traffic.",
+    "access_and_room": "Kerb sits against a barrier and the rail corridor; no shoulder to stop on.",
+    "traffic": "Busy bridge approach with a quadruple rail line alongside.",
+    "convention": "Cars only moving, none parked along this kerb."
+  },
+  "flags": [
+    "Main road with no parking",
+    "DEM slope is unreliable on the bridge (max 92%)",
+    "Rail and road noise"
+  ],
+  "sun_shade": "Open; bridge structure shades the north end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 18.2,
+    "min_elevation_m": 8.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

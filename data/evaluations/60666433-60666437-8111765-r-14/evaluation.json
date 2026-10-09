@@ -1,0 +1,68 @@
+{
+  "candidate": "60666433-60666437-8111765-r-14",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "East kerb of Rankin Street backing onto bush, with cars parked and homes across the road.",
+  "reasons": [
+    "Backs onto bushland, no homes this side",
+    "Other cars park along this kerb",
+    "Homes 18-20 m away, across road"
+  ],
+  "drivers": {
+    "seclusion": "Bush reserve on the kerb side; nearest homes are 18-20 m away across the road.",
+    "access_and_room": "Sealed street with a grass verge and cars already parked along this kerb; room for a van.",
+    "traffic": "Quiet residential street, low traffic.",
+    "convention": "Cars park along this kerb; 2P signs apply weekdays 9am-5pm only."
+  },
+  "flags": [
+    "Steep: about 11% grade, 16.6% max over the full stretch",
+    "2P Mon-Fri 9am-5pm signs",
+    "Crossfall unknown on a sloping street"
+  ],
+  "sun_shade": "Bush shades the kerb from the east and afternoon sun; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 42,
+    "to_m": 60,
+    "where": "East kerb of Rankin Street along the bush reserve, past the first bend north of the corner",
+    "slope_pct": 11.3,
+    "points": [
+      [
+        152.969631,
+        -27.502879
+      ],
+      [
+        152.969677,
+        -27.502736
+      ],
+      [
+        152.969684,
+        -27.502724
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 11.6,
+    "min_elevation_m": 22.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

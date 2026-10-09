@@ -1,0 +1,48 @@
+{
+  "candidate": "1986908014-2027864512-1422100072-r-70",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Multi-lane main road beside Indooroopilly Shopping Centre with no kerbside parking.",
+  "reasons": [
+    "Arterial with marked lanes, no parked cars",
+    "Shopping centre wall alongside",
+    "No lay-by or verge to pull into"
+  ],
+  "drivers": {
+    "seclusion": "Retail building 10 m away; senior citizens club 17 m; no dwellings mapped nearby.",
+    "access_and_room": "Kerb runs straight into the traffic lane; no bay, pull-off or wide verge seen.",
+    "traffic": "Busy multi-lane road carrying moving cars, noisy.",
+    "convention": "No parked cars along this kerb and no marked parking lane."
+  },
+  "flags": [
+    "Main road with no parking",
+    "Noise from arterial and shopping centre",
+    "Substation across the road, high visibility"
+  ],
+  "sun_shade": "Open to sun; trees shade the opposite side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 22.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

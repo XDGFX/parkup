@@ -1,0 +1,64 @@
+{
+  "candidate": "21616885-21616887-6890811-r-301",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short park-edge kerb on Underhill Avenue where cars already park; homes over 30 m away.",
+  "reasons": [
+    "Backs onto park and bushes",
+    "Other cars park along this kerb",
+    "Nearest dwelling 31 m or more"
+  ],
+  "drivers": {
+    "seclusion": "West side is park lawn and dense shrubs. Nearest mapped dwelling is 31 m (apartments) at the far end; a petrol station is 28 m away.",
+    "access_and_room": "Sealed street, with cars parked along the kerb in both images. Room for a van among them.",
+    "traffic": "Quiet dead-end spur off a busier road; light traffic.",
+    "convention": "Several cars parked on this kerb in both Esri and QLD images, so a van will not stand out."
+  },
+  "flags": [
+    "Apartment blocks across the road, 30 to 60 m away",
+    "Powerlines overhead nearby",
+    "Max local grade 7.3% in one 5 m step, mean 2.4%"
+  ],
+  "sun_shade": "Mostly open on the east side; trees to the west give afternoon shade. Some canopy over the south end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 2,
+    "to_m": 20,
+    "where": "West kerb of the short Underhill Avenue cul-de-sac, beside the park, north of the main road",
+    "slope_pct": 0.9,
+    "points": [
+      [
+        152.975172,
+        -27.499839
+      ],
+      [
+        152.975138,
+        -27.499998
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 36,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 19.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

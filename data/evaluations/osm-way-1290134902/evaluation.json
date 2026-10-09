@@ -1,0 +1,69 @@
+{
+  "candidate": "osm-way-1290134902",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Marked-bay campus car park backing onto bush, no homes, a car parked.",
+  "reasons": [
+    "Backs onto dense bush",
+    "No dwellings; only university buildings",
+    "Sealed bays with way in"
+  ],
+  "drivers": {
+    "seclusion": "Bush behind and beside; nearest buildings are university blocks and sheds 9 m or more away, none residential.",
+    "access_and_room": "Sealed access road runs to the marked bays; room for a van in the bays or at their end.",
+    "traffic": "Low; campus service road with some daytime activity.",
+    "convention": "Marked car park with a car already parked; campus use may bring daytime foot traffic."
+  },
+  "flags": [
+    "DEM shows steep ground, mean 10%; best section about 6%",
+    "University buildings 9 m away, non-residential",
+    "Mapped gates nearby have ways round",
+    "Campus may be patrolled"
+  ],
+  "sun_shade": "Open to sun at the bays with tree shade from the north and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Campus security or signage",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 50,
+    "to_m": 60,
+    "where": "Bays at the ring end of the small car park, nearest the access road",
+    "slope_pct": 5.9,
+    "points": [
+      [
+        152.99715,
+        -27.509952
+      ],
+      [
+        152.997181,
+        -27.509967
+      ],
+      [
+        152.99715,
+        -27.510017
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 8.6,
+    "min_elevation_m": 14.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,46 @@
+{
+  "candidate": "bcc-trail-2680",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is in steep bush behind back gardens; no track or vehicle access.",
+  "reasons": [
+    "No road, track or vehicles seen",
+    "Slope 16% mean, 49% max",
+    "House 16 m away, others close"
+  ],
+  "drivers": {
+    "seclusion": "Bush at the pin, but a house is 16 m away and three more within 40 m.",
+    "access_and_room": "No formed track or clearing; only private driveways and gardens nearby.",
+    "traffic": "None at the pin.",
+    "convention": "No sign of vehicles or camping."
+  },
+  "flags": [
+    "Steep: mean 15.7%, max 49%, above the 12% limit",
+    "Dwelling 16 m from the pin"
+  ],
+  "sun_shade": "Full tree canopy.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Faint tracks under canopy"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 15.7,
+    "min_elevation_m": 66.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

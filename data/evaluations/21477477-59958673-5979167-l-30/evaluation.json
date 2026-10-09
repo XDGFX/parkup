@@ -1,0 +1,49 @@
+{
+  "candidate": "21477477-59958673-5979167-l-30",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Walter Taylor Bridge approach: through road with no parking and no room to stop.",
+  "reasons": [
+    "Through route, no parked cars",
+    "No shoulder, kerb to barrier",
+    "Bridge abutment, rail alongside"
+  ],
+  "drivers": {
+    "seclusion": "No homes mapped, but the road is exposed bridge approach with no cover.",
+    "access_and_room": "Two-lane road with kerb and bridge barrier on the west edge; no pull-off. Only car park is off to the west, a separate place.",
+    "traffic": "Busy bridge approach with a rail line beside it.",
+    "convention": "No cars parked along this kerb in either image."
+  },
+  "flags": [
+    "Main road with no parking",
+    "DEM slope is unreliable on the bridge (max 28%)",
+    "Low-lying near the Brisbane River, min 5.3 m",
+    "Rail and road noise"
+  ],
+  "sun_shade": "Open; bridge tower shades the north end in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 10.4,
+    "min_elevation_m": 5.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

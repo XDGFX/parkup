@@ -1,0 +1,48 @@
+{
+  "candidate": "54625310-54625462-8050664-l-30",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Main road kerb by a junction; bank and trees beside it, no parking.",
+  "reasons": [
+    "Collector road, no parked cars here",
+    "Grass bank, no room to pull off",
+    "Next to roundabout junction"
+  ],
+  "drivers": {
+    "seclusion": "No buildings, with bush and a creek bank behind. The road is open to view of passing traffic.",
+    "access_and_room": "Kerb runs against a grassy bank with a footpath and signal pole; no pull-off before the dirt patch further east.",
+    "traffic": "Busy Witton Road with multiple lanes and a roundabout at the west end.",
+    "convention": "No cars parked on this stretch; the two cars in the QLD image are on a dirt pull-off beyond it."
+  },
+  "flags": [
+    "Main road with no parking",
+    "Low-lying: 3.4 m, Witton Creek 12 m away, flood-prone",
+    "Traffic noise"
+  ],
+  "sun_shade": "Heavy tree canopy to the north; open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 0.9,
+    "min_elevation_m": 3.4,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

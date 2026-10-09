@@ -1,0 +1,66 @@
+{
+  "candidate": "60200186-60200187-8050667-r-130",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet side-street kerb beside a grassy lot, but homes 13-16 m across the road.",
+  "reasons": [
+    "Open grass lot on this side",
+    "Homes 13-16 m away across road",
+    "One car parked; weak convention"
+  ],
+  "drivers": {
+    "seclusion": "Open lawn on the section's own side; two houses 13-16 m away across the road and a large mapped building about 9-20 m up the lot.",
+    "access_and_room": "Plain kerb on a narrow side street; one car parked at the kerb shows others stop here.",
+    "traffic": "Quiet residential street near a junction; light local traffic.",
+    "convention": "A car is parked at this kerb in Esri 2025 and QLD 2022 shows two parked nearby; no strong overnight convention."
+  },
+  "flags": [
+    "Mapped No Stopping Any Time sign 8.4 m from the line, check where it applies",
+    "Slightly steep: about 3.6% over the section",
+    "Low-lying: about 5-6 m elevation, Witton Creek 122 m away",
+    "Large mapped building 9-10 m away may be homes"
+  ],
+  "sun_shade": "Open lawn, no cover; sun all day, tree shade from the large tree to the west in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Where the No Stopping sign actually applies",
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether the large building near the start is residential"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 30,
+    "where": "Twigg Street kerb beside the open grassy lot, short of the stop line at the junction",
+    "slope_pct": 3.6,
+    "points": [
+      [
+        152.967248,
+        -27.506804
+      ],
+      [
+        152.967155,
+        -27.506911
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 3.6,
+    "min_elevation_m": 5.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:23:03Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

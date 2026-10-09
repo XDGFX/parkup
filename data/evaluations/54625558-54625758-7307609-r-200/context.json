@@ -1,0 +1,188 @@
+{
+  "id": "54625558-54625758-7307609-r-200",
+  "street": "Radnor Street",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.97239,
+      -27.504495
+    ],
+    [
+      152.972485,
+      -27.504449
+    ],
+    [
+      152.972486,
+      -27.504448
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "south",
+  "length_m": 11,
+  "signs": [
+    {
+      "street": "RADNOR STREET",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 11.2
+    }
+  ],
+  "buildings": [
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 43,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9719625,
+          -27.5044121
+        ],
+        [
+          152.9719962,
+          -27.5042452
+        ],
+        [
+          152.9718662,
+          -27.5042246
+        ],
+        [
+          152.9718481,
+          -27.5043145
+        ],
+        [
+          152.9717427,
+          -27.5042977
+        ],
+        [
+          152.9717272,
+          -27.5043747
+        ],
+        [
+          152.9719625,
+          -27.5044121
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9740908,
+      "lat": -27.5047508,
+      "metres": 162,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9710671,
+      "lat": -27.5030073,
+      "metres": 211,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9710741,
+      "lat": -27.5029719,
+      "metres": 213,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9710955,
+      "lat": -27.5028636,
+      "metres": 222,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9753398,
+      "lat": -27.5037806,
+      "metres": 291,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.97239,
+        "lat": -27.504495,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 7.6
+      },
+      {
+        "lon": 152.972434,
+        "lat": -27.504473,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 8.35
+      },
+      {
+        "lon": 152.972479,
+        "lat": -27.504452,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 8.66
+      },
+      {
+        "lon": 152.972486,
+        "lat": -27.504448,
+        "at_m": 10.8,
+        "line": 0,
+        "elevation_m": 8.75
+      }
+    ],
+    "min_elevation_m": 7.6,
+    "max_elevation_m": 8.8,
+    "mean_grade_pct": 10.8,
+    "max_grade_pct": 15
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 92
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 11,
+      "length_m": 11,
+      "images": {
+        "esri": ".cache/imagery/54625558-54625758-7307609-r-200/chunk1-esri.jpg",
+        "qld": ".cache/imagery/54625558-54625758-7307609-r-200/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        69,
+        65
+      ],
+      "image_px": [
+        463,
+        435
+      ]
+    }
+  ]
+}
