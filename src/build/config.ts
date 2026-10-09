@@ -53,7 +53,7 @@ export const BUS_STOP = { BEFORE_M: 20, AFTER_M: 10, BUS_ZONE_NEAR_M: 30 };
 export const CROSSING = { BEFORE_M: 20, AFTER_M: 10 };
 
 /** Frontage: sample the kerb every STEP_M and probe outward up to PROBE_M (across the road reserve) for the first zone. */
-export const FRONTAGE = { STEP_M: 10, PROBE_M: 60, PROBE_STEP_M: 2 };
+export const FRONTAGE = { STEP_M: 10, PROBE_M: 40, PROBE_STEP_M: 2 };
 
 /**
  * Frontage tiers (the spec's Screen and ordering table), by City Plan 2014 zone or precinct code.
