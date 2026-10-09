@@ -1,0 +1,72 @@
+{
+  "candidate": "marmion-pde",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb along a grassy park with homes only across the road.",
+  "reasons": [
+    "Park on the kerb side",
+    "Homes across the road, over 10 m",
+    "Other cars park along the street"
+  ],
+  "drivers": {
+    "seclusion": "Open park and a few trees on the kerb side; houses across the road, roughly 15 to 20 m off.",
+    "access_and_room": "Plain kerb on a wide residential street; a van fits beside the parked cars.",
+    "traffic": "Quiet suburban street with a junction at each end of the section.",
+    "convention": "Cars park along both sides nearby; signs are 2P with resident permits, Monday to Friday 7am to 7pm only."
+  },
+  "flags": [
+    "Gentle slope, about 3.3%",
+    "Daytime 2P signs, not overnight",
+    "Houses face the park across the road"
+  ],
+  "sun_shade": "Open to the south over the park; large trees to the east shade the road at times.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 320,
+    "to_m": 385,
+    "where": "Marmion Pde beside the park, just east of the side-street junction",
+    "slope_pct": 3.3,
+    "points": [
+      [
+        152.979134,
+        -27.490819
+      ],
+      [
+        152.979147,
+        -27.490817
+      ],
+      [
+        152.979155,
+        -27.490816
+      ],
+      [
+        152.979784,
+        -27.490724
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 27,
+    "gated": false,
+    "slope_pct": 3.5,
+    "min_elevation_m": 21.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T09:34:22Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v10"
+}

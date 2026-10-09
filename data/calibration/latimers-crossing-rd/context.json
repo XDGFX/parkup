@@ -1,0 +1,189 @@
+{
+  "id": "latimers-crossing-rd",
+  "street": "Latimers Crossing Road",
+  "suburb": "",
+  "kind": "point",
+  "line": [
+    [
+      153.291025,
+      -28.029905
+    ]
+  ],
+  "osm_tags": {},
+  "length_m": 0,
+  "signs": [],
+  "buildings": [],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.290822,
+        "lat": -28.029905,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 42.96
+      },
+      {
+        "lon": 153.290873,
+        "lat": -28.029905,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 43.82
+      },
+      {
+        "lon": 153.290924,
+        "lat": -28.029905,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 45.81
+      },
+      {
+        "lon": 153.290974,
+        "lat": -28.029905,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 45.65
+      },
+      {
+        "lon": 153.291025,
+        "lat": -28.029905,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 45.92
+      },
+      {
+        "lon": 153.291076,
+        "lat": -28.029905,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 46.81
+      },
+      {
+        "lon": 153.291126,
+        "lat": -28.029905,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 46.96
+      },
+      {
+        "lon": 153.291177,
+        "lat": -28.029905,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 47.2
+      },
+      {
+        "lon": 153.291228,
+        "lat": -28.029905,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 47.4
+      },
+      {
+        "lon": 153.291025,
+        "lat": -28.030085,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 43.71
+      },
+      {
+        "lon": 153.291025,
+        "lat": -28.03004,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 44.18
+      },
+      {
+        "lon": 153.291025,
+        "lat": -28.029995,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 44.82
+      },
+      {
+        "lon": 153.291025,
+        "lat": -28.02995,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 45.96
+      },
+      {
+        "lon": 153.291025,
+        "lat": -28.029905,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 45.92
+      },
+      {
+        "lon": 153.291025,
+        "lat": -28.02986,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 46.51
+      },
+      {
+        "lon": 153.291025,
+        "lat": -28.029815,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 46.61
+      },
+      {
+        "lon": 153.291025,
+        "lat": -28.02977,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 46.27
+      },
+      {
+        "lon": 153.291025,
+        "lat": -28.029725,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 46.31
+      }
+    ],
+    "min_elevation_m": 43,
+    "max_elevation_m": 47.4,
+    "mean_grade_pct": 10.1,
+    "max_grade_pct": 39.8
+  },
+  "waterway": {
+    "name": "Nerang River",
+    "metres": 83
+  },
+  "mapped_parking": [],
+  "mapped_ways": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/latimers-crossing-rd/chunk1-esri.jpg",
+        "qld": ".cache/imagery/latimers-crossing-rd/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-10-01",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Gold_Coast_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

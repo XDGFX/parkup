@@ -1,0 +1,435 @@
+{
+  "id": "yeronga-truck-parking",
+  "street": "Brisbane Corso",
+  "suburb": "Yeronga",
+  "kind": "point",
+  "line": [
+    [
+      153.014053,
+      -27.506116
+    ]
+  ],
+  "osm_tags": {},
+  "length_m": 0,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 42,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0140607,
+          -27.5057154
+        ],
+        [
+          153.0140984,
+          -27.5057148
+        ],
+        [
+          153.0140988,
+          -27.5057394
+        ],
+        [
+          153.0140871,
+          -27.5057396
+        ],
+        [
+          153.0140723,
+          -27.5057398
+        ],
+        [
+          153.0140612,
+          -27.50574
+        ],
+        [
+          153.0140607,
+          -27.5057154
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 48,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0143508,
+          -27.5064854
+        ],
+        [
+          153.0143493,
+          -27.5064562
+        ],
+        [
+          153.0144091,
+          -27.5064539
+        ],
+        [
+          153.0144106,
+          -27.506483
+        ],
+        [
+          153.0143508,
+          -27.5064854
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 51,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0145767,
+          -27.5064241
+        ],
+        [
+          153.0145178,
+          -27.5064265
+        ],
+        [
+          153.0145124,
+          -27.5063183
+        ],
+        [
+          153.0145713,
+          -27.5063159
+        ],
+        [
+          153.0145767,
+          -27.5064241
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 58,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0145217,
+          -27.5065502
+        ],
+        [
+          153.0145162,
+          -27.5064389
+        ],
+        [
+          153.0145888,
+          -27.506436
+        ],
+        [
+          153.0145944,
+          -27.5065474
+        ],
+        [
+          153.0145217,
+          -27.5065502
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 78,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0135421,
+          -27.5066846
+        ],
+        [
+          153.0135814,
+          -27.5066831
+        ],
+        [
+          153.013583,
+          -27.5067138
+        ],
+        [
+          153.0135436,
+          -27.5067153
+        ],
+        [
+          153.0135421,
+          -27.5066846
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 82,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0134395,
+          -27.5066424
+        ],
+        [
+          153.0134659,
+          -27.5066414
+        ],
+        [
+          153.0134672,
+          -27.5066681
+        ],
+        [
+          153.0134408,
+          -27.5066692
+        ],
+        [
+          153.0134395,
+          -27.5066424
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 88,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0134703,
+          -27.5068464
+        ],
+        [
+          153.0134127,
+          -27.5068487
+        ],
+        [
+          153.0134059,
+          -27.5067138
+        ],
+        [
+          153.0134636,
+          -27.5067115
+        ],
+        [
+          153.0134703,
+          -27.5068464
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": "yes",
+      "lon": 153.0169964,
+      "lat": -27.5057902,
+      "metres": 293,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.01385,
+        "lat": -27.506116,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 6.48
+      },
+      {
+        "lon": 153.013901,
+        "lat": -27.506116,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 6.39
+      },
+      {
+        "lon": 153.013952,
+        "lat": -27.506116,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 6.45
+      },
+      {
+        "lon": 153.014002,
+        "lat": -27.506116,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 6.53
+      },
+      {
+        "lon": 153.014053,
+        "lat": -27.506116,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 6.57
+      },
+      {
+        "lon": 153.014104,
+        "lat": -27.506116,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 6.55
+      },
+      {
+        "lon": 153.014154,
+        "lat": -27.506116,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 6.49
+      },
+      {
+        "lon": 153.014205,
+        "lat": -27.506116,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 6.59
+      },
+      {
+        "lon": 153.014256,
+        "lat": -27.506116,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 6.54
+      },
+      {
+        "lon": 153.014053,
+        "lat": -27.506296,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 6.2
+      },
+      {
+        "lon": 153.014053,
+        "lat": -27.506251,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 6.03
+      },
+      {
+        "lon": 153.014053,
+        "lat": -27.506206,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 5.88
+      },
+      {
+        "lon": 153.014053,
+        "lat": -27.506161,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 5.89
+      },
+      {
+        "lon": 153.014053,
+        "lat": -27.506116,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 6.57
+      },
+      {
+        "lon": 153.014053,
+        "lat": -27.506071,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 6.79
+      },
+      {
+        "lon": 153.014053,
+        "lat": -27.506026,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 6.86
+      },
+      {
+        "lon": 153.014053,
+        "lat": -27.505981,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 6.84
+      },
+      {
+        "lon": 153.014053,
+        "lat": -27.505936,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 7.01
+      }
+    ],
+    "min_elevation_m": 5.9,
+    "max_elevation_m": 7,
+    "mean_grade_pct": 2.5,
+    "max_grade_pct": 13.6
+  },
+  "waterway": {
+    "name": null,
+    "metres": 101
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 61,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "mapped_ways": [
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": null,
+      "access": null,
+      "metres": 64
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": null,
+      "access": null,
+      "metres": 66
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/yeronga-truck-parking/chunk1-esri.jpg",
+        "qld": ".cache/imagery/yeronga-truck-parking/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

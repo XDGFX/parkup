@@ -1,0 +1,64 @@
+{
+  "candidate": "keith-st",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bowls club kerb with other cars parked, no homes nearby, university opposite.",
+  "reasons": [
+    "Bowls greens on the kerb side",
+    "Many cars park here already",
+    "Nearest dwelling over 70 m away"
+  ],
+  "drivers": {
+    "seclusion": "Bowls greens on one side, university car park and childcare building opposite; no homes within 70 m.",
+    "access_and_room": "Open through-street with a row of kerbside cars; a van fits in line with them.",
+    "traffic": "Quiet campus street leading to a car park; some daytime traffic.",
+    "convention": "Row of parked cars along this kerb, P (No Limit) signs, so a van blends in."
+  },
+  "flags": [
+    "Low-lying: 5 to 7 m elevation, Brisbane River 151 m away",
+    "Daytime university and childcare traffic",
+    "Signed no stopping zones near the main road end"
+  ],
+  "sun_shade": "Street trees shade the east side; open to the afternoon sun from the west over the greens.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether university enforces parking after hours"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 100,
+    "to_m": 190,
+    "where": "Keith St beside the bowls club greens, north of the main road",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.009347,
+        -27.493111
+      ],
+      [
+        153.00906,
+        -27.49388
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 5.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T09:34:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v10"
+}

@@ -1,0 +1,47 @@
+{
+  "candidate": "new-farm-kerb",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin sits in a bushy gap between apartment blocks; no room for a van.",
+  "reasons": [
+    "Apartments 15-19 m away",
+    "Narrow private-looking drive and scrub",
+    "No tracks or vans seen"
+  ],
+  "drivers": {
+    "seclusion": "Hemmed in by apartment blocks on three sides, balconies overlook the spot.",
+    "access_and_room": "Narrow drive from the NW ends in scrub at the ring; no clear pull-out or tracks.",
+    "traffic": "Quiet inner-city lane and cul-de-sac nearby; low traffic.",
+    "convention": "Residential apartment area; no sign of overnight stays."
+  },
+  "flags": [
+    "Dwellings within 15 m",
+    "Low-lying: about 2.5 m elevation, Brisbane River 295 m away"
+  ],
+  "sun_shade": "Dense tree canopy and tall buildings shade it most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the drive is private to the apartments",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 2.4,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T09:33:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v10"
+}

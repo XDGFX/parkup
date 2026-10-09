@@ -1,0 +1,60 @@
+{
+  "candidate": "pin10",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Large sealed car park beside the railway, nearest homes about 65 m away.",
+  "reasons": [
+    "Big car park backing onto rail corridor",
+    "Nearest home about 65 m, across road",
+    "Empty bays at the north end"
+  ],
+  "drivers": {
+    "seclusion": "Rail corridor and tree belt to the north and east; houses beyond Alderson Street to the south, 60 m or more.",
+    "access_and_room": "Open sealed lot with wide aisles and marked bays; plenty of room for a van.",
+    "traffic": "Quiet residential street; trains pass beside the lot.",
+    "convention": "Public car park, mapped free; cars parked by the pool, no campers seen."
+  },
+  "flags": [
+    "Train noise from the adjacent line",
+    "Pool and building site on the west side: daytime activity",
+    "Bays are marked; time limits unknown"
+  ],
+  "sun_shade": "Mostly open sun; tree belt shades the east side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Time limits or signs on site",
+    "Street lighting",
+    "Whether the pool or club closes the lot at night"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "North end of the car park, at the pin, beside the tree strip and rail line",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.007892,
+        -27.429901
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 67,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 16.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T09:34:52Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v10"
+}

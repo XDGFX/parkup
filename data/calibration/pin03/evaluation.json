@@ -1,0 +1,61 @@
+{
+  "candidate": "pin03",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Gravel bushland car park beside Sir Samuel Griffith Drive, many cars, no homes.",
+  "reasons": [
+    "Forest all round, no dwellings",
+    "Open gravel car park, full of cars",
+    "Pin is in bush; car park 15 m off"
+  ],
+  "drivers": {
+    "seclusion": "Forest to the west and south, a sports field to the north; no buildings or homes in view.",
+    "access_and_room": "Gravel surface meets the road edge, with many cars parked, so room and way in are clear.",
+    "traffic": "Sir Samuel Griffith Drive runs beside it, with parked cars along the verge too.",
+    "convention": "Mapped public car park (access yes, no fee) heavily used by walkers and riders."
+  },
+  "flags": [
+    "Pin sits in dense bush on a steep creek bank, 38% max grade; ring is off",
+    "Slope at the car park not measured, assumed about 3%",
+    "East Ithaca Creek 2 m from the pin",
+    "Road noise"
+  ],
+  "sun_shade": "Tall trees shade the west and south; the gravel is partly open to the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Car park slope",
+    "Closing hours or signs",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Gravel car park just east of the pin, on the west side of the road",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.970183,
+        -27.469278
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 16.4,
+    "min_elevation_m": 61.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T09:35:01Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v10"
+}

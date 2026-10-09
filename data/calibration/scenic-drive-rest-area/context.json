@@ -1,0 +1,223 @@
+{
+  "id": "scenic-drive-rest-area",
+  "street": "Scenic Drive",
+  "suburb": "Brisbane",
+  "kind": "point",
+  "line": [
+    [
+      152.968206,
+      -27.474607
+    ]
+  ],
+  "osm_tags": {},
+  "length_m": 0,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 152.9690197,
+      "lat": -27.4726453,
+      "metres": 232,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9692428,
+      "lat": -27.4727291,
+      "metres": 233,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.968003,
+        "lat": -27.474607,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 120.26
+      },
+      {
+        "lon": 152.968054,
+        "lat": -27.474607,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 119.77
+      },
+      {
+        "lon": 152.968105,
+        "lat": -27.474607,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 119.5
+      },
+      {
+        "lon": 152.968155,
+        "lat": -27.474607,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 119.25
+      },
+      {
+        "lon": 152.968206,
+        "lat": -27.474607,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 118.79
+      },
+      {
+        "lon": 152.968257,
+        "lat": -27.474607,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 118.63
+      },
+      {
+        "lon": 152.968307,
+        "lat": -27.474607,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 118.32
+      },
+      {
+        "lon": 152.968358,
+        "lat": -27.474607,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 117.54
+      },
+      {
+        "lon": 152.968409,
+        "lat": -27.474607,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 117.11
+      },
+      {
+        "lon": 152.968206,
+        "lat": -27.474787,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 118.96
+      },
+      {
+        "lon": 152.968206,
+        "lat": -27.474742,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 118.88
+      },
+      {
+        "lon": 152.968206,
+        "lat": -27.474697,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 119.07
+      },
+      {
+        "lon": 152.968206,
+        "lat": -27.474652,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 119.02
+      },
+      {
+        "lon": 152.968206,
+        "lat": -27.474607,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 118.79
+      },
+      {
+        "lon": 152.968206,
+        "lat": -27.474562,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 118.73
+      },
+      {
+        "lon": 152.968206,
+        "lat": -27.474517,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 118.72
+      },
+      {
+        "lon": 152.968206,
+        "lat": -27.474472,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 118.83
+      },
+      {
+        "lon": 152.968206,
+        "lat": -27.474427,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 119.5
+      }
+    ],
+    "min_elevation_m": 117.1,
+    "max_elevation_m": 120.3,
+    "mean_grade_pct": 5.7,
+    "max_grade_pct": 15.6
+  },
+  "waterway": {
+    "name": null,
+    "metres": 136
+  },
+  "mapped_parking": [],
+  "mapped_ways": [
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": "Sir Samuel Griffith Drive",
+      "surface": "asphalt",
+      "access": null,
+      "metres": 47
+    },
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": "Sir Samuel Griffith Drive",
+      "surface": "asphalt",
+      "access": null,
+      "metres": 81
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/scenic-drive-rest-area/chunk1-esri.jpg",
+        "qld": ".cache/imagery/scenic-drive-rest-area/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

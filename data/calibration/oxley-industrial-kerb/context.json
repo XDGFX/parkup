@@ -1,0 +1,413 @@
+{
+  "id": "oxley-industrial-kerb",
+  "street": "Mabel Street",
+  "suburb": "Oxley",
+  "kind": "point",
+  "line": [
+    [
+      152.973687,
+      -27.556965
+    ]
+  ],
+  "osm_tags": {},
+  "length_m": 0,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 61,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9730528,
+          -27.5572939
+        ],
+        [
+          152.9730773,
+          -27.5574078
+        ],
+        [
+          152.9732057,
+          -27.5573891
+        ],
+        [
+          152.9731824,
+          -27.5572763
+        ],
+        [
+          152.9730528,
+          -27.5572939
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 72,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9730878,
+          -27.5574616
+        ],
+        [
+          152.9731111,
+          -27.5575848
+        ],
+        [
+          152.9732232,
+          -27.5575672
+        ],
+        [
+          152.9731964,
+          -27.5574461
+        ],
+        [
+          152.9730878,
+          -27.5574616
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 81,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9728566,
+          -27.5573281
+        ],
+        [
+          152.9728788,
+          -27.5574274
+        ],
+        [
+          152.9729886,
+          -27.5574119
+        ],
+        [
+          152.9729699,
+          -27.5573115
+        ],
+        [
+          152.9728566,
+          -27.5573281
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 83,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9731403,
+          -27.5576168
+        ],
+        [
+          152.9731625,
+          -27.5577204
+        ],
+        [
+          152.9731859,
+          -27.5577172
+        ],
+        [
+          152.9731905,
+          -27.5577317
+        ],
+        [
+          152.9732477,
+          -27.5577245
+        ],
+        [
+          152.9732454,
+          -27.55771
+        ],
+        [
+          152.9732699,
+          -27.5577059
+        ],
+        [
+          152.9732489,
+          -27.5575982
+        ],
+        [
+          152.9731403,
+          -27.5576168
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 94,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9727399,
+          -27.5573819
+        ],
+        [
+          152.9727667,
+          -27.5575309
+        ],
+        [
+          152.9728753,
+          -27.5575154
+        ],
+        [
+          152.9728473,
+          -27.5573653
+        ],
+        [
+          152.9727399,
+          -27.5573819
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 96,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9731859,
+          -27.55777
+        ],
+        [
+          152.9732209,
+          -27.5579087
+        ],
+        [
+          152.9733213,
+          -27.557887
+        ],
+        [
+          152.9732863,
+          -27.5577493
+        ],
+        [
+          152.9731859,
+          -27.55777
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9744026,
+      "lat": -27.557084,
+      "metres": 72,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9750912,
+      "lat": -27.5572669,
+      "metres": 143,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9753481,
+      "lat": -27.5570945,
+      "metres": 164,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.975367,
+      "lat": -27.5572478,
+      "metres": 169,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.973484,
+        "lat": -27.556965,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 10.57
+      },
+      {
+        "lon": 152.973535,
+        "lat": -27.556965,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 10.48
+      },
+      {
+        "lon": 152.973586,
+        "lat": -27.556965,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 10.44
+      },
+      {
+        "lon": 152.973636,
+        "lat": -27.556965,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 10.32
+      },
+      {
+        "lon": 152.973687,
+        "lat": -27.556965,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 10.26
+      },
+      {
+        "lon": 152.973738,
+        "lat": -27.556965,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 10.13
+      },
+      {
+        "lon": 152.973788,
+        "lat": -27.556965,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 10.04
+      },
+      {
+        "lon": 152.973839,
+        "lat": -27.556965,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 9.96
+      },
+      {
+        "lon": 152.97389,
+        "lat": -27.556965,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 9.74
+      },
+      {
+        "lon": 152.973687,
+        "lat": -27.557145,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 9.12
+      },
+      {
+        "lon": 152.973687,
+        "lat": -27.5571,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 9.63
+      },
+      {
+        "lon": 152.973687,
+        "lat": -27.557055,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 9.97
+      },
+      {
+        "lon": 152.973687,
+        "lat": -27.55701,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 10.09
+      },
+      {
+        "lon": 152.973687,
+        "lat": -27.556965,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 10.26
+      },
+      {
+        "lon": 152.973687,
+        "lat": -27.55692,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 10.22
+      },
+      {
+        "lon": 152.973687,
+        "lat": -27.556875,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 10.2
+      },
+      {
+        "lon": 152.973687,
+        "lat": -27.55683,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 10.24
+      },
+      {
+        "lon": 152.973687,
+        "lat": -27.556785,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 10.15
+      }
+    ],
+    "min_elevation_m": 9.1,
+    "max_elevation_m": 10.6,
+    "mean_grade_pct": 2.7,
+    "max_grade_pct": 10.2
+  },
+  "waterway": {
+    "name": null,
+    "metres": 67
+  },
+  "mapped_parking": [],
+  "mapped_ways": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/oxley-industrial-kerb/chunk1-esri.jpg",
+        "qld": ".cache/imagery/oxley-industrial-kerb/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

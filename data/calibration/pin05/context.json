@@ -1,0 +1,206 @@
+{
+  "id": "pin05",
+  "street": "O'Quinn Street",
+  "suburb": "Nudgee Beach",
+  "kind": "point",
+  "line": [
+    [
+      153.097971,
+      -27.345189
+    ]
+  ],
+  "osm_tags": {},
+  "length_m": 0,
+  "signs": [],
+  "buildings": [],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.097768,
+        "lat": -27.345189,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": -0.27
+      },
+      {
+        "lon": 153.097819,
+        "lat": -27.345189,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": -0.27
+      },
+      {
+        "lon": 153.09787,
+        "lat": -27.345189,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": -0.27
+      },
+      {
+        "lon": 153.09792,
+        "lat": -27.345189,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": -0.27
+      },
+      {
+        "lon": 153.097971,
+        "lat": -27.345189,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": -0.27
+      },
+      {
+        "lon": 153.098022,
+        "lat": -27.345189,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": -0.27
+      },
+      {
+        "lon": 153.098072,
+        "lat": -27.345189,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": -0.16
+      },
+      {
+        "lon": 153.098123,
+        "lat": -27.345189,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 1.51
+      },
+      {
+        "lon": 153.098174,
+        "lat": -27.345189,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 1.04
+      },
+      {
+        "lon": 153.097971,
+        "lat": -27.345369,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": -0.27
+      },
+      {
+        "lon": 153.097971,
+        "lat": -27.345324,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": -0.27
+      },
+      {
+        "lon": 153.097971,
+        "lat": -27.345279,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": -0.27
+      },
+      {
+        "lon": 153.097971,
+        "lat": -27.345234,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": -0.27
+      },
+      {
+        "lon": 153.097971,
+        "lat": -27.345189,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": -0.27
+      },
+      {
+        "lon": 153.097971,
+        "lat": -27.345144,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": -0.27
+      },
+      {
+        "lon": 153.097971,
+        "lat": -27.345099,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 0.51
+      },
+      {
+        "lon": 153.097971,
+        "lat": -27.345054,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 1.27
+      },
+      {
+        "lon": 153.097971,
+        "lat": -27.345009,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 0.87
+      }
+    ],
+    "min_elevation_m": -0.3,
+    "max_elevation_m": 1.5,
+    "mean_grade_pct": 5.2,
+    "max_grade_pct": 33.4
+  },
+  "waterway": {
+    "name": "Nudgee Creek",
+    "metres": 6
+  },
+  "mapped_parking": [],
+  "mapped_ways": [
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 56
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 80
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/pin05/chunk1-esri.jpg",
+        "qld": ".cache/imagery/pin05/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "candidate": "adsett-st",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 4 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb with detached homes 4 to 6 m away on the same side.",
+  "reasons": [
+    "Dwellings within 6 m",
+    "Only 28 m long",
+    "No-parking sign, no parking convention"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses at 4 m and 6 m on the kerb side, apartments at 14 m.",
+    "access_and_room": "Narrow street, a few cars parked south end; room is tight.",
+    "traffic": "Rail line and a through road at the corner; quiet beyond it.",
+    "convention": "A few cars park near the south end, but signs say no parking weekdays."
+  },
+  "flags": [
+    "Dwelling within 10 m rules it out",
+    "Mean grade 4.5%, steep",
+    "Rail noise nearby",
+    "Construction site opposite"
+  ],
+  "sun_shade": "Trees and houses shade the east side; open to the afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting is mapped but not visible overhead",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 28,
+    "where": "Adsett St kerb south of the rail-side corner",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        152.983143,
+        -27.492758
+      ],
+      [
+        152.983163,
+        -27.492788
+      ],
+      [
+        152.983175,
+        -27.492807
+      ],
+      [
+        152.983196,
+        -27.492851
+      ],
+      [
+        152.983199,
+        -27.492872
+      ],
+      [
+        152.983203,
+        -27.492903
+      ],
+      [
+        152.983184,
+        -27.492997
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 4,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 14.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T09:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v10"
+}

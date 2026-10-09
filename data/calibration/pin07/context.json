@@ -1,0 +1,198 @@
+{
+  "id": "pin07",
+  "street": "Boundary Road",
+  "suburb": "Oxley",
+  "kind": "point",
+  "line": [
+    [
+      152.986993,
+      -27.56719
+    ]
+  ],
+  "osm_tags": {},
+  "length_m": 0,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9846354,
+      "lat": -27.5669715,
+      "metres": 234,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.98679,
+        "lat": -27.56719,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 4.67
+      },
+      {
+        "lon": 152.986841,
+        "lat": -27.56719,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 4.7
+      },
+      {
+        "lon": 152.986892,
+        "lat": -27.56719,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 4.58
+      },
+      {
+        "lon": 152.986942,
+        "lat": -27.56719,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 4.58
+      },
+      {
+        "lon": 152.986993,
+        "lat": -27.56719,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 4.5
+      },
+      {
+        "lon": 152.987044,
+        "lat": -27.56719,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 4.35
+      },
+      {
+        "lon": 152.987094,
+        "lat": -27.56719,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 4.24
+      },
+      {
+        "lon": 152.987145,
+        "lat": -27.56719,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 4.25
+      },
+      {
+        "lon": 152.987196,
+        "lat": -27.56719,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 4.2
+      },
+      {
+        "lon": 152.986993,
+        "lat": -27.56737,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 4.04
+      },
+      {
+        "lon": 152.986993,
+        "lat": -27.567325,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 4.13
+      },
+      {
+        "lon": 152.986993,
+        "lat": -27.56728,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 4.18
+      },
+      {
+        "lon": 152.986993,
+        "lat": -27.567235,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 4.36
+      },
+      {
+        "lon": 152.986993,
+        "lat": -27.56719,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 4.5
+      },
+      {
+        "lon": 152.986993,
+        "lat": -27.567145,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 4.65
+      },
+      {
+        "lon": 152.986993,
+        "lat": -27.5671,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 4.74
+      },
+      {
+        "lon": 152.986993,
+        "lat": -27.567055,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 4.78
+      },
+      {
+        "lon": 152.986993,
+        "lat": -27.56701,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 4.74
+      }
+    ],
+    "min_elevation_m": 4,
+    "max_elevation_m": 4.8,
+    "mean_grade_pct": 1.7,
+    "max_grade_pct": 3.6
+  },
+  "waterway": {
+    "name": "Oxley Creek",
+    "metres": 124
+  },
+  "mapped_parking": [],
+  "mapped_ways": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/pin07/chunk1-esri.jpg",
+        "qld": ".cache/imagery/pin07/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

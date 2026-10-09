@@ -1,0 +1,61 @@
+{
+  "candidate": "griffith-st",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet riverside residential kerb; homes close on both sides.",
+  "reasons": [
+    "Cars park along the kerb",
+    "Homes and flats within 10-25 m",
+    "Dead-end style street, little through traffic"
+  ],
+  "drivers": {
+    "seclusion": "Houses and apartment blocks line both sides, within about 10-25 m of the kerb.",
+    "access_and_room": "Sealed street with parked cars along the kerb; a van would fit in line with them.",
+    "traffic": "Narrow local street with light traffic.",
+    "convention": "Residential kerb parking, no sign of campervans or overnight stays."
+  },
+  "flags": [
+    "Dwellings within 25 m all round",
+    "Low-lying: about 5 m elevation, Brisbane River 187 m away"
+  ],
+  "sun_shade": "Mixed street trees; flats on the river side shade the west kerb in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking signs and time limits",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Griffith Street kerb just south of the pin, by the river-side flats",
+    "slope_pct": 2.6,
+    "points": [
+      [
+        153.042385,
+        -27.473001
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 4.6,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T09:34:15Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v10"
+}

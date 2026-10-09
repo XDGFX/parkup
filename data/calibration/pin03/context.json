@@ -1,0 +1,221 @@
+{
+  "id": "pin03",
+  "street": "Sir Samuel Griffith Drive",
+  "suburb": "Toowong",
+  "kind": "point",
+  "line": [
+    [
+      152.970183,
+      -27.469278
+    ]
+  ],
+  "osm_tags": {},
+  "length_m": 0,
+  "signs": [],
+  "buildings": [],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.96998,
+        "lat": -27.469278,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 66.51
+      },
+      {
+        "lon": 152.970031,
+        "lat": -27.469278,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 65.54
+      },
+      {
+        "lon": 152.970082,
+        "lat": -27.469278,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 64.24
+      },
+      {
+        "lon": 152.970132,
+        "lat": -27.469278,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 63.31
+      },
+      {
+        "lon": 152.970183,
+        "lat": -27.469278,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 63.04
+      },
+      {
+        "lon": 152.970234,
+        "lat": -27.469278,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 61.28
+      },
+      {
+        "lon": 152.970284,
+        "lat": -27.469278,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 63.2
+      },
+      {
+        "lon": 152.970335,
+        "lat": -27.469278,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 63.5
+      },
+      {
+        "lon": 152.970386,
+        "lat": -27.469278,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 63.74
+      },
+      {
+        "lon": 152.970183,
+        "lat": -27.469458,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 64.49
+      },
+      {
+        "lon": 152.970183,
+        "lat": -27.469413,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 63.94
+      },
+      {
+        "lon": 152.970183,
+        "lat": -27.469368,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 63.5
+      },
+      {
+        "lon": 152.970183,
+        "lat": -27.469323,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 63.29
+      },
+      {
+        "lon": 152.970183,
+        "lat": -27.469278,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 63.04
+      },
+      {
+        "lon": 152.970183,
+        "lat": -27.469233,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 62.21
+      },
+      {
+        "lon": 152.970183,
+        "lat": -27.469188,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 61.05
+      },
+      {
+        "lon": 152.970183,
+        "lat": -27.469143,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 62.12
+      },
+      {
+        "lon": 152.970183,
+        "lat": -27.469098,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 63.03
+      }
+    ],
+    "min_elevation_m": 61.1,
+    "max_elevation_m": 66.5,
+    "mean_grade_pct": 16.4,
+    "max_grade_pct": 38.4
+  },
+  "waterway": {
+    "name": "East Ithaca Creek",
+    "metres": 2
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 15,
+      "access": "yes",
+      "fee": "no",
+      "surface": "gravel"
+    },
+    {
+      "name": null,
+      "metres": 92,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "mapped_ways": [
+    {
+      "highway": "service",
+      "service": "parking_aisle",
+      "name": null,
+      "surface": "compacted",
+      "access": null,
+      "metres": 20
+    },
+    {
+      "highway": "service",
+      "service": "driveway",
+      "name": null,
+      "surface": null,
+      "access": "private",
+      "metres": 64
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/pin03/chunk1-esri.jpg",
+        "qld": ".cache/imagery/pin03/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

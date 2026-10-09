@@ -1,0 +1,2428 @@
+{
+  "id": "marmion-pde",
+  "street": "Marmion Pde",
+  "suburb": "Taringa",
+  "kind": "kerb",
+  "line": [
+    [
+      152.975947,
+      -27.490304
+    ],
+    [
+      152.975981,
+      -27.490312
+    ],
+    [
+      152.976454,
+      -27.49042
+    ],
+    [
+      152.976547,
+      -27.490439
+    ],
+    [
+      152.976637,
+      -27.490454
+    ],
+    [
+      152.97695,
+      -27.490505
+    ],
+    [
+      152.977301,
+      -27.490561
+    ],
+    [
+      152.977662,
+      -27.490624
+    ],
+    [
+      152.978905,
+      -27.490804
+    ],
+    [
+      152.978996,
+      -27.490818
+    ],
+    [
+      152.979043,
+      -27.490825
+    ],
+    [
+      152.979059,
+      -27.490826
+    ],
+    [
+      152.979078,
+      -27.490827
+    ],
+    [
+      152.979098,
+      -27.490825
+    ],
+    [
+      152.979147,
+      -27.490817
+    ],
+    [
+      152.979155,
+      -27.490816
+    ],
+    [
+      152.980395,
+      -27.490635
+    ],
+    [
+      152.980813,
+      -27.490676
+    ],
+    [
+      152.980899,
+      -27.490686
+    ],
+    [
+      152.981158,
+      -27.490719
+    ],
+    [
+      152.981866,
+      -27.49084
+    ],
+    [
+      152.981904,
+      -27.490845
+    ]
+  ],
+  "side": "right",
+  "osm_tags": {
+    "highway": "residential",
+    "surface": "asphalt"
+  },
+  "length_m": 597,
+  "signs": [
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Left",
+      "metres_from_kerb_line": 9.1
+    },
+    {
+      "street": "WOODSTOCK AVENUE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Right",
+      "metres_from_kerb_line": 11.6
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 1.8
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Left",
+      "metres_from_kerb_line": 9.5
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Right",
+      "metres_from_kerb_line": 2.1
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Right",
+      "metres_from_kerb_line": 8.6
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Left",
+      "metres_from_kerb_line": 2.4
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Left",
+      "metres_from_kerb_line": 1.8
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 9.1
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Right",
+      "metres_from_kerb_line": 8.5
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 0.9
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Left",
+      "metres_from_kerb_line": 2.6
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7 AM-7 PM",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Left",
+      "metres_from_kerb_line": 8.6
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Right",
+      "metres_from_kerb_line": 2.6
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Left",
+      "metres_from_kerb_line": 7.8
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 2
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 2
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 8.5
+    },
+    {
+      "street": "FREDERICK STREET",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Left",
+      "metres_from_kerb_line": 12.7
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Right",
+      "metres_from_kerb_line": 2.6
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 1.3
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Left",
+      "metres_from_kerb_line": 2.7
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Right",
+      "metres_from_kerb_line": 7.4
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 8.1
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Right",
+      "metres_from_kerb_line": 0
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Right",
+      "metres_from_kerb_line": 6.8
+    },
+    {
+      "street": "MARMION PARADE",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 2.6
+    },
+    {
+      "street": "FREDERICK STREET",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Right",
+      "metres_from_kerb_line": 12.2
+    }
+  ],
+  "buildings": [
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 8,
+      "at_m": 580,
+      "outline": [
+        [
+          152.9817197,
+          -27.490963
+        ],
+        [
+          152.9817133,
+          -27.4910022
+        ],
+        [
+          152.9815816,
+          -27.4909854
+        ],
+        [
+          152.9816003,
+          -27.4908703
+        ],
+        [
+          152.9817236,
+          -27.490886
+        ],
+        [
+          152.9817113,
+          -27.490962
+        ],
+        [
+          152.9817197,
+          -27.490963
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 9,
+      "at_m": 462,
+      "outline": [
+        [
+          152.9805502,
+          -27.4907299
+        ],
+        [
+          152.9806497,
+          -27.4907442
+        ],
+        [
+          152.980634,
+          -27.4908298
+        ],
+        [
+          152.9805346,
+          -27.4908155
+        ],
+        [
+          152.9805502,
+          -27.4907299
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 9,
+      "at_m": 93,
+      "outline": [
+        [
+          152.9767348,
+          -27.4905597
+        ],
+        [
+          152.976852,
+          -27.4905747
+        ],
+        [
+          152.9768368,
+          -27.4906684
+        ],
+        [
+          152.9768434,
+          -27.4906692
+        ],
+        [
+          152.9768336,
+          -27.4907297
+        ],
+        [
+          152.9767321,
+          -27.4907168
+        ],
+        [
+          152.9767419,
+          -27.4906563
+        ],
+        [
+          152.9767472,
+          -27.4906238
+        ],
+        [
+          152.9767249,
+          -27.4906209
+        ],
+        [
+          152.9767348,
+          -27.4905597
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 9,
+      "at_m": 79,
+      "outline": [
+        [
+          152.9767147,
+          -27.4906383
+        ],
+        [
+          152.9766983,
+          -27.4907392
+        ],
+        [
+          152.9766541,
+          -27.4907336
+        ],
+        [
+          152.9766199,
+          -27.4907292
+        ],
+        [
+          152.9766064,
+          -27.4907275
+        ],
+        [
+          152.9766228,
+          -27.4906266
+        ],
+        [
+          152.9766329,
+          -27.4905645
+        ],
+        [
+          152.9766464,
+          -27.4905662
+        ],
+        [
+          152.9766503,
+          -27.4905419
+        ],
+        [
+          152.9767115,
+          -27.4905497
+        ],
+        [
+          152.9766975,
+          -27.4906361
+        ],
+        [
+          152.9767147,
+          -27.4906383
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 10,
+      "at_m": 26,
+      "outline": [
+        [
+          152.9760974,
+          -27.4904445
+        ],
+        [
+          152.9761747,
+          -27.4904512
+        ],
+        [
+          152.9761732,
+          -27.4904642
+        ],
+        [
+          152.9762334,
+          -27.4904694
+        ],
+        [
+          152.9762251,
+          -27.490545
+        ],
+        [
+          152.9761471,
+          -27.4905382
+        ],
+        [
+          152.9761437,
+          -27.4905255
+        ],
+        [
+          152.9761093,
+          -27.4905225
+        ],
+        [
+          152.9761106,
+          -27.4905101
+        ],
+        [
+          152.9760904,
+          -27.4905083
+        ],
+        [
+          152.9760974,
+          -27.4904445
+        ]
+      ]
+    },
+    {
+      "building": "apartments",
+      "name": "Melrose Court",
+      "dwelling": true,
+      "metres": 10,
+      "at_m": 137,
+      "outline": [
+        [
+          152.9770298,
+          -27.4908578
+        ],
+        [
+          152.9769751,
+          -27.4908509
+        ],
+        [
+          152.9769976,
+          -27.490712
+        ],
+        [
+          152.9770535,
+          -27.4907191
+        ],
+        [
+          152.9770687,
+          -27.4906252
+        ],
+        [
+          152.9772814,
+          -27.4906523
+        ],
+        [
+          152.9772641,
+          -27.4907587
+        ],
+        [
+          152.9772806,
+          -27.4907608
+        ],
+        [
+          152.9772743,
+          -27.4907998
+        ],
+        [
+          152.9772578,
+          -27.4907977
+        ],
+        [
+          152.9770668,
+          -27.4907733
+        ],
+        [
+          152.9770582,
+          -27.4908261
+        ],
+        [
+          152.9772551,
+          -27.4908512
+        ],
+        [
+          152.9772334,
+          -27.4909851
+        ],
+        [
+          152.9770137,
+          -27.4909571
+        ],
+        [
+          152.9770298,
+          -27.4908578
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 10,
+      "at_m": 163,
+      "outline": [
+        [
+          152.9775307,
+          -27.4908035
+        ],
+        [
+          152.9775408,
+          -27.4908048
+        ],
+        [
+          152.9775307,
+          -27.4908668
+        ],
+        [
+          152.9774362,
+          -27.4908548
+        ],
+        [
+          152.9774443,
+          -27.4908048
+        ],
+        [
+          152.9774068,
+          -27.4908
+        ],
+        [
+          152.9774255,
+          -27.4906847
+        ],
+        [
+          152.9775474,
+          -27.4907002
+        ],
+        [
+          152.9775307,
+          -27.4908035
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 11,
+      "at_m": 534,
+      "outline": [
+        [
+          152.9810759,
+          -27.4908167
+        ],
+        [
+          152.9812554,
+          -27.4908396
+        ],
+        [
+          152.9812275,
+          -27.4910118
+        ],
+        [
+          152.981048,
+          -27.4909889
+        ],
+        [
+          152.9810759,
+          -27.4908167
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 11,
+      "at_m": 296,
+      "outline": [
+        [
+          152.9787713,
+          -27.4908863
+        ],
+        [
+          152.9788787,
+          -27.4909
+        ],
+        [
+          152.9788598,
+          -27.4910166
+        ],
+        [
+          152.9787524,
+          -27.4910029
+        ],
+        [
+          152.9787713,
+          -27.4908863
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 11,
+      "at_m": 275,
+      "outline": [
+        [
+          152.9785694,
+          -27.4909207
+        ],
+        [
+          152.9785788,
+          -27.4908625
+        ],
+        [
+          152.9786673,
+          -27.4908738
+        ],
+        [
+          152.9786463,
+          -27.4910036
+        ],
+        [
+          152.9785444,
+          -27.4909906
+        ],
+        [
+          152.978556,
+          -27.490919
+        ],
+        [
+          152.9785694,
+          -27.4909207
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 12,
+      "at_m": 504,
+      "outline": [
+        [
+          152.9809365,
+          -27.4909577
+        ],
+        [
+          152.98094,
+          -27.4909361
+        ],
+        [
+          152.9809186,
+          -27.4909333
+        ],
+        [
+          152.9808909,
+          -27.4909298
+        ],
+        [
+          152.9809003,
+          -27.490872
+        ],
+        [
+          152.980928,
+          -27.4908756
+        ],
+        [
+          152.9809351,
+          -27.4908316
+        ],
+        [
+          152.9809586,
+          -27.4908346
+        ],
+        [
+          152.980964,
+          -27.4908013
+        ],
+        [
+          152.9810408,
+          -27.4908111
+        ],
+        [
+          152.9810317,
+          -27.4908673
+        ],
+        [
+          152.9810103,
+          -27.4908645
+        ],
+        [
+          152.980994,
+          -27.490965
+        ],
+        [
+          152.9809365,
+          -27.4909577
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 12,
+      "at_m": 250,
+      "outline": [
+        [
+          152.9783135,
+          -27.4909212
+        ],
+        [
+          152.9783287,
+          -27.4908274
+        ],
+        [
+          152.9783584,
+          -27.4908312
+        ],
+        [
+          152.9784143,
+          -27.4908383
+        ],
+        [
+          152.9783991,
+          -27.4909321
+        ],
+        [
+          152.9783432,
+          -27.490925
+        ],
+        [
+          152.9783387,
+          -27.4909523
+        ],
+        [
+          152.9783091,
+          -27.4909486
+        ],
+        [
+          152.9783135,
+          -27.4909212
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 12,
+      "at_m": 0,
+      "outline": [
+        [
+          152.975521,
+          -27.4903514
+        ],
+        [
+          152.9755656,
+          -27.4902185
+        ],
+        [
+          152.9758226,
+          -27.4902864
+        ],
+        [
+          152.975778,
+          -27.4904193
+        ],
+        [
+          152.975521,
+          -27.4903514
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 13,
+      "at_m": 421,
+      "outline": [
+        [
+          152.9801006,
+          -27.4908208
+        ],
+        [
+          152.9801613,
+          -27.490787
+        ],
+        [
+          152.9802398,
+          -27.4908976
+        ],
+        [
+          152.9802086,
+          -27.490915
+        ],
+        [
+          152.9802163,
+          -27.4909259
+        ],
+        [
+          152.9801867,
+          -27.4909423
+        ],
+        [
+          152.9801006,
+          -27.4908208
+        ]
+      ]
+    },
+    {
+      "building": "commercial",
+      "name": null,
+      "dwelling": false,
+      "metres": 13,
+      "at_m": 478,
+      "outline": [
+        [
+          152.9805998,
+          -27.490467
+        ],
+        [
+          152.9807445,
+          -27.4904859
+        ],
+        [
+          152.980734,
+          -27.490549
+        ],
+        [
+          152.9805893,
+          -27.4905301
+        ],
+        [
+          152.9805998,
+          -27.490467
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 13,
+      "at_m": 238,
+      "outline": [
+        [
+          152.9782737,
+          -27.490966
+        ],
+        [
+          152.9782626,
+          -27.4910348
+        ],
+        [
+          152.9781676,
+          -27.4910227
+        ],
+        [
+          152.9782006,
+          -27.4908191
+        ],
+        [
+          152.9782738,
+          -27.4908284
+        ],
+        [
+          152.9782961,
+          -27.4908313
+        ],
+        [
+          152.9782811,
+          -27.4909238
+        ],
+        [
+          152.9782589,
+          -27.490921
+        ],
+        [
+          152.978252,
+          -27.4909633
+        ],
+        [
+          152.9782737,
+          -27.490966
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 13,
+      "at_m": 65,
+      "outline": [
+        [
+          152.9764076,
+          -27.4905371
+        ],
+        [
+          152.9765608,
+          -27.4905567
+        ],
+        [
+          152.9765457,
+          -27.4906502
+        ],
+        [
+          152.9764928,
+          -27.4906437
+        ],
+        [
+          152.9764645,
+          -27.4906529
+        ],
+        [
+          152.9764602,
+          -27.4906726
+        ],
+        [
+          152.9763796,
+          -27.4906608
+        ],
+        [
+          152.9764076,
+          -27.4905371
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 13,
+      "at_m": 103,
+      "outline": [
+        [
+          152.9768567,
+          -27.4907488
+        ],
+        [
+          152.9768783,
+          -27.4906157
+        ],
+        [
+          152.9769441,
+          -27.4906241
+        ],
+        [
+          152.9769393,
+          -27.4906541
+        ],
+        [
+          152.9769641,
+          -27.4906573
+        ],
+        [
+          152.9769474,
+          -27.4907604
+        ],
+        [
+          152.9768567,
+          -27.4907488
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 13,
+      "at_m": 213,
+      "outline": [
+        [
+          152.9780366,
+          -27.4908202
+        ],
+        [
+          152.9780534,
+          -27.4908223
+        ],
+        [
+          152.97805,
+          -27.490843
+        ],
+        [
+          152.978064,
+          -27.4908448
+        ],
+        [
+          152.9780672,
+          -27.490825
+        ],
+        [
+          152.9781234,
+          -27.4908322
+        ],
+        [
+          152.9781202,
+          -27.490852
+        ],
+        [
+          152.9781723,
+          -27.4908586
+        ],
+        [
+          152.978157,
+          -27.4909529
+        ],
+        [
+          152.9781162,
+          -27.4909477
+        ],
+        [
+          152.9781114,
+          -27.4909773
+        ],
+        [
+          152.97803,
+          -27.4909669
+        ],
+        [
+          152.978029,
+          -27.4909732
+        ],
+        [
+          152.9779616,
+          -27.4909646
+        ],
+        [
+          152.9779422,
+          -27.4909621
+        ],
+        [
+          152.9779505,
+          -27.4909107
+        ],
+        [
+          152.9779699,
+          -27.4909132
+        ],
+        [
+          152.9779838,
+          -27.4908275
+        ],
+        [
+          152.977962,
+          -27.4908247
+        ],
+        [
+          152.9779686,
+          -27.490784
+        ],
+        [
+          152.9780409,
+          -27.4907932
+        ],
+        [
+          152.9780366,
+          -27.4908202
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 13,
+      "at_m": 264,
+      "outline": [
+        [
+          152.978438,
+          -27.4908584
+        ],
+        [
+          152.9785517,
+          -27.4908729
+        ],
+        [
+          152.9785319,
+          -27.4909952
+        ],
+        [
+          152.9784182,
+          -27.4909807
+        ],
+        [
+          152.978438,
+          -27.4908584
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 14,
+      "at_m": 567,
+      "outline": [
+        [
+          152.9816486,
+          -27.490602
+        ],
+        [
+          152.9817067,
+          -27.4906091
+        ],
+        [
+          152.9817096,
+          -27.4905907
+        ],
+        [
+          152.9818104,
+          -27.4906031
+        ],
+        [
+          152.9818075,
+          -27.4906216
+        ],
+        [
+          152.9817968,
+          -27.49069
+        ],
+        [
+          152.981696,
+          -27.4906776
+        ],
+        [
+          152.9816379,
+          -27.4906704
+        ],
+        [
+          152.9816486,
+          -27.490602
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 14,
+      "at_m": 133,
+      "outline": [
+        [
+          152.9773208,
+          -27.4902564
+        ],
+        [
+          152.9774094,
+          -27.4902677
+        ],
+        [
+          152.9773812,
+          -27.4904408
+        ],
+        [
+          152.9772926,
+          -27.4904294
+        ],
+        [
+          152.9773208,
+          -27.4902564
+        ]
+      ]
+    },
+    {
+      "building": "apartments",
+      "name": "Fairhill of Taringa",
+      "dwelling": true,
+      "metres": 14,
+      "at_m": 180,
+      "outline": [
+        [
+          152.9778084,
+          -27.4908353
+        ],
+        [
+          152.977809,
+          -27.4908352
+        ],
+        [
+          152.9778525,
+          -27.4909662
+        ],
+        [
+          152.9778955,
+          -27.4909851
+        ],
+        [
+          152.9778345,
+          -27.4910945
+        ],
+        [
+          152.97778,
+          -27.4910706
+        ],
+        [
+          152.9777272,
+          -27.4910844
+        ],
+        [
+          152.9776358,
+          -27.4908091
+        ],
+        [
+          152.9776905,
+          -27.4907948
+        ],
+        [
+          152.9777145,
+          -27.4907596
+        ],
+        [
+          152.9778211,
+          -27.4908167
+        ],
+        [
+          152.9778084,
+          -27.4908353
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 15,
+      "at_m": 45,
+      "outline": [
+        [
+          152.9762627,
+          -27.4905276
+        ],
+        [
+          152.9763451,
+          -27.4905381
+        ],
+        [
+          152.9763123,
+          -27.4907406
+        ],
+        [
+          152.9762299,
+          -27.4907301
+        ],
+        [
+          152.9762627,
+          -27.4905276
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 16,
+      "at_m": 511,
+      "outline": [
+        [
+          152.9811621,
+          -27.4904628
+        ],
+        [
+          152.9811913,
+          -27.4904664
+        ],
+        [
+          152.9811742,
+          -27.4905752
+        ],
+        [
+          152.9810742,
+          -27.4905629
+        ],
+        [
+          152.9810967,
+          -27.4904194
+        ],
+        [
+          152.9811675,
+          -27.4904281
+        ],
+        [
+          152.9811621,
+          -27.4904628
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9757249,
+      "lat": -27.4907406,
+      "metres": 53,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9844801,
+      "lat": -27.4919805,
+      "metres": 284,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.975947,
+        "lat": -27.490304,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 41.29
+      },
+      {
+        "lon": 152.975996,
+        "lat": -27.490315,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 41.32
+      },
+      {
+        "lon": 152.976045,
+        "lat": -27.490327,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 42.04
+      },
+      {
+        "lon": 152.976094,
+        "lat": -27.490338,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 42.49
+      },
+      {
+        "lon": 152.976143,
+        "lat": -27.490349,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 42.65
+      },
+      {
+        "lon": 152.976192,
+        "lat": -27.49036,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 42.77
+      },
+      {
+        "lon": 152.976241,
+        "lat": -27.490371,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 43.17
+      },
+      {
+        "lon": 152.976291,
+        "lat": -27.490383,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 43.42
+      },
+      {
+        "lon": 152.97634,
+        "lat": -27.490394,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 43.22
+      },
+      {
+        "lon": 152.976389,
+        "lat": -27.490405,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 43.66
+      },
+      {
+        "lon": 152.976438,
+        "lat": -27.490416,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 43.92
+      },
+      {
+        "lon": 152.976487,
+        "lat": -27.490427,
+        "at_m": 55,
+        "line": 0,
+        "elevation_m": 44.03
+      },
+      {
+        "lon": 152.976537,
+        "lat": -27.490437,
+        "at_m": 60,
+        "line": 0,
+        "elevation_m": 44.19
+      },
+      {
+        "lon": 152.976586,
+        "lat": -27.490446,
+        "at_m": 65,
+        "line": 0,
+        "elevation_m": 44.34
+      },
+      {
+        "lon": 152.976636,
+        "lat": -27.490454,
+        "at_m": 70,
+        "line": 0,
+        "elevation_m": 44.42
+      },
+      {
+        "lon": 152.976686,
+        "lat": -27.490462,
+        "at_m": 75,
+        "line": 0,
+        "elevation_m": 44.17
+      },
+      {
+        "lon": 152.976736,
+        "lat": -27.49047,
+        "at_m": 80,
+        "line": 0,
+        "elevation_m": 43.94
+      },
+      {
+        "lon": 152.976786,
+        "lat": -27.490478,
+        "at_m": 85,
+        "line": 0,
+        "elevation_m": 43.72
+      },
+      {
+        "lon": 152.976836,
+        "lat": -27.490486,
+        "at_m": 90,
+        "line": 0,
+        "elevation_m": 43.26
+      },
+      {
+        "lon": 152.976885,
+        "lat": -27.490494,
+        "at_m": 95,
+        "line": 0,
+        "elevation_m": 42.87
+      },
+      {
+        "lon": 152.976935,
+        "lat": -27.490503,
+        "at_m": 100,
+        "line": 0,
+        "elevation_m": 42.39
+      },
+      {
+        "lon": 152.976985,
+        "lat": -27.490511,
+        "at_m": 105,
+        "line": 0,
+        "elevation_m": 41.82
+      },
+      {
+        "lon": 152.977035,
+        "lat": -27.490519,
+        "at_m": 110,
+        "line": 0,
+        "elevation_m": 41.39
+      },
+      {
+        "lon": 152.977085,
+        "lat": -27.490527,
+        "at_m": 115,
+        "line": 0,
+        "elevation_m": 40.89
+      },
+      {
+        "lon": 152.977135,
+        "lat": -27.490534,
+        "at_m": 120,
+        "line": 0,
+        "elevation_m": 40.28
+      },
+      {
+        "lon": 152.977185,
+        "lat": -27.490542,
+        "at_m": 125,
+        "line": 0,
+        "elevation_m": 39.66
+      },
+      {
+        "lon": 152.977235,
+        "lat": -27.49055,
+        "at_m": 130,
+        "line": 0,
+        "elevation_m": 39.4
+      },
+      {
+        "lon": 152.977285,
+        "lat": -27.490558,
+        "at_m": 135,
+        "line": 0,
+        "elevation_m": 38.88
+      },
+      {
+        "lon": 152.977334,
+        "lat": -27.490567,
+        "at_m": 140,
+        "line": 0,
+        "elevation_m": 38.3
+      },
+      {
+        "lon": 152.977384,
+        "lat": -27.490575,
+        "at_m": 145,
+        "line": 0,
+        "elevation_m": 37.96
+      },
+      {
+        "lon": 152.977434,
+        "lat": -27.490584,
+        "at_m": 150,
+        "line": 0,
+        "elevation_m": 37.64
+      },
+      {
+        "lon": 152.977484,
+        "lat": -27.490593,
+        "at_m": 155,
+        "line": 0,
+        "elevation_m": 37.18
+      },
+      {
+        "lon": 152.977533,
+        "lat": -27.490602,
+        "at_m": 160,
+        "line": 0,
+        "elevation_m": 36.53
+      },
+      {
+        "lon": 152.977583,
+        "lat": -27.49061,
+        "at_m": 165,
+        "line": 0,
+        "elevation_m": 36.1
+      },
+      {
+        "lon": 152.977633,
+        "lat": -27.490619,
+        "at_m": 170,
+        "line": 0,
+        "elevation_m": 35.61
+      },
+      {
+        "lon": 152.977683,
+        "lat": -27.490627,
+        "at_m": 175,
+        "line": 0,
+        "elevation_m": 35.16
+      },
+      {
+        "lon": 152.977733,
+        "lat": -27.490634,
+        "at_m": 180,
+        "line": 0,
+        "elevation_m": 34.8
+      },
+      {
+        "lon": 152.977783,
+        "lat": -27.490641,
+        "at_m": 185,
+        "line": 0,
+        "elevation_m": 34.17
+      },
+      {
+        "lon": 152.977833,
+        "lat": -27.490649,
+        "at_m": 190,
+        "line": 0,
+        "elevation_m": 33.7
+      },
+      {
+        "lon": 152.977883,
+        "lat": -27.490656,
+        "at_m": 195,
+        "line": 0,
+        "elevation_m": 33.18
+      },
+      {
+        "lon": 152.977933,
+        "lat": -27.490663,
+        "at_m": 200,
+        "line": 0,
+        "elevation_m": 32.72
+      },
+      {
+        "lon": 152.977983,
+        "lat": -27.49067,
+        "at_m": 205,
+        "line": 0,
+        "elevation_m": 32.4
+      },
+      {
+        "lon": 152.978033,
+        "lat": -27.490678,
+        "at_m": 210,
+        "line": 0,
+        "elevation_m": 31.82
+      },
+      {
+        "lon": 152.978083,
+        "lat": -27.490685,
+        "at_m": 215,
+        "line": 0,
+        "elevation_m": 31.47
+      },
+      {
+        "lon": 152.978133,
+        "lat": -27.490692,
+        "at_m": 220,
+        "line": 0,
+        "elevation_m": 31.05
+      },
+      {
+        "lon": 152.978183,
+        "lat": -27.490699,
+        "at_m": 225,
+        "line": 0,
+        "elevation_m": 30.51
+      },
+      {
+        "lon": 152.978233,
+        "lat": -27.490707,
+        "at_m": 230,
+        "line": 0,
+        "elevation_m": 30.1
+      },
+      {
+        "lon": 152.978283,
+        "lat": -27.490714,
+        "at_m": 235,
+        "line": 0,
+        "elevation_m": 29.54
+      },
+      {
+        "lon": 152.978333,
+        "lat": -27.490721,
+        "at_m": 240,
+        "line": 0,
+        "elevation_m": 29.18
+      },
+      {
+        "lon": 152.978383,
+        "lat": -27.490728,
+        "at_m": 245,
+        "line": 0,
+        "elevation_m": 28.88
+      },
+      {
+        "lon": 152.978433,
+        "lat": -27.490736,
+        "at_m": 250,
+        "line": 0,
+        "elevation_m": 28.09
+      },
+      {
+        "lon": 152.978483,
+        "lat": -27.490743,
+        "at_m": 255,
+        "line": 0,
+        "elevation_m": 27.79
+      },
+      {
+        "lon": 152.978533,
+        "lat": -27.49075,
+        "at_m": 260,
+        "line": 0,
+        "elevation_m": 27.42
+      },
+      {
+        "lon": 152.978583,
+        "lat": -27.490757,
+        "at_m": 265,
+        "line": 0,
+        "elevation_m": 26.98
+      },
+      {
+        "lon": 152.978633,
+        "lat": -27.490765,
+        "at_m": 270,
+        "line": 0,
+        "elevation_m": 26.65
+      },
+      {
+        "lon": 152.978683,
+        "lat": -27.490772,
+        "at_m": 275,
+        "line": 0,
+        "elevation_m": 26.16
+      },
+      {
+        "lon": 152.978733,
+        "lat": -27.490779,
+        "at_m": 280,
+        "line": 0,
+        "elevation_m": 25.87
+      },
+      {
+        "lon": 152.978783,
+        "lat": -27.490786,
+        "at_m": 285,
+        "line": 0,
+        "elevation_m": 25.54
+      },
+      {
+        "lon": 152.978833,
+        "lat": -27.490794,
+        "at_m": 290,
+        "line": 0,
+        "elevation_m": 25.26
+      },
+      {
+        "lon": 152.978883,
+        "lat": -27.490801,
+        "at_m": 295,
+        "line": 0,
+        "elevation_m": 24.8
+      },
+      {
+        "lon": 152.978933,
+        "lat": -27.490808,
+        "at_m": 300,
+        "line": 0,
+        "elevation_m": 24.57
+      },
+      {
+        "lon": 152.978983,
+        "lat": -27.490816,
+        "at_m": 305,
+        "line": 0,
+        "elevation_m": 24.46
+      },
+      {
+        "lon": 152.979033,
+        "lat": -27.490824,
+        "at_m": 310,
+        "line": 0,
+        "elevation_m": 24.32
+      },
+      {
+        "lon": 152.979084,
+        "lat": -27.490826,
+        "at_m": 315,
+        "line": 0,
+        "elevation_m": 24.1
+      },
+      {
+        "lon": 152.979134,
+        "lat": -27.490819,
+        "at_m": 320,
+        "line": 0,
+        "elevation_m": 23.89
+      },
+      {
+        "lon": 152.979184,
+        "lat": -27.490812,
+        "at_m": 325,
+        "line": 0,
+        "elevation_m": 23.58
+      },
+      {
+        "lon": 152.979234,
+        "lat": -27.490805,
+        "at_m": 330,
+        "line": 0,
+        "elevation_m": 23.38
+      },
+      {
+        "lon": 152.979284,
+        "lat": -27.490797,
+        "at_m": 335,
+        "line": 0,
+        "elevation_m": 23.21
+      },
+      {
+        "lon": 152.979334,
+        "lat": -27.49079,
+        "at_m": 340,
+        "line": 0,
+        "elevation_m": 23.1
+      },
+      {
+        "lon": 152.979384,
+        "lat": -27.490783,
+        "at_m": 345,
+        "line": 0,
+        "elevation_m": 22.87
+      },
+      {
+        "lon": 152.979434,
+        "lat": -27.490775,
+        "at_m": 350,
+        "line": 0,
+        "elevation_m": 22.8
+      },
+      {
+        "lon": 152.979484,
+        "lat": -27.490768,
+        "at_m": 355,
+        "line": 0,
+        "elevation_m": 22.62
+      },
+      {
+        "lon": 152.979534,
+        "lat": -27.490761,
+        "at_m": 360,
+        "line": 0,
+        "elevation_m": 22.34
+      },
+      {
+        "lon": 152.979584,
+        "lat": -27.490753,
+        "at_m": 365,
+        "line": 0,
+        "elevation_m": 22.18
+      },
+      {
+        "lon": 152.979634,
+        "lat": -27.490746,
+        "at_m": 370,
+        "line": 0,
+        "elevation_m": 22.12
+      },
+      {
+        "lon": 152.979684,
+        "lat": -27.490739,
+        "at_m": 375,
+        "line": 0,
+        "elevation_m": 21.97
+      },
+      {
+        "lon": 152.979734,
+        "lat": -27.490731,
+        "at_m": 380,
+        "line": 0,
+        "elevation_m": 21.78
+      },
+      {
+        "lon": 152.979784,
+        "lat": -27.490724,
+        "at_m": 385,
+        "line": 0,
+        "elevation_m": 21.64
+      },
+      {
+        "lon": 152.979834,
+        "lat": -27.490717,
+        "at_m": 390,
+        "line": 0,
+        "elevation_m": 21.42
+      },
+      {
+        "lon": 152.979884,
+        "lat": -27.49071,
+        "at_m": 395,
+        "line": 0,
+        "elevation_m": 21.23
+      },
+      {
+        "lon": 152.979934,
+        "lat": -27.490702,
+        "at_m": 400,
+        "line": 0,
+        "elevation_m": 21.05
+      },
+      {
+        "lon": 152.979984,
+        "lat": -27.490695,
+        "at_m": 405,
+        "line": 0,
+        "elevation_m": 20.96
+      },
+      {
+        "lon": 152.980034,
+        "lat": -27.490688,
+        "at_m": 410,
+        "line": 0,
+        "elevation_m": 20.69
+      },
+      {
+        "lon": 152.980084,
+        "lat": -27.49068,
+        "at_m": 415,
+        "line": 0,
+        "elevation_m": 20.42
+      },
+      {
+        "lon": 152.980134,
+        "lat": -27.490673,
+        "at_m": 420,
+        "line": 0,
+        "elevation_m": 20.28
+      },
+      {
+        "lon": 152.980184,
+        "lat": -27.490666,
+        "at_m": 425,
+        "line": 0,
+        "elevation_m": 20.12
+      },
+      {
+        "lon": 152.980234,
+        "lat": -27.490658,
+        "at_m": 430,
+        "line": 0,
+        "elevation_m": 19.9
+      },
+      {
+        "lon": 152.980284,
+        "lat": -27.490651,
+        "at_m": 435,
+        "line": 0,
+        "elevation_m": 19.84
+      },
+      {
+        "lon": 152.980334,
+        "lat": -27.490644,
+        "at_m": 440,
+        "line": 0,
+        "elevation_m": 20.01
+      },
+      {
+        "lon": 152.980384,
+        "lat": -27.490637,
+        "at_m": 445,
+        "line": 0,
+        "elevation_m": 19.84
+      },
+      {
+        "lon": 152.980435,
+        "lat": -27.490639,
+        "at_m": 450,
+        "line": 0,
+        "elevation_m": 19.68
+      },
+      {
+        "lon": 152.980485,
+        "lat": -27.490644,
+        "at_m": 455,
+        "line": 0,
+        "elevation_m": 19.76
+      },
+      {
+        "lon": 152.980535,
+        "lat": -27.490649,
+        "at_m": 460,
+        "line": 0,
+        "elevation_m": 19.63
+      },
+      {
+        "lon": 152.980586,
+        "lat": -27.490654,
+        "at_m": 465,
+        "line": 0,
+        "elevation_m": 19.56
+      },
+      {
+        "lon": 152.980636,
+        "lat": -27.490659,
+        "at_m": 470,
+        "line": 0,
+        "elevation_m": 19.45
+      },
+      {
+        "lon": 152.980686,
+        "lat": -27.490664,
+        "at_m": 475,
+        "line": 0,
+        "elevation_m": 19.42
+      },
+      {
+        "lon": 152.980737,
+        "lat": -27.490669,
+        "at_m": 480,
+        "line": 0,
+        "elevation_m": 19.56
+      },
+      {
+        "lon": 152.980787,
+        "lat": -27.490673,
+        "at_m": 485,
+        "line": 0,
+        "elevation_m": 19.65
+      },
+      {
+        "lon": 152.980838,
+        "lat": -27.490679,
+        "at_m": 490,
+        "line": 0,
+        "elevation_m": 19.44
+      },
+      {
+        "lon": 152.980888,
+        "lat": -27.490685,
+        "at_m": 495,
+        "line": 0,
+        "elevation_m": 19.14
+      },
+      {
+        "lon": 152.980938,
+        "lat": -27.490691,
+        "at_m": 500,
+        "line": 0,
+        "elevation_m": 18.94
+      },
+      {
+        "lon": 152.980988,
+        "lat": -27.490697,
+        "at_m": 505,
+        "line": 0,
+        "elevation_m": 18.83
+      },
+      {
+        "lon": 152.981038,
+        "lat": -27.490704,
+        "at_m": 510,
+        "line": 0,
+        "elevation_m": 18.81
+      },
+      {
+        "lon": 152.981089,
+        "lat": -27.49071,
+        "at_m": 515,
+        "line": 0,
+        "elevation_m": 18.74
+      },
+      {
+        "lon": 152.981139,
+        "lat": -27.490717,
+        "at_m": 520,
+        "line": 0,
+        "elevation_m": 18.6
+      },
+      {
+        "lon": 152.981189,
+        "lat": -27.490724,
+        "at_m": 525,
+        "line": 0,
+        "elevation_m": 18.48
+      },
+      {
+        "lon": 152.981238,
+        "lat": -27.490733,
+        "at_m": 530,
+        "line": 0,
+        "elevation_m": 18.43
+      },
+      {
+        "lon": 152.981288,
+        "lat": -27.490741,
+        "at_m": 535,
+        "line": 0,
+        "elevation_m": 18.47
+      },
+      {
+        "lon": 152.981338,
+        "lat": -27.49075,
+        "at_m": 540,
+        "line": 0,
+        "elevation_m": 18.45
+      },
+      {
+        "lon": 152.981388,
+        "lat": -27.490758,
+        "at_m": 545,
+        "line": 0,
+        "elevation_m": 18.46
+      },
+      {
+        "lon": 152.981438,
+        "lat": -27.490767,
+        "at_m": 550,
+        "line": 0,
+        "elevation_m": 18.5
+      },
+      {
+        "lon": 152.981487,
+        "lat": -27.490775,
+        "at_m": 555,
+        "line": 0,
+        "elevation_m": 18.54
+      },
+      {
+        "lon": 152.981537,
+        "lat": -27.490784,
+        "at_m": 560,
+        "line": 0,
+        "elevation_m": 18.54
+      },
+      {
+        "lon": 152.981587,
+        "lat": -27.490792,
+        "at_m": 565,
+        "line": 0,
+        "elevation_m": 18.51
+      },
+      {
+        "lon": 152.981637,
+        "lat": -27.490801,
+        "at_m": 570,
+        "line": 0,
+        "elevation_m": 18.6
+      },
+      {
+        "lon": 152.981686,
+        "lat": -27.490809,
+        "at_m": 575,
+        "line": 0,
+        "elevation_m": 18.51
+      },
+      {
+        "lon": 152.981736,
+        "lat": -27.490818,
+        "at_m": 580,
+        "line": 0,
+        "elevation_m": 18.48
+      },
+      {
+        "lon": 152.981786,
+        "lat": -27.490826,
+        "at_m": 585,
+        "line": 0,
+        "elevation_m": 18.52
+      },
+      {
+        "lon": 152.981836,
+        "lat": -27.490835,
+        "at_m": 590,
+        "line": 0,
+        "elevation_m": 18.76
+      },
+      {
+        "lon": 152.981886,
+        "lat": -27.490843,
+        "at_m": 595,
+        "line": 0,
+        "elevation_m": 19.06
+      },
+      {
+        "lon": 152.981904,
+        "lat": -27.490845,
+        "at_m": 596.8,
+        "line": 0,
+        "elevation_m": 19.21
+      }
+    ],
+    "min_elevation_m": 18.4,
+    "max_elevation_m": 44.4,
+    "mean_grade_pct": 5.3,
+    "max_grade_pct": 15.8
+  },
+  "waterway": {
+    "name": "Toowong Creek",
+    "metres": 337
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 86,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 149,
+      "length_m": 149,
+      "images": {
+        "esri": ".cache/imagery/marmion-pde/chunk1-esri.jpg",
+        "qld": ".cache/imagery/marmion-pde/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        206,
+        91
+      ],
+      "image_px": [
+        1372,
+        607
+      ]
+    },
+    {
+      "chunk": 2,
+      "from_m": 149,
+      "to_m": 298,
+      "length_m": 149,
+      "images": {
+        "esri": ".cache/imagery/marmion-pde/chunk2-esri.jpg",
+        "qld": ".cache/imagery/marmion-pde/chunk2-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        207,
+        85
+      ],
+      "image_px": [
+        1381,
+        565
+      ]
+    },
+    {
+      "chunk": 3,
+      "from_m": 298,
+      "to_m": 448,
+      "length_m": 149,
+      "images": {
+        "esri": ".cache/imagery/marmion-pde/chunk3-esri.jpg",
+        "qld": ".cache/imagery/marmion-pde/chunk3-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        207,
+        81
+      ],
+      "image_px": [
+        1382,
+        542
+      ]
+    },
+    {
+      "chunk": 4,
+      "from_m": 448,
+      "to_m": 597,
+      "length_m": 149,
+      "images": {
+        "esri": ".cache/imagery/marmion-pde/chunk4-esri.jpg",
+        "qld": ".cache/imagery/marmion-pde/chunk4-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_CBD_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-12-07",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        207,
+        83
+      ],
+      "image_px": [
+        1382,
+        555
+      ]
+    }
+  ]
+}

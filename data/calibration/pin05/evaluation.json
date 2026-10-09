@@ -1,0 +1,62 @@
+{
+  "candidate": "pin05",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Boat-ramp car park beside Nudgee Creek, mangroves all round, no homes.",
+  "reasons": [
+    "Mangroves and creek surround it",
+    "No buildings in range",
+    "Vehicles and trailers already parked"
+  ],
+  "drivers": {
+    "seclusion": "Mangrove and creek bank on all sides; no dwellings mapped or seen.",
+    "access_and_room": "Sealed road curls down to a gravel apron where cars and trailers park; room for a van.",
+    "traffic": "Dead-end ramp road; light traffic.",
+    "convention": "Cars, utes and trailers parked; boat launch use, no campers seen."
+  },
+  "flags": [
+    "Pin is in the creek, so the spot is a nearby car park",
+    "Very low-lying: about 0 m elevation by tidal Nudgee Creek, flood and king tide risk",
+    "Ramp users arrive early",
+    "Mosquitoes likely among the mangroves"
+  ],
+  "sun_shade": "Largely open with scattered trees; afternoon sun from the west over the creek.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Gates or night closure",
+    "Signs on site",
+    "Surface firmness of the gravel apron",
+    "Tide levels"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Gravel and sealed bay about 60 m north-east of the pin, at the creek-side end of the ramp road",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.097971,
+        -27.345189
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 5.2,
+    "min_elevation_m": -0.3,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T09:35:18Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v10"
+}

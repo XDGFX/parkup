@@ -1,0 +1,223 @@
+{
+  "id": "coombabah-park",
+  "street": "Shelter Road",
+  "suburb": "Coombabah",
+  "kind": "point",
+  "line": [
+    [
+      153.377022,
+      -27.919749
+    ]
+  ],
+  "osm_tags": {},
+  "length_m": 0,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.3747427,
+      "lat": -27.9190457,
+      "metres": 238,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.376819,
+        "lat": -27.919749,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 2.65
+      },
+      {
+        "lon": 153.37687,
+        "lat": -27.919749,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 2.71
+      },
+      {
+        "lon": 153.376921,
+        "lat": -27.919749,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 2.85
+      },
+      {
+        "lon": 153.376971,
+        "lat": -27.919749,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 2.9
+      },
+      {
+        "lon": 153.377022,
+        "lat": -27.919749,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 2.96
+      },
+      {
+        "lon": 153.377073,
+        "lat": -27.919749,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 2.95
+      },
+      {
+        "lon": 153.377123,
+        "lat": -27.919749,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 2.89
+      },
+      {
+        "lon": 153.377174,
+        "lat": -27.919749,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 3.01
+      },
+      {
+        "lon": 153.377225,
+        "lat": -27.919749,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 2.93
+      },
+      {
+        "lon": 153.377022,
+        "lat": -27.919929,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 2.52
+      },
+      {
+        "lon": 153.377022,
+        "lat": -27.919884,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 2.71
+      },
+      {
+        "lon": 153.377022,
+        "lat": -27.919839,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 2.76
+      },
+      {
+        "lon": 153.377022,
+        "lat": -27.919794,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 2.85
+      },
+      {
+        "lon": 153.377022,
+        "lat": -27.919749,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 2.96
+      },
+      {
+        "lon": 153.377022,
+        "lat": -27.919704,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 3.01
+      },
+      {
+        "lon": 153.377022,
+        "lat": -27.919659,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 2.92
+      },
+      {
+        "lon": 153.377022,
+        "lat": -27.919614,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 2.94
+      },
+      {
+        "lon": 153.377022,
+        "lat": -27.919569,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 2.99
+      }
+    ],
+    "min_elevation_m": 2.5,
+    "max_elevation_m": 3,
+    "mean_grade_pct": 1.5,
+    "max_grade_pct": 3.8
+  },
+  "waterway": {
+    "name": null,
+    "metres": 255
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 13,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "mapped_ways": [
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 0
+    },
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": "Shelter Road",
+      "surface": "asphalt",
+      "access": null,
+      "metres": 16
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/coombabah-park/chunk1-esri.jpg",
+        "qld": ".cache/imagery/coombabah-park/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-04-27",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Gold_Coast_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

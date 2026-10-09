@@ -1,0 +1,366 @@
+{
+  "id": "minnippi-bvd",
+  "street": "Minnippi Boulevard",
+  "suburb": "Cannon Hill",
+  "kind": "point",
+  "line": [
+    [
+      153.100471,
+      -27.477733
+    ]
+  ],
+  "osm_tags": {},
+  "length_m": 0,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 45,
+      "at_m": 0,
+      "outline": [
+        [
+          153.1010375,
+          -27.4774014
+        ],
+        [
+          153.1010133,
+          -27.4774837
+        ],
+        [
+          153.1009977,
+          -27.4774801
+        ],
+        [
+          153.1009896,
+          -27.4775076
+        ],
+        [
+          153.1008086,
+          -27.4774656
+        ],
+        [
+          153.1008254,
+          -27.4774088
+        ],
+        [
+          153.1008343,
+          -27.4774109
+        ],
+        [
+          153.1008499,
+          -27.4773579
+        ],
+        [
+          153.1010375,
+          -27.4774014
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 58,
+      "at_m": 0,
+      "outline": [
+        [
+          153.1000013,
+          -27.4782618
+        ],
+        [
+          153.0999027,
+          -27.4782424
+        ],
+        [
+          153.0999302,
+          -27.4781317
+        ],
+        [
+          153.0999601,
+          -27.4781376
+        ],
+        [
+          153.0999756,
+          -27.4780755
+        ],
+        [
+          153.1000443,
+          -27.478089
+        ],
+        [
+          153.1000013,
+          -27.4782618
+        ]
+      ]
+    },
+    {
+      "building": "house",
+      "name": null,
+      "dwelling": true,
+      "metres": 80,
+      "at_m": 0,
+      "outline": [
+        [
+          153.1014764,
+          -27.4775963
+        ],
+        [
+          153.1012545,
+          -27.4775411
+        ],
+        [
+          153.1012896,
+          -27.4774301
+        ],
+        [
+          153.1013753,
+          -27.4774514
+        ],
+        [
+          153.1013787,
+          -27.4774404
+        ],
+        [
+          153.1014568,
+          -27.4774598
+        ],
+        [
+          153.1014517,
+          -27.4774761
+        ],
+        [
+          153.1015098,
+          -27.4774906
+        ],
+        [
+          153.1014764,
+          -27.4775963
+        ]
+      ]
+    }
+  ],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.100268,
+        "lat": -27.477733,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 4.69
+      },
+      {
+        "lon": 153.100319,
+        "lat": -27.477733,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 4.27
+      },
+      {
+        "lon": 153.10037,
+        "lat": -27.477733,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 4.78
+      },
+      {
+        "lon": 153.10042,
+        "lat": -27.477733,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 5.04
+      },
+      {
+        "lon": 153.100471,
+        "lat": -27.477733,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 4.82
+      },
+      {
+        "lon": 153.100522,
+        "lat": -27.477733,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 5.25
+      },
+      {
+        "lon": 153.100572,
+        "lat": -27.477733,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 5.62
+      },
+      {
+        "lon": 153.100623,
+        "lat": -27.477733,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 5.97
+      },
+      {
+        "lon": 153.100674,
+        "lat": -27.477733,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 6.47
+      },
+      {
+        "lon": 153.100471,
+        "lat": -27.477913,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 6.31
+      },
+      {
+        "lon": 153.100471,
+        "lat": -27.477868,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 5.8
+      },
+      {
+        "lon": 153.100471,
+        "lat": -27.477823,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 5.72
+      },
+      {
+        "lon": 153.100471,
+        "lat": -27.477778,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 5.53
+      },
+      {
+        "lon": 153.100471,
+        "lat": -27.477733,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 4.82
+      },
+      {
+        "lon": 153.100471,
+        "lat": -27.477688,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 4.91
+      },
+      {
+        "lon": 153.100471,
+        "lat": -27.477643,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 5.03
+      },
+      {
+        "lon": 153.100471,
+        "lat": -27.477598,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 3.96
+      },
+      {
+        "lon": 153.100471,
+        "lat": -27.477553,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 3.54
+      }
+    ],
+    "min_elevation_m": 3.5,
+    "max_elevation_m": 6.5,
+    "mean_grade_pct": 7.8,
+    "max_grade_pct": 21.4
+  },
+  "waterway": {
+    "name": null,
+    "metres": 17
+  },
+  "mapped_parking": [],
+  "mapped_ways": [
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": "private",
+      "metres": 49
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": "private",
+      "metres": 57
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": "private",
+      "metres": 57
+    },
+    {
+      "highway": "service",
+      "service": "driveway",
+      "name": "Minnippi Boulevard",
+      "surface": "asphalt",
+      "access": null,
+      "metres": 66
+    },
+    {
+      "highway": "service",
+      "service": "driveway",
+      "name": "Minnippi Boulevard",
+      "surface": "asphalt",
+      "access": null,
+      "metres": 67
+    },
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": "Minnippi Boulevard",
+      "surface": "asphalt",
+      "access": null,
+      "metres": 75
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/minnippi-bvd/chunk1-esri.jpg",
+        "qld": ".cache/imagery/minnippi-bvd/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

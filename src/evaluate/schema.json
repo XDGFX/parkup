@@ -1,0 +1,138 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "verdict",
+    "kind",
+    "summary",
+    "reasons",
+    "best_section",
+    "drivers",
+    "flags",
+    "sun_shade",
+    "rubbish",
+    "cannot_judge",
+    "confidence"
+  ],
+  "properties": {
+    "verdict": {
+      "enum": [
+        "good",
+        "maybe",
+        "poor"
+      ]
+    },
+    "kind": {
+      "enum": [
+        "kerb stretch",
+        "parking area",
+        "off-road site"
+      ],
+      "description": "What the best section actually is."
+    },
+    "summary": {
+      "type": "string",
+      "description": "One sentence, at most 15 words, for the candidate card. About the best section."
+    },
+    "reasons": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "string",
+        "description": "At most 8 words each."
+      }
+    },
+    "best_section": {
+      "description": "Null if nowhere is usable.",
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "from_m",
+            "to_m",
+            "where",
+            "slope_pct"
+          ],
+          "properties": {
+            "from_m": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Metres along the kerb or outline from the yellow ring; null for a point."
+            },
+            "to_m": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "where": {
+              "type": "string",
+              "description": "How to find it on the ground, e.g. 'opposite the bowls club car park'."
+            },
+            "slope_pct": {
+              "type": "number"
+            }
+          }
+        }
+      ]
+    },
+    "drivers": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "seclusion",
+        "access_and_room",
+        "traffic",
+        "convention"
+      ],
+      "properties": {
+        "seclusion": {
+          "type": "string"
+        },
+        "access_and_room": {
+          "type": "string"
+        },
+        "traffic": {
+          "type": "string"
+        },
+        "convention": {
+          "type": "string"
+        }
+      }
+    },
+    "flags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "description": "Short caution, e.g. 'Steep: about 8% grade'."
+      }
+    },
+    "sun_shade": {
+      "type": "string",
+      "description": "Neutral: what covers the best section and from which side."
+    },
+    "rubbish": {
+      "type": "string",
+      "description": "Neutral: visible dumped rubbish, or 'none seen'."
+    },
+    "cannot_judge": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    }
+  }
+}

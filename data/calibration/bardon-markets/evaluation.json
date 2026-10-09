@@ -1,0 +1,60 @@
+{
+  "candidate": "bardon-markets",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wide parking strip between bushland and a park; homes 70 m or more away.",
+  "reasons": [
+    "Bush on one side, park on the other",
+    "Many cars and vans parked here",
+    "Nearest house 74 m"
+  ],
+  "drivers": {
+    "seclusion": "Forest to the north, open park to the south; houses 74 m or more away across the park.",
+    "access_and_room": "Wide sealed strip where many vehicles park nose to tail, with plenty of room for a van.",
+    "traffic": "Quiet side strip, set well back from the main road to the south.",
+    "convention": "Rows of cars, white vans and motorhome-style vehicles park here, so a van won't stand out."
+  },
+  "flags": [
+    "Markets or event parking: crowded at times",
+    "Pin sits on the road itself, not a marked bay",
+    "Nearby main road gives some noise"
+  ],
+  "sun_shade": "Shaded by bush from the north and morning trees; open to the west in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Time limits or signs on site",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Wide road-edge parking strip beside the park, at the pin",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.990776,
+        -27.465291
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 74,
+    "gated": false,
+    "slope_pct": 6.4,
+    "min_elevation_m": 11.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T09:34:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v10"
+}
