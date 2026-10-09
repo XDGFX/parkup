@@ -78,10 +78,10 @@ Sites without timetable data count as open at all times, with an "hours unknown"
 
 | | Candidates |
 |---|---|
-| With an evaluation (from `data/evaluations/`) | 0 |
-| … current (this rubric, current imagery) | 0 |
-| … carried over from an earlier build's candidate | 0 |
-| Queued for evaluation (`npm run evaluate -- queue`) | 2659 |
+| With an evaluation (from `data/evaluations/`) | 6 |
+| … current (this rubric, current imagery) | 6 |
+| … carried over from an earlier build's candidate | 3 |
+| Queued for evaluation (`npm run evaluate -- queue`) | 2653 |
 
 ## Unparsed plate text
 
