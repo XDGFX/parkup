@@ -5,6 +5,8 @@ import type { Geometry } from "geojson";
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import "./style.css";
 import type { Candidate } from "../build/build.ts";
+import { installBanner } from "./install.ts";
+import { addToiletLayer, loadToilets, paintToilets, toiletFact } from "./toilets.ts";
 import { brisbane, canStay, fmtDay, fmtTime, limitName, MIN_STAY_HOURS, NOW_HOURS, outBy, windows, type Preset } from "../timetable/timetable.ts";
 
 setWorkerUrl(workerUrl);
@@ -80,7 +82,7 @@ function recolour(map: MlMap) {
 }
 
 async function main(root: HTMLElement) {
-  const { candidates } = (await (await fetch("./candidates.json")).json()) as Dataset;
+  const [{ candidates }, toilets] = await Promise.all([(await fetch("./candidates.json")).json() as Promise<Dataset>, loadToilets()]);
   const byId = new Map(candidates.map((c) => [c.id, c]));
   const presets = windows();
   let win: Preset = presets[0]!, selected: Candidate | null = null;
@@ -114,7 +116,13 @@ async function main(root: HTMLElement) {
     style: "https://tiles.openfreemap.org/styles/dark",
     bounds,
     fitBoundsOptions: { padding: { top: 110, bottom: 60, left: 30, right: 20 } },
-    attributionControl: { compact: true, customAttribution: "Parking signs © Brisbane City Council (CC BY 4.0)" },
+    // The tiles credit OpenFreeMap, OpenMapTiles and OpenStreetMap; these credit the data parkup adds.
+    attributionControl: { compact: true, customAttribution: [
+      "Kerb data derived from <a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a>, <a href=\"https://opendatacommons.org/licenses/odbl/\" target=\"_blank\">ODbL</a>",
+      "Parking signs and toilets © <a href=\"https://data.brisbane.qld.gov.au\" target=\"_blank\">Brisbane City Council</a>, CC BY 4.0",
+      "Toilets from the <a href=\"https://toiletmap.gov.au\" target=\"_blank\">National Public Toilet Map</a>",
+      "© State of Queensland, CC BY 4.0",
+    ] },
   });
 
   const features = (geometry: (c: Candidate) => Geometry) => ({
@@ -129,10 +137,12 @@ async function main(root: HTMLElement) {
     caption.textContent = `Faded: you'd have to move within ${hours} hours`;
     (map.getSource("kerbs") as GeoJSONSource | undefined)?.setData(features((c) => ({ type: "LineString", coordinates: c.line })));
     (map.getSource("dots") as GeoJSONSource | undefined)?.setData(features((c) => ({ type: "Point", coordinates: midpoint(c.line) })));
+    paintToilets(map, toilets, win);
   }
 
   map.on("load", () => {
     recolour(map);
+    addToiletLayer(map);
     map.addSource("kerbs", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
     map.addSource("dots", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
     const width = ["interpolate", ["linear"], ["zoom"], 14, 3, 18, 10] as ExpressionSpecification;
@@ -178,7 +188,7 @@ async function main(root: HTMLElement) {
       <div class="kv">${esc(c.suburb)} · ${c.side} side · ${Math.round(c.lengthM)} m of kerb</div>
       ${c.dayOnly ? `<div class="day-only">Day only: the signs don't allow a night here</div>` : ""}
       ${outBlock(c)}
-      <dl class="facts"><dt>Max stay</dt><dd>${c.maxStayHours ? limitName(c.maxStayHours) : "No limit on the plates"}</dd></dl>
+      <dl class="facts"><dt>Max stay</dt><dd>${c.maxStayHours ? limitName(c.maxStayHours) : "No limit on the plates"}</dd>${toiletFact(c, toilets, win)}</dl>
       <div class="plates">${c.plates.map(plate).join("")}</div>
       ${c.cautions.length ? `<ul class="cautions">${c.cautions.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
       <p class="check">Check the signs on arrival. No sign isn't permission.</p>
@@ -190,3 +200,4 @@ async function main(root: HTMLElement) {
 }
 
 main(document.getElementById("app")!);
+installBanner(document.getElementById("app")!);
