@@ -302,12 +302,12 @@ export function buildKerbs(input: KerbInput): { stretches: Stretch[]; report: Ke
       const side: Side = hit.offset > 0 ? "left" : "right";
       if (busZones.some((b) => b.link === hit.link && b.side === side && Math.abs(b.along - hit.along) <= BUS_STOP.BUS_ZONE_NEAR_M)) continue;
       add(cautions, kerbKey(hit.link, side), { ...buffer(side, hit.along, BUS_STOP.BEFORE_M, BUS_STOP.AFTER_M),
-        text: "Unsigned bus stop: no stopping 20 m before it or 10 m after it (s 195)" });
+        text: `Unsigned bus stop: no stopping ${BUS_STOP.BEFORE_M} m before it or ${BUS_STOP.AFTER_M} m after it (s 195)` });
     } else if (n.tags.highway === "crossing") {
       const hit = nearestKerb(all, n.p, (link) => link.halfWidth);
       if (!hit) continue;
       for (const side of SIDES) add(cautions, kerbKey(hit.link, side), { ...buffer(side, hit.along, CROSSING.BEFORE_M, CROSSING.AFTER_M),
-        text: "Pedestrian crossing: if it's marked, no stopping 20 m before it or 10 m after it (s 172)" });
+        text: `Pedestrian crossing: if it's marked, no stopping ${CROSSING.BEFORE_M} m before it or ${CROSSING.AFTER_M} m after it (s 172)` });
     }
   }
 

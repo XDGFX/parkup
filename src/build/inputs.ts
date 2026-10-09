@@ -25,7 +25,7 @@ export type OsmWay = {
   coords: [lon: number, lat: number][];
 };
 
-export type Snapshot = { takenAt: string; signs: SignRecord[]; ways: OsmWay[] };
+export type Snapshot = { takenAt: string; signs: SignRecord[]; ways: OsmWay[]; nodes: OsmNode[]; lines: KerbLine[]; areas: PermitArea[]; zones: Zone[] };
 
 /** An OSM point: traffic signals, crossings, bus stops, and schools and kindergartens (as their centre). */
 export type OsmNode = { id: number; lon: number; lat: number; tags: Record<string, string> };

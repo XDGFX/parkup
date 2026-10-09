@@ -40,6 +40,10 @@ function midpoint(line: LonLat[]): LonLat {
   return line[0]!;
 }
 
+/** Frontage tier as a draw rank: tier 1 is 3 and drawn largest and on top; no frontage is 0. */
+const rank = (c: Candidate) => 4 - (c.tier ?? 4);
+const frontage = (c: Candidate) => (c.tier && c.frontage ? `Tier ${c.tier} · ${c.frontage.name}` : "Frontage unknown");
+
 const gmaps = (c: Candidate) => { const [lon, lat] = midpoint(c.line); return `https://www.google.com/maps/search/?api=1&query=${lat.toFixed(6)},${lon.toFixed(6)}`; };
 
 /** "8am", "8am tomorrow" or "9am Mon", relative to today in Brisbane. */
@@ -121,7 +125,7 @@ async function main(root: HTMLElement) {
     type: "FeatureCollection" as const,
     features: candidates.map((c) => ({
       type: "Feature" as const, id: c.id, geometry: geometry(c),
-      properties: { id: c.id, color: UNEVALUATED, opacity: canStay(c, win) ? 1 : 0.2 },
+      properties: { id: c.id, color: UNEVALUATED, opacity: canStay(c, win) ? 1 : 0.2, rank: rank(c) },
     })),
   });
   function paint() {
@@ -140,11 +144,11 @@ async function main(root: HTMLElement) {
       paint: { "line-color": ["get", "color"], "line-width": 16, "line-blur": 12, "line-opacity": ["*", 0.4, ["get", "opacity"]] } });
     map.addLayer({ id: "kerb-casing", type: "line", source: "kerbs", minzoom: STREET_ZOOM - 1, layout: { "line-cap": "round" },
       paint: { "line-color": "#000", "line-width": ["interpolate", ["linear"], ["zoom"], 14, 5, 18, 14], "line-opacity": ["*", 0.5, ["get", "opacity"]] } });
-    map.addLayer({ id: "kerb", type: "line", source: "kerbs", minzoom: STREET_ZOOM - 1, layout: { "line-cap": "round" },
+    map.addLayer({ id: "kerb", type: "line", source: "kerbs", minzoom: STREET_ZOOM - 1, layout: { "line-cap": "round", "line-sort-key": ["get", "rank"] },
       paint: { "line-color": ["get", "color"], "line-width": width, "line-opacity": ["get", "opacity"] } });
     map.addLayer({ id: "kerb-hit", type: "line", source: "kerbs", minzoom: STREET_ZOOM - 1, paint: { "line-color": "#000", "line-width": 28, "line-opacity": 0 } });
-    map.addLayer({ id: "dot", type: "circle", source: "dots", maxzoom: STREET_ZOOM, paint: {
-      "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, 3, 15, 6], "circle-color": ["get", "color"], "circle-opacity": ["get", "opacity"],
+    map.addLayer({ id: "dot", type: "circle", source: "dots", maxzoom: STREET_ZOOM, layout: { "circle-sort-key": ["get", "rank"] }, paint: {
+      "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, ["+", 2, ["*", 0.5, ["get", "rank"]]], 15, ["+", 3.5, ["get", "rank"]]], "circle-color": ["get", "color"], "circle-opacity": ["get", "opacity"],
       "circle-stroke-color": "#111113", "circle-stroke-width": 1.5, "circle-stroke-opacity": ["get", "opacity"] } });
     paint();
   });
@@ -173,13 +177,13 @@ async function main(root: HTMLElement) {
   function show(c: Candidate) {
     selected = c;
     sheet.innerHTML = `<div class="grab"></div><div class="body">
-      <div class="tags"><span class="tag" style="--c:${UNEVALUATED}">Not evaluated</span><span class="tag" style="--c:var(--muted)">Kerb</span></div>
+      <div class="tags"><span class="tag" style="--c:${UNEVALUATED}">Not evaluated</span><span class="tag" style="--c:var(--muted)">Kerb</span><span class="tag" style="--c:var(--muted)">${esc(frontage(c))}</span></div>
       <h2>${esc(c.street)}</h2>
       <div class="kv">${esc(c.suburb)} · ${c.side} side · ${Math.round(c.lengthM)} m of kerb</div>
       ${c.dayOnly ? `<div class="day-only">Day only: the signs don't allow a night here</div>` : ""}
       ${outBlock(c)}
       <dl class="facts"><dt>Max stay</dt><dd>${c.maxStayHours ? limitName(c.maxStayHours) : "No limit on the plates"}</dd></dl>
-      <div class="plates">${c.plates.map(plate).join("")}</div>
+      <div class="plates">${c.plates.length ? c.plates.map(plate).join("") : `<span class="kv">No signs: road rules only</span>`}</div>
       ${c.cautions.length ? `<ul class="cautions">${c.cautions.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
       <p class="check">Check the signs on arrival. No sign isn't permission.</p>
       </div><a class="gmaps" href="${gmaps(c)}" target="_blank" rel="noopener">Open in Google Maps <span aria-hidden="true">↗</span></a>`;
