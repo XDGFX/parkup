@@ -4,35 +4,35 @@
   "agent_verdict": "good",
   "rule_outs": [],
   "kind": "kerb stretch",
-  "summary": "Park-side verge on Mabel Street where cars already park, homes 25 m across the road.",
+  "summary": "Dirt verge beside a park on Mabel Street; homes are across the road.",
   "reasons": [
     "Backs onto open park",
-    "Cars park on this verge",
-    "Nearest homes about 25 m, across road"
+    "Wide dirt verge, cars parked",
+    "Nearest home about 25 m, across road"
   ],
   "drivers": {
-    "seclusion": "Park behind; nearest dwellings across the road at roughly 25 m, more than 60 m by OSM.",
-    "access_and_room": "Sandy verge strip wide enough for a car; a van may overhang the sealed edge.",
-    "traffic": "Through street with light traffic in both images.",
-    "convention": "Cars parked on the verge in both Esri and QLD images."
+    "seclusion": "Open park to the north; houses to the south sit across the road and a front garden, about 25 m or more away.",
+    "access_and_room": "Worn dirt verge beside the lane is wider than a van; a car is already parked on it.",
+    "traffic": "Quiet local street with little through traffic seen.",
+    "convention": "Cars park on the verge here, so a van would not stand out."
   },
   "flags": [
-    "Powerlines and pylons overhead",
-    "Mapped gates 72 m or more away, each with a way round",
-    "Grade up to 10% on one DEM sample, mean 2.7%"
+    "Powerlines and a pylon cross the park just west",
+    "Low-lying: about 10 m elevation, a drain 67 m away",
+    "Mapped gates nearby all have a way round"
   ],
-  "sun_shade": "Open to the north and east; trees to the west shade the late afternoon.",
+  "sun_shade": "Open to the sun; trees shade the park east and north-west, not the verge.",
   "rubbish": "none seen",
   "cannot_judge": [
-    "Kerb height and verge firmness",
-    "Crossfall",
-    "Lighting and signs"
+    "Street lighting",
+    "Signs on site",
+    "Verge firmness after rain"
   ],
   "confidence": "medium",
   "best_section": {
     "from_m": null,
     "to_m": null,
-    "where": "North verge of Mabel Street along the park, east of the Pine Street junction",
+    "where": "North side of Mabel Street on the dirt verge beside the park, just east of the creek-side junction",
     "slope_pct": 2.7,
     "points": [
       [
@@ -54,7 +54,7 @@
     ],
     "qld": "2022-07"
   },
-  "evaluated_at": "2026-10-09T09:34:48Z",
+  "evaluated_at": "2026-10-09T10:25:59Z",
   "model": "claude-sonnet-5-5",
-  "rubric": "v10"
+  "rubric": "v11"
 }

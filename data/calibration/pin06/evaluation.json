@@ -4,35 +4,36 @@
   "agent_verdict": "good",
   "rule_outs": [],
   "kind": "parking area",
-  "summary": "Roadside rest area loop with caravans and motorhomes already parked, bush all round.",
+  "summary": "Highway rest area with a loop road, shelters and caravans already parked.",
   "reasons": [
-    "Caravans and motorhomes already parked",
-    "Sealed loop and gravel bays, room for vans",
-    "No homes nearby, only amenity buildings"
+    "Caravans and motorhomes parked in imagery",
+    "No dwellings, only shelters and toilets",
+    "Wide loop road and bays"
   ],
   "drivers": {
-    "seclusion": "Rest area in bush; no dwellings; nearest buildings are shelters and toilets.",
-    "access_and_room": "Sealed loop road off the junction, wide gravel bays, plenty of room.",
-    "traffic": "Busy road alongside to the east; van stands clear of the lane.",
-    "convention": "Several caravans and motorhomes visible in both images."
+    "seclusion": "Open bushland rest area; only small non-residential shelters within 100 m, no homes.",
+    "access_and_room": "Sealed loop road and wide gravel bays, with plenty of room to pull well off the highway.",
+    "traffic": "Busy highway on the east edge, but the van stands clear of the lane.",
+    "convention": "Caravans, motorhomes and utes parked in both images; typical overnight rest stop."
   },
   "flags": [
-    "Noise from adjacent main road",
-    "Mapped gate 179 m away, not on only access"
+    "Highway noise from the east side",
+    "Mapped buildings are shelters and toilets, none a dwelling",
+    "Pin sits on the grass in the loop, not on the road"
   ],
-  "sun_shade": "Open gravel to the east with scattered trees; shade from the west and south-west trees in the afternoon.",
+  "sun_shade": "Scattered tall gums shade the loop from the west; east pull-in is open to the afternoon sun.",
   "rubbish": "none seen",
   "cannot_judge": [
-    "Time limits or signs on site",
-    "Crossfall",
-    "Lighting"
+    "Stay limits or signs on site",
+    "Street lighting",
+    "Crossfall"
   ],
   "confidence": "high",
   "best_section": {
     "from_m": null,
     "to_m": null,
-    "where": "Gravel parking east of the rest-area loop, beside the main road",
-    "slope_pct": 1.9,
+    "where": "Gravel and sealed bays on the loop road and east pull-in of the rest area",
+    "slope_pct": 2,
     "points": [
       [
         152.671475,
@@ -53,7 +54,7 @@
     ],
     "qld": "2022-07"
   },
-  "evaluated_at": "2026-10-09T09:33:47Z",
+  "evaluated_at": "2026-10-09T10:25:59Z",
   "model": "claude-sonnet-5-5",
-  "rubric": "v10"
+  "rubric": "v11"
 }

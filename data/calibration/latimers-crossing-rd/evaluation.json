@@ -4,31 +4,31 @@
   "agent_verdict": "poor",
   "rule_outs": [],
   "kind": "off-road site",
-  "summary": "Dirt apron at the mouth of a powerline easement track off the road.",
+  "summary": "Dirt apron at the mouth of a powerline easement track off a rural road.",
   "reasons": [
-    "Utility easement track under pylons",
-    "Apron blocks the track access",
-    "Houses and farm across the road"
+    "Pin sits on powerline easement track mouth",
+    "Track runs between pylons into bush",
+    "Verge slopes steeply, about 10% mean"
   ],
   "drivers": {
-    "seclusion": "Bush and the easement behind; houses and sheds sit 40-100 m across the road.",
-    "access_and_room": "Bare dirt apron meets the road, but it is the entry to a pylon access track, not a separate pull-in.",
-    "traffic": "Fast rural road beside the apron; passing drivers would not mind a parked van.",
-    "convention": "No vehicles, tyre tracks beyond the track or camping signs seen."
+    "seclusion": "Bush behind and farmland across the road; nearest house about 50 m away, so seclusion itself is good.",
+    "access_and_room": "Dirt apron meets the road, but it is the entry to a pylon access track, normally gated.",
+    "traffic": "Rural main road, fast traffic, apron is clear of the lane.",
+    "convention": "No vehicles, tents or tyre marks beyond the track itself."
   },
   "flags": [
-    "Powerline easement track, likely gated or closed to the public",
-    "Steep ground in the DEM, up to 40% on the bank behind",
-    "Nerang River 83 m away, elevation about 45 m"
+    "Steep: mean 10%, up to 40% on the DEM",
+    "Powerline easement track, access likely restricted",
+    "Nerang River about 83 m away, 43 to 47 m elevation so not low-lying"
   ],
-  "sun_shade": "Open to sun with bush on the south-west side; no overhead cover.",
+  "sun_shade": "Open to sky; bush shade from the south-west.",
   "rubbish": "none seen",
   "cannot_judge": [
-    "Whether a gate stands at the track mouth",
-    "Signs on site",
-    "Crossfall"
+    "Whether a gate is placed at the track mouth",
+    "Surface firmness",
+    "Signs on site"
   ],
-  "confidence": "medium",
+  "confidence": "low",
   "best_section": null,
   "facts": {
     "nearest_dwelling_m": null,
@@ -43,7 +43,7 @@
     ],
     "qld": "2022-07"
   },
-  "evaluated_at": "2026-10-09T09:35:24Z",
+  "evaluated_at": "2026-10-09T10:25:59Z",
   "model": "claude-sonnet-5-5",
-  "rubric": "v10"
+  "rubric": "v11"
 }

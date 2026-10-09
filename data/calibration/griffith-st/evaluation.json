@@ -1,47 +1,37 @@
 {
   "candidate": "griffith-st",
   "verdict": "poor",
-  "agent_verdict": "maybe",
+  "agent_verdict": "poor",
   "rule_outs": [
     "Dwelling 10 m from the best section"
   ],
   "kind": "kerb stretch",
-  "summary": "Quiet riverside residential kerb; homes close on both sides.",
+  "summary": "Narrow riverside street with houses and apartments right on the kerb.",
   "reasons": [
-    "Cars park along the kerb",
-    "Homes and flats within 10-25 m",
-    "Dead-end style street, little through traffic"
+    "Homes 10 to 20 m from the pin",
+    "Narrow street, few cars parked",
+    "Dense housing on both sides"
   ],
   "drivers": {
-    "seclusion": "Houses and apartment blocks line both sides, within about 10-25 m of the kerb.",
-    "access_and_room": "Sealed street with parked cars along the kerb; a van would fit in line with them.",
-    "traffic": "Narrow local street with light traffic.",
-    "convention": "Residential kerb parking, no sign of campervans or overnight stays."
+    "seclusion": "Houses 10, 16 and 19 m from the pin; apartment blocks within 20 to 25 m; no quiet stretch within 100 m.",
+    "access_and_room": "Sealed street meets a narrow lane at the pin; little room beside the lane, mostly kerb to fence.",
+    "traffic": "Quiet local street, but a van would sit in front of homes.",
+    "convention": "A few cars parked near the corner, but they look like residents' cars."
   },
   "flags": [
-    "Dwellings within 25 m all round",
-    "Low-lying: about 5 m elevation, Brisbane River 187 m away"
+    "Dwelling within 10 m of the pin",
+    "Low-lying at 4.6 to 5.8 m, Brisbane River 187 m away",
+    "Mean slope 2.6%, fine"
   ],
-  "sun_shade": "Mixed street trees; flats on the river side shade the west kerb in the afternoon.",
+  "sun_shade": "Mixed tree shade, with large trees on the north side and tall buildings to the west.",
   "rubbish": "none seen",
   "cannot_judge": [
-    "Parking signs and time limits",
     "Street lighting",
-    "Crossfall"
+    "Kerb height",
+    "Parking signs on site"
   ],
   "confidence": "medium",
-  "best_section": {
-    "from_m": null,
-    "to_m": null,
-    "where": "Griffith Street kerb just south of the pin, by the river-side flats",
-    "slope_pct": 2.6,
-    "points": [
-      [
-        153.042385,
-        -27.473001
-      ]
-    ]
-  },
+  "best_section": null,
   "facts": {
     "nearest_dwelling_m": 10,
     "gated": false,
@@ -55,7 +45,7 @@
     ],
     "qld": "2022-07"
   },
-  "evaluated_at": "2026-10-09T09:34:15Z",
+  "evaluated_at": "2026-10-09T10:25:59Z",
   "model": "claude-sonnet-5-5",
-  "rubric": "v10"
+  "rubric": "v11"
 }

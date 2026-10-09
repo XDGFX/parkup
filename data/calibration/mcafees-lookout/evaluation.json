@@ -4,36 +4,36 @@
   "agent_verdict": "good",
   "rule_outs": [],
   "kind": "off-road site",
-  "summary": "Bare dirt clearing in bush just off Mount Nebo Road, nobody close.",
+  "summary": "Small dirt pull-off in forest just off Mount Nebo Road, no homes near.",
   "reasons": [
-    "Bush all round",
-    "Bare dirt pad fits a van",
-    "Nearest building 48 m, unmapped as home"
+    "Bare dirt pad linked to the road",
+    "Dense bush all round",
+    "Only a hut about 48 m away"
   ],
   "drivers": {
-    "seclusion": "Thick forest on all sides; one building 48 m away, mapped as non-dwelling.",
-    "access_and_room": "Bare dirt pad of van length, reaching the road edge by a short cut, probably a short spur.",
-    "traffic": "Quiet mountain road about 20 m away, screened by trees.",
-    "convention": "No vehicles or campers visible; pad looks like a lookout or break access."
+    "seclusion": "Surrounded by dense forest. The only building is a non-dwelling about 48 m north-east, across the road.",
+    "access_and_room": "Bare dirt pad about 15 m long meets the road edge via a short track; a van should fit but it is tight.",
+    "traffic": "Quiet mountain road; the pad is set off the lane.",
+    "convention": "Mapped as parking at the lookout, so stopping here is expected."
   },
   "flags": [
-    "Steep ground around the pad: up to 12% mean grade nearby",
-    "Building 48 m northeast may be a house or hut",
-    "Link from road to pad is hidden by trees"
+    "Steep: DEM about 11.6% mean, higher in places; the pad itself may be flatter",
+    "Small pad, turning room limited",
+    "Tracks nearby are fire breaks, not for use"
   ],
-  "sun_shade": "Mostly tree shade from the east and south; open overhead.",
+  "sun_shade": "Tree canopy over most of it; partly open from the east and south over the pad.",
   "rubbish": "none seen",
   "cannot_judge": [
-    "Whether the pad's entrance is passable for 2WD",
-    "Crossfall",
-    "Signs on site"
+    "Exact levelness of the pad",
+    "Signs on site",
+    "Surface condition after rain"
   ],
-  "confidence": "medium",
+  "confidence": "low",
   "best_section": {
     "from_m": null,
     "to_m": null,
-    "where": "Cleared dirt pad at the pin, just southwest of the road bend",
-    "slope_pct": 3,
+    "where": "Dirt pad at the ring, just south-west of the road bend",
+    "slope_pct": 11.6,
     "points": [
       [
         152.877632,
@@ -54,7 +54,7 @@
     ],
     "qld": "2022-07"
   },
-  "evaluated_at": "2026-10-09T09:33:56Z",
+  "evaluated_at": "2026-10-09T10:25:59Z",
   "model": "claude-sonnet-5-5",
-  "rubric": "v10"
+  "rubric": "v11"
 }

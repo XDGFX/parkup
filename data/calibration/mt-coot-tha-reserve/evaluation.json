@@ -4,36 +4,36 @@
   "agent_verdict": "good",
   "rule_outs": [],
   "kind": "parking area",
-  "summary": "Sealed lay-by off Sir Samuel Griffith Drive, in bushland with no homes nearby.",
+  "summary": "Sealed lay-by loop off Sir Samuel Griffith Drive, in forest, no buildings near.",
   "reasons": [
-    "Forest all round",
-    "No buildings mapped",
-    "Van clear of the lane"
+    "Sealed lay-by clear of the traffic lane",
+    "Surrounded by forest, no buildings",
+    "Picnic clearing beside it"
   ],
   "drivers": {
-    "seclusion": "Dense bush on both sides; no dwellings in the data or imagery.",
-    "access_and_room": "Sealed bay peels off the road with room for a van fully out of the lane.",
-    "traffic": "Winding mountain road alongside; vans in the bay are clear of the lane.",
-    "convention": "Looks like a lookout or picnic pull-in; no vehicles or campers visible."
+    "seclusion": "Forest on all sides with a small picnic clearing to the south-west. No buildings within 100 m.",
+    "access_and_room": "Sealed lay-by about 3.5 m wide, with a grass island beside it; room for a van off the lane.",
+    "traffic": "Quiet road through the reserve; the lay-by sits apart from the lane.",
+    "convention": "Looks like a designated lay-by beside a picnic area; no vehicles seen."
   },
   "flags": [
-    "Mapped gates 98 m and more away, none on the only access",
-    "Bushland: possible night closure or ranger patrols",
-    "Steep ground around the bay; the bay itself is gentle"
+    "Steep: about 8.5% mean in DEM, noisy locally",
+    "Lay-by is narrow, a van may take most of it",
+    "Many mapped gates nearby, none on the only access"
   ],
-  "sun_shade": "Open bay; tree shadow falls across it from the north side in the morning.",
+  "sun_shade": "Open to the sky; trees shade the road side in the morning.",
   "rubbish": "none seen",
   "cannot_judge": [
-    "Night closures or signs on site",
-    "Street lighting",
-    "Crossfall"
+    "Signs on site",
+    "Crossfall of the lay-by",
+    "Reserve closing hours"
   ],
   "confidence": "medium",
   "best_section": {
     "from_m": null,
     "to_m": null,
-    "where": "Sealed lay-by loop just south of the road at the pin, beside the picnic clearing",
-    "slope_pct": 2,
+    "where": "Sealed lay-by loop on the south side of the road, at the ring",
+    "slope_pct": 8.5,
     "points": [
       [
         152.944775,
@@ -54,7 +54,7 @@
     ],
     "qld": "2022-07"
   },
-  "evaluated_at": "2026-10-09T09:33:45Z",
+  "evaluated_at": "2026-10-09T10:25:59Z",
   "model": "claude-sonnet-5-5",
-  "rubric": "v10"
+  "rubric": "v11"
 }
