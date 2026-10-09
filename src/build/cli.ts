@@ -1,7 +1,9 @@
 // One command from snapshot to candidates dataset and build report.
 // Run: npm run build:data (add --snapshot to take a fresh snapshot first).
+// Folds the committed evaluations in data/evaluations/ into the dataset, carried over by geometric match.
 import { execFileSync } from "node:child_process";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { loadEvaluations } from "../evaluate/store.ts";
 import { build, type BuildReport } from "./build.ts";
 
 if (process.argv.includes("--snapshot")) execFileSync("npx", ["tsx", "src/build/snapshot.ts"], { stdio: "inherit" });
@@ -13,6 +15,7 @@ const { candidates, toilets, report } = build({
   toilets: toiletSnapshot.toilets,
   parkings: sites.parkings, minorWays: sites.minorWays, trails: sites.trails, qldTracks: sites.qldTracks, councilLand: sites.councilLand,
   parcels: tenure.parcels,
+  evaluations: await loadEvaluations(),
 });
 
 await mkdir("public", { recursive: true });
@@ -108,6 +111,15 @@ How many schools and kindergartens mapped in OSM fall in a zone the build exclud
 | Dropped: fail both the overnight and daytime tests | ${r.sites.failsScreen} |
 
 Sites without timetable data count as open at all times, with an "hours unknown" caution.
+
+## Evaluations
+
+| | Candidates |
+|---|---|
+| With an evaluation (from \`data/evaluations/\`) | ${r.evaluations.evaluated} |
+| … current (this rubric, current imagery) | ${r.evaluations.current} |
+| … carried over from an earlier build's candidate | ${r.evaluations.carriedOver} |
+| Queued for evaluation (\`npm run evaluate -- queue\`) | ${r.evaluations.queued} |
 
 ## Unparsed plate text
 

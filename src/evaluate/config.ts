@@ -13,6 +13,12 @@ export const LOW_LYING_M = 5;
 /** The rubric's version, from its first line, e.g. "v5". */
 export const RUBRIC_VERSION = /rubric (v\d+)/.exec(readFileSync(new URL("./rubric.md", import.meta.url), "utf8"))![1]!;
 
+/**
+ * The oldest imagery still counted as current, per provider. An evaluation whose QLD capture, or newest Esri capture,
+ * is older is due again. Raise these when a provider publishes newer imagery of the three suburbs.
+ */
+export const CURRENT_IMAGERY = { esri: "2024-01-01", qld: "2022-07" };
+
 /** Context fetch: imagery chunks, padding, resolution and the DEM step. */
 export const FETCH = {
   CHUNK_M: 150,

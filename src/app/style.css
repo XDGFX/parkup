@@ -93,6 +93,19 @@ button:focus-visible, a:focus-visible { outline: 3px solid var(--warn); outline-
 ul.cautions { list-style: none; padding: 0; margin: 10px 0 0; }
 ul.cautions li { position: relative; padding-left: 18px; margin: 4px 0; color: var(--muted); font-size: 14.5px; }
 ul.cautions li::before { content: ""; position: absolute; left: 3px; top: .62em; width: 6px; height: 6px; border-radius: 50%; border: 1.5px solid var(--warn); }
+/* The evaluation: summary, where to park, reasons and flags, then the dates behind it */
+.evaluation { margin-top: 14px; }
+.evaluation .summary { margin: 0; font-size: 16px; line-height: 1.4; }
+.evaluation .where { margin-top: 8px; font-size: 14.5px; }
+.evaluation .where .out-label { margin-right: 6px; }
+ul.reasons, ul.flags { list-style: none; padding: 0; margin: 10px 0 0; }
+ul.reasons li, ul.flags li { position: relative; padding-left: 18px; margin: 4px 0; color: var(--muted); font-size: 14.5px; }
+ul.reasons li::before, ul.flags li::before { content: ""; position: absolute; left: 3px; top: .62em; width: 6px; height: 6px; border-radius: 50%; border: 1.5px solid var(--muted); }
+ul.flags li::before { border-radius: 1px; transform: rotate(45deg); border-color: var(--warn); }
+.evaluation .facts { grid-template-columns: 1fr; gap: 0 0; }
+.evaluation .facts dd { margin-bottom: 6px; font-size: 14.5px; }
+.evaluation .dates { margin-top: 10px; }
+
 .check { margin: 12px 0 0; color: var(--muted); font-size: 14.5px; }
 
 .gmaps { flex: none; margin-top: 12px; display: flex; align-items: center; justify-content: center; gap: 8px; width: 100%; min-height: 54px;

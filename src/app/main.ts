@@ -15,6 +15,8 @@ type LonLat = [number, number];
 type Dataset = { candidates: Candidate[] };
 
 const UNEVALUATED = "#9A9AA3";
+const VERDICTS = { good: { label: "Good", color: "#6EE7B7" }, maybe: { label: "Maybe", color: "#FFC482" }, poor: { label: "Poor", color: "#FF7A8A" } };
+const colour = (c: Candidate) => (c.evaluation ? VERDICTS[c.evaluation.verdict].color : UNEVALUATED);
 // Kerb lines are too thin to tap at suburb zoom, so each stretch is a dot until street zoom.
 const STREET_ZOOM = 15.5;
 const MAP_COLOURS = { land: "#121214", water: "#0C1820", park: "#131916", building: "#1B1B1E", minor: "#26262A", major: "#35353B",
@@ -42,8 +44,13 @@ function midpoint(line: LonLat[]): LonLat {
   return line[0]!;
 }
 
-/** Where a candidate's dot, pulse and Google Maps link go: halfway along a kerb, the middle of a car park, or the site's point. */
+/**
+ * Where a candidate's dot, pulse and Google Maps link go: the middle of its evaluation's best section; unevaluated,
+ * halfway along a kerb, the middle of a car park, or the site's point.
+ */
 function anchor(c: Candidate): LonLat {
+  const best = c.evaluation?.best_section?.points;
+  if (best?.length) return midpoint(best);
   if (c.kind !== "parking-area" || c.line.length < 3) return midpoint(c.line);
   const pts = c.line.slice(0, -1);
   return [pts.reduce((s, p) => s + p[0], 0) / pts.length, pts.reduce((s, p) => s + p[1], 0) / pts.length];
@@ -85,6 +92,29 @@ function fmtOut(d: Date, now = new Date()): string {
   const day = (x: Date) => { const b = brisbane(x); return Date.UTC(b.year, b.month - 1, b.date) / 864e5; };
   const days = day(d) - day(now);
   return `${fmtTime(d)}${days === 0 ? "" : days === 1 ? " tomorrow" : ` ${fmtDay(d)}`}`;
+}
+
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+/** "Sep 2025" from "2025-09-24" or "2025-09". */
+const fmtMonth = (d: string) => `${MONTHS[Number(d.slice(5, 7)) - 1] ?? ""} ${d.slice(0, 4)}`.trim();
+
+/** The evaluation on the card: where to park, the summary, up to three reasons, flags, neutral facts and the dates behind it. */
+function evaluationBlock(e: NonNullable<Candidate["evaluation"]>): string {
+  const list = (cls: string, items: string[]) => (items.length ? `<ul class="${cls}">${items.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : "");
+  const esri = e.imagery.esri.length ? fmtMonth(e.imagery.esri.at(-1)!) : "none";
+  const dates = [
+    `Evaluated ${new Date(e.evaluated_at).toLocaleDateString("en-AU", { day: "numeric", month: "short", year: "numeric", timeZone: "Australia/Brisbane" })}`,
+    `Esri imagery ${esri}`,
+    `QLD imagery ${e.imagery.qld ? fmtMonth(e.imagery.qld) : "none"}`,
+  ];
+  return `<div class="evaluation">
+    <p class="summary">${esc(e.summary)}</p>
+    ${e.best_section?.where ? `<div class="where"><span class="out-label">Park</span> ${esc(e.best_section.where)}</div>` : ""}
+    ${list("reasons", e.reasons.slice(0, 3))}
+    ${list("flags", [...e.rule_outs, ...e.flags])}
+    <dl class="facts"><dt>Sun and shade</dt><dd>${esc(e.sun_shade)}</dd><dt>Rubbish</dt><dd>${esc(e.rubbish)}</dd></dl>
+    <div class="kv dates">${dates.map(esc).join(" · ")}${e.current ? "" : " · due for a fresh look"}</div>
+  </div>`;
 }
 
 /** A plate as it looks on the post: the restriction, with its days and times underneath. */
@@ -165,7 +195,9 @@ async function main(root: HTMLElement) {
     type: "FeatureCollection" as const,
     features: of.map((c) => ({
       type: "Feature" as const, id: c.id, geometry: geometry(c),
-      properties: { id: c.id, kind: c.kind, color: UNEVALUATED, opacity: canStay(c, win) ? 1 : 0.2, rank: rank(c) },
+      properties: { id: c.id, kind: c.kind, color: colour(c), evaluated: !!c.evaluation?.best_section, opacity: canStay(c, win) ? 1 : 0.2, rank: rank(c),
+        // Draw order: evaluated candidates over unevaluated ones, then by tier.
+        order: rank(c) + (c.evaluation ? 10 : 0) },
     })),
   });
   const kerbs = candidates.filter((c) => c.kind === "kerb");
@@ -189,7 +221,7 @@ async function main(root: HTMLElement) {
       paint: { "line-color": ["get", "color"], "line-width": 16, "line-blur": 12, "line-opacity": ["*", 0.4, ["get", "opacity"]] } });
     map.addLayer({ id: "kerb-casing", type: "line", source: "kerbs", minzoom: STREET_ZOOM - 1, layout: { "line-cap": "round" },
       paint: { "line-color": "#000", "line-width": ["interpolate", ["linear"], ["zoom"], 14, 5, 18, 14], "line-opacity": ["*", 0.5, ["get", "opacity"]] } });
-    map.addLayer({ id: "kerb", type: "line", source: "kerbs", minzoom: STREET_ZOOM - 1, layout: { "line-cap": "round", "line-sort-key": ["get", "rank"] },
+    map.addLayer({ id: "kerb", type: "line", source: "kerbs", minzoom: STREET_ZOOM - 1, layout: { "line-cap": "round", "line-sort-key": ["get", "order"] },
       paint: { "line-color": ["get", "color"], "line-width": width, "line-opacity": ["get", "opacity"] } });
     map.addLayer({ id: "kerb-hit", type: "line", source: "kerbs", minzoom: STREET_ZOOM - 1, paint: { "line-color": "#000", "line-width": 28, "line-opacity": 0 } });
     // Car park outlines at street zoom, under everything else.
@@ -205,17 +237,20 @@ async function main(root: HTMLElement) {
       "circle-stroke-color": "#111113", "circle-stroke-width": 1.5, "circle-stroke-opacity": ["get", "opacity"] as ExpressionSpecification,
     };
     // Kerbs are dots until street zoom, then lines; sites stay dots, as their outline is too small to tap from afar.
-    map.addLayer({ id: "dot", type: "circle", source: "dots", maxzoom: STREET_ZOOM, filter: isKerb, layout: { "circle-sort-key": ["get", "rank"] }, paint: dotPaint });
-    map.addLayer({ id: "site-dot", type: "circle", source: "dots", filter: ["!", isKerb], layout: { "circle-sort-key": ["get", "rank"] }, paint: dotPaint });
+    map.addLayer({ id: "dot", type: "circle", source: "dots", maxzoom: STREET_ZOOM, filter: isKerb, layout: { "circle-sort-key": ["get", "order"] }, paint: dotPaint });
+    map.addLayer({ id: "site-dot", type: "circle", source: "dots", filter: ["!", isKerb], layout: { "circle-sort-key": ["get", "order"] }, paint: dotPaint });
+    // At street zoom an evaluated kerb keeps a pin on its line, at the best section.
+    map.addLayer({ id: "best-dot", type: "circle", source: "dots", minzoom: STREET_ZOOM, filter: ["all", isKerb, ["get", "evaluated"]],
+      paint: { ...dotPaint, "circle-radius": 7, "circle-stroke-color": "#fff", "circle-stroke-width": 2 } });
     // The kind icon: kerbs while they're dots, sites from a little further out.
     for (const kind of ["kerb", "parking-area", "off-road"] as const) map.addImage(`kind-${kind}`, kindIcon(kind), { pixelRatio: 2 });
-    const icon = { "icon-image": ["concat", "kind-", ["get", "kind"]] as ExpressionSpecification, "icon-allow-overlap": true, "icon-size": 1, "symbol-sort-key": ["get", "rank"] as ExpressionSpecification };
+    const icon = { "icon-image": ["concat", "kind-", ["get", "kind"]] as ExpressionSpecification, "icon-allow-overlap": true, "icon-size": 1, "symbol-sort-key": ["get", "order"] as ExpressionSpecification };
     map.addLayer({ id: "kerb-icon", type: "symbol", source: "dots", minzoom: 14, maxzoom: STREET_ZOOM, filter: isKerb, layout: icon, paint: { "icon-opacity": ["get", "opacity"] } });
     map.addLayer({ id: "site-icon", type: "symbol", source: "dots", minzoom: 13, filter: ["!", isKerb], layout: icon, paint: { "icon-opacity": ["get", "opacity"] } });
     paint();
   });
 
-  const TAPPABLE = ["kerb-hit", "dot", "site-dot", "kerb-icon", "site-icon", "outline-fill"];
+  const TAPPABLE = ["kerb-hit", "dot", "site-dot", "best-dot", "kerb-icon", "site-icon", "outline-fill"];
   for (const id of TAPPABLE) {
     map.on("click", id, (e: MapLayerMouseEvent) => { const c = byId.get(String(e.features?.[0]?.properties.id)); if (c) show(c); });
     map.on("mouseenter", id, () => (map.getCanvas().style.cursor = "pointer"));
@@ -239,11 +274,13 @@ async function main(root: HTMLElement) {
 
   function show(c: Candidate) {
     selected = c;
+    const e = c.evaluation;
     sheet.innerHTML = `<div class="grab"></div><div class="body">
-      <div class="tags"><span class="tag" style="--c:${UNEVALUATED}">Not evaluated</span><span class="tag" style="--c:var(--muted)">${KIND_NAMES[c.kind]}</span><span class="tag" style="--c:var(--muted)">${esc(frontage(c))}</span></div>
+      <div class="tags"><span class="tag" style="--c:${colour(c)}">${e ? VERDICTS[e.verdict].label : "Not evaluated"}</span><span class="tag" style="--c:var(--muted)">${KIND_NAMES[c.kind]}</span><span class="tag" style="--c:var(--muted)">${esc(frontage(c))}</span></div>
       <h2>${esc(c.street)}</h2>
       <div class="kv">${esc(meta(c))}</div>
       ${c.dayOnly ? `<div class="day-only">Day only: the signs don't allow a night here</div>` : ""}
+      ${e ? evaluationBlock(e) : ""}
       ${outBlock(c)}
       <dl class="facts"><dt>Max stay</dt><dd>${c.maxStayHours ? limitName(c.maxStayHours) : c.kind === "kerb" ? "No limit on the plates" : "No limit mapped"}</dd>${
         c.kind === "kerb" ? "" : `<dt>Tenure</dt><dd>${esc(c.tenure ?? "Unknown")}</dd>`}${toiletFact(c, toilets, win)}</dl>
@@ -252,6 +289,7 @@ async function main(root: HTMLElement) {
       <p class="check">Check the signs on arrival. No sign isn't permission.</p>
       </div><a class="gmaps" href="${gmaps(c)}" target="_blank" rel="noopener">Open in Google Maps <span aria-hidden="true">↗</span></a>`;
     sheet.classList.add("open");
+    pulse.getElement().style.setProperty("--c", colour(c));
     pulse.setLngLat(anchor(c)).addTo(map);
     map.easeTo({ center: anchor(c), offset: [0, -170], duration: 600 });
   }

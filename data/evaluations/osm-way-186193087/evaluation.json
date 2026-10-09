@@ -1,0 +1,96 @@
+{
+  "candidate": "osm-way-186193087",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Large Summit car park at Mount Coot-tha, bush behind, no homes nearby.",
+  "reasons": [
+    "No dwellings nearby",
+    "Open asphalt car park, bush around",
+    "Plenty of room off the road"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by bush and the restaurant; no homes within sight.",
+    "access_and_room": "Sealed car park off the Summit road, many bays, vans can pull fully off.",
+    "traffic": "Visitor traffic by day to the restaurant and lookout; road noise is distant.",
+    "convention": "Many cars parked in the QLD image; one sign here is for motorcycle bays only."
+  },
+  "flags": [
+    "Tourist car park, likely busy until closing",
+    "Perimeter grade reads steep (22% max), but bays look level",
+    "Sign is motorcycle bays only"
+  ],
+  "sun_shade": "Mostly open asphalt; tree shade along the west and north edges, so morning shade on the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Overnight rules or gate closing times",
+    "Patrols",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 50,
+    "where": "Western end of the Summit car park, near the restaurant side",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.959397,
+        -27.484406
+      ],
+      [
+        152.95941,
+        -27.484422
+      ],
+      [
+        152.959411,
+        -27.484468
+      ],
+      [
+        152.959432,
+        -27.484479
+      ],
+      [
+        152.959451,
+        -27.484477
+      ],
+      [
+        152.959476,
+        -27.484481
+      ],
+      [
+        152.9595,
+        -27.484502
+      ],
+      [
+        152.959513,
+        -27.484528
+      ],
+      [
+        152.959585,
+        -27.484572
+      ],
+      [
+        152.959587,
+        -27.484565
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 5.1,
+    "min_elevation_m": 217.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T09:47:30Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v10"
+}

@@ -8,15 +8,18 @@ session fans out Sonnet subagents; it needs no API key and tracks no cost.
 You're running a parkup evaluation batch. Read `CONTEXT.md` for the vocabulary. Work through these steps.
 
 1. **Pick the candidates.** Either the calibration set (`--calibration`, folders under `data/calibration/`)
-   or the candidate ids you were given (folders under `data/evaluations/`). Skip any folder that already
-   has an `evaluation.json` with the current rubric version (the first line of `src/evaluate/rubric.md`),
-   unless told to redo everything.
+   or real candidates (folders under `data/evaluations/`). For real candidates, run `npm run build:data`
+   then `npm run evaluate -- queue` (add `--force` only when told to redo everything). It lists the
+   candidates without a current evaluation, in tier order, already grouped by suburb into groups of up
+   to 8; candidates that inherited a current evaluation from an earlier build are left out. Take groups
+   from the top. For the calibration set, skip any folder that already has an `evaluation.json` with the
+   current rubric version (the first line of `src/evaluate/rubric.md`), unless told to redo everything.
 2. **Prepare the context.** Run `npm run evaluate -- prepare --calibration [spot-id ...]` or
    `npm run evaluate -- prepare <candidate-id ...>`. It writes `context.json` per folder and the imagery to
    the gitignored `.cache/imagery/`. If Esri refuses keyless export, a chunk's `images.esri` is `null` and
    the agents use the QLD aerial alone. Re-run it for any folder that failed.
-3. **Group the work.** Up to about 8 candidates per group, grouped by suburb, in the order given (tier order
-   for a real batch).
+3. **Group the work.** For a real batch, one group per line of the queue. For the calibration set, up to
+   about 8 spots per group.
 4. **Fan out.** For each group, start a subagent with the Agent tool, `model: "sonnet"`, all groups in one
    message so they run in parallel. Give each the prompt below with its folders filled in.
 5. **Check and stamp.** When the subagents finish, run
@@ -28,7 +31,9 @@ You're running a parkup evaluation batch. Read `CONTEXT.md` for the vocabulary. 
 6. **Calibration only:** run `npm run evaluate -- calibrate`. It writes `data/calibration/report.md` and
    fails unless every good and poor call of the user's matches. Don't start a real batch on a failing
    calibration.
-7. Commit the `context.json`, `agent.json` and `evaluation.json` files (and the report). Never commit imagery.
+7. **Real batch only:** run `npm run build:data` to fold the new evaluations into `public/candidates.json`.
+8. Commit the `context.json`, `agent.json` and `evaluation.json` files (and the report or the rebuilt
+   dataset). Never commit imagery.
 
 ## Subagent prompt
 

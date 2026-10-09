@@ -1,5 +1,6 @@
 // Batch helpers for the evaluation run. See src/evaluate/batch-prompt.md for how a Claude Code session uses them.
 //
+//   npm run evaluate -- queue [--force] [--json]           candidates without a current evaluation, tier order, by suburb
 //   npm run evaluate -- prepare <candidate-id ...>        context for candidates from public/candidates.json
 //   npm run evaluate -- prepare --calibration [spot-id ...] context for the calibration set
 //   npm run evaluate -- check --model <id> <folder ...> | --calibration   validate agent.json, apply rule-outs, stamp, write evaluation.json
@@ -7,18 +8,28 @@
 import { readFile, stat, writeFile } from "node:fs/promises";
 import { HALF_WIDTH_M } from "../build/config.ts";
 import type { Candidate } from "../build/build.ts";
+import { evaluationQueue } from "../build/evaluations.ts";
+import { EVALUATIONS } from "./store.ts";
 import { calibrate, calibrationMarkdown } from "./calibrate.ts";
 import { checkEvaluation, type Evaluation } from "./check.ts";
 import type { Context } from "./context.ts";
 import { fetchContext, spotTarget, type Spot, type Target } from "./fetch.ts";
 
 export const CALIBRATION = "data/calibration";
-export const EVALUATIONS = "data/evaluations";
 
 const [command, ...args] = process.argv.slice(2);
 const readJson = async <T>(path: string): Promise<T> => JSON.parse(await readFile(path, "utf8"));
 
-if (command === "prepare") {
+if (command === "queue") {
+  // The dataset already carries each candidate's inherited evaluation, so rebuild it (npm run build:data) first.
+  const { candidates } = await readJson<{ candidates: Candidate[] }>("public/candidates.json");
+  const groups = evaluationQueue(candidates, { force: args.includes("--force") });
+  if (args.includes("--json")) console.log(JSON.stringify(groups, null, 2));
+  else {
+    for (const g of groups) console.log(`tier ${g.tier ?? "none"} · ${g.suburb || "suburb unknown"}: ${g.ids.join(" ")}`);
+    console.error(`${groups.reduce((n, g) => n + g.ids.length, 0)} candidates in ${groups.length} groups`);
+  }
+} else if (command === "prepare") {
   const calibration = args.includes("--calibration");
   const ids = args.filter((a) => !a.startsWith("--"));
   const targets: { target: () => Promise<Target>; dir: string }[] = [];
@@ -92,6 +103,6 @@ if (command === "prepare") {
   for (const f of result.failures) console.log(`  ${f.id}: you ${f.known}, agent ${f.verdict}`);
   process.exitCode = result.passed ? 0 : 1;
 } else {
-  console.error("usage: npm run evaluate -- prepare|check|calibrate ...");
+  console.error("usage: npm run evaluate -- queue|prepare|check|calibrate ...");
   process.exitCode = 2;
 }

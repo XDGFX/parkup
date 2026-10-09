@@ -1,0 +1,23 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "East kerb beside a grassy park, houses only across the road.",
+  "reasons": ["Backs onto park lawn", "Nearest dwelling over 20 m, across road", "Vehicle parked on this kerb"],
+  "best_section": {
+    "from_m": 18,
+    "to_m": 48,
+    "where": "Baty Street east kerb, beside the park lawn north of the first house",
+    "slope_pct": 1.5
+  },
+  "drivers": {
+    "seclusion": "East side is open park lawn and trees; homes sit on the west side, 20 m or more away.",
+    "access_and_room": "Sealed street with kerb; a van is parked at about 50 m in the QLD image, so there is room.",
+    "traffic": "Quiet dead-end style residential street; busier road at the north end.",
+    "convention": "Signs are 2P resident-excepted Mon-Fri 7am-6pm only, so overnight is outside them."
+  },
+  "flags": ["Dwelling 7 m away at the 0 m start, avoid that end", "Street is narrow, so check clearance"],
+  "sun_shade": "Tree canopy on the east side near the start and north end; the middle is open to the east and midday sun.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Kerb height", "Exact road width"],
+  "confidence": "medium"
+}
