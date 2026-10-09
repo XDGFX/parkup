@@ -1,0 +1,71 @@
+{
+  "candidate": "osm-way-738480960",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small sealed car park beside riverside park, no homes nearby.",
+  "reasons": [
+    "No dwellings within 50 m",
+    "Backs onto park lawn",
+    "Opens straight onto the road"
+  ],
+  "drivers": {
+    "seclusion": "Park lawn and trees around; only university buildings 52 m away, no homes.",
+    "access_and_room": "Short apron joins the road; about four bays, two occupied in QLD image.",
+    "traffic": "Quiet campus road; passing traffic only.",
+    "convention": "Public car park beside playground, so daytime visitors likely."
+  },
+  "flags": [
+    "Low-lying: about 5 m elevation, Brisbane River 103 m",
+    "Playground and park nearby may draw daytime visitors",
+    "Tiny: bays may be full"
+  ],
+  "sun_shade": "Partly shaded by trees to the west and north; open to morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Time limits or signs on site",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 39,
+    "where": "Far (road-side) end of the small car park off Sir William MacGregor Drive",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        153.014054,
+        -27.492488
+      ],
+      [
+        153.014049,
+        -27.492499
+      ],
+      [
+        153.014135,
+        -27.492531
+      ],
+      [
+        153.014163,
+        -27.492541
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 5.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

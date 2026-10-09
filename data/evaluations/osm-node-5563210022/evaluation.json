@@ -1,0 +1,61 @@
+{
+  "candidate": "osm-node-5563210022",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Tiny service yard walled in by UQ buildings; no homes, but staff overlook it.",
+  "reasons": [
+    "No dwellings; only university buildings",
+    "Small yard, one car visible",
+    "Hemmed in by lecture and lab buildings"
+  ],
+  "drivers": {
+    "seclusion": "No homes near; Social Sciences Building 3 m and labs overlook the yard.",
+    "access_and_room": "Sealed service lane from the car park to the north; room for one or two vans.",
+    "traffic": "Almost none beyond deliveries and staff.",
+    "convention": "Mapped permissive parking, no signs known; likely staff or service use."
+  },
+  "flags": [
+    "Slope varies: yard roughly 2%, 43% max on the bank to the south",
+    "Likely staff or delivery use and campus security",
+    "Esri and QLD show a car in or beside the yard"
+  ],
+  "sun_shade": "Buildings shade the yard from the west and east; trees to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site",
+    "Gates or barriers on the service lane",
+    "Security patrols"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Asphalt yard at the end of the service lane between the Social Sciences Building and the building to its east",
+    "slope_pct": 2,
+    "points": [
+      [
+        153.015083,
+        -27.496314
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 10.4,
+    "min_elevation_m": 11,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

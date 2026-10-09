@@ -1,0 +1,27 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside bush on a street where cars park; steep.",
+  "reasons": ["Backs onto bush", "Nearest dwelling 16 m", "Cars park along kerb"],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 9,
+    "where": "South side of Armadale Street, beside the wooded block just before the driveway",
+    "slope_pct": 10.5
+  },
+  "drivers": {
+    "seclusion": "South side backs onto bush; nearest mapped house 16 m at the far end, others 24 m or more.",
+    "access_and_room": "Roadside kerb where a car is parked at the ring; only 9 m long, so a van just fits.",
+    "traffic": "Residential street with moderate traffic; cars parked both sides.",
+    "convention": "Several cars parked along both kerbs, so a van would not stand out."
+  },
+  "flags": [
+    "Steep: about 10.5% mean, 12.1% max",
+    "Only 9 m of kerb, barely a van length",
+    "No Parking Any Time sign sits at the kerb"
+  ],
+  "sun_shade": "Tree canopy on the south side gives some shade; open to north and east sun.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Crossfall", "Street lighting", "Kerb height"],
+  "confidence": "medium"
+}

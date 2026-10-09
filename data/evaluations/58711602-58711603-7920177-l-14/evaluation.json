@@ -1,0 +1,49 @@
+{
+  "candidate": "58711602-58711603-7920177-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow campus service lane between lab buildings; no room to pull off.",
+  "reasons": [
+    "Building to lane edge, no shoulder",
+    "Bollard at 12 m, crossing near 50 m",
+    "No parked cars; service access only"
+  ],
+  "drivers": {
+    "seclusion": "Enclosed by university lab buildings 5 to 20 m away; no dwellings within 29 m.",
+    "access_and_room": "Lane is tight between buildings and trees with no pull-off; a mapped bollard sits 12 m along and a van would block service access.",
+    "traffic": "Campus service route through the science precinct; deliveries and foot traffic.",
+    "convention": "No cars parked along the lane; only a few bays at the south end."
+  },
+  "flags": [
+    "Slope up to 8.2% max, 2.4% mean",
+    "Bollard 12 m from the start; likely restricted vehicle access",
+    "Campus working hours activity and likely security"
+  ],
+  "sun_shade": "Heavy tree and building shade for most of the length.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Street lighting",
+    "Whether the bollard is removable"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 29,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 9.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

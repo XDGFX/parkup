@@ -1,0 +1,22 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Short campus through-road kerb with no cars parked and no parking lane.",
+  "reasons": ["Through road, nobody parks here", "Only 10 m of kerb", "Painted road markings in lane"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Lawn, courts and university buildings 18 m or more away, no homes, but the kerb is in plain view.",
+    "access_and_room": "Kerb runs along the lane with a narrow lawn strip behind; no pull-in and no marked parking bay.",
+    "traffic": "Campus road with buses and cars; steady daytime traffic.",
+    "convention": "No cars on this stretch; the parked row starts further west."
+  },
+  "flags": [
+    "Painted symbols on the carriageway beside the stretch",
+    "Low-lying: about 6 m elevation, Brisbane River 249 m away",
+    "Metered area signs Mon-Fri 7am-9pm nearby"
+  ],
+  "sun_shade": "Tree canopy to the north-west shades the west end; east end open.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Campus patrols", "Kerb height"],
+  "confidence": "medium"
+}

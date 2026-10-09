@@ -1,0 +1,48 @@
+{
+  "candidate": "58711615-58711730-992611856-l-227",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Nine metres of kerb at a zebra crossing; too short for a van.",
+  "reasons": [
+    "Only 9 m, under a van length",
+    "Zebra crossing and painted bays",
+    "Residential college wing 19 m away"
+  ],
+  "drivers": {
+    "seclusion": "College residential wing 19 m east; campus road with buildings and bays.",
+    "access_and_room": "Stretch is 9 m and ends at a zebra crossing; no room for a van to stop clear.",
+    "traffic": "Campus road with a lift-gate; light but regular traffic.",
+    "convention": "Marked bays with X and text markings nearby suggest restricted parking."
+  },
+  "flags": [
+    "Dwelling (Centenary Wing) 19 m away",
+    "Low-lying: about 5 m elevation by the river",
+    "Painted markings on road"
+  ],
+  "sun_shade": "Tree shade on the east side; open to the west over the river.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 3.6,
+    "min_elevation_m": 5.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,49 @@
+{
+  "candidate": "156750745-156750750-15697118-r-217",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a main-road junction mouth, hemmed in by dense shrubs.",
+  "reasons": [
+    "Junction mouth, no room to pull off",
+    "Dense shrubs against the kerb",
+    "Only 12 m long"
+  ],
+  "drivers": {
+    "seclusion": "Park and trees on the east side, apartments 27 m or more across the road, but the spot is exposed at the junction.",
+    "access_and_room": "Narrow lane bends into the main road; shrubs and trees press on the kerb, leaving no room to stop clear of the lane or the junction.",
+    "traffic": "Turning traffic from the main road, directly at the junction.",
+    "convention": "One car parks further south along the kerb, none at this end."
+  },
+  "flags": [
+    "Within about 10 m of the main-road junction",
+    "Mean slope 5%, max 9%, steep",
+    "Permit parking signs 2P Mon-Fri 7am-6pm"
+  ],
+  "sun_shade": "Heavy tree canopy shades the whole stretch.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 27,
+    "gated": false,
+    "slope_pct": 5,
+    "min_elevation_m": 10.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

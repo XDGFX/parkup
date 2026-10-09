@@ -1,0 +1,71 @@
+{
+  "candidate": "osm-way-1069199332",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small gravel lot under trees, but a house sits just south.",
+  "reasons": [
+    "House about 15 m from north end",
+    "Gravel lot backs onto trees and park",
+    "Small: room for two or three vehicles"
+  ],
+  "drivers": {
+    "seclusion": "Trees and parkland to north and west; detached house 6 m from south end, roughly 15 m from north end.",
+    "access_and_room": "Gravel apron meets the road edge; two cars parked in it, room for a van at the top.",
+    "traffic": "40 km/h road with kerbside cars; van stands off the lane.",
+    "convention": "Cars park in the lot and along the road; looks like overflow parking."
+  },
+  "flags": [
+    "House on the same side within about 15 m of best section",
+    "Cars parked in lot may leave little room"
+  ],
+  "sun_shade": "Heavy tree canopy shades the north end, mostly from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Time limits or signs on site",
+    "Street lighting",
+    "Whether the house overlooks the north end"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 18,
+    "to_m": 32,
+    "where": "North end of the small gravel lot, furthest from the house to the south",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        153.023508,
+        -27.501197
+      ],
+      [
+        153.023509,
+        -27.501193
+      ],
+      [
+        153.023407,
+        -27.501172
+      ],
+      [
+        153.0234,
+        -27.5012
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 7.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

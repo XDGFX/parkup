@@ -1,0 +1,65 @@
+{
+  "candidate": "osm-way-24241615",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Roadside parking strip backing onto bush; nearest home 36 m away.",
+  "reasons": [
+    "Backs onto bushland and golf grounds",
+    "Nearest dwelling 36 m, through trees",
+    "Many cars already parked here"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the west side; houses 36 m or more away beyond trees.",
+    "access_and_room": "Sealed strip set off the lane with its own entry; bays beside the carriageway fit a van.",
+    "traffic": "Busy arterial and roundabout alongside; the strip sits off the lane.",
+    "convention": "Mapped free parking; strip is full of parked cars in both images."
+  },
+  "flags": [
+    "Noise from the arterial road and roundabout",
+    "No Stopping sign applies to the main carriageway kerb, not the strip",
+    "Low-ish ground: 6.9-8.2 m, Sandy Creek 99 m away",
+    "Max grade 9.4% at the strip ends"
+  ],
+  "sun_shade": "Trees shade the west side in the afternoon; open to the morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site",
+    "Time limits on the strip"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 40,
+    "where": "Middle of the angled parking strip off Indooroopilly Road, south of the roundabout",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.990485,
+        -27.502544
+      ],
+      [
+        152.990578,
+        -27.502335
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 43,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 7.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

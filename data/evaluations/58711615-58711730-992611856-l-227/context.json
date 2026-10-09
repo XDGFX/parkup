@@ -1,0 +1,328 @@
+{
+  "id": "58711615-58711730-992611856-l-227",
+  "street": "College Road",
+  "suburb": "St Lucia",
+  "line": [
+    [
+      153.016641,
+      -27.500191
+    ],
+    [
+      153.016671,
+      -27.500149
+    ],
+    [
+      153.016684,
+      -27.500124
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "west",
+  "length_m": 9,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "residential",
+      "name": "Centenary Wing",
+      "dwelling": true,
+      "metres": 19,
+      "at_m": 9,
+      "outline": [
+        [
+          153.0168724,
+          -27.5002638
+        ],
+        [
+          153.0168852,
+          -27.500203
+        ],
+        [
+          153.0168662,
+          -27.5001998
+        ],
+        [
+          153.0168796,
+          -27.500137
+        ],
+        [
+          153.0170233,
+          -27.5001609
+        ],
+        [
+          153.0170112,
+          -27.5002182
+        ],
+        [
+          153.0171983,
+          -27.5002493
+        ],
+        [
+          153.0172062,
+          -27.5002123
+        ],
+        [
+          153.0172668,
+          -27.5002224
+        ],
+        [
+          153.0172813,
+          -27.5002248
+        ],
+        [
+          153.0172847,
+          -27.500209
+        ],
+        [
+          153.0173916,
+          -27.5002268
+        ],
+        [
+          153.017385,
+          -27.5002579
+        ],
+        [
+          153.0174275,
+          -27.500265
+        ],
+        [
+          153.0174101,
+          -27.5003473
+        ],
+        [
+          153.0172607,
+          -27.5003225
+        ],
+        [
+          153.0172478,
+          -27.5003835
+        ],
+        [
+          153.0169523,
+          -27.5003343
+        ],
+        [
+          153.016964,
+          -27.500279
+        ],
+        [
+          153.0168724,
+          -27.5002638
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": "New Wing",
+      "dwelling": true,
+      "metres": 48,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0170336,
+          -27.5004488
+        ],
+        [
+          153.0169961,
+          -27.5005553
+        ],
+        [
+          153.01776,
+          -27.5007668
+        ],
+        [
+          153.0177974,
+          -27.5006606
+        ],
+        [
+          153.0174787,
+          -27.5005724
+        ],
+        [
+          153.0174828,
+          -27.5005608
+        ],
+        [
+          153.017355,
+          -27.5005254
+        ],
+        [
+          153.017351,
+          -27.5005366
+        ],
+        [
+          153.0170336,
+          -27.5004488
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0168551,
+      "lat": -27.5004367,
+      "metres": 35,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0161206,
+      "lat": -27.501103,
+      "metres": 114,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0177677,
+      "lat": -27.5005512,
+      "metres": 117,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0154016,
+      "lat": -27.5008934,
+      "metres": 145,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0156478,
+      "lat": -27.5015001,
+      "metres": 175,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0178039,
+      "lat": -27.5015773,
+      "metres": 192,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0146087,
+      "lat": -27.5004249,
+      "metres": 202,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.014516,
+      "lat": -27.4998174,
+      "metres": 214,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0153793,
+      "lat": -27.502173,
+      "metres": 253,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0140482,
+      "lat": -27.5008377,
+      "metres": 266,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.016641,
+        "lat": -27.500191,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 5.12
+      },
+      {
+        "lon": 153.016668,
+        "lat": -27.500153,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 5.3
+      },
+      {
+        "lon": 153.016684,
+        "lat": -27.500124,
+        "at_m": 8.6,
+        "line": 0,
+        "elevation_m": 5.31
+      }
+    ],
+    "min_elevation_m": 5.1,
+    "max_elevation_m": 5.3,
+    "mean_grade_pct": 1.9,
+    "max_grade_pct": 3.6
+  },
+  "waterway": null,
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 60,
+      "access": "customers",
+      "fee": "yes",
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 63,
+      "access": null,
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 67,
+      "access": null,
+      "fee": null,
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 9,
+      "length_m": 9,
+      "images": {
+        "esri": ".cache/imagery/58711615-58711730-992611856-l-227/chunk1-esri.jpg",
+        "qld": ".cache/imagery/58711615-58711730-992611856-l-227/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        64,
+        67
+      ],
+      "image_px": [
+        428,
+        450
+      ]
+    }
+  ]
+}

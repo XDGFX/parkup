@@ -1,0 +1,74 @@
+{
+  "candidate": "58711603-58711611-676188661-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Campus road bend beside the Hawken building; no verge or room to stop.",
+  "reasons": [
+    "Building walls 2-15 m from kerb",
+    "Narrow campus road, no parking bay",
+    "Busy university precinct"
+  ],
+  "drivers": {
+    "seclusion": "Only non-residential university buildings 2-15 m away; no dwellings. Constantly overlooked campus.",
+    "access_and_room": "Sealed lane only; building walls and planters edge it, no pull-off or verge seen.",
+    "traffic": "Campus through road; bollards mapped at 6 m, pedestrian crossing nearby.",
+    "convention": "No parked cars or overnight use visible."
+  },
+  "flags": [
+    "Steep: max grade 7.2% near the bend, mean 3.2%",
+    "Bollards mapped nearby, not on the only access"
+  ],
+  "sun_shade": "Mostly shaded by the lab buildings and trees; open to the sky near the bend.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Campus permit rules",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "Cooper Road at the south-west end of the bend, beside the Chemistry and Hawken buildings",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        153.013044,
+        -27.499883
+      ],
+      [
+        153.013062,
+        -27.499858
+      ],
+      [
+        153.013078,
+        -27.499845
+      ],
+      [
+        153.013103,
+        -27.499836
+      ],
+      [
+        153.01317,
+        -27.499817
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 11.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,76 @@
+{
+  "candidate": "13062980296-13062984708-1239341046-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Ten metres of kerb across a car park entrance on a through road.",
+  "reasons": [
+    "Short stretch at a car park entrance",
+    "Through road, no kerbside parking seen",
+    "Narrow verge, no room off lane"
+  ],
+  "drivers": {
+    "seclusion": "Treed golf course bank behind; homes 25 m or more across the road.",
+    "access_and_room": "Stretch is the mouth of the car park driveway; a van would block it.",
+    "traffic": "Through road with lane markings and overhead lines; no cars on this kerb.",
+    "convention": "No kerbside parking seen; golf cars use the off-road lot next to it."
+  },
+  "flags": [
+    "Slope 2.7% mean, up to 4.2%",
+    "Blocks car park entrance",
+    "Customer-only parking nearby"
+  ],
+  "sun_shade": "Trees to the south and east shade the verge; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerb height",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Short kerb stretch by the golf car park entrance on Carawa Street",
+    "slope_pct": 2.7,
+    "points": [
+      [
+        152.993129,
+        -27.502459
+      ],
+      [
+        152.993091,
+        -27.502462
+      ],
+      [
+        152.993066,
+        -27.502464
+      ],
+      [
+        152.99305,
+        -27.502465
+      ],
+      [
+        152.993028,
+        -27.502466
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 25,
+    "gated": false,
+    "slope_pct": 4.1,
+    "min_elevation_m": 21,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

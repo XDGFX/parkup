@@ -1,0 +1,67 @@
+{
+  "candidate": "262638082-10310160109-1198551984-l-24",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short university road kerb by a bus zone; no parking, no room.",
+  "reasons": [
+    "Through road, no cars parked",
+    "Bus zone sign nearby",
+    "Narrow kerb beside lane"
+  ],
+  "drivers": {
+    "seclusion": "University buildings 11-25 m away, none are homes; campus foot traffic.",
+    "access_and_room": "Kerb is only a narrow strip next to the lane; no pull-off, bus stop area.",
+    "traffic": "Through road with buses, no parked cars along this side.",
+    "convention": "No parking convention; a bus zone is signed just up the road."
+  },
+  "flags": [
+    "Steep: about 6% grade, 10% max",
+    "Bus zone sign about 11 m from the line",
+    "Bus stop in use"
+  ],
+  "sun_shade": "Mixed tree shade from the east side, open from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerb height",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 21,
+    "where": "east kerb of Chancellors Place beside the UQ bus shelter",
+    "slope_pct": 6.1,
+    "points": [
+      [
+        153.011055,
+        -27.498079
+      ],
+      [
+        153.011045,
+        -27.498126
+      ],
+      [
+        153.011019,
+        -27.498261
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 6.1,
+    "min_elevation_m": 18.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

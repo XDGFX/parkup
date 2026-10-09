@@ -1,0 +1,61 @@
+{
+  "candidate": "bcc-trail-2477",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Sealed car park off the loop road, backing onto bush and parkland, no homes near.",
+  "reasons": [
+    "Car park among trees, no dwellings within 200 m",
+    "Sealed access off the park loop road",
+    "Pin itself sits on the bridge deck"
+  ],
+  "drivers": {
+    "seclusion": "Park, trees and river around it; only a community shed 65 m from the pin. Nearest homes are well beyond 150 m.",
+    "access_and_room": "Sealed loop road runs into the car park; marked bays with several cars parked, room for a van.",
+    "traffic": "Bridge traffic 80 m away; the loop road itself looks quiet.",
+    "convention": "Cars parked in both images, so a van would not stand out; no overnight use or signs seen."
+  },
+  "flags": [
+    "Low-lying: about 6.4 m, Brisbane River 207 m away, flood-prone",
+    "Noise from the busway bridge",
+    "Pin is on the bridge deck, so the car park is a best guess",
+    "Fenced works compound on the lawn in the QLD image"
+  ],
+  "sun_shade": "Open sealed bays with trees to the east and south-east, giving morning shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking signs and time limits on site",
+    "Street lighting",
+    "Whether the car park is shared with the community shed"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Small sealed car park north-west of the pin, beside the white shed on the park loop road",
+    "slope_pct": 0,
+    "points": [
+      [
+        153.023144,
+        -27.49781
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 6.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,1057 @@
+{
+  "id": "58712442-264667248-23730661-r-128",
+  "street": "Coldridge Street",
+  "suburb": "St Lucia",
+  "line": [
+    [
+      153.006271,
+      -27.495013
+    ],
+    [
+      153.006557,
+      -27.495923
+    ],
+    [
+      153.006655,
+      -27.496219
+    ],
+    [
+      153.006733,
+      -27.4965
+    ],
+    [
+      153.006757,
+      -27.496597
+    ],
+    [
+      153.006769,
+      -27.496686
+    ],
+    [
+      153.006775,
+      -27.496796
+    ],
+    [
+      153.006769,
+      -27.49689
+    ],
+    [
+      153.006753,
+      -27.497016
+    ],
+    [
+      153.006725,
+      -27.497171
+    ],
+    [
+      153.006673,
+      -27.497466
+    ],
+    [
+      153.006641,
+      -27.497645
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "west",
+  "length_m": 300,
+  "signs": [
+    {
+      "street": "COLDRIDGE STREET",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 0.1
+    },
+    {
+      "street": "COLDRIDGE STREET",
+      "restriction": "Bus Zone",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 2.2
+    },
+    {
+      "street": "COLDRIDGE STREET",
+      "restriction": "Works Zone (Construction Vehicles)",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 13.1
+    },
+    {
+      "street": "COLDRIDGE STREET",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 15
+    },
+    {
+      "street": "COLDRIDGE STREET",
+      "restriction": "Bus Zone",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 11.2
+    },
+    {
+      "street": "COLDRIDGE STREET",
+      "restriction": "Bus Zone",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 12.1
+    },
+    {
+      "street": "COLDRIDGE STREET",
+      "restriction": "Works Zone (Construction Vehicles)",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 12.4
+    }
+  ],
+  "buildings": [
+    {
+      "building": "sports_centre",
+      "name": "Oval 7 Pavilion",
+      "dwelling": false,
+      "metres": 22,
+      "at_m": 80,
+      "outline": [
+        [
+          153.0067042,
+          -27.4956559
+        ],
+        [
+          153.0067565,
+          -27.4957202
+        ],
+        [
+          153.0068249,
+          -27.4957868
+        ],
+        [
+          153.0068906,
+          -27.4958249
+        ],
+        [
+          153.0069321,
+          -27.4958451
+        ],
+        [
+          153.006971,
+          -27.4957856
+        ],
+        [
+          153.0069134,
+          -27.4957535
+        ],
+        [
+          153.0068651,
+          -27.4957202
+        ],
+        [
+          153.0068865,
+          -27.4957071
+        ],
+        [
+          153.0068289,
+          -27.4956524
+        ],
+        [
+          153.0067913,
+          -27.4956024
+        ],
+        [
+          153.0067042,
+          -27.4956559
+        ]
+      ]
+    },
+    {
+      "building": "dormitory",
+      "name": null,
+      "dwelling": true,
+      "metres": 23,
+      "at_m": 244,
+      "outline": [
+        [
+          153.0073313,
+          -27.4972293
+        ],
+        [
+          153.0069623,
+          -27.4971801
+        ],
+        [
+          153.0069429,
+          -27.4972945
+        ],
+        [
+          153.007312,
+          -27.4973436
+        ],
+        [
+          153.0073208,
+          -27.4972916
+        ],
+        [
+          153.0073313,
+          -27.4972293
+        ]
+      ]
+    },
+    {
+      "building": "dormitory",
+      "name": null,
+      "dwelling": true,
+      "metres": 23,
+      "at_m": 267,
+      "outline": [
+        [
+          153.0069252,
+          -27.4973868
+        ],
+        [
+          153.007294,
+          -27.4974355
+        ],
+        [
+          153.0072862,
+          -27.4974818
+        ],
+        [
+          153.0072748,
+          -27.4975498
+        ],
+        [
+          153.006906,
+          -27.4975011
+        ],
+        [
+          153.0069252,
+          -27.4973868
+        ]
+      ]
+    },
+    {
+      "building": "dormitory",
+      "name": null,
+      "dwelling": true,
+      "metres": 23,
+      "at_m": 292,
+      "outline": [
+        [
+          153.0068886,
+          -27.4976047
+        ],
+        [
+          153.0072562,
+          -27.4976533
+        ],
+        [
+          153.0072408,
+          -27.4977447
+        ],
+        [
+          153.0072375,
+          -27.4977643
+        ],
+        [
+          153.0068699,
+          -27.4977157
+        ],
+        [
+          153.0068886,
+          -27.4976047
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": "Containers for Change",
+      "dwelling": false,
+      "metres": 28,
+      "at_m": 113,
+      "outline": [
+        [
+          153.006856,
+          -27.495917
+        ],
+        [
+          153.0068929,
+          -27.4959072
+        ],
+        [
+          153.0068996,
+          -27.4959272
+        ],
+        [
+          153.0068627,
+          -27.495937
+        ],
+        [
+          153.006856,
+          -27.495917
+        ]
+      ]
+    },
+    {
+      "building": "apartments",
+      "name": null,
+      "dwelling": true,
+      "metres": 55,
+      "at_m": 0,
+      "outline": [
+        [
+          153.005634,
+          -27.4948085
+        ],
+        [
+          153.005751,
+          -27.4948225
+        ],
+        [
+          153.0057177,
+          -27.4950413
+        ],
+        [
+          153.0056007,
+          -27.4950273
+        ],
+        [
+          153.005634,
+          -27.4948085
+        ]
+      ]
+    },
+    {
+      "building": "apartments",
+      "name": null,
+      "dwelling": true,
+      "metres": 55,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0053517,
+          -27.4950906
+        ],
+        [
+          153.0055165,
+          -27.4951103
+        ],
+        [
+          153.0055107,
+          -27.4951482
+        ],
+        [
+          153.0055906,
+          -27.4951578
+        ],
+        [
+          153.0056036,
+          -27.4950721
+        ],
+        [
+          153.0057185,
+          -27.4950859
+        ],
+        [
+          153.0056845,
+          -27.4953091
+        ],
+        [
+          153.0055639,
+          -27.4952947
+        ],
+        [
+          153.0055695,
+          -27.4952576
+        ],
+        [
+          153.0053306,
+          -27.495229
+        ],
+        [
+          153.0053517,
+          -27.4950906
+        ]
+      ]
+    },
+    {
+      "building": "apartments",
+      "name": null,
+      "dwelling": true,
+      "metres": 56,
+      "at_m": 0,
+      "outline": [
+        [
+          153.005576,
+          -27.4946179
+        ],
+        [
+          153.0055562,
+          -27.4947227
+        ],
+        [
+          153.0057877,
+          -27.4947572
+        ],
+        [
+          153.0058075,
+          -27.4946524
+        ],
+        [
+          153.005576,
+          -27.4946179
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.005693,
+      "lat": -27.4958974,
+      "metres": 81,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0077063,
+      "lat": -27.4978034,
+      "metres": 107,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0078236,
+      "lat": -27.4973615,
+      "metres": 110,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0077144,
+      "lat": -27.4982264,
+      "metres": 124,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0084546,
+      "lat": -27.4952221,
+      "metres": 201,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0088931,
+      "lat": -27.4972962,
+      "metres": 213,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0091436,
+      "lat": -27.4954576,
+      "metres": 259,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0037406,
+      "lat": -27.496012,
+      "metres": 270,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0095579,
+      "lat": -27.4966907,
+      "metres": 275,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0095945,
+      "lat": -27.496757,
+      "metres": 278,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.006271,
+        "lat": -27.495013,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 3.5
+      },
+      {
+        "lon": 153.006285,
+        "lat": -27.495056,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 3.55
+      },
+      {
+        "lon": 153.006298,
+        "lat": -27.4951,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 3.5
+      },
+      {
+        "lon": 153.006312,
+        "lat": -27.495143,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 3.47
+      },
+      {
+        "lon": 153.006325,
+        "lat": -27.495186,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 3.52
+      },
+      {
+        "lon": 153.006339,
+        "lat": -27.49523,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 3.59
+      },
+      {
+        "lon": 153.006353,
+        "lat": -27.495273,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 3.52
+      },
+      {
+        "lon": 153.006366,
+        "lat": -27.495316,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 3.52
+      },
+      {
+        "lon": 153.00638,
+        "lat": -27.49536,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 3.45
+      },
+      {
+        "lon": 153.006394,
+        "lat": -27.495403,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 3.42
+      },
+      {
+        "lon": 153.006407,
+        "lat": -27.495446,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 3.42
+      },
+      {
+        "lon": 153.006421,
+        "lat": -27.495489,
+        "at_m": 55,
+        "line": 0,
+        "elevation_m": 3.39
+      },
+      {
+        "lon": 153.006434,
+        "lat": -27.495533,
+        "at_m": 60,
+        "line": 0,
+        "elevation_m": 3.35
+      },
+      {
+        "lon": 153.006448,
+        "lat": -27.495576,
+        "at_m": 65,
+        "line": 0,
+        "elevation_m": 3.29
+      },
+      {
+        "lon": 153.006462,
+        "lat": -27.495619,
+        "at_m": 70,
+        "line": 0,
+        "elevation_m": 3.39
+      },
+      {
+        "lon": 153.006475,
+        "lat": -27.495663,
+        "at_m": 75,
+        "line": 0,
+        "elevation_m": 3.36
+      },
+      {
+        "lon": 153.006489,
+        "lat": -27.495706,
+        "at_m": 80,
+        "line": 0,
+        "elevation_m": 3.29
+      },
+      {
+        "lon": 153.006502,
+        "lat": -27.495749,
+        "at_m": 85,
+        "line": 0,
+        "elevation_m": 3.29
+      },
+      {
+        "lon": 153.006516,
+        "lat": -27.495793,
+        "at_m": 90,
+        "line": 0,
+        "elevation_m": 3.33
+      },
+      {
+        "lon": 153.00653,
+        "lat": -27.495836,
+        "at_m": 95,
+        "line": 0,
+        "elevation_m": 3.27
+      },
+      {
+        "lon": 153.006543,
+        "lat": -27.495879,
+        "at_m": 100,
+        "line": 0,
+        "elevation_m": 3.21
+      },
+      {
+        "lon": 153.006557,
+        "lat": -27.495923,
+        "at_m": 105,
+        "line": 0,
+        "elevation_m": 3.21
+      },
+      {
+        "lon": 153.006571,
+        "lat": -27.495966,
+        "at_m": 110,
+        "line": 0,
+        "elevation_m": 3.24
+      },
+      {
+        "lon": 153.006585,
+        "lat": -27.496009,
+        "at_m": 115,
+        "line": 0,
+        "elevation_m": 3.3
+      },
+      {
+        "lon": 153.0066,
+        "lat": -27.496052,
+        "at_m": 120,
+        "line": 0,
+        "elevation_m": 3.36
+      },
+      {
+        "lon": 153.006614,
+        "lat": -27.496095,
+        "at_m": 125,
+        "line": 0,
+        "elevation_m": 3.44
+      },
+      {
+        "lon": 153.006628,
+        "lat": -27.496138,
+        "at_m": 130,
+        "line": 0,
+        "elevation_m": 3.48
+      },
+      {
+        "lon": 153.006643,
+        "lat": -27.496181,
+        "at_m": 135,
+        "line": 0,
+        "elevation_m": 3.67
+      },
+      {
+        "lon": 153.006657,
+        "lat": -27.496225,
+        "at_m": 140,
+        "line": 0,
+        "elevation_m": 3.71
+      },
+      {
+        "lon": 153.006669,
+        "lat": -27.496268,
+        "at_m": 145,
+        "line": 0,
+        "elevation_m": 3.83
+      },
+      {
+        "lon": 153.006681,
+        "lat": -27.496312,
+        "at_m": 150,
+        "line": 0,
+        "elevation_m": 3.94
+      },
+      {
+        "lon": 153.006693,
+        "lat": -27.496356,
+        "at_m": 155,
+        "line": 0,
+        "elevation_m": 4.12
+      },
+      {
+        "lon": 153.006705,
+        "lat": -27.496399,
+        "at_m": 160,
+        "line": 0,
+        "elevation_m": 4.22
+      },
+      {
+        "lon": 153.006717,
+        "lat": -27.496443,
+        "at_m": 165,
+        "line": 0,
+        "elevation_m": 4.33
+      },
+      {
+        "lon": 153.006729,
+        "lat": -27.496487,
+        "at_m": 170,
+        "line": 0,
+        "elevation_m": 4.6
+      },
+      {
+        "lon": 153.006741,
+        "lat": -27.49653,
+        "at_m": 175,
+        "line": 0,
+        "elevation_m": 4.83
+      },
+      {
+        "lon": 153.006751,
+        "lat": -27.496574,
+        "at_m": 180,
+        "line": 0,
+        "elevation_m": 4.96
+      },
+      {
+        "lon": 153.00676,
+        "lat": -27.496619,
+        "at_m": 185,
+        "line": 0,
+        "elevation_m": 5.24
+      },
+      {
+        "lon": 153.006766,
+        "lat": -27.496663,
+        "at_m": 190,
+        "line": 0,
+        "elevation_m": 5.5
+      },
+      {
+        "lon": 153.00677,
+        "lat": -27.496708,
+        "at_m": 195,
+        "line": 0,
+        "elevation_m": 5.85
+      },
+      {
+        "lon": 153.006773,
+        "lat": -27.496753,
+        "at_m": 200,
+        "line": 0,
+        "elevation_m": 6.15
+      },
+      {
+        "lon": 153.006775,
+        "lat": -27.496798,
+        "at_m": 205,
+        "line": 0,
+        "elevation_m": 6.32
+      },
+      {
+        "lon": 153.006772,
+        "lat": -27.496843,
+        "at_m": 210,
+        "line": 0,
+        "elevation_m": 6.7
+      },
+      {
+        "lon": 153.006769,
+        "lat": -27.496888,
+        "at_m": 215,
+        "line": 0,
+        "elevation_m": 6.89
+      },
+      {
+        "lon": 153.006764,
+        "lat": -27.496932,
+        "at_m": 220,
+        "line": 0,
+        "elevation_m": 7.09
+      },
+      {
+        "lon": 153.006758,
+        "lat": -27.496977,
+        "at_m": 225,
+        "line": 0,
+        "elevation_m": 7.25
+      },
+      {
+        "lon": 153.006752,
+        "lat": -27.497022,
+        "at_m": 230,
+        "line": 0,
+        "elevation_m": 7.59
+      },
+      {
+        "lon": 153.006744,
+        "lat": -27.497066,
+        "at_m": 235,
+        "line": 0,
+        "elevation_m": 7.8
+      },
+      {
+        "lon": 153.006736,
+        "lat": -27.497111,
+        "at_m": 240,
+        "line": 0,
+        "elevation_m": 7.98
+      },
+      {
+        "lon": 153.006728,
+        "lat": -27.497155,
+        "at_m": 245,
+        "line": 0,
+        "elevation_m": 8.22
+      },
+      {
+        "lon": 153.00672,
+        "lat": -27.497199,
+        "at_m": 250,
+        "line": 0,
+        "elevation_m": 8.4
+      },
+      {
+        "lon": 153.006712,
+        "lat": -27.497244,
+        "at_m": 255,
+        "line": 0,
+        "elevation_m": 8.52
+      },
+      {
+        "lon": 153.006704,
+        "lat": -27.497288,
+        "at_m": 260,
+        "line": 0,
+        "elevation_m": 8.68
+      },
+      {
+        "lon": 153.006697,
+        "lat": -27.497333,
+        "at_m": 265,
+        "line": 0,
+        "elevation_m": 8.8
+      },
+      {
+        "lon": 153.006689,
+        "lat": -27.497377,
+        "at_m": 270,
+        "line": 0,
+        "elevation_m": 8.84
+      },
+      {
+        "lon": 153.006681,
+        "lat": -27.497422,
+        "at_m": 275,
+        "line": 0,
+        "elevation_m": 8.9
+      },
+      {
+        "lon": 153.006673,
+        "lat": -27.497466,
+        "at_m": 280,
+        "line": 0,
+        "elevation_m": 8.92
+      },
+      {
+        "lon": 153.006665,
+        "lat": -27.49751,
+        "at_m": 285,
+        "line": 0,
+        "elevation_m": 8.96
+      },
+      {
+        "lon": 153.006657,
+        "lat": -27.497555,
+        "at_m": 290,
+        "line": 0,
+        "elevation_m": 9.09
+      },
+      {
+        "lon": 153.006649,
+        "lat": -27.497599,
+        "at_m": 295,
+        "line": 0,
+        "elevation_m": 9.08
+      },
+      {
+        "lon": 153.006641,
+        "lat": -27.497644,
+        "at_m": 300,
+        "line": 0,
+        "elevation_m": 9.24
+      },
+      {
+        "lon": 153.006641,
+        "lat": -27.497645,
+        "at_m": 300.2,
+        "line": 0,
+        "elevation_m": 9.24
+      }
+    ],
+    "min_elevation_m": 3.2,
+    "max_elevation_m": 9.2,
+    "mean_grade_pct": 2.3,
+    "max_grade_pct": 7.6
+  },
+  "waterway": {
+    "name": null,
+    "metres": 264
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 28,
+      "access": "private",
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 57,
+      "access": null,
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 78,
+      "access": null,
+      "fee": null,
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 100,
+      "length_m": 100,
+      "images": {
+        "esri": ".cache/imagery/58712442-264667248-23730661-r-128/chunk1-esri.jpg",
+        "qld": ".cache/imagery/58712442-264667248-23730661-r-128/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        87,
+        156
+      ],
+      "image_px": [
+        579,
+        1043
+      ]
+    },
+    {
+      "chunk": 2,
+      "from_m": 100,
+      "to_m": 200,
+      "length_m": 100,
+      "images": {
+        "esri": ".cache/imagery/58712442-264667248-23730661-r-128/chunk2-esri.jpg",
+        "qld": ".cache/imagery/58712442-264667248-23730661-r-128/chunk2-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        83,
+        157
+      ],
+      "image_px": [
+        551,
+        1048
+      ]
+    },
+    {
+      "chunk": 3,
+      "from_m": 200,
+      "to_m": 300,
+      "length_m": 100,
+      "images": {
+        "esri": ".cache/imagery/58712442-264667248-23730661-r-128/chunk3-esri.jpg",
+        "qld": ".cache/imagery/58712442-264667248-23730661-r-128/chunk3-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        73,
+        159
+      ],
+      "image_px": [
+        488,
+        1061
+      ]
+    }
+  ]
+}

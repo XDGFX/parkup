@@ -1,0 +1,69 @@
+{
+  "candidate": "251813137-262450276-1284285272-l-20",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Unsigned Carmody Road kerb backing onto bushland, with cars parked on it in 2022.",
+  "reasons": [
+    "Dense bush behind, nobody overlooking",
+    "Houses 21 m+ away across the road",
+    "Cars park here; no signs"
+  ],
+  "drivers": {
+    "seclusion": "Bushland directly behind the kerb; nearest dwelling 21 m away across the road, the rest 32 m or more.",
+    "access_and_room": "Road-edge dirt strip and parked cars in the 2022 image show space beside the lane; the section is only 10 m, about one van length.",
+    "traffic": "Through road with moderate traffic; the junction is just to the east.",
+    "convention": "No parking signs mapped; three cars sit along this side in the 2022 image."
+  },
+  "flags": [
+    "Section is only about 10 m long",
+    "Esri 2025 shows no cars parked, only QLD 2022",
+    "Traffic noise from a through road",
+    "Mean grade 1.5%"
+  ],
+  "sun_shade": "Eucalypt canopy overhead from the south, with shade through the afternoon from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether the 10 m fits a van with the kerb edge so close to the junction"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "south side of Carmody Road, just west of the side-street junction, opposite the corner house",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.997041,
+        -27.496787
+      ],
+      [
+        152.996942,
+        -27.496773
+      ],
+      [
+        152.996941,
+        -27.496773
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 31,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

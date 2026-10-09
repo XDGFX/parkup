@@ -1,0 +1,72 @@
+{
+  "candidate": "58736237-13062980296-1239341046-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a junction on a through road, no cars parked.",
+  "reasons": [
+    "Through road at a junction, no parking seen",
+    "Steep: 6.7% mean grade",
+    "Dwelling 17 m across the road"
+  ],
+  "drivers": {
+    "seclusion": "Treed golf course bank behind; house 17 m away across the road at the start.",
+    "access_and_room": "Narrow verge against dense trees; no bay or gravel, next to a junction mouth.",
+    "traffic": "Through road with a junction and overhead lines.",
+    "convention": "No cars parked along this kerb in either image."
+  },
+  "flags": [
+    "Steep: about 6.7% mean, up to 12.2%",
+    "Dwelling 17 m across the road",
+    "Next to a junction"
+  ],
+  "sun_shade": "Dense tree canopy to the south shades the verge; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerb height and verge firmness",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 28,
+    "where": "Western end of the south kerb of Carawa Street, near the golf car park entrance",
+    "slope_pct": 3.1,
+    "points": [
+      [
+        152.993256,
+        -27.50245
+      ],
+      [
+        152.993232,
+        -27.502452
+      ],
+      [
+        152.993151,
+        -27.502458
+      ],
+      [
+        152.993129,
+        -27.502459
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 3.3,
+    "min_elevation_m": 20.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

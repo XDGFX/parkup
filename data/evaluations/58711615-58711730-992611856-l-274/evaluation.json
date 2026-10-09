@@ -1,0 +1,48 @@
+{
+  "candidate": "58711615-58711730-992611856-l-274",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Thirteen metres of campus road beside painted bays; too short, no pull-off.",
+  "reasons": [
+    "Only 13 m, barely a van length",
+    "Narrow road, no room beside lane",
+    "Campus roundabout and marked bays"
+  ],
+  "drivers": {
+    "seclusion": "Campus road beside the river; Centenary Wing dwelling 36 m away.",
+    "access_and_room": "Short stretch on a narrow lane at a turning area; ground beside the lane is bank and trees, so a van would block it.",
+    "traffic": "Campus through route with a gated link; regular traffic.",
+    "convention": "Marked bays with X and symbols just south show managed parking."
+  },
+  "flags": [
+    "Slope 3.2% mean, 4.2% max",
+    "Low-lying: about 6 m elevation near the river",
+    "Painted markings on road"
+  ],
+  "sun_shade": "Trees shade the west side; open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 36,
+    "gated": false,
+    "slope_pct": 3.8,
+    "min_elevation_m": 5.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

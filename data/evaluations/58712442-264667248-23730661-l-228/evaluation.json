@@ -1,0 +1,80 @@
+{
+  "candidate": "58712442-264667248-23730661-l-228",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb lined with parked cars beside a fenced building site and bush.",
+  "reasons": [
+    "Cars park nose to tail on this kerb",
+    "Fenced construction site and bush alongside",
+    "Dormitories only at the far end"
+  ],
+  "drivers": {
+    "seclusion": "Hoarding and bush on the east, tree belt and field across the road; nearest dormitory about 30 m past the section end.",
+    "access_and_room": "Kerbside lane wide enough for a row of parked cars; a van fits in line.",
+    "traffic": "Two-way campus road, moderately busy; cars park along it all day.",
+    "convention": "Dense parking along the kerb in Esri, so a van blends in."
+  },
+  "flags": [
+    "Steep: about 4.7% grade, 8.4% max",
+    "Works Zone signs along this kerb; check on site",
+    "Construction noise on weekdays"
+  ],
+  "sun_shade": "Open to afternoon sun from the west; tree shade across the road in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Whether the works zone is enforced overnight"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 110,
+    "where": "east kerb of Coldridge Street beside the construction site hoarding",
+    "slope_pct": 4.7,
+    "points": [
+      [
+        153.006813,
+        -27.496333
+      ],
+      [
+        153.006852,
+        -27.496475
+      ],
+      [
+        153.006878,
+        -27.49658
+      ],
+      [
+        153.00689,
+        -27.496677
+      ],
+      [
+        153.006897,
+        -27.496796
+      ],
+      [
+        153.006896,
+        -27.49682
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 41,
+    "gated": false,
+    "slope_pct": 4.8,
+    "min_elevation_m": 4.1,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

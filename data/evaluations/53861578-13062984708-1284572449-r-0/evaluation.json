@@ -1,0 +1,72 @@
+{
+  "candidate": "53861578-13062984708-1284572449-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep through-road kerb with no parked cars and a narrow treed verge.",
+  "reasons": [
+    "Through road, no kerbside parking seen",
+    "Steep: 8.8% mean grade",
+    "Golf car park entrance at east end"
+  ],
+  "drivers": {
+    "seclusion": "Golf course bush on this side; homes across the road 21 m or more away.",
+    "access_and_room": "Narrow treed verge, no gravel bay; the mapped car park entrance sits at the far end.",
+    "traffic": "Through road with lane markings and overhead lines; no cars on this kerb.",
+    "convention": "No kerbside parking seen in either image; golf cars use the off-road lots."
+  },
+  "flags": [
+    "Steep: about 8.8% mean, up to 14.4%",
+    "Dwellings 21 m across the road",
+    "Customer-only car parks nearby"
+  ],
+  "sun_shade": "Tree canopy shades the west end from the south and west; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerb height and verge firmness",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "West end of the south kerb of Carawa Street, beside golf course trees",
+    "slope_pct": 4.3,
+    "points": [
+      [
+        152.992357,
+        -27.502458
+      ],
+      [
+        152.992427,
+        -27.502462
+      ],
+      [
+        152.992486,
+        -27.502463
+      ],
+      [
+        152.992499,
+        -27.502463
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 6.9,
+    "min_elevation_m": 14.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

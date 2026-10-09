@@ -1,0 +1,27 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Short level kerb of parked cars beside campus lawn; no homes.",
+  "reasons": ["Cars park along this kerb", "Backs onto lawn and car park", "No dwellings, flat"],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 13,
+    "where": "North kerb of Blair Drive at the bend, beside the lawn and courts",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Lawn, courts and a car park on this side; only university buildings 24 m or more away, no homes.",
+    "access_and_room": "Sealed kerb with cars parked in line; level, 13 m long, a van fits.",
+    "traffic": "Campus road bending into a junction; steady daytime traffic.",
+    "convention": "Cars line this kerb; a van would blend in."
+  },
+  "flags": [
+    "Close to the junction at the south-east end",
+    "Low-lying: about 6 m elevation, Brisbane River 215 m away",
+    "No signs recorded here; metered area nearby Mon-Fri 7am-9pm"
+  ],
+  "sun_shade": "Open to sun; a palm and trees to the north give light shade in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Campus patrols", "Kerb height"],
+  "confidence": "medium"
+}

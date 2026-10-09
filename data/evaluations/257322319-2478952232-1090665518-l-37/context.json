@@ -1,0 +1,582 @@
+{
+  "id": "257322319-2478952232-1090665518-l-37",
+  "street": "Campbell Road",
+  "suburb": "St Lucia",
+  "line": [
+    [
+      153.013415,
+      -27.495146
+    ],
+    [
+      153.013607,
+      -27.495257
+    ],
+    [
+      153.013816,
+      -27.495402
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "north",
+  "length_m": 49,
+  "signs": [
+    {
+      "street": "CAMPBELL ROAD",
+      "restriction": "Loading Zone",
+      "days_times": "MON-FRI:7:00AM-6:00PM",
+      "extra_text": "2 HOURS MAX",
+      "arrow": "Right",
+      "metres_from_kerb_line": 1.3
+    },
+    {
+      "street": "CAMPBELL ROAD",
+      "restriction": "Loading Zone",
+      "days_times": "MON-FRI:7:00AM-6:00PM",
+      "extra_text": "2 HOURS MAX",
+      "arrow": "Left",
+      "metres_from_kerb_line": 1.3
+    },
+    {
+      "street": "CAMPBELL ROAD",
+      "restriction": "Loading Zone",
+      "days_times": "MON-FRI:7:00AM-6:00PM",
+      "extra_text": "2 HOURS MAX",
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 1.1
+    }
+  ],
+  "buildings": [
+    {
+      "building": "university",
+      "name": "General Purpose North 3",
+      "dwelling": false,
+      "metres": 7,
+      "at_m": 46,
+      "outline": [
+        [
+          153.0133809,
+          -27.4948061
+        ],
+        [
+          153.0136227,
+          -27.4946982
+        ],
+        [
+          153.0136501,
+          -27.4947688
+        ],
+        [
+          153.0137156,
+          -27.4948709
+        ],
+        [
+          153.0137298,
+          -27.4948739
+        ],
+        [
+          153.013755,
+          -27.4949452
+        ],
+        [
+          153.0136421,
+          -27.4949581
+        ],
+        [
+          153.0135494,
+          -27.4949639
+        ],
+        [
+          153.0135467,
+          -27.4949805
+        ],
+        [
+          153.013832,
+          -27.4951433
+        ],
+        [
+          153.0139069,
+          -27.4951861
+        ],
+        [
+          153.0139181,
+          -27.495221
+        ],
+        [
+          153.0139367,
+          -27.4952763
+        ],
+        [
+          153.0139508,
+          -27.495319
+        ],
+        [
+          153.0138738,
+          -27.4953304
+        ],
+        [
+          153.0138578,
+          -27.4953455
+        ],
+        [
+          153.013843,
+          -27.4953369
+        ],
+        [
+          153.0133532,
+          -27.4950517
+        ],
+        [
+          153.0133566,
+          -27.4949438
+        ],
+        [
+          153.0133122,
+          -27.4949454
+        ],
+        [
+          153.0133127,
+          -27.494847
+        ],
+        [
+          153.0133818,
+          -27.4948437
+        ],
+        [
+          153.0133809,
+          -27.4948061
+        ]
+      ]
+    },
+    {
+      "building": "university",
+      "name": "Sir Llew Edwards Building",
+      "dwelling": false,
+      "metres": 12,
+      "at_m": 11,
+      "outline": [
+        [
+          153.0133752,
+          -27.4957209
+        ],
+        [
+          153.0132989,
+          -27.4957241
+        ],
+        [
+          153.0133567,
+          -27.4958401
+        ],
+        [
+          153.013344,
+          -27.4958878
+        ],
+        [
+          153.0139089,
+          -27.495767
+        ],
+        [
+          153.0138464,
+          -27.4957194
+        ],
+        [
+          153.0139398,
+          -27.4956959
+        ],
+        [
+          153.0139624,
+          -27.4956913
+        ],
+        [
+          153.0139248,
+          -27.4956675
+        ],
+        [
+          153.0139349,
+          -27.4956636
+        ],
+        [
+          153.0134436,
+          -27.4952882
+        ],
+        [
+          153.0134037,
+          -27.4952909
+        ],
+        [
+          153.0132981,
+          -27.4952204
+        ],
+        [
+          153.0132875,
+          -27.4952543
+        ],
+        [
+          153.0132849,
+          -27.4952905
+        ],
+        [
+          153.0132566,
+          -27.4955212
+        ],
+        [
+          153.0134175,
+          -27.4954774
+        ],
+        [
+          153.0134282,
+          -27.4954837
+        ],
+        [
+          153.0133752,
+          -27.4957209
+        ]
+      ]
+    },
+    {
+      "building": "university",
+      "name": "Chamberlain Building",
+      "dwelling": false,
+      "metres": 35,
+      "at_m": 49,
+      "outline": [
+        [
+          153.0141661,
+          -27.4953582
+        ],
+        [
+          153.014462,
+          -27.4952813
+        ],
+        [
+          153.0145515,
+          -27.495258
+        ],
+        [
+          153.0149118,
+          -27.4951643
+        ],
+        [
+          153.0149243,
+          -27.4952002
+        ],
+        [
+          153.0149489,
+          -27.495281
+        ],
+        [
+          153.0149614,
+          -27.4953071
+        ],
+        [
+          153.0145559,
+          -27.4954119
+        ],
+        [
+          153.0145139,
+          -27.4954228
+        ],
+        [
+          153.0142117,
+          -27.495501
+        ],
+        [
+          153.0141661,
+          -27.4953582
+        ]
+      ]
+    },
+    {
+      "building": "university",
+      "name": "Duhig North",
+      "dwelling": false,
+      "metres": 50,
+      "at_m": 49,
+      "outline": [
+        [
+          153.0139362,
+          -27.4962165
+        ],
+        [
+          153.0139165,
+          -27.4961554
+        ],
+        [
+          153.0138606,
+          -27.4959811
+        ],
+        [
+          153.0138331,
+          -27.4958952
+        ],
+        [
+          153.0138199,
+          -27.4958559
+        ],
+        [
+          153.0136802,
+          -27.4958914
+        ],
+        [
+          153.0133962,
+          -27.4959635
+        ],
+        [
+          153.013519,
+          -27.4963325
+        ],
+        [
+          153.0136786,
+          -27.4962932
+        ],
+        [
+          153.0137221,
+          -27.4962779
+        ],
+        [
+          153.013751,
+          -27.4962716
+        ],
+        [
+          153.0137857,
+          -27.4962608
+        ],
+        [
+          153.0138974,
+          -27.4962297
+        ],
+        [
+          153.0139362,
+          -27.4962165
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0149046,
+      "lat": -27.4967511,
+      "metres": 184,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0115192,
+      "lat": -27.4961318,
+      "metres": 217,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0114292,
+      "lat": -27.4961211,
+      "metres": 224,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0114882,
+      "lat": -27.4962531,
+      "metres": 226,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.011165,
+      "lat": -27.4941269,
+      "metres": 249,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0112076,
+      "lat": -27.496255,
+      "metres": 250,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0111902,
+      "lat": -27.4963273,
+      "metres": 256,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0110851,
+      "lat": -27.4941327,
+      "metres": 256,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.011114,
+      "lat": -27.4939566,
+      "metres": 263,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0165428,
+      "lat": -27.496405,
+      "metres": 291,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.013415,
+        "lat": -27.495146,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 12.4
+      },
+      {
+        "lon": 153.013457,
+        "lat": -27.495171,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 12.55
+      },
+      {
+        "lon": 153.0135,
+        "lat": -27.495195,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 12.65
+      },
+      {
+        "lon": 153.013542,
+        "lat": -27.49522,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 12.75
+      },
+      {
+        "lon": 153.013585,
+        "lat": -27.495244,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 12.93
+      },
+      {
+        "lon": 153.013626,
+        "lat": -27.49527,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 13.01
+      },
+      {
+        "lon": 153.013666,
+        "lat": -27.495298,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 13.18
+      },
+      {
+        "lon": 153.013706,
+        "lat": -27.495326,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 13.3
+      },
+      {
+        "lon": 153.013746,
+        "lat": -27.495353,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 13.46
+      },
+      {
+        "lon": 153.013786,
+        "lat": -27.495381,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 13.6
+      },
+      {
+        "lon": 153.013816,
+        "lat": -27.495402,
+        "at_m": 48.8,
+        "line": 0,
+        "elevation_m": 13.68
+      }
+    ],
+    "min_elevation_m": 12.4,
+    "max_elevation_m": 13.7,
+    "mean_grade_pct": 2.6,
+    "max_grade_pct": 3.6
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 402
+  },
+  "mapped_parking": [
+    {
+      "name": "Campbell Road (P6)",
+      "metres": 66,
+      "access": "yes",
+      "fee": "yes",
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 81,
+      "access": "permit",
+      "fee": "no",
+      "surface": "asphalt"
+    },
+    {
+      "name": null,
+      "metres": 84,
+      "access": "yes",
+      "fee": "yes",
+      "surface": "asphalt"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 49,
+      "length_m": 49,
+      "images": {
+        "esri": ".cache/imagery/257322319-2478952232-1090665518-l-37/chunk1-esri.jpg",
+        "qld": ".cache/imagery/257322319-2478952232-1090665518-l-37/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        100,
+        88
+      ],
+      "image_px": [
+        664,
+        590
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "candidate": "58711602-58711615-992611856-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow campus lane with gated car park entrances; no room, house-like building close.",
+  "reasons": [
+    "Narrow lane, no shoulder to pull off",
+    "No cars parked along this kerb",
+    "Dormitory 8 m from the kerb"
+  ],
+  "drivers": {
+    "seclusion": "Dormitory about 8 m south of the kerb at 18 m; university buildings 13-34 m on the other side.",
+    "access_and_room": "Narrow sealed lane with trees to the edge; mapped gates at 5 m and 21 m guard car park entrances.",
+    "traffic": "Short campus link road between buildings with pedestrian crossing at the far end.",
+    "convention": "No signs; no parking along the kerb, cars use the car parks off the lane."
+  },
+  "flags": [
+    "Steep: about 4% grade, 5.8% max",
+    "Mapped gates at 5 m and 21 m (not on the only access)",
+    "Pedestrian crossing at the far end"
+  ],
+  "sun_shade": "Heavy tree shade over the lane from both sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Whether the car parks allow overnight stays"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 4.3,
+    "min_elevation_m": 7.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

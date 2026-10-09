@@ -1,0 +1,68 @@
+{
+  "candidate": "58711883-560231152-7920184-r-93",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short campus kerb beside tennis centre; cars park just west, but stairs cut it.",
+  "reasons": [
+    "No dwellings nearby, only university buildings",
+    "Cars parked along the road to the west",
+    "Only 12 m, partly at footpath stairs"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto tennis centre and campus buildings; no homes, but daytime campus foot traffic.",
+    "access_and_room": "Sealed campus road with parked cars in the QLD image; stretch is short and a stairway meets the kerb.",
+    "traffic": "Quiet campus road, likely busy by day.",
+    "convention": "Cars park along this road, but it is a university and permits are likely."
+  },
+  "flags": [
+    "Slope about 2.8% max, within limit",
+    "Tennis centre 6 m away (non-residential)",
+    "Campus parking rules may apply"
+  ],
+  "sun_shade": "Heavy tree canopy over most of it, shade all day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Campus permit signs",
+    "Street lighting",
+    "Whether the stretch is long enough for a van"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 12,
+    "where": "Blair Drive kerb west of the UQ tennis centre stairs",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        153.015109,
+        -27.494641
+      ],
+      [
+        153.015104,
+        -27.494639
+      ],
+      [
+        153.015045,
+        -27.494613
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,68 @@
+{
+  "candidate": "osm-way-767997620",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Golf and bar car park backing onto trees; nearest home 38 m away.",
+  "reasons": [
+    "East edge backs onto dense trees",
+    "Nearest dwelling 38 m, across road",
+    "Sealed car park with marked bays"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto trees and golf grounds; houses 38 m or more away over the road.",
+    "access_and_room": "Sealed entrance from the road to the north; bays with room for a van.",
+    "traffic": "Busy road to the north, but the bays sit well back from it.",
+    "convention": "Unsigned, free car park shared by golf, mini-golf and bar users; many cars parked."
+  },
+  "flags": [
+    "Noise from the Hundred Acre Bar and golf venue",
+    "Mapped gates nearby are not on the only access",
+    "Max grade 7.6% on the entry ramp, flat in the bays"
+  ],
+  "sun_shade": "Trees shade the east side in the morning; open to the afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site",
+    "Venue closing hours"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 65,
+    "to_m": 95,
+    "where": "Eastern bays of the car park beside the trees, off Carawa Street",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.993118,
+        -27.502639
+      ],
+      [
+        152.993083,
+        -27.502859
+      ],
+      [
+        152.993039,
+        -27.502885
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 43,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 20.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

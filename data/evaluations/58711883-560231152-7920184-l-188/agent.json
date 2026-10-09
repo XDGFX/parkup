@@ -1,0 +1,22 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Campus through road kerb with no cars parked and a bus zone.",
+  "reasons": ["Through road, no parking this side", "Bus zone sign at the kerb", "Parked cars are all opposite"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "University buildings 41 m or more away, no homes, but a bare kerb in plain view of the road.",
+    "access_and_room": "South kerb is clear of cars and sits against a lawn strip and building; no marked parking lane on this side.",
+    "traffic": "Collector road through campus with buses; steady traffic.",
+    "convention": "Cars park on the north kerb only; none on this south kerb."
+  },
+  "flags": [
+    "Bus Zone sign on this kerb",
+    "Metered parking area Mon-Fri 7am-9pm",
+    "Bus noise from the road"
+  ],
+  "sun_shade": "Mostly open; a tree shades the east end in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Kerb height", "Campus patrols"],
+  "confidence": "medium"
+}

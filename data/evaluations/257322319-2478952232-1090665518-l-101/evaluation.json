@@ -1,0 +1,48 @@
+{
+  "candidate": "257322319-2478952232-1090665518-l-101",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short campus road corner with a No Stopping Any Time sign; no pull-off room.",
+  "reasons": [
+    "No Stopping Any Time sign at the kerb",
+    "Campus road with a pedestrian crossing nearby",
+    "Only 21 m, no verge or bay"
+  ],
+  "drivers": {
+    "seclusion": "Sits in the middle of the university campus among teaching buildings; constant foot traffic by day.",
+    "access_and_room": "Sealed campus road with kerb against paving and trees; no pull-off wide enough for a van seen.",
+    "traffic": "Campus through road with service vehicles.",
+    "convention": "No Stopping Any Time sign; only one car seen on the road, none parked at the kerb."
+  },
+  "flags": [
+    "No Stopping Any Time sign signed at the kerb",
+    "Buildings 12-17 m away (non-residential)",
+    "Slope up to 4.4%, mean 1.7%"
+  ],
+  "sun_shade": "Mixed: building shade from the south-west and tree canopy to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Out-of-hours campus enforcement"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 14.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

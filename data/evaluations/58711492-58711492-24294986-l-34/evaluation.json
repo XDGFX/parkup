@@ -1,0 +1,83 @@
+{
+  "candidate": "58711492-58711492-24294986-l-34",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Campus slip-road loop under tree canopy, signed taxi zone and passenger loading only.",
+  "reasons": [
+    "Taxi zone and 2-minute loading signs",
+    "No Stopping Any Time sign on the loop",
+    "Narrow campus road, no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Campus buildings only, no dwellings mapped; the loop is a pick-up point open to foot traffic.",
+    "access_and_room": "Narrow looped slip road with tree canopy and footpath at the edge; no room to stop clear of the lane.",
+    "traffic": "Taxi and drop-off traffic circulates the loop.",
+    "convention": "Taxi Zone, passenger loading limited to 2 minutes, and a No Stopping sign; nobody parks here."
+  },
+  "flags": [
+    "Taxi Zone and Loading Zone 2 min max signs",
+    "No Stopping Any Time sign nearby",
+    "Mean grade 1.9%, max 6.7%"
+  ],
+  "sun_shade": "Dense tree canopy covers most of the loop, shading from the west and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Campus security patrols"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 31,
+    "where": "north edge of the Chancellors Place slip-road loop beside the library",
+    "slope_pct": 1.9,
+    "points": [
+      [
+        153.011033,
+        -27.497356
+      ],
+      [
+        153.010974,
+        -27.497308
+      ],
+      [
+        153.011038,
+        -27.497299
+      ],
+      [
+        153.011071,
+        -27.49728
+      ],
+      [
+        153.011124,
+        -27.497266
+      ],
+      [
+        153.011163,
+        -27.497265
+      ],
+      [
+        153.011164,
+        -27.497297
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 16.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

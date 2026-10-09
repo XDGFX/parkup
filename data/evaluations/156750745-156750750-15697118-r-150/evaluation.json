@@ -4,39 +4,40 @@
   "agent_verdict": "good",
   "rule_outs": [],
   "kind": "kerb stretch",
-  "summary": "East kerb beside a grassy park, houses only across the road.",
+  "summary": "Quiet kerb beside an open park, homes well back across the road.",
   "reasons": [
-    "Backs onto park lawn",
-    "Nearest dwelling over 20 m, across road",
-    "Vehicle parked on this kerb"
+    "Backs onto open park",
+    "No dwelling within 39 m",
+    "Gentle slope"
   ],
   "drivers": {
-    "seclusion": "East side is open park lawn and trees; homes sit on the west side, 20 m or more away.",
-    "access_and_room": "Sealed street with kerb; a van is parked at about 50 m in the QLD image, so there is room.",
-    "traffic": "Quiet dead-end style residential street; busier road at the north end.",
-    "convention": "Signs are 2P resident-excepted Mon-Fri 7am-6pm only, so overnight is outside them."
+    "seclusion": "East side is open park; nearest dwellings are apartments 39 m or more away, only a construction site closer.",
+    "access_and_room": "Sealed street with a car parked at the kerb near 50 m; park edge gives room, narrow lane.",
+    "traffic": "Short residential dead-end style street near a main road; light traffic.",
+    "convention": "Cars park along the street; a van would blend in."
   },
   "flags": [
-    "Dwelling 7 m away at the 0 m start, avoid that end",
-    "Street is narrow, so check clearance"
+    "Narrow lane: tight to pass a parked van",
+    "Permit parking signs 2P Mon-Fri 7am-6pm",
+    "Noise from the main road at the north end"
   ],
-  "sun_shade": "Tree canopy on the east side near the start and north end; the middle is open to the east and midday sun.",
+  "sun_shade": "Large trees to the north-east shade the northern end; middle section open to morning sun.",
   "rubbish": "none seen",
   "cannot_judge": [
+    "Crossfall",
     "Street lighting",
-    "Kerb height",
-    "Exact road width"
+    "Kerb height"
   ],
   "confidence": "medium",
   "best_section": {
-    "from_m": 18,
+    "from_m": 20,
     "to_m": 48,
-    "where": "Baty Street east kerb, beside the park lawn north of the first house",
+    "where": "East kerb of Baty Street along the grassed park, north of the shrubs",
     "slope_pct": 1.5,
     "points": [
       [
-        152.998342,
-        -27.497657
+        152.998345,
+        -27.497639
       ],
       [
         152.998398,
@@ -45,7 +46,7 @@
     ]
   },
   "facts": {
-    "nearest_dwelling_m": 20,
+    "nearest_dwelling_m": 21,
     "gated": false,
     "slope_pct": 1.6,
     "min_elevation_m": 10.6,
@@ -57,7 +58,7 @@
     ],
     "qld": "2022-07"
   },
-  "evaluated_at": "2026-10-09T09:47:18Z",
+  "evaluated_at": "2026-10-09T10:45:28Z",
   "model": "claude-sonnet-5-5",
-  "rubric": "v10"
+  "rubric": "v11"
 }

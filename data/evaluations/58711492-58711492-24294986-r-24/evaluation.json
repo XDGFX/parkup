@@ -1,0 +1,111 @@
+{
+  "candidate": "58711492-58711492-24294986-r-24",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb of a campus turning circle, with shuttle, taxi and No Stopping signs.",
+  "reasons": [
+    "Taxi zone, loading and No Stopping signs",
+    "Tight circular loop, no room to stop",
+    "Shuttle and taxi traffic circulates"
+  ],
+  "drivers": {
+    "seclusion": "Campus buildings and tree canopy only, no dwellings mapped, but a busy pick-up point for pedestrians.",
+    "access_and_room": "Narrow circular road with islands and canopy; the kerb sits inside the vehicle path, so a van would block the loop.",
+    "traffic": "University shuttle, taxis and drop-offs run round the loop all day.",
+    "convention": "No Stopping at all times for the shuttle pocket, taxi zone and 2-minute loading; nobody parks here."
+  },
+  "flags": [
+    "No Stopping at all times (shuttle only), Taxi Zone, 2-minute Loading Zone",
+    "Mean grade 1.7%, max 5.5%",
+    "Foot traffic and shuttle noise"
+  ],
+  "sun_shade": "Heavy tree canopy over most of the loop, shaded from the west and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Campus security patrols"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 37,
+    "where": "outer kerb of the circular slip-road loop off Chancellors Place",
+    "slope_pct": 1.7,
+    "points": [
+      [
+        153.011051,
+        -27.497433
+      ],
+      [
+        153.011051,
+        -27.497432
+      ],
+      [
+        153.011055,
+        -27.4974
+      ],
+      [
+        153.011067,
+        -27.497377
+      ],
+      [
+        153.01109,
+        -27.497355
+      ],
+      [
+        153.011105,
+        -27.497347
+      ],
+      [
+        153.011137,
+        -27.497338
+      ],
+      [
+        153.011159,
+        -27.497337
+      ],
+      [
+        153.011192,
+        -27.497345
+      ],
+      [
+        153.011219,
+        -27.497362
+      ],
+      [
+        153.011239,
+        -27.497385
+      ],
+      [
+        153.011249,
+        -27.497412
+      ],
+      [
+        153.011249,
+        -27.497441
+      ],
+      [
+        153.011236,
+        -27.497472
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 16.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

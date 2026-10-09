@@ -1,0 +1,71 @@
+{
+  "candidate": "6347315181-10310160109-1127666625-r-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb on a crossing beside a roundabout; no room, bus zone.",
+  "reasons": [
+    "Zebra crossing across the section",
+    "Bus zone signs, no parked cars",
+    "Roundabout approach, no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "University buildings 17 m or more away, no homes close; busy campus.",
+    "access_and_room": "Kerb sits at a crossing and island; no room to pull out of the lane.",
+    "traffic": "Campus through road with buses; no cars parked here.",
+    "convention": "Bus zone signs nearby; no overnight convention."
+  },
+  "flags": [
+    "Steep: about 8% grade, 10.6% max",
+    "Bus zone signs within 12 m",
+    "Zebra crossing on the section"
+  ],
+  "sun_shade": "Tree shade from the east and south, open from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerb height",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "east kerb of Chancellors Place at the roundabout and crossing",
+    "slope_pct": 7.9,
+    "points": [
+      [
+        153.01092,
+        -27.498648
+      ],
+      [
+        153.01093,
+        -27.498593
+      ],
+      [
+        153.010947,
+        -27.498512
+      ],
+      [
+        153.010948,
+        -27.498506
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 53,
+    "gated": false,
+    "slope_pct": 7.5,
+    "min_elevation_m": 20.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

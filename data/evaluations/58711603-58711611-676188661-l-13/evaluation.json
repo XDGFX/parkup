@@ -1,0 +1,66 @@
+{
+  "candidate": "58711603-58711611-676188661-l-13",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short campus road bend under a lab building; no room to stop off the lane.",
+  "reasons": [
+    "Lab wall directly on the kerb",
+    "Narrow campus road, no verge",
+    "Steep 11% max grade"
+  ],
+  "drivers": {
+    "seclusion": "Only university buildings (0-15 m); no dwellings. Busy campus, constantly overlooked.",
+    "access_and_room": "Narrow sealed road tight against building walls; no pull-off, verge or parking bay visible.",
+    "traffic": "Campus through road with bollards mapped at 9 m; pedestrian and service traffic.",
+    "convention": "No parked cars or overnight use seen."
+  },
+  "flags": [
+    "Steep: max grade 11% near the bend, mean 4.1%",
+    "Bollards mapped nearby, not on the only access"
+  ],
+  "sun_shade": "Deep shadow from surrounding buildings in both images; little direct sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Campus permit rules",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "Cooper Road at the foot of the Chemistry building, west end of the bend",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        153.013105,
+        -27.499773
+      ],
+      [
+        153.013209,
+        -27.499744
+      ],
+      [
+        153.01325,
+        -27.499732
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 11.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

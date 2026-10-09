@@ -1,0 +1,48 @@
+{
+  "candidate": "58711615-58711730-992611856-r-274",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Fourteen metres of kerb on a paved turning area; no room to stop.",
+  "reasons": [
+    "Only 14 m, barely a van length",
+    "Paved turning area with works vehicles",
+    "Marked bays and zebra beside it"
+  ],
+  "drivers": {
+    "seclusion": "Centenary Wing dwelling 32 m away; campus activity, works vehicles in the QLD image.",
+    "access_and_room": "Kerb lies across a paved turning circle and its mouth; a van would obstruct campus traffic.",
+    "traffic": "Campus service road with gates; regular use.",
+    "convention": "Painted bays with X and symbols just south show managed parking."
+  },
+  "flags": [
+    "Slope 3.4% mean, steep",
+    "Low-lying: about 6 m elevation",
+    "Painted markings on road"
+  ],
+  "sun_shade": "Open paving; trees to the south-east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 32,
+    "gated": false,
+    "slope_pct": 3.4,
+    "min_elevation_m": 6.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

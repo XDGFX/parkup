@@ -1,0 +1,27 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Kerb backing onto bushy parkland, cars park here, houses across the road.",
+  "reasons": ["North side is bush and park", "Houses 17 m away across road", "Parked cars along kerb"],
+  "best_section": {
+    "from_m": 5,
+    "to_m": 20,
+    "where": "North kerb of Bellevue Terrace, under trees opposite the driveway of the houses",
+    "slope_pct": 2.7
+  },
+  "drivers": {
+    "seclusion": "Own side is wooded park; nearest dwellings 17 m or more, across the road.",
+    "access_and_room": "Sealed street with cars already parked on this kerb; room for a van beside the lane.",
+    "traffic": "Quiet side street running off a busier road.",
+    "convention": "Signed P (No Limit) parallel; cars park along the kerb."
+  },
+  "flags": [
+    "Steeper towards the far end: 14% max over the whole stretch",
+    "Low-lying: about 5 m elevation, Toowong Creek 363 m away",
+    "Apartments 15 m from the start of the stretch"
+  ],
+  "sun_shade": "Dense tree canopy from the north side shades most of the section.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Crossfall", "Street lighting", "Kerb height"],
+  "confidence": "medium"
+}

@@ -1,0 +1,48 @@
+{
+  "candidate": "58711615-58711730-992611856-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short campus road kerb at a junction and zebra crossing; no parking.",
+  "reasons": [
+    "Junction mouth and zebra crossing on stretch",
+    "No cars parked along this kerb",
+    "Campus through road, no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Open parkland to the south, university buildings 23 m north; no homes mapped.",
+    "access_and_room": "22 m of kerb taken up by a car park junction and zebra crossing; a van would sit in the lane.",
+    "traffic": "Campus through road with gates and bollards nearby; steady daytime use.",
+    "convention": "No parked cars on this kerb and no marked parking lane."
+  },
+  "flags": [
+    "Low-lying: about 6 m elevation",
+    "Zebra crossing on stretch"
+  ],
+  "sun_shade": "Trees shade the north side; open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 5.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

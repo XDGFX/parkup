@@ -1,0 +1,76 @@
+{
+  "candidate": "53861578-781304174-1284572449-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Through road kerb under trees with no cars parked along it.",
+  "reasons": [
+    "Through road, no kerbside parking seen",
+    "Steep: 5.6% mean grade",
+    "Verge narrow and treed, little room off lane"
+  ],
+  "drivers": {
+    "seclusion": "Golf course bush on this side; homes across the road 19 m or more from the far end.",
+    "access_and_room": "Tree-covered verge, no clear gravel or bay; golf car parks sit further along off the road.",
+    "traffic": "Through road with lane markings and overhead lines; no cars parked on kerb.",
+    "convention": "No parked cars on this kerb in either image; parking happens in off-road lots."
+  },
+  "flags": [
+    "Steep: about 5.6% mean, up to 9.6%",
+    "Dwelling 19 m away across the road at far end",
+    "Customer-only car parks nearby"
+  ],
+  "sun_shade": "Dense tree canopy covers the whole stretch, shading from all sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerb height and verge firmness under the trees",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 42,
+    "where": "Low end of the south kerb of Carawa Street beside the golf course trees",
+    "slope_pct": 4.7,
+    "points": [
+      [
+        152.992053,
+        -27.502442
+      ],
+      [
+        152.992046,
+        -27.502442
+      ],
+      [
+        152.992011,
+        -27.502439
+      ],
+      [
+        152.99198,
+        -27.502436
+      ],
+      [
+        152.991937,
+        -27.50243
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 4.8,
+    "min_elevation_m": 12.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

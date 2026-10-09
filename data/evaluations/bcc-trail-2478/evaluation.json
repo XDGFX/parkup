@@ -1,0 +1,49 @@
+{
+  "candidate": "bcc-trail-2478",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin sits at a works compound and path by the busway bridge; no van access.",
+  "reasons": [
+    "Only reached from the bridge deck or paths",
+    "Works compound and site sheds on the spot",
+    "No tyre tracks to a usable stop"
+  ],
+  "drivers": {
+    "seclusion": "Treed park and cemetery around it, no homes, but the spot is a compound and footpath apron at the bridge edge.",
+    "access_and_room": "The only sealed approach is the bridge deck, a busway; the rest is footpath and bush. Esri shows site sheds on the apron, QLD shows a fenced works site.",
+    "traffic": "Bridge traffic directly beside the pin.",
+    "convention": "No parked vehicles or camping seen; the nearest car park is 79 m away outside the pin area."
+  },
+  "flags": [
+    "Low-lying: about 6.5-8.8 m, Brisbane River 265 m away",
+    "Steep: max grade 15.4% at the bank beside the pin",
+    "Active works compound in the QLD image, now site sheds in Esri",
+    "Noise from the bridge"
+  ],
+  "sun_shade": "Dense tree canopy shades the bush side; the apron is open to the sky.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the busway bridge is open to private vehicles",
+    "Works compound access rules"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 5.1,
+    "min_elevation_m": 6.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

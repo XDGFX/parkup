@@ -1,0 +1,74 @@
+{
+  "candidate": "58711602-58711603-7920177-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow university service lane between lab buildings; no room to pull out of the lane.",
+  "reasons": [
+    "Lane hemmed by buildings and trees",
+    "Campus road, no parking lane",
+    "Labs 2-13 m away, busy campus"
+  ],
+  "drivers": {
+    "seclusion": "Non-residential university buildings 2-13 m away; dormitory 27 m off at the start. Busy campus, so not secluded.",
+    "access_and_room": "Sealed lane about one van wide with tree beds and building walls either side; no verge or pull-off visible.",
+    "traffic": "Campus through lane with bollards mapped nearby; pedestrian crossing at the start.",
+    "convention": "No sign of overnight stays; a few cars parked mid-section."
+  },
+  "flags": [
+    "Bollards and gates mapped nearby, none on the only access",
+    "Slope max 7.2% near the north end; about 0.5% at the best section"
+  ],
+  "sun_shade": "Heavy tree canopy and tall buildings shade the lane for most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Campus parking permits and patrols",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 45,
+    "to_m": 60,
+    "where": "Cooper Road lane between the labs, where a few cars sit at the kerb",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        153.013209,
+        -27.500435
+      ],
+      [
+        153.013207,
+        -27.50043
+      ],
+      [
+        153.013196,
+        -27.500401
+      ],
+      [
+        153.013192,
+        -27.500392
+      ],
+      [
+        153.013164,
+        -27.500306
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 70,
+    "gated": false,
+    "slope_pct": 0.7,
+    "min_elevation_m": 9.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,71 @@
+{
+  "candidate": "562251548-2478952232-1523107056-r-65",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Signed no-stopping campus lane beside a university building; no pull-off.",
+  "reasons": [
+    "No stopping at all times sign at kerb",
+    "University building 9 m from kerb",
+    "Narrow campus lane, no verge"
+  ],
+  "drivers": {
+    "seclusion": "No homes; campus buildings and foot traffic all round, so not discreet.",
+    "access_and_room": "Lane is narrow with building and trees on the kerb side; no room to pull fully off.",
+    "traffic": "Campus road with pedestrian crossings; cars park on the opposite side.",
+    "convention": "No Stopping At All Times signs on this kerb; paid traffic area Mon-Fri."
+  },
+  "flags": [
+    "No stopping at all times, authorised vehicles excepted",
+    "Metered traffic area Mon-Fri 7am-9pm",
+    "Slope about 2.8%, max 4.4%"
+  ],
+  "sun_shade": "Partly shaded by trees and the building on the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Campus security patrols"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 50,
+    "where": "Eastern kerb of Campbell Road, north of the Social Sciences Building, St Lucia",
+    "slope_pct": 2.8,
+    "points": [
+      [
+        153.014366,
+        -27.495874
+      ],
+      [
+        153.014318,
+        -27.495819
+      ],
+      [
+        153.014284,
+        -27.495779
+      ],
+      [
+        153.014203,
+        -27.495702
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 3.1,
+    "min_elevation_m": 14.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

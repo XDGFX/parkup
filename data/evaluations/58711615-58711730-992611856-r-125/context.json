@@ -1,0 +1,203 @@
+{
+  "id": "58711615-58711730-992611856-r-125",
+  "street": "College Road",
+  "suburb": "St Lucia",
+  "line": [
+    [
+      153.015882,
+      -27.500787
+    ],
+    [
+      153.01597,
+      -27.500772
+    ],
+    [
+      153.016035,
+      -27.500749
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "south",
+  "length_m": 16,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0161206,
+      "lat": -27.501103,
+      "metres": 40,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0154016,
+      "lat": -27.5008934,
+      "metres": 49,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0156478,
+      "lat": -27.5015001,
+      "metres": 83,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0168551,
+      "lat": -27.5004367,
+      "metres": 88,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.0146087,
+      "lat": -27.5004249,
+      "metres": 132,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0153793,
+      "lat": -27.502173,
+      "metres": 162,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0177677,
+      "lat": -27.5005512,
+      "metres": 172,
+      "on_only_access": false
+    },
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 153.014516,
+      "lat": -27.4998174,
+      "metres": 173,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0140482,
+      "lat": -27.5008377,
+      "metres": 181,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0178039,
+      "lat": -27.5015773,
+      "metres": 197,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.015882,
+        "lat": -27.500787,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 5.54
+      },
+      {
+        "lon": 153.015932,
+        "lat": -27.500779,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 5.5
+      },
+      {
+        "lon": 153.015981,
+        "lat": -27.500768,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 5.55
+      },
+      {
+        "lon": 153.016028,
+        "lat": -27.500751,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 5.45
+      },
+      {
+        "lon": 153.016035,
+        "lat": -27.500749,
+        "at_m": 15.7,
+        "line": 0,
+        "elevation_m": 5.45
+      }
+    ],
+    "min_elevation_m": 5.5,
+    "max_elevation_m": 5.6,
+    "mean_grade_pct": 0.9,
+    "max_grade_pct": 2
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 360
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 11,
+      "access": null,
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 66,
+      "access": null,
+      "fee": null,
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 16,
+      "length_m": 16,
+      "images": {
+        "esri": ".cache/imagery/58711615-58711730-992611856-r-125/chunk1-esri.jpg",
+        "qld": ".cache/imagery/58711615-58711730-992611856-r-125/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        75,
+        64
+      ],
+      "image_px": [
+        501,
+        428
+      ]
+    }
+  ]
+}

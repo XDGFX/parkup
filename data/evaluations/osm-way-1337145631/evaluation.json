@@ -1,0 +1,66 @@
+{
+  "candidate": "osm-way-1337145631",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Gravel pull-in off the road, backing onto bush, no buildings nearby.",
+  "reasons": [
+    "No buildings mapped or visible nearby",
+    "Backs onto trees and bush",
+    "Five cars parked here in QLD image"
+  ],
+  "drivers": {
+    "seclusion": "Bush behind and parkland across the road; no dwellings in the data or imagery.",
+    "access_and_room": "Open dirt and gravel strip meets the road edge; room for a van clear of the lane.",
+    "traffic": "Quiet two-lane road; van stands clear of the lane.",
+    "convention": "Five cars parked in a row in 2022 image; used as a park-and-walk lot."
+  },
+  "flags": [
+    "Low-lying: about 8 m elevation, unnamed waterway 27 m away",
+    "Esri image shows it empty; QLD shows it busy"
+  ],
+  "sun_shade": "Heavy tree shade from the west and south; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Time limits or signs on site",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 30,
+    "where": "Gravel parking strip on the north side of the road, set back from the lane",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        153.012076,
+        -27.505811
+      ],
+      [
+        153.012279,
+        -27.50581
+      ],
+      [
+        153.012279,
+        -27.50581
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 7.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

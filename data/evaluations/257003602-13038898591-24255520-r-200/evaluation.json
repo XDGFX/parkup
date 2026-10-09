@@ -1,0 +1,64 @@
+{
+  "candidate": "257003602-13038898591-24255520-r-200",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb backing onto bushy parkland, cars park here, houses across the road.",
+  "reasons": [
+    "North side is bush and park",
+    "Houses 17 m away across road",
+    "Parked cars along kerb"
+  ],
+  "drivers": {
+    "seclusion": "Own side is wooded park; nearest dwellings 17 m or more, across the road.",
+    "access_and_room": "Sealed street with cars already parked on this kerb; room for a van beside the lane.",
+    "traffic": "Quiet side street running off a busier road.",
+    "convention": "Signed P (No Limit) parallel; cars park along the kerb."
+  },
+  "flags": [
+    "Steeper towards the far end: 14% max over the whole stretch",
+    "Low-lying: about 5 m elevation, Toowong Creek 363 m away",
+    "Apartments 15 m from the start of the stretch"
+  ],
+  "sun_shade": "Dense tree canopy from the north side shades most of the section.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 20,
+    "where": "North kerb of Bellevue Terrace, under trees opposite the driveway of the houses",
+    "slope_pct": 2.7,
+    "points": [
+      [
+        152.995642,
+        -27.493864
+      ],
+      [
+        152.995511,
+        -27.493796
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 2.5,
+    "min_elevation_m": 5,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

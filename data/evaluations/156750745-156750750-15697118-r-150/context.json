@@ -13,8 +13,8 @@
     ]
   ],
   "osm_tags": {},
-  "kind": "kerb",
   "candidate_kind": "kerb",
+  "kind": "kerb",
   "side": "east",
   "length_m": 67,
   "signs": [

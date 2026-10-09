@@ -1,0 +1,76 @@
+{
+  "candidate": "781304174-3522820766-1284572449-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep through-road kerb on a bend, no parking along it.",
+  "reasons": [
+    "Through road, no kerbside parking seen",
+    "Steep: 12.4% mean grade",
+    "Dwelling 18 m across the road"
+  ],
+  "drivers": {
+    "seclusion": "Golf car park and bush on this side; homes 18 m and more across the road.",
+    "access_and_room": "Grass verge with a tree beside the lane; golf car park entrance off the road is separate.",
+    "traffic": "Through road with lane markings and overhead lines; no cars on this kerb.",
+    "convention": "No kerbside parking on this side; one car parked on the north kerb."
+  },
+  "flags": [
+    "Steep: about 12.4% mean over the stretch, 4.8% at best section",
+    "Dwelling 18 m across the road",
+    "Customer-only golf car parks nearby"
+  ],
+  "sun_shade": "Tree canopy at the east end shades from the south and east; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerb height and verge firmness",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "East end of the south kerb of Carawa Street by the golf car park",
+    "slope_pct": 4.8,
+    "points": [
+      [
+        152.991936,
+        -27.502429
+      ],
+      [
+        152.991895,
+        -27.502422
+      ],
+      [
+        152.991861,
+        -27.502413
+      ],
+      [
+        152.991818,
+        -27.502402
+      ],
+      [
+        152.99179,
+        -27.502393
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 4.8,
+    "min_elevation_m": 11.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,76 @@
+{
+  "candidate": "58712442-264667248-23730661-r-128",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Dirt verge with parked cars, backed by trees and a field.",
+  "reasons": [
+    "Cars park on this dirt verge",
+    "Backs onto trees and open field",
+    "Dormitories 23 m away across the road"
+  ],
+  "drivers": {
+    "seclusion": "Trees and a playing field behind the verge; dormitories about 23 m away across the road, none on this side.",
+    "access_and_room": "Wide dirt shoulder beside the lane where cars already stand; room to pull fully off.",
+    "traffic": "Two-way campus road, moderate traffic; the van stands clear of the lane.",
+    "convention": "A row of cars parks along this verge in both images."
+  },
+  "flags": [
+    "Works Zone and bus zone signs along this street; check on site",
+    "Dormitories across the road look onto the verge",
+    "Mean grade 2.3% overall, 7.6% max"
+  ],
+  "sun_shade": "Tree shade over the verge from the west; open to the east and morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Surface condition when wet",
+    "Sign enforcement overnight"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 225,
+    "to_m": 295,
+    "where": "west side of Coldridge Street opposite the dormitory blocks, beside the tree belt",
+    "slope_pct": 1.8,
+    "points": [
+      [
+        153.006758,
+        -27.496977
+      ],
+      [
+        153.006753,
+        -27.497016
+      ],
+      [
+        153.006725,
+        -27.497171
+      ],
+      [
+        153.006673,
+        -27.497466
+      ],
+      [
+        153.006649,
+        -27.497599
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 7.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

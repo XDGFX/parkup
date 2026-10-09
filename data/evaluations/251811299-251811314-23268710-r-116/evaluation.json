@@ -1,0 +1,64 @@
+{
+  "candidate": "251811299-251811314-23268710-r-116",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short bush-backed kerb near the Sir Fred Schonell junction, homes across the road.",
+  "reasons": [
+    "Backs onto bush and parkland on the east",
+    "Homes 30 m or more across the road",
+    "Narrow lane; room beside it unclear"
+  ],
+  "drivers": {
+    "seclusion": "Bush and park on the kerb side; nearest home is 32 m away across the road, but the apartment at 21 m is 16 m off.",
+    "access_and_room": "Narrow sealed street with two cars parked on the west edge; east side is tree-lined with little visible verge.",
+    "traffic": "Quiet side street just off Sir Fred Schonell Drive.",
+    "convention": "Cars park on the west side; signs are 2P Mon-Fri, no overnight convention."
+  },
+  "flags": [
+    "Slope falls to 8.8% max towards the junction end, flat at the best section",
+    "Apartments 16 m away near the north end",
+    "Close to a busy arterial junction, some noise"
+  ],
+  "sun_shade": "Mostly shaded by trees over the kerb, especially from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Room beside the lane on the east side",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "East kerb of Bryce Street, south of the apartment driveway near the junction",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        153.000269,
+        -27.493456
+      ],
+      [
+        153.000293,
+        -27.493332
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 0.7,
+    "min_elevation_m": 7.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T10:45:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
