@@ -6,7 +6,7 @@ the session commits, pushes, waits for the deploy and then asks you to check the
 
 ---
 
-You're running a parkup evaluation batch. Read `CONTEXT.md` for the vocabulary. Work through these steps.
+You're running a parkup evaluation batch. Read `GLOSSARY.md` for the vocabulary. Work through these steps.
 
 1. **Pick the candidates.** Either the calibration set (`--calibration`, folders under `data/calibration/`)
    or real candidates (folders under `data/evaluations/`). For real candidates, run `npm run build:data`
