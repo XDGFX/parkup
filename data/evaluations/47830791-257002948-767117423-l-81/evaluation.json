@@ -1,0 +1,65 @@
+{
+  "candidate": "47830791-257002948-767117423-l-81",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy parked-up residential street, homes 14-19 m away on both sides.",
+  "reasons": [
+    "Cars park along both kerbs",
+    "Homes 14-19 m away on own side",
+    "Steep: about 5% at best section"
+  ],
+  "drivers": {
+    "seclusion": "Houses 16-19 m away on the north side and more across the road; no bush or open ground behind.",
+    "access_and_room": "Wide street with a parked-car lane on each side; room for a van.",
+    "traffic": "Collector-type street with centre markings; moderate traffic.",
+    "convention": "Cars are parked along most of this kerb, so a van would blend in."
+  },
+  "flags": [
+    "No Stopping Any Time signs near the 0 m end only",
+    "Steep: mean 6%, max 12.9%",
+    "Dwellings 6-10 m from kerb at 6-73 m, avoid those parts",
+    "Homes close all round"
+  ],
+  "sun_shade": "Mostly open; street trees give patchy shade on both sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Resident-only rules outside the mapped signs"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 88,
+    "to_m": 102,
+    "where": "Mid-street on the north kerb, between the two house gaps near 100 m",
+    "slope_pct": 4.7,
+    "points": [
+      [
+        152.983683,
+        -27.49048
+      ],
+      [
+        152.983819,
+        -27.490517
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 4.7,
+    "min_elevation_m": 29.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

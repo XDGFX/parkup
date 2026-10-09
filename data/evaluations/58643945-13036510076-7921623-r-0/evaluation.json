@@ -1,0 +1,65 @@
+{
+  "candidate": "58643945-13036510076-7921623-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Only 9 m of kerb with houses 9-11 m away; too short and close.",
+  "reasons": [
+    "Three dwellings within 11 m",
+    "Kerb shorter than a van",
+    "Houses front the stretch directly"
+  ],
+  "drivers": {
+    "seclusion": "Houses at 9, 10 and 11 m along the stretch; many more within 30 m.",
+    "access_and_room": "Kerb on a busy road with parked cars nearby, but the stretch is only 9 m long.",
+    "traffic": "Busy two-lane through road with a crossing and junction nearby.",
+    "convention": "Cars park along this side, but no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 3% grade, max 3.2%",
+    "Gate 194 m away has a mapped way round it"
+  ],
+  "sun_shade": "Open to the sky; trees and houses to the south give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Resident permit rules on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 9,
+    "where": "Stanley Terrace south kerb, outside the house named Janadale",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.975801,
+        -27.488942
+      ],
+      [
+        152.975868,
+        -27.488997
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 3.2,
+    "min_elevation_m": 56.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "53895325-53895333-6882664-l-53",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb by garages and houses 23 m off; bus zone signs and a junction nearby.",
+  "reasons": [
+    "Only garages within 12 m at this end",
+    "Houses 23 m or more away",
+    "No cars parked along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Garages (non-dwelling) face the kerb at 12 m; nearest houses 23 m; apartments close to the west.",
+    "access_and_room": "Plain street kerb with a narrow lane; no cars parked here now, so room to pull in is tight.",
+    "traffic": "Quiet side street near a junction; light traffic.",
+    "convention": "Two Bus Zone signs near the start; few cars park along this stretch."
+  },
+  "flags": [
+    "Bus zone signs at 0.5 m and 10.7 m, near the start",
+    "Steep: about 5% max grade, 2.4% mean",
+    "Apartments 12 m away at 8 and 27 m",
+    "Junction close by"
+  ],
+  "sun_shade": "Heavy tree canopy over the west half; east end more open, with sun from the south and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether cars normally park on this kerb"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 34,
+    "to_m": 46,
+    "where": "East end of the north kerb, beside the garage blocks, just before the junction",
+    "slope_pct": 2.4,
+    "points": [
+      [
+        152.987054,
+        -27.495103
+      ],
+      [
+        152.987173,
+        -27.495121
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

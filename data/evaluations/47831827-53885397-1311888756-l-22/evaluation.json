@@ -1,0 +1,68 @@
+{
+  "candidate": "47831827-53885397-1311888756-l-22",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short Swann Road kerb below an apartment block 7 m away.",
+  "reasons": [
+    "Apartments 7 m from kerb",
+    "Homes 13-22 m on every side",
+    "Busy main road, short stretch"
+  ],
+  "drivers": {
+    "seclusion": "Hedge and apartments right behind; detached homes 13-22 m opposite.",
+    "access_and_room": "Plain road kerb; one or two cars park along it, so a van fits.",
+    "traffic": "Busy through road with a junction just east.",
+    "convention": "Some kerb parking visible, no signs on this stretch."
+  },
+  "flags": [
+    "Slope 3.5% mean, 6.8% max",
+    "Noise from busy road"
+  ],
+  "sun_shade": "Hedge and trees shade from the north; open to afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 22,
+    "to_m": 33,
+    "where": "North kerb beside the hedge, east of the apartment block",
+    "slope_pct": 4,
+    "points": [
+      [
+        152.984401,
+        -27.49682
+      ],
+      [
+        152.984443,
+        -27.496836
+      ],
+      [
+        152.984444,
+        -27.49689
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 36.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

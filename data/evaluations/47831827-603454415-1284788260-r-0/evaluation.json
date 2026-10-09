@@ -1,0 +1,65 @@
+{
+  "candidate": "47831827-603454415-1284788260-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Swann Road north kerb under apartments and a house, 6-7 m away.",
+  "reasons": [
+    "Dwellings 6-7 m from most of kerb",
+    "Busy through road at a junction",
+    "No cars parked here now"
+  ],
+  "drivers": {
+    "seclusion": "Apartments and a detached house sit 6-7 m behind the kerb.",
+    "access_and_room": "Plain road kerb; no pull-off beyond the lane edge.",
+    "traffic": "Busy through road beside a signalled-style junction.",
+    "convention": "Two cars parked here in 2022, none in the recent Esri image."
+  },
+  "flags": [
+    "Steep in places: 12.4% max, 4.4% mean",
+    "Noise from busy road",
+    "Apartment within 10 m of the best section"
+  ],
+  "sun_shade": "Heavy tree shade from the north over the middle; open at the ends.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 28,
+    "to_m": 36,
+    "where": "North kerb west of the shaded house, near the west end",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.983801,
+        -27.49684
+      ],
+      [
+        152.98372,
+        -27.49684
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 0.4,
+    "min_elevation_m": 35.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

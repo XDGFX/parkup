@@ -1,0 +1,63 @@
+{
+  "candidate": "47830671-47831698-5884076-r-50",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep narrow lane edge, No Stopping signed, townhouses 12 m away.",
+  "reasons": [
+    "No Stopping Any Time signs on the stretch",
+    "Grade 7.3% mean, 16.6% max",
+    "Narrow lane edge, tree-lined, no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Tree-lined bank on the near side, townhouses 12-20 m across the lane, so it is only moderately private.",
+    "access_and_room": "Narrow lane with trees and a bank at the edge; no verge wide enough to pull off.",
+    "traffic": "Quiet lane that serves the townhouses and joins a junction.",
+    "convention": "No cars parked along the lane."
+  },
+  "flags": [
+    "No Stopping Any Time signs 0.1-6.6 m from the line",
+    "Steep: 7.3% mean, 16.6% max",
+    "Toowong Creek 147 m away, elevation 17-20 m"
+  ],
+  "sun_shade": "Heavy shade from tree canopy on the south and west sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 40,
+    "where": "Mid-lane along the tree-lined bank south of the townhouse block",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        152.982867,
+        -27.489412
+      ],
+      [
+        152.983066,
+        -27.48945
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 5,
+    "min_elevation_m": 18.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

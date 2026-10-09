@@ -1,0 +1,62 @@
+{
+  "candidate": "47831565-603459040-1469954134-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Too steep (13.7%) with houses 12 m away on a junction kerb.",
+  "reasons": [
+    "Mean grade 13.7%, above limit",
+    "Houses 12-15 m from kerb",
+    "Starts at a junction mouth"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 12 m, 14 m and 15 m along the section; homes all round.",
+    "access_and_room": "Cars park along the kerb, but the grade is too steep to sleep on.",
+    "traffic": "Through road with a junction at the start.",
+    "convention": "Other cars park along this kerb; no signs."
+  },
+  "flags": [
+    "Steep: 13.7% mean, 16.8% max",
+    "Houses within 12 m"
+  ],
+  "sun_shade": "Trees at the junction end shade it; sun from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "Waverley Road north kerb east of the side-street junction",
+    "slope_pct": 13.7,
+    "points": [
+      [
+        152.975376,
+        -27.493649
+      ],
+      [
+        152.975673,
+        -27.493695
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 13.7,
+    "min_elevation_m": 31.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

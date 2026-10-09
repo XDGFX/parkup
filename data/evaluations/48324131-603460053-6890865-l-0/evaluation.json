@@ -1,0 +1,63 @@
+{
+  "candidate": "48324131-603460053-6890865-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parked-up residential kerb mid-block, with homes 11-21 m away.",
+  "reasons": [
+    "Cars park along both kerbs",
+    "Homes within 25 m all round",
+    "Slope about 4% here"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 11 m at 108 m and 8 m from 131 m; homes all round.",
+    "access_and_room": "Cars park along the kerb, so room to stop beside the lane.",
+    "traffic": "Through road with moderate traffic and a junction at the east end.",
+    "convention": "Cars clearly park here; a van blends in."
+  },
+  "flags": [
+    "Steep: about 4.5% here, 8.7% over whole kerb",
+    "Dwellings within 10-25 m on the same side",
+    "Rest of the stretch is steeper, up to 16%"
+  ],
+  "sun_shade": "Street trees and unit-block planting shade it from the north; afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 116,
+    "to_m": 128,
+    "where": "North kerb between the two unit blocks, about 50 m before the east junction",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        152.972958,
+        -27.49328
+      ],
+      [
+        152.973077,
+        -27.493299
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 5.8,
+    "min_elevation_m": 31.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,73 @@
+{
+  "candidate": "47769060-47831771-1471614513-r-212",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 2 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Busy Swann Road kerb, apartments within 10 m and bus zone signs.",
+  "reasons": [
+    "Apartments 7-11 m from kerb",
+    "Bus zone signed on this kerb",
+    "Busy through road, steep fall"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks and houses line the kerb; 10-22 m homes all along.",
+    "access_and_room": "Kerb on a two-lane road; no clear pull-off beyond the kerb.",
+    "traffic": "Busy through road with bus stops and constant passing cars.",
+    "convention": "Few cars park along this side; the bus zone signs cover the kerb."
+  },
+  "flags": [
+    "Steep: about 5.6% mean, 10.2% max",
+    "Bus zone signs on the kerb",
+    "Construction site nearby"
+  ],
+  "sun_shade": "Open to the sun mostly; trees shade the west end from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "Swann Road south kerb, west end beside the houses",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        152.980648,
+        -27.496395
+      ],
+      [
+        152.980633,
+        -27.496502
+      ],
+      [
+        152.980726,
+        -27.496458
+      ],
+      [
+        152.980803,
+        -27.496465
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 2,
+    "gated": false,
+    "slope_pct": 5.8,
+    "min_elevation_m": 47.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

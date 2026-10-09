@@ -1,0 +1,66 @@
+{
+  "candidate": "47830791-257002948-767117423-r-80",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Dense residential kerb with homes 7-12 m away along its whole length.",
+  "reasons": [
+    "Dwellings within 12 m along whole kerb",
+    "Houses front the street directly",
+    "Steep slope, no-stopping signs"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the south kerb at 8-14 m, with flats opposite; no gap anywhere.",
+    "access_and_room": "Plain kerb on a two-way street; cars park on both sides, so room is available.",
+    "traffic": "Moderate through traffic; street links to Moggill Road.",
+    "convention": "Cars do park along the street, but No Stopping signs cover parts of this stretch."
+  },
+  "flags": [
+    "Steep: about 4.5% mean grade, max 8.6%",
+    "No Stopping Any Time signs on this street",
+    "Dwellings 8-9 m from the kerb"
+  ],
+  "sun_shade": "Mostly open; patchy street-tree shade on the south kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact sign coverage"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 48,
+    "where": "Stanley Terrace south kerb, between the two house groups",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        152.983083,
+        -27.490396
+      ],
+      [
+        152.983258,
+        -27.490443
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 3.5,
+    "min_elevation_m": 31.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

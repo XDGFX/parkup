@@ -1,0 +1,48 @@
+{
+  "candidate": "47831698-47831935-5884074-r-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Line runs through thick bush off Union Street; no road, no way in.",
+  "reasons": [
+    "Wooded reserve, no formed track",
+    "No Stopping signs at the mouth",
+    "Homes 13 m away, steep"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 13 m from the line at 4 m and 16 m, townhouses to the north.",
+    "access_and_room": "Line crosses dense tree cover with no tracks or vehicles; only the first metres meet the sealed road, which has No Stopping signs.",
+    "traffic": "Quiet residential street at the east end.",
+    "convention": "No parked vehicles seen."
+  },
+  "flags": [
+    "Steep: mean grade 7%, max 14.2%",
+    "No Stopping Any Time signs at the start",
+    "Homes within 13 m"
+  ],
+  "sun_shade": "Heavy canopy over most of the line.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Ground condition under trees"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 7,
+    "min_elevation_m": 16.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

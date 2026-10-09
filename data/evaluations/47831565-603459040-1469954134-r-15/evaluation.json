@@ -1,0 +1,62 @@
+{
+  "candidate": "47831565-603459040-1469954134-r-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat south kerb by a grassy verge, but flats 20 m away.",
+  "reasons": [
+    "Cars park along this road",
+    "Dwellings about 20 m on both sides",
+    "Flat from 55 m onwards"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings roughly 20 m away on the same side and across the road.",
+    "access_and_room": "Parked cars along the kerb and a grass verge, so room to stop.",
+    "traffic": "Through road with a junction at the west end; moderate noise.",
+    "convention": "Cars park along both kerbs, so a van blends in."
+  },
+  "flags": [
+    "Steep west of 45 m: up to 18.6%",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Open to the north sun; trees on the verge shade the west end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 70,
+    "where": "South kerb beside the grassy verge, east of the unit blocks",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        152.975907,
+        -27.493822
+      ],
+      [
+        152.976057,
+        -27.493845
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 28.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

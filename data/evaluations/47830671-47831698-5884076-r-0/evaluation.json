@@ -1,0 +1,67 @@
+{
+  "candidate": "47830671-47831698-5884076-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep, narrow bush-edged lane, No Stopping signed, with nowhere to pull off.",
+  "reasons": [
+    "No Stopping Any Time signs at the junction",
+    "Mean grade 13.9%, max 27%",
+    "Narrow lane, bush bank, no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Bush and tall trees on the west side; nearest homes 14-19 m, but the spot is a junction mouth.",
+    "access_and_room": "Narrow lane edged by bush and a bank; no verge to pull off, and a No Stopping sign sits 0.5 m from the line.",
+    "traffic": "At a busy junction with turning traffic.",
+    "convention": "No cars parked along the lane."
+  },
+  "flags": [
+    "No Stopping Any Time signs signed on the stretch",
+    "Steep: 13.9% mean, 27% max",
+    "Toowong Creek 99 m away, elevation 19-26 m"
+  ],
+  "sun_shade": "Heavily shaded by tree canopy from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Top of Union Street beside the traffic island at the junction",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.982785,
+        -27.488838
+      ],
+      [
+        152.982807,
+        -27.488907
+      ],
+      [
+        152.982811,
+        -27.488943
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 26,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

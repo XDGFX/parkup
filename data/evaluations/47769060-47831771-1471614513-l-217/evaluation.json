@@ -1,0 +1,50 @@
+{
+  "candidate": "47769060-47831771-1471614513-l-217",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 4 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Swann Road kerb with a bus zone and homes within 4-10 m.",
+  "reasons": [
+    "Bus Zone sign on this kerb",
+    "Dwellings 4-10 m away",
+    "Steep, 35% max grade"
+  ],
+  "drivers": {
+    "seclusion": "Apartments and houses within 4-10 m along the stretch.",
+    "access_and_room": "Bus zone and a signalled junction occupy much of the kerb.",
+    "traffic": "Busy main road with turning lanes.",
+    "convention": "Some cars park along the road, but not in the bus zone."
+  },
+  "flags": [
+    "Steep: 9.3% mean, max 35% in the data",
+    "Signs: Bus Zone",
+    "Noise from a main road"
+  ],
+  "sun_shade": "Heavy tree shade from the north side across the west half.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 4,
+    "gated": false,
+    "slope_pct": 9.3,
+    "min_elevation_m": 44.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

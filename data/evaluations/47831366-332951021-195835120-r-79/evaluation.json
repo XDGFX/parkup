@@ -1,0 +1,67 @@
+{
+  "candidate": "47831366-332951021-195835120-r-79",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway arterial kerb with no parking and a dwelling 12 m away.",
+  "reasons": [
+    "Arterial, no cars parked",
+    "Clearway tow-away signs",
+    "Dwelling 12 m at 18 m"
+  ],
+  "drivers": {
+    "seclusion": "Large building and shrubs behind kerb; dwelling mapped 12 m away at 18 m.",
+    "access_and_room": "Multi-lane road, no parking lane or verge to pull off.",
+    "traffic": "Busy multi-lane arterial with bus/bike lane markings.",
+    "convention": "No cars parked along this kerb; clearway signs."
+  },
+  "flags": [
+    "Steep: 3.3% mean grade",
+    "Clearway tow-away Mon-Sat 7am-7pm",
+    "Arterial noise"
+  ],
+  "sun_shade": "Trees on the kerb side shade it partly; sun from the south and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Overnight clearway enforcement",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 25,
+    "where": "Walker Street north kerb beside the large building",
+    "slope_pct": 3.3,
+    "points": [
+      [
+        152.977724,
+        -27.492589
+      ],
+      [
+        152.977629,
+        -27.492655
+      ],
+      [
+        152.97753,
+        -27.492728
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 3.1,
+    "min_elevation_m": 37.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

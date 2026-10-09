@@ -1,0 +1,65 @@
+{
+  "candidate": "48324131-603460053-6890865-r-14",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Flat parked-up south kerb near the east end, units 11 m behind.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Units 11-18 m away on same side",
+    "Nearly level at 105-135 m"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 11 m (at 120 m) and 18 m (at 121 m) on the same side; homes all round.",
+    "access_and_room": "Cars park along the kerb, so room to stop beside the lane.",
+    "traffic": "Through road with a junction at the east end; moderate traffic.",
+    "convention": "Cars clearly park here; a van blends in."
+  },
+  "flags": [
+    "Dwellings within 10-25 m on the same side",
+    "Steep west of 100 m: up to 16.8%",
+    "Road noise at the junction"
+  ],
+  "sun_shade": "Trees at the east end shade it; open to the north sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 105,
+    "to_m": 130,
+    "where": "South kerb about 25 m before the east junction, beside the unit blocks",
+    "slope_pct": 1.4,
+    "points": [
+      [
+        152.972971,
+        -27.493373
+      ],
+      [
+        152.97322,
+        -27.493412
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 31.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

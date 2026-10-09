@@ -1,0 +1,70 @@
+{
+  "candidate": "47830671-47831698-5884076-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep narrow lane with No Stopping signs and townhouses 3-7 m away.",
+  "reasons": [
+    "Townhouses 3-7 m from kerb",
+    "No Stopping Any Time signs throughout",
+    "Grade up to 27%, mean 9%"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 3-6 m from the kerb at this end; townhouse complexes either side.",
+    "access_and_room": "Narrow lane with bush edges and no room to pull fully off; signed No Stopping Any Time.",
+    "traffic": "Quiet lane, but it links to a junction.",
+    "convention": "No cars parked along the lane."
+  },
+  "flags": [
+    "No Stopping Any Time signs on both streets",
+    "Steep upper section: 27% max grade",
+    "Dwellings within 10 m",
+    "Toowong Creek 96 m away, elevation 16-26 m"
+  ],
+  "sun_shade": "Heavily shaded by trees from the west and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 60,
+    "to_m": 90,
+    "where": "Flatter lower end of Union Street, beside the townhouse block",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        152.982891,
+        -27.489341
+      ],
+      [
+        152.982897,
+        -27.489345
+      ],
+      [
+        152.983187,
+        -27.4894
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 16.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

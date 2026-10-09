@@ -1,0 +1,72 @@
+{
+  "candidate": "47831698-334425331-5884078-r-240",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short shaded bend at the oval end of Union Street; homes 15 m away.",
+  "reasons": [
+    "Dwellings 15-18 m on same side",
+    "Only 15 m long, narrow road",
+    "Heavy tree cover, oval beside"
+  ],
+  "drivers": {
+    "seclusion": "Dense trees and the oval on the north; detached dwellings 15 m and 18 m south, apartments 23 m.",
+    "access_and_room": "Sealed road runs on through the trees to the oval; a van just fits along the kerb, no extra verge.",
+    "traffic": "Quiet end of the street, some oval car park traffic.",
+    "convention": "No cars parked on this stretch in the imagery; others park nearer the oval car park."
+  },
+  "flags": [
+    "Homes within 15 m on the section's own side",
+    "2P and No Stopping specified-times signs here",
+    "Low-lying: 8.3 m elevation, Toowong Creek 96 m"
+  ],
+  "sun_shade": "Heavy tree shade from all sides.",
+  "rubbish": "Some rubbish or debris near the oval track edge in QLD image.",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact road width under canopy"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "Union Street south kerb on the shaded bend beside the oval car park",
+    "slope_pct": 1.3,
+    "points": [
+      [
+        152.985831,
+        -27.489955
+      ],
+      [
+        152.985865,
+        -27.489972
+      ],
+      [
+        152.985908,
+        -27.490003
+      ],
+      [
+        152.985944,
+        -27.490039
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 8.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

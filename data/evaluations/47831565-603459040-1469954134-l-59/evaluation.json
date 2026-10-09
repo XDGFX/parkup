@@ -1,0 +1,63 @@
+{
+  "candidate": "47831565-603459040-1469954134-l-59",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat parked-up kerb, but houses sit 15-20 m behind it.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Houses 16-20 m on same side",
+    "Nearly level at 20-30 m"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 16 m and 20 m away on the same side, homes all round.",
+    "access_and_room": "Parked cars line the kerb, so there is room beside the lane.",
+    "traffic": "Through road, moderate traffic, powerlines overhead.",
+    "convention": "Cars clearly park here, so a van would blend in."
+  },
+  "flags": [
+    "Dwellings 15-20 m on the same side",
+    "Road noise"
+  ],
+  "sun_shade": "Street trees shade it, mostly from the north side; afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Local parking habits at night"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 18,
+    "to_m": 32,
+    "where": "Waverley Road north kerb, middle of the block under trees",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.975999,
+        -27.493744
+      ],
+      [
+        152.976139,
+        -27.493766
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 28.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

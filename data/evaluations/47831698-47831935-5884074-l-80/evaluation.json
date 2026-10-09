@@ -1,0 +1,67 @@
+{
+  "candidate": "47831698-47831935-5884074-l-80",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep, narrow wooded lane beside a house; nowhere to pull off.",
+  "reasons": [
+    "House 3 m away",
+    "Slope about 12%",
+    "No pull-off room"
+  ],
+  "drivers": {
+    "seclusion": "Dwelling 3 m from kerb at 28 m; homes 15-24 m near the start.",
+    "access_and_room": "Narrow tree-lined lane, no visible shoulder; signs show No Stopping Any Time.",
+    "traffic": "Quiet side lane off a busy junction.",
+    "convention": "No parked cars seen along it."
+  },
+  "flags": [
+    "Steep: mean grade 12.3%, max 25.8%",
+    "No Stopping signs nearby",
+    "Homes within 25 m on all sides"
+  ],
+  "sun_shade": "Heavy tree canopy over the lane.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "Southern end of Union Street lane, south of the Miskin Street corner",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.982663,
+        -27.489368
+      ],
+      [
+        152.982663,
+        -27.489332
+      ],
+      [
+        152.982688,
+        -27.489236
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 5.5,
+    "min_elevation_m": 20.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

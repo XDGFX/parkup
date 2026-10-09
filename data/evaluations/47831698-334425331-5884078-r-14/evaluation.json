@@ -1,0 +1,68 @@
+{
+  "candidate": "47831698-334425331-5884078-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "South kerb of Union Street opposite the oval car park; homes 16-21 m behind.",
+  "reasons": [
+    "Cars park along this street",
+    "Homes 16-21 m on same side",
+    "Oval car park opposite"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 16 m (115 m) and 21 m (138 m) on the same side; oval and car park across the road.",
+    "access_and_room": "Sealed street with a parking lane; cars park along both kerbs, a van fits.",
+    "traffic": "Quiet residential street, busier near the oval car park.",
+    "convention": "Cars park along the south kerb near 50-100 m and the opposite car park is full."
+  },
+  "flags": [
+    "Homes within 25 m on the section's own side",
+    "2P and No Stopping specified-times signs along this kerb",
+    "Low-lying: min elevation 8.4 m, Toowong Creek 96 m"
+  ],
+  "sun_shade": "Open sun; some street-tree shade from the west near 150 m.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether signs apply on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 105,
+    "to_m": 135,
+    "where": "South kerb of Union Street, opposite the oval car park, east of the Miskin Street end",
+    "slope_pct": 2.4,
+    "points": [
+      [
+        152.984654,
+        -27.489718
+      ],
+      [
+        152.984782,
+        -27.489738
+      ],
+      [
+        152.984954,
+        -27.489766
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 3.3,
+    "min_elevation_m": 13.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

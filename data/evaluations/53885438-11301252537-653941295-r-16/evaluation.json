@@ -1,0 +1,92 @@
+{
+  "candidate": "53885438-11301252537-653941295-r-16",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Marked angled bays on a quiet bend, with apartments about 18 m across the road.",
+  "reasons": [
+    "Angled bays with cars already parked",
+    "Apartments 16-18 m away across road",
+    "Houses within 25 m all round"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 16-18 m across the road to the north, houses 22-30 m to the south; bush behind the bays on the west side.",
+    "access_and_room": "Off-street angled bays beside the lane; cars fit, room for a van is plausible but bays look car-sized.",
+    "traffic": "Quiet residential bend; little through traffic seen.",
+    "convention": "Cars park in the bays, so a van blends in a little; no campers seen."
+  },
+  "flags": [
+    "No Stopping Any Time sign near the 45 m end; stay west of it",
+    "Mean grade 3% over the stretch, about 1% at best section",
+    "Bays may be car-length only"
+  ],
+  "sun_shade": "Open to sun mostly; trees shade the west end and the south edge in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Bay length versus a van",
+    "Street lighting",
+    "Whether bays are time-limited"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 38,
+    "where": "Angled parking bays on the south side of the bend, west of the sign",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.98795,
+        -27.497537
+      ],
+      [
+        152.98797,
+        -27.497533
+      ],
+      [
+        152.988024,
+        -27.497546
+      ],
+      [
+        152.988056,
+        -27.497553
+      ],
+      [
+        152.988086,
+        -27.497559
+      ],
+      [
+        152.98811,
+        -27.497563
+      ],
+      [
+        152.98815,
+        -27.497567
+      ],
+      [
+        152.98817,
+        -27.497569
+      ],
+      [
+        152.988179,
+        -27.497569
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 19.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

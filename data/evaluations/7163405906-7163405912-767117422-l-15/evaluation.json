@@ -1,0 +1,48 @@
+{
+  "candidate": "7163405906-7163405912-767117422-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a traffic island at a busy junction; nowhere to stop.",
+  "reasons": [
+    "Line runs along a median island",
+    "Junction on a main road",
+    "Homes within 12-17 m"
+  ],
+  "drivers": {
+    "seclusion": "Houses 12-17 m away at both ends and across the junction; fully exposed.",
+    "access_and_room": "Stretch lies beside a raised island at a multi-lane junction; no pull-off outside the traffic lane.",
+    "traffic": "Busy Stanley Terrace junction with turning lanes and painted islands.",
+    "convention": "No cars parked along this stretch; 2P resident-permit signs nearby."
+  },
+  "flags": [
+    "Steep: about 6% grade, max 8.8%",
+    "Signs: 2P Mon-Fri 7am-7pm, resident permits excepted",
+    "Noise from a busy junction"
+  ],
+  "sun_shade": "Open to the sky; little shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 7.3,
+    "min_elevation_m": 37.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

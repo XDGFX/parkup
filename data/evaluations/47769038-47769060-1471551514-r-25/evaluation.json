@@ -1,0 +1,72 @@
+{
+  "candidate": "47769038-47769060-1471551514-r-25",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Swann Road kerb with townhouses 5-12 m away and a steep grade.",
+  "reasons": [
+    "Terrace homes within 5-12 m",
+    "Houses line the whole 43 m",
+    "Steep, 7.7% mean, 15% max"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings within 5-12 m along the whole stretch; no gap to avoid them.",
+    "access_and_room": "Cars already park along this kerb, so a van fits.",
+    "traffic": "Busy through road with a junction at the far end.",
+    "convention": "Other cars park here, but homes are too close for an overnight stay."
+  },
+  "flags": [
+    "Steep: 7.7% mean, 15% max",
+    "Noise from a main road"
+  ],
+  "sun_shade": "Trees along the north side give patchy shade; open otherwise.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 43,
+    "where": "South kerb of Swann Road opposite the townhouse block",
+    "slope_pct": 7.7,
+    "points": [
+      [
+        152.978442,
+        -27.494619
+      ],
+      [
+        152.978636,
+        -27.494758
+      ],
+      [
+        152.978724,
+        -27.494835
+      ],
+      [
+        152.978767,
+        -27.494796
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 8.3,
+    "min_elevation_m": 47.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

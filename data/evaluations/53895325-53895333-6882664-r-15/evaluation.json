@@ -1,0 +1,66 @@
+{
+  "candidate": "53895325-53895333-6882664-r-15",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, but homes 18-24 m away and bus zone signs line it.",
+  "reasons": [
+    "Three cars parked along this kerb",
+    "Dwellings 18-24 m away on this side",
+    "Three bus zone signs along it"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 8 m away at the corner end; further east nearest dwellings are 18-24 m and a retail building at 18 m.",
+    "access_and_room": "Cars already park nose to tail on the kerb and a grass verge sits behind it; room to stop.",
+    "traffic": "Side street just off a busy road with a bus stop at the corner.",
+    "convention": "Parked cars on the kerb in both images, so a van would blend in."
+  },
+  "flags": [
+    "Bus zone signs at 2.5, 7.8 and 14.3 m",
+    "Steep: 3.6% mean, 5.8% max",
+    "Bus stop and main road noise at the corner"
+  ],
+  "sun_shade": "Open kerb with sun most of the day; trees to the east shade the far end in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether the bus zone is enforced"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 12,
+    "to_m": 26,
+    "where": "South kerb of the side street, east of the corner with the main road",
+    "slope_pct": 3.6,
+    "points": [
+      [
+        152.986437,
+        -27.495079
+      ],
+      [
+        152.986577,
+        -27.495101
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 4.4,
+    "min_elevation_m": 7.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

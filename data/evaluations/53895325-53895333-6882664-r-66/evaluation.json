@@ -1,0 +1,66 @@
+{
+  "candidate": "53895325-53895333-6882664-r-66",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short narrow kerb with a car parked; apartments 20 m away and bus zone signs.",
+  "reasons": [
+    "Apartments 9 m away at the start",
+    "Nearest dwellings 20 m beyond that",
+    "Bus zone signs at 2.8 and 14.6 m"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 9 m away at the start and 20 m further on; garages 20 m; houses 31 m or more.",
+    "access_and_room": "Narrow sealed lane with a verge and a driveway apron behind the kerb; tight, one car parked.",
+    "traffic": "Quiet side street running to a junction; light traffic.",
+    "convention": "One car parked on the kerb; little parking convention beyond that."
+  },
+  "flags": [
+    "Bus zone signs at 2.8 and 14.6 m",
+    "Steep: 3.4% mean, 4% max",
+    "Dwellings within 25 m on this side"
+  ],
+  "sun_shade": "Heavy tree canopy shades the west half; east end partly open to afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether the bus zone is enforced"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 19,
+    "where": "South kerb of the side street, east of the first apartment block",
+    "slope_pct": 3.4,
+    "points": [
+      [
+        152.986905,
+        -27.495153
+      ],
+      [
+        152.98701,
+        -27.495169
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 3.3,
+    "min_elevation_m": 6.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

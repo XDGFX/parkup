@@ -1,0 +1,65 @@
+{
+  "candidate": "53885397-60201760-1311888649-l-14",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Swann Road north kerb, hedge then apartments about 10-20 m behind.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Apartments about 10-20 m behind",
+    "Busy road, mild slope"
+  ],
+  "drivers": {
+    "seclusion": "Dense hedge and palms screen a large apartment block 10-20 m back.",
+    "access_and_room": "Cars park along the kerb, so a van fits in the line.",
+    "traffic": "Busy through road bending at a junction.",
+    "convention": "Parked cars seen here in both images; no signs."
+  },
+  "flags": [
+    "Slope 3.8% mean, 5.8% max",
+    "Noise from busy road",
+    "Apartment about 10 m from the west end"
+  ],
+  "sun_shade": "Hedge and the block shade the kerb from the north; open to the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 22,
+    "where": "North kerb beside the dense hedge below the apartment block",
+    "slope_pct": 3.8,
+    "points": [
+      [
+        152.984874,
+        -27.49695
+      ],
+      [
+        152.984976,
+        -27.497037
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 39.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "53885430-53895333-1249399031-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential east kerb where cars park; homes 17-21 m away, steep.",
+  "reasons": [
+    "Cars parked along the street",
+    "Apartments 17-21 m from kerb",
+    "Steep grade, about 8%"
+  ],
+  "drivers": {
+    "seclusion": "Homes 17-21 m away on this side, with trees between; more houses across the road.",
+    "access_and_room": "Sealed street with parking along the kerb; room for a van where cars park.",
+    "traffic": "Quiet local street, no through traffic.",
+    "convention": "Cars park along this side, but no overnight convention; No Stopping 7-9am Mon-Fri signs exist elsewhere."
+  },
+  "flags": [
+    "Steep: about 8% grade, max 15.8% on the whole stretch",
+    "Signs: No Stopping 7-9am Mon-Fri and Any Time near the ends",
+    "Low-lying at the bottom end (6 m elevation)"
+  ],
+  "sun_shade": "Street trees shade much of the section, mainly from the east in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether residents object to overnight vans"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 98,
+    "to_m": 120,
+    "where": "East kerb of Sundridge Street, about 100 m up from the Seven Oaks end, beside the yellow-brick apartment block",
+    "slope_pct": 8,
+    "points": [
+      [
+        152.987035,
+        -27.496049
+      ],
+      [
+        152.987074,
+        -27.495855
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 7.1,
+    "min_elevation_m": 9.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

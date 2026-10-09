@@ -1,0 +1,67 @@
+{
+  "candidate": "47831771-47831799-1311889200-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy Swann Road south kerb with apartments 9-11 m behind and no parking.",
+  "reasons": [
+    "Apartments within 11 m of kerb",
+    "No cars parked on this kerb",
+    "Busy through road, construction frontage"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 9-11 m behind the kerb; detached homes 17 m beyond.",
+    "access_and_room": "Kerb of a through road; little room to pull clear of the lane.",
+    "traffic": "Busy through road with steady traffic and a junction nearby.",
+    "convention": "No cars parked on this side; 1/4P limit Mon-Fri 6-11am."
+  },
+  "flags": [
+    "Slope 4.4% mean, 9.3% max",
+    "Construction site on the frontage",
+    "Noise from busy road"
+  ],
+  "sun_shade": "Trees shade the east end; open to the sun elsewhere.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 73,
+    "where": "South kerb at the east end near the side street",
+    "slope_pct": 3.5,
+    "points": [
+      [
+        152.98188,
+        -27.496617
+      ],
+      [
+        152.981988,
+        -27.496661
+      ],
+      [
+        152.982013,
+        -27.496611
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 4.7,
+    "min_elevation_m": 41.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

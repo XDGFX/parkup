@@ -1,0 +1,65 @@
+{
+  "candidate": "60801665-257231357-1311694436-l-85",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Busy through road kerb with no parking beyond the first car; houses 4-11 m away.",
+  "reasons": [
+    "House 4 m at start, 11 m at end",
+    "No cars parked beyond the start",
+    "No Stopping Any Time sign mapped"
+  ],
+  "drivers": {
+    "seclusion": "Vacant lot behind the kerb, but a house sits 11 m from the far end and others 18 m.",
+    "access_and_room": "Kerb of a four-lane road; no marked parking lane along the best section.",
+    "traffic": "Busy through road with moving traffic and signals ahead.",
+    "convention": "Only one car parked, at the junction end; none along the best section."
+  },
+  "flags": [
+    "Main road with no parking along the kerb",
+    "No Stopping Any Time sign 5.7 m from the line",
+    "Steep at the start: 21.6% max grade, 6.7% mean"
+  ],
+  "sun_shade": "Open from the north; trees shade the opposite side only.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether the sign covers the best section"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 42,
+    "where": "Kerb beside the vacant grassy lot, uphill from the junction",
+    "slope_pct": 1.8,
+    "points": [
+      [
+        152.988456,
+        -27.498406
+      ],
+      [
+        152.988667,
+        -27.498356
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 2.8,
+    "min_elevation_m": 37.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

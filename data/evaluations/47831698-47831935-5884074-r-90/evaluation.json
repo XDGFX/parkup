@@ -1,0 +1,48 @@
+{
+  "candidate": "47831698-47831935-5884074-r-90",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Very steep narrow lane with No Stopping signs and homes close by.",
+  "reasons": [
+    "Grade about 16%, over limit",
+    "No Stopping Any Time signs",
+    "Homes 11-15 m away"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 11 m at 17 m along and 12 m at 11 m; townhouses across the lane.",
+    "access_and_room": "Narrow sealed lane with no shoulder, trees and fence on both sides; nowhere to pull off.",
+    "traffic": "Quiet lane off a busy junction with Miskin Street.",
+    "convention": "No parked cars seen; No Stopping signs line the kerb."
+  },
+  "flags": [
+    "Steep: mean grade 15.8%, max 26.8%",
+    "No Stopping Any Time signs along it",
+    "Homes within 11 m"
+  ],
+  "sun_shade": "Mixed tree shade, mostly from the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 15.8,
+    "min_elevation_m": 19.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

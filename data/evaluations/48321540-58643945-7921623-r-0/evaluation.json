@@ -1,0 +1,76 @@
+{
+  "candidate": "48321540-58643945-7921623-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bus-route bend with bush at the kerb, no parking and no pull-off.",
+  "reasons": [
+    "Through road, no cars on bush kerb",
+    "No clear ground beside the lane",
+    "Houses 8-10 m along the lower half"
+  ],
+  "drivers": {
+    "seclusion": "Bushland on the south side, but houses 19-25 m away on the north; dwellings 8-10 m from 35 m onwards.",
+    "access_and_room": "Bush meets the kerb on the bend; no verge or pull-off beyond the lane.",
+    "traffic": "Collector road with buses and steady traffic on a bend.",
+    "convention": "Cars park on the north side near the start, none on the bush side."
+  },
+  "flags": [
+    "Steep: mean grade 6.2%, max 11.2%",
+    "Bus route noise",
+    "Dwellings 8-10 m away past 35 m"
+  ],
+  "sun_shade": "Dense bush canopy over the south kerb, shading from the south and overhead.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Width of verge under the canopy"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 30,
+    "where": "Stanley Terrace south kerb on the bend, beside the bushland",
+    "slope_pct": 6.5,
+    "points": [
+      [
+        152.975089,
+        -27.48845
+      ],
+      [
+        152.975105,
+        -27.488452
+      ],
+      [
+        152.975175,
+        -27.488471
+      ],
+      [
+        152.975229,
+        -27.488493
+      ],
+      [
+        152.975289,
+        -27.488531
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 6.4,
+    "min_elevation_m": 61.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

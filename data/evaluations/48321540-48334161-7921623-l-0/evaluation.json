@@ -1,0 +1,70 @@
+{
+  "candidate": "48321540-48334161-7921623-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Bus-route through road; bushy kerb has no parking and no room off the lane.",
+  "reasons": [
+    "Bus route, no cars parked on bush kerb",
+    "Bush and trees right at the kerb",
+    "Dwellings mostly 14-20 m across road"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the south side with no dwellings; houses across the road are 14-20 m away.",
+    "access_and_room": "Wide road with bus route; the bush edge leaves no clear pull-off beyond the lane.",
+    "traffic": "Collector road with buses and steady traffic.",
+    "convention": "Cars park on the north kerb and in the driveway apron at about 55-75 m, but not under the bush."
+  },
+  "flags": [
+    "Steep end: mean grade 3.8%, max 11.4% overall",
+    "Bus route and junction noise",
+    "Dwellings 9-14 m at several points along the stretch"
+  ],
+  "sun_shade": "Dense tree canopy over the south kerb, shading from the south and overhead.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Width of verge under the canopy"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 75,
+    "to_m": 110,
+    "where": "Stanley Terrace south kerb, under the bush before the Taringa junction",
+    "slope_pct": 1.3,
+    "points": [
+      [
+        152.974276,
+        -27.488575
+      ],
+      [
+        152.974151,
+        -27.488618
+      ],
+      [
+        152.973945,
+        -27.48869
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 3.2,
+    "min_elevation_m": 62.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

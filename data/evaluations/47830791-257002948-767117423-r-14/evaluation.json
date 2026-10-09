@@ -1,0 +1,65 @@
+{
+  "candidate": "47830791-257002948-767117423-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a junction with a dwelling 9 m away; no room.",
+  "reasons": [
+    "Dwelling 9 m away at 33 m",
+    "Junction kerb, steep and short",
+    "Residential flats and houses all round"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings within 21-27 m on both sides; flats opposite; the 9 m house is at the far end, so exposed.",
+    "access_and_room": "Narrow kerb beside a junction with shaded verge and trees; little clear room to pull out of the lane.",
+    "traffic": "Through street at a junction with a bus zone; steady passing traffic.",
+    "convention": "No cars parked along this stretch; bus zone and no-stopping signs nearby."
+  },
+  "flags": [
+    "Steep: mean grade 5.3%, max 12.7%",
+    "Bus Zone and No Stopping signs nearby",
+    "Dwelling 9 m from the end of the stretch"
+  ],
+  "sun_shade": "Heavy tree canopy over the kerb, mostly from the south and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 25,
+    "where": "Stanley Terrace kerb just past the Harrys Road junction",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        152.982302,
+        -27.490046
+      ],
+      [
+        152.982422,
+        -27.49013
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 36.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:32:20Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
