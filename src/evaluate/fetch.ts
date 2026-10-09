@@ -5,6 +5,8 @@ import { mkdir, readFile, stat, writeFile } from "node:fs/promises";
 import { dirname } from "node:path";
 import sharp from "sharp";
 import { dist, length, offset, project, slice, toLonLat, toXY, type LonLat, type XY } from "../build/geo.ts";
+import { BARRIER, halfWidthOf } from "../build/config.ts";
+import { overpass as overpassQuery } from "../build/overpass.ts";
 import { DWELLINGS, FETCH } from "./config.ts";
 import type { Building, Chunk, Context, DemSample, EsriCapture, Gate, QldCapture } from "./context.ts";
 
@@ -17,10 +19,6 @@ const QLD = "https://spatial-img.information.qld.gov.au/arcgis/rest/services";
 const QLD_AERIAL = `${QLD}/Basemaps/LatestStateProgram_AllUsers/ImageServer`;
 const QLD_DEM = `${QLD}/Elevation/QldDem/ImageServer`;
 const SIGNS = "https://data.brisbane.qld.gov.au/api/explore/v2.1/catalog/datasets/parking-sign-locations/records";
-const OVERPASS = [
-  "https://overpass-api.de/api/interpreter", "https://overpass.private.coffee/api/interpreter",
-  "https://overpass.kumi.systems/api/interpreter", "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
-];
 export const CACHE = ".cache/imagery";
 
 // --- HTTP, with retries: the QLD services drop the odd request and Overpass is often busy ---
@@ -44,20 +42,9 @@ const json = async (url: string, params?: Record<string, string | number>) => (a
 // Overpass allows only a couple of requests at a time per client, so calls queue behind each other.
 let overpassQueue: Promise<unknown> = Promise.resolve();
 function overpass(query: string): Promise<any[]> {
-  const run = overpassQueue.then(() => overpassNow(query));
+  const run = overpassQueue.then(() => overpassQuery(query, { userAgent: UA["User-Agent"], pauseMs: 2000 }));
   overpassQueue = run.catch(() => undefined);
   return run;
-}
-
-async function overpassNow(query: string): Promise<any[]> {
-  const errors: string[] = [];
-  for (const url of OVERPASS) {
-    try {
-      const res = await get(url, undefined, { method: "POST", body: new URLSearchParams({ data: query }), headers: { Accept: "application/json" } });
-      return (await res.json()).elements;
-    } catch (e) { errors.push(`${url}: ${e}`); }
-  }
-  throw new Error(`Overpass failed: ${errors.join(", ")}`);
 }
 
 // --- geometry ---
@@ -197,7 +184,6 @@ function parkingNear(line: XY[], els: any[]): Context["mapped_parking"] {
 
 const PUBLIC = /^(motorway|trunk|primary|secondary|tertiary|unclassified|residential|living_street)(_link)?$/;
 const VEHICLE = /^(motorway|trunk|primary|secondary|tertiary|unclassified|residential|living_street|service|track|road)(_link)?$/;
-const GATE = new Set(["gate", "lift_gate", "bollard", "swing_gate", "chain", "barrier_board"]);
 
 /**
  * Gates on the access: mapped barriers within reach, and whether every mapped vehicle way from the candidate to a
@@ -205,7 +191,7 @@ const GATE = new Set(["gate", "lift_gate", "bollard", "swing_gate", "chain", "ba
  * public road isn't either: there's nothing to say it's gated.
  */
 function gatesOn(target: Target, line: XY[], els: any[]): Gate[] {
-  const barriers = els.filter((e) => e.type === "node" && GATE.has(e.tags?.barrier) && e.tags?.locked !== "no" && e.tags?.access !== "yes");
+  const barriers = els.filter((e) => e.type === "node" && BARRIER.BLOCKS.test(e.tags?.barrier ?? "") && e.tags?.locked !== "no" && e.tags?.access !== "yes");
   const near = barriers.map((b) => ({ b, d: toLine(toXY([b.lon, b.lat]), line) })).filter(({ d }) => d <= FETCH.ACCESS_M);
   if (!near.length) return [];
   const onlyAccess = target.kind === "kerb" ? new Set<number>() : gatedBy(line, els, new Set(barriers.map((b) => b.id)));
@@ -433,7 +419,7 @@ export async function fetchContext(target: Target, outFile: string): Promise<Con
 /** A calibration known place: a kerb beside an OSM way chain (side 1 left, -1 right, of the chain's direction), the outline of an area (side 0), or a pin. */
 export type KnownPlace = { id: string; street: string; suburb: string; ways?: number[]; side?: number; point?: LonLat; note?: string; known: string };
 
-export async function knownPlaceTarget(place: KnownPlace, halfWidth: Record<string, number>): Promise<Target> {
+export async function knownPlaceTarget(place: KnownPlace): Promise<Target> {
   if (place.point) return { id: place.id, street: place.street, suburb: place.suburb, kind: "point", line: [place.point], osm_tags: {} };
   const ways = await Promise.all(place.ways!.map(async (id) => {
     const { elements } = await json(`https://api.openstreetmap.org/api/0.6/way/${id}/full.json`);
@@ -446,7 +432,7 @@ export async function knownPlaceTarget(place: KnownPlace, halfWidth: Record<stri
   const osmTags = Object.fromEntries(Object.entries(tags).filter(([k]) =>
     ["highway", "maxspeed", "oneway", "lanes", "lit", "surface", "width", "sidewalk", "amenity", "access", "fee"].includes(k) || k.startsWith("parking")));
   if (!place.side) return { id: place.id, street: place.street, suburb: place.suburb, kind: "outline", line: centre, side: "outline", osm_tags: osmTags };
-  const d = (halfWidth[tags.highway ?? ""] ?? 5) * place.side;
+  const d = halfWidthOf(tags) * place.side;
   const kerb = offset(centre.map(toXY), d).map(toLonLat);
   return { id: place.id, street: place.street, suburb: place.suburb, kind: "kerb", line: kerb, side: place.side > 0 ? "left" : "right", osm_tags: osmTags };
 }

@@ -14,6 +14,9 @@ export type Plate = {
 const ALL = [1, 2, 3, 4, 5, 6, 7];
 const WEEKDAYS = [1, 2, 3, 4, 5];
 
+/** "ST LUCIA" as "St Lucia": council records are upper case. */
+export const titleCase = (s: string) => s.toLowerCase().replace(/\b[a-z]/g, (c) => c.toUpperCase());
+
 /** Plates that mark an area or the end of one, rather than governing a length of kerb. */
 export const isAreaPlate = (type: string) => /TRAFFIC AREA|Control Area|^End C$/i.test(type);
 

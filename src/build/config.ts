@@ -11,6 +11,14 @@ export const SNAP_ANY_M = 15;
 export const HALF_WIDTH_M: Record<string, number> = {
   motorway: 8, trunk: 7, primary: 7, secondary: 6, tertiary: 5, unclassified: 4, residential: 4, living_street: 3,
 };
+/** For a road class the table doesn't name. */
+export const DEFAULT_HALF_WIDTH_M = 4;
+
+/** Half a road's carriageway width: half its `width` tag, else by road class (a slip road as its class). */
+export function halfWidthOf(tags: Record<string, string>): number {
+  const width = Number.parseFloat(tags.width ?? "");
+  return width > 0 ? width / 2 : HALF_WIDTH_M[(tags.highway ?? "").replace(/_link$/, "")] ?? DEFAULT_HALF_WIDTH_M;
+}
 
 /** The orientation check: the winning reading's clean-pairing share must reach MIN_SHARE and beat the other by MARGIN. */
 export const ORIENTATION = { MIN_SHARE: 0.6, MARGIN: 0.2 };
@@ -33,7 +41,10 @@ export const SCREEN = {
 /** Plates flagged multisignsegment within this distance along a kerb are read as one post. */
 export const POST_M = 2;
 
-/** Road classes, and slip roads, that get no unsigned kerb stretches: you can't stop on them at all. */
+/**
+ * Road classes, and slip roads, that get no unsigned kerb stretches: you can't stop on them at all.
+ * A deliberate addition to the spec's rules, on the conservative side.
+ */
 export const NO_UNSIGNED = { HIGHWAYS: ["motorway"], SLIP_ROADS: true };
 
 /**
@@ -84,7 +95,8 @@ export const ST_LUCIA_TRAFFIC_AREA = {
 
 /**
  * Sites. A car park or track tagged with one of these `access` values, or `fee=yes`, is ruled out,
- * as are on-street car parks (`parking=*`), which the kerb stretches already cover.
+ * as are on-street car parks (`parking=*`), which the kerb stretches already cover. The on-street rule-out is a
+ * deliberate addition to the spec's list, on the conservative side.
  */
 export const SITE_RULE_OUT = {
   ACCESS: /^(private|customers|no|permit)$/,
@@ -96,8 +108,10 @@ export const SITE_RULE_OUT = {
 /**
  * Barriers that stop a vehicle, on a car park's access way or along a track, unless tagged `locked=no`.
  * A way touches a car park when one of its nodes is inside the outline or within TOUCH_M of it.
+ * The spec names gate, lift_gate and bollard; the rest are a deliberate addition, on the conservative side.
+ * The evaluation's gate check (src/evaluate/fetch.ts) uses the same list.
  */
-export const BARRIER = { BLOCKS: /^(gate|lift_gate|bollard|swing_gate|chain|block|jersey_barrier|log)$/, TOUCH_M: 2 };
+export const BARRIER = { BLOCKS: /^(gate|lift_gate|bollard|swing_gate|chain|barrier_board|block|jersey_barrier|log)$/, TOUCH_M: 2 };
 
 /**
  * Off-road sites on OSM tracks: one ENTRY_M in from where a track leaves the road, and one at each dead end of the
@@ -112,6 +126,8 @@ export const TENURE = { MATCH_M: 1 };
 /**
  * BCC Park — Tracks and Trails lines that make off-road sites. A line is already in OSM when MAPPED_SHARE of the points
  * sampled every SAMPLE_M along it lie within MATCH_M of an OSM road, track or service way.
+ * MANAGEMENT ACCESS ONLY lines are a deliberate addition to the spec's access lines; they carry the spec's
+ * "management access only" caution.
  */
 export const TRAILS = { ITEM_TYPES: ["ACCESS ROAD", "MULTI-USE ACCESS", "MANAGEMENT ACCESS ONLY"], SAMPLE_M: 10, MATCH_M: 15, MAPPED_SHARE: 0.5 };
 

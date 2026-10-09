@@ -6,13 +6,13 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { TRAILS } from "./config.ts";
 import type { LonLat } from "./geo.ts";
+import { overpass as overpassQuery } from "./overpass.ts";
 import type {
   CouncilLand, KerbLine, OsmArea, OsmNode, OsmWay, Parcel, PermitArea, QldTrack, SignRecord, Snapshot, ToiletRecord, TrailLine, Zone,
 } from "./inputs.ts";
 import { buildSites } from "./sites.ts";
 
 const BCC = "https://data.brisbane.qld.gov.au/api/explore/v2.1/catalog/datasets";
-const OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter", "https://maps.mail.ru/osm/tools/overpass/api/interpreter"];
 const SUBURBS = ["TARINGA", "INDOOROOPILLY", "ST LUCIA"];
 // OSM admin_level=9 relations for Indooroopilly, St Lucia and Taringa.
 const SUBURB_RELATIONS = [11677824, 11677827, 11677828];
@@ -41,25 +41,8 @@ async function signs(): Promise<SignRecord[]> {
     .sort((a, b) => a.assetid.localeCompare(b.assetid));
 }
 
-// The main Overpass server is often busy (504 or 429), so fall back to a mirror, and try both a few times.
-// Both refuse requests without a User-Agent.
-async function overpass(query: string): Promise<unknown> {
-  const errors: string[] = [];
-  for (let attempt = 0; attempt < 4; attempt++) for (const url of OVERPASS) {
-    if (attempt) await new Promise((r) => setTimeout(r, 20e3 * attempt));
-    const res = await fetch(url, {
-      method: "POST",
-      headers: { "User-Agent": "parkup-snapshot (https://github.com/XDGFX/parkup)", Accept: "application/json" },
-      body: new URLSearchParams({ data: query }),
-    }).catch((e: Error) => e);
-    if (res instanceof Error) { errors.push(`${url}: ${res.message}`); continue; }
-    // A busy server (or a mirror without the suburb areas) can answer 200 with no elements.
-    const body = res.ok ? ((await res.json()) as { remark?: string; elements?: unknown[] }) : null;
-    if (body?.elements?.length && !/error/i.test(body.remark ?? "")) return body;
-    errors.push(`${url}: ${res.status} ${body?.remark ?? ""}`);
-  }
-  throw new Error(`Overpass failed: ${errors.join(", ")}`);
-}
+/** The snapshot's Overpass queries all cover the suburbs, so an empty answer means a busy or incomplete server. */
+const overpass = (query: string) => overpassQuery(query, { userAgent: "parkup-snapshot (https://github.com/XDGFX/parkup)", nonEmpty: true });
 
 async function ways(): Promise<OsmWay[]> {
   const query = `[out:json][timeout:180];
@@ -67,7 +50,7 @@ async function ways(): Promise<OsmWay[]> {
 .subs map_to_area->.a;
 way(area.a)[highway~"^(${HIGHWAYS})(_link)?$"];
 out body geom;`;
-  const { elements } = (await overpass(query)) as { elements: any[] };
+  const elements = await overpass(query);
   return elements
     .map((e) => ({
       id: e.id,
@@ -85,7 +68,7 @@ async function nodes(): Promise<OsmNode[]> {
 (node[highway~"^(traffic_signals|crossing|bus_stop)$"];
  nwr[amenity~"^(school|kindergarten|childcare)$"];);
 out tags center;`;
-  const { elements } = (await overpass(query)) as { elements: any[] };
+  const elements = await overpass(query);
   return elements
     .map((e) => ({ id: e.id, lon: e.lon ?? e.center.lon, lat: e.lat ?? e.center.lat, tags: e.tags ?? {} }))
     .sort((a, b) => a.id - b.id);
@@ -167,7 +150,7 @@ out body geom;
 .minor out body geom;
 node(w.minor)[barrier];
 out body;`;
-  const { elements } = (await overpass(query)) as { elements: any[] };
+  const elements = await overpass(query);
   const ring = (g: { lon: number; lat: number }[]) => g.map((p) => pt([p.lon, p.lat]));
   const closed = (r: [number, number][]) => r.length > 3 && r[0]![0] === r.at(-1)![0] && r[0]![1] === r.at(-1)![1];
   const parkings: OsmArea[] = [], minorWays: OsmWay[] = [], barriers: OsmNode[] = [];

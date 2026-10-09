@@ -73,6 +73,8 @@ How many schools and kindergartens mapped in OSM fall in a zone the build exclud
 | Dropped: fail both the overnight and daytime tests | 2 |
 
 Sites without timetable data count as open at all times, with an "hours unknown" caution.
+OSM doesn't map clearings, so off-road sites at the dead ends of the track network stand in for them: a clearing
+along a track that isn't at a dead end won't appear.
 
 ## Evaluations
 

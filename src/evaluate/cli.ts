@@ -9,7 +9,6 @@
 // queue and prepare for a batch refuse to run until the committed calibration passes on the current rubric version;
 // --skip-calibration-gate overrides that, for calibration work itself.
 import { readFile, writeFile } from "node:fs/promises";
-import { HALF_WIDTH_M } from "../build/config.ts";
 import { shapeOf } from "../build/geo.ts";
 import type { Candidate } from "../build/build.ts";
 import { evaluationQueue } from "../build/evaluations.ts";
@@ -49,7 +48,7 @@ if (command === "queue") {
   if (calibration) {
     const places = await readJson<KnownPlace[]>(PLACES);
     for (const s of places.filter((s) => !ids.length || ids.includes(s.id)))
-      targets.push({ target: () => knownPlaceTarget(s, HALF_WIDTH_M), dir: `${CALIBRATION}/${s.id}` });
+      targets.push({ target: () => knownPlaceTarget(s), dir: `${CALIBRATION}/${s.id}` });
   } else {
     await calibrationGate();
     const { candidates } = await readJson<{ candidates: Candidate[] }>("public/candidates.json");
