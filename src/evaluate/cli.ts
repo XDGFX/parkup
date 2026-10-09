@@ -32,7 +32,12 @@ if (command === "prepare") {
       const c = candidates.find((c) => c.id === id);
       if (!c) throw new Error(`no candidate ${id}`);
       targets.push({
-        target: async () => ({ id: c.id, street: c.street, suburb: c.suburb, kind: "kerb", line: c.line, side: c.side, osm_tags: {} }),
+        // A kerb's line, a car park's outline, or an off-road site's single point.
+        target: async () => ({
+          id: c.id, street: c.street, suburb: c.suburb, line: c.line, osm_tags: {},
+          kind: c.kind === "kerb" ? "kerb" : c.line.length > 1 ? "outline" : "point",
+          ...(c.side ? { side: c.side } : {}),
+        }),
         dir: `${EVALUATIONS}/${c.id}`,
       });
     }
