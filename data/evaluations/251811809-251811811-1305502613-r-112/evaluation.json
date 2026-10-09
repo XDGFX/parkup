@@ -1,0 +1,68 @@
+{
+  "candidate": "251811809-251811811-1305502613-r-112",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy parked kerb beside a park, but homes sit 12-19 m behind it.",
+  "reasons": [
+    "Homes 12-19 m away, same side",
+    "Cars park along this kerb",
+    "Park opposite, trees along the road"
+  ],
+  "drivers": {
+    "seclusion": "Park opposite, but a house 12-13 m and a detached home 19 m behind the lawn strip on the same side.",
+    "access_and_room": "Parallel kerb with a row of cars already parked; room for a van in the line.",
+    "traffic": "Residential street near a junction; moderate passing traffic.",
+    "convention": "Cars fill both kerbs, so a van blends in. Signs mix 2P, permits and No Stopping."
+  },
+  "flags": [
+    "Homes 12-19 m away on own side",
+    "Low-lying: about 5.5 m elevation, Brisbane River 206 m away",
+    "No Stopping Any Time signs nearby"
+  ],
+  "sun_shade": "Open on the south side; tree canopy shades the opposite kerb and the east end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact sign extents on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "South kerb of Macquarie Street, west end, opposite the park",
+    "slope_pct": 1.4,
+    "points": [
+      [
+        153.002521,
+        -27.493484
+      ],
+      [
+        153.00262,
+        -27.493454
+      ],
+      [
+        153.002657,
+        -27.493448
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 0.7,
+    "min_elevation_m": 5.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

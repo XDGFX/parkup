@@ -1,0 +1,65 @@
+{
+  "candidate": "262450272-1515019019-1271363754-l-89",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep short kerb with houses 5-13m away on the same side.",
+  "reasons": [
+    "Slope 17.9% mean, 22.8% max",
+    "Houses 5-13m on own side",
+    "Short 30m residential kerb"
+  ],
+  "drivers": {
+    "seclusion": "Houses front directly onto the south kerb: 5m at 22m, apartments 10m at 14m, a house 13m at the start. Townhouses across the road 17m+.",
+    "access_and_room": "Sealed street with a few cars parked along the kerb in the imagery, so room exists, but the grade is severe.",
+    "traffic": "Residential street with through traffic; no signs.",
+    "convention": "Cars park along this kerb, but it is a dense residential strip with no overnight convention."
+  },
+  "flags": [
+    "Very steep: 17.9% mean, 22.8% max",
+    "Dwellings within 10m",
+    "Resident-fronted kerb"
+  ],
+  "sun_shade": "Mostly open; small trees give light shade; houses on the south side shade in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "Prospect Terrace south kerb at the eastern end, beside the corner lots",
+    "slope_pct": 17.9,
+    "points": [
+      [
+        152.993364,
+        -27.494847
+      ],
+      [
+        152.993242,
+        -27.494782
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 21.3,
+    "min_elevation_m": 20,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,70 @@
+{
+  "candidate": "251811566-251813454-1266696492-r-149",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "North kerb on a bend of Jerdanefield Road, houses 14-17 m away, one car parked.",
+  "reasons": [
+    "Homes 14-17 m away on own side",
+    "Dwelling only 4 m away at the start",
+    "Slope about 6%, steeper than 3%"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 14-17 m away on the north side; nearer houses 4-11 m in the first 30 m.",
+    "access_and_room": "Sealed road with a parked car on this kerb at the bend; little verge beside the lane.",
+    "traffic": "Quiet residential road.",
+    "convention": "One car parks on this kerb; the opposite kerb has several."
+  },
+  "flags": [
+    "Steep: about 5% grade, max 12%",
+    "Homes 14-17 m away on own side",
+    "Low-lying: 7 m elevation, Brisbane River 156 m away",
+    "Dwelling 4 m away at the start"
+  ],
+  "sun_shade": "Street trees on the south side give partial midday shade; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall",
+    "Room at the bend"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 40,
+    "to_m": 53,
+    "where": "Jerdanefield Road north kerb on the bend, past the large house",
+    "slope_pct": 5,
+    "points": [
+      [
+        152.997771,
+        -27.49238
+      ],
+      [
+        152.997694,
+        -27.492338
+      ],
+      [
+        152.997673,
+        -27.492369
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 5.1,
+    "min_elevation_m": 6.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

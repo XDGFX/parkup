@@ -1,0 +1,50 @@
+{
+  "candidate": "251813521-264216983-1295605920-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow Glenolive Lane with terrace homes 5 m away and no-parking signs.",
+  "reasons": [
+    "Terrace dwelling 5 m from kerb",
+    "Narrow lane, no room to pull off",
+    "No Parking Any Time signs"
+  ],
+  "drivers": {
+    "seclusion": "Terrace houses front the kerb at 5 m; apartments and houses close on both sides.",
+    "access_and_room": "Narrow sealed lane with no verge; hedges and walls hug the edge.",
+    "traffic": "Quiet lane, but a few cars squeeze along it.",
+    "convention": "No Parking Any Time and Tuesday morning restrictions signed here."
+  },
+  "flags": [
+    "Dwelling within 10 m",
+    "Signed no parking",
+    "Close to Brisbane River, about 9 m elevation"
+  ],
+  "sun_shade": "Trees and buildings shade the lane from both sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 9.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

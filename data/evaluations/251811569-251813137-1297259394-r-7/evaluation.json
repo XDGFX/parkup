@@ -1,0 +1,78 @@
+{
+  "candidate": "251811569-251813137-1297259394-r-7",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Treed west kerb on a quiet street; houses 20+ m back but cars park mostly opposite.",
+  "reasons": [
+    "Nearest dwellings about 20-25 m away",
+    "Quiet residential street, no sign",
+    "Bushy bank, little parking on this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Treed bank screens the section; closest homes are 25 m (at 48 m) and 12 m (from 57 m), others set back behind gardens.",
+    "access_and_room": "Road looks wide enough to stop at the kerb, but the west side is a tree-lined bank with little visible verge.",
+    "traffic": "Quiet residential road near a busier junction at the north end.",
+    "convention": "Cars park opposite and on the northern part of this kerb; none seen on this exact stretch."
+  },
+  "flags": [
+    "Room beside the lane is tight where the bank meets the kerb",
+    "Houses 12 m from the end of the section",
+    "No signs mapped on this kerb"
+  ],
+  "sun_shade": "Heavy tree shade on the west side; sun comes over the road from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 33,
+    "to_m": 50,
+    "where": "Ryans Road west kerb, below the wooded bank before the bend",
+    "slope_pct": 0.9,
+    "points": [
+      [
+        152.997216,
+        -27.49614
+      ],
+      [
+        152.997209,
+        -27.496186
+      ],
+      [
+        152.997208,
+        -27.496234
+      ],
+      [
+        152.997218,
+        -27.496288
+      ],
+      [
+        152.997219,
+        -27.496292
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 32.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

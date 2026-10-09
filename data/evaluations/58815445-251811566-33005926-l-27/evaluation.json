@@ -1,0 +1,64 @@
+{
+  "candidate": "58815445-251811566-33005926-l-27",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat parked-up kerb on a residential road; houses 12-20 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Houses 12 m or more beyond 33 m",
+    "No Stopping signs near the ends"
+  ],
+  "drivers": {
+    "seclusion": "Nearest house 12 m away on this side beyond 33 m; houses close by on both sides.",
+    "access_and_room": "Kerbside lane with several cars parked along it; flat with room for a van.",
+    "traffic": "Residential road, moderate traffic.",
+    "convention": "Cars park along this kerb; No Stopping Any Time signs sit near the ends."
+  },
+  "flags": [
+    "House 7 m away before 33 m",
+    "No Stopping Any Time signs near the ends; check the extent on site",
+    "Brisbane River 266 m away; ground about 19 m"
+  ],
+  "sun_shade": "Mostly open; trees and gardens give shade from the west in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact extent of No Stopping zones",
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 33,
+    "to_m": 48,
+    "where": "Ryans Road west kerb, past the pool house, towards the bend",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.998512,
+        -27.493735
+      ],
+      [
+        152.998618,
+        -27.493638
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 0.9,
+    "min_elevation_m": 19.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

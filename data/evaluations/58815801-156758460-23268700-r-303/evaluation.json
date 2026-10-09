@@ -1,0 +1,64 @@
+{
+  "candidate": "58815801-156758460-23268700-r-303",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parked-up kerb on a steep Mitre Street climb; houses 12-15 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Houses 12-15 m away, same side",
+    "Steep: 6% at the flattest"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 12 m and detached houses 15 m away on the same side; apartments opposite 23 m and more.",
+    "access_and_room": "Public street with a parking lane where cars park; room for a van.",
+    "traffic": "Quiet residential street, near a junction at the south end.",
+    "convention": "Cars park here, but 2P resident-permit signs apply on weekdays."
+  },
+  "flags": [
+    "Dwellings 12-15 m away on the same side",
+    "Steep: about 6% here, 28% max further on, mean 15%",
+    "Signs: 2P Mon-Fri 7am-6pm, 4-6:30pm limits"
+  ],
+  "sun_shade": "Tree canopy from the east side; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "West kerb at the top of the run, before the road climbs steeply south",
+    "slope_pct": 6.3,
+    "points": [
+      [
+        153.002363,
+        -27.497046
+      ],
+      [
+        153.002344,
+        -27.497153
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 6.3,
+    "min_elevation_m": 11.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

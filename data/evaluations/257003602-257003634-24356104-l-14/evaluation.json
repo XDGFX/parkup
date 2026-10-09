@@ -1,0 +1,68 @@
+{
+  "candidate": "257003602-257003634-24356104-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parked-up kerb backing onto trees and a car park, but very steep.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Dwellings 12-20 m away",
+    "Steep, about 11% grade"
+  ],
+  "drivers": {
+    "seclusion": "Kerb backs onto trees and a commercial car park; nearest dwellings are 12-13 m (Wrestpoint, a detached house) at the start and about 20 m at the far end.",
+    "access_and_room": "Several cars parked along this kerb, so room to stop is fine.",
+    "traffic": "Busy through road with a lane each way.",
+    "convention": "Cars park here and no parking signs are mapped."
+  },
+  "flags": [
+    "Steep: about 11% mean, 14.6% max",
+    "Dwellings 10-25 m away",
+    "Busy road noise"
+  ],
+  "sun_shade": "Tree canopy shades the west side; open to the afternoon sun over the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 29,
+    "where": "Ryans Road west kerb, beside the treed bank and car park",
+    "slope_pct": 10.8,
+    "points": [
+      [
+        152.997584,
+        -27.494574
+      ],
+      [
+        152.99764,
+        -27.494522
+      ],
+      [
+        152.997682,
+        -27.494483
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 11.2,
+    "min_elevation_m": 23.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

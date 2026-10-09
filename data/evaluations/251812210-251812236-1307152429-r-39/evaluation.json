@@ -1,0 +1,67 @@
+{
+  "candidate": "251812210-251812236-1307152429-r-39",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Parked kerb with homes 18-25 m away, beside a school and kindergarten.",
+  "reasons": [
+    "Homes 18-25 m away, own side",
+    "Cars park along this kerb",
+    "Kindergarten nearby; school-day drop-off traffic"
+  ],
+  "drivers": {
+    "seclusion": "Houses 18-31 m behind the kerb on the same side; trees and flats opposite. Not remote.",
+    "access_and_room": "Parallel kerb with a row of cars already parked; room for a van in the line.",
+    "traffic": "Local street with school drop-off activity on schooldays.",
+    "convention": "Dense parking suggests overflow from the school and kindergarten; a van blends in by day."
+  },
+  "flags": [
+    "Homes within 18-25 m on own side",
+    "1/2P parking on schooldays 7am-7pm; No Stopping Any Time at the ends",
+    "Kindergarten and school nearby: busy at drop-off",
+    "Slope reaches about 5% in places along the stretch"
+  ],
+  "sun_shade": "Tree canopy over the western half; open to the north-east at the east end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Night-time parking pressure"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 46,
+    "where": "South kerb of Macquarie Street, mid-way along the parked row",
+    "slope_pct": 2.2,
+    "points": [
+      [
+        153.00912,
+        -27.492407
+      ],
+      [
+        153.009276,
+        -27.492368
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 5.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

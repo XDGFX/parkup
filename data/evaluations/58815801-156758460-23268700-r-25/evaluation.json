@@ -1,0 +1,68 @@
+{
+  "candidate": "58815801-156758460-23268700-r-25",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at Mitre Street's top end beside a building site; apartments 19 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "La Fayette apartments 19 m away",
+    "Level, but close to main road"
+  ],
+  "drivers": {
+    "seclusion": "Mapped building site 7 m away (non-residential); La Fayette apartments 19 m away on the same side, more homes opposite.",
+    "access_and_room": "Open street with cars parked along the kerb; room for one van length.",
+    "traffic": "Street mouth beside a busy main road, with vehicles turning in.",
+    "convention": "Cars park here, but 1P and 2P signs and a weekday 4-6:30pm no-stopping sign apply."
+  },
+  "flags": [
+    "Dwelling 19 m away on the same side",
+    "Main-road noise at the street mouth",
+    "Signs: 4-6:30pm no stopping Mon-Fri"
+  ],
+  "sun_shade": "Open; the tall building to the west shades the kerb in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 2,
+    "to_m": 16,
+    "where": "West kerb at the Mitre Street entrance off the main road, beside the building site",
+    "slope_pct": 0.9,
+    "points": [
+      [
+        153.002809,
+        -27.49459
+      ],
+      [
+        153.002789,
+        -27.494701
+      ],
+      [
+        153.002787,
+        -27.494714
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 0.7,
+    "min_elevation_m": 4.7,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

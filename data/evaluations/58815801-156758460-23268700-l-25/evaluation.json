@@ -1,0 +1,65 @@
+{
+  "candidate": "58815801-156758460-23268700-l-25",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside a shop building, with a block of flats about 15 m across the lane.",
+  "reasons": [
+    "Shop building on own side",
+    "Flats about 15 m across the lane",
+    "Cars already park here"
+  ],
+  "drivers": {
+    "seclusion": "Retail building on the kerb side; a long block on the west side (mapped as under construction, likely flats) about 15 m away.",
+    "access_and_room": "Narrow lane, but cars are parked along both sides; 10 m kerb fits a van with little spare.",
+    "traffic": "Dead-end side street off a busy road; some local and delivery traffic.",
+    "convention": "Signs allow 1P and 2P on weekdays, so overnight parking is the norm; parked cars give cover."
+  },
+  "flags": [
+    "Only 10 m long: a snug fit for a van",
+    "Flats likely across the lane at about 15 m",
+    "Busy road noise at the north end",
+    "Low-lying: about 4.6 m elevation, no mapped waterway"
+  ],
+  "sun_shade": "Open to the sky; the shop building shades the kerb from the east in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the west block is occupied"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "East kerb of Mitre Street, just south of Hawken Drive, beside the retail building",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        153.002892,
+        -27.494586
+      ],
+      [
+        153.002876,
+        -27.494672
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 4.5,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

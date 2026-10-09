@@ -1,0 +1,67 @@
+{
+  "candidate": "58815512-58815761-1286146362-r-268",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Durham Street kerb with parked cars; homes 18-22 m away, steep hill.",
+  "reasons": [
+    "Dwellings 18-22 m on own side",
+    "Cars park along kerb",
+    "Steep at about 6.5%"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 22 m away behind dense trees; apartment blocks opposite.",
+    "access_and_room": "Kerbside lane where cars are parked; room for a van.",
+    "traffic": "Quiet residential street, light through traffic.",
+    "convention": "Cars park both sides, so a van blends in."
+  },
+  "flags": [
+    "Steep: about 6.5% grade",
+    "Homes within 25 m all round",
+    "Signed 1P/2P parking with permits"
+  ],
+  "sun_shade": "Dense tree canopy shades the west side, mostly from the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 45,
+    "where": "Durham Street west kerb, beside the leafy block with the pool",
+    "slope_pct": 6.5,
+    "points": [
+      [
+        153.003467,
+        -27.496767
+      ],
+      [
+        153.003456,
+        -27.496832
+      ],
+      [
+        153.003436,
+        -27.496945
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 6.5,
+    "min_elevation_m": 21.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

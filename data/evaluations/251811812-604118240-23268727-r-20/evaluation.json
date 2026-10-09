@@ -1,0 +1,51 @@
+{
+  "candidate": "251811812-604118240-23268727-r-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Dead-end lane's west edge: Fairmount Lodge only 6 m away, no room beside the lane.",
+  "reasons": [
+    "Apartments 6 m from the kerb",
+    "Parked cars fill the narrow lane",
+    "Line runs through trees, no stopping room"
+  ],
+  "drivers": {
+    "seclusion": "Fairmount Lodge apartments 6 m away along the first 30 m; more flats 15-24 m on all sides.",
+    "access_and_room": "Narrow dead-end lane with cars parked on the east side; west edge is trees and gardens, no space to pull off.",
+    "traffic": "Dead end, little through traffic.",
+    "convention": "Cars park on the east side only; no signs mapped."
+  },
+  "flags": [
+    "Dwelling within 10 m of the kerb",
+    "Narrow lane, no pull-off",
+    "Low-lying: about 3-4 m elevation, river about 180 m away"
+  ],
+  "sun_shade": "Heavy tree canopy over most of the line.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether the lane is private or customer parking"
+  ],
+  "confidence": "low",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 3.3,
+    "min_elevation_m": 3.2,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

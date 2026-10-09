@@ -1,0 +1,68 @@
+{
+  "candidate": "58815801-156758460-23268700-l-35",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parked kerb beside an overgrown empty lot, with flats 15-20 m off.",
+  "reasons": [
+    "Overgrown vacant lot on own side",
+    "Flats and houses 15-20 m away",
+    "Cars park along this street"
+  ],
+  "drivers": {
+    "seclusion": "Vacant, overgrown lot on the kerb side; nearest flats 15 m further down and a house about 20 m across the road.",
+    "access_and_room": "Cars park along both kerbs; room for a van in the line, but the street is narrow.",
+    "traffic": "Quiet dead-end style side street with local traffic only.",
+    "convention": "Weekday 1P and 2P signs; cars park along the street overnight, so a van blends in."
+  },
+  "flags": [
+    "Steep: about 4.5% grade in the best section, 8.6% max on the stretch",
+    "Flats within 15-25 m all round",
+    "Busy road noise at the north end"
+  ],
+  "sun_shade": "Open from the east where the lot is clear; tree canopy shades the south end and the opposite side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the vacant lot is fenced or about to be built on"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 48,
+    "to_m": 66,
+    "where": "East kerb of Mitre Street, beside the overgrown vacant lot about 50 m from the top end",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        153.002798,
+        -27.4951
+      ],
+      [
+        153.002771,
+        -27.495251
+      ],
+      [
+        153.002769,
+        -27.49526
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 4.3,
+    "min_elevation_m": 5.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

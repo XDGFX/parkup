@@ -1,0 +1,72 @@
+{
+  "candidate": "156758437-156780018-24389117-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside a park and church at a junction; house 15 m across.",
+  "reasons": [
+    "Backs onto park and church",
+    "House 15 m across the road",
+    "Short, at a junction mouth"
+  ],
+  "drivers": {
+    "seclusion": "Park behind, church 13 m away (non-residential); nearest house 15 m across the road, others 25 m or more.",
+    "access_and_room": "Open sealed street beside a park; room for one van, but no parked cars seen on this length.",
+    "traffic": "Quiet side street, close to a junction with a busier road.",
+    "convention": "Cars park further along the street, but 3P resident-permit signs apply on weekdays."
+  },
+  "flags": [
+    "Short stretch at a junction mouth",
+    "Signs: 3P Mon-Fri 8am-5:30pm, resident permits excepted",
+    "Slope about 2-4%"
+  ],
+  "sun_shade": "Open grass to the west; trees shade the junction side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether the junction clearance rule limits stopping here"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 3,
+    "to_m": 13,
+    "where": "West kerb of Ninth Avenue beside the grassy park, just south of the junction by Christ Church",
+    "slope_pct": 2.3,
+    "points": [
+      [
+        152.99804,
+        -27.500236
+      ],
+      [
+        152.998046,
+        -27.500243
+      ],
+      [
+        152.998056,
+        -27.500252
+      ],
+      [
+        152.998108,
+        -27.500299
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 0.4,
+    "min_elevation_m": 34.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

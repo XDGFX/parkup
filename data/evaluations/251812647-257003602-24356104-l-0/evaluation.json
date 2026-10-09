@@ -1,0 +1,48 @@
+{
+  "candidate": "251812647-257003602-24356104-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Only 8 m of kerb at a junction, signed No Stopping Any Time.",
+  "reasons": [
+    "Stretch shorter than a van",
+    "Dwellings 14-17 m away",
+    "Signed No Stopping Any Time"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 14 m and 17 m away on the west side, more within 30 m.",
+    "access_and_room": "Kerb is 8 m long beside a junction mouth, too short for a van; cars at the kerb sit tight against the lane.",
+    "traffic": "Busy bend of Ryans Road at a junction.",
+    "convention": "Two No Stopping Any Time signs sit at this kerb; a few cars appear parked there regardless."
+  },
+  "flags": [
+    "No Stopping Any Time signs",
+    "Steep: about 5.6% grade",
+    "Dwellings 14-17 m away"
+  ],
+  "sun_shade": "Mixed; trees on the west side shade the southern end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 5.6,
+    "min_elevation_m": 28.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

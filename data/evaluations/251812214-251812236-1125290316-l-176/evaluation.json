@@ -1,0 +1,65 @@
+{
+  "candidate": "251812214-251812236-1125290316-l-176",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow lane beside houses 4-6 m away; no room to stop.",
+  "reasons": [
+    "Houses 4-6 m from kerb",
+    "Narrow lane, tree-lined, no pull-off",
+    "No Stopping sign nearby"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 4-6 m away along the whole stretch; overlooked.",
+    "access_and_room": "Narrow lane between house and dense trees; no clear ground beside it.",
+    "traffic": "Quiet lane, little through traffic.",
+    "convention": "No cars parked along it; signs show P and No Stopping."
+  },
+  "flags": [
+    "Dwellings within 10 m",
+    "Low-lying: min elevation 5.4 m",
+    "Steep spot: max 4.4% grade"
+  ],
+  "sun_shade": "Heavy tree canopy on the east side; house on the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact lane width",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 39,
+    "where": "Northern end of the lane, nearest Keith Street junction",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        153.00953,
+        -27.49255
+      ],
+      [
+        153.009595,
+        -27.492439
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 0.4,
+    "min_elevation_m": 5.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

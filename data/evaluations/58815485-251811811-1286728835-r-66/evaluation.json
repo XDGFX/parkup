@@ -1,0 +1,66 @@
+{
+  "candidate": "58815485-251811811-1286728835-r-66",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short east kerb near a junction; homes 15-20 m away, cars park.",
+  "reasons": [
+    "Homes 15-20 m around",
+    "Cars park along the street",
+    "Near junction, timed No Stopping"
+  ],
+  "drivers": {
+    "seclusion": "Houses 15-16 m and apartments 20 m near the start; flats at 10 m by the far end.",
+    "access_and_room": "Sealed street with parked cars along both sides; room for a van is tight.",
+    "traffic": "Local street near a signalled junction; steady traffic.",
+    "convention": "Cars park here, but 1P, 2P permit and No Stopping times are signed."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Low-lying: about 4.4 m elevation, 221 m from Brisbane River",
+    "Signs: timed No Stopping 7-9am and 4-7pm weekdays"
+  ],
+  "sun_shade": "Trees and palms shade the east side from the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact kerb width"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "South end of this kerb, beside the street trees",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        153.003268,
+        -27.493668
+      ],
+      [
+        153.00325,
+        -27.493561
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 4.4,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

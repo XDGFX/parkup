@@ -1,0 +1,64 @@
+{
+  "candidate": "58815801-156758460-23268700-l-175",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, steep parked kerb with flats 12-20 m away on both sides.",
+  "reasons": [
+    "Flats 12-17 m away, own side",
+    "Steep: about 7% mean grade",
+    "Cars park along this street"
+  ],
+  "drivers": {
+    "seclusion": "Flats about 12-17 m beyond the kerb on the same side, more flats and houses 19-24 m across the road.",
+    "access_and_room": "Cars park along both kerbs; 16 m of kerb fits a van, with one car already parked at the south end.",
+    "traffic": "Quiet side street with local traffic only.",
+    "convention": "Weekday 1P and 2P signs only; cars park here overnight, so a van blends in."
+  },
+  "flags": [
+    "Steep: about 7% mean grade, 14% max over a short step",
+    "Flats within 12-25 m all round",
+    "Hill street: van may roll, use wedges"
+  ],
+  "sun_shade": "Tree canopy over the kerb from the east side; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact slope, as the DEM step is coarse"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "East kerb of Mitre Street, south of the Moorman Place flats",
+    "slope_pct": 7.3,
+    "points": [
+      [
+        153.002649,
+        -27.495922
+      ],
+      [
+        153.002624,
+        -27.496061
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 4.9,
+    "min_elevation_m": 10.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

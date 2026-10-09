@@ -1,0 +1,65 @@
+{
+  "candidate": "251811812-251811813-1305845019-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parked kerb near the road's east end, with flats about 12-20 m behind.",
+  "reasons": [
+    "Flats 10-20 m away, own side",
+    "Cars park along the kerb",
+    "Dwellings all round"
+  ],
+  "drivers": {
+    "seclusion": "Large apartment block set back behind trees, roughly 12-20 m from the kerb; flats and a car park across the road.",
+    "access_and_room": "Parallel kerb with cars already parked along it; room for a van in the line.",
+    "traffic": "Quiet residential street near its end; local traffic only.",
+    "convention": "Cars park on both sides, so a van blends in; No Stopping signs only at the ends."
+  },
+  "flags": [
+    "Flats within about 10-20 m on own side",
+    "Low-lying: about 5 m elevation, a mapped waterway 32 m away",
+    "Steepest 5 m step near the start reaches about 4.8%",
+    "No Stopping Any Time signs at the ends"
+  ],
+  "sun_shade": "Tree canopy overhangs the kerb from the south side; shaded in the morning from the building to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact sign extents on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 110,
+    "to_m": 135,
+    "where": "South kerb of Macquarie Street towards the east end, in front of the treed lawn",
+    "slope_pct": 1.6,
+    "points": [
+      [
+        153.007095,
+        -27.492847
+      ],
+      [
+        153.007345,
+        -27.492807
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 5.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

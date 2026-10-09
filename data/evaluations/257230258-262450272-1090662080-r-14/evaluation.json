@@ -1,0 +1,66 @@
+{
+  "candidate": "257230258-262450272-1090662080-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential Douglas Street kerb with cars parked; homes 16-19 m away.",
+  "reasons": [
+    "Houses 16-19 m on own side",
+    "Cars park along kerb",
+    "Gentle grade mid-section"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 16-19 m away on the east side, more across the road; houses all round.",
+    "access_and_room": "Kerbside parking lane on a plain street; cars already parked along it.",
+    "traffic": "Quiet residential street near a junction; light traffic.",
+    "convention": "Parked cars along the kerb, but no sign of overnight stays."
+  },
+  "flags": [
+    "Start of kerb steeper, max 10.4% locally",
+    "Residents all round within 25 m"
+  ],
+  "sun_shade": "Mostly open; street trees and garden shade patches on the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 50,
+    "where": "Douglas Street east kerb, midway up from the corner, beside the unit blocks",
+    "slope_pct": 1.4,
+    "points": [
+      [
+        152.993906,
+        -27.495678
+      ],
+      [
+        152.99393,
+        -27.495642
+      ],
+      [
+        152.994008,
+        -27.495523
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 15.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

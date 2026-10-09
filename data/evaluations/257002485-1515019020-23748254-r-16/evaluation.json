@@ -1,0 +1,50 @@
+{
+  "candidate": "257002485-1515019020-23748254-r-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Signed No Stopping Any Time, with houses 6-10 m from the kerb.",
+  "reasons": [
+    "No Stopping Any Time signs",
+    "Houses 6 m and 10 m away",
+    "Cars parked on the verge, not a lane"
+  ],
+  "drivers": {
+    "seclusion": "Two houses 6 m and one 10 m from the south kerb; apartments and homes all round.",
+    "access_and_room": "Short kerb at a junction; cars sit angled on the verge, with no clear spare room.",
+    "traffic": "Quiet side street at a junction.",
+    "convention": "No Stopping Any Time signs; a row of cars parks on the gravel verge."
+  },
+  "flags": [
+    "Signed no stopping",
+    "Dwellings within 10 m",
+    "Cars appear to park on the verge despite signs"
+  ],
+  "sun_shade": "Large tree canopy shades the north side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether the verge parking is permitted"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 3.9,
+    "min_elevation_m": 8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,66 @@
+{
+  "candidate": "257003602-257003634-24356104-r-10",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Houses 8-12 m from the kerb all along, on a steep slope.",
+  "reasons": [
+    "Dwellings 8-12 m away throughout",
+    "Steep, about 10% grade",
+    "Busy through road"
+  ],
+  "drivers": {
+    "seclusion": "Houses 8 m, 11 m and 12 m sit directly behind the kerb; Wrestpoint apartments 16 m at the start.",
+    "access_and_room": "Cars park along this kerb, so room to stop is fine.",
+    "traffic": "Busy two-lane through road with a car park entrance nearby.",
+    "convention": "Cars park here and no signs are mapped."
+  },
+  "flags": [
+    "Dwellings within 10 m of parts of the stretch",
+    "Steep: about 10.5% mean, 14.6% max",
+    "Busy road noise"
+  ],
+  "sun_shade": "Open to the sun, with trees shading the south end and west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 34,
+    "where": "Ryans Road east kerb, opposite the treed bank",
+    "slope_pct": 10.5,
+    "points": [
+      [
+        152.997617,
+        -27.494713
+      ],
+      [
+        152.997695,
+        -27.494608
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 14.1,
+    "min_elevation_m": 24.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

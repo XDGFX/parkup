@@ -1,0 +1,64 @@
+{
+  "candidate": "262450272-1515019019-1271363754-r-111",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Eight-metre kerb at a junction, houses 9 m away and very steep.",
+  "reasons": [
+    "Houses 9-10 m from kerb",
+    "Slope about 22%",
+    "Too short, at a junction"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings at 9-10 m on the section's own side, apartments close by.",
+    "access_and_room": "Kerbside beside a junction; only 8 m long, less than a van.",
+    "traffic": "Residential street junction, moderate traffic.",
+    "convention": "Cars park nearby on the street."
+  },
+  "flags": [
+    "Steep: about 22% grade",
+    "House within 10 m"
+  ],
+  "sun_shade": "Mostly open; houses to the north cast afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 8,
+    "where": "Prospect Terrace kerb at the corner, north side",
+    "slope_pct": 21.6,
+    "points": [
+      [
+        152.993213,
+        -27.494683
+      ],
+      [
+        152.993143,
+        -27.494646
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 20.2,
+    "min_elevation_m": 17,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

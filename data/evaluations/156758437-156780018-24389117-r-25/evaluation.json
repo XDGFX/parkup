@@ -1,0 +1,63 @@
+{
+  "candidate": "156758437-156780018-24389117-r-25",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb along Christ Church frontage; homes only across the road, cars park here.",
+  "reasons": [
+    "Church on kerb side, no dwelling",
+    "Homes 15m+ away across road",
+    "Cars parked along kerb"
+  ],
+  "drivers": {
+    "seclusion": "West side backs onto church and hall (8m, non-residential). Nearest homes 15-24m across the road; apartments 38m behind the church.",
+    "access_and_room": "Sealed street with cars parked along the kerb in QLD imagery; room to park fully off the lane.",
+    "traffic": "Quiet residential street off a main road at the top; light traffic.",
+    "convention": "Cars park along this kerb; a van would blend in. Signs are 3P Mon-Fri daytime, resident permits excepted."
+  },
+  "flags": [
+    "Steep over whole stretch: mean 4.4%, max 8%",
+    "Homes 15-24m opposite across the road"
+  ],
+  "sun_shade": "Street trees and church-side trees give partial shade, mainly from the west and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "church event nights",
+    "crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 25,
+    "where": "Ninth Avenue kerb beside Christ Church, west side",
+    "slope_pct": 2.4,
+    "points": [
+      [
+        152.998108,
+        -27.500299
+      ],
+      [
+        152.998286,
+        -27.500459
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 33.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

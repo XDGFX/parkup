@@ -1,0 +1,87 @@
+{
+  "candidate": "257225357-567065278-1238186647-l-18",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb with homes 15-20 m away on both sides; steep.",
+  "reasons": [
+    "Dwellings 15-20 m around",
+    "Quiet residential street, few parked cars",
+    "Steep: about 6-7% grade"
+  ],
+  "drivers": {
+    "seclusion": "Apartment block 10 m at the start; houses 15-20 m from the far end.",
+    "access_and_room": "Sealed street with a grass verge and kerb parking; room to pull in.",
+    "traffic": "Quiet residential street; cul-de-sac style traffic only.",
+    "convention": "A few cars park lower down; no signs mapped here."
+  },
+  "flags": [
+    "Steep: about 6.9% mean, 9.2% max",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Mostly open; trees shade the south end from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Parking restrictions on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 42,
+    "where": "Lower end of Lamont Street, beside the apartment block's verge",
+    "slope_pct": 6.5,
+    "points": [
+      [
+        152.992274,
+        -27.496769
+      ],
+      [
+        152.992272,
+        -27.496772
+      ],
+      [
+        152.99225,
+        -27.496801
+      ],
+      [
+        152.992238,
+        -27.496816
+      ],
+      [
+        152.992227,
+        -27.496831
+      ],
+      [
+        152.992211,
+        -27.496854
+      ],
+      [
+        152.992186,
+        -27.496886
+      ],
+      [
+        152.992178,
+        -27.496896
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 7.5,
+    "min_elevation_m": 40.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,66 @@
+{
+  "candidate": "262450272-262450292-1238190467-r-14",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb with a 30m gap between houses; steep, little parking.",
+  "reasons": [
+    "Dwellings 14-15m away on own side",
+    "Steep: about 10% grade",
+    "Quiet street, few cars parked"
+  ],
+  "drivers": {
+    "seclusion": "Nearest mapped homes 15m (at 128m) and 14m (at 153m) on the same side; a roof structure at 1m is non-residential. Rest of the stretch has houses 1-9m from the kerb.",
+    "access_and_room": "Sealed street with vegetated verge in places; a few cars parked along the road, room to pull in looks limited.",
+    "traffic": "Quiet through street, a bus route nearby; a busy road lies below to the south.",
+    "convention": "No signs; few parked cars, so no clear overnight convention."
+  },
+  "flags": [
+    "Steep: about 10% at best section, 7.6% mean, 22% max overall",
+    "Dwellings within 10m along most of the rest of the stretch",
+    "Bus route nearby"
+  ],
+  "sun_shade": "Garden trees and street trees give patchy shade; houses on the south side shade the kerb from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall",
+    "whether neighbours would object"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 116,
+    "to_m": 148,
+    "where": "Prospect Terrace south kerb between the houses, past the mid-street bend",
+    "slope_pct": 10,
+    "points": [
+      [
+        152.995227,
+        -27.495892
+      ],
+      [
+        152.995506,
+        -27.49604
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 10.4,
+    "min_elevation_m": 27.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

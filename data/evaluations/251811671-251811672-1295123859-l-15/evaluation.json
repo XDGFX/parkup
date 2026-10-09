@@ -1,0 +1,65 @@
+{
+  "candidate": "251811671-251811672-1295123859-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Dense street with homes 6-8 m from the kerb along its whole length.",
+  "reasons": [
+    "Houses 6-8 m away on this side",
+    "No gap long enough for a van",
+    "Slope about 10%, steep"
+  ],
+  "drivers": {
+    "seclusion": "Houses and apartments 6-8 m from the kerb on the section's own side along its length.",
+    "access_and_room": "Parked cars line the road; the only gap is shorter than a van.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park here; 2P resident-permit signs and No Stopping near both ends."
+  },
+  "flags": [
+    "Steep: about 10% grade, up to 14%",
+    "Dwellings within 10 m",
+    "2P Mon-Fri resident permits excepted; No Stopping Any Time at the ends"
+  ],
+  "sun_shade": "Mostly open; trees at the north end, houses block morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 14,
+    "to_m": 20,
+    "where": "Raven Street east kerb, between the two houses near the north end",
+    "slope_pct": 9,
+    "points": [
+      [
+        152.999633,
+        -27.495604
+      ],
+      [
+        152.999622,
+        -27.495657
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 8.4,
+    "min_elevation_m": 15.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

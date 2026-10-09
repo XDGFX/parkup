@@ -1,0 +1,64 @@
+{
+  "candidate": "251811314-11714313141-32503766-l-17",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Near-flat south kerb on Hiron Street with parked cars; apartments about 17 m behind.",
+  "reasons": [
+    "Several cars park along this kerb",
+    "Apartments 17 m away on own side",
+    "Flat, about 1%"
+  ],
+  "drivers": {
+    "seclusion": "River Park View apartments 17 m back on the south side; houses 13-18 m across the road.",
+    "access_and_room": "Sealed street with parallel parking beside the lane; room for a van among parked cars.",
+    "traffic": "Through street with centre line, moderate traffic.",
+    "convention": "Cars park along this kerb in both images; a van blends in."
+  },
+  "flags": [
+    "Apartments 17 m away on own side",
+    "Low-lying: 7 m elevation, Brisbane River 189 m away",
+    "2P daytime Mon-Fri signs, resident permits excepted"
+  ],
+  "sun_shade": "Open to the sky; small tree shade from the south side at midday.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Flood risk detail"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 58,
+    "where": "Hiron Street south kerb, in front of the River Park View driveway and car park",
+    "slope_pct": 1.1,
+    "points": [
+      [
+        152.999829,
+        -27.493031
+      ],
+      [
+        152.999545,
+        -27.493013
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 6.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

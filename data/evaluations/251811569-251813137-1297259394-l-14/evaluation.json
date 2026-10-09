@@ -1,0 +1,76 @@
+{
+  "candidate": "251811569-251813137-1297259394-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parked-up residential kerb, flat, but homes 13-16 m away on the same side.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Dwellings 13-16 m on same side",
+    "Flat, about 0.5% grade"
+  ],
+  "drivers": {
+    "seclusion": "Semidetached house 13 m, detached house 16 m, Ryan apartments 10 m just beyond at 39 m; homes within 25 m on the section's side.",
+    "access_and_room": "Several cars parked along the kerb in imagery, so room to stop is fine.",
+    "traffic": "Quiet residential road near a junction with a busier cross street.",
+    "convention": "Cars park here; sign at Depper Street shows 2P Mon-Fri with resident permits excepted."
+  },
+  "flags": [
+    "Dwellings 10-25 m away on same side",
+    "Parking sign nearby: 2P Mon-Fri, resident permits excepted",
+    "Slope under 3%"
+  ],
+  "sun_shade": "Tree canopy overhead on the west side at the north end; open elsewhere, east side shaded by buildings in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 14,
+    "to_m": 27,
+    "where": "Ryans Road east kerb, between the pool house and the garage",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.997316,
+        -27.496154
+      ],
+      [
+        152.997315,
+        -27.496156
+      ],
+      [
+        152.99731,
+        -27.496193
+      ],
+      [
+        152.997309,
+        -27.496228
+      ],
+      [
+        152.997317,
+        -27.49627
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 33,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

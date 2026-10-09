@@ -1,0 +1,66 @@
+{
+  "candidate": "262450272-262450276-1292771652-l-220",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow bush-edged lane with no room off the road; homes close further on.",
+  "reasons": [
+    "Narrow lane, bush bank, no pull-off",
+    "Dwellings 5-9m from 21m onward",
+    "Steep: about 9% at start"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the north side; nearest houses 20-22m across the road. Beyond 21m apartments and houses sit 5-9m from the kerb.",
+    "access_and_room": "Lane runs tight between wooded bank and the road edge, with no verge or pull-in visible; no cars parked here.",
+    "traffic": "Through street with buses; the end meets a busy road at a junction.",
+    "convention": "No signs and no parked cars on this stretch, so no overnight convention."
+  },
+  "flags": [
+    "Steep: 6.8% mean, 16% max; about 9% at best section",
+    "Dwellings 5-9m from kerb along 20-60m",
+    "Bus route and junction nearby"
+  ],
+  "sun_shade": "Dense bush canopy over the north side; shade from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall",
+    "kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Prospect Terrace north edge at the wooded start, above the hairpin",
+    "slope_pct": 9,
+    "points": [
+      [
+        152.996118,
+        -27.496161
+      ],
+      [
+        152.996223,
+        -27.496216
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 7.6,
+    "min_elevation_m": 28.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

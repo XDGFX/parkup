@@ -1,0 +1,70 @@
+{
+  "candidate": "58815445-251811566-33005926-r-33",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Flat parked-up kerb on a residential road; houses 16 m or more away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Nearest house 16 m in the middle",
+    "Houses all round within 25 m"
+  ],
+  "drivers": {
+    "seclusion": "Houses 16 m or more on this side; homes across the road about 20 m away.",
+    "access_and_room": "Kerbside lane with cars parked along it; flat with room for a van.",
+    "traffic": "Residential road, moderate traffic.",
+    "convention": "Cars park along this kerb; a No Stopping Any Time sign sits at the end."
+  },
+  "flags": [
+    "House 8 m away before 22 m",
+    "No Stopping Any Time sign at the start of the line",
+    "DEM spike of 25% near 10 m is noise; the best section is flat"
+  ],
+  "sun_shade": "Open to the east; trees and gardens give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact extent of No Stopping zone",
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 24,
+    "to_m": 42,
+    "where": "Ryans Road east kerb, between the driveways midway along",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.998498,
+        -27.493864
+      ],
+      [
+        152.998527,
+        -27.493825
+      ],
+      [
+        152.998618,
+        -27.493742
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 0.7,
+    "min_elevation_m": 19.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

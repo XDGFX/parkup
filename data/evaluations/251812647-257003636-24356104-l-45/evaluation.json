@@ -1,0 +1,65 @@
+{
+  "candidate": "251812647-257003636-24356104-l-45",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Houses 7-9 m from the kerb along its whole length.",
+  "reasons": [
+    "Dwellings 7-9 m away throughout",
+    "Next to a church and crossing",
+    "Houses face the kerb directly"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 7 m, two houses 7 m, another 9 m; homes line the entire stretch with front gardens facing the kerb.",
+    "access_and_room": "Cars park along this kerb, so a van could pull in.",
+    "traffic": "Busy through road at a junction with pedestrian crossing.",
+    "convention": "Cars park here; signs show P 5 Minute on Sundays 8am-1pm (church drop-off)."
+  },
+  "flags": [
+    "Dwellings within 10 m",
+    "P 5 Minute parking Sun 8am-1pm signs",
+    "Steep: about 2% mean, 5.8% max, flat in best section"
+  ],
+  "sun_shade": "Open to the west sun over the road; houses and trees shade the east side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 14,
+    "to_m": 28,
+    "where": "Ryans Road east kerb, between the two houses by the church",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.9975,
+        -27.495522
+      ],
+      [
+        152.997464,
+        -27.495644
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 0.8,
+    "min_elevation_m": 32.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

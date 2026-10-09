@@ -1,0 +1,64 @@
+{
+  "candidate": "257230258-1515019020-1240889570-l-10",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat mid-block patch of Highview Terrace, but homes 13-14 m away and steep either side.",
+  "reasons": [
+    "Flat only 35-55 m; steep elsewhere",
+    "Dwellings 13-14 m away on own side",
+    "Quiet residential street, few parked cars"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 13-14 m away on the south side; trees and a vacant-looking lot opposite.",
+    "access_and_room": "Sealed street with a gravel/grass verge beside the lane at about 50 m.",
+    "traffic": "Quiet residential street.",
+    "convention": "A couple of cars park along the street; no overnight convention seen."
+  },
+  "flags": [
+    "Steep outside the best section: mean 15.6%, max 31%",
+    "Homes 13-14 m away",
+    "Several No Stopping Any Time signs on the street; check on site"
+  ],
+  "sun_shade": "Dense tree shade from the north side, open sky to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact sign positions along the kerb"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 35,
+    "to_m": 55,
+    "where": "Mid-block on Highview Terrace, opposite the large tree-covered lot",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.993236,
+        -27.495823
+      ],
+      [
+        152.993063,
+        -27.495729
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 21.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,69 @@
+{
+  "candidate": "58815830-251811671-23268716-r-30",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 4 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Eight-metre kerb beside apartments, steep, with a loading zone sign.",
+  "reasons": [
+    "Apartments 4 m from kerb",
+    "Slope about 13%",
+    "Only 8 m, shorter than a van"
+  ],
+  "drivers": {
+    "seclusion": "SanSiena apartments 4 m away on the section's own side.",
+    "access_and_room": "Kerbside parking lane where cars park, but only 8 m long.",
+    "traffic": "Short residential street near a junction.",
+    "convention": "Cars park along the kerb; passenger loading zone signs here."
+  },
+  "flags": [
+    "Steep: about 13% grade",
+    "Dwelling within 10 m",
+    "Loading zone signs, 2 min max, Mon-Fri"
+  ],
+  "sun_shade": "Hedge and trees on the west side shade the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 8,
+    "where": "Raven Street west kerb, beside SanSiena apartments",
+    "slope_pct": 12.7,
+    "points": [
+      [
+        152.999726,
+        -27.494702
+      ],
+      [
+        152.99972,
+        -27.494733
+      ],
+      [
+        152.999713,
+        -27.494773
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 4,
+    "gated": false,
+    "slope_pct": 12.6,
+    "min_elevation_m": 10.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

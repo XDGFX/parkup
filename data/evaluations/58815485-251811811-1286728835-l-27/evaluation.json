@@ -1,0 +1,69 @@
+{
+  "candidate": "58815485-251811811-1286728835-l-27",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow apartment street; flats 7-16 m from the kerb, no cars parked.",
+  "reasons": [
+    "Apartments 7-16 m from kerb",
+    "No cars parked on this side",
+    "Overlooked, with No Stopping signs"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks and houses 7-16 m away on the same side.",
+    "access_and_room": "Narrow street; west kerb has footpath and verge, cars park on the east.",
+    "traffic": "Short connector between two streets; steady local traffic.",
+    "convention": "Signs show 1P, 2P resident-permit and No Stopping times; nobody parks here overnight."
+  },
+  "flags": [
+    "Dwelling within about 10 m",
+    "Low-lying: about 4 m elevation, 221 m from Brisbane River",
+    "Signs: No Stopping at set times and 2P permit zones"
+  ],
+  "sun_shade": "Open sun mostly; verge trees give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 2,
+    "to_m": 20,
+    "where": "South end beside the large grey apartment block",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.003246,
+        -27.494009
+      ],
+      [
+        153.003229,
+        -27.493914
+      ],
+      [
+        153.003218,
+        -27.493849
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 0.7,
+    "min_elevation_m": 4.1,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

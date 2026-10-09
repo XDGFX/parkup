@@ -1,0 +1,64 @@
+{
+  "candidate": "257220174-257230257-1238188774-r-27",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep residential street, about 19% grade, with homes 8-12 m away.",
+  "reasons": [
+    "Grade about 19%, over 12% limit",
+    "Dwellings 8-12 m from kerb",
+    "Narrow street among houses"
+  ],
+  "drivers": {
+    "seclusion": "Houses line the kerb; dwellings 8-11 m away along the first 35 m.",
+    "access_and_room": "Sealed street with a few parked cars; narrow ground beside the lane.",
+    "traffic": "Quiet side street off a busy road.",
+    "convention": "A few cars park along the street but no overnight convention seen."
+  },
+  "flags": [
+    "Steep: about 19% grade, max 27%",
+    "Homes within 8-12 m"
+  ],
+  "sun_shade": "Mostly shaded by street trees on the north side, open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "Highview Terrace just up from the main road junction, north side",
+    "slope_pct": 19,
+    "points": [
+      [
+        152.994677,
+        -27.49651
+      ],
+      [
+        152.994503,
+        -27.496418
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 16.9,
+    "min_elevation_m": 35.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

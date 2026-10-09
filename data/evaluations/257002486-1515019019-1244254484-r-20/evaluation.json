@@ -1,0 +1,69 @@
+{
+  "candidate": "257002486-1515019019-1244254484-r-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short junction kerb, very steep, no stopping, houses within 10-11m.",
+  "reasons": [
+    "Slope 27% mean, 70% max",
+    "Dwellings 10-11m from kerb",
+    "No Stopping Any Time sign"
+  ],
+  "drivers": {
+    "seclusion": "A detached house 10m and an apartment block 11m from the kerb on its own side; Lusso Residences 19m across the road.",
+    "access_and_room": "Corner kerb with a few cars parked nearby, but the stretch is only 20m and sits at a junction.",
+    "traffic": "Junction beside a main road; turning traffic.",
+    "convention": "Signed No Stopping Any Time."
+  },
+  "flags": [
+    "Very steep: 27% mean, 70% max",
+    "No Stopping Any Time sign",
+    "Dwellings within 10-11m"
+  ],
+  "sun_shade": "Open to the sun; trees on the west side give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "Prospect Terrace south kerb at the corner, beside the corner house",
+    "slope_pct": 26.9,
+    "points": [
+      [
+        152.992679,
+        -27.494483
+      ],
+      [
+        152.992746,
+        -27.494519
+      ],
+      [
+        152.992853,
+        -27.494575
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 16.1,
+    "min_elevation_m": 6.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

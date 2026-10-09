@@ -1,0 +1,65 @@
+{
+  "candidate": "58815512-58815761-1286146362-r-20",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy residential kerb with cars parked; apartments and houses 19-22 m away.",
+  "reasons": [
+    "Dwellings 19-22 m on own side",
+    "Homes close all round",
+    "Cars park along the whole kerb"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 19-22 m away on the west side; apartment blocks beyond; units opposite.",
+    "access_and_room": "Parked cars line the kerb, so a van fits in the parking lane.",
+    "traffic": "Quiet side street just off a busy main road.",
+    "convention": "Cars park here day and night, so a van blends in."
+  },
+  "flags": [
+    "Slope about 3.4% here, steeper further south",
+    "Dense apartments within 25 m all round",
+    "Low-lying near the top, about 4 m elevation",
+    "Noise from the main road at the top"
+  ],
+  "sun_shade": "Mixed tree cover over the road; shaded in the afternoon from the west buildings.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Resident permit enforcement at night"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 45,
+    "where": "Durham Street west kerb, 25-45 m down from the main road corner",
+    "slope_pct": 3.4,
+    "points": [
+      [
+        153.003871,
+        -27.494559
+      ],
+      [
+        153.003838,
+        -27.494737
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 3.4,
+    "min_elevation_m": 4,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,63 @@
+{
+  "candidate": "58815512-58815761-1286146362-r-252",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short Durham Street kerb; homes 11-20 m away, but parked cars line it.",
+  "reasons": [
+    "Houses 12-20 m on own side",
+    "Short 16 m kerb",
+    "Steep at about 6%"
+  ],
+  "drivers": {
+    "seclusion": "House 12 m and apartments 11 m away on the west side; units opposite.",
+    "access_and_room": "Kerbside lane with cars parked along it; room for a van.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park along both sides, so a van would blend in."
+  },
+  "flags": [
+    "Steep: about 6% grade",
+    "Homes within 25 m all round",
+    "Signed 1P/2P parking with permits"
+  ],
+  "sun_shade": "Mostly open from above; trees shade the west footpath in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 4,
+    "to_m": 16,
+    "where": "Durham Street west kerb, just south of the Chivalry Court apartments",
+    "slope_pct": 6.1,
+    "points": [
+      [
+        153.003529,
+        -27.496433
+      ],
+      [
+        153.00351,
+        -27.496539
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 5.7,
+    "min_elevation_m": 19.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:56:09Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
