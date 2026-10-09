@@ -1,0 +1,71 @@
+{
+  "candidate": "1462080393-1462080394-132901459-r-20",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet cul-de-sac kerb under trees; homes 12-25 m away all round.",
+  "reasons": [
+    "Homes within 25 m all round",
+    "Cars park near the turning head",
+    "Dead-end residential street"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 21-27 m near the head, garage 15 m; tree screening on the south side.",
+    "access_and_room": "Sealed street; cars stand near the head so there is room, but the road is narrow and treed.",
+    "traffic": "Dead end, residents only.",
+    "convention": "Cars park at the head; no signs mapped."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Brisbane River 307 m away, elevation about 7 m"
+  ],
+  "sun_shade": "Dense tree canopy over the south kerb, shade mostly from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether residents tolerate overnight vans"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 74,
+    "where": "south kerb near the Brinkworth Place turning head",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.963989,
+        -27.510993
+      ],
+      [
+        152.964008,
+        -27.510986
+      ],
+      [
+        152.964104,
+        -27.510952
+      ],
+      [
+        152.964168,
+        -27.510929
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 0.9,
+    "min_elevation_m": 6.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

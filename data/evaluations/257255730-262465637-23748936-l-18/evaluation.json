@@ -1,0 +1,50 @@
+{
+  "candidate": "257255730-262465637-23748936-l-18",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 3 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep residential kerb with houses 3-10 m away along the whole east side.",
+  "reasons": [
+    "Dwellings 3-10 m along every stretch",
+    "Up to 19% grade, 7% mean",
+    "Quiet street, no parking convention"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses front the east kerb at 3-10 m for the full length; homes on the west side too.",
+    "access_and_room": "Public street with a parked-car lane, but no stretch is clear of the houses.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "A few cars park on the east kerb; no signs; no overnight habit visible."
+  },
+  "flags": [
+    "Steep: 19% max, 7.2% mean",
+    "Dwellings within 10 m throughout",
+    "Sandy Creek 64 m away; low end under 10 m elevation"
+  ],
+  "sun_shade": "Open kerb; trees at the north end shade the road from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 3,
+    "gated": false,
+    "slope_pct": 7.2,
+    "min_elevation_m": 9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

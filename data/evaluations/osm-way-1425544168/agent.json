@@ -1,0 +1,29 @@
+{
+  "verdict": "poor",
+  "kind": "parking area",
+  "summary": "Car-dealer display lot packed with stock; no room, and a van would stand out.",
+  "reasons": [
+    "Lot full of dealership stock cars",
+    "Busy, lit commercial frontage on Moggill Road",
+    "No free space seen for a van"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Open commercial forecourt beside a major junction, overlooked by showrooms and staff; no cover.",
+    "access_and_room": "Lot is open to Moggill Road but every bay holds stock cars; no spare room seen. A mapped gate has a way round.",
+    "traffic": "Arterial and junction on two sides, constant noise; Moggill Road clearway beside the lot.",
+    "convention": "Cars here are dealer stock and customer parking, not overnight parking; a van left overnight would be noticed."
+  },
+  "flags": [
+    "Dealer lot, mapped customers-only parking nearby",
+    "Moggill Road clearway signs nearby",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open tarmac, full sun; some trees shade the Moggill Road edge from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting and CCTV",
+    "Whether the lot is gated or patrolled after hours"
+  ],
+  "confidence": "medium"
+}

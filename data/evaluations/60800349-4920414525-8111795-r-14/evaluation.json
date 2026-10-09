@@ -1,0 +1,47 @@
+{
+  "candidate": "60800349-4920414525-8111795-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Line crosses private gardens between houses; no road to stop on.",
+  "reasons": [
+    "No road visible under the line",
+    "Houses 11-14 m from the line",
+    "Private gardens, no room to stop"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by houses on all sides, with dwellings 11-13 m away along the line.",
+    "access_and_room": "The line runs through garden land and driveway edges, not a formed road; no pull-off a van can use.",
+    "traffic": "Not applicable; no road along the line.",
+    "convention": "No parked vehicles or tracks on the line itself."
+  },
+  "flags": [
+    "Dwellings within 10-15 m",
+    "Slope 4.4% mean, 9.6% max",
+    "Creek about 33 m away, elevation about 31 m"
+  ],
+  "sun_shade": "Tree canopy shades most of the line.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the gap is a public path or easement"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 4.2,
+    "min_elevation_m": 31.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

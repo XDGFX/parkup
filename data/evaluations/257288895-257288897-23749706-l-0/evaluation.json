@@ -1,0 +1,64 @@
+{
+  "candidate": "257288895-257288897-23749706-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Cul-de-sac head with a leafy bank, but houses 13-20 m away.",
+  "reasons": [
+    "Homes 13-20 m on both sides",
+    "Cul-de-sac, almost no through traffic",
+    "Tree-covered east verge hides the van"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush bank on the east side, but houses 13-15 m away and homes all round within 25 m.",
+    "access_and_room": "Sealed cul-de-sac with a turning bulb; kerb beside bush has room for a van, no visible vehicles parked.",
+    "traffic": "Dead-end street, local traffic only.",
+    "convention": "No sign of on-street parking convention; residents would notice a newcomer."
+  },
+  "flags": [
+    "Homes 13-20 m away",
+    "Max grade 13% in one DEM step, mean 4% (section about 2%)",
+    "Mapped gate 96 m away, not on the only access"
+  ],
+  "sun_shade": "Heavy tree canopy on the east side; afternoon sun from the west over the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "East kerb at the north end of the cul-de-sac bulb, beside the dense tree bank",
+    "slope_pct": 1.8,
+    "points": [
+      [
+        152.984833,
+        -27.509926
+      ],
+      [
+        152.984808,
+        -27.510059
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.8,
+    "min_elevation_m": 16.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

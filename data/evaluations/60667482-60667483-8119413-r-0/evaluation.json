@@ -1,0 +1,79 @@
+{
+  "candidate": "60667482-60667483-8119413-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat crest on a parked-up residential street; houses 11-22 m away.",
+  "reasons": [
+    "Cars park along the kerb",
+    "Dwellings 11-22 m, both sides",
+    "Flat at the crest, about 1.5%"
+  ],
+  "drivers": {
+    "seclusion": "Houses 11 m away either side of the section and homes within 25 m all round.",
+    "access_and_room": "Ordinary residential street; kerb lane wide enough for parked cars and a van.",
+    "traffic": "Local residential traffic; the motorway to the east adds noise only at the far end.",
+    "convention": "A row of cars parks along this kerb, so a van would blend in."
+  },
+  "flags": [
+    "Dwellings 11 m away on the section's own side",
+    "Steep elsewhere: mean 9%, max 17%; best section about 1.5%",
+    "Waterway 46 m away; start of stretch is low (8 m elevation)",
+    "Motorway noise near the start",
+    "Mapped gate 97 m away, not on the only access"
+  ],
+  "sun_shade": "Mostly open; garden trees shade the north kerb in parts, afternoon sun from the west.",
+  "rubbish": "Some dumped debris on the vacant plot opposite, near 150 m.",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 125,
+    "to_m": 145,
+    "where": "North kerb on the crest, between houses, opposite the vacant plot with dirt tracks",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.959372,
+        -27.508073
+      ],
+      [
+        152.959332,
+        -27.508067
+      ],
+      [
+        152.959279,
+        -27.508059
+      ],
+      [
+        152.959245,
+        -27.508054
+      ],
+      [
+        152.959172,
+        -27.508043
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.5,
+    "min_elevation_m": 19.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

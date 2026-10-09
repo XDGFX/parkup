@@ -1,0 +1,64 @@
+{
+  "candidate": "257283978-257288895-23749706-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential bend with homes 12-17 m away and a steep grade.",
+  "reasons": [
+    "Houses 12-17 m on both sides",
+    "Utes already parked at kerb",
+    "Steep: about 11% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Dense housing all round; nearest buildings 12-14 m away, so neighbours would notice.",
+    "access_and_room": "Narrow sealed street; wide grass verge on the west side gives room to pull off.",
+    "traffic": "Quiet cul-de-sac style street, light local traffic.",
+    "convention": "Vehicles park on the street, but no camping convention."
+  },
+  "flags": [
+    "Steep: mean grade 11%, max 16%",
+    "Homes within 12-17 m",
+    "Mapped gate 60 m away, not on the only access"
+  ],
+  "sun_shade": "Mixed: tree canopy on the east side, open verge on the west gets afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 30,
+    "where": "West kerb just south of the corner, beside the wide grass verge",
+    "slope_pct": 6.5,
+    "points": [
+      [
+        152.984876,
+        -27.509273
+      ],
+      [
+        152.984842,
+        -27.50945
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 69,
+    "gated": false,
+    "slope_pct": 12.4,
+    "min_elevation_m": 22.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

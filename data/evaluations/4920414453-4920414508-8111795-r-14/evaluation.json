@@ -1,0 +1,76 @@
+{
+  "candidate": "4920414453-4920414508-8111795-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential bend with homes about 12-30 m away; steep and overlooked.",
+  "reasons": [
+    "Homes on every side within 30 m",
+    "Quiet street, no parking convention",
+    "Steep, about 6.8% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Dense suburban housing both sides; nearest mapped homes 12 m behind and 29-31 m beyond this section.",
+    "access_and_room": "Sealed street, kerb-side room for a van; no parked cars seen so lane width unclear.",
+    "traffic": "Quiet local street, little through traffic.",
+    "convention": "No parked campers or regular kerb parking seen; no signs."
+  },
+  "flags": [
+    "Steep: about 6.8% mean, 11% max",
+    "Homes within 12-25 m on all sides",
+    "Near Witton Creek, 85 m; lowest end 37 m elevation so not flood-prone"
+  ],
+  "sun_shade": "Mixed tree canopy, shade from the south-west, open to morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Resident attitudes to parked vans"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 58,
+    "to_m": 78,
+    "where": "Straight run between the bend and the first houses, east side of Carinya Street",
+    "slope_pct": 6.5,
+    "points": [
+      [
+        152.961146,
+        -27.493379
+      ],
+      [
+        152.961117,
+        -27.493358
+      ],
+      [
+        152.961074,
+        -27.493321
+      ],
+      [
+        152.961033,
+        -27.493275
+      ],
+      [
+        152.961013,
+        -27.493245
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 5.8,
+    "min_elevation_m": 40.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "58736495-58736510-7920663-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Homes 5-7 m from the kerb along the whole stretch.",
+  "reasons": [
+    "Dwellings 5-7 m from kerb throughout",
+    "Houses front the west kerb",
+    "Narrow quiet street"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes at 5 m (at 20 m) and 7 m (at 5 m) sit right on the west kerb.",
+    "access_and_room": "Sealed street, cars park both sides near the junction; room to stop at kerb.",
+    "traffic": "Quiet residential street.",
+    "convention": "Residential parking only; no sign of overnight stays."
+  },
+  "flags": [
+    "Dwellings within 5-7 m of the whole stretch",
+    "Slope mean 2.6%, max 8.2%",
+    "Mapped gate 240 m away has a way round"
+  ],
+  "sun_shade": "Garden trees and houses shade the west kerb through the morning; open to the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 18,
+    "where": "Carrington Road west kerb, mid-block between the cross street and the bend north",
+    "slope_pct": 2.3,
+    "points": [
+      [
+        152.982949,
+        -27.499039
+      ],
+      [
+        152.982962,
+        -27.498968
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 5.4,
+    "min_elevation_m": 21.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

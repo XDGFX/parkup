@@ -1,0 +1,63 @@
+{
+  "candidate": "257255730-262465637-23748936-r-16",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb on a flatter crest, homes 15-17 m back.",
+  "reasons": [
+    "Dwellings 15-17 m on same side",
+    "Few cars park here",
+    "Flat crest around 80-100 m"
+  ],
+  "drivers": {
+    "seclusion": "Houses with front gardens sit 15-17 m from the kerb; homes opposite 13-15 m.",
+    "access_and_room": "Open kerb with room to pull in; a few cars park along it.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "No signs; scattered cars on the kerb, no overnight habit visible."
+  },
+  "flags": [
+    "Dwellings 13-17 m away all round",
+    "Steep elsewhere: 17% max, 7.3% mean overall",
+    "Sandy Creek 64 m away; low end under 10 m elevation"
+  ],
+  "sun_shade": "Open; trees at 100-140 m shade the west side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 80,
+    "to_m": 105,
+    "where": "Bowaga Street west kerb, on the crest mid-street",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.986903,
+        -27.50376
+      ],
+      [
+        152.986862,
+        -27.503982
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 16.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,63 @@
+{
+  "candidate": "58736495-58736510-7920663-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat east kerb near the junction; homes 13-17 m away all round.",
+  "reasons": [
+    "Homes 13-17 m away both sides",
+    "Gentle grade, about 2%",
+    "Cars park along the street"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 13 m away on the west and 14-17 m on the east; no bush behind.",
+    "access_and_room": "Sealed street with a wide grass verge on the east; room to pull in at kerb.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Residential parking is normal here; no sign of overnight stays."
+  },
+  "flags": [
+    "Dwellings 13-17 m away on both sides",
+    "Mapped gate 253 m away has a way round"
+  ],
+  "sun_shade": "Street trees shade the kerb from the west; open to the morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Local neighbour tolerance"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 2,
+    "to_m": 10,
+    "where": "Carrington Road east kerb just north of the cross street, beside the grass verge",
+    "slope_pct": 1.9,
+    "points": [
+      [
+        152.983039,
+        -27.498997
+      ],
+      [
+        152.983053,
+        -27.498926
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 21.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

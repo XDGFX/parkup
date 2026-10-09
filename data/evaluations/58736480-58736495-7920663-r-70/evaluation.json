@@ -1,0 +1,64 @@
+{
+  "candidate": "58736480-58736495-7920663-r-70",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Fairly flat kerb on a quiet street, homes 15-20 m both sides.",
+  "reasons": [
+    "Homes 15-21 m away all round",
+    "Gentle grade at 25-40 m",
+    "Cars park along this street"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 20-21 m away on the east side and 15 m or more across the road; no bush backing.",
+    "access_and_room": "Sealed street with parked cars on the west side; kerb has room for a van.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Residential parking is normal here but no sign of overnight stays."
+  },
+  "flags": [
+    "Dwellings 15-21 m away on both sides",
+    "Steeper (about 5% mean) elsewhere on the stretch",
+    "Mapped gate 166 m away has a way round"
+  ],
+  "sun_shade": "Mixed tree cover on the east verge shades the kerb in the afternoon; open to the morning sun on the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Local neighbour tolerance"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 40,
+    "where": "Carrington Road east kerb, 25-40 m north of the first house on the east side",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.982928,
+        -27.499575
+      ],
+      [
+        152.982954,
+        -27.499442
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 22.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

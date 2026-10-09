@@ -1,0 +1,66 @@
+{
+  "candidate": "60200187-60200188-20082130-l-64",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 3 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Dwelling 3 m from the kerb; short residential stretch with cars parked.",
+  "reasons": [
+    "House 3 m from kerb",
+    "Homes all round within 25 m",
+    "Mapped sign: No Stopping Any Time"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the kerb at 3, 15 and 19 m; no screening.",
+    "access_and_room": "Sealed street with cars parked at the kerb; room exists but is in front of homes.",
+    "traffic": "Quiet dead-end residential street.",
+    "convention": "Cars park here, but a No Stopping Any Time sign covers the kerb."
+  },
+  "flags": [
+    "Dwelling 3 m from kerb",
+    "Steep: about 5% mean, 8% max",
+    "No Stopping Any Time sign",
+    "Brisbane River 103 m away, elevation about 9-10 m"
+  ],
+  "sun_shade": "Open sealed road; trees to the south and east give partial shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "Bridge Street outside the house near the dead end",
+    "slope_pct": 5.1,
+    "points": [
+      [
+        152.96769,
+        -27.507131
+      ],
+      [
+        152.967988,
+        -27.507165
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 3,
+    "gated": false,
+    "slope_pct": 5.1,
+    "min_elevation_m": 9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

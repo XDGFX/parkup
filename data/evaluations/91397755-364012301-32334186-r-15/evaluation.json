@@ -1,0 +1,69 @@
+{
+  "candidate": "91397755-364012301-32334186-r-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep street; north kerb runs beside bush with a house at the junction.",
+  "reasons": [
+    "Grade about 17%, over the 12% limit",
+    "House 8 m from kerb",
+    "No cars parked on this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush on the north side; nearest dwellings 16-26 m and 8 m near the start.",
+    "access_and_room": "Sealed street with a narrow verge, steep bank and trees; little room to pull off.",
+    "traffic": "Through street with passing traffic.",
+    "convention": "No parked cars or signs seen on this kerb."
+  },
+  "flags": [
+    "Steep: 16.6% mean, 18.4% max",
+    "Through street, no parking seen",
+    "Overhead power lines along the kerb"
+  ],
+  "sun_shade": "Heavy tree shade from the north and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 22,
+    "to_m": 45,
+    "where": "Bunning Street north kerb beside the wooded block",
+    "slope_pct": 16.6,
+    "points": [
+      [
+        152.960603,
+        -27.512504
+      ],
+      [
+        152.960416,
+        -27.512611
+      ],
+      [
+        152.960407,
+        -27.512616
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 17.1,
+    "min_elevation_m": 28,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

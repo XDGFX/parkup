@@ -1,0 +1,64 @@
+{
+  "candidate": "251460731-4920414438-8111798-l-0",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Road end beside bushland, cars already park here, nearest mapped home about 23 m.",
+  "reasons": [
+    "Backs onto dense bush at the road end",
+    "Nearest mapped dwelling over 20 m",
+    "Cars already park in the turning head"
+  ],
+  "drivers": {
+    "seclusion": "Bush runs along the west edge of the turning head; mapped houses are 23 m (at 0 m) and 20 m (at 21 m) away, with a house on the north side screened by palms.",
+    "access_and_room": "Sealed turning head wide enough to pull in; several cars park there already.",
+    "traffic": "Dead-end residential street; only local traffic.",
+    "convention": "Parked cars at the end of the street; no campers seen."
+  },
+  "flags": [
+    "Two No Stopping Any Time signs sit about 10-13 m from the kerb line near the start, so check the arrows on site",
+    "Steep: about 2.8% mean grade, 5% max",
+    "Witton Creek mapped about 2 m away, min elevation 38 m"
+  ],
+  "sun_shade": "Bush to the west shades the afternoon; the turning head is open to the morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Which kerb the No Stopping signs cover"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "North kerb at the dead-end turning head, against the bushland",
+    "slope_pct": 2.2,
+    "points": [
+      [
+        152.96017,
+        -27.494164
+      ],
+      [
+        152.960298,
+        -27.494219
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 2.5,
+    "min_elevation_m": 39.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

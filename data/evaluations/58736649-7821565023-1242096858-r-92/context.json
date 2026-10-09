@@ -1,0 +1,478 @@
+{
+  "id": "58736649-7821565023-1242096858-r-92",
+  "street": "Carnarvon Road",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.982764,
+      -27.501258
+    ],
+    [
+      152.982751,
+      -27.501326
+    ],
+    [
+      152.982734,
+      -27.501417
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "west",
+  "length_m": 18,
+  "signs": [
+    {
+      "street": "CARNARVON ROAD",
+      "restriction": "No Stopping Specified Times",
+      "days_times": ":7am-9am ,SCHOOLDAYS:2pm-4pm",
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 8.8
+    },
+    {
+      "street": "CARNARVON ROAD",
+      "restriction": "No Stopping Specified Times",
+      "days_times": ":7am-9am ,SCHOOLDAYS:2pm-4pm",
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 7.8
+    },
+    {
+      "street": "CARNARVON ROAD",
+      "restriction": "No Stopping Specified Times",
+      "days_times": ":7am-9am ,SCHOOLDAYS:2pm-4pm",
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 5.9
+    },
+    {
+      "street": "CARNARVON ROAD",
+      "restriction": "Bus Zone",
+      "days_times": ":7am-9am ,SCHOOLDAYS:2pm-4pm",
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 6
+    },
+    {
+      "street": "CARNARVON ROAD",
+      "restriction": "No Stopping Specified Times",
+      "days_times": ":7am-9am ,SCHOOLDAYS:2pm-4pm",
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 3.7
+    }
+  ],
+  "buildings": [
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 8,
+      "at_m": 5,
+      "outline": [
+        [
+          152.9826355,
+          -27.5011516
+        ],
+        [
+          152.9824444,
+          -27.5011194
+        ],
+        [
+          152.9824395,
+          -27.501142
+        ],
+        [
+          152.9823896,
+          -27.5011336
+        ],
+        [
+          152.9823708,
+          -27.5012213
+        ],
+        [
+          152.982615,
+          -27.5012625
+        ],
+        [
+          152.9826109,
+          -27.5012815
+        ],
+        [
+          152.98268,
+          -27.5012932
+        ],
+        [
+          152.9826939,
+          -27.5012288
+        ],
+        [
+          152.9826215,
+          -27.5012166
+        ],
+        [
+          152.9826355,
+          -27.5011516
+        ]
+      ]
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 8,
+      "at_m": 11,
+      "outline": [
+        [
+          152.9823492,
+          -27.5012456
+        ],
+        [
+          152.9825515,
+          -27.501276
+        ],
+        [
+          152.9825422,
+          -27.5013245
+        ],
+        [
+          152.9826701,
+          -27.5013437
+        ],
+        [
+          152.9826597,
+          -27.5013983
+        ],
+        [
+          152.9823295,
+          -27.5013485
+        ],
+        [
+          152.9823492,
+          -27.5012456
+        ]
+      ]
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 18,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9824584,
+          -27.500944
+        ],
+        [
+          152.9826731,
+          -27.5009801
+        ],
+        [
+          152.982676,
+          -27.5009666
+        ],
+        [
+          152.9827414,
+          -27.5009776
+        ],
+        [
+          152.9827282,
+          -27.5010391
+        ],
+        [
+          152.9826729,
+          -27.5010298
+        ],
+        [
+          152.9826517,
+          -27.5011294
+        ],
+        [
+          152.9825222,
+          -27.5011076
+        ],
+        [
+          152.9825286,
+          -27.5010773
+        ],
+        [
+          152.9824619,
+          -27.5010661
+        ],
+        [
+          152.9824676,
+          -27.5010393
+        ],
+        [
+          152.982439,
+          -27.5010345
+        ],
+        [
+          152.9824584,
+          -27.500944
+        ]
+      ]
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 33,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9824683,
+          -27.5008367
+        ],
+        [
+          152.9827365,
+          -27.5008802
+        ],
+        [
+          152.9827198,
+          -27.5009612
+        ],
+        [
+          152.9824517,
+          -27.5009177
+        ],
+        [
+          152.9824683,
+          -27.5008367
+        ]
+      ]
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 47,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9826244,
+          -27.5005438
+        ],
+        [
+          152.9827652,
+          -27.5005626
+        ],
+        [
+          152.9827399,
+          -27.5007109
+        ],
+        [
+          152.9827191,
+          -27.5007082
+        ],
+        [
+          152.9826964,
+          -27.5008415
+        ],
+        [
+          152.9826038,
+          -27.5008291
+        ],
+        [
+          152.9826252,
+          -27.5007028
+        ],
+        [
+          152.982598,
+          -27.5006991
+        ],
+        [
+          152.9826244,
+          -27.5005438
+        ]
+      ]
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 57,
+      "at_m": 10,
+      "outline": [
+        [
+          152.9819134,
+          -27.5012219
+        ],
+        [
+          152.9818994,
+          -27.5012855
+        ],
+        [
+          152.9821589,
+          -27.5013303
+        ],
+        [
+          152.9821729,
+          -27.5012666
+        ],
+        [
+          152.9819134,
+          -27.5012219
+        ]
+      ]
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 57,
+      "at_m": 1,
+      "outline": [
+        [
+          152.9819306,
+          -27.5011375
+        ],
+        [
+          152.9819167,
+          -27.5012011
+        ],
+        [
+          152.9821762,
+          -27.5012459
+        ],
+        [
+          152.9821901,
+          -27.5011822
+        ],
+        [
+          152.9819306,
+          -27.5011375
+        ]
+      ]
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 58,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9819695,
+          -27.5009602
+        ],
+        [
+          152.9819556,
+          -27.5010239
+        ],
+        [
+          152.9822151,
+          -27.5010686
+        ],
+        [
+          152.982229,
+          -27.5010049
+        ],
+        [
+          152.9819695,
+          -27.5009602
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9829825,
+      "lat": -27.501289,
+      "metres": 22,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.982764,
+        "lat": -27.501258,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 11.84
+      },
+      {
+        "lon": 152.982756,
+        "lat": -27.501302,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 11.77
+      },
+      {
+        "lon": 152.982747,
+        "lat": -27.501347,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 11.67
+      },
+      {
+        "lon": 152.982739,
+        "lat": -27.501391,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 11.61
+      },
+      {
+        "lon": 152.982734,
+        "lat": -27.501417,
+        "at_m": 17.9,
+        "line": 0,
+        "elevation_m": 11.57
+      }
+    ],
+    "min_elevation_m": 11.6,
+    "max_elevation_m": 11.8,
+    "mean_grade_pct": 1.5,
+    "max_grade_pct": 2
+  },
+  "waterway": {
+    "name": null,
+    "metres": 99
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 54,
+      "access": "customers",
+      "fee": "no",
+      "surface": "unpaved"
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 18,
+      "length_m": 18,
+      "images": {
+        "esri": ".cache/imagery/58736649-7821565023-1242096858-r-92/chunk1-esri.jpg",
+        "qld": ".cache/imagery/58736649-7821565023-1242096858-r-92/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        63,
+        78
+      ],
+      "image_px": [
+        420,
+        518
+      ]
+    }
+  ]
+}

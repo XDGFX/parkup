@@ -1,0 +1,64 @@
+{
+  "candidate": "257288895-257288897-23749706-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short cul-de-sac kerb in front of homes, 12 m from the nearest.",
+  "reasons": [
+    "House 12 m away on same side",
+    "Dead-end street, little traffic",
+    "Homes within 25 m all round"
+  ],
+  "drivers": {
+    "seclusion": "Houses 12-16 m away on the section's own side and more within 25 m; residents would notice.",
+    "access_and_room": "Sealed cul-de-sac bulb; kerb is a narrow strip backed by fences and gardens, but the turning head gives room.",
+    "traffic": "Dead end, local traffic only.",
+    "convention": "No parked vehicles seen; no camping convention."
+  },
+  "flags": [
+    "Homes 12-16 m away",
+    "Mapped gate 112 m away, not on the only access"
+  ],
+  "sun_shade": "Open sealed bulb with trees to the east and south; morning shade, afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 21,
+    "where": "West kerb around the cul-de-sac bulb, opposite the large house on the east",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.984712,
+        -27.510128
+      ],
+      [
+        152.984694,
+        -27.510225
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 0.6,
+    "min_elevation_m": 16,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

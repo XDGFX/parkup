@@ -1,0 +1,65 @@
+{
+  "candidate": "54625983-9339363163-7307629-r-20",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat east kerb mid-street, homes about 16 m on both sides.",
+  "reasons": [
+    "Homes 16 m or more each side",
+    "Flat, about 1% grade at 155-165 m",
+    "Cars park along the west kerb"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes about 16 m away on the east side and homes across the road on the west; no bush backing.",
+    "access_and_room": "Sealed street with parked cars on the west kerb; the east verge is grassed and treed with room to stop.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Residents park on this street; a van would blend in but not unnoticed overnight."
+  },
+  "flags": [
+    "Dwellings 14-16 m away on both sides",
+    "Most of the stretch is steep (mean 6.5%, max 15.6%) with houses 4-8 m from the kerb",
+    "Sandy Creek 205 m away",
+    "Mapped gates 242 m or more away have ways round"
+  ],
+  "sun_shade": "Mixed tree cover on the east verge gives afternoon shade; open to the morning sun on the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Local neighbour tolerance"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 156,
+    "to_m": 166,
+    "where": "Castile Street east kerb at the flat low point, between the two pool houses",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.990975,
+        -27.509131
+      ],
+      [
+        152.990994,
+        -27.509043
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 16.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

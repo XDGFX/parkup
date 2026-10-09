@@ -1,0 +1,28 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Short narrow lane under dense trees; no clear ground to pull off.",
+  "reasons": [
+    "Narrow lane, trees and fences both sides",
+    "Only 27 m, no room beside the lane",
+    "Homes 15-23 m away on both sides"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Dense canopy hides the lane, and nearest homes are 15 m or more away, but houses sit on both sides.",
+    "access_and_room": "Single narrow sealed lane between trees and garden edges; no pull-off or verge wide enough for a van.",
+    "traffic": "Quiet cul-de-sac style lane, little traffic.",
+    "convention": "No parked cars on this stretch; residents' street with no overnight convention."
+  },
+  "flags": [
+    "Creek about 5 m away: flood-prone, though elevation is about 30 m",
+    "Slope fine: 1.4% mean, 3.2% max"
+  ],
+  "sun_shade": "Fully shaded by tree canopy.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact lane width",
+    "Street lighting"
+  ],
+  "confidence": "medium"
+}

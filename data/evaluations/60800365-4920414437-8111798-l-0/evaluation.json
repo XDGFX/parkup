@@ -1,0 +1,69 @@
+{
+  "candidate": "60800365-4920414437-8111798-l-0",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb with homes 12-17 m off the first few metres.",
+  "reasons": [
+    "Dwellings 12-17 m away on own side",
+    "Cars park along this kerb",
+    "Quiet cul-de-sac style street"
+  ],
+  "drivers": {
+    "seclusion": "Houses line the north side at 12 m and 17 m; a 6 m house starts at 14 m along, so only the first few metres are clear of it.",
+    "access_and_room": "Sealed street with a parked car and truck at the kerb, so room to pull in is plausible.",
+    "traffic": "Quiet residential bend; light local traffic.",
+    "convention": "Cars park here, but no sign of campers; residential street with no overnight convention."
+  },
+  "flags": [
+    "Steep: about 3% mean grade over the stretch, 5.6% max",
+    "Low-lying: Witton Creek mapped about 1 m away, min elevation 35 m (not under 5 m)"
+  ],
+  "sun_shade": "Mostly open; trees to the north-east and a house block morning sun from the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 9,
+    "where": "Start of the stretch, just before the house frontage on the north side",
+    "slope_pct": 2.3,
+    "points": [
+      [
+        152.961233,
+        -27.494479
+      ],
+      [
+        152.96129,
+        -27.494485
+      ],
+      [
+        152.961324,
+        -27.494487
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 4,
+    "min_elevation_m": 36.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

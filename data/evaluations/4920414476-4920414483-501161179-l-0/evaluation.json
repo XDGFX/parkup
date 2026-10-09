@@ -1,0 +1,81 @@
+{
+  "candidate": "4920414476-4920414483-501161179-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Dead-end turning head beside bush; homes about 10-15 m west, steep.",
+  "reasons": [
+    "Bush on east, arterial beyond",
+    "Homes roughly 10-15 m west (unmapped)",
+    "Steep, 8-10% near the head"
+  ],
+  "drivers": {
+    "seclusion": "Bush strip to the east; houses sit about 10-15 m west of the turning head and OSM has no buildings mapped here.",
+    "access_and_room": "Sealed dead-end with a turning circle; a white van already parks there, so room for a van exists.",
+    "traffic": "Dead-end, almost no through traffic; the arterial 60 m east is screened by trees.",
+    "convention": "A parked van is visible at the head; no campers or signs seen."
+  },
+  "flags": [
+    "Steep: about 10.7% mean over the stretch, about 8.5% at the head",
+    "Arterial noise from the east",
+    "Houses likely 10-15 m away, OSM buildings missing"
+  ],
+  "sun_shade": "Tree shade from the east bush in the morning, open to the west afternoon sun over the houses.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact distance to the unmapped houses",
+    "Resident attitudes to parked vans"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Turning head at the south end of Carinya Street, beside the bushland",
+    "slope_pct": 8.5,
+    "points": [
+      [
+        152.962965,
+        -27.498342
+      ],
+      [
+        152.96299,
+        -27.498307
+      ],
+      [
+        152.963002,
+        -27.498287
+      ],
+      [
+        152.963011,
+        -27.498268
+      ],
+      [
+        152.963017,
+        -27.498249
+      ],
+      [
+        152.963018,
+        -27.498246
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 9.2,
+    "min_elevation_m": 36,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

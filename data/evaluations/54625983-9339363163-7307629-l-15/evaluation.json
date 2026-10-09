@@ -1,0 +1,65 @@
+{
+  "candidate": "54625983-9339363163-7307629-l-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wide kerb where cars park, homes 16 m or more away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Homes 16-23 m away near 40-48 m",
+    "Gentle 2% grade here"
+  ],
+  "drivers": {
+    "seclusion": "Large detached homes 16 m or more away on the west side and across the road; no bush backing.",
+    "access_and_room": "Sealed street wide enough for kerbside parking; parked cars are visible near 50 m.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Residents park along this kerb; a van would blend in but not unnoticed overnight."
+  },
+  "flags": [
+    "Dwellings 16-23 m away on both sides",
+    "Rest of the stretch has houses 3-8 m from the kerb and slopes up to 12.6%",
+    "Sandy Creek 197 m away; low ground at the far end",
+    "Mapped gates 234 m or more away have ways round"
+  ],
+  "sun_shade": "Mostly open; a tree canopy sits on the east side near the start, giving afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Local neighbour tolerance"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 38,
+    "to_m": 48,
+    "where": "Castile Street west kerb, about 40 m up from the main road junction",
+    "slope_pct": 2.3,
+    "points": [
+      [
+        152.990661,
+        -27.510203
+      ],
+      [
+        152.99068,
+        -27.510115
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 2.8,
+    "min_elevation_m": 23.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

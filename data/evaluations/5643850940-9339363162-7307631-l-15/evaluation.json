@@ -1,0 +1,70 @@
+{
+  "candidate": "5643850940-9339363162-7307631-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Dense housing right at the kerb; dwellings within 10 m of every flat stretch.",
+  "reasons": [
+    "Dwellings 7-9 m from kerb",
+    "Homes all round",
+    "Dense suburban street"
+  ],
+  "drivers": {
+    "seclusion": "Houses at 9 m (42 m mark) and 7 m (63 m mark) front the kerb; pools and homes all round.",
+    "access_and_room": "Sealed street with cars parked at the kerb, so room exists.",
+    "traffic": "Quiet residential loop.",
+    "convention": "Several cars park along the west kerb."
+  },
+  "flags": [
+    "Dwellings within 10 m",
+    "Steep overall: 9.7% mean, 19.6% max, flat 25-85 m",
+    "Mapped gates 250 m away, not on the access"
+  ],
+  "sun_shade": "Open sealed road; hedges and street trees give partial shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Local parking rules"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 40,
+    "where": "Cadiz Street west kerb on the flat stretch past the bend",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.991713,
+        -27.50925
+      ],
+      [
+        152.991677,
+        -27.509186
+      ],
+      [
+        152.99168,
+        -27.509123
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 4.1,
+    "min_elevation_m": 23.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

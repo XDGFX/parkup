@@ -1,0 +1,28 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Steep, narrow residential street with houses 6-12 m from the kerb all along.",
+  "reasons": [
+    "Mean grade 13.5%, max 23%",
+    "Dwellings within 10 m along most of it",
+    "Narrow lane, no room to pull off"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Homes line both sides, several within 6-11 m of the kerb; dense gardens and trees but dwellings right there.",
+    "access_and_room": "Narrow sealed lane with garden edges and trees; little clear ground beside it, and the descent is steep.",
+    "traffic": "Quiet residential street with little through traffic.",
+    "convention": "Few parked cars seen; no sign of overnight parking here."
+  },
+  "flags": [
+    "Steep: 13.5% mean grade, 23% max",
+    "Houses within 10 m (6 m at 134 m, 8 m at 8 m)"
+  ],
+  "sun_shade": "Heavily shaded by tree canopy, especially from 40 to 100 m.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,52 @@
+{
+  "candidate": "58736649-7821565023-1242096858-r-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "School-zone through road with no parked cars; homes 7-13 m behind the kerb.",
+  "reasons": [
+    "Through road, no cars parked on this kerb",
+    "Houses 7-13 m from the kerb",
+    "School-time no stopping signs"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses front straight onto this kerb at 7-13 m; nothing screens it.",
+    "access_and_room": "Narrow sealed lane with kerb-to-fence verge on the west side; no pull-off beside it.",
+    "traffic": "Through road at a school entrance with a marked parking bay on the other side.",
+    "convention": "No cars parked on this west kerb; no stopping 7-9am and 2-4pm on school days."
+  },
+  "flags": [
+    "No stopping 7-9am and school days 2-4pm",
+    "Houses within 7-13 m",
+    "School zone, daytime activity",
+    "Mapped gate 22 m away with a way round"
+  ],
+  "sun_shade": "Mostly open; street trees shade the east side, houses block the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb width",
+    "Resident attitudes to parked vans"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 11.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

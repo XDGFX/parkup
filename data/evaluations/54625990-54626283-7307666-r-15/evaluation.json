@@ -1,0 +1,73 @@
+{
+  "candidate": "54625990-54626283-7307666-r-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb on a quiet cul-de-sac bend, homes about 16 m away.",
+  "reasons": [
+    "Dwellings 16-17 m away on this side",
+    "Quiet residential street, cars parked nearby",
+    "Flat here, steeper further along"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings sit 16 m and 17 m from the kerb here, with non-dwelling buildings 11-12 m away; homes all round.",
+    "access_and_room": "Sealed street, cars park along this kerb, room to pull in.",
+    "traffic": "Quiet cul-de-sac with little through traffic.",
+    "convention": "Residents park on the street, no sign of overnight campers."
+  },
+  "flags": [
+    "Steeper past 90 m: up to about 19% max grade"
+  ],
+  "sun_shade": "Mostly open, some tree shade from the west side; morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 60,
+    "where": "South side of the bend, beside the tennis court and pool houses",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.991446,
+        -27.510862
+      ],
+      [
+        152.991534,
+        -27.510902
+      ],
+      [
+        152.991623,
+        -27.510907
+      ],
+      [
+        152.991706,
+        -27.510896
+      ],
+      [
+        152.991736,
+        -27.510888
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 26.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

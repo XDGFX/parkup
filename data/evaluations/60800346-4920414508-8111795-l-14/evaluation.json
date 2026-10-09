@@ -1,0 +1,49 @@
+{
+  "candidate": "60800346-4920414508-8111795-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep, narrow residential street with houses 6-12 m from the kerb all along.",
+  "reasons": [
+    "Mean grade 13.5%, max 23%",
+    "Dwellings within 10 m along most of it",
+    "Narrow lane, no room to pull off"
+  ],
+  "drivers": {
+    "seclusion": "Homes line both sides, several within 6-11 m of the kerb; dense gardens and trees but dwellings right there.",
+    "access_and_room": "Narrow sealed lane with garden edges and trees; little clear ground beside it, and the descent is steep.",
+    "traffic": "Quiet residential street with little through traffic.",
+    "convention": "Few parked cars seen; no sign of overnight parking here."
+  },
+  "flags": [
+    "Steep: 13.5% mean grade, 23% max",
+    "Houses within 10 m (6 m at 134 m, 8 m at 8 m)"
+  ],
+  "sun_shade": "Heavily shaded by tree canopy, especially from 40 to 100 m.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 13.5,
+    "min_elevation_m": 47.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

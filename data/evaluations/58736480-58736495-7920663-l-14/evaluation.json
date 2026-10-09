@@ -1,0 +1,49 @@
+{
+  "candidate": "58736480-58736495-7920663-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 4 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep suburban kerb with houses 4-12 m away all along.",
+  "reasons": [
+    "Dwellings within 10 m along it",
+    "Mean grade 12.7%, steep",
+    "Homes both sides of road"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 4-12 m from the kerb along the stretch, no gap; even the gentler start has houses at 10-12 m.",
+    "access_and_room": "Narrow sealed street with a few parked cars; fine to enter but steep.",
+    "traffic": "Quiet residential street with a side road at the start.",
+    "convention": "Residents park on the street, no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 12.7% mean, 19% max",
+    "Mapped unpaved customers-only car park 57 m away"
+  ],
+  "sun_shade": "Mixed tree shade from both sides, heavier on the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 4,
+    "gated": false,
+    "slope_pct": 12.7,
+    "min_elevation_m": 12.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

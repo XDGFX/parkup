@@ -1,0 +1,50 @@
+{
+  "candidate": "58736649-7821565023-1242096858-r-92",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short school-zone kerb with a bus zone; houses 8 m away.",
+  "reasons": [
+    "Houses 8 m from the kerb",
+    "Bus zone and school no stopping signs",
+    "Only 18 m long, beside a junction"
+  ],
+  "drivers": {
+    "seclusion": "Two detached dwellings sit 8 m from the kerb; unscreened.",
+    "access_and_room": "Narrow sealed lane, kerb-to-fence verge; only 18 m and signed against stopping.",
+    "traffic": "Through road at a school with a bus stop and a marked parking bay opposite.",
+    "convention": "Bus zone and no stopping 7-9am and 2-4pm on school days."
+  },
+  "flags": [
+    "Bus zone and no stopping signs at school times",
+    "Houses within 8 m",
+    "Mapped gate 22 m away with a way round"
+  ],
+  "sun_shade": "Open to the sky with tree shade from the south-west gardens.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb width"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 11.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,34 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb with bushland opposite; houses about 13 m away on this side.",
+  "reasons": [
+    "Bush across the road, homes on this side",
+    "Quiet street, no parking convention",
+    "Gentle slope, 2.5% over the section"
+  ],
+  "best_section": {
+    "from_m": 30,
+    "to_m": 60,
+    "where": "Carinya Street, west kerb, where the bend runs alongside bush on the east side",
+    "slope_pct": 2.5
+  },
+  "drivers": {
+    "seclusion": "Dense bushland on the far side; houses on this side sit about 13 m or more back behind gardens.",
+    "access_and_room": "Sealed lane with a grass verge on the west side; room for a van beside the lane looks adequate but tight.",
+    "traffic": "Quiet dead-end style residential street, little traffic.",
+    "convention": "Only a few cars parked, near the 100 m end; no overnight parking habit visible."
+  },
+  "flags": [
+    "Creek about 1 m away: flood-prone, though elevation is about 31 m",
+    "Dwellings 10-13 m from the kerb at 22 m and 78-83 m"
+  ],
+  "sun_shade": "Tree canopy from the east shades the morning; afternoon sun from the west is blocked by houses.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact verge width"
+  ],
+  "confidence": "low"
+}

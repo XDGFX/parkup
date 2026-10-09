@@ -1,0 +1,47 @@
+{
+  "candidate": "60800349-4920414455-8111795-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short narrow lane under dense trees; no clear ground to pull off.",
+  "reasons": [
+    "Narrow lane, trees and fences both sides",
+    "Only 27 m, no room beside the lane",
+    "Homes 15-23 m away on both sides"
+  ],
+  "drivers": {
+    "seclusion": "Dense canopy hides the lane, and nearest homes are 15 m or more away, but houses sit on both sides.",
+    "access_and_room": "Single narrow sealed lane between trees and garden edges; no pull-off or verge wide enough for a van.",
+    "traffic": "Quiet cul-de-sac style lane, little traffic.",
+    "convention": "No parked cars on this stretch; residents' street with no overnight convention."
+  },
+  "flags": [
+    "Creek about 5 m away: flood-prone, though elevation is about 30 m",
+    "Slope fine: 1.4% mean, 3.2% max"
+  ],
+  "sun_shade": "Fully shaded by tree canopy.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact lane width",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 30.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

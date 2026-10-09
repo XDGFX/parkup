@@ -1,0 +1,75 @@
+{
+  "candidate": "54626283-54626283-24300437-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Cul-de-sac head kerb backed by hedge and bush, houses 13-25 m away.",
+  "reasons": [
+    "Backs onto dense planting and path",
+    "Buildings 13-25 m away all round",
+    "Dead end, very little traffic"
+  ],
+  "drivers": {
+    "seclusion": "Dense trees and a path behind the kerb; buildings tagged only 'yes' sit 13-25 m away and are probably homes or outbuildings.",
+    "access_and_room": "Wide turning circle with a sealed apron, room to pull in clear of the lane.",
+    "traffic": "Dead-end court, only residents pass.",
+    "convention": "Cars park around the head and a building site sits just east; no sign of overnight stays."
+  },
+  "flags": [
+    "Slope about 3.5% mean, up to 7.6% max",
+    "Building works vehicles near the east end"
+  ],
+  "sun_shade": "Heavy tree shade over the kerb, mainly from the north and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the 'yes' buildings are homes",
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 30,
+    "where": "Northern kerb of the turning circle, beside the hedge and footpath",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.992698,
+        -27.510209
+      ],
+      [
+        152.992723,
+        -27.510201
+      ],
+      [
+        152.992776,
+        -27.510198
+      ],
+      [
+        152.992838,
+        -27.510235
+      ],
+      [
+        152.992863,
+        -27.510291
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 55,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 16.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

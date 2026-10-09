@@ -1,0 +1,73 @@
+{
+  "candidate": "91397755-364012301-32334186-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep street with homes 8-10 m from the kerb.",
+  "reasons": [
+    "Grade about 16%, over the 12% limit",
+    "Dwellings 8 m from kerb",
+    "Homes all round"
+  ],
+  "drivers": {
+    "seclusion": "Houses at 8, 10 and 16 m along the section; no screening.",
+    "access_and_room": "Sealed through street; no marked parking, little room beyond the lane.",
+    "traffic": "Through street near a junction with a larger road.",
+    "convention": "No cars parked along this kerb in the imagery; no signs mapped."
+  },
+  "flags": [
+    "Steep: 16.5% mean, 21% max",
+    "Dwellings within 8 m",
+    "Through street, no parking seen"
+  ],
+  "sun_shade": "Mostly open from the north-east; trees shade the west end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "Bunning Street just below the junction, outside the open front yards",
+    "slope_pct": 16.5,
+    "points": [
+      [
+        152.960835,
+        -27.51246
+      ],
+      [
+        152.960746,
+        -27.512509
+      ],
+      [
+        152.960689,
+        -27.512541
+      ],
+      [
+        152.960663,
+        -27.512555
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 17.2,
+    "min_elevation_m": 32.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

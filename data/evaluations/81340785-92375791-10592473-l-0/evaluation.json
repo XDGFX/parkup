@@ -1,0 +1,66 @@
+{
+  "candidate": "81340785-92375791-10592473-l-0",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a junction mouth, homes 14 m away, cars park nearby.",
+  "reasons": [
+    "Homes 14 m away on same side",
+    "Short stretch beside a junction",
+    "Cars park along adjacent kerb"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwelling 14 m (at the start); house at 13 m is 9 m off, so the section stops short of it. Homes all round.",
+    "access_and_room": "Open kerb on a junction; room for one van but close to the corner.",
+    "traffic": "Quiet suburban street, light traffic.",
+    "convention": "Cars park along Boundary Road; sign is 4P on school days 9am-5pm."
+  },
+  "flags": [
+    "Dwellings 9-14 m on same side",
+    "Close to a junction",
+    "Steep at 4.6% max over the 28 m, 2.1% mean",
+    "School-day 4P limit applies"
+  ],
+  "sun_shade": "Open; street tree shades the middle in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 9,
+    "where": "Boundary Road north kerb at the side-street corner",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.962713,
+        -27.508583
+      ],
+      [
+        152.962803,
+        -27.508596
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 0.4,
+    "min_elevation_m": 10.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

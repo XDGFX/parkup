@@ -1,0 +1,79 @@
+{
+  "candidate": "60800349-4920414455-8111795-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb with bushland opposite; houses about 13 m away on this side.",
+  "reasons": [
+    "Bush across the road, homes on this side",
+    "Quiet street, no parking convention",
+    "Gentle slope, 2.5% over the section"
+  ],
+  "drivers": {
+    "seclusion": "Dense bushland on the far side; houses on this side sit about 13 m or more back behind gardens.",
+    "access_and_room": "Sealed lane with a grass verge on the west side; room for a van beside the lane looks adequate but tight.",
+    "traffic": "Quiet dead-end style residential street, little traffic.",
+    "convention": "Only a few cars parked, near the 100 m end; no overnight parking habit visible."
+  },
+  "flags": [
+    "Creek about 1 m away: flood-prone, though elevation is about 31 m",
+    "Dwellings 10-13 m from the kerb at 22 m and 78-83 m"
+  ],
+  "sun_shade": "Tree canopy from the east shades the morning; afternoon sun from the west is blocked by houses.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact verge width"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 60,
+    "where": "Carinya Street, west kerb, where the bend runs alongside bush on the east side",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        152.962977,
+        -27.494705
+      ],
+      [
+        152.962991,
+        -27.494723
+      ],
+      [
+        152.963027,
+        -27.494771
+      ],
+      [
+        152.963063,
+        -27.494833
+      ],
+      [
+        152.963106,
+        -27.494916
+      ],
+      [
+        152.963117,
+        -27.494944
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 2.5,
+    "min_elevation_m": 30.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

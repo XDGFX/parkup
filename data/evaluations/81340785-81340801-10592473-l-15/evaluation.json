@@ -1,0 +1,49 @@
+{
+  "candidate": "81340785-81340801-10592473-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Only 8 m of kerb, mostly driveways, with homes 11-12 m away.",
+  "reasons": [
+    "Driveways and crossovers fill the stretch",
+    "Houses 11-12 m on same side",
+    "School-day 4P limit, busy corner"
+  ],
+  "drivers": {
+    "seclusion": "Houses 11-12 m away on the section's side with a car parked in the driveway.",
+    "access_and_room": "Stretch is 8 m of kerb at a corner, taken by driveway crossovers; no clear room to stop.",
+    "traffic": "Corner of Boundary Road and a side street, with school traffic.",
+    "convention": "Cars park along Boundary Road, but this stretch is signed 4P on school days."
+  },
+  "flags": [
+    "School days 9 AM-5 PM 4P parallel sign",
+    "Homes 11-12 m away",
+    "Mapped gate 91 m away, not on the only access"
+  ],
+  "sun_shade": "Open kerb, with tree shade on the east corner.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 4.1,
+    "min_elevation_m": 10.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

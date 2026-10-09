@@ -1,0 +1,64 @@
+{
+  "candidate": "58736480-58736495-7920663-l-90",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb, cars park here, homes 13-19 m away.",
+  "reasons": [
+    "Homes 13-19 m on this side",
+    "Cars park along this kerb",
+    "Dwellings within 10 m further north"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings sit 13-19 m from the kerb here and more homes face them across the road; a house is 7 m away from 27 m on.",
+    "access_and_room": "Sealed street with parked cars along the west kerb, room to pull in.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park along this kerb, but no sign of overnight stays."
+  },
+  "flags": [
+    "Slope about 4%, slightly steep",
+    "Dwelling 5-7 m away past 27 m"
+  ],
+  "sun_shade": "Tree shade over most of the section, mainly from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "Start of the stretch, opposite the wide verge and white house",
+    "slope_pct": 4,
+    "points": [
+      [
+        152.98284,
+        -27.499608
+      ],
+      [
+        152.982874,
+        -27.499431
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 4.2,
+    "min_elevation_m": 21.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

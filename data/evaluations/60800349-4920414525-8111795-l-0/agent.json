@@ -1,0 +1,28 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Line runs between houses and gardens, not along a drivable road.",
+  "reasons": [
+    "No road visible under the line",
+    "Houses 4-12 m from the line",
+    "Private gardens, no room to stop"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Houses press in on both sides, with dwellings 4 m at 62 m, 10 m at 40 m and 12 m at the start.",
+    "access_and_room": "The line crosses garden land and a footpath-width gap between lots; no formed road or pull-off a van can use.",
+    "traffic": "Not applicable; no road along the line.",
+    "convention": "No parked vehicles or tracks on the line."
+  },
+  "flags": [
+    "Dwellings within 10 m",
+    "Slope 4.1% mean, 8.8% max",
+    "Creek about 20 m away, elevation about 31 m"
+  ],
+  "sun_shade": "Tree canopy and house shade over most of the line.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the gap is a public path or easement"
+  ],
+  "confidence": "high"
+}

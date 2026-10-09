@@ -1,0 +1,64 @@
+{
+  "candidate": "251460731-4920414438-8111798-r-0",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "South edge of the dead-end turning head, backing onto bush, homes over 20 m.",
+  "reasons": [
+    "Bush and a footpath on the south side",
+    "Nearest mapped dwelling over 20 m from start",
+    "Dead end with parked cars"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush to the west and south-west; mapped houses are 12 m (at 21 m) and 19 m away, further from the first 14 m, with the north side across the wide turning head.",
+    "access_and_room": "Sealed turning head; the ground beside the lane at the start is wide enough to pull in.",
+    "traffic": "Dead-end residential street; only local traffic.",
+    "convention": "Cars park in the turning head and a truck sits at the kerb; no campers seen."
+  },
+  "flags": [
+    "Two No Stopping Any Time signs sit 7-14 m from the kerb line, so check the arrows on site",
+    "Steep: about 5% mean grade over the stretch (24% max is likely a DEM artefact), about 3% near the start",
+    "Witton Creek mapped about 3 m away, min elevation 38 m"
+  ],
+  "sun_shade": "Bush shades the west side in the afternoon; open to morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Which kerb the No Stopping signs cover"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "South kerb at the end of the road, beside the bushland and path",
+    "slope_pct": 3.3,
+    "points": [
+      [
+        152.960134,
+        -27.494229
+      ],
+      [
+        152.960262,
+        -27.494284
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 3.5,
+    "min_elevation_m": 39.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

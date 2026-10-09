@@ -1,0 +1,67 @@
+{
+  "candidate": "4920414437-4920414525-8111798-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential bend, homes 12-20 m from the kerb on this side.",
+  "reasons": [
+    "Dwellings 12-20 m away on own side",
+    "Quiet residential street",
+    "No parking convention seen"
+  ],
+  "drivers": {
+    "seclusion": "Mapped homes at 9 m (at 9 m), 12 m (at 16 m) and 20 m (at 31 m); the 22-34 m part has the most clearance, with a garden hedge between kerb and house.",
+    "access_and_room": "Sealed street with a verge beside the kerb; room to pull in looks fine.",
+    "traffic": "Quiet local bend; light traffic.",
+    "convention": "One car parked on the bend; no campers or regular parking seen."
+  },
+  "flags": [
+    "Steep: about 2.6% mean grade, 5% max",
+    "Witton Creek mapped about 9 m away, min elevation 34 m"
+  ],
+  "sun_shade": "Mostly open; hedge and trees on the garden side give some shade from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 22,
+    "to_m": 34,
+    "where": "North-east kerb on the bend, beside the large grey-roofed house's side garden",
+    "slope_pct": 2.2,
+    "points": [
+      [
+        152.961901,
+        -27.494317
+      ],
+      [
+        152.961939,
+        -27.494282
+      ],
+      [
+        152.961978,
+        -27.494234
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 3.8,
+    "min_elevation_m": 34.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

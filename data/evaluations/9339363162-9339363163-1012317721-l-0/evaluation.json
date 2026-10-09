@@ -1,0 +1,73 @@
+{
+  "candidate": "9339363162-9339363163-1012317721-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb around the landscaped island at the street's turning head, homes 16 m away.",
+  "reasons": [
+    "Homes 16-19 m away",
+    "Cars already park by the island",
+    "Short 26 m kerb at turning head"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 16-18 m away on the west and north; the island and trees screen the east.",
+    "access_and_room": "Sealed turning head with parked cars beside the island; room for a van but it sits in the circulating lane edge.",
+    "traffic": "Dead-end residential street, very little traffic.",
+    "convention": "Residents' cars park here; no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 3.8% over the best section, 4.6% mean",
+    "Dwellings 16-19 m away",
+    "Turning head: a parked van may obstruct turning vehicles",
+    "Sandy Creek 190 m away, ground about 9-10 m"
+  ],
+  "sun_shade": "Island trees shade the kerb from the east and midday; open to the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether a van blocks the turning circle"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 26,
+    "where": "Castile Street, west kerb of the planted island at the turning head",
+    "slope_pct": 3.8,
+    "points": [
+      [
+        152.992173,
+        -27.507773
+      ],
+      [
+        152.992203,
+        -27.507682
+      ],
+      [
+        152.992203,
+        -27.507682
+      ],
+      [
+        152.992207,
+        -27.507685
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 4.8,
+    "min_elevation_m": 9.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

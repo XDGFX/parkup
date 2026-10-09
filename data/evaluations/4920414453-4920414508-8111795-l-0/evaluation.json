@@ -1,0 +1,51 @@
+{
+  "candidate": "4920414453-4920414508-8111795-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow sloping residential street, homes 9-20 m away all along, no pull-off.",
+  "reasons": [
+    "Dwellings within 9-20 m along the whole stretch",
+    "Narrow lane between gardens and trees",
+    "Mean grade 5.8%, max 11.2%"
+  ],
+  "drivers": {
+    "seclusion": "Houses sit on both sides, 9 m at 135 m and 11-12 m near the start; tree cover but no real seclusion.",
+    "access_and_room": "Narrow sealed lane; the line cuts across garden edges for part of its length, and there is no verge or pull-off a van could use.",
+    "traffic": "Quiet residential street, little through traffic.",
+    "convention": "One car parked near 100 m; no sign of overnight parking."
+  },
+  "flags": [
+    "Steep: 5.8% mean grade, 11.2% max",
+    "Dwellings within 10 m at 135 m (9 m)",
+    "Creek about 72 m away"
+  ],
+  "sun_shade": "Heavy tree canopy over most of the stretch.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact kerb-side width"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 5.8,
+    "min_elevation_m": 36.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

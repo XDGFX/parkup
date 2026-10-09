@@ -1,0 +1,79 @@
+{
+  "candidate": "54626283-54626283-24300437-l-40",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at the court's head, homes and a building site close.",
+  "reasons": [
+    "Buildings 9-24 m away, homes close",
+    "Short 25 m stretch, cars park here",
+    "Dead end, little traffic"
+  ],
+  "drivers": {
+    "seclusion": "Buildings tagged 'yes' sit 22-24 m away at the start and 9 m near the far end; houses and a building site overlook the kerb.",
+    "access_and_room": "Sealed turning circle with a kerb-side parked car already, room to pull in.",
+    "traffic": "Dead-end court, only residents and site vehicles.",
+    "convention": "Residents park here, no sign of overnight stays."
+  },
+  "flags": [
+    "Slope about 3.6%, slightly steep",
+    "Building works vehicles beside the stretch"
+  ],
+  "sun_shade": "Mostly open; tree shade from the south-east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the 'yes' buildings are homes",
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 22,
+    "where": "South side of the court's turning circle, by the grassed bank",
+    "slope_pct": 3.6,
+    "points": [
+      [
+        152.992873,
+        -27.510344
+      ],
+      [
+        152.992873,
+        -27.510346
+      ],
+      [
+        152.992876,
+        -27.510403
+      ],
+      [
+        152.992825,
+        -27.510453
+      ],
+      [
+        152.992775,
+        -27.510467
+      ],
+      [
+        152.992747,
+        -27.510466
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 4,
+    "min_elevation_m": 16.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

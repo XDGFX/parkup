@@ -1,0 +1,70 @@
+{
+  "candidate": "4920414437-4920414525-8111798-r-14",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet bend kerb with a wide grass verge, nearest home about 12 m.",
+  "reasons": [
+    "Dwellings 12-18 m away on own side",
+    "Wide grass verge and hedges screen homes",
+    "No parking convention seen"
+  ],
+  "drivers": {
+    "seclusion": "A house sits 4 m from the start, so the first 10 m is poor; from 12 m on the nearest mapped homes are 12 m (at 20 m) and 18 m, behind a wide verge.",
+    "access_and_room": "Sealed street with a wide grass verge beside the kerb; room to pull in looks fine.",
+    "traffic": "Quiet local bend; light traffic.",
+    "convention": "One car parked on this kerb; no campers seen."
+  },
+  "flags": [
+    "Steep: about 2.6% mean grade, 4.4% max",
+    "Witton Creek mapped about 12 m away, min elevation 34 m",
+    "House only 4 m from the stretch start"
+  ],
+  "sun_shade": "Mostly open; trees on the east side give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 12,
+    "to_m": 26,
+    "where": "East kerb on the bend beside the grass verge, past the corner house",
+    "slope_pct": 2.9,
+    "points": [
+      [
+        152.961972,
+        -27.494356
+      ],
+      [
+        152.962002,
+        -27.494329
+      ],
+      [
+        152.96206,
+        -27.494257
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 4.2,
+    "min_elevation_m": 33.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

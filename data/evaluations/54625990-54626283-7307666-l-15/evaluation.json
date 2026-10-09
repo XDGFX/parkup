@@ -1,0 +1,70 @@
+{
+  "candidate": "54625990-54626283-7307666-l-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet cul-de-sac kerb with homes 15-21 m away on a steep slope.",
+  "reasons": [
+    "Dwellings 21 m away, others beyond",
+    "Residential street, cars park along kerb",
+    "Steep: about 8% grade"
+  ],
+  "drivers": {
+    "seclusion": "Homes sit 21 m and more from this stretch, with a non-dwelling building 15 m away; still a residential frontage on both sides.",
+    "access_and_room": "Sealed street, cars already parked along the kerb here, so room to pull in.",
+    "traffic": "Quiet residential street, little through traffic.",
+    "convention": "Parked cars visible on this stretch, but no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 8% grade, up to 20% max nearby",
+    "Dwelling 9 m away at 64 m, just before the section"
+  ],
+  "sun_shade": "Mostly open; afternoon shade from trees on the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 75,
+    "to_m": 105,
+    "where": "Outer bend of Carnoustie Court, past the pool house, before the road drops away",
+    "slope_pct": 8,
+    "points": [
+      [
+        152.991947,
+        -27.51072
+      ],
+      [
+        152.992088,
+        -27.510597
+      ],
+      [
+        152.992141,
+        -27.510549
+      ],
+      [
+        152.992163,
+        -27.51053
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 8.7,
+    "min_elevation_m": 23.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

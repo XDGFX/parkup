@@ -1,0 +1,51 @@
+{
+  "candidate": "60200187-60200188-20082130-l-30",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 2 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep narrow kerb signed no stopping, houses 2-9 m from the edge.",
+  "reasons": [
+    "Houses 2-9 m from kerb",
+    "Signed no stopping any time",
+    "Steep: 11% max, 7.5% mean"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the kerb at 2, 6 and 9 m along its 30 m length.",
+    "access_and_room": "Narrow road, little room beside the lane; the kerb is tight to houses and trees.",
+    "traffic": "Quiet side street, light traffic.",
+    "convention": "A few cars park further east, but this stretch carries no stopping signs."
+  },
+  "flags": [
+    "Dwellings within 10 m throughout",
+    "Steep: 11.2% max, 7.5% mean",
+    "Signs say No Stopping Any Time",
+    "Brisbane River 135 m away; low ground about 6.5 m"
+  ],
+  "sun_shade": "Houses to the north shade the kerb in the morning; trees to the south shade the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 2,
+    "gated": false,
+    "slope_pct": 7.5,
+    "min_elevation_m": 6.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:08:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
