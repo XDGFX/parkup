@@ -1,0 +1,73 @@
+{
+  "candidate": "58815458-58815801-23730665-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb on a busy road where cars park, beside a theatre, homes 20 m off.",
+  "reasons": [
+    "Cars parked along this kerb",
+    "Theatre beside, homes 21 m away",
+    "Busy road, plain kerb"
+  ],
+  "drivers": {
+    "seclusion": "Theatre 11 m (non-residential); nearest apartments 21-22 m on the same side.",
+    "access_and_room": "Parallel parking lane beside the travel lane, with a row of parked cars in Esri.",
+    "traffic": "Busy two-lane arterial with a bus stop and junction close by.",
+    "convention": "A line of cars parks along this kerb, so a van would blend in."
+  },
+  "flags": [
+    "Dwellings 21 m away on the same side",
+    "Noise from arterial road and theatre events",
+    "Bus zone sign near the north kerb"
+  ],
+  "sun_shade": "Open to the sky; a tree at about 50 m shades the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerb height",
+    "Street lighting",
+    "Crossfall",
+    "Theatre event hours"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 35,
+    "where": "Sir Fred Schonell Drive north kerb, outside the Avalon Theatre",
+    "slope_pct": 0.9,
+    "points": [
+      [
+        153.001771,
+        -27.494645
+      ],
+      [
+        153.001791,
+        -27.494641
+      ],
+      [
+        153.001887,
+        -27.494609
+      ],
+      [
+        153.002057,
+        -27.494553
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 7.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

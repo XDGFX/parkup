@@ -1,0 +1,65 @@
+{
+  "candidate": "48324410-13070849026-47414077-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short residential kerb with homes 7-13 m away along its whole length.",
+  "reasons": [
+    "Dwellings within 10 m of every part",
+    "Steep: mean 8.4%, max 14.4%",
+    "Quiet street, no camping convention"
+  ],
+  "drivers": {
+    "seclusion": "Homes at 8-9 m on the same side along most of the stretch; others 12-13 m behind.",
+    "access_and_room": "Sealed street with a few cars parked on the west side; east kerb is lined with hedges.",
+    "traffic": "Quiet local street with a junction at the south end.",
+    "convention": "Residents park on the street, but no overnight campers seen."
+  },
+  "flags": [
+    "Dwellings within 10 m of any section",
+    "Steep: about 5% at best section, 8.4% mean, max 14.4%"
+  ],
+  "sun_shade": "Mix of tree shade and open sky; east kerb has hedges and trees along it.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Local parking restrictions"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 45,
+    "where": "Mid-street on the east side, between the two cross streets",
+    "slope_pct": 5,
+    "points": [
+      [
+        152.974178,
+        -27.491157
+      ],
+      [
+        152.974143,
+        -27.491334
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 6.8,
+    "min_elevation_m": 52.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

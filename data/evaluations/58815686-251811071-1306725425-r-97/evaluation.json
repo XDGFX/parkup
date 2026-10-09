@@ -1,0 +1,64 @@
+{
+  "candidate": "58815686-251811071-1306725425-r-97",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat east kerb where cars park; flats and houses 12-20 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Dwellings 12-20 m away",
+    "Flat ground, about 1% grade"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 12 m away at the south end, detached houses 15 m, flats 20 m across the road; homes all round.",
+    "access_and_room": "Sealed street with parked cars along both kerbs; room to park in line with them.",
+    "traffic": "Local street, light to moderate traffic.",
+    "convention": "Cars park here regularly; No Stopping Any Time signs sit on parts of the street, so check the signs on site."
+  },
+  "flags": [
+    "No Stopping Any Time signs on this street",
+    "Dwellings within 10-25 m on both sides",
+    "Low-lying toward the north end (about 4 m), nearest waterway 373 m"
+  ],
+  "sun_shade": "Street and garden trees shade the kerb in places; flats on the east block the morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact position of No Stopping signs"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "East kerb at the south end, beside the L'Chaim Lodge flats",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        153.004548,
+        -27.497022
+      ],
+      [
+        153.004599,
+        -27.496756
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "47831190-47831202-8163541-r-80",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bush-backed kerb with a dirt verge, but too steep at about 17%.",
+  "reasons": [
+    "Grade about 17%, over the 12% limit",
+    "Backs onto bush, no homes within 20 m",
+    "Dirt verge gives room to pull off"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush along the west side; nearest dwelling 24 m at the far end, homes across the road beyond 24 m.",
+    "access_and_room": "Sealed street with a dirt verge beside the lane; room to pull fully off.",
+    "traffic": "Quiet residential street; light through traffic.",
+    "convention": "2P Mon-Fri 7am-7pm, resident permits excepted; a few cars park along it."
+  },
+  "flags": [
+    "Steep: about 17% mean, 24% max",
+    "Mapped gate 26 m away has a way round",
+    "Scouts hall mapped about 58 m away"
+  ],
+  "sun_shade": "Bush canopy shades the west side; afternoon sun is blocked, morning sun comes from across the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether the verge is firm enough"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "Woodstock Avenue west kerb, beside the bushland, north of the Montrose Road junction",
+    "slope_pct": 15,
+    "points": [
+      [
+        152.975781,
+        -27.490973
+      ],
+      [
+        152.975732,
+        -27.491239
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 16.2,
+    "min_elevation_m": 32.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

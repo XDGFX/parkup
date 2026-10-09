@@ -1,0 +1,66 @@
+{
+  "candidate": "53885387-53895325-6882697-r-34",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep kerb where cars park; apartments about 20 m behind.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Dwellings about 20 m, own side",
+    "Steep: 9.6% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Apartments and houses roughly 20 m behind, homes all round.",
+    "access_and_room": "Kerbside parking lane with parked cars; room for a van.",
+    "traffic": "Through road with a bus route and a junction ahead.",
+    "convention": "Four or five cars parked along this stretch."
+  },
+  "flags": [
+    "Steep: about 9.6% mean, 12.5% max",
+    "Bus zone sign at the start",
+    "Noise from bus route"
+  ],
+  "sun_shade": "Open kerb; afternoon shade from buildings to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact extent of the bus zone"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 14,
+    "to_m": 27,
+    "where": "Whitmore Street east kerb, north of the apartment block",
+    "slope_pct": 9.6,
+    "points": [
+      [
+        152.98616,
+        -27.495314
+      ],
+      [
+        152.986185,
+        -27.495199
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 8.5,
+    "min_elevation_m": 11.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

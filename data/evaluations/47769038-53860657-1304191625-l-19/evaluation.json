@@ -1,0 +1,64 @@
+{
+  "candidate": "47769038-53860657-1304191625-l-19",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a busy junction, signed no stopping, steep, townhouses 15 m away.",
+  "reasons": [
+    "No Stopping sign beside the kerb",
+    "Grade 12.3% mean, over limit",
+    "Junction corner, terraces 15-17 m away"
+  ],
+  "drivers": {
+    "seclusion": "Terraces and a house 15-22 m away, apartments 19 m; busy suburban corner with no screening.",
+    "access_and_room": "Narrow kerb stretch of 14 m beside a through road; a van would sit in or near the junction mouth.",
+    "traffic": "Junction of two through streets with steady traffic.",
+    "convention": "Cars park along the kerb, but signs here restrict parking and stopping."
+  },
+  "flags": [
+    "Signs: No Parking Specified Times (twice) and No Stopping Any Time",
+    "Too steep: 12.3% mean, max 14%",
+    "Junction corner; dwellings within 15-20 m"
+  ],
+  "sun_shade": "Mostly open; trees on the east verge give partial shade in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Sign times (not given)",
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 2,
+    "to_m": 14,
+    "where": "East kerb of York Street just south of the junction corner",
+    "slope_pct": 12,
+    "points": [
+      [
+        152.978209,
+        -27.494617
+      ],
+      [
+        152.978149,
+        -27.494711
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 14,
+    "min_elevation_m": 43.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

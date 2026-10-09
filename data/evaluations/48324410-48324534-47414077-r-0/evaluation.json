@@ -1,0 +1,66 @@
+{
+  "candidate": "48324410-48324534-47414077-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow residential street; homes within 5-9 m all along the east kerb.",
+  "reasons": [
+    "Dwellings within 10 m along whole side",
+    "Steep, mean 12.6% grade",
+    "Narrow dead-end lane, little room"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings at 7-9 m sit beside every part of the east kerb; bush only beyond the last houses.",
+    "access_and_room": "Sealed narrow street ending at bush; a few cars park on it, little verge to pull off.",
+    "traffic": "Quiet residential dead end with local traffic only.",
+    "convention": "Some cars parked on the street, but no camping convention seen."
+  },
+  "flags": [
+    "Dwelling within 10 m of every section (7-9 m)",
+    "Steep overall: mean 12.6%, max 25.4%",
+    "Flat top section about 1.5% but beside homes"
+  ],
+  "sun_shade": "Heavy tree canopy on the east side; open sky over the lane at the top end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Local parking restrictions"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 120,
+    "to_m": 135,
+    "where": "Near the top of the street, by the bush end",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.974428,
+        -27.489872
+      ],
+      [
+        152.974454,
+        -27.489739
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 53.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,68 @@
+{
+  "candidate": "58815855-5220717511-1054336260-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Sloping arterial kerb with apartments and houses close and no parked cars.",
+  "reasons": [
+    "Apartments 7-8 m, houses 11 m",
+    "Arterial lane, no cars parked",
+    "Steep, 2.7% mean, up to 5.6%"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks at 7-8 m and houses at 11 m bracket this stretch; dwellings 18 m away at best.",
+    "access_and_room": "Plain kerb of a through road; no cars parked and no pull-off.",
+    "traffic": "Busy arterial with a junction at the west end.",
+    "convention": "One no parking any time sign nearby; no overnight parking seen."
+  },
+  "flags": [
+    "Dwellings within 10 to 18 m",
+    "Slope rises about 2.5 m over the stretch, up to 5.6% in places",
+    "Arterial noise"
+  ],
+  "sun_shade": "Dense tree canopy shades the north kerb from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 75,
+    "where": "north kerb of Sir Fred Schonell Drive under the trees, west of the house cluster",
+    "slope_pct": 2.7,
+    "points": [
+      [
+        152.997376,
+        -27.49369
+      ],
+      [
+        152.997383,
+        -27.493694
+      ],
+      [
+        152.997549,
+        -27.493784
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.8,
+    "min_elevation_m": 16.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

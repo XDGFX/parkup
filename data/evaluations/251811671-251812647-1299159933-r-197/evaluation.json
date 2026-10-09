@@ -1,0 +1,69 @@
+{
+  "candidate": "251811671-251812647-1299159933-r-197",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short turning-head stub, very steep, houses 8-14 m away.",
+  "reasons": [
+    "Only 23 m long, very steep",
+    "Houses 8 m and 14 m away",
+    "Little room beside the lane"
+  ],
+  "drivers": {
+    "seclusion": "Heavy canopy hides it, but houses sit 8 m and 14 m from the early part and about 24 m beyond.",
+    "access_and_room": "Short sealed dead-end stub with a No Stopping Any Time sign nearby; the usable part is barely a van length.",
+    "traffic": "Dead end; almost no through traffic.",
+    "convention": "Cars were seen parked along the neighbouring lane, but this stub has 2P and No Stopping signs."
+  },
+  "flags": [
+    "Very steep: about 14% over the best section, 16.6% max",
+    "No Stopping Any Time sign at the stub",
+    "Dwellings within 10-15 m"
+  ],
+  "sun_shade": "Under dense canopy; shaded most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact usable length",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 23,
+    "where": "Far end of the stub under trees, past the turning head",
+    "slope_pct": 14,
+    "points": [
+      [
+        152.997625,
+        -27.494991
+      ],
+      [
+        152.997609,
+        -27.494995
+      ],
+      [
+        152.997549,
+        -27.494985
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 13.1,
+    "min_elevation_m": 26.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

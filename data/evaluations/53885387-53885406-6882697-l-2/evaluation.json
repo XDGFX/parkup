@@ -1,0 +1,65 @@
+{
+  "candidate": "53885387-53885406-6882697-l-2",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short main-road kerb with bus zone and houses 5 m away.",
+  "reasons": [
+    "Dwellings 5-6 m from kerb",
+    "Main road, bus zone signs",
+    "Steep, 4% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Houses and apartments within 5-15 m along the whole stretch.",
+    "access_and_room": "Kerbside lane only; bus zone signed at the start.",
+    "traffic": "Through road with a signalled junction nearby.",
+    "convention": "A few cars park near the start but the bus zone blocks the rest."
+  },
+  "flags": [
+    "Steep: about 4% mean, 6% max",
+    "Bus zone signs",
+    "Noise from through road"
+  ],
+  "sun_shade": "Mostly open; trees shade the west side and the north end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "Whitmore Street east kerb at the bus stop",
+    "slope_pct": 4.2,
+    "points": [
+      [
+        152.986068,
+        -27.495756
+      ],
+      [
+        152.986016,
+        -27.496019
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 4,
+    "min_elevation_m": 16.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,70 @@
+{
+  "candidate": "58815458-58815801-23730665-r-18",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 4 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Arterial south kerb with no parked cars and apartments within a few metres.",
+  "reasons": [
+    "Apartments 2-8 m from kerb",
+    "Busy road, no cars parked here",
+    "Kerb beside junction and driveways"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 8 m at 14 m, then 2-4 m beyond; whole stretch is overlooked.",
+    "access_and_room": "Kerb runs along a narrow verge, driveways and a bus stop; no pull-off.",
+    "traffic": "Busy two-lane arterial next to a signalled junction.",
+    "convention": "Cars park on the north kerb but none along this south kerb."
+  },
+  "flags": [
+    "Dwelling within 10 m",
+    "Steep: up to 12% max grade",
+    "Noise from arterial road"
+  ],
+  "sun_shade": "Open to the sky; hedge and building shade from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerb height",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "Sir Fred Schonell Drive south kerb at the Mitre Street corner",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        153.001912,
+        -27.494668
+      ],
+      [
+        153.001961,
+        -27.494786
+      ],
+      [
+        153.001961,
+        -27.494786
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 4,
+    "gated": false,
+    "slope_pct": 3.9,
+    "min_elevation_m": 7.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

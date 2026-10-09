@@ -1,0 +1,70 @@
+{
+  "candidate": "58815512-251811071-1306475037-r-23",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Arterial kerb with no parked cars; apartments 5-6 m from kerb.",
+  "reasons": [
+    "Apartments and houses within 4-6 m",
+    "Arterial lane, no cars parked",
+    "Signed no-stopping and permit zones"
+  ],
+  "drivers": {
+    "seclusion": "Large building and apartments sit near the kerb; no section is clear of dwellings within 10 m.",
+    "access_and_room": "Plain kerb of a through road with footpath behind; no pull-off.",
+    "traffic": "Busy two-lane arterial with a junction at the east end.",
+    "convention": "No stopping any time and peak-time signs; no overnight parking seen."
+  },
+  "flags": [
+    "Dwellings within 10 m",
+    "Low-lying: 3.6 to 4.4 m elevation, Brisbane River 299 m away",
+    "Arterial noise",
+    "No stopping any time sign on stretch"
+  ],
+  "sun_shade": "Street and garden trees shade part of the kerb from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 48,
+    "where": "south kerb of Sir Fred Schonell Drive in front of the large flat-roofed building",
+    "slope_pct": 1.9,
+    "points": [
+      [
+        153.004347,
+        -27.494201
+      ],
+      [
+        153.004513,
+        -27.494141
+      ],
+      [
+        153.004516,
+        -27.494141
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 4.1,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

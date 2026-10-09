@@ -1,0 +1,35 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb near the southern end; apartments 18 m away, homes all round.",
+  "reasons": [
+    "Apartments 18 m away, same side",
+    "Homes within 25 m all round",
+    "Cars park on this street"
+  ],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "southern end of the east kerb, beside the treed verge before the bend north",
+    "slope_pct": 0.6
+  },
+  "drivers": {
+    "seclusion": "Apartments 18 m east, houses 24-36 m west; homes within 25 m all round. Houses 6-8 m away further north rule that part out.",
+    "access_and_room": "Sealed narrow street, parked cars along the lane edge; room for a van to stand among them.",
+    "traffic": "Quiet side street, though it meets a busy road at the north end.",
+    "convention": "Several cars park along the street in both images; No Stopping Any Time signs nearby already screened."
+  },
+  "flags": [
+    "Low-lying: elevation about 3.3 m",
+    "Homes within 25 m on all sides",
+    "Busy road junction at north end"
+  ],
+  "sun_shade": "Street trees and verge canopy shade the kerb, mostly from the east; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall"
+  ],
+  "confidence": "medium"
+}

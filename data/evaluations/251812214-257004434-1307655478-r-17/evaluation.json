@@ -1,0 +1,65 @@
+{
+  "candidate": "251812214-257004434-1307655478-r-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short signed no-stopping kerb with apartments 9 m and a house 11 m away.",
+  "reasons": [
+    "Apartments 9 m, house 11 m",
+    "No stopping any time signs",
+    "Short stretch beside junction"
+  ],
+  "drivers": {
+    "seclusion": "Apartment block at 9 m; detached house at 11 m; homes all along this side.",
+    "access_and_room": "Kerb of a through road; cars sit at the kerb in Esri but signs forbid stopping.",
+    "traffic": "Busy arterial with a junction and turn lanes at the east end.",
+    "convention": "No stopping any time and peak-hour no stopping signs sit on the kerb line."
+  },
+  "flags": [
+    "Dwellings within 10 m",
+    "No stopping any time signs on the kerb",
+    "Arterial noise"
+  ],
+  "sun_shade": "Tall building and trees shade the kerb from the north in the morning and afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 43,
+    "where": "north kerb of Sir Fred Schonell Drive beside the Sir Fred apartments, east of the junction",
+    "slope_pct": 1.7,
+    "points": [
+      [
+        153.008775,
+        -27.494139
+      ],
+      [
+        153.008345,
+        -27.494077
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 4.8,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

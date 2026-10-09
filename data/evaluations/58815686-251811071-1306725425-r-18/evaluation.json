@@ -1,0 +1,64 @@
+{
+  "candidate": "58815686-251811071-1306725425-r-18",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep east kerb with houses 15 m away; cars park on the other side.",
+  "reasons": [
+    "Houses about 15 m from the kerb",
+    "Steep grade about 8%",
+    "Cars park along this street"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 15 m away on this side and flats 21-22 m across the road; homes all round.",
+    "access_and_room": "Sealed street; some cars park beside the kerb here, so room in line with them.",
+    "traffic": "Quiet local street, light traffic.",
+    "convention": "No parking signs on this stretch; cars park nearby on the same street."
+  },
+  "flags": [
+    "Steep: about 8% over best section, 12.6% max",
+    "Dwellings within 10-25 m on both sides",
+    "Nearby stretches of Warren Street carry No Stopping signs"
+  ],
+  "sun_shade": "Street trees shade the kerb, especially mid-section; houses on the east shade the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 45,
+    "to_m": 70,
+    "where": "East kerb, beside the row of detached houses with front gardens",
+    "slope_pct": 8,
+    "points": [
+      [
+        153.004478,
+        -27.497392
+      ],
+      [
+        153.00452,
+        -27.49717
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 7.5,
+    "min_elevation_m": 7.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,457 @@
+{
+  "id": "251812214-257004434-1307655478-r-17",
+  "street": "Sir Fred Schonell Drive",
+  "suburb": "St Lucia",
+  "line": [
+    [
+      153.008775,
+      -27.494139
+    ],
+    [
+      153.008345,
+      -27.494077
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "north",
+  "length_m": 43,
+  "signs": [
+    {
+      "street": "SIR FRED SCHONELL DRIVE",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 0.2
+    },
+    {
+      "street": "SIR FRED SCHONELL DRIVE",
+      "restriction": "No Stopping Specified Times",
+      "days_times": ":7-9:30am ,:4-6:30pm",
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 0.1
+    },
+    {
+      "street": "SIR FRED SCHONELL DRIVE",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 13.6
+    },
+    {
+      "street": "SIR FRED SCHONELL DRIVE",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 0.1
+    },
+    {
+      "street": "SIR FRED SCHONELL DRIVE",
+      "restriction": "No Stopping Specified Times",
+      "days_times": ":7-9:30am ,:4-6:30pm",
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 0
+    }
+  ],
+  "buildings": [
+    {
+      "building": "apartments",
+      "name": "Sir Fred",
+      "dwelling": true,
+      "metres": 9,
+      "at_m": 0,
+      "outline": [
+        [
+          153.0085747,
+          -27.4938407
+        ],
+        [
+          153.0088731,
+          -27.4939297
+        ],
+        [
+          153.0088221,
+          -27.4940645
+        ],
+        [
+          153.0085347,
+          -27.4940129
+        ],
+        [
+          153.008548,
+          -27.4939779
+        ],
+        [
+          153.0085349,
+          -27.493974
+        ],
+        [
+          153.0085667,
+          -27.4938901
+        ],
+        [
+          153.0085571,
+          -27.4938872
+        ],
+        [
+          153.0085747,
+          -27.4938407
+        ]
+      ]
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 11,
+      "at_m": 43,
+      "outline": [
+        [
+          153.0081409,
+          -27.493867
+        ],
+        [
+          153.0083255,
+          -27.4938904
+        ],
+        [
+          153.008311,
+          -27.4939806
+        ],
+        [
+          153.0081263,
+          -27.4939572
+        ],
+        [
+          153.0081409,
+          -27.493867
+        ]
+      ]
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 21,
+      "at_m": 43,
+      "outline": [
+        [
+          153.0082276,
+          -27.4938514
+        ],
+        [
+          153.0082749,
+          -27.4937323
+        ],
+        [
+          153.0084886,
+          -27.4937992
+        ],
+        [
+          153.008456,
+          -27.4938812
+        ],
+        [
+          153.0083713,
+          -27.4938547
+        ],
+        [
+          153.0083566,
+          -27.4938917
+        ],
+        [
+          153.0082276,
+          -27.4938514
+        ]
+      ]
+    },
+    {
+      "building": "university",
+      "name": "Warehouse, Book Repository and Solvent Store",
+      "dwelling": false,
+      "metres": 23,
+      "at_m": 2,
+      "outline": [
+        [
+          153.0082596,
+          -27.4946383
+        ],
+        [
+          153.0086229,
+          -27.4946894
+        ],
+        [
+          153.0085865,
+          -27.4948932
+        ],
+        [
+          153.0086764,
+          -27.4949059
+        ],
+        [
+          153.0086854,
+          -27.4948555
+        ],
+        [
+          153.0087534,
+          -27.4948651
+        ],
+        [
+          153.0088352,
+          -27.4944077
+        ],
+        [
+          153.0087597,
+          -27.4943971
+        ],
+        [
+          153.0087083,
+          -27.4943898
+        ],
+        [
+          153.0087165,
+          -27.4943436
+        ],
+        [
+          153.0083222,
+          -27.4942881
+        ],
+        [
+          153.0082596,
+          -27.4946383
+        ]
+      ]
+    },
+    {
+      "building": "semidetached_house",
+      "name": null,
+      "dwelling": true,
+      "metres": 58,
+      "at_m": 43,
+      "outline": [
+        [
+          153.0076798,
+          -27.4938574
+        ],
+        [
+          153.0077245,
+          -27.4937451
+        ],
+        [
+          153.0078427,
+          -27.4937822
+        ],
+        [
+          153.007798,
+          -27.4938944
+        ],
+        [
+          153.0076798,
+          -27.4938574
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0094213,
+      "lat": -27.4948122,
+      "metres": 98,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0084546,
+      "lat": -27.4952221,
+      "metres": 124,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0093249,
+      "lat": -27.4953314,
+      "metres": 143,
+      "on_only_access": false
+    },
+    {
+      "barrier": "lift_gate",
+      "locked": null,
+      "lon": 153.0091436,
+      "lat": -27.4954576,
+      "metres": 151,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0110851,
+      "lat": -27.4941327,
+      "metres": 228,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.011114,
+      "lat": -27.4939566,
+      "metres": 232,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.011165,
+      "lat": -27.4941269,
+      "metres": 236,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 153.0095579,
+      "lat": -27.4966907,
+      "metres": 294,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.008775,
+        "lat": -27.494139,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 4.84
+      },
+      {
+        "lon": 153.008725,
+        "lat": -27.494132,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 4.94
+      },
+      {
+        "lon": 153.008675,
+        "lat": -27.494125,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 5.06
+      },
+      {
+        "lon": 153.008625,
+        "lat": -27.494117,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 5.13
+      },
+      {
+        "lon": 153.008575,
+        "lat": -27.49411,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 5.25
+      },
+      {
+        "lon": 153.008525,
+        "lat": -27.494103,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 5.33
+      },
+      {
+        "lon": 153.008475,
+        "lat": -27.494096,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 5.5
+      },
+      {
+        "lon": 153.008425,
+        "lat": -27.494088,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 5.54
+      },
+      {
+        "lon": 153.008375,
+        "lat": -27.494081,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 5.55
+      },
+      {
+        "lon": 153.008345,
+        "lat": -27.494077,
+        "at_m": 43,
+        "line": 0,
+        "elevation_m": 5.57
+      }
+    ],
+    "min_elevation_m": 4.8,
+    "max_elevation_m": 5.6,
+    "mean_grade_pct": 1.7,
+    "max_grade_pct": 3.4
+  },
+  "waterway": {
+    "name": null,
+    "metres": 130
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 30,
+      "access": null,
+      "fee": null,
+      "surface": "asphalt"
+    },
+    {
+      "name": "Multi Level Carpark 2",
+      "metres": 92,
+      "access": null,
+      "fee": null,
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 43,
+      "length_m": 43,
+      "images": {
+        "esri": ".cache/imagery/251812214-257004434-1307655478-r-17/chunk1-esri.jpg",
+        "qld": ".cache/imagery/251812214-257004434-1307655478-r-17/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        102,
+        67
+      ],
+      "image_px": [
+        683,
+        446
+      ]
+    }
+  ]
+}

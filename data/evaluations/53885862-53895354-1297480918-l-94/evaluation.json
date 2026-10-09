@@ -1,0 +1,69 @@
+{
+  "candidate": "53885862-53895354-1297480918-l-94",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short junction corner kerb with homes 12 m away and no stopping.",
+  "reasons": [
+    "Short corner at a side-street junction",
+    "Dwellings 12-14 m, own side",
+    "No Stopping signs at the kerb"
+  ],
+  "drivers": {
+    "seclusion": "Detached house and apartments 12-14 m away behind trees.",
+    "access_and_room": "Kerbside only at a junction; no pull-off beside the lane.",
+    "traffic": "Through road next to a fire station and junction.",
+    "convention": "No Stopping Any Time signs at both ends; one car parked opposite."
+  },
+  "flags": [
+    "Slightly steep: about 3.1% mean",
+    "No Stopping Any Time signs",
+    "Low-lying: 5.7 m elevation, Toowong Creek 129 m away",
+    "Noise from fire station"
+  ],
+  "sun_shade": "Dense tree canopy over the kerb; shade from the east and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Fire station call-out use"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "Whitmore Street east kerb, wrapping into the side street corner",
+    "slope_pct": 3.1,
+    "points": [
+      [
+        152.986902,
+        -27.491606
+      ],
+      [
+        152.986884,
+        -27.491703
+      ],
+      [
+        152.986834,
+        -27.491696
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 3.1,
+    "min_elevation_m": 5.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

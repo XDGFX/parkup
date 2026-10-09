@@ -1,0 +1,63 @@
+{
+  "candidate": "53895325-13067825649-1128179219-r-24",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside a shop building; nearest house 16 m away.",
+  "reasons": [
+    "Retail 5 m away, nearest house 16 m",
+    "Plain kerb on a busy street",
+    "Only 16 m long"
+  ],
+  "drivers": {
+    "seclusion": "Retail and garages on this side; nearest dwelling is a house 16 m away at the north end, others 23 m and beyond.",
+    "access_and_room": "Cars park along this kerb; room for a van in the kerbside lane.",
+    "traffic": "Whitmore Street carries steady traffic; junction at the south end.",
+    "convention": "Parked cars along the kerb; 4P parallel signs apply 9 am to 7 pm weekdays and Saturday morning only."
+  },
+  "flags": [
+    "Dwelling 10-25 m away on the section's own side",
+    "Short: 16 m",
+    "Near junction"
+  ],
+  "sun_shade": "Street trees shade the south end; shop building blocks the afternoon sun is not an issue as it sits east, shading the kerb in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "East kerb of Whitmore Street beside the shop building, just north of the junction",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        152.986267,
+        -27.494794
+      ],
+      [
+        152.986291,
+        -27.49467
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 7.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

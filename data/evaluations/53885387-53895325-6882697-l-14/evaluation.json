@@ -1,0 +1,63 @@
+{
+  "candidate": "53885387-53895325-6882697-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep arterial kerb with apartments 11-13 m away and no-parking signs.",
+  "reasons": [
+    "Apartments 11-13 m from kerb",
+    "No-parking and bus zone signs",
+    "Steep: 9.6% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks 12-13 m behind the kerb; homes all round.",
+    "access_and_room": "Kerbside lane only; cars and a bus use the kerb.",
+    "traffic": "Busy through road with a bus route.",
+    "convention": "Some cars park on the east side; west side has signed restrictions."
+  },
+  "flags": [
+    "Steep: about 9.6% mean, 11.8% max",
+    "Bus zone and no-parking-any-time signs",
+    "Noise from bus route"
+  ],
+  "sun_shade": "Mixed tree cover on the west side; open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 30,
+    "where": "Whitmore Street west kerb, north of the Westerham Street junction",
+    "slope_pct": 9.5,
+    "points": [
+      [
+        152.986017,
+        -27.495506
+      ],
+      [
+        152.986054,
+        -27.495329
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 9.3,
+    "min_elevation_m": 12.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

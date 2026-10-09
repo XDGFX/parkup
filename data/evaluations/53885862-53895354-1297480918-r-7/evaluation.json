@@ -1,0 +1,63 @@
+{
+  "candidate": "53885862-53895354-1297480918-r-7",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy Whitmore Street kerb with apartments 9-11 m away and bus zones.",
+  "reasons": [
+    "Apartments within 11 m of kerb",
+    "Bus zones and no stopping signs",
+    "Through road, little kerbside parking"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks and carports line the west side; apartments mapped 9 m and 11 m from kerb.",
+    "access_and_room": "Sealed multi-lane road, a few cars park on the kerb but signs show no stopping and bus zones.",
+    "traffic": "Arterial-style road with a fire station and shops nearby; constant traffic.",
+    "convention": "Few parked cars; no sign of overnight stays."
+  },
+  "flags": [
+    "Dwelling within 10 m at 89 m and 11 m at 55 m",
+    "Bus Zone and No Stopping Any Time signs",
+    "Low-lying, about 6 m elevation, Toowong Creek 99 m"
+  ],
+  "sun_shade": "Mostly tree shade from the west side; open to afternoon sun across the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 40,
+    "where": "West kerb north of the apartment blocks, near the carport",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.986917,
+        -27.490996
+      ],
+      [
+        152.986882,
+        -27.491173
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

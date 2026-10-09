@@ -1,0 +1,72 @@
+{
+  "candidate": "251811295-251811671-1299159165-r-20",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb near the street's west end; cars park here, homes within 20-30 m.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Homes about 19-27 m all round",
+    "Slope about 5% at best section"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings 19 m (houses across the road) and 27 m (Kings Place flats); homes on all sides.",
+    "access_and_room": "Sealed street with parked cars at the kerb; room to park in line with them.",
+    "traffic": "Quiet local street near a side-street junction; light traffic.",
+    "convention": "Cars park here; 2P Mon-Fri 7am-6pm signs apply (resident permits excepted); a No Stopping sign is on Raven Street."
+  },
+  "flags": [
+    "Steep: about 5% at best section, 8% mean over the stretch",
+    "Dwellings within 25 m on all sides",
+    "Near junction; keep clear of No Stopping on the cross street"
+  ],
+  "sun_shade": "Mostly open at the west end; trees and flats shade the kerb in places.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Resident enforcement"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 135,
+    "to_m": 158,
+    "where": "West end of Sisley Street, north kerb just before the cross street",
+    "slope_pct": 5.4,
+    "points": [
+      [
+        153.000042,
+        -27.49536
+      ],
+      [
+        152.999948,
+        -27.495348
+      ],
+      [
+        152.999823,
+        -27.495333
+      ],
+      [
+        152.999811,
+        -27.495331
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 6,
+    "min_elevation_m": 15.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

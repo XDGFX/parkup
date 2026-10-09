@@ -1,0 +1,65 @@
+{
+  "candidate": "58815855-5220717511-1054336260-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep arterial kerb with no parked cars, bus zone and tight verge.",
+  "reasons": [
+    "Arterial, no cars parked or lane",
+    "Bus zone sign at start",
+    "Steep, mean 5.3% grade"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings are 20-22 m away behind a garden, but the kerb is in full view of the road.",
+    "access_and_room": "Kerb abuts a planted bank; no clear pull-off, so a van would stand in the lane edge.",
+    "traffic": "Busy arterial with a junction and bus zone at the west end.",
+    "convention": "No parked cars along this kerb; a bus zone sign and peak-time no stopping sign apply."
+  },
+  "flags": [
+    "Steep: about 5% mean, DEM max 20% at one sample",
+    "Bus zone and no stopping 4-6:30pm signs",
+    "Arterial noise",
+    "Dwellings 20 m away at best"
+  ],
+  "sun_shade": "Bank trees shade the kerb from the south in the afternoon; open to morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "south kerb of Sir Fred Schonell Drive at the western end by the garden bank",
+    "slope_pct": 5.3,
+    "points": [
+      [
+        152.996701,
+        -27.493482
+      ],
+      [
+        152.996875,
+        -27.493574
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 10.7,
+    "min_elevation_m": 14,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

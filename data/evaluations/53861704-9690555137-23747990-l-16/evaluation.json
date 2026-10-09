@@ -1,0 +1,69 @@
+{
+  "candidate": "53861704-9690555137-23747990-l-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on busy Swann Road in a bus zone, houses 5-9 m away.",
+  "reasons": [
+    "Bus Zone signs on this kerb",
+    "Houses 5 m and 9 m away",
+    "Busy through road, only 28 m"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 5 m (at 5 m), 9 m (at 27 m) and 23 m back; walls and hedges on the kerb side.",
+    "access_and_room": "Plain kerb on the lane edge; a few cars stop here but there is no pull-off.",
+    "traffic": "Busy two-way arterial with buses and constant traffic.",
+    "convention": "Bus Zone signs cover this kerb; no overnight parking convention."
+  },
+  "flags": [
+    "Bus Zone signs mark the kerb",
+    "Steep: about 6% grade, 7.7% max",
+    "Noise from arterial road"
+  ],
+  "sun_shade": "Open to sky; houses and trees shade the kerb from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 26,
+    "where": "North kerb of Swann Road, opposite the pedestrian refuge",
+    "slope_pct": 6,
+    "points": [
+      [
+        152.993448,
+        -27.498128
+      ],
+      [
+        152.993572,
+        -27.498109
+      ],
+      [
+        152.993608,
+        -27.498103
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 6.5,
+    "min_elevation_m": 51.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

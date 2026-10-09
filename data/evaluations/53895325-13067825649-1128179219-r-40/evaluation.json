@@ -1,0 +1,63 @@
+{
+  "candidate": "53895325-13067825649-1128179219-r-40",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park; homes within 25 m on both sides.",
+  "reasons": [
+    "Houses 16-23 m away both sides",
+    "Cars park along this kerb",
+    "Gentle slope, tree shade"
+  ],
+  "drivers": {
+    "seclusion": "Garages and car parks on this side; houses 16-23 m away behind, plus homes across the road.",
+    "access_and_room": "Sealed street with cars parked along the kerb; room for a van beside the lane.",
+    "traffic": "Steady traffic on Whitmore Street.",
+    "convention": "Parked cars along the kerb; 4P parallel sign applies 9 am to 7 pm weekdays and Saturday morning only."
+  },
+  "flags": [
+    "Homes within about 25 m all round",
+    "No Stopping Any Time sign at the Oxford Terrace end",
+    "Apartment block 11 m away near 64 m, so avoid the north end"
+  ],
+  "sun_shade": "Street trees and apartment block shade the kerb; morning sun partly blocked by buildings to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 45,
+    "where": "East kerb of Whitmore Street, beside the car park behind the garages and apartment block",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.98633,
+        -27.494475
+      ],
+      [
+        152.986374,
+        -27.494253
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 7.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

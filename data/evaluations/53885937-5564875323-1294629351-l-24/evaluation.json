@@ -1,0 +1,73 @@
+{
+  "candidate": "53885937-5564875323-1294629351-l-24",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside a roundabout, with houses 5 m and 8 m away.",
+  "reasons": [
+    "Detached house 5 m from kerb",
+    "Semi-detached house 8 m away",
+    "Steep and only 21 m long"
+  ],
+  "drivers": {
+    "seclusion": "Houses front straight onto the kerb at 5 m and 8 m; homes all round.",
+    "access_and_room": "Cars park along the kerb here, so room exists, but the stretch is short.",
+    "traffic": "Beside a roundabout on a through road.",
+    "convention": "A few cars park along the kerb; no sign of overnight stays."
+  },
+  "flags": [
+    "Dwellings within 10 m",
+    "Steep: about 8% mean grade, 17% max",
+    "Roundabout noise"
+  ],
+  "sun_shade": "Open to the sky; some tree shade from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 21,
+    "where": "East kerb of Whitmore Street just south of the roundabout",
+    "slope_pct": 8.3,
+    "points": [
+      [
+        152.986711,
+        -27.492308
+      ],
+      [
+        152.98681,
+        -27.492328
+      ],
+      [
+        152.986748,
+        -27.492365
+      ],
+      [
+        152.986743,
+        -27.492397
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 6,
+    "min_elevation_m": 11.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T12:38:28Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
