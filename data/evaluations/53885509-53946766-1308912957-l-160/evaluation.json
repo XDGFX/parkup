@@ -1,0 +1,68 @@
+{
+  "candidate": "53885509-53946766-1308912957-l-160",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside shopping centre car park, but about 14% grade and Taxi Zone signs.",
+  "reasons": [
+    "Grade about 14%, over the 12% limit",
+    "Taxi Zone signs on this kerb",
+    "Beside shopping centre car park"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwelling 19 m away (apartments); retail and a car park on the section's side.",
+    "access_and_room": "Cars park along the kerb, but the lane is narrow and the grade is steep.",
+    "traffic": "Short side street off a busy shopping junction; shop and taxi traffic.",
+    "convention": "Cars park along the kerb, but both signs say Taxi Zone."
+  },
+  "flags": [
+    "Steep: about 14% mean, 22% max, over the 12% limit",
+    "Signs: Taxi Zone, so general parking is likely prohibited",
+    "Noise from Five Ways shops and the junction"
+  ],
+  "sun_shade": "Heavy tree shade over the kerb from the east; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact Taxi Zone hours"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "East kerb of Alexandra Avenue, uphill of the Five Ways shopping centre car park",
+    "slope_pct": 13.5,
+    "points": [
+      [
+        152.9897,
+        -27.496889
+      ],
+      [
+        152.989651,
+        -27.496961
+      ],
+      [
+        152.989597,
+        -27.497044
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 12.7,
+    "min_elevation_m": 16.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

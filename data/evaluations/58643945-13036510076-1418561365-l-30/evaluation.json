@@ -1,0 +1,49 @@
+{
+  "candidate": "58643945-13036510076-1418561365-l-30",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Line runs through steep scrub, not a road; no way to stop.",
+  "reasons": [
+    "Dense scrub, no road or pull-off",
+    "Grade about 26%, max 62%",
+    "Home 8 m from section"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 8 m and 13 m away; scrubby bank between.",
+    "access_and_room": "No formed surface, vehicles or tracks; ground is steep vegetation beside a cul-de-sac end.",
+    "traffic": "Quiet street end.",
+    "convention": "No parking pattern seen here."
+  },
+  "flags": [
+    "Steep: about 26% grade",
+    "Dwelling within 10 m"
+  ],
+  "sun_shade": "Dense tree canopy over the whole line.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 13.7,
+    "min_elevation_m": 51.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

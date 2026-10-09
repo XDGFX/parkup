@@ -1,0 +1,66 @@
+{
+  "candidate": "47769118-47769132-1285367630-r-50",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a quiet residential street, homes on both sides.",
+  "reasons": [
+    "Homes 12-14 m away either side",
+    "Cars park along this kerb",
+    "Signed no parking weekdays 7am-6pm only"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings on both sides of the street; nearest mapped homes 12-14 m, others 23 m or more.",
+    "access_and_room": "Sealed street with cars parked along both kerbs; room for a van between existing cars.",
+    "traffic": "Quiet side street one block from a busier road; light traffic.",
+    "convention": "Residents park along it; overnight not covered by the weekday-daytime sign."
+  },
+  "flags": [
+    "Dwellings 7 m and 9 m away at the two ends",
+    "Sign: no parking Mon-Fri 7am-6pm",
+    "Flat: about 1% at best section"
+  ],
+  "sun_shade": "Open sky over the street; houses and trees on the south side shade the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 14,
+    "to_m": 38,
+    "where": "South kerb of Cunningham Street, beside the pool house garden",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.981287,
+        -27.49422
+      ],
+      [
+        152.981527,
+        -27.494257
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 22.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

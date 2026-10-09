@@ -1,0 +1,49 @@
+{
+  "candidate": "47831089-47831108-5884010-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 3 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep narrow lane with houses 3-7 m away.",
+  "reasons": [
+    "Grade 22%, over the 12% limit",
+    "Dwellings 3 m and 7 m away",
+    "Narrow lane, nowhere to pull off"
+  ],
+  "drivers": {
+    "seclusion": "Houses 3 m at the start and 7 m at 32 m; homes all round.",
+    "access_and_room": "Narrow sealed lane between fences and hedges; no room to pull clear of traffic.",
+    "traffic": "Quiet side street running up from a through road.",
+    "convention": "No parked vans seen; a single car sits at the lane edge near the start."
+  },
+  "flags": [
+    "Steep: 22.5% mean grade, 30% max",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Mixed tree shade, especially from the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 3,
+    "gated": false,
+    "slope_pct": 22.6,
+    "min_elevation_m": 39.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

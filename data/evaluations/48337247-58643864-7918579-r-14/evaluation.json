@@ -1,0 +1,66 @@
+{
+  "candidate": "48337247-58643864-7918579-r-14",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Long residential kerb, but homes sit 9-12 m away along most of it.",
+  "reasons": [
+    "Homes about 10 m away at best",
+    "Cars park on this street",
+    "Slight rise towards the west end"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings about 10 m on each side of the section; others 22-34 m; homes across the road.",
+    "access_and_room": "Wide sealed street with cars parked on both kerbs; room to stop.",
+    "traffic": "Quiet residential street, little through traffic.",
+    "convention": "Several cars parked on the street; no signs mapped."
+  },
+  "flags": [
+    "Steep: about 5.7% at the section, max 12.6% on the stretch",
+    "Dwellings close to the section on its own side",
+    "Low-lying: about 43 m elevation, no waterway mapped"
+  ],
+  "sun_shade": "Mostly open; street trees and house shade from the north in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether residents object to long stays"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 136,
+    "to_m": 150,
+    "where": "Broomfield Street north kerb, between two house blocks near the west junction",
+    "slope_pct": 5.7,
+    "points": [
+      [
+        152.968592,
+        -27.491744
+      ],
+      [
+        152.968453,
+        -27.491723
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 5.8,
+    "min_elevation_m": 44.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,51 @@
+{
+  "candidate": "47768886-83783934-5881485-l-27",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short, very steep kerb beside a mapped house, church and offices.",
+  "reasons": [
+    "Grade about 20%, over the 12% limit",
+    "Mapped dwelling 7 m away",
+    "Only 15 m long"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 7 m, church 6 m and offices 13-14 m from the kerb; rail corridor further south.",
+    "access_and_room": "Narrow sealed street with cars parked on this kerb; room only for a few vehicles, and the slope is too steep.",
+    "traffic": "Short side street near a junction and commercial buildings.",
+    "convention": "Three cars parked on this kerb, but no signs mapped."
+  },
+  "flags": [
+    "Steep: about 20% grade (max 23%)",
+    "Dwelling within 10 m",
+    "Rail noise nearby"
+  ],
+  "sun_shade": "Mostly open; trees to the south end shade the lower part in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether the detached building is a home or church property"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 19.7,
+    "min_elevation_m": 32.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

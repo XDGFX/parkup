@@ -1,0 +1,62 @@
+{
+  "candidate": "48337247-58643881-7918579-r-30",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb where cars park, but homes sit 14-17 m away.",
+  "reasons": [
+    "Dwellings 14-17 m away",
+    "Cars park along this street",
+    "Gentle slope at west end"
+  ],
+  "drivers": {
+    "seclusion": "Dense houses on both sides; homes 14-17 m from this stretch, partly screened by trees.",
+    "access_and_room": "Sealed street with parked cars along both kerbs, so room to stop exists.",
+    "traffic": "Quiet residential street; busier road at the east end.",
+    "convention": "Cars park on this kerb, but no vans or campers seen."
+  },
+  "flags": [
+    "Slope about 3% at best section; steep further east (max 17.8%)",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Street trees and verge scrub give partial shade; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "Broomfield Street, west end by the corner verge, south side",
+    "slope_pct": 3.1,
+    "points": [
+      [
+        152.970376,
+        -27.492092
+      ],
+      [
+        152.970575,
+        -27.492126
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 3.1,
+    "min_elevation_m": 47.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

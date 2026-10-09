@@ -1,0 +1,75 @@
+{
+  "candidate": "48336610-60667309-8111735-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet cul-de-sac bend kerb where cars park; houses 10-25 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Dwellings 10-25 m on own side",
+    "Steep ground along the street"
+  ],
+  "drivers": {
+    "seclusion": "Houses 20 m and 24 m away on this side; carport 14 m; more homes across the road.",
+    "access_and_room": "Sealed residential street with cars already parked on the kerb; room to stop.",
+    "traffic": "Quiet cul-de-sac type street, little through traffic.",
+    "convention": "Several cars parked on this kerb in the imagery; no signs mapped."
+  },
+  "flags": [
+    "Steep: street grades up to 14% locally, about 4.5% at the section",
+    "Houses close on both sides"
+  ],
+  "sun_shade": "Mostly open; tree canopy on the south side shades part of it from the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether residents object to long stays"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "Birdvale Street bend, south kerb, just before the uphill rise",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        152.97044,
+        -27.489287
+      ],
+      [
+        152.970434,
+        -27.489265
+      ],
+      [
+        152.97042,
+        -27.489252
+      ],
+      [
+        152.970398,
+        -27.489243
+      ],
+      [
+        152.970317,
+        -27.489229
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 7.1,
+    "min_elevation_m": 47.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

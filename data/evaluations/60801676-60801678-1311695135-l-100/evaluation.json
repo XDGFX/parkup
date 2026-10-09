@@ -1,0 +1,68 @@
+{
+  "candidate": "60801676-60801678-1311695135-l-100",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb with parked cars, homes about 20 m away.",
+  "reasons": [
+    "Homes 21-23 m away, closer further on",
+    "Cars park along this street",
+    "Tree canopy over verge"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings 21-23 m; a house sits 7 m from the kerb at 23 m, so keep to the first section.",
+    "access_and_room": "Sealed street, parked cars at the kerb, room to stop.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park along the kerb; no signs mapped."
+  },
+  "flags": [
+    "Steep: about 8% over the section, 4.2% mean overall, 8.6% max",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Heavy tree canopy over the kerb, mainly from the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "Dopson Street south kerb at the eastern end, before the house at 23 m",
+    "slope_pct": 7.7,
+    "points": [
+      [
+        152.990412,
+        -27.498691
+      ],
+      [
+        152.990377,
+        -27.498709
+      ],
+      [
+        152.990288,
+        -27.498752
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 7.7,
+    "min_elevation_m": 21,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

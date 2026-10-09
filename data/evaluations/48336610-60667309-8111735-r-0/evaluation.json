@@ -1,0 +1,67 @@
+{
+  "candidate": "48336610-60667309-8111735-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Street-end kerb beside bush, but homes sit 14-19 m across the road.",
+  "reasons": [
+    "Bush to the west end",
+    "Homes 14-19 m away",
+    "Steep along the street"
+  ],
+  "drivers": {
+    "seclusion": "Bush opposite and beyond the west end; nearest dwelling 14 m at 86 m, others 19 m or more.",
+    "access_and_room": "Sealed street with cars parked on its kerbs; room to stop.",
+    "traffic": "Quiet residential dead-end street, little through traffic.",
+    "convention": "Cars park along the street; no signs mapped."
+  },
+  "flags": [
+    "Steep: street grades up to 13.6%, about 3.5% at the section",
+    "Homes within 25 m"
+  ],
+  "sun_shade": "Bush canopy on the west and south shades it in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether residents object to long stays"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 78,
+    "to_m": 93,
+    "where": "Western end of Birdvale Street, north kerb beside the bushland",
+    "slope_pct": 3.5,
+    "points": [
+      [
+        152.969801,
+        -27.48907
+      ],
+      [
+        152.969788,
+        -27.489066
+      ],
+      [
+        152.969671,
+        -27.48901
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 6.9,
+    "min_elevation_m": 43.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

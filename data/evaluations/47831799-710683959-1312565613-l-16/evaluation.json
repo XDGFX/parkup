@@ -1,0 +1,49 @@
+{
+  "candidate": "47831799-710683959-1312565613-l-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep short kerb with a house 8 m away.",
+  "reasons": [
+    "Slope about 22%",
+    "House 8 m from kerb",
+    "Narrow street beside tight corner"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 8 m, 13 m and 23 m away on the kerb's own side; fully overlooked.",
+    "access_and_room": "Narrow sealed street, kerb against fences and trees; no pull-off.",
+    "traffic": "Quiet side street just below a busy road junction.",
+    "convention": "One car parked further down; no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 22% grade, over the 12% limit",
+    "House within 10 m"
+  ],
+  "sun_shade": "Street trees shade the east kerb; open from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 22.3,
+    "min_elevation_m": 33.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

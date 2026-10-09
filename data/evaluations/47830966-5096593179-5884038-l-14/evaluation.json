@@ -1,0 +1,64 @@
+{
+  "candidate": "47830966-5096593179-5884038-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short steep kerb at a bush-edged bend, two homes 12 m behind.",
+  "reasons": [
+    "Homes 12 m away on own side",
+    "Bush opposite and beyond",
+    "Steep: about 9% grade"
+  ],
+  "drivers": {
+    "seclusion": "Bush across the road; two houses 12 m behind the kerb on own side.",
+    "access_and_room": "Sealed road with a car seen parked at this kerb; short, about one van length plus.",
+    "traffic": "Quiet street end with light traffic.",
+    "convention": "One or two cars park along this bend; no signs mapped."
+  },
+  "flags": [
+    "Steep: about 9% mean, 12% max",
+    "Houses 12 m behind own side",
+    "Mapped gate 282 m away has a way round"
+  ],
+  "sun_shade": "Tree canopy covers the section, mostly from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 19,
+    "where": "South kerb of Dampier Street at the bend, by the bush edge",
+    "slope_pct": 8.8,
+    "points": [
+      [
+        152.98008,
+        -27.488399
+      ],
+      [
+        152.97989,
+        -27.48837
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 7.6,
+    "min_elevation_m": 22.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

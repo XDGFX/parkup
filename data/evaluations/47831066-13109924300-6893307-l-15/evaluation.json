@@ -1,0 +1,65 @@
+{
+  "candidate": "47831066-13109924300-6893307-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 3 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep, narrow kerb with a house 3 m away.",
+  "reasons": [
+    "Grade about 22%, far over 12%",
+    "House 3 m from kerb",
+    "No stopping signs at both ends"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings at 3 m and 5 m on the section's own side.",
+    "access_and_room": "Narrow lane under trees; one car parked, little room beside it.",
+    "traffic": "Quiet side street off a busy road.",
+    "convention": "No Stopping Specified Times signs at both ends."
+  },
+  "flags": [
+    "Steep: about 22% grade",
+    "Dwelling within 3 m",
+    "No Stopping signs at both ends"
+  ],
+  "sun_shade": "Heavy tree canopy over the kerb, mostly shaded.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 25,
+    "where": "west kerb of Bywong Street, north of Cliff Street junction",
+    "slope_pct": 22.1,
+    "points": [
+      [
+        152.978073,
+        -27.489266
+      ],
+      [
+        152.978113,
+        -27.489044
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 3,
+    "gated": false,
+    "slope_pct": 21.5,
+    "min_elevation_m": 42.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,84 @@
+{
+  "candidate": "58643945-13036510076-1418561365-l-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 4 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep wooded verge at a cul-de-sac bend; no room to stop.",
+  "reasons": [
+    "Grade about 25%",
+    "House 4 m from kerb",
+    "Dense scrub, no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "House 4 m away at the start; other homes 17-19 m at the far end.",
+    "access_and_room": "Narrow street edge against steep scrubby bank; no clear ground beside the lane.",
+    "traffic": "Quiet street.",
+    "convention": "Cars park lower down the street, not here."
+  },
+  "flags": [
+    "Steep: about 25% grade",
+    "House within 5 m"
+  ],
+  "sun_shade": "Dense tree canopy shades the section most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 26,
+    "where": "west side of Camp Street at the top of the hill by the bend",
+    "slope_pct": 24.9,
+    "points": [
+      [
+        152.975915,
+        -27.488762
+      ],
+      [
+        152.975917,
+        -27.488752
+      ],
+      [
+        152.97592,
+        -27.48874
+      ],
+      [
+        152.975921,
+        -27.488731
+      ],
+      [
+        152.975921,
+        -27.488721
+      ],
+      [
+        152.975946,
+        -27.488639
+      ],
+      [
+        152.97601,
+        -27.488725
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 4,
+    "gated": false,
+    "slope_pct": 24.9,
+    "min_elevation_m": 51.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

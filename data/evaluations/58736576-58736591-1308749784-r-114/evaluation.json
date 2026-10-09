@@ -1,0 +1,64 @@
+{
+  "candidate": "58736576-58736591-1308749784-r-114",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow steep lane between houses with no room to pull off.",
+  "reasons": [
+    "No room clear of narrow lane",
+    "Dwellings 10-15 m away",
+    "Mean grade 10.7%"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 10 m and 15 m away, homes within 25 m all round.",
+    "access_and_room": "Tight lane, tree cover and house frontages either side; nowhere to pull fully off.",
+    "traffic": "Quiet lane but meets Swann Road at the top.",
+    "convention": "No Stopping signs nearby, including any time on Swann Road and weekdays on Darvall Street."
+  },
+  "flags": [
+    "Steep: about 11% mean grade, 15% max",
+    "No Stopping Any Time (Swann Road) and Mon-Fri signs"
+  ],
+  "sun_shade": "Mostly shaded by tree canopy.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 28,
+    "where": "Upper end of the narrow lane before Swann Road junction",
+    "slope_pct": 10.7,
+    "points": [
+      [
+        152.986075,
+        -27.498383
+      ],
+      [
+        152.986097,
+        -27.498267
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 10.4,
+    "min_elevation_m": 40,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

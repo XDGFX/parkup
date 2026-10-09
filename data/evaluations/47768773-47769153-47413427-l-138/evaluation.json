@@ -1,0 +1,49 @@
+{
+  "candidate": "47768773-47769153-47413427-l-138",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 4 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep Adsett Street kerb with houses 4-9 m away.",
+  "reasons": [
+    "Houses 4-9 m from kerb",
+    "Very steep: 14.4% mean grade",
+    "Weekday no-parking signs"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 4-9 m from the kerb through the stretch.",
+    "access_and_room": "Narrow street; cars parked along the kerb, no extra room.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park here, but weekday 7am-6pm no-parking signs apply."
+  },
+  "flags": [
+    "Steep: 14.4% mean, 16.8% max",
+    "Dwellings within 10 m"
+  ],
+  "sun_shade": "Tree shade from the east side and at the south end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 4,
+    "gated": false,
+    "slope_pct": 14.4,
+    "min_elevation_m": 24.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

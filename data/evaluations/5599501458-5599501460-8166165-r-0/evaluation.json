@@ -1,0 +1,45 @@
+{
+  "candidate": "5599501458-5599501460-8166165-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Roundabout island kerb at Five Ways; nowhere to stop a van.",
+  "reasons": [
+    "Roundabout central island",
+    "Cannot pull out of traffic",
+    "Apartments and shops nearby"
+  ],
+  "drivers": {
+    "seclusion": "Busy Five Ways shopping centre; apartments 27-43 m, cafe 19 m.",
+    "access_and_room": "Kerb of a roundabout island in the circulating lane; no room to stop.",
+    "traffic": "Busy multi-way junction with bus lanes and cycle lanes.",
+    "convention": "No parking along this kerb; car park is customers only."
+  },
+  "flags": [
+    "Roundabout island, not a parking kerb",
+    "Steep: about 4% mean, 7.6% max",
+    "Busy junction noise"
+  ],
+  "sun_shade": "Island has trees; shaded by canopy.",
+  "rubbish": "none seen",
+  "cannot_judge": [],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 7.6,
+    "min_elevation_m": 30.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

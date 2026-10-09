@@ -1,0 +1,73 @@
+{
+  "candidate": "47831066-13109924300-6893307-r-40",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Flat north end of a residential street, homes 12-22 m away.",
+  "reasons": [
+    "Homes 12-22 m away on own side",
+    "Level here, steep further south",
+    "Cars park along this street"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 12 m, 21 m and 22 m away; no bush or park backing.",
+    "access_and_room": "Sealed street wide enough for parked cars; room for a van at the kerb.",
+    "traffic": "Quiet residential street, little through traffic.",
+    "convention": "Cars park along both kerbs; one No Stopping sign near the south end only."
+  },
+  "flags": [
+    "Steep south of 85 m: up to 39%",
+    "Homes within 25 m on own side"
+  ],
+  "sun_shade": "Large trees shade the section, mostly from the west and above.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Sign times"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 93,
+    "to_m": 105,
+    "where": "east kerb at the northern end of Bywong Street, under large trees",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.97835,
+        -27.48823
+      ],
+      [
+        152.978353,
+        -27.488209
+      ],
+      [
+        152.978364,
+        -27.488144
+      ],
+      [
+        152.978368,
+        -27.488124
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 3.4,
+    "min_elevation_m": 22,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

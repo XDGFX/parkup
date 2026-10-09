@@ -1,0 +1,62 @@
+{
+  "candidate": "60801676-60801678-1311695135-l-27",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb where cars park, homes 13-20 m off.",
+  "reasons": [
+    "Homes 13-20 m away both sides",
+    "Cars park along this street",
+    "Steep grade along section"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 13-16 m away on the far side; houses within 25 m all round.",
+    "access_and_room": "Sealed street with several cars parked at the kerb, room to stop.",
+    "traffic": "Quiet residential street, low traffic.",
+    "convention": "Parked cars line the kerb; no signs mapped."
+  },
+  "flags": [
+    "Steep: about 7% over the section, 11.5% mean overall, 30% max",
+    "Homes close on both sides"
+  ],
+  "sun_shade": "Mixed: tree canopy to the south-west, open to north sky.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 30,
+    "where": "Dopson Street kerb south-west of the corner, beside the vacant grassy lot's end",
+    "slope_pct": 7,
+    "points": [
+      [
+        152.990943,
+        -27.498287
+      ],
+      [
+        152.990829,
+        -27.498376
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 7,
+    "min_elevation_m": 29.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

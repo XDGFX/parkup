@@ -1,0 +1,65 @@
+{
+  "candidate": "48324178-48336930-7918585-r-14",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet dead-end residential kerb, homes 19 m or more away on the east side.",
+  "reasons": [
+    "Nearest dwellings 19-27 m, same side",
+    "Quiet residential street, no parking convention",
+    "Fairly flat at north end, about 4%"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 19 m (at 38 m) and 27 m (at 47 m) on the section's side; a house at 10 m starts at 60 m.",
+    "access_and_room": "Sealed lane with a grass verge on the east; a van fits beside the lane.",
+    "traffic": "Quiet end of a residential street, light local traffic.",
+    "convention": "No signs; one or two cars park here, so a van would be noticed."
+  },
+  "flags": [
+    "Steep overall: 8.8% mean, 19% max; about 4% at best section",
+    "Homes within about 25 m all round"
+  ],
+  "sun_shade": "Mostly open; trees shade the south end and the east in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 38,
+    "to_m": 54,
+    "where": "East kerb near the top of Bide Street, beside a mown front lawn",
+    "slope_pct": 3.8,
+    "points": [
+      [
+        152.971392,
+        -27.489978
+      ],
+      [
+        152.971419,
+        -27.489836
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 5.4,
+    "min_elevation_m": 52.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

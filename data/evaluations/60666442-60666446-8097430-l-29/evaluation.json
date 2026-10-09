@@ -1,0 +1,63 @@
+{
+  "candidate": "60666442-60666446-8097430-l-29",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat stretch of a residential street where cars park, houses about 11 m away.",
+  "reasons": [
+    "Homes 11 m away on the same side",
+    "Cars park along the kerb",
+    "Gentle grade through mid-block"
+  ],
+  "drivers": {
+    "seclusion": "Houses with front gardens on the north side, dwellings 11 m away; homes also across the road.",
+    "access_and_room": "Wide sealed street with parked cars both sides; room for a van.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars parked along both kerbs, so a van would blend in."
+  },
+  "flags": [
+    "Dwellings 10-25 m away on the same side",
+    "Steeper west of 50 m and east of 140 m"
+  ],
+  "sun_shade": "Open to sun from the south; some street trees cast shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Local parking habits"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 95,
+    "where": "North side mid-block, west of the 100 m marker",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.968829,
+        -27.48966
+      ],
+      [
+        152.969229,
+        -27.489718
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 3.6,
+    "min_elevation_m": 51.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

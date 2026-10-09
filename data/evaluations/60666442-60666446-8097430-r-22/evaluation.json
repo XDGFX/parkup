@@ -1,0 +1,65 @@
+{
+  "candidate": "60666442-60666446-8097430-r-22",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Flat east end of a residential street, backing onto scrubby land with homes 10-18 m away.",
+  "reasons": [
+    "Scrub and building site on the south side",
+    "Nearest dwelling about 10-18 m",
+    "Flat, but few cars park here"
+  ],
+  "drivers": {
+    "seclusion": "South side is overgrown vacant land; a house sits 10 m back at 189 m and homes lie across the road.",
+    "access_and_room": "Wide sealed street with a grass verge beside the kerb; room for a van.",
+    "traffic": "Quiet residential street ending at a side junction.",
+    "convention": "Cars park mid-street but few at the east end; a van would stand out a little."
+  },
+  "flags": [
+    "Dwellings 10-25 m away",
+    "Steep west of 140 m (up to 22% max)"
+  ],
+  "sun_shade": "Big trees to the south-east give some shade; otherwise open.",
+  "rubbish": "Building materials on the neighbouring plot, no dumping seen.",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Local parking habits"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 192,
+    "to_m": 203,
+    "where": "South kerb at the east end, before the junction, beside the vacant scrubby lot",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.970112,
+        -27.48992
+      ],
+      [
+        152.970222,
+        -27.489937
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 3.4,
+    "min_elevation_m": 40.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

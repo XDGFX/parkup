@@ -1,0 +1,51 @@
+{
+  "candidate": "47769153-47831752-1242369322-l-38",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 0 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Tiny 21 m kerb stretch directly in front of houses and driveways.",
+  "reasons": [
+    "Dwellings 0 m and 6 m from kerb",
+    "Driveway frontage along the whole stretch",
+    "Stretch is barely one van long"
+  ],
+  "drivers": {
+    "seclusion": "Mapped detached dwellings at 0 m and 6 m along the whole stretch; apartments 13 m beyond the end.",
+    "access_and_room": "Sealed street; kerb is lined with garage doors and driveways, so little legal room.",
+    "traffic": "Quiet residential street with light traffic.",
+    "convention": "Cars park further east along this street; no signs mapped for this stretch."
+  },
+  "flags": [
+    "Dwelling within 10 m of every part of the stretch",
+    "Flat: about 2% mean, 7.8% max at the end",
+    "Mapped gate 296 m away has a way round"
+  ],
+  "sun_shade": "Open to sky; houses to the north shade the kerb at midday.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 0,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 31.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

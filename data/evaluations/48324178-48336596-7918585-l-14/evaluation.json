@@ -1,0 +1,65 @@
+{
+  "candidate": "48324178-48336596-7918585-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short, steep residential kerb with houses 8-10 m away on the same side.",
+  "reasons": [
+    "Dwellings 8-10 m from the kerb",
+    "Steep: 10.8% mean grade",
+    "Narrow street, almost no cars parked"
+  ],
+  "drivers": {
+    "seclusion": "Houses at 10 m (at 19 m) and 8 m (at 47 m) on the same side; homes close all round.",
+    "access_and_room": "Narrow lane with kerb-to-hedge verge; only room for a van at the edge of the lane.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "No signs; few cars parked here, so a van would stand out."
+  },
+  "flags": [
+    "Steep: 10.8% mean, 16% max, about 8.5% at best section",
+    "Dwellings within 10 m"
+  ],
+  "sun_shade": "Hedges and trees shade from the east; open to the west afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 22,
+    "to_m": 38,
+    "where": "East kerb of Bide Street between the two southern cross streets, mid-block",
+    "slope_pct": 8.5,
+    "points": [
+      [
+        152.971241,
+        -27.490758
+      ],
+      [
+        152.971214,
+        -27.4909
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 10,
+    "min_elevation_m": 41.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

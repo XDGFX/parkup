@@ -1,0 +1,64 @@
+{
+  "candidate": "58763441-710683959-8051346-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short narrow kerb with houses 7 m and 10 m away.",
+  "reasons": [
+    "Dwellings 7 m and 10 m away",
+    "Only 11 m of kerb",
+    "Steep: about 11% grade"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes at 7 m and 10 m on the same side, more all round.",
+    "access_and_room": "Narrow sealed street, kerb stretch barely a van length; one car parked opposite.",
+    "traffic": "Quiet residential street.",
+    "convention": "Little sign of regular parking along this kerb."
+  },
+  "flags": [
+    "Steep: about 11% mean, 14% max",
+    "Dwellings within 10 m"
+  ],
+  "sun_shade": "Street tree shades the north end; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 11,
+    "where": "east side of Burns Street, outside the houses by the bend",
+    "slope_pct": 10.8,
+    "points": [
+      [
+        152.98221,
+        -27.497475
+      ],
+      [
+        152.982231,
+        -27.497378
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 13.4,
+    "min_elevation_m": 28.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

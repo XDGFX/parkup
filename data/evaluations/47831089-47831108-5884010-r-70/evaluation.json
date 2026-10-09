@@ -1,0 +1,64 @@
+{
+  "candidate": "47831089-47831108-5884010-r-70",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep residential kerb with homes 4-11 m away on the east side.",
+  "reasons": [
+    "Grade about 15%, over 12%",
+    "Dwellings 4-11 m from the kerb",
+    "Narrow lane, cars already parked"
+  ],
+  "drivers": {
+    "seclusion": "Homes front straight onto the kerb; 20 m at best on the far side.",
+    "access_and_room": "Narrow sealed lane with a little hard standing beside it.",
+    "traffic": "Quiet residential street.",
+    "convention": "A couple of cars park along it; no overnight van evidence."
+  },
+  "flags": [
+    "Steep: about 15% mean, 28% max",
+    "Homes close on both sides"
+  ],
+  "sun_shade": "Mostly open to sun; some trees at the northern end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 35,
+    "where": "East side, opposite the white car parked mid-block",
+    "slope_pct": 15,
+    "points": [
+      [
+        152.977216,
+        -27.488416
+      ],
+      [
+        152.977234,
+        -27.488328
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 17.8,
+    "min_elevation_m": 28.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T13:00:35Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
