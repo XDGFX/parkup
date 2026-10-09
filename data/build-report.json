@@ -124,13 +124,19 @@
   "stretches": 2628,
   "unsigned": 1940,
   "failsScreen": 276,
-  "candidates": 2352,
+  "candidates": 2659,
   "lowConfidence": 145,
   "dayOnly": 7,
   "byTier": {
-    "1": 294,
-    "2": 621,
-    "3": 1274,
-    "none": 163
+    "1": 507,
+    "2": 627,
+    "3": 1337,
+    "none": 188
+  },
+  "sites": {
+    "parkingAreas": 163,
+    "offRoad": 144,
+    "withTimetable": 1,
+    "failsScreen": 2
   }
 }

@@ -42,11 +42,43 @@ function midpoint(line: LonLat[]): LonLat {
   return line[0]!;
 }
 
+/** Where a candidate's dot, pulse and Google Maps link go: halfway along a kerb, the middle of a car park, or the site's point. */
+function anchor(c: Candidate): LonLat {
+  if (c.kind !== "parking-area" || c.line.length < 3) return midpoint(c.line);
+  const pts = c.line.slice(0, -1);
+  return [pts.reduce((s, p) => s + p[0], 0) / pts.length, pts.reduce((s, p) => s + p[1], 0) / pts.length];
+}
+
+const KIND_NAMES: Record<Candidate["kind"], string> = { "kerb": "Kerb", "parking-area": "Parking area", "off-road": "Off-road site" };
+
+/** A small icon per kind, drawn once onto a canvas: a kerb line, a P for a parking area, a peak for an off-road site. */
+function kindIcon(kind: Candidate["kind"]): ImageData {
+  const size = 32, cx = document.createElement("canvas").getContext("2d")!;
+  cx.canvas.width = cx.canvas.height = size;
+  cx.fillStyle = "#111113";
+  cx.beginPath(); cx.arc(16, 16, 15, 0, Math.PI * 2); cx.fill();
+  cx.strokeStyle = cx.fillStyle = "#E8E8EC";
+  cx.lineWidth = 3; cx.lineCap = "round";
+  if (kind === "kerb") { cx.beginPath(); cx.moveTo(9, 20); cx.lineTo(23, 12); cx.stroke(); }
+  else if (kind === "parking-area") { cx.font = "bold 19px system-ui, sans-serif"; cx.textAlign = "center"; cx.textBaseline = "middle"; cx.fillText("P", 16, 17); }
+  else { cx.beginPath(); cx.moveTo(7, 22); cx.lineTo(14, 11); cx.lineTo(18, 17); cx.lineTo(20, 14); cx.lineTo(25, 22); cx.closePath(); cx.fill(); }
+  return cx.getImageData(0, 0, size, size);
+}
+
 /** Frontage tier as a draw rank: tier 1 is 3 and drawn largest and on top; no frontage is 0. */
 const rank = (c: Candidate) => 4 - (c.tier ?? 4);
 const frontage = (c: Candidate) => (c.tier && c.frontage ? `Tier ${c.tier} · ${c.frontage.name}` : "Frontage unknown");
 
-const gmaps = (c: Candidate) => { const [lon, lat] = midpoint(c.line); return `https://www.google.com/maps/search/?api=1&query=${lat.toFixed(6)},${lon.toFixed(6)}`; };
+/** The line under the name: where it is, and what it is. */
+function meta(c: Candidate): string {
+  const parts = [c.suburb];
+  if (c.kind === "kerb") parts.push(`${c.side} side`, `${Math.round(c.lengthM)} m of kerb`);
+  else if (c.kind === "parking-area") parts.push("Off-street car park");
+  else parts.push(c.trafficability ? `Track, ${c.trafficability}` : "Track or clearing");
+  return parts.filter(Boolean).join(" · ");
+}
+
+const gmaps = (c: Candidate) => { const [lon, lat] = anchor(c); return `https://www.google.com/maps/search/?api=1&query=${lat.toFixed(6)},${lon.toFixed(6)}`; };
 
 /** "8am", "8am tomorrow" or "9am Mon", relative to today in Brisbane. */
 function fmtOut(d: Date, now = new Date()): string {
@@ -129,18 +161,21 @@ async function main(root: HTMLElement) {
     ] },
   });
 
-  const features = (geometry: (c: Candidate) => Geometry) => ({
+  const features = (of: Candidate[], geometry: (c: Candidate) => Geometry) => ({
     type: "FeatureCollection" as const,
-    features: candidates.map((c) => ({
+    features: of.map((c) => ({
       type: "Feature" as const, id: c.id, geometry: geometry(c),
-      properties: { id: c.id, color: UNEVALUATED, opacity: canStay(c, win) ? 1 : 0.2, rank: rank(c) },
+      properties: { id: c.id, kind: c.kind, color: UNEVALUATED, opacity: canStay(c, win) ? 1 : 0.2, rank: rank(c) },
     })),
   });
+  const kerbs = candidates.filter((c) => c.kind === "kerb");
+  const outlines = candidates.filter((c) => c.kind === "parking-area" && c.line.length > 3);
   function paint() {
     const hours = Math.min(win.key === "now" ? NOW_HOURS : MIN_STAY_HOURS, Math.round((+win.to - +win.from) / 3600e3));
     caption.textContent = `Faded: you'd have to move within ${hours} hours`;
-    (map.getSource("kerbs") as GeoJSONSource | undefined)?.setData(features((c) => ({ type: "LineString", coordinates: c.line })));
-    (map.getSource("dots") as GeoJSONSource | undefined)?.setData(features((c) => ({ type: "Point", coordinates: midpoint(c.line) })));
+    (map.getSource("kerbs") as GeoJSONSource | undefined)?.setData(features(kerbs, (c) => ({ type: "LineString", coordinates: c.line })));
+    (map.getSource("outlines") as GeoJSONSource | undefined)?.setData(features(outlines, (c) => ({ type: "Polygon", coordinates: [c.line] })));
+    (map.getSource("dots") as GeoJSONSource | undefined)?.setData(features(candidates, (c) => ({ type: "Point", coordinates: anchor(c) })));
     paintToilets(map, toilets, win);
   }
 
@@ -157,19 +192,37 @@ async function main(root: HTMLElement) {
     map.addLayer({ id: "kerb", type: "line", source: "kerbs", minzoom: STREET_ZOOM - 1, layout: { "line-cap": "round", "line-sort-key": ["get", "rank"] },
       paint: { "line-color": ["get", "color"], "line-width": width, "line-opacity": ["get", "opacity"] } });
     map.addLayer({ id: "kerb-hit", type: "line", source: "kerbs", minzoom: STREET_ZOOM - 1, paint: { "line-color": "#000", "line-width": 28, "line-opacity": 0 } });
-    map.addLayer({ id: "dot", type: "circle", source: "dots", maxzoom: STREET_ZOOM, layout: { "circle-sort-key": ["get", "rank"] }, paint: {
-      "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, ["+", 2, ["*", 0.5, ["get", "rank"]]], 15, ["+", 3.5, ["get", "rank"]]], "circle-color": ["get", "color"], "circle-opacity": ["get", "opacity"],
-      "circle-stroke-color": "#111113", "circle-stroke-width": 1.5, "circle-stroke-opacity": ["get", "opacity"] } });
+    // Car park outlines at street zoom, under everything else.
+    map.addSource("outlines", { type: "geojson", data: { type: "FeatureCollection", features: [] } });
+    map.addLayer({ id: "outline-fill", type: "fill", source: "outlines", minzoom: STREET_ZOOM - 1,
+      paint: { "fill-color": ["get", "color"], "fill-opacity": ["*", 0.18, ["get", "opacity"]] } }, "kerb-glow");
+    map.addLayer({ id: "outline", type: "line", source: "outlines", minzoom: STREET_ZOOM - 1,
+      paint: { "line-color": ["get", "color"], "line-width": 2, "line-opacity": ["get", "opacity"] } }, "kerb-glow");
+    const isKerb = ["==", ["get", "kind"], "kerb"] as ExpressionSpecification;
+    const dotPaint = {
+      "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, ["+", 2, ["*", 0.5, ["get", "rank"]]], 15, ["+", 3.5, ["get", "rank"]]] as ExpressionSpecification,
+      "circle-color": ["get", "color"] as ExpressionSpecification, "circle-opacity": ["get", "opacity"] as ExpressionSpecification,
+      "circle-stroke-color": "#111113", "circle-stroke-width": 1.5, "circle-stroke-opacity": ["get", "opacity"] as ExpressionSpecification,
+    };
+    // Kerbs are dots until street zoom, then lines; sites stay dots, as their outline is too small to tap from afar.
+    map.addLayer({ id: "dot", type: "circle", source: "dots", maxzoom: STREET_ZOOM, filter: isKerb, layout: { "circle-sort-key": ["get", "rank"] }, paint: dotPaint });
+    map.addLayer({ id: "site-dot", type: "circle", source: "dots", filter: ["!", isKerb], layout: { "circle-sort-key": ["get", "rank"] }, paint: dotPaint });
+    // The kind icon: kerbs while they're dots, sites from a little further out.
+    for (const kind of ["kerb", "parking-area", "off-road"] as const) map.addImage(`kind-${kind}`, kindIcon(kind), { pixelRatio: 2 });
+    const icon = { "icon-image": ["concat", "kind-", ["get", "kind"]] as ExpressionSpecification, "icon-allow-overlap": true, "icon-size": 1, "symbol-sort-key": ["get", "rank"] as ExpressionSpecification };
+    map.addLayer({ id: "kerb-icon", type: "symbol", source: "dots", minzoom: 14, maxzoom: STREET_ZOOM, filter: isKerb, layout: icon, paint: { "icon-opacity": ["get", "opacity"] } });
+    map.addLayer({ id: "site-icon", type: "symbol", source: "dots", minzoom: 13, filter: ["!", isKerb], layout: icon, paint: { "icon-opacity": ["get", "opacity"] } });
     paint();
   });
 
-  for (const id of ["kerb-hit", "dot"]) {
+  const TAPPABLE = ["kerb-hit", "dot", "site-dot", "kerb-icon", "site-icon", "outline-fill"];
+  for (const id of TAPPABLE) {
     map.on("click", id, (e: MapLayerMouseEvent) => { const c = byId.get(String(e.features?.[0]?.properties.id)); if (c) show(c); });
     map.on("mouseenter", id, () => (map.getCanvas().style.cursor = "pointer"));
     map.on("mouseleave", id, () => (map.getCanvas().style.cursor = ""));
   }
   map.on("click", (e: MapMouseEvent) => {
-    const layers = ["kerb-hit", "dot"].filter((l) => map.getLayer(l));
+    const layers = TAPPABLE.filter((l) => map.getLayer(l));
     if (!map.queryRenderedFeatures(e.point, { layers }).length) { sheet.classList.remove("open"); selected = null; pulse.remove(); }
   });
   // A soft pulsing ring marks the chosen kerb stretch while its card is open.
@@ -187,19 +240,20 @@ async function main(root: HTMLElement) {
   function show(c: Candidate) {
     selected = c;
     sheet.innerHTML = `<div class="grab"></div><div class="body">
-      <div class="tags"><span class="tag" style="--c:${UNEVALUATED}">Not evaluated</span><span class="tag" style="--c:var(--muted)">Kerb</span><span class="tag" style="--c:var(--muted)">${esc(frontage(c))}</span></div>
+      <div class="tags"><span class="tag" style="--c:${UNEVALUATED}">Not evaluated</span><span class="tag" style="--c:var(--muted)">${KIND_NAMES[c.kind]}</span><span class="tag" style="--c:var(--muted)">${esc(frontage(c))}</span></div>
       <h2>${esc(c.street)}</h2>
-      <div class="kv">${esc(c.suburb)} · ${c.side} side · ${Math.round(c.lengthM)} m of kerb</div>
+      <div class="kv">${esc(meta(c))}</div>
       ${c.dayOnly ? `<div class="day-only">Day only: the signs don't allow a night here</div>` : ""}
       ${outBlock(c)}
-      <dl class="facts"><dt>Max stay</dt><dd>${c.maxStayHours ? limitName(c.maxStayHours) : "No limit on the plates"}</dd>${toiletFact(c, toilets, win)}</dl>
-      <div class="plates">${c.plates.length ? c.plates.map(plate).join("") : `<span class="kv">No signs: road rules only</span>`}</div>
+      <dl class="facts"><dt>Max stay</dt><dd>${c.maxStayHours ? limitName(c.maxStayHours) : c.kind === "kerb" ? "No limit on the plates" : "No limit mapped"}</dd>${
+        c.kind === "kerb" ? "" : `<dt>Tenure</dt><dd>${esc(c.tenure ?? "Unknown")}</dd>`}${toiletFact(c, toilets, win)}</dl>
+      <div class="plates">${c.plates.length ? c.plates.map(plate).join("") : `<span class="kv">${c.kind === "kerb" ? "No signs: road rules only" : "No signs mapped here"}</span>`}</div>
       ${c.cautions.length ? `<ul class="cautions">${c.cautions.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
       <p class="check">Check the signs on arrival. No sign isn't permission.</p>
       </div><a class="gmaps" href="${gmaps(c)}" target="_blank" rel="noopener">Open in Google Maps <span aria-hidden="true">↗</span></a>`;
     sheet.classList.add("open");
-    pulse.setLngLat(midpoint(c.line)).addTo(map);
-    map.easeTo({ center: midpoint(c.line), offset: [0, -170], duration: 600 });
+    pulse.setLngLat(anchor(c)).addTo(map);
+    map.easeTo({ center: anchor(c), offset: [0, -170], duration: 600 });
   }
 }
 

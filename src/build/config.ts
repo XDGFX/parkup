@@ -80,3 +80,36 @@ export const ST_LUCIA_TRAFFIC_AREA = {
   RULE: { kind: "limit" as const, days: [1, 2, 3, 4, 5], start: 7, end: 18, months: [2, 11] as [number, number], limitHours: 2,
     label: "St Lucia Traffic Area 2P MON-FRI:7am-6pm FEB-NOV" },
 };
+
+/**
+ * Sites. A car park or track tagged with one of these `access` values, or `fee=yes`, is ruled out,
+ * as are on-street car parks (`parking=*`), which the kerb stretches already cover.
+ */
+export const SITE_RULE_OUT = {
+  ACCESS: /^(private|customers|no|permit)$/,
+  ON_STREET: /^(street_side|lane|on_street)$/,
+  /** A track, or service road, tagged `access` or `motor_vehicle` with one of these isn't driven along. */
+  NO_VEHICLES: /^(no|private)$/,
+};
+
+/**
+ * Barriers that stop a vehicle, on a car park's access way or along a track, unless tagged `locked=no`.
+ * A way touches a car park when one of its nodes is inside the outline or within TOUCH_M of it.
+ */
+export const BARRIER = { BLOCKS: /^(gate|lift_gate|bollard|swing_gate|chain|block|jersey_barrier|log)$/, TOUCH_M: 2 };
+
+/**
+ * Off-road sites on OSM tracks: one ENTRY_M in from where a track leaves the road, and one at each dead end of the
+ * reachable track network, unless it's within END_MIN_M of an entry. A QLD Roads and Tracks line within QLD_MATCH_M
+ * of the site gives its trafficability.
+ */
+export const TRACKS = { ENTRY_M: 20, END_MIN_M: 40, QLD_MATCH_M: 15 };
+
+/** A cadastre parcel query belongs to the site whose point it was made at, to within MATCH_M. */
+export const TENURE = { MATCH_M: 1 };
+
+/**
+ * BCC Park — Tracks and Trails lines that make off-road sites. A line is already in OSM when MAPPED_SHARE of the points
+ * sampled every SAMPLE_M along it lie within MATCH_M of an OSM road, track or service way.
+ */
+export const TRAILS = { ITEM_TYPES: ["ACCESS ROAD", "MULTI-USE ACCESS", "MANAGEMENT ACCESS ONLY"], SAMPLE_M: 10, MATCH_M: 15, MAPPED_SHARE: 0.5 };
