@@ -8,9 +8,15 @@ if (process.argv.includes("--snapshot")) execFileSync("npx", ["tsx", "src/build/
 
 const signs = JSON.parse(await readFile("data/snapshot/signs.json", "utf8"));
 const osm = JSON.parse(await readFile("data/snapshot/osm.json", "utf8"));
-const { candidates, report } = build({ signs: signs.signs, ways: osm.ways });
+const toiletSnapshot = JSON.parse(await readFile("data/snapshot/toilets.json", "utf8"));
+const { candidates, toilets, report } = build({ signs: signs.signs, ways: osm.ways, toilets: toiletSnapshot.toilets });
 
 await mkdir("public", { recursive: true });
+await writeFile("public/toilets.json", JSON.stringify({
+  builtFrom: { toilets: toiletSnapshot.takenAt },
+  licence: "National Public Toilet Map, via Brisbane City Council open data (CC BY 4.0).",
+  toilets,
+}));
 await writeFile("public/candidates.json", JSON.stringify({
   builtFrom: { signs: signs.takenAt, osm: osm.takenAt },
   licence: "Derived from OpenStreetMap (ODbL) and Brisbane City Council open data (CC BY 4.0).",

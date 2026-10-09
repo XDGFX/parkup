@@ -1,7 +1,7 @@
 // Fetches and pins the build's inputs: BCC parking signs and OSM road centrelines for the three suburbs.
 // Run: npm run snapshot. Writes data/snapshot/*.json, which are committed so a rebuild is repeatable.
 import { mkdir, writeFile } from "node:fs/promises";
-import type { OsmWay, SignRecord, Snapshot } from "./inputs.ts";
+import type { OsmWay, SignRecord, Snapshot, ToiletRecord } from "./inputs.ts";
 
 const BCC = "https://data.brisbane.qld.gov.au/api/explore/v2.1/catalog/datasets";
 const OVERPASS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter"];
@@ -65,9 +65,28 @@ out body geom;`;
     .sort((a, b) => a.id - b.id);
 }
 
-const [s, w] = await Promise.all([signs(), ways()]);
+// BCC's copy of the National Public Toilet Map, for all of Brisbane: it's small, and the build keeps the nearby ones.
+async function toilets(): Promise<ToiletRecord[]> {
+  const res = await fetch(`${BCC}/public-toilets-in-brisbane/exports/json`);
+  if (!res.ok) throw new Error(`BCC toilets: ${res.status} ${await res.text()}`);
+  const rows = (await res.json()) as Record<string, any>[];
+  return rows
+    .map((r) => ({
+      facilityid: String(r.facilityid),
+      name: r.name,
+      facilitytype: r.facilitytype,
+      address: r.address1,
+      lon: r.longitude,
+      lat: r.latitude,
+      openinghours: r.openinghours,
+    }))
+    .sort((a, b) => a.facilityid.localeCompare(b.facilityid));
+}
+
+const [s, w, t] = await Promise.all([signs(), ways(), toilets()]);
 const snapshot: Snapshot = { takenAt: new Date().toISOString(), signs: s, ways: w };
 await mkdir("data/snapshot", { recursive: true });
 await writeFile("data/snapshot/signs.json", JSON.stringify({ takenAt: snapshot.takenAt, signs: s }, null, 0));
 await writeFile("data/snapshot/osm.json", JSON.stringify({ takenAt: snapshot.takenAt, ways: w }, null, 0));
-console.log(`snapshot: ${s.length} sign plates, ${w.length} OSM ways`);
+await writeFile("data/snapshot/toilets.json", JSON.stringify({ takenAt: snapshot.takenAt, toilets: t }, null, 0));
+console.log(`snapshot: ${s.length} sign plates, ${w.length} OSM ways, ${t.length} toilets`);
