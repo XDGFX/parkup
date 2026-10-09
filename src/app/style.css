@@ -63,11 +63,26 @@ button:focus-visible, a:focus-visible { outline: 3px solid var(--warn); outline-
   font: 500 11px var(--body); color: var(--muted); text-shadow: 0 1px 6px var(--ink); }
 
 /* Aerial view toggle: etched glass like the idle plates, lit warm when on */
-.layer-toggle { position: absolute; top: calc(104px + var(--safe-t)); right: 12px; z-index: 5; display: grid; place-items: center;
+.controls { position: absolute; top: calc(104px + var(--safe-t)); right: 12px; z-index: 5; display: flex; flex-direction: column; gap: 8px; }
+.layer-toggle { display: grid; place-items: center;
   width: 40px; height: 40px; padding: 0; border-radius: 12px; color: rgba(244, 244, 245, .85);
   background: rgba(17, 17, 19, .55); border: 1.5px solid rgba(255, 255, 255, .28); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
   transition: background .2s, color .2s; }
 .layer-toggle[aria-pressed="true"] { background: var(--dusk); color: #1C120D; border-color: transparent; }
+
+/* The filter popover, beside the controls: chips lit when their pins show */
+.filter { position: absolute; top: calc(104px + var(--safe-t)); right: 60px; z-index: 6; width: min(280px, calc(100vw - 76px));
+  padding: 12px 14px 10px; border-radius: 18px; background: var(--surface); border: 1px solid var(--line);
+  backdrop-filter: blur(26px) saturate(1.5); -webkit-backdrop-filter: blur(26px) saturate(1.5); box-shadow: 0 16px 40px rgba(0, 0, 0, .5); }
+.filter[hidden] { display: none; }
+.filter .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 12px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px 6px 9px; border-radius: 999px; border: 1px solid var(--line);
+  background: none; color: var(--muted); font: 600 12.5px var(--body); text-decoration: line-through; opacity: .7; }
+.chip::before { content: ""; width: 8px; height: 8px; border-radius: 50%; border: 1.5px solid var(--c); }
+.chip .kv { font-size: 11px; }
+.chip[aria-pressed="true"] { color: var(--text); background: color-mix(in srgb, var(--c) 16%, transparent); text-decoration: none; opacity: 1; }
+.chip[aria-pressed="true"]::before { background: var(--c); }
+.filter-reset { padding: 4px 0; border: 0; background: none; color: var(--peach); font: 600 12.5px var(--body); }
 
 .sheet { position: absolute; left: 8px; right: 8px; bottom: 8px; z-index: 6; max-height: 72%; display: flex; flex-direction: column; overflow: hidden;
   border-radius: 28px; padding: 12px 20px calc(12px + var(--safe-b)); color: var(--text);
