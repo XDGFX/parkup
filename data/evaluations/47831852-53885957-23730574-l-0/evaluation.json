@@ -1,0 +1,64 @@
+{
+  "candidate": "47831852-53885957-23730574-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wide street with cars parked both sides, but homes within about 20 m all round.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Apartments 17-18 m north-east",
+    "Homes 15-21 m across road"
+  ],
+  "drivers": {
+    "seclusion": "Granville Court and other apartments 17-18 m ahead; houses 15-21 m across the road.",
+    "access_and_room": "Wide kerbside lane with many parked cars; room for a van.",
+    "traffic": "Residential street, rail corridor to the west adds some noise.",
+    "convention": "Cars park on both sides, so a van blends in."
+  },
+  "flags": [
+    "Steep: about 5.5% grade here",
+    "Homes within 25 m all round",
+    "Rail noise at west end"
+  ],
+  "sun_shade": "Open to sun; some tree shade from the north verge near 100 m.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 90,
+    "to_m": 115,
+    "where": "Alpha Street north kerb, towards the east bend before Granville Court",
+    "slope_pct": 5.5,
+    "points": [
+      [
+        152.986077,
+        -27.491861
+      ],
+      [
+        152.986326,
+        -27.491904
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 5.5,
+    "min_elevation_m": 9.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

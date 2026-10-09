@@ -1,0 +1,65 @@
+{
+  "candidate": "53885862-11654703186-6878505-l-50",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb where cars park, backed by a retail building; flats 11 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Flats 11 m away on same side",
+    "Flat, but low-lying beside Toowong Creek"
+  ],
+  "drivers": {
+    "seclusion": "Retail building 19 m away; Campbellbrook flats 11 m away begin about 13 m along; more apartments 14-29 m beyond 45 m.",
+    "access_and_room": "Wide sealed street with parallel parking on both sides; room for a van at the kerb.",
+    "traffic": "Local street beside a creek park and commercial buildings; moderate traffic.",
+    "convention": "Many cars parked along both kerbs, so a van would not stand out."
+  },
+  "flags": [
+    "Dwellings 10-25 m away on the same side",
+    "Low-lying: 5.6 m elevation, Toowong Creek 2 m away, flood-prone",
+    "Mapped customer car park 17 m away"
+  ],
+  "sun_shade": "Open sun on the road; large trees on the south side shade the afternoon and midday.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site",
+    "Flood history"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "North kerb at the west end, beside the retail building and its car park",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        152.987523,
+        -27.490797
+      ],
+      [
+        152.987663,
+        -27.490817
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 5.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

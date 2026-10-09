@@ -1,0 +1,67 @@
+{
+  "candidate": "47769023-47769250-1285367409-r-26",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep street kerb beside the rail corridor, with homes 10-25 m away.",
+  "reasons": [
+    "Rail corridor opposite, no dwellings that side",
+    "Detached homes 10-25 m on own side",
+    "Steep: about 8% along best section"
+  ],
+  "drivers": {
+    "seclusion": "Rail line and grass verge opposite; houses on the kerb's own side sit about 12 m and 24 m from the section, with others at 5-6 m just beyond either end.",
+    "access_and_room": "Cars are parked on this kerb further back; the road looks narrow, so room to pull fully off is tight.",
+    "traffic": "Quiet residential street with a corner junction; train noise from the adjacent line.",
+    "convention": "Some parked cars along the kerb, no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 8% grade here, 16% mean over the whole stretch",
+    "Rail noise from the adjacent corridor",
+    "Dwellings at 5-6 m just either side of the section"
+  ],
+  "sun_shade": "Open to the north and east over the rail verge; trees shade the lower stretch near 50 m.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site",
+    "Exact road width for parking"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 78,
+    "to_m": 98,
+    "where": "South kerb of Cunningham Street, midway between the two bends, opposite the rail verge",
+    "slope_pct": 8.5,
+    "points": [
+      [
+        152.979104,
+        -27.493995
+      ],
+      [
+        152.9793,
+        -27.49395
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 8.1,
+    "min_elevation_m": 30.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

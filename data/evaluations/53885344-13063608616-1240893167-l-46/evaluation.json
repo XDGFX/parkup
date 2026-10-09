@@ -1,0 +1,72 @@
+{
+  "candidate": "53885344-13063608616-1240893167-l-46",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep east kerb on a narrow residential street, with houses 13-17 m away.",
+  "reasons": [
+    "Steep: about 10% at best, 13% overall",
+    "Homes within 25 m all round",
+    "Narrow street, little room beside lane"
+  ],
+  "drivers": {
+    "seclusion": "Bush and a construction plot behind the kerb here, but houses 13-17 m away and more across the road.",
+    "access_and_room": "Sealed narrow street; cars park on the west side and at the north end, with little spare width on the east.",
+    "traffic": "Quiet residential street.",
+    "convention": "No signs; some cars park on the street, no overnight-van convention."
+  },
+  "flags": [
+    "Steep: about 10.5% at best, mean 13.5%, max 22%",
+    "Houses 13-17 m from the section",
+    "Narrow street, tight for a van at the kerb"
+  ],
+  "sun_shade": "Mature trees overhang the section from the east, shading it for most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 25,
+    "where": "East kerb of Beatrice Street, beside the bushy block past the new units",
+    "slope_pct": 10.5,
+    "points": [
+      [
+        152.983743,
+        -27.495913
+      ],
+      [
+        152.983735,
+        -27.495953
+      ],
+      [
+        152.983731,
+        -27.495972
+      ],
+      [
+        152.983723,
+        -27.496001
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 10.5,
+    "min_elevation_m": 18.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

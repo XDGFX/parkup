@@ -1,0 +1,65 @@
+{
+  "candidate": "49339593-603453767-1255785380-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parked-up east kerb on Beatrice Street, with flats about 11-25 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Flats 11-24 m from the kerb",
+    "Homes within 25 m all round"
+  ],
+  "drivers": {
+    "seclusion": "Unit blocks on the east side and houses opposite; nearest dwellings 11-24 m from the section.",
+    "access_and_room": "Sealed street with cars parked on this kerb; room to pull in.",
+    "traffic": "Quiet residential street near a junction.",
+    "convention": "Cars park here, but signs show 2P Mon-Fri 9am-4pm and No Stopping Any Time near the start."
+  },
+  "flags": [
+    "Gentle slope: about 3.4% fall northwards",
+    "2P Mon-Fri 9am-4pm signs on this street",
+    "No Stopping Any Time sign nearby",
+    "Dwellings 11-25 m from the section"
+  ],
+  "sun_shade": "Street trees shade the northern half; open elsewhere, with units shading the east side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Exact sign coverage along the section"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 38,
+    "where": "East kerb of Beatrice Street, beside the flat-roofed block of units",
+    "slope_pct": 3.4,
+    "points": [
+      [
+        152.984284,
+        -27.49328
+      ],
+      [
+        152.984314,
+        -27.493121
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 12.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

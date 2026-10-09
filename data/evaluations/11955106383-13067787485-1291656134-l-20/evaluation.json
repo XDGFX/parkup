@@ -1,0 +1,77 @@
+{
+  "candidate": "11955106383-13067787485-1291656134-l-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep through road lined with houses 9-10 m from the kerb.",
+  "reasons": [
+    "Dwellings 9-10 m away on this side",
+    "Steep: about 12% grade",
+    "Few cars parked; main road"
+  ],
+  "drivers": {
+    "seclusion": "Townhouses and houses sit 9-13 m from the kerb; apartments and a pool house beyond.",
+    "access_and_room": "Kerb beside a sealed through road with narrow verge; a couple of cars stand near the top only.",
+    "traffic": "Through route to the junction at the top; steady passing traffic.",
+    "convention": "Little kerbside parking on this side; one or two cars at the far end."
+  },
+  "flags": [
+    "Steep: about 12% mean, 20% max",
+    "Dwellings within 10 m",
+    "Possible noise from road"
+  ],
+  "sun_shade": "Open road with scattered tree shade from the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 60,
+    "where": "Bellevue Parade west kerb, midway up the hill past the driveways",
+    "slope_pct": 12,
+    "points": [
+      [
+        152.990018,
+        -27.493942
+      ],
+      [
+        152.990018,
+        -27.493942
+      ],
+      [
+        152.989977,
+        -27.49382
+      ],
+      [
+        152.989938,
+        -27.493678
+      ],
+      [
+        152.989925,
+        -27.493639
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 14,
+    "min_elevation_m": 9.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

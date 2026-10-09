@@ -1,0 +1,65 @@
+{
+  "candidate": "47769153-603454415-1285476524-l-210",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep residential kerb with no-stopping signs and homes 7-8 m away.",
+  "reasons": [
+    "Grade 22% mean, above 12% limit",
+    "Dwellings 7-8 m from kerb",
+    "No Stopping Any Time signs"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 7-8 m on this side; apartments at the corner 7 m.",
+    "access_and_room": "Narrow street, steep; no room beyond the lane at the corner.",
+    "traffic": "Quiet street near a busy cross road.",
+    "convention": "Few cars park; no-stopping signs at the corner."
+  },
+  "flags": [
+    "Steep: about 22% mean, 30% max",
+    "No Stopping Any Time signs",
+    "Dwellings within 10 m"
+  ],
+  "sun_shade": "Heavy tree canopy over the middle; shaded.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 7,
+    "to_m": 22,
+    "where": "Adsett Street east kerb, mid-block below the corner",
+    "slope_pct": 21.7,
+    "points": [
+      [
+        152.982532,
+        -27.496349
+      ],
+      [
+        152.982507,
+        -27.496482
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 21,
+    "min_elevation_m": 34.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

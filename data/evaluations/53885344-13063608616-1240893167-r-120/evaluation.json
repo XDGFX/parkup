@@ -1,0 +1,50 @@
+{
+  "candidate": "53885344-13063608616-1240893167-r-120",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep short dead-end kerb, with houses 6-11 m away.",
+  "reasons": [
+    "Grade 17% mean, 26% max",
+    "Houses 6-11 m from kerb",
+    "Narrow treed dead end"
+  ],
+  "drivers": {
+    "seclusion": "Treed, but a house 6 m away at the south end and others 10-17 m from the north end.",
+    "access_and_room": "Narrow sealed dead end onto the main road; no flat ground wide enough beside the lane.",
+    "traffic": "Quiet dead end close to a busy main road.",
+    "convention": "No signs; a few cars park at the end, no van convention."
+  },
+  "flags": [
+    "Steep: mean 17%, max 26%, well over the 12% limit",
+    "Dwellings 6-11 m from the kerb",
+    "Noise from the main road at the south end"
+  ],
+  "sun_shade": "Heavy tree canopy over most of the stretch, open at the bottom junction.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 18.8,
+    "min_elevation_m": 27.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

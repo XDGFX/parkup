@@ -1,0 +1,63 @@
+{
+  "candidate": "47831752-49339593-1242368908-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat southern end of a street where cars park; homes 13-17 m away.",
+  "reasons": [
+    "Cars park along both kerbs",
+    "Houses 13-17 m away on same side",
+    "Flat at the southern end"
+  ],
+  "drivers": {
+    "seclusion": "Mapped houses and flats 13-17 m from the kerb on the section's own side, and flats across the road; none within 10 m.",
+    "access_and_room": "Public street with cars parked along the kerb, so a van fits in line.",
+    "traffic": "Residential street with moderate traffic; junction to the north.",
+    "convention": "Parked cars line both sides in both images, so a van would not stand out."
+  },
+  "flags": [
+    "Steep further north: 8.8% mean, 15% max along the full stretch",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Open kerb; trees on the east side shade it in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 22,
+    "where": "Southern end of Beatrice Street east kerb, opposite the side street",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.984005,
+        -27.494606
+      ],
+      [
+        152.984048,
+        -27.494412
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 3.2,
+    "min_elevation_m": 24.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

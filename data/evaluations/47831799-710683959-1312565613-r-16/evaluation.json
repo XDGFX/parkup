@@ -1,0 +1,64 @@
+{
+  "candidate": "47831799-710683959-1312565613-r-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Very steep narrow lane with homes close on the west side.",
+  "reasons": [
+    "18% mean grade, 25% max",
+    "Narrow lane, no room to pull off",
+    "Homes 15-19 m away on this side"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 15-19 m away on the west side and more across the lane.",
+    "access_and_room": "Narrow sealed street with trees and fences close to the edge; no pull-off beside the lane.",
+    "traffic": "Quiet side street off a busier road at the top.",
+    "convention": "One car parked near the bottom; no sign the lane is used for overnight parking."
+  },
+  "flags": [
+    "Steep: 18% mean, 25% max; best 14 m still about 10%",
+    "Dwellings 10-25 m away on the same side",
+    "Narrow lane, no verge"
+  ],
+  "sun_shade": "Heavy tree canopy over the west side and middle of the stretch.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "Top of Burns Street just south of the junction, west kerb",
+    "slope_pct": 10,
+    "points": [
+      [
+        152.982246,
+        -27.49687
+      ],
+      [
+        152.982222,
+        -27.496994
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 21.7,
+    "min_elevation_m": 36.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

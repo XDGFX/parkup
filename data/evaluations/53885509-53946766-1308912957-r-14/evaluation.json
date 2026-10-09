@@ -1,0 +1,64 @@
+{
+  "candidate": "53885509-53946766-1308912957-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, homes 18-23 m away, but steep at about 10%.",
+  "reasons": [
+    "Nearest homes 18-23 m away",
+    "Cars park along this kerb",
+    "Grade about 10% here"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings 18 m behind and 23 m (apartments); homes close all round.",
+    "access_and_room": "Parked cars line this kerb, so there is room beside the lane.",
+    "traffic": "Short residential street next to Five Ways shops and car park.",
+    "convention": "Cars park here; Taxi Zone signs sit near the corner, outside the section."
+  },
+  "flags": [
+    "Steep: about 10% grade (max 17%)",
+    "Taxi Zone signs near the Five Ways end",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Tree canopy over the west verge; shaded in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact extent of taxi zone"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 125,
+    "to_m": 145,
+    "where": "Alexandra Avenue west kerb, below the vacant lot, before the Five Ways corner",
+    "slope_pct": 9.9,
+    "points": [
+      [
+        152.989739,
+        -27.49669
+      ],
+      [
+        152.989635,
+        -27.496844
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 13.5,
+    "min_elevation_m": 13.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

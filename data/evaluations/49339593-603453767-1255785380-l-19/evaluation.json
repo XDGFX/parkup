@@ -1,0 +1,65 @@
+{
+  "candidate": "49339593-603453767-1255785380-l-19",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parked-up residential kerb on Beatrice Street, with apartments and homes close on both sides.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Apartments 16 m and 11 m away",
+    "Homes within 25 m all round"
+  ],
+  "drivers": {
+    "seclusion": "Dense units and houses on both sides; nearest dwellings 11-16 m on the same side, so overlooked.",
+    "access_and_room": "Sealed street with parked cars along the kerb; room to stop in the parking lane.",
+    "traffic": "Quiet side street near a junction; some through traffic.",
+    "convention": "Cars park here, but signs show 2P Mon-Fri 9am-4pm and a No Stopping zone near the start."
+  },
+  "flags": [
+    "Gentle slope: about 3.6% fall northwards",
+    "2P Mon-Fri 9am-4pm signs on this street",
+    "No Stopping Any Time sign near the start",
+    "Dwellings 11-16 m from the section"
+  ],
+  "sun_shade": "Mostly open; trees on the east side give afternoon shade, buildings on the west side shade mornings.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Exact sign coverage along the section"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 38,
+    "where": "West kerb on Beatrice Street, between the corner and the next block of flats",
+    "slope_pct": 3.6,
+    "points": [
+      [
+        152.984212,
+        -27.493225
+      ],
+      [
+        152.984241,
+        -27.493066
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 3.1,
+    "min_elevation_m": 12.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

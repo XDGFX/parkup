@@ -1,0 +1,50 @@
+{
+  "candidate": "53885344-13063608616-1240893167-l-110",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Too steep everywhere: 14-23% grade on a narrow hillside street.",
+  "reasons": [
+    "Grade well above 12% throughout",
+    "Narrow street, no room beside lane",
+    "Flats 9 m and houses 14 m away"
+  ],
+  "drivers": {
+    "seclusion": "Treed on the east side, but flats 9 m and houses 14-17 m away.",
+    "access_and_room": "Narrow sealed street, tree-lined, with no pull-off wider than a van.",
+    "traffic": "Quiet side street running up from a main road.",
+    "convention": "No signs; a few cars parked at the lower end, no van convention."
+  },
+  "flags": [
+    "Steep: mean 17%, max 23%, flattest 5 m step about 14%",
+    "Flats 9 m from the kerb",
+    "Narrow, tight for a van"
+  ],
+  "sun_shade": "Heavy tree canopy over the northern half, open near the bottom junction.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 17.2,
+    "min_elevation_m": 25.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

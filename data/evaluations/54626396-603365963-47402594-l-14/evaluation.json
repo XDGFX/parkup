@@ -1,0 +1,66 @@
+{
+  "candidate": "54626396-603365963-47402594-l-14",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet bend with detached homes about 10 m away on both sides.",
+  "reasons": [
+    "Houses 10 m and 5 m on own side",
+    "Homes 20-25 m across the road",
+    "Few cars parked, no convention"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 10 m away at 15 m, another 5 m just before it; houses across the road 21-24 m.",
+    "access_and_room": "Narrow bend with verge and hedges on the far side; a van would sit in the lane edge with little spare room.",
+    "traffic": "Quiet residential crescent, light traffic.",
+    "convention": "A couple of cars parked on the south side; none seen on this kerb."
+  },
+  "flags": [
+    "Steep: about 4.5% grade",
+    "Dwellings 5-10 m from the section's ends",
+    "Tight bend, limited room to pull off"
+  ],
+  "sun_shade": "Tree canopy and shadows over the kerb; open sun from the north-west in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 22,
+    "where": "North kerb of Ellerslie Crescent, on the bend beside the garden shed and tree",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        152.98716,
+        -27.49297
+      ],
+      [
+        152.987272,
+        -27.493048
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 4.4,
+    "min_elevation_m": 22,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

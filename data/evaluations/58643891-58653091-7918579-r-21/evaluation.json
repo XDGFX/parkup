@@ -1,0 +1,66 @@
+{
+  "candidate": "58643891-58653091-7918579-r-21",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep north kerb; flat crest has homes 9 m away.",
+  "reasons": [
+    "Flat crest has homes within 9 m",
+    "Steep elsewhere: 11% mean, over 12% in parts",
+    "Few cars parked on this side"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 9 m away at 70 m and 90 m on the same side, and 6-11 m at 41 m and 115 m.",
+    "access_and_room": "Sealed street; a van could stop at the kerb, but few cars park on this side.",
+    "traffic": "Quiet side street between two junctions.",
+    "convention": "Little sign of kerb parking on the north side, so a van would stand out."
+  },
+  "flags": [
+    "Dwelling within 10 m of the only flat section",
+    "Steep: mean grade 11%, max 18%",
+    "Neighbours very close"
+  ],
+  "sun_shade": "Mixed; heavy tree shade near 0-20 m and 100-118 m, open around the crest.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 75,
+    "to_m": 86,
+    "where": "North kerb at the crest, between the two homes at 70 m and 90 m",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.974423,
+        -27.49266
+      ],
+      [
+        152.974313,
+        -27.492645
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 3.8,
+    "min_elevation_m": 45.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,66 @@
+{
+  "candidate": "58763440-58763441-1237929505-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep narrow street, terraced homes 8-11 m from the west kerb.",
+  "reasons": [
+    "Homes 8-11 m away along whole stretch",
+    "10% mean grade, 18% max",
+    "Narrow lane, trees and fences at edge"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 8-9 m away at 15 m and 21 m and within 11 m for the rest of the stretch.",
+    "access_and_room": "Narrow sealed street; verge is tree-lined and little clear ground beside the lane.",
+    "traffic": "Quiet side street off a cross street.",
+    "convention": "A couple of cars park on the east side; none on the west kerb."
+  },
+  "flags": [
+    "Dwelling within 10 m of the best section",
+    "Steep: 10% mean, 18% max",
+    "Narrow lane"
+  ],
+  "sun_shade": "Tree canopy over the west verge at 0-30 m; afternoon shade from houses to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "West kerb just north of the cross street",
+    "slope_pct": 4,
+    "points": [
+      [
+        152.982005,
+        -27.49812
+      ],
+      [
+        152.982028,
+        -27.497996
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 5,
+    "min_elevation_m": 18.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

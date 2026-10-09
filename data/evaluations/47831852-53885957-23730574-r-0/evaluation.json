@@ -1,0 +1,64 @@
+{
+  "candidate": "47831852-53885957-23730574-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wide street where cars park, but houses sit about 13 m from this kerb.",
+  "reasons": [
+    "Houses 13 m away on own side",
+    "Cars park along this kerb",
+    "Slope about 5% here"
+  ],
+  "drivers": {
+    "seclusion": "Houses 13 m away on this side; apartments 18 m across the road.",
+    "access_and_room": "Wide lane with parked cars; room for a van at the kerb.",
+    "traffic": "Residential street, rail corridor at the west end.",
+    "convention": "Cars park on both sides, so a van blends in."
+  },
+  "flags": [
+    "Steep: about 5% grade here, up to 16% elsewhere",
+    "Dwellings 13 m away on the section's own side",
+    "Rail noise at west end"
+  ],
+  "sun_shade": "Mostly open; patchy tree shade from the south verge.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 70,
+    "to_m": 95,
+    "where": "Alpha Street south kerb, mid-block fronting the houses",
+    "slope_pct": 4.8,
+    "points": [
+      [
+        152.985863,
+        -27.491898
+      ],
+      [
+        152.986112,
+        -27.491941
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 4.8,
+    "min_elevation_m": 11.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

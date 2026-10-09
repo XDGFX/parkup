@@ -1,0 +1,50 @@
+{
+  "candidate": "53885330-603453811-6882723-r-33",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 3 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a junction with houses 3-12 m away.",
+  "reasons": [
+    "Houses 3-6 m from most of the kerb",
+    "Only 16 m long, at a junction",
+    "Quarter-hour parking signs"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 3 m and 6 m behind the kerb, the nearest 12 m at the far end; fronts a junction.",
+    "access_and_room": "Kerb is only 16 m, and the last stretch meets the junction mouth; no clear van-length spot away from houses.",
+    "traffic": "Open junction of two roads with through traffic.",
+    "convention": "Cars park here briefly (1/4P Parallel signs); no overnight convention."
+  },
+  "flags": [
+    "1/4P Parallel and No Stopping signs on this kerb",
+    "Dwelling within 10 m of nearly all the stretch",
+    "Slope about 1.7%, gentle"
+  ],
+  "sun_shade": "Open; a large tree shades the island opposite.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 3,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 12,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

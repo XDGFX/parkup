@@ -1,0 +1,64 @@
+{
+  "candidate": "53885509-53946766-1308912957-l-29",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb where cars park, but homes sit about 11 m away.",
+  "reasons": [
+    "Homes 11-12 m on same side",
+    "Cars park along this kerb",
+    "Slope about 6% here"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 11 m away at 58 m and 79 m; none within 10 m.",
+    "access_and_room": "Parked cars line the kerb here, so a van fits in the lane edge.",
+    "traffic": "Quiet residential street near Five Ways shops.",
+    "convention": "Cars park along this stretch, so a van will blend in."
+  },
+  "flags": [
+    "Steep: about 6% grade here, up to 17% max elsewhere",
+    "Dwellings 11 m away on the section's own side",
+    "Low ground near the north end, about 7 m elevation"
+  ],
+  "sun_shade": "Mixed tree shade along the east side, open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 50,
+    "to_m": 70,
+    "where": "Alexandra Avenue east kerb, about halfway up the block",
+    "slope_pct": 5.6,
+    "points": [
+      [
+        152.99012,
+        -27.496267
+      ],
+      [
+        152.990016,
+        -27.496421
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 5.6,
+    "min_elevation_m": 9.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

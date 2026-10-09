@@ -1,0 +1,231 @@
+{
+  "id": "osm-node-3079582363",
+  "street": "Car park off Western Freeway",
+  "suburb": "",
+  "line": [
+    [
+      152.969112,
+      -27.479951
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "parking-area",
+  "kind": "point",
+  "length_m": 0,
+  "signs": [],
+  "buildings": [],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.968909,
+        "lat": -27.479951,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 71.07
+      },
+      {
+        "lon": 152.96896,
+        "lat": -27.479951,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 70.84
+      },
+      {
+        "lon": 152.969011,
+        "lat": -27.479951,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 70.56
+      },
+      {
+        "lon": 152.969061,
+        "lat": -27.479951,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 70.31
+      },
+      {
+        "lon": 152.969112,
+        "lat": -27.479951,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 69.98
+      },
+      {
+        "lon": 152.969163,
+        "lat": -27.479951,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 69.57
+      },
+      {
+        "lon": 152.969213,
+        "lat": -27.479951,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 69.33
+      },
+      {
+        "lon": 152.969264,
+        "lat": -27.479951,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 67.13
+      },
+      {
+        "lon": 152.969315,
+        "lat": -27.479951,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 65.39
+      },
+      {
+        "lon": 152.969112,
+        "lat": -27.480131,
+        "at_m": 0,
+        "line": 1,
+        "elevation_m": 70.69
+      },
+      {
+        "lon": 152.969112,
+        "lat": -27.480086,
+        "at_m": 5,
+        "line": 1,
+        "elevation_m": 70.25
+      },
+      {
+        "lon": 152.969112,
+        "lat": -27.480041,
+        "at_m": 10,
+        "line": 1,
+        "elevation_m": 69.95
+      },
+      {
+        "lon": 152.969112,
+        "lat": -27.479996,
+        "at_m": 15,
+        "line": 1,
+        "elevation_m": 69.92
+      },
+      {
+        "lon": 152.969112,
+        "lat": -27.479951,
+        "at_m": 20,
+        "line": 1,
+        "elevation_m": 69.98
+      },
+      {
+        "lon": 152.969112,
+        "lat": -27.479906,
+        "at_m": 25,
+        "line": 1,
+        "elevation_m": 70.02
+      },
+      {
+        "lon": 152.969112,
+        "lat": -27.479861,
+        "at_m": 30,
+        "line": 1,
+        "elevation_m": 70.06
+      },
+      {
+        "lon": 152.969112,
+        "lat": -27.479816,
+        "at_m": 35,
+        "line": 1,
+        "elevation_m": 69.75
+      },
+      {
+        "lon": 152.969112,
+        "lat": -27.479771,
+        "at_m": 40,
+        "line": 1,
+        "elevation_m": 67.61
+      }
+    ],
+    "min_elevation_m": 65.4,
+    "max_elevation_m": 71.1,
+    "mean_grade_pct": 11.3,
+    "max_grade_pct": 44
+  },
+  "waterway": {
+    "name": null,
+    "metres": 54
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 0,
+      "access": null,
+      "fee": null,
+      "surface": null
+    }
+  ],
+  "mapped_ways": [
+    {
+      "highway": "unclassified",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": null,
+      "metres": 3
+    },
+    {
+      "highway": "track",
+      "service": null,
+      "name": null,
+      "surface": "asphalt",
+      "access": "no",
+      "metres": 22
+    },
+    {
+      "highway": "track",
+      "service": null,
+      "name": "Citriodora Trail",
+      "surface": "ground",
+      "access": null,
+      "metres": 59
+    },
+    {
+      "highway": "service",
+      "service": null,
+      "name": null,
+      "surface": null,
+      "access": "private",
+      "metres": 60
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 0,
+      "length_m": 0,
+      "images": {
+        "esri": ".cache/imagery/osm-node-3079582363/chunk1-esri.jpg",
+        "qld": ".cache/imagery/osm-node-3079582363/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        200,
+        200
+      ],
+      "image_px": [
+        1333,
+        1333
+      ]
+    }
+  ]
+}

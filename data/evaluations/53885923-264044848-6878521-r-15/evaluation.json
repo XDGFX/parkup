@@ -1,0 +1,63 @@
+{
+  "candidate": "53885923-264044848-6878521-r-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy residential kerb where cars park; homes and flats close on both sides.",
+  "reasons": [
+    "Cars park along kerb here",
+    "Flats 11-14 m away on south side",
+    "Flats and houses across the road too"
+  ],
+  "drivers": {
+    "seclusion": "Dense housing and apartment blocks within about 11-16 m on the south side and close across the road; none within 10 m of this section.",
+    "access_and_room": "Plain public street with parked cars along the kerb, so there is room to park in line.",
+    "traffic": "Through street linking to a roundabout; steady traffic likely.",
+    "convention": "Cars park along both kerbs, so a van would blend in, but residents are close."
+  },
+  "flags": [
+    "Low-lying: about 3.9 m elevation, Toowong Creek 30 m away",
+    "Flats at 163 m sit 11 m from the kerb"
+  ],
+  "sun_shade": "Mostly open; street trees shade the north side and the first part of the stretch.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 138,
+    "to_m": 158,
+    "where": "Alpha Street near the eastern end, between the flat blocks and the junction",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.988393,
+        -27.492317
+      ],
+      [
+        152.988592,
+        -27.492351
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 0.9,
+    "min_elevation_m": 3.9,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

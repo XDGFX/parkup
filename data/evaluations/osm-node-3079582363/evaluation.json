@@ -1,0 +1,60 @@
+{
+  "candidate": "osm-node-3079582363",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small sealed bush car park off the freeway, no homes nearby, level.",
+  "reasons": [
+    "Surrounded by dense bush",
+    "No buildings within 100 m",
+    "Sealed surface on a mapped road"
+  ],
+  "drivers": {
+    "seclusion": "Enclosed by bush on all sides; no buildings listed or visible. A works yard sits about 40 m north-west, behind trees.",
+    "access_and_room": "Asphalt road about 3 m away runs into the car park. Sealed area roughly 15 by 20 m, room for a van. No gate seen.",
+    "traffic": "Little through traffic on a dead-end spur; freeway noise likely.",
+    "convention": "Mapped car park with painted bays; no vehicles seen in either image."
+  },
+  "flags": [
+    "Slope steep off the pad: ground drops sharply to the east",
+    "Freeway noise likely",
+    "Private service road and no-access track mapped nearby"
+  ],
+  "sun_shade": "Heavy tree cover on the north and east sides; shaded in the morning, more open to the west and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Whether the car park is locked at night",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Small sealed car park at the ring, reached by the asphalt road from the south-east",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.969112,
+        -27.479951
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 11.3,
+    "min_elevation_m": 65.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

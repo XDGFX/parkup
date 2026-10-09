@@ -1,0 +1,47 @@
+{
+  "candidate": "5555368834-13076894280-1128179225-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Centre island of a roundabout; no place to stop and homes close.",
+  "reasons": [
+    "Roundabout island, not a parking spot",
+    "Dwellings 17 m away",
+    "Cafes and shops adjacent"
+  ],
+  "drivers": {
+    "seclusion": "Open junction with houses and shops within 15-30 m.",
+    "access_and_room": "A 5 m kerb on a roundabout island; no room to pull out of the traffic lane.",
+    "traffic": "Busy junction with traffic on all sides.",
+    "convention": "No parking at a roundabout; a van would block the circulating lane."
+  },
+  "flags": [
+    "Roundabout island, nowhere legal to stop",
+    "Dwelling 17 m from kerb",
+    "Slope about 1.7%"
+  ],
+  "sun_shade": "Open; some tree shade from the north-east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 37.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

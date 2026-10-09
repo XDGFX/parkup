@@ -1,0 +1,64 @@
+{
+  "candidate": "53885438-53895343-6882678-r-95",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb with parked cars; flats and homes 12-20 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Homes and flats 12-20 m away",
+    "Slope about 5% at best section"
+  ],
+  "drivers": {
+    "seclusion": "Flats and houses 12-20 m away on this side, more homes across the road.",
+    "access_and_room": "Sealed street with cars parked on both sides; room for a van at the kerb.",
+    "traffic": "Quiet local street with light traffic.",
+    "convention": "Many cars parked along both kerbs in both images, so a van blends in."
+  },
+  "flags": [
+    "Steep: about 5% at best section, 6.8% mean, 11.6% max",
+    "Homes within 25 m all round",
+    "Lower end falls to about 4.6 m elevation, no mapped waterway"
+  ],
+  "sun_shade": "Mostly open; a few street trees shade the east kerb around 50 m and 100 m.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 30,
+    "where": "Brasted Street east kerb, north of the Barrington flats",
+    "slope_pct": 5,
+    "points": [
+      [
+        152.987987,
+        -27.496461
+      ],
+      [
+        152.988014,
+        -27.496329
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 5.1,
+    "min_elevation_m": 11.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

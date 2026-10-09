@@ -1,0 +1,63 @@
+{
+  "candidate": "53885923-264044848-6878521-l-80",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat shaded kerb backing onto lawns, with nearest homes 24 m or more away.",
+  "reasons": [
+    "North side backs onto open lawn and trees",
+    "Nearest dwellings 24 m or more",
+    "Cars park along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto grounds and trees; apartments 24 m across the road, 29 m behind.",
+    "access_and_room": "Wide lane with parked cars; room beside the lane.",
+    "traffic": "Residential through street, moderate traffic.",
+    "convention": "Cars park on both sides, so a van blends in."
+  },
+  "flags": [
+    "Low-lying: about 4 m elevation, Toowong Creek 26 m away",
+    "Apartments within 25 m across the road"
+  ],
+  "sun_shade": "Dense tree canopy shades the north kerb, mostly from the north and midday sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 65,
+    "to_m": 95,
+    "where": "Alpha Street north kerb, along the lawn and trees east of the apartment block",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.988331,
+        -27.492215
+      ],
+      [
+        152.988629,
+        -27.492266
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 3.8,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,68 @@
+{
+  "candidate": "53885923-264044848-6878521-l-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb with cars parked, but apartments within about 15 m behind.",
+  "reasons": [
+    "Apartments 11-12 m either side",
+    "Flat, slope under 1%",
+    "Cars park along this street"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks 11-12 m either side of the gap; houses 21 m across the road.",
+    "access_and_room": "Wide lane with parked cars; room to stop at the kerb.",
+    "traffic": "Through street beside a roundabout, moderate traffic.",
+    "convention": "Cars park along both kerbs, so a van is not out of place."
+  },
+  "flags": [
+    "Dwellings within about 15 m on own side",
+    "Low ground about 8-9 m, Toowong Creek 101 m away",
+    "Roundabout and through-traffic noise"
+  ],
+  "sun_shade": "Tree canopy over the north verge shades the section; open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 18,
+    "to_m": 34,
+    "where": "Alpha Street north kerb, between the two apartment blocks east of the roundabout",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.987213,
+        -27.492035
+      ],
+      [
+        152.987265,
+        -27.492043
+      ],
+      [
+        152.987373,
+        -27.49206
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 4,
+    "min_elevation_m": 8.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,62 @@
+{
+  "candidate": "49339588-5256835352-47413376-r-163",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short residential kerb with parked cars; apartments 15-16 m away on own side.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Apartments 15-16 m behind kerb",
+    "Shaded by trees"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 15-16 m behind the kerb on the same side and homes across the road.",
+    "access_and_room": "Sealed street with cars parked along the kerb; room to stop at the edge.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars regularly park along both kerbs, so a van blends in."
+  },
+  "flags": [
+    "Steep: about 7% grade",
+    "Dwellings 10-25 m on own side"
+  ],
+  "sun_shade": "Heavy tree canopy shades the kerb, mainly from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 25,
+    "where": "Ada Street north kerb, west end near the bend",
+    "slope_pct": 7,
+    "points": [
+      [
+        152.984923,
+        -27.492731
+      ],
+      [
+        152.984674,
+        -27.49269
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 7.8,
+    "min_elevation_m": 12.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

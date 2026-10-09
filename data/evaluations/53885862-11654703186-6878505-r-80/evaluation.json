@@ -1,0 +1,64 @@
+{
+  "candidate": "53885862-11654703186-6878505-r-80",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short south kerb where cars park, with apartments about 20 m opposite.",
+  "reasons": [
+    "Cars already park along this kerb",
+    "Apartments 19-21 m away across road",
+    "Only 15 m long, vegetated on south side"
+  ],
+  "drivers": {
+    "seclusion": "South side backs onto trees and scrub; apartments 19 m and 21 m opposite and more homes within 40 m.",
+    "access_and_room": "Cars park nose to tail along the kerb here, so a van can pull in beside them; 15 m is just enough for a light van.",
+    "traffic": "Quiet local street with parked cars both sides; light through traffic.",
+    "convention": "Kerb parking is normal here, but no sign of overnight stays."
+  },
+  "flags": [
+    "Slope about 3% mean, marginally steep",
+    "Low-lying: about 5.6 m, Toowong Creek 4 m away",
+    "Mapped gate 15 m away has a way round, not on only access"
+  ],
+  "sun_shade": "Tree canopy to the south shades it; sun from the north across the road at midday.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "South kerb of Campbell Street, beside the grass verge and trees",
+    "slope_pct": 3.2,
+    "points": [
+      [
+        152.98781,
+        -27.490911
+      ],
+      [
+        152.98796,
+        -27.490934
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 5.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

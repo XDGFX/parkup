@@ -1,0 +1,68 @@
+{
+  "candidate": "49339588-5256835352-47413376-l-23",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb where cars park, beside a vacant lot; apartments across the road.",
+  "reasons": [
+    "Cars parked along both kerbs",
+    "Vacant lot on own side",
+    "Apartments 13-23 m opposite"
+  ],
+  "drivers": {
+    "seclusion": "Vacant lot behind the kerb, but apartments 13-23 m across the road and homes either side.",
+    "access_and_room": "Wide sealed street with a parked-car lane; room to stop at the kerb.",
+    "traffic": "Quiet residential street; busier main road at the east end.",
+    "convention": "Many cars park along both kerbs, so a van would blend in."
+  },
+  "flags": [
+    "Steep: about 9-10% grade here, 6.5% mean overall",
+    "No Stopping Any Time signs at the east end (0-15 m)",
+    "Dwellings within 10-25 m opposite"
+  ],
+  "sun_shade": "Mostly open on the south side; trees shade the north side and the afternoon sun comes over the lot.",
+  "rubbish": "Some building debris on the lot next door; none else seen.",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs beyond the two mapped"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 120,
+    "to_m": 140,
+    "where": "Ada Street, outside the vacant grassed lot on the south side",
+    "slope_pct": 9.5,
+    "points": [
+      [
+        152.985099,
+        -27.492832
+      ],
+      [
+        152.984953,
+        -27.492809
+      ],
+      [
+        152.9849,
+        -27.4928
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 9.6,
+    "min_elevation_m": 14.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

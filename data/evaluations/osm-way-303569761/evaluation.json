@@ -1,0 +1,68 @@
+{
+  "candidate": "osm-way-303569761",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small sealed bush car park beside a picnic area, no homes nearby.",
+  "reasons": [
+    "Backs onto bush and parkland",
+    "No buildings mapped or visible nearby",
+    "Sealed bays with a way in"
+  ],
+  "drivers": {
+    "seclusion": "Wooded on all sides; nearest structures are a picnic shelter and a small building about 40 m south-east in the park.",
+    "access_and_room": "Sealed bays join the adjacent road at the north end. Pad is roughly 15 by 30 m, room for a van.",
+    "traffic": "Spur road beside it; busier road to the west carries freeway-style traffic.",
+    "convention": "Mapped free asphalt car park with painted bays; no vehicles seen in the pad itself."
+  },
+  "flags": [
+    "Steep over the whole outline: about 7.5% mean, falls to the south",
+    "Road noise from the adjacent main road",
+    "Picnic area nearby may bring daytime visitors"
+  ],
+  "sun_shade": "Dense tree cover over most of the pad, especially the east and north sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Whether the car park is locked at night",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "Northern, upper end of the car park, near the entry from the road",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.972182,
+        -27.479576
+      ],
+      [
+        152.97231,
+        -27.479567
+      ],
+      [
+        152.97231,
+        -27.479588
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 58.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,63 @@
+{
+  "candidate": "58643881-58653091-7918579-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parked-on residential kerb, flat at the dip, but homes 16-21 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Dwellings 16-21 m on same side",
+    "Flat at 60-85 m"
+  ],
+  "drivers": {
+    "seclusion": "Dense housing; mapped dwellings 16-21 m away on the north side and more across the road.",
+    "access_and_room": "Quiet two-way street with cars parked along both kerbs; room for a van.",
+    "traffic": "Quiet residential street, short block between two junctions.",
+    "convention": "Cars park here nightly, so a van is less conspicuous, but neighbours are close."
+  },
+  "flags": [
+    "Dwellings 10-25 m away on the same side",
+    "Steep elsewhere: about 6% mean, rises to the east end"
+  ],
+  "sun_shade": "Large tree canopy shades the kerb around 50-70 m; open sun elsewhere.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 60,
+    "to_m": 85,
+    "where": "Mid-block on the north side, between the two driveways, at the low point of the street",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        152.972686,
+        -27.492403
+      ],
+      [
+        152.972936,
+        -27.49244
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 32.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

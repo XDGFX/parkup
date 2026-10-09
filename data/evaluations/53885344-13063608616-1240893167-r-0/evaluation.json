@@ -1,0 +1,63 @@
+{
+  "candidate": "53885344-13063608616-1240893167-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat, parked-up west kerb at the top of Beatrice Street, with homes 10-19 m away.",
+  "reasons": [
+    "Flat: about 1% grade",
+    "Cars park along this kerb",
+    "Homes within 25 m all round"
+  ],
+  "drivers": {
+    "seclusion": "Units 12 m and houses 10-19 m away on the west side, plus houses across the road; overlooked.",
+    "access_and_room": "Sealed street with cars already parked on this kerb; room to pull in.",
+    "traffic": "Quiet residential street, some local through traffic.",
+    "convention": "No signs; several cars park here, though no overnight-van convention."
+  },
+  "flags": [
+    "Dwellings 10-19 m from the section",
+    "Steep beyond 40 m (up to 20%), so only the flat top is usable"
+  ],
+  "sun_shade": "Mostly open; some shade from trees on the east side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 14,
+    "to_m": 34,
+    "where": "West kerb of Beatrice Street, just south of the first junction, opposite the new houses",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.983745,
+        -27.495485
+      ],
+      [
+        152.983709,
+        -27.495662
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 14.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

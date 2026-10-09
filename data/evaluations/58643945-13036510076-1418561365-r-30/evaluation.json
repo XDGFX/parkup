@@ -1,0 +1,51 @@
+{
+  "candidate": "58643945-13036510076-1418561365-r-30",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Eight-metre steep stub at a junction, too short and tight for a van.",
+  "reasons": [
+    "Only 8 m, shorter than a van",
+    "14% grade, house 10 m away",
+    "Narrow lane beside the junction"
+  ],
+  "drivers": {
+    "seclusion": "House 10 m away at the start, more homes 17-24 m away on the east side.",
+    "access_and_room": "Narrow lane climbing from a main road corner; the stretch is under one van length and there is little clear ground beside it.",
+    "traffic": "Corner of a busy through road, with a quiet lane above.",
+    "convention": "One or two cars parked further up the lane; nothing to show overnight use."
+  },
+  "flags": [
+    "Steep: 14% grade",
+    "Too short for a van",
+    "Noise from the main road at the corner"
+  ],
+  "sun_shade": "Dense trees over the east side and lane; open to the road corner on the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 13.8,
+    "min_elevation_m": 53,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

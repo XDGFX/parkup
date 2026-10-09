@@ -1,0 +1,63 @@
+{
+  "candidate": "49339588-5256835352-47413376-r-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy residential kerb with parked cars; apartments 16-22 m opposite.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Apartments and homes 12-23 m away",
+    "Steep fall along the street"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks on the north side set back 13-22 m, houses across the road; no quiet side.",
+    "access_and_room": "Wide sealed street with parked cars along the kerb; room to stop.",
+    "traffic": "Quiet residential street, busier main road at the east end.",
+    "convention": "Cars park along both kerbs all day, so a van blends in."
+  },
+  "flags": [
+    "Steep: about 6% grade at best section, 12% max",
+    "No Stopping Any Time signs at the east end",
+    "Apartments within 10-25 m on own side"
+  ],
+  "sun_shade": "Trees shade much of the kerb from the north; afternoon sun from the west along the street.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 82,
+    "to_m": 100,
+    "where": "Ada Street north kerb, between the Cranmore and Lynwood apartment blocks",
+    "slope_pct": 6.5,
+    "points": [
+      [
+        152.985578,
+        -27.492834
+      ],
+      [
+        152.985398,
+        -27.492806
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 6.3,
+    "min_elevation_m": 19,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

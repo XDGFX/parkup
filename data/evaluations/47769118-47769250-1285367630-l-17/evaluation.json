@@ -1,0 +1,65 @@
+{
+  "candidate": "47769118-47769250-1285367630-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb with detached homes within 4-10 m along its whole length.",
+  "reasons": [
+    "Dwellings 4-9 m from kerb throughout",
+    "Apartments 11 m away at far end",
+    "Houses either side of the road"
+  ],
+  "drivers": {
+    "seclusion": "Houses at 6 m, 5 m, 9 m and 4 m flank every part of the stretch; more homes opposite at 13-23 m.",
+    "access_and_room": "Cars park along the kerb here so a van could pull in, but it sits against gardens.",
+    "traffic": "Quiet residential street with a junction at one end.",
+    "convention": "Kerb parking is normal, but residents are directly adjacent and would notice."
+  },
+  "flags": [
+    "Dwellings within 10 m of every part of the stretch",
+    "Weekday 7am-6pm no-parking signs; overnight not covered",
+    "Rail line close to the north-west, some noise"
+  ],
+  "sun_shade": "Mixed: tree canopy over parts of the south side, open from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 30,
+    "where": "South kerb of Cunningham Street, between the two mid-block houses",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.980279,
+        -27.494067
+      ],
+      [
+        152.980179,
+        -27.494051
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 25.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,52 @@
+{
+  "candidate": "264044846-603366016-1262049618-l-18",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep through-road kerb with no parked cars, and houses 5-20 m away.",
+  "reasons": [
+    "Main road, no cars parked along kerb",
+    "Steep: 12.7% mean grade",
+    "Houses 5-20 m from kerb"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the kerb: semi-detached homes 5-9 m away, others 18-20 m.",
+    "access_and_room": "Wide multi-lane through road between roundabouts; no parking lane or pull-off, and no cars parked on this side.",
+    "traffic": "Busy collector road linking roundabouts, with a junction at the south end.",
+    "convention": "No signs and no parked cars; nobody parks here."
+  },
+  "flags": [
+    "Steep: mean 12.7%, max 19%",
+    "Houses 5-9 m from the kerb",
+    "Low ground (about 5.5 m) 37 m from Toowong Creek at the north end",
+    "Traffic noise"
+  ],
+  "sun_shade": "Mixed: trees shade the southern half; the northern half is open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 12.7,
+    "min_elevation_m": 5.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

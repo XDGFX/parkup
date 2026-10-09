@@ -1,0 +1,64 @@
+{
+  "candidate": "47769153-47831752-1242369322-l-50",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep kerb in front of apartments and houses, all within 5-6 m.",
+  "reasons": [
+    "Dwellings 5-6 m from kerb",
+    "Steep: about 10% grade",
+    "Cars park here, but residents adjacent"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 6 m from the kerb from 11 m onward; a detached house 5 m at the start; more homes across the road at 15-17 m.",
+    "access_and_room": "Cars park nose to tail along this kerb, so a van fits in line.",
+    "traffic": "Quiet residential street ending at a busier road to the east.",
+    "convention": "Kerb parking is normal with several cars parked."
+  },
+  "flags": [
+    "Steep: about 10% mean grade, 13% at the steepest step",
+    "Dwellings within 10 m of the whole stretch"
+  ],
+  "sun_shade": "Apartment block shades the kerb in the morning and midday; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 11,
+    "to_m": 33,
+    "where": "North kerb of Cunningham Street, in front of the apartment block before the junction",
+    "slope_pct": 9.6,
+    "points": [
+      [
+        152.983477,
+        -27.494483
+      ],
+      [
+        152.983694,
+        -27.494518
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 10.7,
+    "min_elevation_m": 28.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-09T11:36:17Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
