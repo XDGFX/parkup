@@ -1,10 +1,10 @@
 // Sites: parking areas from OSM car parks, and off-road sites from OSM tracks and BCC Tracks and Trails access lines.
 // Each is ruled out or kept, given a timetable from plates inside it and OSM tags, a zone tier and a tenure label.
 import type { Rule } from "../timetable/timetable.ts";
-import { BARRIER, EXCLUDED, SITE_RULE_OUT, TRACKS } from "./config.ts";
+import { BARRIER, EXCLUDED, SITE_RULE_OUT, TRACKS, TRAILS } from "./config.ts";
 import { frontageIndex, type Frontage } from "./frontage.ts";
 import { dist, inRings, length, pointAt, project, toLonLat, toXY, type LonLat, type XY } from "./geo.ts";
-import type { OsmArea, OsmNode, OsmWay, QldTrack, SignRecord, Zone } from "./inputs.ts";
+import type { OsmArea, OsmNode, OsmWay, QldTrack, SignRecord, TrailLine, Zone } from "./inputs.ts";
 import { osmTimetable } from "./osmHours.ts";
 import { readPlate } from "./plates.ts";
 
@@ -46,6 +46,7 @@ export type SiteInput = {
   /** BCC sign plates: those inside a car park's outline govern it. */
   signs?: SignRecord[];
   qldTracks?: QldTrack[];
+  trails?: TrailLine[];
 };
 
 const blocks = (t: Record<string, string> | undefined) => !!t && BARRIER.BLOCKS.test(t.barrier ?? "") && t.locked !== "no";
@@ -62,7 +63,7 @@ type Raw = Omit<Site, "frontage" | "hasTimetable" | "cautions" | "trafficability
   p: XY; rings: XY[][] | null; cautions: string[]; hasTimetable: boolean; trafficability?: string | null;
 };
 
-export function buildSites({ ways = [], parkings = [], minorWays = [], nodes = [], zones = [], signs = [], qldTracks = [] }: SiteInput): Site[] {
+export function buildSites({ ways = [], parkings = [], minorWays = [], nodes = [], zones = [], signs = [], qldTracks = [], trails = [] }: SiteInput): Site[] {
   const plates = signs.map((s) => ({ p: toXY([s.lon, s.lat]), plate: readPlate(s) }));
   const zoneOf = frontageIndex(zones, [], nodes);
   const schools = nodes.filter((n) => n.tags.amenity === "school" || EXCLUDED.KINDERGARTEN.test(n.tags.amenity ?? "")).map((n) => toXY([n.lon, n.lat]));
@@ -93,7 +94,7 @@ export function buildSites({ ways = [], parkings = [], minorWays = [], nodes = [
       hasTimetable: osm.hasData || inside.length > 0, accessKnown: !!t.access,
     });
   }
-  raw.push(...trackSites(ways, minorWays, barriers));
+  raw.push(...trackSites(ways, minorWays, barriers), ...trailSites(trails, ways, minorWays));
 
   const qld = qldTracks.map((q) => ({ ...q, line: q.coords.map(toXY) }));
   const out: Site[] = [];
@@ -163,3 +164,33 @@ function trackSites(roads: OsmWay[], minorWays: OsmWay[], barriers: Set<number>)
   const entries = out.filter((s) => !s.id.endsWith("-end"));
   return out.filter((s) => !s.id.endsWith("-end") || entries.every((e) => dist(e.p, s.p) >= TRACKS.END_MIN_M));
 }
+
+/**
+ * Off-road sites from BCC Tracks and Trails access lines that OSM doesn't map: one ENTRY_M in from the end nearer a road.
+ * A line counts as mapped when most of it lies within TRAIL_MATCH_M of an OSM road, track or service way.
+ */
+function trailSites(trails: TrailLine[], roads: OsmWay[], minorWays: OsmWay[]): Raw[] {
+  const osm = [...roads, ...minorWays].map((w) => w.coords.map(toXY));
+  const roadLines = [...roads, ...minorWays.filter((w) => w.tags.highway === "service")].map((w) => w.coords.map(toXY));
+  const near = (lines: XY[][], p: XY) => Math.min(Infinity, ...lines.map((l) => Math.abs(project(l, p).offset)));
+  const out: Raw[] = [];
+  for (const t of trails) {
+    if (!TRAILS.ITEM_TYPES.includes(t.itemType)) continue;
+    let line = t.coords.map(toXY);
+    const len = length(line);
+    if (len < 1) continue;
+    const samples = Array.from({ length: Math.floor(len / TRAILS.SAMPLE_M) + 1 }, (_, i) => pointAt(line, i * TRAILS.SAMPLE_M).p);
+    if (samples.filter((p) => near(osm, p) <= TRAILS.MATCH_M).length / samples.length >= TRAILS.MAPPED_SHARE) continue;
+    if (near(roadLines, line.at(-1)!) < near(roadLines, line[0]!)) line = [...line].reverse();
+    const management = MANAGEMENT.test(t.itemType) || MANAGEMENT.test(t.description ?? "");
+    out.push({
+      id: `bcc-trail-${t.id}`, kind: "off-road", name: `${t.park ? titleCase(t.park) : "Park"} access road`,
+      line: [], p: pointAt(line, Math.min(TRACKS.ENTRY_M, len)).p, rings: null, rules: [], plates: [],
+      cautions: management ? ["Management access only"] : [], hasTimetable: false, accessKnown: true,
+    });
+  }
+  return out.map((s) => ({ ...s, line: [toLonLat(s.p)] }));
+}
+
+const MANAGEMENT = /management access only/i;
+const titleCase = (s: string) => s.toLowerCase().replace(/\b[a-z]/g, (c) => c.toUpperCase());

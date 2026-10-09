@@ -104,3 +104,9 @@ export const BARRIER = { BLOCKS: /^(gate|lift_gate|bollard|swing_gate|chain|bloc
  * of the site gives its trafficability.
  */
 export const TRACKS = { ENTRY_M: 20, END_MIN_M: 40, QLD_MATCH_M: 15 };
+
+/**
+ * BCC Park — Tracks and Trails lines that make off-road sites. A line is already in OSM when MAPPED_SHARE of the points
+ * sampled every SAMPLE_M along it lie within MATCH_M of an OSM road, track or service way.
+ */
+export const TRAILS = { ITEM_TYPES: ["ACCESS ROAD", "MULTI-USE ACCESS", "MANAGEMENT ACCESS ONLY"], SAMPLE_M: 10, MATCH_M: 15, MAPPED_SHARE: 0.5 };

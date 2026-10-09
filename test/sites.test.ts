@@ -1,7 +1,7 @@
 // Sites (parking areas and off-road sites): generators, rule-outs, timetables, tier and tenure, through the build seam.
 import { describe, expect, it } from "vitest";
 import { build, type BuildInput, type Candidate } from "../src/build/build.ts";
-import type { OsmArea } from "../src/build/inputs.ts";
+import type { OsmArea, TrailLine } from "../src/build/inputs.ts";
 import { outBy, statusAt } from "../src/timetable/timetable.ts";
 import { lonLat, node, sign, testStreet, way, zone } from "./fixtures.ts";
 
@@ -172,5 +172,28 @@ describe("off-road sites", () => {
     expect(sites({ minorWays: [southTrack()], qldTracks: qld }).map((c) => c.trafficability)).toEqual(["4WD", "4WD"]);
     const far = [{ trafficability: "4WD", surface: "Unsealed", coords: [lonLat(160, -205), lonLat(160, -330)] }];
     expect(sites({ minorWays: [southTrack()], qldTracks: far }).map((c) => c.trafficability)).toEqual([null, null]);
+  });
+});
+
+describe("BCC Tracks and Trails access lines", () => {
+  /** A BCC line running south from just off Bottom Road at x. */
+  const trail = (id: string, itemType: string, x = -50, description: string | null = null): TrailLine =>
+    ({ id, itemType, park: "Test Park", description, coords: [lonLat(x, -205), lonLat(x, -300)] });
+
+  it("ACCESS ROAD and MULTI-USE ACCESS lines missing from OSM give a site in from the road end", () => {
+    const found = sites({ trails: [trail("1", "ACCESS ROAD"), trail("2", "MULTI-USE ACCESS", -20), trail("3", "WALKING TRACK", 20)] });
+    expect(found.map((c) => [c.id, c.kind, c.street, xy(c)])).toEqual([
+      ["bcc-trail-1", "off-road", "Test Park access road", [-50, -225]],
+      ["bcc-trail-2", "off-road", "Test Park access road", [-20, -225]],
+    ]);
+  });
+
+  it("are left out where OSM already maps the track", () => {
+    const mapped = track(90, [20, 91], [[-100, -200], [-52, -300]]);
+    expect(sites({ trails: [trail("1", "ACCESS ROAD")], minorWays: [mapped] }).map((c) => c.id)).not.toContain("bcc-trail-1");
+  });
+
+  it("management access only is a caution", () => {
+    expect(sites({ trails: [trail("1", "ACCESS ROAD", -50, "MANAGEMENT ACCESS ONLY")] })[0]!.cautions).toEqual(["Management access only", "Hours unknown"]);
   });
 });
