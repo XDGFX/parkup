@@ -56,6 +56,13 @@ export type SiteInput = {
 
 const blocks = (t: Record<string, string> | undefined) => !!t && BARRIER.BLOCKS.test(t.barrier ?? "") && t.locked !== "no";
 const shut = (t: Record<string, string>) => SITE_RULE_OUT.NO_VEHICLES.test(t.access ?? "") || SITE_RULE_OUT.NO_VEHICLES.test(t.motor_vehicle ?? "");
+/**
+ * Public roads that tracks leave from: the centrelines, and service roads tagged `service=*` other than driveways,
+ * unless closed to vehicles. Untagged `highway=service` ways are dropped, as the spec asks, so driveways mapped
+ * without a `service` tag don't count either.
+ */
+const isPublicRoad = (w: OsmWay) => w.tags.highway !== "track" && !shut(w.tags) &&
+  (w.tags.highway !== "service" || (!!w.tags.service && w.tags.service !== "driveway"));
 
 /** The middle of a ring, as the mean of its corners (the closing corner counted once). */
 function middle(ring: XY[]): XY {
@@ -128,10 +135,8 @@ export function buildSites({ ways = [], parkings = [], minorWays = [], nodes = [
  * track network reachable from there. The walk stops at a barrier and never uses a track closed to vehicles.
  */
 function trackSites(roads: OsmWay[], minorWays: OsmWay[], barriers: Set<number>): Raw[] {
-  // Public roads: the centrelines, and service roads other than driveways, unless closed to vehicles.
-  const isRoad = (w: OsmWay) => !shut(w.tags) && (w.tags.highway !== "service" || w.tags.service !== "driveway");
   const roadName = new Map<number, string>();
-  for (const w of [...roads, ...minorWays.filter((w) => w.tags.highway === "service")].filter(isRoad))
+  for (const w of [...roads, ...minorWays].filter(isPublicRoad))
     for (const n of w.nodes) if (!roadName.has(n) || w.tags.name) roadName.set(n, w.tags.name ?? "");
   const tracks = minorWays.filter((w) => w.tags.highway === "track" && !shut(w.tags)).map((w) => ({ w, line: w.coords.map(toXY) }));
 
@@ -185,7 +190,7 @@ function trackSites(roads: OsmWay[], minorWays: OsmWay[], barriers: Set<number>)
  */
 function trailSites(trails: TrailLine[], roads: OsmWay[], minorWays: OsmWay[]): Raw[] {
   const osm = [...roads, ...minorWays].map((w) => w.coords.map(toXY));
-  const roadLines = [...roads, ...minorWays.filter((w) => w.tags.highway === "service")].map((w) => w.coords.map(toXY));
+  const roadLines = [...roads, ...minorWays].filter(isPublicRoad).map((w) => w.coords.map(toXY));
   const near = (lines: XY[][], p: XY) => Math.min(Infinity, ...lines.map((l) => Math.abs(project(l, p).offset)));
   const out: Raw[] = [];
   for (const t of trails) {

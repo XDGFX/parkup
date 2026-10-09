@@ -32,7 +32,7 @@ Chosen: **carriageway**. The winner needs at least 60% and a 20-point lead (`ORI
 | … unsigned | 1940 |
 | Dropped: shorter than 8 m | 896 |
 | Dropped: fail both the overnight and daytime tests | 206 |
-| Candidates | 2645 |
+| Candidates | 2642 |
 | … low confidence (unpaired arrow) | 145 |
 | … day only | 6 |
 
@@ -58,17 +58,17 @@ How many schools and kindergartens mapped in OSM fall in a zone the build exclud
 
 | Tier | Candidates |
 |---|---|
-| 1 | 507 |
+| 1 | 505 |
 | 2 | 625 |
 | 3 | 1328 |
-| No frontage | 185 |
+| No frontage | 184 |
 
 ## Sites
 
 | | Count |
 |---|---|
 | Parking areas | 163 |
-| Off-road sites | 144 |
+| Off-road sites | 141 |
 | … with any timetable data (plates inside, `opening_hours`, `maxstay`, `fee:conditional`) | 1 |
 | Dropped: fail both the overnight and daytime tests | 2 |
 
@@ -81,7 +81,7 @@ Sites without timetable data count as open at all times, with an "hours unknown"
 | With an evaluation (from `data/evaluations/`) | 6 |
 | … current (this rubric, current imagery) | 6 |
 | … carried over from an earlier build's candidate | 3 |
-| Queued for evaluation (`npm run evaluate -- queue`) | 2639 |
+| Queued for evaluation (`npm run evaluate -- queue`) | 2636 |
 
 ## Unparsed plate text
 
