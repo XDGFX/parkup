@@ -1,0 +1,48 @@
+{
+  "candidate": "47490405-9482750707-198993890-r-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway arterial and ramp beside the shopping centre; no room to stop.",
+  "reasons": [
+    "Clearway tow-away signs along kerb",
+    "Live lanes and ramp, no parking lane",
+    "Apartments about 20 m away"
+  ],
+  "drivers": {
+    "seclusion": "Apartments, shops and car parks within 20-35 m; fully exposed.",
+    "access_and_room": "Kerb is a through lane with no verge or pull-off.",
+    "traffic": "Busy arterial and bus ramp at Indooroopilly Shopping Centre.",
+    "convention": "Clearway MON-SAT 7am-7pm tow away; no parked cars at this kerb."
+  },
+  "flags": [
+    "Steep: about 8% mean grade, 18% max",
+    "Clearway tow-away signs",
+    "Noise: arterial and shopping centre"
+  ],
+  "sun_shade": "Open, with trees shading the north side near the start.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 8.1,
+    "min_elevation_m": 35.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

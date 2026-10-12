@@ -1,0 +1,51 @@
+{
+  "candidate": "58736495-58736523-7920664-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep residential kerb with homes 8-9 m away on the same side.",
+  "reasons": [
+    "Apartments 8 m and house 9 m away",
+    "Very steep: about 13% grade",
+    "Cars park but homes front the kerb"
+  ],
+  "drivers": {
+    "seclusion": "Mapped apartments (8 m) and a house (9 m) front the north kerb; homes all round.",
+    "access_and_room": "Sealed residential street with a kerbside lane where cars park; the slope is too steep to rule in.",
+    "traffic": "Quiet residential street near a junction.",
+    "convention": "Cars park along the kerb, but no sign or convention for overnight stays."
+  },
+  "flags": [
+    "Steep: 13.4% mean, 14.4% max, over the 12% limit",
+    "Dwellings within 10 m of the kerb",
+    "Elevation 24-29 m, no mapped waterway"
+  ],
+  "sun_shade": "Front-garden trees and powerlines; mostly open, partial shade from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether homes are occupied"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 13.2,
+    "min_elevation_m": 24.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

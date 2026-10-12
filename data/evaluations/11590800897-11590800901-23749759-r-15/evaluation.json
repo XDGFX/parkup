@@ -1,0 +1,68 @@
+{
+  "candidate": "11590800897-11590800901-23749759-r-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Dead-end bend backing onto dense bush, but a house sits within about 8-20 m.",
+  "reasons": [
+    "Backs onto dense bush on the north",
+    "House within about 8-20 m",
+    "Cars already park at this bend"
+  ],
+  "drivers": {
+    "seclusion": "Dense tree bank on the kerb side; a mapped building 8 m away looks like a house with solar panels, and others sit 10-25 m off.",
+    "access_and_room": "Sealed turning head with cars already parked on this side, so room to pull in.",
+    "traffic": "Quiet dead-end street, very little through traffic.",
+    "convention": "Two cars parked at this kerb in the imagery; no signs mapped."
+  },
+  "flags": [
+    "Mapped building 8 m from kerb, not tagged as a home",
+    "Steep further along: 10% mean, 15.8% max over the whole stretch",
+    "Brisbane River 276 m away, elevation 25 m, not flood-prone"
+  ],
+  "sun_shade": "Heavy tree canopy over the north side shades it from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the nearby building is lived in"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Marston Avenue cul-de-sac bend, north kerb beside the wooded bank",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.982347,
+        -27.507614
+      ],
+      [
+        152.98231,
+        -27.50755
+      ],
+      [
+        152.982299,
+        -27.507585
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 33,
+    "gated": false,
+    "slope_pct": 8.2,
+    "min_elevation_m": 25.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

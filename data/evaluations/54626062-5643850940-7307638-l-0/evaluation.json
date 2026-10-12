@@ -1,0 +1,65 @@
+{
+  "candidate": "54626062-5643850940-7307638-l-0",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Wide residential kerb with a motorhome parked nearby; homes 19 m away on this side.",
+  "reasons": [
+    "Homes 19 m away on own side",
+    "Cars and a motorhome park on this road",
+    "Flat at 150-175 m"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes line the south side; nearest to this section is 19 m (at 158 m), others 10 m at 110 m and 180 m.",
+    "access_and_room": "Open kerb on a wide sealed road, no gate; trees and hedge on the verge but room to park along the kerb.",
+    "traffic": "Residential collector with moderate traffic; a camper and cars park on the road.",
+    "convention": "A motorhome and several cars are parked on the north kerb opposite; one No Stopping Any Time sign near the 0 m end only."
+  },
+  "flags": [
+    "Slope about 1% here, mean 3.7% over the stretch",
+    "No Stopping Any Time sign near the 0 m start",
+    "Homes 10 m away just before and after the section"
+  ],
+  "sun_shade": "Mostly open to the sun; hedge and trees on the south side give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 145,
+    "to_m": 175,
+    "where": "Meiers Road south kerb, just past the bend, beside the house with the long curved roof sheds",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        152.992933,
+        -27.508982
+      ],
+      [
+        152.992646,
+        -27.509072
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 2.8,
+    "min_elevation_m": 31,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

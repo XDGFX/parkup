@@ -1,0 +1,28 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Busy arterial outside Indooroopilly Shopping Centre with no parking lane.",
+  "reasons": [
+    "Main road, no cars parked along kerb",
+    "Footpath and bus stop beside lane",
+    "Steep, about 8% grade"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Fully exposed outside a shopping centre; apartments 36 m away.",
+    "access_and_room": "Kerb runs beside a live lane and bus stop; no pull-off or verge to stop clear of traffic.",
+    "traffic": "Multi-lane arterial with buses and constant traffic.",
+    "convention": "No parked cars or marked parking lane on this kerb."
+  },
+  "flags": [
+    "Steep: about 8% grade, 10.6% max",
+    "Noise: arterial and shopping centre",
+    "Bus stop at start of the stretch"
+  ],
+  "sun_shade": "Open; building shades the south side at times.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerbside restrictions on site"
+  ],
+  "confidence": "high"
+}

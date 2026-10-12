@@ -1,0 +1,51 @@
+{
+  "candidate": "257266886-257267367-1290386752-r-60",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 4 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow lane bounded by gardens, with a house 4 m from the kerb end.",
+  "reasons": [
+    "House 4 m from kerb at far end",
+    "Narrow lane, hedge and fence edges",
+    "Steep: about 11% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dwelling 4 m from the end of the stretch; gardens and pools line the lane on both sides.",
+    "access_and_room": "Narrow sealed lane between hedges and fences; no verge to pull fully off.",
+    "traffic": "Quiet lane, but a parked van would block it.",
+    "convention": "No parked cars on this stretch; no signs mapped."
+  },
+  "flags": [
+    "Steep: 10.8% mean, 16.9% max",
+    "Mapped gate 230 m away on a mapped way round (not on the only access)",
+    "Cannot rule on flooding; elevation 23-25 m"
+  ],
+  "sun_shade": "Garden trees partly shade the east edge, mostly open to the sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the lane is private or signed"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 4,
+    "gated": false,
+    "slope_pct": 9.2,
+    "min_elevation_m": 23.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

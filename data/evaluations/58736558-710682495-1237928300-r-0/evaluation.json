@@ -1,0 +1,65 @@
+{
+  "candidate": "58736558-710682495-1237928300-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Cars park here, but the grade is about 15% with homes 7-12 m behind.",
+  "reasons": [
+    "Grade about 15%, over 12% limit",
+    "Dwellings 7 m and 12 m away",
+    "Timed no-parking sign applies"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 12 m behind the start and 7 m at the far end; all within 25 m on this side.",
+    "access_and_room": "Kerbside lane where other cars park; room for a van.",
+    "traffic": "Quiet residential street.",
+    "convention": "Several cars parked along this kerb; timed no-parking sign (7-9 AM, Mon-Fri 2-5 PM)."
+  },
+  "flags": [
+    "Steep: about 15% grade, max over 15%",
+    "Timed no-parking sign 9 m from the kerb line",
+    "Homes within 12 m"
+  ],
+  "sun_shade": "Tree cover and houses to the north shade it from midday; morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 20,
+    "where": "McCaul Street north kerb, between the junction and the first house",
+    "slope_pct": 15.7,
+    "points": [
+      [
+        152.984157,
+        -27.499285
+      ],
+      [
+        152.984008,
+        -27.49926
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 15.7,
+    "min_elevation_m": 24.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

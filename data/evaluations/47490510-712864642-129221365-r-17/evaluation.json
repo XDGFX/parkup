@@ -1,0 +1,48 @@
+{
+  "candidate": "47490510-712864642-129221365-r-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb of a dual-carriageway arterial; live lane, 1P and no-stopping signs.",
+  "reasons": [
+    "Main road with no parked cars",
+    "Live lane beside median",
+    "1P and No Stopping signs"
+  ],
+  "drivers": {
+    "seclusion": "Shops and industrial units nearby; no homes within 45 m.",
+    "access_and_room": "Kerb is a live lane next to a planted median; no pull-off.",
+    "traffic": "Busy multi-lane arterial in both directions.",
+    "convention": "1P parallel MON-FRI 8am-5:30pm, SAT 8am-12noon; No Stopping nearby; no cars parked here."
+  },
+  "flags": [
+    "Steep: about 4% mean grade; 1 m rise over 30 m",
+    "1P parking limit and No Stopping signs",
+    "Noise: arterial"
+  ],
+  "sun_shade": "Open to sun; median vegetation to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 22,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 27.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

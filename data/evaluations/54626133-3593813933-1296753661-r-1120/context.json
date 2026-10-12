@@ -1,0 +1,175 @@
+{
+  "id": "54626133-3593813933-1296753661-r-1120",
+  "street": "Meiers Road",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.997077,
+      -27.515199
+    ],
+    [
+      152.996859,
+      -27.51509
+    ],
+    [
+      152.996809,
+      -27.515068
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "north",
+  "length_m": 30,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 28,
+      "at_m": 0,
+      "outline": [
+        [
+          152.997357,
+          -27.5151773
+        ],
+        [
+          152.9973762,
+          -27.5151465
+        ],
+        [
+          152.9974138,
+          -27.5151649
+        ],
+        [
+          152.9973945,
+          -27.5151958
+        ],
+        [
+          152.997357,
+          -27.5151773
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "bollard",
+      "locked": null,
+      "lon": 152.9979041,
+      "lat": -27.5150881,
+      "metres": 83,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9959838,
+      "lat": -27.5128212,
+      "metres": 263,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.997077,
+        "lat": -27.515199,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 9.76
+      },
+      {
+        "lon": 152.997033,
+        "lat": -27.515177,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 9.51
+      },
+      {
+        "lon": 152.996989,
+        "lat": -27.515155,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 9.18
+      },
+      {
+        "lon": 152.996945,
+        "lat": -27.515133,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 8.99
+      },
+      {
+        "lon": 152.9969,
+        "lat": -27.515111,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 8.68
+      },
+      {
+        "lon": 152.996856,
+        "lat": -27.515089,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 8.48
+      },
+      {
+        "lon": 152.996811,
+        "lat": -27.515069,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 8.29
+      },
+      {
+        "lon": 152.996809,
+        "lat": -27.515068,
+        "at_m": 30.2,
+        "line": 0,
+        "elevation_m": 8.23
+      }
+    ],
+    "min_elevation_m": 8.2,
+    "max_elevation_m": 9.8,
+    "mean_grade_pct": 8.5,
+    "max_grade_pct": 30
+  },
+  "waterway": {
+    "name": null,
+    "metres": 37
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 30,
+      "length_m": 30,
+      "images": {
+        "esri": ".cache/imagery/54626133-3593813933-1296753661-r-1120/chunk1-esri.jpg",
+        "qld": ".cache/imagery/54626133-3593813933-1296753661-r-1120/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        86,
+        75
+      ],
+      "image_px": [
+        576,
+        497
+      ]
+    }
+  ]
+}

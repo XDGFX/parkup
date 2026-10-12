@@ -1,0 +1,29 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Live lane of a busy arterial, clearway with tow away.",
+  "reasons": [
+    "Main road, no parked cars",
+    "Clearway tow away Mon-Sat 4-7pm",
+    "Steep, about 7% grade"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Fully exposed on a wide arterial; no dwellings within 15 m but buildings and a kindergarten nearby.",
+    "access_and_room": "The line sits in the traffic lane; no verge or pull-off to stop clear of it.",
+    "traffic": "Multi-lane arterial with steady traffic.",
+    "convention": "Cars drive through, none parked on this kerb; clearway signed."
+  },
+  "flags": [
+    "Clearway tow away Mon-Sat 4pm-7pm",
+    "Steep: about 7% grade, 9% max",
+    "Low-lying: Witton Creek about 255 m away, elevation about 45 m so not a flood concern",
+    "Noise: arterial"
+  ],
+  "sun_shade": "Open; trees shade the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerbside restrictions outside the clearway hours"
+  ],
+  "confidence": "high"
+}

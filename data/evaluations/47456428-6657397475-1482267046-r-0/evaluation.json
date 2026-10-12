@@ -1,0 +1,46 @@
+{
+  "candidate": "47456428-6657397475-1482267046-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Multi-lane Moggill Road arterial with no parking lane; nowhere to pull out.",
+  "reasons": [
+    "Main road, no parked cars",
+    "Kerb abuts live traffic lane",
+    "Fuel station and shops opposite"
+  ],
+  "drivers": {
+    "seclusion": "Commercial frontage and a few homes within 60 m; exposed to all passing traffic.",
+    "access_and_room": "Four-lane arterial with no marked parking lane and no verge to pull onto.",
+    "traffic": "Heavy through traffic at a signalised crossing.",
+    "convention": "No parked cars along this kerb; moving cars only."
+  },
+  "flags": [
+    "Steep: about 8% grade",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open to sun; no tree cover over the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerbside parking restrictions on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 58,
+    "gated": false,
+    "slope_pct": 8,
+    "min_elevation_m": 42.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

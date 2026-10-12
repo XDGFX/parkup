@@ -1,0 +1,49 @@
+{
+  "candidate": "47490279-4916596647-1184806259-l-100",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway arterial kerb with no parked cars; nowhere to pull out of traffic.",
+  "reasons": [
+    "Main road, clearway tow-away signs",
+    "No cars parked along kerb",
+    "Homes close on the south side"
+  ],
+  "drivers": {
+    "seclusion": "Houses sit just behind the south footpath; fully exposed to the road.",
+    "access_and_room": "Kerb lane carries moving traffic and a bus stop; no pull-off.",
+    "traffic": "Busy multi-lane arterial with buses.",
+    "convention": "Clearway MON-SAT 7am-7pm tow away and a bus zone; nobody parks here."
+  },
+  "flags": [
+    "Steep: about 5% mean grade, 11% max; flatter past 100 m",
+    "Clearway tow-away and bus zone signs",
+    "Noise: arterial",
+    "Low-lying near Witton Creek, about 21 m elevation, 63 m away"
+  ],
+  "sun_shade": "Mostly open; some tree shade on the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 5.3,
+    "min_elevation_m": 21.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

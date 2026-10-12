@@ -1,0 +1,29 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "No Stopping zone on a busy multi-lane arterial with no parking lane.",
+  "reasons": [
+    "No Stopping Any Time sign",
+    "Main road, no parked cars",
+    "Line sits in the live traffic lanes"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Fully exposed; houses 23-27 m away on the north side, shops opposite.",
+    "access_and_room": "No verge or pull-off; the road edge is a retaining wall or live lane, nowhere to stop clear of traffic.",
+    "traffic": "Multi-lane arterial with buses and trucks, signals at the east end.",
+    "convention": "No cars parked on this side; no stopping signed at all times."
+  },
+  "flags": [
+    "No Stopping Any Time sign",
+    "Clearway Mon-Sat 4pm-7pm",
+    "Steep: about 4% grade",
+    "Noise: arterial"
+  ],
+  "sun_shade": "Open; trees shade the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact extent of the no-stopping zone"
+  ],
+  "confidence": "high"
+}

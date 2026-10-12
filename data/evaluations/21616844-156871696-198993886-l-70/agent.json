@@ -1,0 +1,29 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Short edge of a busy arterial beside hatched markings, no parking.",
+  "reasons": [
+    "Main road, no cars parked along kerb",
+    "Narrow dirt verge beside live lane",
+    "House about 15 m from the stretch"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Open to the road and a detached house 15 m away; commercial buildings on either side.",
+    "access_and_room": "Ten metres of road edge by a hatched island; the verge is narrow and sits at the lane, so a van would stay partly in traffic.",
+    "traffic": "Multi-lane arterial with buses and trucks.",
+    "convention": "No parked cars along this edge; cars only appear in the shop strip further east."
+  },
+  "flags": [
+    "Noise: arterial",
+    "Short: only about 10 m"
+  ],
+  "sun_shade": "Tree canopy to the south-west side; open from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerbside signs",
+    "Street lighting",
+    "Exact width of the verge"
+  ],
+  "confidence": "medium"
+}

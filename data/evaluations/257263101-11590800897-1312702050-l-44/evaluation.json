@@ -1,0 +1,63 @@
+{
+  "candidate": "257263101-11590800897-1312702050-l-44",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat south kerb beside a vacant lot; homes about 18 m across the road.",
+  "reasons": [
+    "Vacant cleared lot on this side",
+    "Homes about 18 m across the road",
+    "Quiet residential street, few cars parked"
+  ],
+  "drivers": {
+    "seclusion": "The kerb borders a cleared lot with trees; homes on this side start beyond the lot. Detached homes across the road are about 18 m away; a shed-type building is 9 m off near 76 m.",
+    "access_and_room": "Sealed street with a wide grass and dirt verge beside the lot; room to pull in.",
+    "traffic": "Quiet residential street; few cars seen.",
+    "convention": "Only one or two cars parked along the street; no camping convention."
+  },
+  "flags": [
+    "Homes within about 25 m on the opposite side of the road",
+    "Max grade 12.8% near the west end; flat at the best section"
+  ],
+  "sun_shade": "Open to sun at the lot; trees along the north side shade the road in the morning and midday.",
+  "rubbish": "A little cut timber and debris on the lot; no dumped rubbish seen.",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether the lot is being built on"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 42,
+    "to_m": 66,
+    "where": "Marston Avenue south kerb beside the cleared vacant lot",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.983496,
+        -27.507788
+      ],
+      [
+        152.983256,
+        -27.507752
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 21.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

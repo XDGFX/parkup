@@ -1,0 +1,48 @@
+{
+  "candidate": "47456428-156872389-1184806253-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Live lane of a busy arterial, clearway with tow away.",
+  "reasons": [
+    "Main road, no parked cars",
+    "Clearway tow away Mon-Sat 4-7pm",
+    "Steep, about 7% grade"
+  ],
+  "drivers": {
+    "seclusion": "Fully exposed on a wide arterial; no dwellings within 15 m but buildings and a kindergarten nearby.",
+    "access_and_room": "The line sits in the traffic lane; no verge or pull-off to stop clear of it.",
+    "traffic": "Multi-lane arterial with steady traffic.",
+    "convention": "Cars drive through, none parked on this kerb; clearway signed."
+  },
+  "flags": [
+    "Clearway tow away Mon-Sat 4pm-7pm",
+    "Steep: about 7% grade, 9% max",
+    "Low-lying: Witton Creek about 255 m away, elevation about 45 m so not a flood concern",
+    "Noise: arterial"
+  ],
+  "sun_shade": "Open; trees shade the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerbside restrictions outside the clearway hours"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 8,
+    "min_elevation_m": 44.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

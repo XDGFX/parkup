@@ -1,0 +1,48 @@
+{
+  "candidate": "47490510-9482750707-177829370-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway arterial and slip lane beside a shopping centre; no room to stop.",
+  "reasons": [
+    "Clearway tow-away sign on kerb",
+    "Live arterial lanes, no parking lane",
+    "Gated retail car park, not a pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Shopping centre car park and retail alongside; exposed to the road.",
+    "access_and_room": "Kerb is a through lane or slip road; no verge to pull onto.",
+    "traffic": "Busy arterial with a nearby roundabout.",
+    "convention": "Clearway MON-SAT 7am-7pm tow away; no cars parked here."
+  },
+  "flags": [
+    "Steep: about 4.5% mean grade, 9% max",
+    "Clearway tow-away sign",
+    "Noise: arterial"
+  ],
+  "sun_shade": "Open to sun; no cover.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 26,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 26.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

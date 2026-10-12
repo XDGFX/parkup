@@ -1,0 +1,48 @@
+{
+  "candidate": "21616844-156871696-198993886-r-25",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "No Stopping zone on a busy multi-lane arterial with no parking lane.",
+  "reasons": [
+    "No Stopping Any Time sign",
+    "Main road, no parked cars",
+    "Line sits in the live traffic lanes"
+  ],
+  "drivers": {
+    "seclusion": "Fully exposed; houses 23-27 m away on the north side, shops opposite.",
+    "access_and_room": "No verge or pull-off; the road edge is a retaining wall or live lane, nowhere to stop clear of traffic.",
+    "traffic": "Multi-lane arterial with buses and trucks, signals at the east end.",
+    "convention": "No cars parked on this side; no stopping signed at all times."
+  },
+  "flags": [
+    "No Stopping Any Time sign",
+    "Clearway Mon-Sat 4pm-7pm",
+    "Steep: about 4% grade",
+    "Noise: arterial"
+  ],
+  "sun_shade": "Open; trees shade the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact extent of the no-stopping zone"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 4.1,
+    "min_elevation_m": 50.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

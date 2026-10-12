@@ -1,0 +1,48 @@
+{
+  "candidate": "54626133-3593813933-1296753661-r-1310",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Secluded bush edge, but a through road with no parking and no pull-off.",
+  "reasons": [
+    "Through road, no cars parked along it",
+    "Bush meets the road edge, no pull-off",
+    "Low-lying, waterway 14 m away"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the east side; apartments and a gravel strip are 34 m or more away across the road.",
+    "access_and_room": "Two-lane sealed road with centre line and no shoulder on this side; scrub and trees grow to the edge, so a van would stand in the lane.",
+    "traffic": "Through route linking the river-front apartments to Meiers Road; no parked cars in either image.",
+    "convention": "No parking convention seen; no signs mapped."
+  },
+  "flags": [
+    "Low-lying: 4-6 m elevation, waterway 14 m away, flood-prone",
+    "Slope about 2% overall, steeper at the ends"
+  ],
+  "sun_shade": "Dense bush canopy shades the east side from the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether bush hides any pull-off"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 4.2,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

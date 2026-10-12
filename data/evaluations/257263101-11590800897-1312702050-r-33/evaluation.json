@@ -1,0 +1,64 @@
+{
+  "candidate": "257263101-11590800897-1312702050-r-33",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "North kerb with homes 1-8 m from the road along its whole length.",
+  "reasons": [
+    "Dwellings 1-8 m from kerb throughout",
+    "Homes at 16, 53, 90, 114, 134 m",
+    "Few parked cars on this side"
+  ],
+  "drivers": {
+    "seclusion": "Every stretch has a house within 10 m: 1 m at 16 m, 7 m at 53 m, 7 m at 90 m, 6 m at 114 m and 8 m at 134 m. The gap between 62 and 80 m is only a screened front garden.",
+    "access_and_room": "Sealed street with a grass verge; a van can stop at the kerb.",
+    "traffic": "Quiet residential street.",
+    "convention": "A car or two parked on the street; no camping convention."
+  },
+  "flags": [
+    "Homes directly beside the kerb all along this side",
+    "Max grade 7% near the west end; flat at the best section"
+  ],
+  "sun_shade": "Trees and hedges on the north side shade the kerb from the north; open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 62,
+    "to_m": 80,
+    "where": "Marston Avenue north kerb between the houses at about 53 m and 90 m",
+    "slope_pct": 0,
+    "points": [
+      [
+        152.983504,
+        -27.507694
+      ],
+      [
+        152.983323,
+        -27.507672
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 0.7,
+    "min_elevation_m": 21.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

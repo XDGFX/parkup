@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "10 m of arterial lane edge; no stopping, no room for a van.",
+  "reasons": ["No Stopping Any Time sign", "Only 10 m, under van length", "Kerb abuts live traffic lane"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Car yard to one side and bush to the other; fully visible from the road.",
+    "access_and_room": "Marked traffic lane to the kerb; no verge or pull-off.",
+    "traffic": "Heavy multi-lane arterial beside a junction.",
+    "convention": "No cars parked along this kerb; no stopping signed."
+  },
+  "flags": ["Arterial noise", "Short kerb, 10 m"],
+  "sun_shade": "Open; no cover over the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Kerbside restrictions beyond mapped signs"],
+  "confidence": "high"
+}

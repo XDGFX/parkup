@@ -1,0 +1,48 @@
+{
+  "candidate": "47490279-4916596647-1184806259-l-26",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway lane on a busy arterial junction; nowhere to pull off.",
+  "reasons": [
+    "Arterial with clearway tow-away sign",
+    "No verge or parking lane",
+    "Moving traffic lanes at the kerb"
+  ],
+  "drivers": {
+    "seclusion": "Vet, school and houses within 20-40 m; open to the junction.",
+    "access_and_room": "Kerb is a live traffic lane at a signalled junction; no pull-off.",
+    "traffic": "Heavy arterial traffic and turning lanes.",
+    "convention": "Clearway MON-SAT 7am-7pm tow away; no parked cars on this kerb."
+  },
+  "flags": [
+    "Steep: about 8% mean grade, 11% max",
+    "Clearway tow-away sign",
+    "Noise: arterial junction"
+  ],
+  "sun_shade": "Open to sun; trees shade the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 27,
+    "gated": false,
+    "slope_pct": 8.1,
+    "min_elevation_m": 34.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

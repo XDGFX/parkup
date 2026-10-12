@@ -1,0 +1,36 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Shopfront service strip off Moggill Road where cars and a van park.",
+  "reasons": [
+    "Cars park along this strip",
+    "Shops beside it, apartments 24 m away",
+    "Clearway only 4-7pm Mon-Sat"
+  ],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Shopfront strip beside Mr Noodle at the Moggill Road junction",
+    "slope_pct": 3.8
+  },
+  "drivers": {
+    "seclusion": "Shops and offices on the south side; nearest dwelling is apartments 24 m away. Open to the main road and signals.",
+    "access_and_room": "Short 10 m stretch, just over a van length, next to a kerbed strip where a van and cars are parked.",
+    "traffic": "Busy multi-lane arterial next to a signalised junction.",
+    "convention": "Parked vehicles in the strip in both images; clearway 4-7pm Mon-Sat means no stopping then."
+  },
+  "flags": [
+    "Clearway Mon-Sat 4pm-7pm",
+    "Steep: about 4% grade",
+    "Noise: arterial and junction",
+    "Short: only about one van length"
+  ],
+  "sun_shade": "Open; building shades the south side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the strip is signed for short stays",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "low"
+}

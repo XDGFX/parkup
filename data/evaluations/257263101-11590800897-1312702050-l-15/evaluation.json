@@ -1,0 +1,68 @@
+{
+  "candidate": "257263101-11590800897-1312702050-l-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short south kerb at a junction; homes 18 m away, cars park here.",
+  "reasons": [
+    "Homes about 18 m off on this side",
+    "Only 13 m of kerb at a corner",
+    "Cars parked on this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Treed verge and a garden hedge screen the kerb; detached homes 18 m away on both sides of the section, and more homes across the road.",
+    "access_and_room": "Sealed side street with cars parked on the kerb in Esri; a van fits only if it keeps clear of the junction.",
+    "traffic": "Beside a busy junction; noise and passing traffic.",
+    "convention": "Cars park along this kerb, but no camping convention."
+  },
+  "flags": [
+    "Right at a junction; kerb is short and may be too close to the corner",
+    "Noise from the busy road at the junction",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Trees on the north side shade the section; open to the south and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether parking near the junction is allowed"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 13,
+    "where": "Marston Avenue south kerb, just west of the junction with the main road",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.984209,
+        -27.50789
+      ],
+      [
+        152.984156,
+        -27.507888
+      ],
+      [
+        152.984082,
+        -27.507876
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 0.8,
+    "min_elevation_m": 22,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

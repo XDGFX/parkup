@@ -1,0 +1,46 @@
+{
+  "candidate": "47490202-9849280018-289483787-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Live lane of Moggill Road arterial; no stopping and no pull-off.",
+  "reasons": [
+    "No Stopping Any Time sign",
+    "Main road, no parked cars",
+    "Kerb abuts live lanes"
+  ],
+  "drivers": {
+    "seclusion": "Car yard beyond a landscaped strip; no dwellings near, but fully exposed to the road.",
+    "access_and_room": "Yellow line lies in the traffic lanes; kerb has no verge or lay-by.",
+    "traffic": "Heavy multi-lane arterial at a junction.",
+    "convention": "No cars parked along this kerb; no stopping signed."
+  },
+  "flags": [
+    "Low-lying: creek 5 m away, about 9 m elevation",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open; trees to the east shade the early morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerbside restrictions beyond mapped signs"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 9.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

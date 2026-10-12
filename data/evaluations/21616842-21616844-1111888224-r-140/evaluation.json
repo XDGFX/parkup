@@ -1,0 +1,47 @@
+{
+  "candidate": "21616842-21616844-1111888224-r-140",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway on a busy multi-lane main road with a raised median.",
+  "reasons": [
+    "Main road, no parked cars",
+    "Clearway tow-away sign nearby",
+    "No room to pull out of lane"
+  ],
+  "drivers": {
+    "seclusion": "Open to all passers-by on a major road; dwellings 21 m away.",
+    "access_and_room": "Line runs along a median strip between carriageways; nowhere to stop clear of traffic.",
+    "traffic": "Heavy multi-lane arterial at a junction.",
+    "convention": "No cars parked along it; signed clearway Mon-Sat 7am-7pm with tow away."
+  },
+  "flags": [
+    "Clearway: tow away Mon-Sat 7am-7pm",
+    "Steep: about 7% grade, 13% max",
+    "Noise: arterial junction"
+  ],
+  "sun_shade": "Open, with one small tree shading the middle.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Overnight clearway rules outside signed hours"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 7.3,
+    "min_elevation_m": 45,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "47456636-215134669-1473300591-l-0",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "East kerb beside a hedged car-dealer lot; no homes, cars park nearby.",
+  "reasons": [
+    "Backs onto hedged commercial car park",
+    "No dwellings; only commercial buildings nearby",
+    "Cars park along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Commercial and car-park frontage only; the nearest buildings are non-residential, 20 m or more away.",
+    "access_and_room": "Sealed kerbside lane with parked cars along it, so room to stop; no gates in the way.",
+    "traffic": "Side street off a busy arterial; quiet at the bottom end, no stopping issues from the lane.",
+    "convention": "Cars are parked along both kerbs in the Esri image, so a van will not stand out."
+  },
+  "flags": [
+    "Gentle: about 1.5% at the best section, 3.4% mean over the stretch",
+    "Noise from the arterial at the top end",
+    "Low-lying: 8 to 11 m elevation, Witton Creek 140 m away"
+  ],
+  "sun_shade": "Mostly open; hedge and a tree overhang the kerb on the east side, afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether the dealer or shops patrol or complain overnight",
+    "Time limits not covered by the sign screen"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 90,
+    "where": "Market Street North east kerb, beside the hedged car yard south of the big showroom",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.961397,
+        -27.505355
+      ],
+      [
+        152.961499,
+        -27.505656
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 8.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

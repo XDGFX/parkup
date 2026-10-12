@@ -1,0 +1,46 @@
+{
+  "candidate": "47456598-4916596710-1073712677-l-50",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Arterial kerb with No Stopping sign and no lay-by beside a busy car yard.",
+  "reasons": [
+    "No Stopping Any Time sign",
+    "Main road, no parked cars",
+    "Kerb abuts live lane"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto a dealership car park; no dwellings within 20 m.",
+    "access_and_room": "Kerb meets the live lane with only a thin landscaped strip; no pull-off.",
+    "traffic": "Heavy multi-lane arterial at a junction.",
+    "convention": "No cars parked along this kerb; no stopping signed."
+  },
+  "flags": [
+    "Low-lying: creek 2 m away, about 9 m elevation",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open; trees to the east shade the early morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the car yard is staffed overnight"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 9.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

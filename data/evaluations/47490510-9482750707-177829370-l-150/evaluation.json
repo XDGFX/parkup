@@ -1,0 +1,48 @@
+{
+  "candidate": "47490510-9482750707-177829370-l-150",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Slip lane beside an active construction site; no verge to stop on.",
+  "reasons": [
+    "Live arterial slip lane, no parking",
+    "Construction site behind fence",
+    "No room to pull out"
+  ],
+  "drivers": {
+    "seclusion": "Construction site on one side, arterial on the other; no homes within 35 m.",
+    "access_and_room": "Kerb is a through slip lane with fencing beside it; no pull-off.",
+    "traffic": "Busy arterial and junction with moving traffic.",
+    "convention": "No signs; no cars parked along this kerb."
+  },
+  "flags": [
+    "Steep: about 5% mean grade, 18% max",
+    "Active construction works beside kerb",
+    "Noise: arterial and construction"
+  ],
+  "sun_shade": "Open to sun; no cover.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 36,
+    "gated": false,
+    "slope_pct": 5,
+    "min_elevation_m": 26,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

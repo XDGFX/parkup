@@ -1,0 +1,99 @@
+{
+  "candidate": "60800344-60800344-501156553-r-70",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet cul-de-sac bend; homes 18-21 m away, gentler grade at the start.",
+  "reasons": [
+    "Dwellings 18-21 m on the same side",
+    "Quiet residential street, no parking convention",
+    "Lower end is steep, about 11%"
+  ],
+  "drivers": {
+    "seclusion": "Homes at 18 m, 21 m and 26 m around the bend; tree cover screens some of them.",
+    "access_and_room": "Sealed road in the turning head; kerb-side room looks adequate for a van.",
+    "traffic": "Dead-end residential loop, very little through traffic.",
+    "convention": "Two cars are parked near the lower end in the QLD image, but no wider parking convention."
+  },
+  "flags": [
+    "Steep: about 8% mean, 13.6% max over the full stretch; about 4% at the best section",
+    "Homes within 25 m on all sides"
+  ],
+  "sun_shade": "Heavy tree canopy over the best section, mainly from the west and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Resident attitudes"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Top of the Lytham Street bend, west side, before the road drops away",
+    "slope_pct": 4,
+    "points": [
+      [
+        152.963794,
+        -27.490926
+      ],
+      [
+        152.963799,
+        -27.490925
+      ],
+      [
+        152.963812,
+        -27.490924
+      ],
+      [
+        152.963822,
+        -27.490925
+      ],
+      [
+        152.963837,
+        -27.490929
+      ],
+      [
+        152.963848,
+        -27.490932
+      ],
+      [
+        152.96386,
+        -27.490938
+      ],
+      [
+        152.963869,
+        -27.490944
+      ],
+      [
+        152.963875,
+        -27.49095
+      ],
+      [
+        152.963884,
+        -27.490965
+      ],
+      [
+        152.963887,
+        -27.490976
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 4,
+    "min_elevation_m": 43.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

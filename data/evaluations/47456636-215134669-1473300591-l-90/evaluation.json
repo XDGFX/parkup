@@ -1,0 +1,68 @@
+{
+  "candidate": "47456636-215134669-1473300591-l-90",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "East kerb beside a vacant grassed lot; no homes nearby.",
+  "reasons": [
+    "Backs onto vacant lot and car yard",
+    "No dwellings in sight",
+    "A car already parks at this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Vacant grass lot and gravel car yard to the east; the nearest buildings are commercial, 13 m or more away.",
+    "access_and_room": "Sealed kerbside lane with a car already parked at it; room to stop clear of traffic.",
+    "traffic": "Short side street ending at a busy cross road; noise but a van stays out of the lane.",
+    "convention": "One car parked at this kerb; the west side is a commercial frontage."
+  },
+  "flags": [
+    "Gentle: about 2.5% at the best section, 1.9% mean",
+    "Noise from the cross road at the south end",
+    "Low-lying: about 8 m elevation, creek about 108 m away"
+  ],
+  "sun_shade": "Open; no cover. Morning sun from the east over the empty lot.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Time limits not covered by the sign screen",
+    "Whether the vacant lot is about to be developed"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 45,
+    "where": "Market Street North east kerb, beside the empty grassed lot before the cross street",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        152.961572,
+        -27.505871
+      ],
+      [
+        152.961605,
+        -27.505969
+      ],
+      [
+        152.961627,
+        -27.506045
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.5,
+    "min_elevation_m": 8.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

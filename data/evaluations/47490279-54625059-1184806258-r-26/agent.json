@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Clearway arterial kerb with no parked cars; the car park beside it is private.",
+  "reasons": ["Clearway tow-away signs", "Main road, no parked cars", "Kerb abuts live lane"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "No homes within 25 m, but fully exposed to the road and dealership.",
+    "access_and_room": "Lane runs to the kerb; only a thin planted strip, no pull-off.",
+    "traffic": "Heavy arterial traffic beside a signalised junction.",
+    "convention": "No cars parked along this kerb; clearway Mon-Sat 7am-7pm."
+  },
+  "flags": ["Clearway tow away Mon-Sat 7am-7pm", "Arterial noise"],
+  "sun_shade": "Tree canopy over the south end; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Out-of-hours parking on site"],
+  "confidence": "high"
+}

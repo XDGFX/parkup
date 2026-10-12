@@ -1,0 +1,48 @@
+{
+  "candidate": "54626133-3593813933-1296753661-r-1120",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Secluded bush kerb, but narrow lane with trees at the edge and no room to pull off.",
+  "reasons": [
+    "Trees right at the kerb, no pull-off",
+    "No parking seen along this lane",
+    "Secluded but nowhere clear to stop"
+  ],
+  "drivers": {
+    "seclusion": "No dwellings nearby; bush on this side, park and playing fields on the other.",
+    "access_and_room": "Narrow sealed lane through park and bush; tree canopy meets the north edge and there is no verge or pull-off, so a van would sit in the lane.",
+    "traffic": "Through route through the park; a single red car in the 2022 QLD image, none in the Esri image.",
+    "convention": "No marked or customary parking along this stretch."
+  },
+  "flags": [
+    "Low-lying: about 8-10 m elevation, a waterway 37 m away",
+    "Slope about 5% over the 30 m"
+  ],
+  "sun_shade": "Heavily shaded by trees overhead.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether a pull-off exists under the canopy",
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 4.9,
+    "min_elevation_m": 8.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

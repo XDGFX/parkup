@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a busy Moggill Road lane; no room to stop.",
+  "reasons": ["Main road, no parked cars", "Kerb abuts live traffic lane", "Only 21 m long"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Bush bank behind, but fully in view of the arterial.",
+    "access_and_room": "Marked lane meets the kerb with no verge or pull-off; 21 m is under a van length of usable room.",
+    "traffic": "Heavy multi-lane arterial at a junction.",
+    "convention": "No parked cars along this kerb."
+  },
+  "flags": ["Low-lying: creek 13 m away, about 9 m elevation", "Arterial noise"],
+  "sun_shade": "Tree shade from the west in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Kerbside restrictions on site"],
+  "confidence": "high"
+}

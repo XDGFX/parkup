@@ -1,0 +1,72 @@
+{
+  "candidate": "58770747-81340778-10592474-l-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "West kerb at the north end, backing onto bush; homes 13 m behind.",
+  "reasons": [
+    "Treed lot and bush behind the kerb",
+    "Cars park along this street",
+    "Nearest house about 13 m back"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto a treed lot and bush toward the highway; nearest mapped homes are 13 m at 216 m and 14 m at 207 m, both before the section. Homes line the opposite side across the road.",
+    "access_and_room": "Sealed street with cars parked on this kerb in the imagery; room for a van at the kerb.",
+    "traffic": "Local street; highway noise from the north-west.",
+    "convention": "Residential street where cars park along the kerb, but no camping convention."
+  },
+  "flags": [
+    "Steep: about 8% grade at the best section; the street averages 9.8%, max 18%",
+    "Homes within 6-15 m of the kerb along most of the street",
+    "Highway noise nearby"
+  ],
+  "sun_shade": "Trees on the west side shade the section in the afternoon; open to the east morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether the building in the trees is occupied"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 222,
+    "to_m": 237,
+    "where": "Market Street South west kerb, north end, beside the treed lot above the highway",
+    "slope_pct": 8,
+    "points": [
+      [
+        152.960783,
+        -27.509173
+      ],
+      [
+        152.960794,
+        -27.509155
+      ],
+      [
+        152.960807,
+        -27.509134
+      ],
+      [
+        152.960856,
+        -27.509055
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 6.1,
+    "min_elevation_m": 10.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

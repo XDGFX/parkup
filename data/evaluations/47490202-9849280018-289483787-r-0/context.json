@@ -1,0 +1,277 @@
+{
+  "id": "47490202-9849280018-289483787-r-0",
+  "street": "Moggill Road",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.961994,
+      -27.504083
+    ],
+    [
+      152.962231,
+      -27.503845
+    ],
+    [
+      152.9623,
+      -27.503764
+    ],
+    [
+      152.962317,
+      -27.503741
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "east",
+  "length_m": 50,
+  "signs": [
+    {
+      "street": "MOGGILL ROAD",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 10.2
+    }
+  ],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 33,
+      "at_m": 9,
+      "outline": [
+        [
+          152.962302,
+          -27.5042203
+        ],
+        [
+          152.9624135,
+          -27.504111
+        ],
+        [
+          152.9624854,
+          -27.5041687
+        ],
+        [
+          152.9624996,
+          -27.5041547
+        ],
+        [
+          152.9625549,
+          -27.504199
+        ],
+        [
+          152.9624862,
+          -27.5042663
+        ],
+        [
+          152.9624413,
+          -27.5042303
+        ],
+        [
+          152.9623842,
+          -27.5042863
+        ],
+        [
+          152.962302,
+          -27.5042203
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": "John Carew Swim School",
+      "dwelling": false,
+      "metres": 53,
+      "at_m": 10,
+      "outline": [
+        [
+          152.9624278,
+          -27.5044465
+        ],
+        [
+          152.9624466,
+          -27.5045061
+        ],
+        [
+          152.9625929,
+          -27.5044697
+        ],
+        [
+          152.9625989,
+          -27.5044887
+        ],
+        [
+          152.962775,
+          -27.504445
+        ],
+        [
+          152.9627548,
+          -27.504381
+        ],
+        [
+          152.9627791,
+          -27.504375
+        ],
+        [
+          152.9627478,
+          -27.504276
+        ],
+        [
+          152.9625305,
+          -27.50433
+        ],
+        [
+          152.9625243,
+          -27.5043103
+        ],
+        [
+          152.9624627,
+          -27.5043256
+        ],
+        [
+          152.9624956,
+          -27.5044297
+        ],
+        [
+          152.9624278,
+          -27.5044465
+        ]
+      ]
+    }
+  ],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.961994,
+        "lat": -27.504083,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 9.42
+      },
+      {
+        "lon": 152.962028,
+        "lat": -27.504049,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 9.27
+      },
+      {
+        "lon": 152.962061,
+        "lat": -27.504016,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 9.25
+      },
+      {
+        "lon": 152.962095,
+        "lat": -27.503982,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 9.14
+      },
+      {
+        "lon": 152.962128,
+        "lat": -27.503948,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 9.14
+      },
+      {
+        "lon": 152.962162,
+        "lat": -27.503914,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 9.25
+      },
+      {
+        "lon": 152.962195,
+        "lat": -27.503881,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 9.31
+      },
+      {
+        "lon": 152.962229,
+        "lat": -27.503847,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 9.53
+      },
+      {
+        "lon": 152.96226,
+        "lat": -27.503811,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 9.65
+      },
+      {
+        "lon": 152.96229,
+        "lat": -27.503775,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 9.7
+      },
+      {
+        "lon": 152.962317,
+        "lat": -27.503741,
+        "at_m": 49.7,
+        "line": 0,
+        "elevation_m": 9.82
+      }
+    ],
+    "min_elevation_m": 9.1,
+    "max_elevation_m": 9.8,
+    "mean_grade_pct": 1.9,
+    "max_grade_pct": 4.4
+  },
+  "waterway": {
+    "name": "Witton Creek",
+    "metres": 5
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 40,
+      "access": null,
+      "fee": null,
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 50,
+      "length_m": 50,
+      "images": {
+        "esri": ".cache/imagery/47490202-9849280018-289483787-r-0/chunk1-esri.jpg",
+        "qld": ".cache/imagery/47490202-9849280018-289483787-r-0/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        92,
+        98
+      ],
+      "image_px": [
+        612,
+        654
+      ]
+    }
+  ]
+}

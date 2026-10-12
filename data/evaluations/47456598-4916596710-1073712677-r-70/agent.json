@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Busy arterial with No Stopping signs, no parking lane or verge.",
+  "reasons": ["No Stopping Any Time signs", "Main road, no parked cars", "Kerb abuts live lanes"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Bush and a house behind, but the road edge is fully exposed.",
+    "access_and_room": "Marked traffic lanes run to the kerb; no pull-off or verge.",
+    "traffic": "Heavy multi-lane arterial near a junction.",
+    "convention": "No cars parked along this kerb; no stopping signed."
+  },
+  "flags": ["Low-lying: creek 19 m away, about 9 m elevation", "Arterial noise"],
+  "sun_shade": "Tree shade from the west side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Kerbside restrictions beyond mapped signs"],
+  "confidence": "high"
+}

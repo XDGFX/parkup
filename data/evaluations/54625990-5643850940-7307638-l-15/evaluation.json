@@ -1,0 +1,70 @@
+{
+  "candidate": "54625990-5643850940-7307638-l-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wide residential kerb where cars park, homes 14-20 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Homes 14-20 m on own side",
+    "Gentle grade, about 2%"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 14 m and 20 m on the west side, more across the road; homes all round within 25 m.",
+    "access_and_room": "Wide sealed road with a parking lane; cars park on both kerbs.",
+    "traffic": "Quiet suburban street.",
+    "convention": "Several cars parked along both sides; no signs on this stretch."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Low-lying: min elevation 27 m so not flood-prone"
+  ],
+  "sun_shade": "Open kerb with a few street trees; afternoon sun from the west over the houses.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 65,
+    "where": "Meiers Road west kerb, north of the first bend",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.991483,
+        -27.510246
+      ],
+      [
+        152.9915,
+        -27.51023
+      ],
+      [
+        152.991607,
+        -27.510105
+      ],
+      [
+        152.991697,
+        -27.509943
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 3.7,
+    "min_elevation_m": 28.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

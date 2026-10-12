@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Live lane of Moggill Road arterial; no stopping and no pull-off.",
+  "reasons": ["No Stopping Any Time sign", "Main road, no parked cars", "Kerb abuts live lanes"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Car yard beyond a landscaped strip; no dwellings near, but fully exposed to the road.",
+    "access_and_room": "Yellow line lies in the traffic lanes; kerb has no verge or lay-by.",
+    "traffic": "Heavy multi-lane arterial at a junction.",
+    "convention": "No cars parked along this kerb; no stopping signed."
+  },
+  "flags": ["Low-lying: creek 5 m away, about 9 m elevation", "Arterial noise"],
+  "sun_shade": "Open; trees to the east shade the early morning.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Kerbside restrictions beyond mapped signs"],
+  "confidence": "high"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "60667480-215134669-20292022-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb; houses front the west side, parkland opposite.",
+  "reasons": [
+    "Homes about 10-15 m behind this kerb",
+    "Quiet residential street, few cars parked",
+    "Open park opposite at the south end"
+  ],
+  "drivers": {
+    "seclusion": "Houses and garages sit close behind the west kerb (OSM lists none, the imagery shows several); parkland opposite.",
+    "access_and_room": "Sealed street with a kerbside lane; a couple of cars park on it, so there is room to stop.",
+    "traffic": "Residential street running up to a busy cross road; light traffic at the south end.",
+    "convention": "Two or three cars parked along the street in the Esri image; no overnight convention visible."
+  },
+  "flags": [
+    "Homes within about 10-15 m on the section's own side, not in OSM",
+    "Gentle: about 2.5% at the best section, 3.2% mean",
+    "Low-lying: 5 to 8 m elevation with a waterway 38 m away; flood-prone",
+    "Noise from the cross road at the north end"
+  ],
+  "sun_shade": "Open at the best section; garden trees shade the west edge in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Resident attitudes",
+    "Flood history"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "Southern end of Market Street North west kerb, opposite the grassed park",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        152.961461,
+        -27.507156
+      ],
+      [
+        152.961487,
+        -27.507023
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 5.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

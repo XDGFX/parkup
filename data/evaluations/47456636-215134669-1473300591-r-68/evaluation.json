@@ -1,0 +1,64 @@
+{
+  "candidate": "47456636-215134669-1473300591-r-68",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy-parked west kerb beside offices; no homes, van blends in.",
+  "reasons": [
+    "Only commercial buildings alongside",
+    "No dwellings within view",
+    "Cars parked bumper to bumper here"
+  ],
+  "drivers": {
+    "seclusion": "Offices and a business car park on this side; no dwellings mapped or visible.",
+    "access_and_room": "Sealed kerbside lane with a row of parked cars, so there is room to stop; no gates.",
+    "traffic": "Short side street ending at a busy cross road; the van stands out of the lane.",
+    "convention": "A row of cars is parked along this kerb in the Esri image, so a van will not stand out."
+  },
+  "flags": [
+    "Flat: about 0.3% at the best section, 1.2% mean",
+    "Noise from the cross road at the south end",
+    "Low-lying: about 8 m elevation, creek about 117 m away"
+  ],
+  "sun_shade": "Mostly open; trees shade the south end from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Time limits not covered by the sign screen",
+    "Whether the businesses object overnight"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 50,
+    "where": "Market Street North west kerb, alongside the office car park south of the solar-roofed block",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        152.96143,
+        -27.505702
+      ],
+      [
+        152.961503,
+        -27.505918
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 0.4,
+    "min_elevation_m": 8.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

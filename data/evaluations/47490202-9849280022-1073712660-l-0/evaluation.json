@@ -1,0 +1,46 @@
+{
+  "candidate": "47490202-9849280022-1073712660-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "10 m of arterial lane edge; no stopping, no room for a van.",
+  "reasons": [
+    "No Stopping Any Time sign",
+    "Only 10 m, under van length",
+    "Kerb abuts live traffic lane"
+  ],
+  "drivers": {
+    "seclusion": "Car yard to one side and bush to the other; fully visible from the road.",
+    "access_and_room": "Marked traffic lane to the kerb; no verge or pull-off.",
+    "traffic": "Heavy multi-lane arterial beside a junction.",
+    "convention": "No cars parked along this kerb; no stopping signed."
+  },
+  "flags": [
+    "Arterial noise",
+    "Short kerb, 10 m"
+  ],
+  "sun_shade": "Open; no cover over the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerbside restrictions beyond mapped signs"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 9.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

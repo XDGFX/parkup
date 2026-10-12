@@ -1,0 +1,29 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Landscaped corner at a signalised junction; clearway and no room to stop.",
+  "reasons": [
+    "Clearway tow away on Moggill Road",
+    "Corner verge, no pull-off",
+    "Main road, no parked cars"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Open to the junction and the road; buildings 13-15 m away are shops or a dental practice.",
+    "access_and_room": "Short 11 m grassed corner with trees and a footpath; no kerb space for a van clear of the lane.",
+    "traffic": "Busy arterial and signals right beside it.",
+    "convention": "No parked vehicles on this corner; clearway Mon-Sat 4-7pm with tow away and 2P parking on Jackson Street."
+  },
+  "flags": [
+    "Clearway tow away Mon-Sat 4pm-7pm",
+    "Jackson Street 2P parallel Mon-Fri 9am-5pm",
+    "Noise: arterial and junction",
+    "Short: only about 11 m"
+  ],
+  "sun_shade": "Tree canopy shades the stretch; open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerbside restrictions on Jackson Street overnight"
+  ],
+  "confidence": "high"
+}

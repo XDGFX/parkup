@@ -1,0 +1,47 @@
+{
+  "candidate": "47456531-7558403882-1482267050-l-70",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy Moggill Road arterial kerb with clearway signs, no parked cars, steep.",
+  "reasons": [
+    "Main road, no parked cars",
+    "Clearway tow-away signs",
+    "Homes close; steep to 12.8%"
+  ],
+  "drivers": {
+    "seclusion": "Homes 19 m to 40 m away on the same side; shops and school nearby.",
+    "access_and_room": "Kerb abuts live lanes with no lay-by or verge; clearway and bus zone signs.",
+    "traffic": "Heavy arterial traffic, signalised crossings.",
+    "convention": "No cars parked along this kerb."
+  },
+  "flags": [
+    "Steep: about 8% mean, 12.8% max",
+    "Clearway Mon-Sat 7am-7pm, tow away",
+    "Arterial noise"
+  ],
+  "sun_shade": "Mostly open; some tree shade from the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Out-of-hours parking on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 8,
+    "min_elevation_m": 21.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

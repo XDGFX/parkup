@@ -1,0 +1,46 @@
+{
+  "candidate": "47490279-54625059-1184806258-r-26",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway arterial kerb with no parked cars; the car park beside it is private.",
+  "reasons": [
+    "Clearway tow-away signs",
+    "Main road, no parked cars",
+    "Kerb abuts live lane"
+  ],
+  "drivers": {
+    "seclusion": "No homes within 25 m, but fully exposed to the road and dealership.",
+    "access_and_room": "Lane runs to the kerb; only a thin planted strip, no pull-off.",
+    "traffic": "Heavy arterial traffic beside a signalised junction.",
+    "convention": "No cars parked along this kerb; clearway Mon-Sat 7am-7pm."
+  },
+  "flags": [
+    "Clearway tow away Mon-Sat 7am-7pm",
+    "Arterial noise"
+  ],
+  "sun_shade": "Tree canopy over the south end; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Out-of-hours parking on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 39.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

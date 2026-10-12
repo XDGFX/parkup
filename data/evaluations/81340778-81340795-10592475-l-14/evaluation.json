@@ -1,0 +1,72 @@
+{
+  "candidate": "81340778-81340795-10592475-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential bend with homes 16-22 m away and a few parked cars.",
+  "reasons": [
+    "Homes 16-22 m away on both sides",
+    "Quiet street, cars parked near 50 m",
+    "Gentle slope, no signs or gate"
+  ],
+  "drivers": {
+    "seclusion": "Houses 16 m (at 55 m), 22 m (at 67 m) and 21 m (at 78 m) on this side, with more homes across the road; none within 10 m here.",
+    "access_and_room": "Plain sealed kerb on a narrow residential street, no gate or signs; verge looks wide enough to pull in.",
+    "traffic": "Local cul-de-sac traffic only.",
+    "convention": "A car is parked near 50 m in the Esri image; no stated parking rules and no regular campervans seen."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Slope about 3% at the section",
+    "Houses at 10 m and 9 m either side of 42 m and 128 m"
+  ],
+  "sun_shade": "Mixed: yard trees shade the kerb from the east in the morning; open to the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 58,
+    "to_m": 72,
+    "where": "Minkara Street east kerb at the bend, before the rise towards the cul-de-sac head",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.961639,
+        -27.509204
+      ],
+      [
+        152.961656,
+        -27.509225
+      ],
+      [
+        152.961694,
+        -27.509273
+      ],
+      [
+        152.961694,
+        -27.509315
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 4.3,
+    "min_elevation_m": 9.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

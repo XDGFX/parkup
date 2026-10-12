@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Busy Moggill Road arterial kerb with clearway signs, no parked cars, steep.",
+  "reasons": ["Main road, no parked cars", "Clearway tow-away signs", "Homes close; steep to 12.8%"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Homes 19 m to 40 m away on the same side; shops and school nearby.",
+    "access_and_room": "Kerb abuts live lanes with no lay-by or verge; clearway and bus zone signs.",
+    "traffic": "Heavy arterial traffic, signalised crossings.",
+    "convention": "No cars parked along this kerb."
+  },
+  "flags": ["Steep: about 8% mean, 12.8% max", "Clearway Mon-Sat 7am-7pm, tow away", "Arterial noise"],
+  "sun_shade": "Mostly open; some tree shade from the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Out-of-hours parking on site"],
+  "confidence": "high"
+}

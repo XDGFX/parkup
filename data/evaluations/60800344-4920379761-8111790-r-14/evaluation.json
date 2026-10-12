@@ -1,0 +1,51 @@
+{
+  "candidate": "60800344-4920379761-8111790-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow, tree-covered lane with homes hard against it and no room to pull off.",
+  "reasons": [
+    "No clear room to pull off the lane",
+    "Homes hard against the lane's west side",
+    "Canopy-hidden narrow track, access unclear"
+  ],
+  "drivers": {
+    "seclusion": "Bush to the east, but houses and pools back directly onto the west side for most of the stretch.",
+    "access_and_room": "After the first 10 m the lane narrows to a track under canopy; no pull-off wide enough for a van.",
+    "traffic": "Very little traffic; it serves a few driveways.",
+    "convention": "A couple of cars park near the start by the bend, nothing further along."
+  },
+  "flags": [
+    "Mean grade 3.2%, max 10.6% (steepest in the first 30 m)",
+    "Homes close to the lane along most of its length",
+    "Low-lying, near 33 m elevation; no waterway within 177 m"
+  ],
+  "sun_shade": "Heavy canopy over almost the whole stretch.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Surface and width under the canopy",
+    "Whether the track is public access",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 33.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:19:40Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,34 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Quiet residential bend with houses 12-23 m away all round.",
+  "reasons": [
+    "Dwellings 12-23 m away on own side",
+    "No parking convention on quiet street",
+    "Verge looks wide enough to stop"
+  ],
+  "best_section": {
+    "from_m": 100,
+    "to_m": 125,
+    "where": "Outer bend of Minkara Street, before the turning head, beside the pale roofed house",
+    "slope_pct": 4.8
+  },
+  "drivers": {
+    "seclusion": "Homes on the west side 12-23 m back and more across the road; no bush or park buffer.",
+    "access_and_room": "Sealed residential street, verge and kerb room beside the lane; no gate on the way in.",
+    "traffic": "Local residents only on a short loop; very little through traffic.",
+    "convention": "No cars or vans seen parked along the kerb here, so a van would stand out."
+  },
+  "flags": [
+    "Steep: about 5% grade rising towards the turning head",
+    "Mapped gate 91 m away has a way round, not on the only access"
+  ],
+  "sun_shade": "Mostly open; tree canopy shades the west side, morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium"
+}
