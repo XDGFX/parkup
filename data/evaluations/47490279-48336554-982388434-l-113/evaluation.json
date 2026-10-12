@@ -1,0 +1,63 @@
+{
+  "candidate": "47490279-48336554-982388434-l-113",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short school-zone kerb, too steep, with houses right behind.",
+  "reasons": [
+    "Steep: 12-13% grade",
+    "School loading zone and no-stopping signs",
+    "Houses directly behind the kerb"
+  ],
+  "drivers": {
+    "seclusion": "Houses sit 12-14 m behind the kerb; school buildings across the road.",
+    "access_and_room": "Kerb only, 19 m; barely a van length, no verge.",
+    "traffic": "Busy school drop-off street.",
+    "convention": "Cars park on the opposite side; signs show school loading and no-stopping zones."
+  },
+  "flags": [
+    "Steep: about 12% mean, 13% max",
+    "School loading zone and school-day no-stopping signs",
+    "Houses behind kerb look like homes though tagged only yes"
+  ],
+  "sun_shade": "Tree canopy overhead from the east; open to the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 19,
+    "where": "south kerb of Russell Terrace opposite the school hall",
+    "slope_pct": 11.7,
+    "points": [
+      [
+        152.965247,
+        -27.500514
+      ],
+      [
+        152.965057,
+        -27.500485
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 12.3,
+    "min_elevation_m": 25.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

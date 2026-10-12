@@ -1,0 +1,47 @@
+{
+  "candidate": "47490279-48336554-982388434-l-172",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Eight-metre steep kerb, too short for a van, school loading zone.",
+  "reasons": [
+    "Only 8 m long",
+    "Steep: 12-15% grade",
+    "School loading zone signs"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush and a house directly behind the kerb; school across the road.",
+    "access_and_room": "Kerb of 8 m is shorter than a van; no verge.",
+    "traffic": "Busy school-run street.",
+    "convention": "School loading zone signs; no sign of overnight parking."
+  },
+  "flags": [
+    "Steep: about 12% mean, 15% max",
+    "School loading zone signs"
+  ],
+  "sun_shade": "Dense canopy over the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 11.7,
+    "min_elevation_m": 19.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

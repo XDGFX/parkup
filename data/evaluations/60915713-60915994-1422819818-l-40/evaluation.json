@@ -1,0 +1,45 @@
+{
+  "candidate": "60915713-60915994-1422819818-l-40",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "The line cuts through bush off the street's end; no usable kerb.",
+  "reasons": [
+    "Line runs into dense bush",
+    "No road edge to stop on",
+    "Dwelling 12 m away"
+  ],
+  "drivers": {
+    "seclusion": "Thick bush behind, but a dwelling stands 12 m from the line.",
+    "access_and_room": "Only the line's far end meets the street edge; no pull-off or track seen.",
+    "traffic": "Quiet dead-end street.",
+    "convention": "2P Mon-Fri 9-5 signs only; no parked vehicles at this spot."
+  },
+  "flags": [
+    "Steep: about 9.5% mean, 12.6% max"
+  ],
+  "sun_shade": "Heavy tree shade from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Ground under canopy"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 9.7,
+    "min_elevation_m": 32.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

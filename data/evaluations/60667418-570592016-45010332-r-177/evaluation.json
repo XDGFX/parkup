@@ -1,0 +1,64 @@
+{
+  "candidate": "60667418-570592016-45010332-r-177",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Commercial kerb with cars parked along it, beside a plant yard.",
+  "reasons": [
+    "Cars park along both kerbs",
+    "Plant yard and workshops behind",
+    "No dwellings within 50 m"
+  ],
+  "drivers": {
+    "seclusion": "East side is a verge, fence and a commercial equipment yard; nearest mapped building is commercial 18 m away and no dwellings are listed or seen.",
+    "access_and_room": "Plain kerb with a grass verge; several cars parked along both kerbs show room in the lane.",
+    "traffic": "Business side street off Witton Road; likely empty at night.",
+    "convention": "Cars parked along both kerbs in both images, so a van will not stand out; 2P applies Mon-Fri 9am-6pm and Sat to noon."
+  },
+  "flags": [
+    "Low-lying: about 7 m elevation, Witton Creek 46 m away",
+    "2P restriction Mon-Fri 9am-6pm, Sat 6am-12noon",
+    "Section is only about one van length"
+  ],
+  "sun_shade": "Street trees shade the kerb from the east and north; otherwise open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Night activity at the equipment yard"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 17,
+    "where": "East kerb of Rennies Road, beside the fenced equipment yard",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        152.96228,
+        -27.5049
+      ],
+      [
+        152.962233,
+        -27.504753
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 0.7,
+    "min_elevation_m": 6.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

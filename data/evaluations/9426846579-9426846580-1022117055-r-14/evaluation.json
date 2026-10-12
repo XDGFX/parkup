@@ -1,0 +1,49 @@
+{
+  "candidate": "9426846579-9426846580-1022117055-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Tiny 10 m kerb stub at a junction, signed No Stopping Any Time.",
+  "reasons": [
+    "Only 10 m, shorter than a van",
+    "No Stopping Any Time signs",
+    "Very steep: 25% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Corner at a side-street junction in view of the main road; no OSM buildings in range, homes about 15-25 m across the road.",
+    "access_and_room": "Short sealed kerb at a junction mouth with a parked car; too short for a van.",
+    "traffic": "Corner of a through street, steady local traffic.",
+    "convention": "Three No Stopping Any Time signs, two within 2 m of the kerb line or ten metres along it."
+  },
+  "flags": [
+    "Steep: 24.8% mean, 42.5% max (DEM at a kerb dip may exaggerate)",
+    "No Stopping Any Time signs at the kerb",
+    "Shorter than a van length"
+  ],
+  "sun_shade": "Mixed tree shade from the west; open from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Exact sign extent",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 24.8,
+    "min_elevation_m": 38.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

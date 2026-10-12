@@ -1,0 +1,112 @@
+{
+  "id": "60667480-60915839-8119412-r-14",
+  "street": "Spring Street",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.961346,
+      -27.507226
+    ],
+    [
+      152.961148,
+      -27.507191
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "north",
+  "length_m": 20,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9616053,
+      "lat": -27.5083305,
+      "metres": 125,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.961346,
+        "lat": -27.507226,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 4.95
+      },
+      {
+        "lon": 152.961296,
+        "lat": -27.507217,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 4.92
+      },
+      {
+        "lon": 152.961247,
+        "lat": -27.507208,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 4.85
+      },
+      {
+        "lon": 152.961197,
+        "lat": -27.5072,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 4.93
+      },
+      {
+        "lon": 152.961148,
+        "lat": -27.507191,
+        "at_m": 19.9,
+        "line": 0,
+        "elevation_m": 4.95
+      }
+    ],
+    "min_elevation_m": 4.9,
+    "max_elevation_m": 5,
+    "mean_grade_pct": 1,
+    "max_grade_pct": 1.6
+  },
+  "waterway": {
+    "name": null,
+    "metres": 22
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 20,
+      "length_m": 20,
+      "images": {
+        "esri": ".cache/imagery/60667480-60915839-8119412-r-14/chunk1-esri.jpg",
+        "qld": ".cache/imagery/60667480-60915839-8119412-r-14/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        80,
+        64
+      ],
+      "image_px": [
+        530,
+        426
+      ]
+    }
+  ]
+}

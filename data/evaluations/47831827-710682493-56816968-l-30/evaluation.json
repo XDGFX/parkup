@@ -1,0 +1,48 @@
+{
+  "candidate": "47831827-710682493-56816968-l-30",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow steep house-lined street with no room to pull off the lane.",
+  "reasons": [
+    "Narrow lane, trees and fences at edge",
+    "Steep: 12% mean, 15% max",
+    "Homes 12 m or less at the lower end"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes line both sides, nearest 12 m from the south end and 13 m at the start.",
+    "access_and_room": "Roughly one parked car wide; verge is kerb-to-hedge with no pull-off, so a van would sit in the lane.",
+    "traffic": "Quiet local street.",
+    "convention": "Only a couple of cars park on the street; no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 12% mean grade, up to 15%",
+    "Homes within about 25 m all round"
+  ],
+  "sun_shade": "Mixed; hedges and trees shade the east side, open lane to the sky.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall",
+    "parking signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 12.1,
+    "min_elevation_m": 24.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

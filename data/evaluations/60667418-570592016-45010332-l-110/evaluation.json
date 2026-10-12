@@ -1,0 +1,68 @@
+{
+  "candidate": "60667418-570592016-45010332-l-110",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parking-lane kerb among commercial car parks and industry, with cars parked.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Commercial and industrial all round",
+    "No dwellings within 25 m"
+  ],
+  "drivers": {
+    "seclusion": "West side is a hedge and a commercial car park; east side is industrial yards. Nearest mapped buildings are commercial, 19 m or more away; no dwellings listed.",
+    "access_and_room": "Kerbside lane where several cars are parked in a row; plain kerb with no verge but a parking lane.",
+    "traffic": "Short side street between Witton Road and business premises; likely quiet at night.",
+    "convention": "Cars are parked along the kerb in both images; 2P signs apply Mon-Fri 9am-6pm and Sat to noon only."
+  },
+  "flags": [
+    "Low-lying: about 6 to 7 m elevation, Witton Creek 51 m away",
+    "2P restriction Mon-Fri 9am-6pm, Sat 6am-12noon",
+    "Arterial noise from Witton Road at the north end"
+  ],
+  "sun_shade": "Hedge and trees shade the kerb from the west in the afternoon; open to the east morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether commercial premises have night security"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 60,
+    "to_m": 90,
+    "where": "West kerb of Rennies Road, beside the hedge between the two commercial car parks",
+    "slope_pct": 2.1,
+    "points": [
+      [
+        152.96222,
+        -27.504978
+      ],
+      [
+        152.962216,
+        -27.504966
+      ],
+      [
+        152.962138,
+        -27.504719
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 6.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

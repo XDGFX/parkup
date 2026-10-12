@@ -1,0 +1,64 @@
+{
+  "candidate": "58836258-60915994-8051390-l-23",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb by a main-road corner, units 11 m behind; cars park here.",
+  "reasons": [
+    "Units 11-12 m behind on own side",
+    "Cars park along this kerb",
+    "Daytime 2P only, no overnight limit"
+  ],
+  "drivers": {
+    "seclusion": "Large red-roof block 11-12 m from the kerb on the east side, with a house 24 m away; car park and commercial building opposite.",
+    "access_and_room": "Sealed street with a kerbside lane where cars park; 27 m is room for a van.",
+    "traffic": "Close to a busy main road junction; side street itself quiet.",
+    "convention": "2P Parallel Mon-Fri 9am-5pm only, so no overnight limit; cars parked on both sides in imagery."
+  },
+  "flags": [
+    "Steep: 7.2% mean, 11.8% max",
+    "Busy main road noise at the corner",
+    "Parking limit applies in the day, clear by 5pm"
+  ],
+  "sun_shade": "Open sealed street; shade from a tree and the building on the east side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether the red-roof building is homes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 27,
+    "where": "Rylatt Street east kerb, just in from the main-road corner",
+    "slope_pct": 7.2,
+    "points": [
+      [
+        152.968953,
+        -27.498891
+      ],
+      [
+        152.969114,
+        -27.499087
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 24,
+    "gated": false,
+    "slope_pct": 7.6,
+    "min_elevation_m": 49.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

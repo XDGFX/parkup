@@ -1,0 +1,50 @@
+{
+  "candidate": "58736523-710682493-7920665-l-56",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Signed No Stopping Any Time, steep, houses 6 to 8 m away.",
+  "reasons": [
+    "No Stopping Any Time signs on the kerb",
+    "Dwellings 6 to 8 m away",
+    "Narrow lane, up to 11% grade"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes sit 6 to 11 m away along much of the west side.",
+    "access_and_room": "Narrow lane with hedges and fences at the edge; no pull-off.",
+    "traffic": "Quiet local street.",
+    "convention": "No stopping signs on this side; cars park on the opposite side."
+  },
+  "flags": [
+    "No Stopping Any Time signs at 0.6 m and 8.4 m from the kerb line",
+    "Steep: about 6.5% mean, up to 11% max",
+    "Homes within about 10 m"
+  ],
+  "sun_shade": "Hedges and large trees shade the west edge.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 6.5,
+    "min_elevation_m": 24.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

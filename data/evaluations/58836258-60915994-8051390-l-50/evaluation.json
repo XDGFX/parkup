@@ -1,0 +1,64 @@
+{
+  "candidate": "58836258-60915994-8051390-l-50",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb where cars park; houses 9-13 m behind a hedge.",
+  "reasons": [
+    "Houses about 9-13 m on own side",
+    "Cars park along this kerb",
+    "Steep: 8.6% grade"
+  ],
+  "drivers": {
+    "seclusion": "Homes sit behind a hedge on the east side about 9-13 m away (OSM non-residential tags, imagery shows houses); a mapped dwelling is 21 m away.",
+    "access_and_room": "Sealed street with a kerbside lane; several cars parked along it, room for a van.",
+    "traffic": "Quiet side street, a short way from a busy main road.",
+    "convention": "No Stopping Any Time sign at the start (within 1 m of kerb); 2P Mon-Fri 9am-5pm elsewhere, no overnight limit. Cars parked here in both images."
+  },
+  "flags": [
+    "Steep: 8.6% mean, 12.8% max",
+    "No Stopping Any Time sign near the start of the stretch",
+    "Daytime 2P limit Mon-Fri 9am-5pm"
+  ],
+  "sun_shade": "Open lane; houses and trees shade the east kerb in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact extent of the No Stopping sign"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "Rylatt Street east kerb, a short way down from the main-road corner",
+    "slope_pct": 8.6,
+    "points": [
+      [
+        152.969116,
+        -27.49909
+      ],
+      [
+        152.969295,
+        -27.499308
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 10,
+    "min_elevation_m": 46.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

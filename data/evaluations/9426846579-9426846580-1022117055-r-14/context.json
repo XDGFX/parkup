@@ -1,0 +1,134 @@
+{
+  "id": "9426846579-9426846580-1022117055-r-14",
+  "street": "Russell Terrace",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.961424,
+      -27.499357
+    ],
+    [
+      152.96142,
+      -27.499353
+    ],
+    [
+      152.961358,
+      -27.499284
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "east",
+  "length_m": 10,
+  "signs": [
+    {
+      "street": "RUSSELL TERRACE",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 9.8
+    },
+    {
+      "street": "RUSSELL TERRACE",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 1.7
+    },
+    {
+      "street": "RUSSELL TERRACE",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 10.8
+    }
+  ],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9619125,
+      "lat": -27.5009232,
+      "metres": 181,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.961424,
+        "lat": -27.499357,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 38.3
+      },
+      {
+        "lon": 152.961392,
+        "lat": -27.499322,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 39.16
+      },
+      {
+        "lon": 152.961361,
+        "lat": -27.499287,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 39.9
+      },
+      {
+        "lon": 152.961358,
+        "lat": -27.499284,
+        "at_m": 10.4,
+        "line": 0,
+        "elevation_m": 39.73
+      }
+    ],
+    "min_elevation_m": 38.3,
+    "max_elevation_m": 39.9,
+    "mean_grade_pct": 24.8,
+    "max_grade_pct": 42.5
+  },
+  "waterway": {
+    "name": null,
+    "metres": 80
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 10,
+      "length_m": 10,
+      "images": {
+        "esri": ".cache/imagery/9426846579-9426846580-1022117055-r-14/chunk1-esri.jpg",
+        "qld": ".cache/imagery/9426846579-9426846580-1022117055-r-14/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        67,
+        68
+      ],
+      "image_px": [
+        443,
+        454
+      ]
+    }
+  ]
+}

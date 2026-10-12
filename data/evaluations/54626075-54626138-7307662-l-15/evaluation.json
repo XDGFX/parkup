@@ -1,0 +1,63 @@
+{
+  "candidate": "54626075-54626138-7307662-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep residential kerb, 15% mean grade, house 10 m away.",
+  "reasons": [
+    "Grade 15% mean, 20% max",
+    "Detached house 10 m from start",
+    "Kerb-to-fence, no room off lane"
+  ],
+  "drivers": {
+    "seclusion": "Houses with pools line the south side at 10-19 m; the north side is also housing.",
+    "access_and_room": "Sealed street, kerb meets fences and hedges; little ground beside the lane.",
+    "traffic": "Quiet cul-de-sac, junction with a busier road at the 0 m end.",
+    "convention": "No signs and no parked cars seen."
+  },
+  "flags": [
+    "Steep: 15% mean, 20% max, over the 12% limit",
+    "Dwelling 10 m at 0 m and 19 m near 28 m",
+    "Several mapped gates 47 m and further, none on the only access"
+  ],
+  "sun_shade": "Partly shaded by garden trees along both sides; open sky over the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 45,
+    "to_m": 68,
+    "where": "Foot of St Andrews Place, south kerb at the lower bend",
+    "slope_pct": 9.5,
+    "points": [
+      [
+        152.99444,
+        -27.510169
+      ],
+      [
+        152.994208,
+        -27.510157
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 14.5,
+    "min_elevation_m": 14.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

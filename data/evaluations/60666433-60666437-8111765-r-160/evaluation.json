@@ -1,0 +1,76 @@
+{
+  "candidate": "60666433-60666437-8111765-r-160",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential Rankin Street kerb with homes about 12 m away on its side.",
+  "reasons": [
+    "Dwellings 12 m away, same side",
+    "Cars park on both kerbs",
+    "Steep: about 5% grade"
+  ],
+  "drivers": {
+    "seclusion": "Detached home 12 m south at 28 m, others within 25 m all round; no bush or park backing.",
+    "access_and_room": "Plain kerb with grass verge; cars park along both kerbs so a van fits in the lane.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "2P Mon-Fri 9am-5pm signed; cars parked along both kerbs, no sign of overnight campers."
+  },
+  "flags": [
+    "Steep: about 5% at best section, up to 12% along the stretch",
+    "Homes within 12 m on own side",
+    "2P restriction Mon-Fri 9am-5pm"
+  ],
+  "sun_shade": "Mostly open, with some street trees shading from the north side; large canopy at the west end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether residents object to overnight vans"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 35,
+    "where": "South kerb of Rankin Street, in front of the red-roofed house midway along",
+    "slope_pct": 4.9,
+    "points": [
+      [
+        152.970634,
+        -27.50264
+      ],
+      [
+        152.970653,
+        -27.50264
+      ],
+      [
+        152.970707,
+        -27.502641
+      ],
+      [
+        152.970784,
+        -27.502644
+      ],
+      [
+        152.970786,
+        -27.502644
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 4.9,
+    "min_elevation_m": 23.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

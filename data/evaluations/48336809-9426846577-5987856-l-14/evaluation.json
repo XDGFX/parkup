@@ -1,0 +1,64 @@
+{
+  "candidate": "48336809-9426846577-5987856-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb on the flatter downhill end, homes close on both sides.",
+  "reasons": [
+    "Flattest part, about 3% grade",
+    "Homes within 25 m all round",
+    "Quiet street, a few cars parked"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the east kerb with gardens and across the road; none mapped in OSM here.",
+    "access_and_room": "Plain kerb with a grass verge beside it; a car is parked nearby.",
+    "traffic": "Quiet residential street, some through traffic.",
+    "convention": "Few cars park here; no signs or markings seen."
+  },
+  "flags": [
+    "Most of the stretch is steep: 10% mean, 17% max",
+    "Homes about 10-25 m away, partly unmapped",
+    "Several driveways along the kerb"
+  ],
+  "sun_shade": "Street trees give patchy shade; open to the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact house distances"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 195,
+    "to_m": 230,
+    "where": "east kerb of Russell Terrace, downhill end past the bend",
+    "slope_pct": 3.5,
+    "points": [
+      [
+        152.960839,
+        -27.49863
+      ],
+      [
+        152.961086,
+        -27.498857
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 60,
+    "gated": false,
+    "slope_pct": 4.5,
+    "min_elevation_m": 44.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

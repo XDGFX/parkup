@@ -1,0 +1,45 @@
+{
+  "candidate": "60915713-60915994-1422819818-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "The line runs through dense bush behind houses, with no road to stop on.",
+  "reasons": [
+    "No road or track visible",
+    "Dense bush, no vehicle access",
+    "Dwelling 13 m from start"
+  ],
+  "drivers": {
+    "seclusion": "Thick canopy behind houses, but a dwelling sits 13 m from the start.",
+    "access_and_room": "No formed road, track or tyre marks under the line; a van cannot reach it.",
+    "traffic": "None; it is not a road.",
+    "convention": "No signs; no sign of parking."
+  },
+  "flags": [
+    "Steep: about 8% mean grade, up to 15% max"
+  ],
+  "sun_shade": "Heavy tree cover all round.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "What is under the canopy"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 7.7,
+    "min_elevation_m": 30.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

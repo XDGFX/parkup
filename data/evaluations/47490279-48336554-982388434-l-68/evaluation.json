@@ -1,0 +1,48 @@
+{
+  "candidate": "47490279-48336554-982388434-l-68",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Nine-metre school-front kerb, too steep and signed no stopping at school times.",
+  "reasons": [
+    "Slope about 13.5%, over the limit",
+    "School no-stopping signs, 7-9am and 2-4pm",
+    "Under a van length of usable kerb"
+  ],
+  "drivers": {
+    "seclusion": "School buildings and a vet clinic beside it, no homes within 10 m, but the road is busy at school times.",
+    "access_and_room": "Only 9 m of kerb, broken by a driveway; not enough for a van and steep.",
+    "traffic": "School-run road with heavy traffic at drop-off and pick-up.",
+    "convention": "No Stopping signs 7-9am and school-day afternoons; 1/4P on school days; no overnight parking convention."
+  },
+  "flags": [
+    "Steep: about 13.5% mean, 14.2% max",
+    "School no-stopping times, 7-9am and 2-4pm",
+    "Noise from school and road"
+  ],
+  "sun_shade": "Heavy tree canopy over the kerb, from the north and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 13.5,
+    "min_elevation_m": 32,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

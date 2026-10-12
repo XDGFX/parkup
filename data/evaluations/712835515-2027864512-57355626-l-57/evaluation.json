@@ -1,0 +1,48 @@
+{
+  "candidate": "712835515-2027864512-57355626-l-57",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Loading-zone kerb on busy Stamford Road, no parking lane and shops adjacent.",
+  "reasons": [
+    "Main road, no kerbside parking",
+    "Signed loading zone, weekdays and Saturday",
+    "Commercial car parks right alongside"
+  ],
+  "drivers": {
+    "seclusion": "Retail premises and customer car park within 10 m; exposed to passing traffic.",
+    "access_and_room": "Kerb abuts the traffic lane with no pull-off or verge.",
+    "traffic": "Busy arterial with signalled crossing nearby.",
+    "convention": "Only a lone car on the road; loading zone sign marks it as short-stay."
+  },
+  "flags": [
+    "Loading Zone MON-FRI 6:30AM-4:30PM, SAT 7:00AM-12:00PM",
+    "Noise: arterial",
+    "Slope about 1%"
+  ],
+  "sun_shade": "Mostly open; one tree shades the east side near the start.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "signs on site",
+    "street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 22.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

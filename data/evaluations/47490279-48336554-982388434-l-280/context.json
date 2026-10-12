@@ -1,0 +1,126 @@
+{
+  "id": "47490279-48336554-982388434-l-280",
+  "street": "Russell Terrace",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.963577,
+      -27.500258
+    ],
+    [
+      152.963277,
+      -27.500214
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "south",
+  "length_m": 30,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9619125,
+      "lat": -27.5009232,
+      "metres": 156,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.963577,
+        "lat": -27.500258,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 15.55
+      },
+      {
+        "lon": 152.963527,
+        "lat": -27.500251,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 15.86
+      },
+      {
+        "lon": 152.963477,
+        "lat": -27.500243,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 16.37
+      },
+      {
+        "lon": 152.963427,
+        "lat": -27.500236,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 16.82
+      },
+      {
+        "lon": 152.963377,
+        "lat": -27.500229,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 17.23
+      },
+      {
+        "lon": 152.963327,
+        "lat": -27.500221,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 17.59
+      },
+      {
+        "lon": 152.963277,
+        "lat": -27.500214,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 18.21
+      }
+    ],
+    "min_elevation_m": 15.6,
+    "max_elevation_m": 18.2,
+    "mean_grade_pct": 8.9,
+    "max_grade_pct": 12.4
+  },
+  "waterway": {
+    "name": "Witton Creek",
+    "metres": 30
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 30,
+      "length_m": 30,
+      "images": {
+        "esri": ".cache/imagery/47490279-48336554-982388434-l-280/chunk1-esri.jpg",
+        "qld": ".cache/imagery/47490279-48336554-982388434-l-280/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        90,
+        65
+      ],
+      "image_px": [
+        597,
+        433
+      ]
+    }
+  ]
+}

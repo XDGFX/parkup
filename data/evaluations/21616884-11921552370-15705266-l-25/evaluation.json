@@ -1,0 +1,69 @@
+{
+  "candidate": "21616884-11921552370-15705266-l-25",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy shopfront kerb in Indooroopilly where cars park; apartments about 23 m off.",
+  "reasons": [
+    "Cars parked along kerb",
+    "Shops and car parks, no homes close",
+    "Busy retail strip, van would be seen"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto shops and customer car parks; nearest dwellings are apartments about 23 m away at the south end.",
+    "access_and_room": "Parallel parking lane with other cars parked; room to pull in clear of the lane.",
+    "traffic": "Busy town-centre street with a junction at the north end; steady daytime traffic.",
+    "convention": "Signed 1/4P, 2P and loading zone in daytime; cars park here but it is a retail strip, not a sleeping spot."
+  },
+  "flags": [
+    "Daytime time limits and loading zone signs nearby",
+    "No Stopping signs at the north end",
+    "Noise from junction and cinema precinct",
+    "Mapped gates are not on the access"
+  ],
+  "sun_shade": "Open kerb; trees at the south end shade the east side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Overnight sign limits",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 50,
+    "where": "Riverview Terrace east kerb, south of the corner cafe, beside the commercial car park",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.974301,
+        -27.502505
+      ],
+      [
+        152.974291,
+        -27.502555
+      ],
+      [
+        152.97426,
+        -27.502725
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 27.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

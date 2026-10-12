@@ -1,0 +1,50 @@
+{
+  "candidate": "47831827-710682493-56816968-r-60",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short steep kerb with houses 5 to 10 m from the edge.",
+  "reasons": [
+    "Dwellings 5 m and 10 m away",
+    "Steep: up to 15.6%",
+    "Narrow lane, nowhere to pull off"
+  ],
+  "drivers": {
+    "seclusion": "Homes within 5 to 12 m on the west side and detached houses opposite.",
+    "access_and_room": "Narrow lane edged by hedges and a driveway; no pull-off.",
+    "traffic": "Quiet local street.",
+    "convention": "No parking convention visible."
+  },
+  "flags": [
+    "Steep: about 10% mean, 15.6% max",
+    "Homes within about 10 m"
+  ],
+  "sun_shade": "Hedge and tree shade on the west edge; open from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall",
+    "parking signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 9.6,
+    "min_elevation_m": 24.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

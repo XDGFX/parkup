@@ -1,0 +1,64 @@
+{
+  "candidate": "60915992-60915994-8119417-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short north kerb at the Shirley Street dead end, houses 13-17 m away.",
+  "reasons": [
+    "Dwellings 13 m and 17 m away",
+    "Dead end with little traffic",
+    "Short kerb, no-stopping sign beside it"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 13 m, 17 m and 20 m away on this side; kindergarten 22 m; apartments beyond.",
+    "access_and_room": "Sealed turning head with a car parked there; the pavement edge limits room on this side.",
+    "traffic": "Dead-end street, very little through traffic.",
+    "convention": "2P weekday 9-5 and a no-stopping sign at the kerb; cars do park nearby."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Only about 14 m of kerb",
+    "No-stopping sign 1.3 m from the kerb line"
+  ],
+  "sun_shade": "Open to the sun from the north-east; trees shade the south and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Exact sign hours",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "North kerb of the Shirley Street dead-end turning head",
+    "slope_pct": 2.2,
+    "points": [
+      [
+        152.970132,
+        -27.498981
+      ],
+      [
+        152.970017,
+        -27.499055
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 39.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

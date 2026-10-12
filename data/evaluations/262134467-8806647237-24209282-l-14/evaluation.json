@@ -1,0 +1,50 @@
+{
+  "candidate": "262134467-8806647237-24209282-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep narrow lane between large homes; no room to pull off.",
+  "reasons": [
+    "17% mean grade, 30% max",
+    "Narrow lane, no verge or parking",
+    "Homes and pools close either side"
+  ],
+  "drivers": {
+    "seclusion": "Large homes with pools line the lane; a dwelling is 10 m away at 67 m and another 18 m at 79 m, other buildings 8-12 m away.",
+    "access_and_room": "Narrow sealed lane climbing from 16.9 m to 30.5 m; no pull-off, kerbs run to fences and trees.",
+    "traffic": "Quiet dead-end style lane serving a few houses.",
+    "convention": "No signs mapped and no parked cars seen in either image."
+  },
+  "flags": [
+    "Steep: 17.2% mean, 30.2% max, over the 12% limit",
+    "Narrow with no parking",
+    "Brisbane River 201 m away, not low-lying (min 16.9 m)"
+  ],
+  "sun_shade": "Mixed: tree canopy over the upper part and the east side, open sealed lane lower down.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 17.2,
+    "min_elevation_m": 16.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

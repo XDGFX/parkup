@@ -140,9 +140,9 @@
     "failsScreen": 2
   },
   "evaluations": {
-    "evaluated": 2139,
-    "current": 2139,
+    "evaluated": 2203,
+    "current": 2203,
     "carriedOver": 4,
-    "queued": 503
+    "queued": 439
   }
 }

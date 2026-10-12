@@ -1,0 +1,48 @@
+{
+  "candidate": "60800354-4920414453-8111796-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Very steep narrow cul-de-sac kerb with homes 12 m away.",
+  "reasons": [
+    "Slope about 17%, over the limit",
+    "Houses 12-25 m all round",
+    "Narrow court under trees"
+  ],
+  "drivers": {
+    "seclusion": "Houses and pools on every side, nearest 12 m; not secluded.",
+    "access_and_room": "Narrow court on a steep hill with trees over the lane; little room to pull off.",
+    "traffic": "Quiet residential court.",
+    "convention": "No signs and no parked cars seen along this side."
+  },
+  "flags": [
+    "Steep: about 16.9% mean, 18% max",
+    "Homes within 12 m",
+    "Narrow lane under trees"
+  ],
+  "sun_shade": "Heavy tree canopy over the kerb, mostly from the east and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 16.9,
+    "min_elevation_m": 37,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

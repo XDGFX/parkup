@@ -1,0 +1,48 @@
+{
+  "candidate": "48336554-9426846577-5987856-r-10",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Through-road kerb beside bush, no cars parked, steep.",
+  "reasons": [
+    "Through road, no cars parked",
+    "No pull-off beside the lane",
+    "Steep: about 8% grade"
+  ],
+  "drivers": {
+    "seclusion": "Bush and a motorway on the north side; homes across the road and from 40 m.",
+    "access_and_room": "Kerb abuts bush and driveways; no verge or pull-off.",
+    "traffic": "Through road to a motorway; no parking lane.",
+    "convention": "No cars parked along this kerb."
+  },
+  "flags": [
+    "Steep: about 8% mean",
+    "Motorway noise",
+    "Houses from about 40 m along"
+  ],
+  "sun_shade": "Tree canopy over the first 40 m; open beyond.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 8.3,
+    "min_elevation_m": 24.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

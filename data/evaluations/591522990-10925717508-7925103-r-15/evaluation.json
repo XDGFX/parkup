@@ -1,0 +1,49 @@
+{
+  "candidate": "591522990-10925717508-7925103-r-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Nine-metre kerb at a junction mouth, shorter than a van, house 11 m away.",
+  "reasons": [
+    "Only 9 m long",
+    "At a junction corner",
+    "Dwelling 11 m on the same side"
+  ],
+  "drivers": {
+    "seclusion": "A dwelling sits 11 m away on the same side and the street is lined with houses.",
+    "access_and_room": "Kerb is 9 m, too short for a van and at the junction corner.",
+    "traffic": "Local junction with cars passing and turning.",
+    "convention": "A couple of cars park nearby but not on this stub."
+  },
+  "flags": [
+    "Too short for a van",
+    "Close to junction"
+  ],
+  "sun_shade": "Open; trees to the east and north-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "parking signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 30.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

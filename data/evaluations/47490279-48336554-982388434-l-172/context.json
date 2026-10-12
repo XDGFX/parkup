@@ -1,0 +1,407 @@
+{
+  "id": "47490279-48336554-982388434-l-172",
+  "street": "Russell Terrace",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.964657,
+      -27.500424
+    ],
+    [
+      152.964576,
+      -27.500411
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "south",
+  "length_m": 8,
+  "signs": [
+    {
+      "street": "RUSSELL TERRACE",
+      "restriction": "Loading Zone",
+      "days_times": null,
+      "extra_text": "SCHOOL DAYS",
+      "arrow": "Right",
+      "metres_from_kerb_line": 2.3
+    },
+    {
+      "street": "RUSSELL TERRACE",
+      "restriction": "Loading Zone Passengers 2 Min. Max",
+      "days_times": ":7am-9am ,SCHOOLDAYS:2pm-4pm",
+      "extra_text": "2 MIN MAX",
+      "arrow": "Left",
+      "metres_from_kerb_line": 10.6
+    },
+    {
+      "street": "RUSSELL TERRACE",
+      "restriction": "Loading Zone Passengers 2 Min. Max",
+      "days_times": ":8:00AM-9:00AM ,SCHOOL DAYS:2:00PM-4:00PM",
+      "extra_text": "2 MIN MAX",
+      "arrow": "Right",
+      "metres_from_kerb_line": 11
+    },
+    {
+      "street": "RUSSELL TERRACE",
+      "restriction": "1/4P Parallel",
+      "days_times": "SCHOOL DAYS:7:00AM-8:00AM",
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 11.1
+    }
+  ],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 10,
+      "at_m": 0,
+      "outline": [
+        [
+          152.964637,
+          -27.500512
+        ],
+        [
+          152.9646063,
+          -27.5006739
+        ],
+        [
+          152.9647331,
+          -27.5006928
+        ],
+        [
+          152.9647639,
+          -27.5005309
+        ],
+        [
+          152.964637,
+          -27.500512
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 20,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9647988,
+          -27.5005577
+        ],
+        [
+          152.9649621,
+          -27.5005801
+        ],
+        [
+          152.9649478,
+          -27.5006621
+        ],
+        [
+          152.9648155,
+          -27.5006439
+        ],
+        [
+          152.9648205,
+          -27.5006153
+        ],
+        [
+          152.9647895,
+          -27.500611
+        ],
+        [
+          152.9647988,
+          -27.5005577
+        ]
+      ]
+    },
+    {
+      "building": "school",
+      "name": "Hall",
+      "dwelling": false,
+      "metres": 38,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9650113,
+          -27.5002787
+        ],
+        [
+          152.9650989,
+          -27.4999305
+        ],
+        [
+          152.9652873,
+          -27.4999678
+        ],
+        [
+          152.9651998,
+          -27.500316
+        ],
+        [
+          152.9650113,
+          -27.5002787
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 41,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9650186,
+          -27.5006051
+        ],
+        [
+          152.964999,
+          -27.500715
+        ],
+        [
+          152.9650549,
+          -27.5007228
+        ],
+        [
+          152.9650432,
+          -27.5007889
+        ],
+        [
+          152.9651407,
+          -27.5008025
+        ],
+        [
+          152.9651721,
+          -27.5006266
+        ],
+        [
+          152.9650186,
+          -27.5006051
+        ]
+      ]
+    },
+    {
+      "building": "school",
+      "name": "K Block",
+      "dwelling": false,
+      "metres": 43,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9649358,
+          -27.4998044
+        ],
+        [
+          152.9648689,
+          -27.5000872
+        ],
+        [
+          152.9650034,
+          -27.5001109
+        ],
+        [
+          152.9650685,
+          -27.4998315
+        ],
+        [
+          152.9649358,
+          -27.4998044
+        ]
+      ]
+    },
+    {
+      "building": "school",
+      "name": "Module 9",
+      "dwelling": false,
+      "metres": 55,
+      "at_m": 8,
+      "outline": [
+        [
+          152.9643666,
+          -27.4999131
+        ],
+        [
+          152.964399,
+          -27.4997476
+        ],
+        [
+          152.9645306,
+          -27.4997635
+        ],
+        [
+          152.9645044,
+          -27.4998952
+        ],
+        [
+          152.9644831,
+          -27.4998923
+        ],
+        [
+          152.9644768,
+          -27.4999283
+        ],
+        [
+          152.9643666,
+          -27.4999131
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 60,
+      "at_m": 0,
+      "outline": [
+        [
+          152.96475,
+          -27.5009779
+        ],
+        [
+          152.9648357,
+          -27.5009356
+        ],
+        [
+          152.9649726,
+          -27.5011543
+        ],
+        [
+          152.964993,
+          -27.5011442
+        ],
+        [
+          152.9650209,
+          -27.5011888
+        ],
+        [
+          152.965052,
+          -27.5011735
+        ],
+        [
+          152.9650976,
+          -27.5012464
+        ],
+        [
+          152.9649779,
+          -27.5013054
+        ],
+        [
+          152.9649317,
+          -27.5012317
+        ],
+        [
+          152.964944,
+          -27.5012257
+        ],
+        [
+          152.9648536,
+          -27.5010814
+        ],
+        [
+          152.964824,
+          -27.501096
+        ],
+        [
+          152.96475,
+          -27.5009779
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9666329,
+      "lat": -27.5007668,
+      "metres": 199,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9619125,
+      "lat": -27.5009232,
+      "metres": 269,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.964657,
+        "lat": -27.500424,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 20.33
+      },
+      {
+        "lon": 152.964607,
+        "lat": -27.500416,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 19.58
+      },
+      {
+        "lon": 152.964576,
+        "lat": -27.500411,
+        "at_m": 8.1,
+        "line": 0,
+        "elevation_m": 19.32
+      }
+    ],
+    "min_elevation_m": 19.3,
+    "max_elevation_m": 20.3,
+    "mean_grade_pct": 11.7,
+    "max_grade_pct": 15
+  },
+  "waterway": {
+    "name": "Witton Creek",
+    "metres": 69
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 65,
+      "access": null,
+      "fee": null,
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 8,
+      "length_m": 8,
+      "images": {
+        "esri": ".cache/imagery/47490279-48336554-982388434-l-172/chunk1-esri.jpg",
+        "qld": ".cache/imagery/47490279-48336554-982388434-l-172/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        68,
+        61
+      ],
+      "image_px": [
+        453,
+        410
+      ]
+    }
+  ]
+}

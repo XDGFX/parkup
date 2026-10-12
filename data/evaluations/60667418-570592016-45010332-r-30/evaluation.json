@@ -1,0 +1,65 @@
+{
+  "candidate": "60667418-570592016-45010332-r-30",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "East kerb backing onto dense bush, no homes within 40 m.",
+  "reasons": [
+    "Backs onto dense bush",
+    "Vacant gravel lot across road",
+    "No dwellings near this section"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush on the east side and a vacant gravel lot opposite; nearest mapped buildings are commercial 14 m or more away, and the houses seen in imagery sit beyond 55 m.",
+    "access_and_room": "Sealed lane with a narrow edge before bush; room to stop is tight, so a van may sit partly in the lane.",
+    "traffic": "Dead-quiet side street off Witton Road; arterial noise from the motorway just east.",
+    "convention": "A few cars park at the north end only; no cars on this stretch, so a van may stand out slightly."
+  },
+  "flags": [
+    "Low-lying: about 5.5 m elevation, Witton Creek 26 m away, flood-prone",
+    "Noise from the arterial to the east",
+    "No Stopping Any Time sign at the Witton Road end",
+    "Kerb-side room looks narrow beside the bush"
+  ],
+  "sun_shade": "Bush shades the section from the east and the morning sun; open to the west afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Width of verge under the bush edge"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 12,
+    "to_m": 45,
+    "where": "East kerb of Rennies Road, south of the houses, beside the bush strip by the motorway",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.962648,
+        -27.506068
+      ],
+      [
+        152.962558,
+        -27.505782
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 0.9,
+    "min_elevation_m": 5.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

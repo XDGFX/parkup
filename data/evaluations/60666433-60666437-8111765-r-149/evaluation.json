@@ -1,0 +1,72 @@
+{
+  "candidate": "60666433-60666437-8111765-r-149",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short Rankin Street kerb with homes 12 m away on its own side.",
+  "reasons": [
+    "Dwellings 12 m away, same side",
+    "Steep: about 10% over 11 m",
+    "Cars park on opposite kerb"
+  ],
+  "drivers": {
+    "seclusion": "Two detached homes 12 m south, a carport 5 m; more homes within 25 m all round.",
+    "access_and_room": "Plain kerb on a residential street; room beside the lane looks adequate but section is only 11 m, about one van length.",
+    "traffic": "Quiet residential street; light traffic expected.",
+    "convention": "2P parking 9am-5pm Mon-Fri signed; cars parked on the north kerb in QLD imagery, no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 10.6% grade, max 13.3%",
+    "Dwellings within 12 m on own side",
+    "2P restriction Mon-Fri 9am-5pm"
+  ],
+  "sun_shade": "Heavy tree canopy on the south side shades the kerb, mostly from the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether the verge is level enough to stop on"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 11,
+    "where": "South kerb of Rankin Street, outside the treed, vacant-looking frontage",
+    "slope_pct": 10.6,
+    "points": [
+      [
+        152.970321,
+        -27.502621
+      ],
+      [
+        152.970365,
+        -27.502626
+      ],
+      [
+        152.970415,
+        -27.502632
+      ],
+      [
+        152.970431,
+        -27.502633
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 10.6,
+    "min_elevation_m": 20.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

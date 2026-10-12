@@ -1,0 +1,50 @@
+{
+  "candidate": "21616884-11921552370-15705266-l-164",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short steep kerb beside apartments with no-stopping signs; no room to park.",
+  "reasons": [
+    "Apartments 8 m away",
+    "No Stopping Any Time signs",
+    "Steep, up to 11%"
+  ],
+  "drivers": {
+    "seclusion": "Apartment block 8 m from the kerb at the start of the stretch; more apartments 19-23 m across the road.",
+    "access_and_room": "Only 12 m of kerb, under a street-tree verge, with no-stopping signs along it; no room for a van.",
+    "traffic": "Through street with moderate traffic.",
+    "convention": "No Stopping Any Time and 2P signs on both sides; no sign of overnight parking."
+  },
+  "flags": [
+    "Steep: about 7.6% mean, 11% max",
+    "No Stopping Any Time signs",
+    "Dwelling within 10 m"
+  ],
+  "sun_shade": "Street trees shade the kerb from the east and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 7.6,
+    "min_elevation_m": 29.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

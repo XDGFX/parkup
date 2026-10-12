@@ -1,0 +1,47 @@
+{
+  "candidate": "712835515-2027864512-57355626-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy Stamford Road kerb at a crossing, no parked cars, fast-food outlets alongside.",
+  "reasons": [
+    "Main road, no kerbside parking",
+    "Pedestrian crossing and traffic lanes beside it",
+    "Shops and car parks right there"
+  ],
+  "drivers": {
+    "seclusion": "Retail and fast-food premises within 15-30 m; fully commercial and busy.",
+    "access_and_room": "Kerb runs straight into the traffic lane at a crossing; no pull-off or verge.",
+    "traffic": "Busy through road with signalled crossing.",
+    "convention": "No cars parked along this kerb; no overnight convention."
+  },
+  "flags": [
+    "Noise: arterial and shopping centre",
+    "Mapped customers-only car park 7 m away"
+  ],
+  "sun_shade": "Open road, little shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "signs on site",
+    "street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 22.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

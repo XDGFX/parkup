@@ -1,0 +1,48 @@
+{
+  "candidate": "47490279-48336554-982388434-l-280",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Through-road kerb beside a motorway, no parked cars, steep.",
+  "reasons": [
+    "Through road, no cars parked",
+    "Narrow grass verge only",
+    "Steep: about 9% grade"
+  ],
+  "drivers": {
+    "seclusion": "Motorway on one side; a building and dirt yard directly south of the kerb.",
+    "access_and_room": "Kerb meets a narrow footpath and grass strip; no pull-off.",
+    "traffic": "Busy through road beside a motorway.",
+    "convention": "No cars parked along this kerb and no parking lane."
+  },
+  "flags": [
+    "Steep: about 9% mean, 12% max",
+    "Motorway noise",
+    "Low-lying near Witton Creek, 30 m away"
+  ],
+  "sun_shade": "Open to the afternoon sun; trees shade the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 8.2,
+    "min_elevation_m": 15.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

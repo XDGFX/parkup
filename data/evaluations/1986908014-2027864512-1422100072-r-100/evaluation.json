@@ -1,0 +1,47 @@
+{
+  "candidate": "1986908014-2027864512-1422100072-r-100",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on busy Stamford Road beside an electrical substation, no parked cars.",
+  "reasons": [
+    "Main road, no kerbside parking",
+    "Kerb abuts the traffic lane",
+    "Substation and commercial frontage alongside"
+  ],
+  "drivers": {
+    "seclusion": "Substation and retail buildings only; no homes, but fully exposed to the road.",
+    "access_and_room": "Kerb abuts the through lane; narrow verge and fence, no pull-off.",
+    "traffic": "Busy arterial with several lanes.",
+    "convention": "No cars parked along this kerb and no marked parking lane."
+  },
+  "flags": [
+    "Noise: arterial and substation",
+    "Slope about 1%"
+  ],
+  "sun_shade": "Open; trees on the east verge shade the late afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 22.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

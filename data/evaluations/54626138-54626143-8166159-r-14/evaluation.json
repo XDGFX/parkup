@@ -1,0 +1,67 @@
+{
+  "candidate": "54626138-54626143-8166159-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a quiet cul-de-sac bend, houses close on both sides.",
+  "reasons": [
+    "Homes within about 25 m all round",
+    "Quiet residential street, one car parked",
+    "Steep: about 8% grade"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the kerb at roughly 12-14 m on the east side and across the street; no bush or park backing.",
+    "access_and_room": "Sealed street, kerb is wide enough for a van; one car already parks here.",
+    "traffic": "Residential cul-de-sac, very little through traffic.",
+    "convention": "Quiet street with no camping convention; residents would notice a van."
+  },
+  "flags": [
+    "Steep: about 8% grade, max 10%",
+    "Houses at 12-14 m, tagged only as buildings"
+  ],
+  "sun_shade": "Mostly open; trees and hedge shade the east side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall",
+    "local signs"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 23,
+    "where": "east kerb of St Andrews Place on the bend, beside the parked car",
+    "slope_pct": 8.2,
+    "points": [
+      [
+        152.994102,
+        -27.509988
+      ],
+      [
+        152.994101,
+        -27.509897
+      ],
+      [
+        152.994086,
+        -27.509786
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 50,
+    "gated": false,
+    "slope_pct": 8,
+    "min_elevation_m": 14.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,46 @@
+{
+  "candidate": "60915713-60915994-1422819818-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "The line sits in dense bush with no road or track to stop on.",
+  "reasons": [
+    "No road or track under the line",
+    "Dense bush, no vehicle access",
+    "Dwelling 15 m away"
+  ],
+  "drivers": {
+    "seclusion": "Thick bush between houses, but a dwelling stands 15 m from the line.",
+    "access_and_room": "No formed surface or tyre marks; a van cannot get in.",
+    "traffic": "None here; the street is off to the west.",
+    "convention": "A nearby No Parking Any Time sign (Burton Street) applies; no parked vehicles."
+  },
+  "flags": [
+    "Nearby No Parking Any Time sign",
+    "Slope about 5.5% mean, 9.8% max"
+  ],
+  "sun_shade": "Heavy canopy shade all round.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Ground under canopy"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 5.5,
+    "min_elevation_m": 30.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:43:04Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
