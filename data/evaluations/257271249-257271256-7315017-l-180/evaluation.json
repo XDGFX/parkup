@@ -1,0 +1,64 @@
+{
+  "candidate": "257271249-257271256-7315017-l-180",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Through-road kerb with houses behind and no cars parked along it.",
+  "reasons": [
+    "Through road, no cars parked",
+    "Houses 8-25 m behind the kerb",
+    "No marked parking lane"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings on the west side within about 10-25 m; golf course across the road.",
+    "access_and_room": "Sealed lane with only a narrow footpath strip beside the kerb; no pull-off.",
+    "traffic": "Through route with lane markings and a junction at the north end; moving traffic.",
+    "convention": "No signs; no cars parked along this kerb in either image."
+  },
+  "flags": [
+    "Gentle slope about 2%, 5.2% max",
+    "Traffic noise from through road",
+    "House 8 m from kerb at 88 m"
+  ],
+  "sun_shade": "Open on the west kerb; trees opposite shade the road from the east in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "west kerb at the south end, beside the large shed roof",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.98892,
+        -27.506765
+      ],
+      [
+        152.989114,
+        -27.506557
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 6.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

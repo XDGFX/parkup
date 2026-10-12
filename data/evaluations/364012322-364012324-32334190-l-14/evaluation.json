@@ -1,0 +1,70 @@
+{
+  "candidate": "364012322-364012324-32334190-l-14",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb with homes within 25 m on all sides.",
+  "reasons": [
+    "Homes 16-28 m away all round",
+    "Quiet street, no parking convention",
+    "No signs; slope gentle"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings at 10 m (at 5 m) and 7 m (at 39 m) bracket the section; others 16-28 m away, so homes surround it.",
+    "access_and_room": "Plain kerb on a narrow suburban street; one parked car seen, room for a van beside the lane.",
+    "traffic": "Low-volume local street, no through traffic seen.",
+    "convention": "No signs and few parked cars; no overnight parking habit visible."
+  },
+  "flags": [
+    "Dwellings within 10 m of both ends of the stretch",
+    "Homes within 25 m all round",
+    "Slope about 3% over the section"
+  ],
+  "sun_shade": "Mostly open; trees on the north side shade the morning, afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Neighbours' attitude"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 18,
+    "to_m": 30,
+    "where": "North kerb of Hillman Street, midway between the two corners, by the shed and garage",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.958061,
+        -27.513935
+      ],
+      [
+        152.958102,
+        -27.513952
+      ],
+      [
+        152.958171,
+        -27.51398
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 10.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,77 @@
+{
+  "candidate": "48336650-58770745-130116308-r-260",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "South kerb where cars park, with houses about 15-25 m behind.",
+  "reasons": [
+    "Cars parked at this kerb in both images",
+    "Houses and pools 15-25 m behind",
+    "Busy collector road beside it"
+  ],
+  "drivers": {
+    "seclusion": "Yards and tree cover separate the kerb from houses roughly 15-25 m back; homes also face it from across the road.",
+    "access_and_room": "Kerb-side lane where cars already stand; the lane is wide enough to park clear of traffic.",
+    "traffic": "Collector road with steady traffic, motorway noise at the west end.",
+    "convention": "A white car at 50 m and a yellow car at 85 m sit at this kerb, so parking is normal."
+  },
+  "flags": [
+    "Dwellings within about 25 m on the section's own side",
+    "Road noise from the motorway bridge",
+    "Flat: about 2.2% mean grade"
+  ],
+  "sun_shade": "Mostly shaded by tall trees along the south side, strongest in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall",
+    "Exact house distances, as OSM list was not fully checked beyond imagery"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 95,
+    "to_m": 125,
+    "where": "south kerb of Jerrang Street, under trees before the roundabout",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.959484,
+        -27.511396
+      ],
+      [
+        152.959488,
+        -27.511396
+      ],
+      [
+        152.959686,
+        -27.511388
+      ],
+      [
+        152.959766,
+        -27.511385
+      ],
+      [
+        152.959788,
+        -27.511385
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 34.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,49 @@
+{
+  "candidate": "54625244-10925713158-7307602-r-260",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short south kerb with homes 8 m away on the same side.",
+  "reasons": [
+    "Dwellings 8 m from kerb",
+    "Only 23 m, steep bank and trees",
+    "No parking convention on this side"
+  ],
+  "drivers": {
+    "seclusion": "Two mapped dwellings sit 8 m from the kerb, at 0 m and 21 m along it.",
+    "access_and_room": "Narrow verge of trees and bank beside the lane; little level ground to pull off.",
+    "traffic": "Residential road with through traffic.",
+    "convention": "Cars park on the opposite (north) side near the wide section; none on this kerb."
+  },
+  "flags": [
+    "House within 10 m of every part of the stretch",
+    "Steep: max 4.6%, mean 2.1% grade"
+  ],
+  "sun_shade": "Tree canopy over most of the south side; open to the road on the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall and kerb height",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 40.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

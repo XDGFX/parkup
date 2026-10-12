@@ -1,0 +1,73 @@
+{
+  "candidate": "3593813900-3593813929-1296759280-r-0",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb along an open park, with townhouses 15 m across the road.",
+  "reasons": [
+    "Backs onto open parkland, no homes this side",
+    "Townhouses 14-16 m away across the road",
+    "Flat at about 0.3% slope"
+  ],
+  "drivers": {
+    "seclusion": "Open grass and bush on the kerb side; the nearest dwellings are townhouses 14-16 m across the road.",
+    "access_and_room": "Wide sealed road beside open grass; QLD 2022 shows many cars and tyre tracks on the grass at this kerb.",
+    "traffic": "Quiet estate street leading to a dead-end turning head.",
+    "convention": "Vehicles parked here in 2022; none on the road in the 2025 image."
+  },
+  "flags": [
+    "Townhouses 14-16 m across the road",
+    "Construction on the townhouse block in 2022 imagery; finished in the 2025 image",
+    "Mapped gates nearby on side paths, not on the only access"
+  ],
+  "sun_shade": "Open, no shade; morning sun from the east over the park, afternoon sun lowered by the townhouse block to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall",
+    "Whether the oval is used for events"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 100,
+    "where": "Jacaranda Place south kerb, along the open oval at the loop's western end",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        152.996602,
+        -27.513109
+      ],
+      [
+        152.99691,
+        -27.51323
+      ],
+      [
+        152.997019,
+        -27.513273
+      ],
+      [
+        152.997019,
+        -27.513273
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 13.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

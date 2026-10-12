@@ -1,0 +1,50 @@
+{
+  "candidate": "10925713158-10925713163-1175827801-r-90",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow bend beside a hedge and driveway, home 5 m away.",
+  "reasons": [
+    "Dwelling 5 m from kerb",
+    "Narrow lane with hedge and trees",
+    "No room to pull off"
+  ],
+  "drivers": {
+    "seclusion": "Home with driveway is 5 m from the kerb at 3 m, another 12 m away at the start.",
+    "access_and_room": "Narrow lane curving past a hedge and driveway mouth, with a tree strip opposite; no level verge to stop off the lane.",
+    "traffic": "Quiet residential bend.",
+    "convention": "No parked cars or markings visible."
+  },
+  "flags": [
+    "Dwelling within 10 m",
+    "Steep: mean 4.2%, max 7% grade",
+    "Only 12 m long, about one van length"
+  ],
+  "sun_shade": "Hedge and garden trees to the west, bush canopy to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall and kerb height",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 6,
+    "min_elevation_m": 48.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

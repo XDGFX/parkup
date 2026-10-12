@@ -1,0 +1,64 @@
+{
+  "candidate": "262134467-11520286310-24209274-l-151",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow treed lane with a house about 8 m away and no stopping signs.",
+  "reasons": [
+    "Building 8 m from kerb at 50 m",
+    "No Stopping Any Time signs at the start",
+    "No room to pull off the narrow lane"
+  ],
+  "drivers": {
+    "seclusion": "Houses and pools sit within about 8-15 m of the north kerb; the lane runs between private blocks.",
+    "access_and_room": "Narrow sealed lane under thick canopy with no verge, no parked cars and no visible pull-off.",
+    "traffic": "Very quiet side lane.",
+    "convention": "No cars parked along it; no sign of overnight stays."
+  },
+  "flags": [
+    "Signs: No Stopping Any Time at the start of the stretch",
+    "Powerlines overhead",
+    "Slope flat at 40-50 m; the upper part is steep (27% max)"
+  ],
+  "sun_shade": "Dense tree cover over most of the section, shade all day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether the 8 m building is a dwelling (tagged only as yes)"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 40,
+    "to_m": 65,
+    "where": "Lower end of the narrow lane south-east of the sign, under heavy tree canopy",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        152.981657,
+        -27.508374
+      ],
+      [
+        152.981843,
+        -27.508528
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 6.6,
+    "min_elevation_m": 9.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

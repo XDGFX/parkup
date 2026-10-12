@@ -1,0 +1,64 @@
+{
+  "candidate": "262134404-262134467-24209274-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb beside an overgrown lot; steep and homes all round.",
+  "reasons": [
+    "Cars park here; overgrown lot behind kerb",
+    "Homes within about 25 m all round",
+    "Slope about 9% at the lower end"
+  ],
+  "drivers": {
+    "seclusion": "Overgrown vacant lot on the south side, but houses across the road and at the junction are within about 25 m.",
+    "access_and_room": "Sealed street with a few cars parked along the kerb; narrow, no verge.",
+    "traffic": "Quiet residential street with some junction traffic.",
+    "convention": "Residents park along it; no sign of overnight campers."
+  },
+  "flags": [
+    "Steep: about 9% over the best section, 15% mean over the whole stretch",
+    "Powerlines overhead",
+    "Houses all round within about 25 m"
+  ],
+  "sun_shade": "Mixed: trees shade the lower end mainly from the north and west; the upper end is open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Mapped dwelling tags near the lower end"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 79,
+    "where": "Ivy Street south kerb, lower end by the bottom junction",
+    "slope_pct": 8.8,
+    "points": [
+      [
+        152.980002,
+        -27.507251
+      ],
+      [
+        152.980193,
+        -27.507384
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 46,
+    "gated": false,
+    "slope_pct": 9.1,
+    "min_elevation_m": 13.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

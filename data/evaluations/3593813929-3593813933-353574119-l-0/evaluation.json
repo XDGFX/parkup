@@ -1,0 +1,72 @@
+{
+  "candidate": "3593813929-3593813933-353574119-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside bush at a bend, but homes 13-19 m away and steep.",
+  "reasons": [
+    "Bush on the south side",
+    "Homes 13-19 m away across road",
+    "Steep fall along the kerb"
+  ],
+  "drivers": {
+    "seclusion": "Bush behind the south kerb. A house about 19 m north across the road and another 13 m along, so homes are within 25 m.",
+    "access_and_room": "Sealed street with a grass verge on the bush side; no cars parked, room beside the lane looks adequate.",
+    "traffic": "Quiet residential street end near a junction with a larger road to the west.",
+    "convention": "No parked cars and no marked parking; no overnight convention."
+  },
+  "flags": [
+    "Steep: about 5% at the best section, 6.5% overall",
+    "Homes within 10-25 m",
+    "Low-lying: lowest point 12 m, waterway 34 m away"
+  ],
+  "sun_shade": "Bush to the east and south shades the morning; open to the west afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "south kerb at the bend, beside the bushland",
+    "slope_pct": 5.4,
+    "points": [
+      [
+        152.995824,
+        -27.511881
+      ],
+      [
+        152.995795,
+        -27.511899
+      ],
+      [
+        152.995731,
+        -27.511958
+      ],
+      [
+        152.995711,
+        -27.51197
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 5.1,
+    "min_elevation_m": 15.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

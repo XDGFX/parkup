@@ -1,0 +1,89 @@
+{
+  "candidate": "3593813900-3593813929-1296759280-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb backing onto dense bush on a quiet estate street; homes across the road.",
+  "reasons": [
+    "Backs onto dense bush, no homes this side",
+    "Houses about 20 m across the road",
+    "Quiet estate street, no cars parked here"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the kerb side; the nearest houses and pools are about 20 m away across the bend.",
+    "access_and_room": "Wide sealed street with plenty of kerb; no parked cars on this stretch but room to pull in.",
+    "traffic": "Quiet residential loop serving the estate.",
+    "convention": "One car parks on the opposite side; no parking convention on the bush kerb itself."
+  },
+  "flags": [
+    "Townhouses within 6 m along 0-300 m, so only the bush stretch is usable",
+    "Near a mapped gate and a building site nearby",
+    "Low-lying near a mapped waterway about 57 m away; elevation about 16 m"
+  ],
+  "sun_shade": "Open to the sky with bush edge shading the kerb from the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall",
+    "Whether homes opposite are occupied"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 385,
+    "to_m": 445,
+    "where": "Outer bend of Jacaranda Place, south side, beside the bushland",
+    "slope_pct": 0.2,
+    "points": [
+      [
+        152.996443,
+        -27.511672
+      ],
+      [
+        152.996418,
+        -27.511685
+      ],
+      [
+        152.996365,
+        -27.511712
+      ],
+      [
+        152.996317,
+        -27.511742
+      ],
+      [
+        152.996263,
+        -27.511769
+      ],
+      [
+        152.996201,
+        -27.511795
+      ],
+      [
+        152.995949,
+        -27.51185
+      ],
+      [
+        152.995883,
+        -27.511867
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 16.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

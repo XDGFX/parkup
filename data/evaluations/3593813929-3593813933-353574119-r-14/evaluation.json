@@ -1,0 +1,73 @@
+{
+  "candidate": "3593813929-3593813933-353574119-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Kerb in front of a house at a bend; steep and exposed.",
+  "reasons": [
+    "Dwelling 6 m from kerb at start",
+    "Fronts a house, no parked cars",
+    "Steep: 11% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "The north kerb runs along a corner house and its walls; best part is 16-21 m from dwellings but still in front of them.",
+    "access_and_room": "Sealed street, kerb against retaining wall and garden, room beside the lane looks tight.",
+    "traffic": "Quiet street end beside a junction with a larger road.",
+    "convention": "No cars parked and no marked parking."
+  },
+  "flags": [
+    "Steep: about 9% at the best section, 11% mean, 14% max",
+    "Dwelling 6 m from the start",
+    "Low-lying: lowest point 12 m"
+  ],
+  "sun_shade": "Open, with the house shading the north side from midday.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 25,
+    "where": "north kerb past the corner house, near the junction",
+    "slope_pct": 9,
+    "points": [
+      [
+        152.995589,
+        -27.511956
+      ],
+      [
+        152.995556,
+        -27.511976
+      ],
+      [
+        152.995454,
+        -27.51201
+      ],
+      [
+        152.995452,
+        -27.512011
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 12.5,
+    "min_elevation_m": 12.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,73 @@
+{
+  "candidate": "4920414430-13075421940-23368212-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb against a treed bank; homes 19-30 m away across the road.",
+  "reasons": [
+    "Backs onto treed bank, homes across road",
+    "Homes 19-30 m away",
+    "No cars parked on this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Treed strip between the road and the lower carriageway on the kerb side; houses 30 m (at 146 m) and 19 m (at 164 m) across the road.",
+    "access_and_room": "Wide sealed street; ground beside the lane is a sloping bank, so room to pull fully off is uncertain.",
+    "traffic": "Residential street, parked cars on the opposite kerb leave a narrower lane.",
+    "convention": "Cars park on the opposite kerb, not along this one; a van would stand out a little."
+  },
+  "flags": [
+    "Steep elsewhere: mean grade 10.7%, up to 37%; about 3% here",
+    "Waterway 62 m away",
+    "Homes within 25 m across the road"
+  ],
+  "sun_shade": "Eucalypt canopy overhead, mostly from the south; mixed shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height",
+    "Whether the bank allows a pull-off"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 148,
+    "to_m": 160,
+    "where": "South kerb of Jenkinson Street, beside the treed strip, opposite the house near the 146 m mark",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.962326,
+        -27.497147
+      ],
+      [
+        152.962361,
+        -27.497154
+      ],
+      [
+        152.9624,
+        -27.497163
+      ],
+      [
+        152.962443,
+        -27.497174
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 3.7,
+    "min_elevation_m": 42.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

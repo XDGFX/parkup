@@ -1,0 +1,68 @@
+{
+  "candidate": "54626342-257241020-1289527606-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Plain west kerb on a busy road, houses behind hedges within 25 m.",
+  "reasons": [
+    "Homes within 25 m all round",
+    "Busy road, some cars parked",
+    "Gentle slope, no signs"
+  ],
+  "drivers": {
+    "seclusion": "Hedged houses on the west side close to the kerb; houses also across the road to the east.",
+    "access_and_room": "Wide kerbside lane beside the road; a parked car is visible nearby in QLD imagery.",
+    "traffic": "Busy through road with lane markings; constant passing traffic.",
+    "convention": "No signs; cars park along the kerb but no overnight convention evident."
+  },
+  "flags": [
+    "Gentle slope about 2.4%",
+    "Low-lying: about 6-7 m, Sandy Creek 88 m away",
+    "Traffic noise from arterial"
+  ],
+  "sun_shade": "Mostly open; hedge and trees shade the west side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "west kerb just north of the side-street junction, beside the hedge",
+    "slope_pct": 2.4,
+    "points": [
+      [
+        152.990195,
+        -27.504956
+      ],
+      [
+        152.990167,
+        -27.504778
+      ],
+      [
+        152.990151,
+        -27.504689
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 6.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

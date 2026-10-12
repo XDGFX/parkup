@@ -1,0 +1,65 @@
+{
+  "candidate": "4920414430-13075421940-23368212-l-18",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wide kerb on Jenkinson Street, houses 12-20 m away across a verge.",
+  "reasons": [
+    "Homes 12-20 m from the section",
+    "Cars park along this stretch",
+    "Gentle slope, tree shade"
+  ],
+  "drivers": {
+    "seclusion": "Houses 12 m (at 36 m) and 4 m (at 87 m) from the kerb flank the section; nearest frontage roughly 15-20 m along.",
+    "access_and_room": "Wide sealed street with cars parked along the kerb; room to stop clear of the lane.",
+    "traffic": "Residential street; a parallel road runs on the opposite side of a wide verge.",
+    "convention": "Parked cars along the kerb in both images, so a van would blend in."
+  },
+  "flags": [
+    "Dwellings within 25 m on the section's own side",
+    "Slightly steep: about 4%, mean 9.4% over the whole stretch",
+    "Steep at the western end, up to 24%"
+  ],
+  "sun_shade": "Heavy tree canopy over the road from the south and west, giving shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height",
+    "Time-limited parking signs (none mapped)"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 45,
+    "to_m": 68,
+    "where": "Jenkinson Street north kerb, between the two house frontages about 50 m from the western corner",
+    "slope_pct": 4,
+    "points": [
+      [
+        152.961299,
+        -27.496921
+      ],
+      [
+        152.961529,
+        -27.496955
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 4.2,
+    "min_elevation_m": 48.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

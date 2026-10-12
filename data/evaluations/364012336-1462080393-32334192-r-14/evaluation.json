@@ -1,0 +1,64 @@
+{
+  "candidate": "364012336-1462080393-32334192-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Near-flat kerb at the bend by bush, nearest home about 31 m.",
+  "reasons": [
+    "Nearest home 31 m at the bend",
+    "Quiet residential street, no parking convention",
+    "Steep street above, flat only here"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 31-40 m away at the section; house at 8 m (at 142 m) sits just before it; bushy lot across the road.",
+    "access_and_room": "Sealed street reaches it; a van fits at the kerb, a few cars parked further up.",
+    "traffic": "Quiet residential street near a junction with a through road.",
+    "convention": "A few cars park along the street but no marked lane; a van would stand out slightly."
+  },
+  "flags": [
+    "Steep above 120 m: mean grade 10.7%, up to 15%",
+    "Brisbane River 224 m away, low ground about 8.5 m",
+    "Powerlines overhead at the bend"
+  ],
+  "sun_shade": "Trees on the bush side shade it from the west and south; open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 153,
+    "to_m": 167,
+    "where": "Foot of Jainba Street, kerb at the bend beside the bushy corner",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.963593,
+        -27.511339
+      ],
+      [
+        152.963464,
+        -27.511287
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 8.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

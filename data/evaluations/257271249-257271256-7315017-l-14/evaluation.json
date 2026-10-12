@@ -1,0 +1,73 @@
+{
+  "candidate": "257271249-257271256-7315017-l-14",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "West kerb backing onto bush, nearest house over 30 m away.",
+  "reasons": [
+    "Bush behind the kerb, homes over 30 m",
+    "A car parked on this kerb",
+    "Gentle slope, no signs"
+  ],
+  "drivers": {
+    "seclusion": "Bush and a dirt verge behind the kerb; nearest mapped house 33 m away at 32 m along, none beside the section.",
+    "access_and_room": "Wide sealed lane with a pale dirt strip along the west edge; a parked car sits at the edge.",
+    "traffic": "Through road with lane markings and a golf course opposite; moderate traffic.",
+    "convention": "No signs; at least one car parked on the kerb in Esri."
+  },
+  "flags": [
+    "Gentle slope about 2.6%, 4.6% max",
+    "Traffic noise from through road",
+    "Narrow dirt strip: check room to pull fully off"
+  ],
+  "sun_shade": "Heavy tree canopy over the section, mainly from the west and south; shaded for most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height",
+    "Width of the dirt strip"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 88,
+    "where": "west kerb at the northern bend, where bush and a dirt strip line the road",
+    "slope_pct": 2.6,
+    "points": [
+      [
+        152.988317,
+        -27.507624
+      ],
+      [
+        152.988366,
+        -27.507491
+      ],
+      [
+        152.988416,
+        -27.507364
+      ],
+      [
+        152.988426,
+        -27.507347
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 37,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 8.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,71 @@
+{
+  "candidate": "54626342-257241020-1289527606-r-30",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "East kerb by a vacant grassed corner, townhouses 10-20 m behind.",
+  "reasons": [
+    "Townhouses within about 10-20 m",
+    "Cars park along this kerb",
+    "Gentle slope, no signs"
+  ],
+  "drivers": {
+    "seclusion": "Vacant grass and bush lot at the very start; townhouses 10-25 m behind trees, houses across the road.",
+    "access_and_room": "Wide sealed lane with a parked car visible at the south end; room beside the lane.",
+    "traffic": "Busy through road; constant passing traffic.",
+    "convention": "No signs; some cars parked on the kerb, no overnight convention evident."
+  },
+  "flags": [
+    "Gentle slope about 1.7%",
+    "Low-lying: about 6 m, Sandy Creek 73 m away",
+    "Traffic noise from arterial",
+    "House 7 m from the kerb at the north end"
+  ],
+  "sun_shade": "Tree canopy shades the east kerb through the middle; open to afternoon sun at the south end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "east kerb beside the vacant grassed lot at the south end",
+    "slope_pct": 1.7,
+    "points": [
+      [
+        152.990273,
+        -27.504801
+      ],
+      [
+        152.990267,
+        -27.504765
+      ],
+      [
+        152.99025,
+        -27.504668
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 6.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

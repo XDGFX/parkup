@@ -1,0 +1,68 @@
+{
+  "candidate": "48336650-58770745-130116308-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "North kerb backing onto bush and vacant land, homes across a busy collector.",
+  "reasons": [
+    "Bush and open land on the north side",
+    "Homes across the road about 20 m",
+    "Through road, little parking convention"
+  ],
+  "drivers": {
+    "seclusion": "North side is bush and an unbuilt block; nearest mapped dwelling 58 m away, homes across the road to the south.",
+    "access_and_room": "Kerb runs straight against a bank and trees; no sealed or gravel shoulder, so little room beyond the lane edge.",
+    "traffic": "Collector road linking to a roundabout and the motorway; steady traffic and rail noise nearby.",
+    "convention": "A car appears parked at the kerb near 60 m but no marked parking lane."
+  },
+  "flags": [
+    "Powerlines run overhead along the north side",
+    "Busy collector, noise from road and rail",
+    "Tight pull-off beside the lane"
+  ],
+  "sun_shade": "Mostly shaded from the north by tall trees; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 70,
+    "where": "north kerb of Jerrang Street, west of the bend, beside the wooded block",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        152.956623,
+        -27.510318
+      ],
+      [
+        152.957062,
+        -27.510288
+      ],
+      [
+        152.957078,
+        -27.510288
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 178,
+    "gated": false,
+    "slope_pct": 4.5,
+    "min_elevation_m": 38.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

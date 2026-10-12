@@ -1,0 +1,48 @@
+{
+  "candidate": "262134404-262134467-24209274-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Very steep residential street, 16.7% mean grade, dwelling 11 m away.",
+  "reasons": [
+    "Grade 16.7% mean, 28% max",
+    "Dwelling 11 m from kerb",
+    "Homes all along both sides"
+  ],
+  "drivers": {
+    "seclusion": "Homes with pools line both sides; one dwelling is 11 m from the kerb and the rest are within about 25 m.",
+    "access_and_room": "Narrow sealed street with a few parked cars; no pull-off or verge, and the slope is too steep to park a van safely.",
+    "traffic": "Quiet residential street under a powerline.",
+    "convention": "Cars are parked on the lower part and nothing is signed here."
+  },
+  "flags": [
+    "Steep: mean 16.7%, max 28.4% grade, over the 12% limit",
+    "Powerline crosses the street",
+    "Brisbane River 187 m away, elevation 19 to 26 m"
+  ],
+  "sun_shade": "Open sky over the road; garden trees shade the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall and kerb height",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 17.4,
+    "min_elevation_m": 19.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

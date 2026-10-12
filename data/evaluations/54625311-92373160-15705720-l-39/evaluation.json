@@ -1,0 +1,71 @@
+{
+  "candidate": "54625311-92373160-15705720-l-39",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Busy parked-up kerb on the flat crest, houses about 10-13 m behind.",
+  "reasons": [
+    "Many cars parked along both kerbs",
+    "Houses 9-13 m behind this kerb",
+    "Flat crest at 76-88 m"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 9-13 m from the kerb on the same side, hidden by trees; more houses across a wide road.",
+    "access_and_room": "Wide lane with cars parked at the kerb; space for a van among them.",
+    "traffic": "Busy road with a parking lane; traffic and noise are flags only.",
+    "convention": "Cars parked along both sides in both images, so a van will not stand out."
+  },
+  "flags": [
+    "Dwellings 9-13 m from the kerb on the section's own side",
+    "Slope up to 10.8% elsewhere, only about 0.5% at the best section",
+    "Busy road noise"
+  ],
+  "sun_shade": "Heavy tree shade over the south kerb; open to sun from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall",
+    "Any parking time limits"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 76,
+    "to_m": 88,
+    "where": "south kerb of Jerrang Street on the crest, between the two houses set back in trees",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.963094,
+        -27.510359
+      ],
+      [
+        152.962994,
+        -27.510394
+      ],
+      [
+        152.962981,
+        -27.510399
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 0.6,
+    "min_elevation_m": 26.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,72 @@
+{
+  "candidate": "262134467-11520286310-24209274-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb where cars already park; homes within about 15 m on this side.",
+  "reasons": [
+    "Several cars parked along this kerb",
+    "Houses 14 m or more behind the kerb",
+    "Near level at the best section"
+  ],
+  "drivers": {
+    "seclusion": "Houses and driveways back onto the kerb on the north side at about 14 m or more; tennis court and trees opposite.",
+    "access_and_room": "Sealed street with cars parked along the kerb, so there is room to pull in.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars and a boat trailer park here, so a van will not stand out, but homes are close."
+  },
+  "flags": [
+    "Signs: No Stopping Any Time near both ends of the stretch; keep to the middle",
+    "Powerlines overhead",
+    "Slope about 3% at best section; 14% max at the top end"
+  ],
+  "sun_shade": "Trees shade the top end; the middle is open, with some shade from the north side houses in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Which of the tagged buildings are dwellings"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 32,
+    "where": "Ivy Street north kerb, opposite the tennis court, between the two parked cars",
+    "slope_pct": 2.6,
+    "points": [
+      [
+        152.980471,
+        -27.507498
+      ],
+      [
+        152.980563,
+        -27.507566
+      ],
+      [
+        152.980593,
+        -27.507589
+      ],
+      [
+        152.980603,
+        -27.507597
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 30,
+    "gated": false,
+    "slope_pct": 4.3,
+    "min_elevation_m": 9.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

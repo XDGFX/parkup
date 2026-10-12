@@ -1,0 +1,64 @@
+{
+  "candidate": "257265768-257265769-1309540922-r-66",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep south kerb where cars park, homes 15-20 m away on both sides.",
+  "reasons": [
+    "Homes 15-20 m away all round",
+    "Cars already park at this stretch",
+    "Steep, about 7% grade"
+  ],
+  "drivers": {
+    "seclusion": "Houses 15 m behind at 41 m and 16 m at 75 m; north-side homes 40 m or more; no bush.",
+    "access_and_room": "Parking lane where cars sit nose to tail; room for a van.",
+    "traffic": "Through street with moderate traffic near the junction.",
+    "convention": "Several cars parked here; weekday 7am-12 noon no-parking signs; no-stopping near the junction."
+  },
+  "flags": [
+    "Steep: about 7% along the section",
+    "Homes within 25 m all round",
+    "Weekday morning no-parking signs",
+    "No Stopping Any Time sign near the junction"
+  ],
+  "sun_shade": "Mostly open sun; some tree shade from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 47,
+    "to_m": 59,
+    "where": "Hunter Street south kerb, roughly mid-way to the corner with the side street",
+    "slope_pct": 7,
+    "points": [
+      [
+        152.978903,
+        -27.504852
+      ],
+      [
+        152.979023,
+        -27.50487
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 9.2,
+    "min_elevation_m": 23.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

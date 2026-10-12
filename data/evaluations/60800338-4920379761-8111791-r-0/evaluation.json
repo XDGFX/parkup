@@ -1,0 +1,73 @@
+{
+  "candidate": "60800338-4920379761-8111791-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet cul-de-sac kerb backing onto bush; no parking habit and steep.",
+  "reasons": [
+    "Backs onto bush, nearest homes 25 m or more",
+    "Quiet street, no parking convention",
+    "Steep: about 6.5% grade"
+  ],
+  "drivers": {
+    "seclusion": "Kerb backs onto a wooded bank; mapped dwellings 35 m (at 68 m) and 53 m away, with one house 20 m off at the far end.",
+    "access_and_room": "Sealed street widens at the bend; room beside the lane appears enough for a van but is not clear under trees.",
+    "traffic": "Residents only, low volume.",
+    "convention": "No signs and no parked cars seen; a van would stand out on a quiet street."
+  },
+  "flags": [
+    "Steep: about 6.5% at the best section, 18% max over the stretch",
+    "Quiet residential street with no parking convention",
+    "Mapped gates and bollard 136-192 m away have a way round"
+  ],
+  "sun_shade": "Tree canopy shades the south side from the morning; open to the afternoon sun from the west near the junction.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height",
+    "Exact room under canopy"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 58,
+    "to_m": 78,
+    "where": "South kerb at the bottom of Hoylake Street, below the pool house where the road opens out",
+    "slope_pct": 6.5,
+    "points": [
+      [
+        152.964427,
+        -27.492634
+      ],
+      [
+        152.964498,
+        -27.492731
+      ],
+      [
+        152.96453,
+        -27.492772
+      ],
+      [
+        152.96454,
+        -27.492784
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 6.3,
+    "min_elevation_m": 34.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

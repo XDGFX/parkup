@@ -1,0 +1,72 @@
+{
+  "candidate": "262134467-11520286310-24209274-r-0",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb backing onto a tennis court and lawn, where cars already park.",
+  "reasons": [
+    "Backs onto tennis court and open lawn",
+    "Cars park along this kerb",
+    "Near level at 35-50 m"
+  ],
+  "drivers": {
+    "seclusion": "Own side is a tennis court and lawn; houses across the road are about 15 m or more away.",
+    "access_and_room": "Sealed street with cars parked along this kerb, so there is room to pull in; stay clear of the sign at the end.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars and a boat trailer park here, so a van will not stand out."
+  },
+  "flags": [
+    "Signs: No Stopping Any Time at both ends of the stretch; stay in the middle",
+    "Powerlines overhead",
+    "Slope about 2% at best section; 16% max further up"
+  ],
+  "sun_shade": "Mostly open, with some shade from the trees on the tennis court side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether the tennis court owners object"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 50,
+    "where": "Ivy Street south kerb, alongside the private tennis court",
+    "slope_pct": 1.8,
+    "points": [
+      [
+        152.980427,
+        -27.507559
+      ],
+      [
+        152.98051,
+        -27.507621
+      ],
+      [
+        152.98054,
+        -27.507643
+      ],
+      [
+        152.980581,
+        -27.507676
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 31,
+    "gated": false,
+    "slope_pct": 4.4,
+    "min_elevation_m": 9.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

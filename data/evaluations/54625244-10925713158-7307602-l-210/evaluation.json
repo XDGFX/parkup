@@ -1,0 +1,47 @@
+{
+  "candidate": "54625244-10925713158-7307602-l-210",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "12 m of narrow bush-lined lane with no room to pull off.",
+  "reasons": [
+    "Trees and bank hug the lane",
+    "No verge or pull-off visible",
+    "Dwellings 22 m away on same side"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the east side, but homes 22 to 32 m away on the west.",
+    "access_and_room": "Narrow sealed lane between dense canopy and garden edge; no clear ground beside the lane to stop fully off it.",
+    "traffic": "Quiet residential lane curving through bush.",
+    "convention": "No parked cars or markings visible in either image."
+  },
+  "flags": [
+    "Steep: mean grade 3.6%, max 7.5% over 12 m",
+    "Only 12 m long, about one van length"
+  ],
+  "sun_shade": "Heavy tree cover from the east; partial shade from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall and kerb height",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 22,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 42.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

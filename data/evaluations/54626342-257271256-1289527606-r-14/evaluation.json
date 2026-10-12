@@ -1,0 +1,79 @@
+{
+  "candidate": "54626342-257271256-1289527606-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Curved main road kerb with houses right at the edge and no parked cars.",
+  "reasons": [
+    "Houses 6-15 m from kerb",
+    "Through road, no cars parked",
+    "Narrow lane, golf course opposite"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings sit within about 6-15 m of the kerb along the whole west side.",
+    "access_and_room": "Sealed lane with a narrow footpath verge; no pull-off or shoulder beside the kerb.",
+    "traffic": "Through route with lane markings and moving traffic; no parked cars seen on the kerb.",
+    "convention": "No signs and no parking convention visible on this kerb."
+  },
+  "flags": [
+    "Gentle slope about 1.5%",
+    "Low-lying: about 7 m",
+    "Traffic noise from arterial",
+    "House 6 m from kerb at the south end"
+  ],
+  "sun_shade": "Open on the west kerb; golf-course trees shade the road from the east in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "west kerb just south of the junction at the northern bend",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.990209,
+        -27.505193
+      ],
+      [
+        152.990203,
+        -27.505227
+      ],
+      [
+        152.990191,
+        -27.505264
+      ],
+      [
+        152.990154,
+        -27.505341
+      ],
+      [
+        152.99014,
+        -27.50536
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 7.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

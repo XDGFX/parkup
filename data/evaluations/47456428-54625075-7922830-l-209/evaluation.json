@@ -1,0 +1,64 @@
+{
+  "candidate": "47456428-54625075-7922830-l-209",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, backing onto dense bush, homes only across the road.",
+  "reasons": [
+    "Backs onto dense bush",
+    "Cars park along this kerb",
+    "Homes across the road, 17 m+"
+  ],
+  "drivers": {
+    "seclusion": "Bush and a lone house set well back on the east side; houses with pools face it across the road, 17 m or more away.",
+    "access_and_room": "Sealed street with four or five cars parked along the kerb in the Esri image; room to stop is shown.",
+    "traffic": "Quiet end of a residential street, reaching a cross street to the south.",
+    "convention": "Cars park along it; signs give 2P Mon-Fri 9am-5pm only, with no overnight restriction."
+  },
+  "flags": [
+    "Slight slope: about 3.7% at the best section, steeper to the south (18% max)",
+    "Homes across the road, 17 m or more away",
+    "Signs: 2P limit applies in weekday daytime hours"
+  ],
+  "sun_shade": "Heavy tree canopy on the east side shades it from the morning and midday sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the building at 9 m is a home"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 32,
+    "where": "east kerb in the dead-end stretch below the bend, where cars park",
+    "slope_pct": 3.7,
+    "points": [
+      [
+        152.969363,
+        -27.500804
+      ],
+      [
+        152.969506,
+        -27.50098
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 4,
+    "min_elevation_m": 32,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

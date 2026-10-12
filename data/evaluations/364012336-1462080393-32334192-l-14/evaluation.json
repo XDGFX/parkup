@@ -1,0 +1,69 @@
+{
+  "candidate": "364012336-1462080393-32334192-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb by a vacant bushy lot at the bottom of Jainba Street.",
+  "reasons": [
+    "Backs onto vacant bushy lot",
+    "Homes 16-33 m away, none within 10 m",
+    "Flat here, steep above"
+  ],
+  "drivers": {
+    "seclusion": "Kerb side faces a vacant overgrown lot and a path; nearest dwellings 16 m (at 140 m) and 18 m (at 179 m) across the road, others 33 m or more.",
+    "access_and_room": "Sealed through street; a van fits at the kerb, with a few cars parked nearby.",
+    "traffic": "Quiet residential street leading to a junction with a through road.",
+    "convention": "A few cars park on this street, but no marked parking lane."
+  },
+  "flags": [
+    "Steep above 120 m: mean grade 10.4%, up to 17%",
+    "Brisbane River 228 m away, low ground about 8.5 m",
+    "Homes within 25 m across the road"
+  ],
+  "sun_shade": "Open to sun and afternoon light from the west, with trees on the lot to the north-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height",
+    "Whether the vacant lot is fenced"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 150,
+    "to_m": 176,
+    "where": "Bottom of Jainba Street, kerb beside the vacant bushy lot at the bend",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.963568,
+        -27.511407
+      ],
+      [
+        152.963562,
+        -27.511405
+      ],
+      [
+        152.963327,
+        -27.511311
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 2.5,
+    "min_elevation_m": 8.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "257265768-257265769-1309540922-l-35",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb with homes 9-11 m from every part of it.",
+  "reasons": [
+    "Dwellings 9-11 m along whole stretch",
+    "Cars park here, but houses overlook",
+    "Dense houses all round"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 11 m at the start and 9 m just beyond; more homes across the road.",
+    "access_and_room": "Cars already parked along the kerb; room to stop in the parking lane.",
+    "traffic": "Quiet residential street; moderate local traffic.",
+    "convention": "Cars park along the kerb; no-parking 7am-12 noon Mon-Fri signs."
+  },
+  "flags": [
+    "Dwelling within about 10 m",
+    "Weekday morning no-parking signs",
+    "Mean slope 2.8%, max 4.9%"
+  ],
+  "sun_shade": "Street trees shade the eastern half; open to sun elsewhere.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Hunter Street north kerb, western end by the ring",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.978142,
+        -27.504665
+      ],
+      [
+        152.978242,
+        -27.50468
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 21.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

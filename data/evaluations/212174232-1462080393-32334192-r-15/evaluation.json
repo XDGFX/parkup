@@ -1,0 +1,69 @@
+{
+  "candidate": "212174232-1462080393-32334192-r-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet bottom end of Jainba Street, homes 18-31 m away, sloping.",
+  "reasons": [
+    "Homes 18-31 m away near the bottom",
+    "Quiet side street, no parking convention",
+    "Narrow lane, trees close to the edge"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings 18 m (at 121 m) and 31 m (at 115 m); bush on the kerb side, houses all round at 18-30 m.",
+    "access_and_room": "Sealed lane reaches it; verge is vegetated and narrow, so room to pull fully off is uncertain.",
+    "traffic": "Quiet residential street; a junction with a through road sits at the bottom.",
+    "convention": "No parked cars seen along this section, so no parking convention."
+  },
+  "flags": [
+    "Steep: mean grade 8.4%, about 6% at best section",
+    "Steeper above, up to 15% near the top",
+    "Homes within 25 m on all sides"
+  ],
+  "sun_shade": "Dense tree canopy over the section, all sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height",
+    "Width of usable verge under trees"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 100,
+    "to_m": 124,
+    "where": "South side of Jainba Street at the downhill end, before the cross street",
+    "slope_pct": 6,
+    "points": [
+      [
+        152.963082,
+        -27.511203
+      ],
+      [
+        152.963133,
+        -27.511226
+      ],
+      [
+        152.963299,
+        -27.5113
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 5.8,
+    "min_elevation_m": 8.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

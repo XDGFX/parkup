@@ -1,0 +1,73 @@
+{
+  "candidate": "48336650-58770745-130116308-l-340",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Collector road kerb by a roundabout, houses 8-11 m away, no parking.",
+  "reasons": [
+    "Houses 8-11 m from the kerb",
+    "Through road, no parked cars seen",
+    "No shoulder, driveways along kerb"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 8-11 m from the kerb for the whole stretch, closest at 62 m along (10 m).",
+    "access_and_room": "Kerb meets fences and driveways; no pull-off or verge wide enough to leave the lane.",
+    "traffic": "Collector road with traffic into a roundabout.",
+    "convention": "No marked parking lane; cars in the lane are moving, not parked."
+  },
+  "flags": [
+    "Flat: about 1.2% mean grade",
+    "Road noise near the roundabout"
+  ],
+  "sun_shade": "Tree canopy shades the road, mainly from the south; north kerb partly open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 42,
+    "to_m": 60,
+    "where": "north kerb of Jerrang Street, short of the roundabout",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.959767,
+        -27.511295
+      ],
+      [
+        152.959897,
+        -27.511292
+      ],
+      [
+        152.959929,
+        -27.511289
+      ],
+      [
+        152.95995,
+        -27.511287
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 34.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

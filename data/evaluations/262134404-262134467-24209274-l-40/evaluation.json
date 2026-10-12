@@ -1,0 +1,64 @@
+{
+  "candidate": "262134404-262134467-24209274-l-40",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep residential kerb with large homes right beside it; ruled out.",
+  "reasons": [
+    "Mansion with pool within about 15 m",
+    "Slope about 13%, over the 12% limit",
+    "Quiet street, few parked cars"
+  ],
+  "drivers": {
+    "seclusion": "Large dwelling with pool sits 14-16 m from the kerb on the same side; more houses all round.",
+    "access_and_room": "Sealed street, a couple of cars parked at the start; verge is narrow and the kerb is steep.",
+    "traffic": "Quiet residential street.",
+    "convention": "A few cars park near the start, but no sign of overnight camping."
+  },
+  "flags": [
+    "Steep: about 13% mean grade, max 30%",
+    "Powerlines cross overhead",
+    "Brisbane River 189 m away, but ground is 15-19 m"
+  ],
+  "sun_shade": "Mostly open at the start; trees shade the lower end, mainly from the east and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether the large building is a dwelling (tagged only as yes)"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 25,
+    "where": "Ivy Street north kerb, beside the large red-roofed house with a pool",
+    "slope_pct": 12.9,
+    "points": [
+      [
+        152.979932,
+        -27.507111
+      ],
+      [
+        152.980132,
+        -27.507249
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 29,
+    "gated": false,
+    "slope_pct": 15.5,
+    "min_elevation_m": 15.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:57:57Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
