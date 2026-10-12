@@ -1,0 +1,50 @@
+{
+  "candidate": "58711322-58759009-1274553290-r-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 0 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Houses sit right at the south kerb of Tenth Avenue; no seclusion.",
+  "reasons": [
+    "Dwellings 0-10 m from kerb",
+    "Houses front the whole stretch",
+    "Steep: about 9% grade"
+  ],
+  "drivers": {
+    "seclusion": "A detached house meets the kerb line at 24 m, and the houses either side front the road within about 10 m.",
+    "access_and_room": "Sealed street with cars parked along this kerb; room to stop is fine.",
+    "traffic": "Quiet residential corner street.",
+    "convention": "Resident-permit 2P signs Mon-Fri 7am-6pm; cars park here, but every space faces a house."
+  },
+  "flags": [
+    "Dwelling within 10 m along the stretch",
+    "Steep: mean 9.4% grade, max 17.8%",
+    "Signs say 2P resident permits excepted Mon-Fri 7am-6pm"
+  ],
+  "sun_shade": "Open to sky; houses and trees shade the south side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 0,
+    "gated": false,
+    "slope_pct": 9.3,
+    "min_elevation_m": 29.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

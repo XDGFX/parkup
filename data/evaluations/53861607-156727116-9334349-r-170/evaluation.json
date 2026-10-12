@@ -1,0 +1,86 @@
+{
+  "candidate": "53861607-156727116-9334349-r-170",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb at the bend, with homes 10-17 m away.",
+  "reasons": [
+    "Homes 13-17 m away on this side",
+    "Quiet street, a few cars park",
+    "Gentle slope at the bend"
+  ],
+  "drivers": {
+    "seclusion": "Houses line this side at 10-17 m; garage 17 m; homes across the road.",
+    "access_and_room": "Plain kerb with a few cars parked; room for a van.",
+    "traffic": "Quiet residential street with light through traffic.",
+    "convention": "Cars park along the kerb, no parking signs mapped here."
+  },
+  "flags": [
+    "Dwellings within 25 m all round",
+    "Steep both sides of bend: up to 19% max grade",
+    "Best section only mildly sloped at about 1.6%"
+  ],
+  "sun_shade": "Open kerb with trees to the south, shading the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Unsigned stretch: no sign data"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 108,
+    "to_m": 122,
+    "where": "Swann Road north kerb at the start of the bend, by the garage",
+    "slope_pct": 1.6,
+    "points": [
+      [
+        152.99332,
+        -27.501557
+      ],
+      [
+        152.993294,
+        -27.501571
+      ],
+      [
+        152.993267,
+        -27.501589
+      ],
+      [
+        152.993251,
+        -27.501603
+      ],
+      [
+        152.993237,
+        -27.501618
+      ],
+      [
+        152.993226,
+        -27.501633
+      ],
+      [
+        152.993219,
+        -27.501643
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 2.8,
+    "min_elevation_m": 32.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

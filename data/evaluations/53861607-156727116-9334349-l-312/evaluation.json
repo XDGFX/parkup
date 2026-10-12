@@ -1,0 +1,50 @@
+{
+  "candidate": "53861607-156727116-9334349-l-312",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep, narrow kerb with houses 6-9 m away.",
+  "reasons": [
+    "Dwellings 6-9 m from kerb",
+    "Steep: about 16% grade",
+    "Narrow, tree-lined road"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes sit 6 m, 9 m and 9 m from the kerb along its length.",
+    "access_and_room": "Road is narrow with overhanging trees; one car parked, no room for a van beside the lane.",
+    "traffic": "Quiet residential street running down a slope.",
+    "convention": "No signs; no camping convention on this street."
+  },
+  "flags": [
+    "Dwellings within 10 m rule it out",
+    "Steep: mean 15.6%, max 18.8%",
+    "Sandy Creek 278 m away; ground 25-29 m, not low-lying"
+  ],
+  "sun_shade": "Heavy tree canopy over the whole stretch.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 15.6,
+    "min_elevation_m": 25.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

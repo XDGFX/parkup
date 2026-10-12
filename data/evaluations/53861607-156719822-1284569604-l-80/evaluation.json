@@ -1,0 +1,73 @@
+{
+  "candidate": "53861607-156719822-1284569604-l-80",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb outside houses, beside a school bus and loading zone.",
+  "reasons": [
+    "Dwellings 6-10 m from kerb",
+    "Bus and loading zone signs",
+    "Only 17 m long"
+  ],
+  "drivers": {
+    "seclusion": "Three detached dwellings sit 6, 8 and 10 m from the kerb.",
+    "access_and_room": "Kerb is on a through road beside a bus zone and loading zone; little room.",
+    "traffic": "Busy school street with a bus route and drop-off loading.",
+    "convention": "Cars park on the opposite side near the courts, but this side is signed bus and loading zone."
+  },
+  "flags": [
+    "Dwellings within 10 m rule it out",
+    "Bus Zone and 2 min loading zone signs",
+    "Gate mapped 5 m away, not on only access"
+  ],
+  "sun_shade": "Mostly open; tree shade from the east over the road in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 17,
+    "where": "Swann Road west kerb, outside the houses opposite the school tennis courts",
+    "slope_pct": 1.7,
+    "points": [
+      [
+        152.99536,
+        -27.500231
+      ],
+      [
+        152.995357,
+        -27.500225
+      ],
+      [
+        152.995319,
+        -27.500133
+      ],
+      [
+        152.995302,
+        -27.50009
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 46.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,62 @@
+{
+  "candidate": "48324491-58791944-7918587-l-50",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb where cars park; homes 12-20 m away on this side.",
+  "reasons": [
+    "Dwellings 12-20 m on own side",
+    "Cars park along both kerbs",
+    "Gentle slope near north end"
+  ],
+  "drivers": {
+    "seclusion": "Houses 12-20 m away on the west side; homes all round within 25 m.",
+    "access_and_room": "Cars parked on the kerb on both sides; room for a van beside them.",
+    "traffic": "Quiet residential street, low traffic.",
+    "convention": "Residential parking, no sign of overnight stays."
+  },
+  "flags": [
+    "Dwellings 12 m and 20 m from the kerb",
+    "Whole stretch 3.9% mean, 6.4% max; flatter past 15 m"
+  ],
+  "sun_shade": "Trees shade the kerb from the west and houses block morning sun; the corner end is open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 14,
+    "to_m": 37,
+    "where": "Stanley Street west kerb, running up to the corner",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.971346,
+        -27.495259
+      ],
+      [
+        152.971383,
+        -27.495059
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 3.1,
+    "min_elevation_m": 30.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

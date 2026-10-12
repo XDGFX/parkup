@@ -1,0 +1,92 @@
+{
+  "candidate": "53861607-156727116-9334349-l-70",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb round a bend by a church hall; homes 12-16 m away.",
+  "reasons": [
+    "Dwellings 12-16 m on same side",
+    "No signs; cars park on this road",
+    "Bend and side-street mouth nearby"
+  ],
+  "drivers": {
+    "seclusion": "Church hall behind at the north end, but dwellings sit 12 m and 16 m from the kerb.",
+    "access_and_room": "Cars park on the bend; kerb is tree-lined with a side street joining at the south end.",
+    "traffic": "Through road near a school; blind-ish bend and junction.",
+    "convention": "No signs; cars park along both sides of this road."
+  },
+  "flags": [
+    "Dwellings 12-16 m away on same side",
+    "Side street junction at south end",
+    "No signs mapped"
+  ],
+  "sun_shade": "Tree canopy over the north half; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Sight lines on the bend"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 3,
+    "to_m": 14,
+    "where": "Outer kerb of the Swann Road bend, south of the church hall",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        152.995398,
+        -27.501404
+      ],
+      [
+        152.995398,
+        -27.501404
+      ],
+      [
+        152.995385,
+        -27.501422
+      ],
+      [
+        152.99537,
+        -27.501441
+      ],
+      [
+        152.995359,
+        -27.501453
+      ],
+      [
+        152.995348,
+        -27.501462
+      ],
+      [
+        152.995338,
+        -27.501469
+      ],
+      [
+        152.995329,
+        -27.501474
+      ],
+      [
+        152.995324,
+        -27.501476
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 43.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "60801669-60801680-1311405980-l-20",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb where cars park, but homes sit 19 m behind.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Homes 19 m away on same side",
+    "Quiet suburban street"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 19 m to 23 m behind the kerb; homes within 25 m all round.",
+    "access_and_room": "Sealed street with a parking lane; several cars parked along the same kerb.",
+    "traffic": "Quiet residential street, low through traffic.",
+    "convention": "Cars park along the kerb in both images; no signs."
+  },
+  "flags": [
+    "Homes 19 m to 23 m from section",
+    "Slope about 2% mean, 4% max",
+    "Overhead powerlines"
+  ],
+  "sun_shade": "Mostly open; trees on the south side give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 38,
+    "to_m": 50,
+    "where": "South kerb of Todd Street, just before the corner, beside the lawn",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.991011,
+        -27.500225
+      ],
+      [
+        152.990897,
+        -27.500187
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 0.5,
+    "min_elevation_m": 13.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

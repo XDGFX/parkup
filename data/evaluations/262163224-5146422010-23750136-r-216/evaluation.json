@@ -1,0 +1,51 @@
+{
+  "candidate": "262163224-5146422010-23750136-r-216",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow dead-end bend with no-stopping signs, homes 9-12 m away and steep.",
+  "reasons": [
+    "No Stopping Any Time signs here",
+    "Homes 9-12 m away",
+    "Narrow lane, little room to pull off"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 9 m to 12 m from the kerb along the whole stretch, backing straight onto the lane.",
+    "access_and_room": "Narrow sealed lane with tree canopy and a tight turn; no verge or pull-off wider than a van, only one parked car seen at the north end.",
+    "traffic": "Dead-end residential lane, very little traffic.",
+    "convention": "No Stopping Any Time signs sit on this stretch, plus 2P resident-permit signs."
+  },
+  "flags": [
+    "No Stopping Any Time signs on stretch",
+    "Steep: mean grade about 7%, max 17%",
+    "Homes within 10 m"
+  ],
+  "sun_shade": "Heavy tree canopy over the western half, open to the sky near the junction.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact extent of no-stopping zone"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 7.7,
+    "min_elevation_m": 44.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

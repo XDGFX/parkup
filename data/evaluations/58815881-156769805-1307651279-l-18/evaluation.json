@@ -1,0 +1,72 @@
+{
+  "candidate": "58815881-156769805-1307651279-l-18",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, with homes 18 m away and bush opposite.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Nearest home 18 m on same side",
+    "Steepens quickly past 45 m"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 18 m at 44 m along and 10 m at 32 m; bush and a small block on the other side.",
+    "access_and_room": "Sealed street with parked cars along this kerb; a van fits at the kerb.",
+    "traffic": "Close to the busy Carmody Road junction; noise from the main road.",
+    "convention": "Several cars parked along this kerb in the Esri image; No Stopping Any Time and bus zone signs sit near the junction end."
+  },
+  "flags": [
+    "Steep: about 5% here and up to 19% beyond 50 m",
+    "Homes within 10 to 25 m on this side",
+    "No Stopping Any Time sign near the junction end",
+    "Low-lying at the junction end: about 4 m elevation",
+    "Traffic noise from Carmody Road"
+  ],
+  "sun_shade": "Trees shade the lower half from the south and west; open to morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Where the No Stopping sign's zone ends",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 34,
+    "to_m": 46,
+    "where": "East kerb about halfway along, before the bend into bush",
+    "slope_pct": 5,
+    "points": [
+      [
+        153.005276,
+        -27.498494
+      ],
+      [
+        153.005265,
+        -27.498564
+      ],
+      [
+        153.005253,
+        -27.498599
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 6.6,
+    "min_elevation_m": 4.8,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "262163633-5146422010-1268929649-r-18",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wooded, near-flat east kerb where cars park; homes 18-25 m off.",
+  "reasons": [
+    "Nearest homes 18-25 m",
+    "Cars park along this lane",
+    "Near flat, under 2%"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 18-25 m on the east side; trees and a tennis court screen the nearest; houses within 25 m all round.",
+    "access_and_room": "Narrow sealed lane; five or six cars parked at the north end, so some verge room exists.",
+    "traffic": "Quiet residential lane, low traffic.",
+    "convention": "Cars park here, but signs are 2P resident permit Mon-Fri 7am-6pm."
+  },
+  "flags": [
+    "Steep elsewhere: mean 5.7%, max about 15%",
+    "Resident-permit 2P signs Mon-Fri 7am-6pm",
+    "Construction building 17 m away near 112 m"
+  ],
+  "sun_shade": "Heavy tree canopy over the best section; shaded much of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Room to stop clear of the lane"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 95,
+    "to_m": 110,
+    "where": "East kerb in the low dip under trees, south of the cul-de-sac turn",
+    "slope_pct": 1.7,
+    "points": [
+      [
+        153.001521,
+        -27.500695
+      ],
+      [
+        153.001502,
+        -27.500561
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 41.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

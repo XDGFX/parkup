@@ -1,0 +1,46 @@
+{
+  "candidate": "598766795-11654792785-1277746823-l-670",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Line sits in treed ground with no road; apartments 16 m away.",
+  "reasons": [
+    "No kerb or road at the line",
+    "Apartments 16 m, tight to buildings",
+    "Nowhere clear to pull off"
+  ],
+  "drivers": {
+    "seclusion": "Apartments at 16 m and 17 m, a detached home at 19 m.",
+    "access_and_room": "The line is under dense trees between two roads; no formed road or tracks reach it.",
+    "traffic": "Quiet residential street to the south and east.",
+    "convention": "No signs; no parking convention visible."
+  },
+  "flags": [
+    "Low-lying: min elevation 6.5 m, Brisbane River 199 m",
+    "Short 11 m line, 5% max grade"
+  ],
+  "sun_shade": "Dense tree canopy over the whole line.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether a path or driveway runs through the trees"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 6.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

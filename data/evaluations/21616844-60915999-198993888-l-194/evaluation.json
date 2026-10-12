@@ -1,0 +1,67 @@
+{
+  "candidate": "21616844-60915999-198993888-l-194",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Station Road kerb where cars park, with apartments 10-20 m away.",
+  "reasons": [
+    "Cars park along the southern half",
+    "Apartments 10-20 m on same side",
+    "No stopping 3-7pm signs nearby"
+  ],
+  "drivers": {
+    "seclusion": "Apartments and houses 10-20 m from the kerb on its own side; homes all round.",
+    "access_and_room": "Kerbside lane with several cars parked in 2022 imagery; room for a van among them.",
+    "traffic": "Busy through road, but the kerb is outside the through lanes.",
+    "convention": "Cars park here, though signs restrict stopping 4-6pm and 3-7pm Mon-Sat."
+  },
+  "flags": [
+    "Dwellings 9-12 m at both ends of the stretch",
+    "Signs: no stopping 4-6pm and 3-7pm Mon-Sat",
+    "Noise: arterial",
+    "Slope 2.3% mean, 4% max"
+  ],
+  "sun_shade": "Street trees and buildings on the east side shade the kerb in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "How full the kerb is overnight, as Esri shows fewer cars than QLD"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 22,
+    "to_m": 40,
+    "where": "Station Road east kerb, south of the large apartment block, among parked cars",
+    "slope_pct": 2.1,
+    "points": [
+      [
+        152.971326,
+        -27.499706
+      ],
+      [
+        152.971323,
+        -27.499868
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 43.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

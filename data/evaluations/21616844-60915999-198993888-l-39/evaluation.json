@@ -1,0 +1,64 @@
+{
+  "candidate": "21616844-60915999-198993888-l-39",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy Station Road kerb with a bus stop and no kerbside parking.",
+  "reasons": [
+    "Main road, no cars parked on kerb",
+    "Bus stop and bus lane markings",
+    "Dealership and customer car park beside it"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto a dealership and its lot; apartments 19-20 m across the road.",
+    "access_and_room": "Arterial lane with a bus stop and an active road works edge; no parking lane to pull into.",
+    "traffic": "Heavy through traffic and buses near the intersection.",
+    "convention": "No cars parked along this kerb; nearby signs show no stopping Mon-Sat 7am-7pm."
+  },
+  "flags": [
+    "Main road with no parking: rule-out",
+    "Signs: no stopping Mon-Sat 7am-7pm",
+    "Noise: arterial and junction",
+    "Slope 2.6% mean, 4% max"
+  ],
+  "sun_shade": "Open to the sky; the building to the north shades little.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Exact extent of the bus stop"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 40,
+    "where": "Station Road north kerb, opposite the apartment blocks, beside the dealership",
+    "slope_pct": 2.6,
+    "points": [
+      [
+        152.970898,
+        -27.498358
+      ],
+      [
+        152.971084,
+        -27.498511
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 48,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

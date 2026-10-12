@@ -1,0 +1,69 @@
+{
+  "candidate": "58815715-257003996-24210746-l-18",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Corner end of Townley Street, beside the park, with homes close beyond.",
+  "reasons": [
+    "Houses 3 to 22 m along rest of line",
+    "Cars park along this kerb",
+    "Corner section only; slope about 5%"
+  ],
+  "drivers": {
+    "seclusion": "Nearest homes 30 m at the junction end, but a house sits 7 m from 21 m along. Park opposite.",
+    "access_and_room": "Sealed street with parked cars on both sides; room for a van at the kerb, close to the junction.",
+    "traffic": "Quiet residential street off a busier cross road.",
+    "convention": "Cars park along the kerb in both images; 2P resident-permit signs apply on weekdays."
+  },
+  "flags": [
+    "Steep: about 5% grade in the first 10 m, up to 18% further on",
+    "Houses 3 to 22 m from the rest of the line",
+    "Close to the junction mouth"
+  ],
+  "sun_shade": "Open to the sky; trees at the corner shade the morning side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Exact distance to the junction no-stopping zone"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "East kerb just south of the Carmody Road junction, opposite the park",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        152.999413,
+        -27.497305
+      ],
+      [
+        152.999492,
+        -27.497318
+      ],
+      [
+        152.999488,
+        -27.497336
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 5.5,
+    "min_elevation_m": 10.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

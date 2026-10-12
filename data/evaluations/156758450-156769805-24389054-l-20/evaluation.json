@@ -1,0 +1,50 @@
+{
+  "candidate": "156758450-156769805-24389054-l-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep narrow lane with homes 5-21 m away and a no-stopping sign.",
+  "reasons": [
+    "Grade about 16%, over the limit",
+    "Homes 5-21 m along the lane",
+    "No Stopping sign at the corner"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 5 m at 20 m along and 15-26 m further up; garage 5 m at the top, home 21 m at the bottom.",
+    "access_and_room": "Narrow sealed lane under tree canopy with no verge or pull-off wider than a van.",
+    "traffic": "Quiet side lane off a junction, light traffic.",
+    "convention": "Signs show a No Stopping Any Time zone at the junction and the end of St Lucia traffic area; no parked cars seen on the lane."
+  },
+  "flags": [
+    "Steep: mean grade 15.6%, max 20%",
+    "No Stopping Any Time sign at the junction",
+    "Homes within 10 m"
+  ],
+  "sun_shade": "Mostly shaded by heavy tree canopy, especially the lower end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 15.6,
+    "min_elevation_m": 25.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

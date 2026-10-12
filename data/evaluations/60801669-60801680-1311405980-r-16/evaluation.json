@@ -1,0 +1,49 @@
+{
+  "candidate": "60801669-60801680-1311405980-r-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "North kerb with homes 7 to 11 m away along its whole length.",
+  "reasons": [
+    "Homes 7 to 11 m behind the kerb",
+    "Few cars park on this side",
+    "No gap in houses"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses at 7 m, 9 m and 11 m and apartments at 9 m line the north side.",
+    "access_and_room": "Sealed street; the north kerb has driveways and houses right up to it.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park mainly on the south kerb; the north side has one or two."
+  },
+  "flags": [
+    "Dwellings within 10 m along the whole line",
+    "Slope 1.6% mean, 5.6% max at the far end"
+  ],
+  "sun_shade": "Open road; trees along the north side give some morning shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 12.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

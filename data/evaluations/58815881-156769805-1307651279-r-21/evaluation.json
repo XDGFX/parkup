@@ -1,0 +1,68 @@
+{
+  "candidate": "58815881-156769805-1307651279-r-21",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb by a junction, houses 14 m away on both sides.",
+  "reasons": [
+    "Detached homes 14-17 m from kerb",
+    "No Stopping Any Time sign at the end",
+    "Only 29 m, beside a junction"
+  ],
+  "drivers": {
+    "seclusion": "Homes at 14-17 m on the west side, apartments and houses across the road; cars park here but residents are close.",
+    "access_and_room": "Sealed street; cars park along the west kerb, so room exists, but the section is short.",
+    "traffic": "Beside a busy cross road at the junction; street itself is quiet.",
+    "convention": "Cars park along the kerb, but a No Stopping Any Time sign sits at the south end."
+  },
+  "flags": [
+    "No Stopping Any Time sign 6.7 m off the line",
+    "Low-lying: minimum elevation 4.1 m",
+    "Junction noise"
+  ],
+  "sun_shade": "Open to sun; trees shade the east side and part of the west verge.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Where the No Stopping zone starts and ends",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 29,
+    "where": "Twelfth Avenue west kerb, just south of the main road junction",
+    "slope_pct": 1.9,
+    "points": [
+      [
+        153.005247,
+        -27.49821
+      ],
+      [
+        153.005204,
+        -27.49843
+      ],
+      [
+        153.005244,
+        -27.498436
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 4.1,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

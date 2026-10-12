@@ -1,0 +1,69 @@
+{
+  "candidate": "58759009-262163559-1274553452-r-66",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "East kerb on a quiet street, bottom end; homes 20 m or more away.",
+  "reasons": [
+    "Nearest homes about 20 m",
+    "Grass verge, a car parks here",
+    "Steep above the bottom 15 m"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings 20-28 m on this side; one house 8 m away further up at 22 m. Wooded backdrop to the south-east.",
+    "access_and_room": "Narrow sealed street with a grass and dirt verge on the east side wide enough to pull onto.",
+    "traffic": "Quiet residential street, low traffic.",
+    "convention": "A car is parked on the verge, but signs are 2P resident permit Mon-Fri 7am-6pm."
+  },
+  "flags": [
+    "Steep: about 5% at the best section, up to 18% above",
+    "Resident-permit 2P signs Mon-Fri 7am-6pm",
+    "Houses within 25 m all round"
+  ],
+  "sun_shade": "Heavy tree canopy to the south and east; shaded mornings.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Bottom end of the east kerb, where Tenth Avenue bends, before it climbs",
+    "slope_pct": 5,
+    "points": [
+      [
+        153.000255,
+        -27.502993
+      ],
+      [
+        153.000328,
+        -27.503026
+      ],
+      [
+        153.000343,
+        -27.502993
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 4.1,
+    "min_elevation_m": 21.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,48 @@
+{
+  "candidate": "58815881-156769805-1307651279-l-92",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow winding road through bush with no room to stop clear of the lane.",
+  "reasons": [
+    "No verge or pull-off beside the lane",
+    "No Stopping Any Time signs",
+    "No cars parked along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the north side and a wooded bank to the south; houses 16 to 25 m up the slope.",
+    "access_and_room": "Sealed lane of one carriageway with trees and a bank at the edge; no gravel or grass shoulder wide enough for a van.",
+    "traffic": "Through road linking Carmody Road to the avenue; narrow bend.",
+    "convention": "No Stopping Any Time signs beside the line; no parked cars until the corner at the end."
+  },
+  "flags": [
+    "No Stopping Any Time signs",
+    "Steep: mean 4.9%, up to 14% max",
+    "Dwellings 11 m at the far end"
+  ],
+  "sun_shade": "Dense tree canopy over most of the section from both sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height and crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 5,
+    "min_elevation_m": 10.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

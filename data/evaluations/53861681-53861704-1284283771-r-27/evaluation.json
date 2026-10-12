@@ -1,0 +1,50 @@
+{
+  "candidate": "53861681-53861704-1284283771-r-27",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 3 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Main-road kerb with houses 3 m away and no cars parked.",
+  "reasons": [
+    "Houses 3 m from kerb",
+    "Through road, no cars parked",
+    "Apartments and homes both sides"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 3-8 m along the whole south kerb; apartments opposite.",
+    "access_and_room": "Kerb of a through road; no pull-off and no parked cars seen.",
+    "traffic": "Swann Road arterial, continuous traffic.",
+    "convention": "No cars park along this kerb; no signs mapped."
+  },
+  "flags": [
+    "Dwelling within 10 m along whole stretch",
+    "Main road with no parking",
+    "Steepest part 7.8% grade"
+  ],
+  "sun_shade": "Open kerb, some tree shade from the gardens to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 3,
+    "gated": false,
+    "slope_pct": 3.2,
+    "min_elevation_m": 45.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

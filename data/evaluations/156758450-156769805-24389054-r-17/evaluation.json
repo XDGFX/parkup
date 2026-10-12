@@ -1,0 +1,65 @@
+{
+  "candidate": "156758450-156769805-24389054-r-17",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb with bush opposite; homes 15-20 m behind on the same side.",
+  "reasons": [
+    "Bush across the road",
+    "Homes 15-20 m on own side",
+    "Flat, wide grass verge"
+  ],
+  "drivers": {
+    "seclusion": "Bushland across the road; detached homes 15 m to 20 m behind the kerb on its own side, set back behind driveways and grass.",
+    "access_and_room": "Sealed street with a grass verge and driveways beside the kerb, so a van can stop clear of the lane; one car was seen parked along it.",
+    "traffic": "Quiet residential street, light local traffic.",
+    "convention": "Signs near the top give a No Stopping Any Time zone and 2P resident-permit parking on Central Avenue; none on this straight, and few cars park here."
+  },
+  "flags": [
+    "Homes within about 20 m on own side",
+    "No Stopping Any Time sign near the junction at the start",
+    "Steep elsewhere: 8% mean, up to 30% on the first 60 m",
+    "Dense bush opposite, possible fire risk"
+  ],
+  "sun_shade": "Bush canopy shades the north side; the section is open to the sky and the afternoon sun from the west.",
+  "rubbish": "Possible dumped items under the trees beside the kerb at 235-265 m, not at the best section.",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the bush pull-in at 235-265 m is passable"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 115,
+    "to_m": 160,
+    "where": "Sixth Avenue south kerb, midway along the straight below the steep bend, bush opposite",
+    "slope_pct": 1.4,
+    "points": [
+      [
+        153.002158,
+        -27.499261
+      ],
+      [
+        153.002613,
+        -27.49924
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 2.5,
+    "min_elevation_m": 21.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

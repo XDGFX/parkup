@@ -1,0 +1,63 @@
+{
+  "candidate": "53861607-156727116-9334349-l-52",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside church hall where cars park; dwellings 15 m off, signs nearby.",
+  "reasons": [
+    "Church hall and civic building behind",
+    "Dwellings 12-15 m away, near far end",
+    "School-hours no stopping signs"
+  ],
+  "drivers": {
+    "seclusion": "Church and civic buildings back it; nearest dwellings 12-15 m, towards the far end.",
+    "access_and_room": "Cars are parked here in both images; narrow kerb strip on a curve, trees overhang.",
+    "traffic": "Through road near a school with a sharp bend just south.",
+    "convention": "Cars park along this kerb, but the stretch is short and signed no stopping in school hours."
+  },
+  "flags": [
+    "School-hours no stopping 7-9am, 2-4pm",
+    "Dwelling 12 m from far end of kerb",
+    "Short: only 18 m"
+  ],
+  "sun_shade": "Tree canopy at the south end; church buildings shade the east side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 11,
+    "where": "East kerb of Swann Road beside the church hall, just south of the church",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        152.995498,
+        -27.501235
+      ],
+      [
+        152.995446,
+        -27.501323
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 43.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

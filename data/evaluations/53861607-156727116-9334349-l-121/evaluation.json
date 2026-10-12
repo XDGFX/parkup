@@ -1,0 +1,50 @@
+{
+  "candidate": "53861607-156727116-9334349-l-121",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Nine-metre kerb in front of houses, shorter than a van.",
+  "reasons": [
+    "Dwelling 9 m from kerb",
+    "Only 9 m long",
+    "Steep, about 11% grade"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes front the kerb at 9 m and 14 m; carport 6 m.",
+    "access_and_room": "Kerb is under a van length and runs between driveways.",
+    "traffic": "Through road, tree-shaded, with parking on both sides.",
+    "convention": "2P parallel parking signs; cars park here but only briefly."
+  },
+  "flags": [
+    "Dwelling within 10 m rules it out",
+    "Steep: about 11% grade",
+    "Kerb shorter than a van"
+  ],
+  "sun_shade": "Heavy tree canopy over the road and verge.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 11.6,
+    "min_elevation_m": 39.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

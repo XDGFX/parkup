@@ -1,0 +1,67 @@
+{
+  "candidate": "262163255-262164403-1302810104-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet unsigned kerb near the junction; homes 13-15 m on its side, cars park nearby.",
+  "reasons": [
+    "Homes 13-15 m on own side",
+    "No parking signs",
+    "Nearly flat"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 13 m to 15 m from this section on its own side, with a garage at 10 m; more homes across the road.",
+    "access_and_room": "Sealed street; cars are parked at the kerb at the lower end, so there is room to stop.",
+    "traffic": "Quiet residential street, light local traffic.",
+    "convention": "No signs on this kerb; a few cars park along the lower end and the junction side."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Overhanging tree canopy"
+  ],
+  "sun_shade": "Heavy tree canopy over the north side, shading the midday and morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Neighbour attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 38,
+    "to_m": 58,
+    "where": "Seventh Avenue south kerb, down the slope from the junction, below the garage",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        153.004451,
+        -27.500732
+      ],
+      [
+        153.004396,
+        -27.500757
+      ],
+      [
+        153.004272,
+        -27.500816
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 32.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,49 @@
+{
+  "candidate": "156769805-262164403-1306965998-r-90",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep, narrow hill street with homes close and no room to pull off.",
+  "reasons": [
+    "Grade averages 16%, up to 22%",
+    "Homes 9-11 m away at 22-33 m",
+    "Narrow lane, trees and fences either side"
+  ],
+  "drivers": {
+    "seclusion": "Homes within 9-20 m on the east side near the start; tennis club grounds on the west side further down.",
+    "access_and_room": "Narrow sealed lane with tight verges between fences and trees; no clear pull-off seen.",
+    "traffic": "Quiet residential street.",
+    "convention": "No signs; a couple of cars stand by the tennis courts, but no parking convention along the kerb."
+  },
+  "flags": [
+    "Steep: mean 16% grade, max 22%",
+    "Narrow lane, little room off the carriageway"
+  ],
+  "sun_shade": "Mostly shaded by tree canopy, heavier at the top end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 15.8,
+    "min_elevation_m": 18.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

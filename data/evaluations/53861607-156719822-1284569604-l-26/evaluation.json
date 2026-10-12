@@ -1,0 +1,65 @@
+{
+  "candidate": "53861607-156719822-1284569604-l-26",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy school-side kerb where cars park; homes about 13 m behind, bus zones nearby.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Homes 13-15 m on own side",
+    "Near school and bus zones"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 13 m to 15 m from the section on its own side, with a dwelling 8 m beyond the far end; school and courts opposite.",
+    "access_and_room": "Wide sealed road with a parking lane on this side where several cars are parked, so room to stop exists.",
+    "traffic": "Busy through road beside a school and bus route; noise and daytime school traffic.",
+    "convention": "Several cars park along this kerb in the QLD image, but bus zone and school passenger loading signs sit nearby."
+  },
+  "flags": [
+    "Bus Zone signs close by: check the signed extent",
+    "School loading zone 7:30-9:30am and 2-4pm on schooldays",
+    "Mapped locked gate 5 m away, with a way round",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Street trees on the east side shade the opposite kerb; this kerb is mostly open to the sky.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact extent of bus zone",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 36,
+    "to_m": 50,
+    "where": "Swann Road west kerb, opposite the netball courts, north of the church junction",
+    "slope_pct": 0,
+    "points": [
+      [
+        152.995424,
+        -27.500387
+      ],
+      [
+        152.995376,
+        -27.500269
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 0.2,
+    "min_elevation_m": 47,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

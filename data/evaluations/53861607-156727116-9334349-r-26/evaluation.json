@@ -1,0 +1,69 @@
+{
+  "candidate": "53861607-156727116-9334349-r-26",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short Swann Road kerb beside a house and church, with no-stopping signs.",
+  "reasons": [
+    "Dwelling 9 m from kerb",
+    "No-stopping signs on this stretch",
+    "Church and homes all round"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 9 m at 0 m; homes 15-24 m; church 17 m opposite.",
+    "access_and_room": "Kerbside lane with cars parked along it; room for a van.",
+    "traffic": "Suburban road near a roundabout and school; busy at school times.",
+    "convention": "Cars park along the kerb, but signs mark no stopping at school times and any time."
+  },
+  "flags": [
+    "Dwelling within 10 m",
+    "No Stopping signs nearby, including any time",
+    "Locked gate 87 m away, not on only access"
+  ],
+  "sun_shade": "Mostly open; street trees shade the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Exact sign coverage along kerb"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 23,
+    "where": "Swann Road west kerb beside the Uniting Church",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.995545,
+        -27.500996
+      ],
+      [
+        152.995502,
+        -27.501074
+      ],
+      [
+        152.995439,
+        -27.50118
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 43.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

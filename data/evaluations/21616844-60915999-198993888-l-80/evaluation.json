@@ -1,0 +1,72 @@
+{
+  "candidate": "21616844-60915999-198993888-l-80",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Station Road kerb on a bend, half-hour parking and almost no parked cars.",
+  "reasons": [
+    "Main road, kerb mostly empty",
+    "Signed 1/2P parallel parking",
+    "Dealership and apartments close by"
+  ],
+  "drivers": {
+    "seclusion": "Dealership and a commercial building are 13-20 m away; apartments 18-23 m away.",
+    "access_and_room": "Narrow kerb on a bend of a through route; no marked parking lane.",
+    "traffic": "Busy through road with buses, lane widens at the junction.",
+    "convention": "One car at the start only; sign allows 1/2P so it is short-stay."
+  },
+  "flags": [
+    "Main road with no parking: rule-out",
+    "Signs: 1/2P parallel parking, not for overnight",
+    "Noise: arterial",
+    "Flat: 1.4% mean"
+  ],
+  "sun_shade": "Trees on the verge shade the kerb from the east and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 27,
+    "where": "Station Road east kerb, on the bend below the dealership",
+    "slope_pct": 1.4,
+    "points": [
+      [
+        152.971131,
+        -27.498549
+      ],
+      [
+        152.971192,
+        -27.498599
+      ],
+      [
+        152.971266,
+        -27.498676
+      ],
+      [
+        152.971277,
+        -27.498696
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 47.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:59:02Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
