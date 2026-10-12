@@ -1,0 +1,71 @@
+{
+  "candidate": "262164046-262164047-24212359-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat residential kerb where cars park; homes about 12-13 m away on this side.",
+  "reasons": [
+    "Flat section, about 1% grade",
+    "Homes 12-13 m away, own side",
+    "Cars park on both sides here"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 12-18 m away on the north side, set behind gardens and trees; homes also across the road.",
+    "access_and_room": "Plain kerb on a sealed street; parked cars line it, so a van fits.",
+    "traffic": "Quiet residential street.",
+    "convention": "2P resident-permit signs Mon-Fri; several cars parked along both kerbs in imagery."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "2P resident-permit signs weekdays",
+    "Steep at the west end: 19.6% max"
+  ],
+  "sun_shade": "Mostly shaded by street and garden trees, mainly from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 45,
+    "where": "Eighth Avenue north kerb, mid-block between the two cyan signs",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.002935,
+        -27.501889
+      ],
+      [
+        153.002949,
+        -27.50189
+      ],
+      [
+        153.003066,
+        -27.501892
+      ],
+      [
+        153.003087,
+        -27.501892
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 27.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

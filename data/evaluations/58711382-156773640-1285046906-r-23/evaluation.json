@@ -1,0 +1,73 @@
+{
+  "candidate": "58711382-156773640-1285046906-r-23",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 2 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb by driveways and bus zone, with homes 2-5 m away.",
+  "reasons": [
+    "Dwellings 2 m and 5 m from kerb",
+    "Mostly driveways and bus zone",
+    "Steep, up to 18.6% locally"
+  ],
+  "drivers": {
+    "seclusion": "Homes at 2 m (at 17 m and 40 m) and 5 m (at 12 m) sit right behind the kerb; the next is 12 m away.",
+    "access_and_room": "Short 50 m stretch winding round driveway entrances; a van would block them.",
+    "traffic": "Through road with a bus stop at this stretch.",
+    "convention": "Bus zone signs and St Lucia traffic area restriction (Mon-Fri 7am-6pm); few cars parked."
+  },
+  "flags": [
+    "Dwelling within 10 m",
+    "Bus zone signs on stretch",
+    "Steep: mean 5.3%, max 18.6%"
+  ],
+  "sun_shade": "Heavily shaded by trees on the north side; open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 28,
+    "to_m": 40,
+    "where": "Hawken Drive kerb on the bend just past the driveway entrances",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        153.004521,
+        -27.503758
+      ],
+      [
+        153.004534,
+        -27.503751
+      ],
+      [
+        153.004573,
+        -27.503726
+      ],
+      [
+        153.004619,
+        -27.503695
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 2,
+    "gated": false,
+    "slope_pct": 0.1,
+    "min_elevation_m": 23.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,81 @@
+{
+  "candidate": "58711354-598766857-1288215990-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Busy Hawken Drive kerb with homes 2-9 m from the whole stretch.",
+  "reasons": [
+    "Dwellings within 2-9 m throughout",
+    "Arterial road, one car parked",
+    "Bus zone and resident-permit 2P signs"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes sit 2-9 m behind the kerb along the whole stretch; the nearest to the start is 8 m.",
+    "access_and_room": "Kerb is on a wide through road; a van can pull to the kerb but there is no verge.",
+    "traffic": "Busy through route linking suburbs, with a bus zone.",
+    "convention": "2P parking with resident permits excepted Mon-Fri 7am-6pm; only a couple of cars parked."
+  },
+  "flags": [
+    "Dwellings within 10 m along the whole section",
+    "Bus zone sign on stretch",
+    "Slope up to 8.8% locally, mean 3%"
+  ],
+  "sun_shade": "Mostly open to the sky, with tree shade from the south side near the middle.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "Hawken Drive north kerb, start of stretch near the side street",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.000797,
+        -27.504664
+      ],
+      [
+        153.000845,
+        -27.504667
+      ],
+      [
+        153.000889,
+        -27.504669
+      ],
+      [
+        153.001042,
+        -27.504673
+      ],
+      [
+        153.001086,
+        -27.504673
+      ],
+      [
+        153.001101,
+        -27.504672
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 32,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

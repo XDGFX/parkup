@@ -1,0 +1,66 @@
+{
+  "candidate": "262163224-262164047-24389095-r-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow steep lane with homes 7-9 m from the west kerb.",
+  "reasons": [
+    "Dwellings 7-9 m from kerb",
+    "Steep: about 8.7% mean grade",
+    "Tight lane under trees"
+  ],
+  "drivers": {
+    "seclusion": "Houses on both sides; mapped dwellings 7 m (at 48 m) and 9 m (at 23 m) bracket this section, the rest 20 m or more.",
+    "access_and_room": "Narrow lane, grass verge on the west is steep and fenced, little room to pull clear.",
+    "traffic": "Quiet residential street, low traffic.",
+    "convention": "Only an occasional parked car; no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 8.7% mean, 16% max grade",
+    "Signs: 2P Mon-Fri 7am-6pm, resident permits excepted",
+    "Homes within 10 m either side of the section"
+  ],
+  "sun_shade": "Heavy tree canopy shades the lane, mostly from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 33,
+    "to_m": 43,
+    "where": "West kerb beside the grass verge, south of the pool house",
+    "slope_pct": 3,
+    "points": [
+      [
+        153.003683,
+        -27.501473
+      ],
+      [
+        153.003666,
+        -27.501561
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 5.2,
+    "min_elevation_m": 29.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

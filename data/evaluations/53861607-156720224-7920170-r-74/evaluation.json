@@ -1,0 +1,67 @@
+{
+  "candidate": "53861607-156720224-7920170-r-74",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Tiny 11 m kerb on busy Hawken Drive, signed bus and loading zone.",
+  "reasons": [
+    "Bus zone and loading zone signs",
+    "Home 10 m from kerb",
+    "Arterial road, short stretch"
+  ],
+  "drivers": {
+    "seclusion": "Dwelling 10 m (at 5 m) and 13-15 m away; church and houses overlook the kerb.",
+    "access_and_room": "Kerb is a bus stop apron beside a through lane; stretch is only 11 m, shorter than a van with room to stop.",
+    "traffic": "Busy arterial with a junction and signals nearby.",
+    "convention": "Bus zone and school loading zone signs cover this kerb."
+  },
+  "flags": [
+    "Bus zone and passenger loading zone signs",
+    "Dwelling within 10 m",
+    "Arterial noise",
+    "Slope 6%, steep"
+  ],
+  "sun_shade": "Tree canopy over the middle of the stretch, partly shading it.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Exact bus zone extents"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 11,
+    "where": "Hawken Drive west kerb, beside the uniting church and bus stop",
+    "slope_pct": 6,
+    "points": [
+      [
+        152.996163,
+        -27.501417
+      ],
+      [
+        152.996228,
+        -27.501497
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 7.8,
+    "min_elevation_m": 37.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

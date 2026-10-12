@@ -1,0 +1,73 @@
+{
+  "candidate": "58736237-156754800-7920658-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Winding through road with homes 6-11 m off the north kerb.",
+  "reasons": [
+    "Dwellings 6-8 m from kerb",
+    "No cars parked along this kerb",
+    "Steep and climbing past 65 m"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 7 m behind at 48 m and 11 m at 70 m; homes line the whole side.",
+    "access_and_room": "Narrow kerbside strip, no parked cars; only a couple of cars at the start.",
+    "traffic": "Through road with a bend; moderate local traffic.",
+    "convention": "No sign of parking on this kerb beyond the first 10 m."
+  },
+  "flags": [
+    "Dwellings within 10 m",
+    "Steep after 65 m: up to about 22% max grade",
+    "Resident permit 2P signs Mon-Fri 7am-6pm"
+  ],
+  "sun_shade": "Open to sky, trees shade the road edge from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 50,
+    "to_m": 64,
+    "where": "Flat bend mid-stretch, between the houses at 48 m and 70 m",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.994087,
+        -27.502195
+      ],
+      [
+        152.994158,
+        -27.502197
+      ],
+      [
+        152.994185,
+        -27.502198
+      ],
+      [
+        152.994229,
+        -27.502201
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 17.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

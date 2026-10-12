@@ -1,0 +1,63 @@
+{
+  "candidate": "156758438-12039462651-1306071493-r-16",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb with cars parked; homes 11-13 m away on the same side.",
+  "reasons": [
+    "Homes 11-13 m away, own side",
+    "Other cars park along this kerb",
+    "Church car park opposite, no homes there"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 13 m away at 116-125 m, same side; church car park and trees opposite.",
+    "access_and_room": "Open kerb on a quiet street; cars already park here, room to pull in.",
+    "traffic": "Quiet residential street, low traffic.",
+    "convention": "2P resident-permit signs Mon-Fri 7am-6pm; parked cars along the kerb in imagery."
+  },
+  "flags": [
+    "Steep: about 5% here, 14% max on the stretch",
+    "Homes within 25 m on own side",
+    "2P resident-permit signs weekdays"
+  ],
+  "sun_shade": "Mostly open at the best section, some tree shade from the east side; morning sun from across the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 100,
+    "to_m": 125,
+    "where": "Eighth Avenue west kerb near the bend, past the last big house",
+    "slope_pct": 5,
+    "points": [
+      [
+        153.00007,
+        -27.500778
+      ],
+      [
+        153.000246,
+        -27.500936
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 5.7,
+    "min_elevation_m": 32,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

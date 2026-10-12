@@ -1,0 +1,65 @@
+{
+  "candidate": "257003996-264669532-1311404713-l-56",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Eleven metres of kerb, shorter than a van, with a house 8 m away.",
+  "reasons": [
+    "Dwelling 8 m from kerb",
+    "Only 11 m, No Stopping signs",
+    "Steep: about 9% grade"
+  ],
+  "drivers": {
+    "seclusion": "House 8 m from the kerb, more homes 12-20 m around; fully overlooked.",
+    "access_and_room": "Short kerb on a bend with No Stopping Any Time signs at both ends; no room for a van.",
+    "traffic": "Quiet residential street, low traffic.",
+    "convention": "A car parks on the opposite side; 2P residents-excepted signs."
+  },
+  "flags": [
+    "Steep: 8.9% mean, 13.2% max grade",
+    "Signs: No Stopping Any Time at both ends",
+    "Signs: 2P Mon-Fri 7am-6pm, resident permits excepted"
+  ],
+  "sun_shade": "Mostly open to the sun, with tree shade from the south-east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 11,
+    "where": "West kerb of the bend on Fifth Avenue, beside the corner house lawn",
+    "slope_pct": 8.9,
+    "points": [
+      [
+        152.999537,
+        -27.49893
+      ],
+      [
+        152.999604,
+        -27.498851
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 10.3,
+    "min_elevation_m": 20.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

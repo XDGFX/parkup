@@ -1,0 +1,63 @@
+{
+  "candidate": "262163568-12039462651-24212280-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short quiet residential kerb at a bend; homes 12-17 m away, mild slope.",
+  "reasons": [
+    "Homes 12-17 m away, same side",
+    "Quiet residential street, no parking convention",
+    "Gentle slope near the bend"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 13-17 m away on the same side; tree cover and the bend screen some views.",
+    "access_and_room": "Plain kerb on a narrow sealed street; a van fits at the kerb with a bit of shoulder.",
+    "traffic": "Quiet residential street.",
+    "convention": "2P resident-permit signs Mon-Fri; only one or two cars parked nearby."
+  },
+  "flags": [
+    "Steep: about 4% here, 9% max",
+    "Homes within 25 m on own side",
+    "2P resident-permit signs weekdays"
+  ],
+  "sun_shade": "Heavy tree shade over the kerb, mainly from the east and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 27,
+    "where": "Eighth Avenue west kerb at the bend, near the far end",
+    "slope_pct": 4,
+    "points": [
+      [
+        153.000331,
+        -27.501016
+      ],
+      [
+        153.000247,
+        -27.500938
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 3.8,
+    "min_elevation_m": 32,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

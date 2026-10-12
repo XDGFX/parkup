@@ -1,0 +1,66 @@
+{
+  "candidate": "257003996-264669532-1311404713-l-123",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Flat shaded kerb on a residential street, homes 15-20 m away on both sides.",
+  "reasons": [
+    "Homes 15-20 m on both sides",
+    "Cars park nearby",
+    "Flat at 30-45 m"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings 15 m (at 37 m) and 20 m (at 31 m) on this side, houses opposite at similar distance.",
+    "access_and_room": "Road narrows under trees at this point; cars park along the street both sides, so some room beside the lane but tight.",
+    "traffic": "Quiet residential street, low traffic.",
+    "convention": "Several cars parked along the street in QLD imagery; 2P residents-excepted signs."
+  },
+  "flags": [
+    "Signs: 2P Mon-Fri 7am-6pm, resident permits excepted",
+    "Signs: No Stopping Any Time on part of the kerb",
+    "Slope 5.5% mean overall, 12.8% max, but flat at 30-45 m"
+  ],
+  "sun_shade": "Dense tree canopy covers the section from the west and south-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact limits of the No Stopping zone"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 45,
+    "where": "West kerb mid-block under the tree canopy, beside the grassed yard",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.000134,
+        -27.498227
+      ],
+      [
+        153.000225,
+        -27.49812
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 3.2,
+    "min_elevation_m": 18.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "257220176-257227150-23748184-l-15",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "East kerb beside a vacant lot, with homes 20-29 m away and cars parked.",
+  "reasons": [
+    "Dwellings 20-29 m, none closer in this section",
+    "Cars already park along this kerb",
+    "Narrow lane, steep: about 5% grade"
+  ],
+  "drivers": {
+    "seclusion": "Vacant dirt lot and bush on the east; nearest homes 22 m and 29 m, plus houses about 20 m across the road to the west.",
+    "access_and_room": "Narrow sealed lane; parked cars sit on the east kerb, so a van fits only where others already park, little room beyond.",
+    "traffic": "Quiet dead-end style side street off a busy arterial; low local traffic.",
+    "convention": "No signs; several cars parked along the east kerb, no camping seen."
+  },
+  "flags": [
+    "Steep: about 5% over the best section, 10.1% mean over stretch",
+    "Townhouses 3-8 m away from 39 m onwards",
+    "Noise from the arterial junction at the north end"
+  ],
+  "sun_shade": "Open to the east from the vacant lot; trees and hedge shade the west side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 22,
+    "to_m": 36,
+    "where": "East kerb beside the vacant cleared lot, just before the townhouses begin",
+    "slope_pct": 4.9,
+    "points": [
+      [
+        152.995213,
+        -27.49686
+      ],
+      [
+        152.995259,
+        -27.496979
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 5,
+    "min_elevation_m": 35.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,50 @@
+{
+  "candidate": "257224153-257228515-23748218-l-70",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Tiny steep road end beside a house and pool, 9 m from a dwelling.",
+  "reasons": [
+    "Dwelling 9 m away, another 12 m",
+    "Steep: 10% mean, 16% max",
+    "Narrow lane, no room off the road"
+  ],
+  "drivers": {
+    "seclusion": "Houses and a pool sit beside the line; dwellings at 9 m and 12 m, with trees around.",
+    "access_and_room": "Narrow road end with hatched markings and no verge; nowhere to pull clear of the lane.",
+    "traffic": "Very quiet short dead end off Ironside Street.",
+    "convention": "No signs; one car parked at the road bend, no camping seen."
+  },
+  "flags": [
+    "Steep: 10% mean, 16.4% max",
+    "Dwelling within 10 m",
+    "Only 12 m of kerb"
+  ],
+  "sun_shade": "Heavy tree canopy shading it from the north and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 10,
+    "min_elevation_m": 32.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

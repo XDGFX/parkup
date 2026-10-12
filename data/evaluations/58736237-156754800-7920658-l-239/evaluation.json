@@ -1,0 +1,65 @@
+{
+  "candidate": "58736237-156754800-7920658-l-239",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb stretch with homes 8 m and 17 m from it.",
+  "reasons": [
+    "Dwellings 8 m from kerb",
+    "No cars parked along kerb",
+    "Steep: 5% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dwelling 17 m behind and another 8 m ahead; houses face the kerb.",
+    "access_and_room": "Narrow kerb with little verge; a couple of cars stand at the ends.",
+    "traffic": "Through road with steady traffic.",
+    "convention": "No clear parking convention along this short stretch."
+  },
+  "flags": [
+    "Dwelling within 10 m from 15 m",
+    "Steep: about 5% grade",
+    "Resident permit 2P signs Mon-Fri 7am-6pm"
+  ],
+  "sun_shade": "Open to the sky, trees shade from the north-east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "Kerb at the start, just east of the two-storey house frontage",
+    "slope_pct": 4,
+    "points": [
+      [
+        152.995872,
+        -27.502238
+      ],
+      [
+        152.996014,
+        -27.502232
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 4.8,
+    "min_elevation_m": 32.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

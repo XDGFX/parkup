@@ -1,0 +1,69 @@
+{
+  "candidate": "58711382-58759011-15698295-r-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Homes front the kerb along its whole length, within 10 m.",
+  "reasons": [
+    "Dwellings 0-9 m from kerb throughout",
+    "No gap between houses",
+    "Resident-permit 2P signs"
+  ],
+  "drivers": {
+    "seclusion": "Mapped dwellings sit 5-6 m from the kerb on both sides of every gap.",
+    "access_and_room": "Cars park along the kerb, so room to stop exists.",
+    "traffic": "Busy through road with parked cars along the north kerb.",
+    "convention": "Cars park here, but residents' frontages are right at the kerb."
+  },
+  "flags": [
+    "Dwellings within 10 m of the whole stretch",
+    "Resident permit 2P signs Mon-Fri 7am-6pm",
+    "Steep: about 4% grade at best section"
+  ],
+  "sun_shade": "Partly open to the sky, with scattered trees on the opposite verge.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 112,
+    "to_m": 130,
+    "where": "Between houses on north side of Highland Terrace, mid-stretch",
+    "slope_pct": 4,
+    "points": [
+      [
+        153.002818,
+        -27.503905
+      ],
+      [
+        153.002746,
+        -27.503905
+      ],
+      [
+        153.002635,
+        -27.503902
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 5.8,
+    "min_elevation_m": 26.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

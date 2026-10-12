@@ -1,0 +1,64 @@
+{
+  "candidate": "58711361-58759011-15698263-l-40",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet service-road kerb with homes 10 m off; cars park here too.",
+  "reasons": [
+    "Dwellings 10 m either side of gap",
+    "Cars already parked along kerb",
+    "Gentle slope, tree cover"
+  ],
+  "drivers": {
+    "seclusion": "Homes front the kerb all along; best gap is about 10 m from two dwellings.",
+    "access_and_room": "Parked cars sit along this kerb, so room to stop looks fine.",
+    "traffic": "Quiet residential street, low traffic.",
+    "convention": "Parked cars present; 2P resident-permit signs apply by day."
+  },
+  "flags": [
+    "Dwellings about 10 m away on own side",
+    "Resident permit 2P signs Mon-Fri 7am-6pm"
+  ],
+  "sun_shade": "Tree canopy over the kerb, mostly shaded, light from the east and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 62,
+    "to_m": 80,
+    "where": "Gap between houses mid-street on Highland Terrace's south side",
+    "slope_pct": 1.7,
+    "points": [
+      [
+        153.00161,
+        -27.504033
+      ],
+      [
+        153.001428,
+        -27.504028
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 27.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

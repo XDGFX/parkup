@@ -1,0 +1,64 @@
+{
+  "candidate": "58711322-58711354-1274302689-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Hawken Drive collector kerb with no parked cars and homes 15 m away.",
+  "reasons": [
+    "Through road, no cars on this kerb",
+    "Homes 10-16 m on same side",
+    "Timed 2P signs, no parking convention"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 11 m (at 35 m), 15 m (at 61 and 72 m) and 16 m on the same side; houses overlook the kerb.",
+    "access_and_room": "Sealed road with a parking-width lane, but no vehicles parked along this kerb.",
+    "traffic": "Collector road linking suburbs, steady traffic and a signalised-style junction nearby.",
+    "convention": "Signed 2P Mon-Fri 7am-6pm, resident permits excepted; no parked cars seen on this kerb."
+  },
+  "flags": [
+    "Main road with no parking seen",
+    "Homes 11-16 m away on same side",
+    "Road noise"
+  ],
+  "sun_shade": "Mixed: tree canopy over the 35-55 m stretch, open elsewhere.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Overnight parking habits"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 45,
+    "to_m": 62,
+    "where": "Hawken Drive south kerb, below the junction towards Tenth Avenue",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.999387,
+        -27.504257
+      ],
+      [
+        152.999523,
+        -27.504351
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 33.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

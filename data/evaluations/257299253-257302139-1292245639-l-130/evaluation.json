@@ -1,0 +1,65 @@
+{
+  "candidate": "257299253-257302139-1292245639-l-130",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb with homes 4 to 15 m away all along.",
+  "reasons": [
+    "Homes about 10 m away throughout",
+    "Weekday no-parking signs, bus zone",
+    "Few cars parked; van would stand out"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 9 to 10 m off either end of this section.",
+    "access_and_room": "Kerbside lane with a few cars parked; room to stop.",
+    "traffic": "Busy through road with a bus zone.",
+    "convention": "Sparse parking and Mon-Fri 7am-7pm no-parking signs."
+  },
+  "flags": [
+    "Dwellings at 9 to 10 m",
+    "Weekday no-parking signs",
+    "Bus zone along the stretch"
+  ],
+  "sun_shade": "Mostly open; patchy tree shade from the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 38,
+    "to_m": 52,
+    "where": "Hawken Drive north kerb, mid-block before the bend near 100 m",
+    "slope_pct": 1.6,
+    "points": [
+      [
+        153.008467,
+        -27.500676
+      ],
+      [
+        153.008576,
+        -27.500595
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 21.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

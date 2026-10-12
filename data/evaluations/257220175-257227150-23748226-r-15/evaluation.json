@@ -1,0 +1,50 @@
+{
+  "candidate": "257220175-257227150-23748226-r-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 1 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow road edge hemmed by hedge and trees, with homes right behind.",
+  "reasons": [
+    "No clear ground beside lane",
+    "Dwellings 1 m and 11 m away",
+    "Steep fall: 8.7% mean, 18.8% max"
+  ],
+  "drivers": {
+    "seclusion": "Houses with pools sit just behind dense hedge along the west side; one dwelling 1 m from the line.",
+    "access_and_room": "Line runs along a hedge and tree strip with no verge or pull-off visible; nowhere to pull clear of the lane.",
+    "traffic": "Quiet side road next to a busy signalled junction at the top.",
+    "convention": "No signs; no vehicles seen parked on this edge."
+  },
+  "flags": [
+    "Steep: 8.7% mean, 18.8% max",
+    "Dwelling 1 m from line",
+    "Noise from the arterial junction at the north end"
+  ],
+  "sun_shade": "Heavy hedge and tree shade along the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact road edge under canopy",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 1,
+    "gated": false,
+    "slope_pct": 9,
+    "min_elevation_m": 37.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "58711322-156722668-1240058673-l-0",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a cleared building site, with a hall and field opposite.",
+  "reasons": [
+    "Backs onto cleared construction lot",
+    "Opposite side is a hall and open field",
+    "Nearest dwellings 15 m or more"
+  ],
+  "drivers": {
+    "seclusion": "West side is a cleared and construction lot (building 8 m, non-residential); nearest mapped dwellings are 15 m (at 50 m) and 7 m at 12 m, both clear of this section. Across the road are a hall and an open field.",
+    "access_and_room": "Sealed kerb with a parking lane; a car and a van are parked near here, so room to stop.",
+    "traffic": "Collector road with steady traffic and a junction at the south end.",
+    "convention": "Signed 2P Mon-Fri 7am-6pm, resident permits excepted; cars park along this kerb."
+  },
+  "flags": [
+    "Slope about 3%, at the limit",
+    "Building site may become a house",
+    "Timed 2P signs Mon-Fri daytime",
+    "Road noise"
+  ],
+  "sun_shade": "Open to the sun from the west and north; some tree shade at the north end.",
+  "rubbish": "Building materials on the lot; no dumped rubbish seen.",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Construction activity at night"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 26,
+    "to_m": 44,
+    "where": "Hawken Drive west kerb, along the cleared building site",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.998897,
+        -27.503787
+      ],
+      [
+        152.998781,
+        -27.503662
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 33.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,80 @@
+{
+  "candidate": "156773640-10310126569-1285046660-r-16",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb by a dental surgery on a busy road; homes across the road.",
+  "reasons": [
+    "Backs onto retail, no dwelling within 20 m",
+    "Plain kerb on busy road",
+    "A few cars park here"
+  ],
+  "drivers": {
+    "seclusion": "Retail building 8 m away; nearest dwelling 20 m, across the road.",
+    "access_and_room": "Kerbside lane with cars parked; room for a van, though only 16 m long.",
+    "traffic": "Busy through road with shops and a crossing nearby.",
+    "convention": "Cars park along it, but no signs or campers seen."
+  },
+  "flags": [
+    "Steep: about 4.1% mean, 6% max",
+    "Noise from busy road and shops",
+    "Brisbane River 278 m away, elevation 18 m"
+  ],
+  "sun_shade": "Trees shade the kerb from the south and east; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether parking is restricted by signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "Hawken Drive east kerb beside St Lucia Dental, opposite the houses",
+    "slope_pct": 4.1,
+    "points": [
+      [
+        153.005586,
+        -27.502596
+      ],
+      [
+        153.005592,
+        -27.50259
+      ],
+      [
+        153.005624,
+        -27.502559
+      ],
+      [
+        153.005662,
+        -27.502523
+      ],
+      [
+        153.00568,
+        -27.502508
+      ],
+      [
+        153.005696,
+        -27.502496
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 5.5,
+    "min_elevation_m": 18.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

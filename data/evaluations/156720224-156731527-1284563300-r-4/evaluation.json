@@ -1,0 +1,69 @@
+{
+  "candidate": "156720224-156731527-1284563300-r-4",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on Hawken Drive with homes 7 to 13 m away.",
+  "reasons": [
+    "Dwelling 7 m from kerb",
+    "Two more homes within 13 m",
+    "Short 24 m stretch, signed parking"
+  ],
+  "drivers": {
+    "seclusion": "Detached dwellings at 7, 11 and 13 m along the whole stretch.",
+    "access_and_room": "Kerbside parking lane with cars parked; room to stop.",
+    "traffic": "Busy through road beside shops and a bus stop.",
+    "convention": "Cars park here, but signs restrict daytime stays."
+  },
+  "flags": [
+    "Steep: about 4.6% mean, 7.8% max",
+    "Dwelling within 10 m rules it out",
+    "Busy road with shops and bus zone"
+  ],
+  "sun_shade": "Street trees shade the kerb partly; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 24,
+    "where": "Hawken Drive west kerb, beside the homes opposite the shops",
+    "slope_pct": 4.6,
+    "points": [
+      [
+        152.996255,
+        -27.501531
+      ],
+      [
+        152.996382,
+        -27.501684
+      ],
+      [
+        152.996399,
+        -27.501705
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 5.6,
+    "min_elevation_m": 36.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:33:34Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
