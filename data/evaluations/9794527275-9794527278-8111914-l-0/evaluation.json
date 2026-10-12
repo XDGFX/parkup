@@ -1,0 +1,48 @@
+{
+  "candidate": "9794527275-9794527278-8111914-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Twelve metres of roundabout exit kerb by a bus stop; nowhere to stop.",
+  "reasons": [
+    "Roundabout exit lane",
+    "Bus zone sign nearby",
+    "No room to pull out"
+  ],
+  "drivers": {
+    "seclusion": "Houses are 46 m or more away, but the kerb is exposed to a motorway-style road.",
+    "access_and_room": "The line follows the roundabout's outer edge into the exit lane; no verge, so a van would block it.",
+    "traffic": "Adjacent to a multi-lane arterial; roundabout and bus stop on the same stretch.",
+    "convention": "Bus Zone sign 14 m from the kerb line; no parked cars."
+  },
+  "flags": [
+    "Bus Zone sign 14 m away",
+    "Roundabout: stopping blocks the lane",
+    "Noise from the multi-lane road",
+    "Slope about 3%, max 5.8%"
+  ],
+  "sun_shade": "Open to sun; trees shade the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 46,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 29.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

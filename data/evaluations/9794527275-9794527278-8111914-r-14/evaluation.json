@@ -1,0 +1,47 @@
+{
+  "candidate": "9794527275-9794527278-8111914-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Seven metres of roundabout island kerb beside an arterial; nowhere to stop.",
+  "reasons": [
+    "Roundabout centre island",
+    "No room to pull out",
+    "Arterial road alongside"
+  ],
+  "drivers": {
+    "seclusion": "Houses are 34 m or more away, but the island sits in open carriageway.",
+    "access_and_room": "The line runs along the island edge; a van would stand in the circulating lane.",
+    "traffic": "Roundabout next to a multi-lane arterial with a bus stop.",
+    "convention": "No parked cars and no signs."
+  },
+  "flags": [
+    "Roundabout: stopping blocks the circulating lane",
+    "Noise from the arterial",
+    "Slope about 2.5%, max 4.4%"
+  ],
+  "sun_shade": "Open to sun; trees shade the west and south-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 34,
+    "gated": false,
+    "slope_pct": 4.4,
+    "min_elevation_m": 29.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

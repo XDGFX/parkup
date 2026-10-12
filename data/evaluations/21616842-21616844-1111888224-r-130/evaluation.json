@@ -1,0 +1,47 @@
+{
+  "candidate": "21616842-21616844-1111888224-r-130",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Median strip on a Moggill Road clearway; no place to stop.",
+  "reasons": [
+    "Clearway with tow-away sign",
+    "Median between traffic lanes",
+    "Main road, no kerbside parking"
+  ],
+  "drivers": {
+    "seclusion": "Strip sits between the carriageways of a busy arterial, with an apartment block 27 m away and commercial buildings beside it.",
+    "access_and_room": "The line runs along a raised median or island between lanes; no room to pull fully out of the traffic lane.",
+    "traffic": "Dual carriageway arterial with constant traffic.",
+    "convention": "Clearway sign, Mon-Sat 7am-7pm, tow-away; the stretch is next to a clearway and has no parking lane."
+  },
+  "flags": [
+    "Clearway tow-away sign nearby",
+    "Slope data unreliable over 10 m (about 24% mean)",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open to sun; trees on the north side shade part of it in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the clearway lane is usable overnight"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 27,
+    "gated": false,
+    "slope_pct": 10.9,
+    "min_elevation_m": 43.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

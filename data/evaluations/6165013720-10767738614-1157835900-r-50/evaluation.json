@@ -1,0 +1,46 @@
+{
+  "candidate": "6165013720-10767738614-1157835900-r-50",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "10 m of arterial kerb at a junction; clearway, no parking, no room.",
+  "reasons": [
+    "Clearway Mon-Fri 7am-7pm",
+    "Busy arterial, no parked cars",
+    "Kerb beside junction, no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Fully exposed at a signalised junction; homes 28 m or more away.",
+    "access_and_room": "Kerb of a through lane with a kerbed verge; no shoulder to pull off.",
+    "traffic": "Heavy arterial traffic and a junction.",
+    "convention": "No cars park along this kerb; clearway sign applies."
+  },
+  "flags": [
+    "Clearway Mon-Fri 7am-7pm",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open, no shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 28,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 24,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

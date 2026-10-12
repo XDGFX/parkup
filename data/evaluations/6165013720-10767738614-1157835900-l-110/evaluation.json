@@ -1,0 +1,47 @@
+{
+  "candidate": "6165013720-10767738614-1157835900-l-110",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway slip lane on a main road; no parking, no room to stop.",
+  "reasons": [
+    "Clearway Mon-Sat 7am-7pm",
+    "Busy through lanes, no parked cars",
+    "Marked chevrons, no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Open to the road and a car park across it; apartments 27 m away.",
+    "access_and_room": "Kerb is a multi-lane slip road with painted chevrons and no shoulder to pull off.",
+    "traffic": "Heavy arterial traffic at an Indooroopilly Moggill Road junction.",
+    "convention": "No cars park along this kerb; clearway sign applies."
+  },
+  "flags": [
+    "Clearway Mon-Sat 7am-7pm",
+    "Slope data unreliable: 11% mean over 48 m, flat for most of it",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open, no shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 27,
+    "gated": false,
+    "slope_pct": 4.9,
+    "min_elevation_m": 25.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

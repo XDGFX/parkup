@@ -1,0 +1,71 @@
+{
+  "candidate": "4920414455-4920414456-8111795-l-30",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet Carinya Street kerb backing onto bush, homes across a narrow road.",
+  "reasons": [
+    "East side backs onto dense bush",
+    "Houses 26 m+ away across road",
+    "Narrow street, no parking convention"
+  ],
+  "drivers": {
+    "seclusion": "East side is dense bush; nearest houses are 26 m or more away on the far side of the road, though one is 18 m at the north end.",
+    "access_and_room": "Sealed street, reachable by 2WD. Road is narrow with trees to the edge on the east, so room to pull fully out of the lane is limited.",
+    "traffic": "Quiet residential dead-end style street; arterial road lies beyond the bush to the east.",
+    "convention": "No parked cars or markings seen on this stretch, so no parking convention."
+  },
+  "flags": [
+    "Slight slope: about 3% over best section",
+    "Narrow lane, tight pull-off"
+  ],
+  "sun_shade": "Heavy tree canopy over the east side; shaded for most of the day, more in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "On-site signs"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 55,
+    "where": "East kerb of Carinya Street, bush on the east side, south of the first bend",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.96356,
+        -27.495974
+      ],
+      [
+        152.96356,
+        -27.495997
+      ],
+      [
+        152.96355,
+        -27.496091
+      ],
+      [
+        152.963519,
+        -27.496241
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 26,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 35.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,47 @@
+{
+  "candidate": "47456531-4916596642-1184806260-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Median barrier on a clearway arterial at the freeway ramp; nowhere to stop.",
+  "reasons": [
+    "Line sits on median barrier",
+    "Clearway sign, no parking lane",
+    "Live lanes both sides"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the north bank beyond the carriageway, but the line itself sits in the median of a busy arterial.",
+    "access_and_room": "Median barrier between carriageways; the north kerb has a continuous traffic lane and no pull-off.",
+    "traffic": "Heavy multi-lane traffic both ways.",
+    "convention": "Clearway sign nearby; no cars parked along the kerb."
+  },
+  "flags": [
+    "Clearway sign 12 m from line",
+    "Heavy arterial noise",
+    "Witton Creek 44 m away"
+  ],
+  "sun_shade": "Open to sun; bush on the north bank shades the morning edge.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Clearway hours (not given)"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 20.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

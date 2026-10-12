@@ -1,0 +1,72 @@
+{
+  "candidate": "osm-way-499459311",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Gravel car park beside the freeway, with parkland and no homes near.",
+  "reasons": [
+    "Cars parked and tyre tracks on gravel",
+    "No dwellings nearby; parkland behind",
+    "Freeway noise is a flag only"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto open parkland and trees; the only building within 23 m is a non-dwelling water-utility shed. Nearest homes are not in view.",
+    "access_and_room": "Open gravel surface about 15 m wide and 100 m long with vehicle tracks; room for a van to park clear.",
+    "traffic": "Busy freeway 20 m west, separated by a shared path; noise only.",
+    "convention": "Several cars parked in both images; mapped car park, free, open access."
+  },
+  "flags": [
+    "Freeway noise",
+    "Slope about 2% mean, 7% max near the entry",
+    "Entry from the roadway not clear in imagery"
+  ],
+  "sun_shade": "Mostly open; trees shade the south end and the eastern edge in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs and time limits on site",
+    "Street lighting",
+    "How the car park joins the road"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 50,
+    "where": "Northern half of the gravel car park, east of the freeway shared path",
+    "slope_pct": 2.1,
+    "points": [
+      [
+        152.96416,
+        -27.496811
+      ],
+      [
+        152.964282,
+        -27.496846
+      ],
+      [
+        152.964199,
+        -27.497145
+      ],
+      [
+        152.964192,
+        -27.497172
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 30.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

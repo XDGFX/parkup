@@ -1,0 +1,64 @@
+{
+  "candidate": "60667480-215134669-20292022-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside open reserve on a quiet street, with homes 20-25 m away.",
+  "reasons": [
+    "Backs onto open grass reserve",
+    "Houses about 20 m on both sides",
+    "Quiet residential street, one car parked"
+  ],
+  "drivers": {
+    "seclusion": "East side is open grass and trees; house on the same side about 20 m off at the north end and homes about 25 m across the road. No mapped buildings, so judged from imagery.",
+    "access_and_room": "Sealed street about two cars wide; grass verge on the east gives room to pull partly off.",
+    "traffic": "Quiet local street.",
+    "convention": "One car parked on this kerb; some parking habit but not established."
+  },
+  "flags": [
+    "Steep-ish: about 3% mean, 5% max",
+    "Low-lying: about 5 m elevation, drain 26 m away",
+    "Homes within about 25 m all round"
+  ],
+  "sun_shade": "Tree canopy on the east side shades the lane in the afternoon; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "Market Street North, east kerb at the south end beside the grass reserve",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        152.961517,
+        -27.507292
+      ],
+      [
+        152.961541,
+        -27.507168
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 5,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

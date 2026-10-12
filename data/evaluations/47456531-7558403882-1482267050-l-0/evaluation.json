@@ -1,0 +1,47 @@
+{
+  "candidate": "47456531-7558403882-1482267050-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Median barrier on Moggill Road clearway; live lanes, nowhere to stop.",
+  "reasons": [
+    "Line sits on median barrier",
+    "Clearway tow-away, Mon-Sat 7am-7pm",
+    "Arterial with no parking lane"
+  ],
+  "drivers": {
+    "seclusion": "Bush bank on the north side beyond the carriageway; houses across the road to the south.",
+    "access_and_room": "Line follows the median barrier between carriageways; the adjacent lane is live traffic with no pull-off.",
+    "traffic": "Busy multi-lane arterial with buses.",
+    "convention": "Clearway tow-away signs on this stretch; moving cars only, none parked."
+  },
+  "flags": [
+    "Clearway tow-away sign, Mon-Sat 7am-7pm",
+    "Arterial noise",
+    "Witton Creek 52 m away"
+  ],
+  "sun_shade": "Open to sun; bush on the north bank shades the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Clearway hours outside Mon-Sat"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 20.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

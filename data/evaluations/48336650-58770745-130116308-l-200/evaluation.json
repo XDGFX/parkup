@@ -1,0 +1,48 @@
+{
+  "candidate": "48336650-58770745-130116308-l-200",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Road bridge over the motorway; no parking, no room to stop.",
+  "reasons": [
+    "Overpass above a motorway",
+    "No parked cars, no shoulder",
+    "House 9 m from the far end"
+  ],
+  "drivers": {
+    "seclusion": "Fully exposed on a bridge deck; a house sits 9 m from the east end.",
+    "access_and_room": "Bridge deck with barriers either side; no space to pull out of the lane.",
+    "traffic": "Through road over a multi-lane motorway; heavy noise below.",
+    "convention": "Nobody parks on the bridge."
+  },
+  "flags": [
+    "Elevation data shows the bridge deck against the ground below, so the slope figures are unreliable",
+    "Motorway noise"
+  ],
+  "sun_shade": "Open to sun all day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 36.7,
+    "min_elevation_m": 26.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

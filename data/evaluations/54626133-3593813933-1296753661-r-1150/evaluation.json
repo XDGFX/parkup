@@ -1,0 +1,75 @@
+{
+  "candidate": "54626133-3593813933-1296753661-r-1150",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Meiers Road kerb beside an informal grass and gravel parking area among parkland.",
+  "reasons": [
+    "Parkland and golf course all round",
+    "Cars parked beside the road here",
+    "Nearest dwelling 55 m away"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto a grass and gravel parking area, then bush. Only mapped dwelling is an apartment block 55 m away at the far end.",
+    "access_and_room": "Wide grass verge and an open gravel area beside the lane give room to pull fully off.",
+    "traffic": "Park road with light traffic, bend slows cars.",
+    "convention": "About a dozen cars parked in the adjoining area in the 2022 image; no signs."
+  },
+  "flags": [
+    "Low-lying: min elevation 5.4 m, mapped waterway 30 m away",
+    "Esri shows the adjoining parking area empty, so use varies"
+  ],
+  "sun_shade": "Open to sun; trees on the east side shade the section in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether the gravel area is closed at night",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 90,
+    "to_m": 125,
+    "where": "North side of Meiers Road at the bend, beside the informal car park",
+    "slope_pct": 1.7,
+    "points": [
+      [
+        152.995989,
+        -27.514714
+      ],
+      [
+        152.995915,
+        -27.514682
+      ],
+      [
+        152.995819,
+        -27.514621
+      ],
+      [
+        152.995746,
+        -27.514563
+      ],
+      [
+        152.995715,
+        -27.514521
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 82,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

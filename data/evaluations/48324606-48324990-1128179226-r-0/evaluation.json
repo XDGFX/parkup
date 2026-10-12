@@ -1,0 +1,63 @@
+{
+  "candidate": "48324606-48324990-1128179226-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb on Waverley Road with homes 13-16 m behind the south kerb.",
+  "reasons": [
+    "Homes 13-16 m away on own side",
+    "Cars park along this road",
+    "Flat between 60 and 85 m"
+  ],
+  "drivers": {
+    "seclusion": "Houses 13-16 m back on the south side, more across the road; no bush or open ground.",
+    "access_and_room": "Kerbside lane; cars park along both sides in the imagery, so room to stop is fine.",
+    "traffic": "Two-lane suburban road with a centre line; moderate through traffic likely.",
+    "convention": "Parked cars on the north side in QLD imagery; no signs mapped; no sign of campers."
+  },
+  "flags": [
+    "Steep at ends: max grade about 15%, mean 7% overall",
+    "Homes 8 m from kerb at 126 m, avoid that end"
+  ],
+  "sun_shade": "Mostly open; street trees and gardens shade patches from the south; sun from north at midday.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 60,
+    "to_m": 85,
+    "where": "South kerb, mid-block, about 60 m east of the western corner",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        152.970505,
+        -27.492986
+      ],
+      [
+        152.970754,
+        -27.493027
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 3.5,
+    "min_elevation_m": 40.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

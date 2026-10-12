@@ -1,0 +1,46 @@
+{
+  "candidate": "11892496948-13064881692-1312703530-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "9 m kerb of a triangular island at a junction; too short, homes close.",
+  "reasons": [
+    "Under one van length",
+    "House 12 m away",
+    "Junction island, residential street"
+  ],
+  "drivers": {
+    "seclusion": "Dense houses; a detached home 12 m away and more within 30 m.",
+    "access_and_room": "Only 9 m of kerb on a junction island edge; a van would overhang the junction.",
+    "traffic": "Quiet residential street.",
+    "convention": "No signs; a couple of cars parked just past the island."
+  },
+  "flags": [
+    "Home within 12 m"
+  ],
+  "sun_shade": "Open on the island; tree shade from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 3.7,
+    "min_elevation_m": 18.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

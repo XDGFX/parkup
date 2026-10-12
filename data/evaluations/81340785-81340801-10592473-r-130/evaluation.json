@@ -1,0 +1,48 @@
+{
+  "candidate": "81340785-81340801-10592473-r-130",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Street-end turning bend beside a path mouth; no room to pull clear.",
+  "reasons": [
+    "Kerb meets a path apron, no verge",
+    "Van would stand in the turning lane",
+    "House 20 m south across island"
+  ],
+  "drivers": {
+    "seclusion": "Tree belt and arterial to the north; houses 20 m and 29 m south across a grass island.",
+    "access_and_room": "Kerb on the outside of a narrow turning bend, running into the paved mouth of a footpath; no pull-off beside the lane.",
+    "traffic": "Arterial road 20 m north, screened by trees.",
+    "convention": "No parked cars here; a 4P school-day sign is mapped 13 m away."
+  },
+  "flags": [
+    "Arterial road noise",
+    "Low-lying: about 6.5 m elevation, nearest waterway 93 m",
+    "Mapped gate 19 m away has a mapped way round"
+  ],
+  "sun_shade": "Heavy tree and powerline cover to the north and east; open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Whether the path apron is gated"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 6.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

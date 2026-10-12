@@ -1,0 +1,133 @@
+{
+  "id": "60667480-215134669-20292022-r-0",
+  "street": "Market Street North",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.961517,
+      -27.507292
+    ],
+    [
+      152.961569,
+      -27.507026
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "east",
+  "length_m": 30,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9616053,
+      "lat": -27.5083305,
+      "metres": 116,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.961517,
+        "lat": -27.507292,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 5
+      },
+      {
+        "lon": 152.961526,
+        "lat": -27.507248,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 4.97
+      },
+      {
+        "lon": 152.961534,
+        "lat": -27.507203,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 5.21
+      },
+      {
+        "lon": 152.961543,
+        "lat": -27.507159,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 5.35
+      },
+      {
+        "lon": 152.961552,
+        "lat": -27.507115,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 5.42
+      },
+      {
+        "lon": 152.96156,
+        "lat": -27.50707,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 5.64
+      },
+      {
+        "lon": 152.961569,
+        "lat": -27.507026,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 5.9
+      },
+      {
+        "lon": 152.961569,
+        "lat": -27.507026,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 5.9
+      }
+    ],
+    "min_elevation_m": 5,
+    "max_elevation_m": 5.9,
+    "mean_grade_pct": 3.2,
+    "max_grade_pct": 5.2
+  },
+  "waterway": {
+    "name": null,
+    "metres": 26
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 30,
+      "length_m": 30,
+      "images": {
+        "esri": ".cache/imagery/60667480-215134669-20292022-r-0/chunk1-esri.jpg",
+        "qld": ".cache/imagery/60667480-215134669-20292022-r-0/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        65,
+        90
+      ],
+      "image_px": [
+        434,
+        597
+      ]
+    }
+  ]
+}

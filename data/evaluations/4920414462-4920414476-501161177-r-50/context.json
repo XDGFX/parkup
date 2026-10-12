@@ -1,0 +1,116 @@
+{
+  "id": "4920414462-4920414476-501161177-r-50",
+  "street": "",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.962925,
+      -27.498482
+    ],
+    [
+      152.962982,
+      -27.498426
+    ],
+    [
+      152.963024,
+      -27.498378
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "east",
+  "length_m": 15,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9619125,
+      "lat": -27.5009232,
+      "metres": 289,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.962925,
+        "lat": -27.498482,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 36.67
+      },
+      {
+        "lon": 152.962959,
+        "lat": -27.498449,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 36.9
+      },
+      {
+        "lon": 152.962992,
+        "lat": -27.498415,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 36.77
+      },
+      {
+        "lon": 152.963023,
+        "lat": -27.498379,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 36.7
+      },
+      {
+        "lon": 152.963024,
+        "lat": -27.498378,
+        "at_m": 15.1,
+        "line": 0,
+        "elevation_m": 36.7
+      }
+    ],
+    "min_elevation_m": 36.7,
+    "max_elevation_m": 36.9,
+    "mean_grade_pct": 2.1,
+    "max_grade_pct": 4.6
+  },
+  "waterway": {
+    "name": null,
+    "metres": 80
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 15,
+      "length_m": 15,
+      "images": {
+        "esri": ".cache/imagery/4920414462-4920414476-501161177-r-50/chunk1-esri.jpg",
+        "qld": ".cache/imagery/4920414462-4920414476-501161177-r-50/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        70,
+        72
+      ],
+      "image_px": [
+        465,
+        477
+      ]
+    }
+  ]
+}

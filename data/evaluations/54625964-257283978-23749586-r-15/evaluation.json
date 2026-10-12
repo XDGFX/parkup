@@ -1,0 +1,47 @@
+{
+  "candidate": "54625964-257283978-23749586-r-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "A 15 m traffic island kerb at a junction; no room to park.",
+  "reasons": [
+    "Raised island at a junction",
+    "Mouth of a busy intersection",
+    "Homes close on all sides"
+  ],
+  "drivers": {
+    "seclusion": "Homes within 17-33 m all round, open to the junction.",
+    "access_and_room": "The line runs along a raised traffic island between lanes, so no space to pull out of traffic.",
+    "traffic": "Junction of through roads; constant turning traffic.",
+    "convention": "No parked cars along the island; no parking lane."
+  },
+  "flags": [
+    "Steep: about 10% grade",
+    "Traffic island, not a parking kerb"
+  ],
+  "sun_shade": "Open grass island, little shade; mostly full sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerb height",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 26,
+    "gated": false,
+    "slope_pct": 10.1,
+    "min_elevation_m": 25.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

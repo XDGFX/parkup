@@ -1,0 +1,66 @@
+{
+  "candidate": "60667481-60667482-20292022-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bush-side kerb above the motorway; houses 20-30 m across the road.",
+  "reasons": [
+    "Backs onto bush and motorway verge",
+    "Houses across road, 20 m or more",
+    "Narrow street, no parking convention"
+  ],
+  "drivers": {
+    "seclusion": "Bush strip and motorway on this side; houses across the narrow street, nearest in the section about 20-30 m, 10 m at 28 m along.",
+    "access_and_room": "Narrow sealed lane; only a thin grass verge on this side before trees and the motorway fence, so room to pull fully off is doubtful.",
+    "traffic": "Quiet street, but constant motorway noise from the south.",
+    "convention": "No cars parked along this kerb; one parked near the north houses."
+  },
+  "flags": [
+    "Motorway noise",
+    "Steeper to the south: about 4.5% mean, 14% max over the full stretch",
+    "Low-lying: about 6 m elevation, waterway 39 m away",
+    "House 10 m from the kerb at 28 m along",
+    "Mapped gate 66 m away has a way round it"
+  ],
+  "sun_shade": "Tree canopy on the south and east sides shades the morning; open to the afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the verge is wide enough to clear the lane",
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 22,
+    "where": "Market Street North, bush side of the bend nearest the footpath, before the nearest house",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.961227,
+        -27.507813
+      ],
+      [
+        152.961078,
+        -27.50796
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 5.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

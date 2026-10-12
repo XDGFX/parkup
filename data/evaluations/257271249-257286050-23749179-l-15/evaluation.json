@@ -1,0 +1,72 @@
+{
+  "candidate": "257271249-257286050-23749179-l-15",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Park and bush kerb on a quiet street; homes 27 m or more across the road.",
+  "reasons": [
+    "Backs onto park and trees",
+    "Nearest home about 27 m, across road",
+    "Vehicles parked along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "South side is open park and tree cover; homes sit on the far side of the road at 27 m or more.",
+    "access_and_room": "Sealed street with a grass verge beside the kerb; a vehicle is already parked on this stretch, so a van fits.",
+    "traffic": "Quiet residential street, little through traffic.",
+    "convention": "Utes and cars park along this kerb; a van would not stand out."
+  },
+  "flags": [
+    "No Stopping on school days 2-4 pm; sign position along the kerb not shown",
+    "Low-lying: about 10 m elevation, a mapped waterway 32 m away",
+    "Construction site visible on the north side near 20-45 m"
+  ],
+  "sun_shade": "Heavy tree canopy over the kerb; shade most of the day, mainly from the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact start of the school no-stopping zone"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 35,
+    "to_m": 65,
+    "where": "South kerb on the bend, where the park and bush meet the road, about 40 m from the Moggill-side junction",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        152.987713,
+        -27.508364
+      ],
+      [
+        152.987679,
+        -27.50837
+      ],
+      [
+        152.987503,
+        -27.508348
+      ],
+      [
+        152.987414,
+        -27.508328
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 35,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 10.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

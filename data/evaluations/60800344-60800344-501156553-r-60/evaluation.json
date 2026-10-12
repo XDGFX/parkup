@@ -1,0 +1,47 @@
+{
+  "candidate": "60800344-60800344-501156553-r-60",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Six metres of kerb round a cul-de-sac island; too short for a van.",
+  "reasons": [
+    "Only 6 m, under a van length",
+    "Cul-de-sac turning loop, would block it",
+    "Homes 19-24 m away"
+  ],
+  "drivers": {
+    "seclusion": "Tree island in a residential cul-de-sac; houses 19-24 m on all sides.",
+    "access_and_room": "Kerb is a 6 m arc of the turning loop; a van would sit in the turning circle.",
+    "traffic": "Quiet dead-end street, local traffic only.",
+    "convention": "No parked cars visible on the loop."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Gentle slope: about 1.8% mean"
+  ],
+  "sun_shade": "Heavy tree canopy over the island, shading it most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Whether the loop is wide enough to pass a parked van"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 43.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,76 @@
+{
+  "candidate": "4920414476-4920414483-501161179-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Cul-de-sac bulb edge backing onto bush beside a motorway, homes about 20 m west.",
+  "reasons": [
+    "Bush behind, motorway beyond",
+    "Homes about 15-20 m across the bulb",
+    "Van already parked in the bulb"
+  ],
+  "drivers": {
+    "seclusion": "East side is bush then the motorway. Unmapped houses stand roughly 15-20 m west around the turning circle; OSM lists no buildings but the imagery shows several.",
+    "access_and_room": "Sealed dead-end turning circle, easy for a 2WD van; a white van is parked in the bulb in the Esri image, so room exists. North of about 12 m the line runs through bush with no road.",
+    "traffic": "Dead-end with little through traffic; constant motorway noise from the east.",
+    "convention": "A parked van in the bulb suggests parking there is tolerated; no signs or markings seen."
+  },
+  "flags": [
+    "Steep: about 4.5% at best section, 9% mean over the whole line",
+    "Motorway noise",
+    "Houses within 25 m not in OSM"
+  ],
+  "sun_shade": "Open at the bulb with bush shade creeping in from the east in the morning.",
+  "rubbish": "Some scattered debris in the bush strip north of the bulb",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether the bulb is used by residents for overflow parking"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "East edge of the Carinya Street turning circle, before the bush strip begins",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        152.963034,
+        -27.49838
+      ],
+      [
+        152.96306,
+        -27.498343
+      ],
+      [
+        152.963076,
+        -27.498318
+      ],
+      [
+        152.963088,
+        -27.498292
+      ],
+      [
+        152.96309,
+        -27.498285
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 5.1,
+    "min_elevation_m": 36.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

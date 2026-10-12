@@ -1,0 +1,68 @@
+{
+  "candidate": "4920414462-4920414476-501161177-r-50",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "East edge of a cul-de-sac turning circle, backing onto bush, with homes about 17 m off.",
+  "reasons": [
+    "Bush behind, busy road beyond",
+    "Homes about 17 m across the circle",
+    "Other cars already parked here"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush on the east side screens the main road; houses on the west side of the bulb sit about 17 m away.",
+    "access_and_room": "Sealed cul-de-sac with room to pull in off the through lane; a white van and two cars are parked in the bulb.",
+    "traffic": "Busy road about 40 m east, hidden by bush; the cul-de-sac itself is quiet.",
+    "convention": "Cars park in the bulb, so a van will not stand out; no signs."
+  },
+  "flags": [
+    "Noise from the main road to the east",
+    "Slope about 2%, max 4.6% on one 5 m step",
+    "Homes about 17 m away across the turning circle"
+  ],
+  "sun_shade": "Bush shades the east and south; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "East side of the cul-de-sac head, beside the bush strip",
+    "slope_pct": 2.1,
+    "points": [
+      [
+        152.962925,
+        -27.498482
+      ],
+      [
+        152.962982,
+        -27.498426
+      ],
+      [
+        152.963023,
+        -27.498379
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 36.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

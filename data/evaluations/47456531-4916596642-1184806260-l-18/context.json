@@ -1,0 +1,224 @@
+{
+  "id": "47456531-4916596642-1184806260-l-18",
+  "street": "Moggill Road",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.964045,
+      -27.502203
+    ],
+    [
+      152.963898,
+      -27.502279
+    ],
+    [
+      152.963631,
+      -27.502413
+    ],
+    [
+      152.963599,
+      -27.50243
+    ],
+    [
+      152.963583,
+      -27.502438
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "south",
+  "length_m": 53,
+  "signs": [
+    {
+      "street": "WESTERN FREEWAY ON RAMP",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 2.8
+    },
+    {
+      "street": "WESTERN FREEWAY ON RAMP",
+      "restriction": "End C",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Not applicable",
+      "metres_from_kerb_line": 3.4
+    }
+  ],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 43,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9644783,
+          -27.5021676
+        ],
+        [
+          152.9645265,
+          -27.5021603
+        ],
+        [
+          152.9645579,
+          -27.502182
+        ],
+        [
+          152.9645887,
+          -27.5022845
+        ],
+        [
+          152.9645158,
+          -27.5023018
+        ],
+        [
+          152.9644783,
+          -27.5021676
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9619125,
+      "lat": -27.5009232,
+      "metres": 236,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.964045,
+        "lat": -27.502203,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 21.07
+      },
+      {
+        "lon": 152.964001,
+        "lat": -27.502226,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 21.05
+      },
+      {
+        "lon": 152.963957,
+        "lat": -27.502248,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 20.97
+      },
+      {
+        "lon": 152.963914,
+        "lat": -27.502271,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 20.91
+      },
+      {
+        "lon": 152.96387,
+        "lat": -27.502293,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 20.95
+      },
+      {
+        "lon": 152.963825,
+        "lat": -27.502315,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 20.89
+      },
+      {
+        "lon": 152.963781,
+        "lat": -27.502338,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 20.89
+      },
+      {
+        "lon": 152.963737,
+        "lat": -27.50236,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 20.78
+      },
+      {
+        "lon": 152.963693,
+        "lat": -27.502382,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 20.73
+      },
+      {
+        "lon": 152.963649,
+        "lat": -27.502404,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 20.7
+      },
+      {
+        "lon": 152.963605,
+        "lat": -27.502427,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 20.66
+      },
+      {
+        "lon": 152.963583,
+        "lat": -27.502438,
+        "at_m": 52.5,
+        "line": 0,
+        "elevation_m": 20.71
+      }
+    ],
+    "min_elevation_m": 20.7,
+    "max_elevation_m": 21.1,
+    "mean_grade_pct": 1.1,
+    "max_grade_pct": 2.2
+  },
+  "waterway": {
+    "name": "Witton Creek",
+    "metres": 58
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 53,
+      "length_m": 53,
+      "images": {
+        "esri": ".cache/imagery/47456531-4916596642-1184806260-l-18/chunk1-esri.jpg",
+        "qld": ".cache/imagery/47456531-4916596642-1184806260-l-18/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        106,
+        86
+      ],
+      "image_px": [
+        704,
+        574
+      ]
+    }
+  ]
+}

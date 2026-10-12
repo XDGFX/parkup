@@ -1,0 +1,67 @@
+{
+  "candidate": "48336650-58770745-130116308-l-330",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Plain kerb where cars park; houses 12-15 m behind the kerb.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Houses 12-15 m on the same side",
+    "Flat, about 0.5% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 12 m and 15 m away on the kerb's own side; more homes across the road at 22 m or more.",
+    "access_and_room": "Wide sealed street with a kerbside lane; a car is parked in the same spot in both images.",
+    "traffic": "Moving traffic on a through street; cars seen driving past.",
+    "convention": "Several cars parked along both kerbs; no signs, so a van would not stand out."
+  },
+  "flags": [
+    "Homes within 12 m on the same side",
+    "Through street, some traffic noise"
+  ],
+  "sun_shade": "A large tree shades the section from the north and east; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Whether parking is limited off-peak"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "North kerb of Jerrang Street, shaded by a large tree",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.95924,
+        -27.511317
+      ],
+      [
+        152.959324,
+        -27.511313
+      ],
+      [
+        152.959341,
+        -27.511313
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 0.8,
+    "min_elevation_m": 34.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

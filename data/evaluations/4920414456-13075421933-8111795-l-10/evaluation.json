@@ -1,0 +1,62 @@
+{
+  "candidate": "4920414456-13075421933-8111795-l-10",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Very steep narrow kerb, houses 16 m away, no room to pull out.",
+  "reasons": [
+    "Grade about 12% mean, 18% max",
+    "Houses 16-17 m away on west side",
+    "Narrow lane, bush right to edge"
+  ],
+  "drivers": {
+    "seclusion": "East side is bush, but houses sit 16 m and 17 m away across a narrow road.",
+    "access_and_room": "Sealed street, but the east side is trees to the lane edge, so no clear level ground to pull off.",
+    "traffic": "Quiet street; a busy road runs beyond the bush to the east.",
+    "convention": "No parked cars or markings seen."
+  },
+  "flags": [
+    "Steep: about 12% mean, 18% max grade",
+    "Houses within 25 m"
+  ],
+  "sun_shade": "Dense tree canopy over the east side; shaded most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall and kerb height",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Top end of the east kerb, just south of the Carinya Street bend",
+    "slope_pct": 9,
+    "points": [
+      [
+        152.963484,
+        -27.496412
+      ],
+      [
+        152.963466,
+        -27.4965
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 12.1,
+    "min_elevation_m": 33.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,225 @@
+{
+  "id": "4920414476-4920414483-501161179-r-0",
+  "street": "Carinya Street",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.963034,
+      -27.49838
+    ],
+    [
+      152.96306,
+      -27.498343
+    ],
+    [
+      152.963076,
+      -27.498318
+    ],
+    [
+      152.963088,
+      -27.498292
+    ],
+    [
+      152.963096,
+      -27.498266
+    ],
+    [
+      152.963222,
+      -27.497611
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "east",
+  "length_m": 88,
+  "signs": [],
+  "buildings": [],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.963034,
+        "lat": -27.49838,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 36.69
+      },
+      {
+        "lon": 152.963061,
+        "lat": -27.498342,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 36.36
+      },
+      {
+        "lon": 152.963084,
+        "lat": -27.498302,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 36.18
+      },
+      {
+        "lon": 152.963097,
+        "lat": -27.498259,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 35.82
+      },
+      {
+        "lon": 152.963106,
+        "lat": -27.498214,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 35.26
+      },
+      {
+        "lon": 152.963114,
+        "lat": -27.49817,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 34.48
+      },
+      {
+        "lon": 152.963123,
+        "lat": -27.498126,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 33.65
+      },
+      {
+        "lon": 152.963132,
+        "lat": -27.498081,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 32.93
+      },
+      {
+        "lon": 152.96314,
+        "lat": -27.498037,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 32.26
+      },
+      {
+        "lon": 152.963149,
+        "lat": -27.497993,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 31.63
+      },
+      {
+        "lon": 152.963157,
+        "lat": -27.497948,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 31.28
+      },
+      {
+        "lon": 152.963166,
+        "lat": -27.497904,
+        "at_m": 55,
+        "line": 0,
+        "elevation_m": 30.88
+      },
+      {
+        "lon": 152.963174,
+        "lat": -27.49786,
+        "at_m": 60,
+        "line": 0,
+        "elevation_m": 30.61
+      },
+      {
+        "lon": 152.963183,
+        "lat": -27.497815,
+        "at_m": 65,
+        "line": 0,
+        "elevation_m": 30.76
+      },
+      {
+        "lon": 152.963191,
+        "lat": -27.497771,
+        "at_m": 70,
+        "line": 0,
+        "elevation_m": 31.19
+      },
+      {
+        "lon": 152.9632,
+        "lat": -27.497727,
+        "at_m": 75,
+        "line": 0,
+        "elevation_m": 31.64
+      },
+      {
+        "lon": 152.963208,
+        "lat": -27.497682,
+        "at_m": 80,
+        "line": 0,
+        "elevation_m": 32.07
+      },
+      {
+        "lon": 152.963217,
+        "lat": -27.497638,
+        "at_m": 85,
+        "line": 0,
+        "elevation_m": 32.41
+      },
+      {
+        "lon": 152.963222,
+        "lat": -27.497611,
+        "at_m": 88.1,
+        "line": 0,
+        "elevation_m": 32.53
+      }
+    ],
+    "min_elevation_m": 30.6,
+    "max_elevation_m": 36.7,
+    "mean_grade_pct": 9,
+    "max_grade_pct": 16.6
+  },
+  "waterway": {
+    "name": null,
+    "metres": 81
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 92,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 88,
+      "length_m": 88,
+      "images": {
+        "esri": ".cache/imagery/4920414476-4920414483-501161179-r-0/chunk1-esri.jpg",
+        "qld": ".cache/imagery/4920414476-4920414483-501161179-r-0/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        79,
+        146
+      ],
+      "image_px": [
+        524,
+        970
+      ]
+    }
+  ]
+}

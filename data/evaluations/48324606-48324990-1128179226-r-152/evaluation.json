@@ -1,0 +1,47 @@
+{
+  "candidate": "48324606-48324990-1128179226-r-152",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Eight-metre kerb stub at a junction corner, shorter than a van, homes 11 m away.",
+  "reasons": [
+    "Only 8 m long, under a van length",
+    "Sits at a side-street junction",
+    "Homes 11-12 m from the kerb"
+  ],
+  "drivers": {
+    "seclusion": "Houses 11-15 m behind the south kerb and a junction beside it; no screening.",
+    "access_and_room": "Too short for a van and at a corner mouth, so parking here would block the junction.",
+    "traffic": "Two-lane suburban road at a side-street intersection.",
+    "convention": "No signs mapped; one car parked on the west side in the imagery."
+  },
+  "flags": [
+    "Mean grade about 6%, steeper than 3%",
+    "Junction corner, visibility and turning room"
+  ],
+  "sun_shade": "Open to sky; small trees on the verge give light shade from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 6.4,
+    "min_elevation_m": 43.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

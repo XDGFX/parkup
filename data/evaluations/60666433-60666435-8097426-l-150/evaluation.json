@@ -1,0 +1,67 @@
+{
+  "candidate": "60666433-60666435-8097426-l-150",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Dead-end lane end under trees, homes 30 m or more away.",
+  "reasons": [
+    "Backs onto dense bush",
+    "Homes 30 m+ from the section",
+    "Vehicle already parked at the lane end"
+  ],
+  "drivers": {
+    "seclusion": "Trees to the north; nearest dwellings 30-36 m south and west beyond vegetation.",
+    "access_and_room": "Sealed lane runs to a dead end with a gravel apron; a vehicle is parked there, so a van fits.",
+    "traffic": "Dead end, so little through traffic; a building site sits to the east.",
+    "convention": "Cars park along the lane; 2P weekday daytime signs only, nothing overnight."
+  },
+  "flags": [
+    "Flat: about 2% grade",
+    "Building site on the east edge, possible weekday noise",
+    "Weekday 2P limit 9 AM to 5 PM"
+  ],
+  "sun_shade": "Heavy tree cover on the north and east; mostly shaded.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether the apron is private land"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 24,
+    "where": "Dead-end gravel and sealed lane end, bush on the north side",
+    "slope_pct": 1.7,
+    "points": [
+      [
+        152.971004,
+        -27.503731
+      ],
+      [
+        152.97109,
+        -27.503755
+      ],
+      [
+        152.97111,
+        -27.503793
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 29,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 23.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

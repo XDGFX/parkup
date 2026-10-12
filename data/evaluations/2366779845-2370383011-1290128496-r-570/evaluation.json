@@ -1,0 +1,47 @@
+{
+  "candidate": "2366779845-2370383011-1290128496-r-570",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "10 m of kerb at a laboratory access mouth; no stopping, house 17 m.",
+  "reasons": [
+    "No Stopping Any Time sign",
+    "Under one van length",
+    "Access mouth, house 17 m away"
+  ],
+  "drivers": {
+    "seclusion": "Tree-covered, but a house sits 17 m away and the lab access is next to it.",
+    "access_and_room": "Only a short stretch at an access driveway mouth; no room to stop clear.",
+    "traffic": "Quiet access road off Discovery Drive.",
+    "convention": "No Stopping Any Time applies; nobody parks here."
+  },
+  "flags": [
+    "No Stopping Any Time",
+    "Home within 17 m",
+    "Gate mapped 4 m away"
+  ],
+  "sun_shade": "Dense canopy shade from all sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 3.8,
+    "min_elevation_m": 23.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

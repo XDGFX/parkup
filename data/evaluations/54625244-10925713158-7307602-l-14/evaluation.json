@@ -1,0 +1,49 @@
+{
+  "candidate": "54625244-10925713158-7307602-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep winding road in bush; no verge or parked cars.",
+  "reasons": [
+    "No pull-off, bush against the edge",
+    "Winding through road, no parked cars",
+    "Steep, up to 15% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush both sides; nearest home about 31 m up the slope. Seclusion would be good.",
+    "access_and_room": "The road edge meets bush with only a thin dirt strip; no clear space to pull out of the lane on the bend.",
+    "traffic": "Marked through road with a centre line; no cars seen parked along it.",
+    "convention": "No parking convention; no signs."
+  },
+  "flags": [
+    "Steep: about 11% mean, 15% max grade",
+    "Blind bend with poor sight lines",
+    "Mapped waterway 163 m away"
+  ],
+  "sun_shade": "Full canopy cover from both sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Width of the verge under the trees"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 31,
+    "gated": false,
+    "slope_pct": 11,
+    "min_elevation_m": 31.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,47 @@
+{
+  "candidate": "54626283-54626283-24300437-r-30",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Nine metres of landscaped traffic island kerb in a turning circle; unusable.",
+  "reasons": [
+    "Kerb of a central island",
+    "Only 9 m, shorter than a van",
+    "Houses all around the circle"
+  ],
+  "drivers": {
+    "seclusion": "Ringed by homes and a large building within about 25-30 m on all sides.",
+    "access_and_room": "The line follows a planted island in the middle of a turning circle; a van would block the circulating lane.",
+    "traffic": "Quiet cul-de-sac traffic.",
+    "convention": "Cars park around the court edge, but not on the island."
+  },
+  "flags": [
+    "Section shorter than a van",
+    "Homes within about 25 m all round"
+  ],
+  "sun_shade": "Open grass island, sun all day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 4.2,
+    "min_elevation_m": 16.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

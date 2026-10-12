@@ -1,0 +1,47 @@
+{
+  "candidate": "60667481-60667483-8097665-l-330",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "7 m line sits in dense bush with no road or track.",
+  "reasons": [
+    "No road or track visible under canopy",
+    "No vehicle tracks or parked cars",
+    "House 17 m away"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush, but a house is 17 m at the start and more homes lie 34 m south.",
+    "access_and_room": "No formed road reaches the line in either image; no tyre tracks; treed ground.",
+    "traffic": "No traffic on site.",
+    "convention": "No sign of parking use."
+  },
+  "flags": [
+    "Steep: about 5% mean, 8.6% max",
+    "Low-lying: about 11 m elevation, mapped waterway 30 m away"
+  ],
+  "sun_shade": "Full tree canopy overhead.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether Aragon Street itself continues here",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 5.4,
+    "min_elevation_m": 10.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

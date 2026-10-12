@@ -1,0 +1,76 @@
+{
+  "candidate": "60667482-60667483-8119413-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Grass verge at the road's end; houses 18-19 m across the road.",
+  "reasons": [
+    "Wide grass verge beside the lane",
+    "Homes 18-19 m away across road",
+    "No parked cars; quiet residential street"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings are 18 m and 19 m across the road; southern houses sit further back behind trees. Arterial and trees lie to the east.",
+    "access_and_room": "Sealed street with a mown grass verge about as wide as the lane on the south side; a van can pull off.",
+    "traffic": "Dead-end residential street; arterial road 30 m east with a screening tree belt.",
+    "convention": "No cars parked along this stretch in either image."
+  },
+  "flags": [
+    "Steep: about 6.5% rise from 0 to 25 m",
+    "Arterial road noise from the east",
+    "Low-lying: about 8-10 m elevation, nearest waterway 114 m"
+  ],
+  "sun_shade": "Mostly open; tree shade from the east and south at the 0 m end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 2,
+    "to_m": 25,
+    "where": "South verge at the bend, beside the arterial and opposite two houses",
+    "slope_pct": 6.5,
+    "points": [
+      [
+        152.960599,
+        -27.508316
+      ],
+      [
+        152.960597,
+        -27.508316
+      ],
+      [
+        152.960498,
+        -27.50831
+      ],
+      [
+        152.960407,
+        -27.508297
+      ],
+      [
+        152.960368,
+        -27.508291
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 7.3,
+    "min_elevation_m": 8.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

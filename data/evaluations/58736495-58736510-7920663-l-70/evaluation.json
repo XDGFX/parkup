@@ -1,0 +1,48 @@
+{
+  "candidate": "58736495-58736510-7920663-l-70",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a street corner with homes 11 to 15 m away.",
+  "reasons": [
+    "House 11 m away on the same side",
+    "Only 13 m, barely a van length",
+    "Narrow residential corner, no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes at 11, 12 and 15 m, with gardens and houses all round.",
+    "access_and_room": "Narrow sealed street bending at a corner; the 13 m of kerb is hemmed by hedges and a driveway, so a van would sit in the lane.",
+    "traffic": "Quiet residential street.",
+    "convention": "One car parked further down the street; no parking convention at this corner."
+  },
+  "flags": [
+    "Dwelling within 15 m",
+    "Section about one van length"
+  ],
+  "sun_shade": "Part shaded by garden trees on both sides; open overhead.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 20.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

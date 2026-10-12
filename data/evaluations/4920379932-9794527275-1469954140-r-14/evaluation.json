@@ -1,0 +1,46 @@
+{
+  "candidate": "4920379932-9794527275-1469954140-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "8 m kerb at a roundabout mouth, beside a bus zone; too short, no room.",
+  "reasons": [
+    "Bus zone sign at this kerb",
+    "Under one van length",
+    "Roundabout splitter island, no parking"
+  ],
+  "drivers": {
+    "seclusion": "Houses 27 m away on tree-lined street, but the spot is a roundabout approach.",
+    "access_and_room": "Only 8 m of kerb beside a painted splitter island; a van would block the lane.",
+    "traffic": "Roundabout with a main road alongside; buses stop here.",
+    "convention": "Bus zone; no cars parked along it."
+  },
+  "flags": [
+    "Bus zone sign",
+    "Stretch shorter than a van"
+  ],
+  "sun_shade": "Heavy tree shade over the kerb, mostly from the east and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 27,
+    "gated": false,
+    "slope_pct": 5.4,
+    "min_elevation_m": 29.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

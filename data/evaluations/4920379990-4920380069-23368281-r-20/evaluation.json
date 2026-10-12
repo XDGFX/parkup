@@ -1,0 +1,47 @@
+{
+  "candidate": "4920379990-4920380069-23368281-r-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow steep dead-end lane; no room to pull clear, homes close.",
+  "reasons": [
+    "Lane narrow, bank and trees beside it",
+    "Steep: 8% mean, 20% max",
+    "Houses 17-22 m away"
+  ],
+  "drivers": {
+    "seclusion": "Houses 17 m and 22 m away with more beyond; no cars parked to blend in with.",
+    "access_and_room": "Narrow sealed lane with a bank and trees on the west side; no pull-off wide enough for a van.",
+    "traffic": "Quiet dead-end street.",
+    "convention": "No parked cars along the lane in either image."
+  },
+  "flags": [
+    "Steep: 8.4% mean, 20% max",
+    "Witton Creek 63 m away, elevation 43-46 m so not flood-prone"
+  ],
+  "sun_shade": "Tree canopy overhead from the west and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 9.8,
+    "min_elevation_m": 43.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

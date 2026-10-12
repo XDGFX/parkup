@@ -1,0 +1,63 @@
+{
+  "candidate": "58770747-81340778-10592474-l-250",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Dirt shoulder backing onto wooded reserve; houses 30 m or more away.",
+  "reasons": [
+    "Backs onto bush and trees",
+    "Dirt shoulder, a car already parked",
+    "Nearest home about 30 m"
+  ],
+  "drivers": {
+    "seclusion": "West side is dense trees and reserve; nearest mapped home about 30 m off through the trees, and houses across the road are 47 m or more.",
+    "access_and_room": "Sealed street with a dirt shoulder on the west wide enough for a van to stand off the lane.",
+    "traffic": "Quiet residential street; a few cars parked nearby.",
+    "convention": "A vehicle is parked on this shoulder in Esri, so parking here is normal."
+  },
+  "flags": [
+    "Steep: about 8.5% grade",
+    "House 17 m from the kerb at the south end"
+  ],
+  "sun_shade": "Tree canopy over the west side shades the section, mostly in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall on the sloped shoulder",
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 9,
+    "to_m": 19,
+    "where": "Market Street South, west edge beside the wooded reserve, above the side-street corner",
+    "slope_pct": 8.5,
+    "points": [
+      [
+        152.960902,
+        -27.508982
+      ],
+      [
+        152.960951,
+        -27.508904
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 24,
+    "gated": false,
+    "slope_pct": 7.4,
+    "min_elevation_m": 9.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

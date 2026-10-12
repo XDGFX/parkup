@@ -1,0 +1,63 @@
+{
+  "candidate": "81340778-81340801-10592474-l-0",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wide dirt verge backing onto bush beside Moggill Road; homes across the road.",
+  "reasons": [
+    "Bush strip on the west side",
+    "Nearest home 25 m, across road",
+    "Wide dirt verge to pull onto"
+  ],
+  "drivers": {
+    "seclusion": "West side backs onto a treed bush strip with Moggill Road beyond. Nearest mapped dwellings are 25 m or more away across the street.",
+    "access_and_room": "Wide bare dirt verge beside the lane gives room to pull fully off. A car is parked on the opposite kerb.",
+    "traffic": "Quiet side street; Moggill Road noise carries from the bush strip.",
+    "convention": "No signs. Cars park on this street."
+  },
+  "flags": [
+    "Steep: about 4.6% grade over the section, 5.9% mean over the stretch",
+    "Low-lying: min elevation 6.6 m",
+    "Moggill Road traffic noise"
+  ],
+  "sun_shade": "Tree canopy on the west side shades the section in the afternoon; open to morning sun over the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall of the verge"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 38,
+    "where": "West kerb of Market Street South, beside the bush strip below Moggill Road",
+    "slope_pct": 4.6,
+    "points": [
+      [
+        152.961022,
+        -27.508786
+      ],
+      [
+        152.961131,
+        -27.508605
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 25,
+    "gated": false,
+    "slope_pct": 4.8,
+    "min_elevation_m": 6.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:18:53Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
