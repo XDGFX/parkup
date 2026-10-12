@@ -1,0 +1,46 @@
+{
+  "candidate": "4920379722-4920379808-8166015-l-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Waverley Road overpass above the motorway; no verge or parking.",
+  "reasons": [
+    "Road on a bridge, no shoulder",
+    "Through route, no parked cars",
+    "Nowhere to pull out of lane"
+  ],
+  "drivers": {
+    "seclusion": "Open bridge deck above the motorway.",
+    "access_and_room": "Overpass deck is lane, kerb and parapet; no pull-off.",
+    "traffic": "Through road over a multi-lane motorway.",
+    "convention": "No parked cars along the deck."
+  },
+  "flags": [
+    "Steep: falls about 10 m over 100 m on the DEM at the approaches",
+    "Motorway noise"
+  ],
+  "sun_shade": "Open deck; trees shade the east end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking restrictions"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 22,
+    "gated": false,
+    "slope_pct": 17.9,
+    "min_elevation_m": 38.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:35:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

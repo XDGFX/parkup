@@ -1,0 +1,217 @@
+{
+  "id": "60667418-60667419-981493932-l-14",
+  "street": "Witton Road",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.962829,
+      -27.506423
+    ],
+    [
+      152.963308,
+      -27.5065
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "north",
+  "length_m": 48,
+  "signs": [
+    {
+      "street": "RENNIES ROAD",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 11.1
+    },
+    {
+      "street": "WITTON ROAD",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 0.9
+    },
+    {
+      "street": "CENTENARY MOTORWAY",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 12.5
+    },
+    {
+      "street": "CENTENARY MOTORWAY",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 1
+    }
+  ],
+  "buildings": [
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 52,
+      "at_m": 48,
+      "outline": [
+        [
+          152.9640122,
+          -27.5064324
+        ],
+        [
+          152.9639084,
+          -27.5062673
+        ],
+        [
+          152.9637971,
+          -27.5063224
+        ],
+        [
+          152.9639009,
+          -27.5064875
+        ],
+        [
+          152.9640122,
+          -27.5064324
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9616053,
+      "lat": -27.5083305,
+      "metres": 244,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.962829,
+        "lat": -27.506423,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 5.25
+      },
+      {
+        "lon": 152.962879,
+        "lat": -27.506431,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 5.37
+      },
+      {
+        "lon": 152.962929,
+        "lat": -27.506439,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 5.28
+      },
+      {
+        "lon": 152.962979,
+        "lat": -27.506447,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 5.14
+      },
+      {
+        "lon": 152.963029,
+        "lat": -27.506455,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 5.22
+      },
+      {
+        "lon": 152.963078,
+        "lat": -27.506463,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 5.1
+      },
+      {
+        "lon": 152.963128,
+        "lat": -27.506471,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 5.04
+      },
+      {
+        "lon": 152.963178,
+        "lat": -27.506479,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 5.03
+      },
+      {
+        "lon": 152.963228,
+        "lat": -27.506487,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 5.09
+      },
+      {
+        "lon": 152.963278,
+        "lat": -27.506495,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 4.44
+      },
+      {
+        "lon": 152.963308,
+        "lat": -27.5065,
+        "at_m": 48,
+        "line": 0,
+        "elevation_m": 5.11
+      }
+    ],
+    "min_elevation_m": 4.4,
+    "max_elevation_m": 5.4,
+    "mean_grade_pct": 4.9,
+    "max_grade_pct": 22.3
+  },
+  "waterway": {
+    "name": null,
+    "metres": 2
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 48,
+      "length_m": 48,
+      "images": {
+        "esri": ".cache/imagery/60667418-60667419-981493932-l-14/chunk1-esri.jpg",
+        "qld": ".cache/imagery/60667418-60667419-981493932-l-14/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        107,
+        69
+      ],
+      "image_px": [
+        715,
+        457
+      ]
+    }
+  ]
+}

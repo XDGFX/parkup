@@ -1,0 +1,47 @@
+{
+  "candidate": "21477477-59958673-5979167-r-90",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bridge deck over the river; no room to stop out of lane.",
+  "reasons": [
+    "Bridge deck, no shoulder",
+    "Main road, no parked cars",
+    "Footpath edge only beside lane"
+  ],
+  "drivers": {
+    "seclusion": "Open to river and moving traffic; no cover.",
+    "access_and_room": "Carriageway runs kerb to rail with only a narrow footway; nowhere to pull out.",
+    "traffic": "Busy two-way bridge route.",
+    "convention": "No parked cars on the deck."
+  },
+  "flags": [
+    "Elevation data is bridge deck noise, not real slope",
+    "Rail bridge alongside, noise",
+    "Brisbane River 70 m away"
+  ],
+  "sun_shade": "Fully open deck, no shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Bridge parking restrictions"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 12.8,
+    "min_elevation_m": -1.1,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:35:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,48 @@
+{
+  "candidate": "603459040-603459174-47413989-r-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Junction mouth beside a traffic island; too short and no room to stop.",
+  "reasons": [
+    "Only 11 m, at a junction",
+    "Island and give-way markings",
+    "Homes 15 m away"
+  ],
+  "drivers": {
+    "seclusion": "Homes about 15 m away on both sides of the side street.",
+    "access_and_room": "11 m of kerb at the junction mouth, shorter than a van, beside a painted island.",
+    "traffic": "Arterial junction with turning traffic.",
+    "convention": "No parked cars at the junction."
+  },
+  "flags": [
+    "Junction: stopping here blocks turns",
+    "Arterial noise",
+    "Steep: about 5% on the DEM"
+  ],
+  "sun_shade": "Open, with a tree shading the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Parking restrictions at the junction"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 15.6,
+    "min_elevation_m": 31.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:35:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

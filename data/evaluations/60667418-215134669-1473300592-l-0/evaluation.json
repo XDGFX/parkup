@@ -1,0 +1,47 @@
+{
+  "candidate": "60667418-215134669-1473300592-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Main-road kerb by the motorway bridge, no parked cars, homes beside it.",
+  "reasons": [
+    "Through road, no cars parked",
+    "No Stopping sign opposite",
+    "Houses within 10 m"
+  ],
+  "drivers": {
+    "seclusion": "Houses and a large white building sit right on the south side along the kerb.",
+    "access_and_room": "Kerb meets a wide through lane with no pull-off or parking lane.",
+    "traffic": "Busy road beside the Centenary Motorway ramp.",
+    "convention": "No parked cars along the kerb; No Stopping Any Time sign nearby."
+  },
+  "flags": [
+    "Slope up to 5.2%, mean 3.3%",
+    "Low-lying: about 6 m, Witton Creek 50 m away",
+    "Motorway noise"
+  ],
+  "sun_shade": "Open kerb; vegetation to the south-east shades the far end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the white building is a dwelling"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 3.8,
+    "min_elevation_m": 5.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:35:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

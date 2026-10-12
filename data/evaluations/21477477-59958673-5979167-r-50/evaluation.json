@@ -1,0 +1,47 @@
+{
+  "candidate": "21477477-59958673-5979167-r-50",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bridge approach beside the rail line; no room to stop out of lane.",
+  "reasons": [
+    "Approach road to bridge, no parking",
+    "Rail line immediately alongside",
+    "No pull-off beside the lane"
+  ],
+  "drivers": {
+    "seclusion": "Exposed to bridge traffic and the adjacent railway.",
+    "access_and_room": "Narrow edge between lane and rail embankment; no pull-off to leave the lane.",
+    "traffic": "Busy bridge approach with moving traffic.",
+    "convention": "No cars parked along it."
+  },
+  "flags": [
+    "Steep: DEM about 24% mean but near the bridge ramp",
+    "Rail noise",
+    "Brisbane River 89 m away"
+  ],
+  "sun_shade": "Open, with bridge shadow on the morning side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking restrictions on the bridge approach"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 23.7,
+    "min_elevation_m": 3.8,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:35:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,47 @@
+{
+  "candidate": "54625481-54625558-348046255-r-180",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short stretch on a narrow bridge approach over the creek; no room to stop.",
+  "reasons": [
+    "Only 17 m, on a bridge",
+    "Kerb falls straight to creek",
+    "No pull-off beside the lane"
+  ],
+  "drivers": {
+    "seclusion": "Tree cover, but homes 40 m or more away; irrelevant without room to stop.",
+    "access_and_room": "17 m of kerb on a narrow road meeting a bridge parapet, with dense vegetation and the creek beside it.",
+    "traffic": "Through road with moving traffic.",
+    "convention": "No parked cars seen along it."
+  },
+  "flags": [
+    "Low-lying: 3 to 6 m elevation, creek 6 m away",
+    "Steep: about 18% on the DEM falling to the bridge"
+  ],
+  "sun_shade": "Heavy tree canopy over most of it.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking restrictions",
+    "Flood height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 40,
+    "gated": false,
+    "slope_pct": 15.1,
+    "min_elevation_m": 3.8,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:35:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,45 @@
+{
+  "candidate": "60667418-60667419-981493932-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Line crosses the Centenary Motorway; no stopping anywhere and no room to pull off.",
+  "reasons": [
+    "Spans motorway carriageways",
+    "No Stopping signs both sides",
+    "No verge or pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Nothing usable; the stretch is a motorway crossing with a house at the west end.",
+    "access_and_room": "No pull-off: kerb meets motorway lanes or steep bush, with no clear ground beside the lane.",
+    "traffic": "Heavy motorway traffic across the whole stretch.",
+    "convention": "No cars parked; three No Stopping Any Time signs nearby."
+  },
+  "flags": [
+    "No Stopping Any Time signs at the motorway",
+    "Low-lying: about 5 m, creek 13 m away",
+    "Slope up to 4.2%"
+  ],
+  "sun_shade": "Mixed: bush shades the east end, the west is open road.",
+  "rubbish": "none seen",
+  "cannot_judge": [],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 5.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:35:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

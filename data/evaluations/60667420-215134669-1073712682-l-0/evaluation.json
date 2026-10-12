@@ -1,0 +1,45 @@
+{
+  "candidate": "60667420-215134669-1073712682-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Signalled intersection on a main road; No Stopping and nowhere to pull off.",
+  "reasons": [
+    "Inside a signalled junction",
+    "No Stopping Any Time sign",
+    "No parked cars or pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Busy junction with commercial buildings 9 m away and shops opposite.",
+    "access_and_room": "Kerb is the corner of a junction with crossings and turn lanes; no room to stop out of the lane.",
+    "traffic": "Heavy arterial traffic with traffic lights.",
+    "convention": "No Stopping Any Time sign 1 m from the line; no cars park here."
+  },
+  "flags": [
+    "Steep: about 9.7% mean, 11.8% max",
+    "No Stopping Any Time sign on the kerb",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open to sun; building shades the north-east side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 10,
+    "min_elevation_m": 10.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:35:07Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

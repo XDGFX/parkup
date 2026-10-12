@@ -1,0 +1,302 @@
+{
+  "id": "21477477-59958673-5979167-r-90",
+  "street": "Walter Taylor Bridge",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.973511,
+      -27.506332
+    ],
+    [
+      152.973933,
+      -27.505036
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "east",
+  "length_m": 150,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9740908,
+      "lat": -27.5047508,
+      "metres": 35,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9753398,
+      "lat": -27.5037806,
+      "metres": 197,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.973511,
+        "lat": -27.506332,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": -0.12
+      },
+      {
+        "lon": 152.973525,
+        "lat": -27.506289,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": -0.65
+      },
+      {
+        "lon": 152.973539,
+        "lat": -27.506246,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": -0.65
+      },
+      {
+        "lon": 152.973553,
+        "lat": -27.506202,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": -0.65
+      },
+      {
+        "lon": 152.973567,
+        "lat": -27.506159,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": -0.65
+      },
+      {
+        "lon": 152.973581,
+        "lat": -27.506116,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": -0.65
+      },
+      {
+        "lon": 152.973595,
+        "lat": -27.506073,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": -0.65
+      },
+      {
+        "lon": 152.973609,
+        "lat": -27.50603,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": -0.65
+      },
+      {
+        "lon": 152.973624,
+        "lat": -27.505986,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 3.35
+      },
+      {
+        "lon": 152.973638,
+        "lat": -27.505943,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 0.44
+      },
+      {
+        "lon": 152.973652,
+        "lat": -27.5059,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 0.44
+      },
+      {
+        "lon": 152.973666,
+        "lat": -27.505857,
+        "at_m": 55,
+        "line": 0,
+        "elevation_m": 0.44
+      },
+      {
+        "lon": 152.97368,
+        "lat": -27.505814,
+        "at_m": 60,
+        "line": 0,
+        "elevation_m": 0.44
+      },
+      {
+        "lon": 152.973694,
+        "lat": -27.50577,
+        "at_m": 65,
+        "line": 0,
+        "elevation_m": 0.44
+      },
+      {
+        "lon": 152.973708,
+        "lat": -27.505727,
+        "at_m": 70,
+        "line": 0,
+        "elevation_m": 0.44
+      },
+      {
+        "lon": 152.973722,
+        "lat": -27.505684,
+        "at_m": 75,
+        "line": 0,
+        "elevation_m": -1.14
+      },
+      {
+        "lon": 152.973736,
+        "lat": -27.505641,
+        "at_m": 80,
+        "line": 0,
+        "elevation_m": -1.14
+      },
+      {
+        "lon": 152.97375,
+        "lat": -27.505598,
+        "at_m": 85,
+        "line": 0,
+        "elevation_m": -1.14
+      },
+      {
+        "lon": 152.973764,
+        "lat": -27.505554,
+        "at_m": 90,
+        "line": 0,
+        "elevation_m": 0.33
+      },
+      {
+        "lon": 152.973778,
+        "lat": -27.505511,
+        "at_m": 95,
+        "line": 0,
+        "elevation_m": 0.33
+      },
+      {
+        "lon": 152.973792,
+        "lat": -27.505468,
+        "at_m": 100,
+        "line": 0,
+        "elevation_m": 3.61
+      },
+      {
+        "lon": 152.973806,
+        "lat": -27.505425,
+        "at_m": 105,
+        "line": 0,
+        "elevation_m": 3.61
+      },
+      {
+        "lon": 152.97382,
+        "lat": -27.505382,
+        "at_m": 110,
+        "line": 0,
+        "elevation_m": 3.61
+      },
+      {
+        "lon": 152.973835,
+        "lat": -27.505338,
+        "at_m": 115,
+        "line": 0,
+        "elevation_m": 3.61
+      },
+      {
+        "lon": 152.973849,
+        "lat": -27.505295,
+        "at_m": 120,
+        "line": 0,
+        "elevation_m": -0.65
+      },
+      {
+        "lon": 152.973863,
+        "lat": -27.505252,
+        "at_m": 125,
+        "line": 0,
+        "elevation_m": -0.65
+      },
+      {
+        "lon": 152.973877,
+        "lat": -27.505209,
+        "at_m": 130,
+        "line": 0,
+        "elevation_m": -0.65
+      },
+      {
+        "lon": 152.973891,
+        "lat": -27.505166,
+        "at_m": 135,
+        "line": 0,
+        "elevation_m": -0.65
+      },
+      {
+        "lon": 152.973905,
+        "lat": -27.505122,
+        "at_m": 140,
+        "line": 0,
+        "elevation_m": -0.65
+      },
+      {
+        "lon": 152.973919,
+        "lat": -27.505079,
+        "at_m": 145,
+        "line": 0,
+        "elevation_m": -0.16
+      },
+      {
+        "lon": 152.973933,
+        "lat": -27.505036,
+        "at_m": 150,
+        "line": 0,
+        "elevation_m": 1.56
+      }
+    ],
+    "min_elevation_m": -1.1,
+    "max_elevation_m": 3.6,
+    "mean_grade_pct": 13.5,
+    "max_grade_pct": 85.2
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 70
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 150,
+      "length_m": 150,
+      "images": {
+        "esri": ".cache/imagery/21477477-59958673-5979167-r-90/chunk1-esri.jpg",
+        "qld": ".cache/imagery/21477477-59958673-5979167-r-90/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        102,
+        204
+      ],
+      "image_px": [
+        677,
+        1361
+      ]
+    }
+  ]
+}

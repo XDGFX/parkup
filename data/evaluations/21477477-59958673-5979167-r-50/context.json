@@ -1,0 +1,112 @@
+{
+  "id": "21477477-59958673-5979167-r-50",
+  "street": "Walter Taylor Bridge",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.973399,
+      -27.506677
+    ],
+    [
+      152.973455,
+      -27.506505
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "east",
+  "length_m": 20,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9740908,
+      "lat": -27.5047508,
+      "metres": 205,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.973399,
+        "lat": -27.506677,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 8.03
+      },
+      {
+        "lon": 152.973413,
+        "lat": -27.506634,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 8.28
+      },
+      {
+        "lon": 152.973427,
+        "lat": -27.506591,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 5.66
+      },
+      {
+        "lon": 152.973441,
+        "lat": -27.506547,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 5.1
+      },
+      {
+        "lon": 152.973455,
+        "lat": -27.506505,
+        "at_m": 19.9,
+        "line": 0,
+        "elevation_m": 3.82
+      }
+    ],
+    "min_elevation_m": 3.8,
+    "max_elevation_m": 8.3,
+    "mean_grade_pct": 23.7,
+    "max_grade_pct": 52.4
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 89
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 20,
+      "length_m": 20,
+      "images": {
+        "esri": ".cache/imagery/21477477-59958673-5979167-r-50/chunk1-esri.jpg",
+        "qld": ".cache/imagery/21477477-59958673-5979167-r-50/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        66,
+        79
+      ],
+      "image_px": [
+        437,
+        528
+      ]
+    }
+  ]
+}
