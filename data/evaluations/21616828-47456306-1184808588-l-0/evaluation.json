@@ -1,0 +1,51 @@
+{
+  "candidate": "21616828-47456306-1184808588-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short, very steep kerb on Moggill Road beside apartments and a loading zone.",
+  "reasons": [
+    "Apartments 5 m from the kerb",
+    "Grade about 27%, far over the limit",
+    "Loading zone and 2P signs apply"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks sit 5 m from the east kerb and a church and offices are close; nobody would miss a van.",
+    "access_and_room": "Only 21 m of kerb on a bend with a steep bank; cars park in the bays but there is no level room beside the lane.",
+    "traffic": "Moggill Road, a main road, with a turn junction at the north end.",
+    "convention": "Loading zone (2 min passenger, 20 min commercial) and 2P parallel signs; not an overnight spot."
+  },
+  "flags": [
+    "Steep: about 27% grade",
+    "Dwelling within 10 m",
+    "Loading zone and 2P signs",
+    "Main road noise"
+  ],
+  "sun_shade": "Shrub and tree cover on the east bank; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 27,
+    "min_elevation_m": 34.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

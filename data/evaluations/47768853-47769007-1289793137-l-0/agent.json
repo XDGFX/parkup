@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a busy junction on a main road with no parking.",
+  "reasons": ["Main road, no parked cars", "Only 13 m, at a junction", "Apartments 13 m away"],
+  "best_section": {"from_m": 0, "to_m": 13, "where": "Morrow Street kerb at the junction beside the medical practice", "slope_pct": 10.7},
+  "drivers": {
+    "seclusion": "Apartments 13 m at the start, medical practice 9 m, house 22 m; busy commercial area.",
+    "access_and_room": "Kerb beside a traffic island and junction mouth; only 13 m, barely a van length.",
+    "traffic": "Through road at a signalised junction; heavy traffic and noise.",
+    "convention": "No cars parked along this kerb in either image; no parking lane."
+  },
+  "flags": ["Steep: about 10.7% grade", "Noise: busy junction and arterial", "Apartments within 13 m"],
+  "sun_shade": "Open to sky; building shade from the north-east block in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Kerb height", "Street lighting", "Crossfall"],
+  "confidence": "high"
+}

@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Short steep kerb past two houses at a junction; no parked cars.",
+  "reasons": ["House at the kerb edge", "Steep, about 9% grade", "Junction bend, no parked cars"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "A house and pool sit directly on the kerb; the dwelling at 23 m is 0 m from the line.",
+    "access_and_room": "Narrow lane bending into a junction, with fences right at the edge; no bay to pull out.",
+    "traffic": "Quiet side street ending at a busier road and school zone.",
+    "convention": "No cars parked on this stretch in either image."
+  },
+  "flags": ["Steep: about 9.4% grade, up to 10% locally", "House within 10 m", "School zone at the junction"],
+  "sun_shade": "Mixed tree cover to the east; house shade from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Parking restrictions on site", "Street lighting", "Crossfall"],
+  "confidence": "high"
+}

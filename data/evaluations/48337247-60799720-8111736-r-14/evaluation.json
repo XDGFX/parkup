@@ -1,0 +1,63 @@
+{
+  "candidate": "48337247-60799720-8111736-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "East kerb beside a vacant block; homes 11-20 m off, steep.",
+  "reasons": [
+    "Vacant block on kerb side",
+    "Homes 11-20 m away",
+    "Steep: about 11% grade"
+  ],
+  "drivers": {
+    "seclusion": "Vacant dirt block beside the section, but dwellings sit 11 m at the north end and a house is just south; homes across the road too.",
+    "access_and_room": "Sealed street with a grass verge and driveway aprons on the east side; a van can pull off the lane.",
+    "traffic": "Quiet street between two cross streets; low traffic.",
+    "convention": "A car parks at the south end of this kerb; no camping seen."
+  },
+  "flags": [
+    "Steep: about 11% grade",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Mostly open; a few garden trees shade the verge from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 26,
+    "to_m": 36,
+    "where": "East kerb opposite the vacant block's neighbour, before the junction",
+    "slope_pct": 11,
+    "points": [
+      [
+        152.970182,
+        -27.491653
+      ],
+      [
+        152.970196,
+        -27.491565
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 11.3,
+    "min_elevation_m": 41.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Line runs across a main-road junction and painted island; nowhere to stop.",
+  "reasons": ["Multi-lane main road junction", "Painted island, no parking lane", "No parked cars on this stretch"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Open, busy junction in a commercial strip; nearest home 23 m but exposure is total.",
+    "access_and_room": "Line sits on a chevron island and traffic lanes; no clear room to pull out of the lane.",
+    "traffic": "Multi-lane arterial junction with heavy traffic and noise.",
+    "convention": "No cars parked along this stretch; parked cars are only on the side street and in car parks."
+  },
+  "flags": ["Noise: arterial junction", "Slope about 2%, flat"],
+  "sun_shade": "Open to sky; trees shade the side street to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Kerb height"],
+  "confidence": "high"
+}

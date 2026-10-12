@@ -1,0 +1,63 @@
+{
+  "candidate": "60666446-60799719-8170863-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat, shaded kerb where a car already parks; homes 13-23 m away.",
+  "reasons": [
+    "Cars park on this kerb",
+    "Homes 13-23 m, west and east",
+    "Flat: about 1.5% grade"
+  ],
+  "drivers": {
+    "seclusion": "Under tree canopy; dwellings 13 m (east side) and 20-23 m away, so neighbours are close all round.",
+    "access_and_room": "Narrow sealed street; a car already parks on the west edge under the trees, so a van can stop but takes up most of the width.",
+    "traffic": "Quiet residential street; low traffic.",
+    "convention": "At least one car parks on this kerb, with several more on the street just south."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Narrow lane: a van may block passing cars"
+  ],
+  "sun_shade": "Dense tree canopy over the best section, mainly from the west and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact verge width under the canopy"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 25,
+    "where": "West kerb under the trees, where the parked car sits",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.970301,
+        -27.490131
+      ],
+      [
+        152.970282,
+        -27.490265
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 39.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

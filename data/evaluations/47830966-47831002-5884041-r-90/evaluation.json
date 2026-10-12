@@ -1,0 +1,47 @@
+{
+  "candidate": "47830966-47831002-5884041-r-90",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, steep kerb at a junction, with no room clear of the lane.",
+  "reasons": [
+    "Mean grade 12.7%, over the limit",
+    "Only 18 m, ends at a junction",
+    "Bush strip beside kerb, no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Bush strip on the west side, pool house beyond; homes about 30 m away or more, but visible.",
+    "access_and_room": "Narrow lane with a planted verge; no bay or shoulder, and the stretch runs into a main-road junction.",
+    "traffic": "Quiet street joining a busier road at the south end.",
+    "convention": "No parked campervans; a few cars parked further up the street."
+  },
+  "flags": [
+    "Steep: 12.7% mean grade, up to 20%",
+    "Only 18 m long, tight beside the junction"
+  ],
+  "sun_shade": "Tree canopy shades the west edge; open to afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 12.7,
+    "min_elevation_m": 39.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

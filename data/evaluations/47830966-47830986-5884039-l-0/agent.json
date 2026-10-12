@@ -1,0 +1,18 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Steep residential street; homes within 25 m on both sides.",
+  "reasons": ["Homes close on both sides", "Steep, about 9% at best", "Quiet street, some cars parked"],
+  "best_section": {"from_m": 85, "to_m": 100, "where": "Mossman Street east kerb, just before the main road junction at the school zone", "slope_pct": 8.9},
+  "drivers": {
+    "seclusion": "Houses sit about 13 m away on the east side and across the street on the west; trees screen some.",
+    "access_and_room": "Cars park on the street, and the lane beside the line is wide enough for a van to stand.",
+    "traffic": "Quiet residential street, with a busier main road at the bottom end.",
+    "convention": "A few cars park along this street, but no marked parking lane; a van would be noticed by neighbours."
+  },
+  "flags": ["Steep: about 8.9% at the best section, 15% over the whole stretch, up to 33% locally", "Houses 13 m from the east side", "Near a school zone"],
+  "sun_shade": "Tree canopy over the north half; the south end is partly open.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Parking restrictions on site", "Street lighting", "Crossfall", "Kerb height"],
+  "confidence": "low"
+}

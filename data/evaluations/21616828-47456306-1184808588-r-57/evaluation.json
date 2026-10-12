@@ -1,0 +1,48 @@
+{
+  "candidate": "21616828-47456306-1184808588-r-57",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Moggill Road shopfront kerb under trees; no real stopping room, 2P signs.",
+  "reasons": [
+    "Line runs along shopfront and footpath",
+    "2P signs, busy main road junction",
+    "No clear room to pull off the lane"
+  ],
+  "drivers": {
+    "seclusion": "Shopping centre frontage and shops opposite; no homes within 20 m but the spot is public and overlooked.",
+    "access_and_room": "Line follows a footpath and landscaped edge beside the shopping centre, then a narrow road kerb at a junction; no room to stop off the lane.",
+    "traffic": "Moggill Road main road with a junction and moving traffic.",
+    "convention": "2P parallel Mon-Fri and Saturday daytime signs; no overnight pattern."
+  },
+  "flags": [
+    "Mean grade 4.5%, up to 10.8% max",
+    "2P signs",
+    "Main road noise"
+  ],
+  "sun_shade": "Dense tree canopy over most of the line.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 4.2,
+    "min_elevation_m": 38.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

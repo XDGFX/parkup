@@ -1,0 +1,63 @@
+{
+  "candidate": "47456388-47456408-129221346-l-74",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy Moggill Road shopfront kerb, 1/4P and 1P signs, no overnight stand.",
+  "reasons": [
+    "Main road shopping strip",
+    "Shopfronts 2 m from kerb",
+    "Short-stay signed bays"
+  ],
+  "drivers": {
+    "seclusion": "Retail frontage on the section's side; no dwellings within 50 m but fully exposed to shop traffic.",
+    "access_and_room": "Kerbside bay on a busy arterial; lane-side parking only, 10 m section is under a van length of margin.",
+    "traffic": "Heavy arterial traffic and bus stop activity.",
+    "convention": "Short-stay parking by day; no sign of overnight parking."
+  },
+  "flags": [
+    "Steep: about 6% grade",
+    "Noise: arterial and shop deliveries",
+    "Signs: 1/4P and 1P weekday restrictions, mail zone"
+  ],
+  "sun_shade": "Open to sun; shopfront awnings shade the kerb from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Evening restrictions beyond signs"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Moggill Road kerb outside Persian Star Supermarket",
+    "slope_pct": 6.2,
+    "points": [
+      [
+        152.978326,
+        -27.49296
+      ],
+      [
+        152.978422,
+        -27.492932
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 57,
+    "gated": false,
+    "slope_pct": 5.2,
+    "min_elevation_m": 42.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

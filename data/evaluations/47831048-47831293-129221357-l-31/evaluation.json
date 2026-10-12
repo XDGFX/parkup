@@ -1,0 +1,64 @@
+{
+  "candidate": "47831048-47831293-129221357-l-31",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Nine-metre kerb with a house 9 m away and a 19% grade.",
+  "reasons": [
+    "House 9 m from kerb",
+    "Only 9 m long",
+    "Very steep, about 19%"
+  ],
+  "drivers": {
+    "seclusion": "Dwelling 9 m away at 5 m along, more homes and apartments within 20 m.",
+    "access_and_room": "Narrow grass verge beside a short kerb; barely a van length.",
+    "traffic": "Quiet residential street beside a corner.",
+    "convention": "2P resident-permit signs; no sign of overnight parking."
+  },
+  "flags": [
+    "Steep: about 19.5% grade",
+    "Resident permit 2P signs Mon-Fri 7am-7pm"
+  ],
+  "sun_shade": "Open to the east; house to the east gives some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 9,
+    "where": "Moorak Street east kerb, just south of the corner",
+    "slope_pct": 19.5,
+    "points": [
+      [
+        152.979286,
+        -27.49
+      ],
+      [
+        152.979271,
+        -27.49008
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 19.8,
+    "min_elevation_m": 34.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

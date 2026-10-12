@@ -1,0 +1,48 @@
+{
+  "candidate": "47491384-47491408-10101676-r-30",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway arterial kerb with bus zone, no stopping and apartments within 15 m.",
+  "reasons": [
+    "Clearway and no-stopping signs",
+    "Main road, no cars parked",
+    "Apartments 11-13 m away"
+  ],
+  "drivers": {
+    "seclusion": "Apartment buildings 11-13 m from the kerb on the south side, houses opposite.",
+    "access_and_room": "Kerb is a through-lane edge with no shoulder; no cars parked along it.",
+    "traffic": "Busy arterial, tow-away clearway Mon-Sat 7am-7pm.",
+    "convention": "No parking convention; signs forbid stopping."
+  },
+  "flags": [
+    "Steep: about 8% grade, 14% max",
+    "Signs: tow-away clearway and no stopping any time",
+    "Noise: arterial"
+  ],
+  "sun_shade": "Mixed tree cover on the south side; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 8.5,
+    "min_elevation_m": 24.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

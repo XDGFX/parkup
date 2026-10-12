@@ -1,0 +1,64 @@
+{
+  "candidate": "48324954-48336837-6890860-r-20",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat residential kerb with parked cars; homes within 25 m all round.",
+  "reasons": [
+    "Houses lining both sides within 25 m",
+    "Cars park along this street",
+    "Flat at 125-210 m"
+  ],
+  "drivers": {
+    "seclusion": "Dense houses on both sides; south-side homes roughly 11-25 m from the kerb, north homes across the road.",
+    "access_and_room": "Ordinary two-way street with cars parked along the kerb, so a van can pull in.",
+    "traffic": "Quiet residential street; a junction at each end.",
+    "convention": "Several cars park on the street, so a van will not look out of place."
+  },
+  "flags": [
+    "Houses within 25 m all round",
+    "Steep at the east end: about 7% to the junction"
+  ],
+  "sun_shade": "Mostly open, with street trees and house shade from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site",
+    "Exact building distances at this section"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 150,
+    "to_m": 175,
+    "where": "Payne Street south kerb, mid-block between the two cross-streets",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.969343,
+        -27.493735
+      ],
+      [
+        152.969593,
+        -27.493773
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 39.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

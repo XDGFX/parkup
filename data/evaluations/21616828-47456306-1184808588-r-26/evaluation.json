@@ -1,0 +1,50 @@
+{
+  "candidate": "21616828-47456306-1184808588-r-26",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Shopping-centre drop-off kerb on Moggill Road with loading and no-stopping signs.",
+  "reasons": [
+    "Loading zone, 2P and No Stopping signs",
+    "Main road kerb, no parked cars on it",
+    "Steep, about 7.5% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto a large shopping centre; no homes within 10 m, but it is a busy, overlooked commercial frontage.",
+    "access_and_room": "Kerb curves round a drop-off apron at a junction; no clear room to pull fully off the lane.",
+    "traffic": "Moggill Road, a main road, with junction, pedestrian crossing and centre entrance.",
+    "convention": "2P Mon-Sat daytime, loading zone and No Stopping Any Time signs; no overnight pattern."
+  },
+  "flags": [
+    "Steep: about 7.5% mean, up to 12% max",
+    "No Stopping Any Time sign close",
+    "Loading zone and 2P signs",
+    "Main road noise"
+  ],
+  "sun_shade": "Trees shade the south end; building shades the west side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact reach of each sign"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 7.8,
+    "min_elevation_m": 36.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

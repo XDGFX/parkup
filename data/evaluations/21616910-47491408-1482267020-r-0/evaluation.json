@@ -1,0 +1,47 @@
+{
+  "candidate": "21616910-47491408-1482267020-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Moggill Road arterial kerb at a junction, no parking lane, car park behind.",
+  "reasons": [
+    "Main road, no kerbside parking",
+    "Beside junction and traffic lanes",
+    "Adjacent car park is customers only"
+  ],
+  "drivers": {
+    "seclusion": "Shopping centre car park on one side, junction and traffic lanes on the other; very exposed.",
+    "access_and_room": "No pull-off beside the kerb; the lane runs straight into a junction with no parked cars.",
+    "traffic": "Multi-lane arterial with a signalised junction, heavy traffic and noise.",
+    "convention": "No cars parked along the kerb; the mapped car park is customers-only."
+  },
+  "flags": [
+    "Arterial noise",
+    "Mapped car park is customers only"
+  ],
+  "sun_shade": "Open, no cover; some building shade in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerbside parking restrictions on site",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 42,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 16.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

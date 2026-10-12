@@ -1,0 +1,78 @@
+{
+  "candidate": "47768853-47768886-129221362-r-22",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep Morrow Street kerb with apartments 8 m away and no-parking signs.",
+  "reasons": [
+    "Grade 14.7%, over the 12% limit",
+    "Apartments 8 m from kerb",
+    "No-parking and loading zone signs"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks directly behind the kerb, 8 m away.",
+    "access_and_room": "Kerbside lane where some cars park, but signed no-parking and loading zones along it.",
+    "traffic": "Busy through road with a junction at the east end.",
+    "convention": "No-parking specified times and loading zone signs; cars do park along parts."
+  },
+  "flags": [
+    "Steep: about 14.7% grade, max 15.8%",
+    "Loading zone and no-parking signs",
+    "Noise from busy road"
+  ],
+  "sun_shade": "Open to the sky; apartment blocks shade the kerb from the north in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Sign hours",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 32,
+    "where": "Morrow Street north kerb, west of the Moorak junction",
+    "slope_pct": 14.7,
+    "points": [
+      [
+        152.98169,
+        -27.492303
+      ],
+      [
+        152.981617,
+        -27.492318
+      ],
+      [
+        152.98147,
+        -27.492349
+      ],
+      [
+        152.981402,
+        -27.492365
+      ],
+      [
+        152.981377,
+        -27.492371
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 15,
+    "min_elevation_m": 31.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

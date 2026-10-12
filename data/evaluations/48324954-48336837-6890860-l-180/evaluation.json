@@ -1,0 +1,63 @@
+{
+  "candidate": "48324954-48336837-6890860-l-180",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet Taringa street with parked cars; houses 12-20 m away on both sides.",
+  "reasons": [
+    "Houses 12-14 m north, about 20 m south",
+    "Cars park along this kerb",
+    "Flat at 150-170 m"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings within 25 m all round: north houses 12-14 m, south houses about 20 m.",
+    "access_and_room": "Kerb on a two-way residential street; cars park along both sides so room to pull in.",
+    "traffic": "Quiet residential street with a cross street at the east end.",
+    "convention": "Cars are parked along the kerb here, so a van will not stand out much."
+  },
+  "flags": [
+    "Steep east of 175 m: about 15% fall to the corner",
+    "Houses within 25 m all round"
+  ],
+  "sun_shade": "Mostly open; some street trees and house shade from the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 150,
+    "to_m": 170,
+    "where": "Payne Street north kerb, just before the treed corner lot near the eastern cross street",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.970956,
+        -27.493908
+      ],
+      [
+        152.971156,
+        -27.493938
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 46.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

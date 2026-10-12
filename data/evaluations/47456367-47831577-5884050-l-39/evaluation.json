@@ -1,0 +1,50 @@
+{
+  "candidate": "47456367-47831577-5884050-l-39",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 1 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Tiny, very steep kerb in a narrow lane beside an apartment block.",
+  "reasons": [
+    "Apartments 7 m from the kerb",
+    "Grade about 23%, far over the limit",
+    "Narrow lane, no room to pull off"
+  ],
+  "drivers": {
+    "seclusion": "The Axis Taringa apartment block runs the whole east side, 7 m away; shops and a house on the west.",
+    "access_and_room": "Only 12 m of kerb in a narrow service lane between buildings; no clear ground beside the lane.",
+    "traffic": "Shop and apartment access lane with customer car parks nearby.",
+    "convention": "Signed 2P parallel, Mon-Fri 9am-4pm; no overnight parking pattern seen."
+  },
+  "flags": [
+    "Steep: about 23% grade",
+    "Dwelling within 10 m",
+    "2P signs Mon-Fri 9am-4pm"
+  ],
+  "sun_shade": "Mostly shaded by the apartment block to the east in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 1,
+    "gated": false,
+    "slope_pct": 21.7,
+    "min_elevation_m": 33.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

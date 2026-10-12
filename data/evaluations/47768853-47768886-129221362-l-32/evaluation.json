@@ -1,0 +1,67 @@
+{
+  "candidate": "47768853-47768886-129221362-l-32",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Loading zone outside a hospital on a steep stretch of Morrow Street.",
+  "reasons": [
+    "Signed loading zone",
+    "Grade 17%, over the 12% limit",
+    "Hospital building 3 m from kerb"
+  ],
+  "drivers": {
+    "seclusion": "Hospital building 3 m away; apartment blocks across the road and behind.",
+    "access_and_room": "Kerb is a signed loading zone beside a busy through road.",
+    "traffic": "Busy arterial-style street with cars parked on the opposite side.",
+    "convention": "Loading zone, not a place to sleep; cars park along the north kerb instead."
+  },
+  "flags": [
+    "Steep: about 17% grade, max 31%",
+    "Signed loading zone",
+    "Noise from busy road"
+  ],
+  "sun_shade": "Mostly open; shadow from the hospital block to the south in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Loading zone hours",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "Morrow Street south kerb outside Westside Private Hospital",
+    "slope_pct": 17.2,
+    "points": [
+      [
+        152.981616,
+        -27.492448
+      ],
+      [
+        152.981504,
+        -27.492472
+      ],
+      [
+        152.98146,
+        -27.492481
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 17.2,
+    "min_elevation_m": 33.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

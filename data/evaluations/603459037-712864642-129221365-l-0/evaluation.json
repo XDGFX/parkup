@@ -1,0 +1,48 @@
+{
+  "candidate": "603459037-712864642-129221365-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Median kerb of a clearway arterial; no stopping, no parking possible.",
+  "reasons": [
+    "Tow-away clearway signs",
+    "Line sits on the central median",
+    "Homes 18-20 m on the west side"
+  ],
+  "drivers": {
+    "seclusion": "Townhouses about 18-20 m west across the carriageway; shops and workshops to the east.",
+    "access_and_room": "The line follows a median between carriageways; no cars parked and no shoulder anywhere.",
+    "traffic": "Heavy arterial, multiple lanes each way.",
+    "convention": "No parked cars on the arterial; clearway tow-away 7am-7pm."
+  },
+  "flags": [
+    "Steep: about 7% grade, 17% max",
+    "Signs: tow-away clearway Mon-Sat 7am-7pm",
+    "Noise: arterial and rail corridor nearby"
+  ],
+  "sun_shade": "Open to the sky; low shrubs on the median.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 7,
+    "min_elevation_m": 28.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

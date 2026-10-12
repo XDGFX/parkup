@@ -1,0 +1,63 @@
+{
+  "candidate": "48337247-60799720-8111736-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Plain residential kerb between two junctions; homes 15-20 m away, steep.",
+  "reasons": [
+    "Quiet residential street, no parking convention",
+    "Homes 15-20 m both sides",
+    "Steep: about 10% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 15-22 m away on both sides of the section; a vacant yard sits on the west side but houses overlook it.",
+    "access_and_room": "Sealed street with a grass/dirt verge on the west side wide enough for a van to pull off the lane.",
+    "traffic": "Short quiet street linking two cross streets; low traffic.",
+    "convention": "A couple of cars park on the east kerb near the south end; no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 10% grade",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Mostly open; some garden trees shade the west verge in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 22,
+    "to_m": 40,
+    "where": "Mid-block on the west kerb, beside the vacant garden",
+    "slope_pct": 10,
+    "points": [
+      [
+        152.970096,
+        -27.491679
+      ],
+      [
+        152.970122,
+        -27.491519
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 10,
+    "min_elevation_m": 41.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

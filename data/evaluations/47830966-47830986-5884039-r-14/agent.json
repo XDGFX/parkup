@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Very steep kerb with houses right at the kerb edge.",
+  "reasons": ["Houses within about 5 m", "Steep, 14% average", "Narrow residential street"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Row of houses fronts directly on this kerb; nearest dwelling 5 m away at 65 m.",
+    "access_and_room": "Cars do park along the kerb, so room exists, but the grade is over 12% for most of it.",
+    "traffic": "Quiet residential street; a busier road at the lower end.",
+    "convention": "Several cars parked along this kerb, but outside private houses, so a van would be noticed."
+  },
+  "flags": ["Steep: about 14% average, up to 22% locally", "Houses within 5-10 m", "Near a school zone"],
+  "sun_shade": "Mixed street trees; house shade from the west in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Parking restrictions on site", "Street lighting", "Crossfall"],
+  "confidence": "high"
+}

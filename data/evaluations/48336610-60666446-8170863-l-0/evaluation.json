@@ -1,0 +1,51 @@
+{
+  "candidate": "48336610-60666446-8170863-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow, steep, tree-lined street end with no room to pull clear of the lane.",
+  "reasons": [
+    "Trees and fences hug the kerb",
+    "Mean grade 8.6%, max 17.6%",
+    "Homes 10-15 m away at flattest part"
+  ],
+  "drivers": {
+    "seclusion": "Houses sit 10-15 m behind the east kerb at the flattest part, with more homes across the road.",
+    "access_and_room": "Narrow sealed lane with dense trees and fences at the edge on this side; no verge or bay to pull fully off.",
+    "traffic": "Quiet dead-end style street, little through traffic.",
+    "convention": "No parked cars along this stretch; a van would stand out."
+  },
+  "flags": [
+    "Steep: 8.6% mean grade, over 17% at the top end",
+    "House 10 m from kerb at 72 m",
+    "Only about 0% grade near 50-65 m but still no room"
+  ],
+  "sun_shade": "Heavy canopy shades the east side through the middle of the stretch.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact verge width under canopy"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 9.1,
+    "min_elevation_m": 41.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

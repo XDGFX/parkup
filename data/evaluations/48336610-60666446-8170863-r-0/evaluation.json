@@ -1,0 +1,63 @@
+{
+  "candidate": "48336610-60666446-8170863-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep, narrow residential lane with homes close all round and no room to pull off.",
+  "reasons": [
+    "Lane too narrow to pull clear",
+    "Homes 15-20 m away both sides",
+    "Steep: about 11% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 14-20 m from the top section and homes on both sides; none are secluded.",
+    "access_and_room": "Narrow sealed lane between fences and trees with no verge or pull-off wide enough for a van to clear the lane.",
+    "traffic": "Quiet dead-end style residential street, low traffic.",
+    "convention": "No parked cars or camping convention visible on the narrow stretch; a few cars park at the wider bend."
+  },
+  "flags": [
+    "Steep: about 11% mean, 16% max grade",
+    "Homes within 15 m"
+  ],
+  "sun_shade": "Heavy tree canopy over the lower half; the top is open to the sky with partial shade from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "Top of Murray Street at the bend, west kerb",
+    "slope_pct": 6.6,
+    "points": [
+      [
+        152.970439,
+        -27.489274
+      ],
+      [
+        152.970409,
+        -27.489452
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 13.8,
+    "min_elevation_m": 44.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

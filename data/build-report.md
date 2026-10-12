@@ -80,10 +80,10 @@ along a track that isn't at a dead end won't appear.
 
 | | Candidates |
 |---|---|
-| With an evaluation (from `data/evaluations/`) | 2011 |
-| … current (this rubric, current imagery) | 2011 |
+| With an evaluation (from `data/evaluations/`) | 2075 |
+| … current (this rubric, current imagery) | 2075 |
 | … carried over from an earlier build's candidate | 4 |
-| Queued for evaluation (`npm run evaluate -- queue`) | 631 |
+| Queued for evaluation (`npm run evaluate -- queue`) | 567 |
 
 ## Unparsed plate text
 

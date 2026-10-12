@@ -1,0 +1,18 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Busy main-road kerb with a few parked cars, shops and a side car park.",
+  "reasons": ["Main road, only sparse kerb parking", "No dwelling clearly within 10 m", "Steep slope, driveways break the kerb"],
+  "best_section": {"from_m": 98, "to_m": 124, "where": "South kerb of Morrow Street, by the Hungry Jack's corner after the car park entrance", "slope_pct": 4.5},
+  "drivers": {
+    "seclusion": "Kerb backs onto a commercial car park, a pub-style old building and trees; the nearest mapped home is by the start, over 90 m away.",
+    "access_and_room": "A few cars sit on this kerb at about 100 m and 50 m, so a lane edge exists, but driveways interrupt it.",
+    "traffic": "Busy through road next to a signalised junction and a rail line; constant traffic noise.",
+    "convention": "Parking is heavy on the opposite side but only occasional on this kerb; no marked parking lane."
+  },
+  "flags": ["Steep: about 4.5% at the best section, 7.9% over the whole stretch", "Noise: arterial junction and rail line", "House 9 m from the start of the line, outside the best section"],
+  "sun_shade": "Mostly open; tree cover on the north-west side shades the morning and afternoon edges.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Parking restrictions on site", "Street lighting", "Crossfall", "Use of the old building behind"],
+  "confidence": "low"
+}

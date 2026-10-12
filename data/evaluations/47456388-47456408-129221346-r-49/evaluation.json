@@ -1,0 +1,63 @@
+{
+  "candidate": "47456388-47456408-129221346-r-49",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy Moggill Road shopping kerb with a bus lane and no parking convention.",
+  "reasons": [
+    "Main road, no cars parked",
+    "Kerb runs along Coles Local",
+    "Peak-hour no-stopping signs"
+  ],
+  "drivers": {
+    "seclusion": "Retail on both sides and a busy shopping strip; no dwellings near, but fully in view.",
+    "access_and_room": "Kerb is a traffic lane edge beside a multi-lane arterial; only one car visible parked.",
+    "traffic": "Heavy arterial traffic with buses and bus-stop activity.",
+    "convention": "Signed short-stay and no-stopping zones; no sign of overnight parking."
+  },
+  "flags": [
+    "Steep: about 4% grade",
+    "Noise: arterial and shop deliveries",
+    "Signs: no stopping 7-9am and 3-7pm, 2P and 1/4P"
+  ],
+  "sun_shade": "Open to sun; building to the south shades the kerb from midday.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Moggill Road kerb at the west end, by the Coles Local",
+    "slope_pct": 3.7,
+    "points": [
+      [
+        152.978121,
+        -27.493151
+      ],
+      [
+        152.978217,
+        -27.493123
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 44.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

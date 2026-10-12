@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Short kerb by a junction island; house 8 m away, no room.",
+  "reasons": ["House 8 m from the kerb", "Junction mouth beside school zone", "Only 21 m, no parked cars"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Houses with a pool 8-15 m away on the west side; exposed to the school-zone crossing.",
+    "access_and_room": "Kerb curves into a junction beside a landscaped island; no clear bay to pull out of the lane.",
+    "traffic": "Meets a busier main road at the school zone crossing.",
+    "convention": "No cars parked on this kerb in either image."
+  },
+  "flags": ["Steep: about 4.9% overall, up to 8.6% locally", "House within 10 m", "School zone at the junction"],
+  "sun_shade": "Tree canopy over the north end, open at the junction.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Parking restrictions on site", "Street lighting", "Crossfall"],
+  "confidence": "medium"
+}

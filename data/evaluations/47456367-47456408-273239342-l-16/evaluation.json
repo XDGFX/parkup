@@ -1,0 +1,47 @@
+{
+  "candidate": "47456367-47456408-273239342-l-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy Moggill Road shopfront kerb: bus and loading zones, no overnight parking.",
+  "reasons": [
+    "Bus stop and loading zones signed",
+    "Main road shopfronts, no parking lane",
+    "Only 13 m long"
+  ],
+  "drivers": {
+    "seclusion": "Shopfronts directly on the footpath, 4 m away; in full view of the high street.",
+    "access_and_room": "A bus stands on this kerb; short 13 m stretch with no room beside the lane.",
+    "traffic": "Busy shopping-strip arterial with buses.",
+    "convention": "Signs show a bus zone and loading zones; no residential parking pattern."
+  },
+  "flags": [
+    "Bus zone and loading zones signed",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open to the north; shops shade the kerb in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Exact sign hours on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 22,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 39.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,48 @@
+{
+  "candidate": "47769007-603456697-5872634-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a junction gore beside the arterial; no room to stop.",
+  "reasons": [
+    "Painted chevrons and slip lane",
+    "Main road, kerb in traffic",
+    "Detached house 18 m away"
+  ],
+  "drivers": {
+    "seclusion": "Junction with a fast food site and a house about 18 m off; fully exposed.",
+    "access_and_room": "Kerb runs along a slip lane beside painted chevrons; no pull-off, only one car at the gore.",
+    "traffic": "Busy multi-lane arterial junction.",
+    "convention": "No sign of parking along this kerb; just a car caught at the gore."
+  },
+  "flags": [
+    "Noise: arterial junction",
+    "Painted chevron markings at the section",
+    "Slope about 4%"
+  ],
+  "sun_shade": "Open to the sky; trees to the west and south-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 3.7,
+    "min_elevation_m": 16.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

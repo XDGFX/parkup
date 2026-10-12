@@ -1,0 +1,65 @@
+{
+  "candidate": "47830966-47830986-5884039-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep residential street; homes within 25 m on both sides.",
+  "reasons": [
+    "Homes close on both sides",
+    "Steep, about 9% at best",
+    "Quiet street, some cars parked"
+  ],
+  "drivers": {
+    "seclusion": "Houses sit about 13 m away on the east side and across the street on the west; trees screen some.",
+    "access_and_room": "Cars park on the street, and the lane beside the line is wide enough for a van to stand.",
+    "traffic": "Quiet residential street, with a busier main road at the bottom end.",
+    "convention": "A few cars park along this street, but no marked parking lane; a van would be noticed by neighbours."
+  },
+  "flags": [
+    "Steep: about 8.9% at the best section, 15% over the whole stretch, up to 33% locally",
+    "Houses 13 m from the east side",
+    "Near a school zone"
+  ],
+  "sun_shade": "Tree canopy over the north half; the south end is partly open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking restrictions on site",
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 85,
+    "to_m": 100,
+    "where": "Mossman Street east kerb, just before the main road junction at the school zone",
+    "slope_pct": 8.9,
+    "points": [
+      [
+        152.980135,
+        -27.489142
+      ],
+      [
+        152.980109,
+        -27.489275
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 8.9,
+    "min_elevation_m": 38.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

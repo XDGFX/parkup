@@ -1,0 +1,18 @@
+{
+  "verdict": "good",
+  "kind": "kerb stretch",
+  "summary": "Parked-up kerb backing onto a medical practice and trees; steep.",
+  "reasons": ["Cars already parked along kerb", "Backs onto clinic and bush", "Nearest home 26 m, across road"],
+  "best_section": {"from_m": 8, "to_m": 32, "where": "Morrow Street north kerb, beside the medical practice and tree strip", "slope_pct": 10.9},
+  "drivers": {
+    "seclusion": "Kerb backs onto a commercial medical practice and a tree strip; nearest dwelling is apartments 26 m away across the road.",
+    "access_and_room": "Cars park nose to tail along this kerb, so a parking lane exists with room for a van.",
+    "traffic": "Busy through road with steady traffic and noise, but the van stands in the parking lane.",
+    "convention": "Several cars parked along the kerb in both images; a van would not stand out."
+  },
+  "flags": ["Steep: about 10.9% grade, up to 15% locally", "Noise: busy road and nearby fast-food outlet", "Medical practice within 5 m (non-residential)"],
+  "sun_shade": "Trees and the building shade it from the north-west; open to the afternoon sun otherwise.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Parking restrictions on site", "Street lighting", "Crossfall"],
+  "confidence": "medium"
+}

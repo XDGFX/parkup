@@ -1,0 +1,69 @@
+{
+  "candidate": "47768853-47768886-129221362-r-63",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Morrow Street kerb where cars park, apartments about 10-20 m behind.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Apartment blocks 10-20 m away",
+    "Steep: about 8% at the west end"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks on the same side, 10-25 m behind the kerb; trees and a footpath in between.",
+    "access_and_room": "Kerbside lane with several cars parked; room for a van at the west end.",
+    "traffic": "Busy through road, 50 km/h type; cars park along it.",
+    "convention": "Cars park here, but no-parking specified times signs along the stretch."
+  },
+  "flags": [
+    "Steep: about 8% over the best section, 14% max",
+    "No-parking specified times signs",
+    "Noise from busy road"
+  ],
+  "sun_shade": "Street trees shade the kerb, mostly from the north-west; apartments shade the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Sign hours",
+    "Street lighting",
+    "Crossfall",
+    "Exact distance to the apartments at the west end"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 31,
+    "where": "Morrow Street north kerb, west end under the street trees",
+    "slope_pct": 8,
+    "points": [
+      [
+        152.981082,
+        -27.492448
+      ],
+      [
+        152.981008,
+        -27.492468
+      ],
+      [
+        152.980974,
+        -27.492476
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 8.2,
+    "min_elevation_m": 40,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

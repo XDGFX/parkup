@@ -1,0 +1,68 @@
+{
+  "candidate": "47456388-332951018-1309167854-l-30",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy Moggill Road kerb beside a commercial building, where cars park; steep.",
+  "reasons": [
+    "Cars park along this kerb",
+    "No homes within 50 m",
+    "Busy road, plain kerb"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto a landscaped bank and commercial buildings; nearest home 56 m away.",
+    "access_and_room": "Parked cars line the kerb, so a van can stand in the parking lane.",
+    "traffic": "Busy road and roundabout at the north end.",
+    "convention": "Several cars parked along the kerb in both images; no signs mapped."
+  },
+  "flags": [
+    "Steep: about 7% grade, 13% max",
+    "Noise: arterial and roundabout",
+    "Plain kerb on a busy road"
+  ],
+  "sun_shade": "Open to the west sun; trees and bank on the east side give partial morning shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 30,
+    "where": "Moggill Road east kerb, south of the roundabout, beside the solar-roofed building",
+    "slope_pct": 7.3,
+    "points": [
+      [
+        152.977392,
+        -27.493588
+      ],
+      [
+        152.977308,
+        -27.493687
+      ],
+      [
+        152.977301,
+        -27.493696
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 59,
+    "gated": false,
+    "slope_pct": 7,
+    "min_elevation_m": 38.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

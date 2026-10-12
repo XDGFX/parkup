@@ -1,0 +1,48 @@
+{
+  "candidate": "47456367-47456408-273239342-r-23",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Nine-metre loading-zone kerb on Moggill Road, too short for a van.",
+  "reasons": [
+    "Only 9 m, under a van length",
+    "Loading zone signed here",
+    "Shopfronts 3 m behind footpath"
+  ],
+  "drivers": {
+    "seclusion": "Shops 3 m behind the footpath; a street tree and shopfronts overlook it.",
+    "access_and_room": "Stretch is 9 m, shorter than a van, and ends at a driveway and tree.",
+    "traffic": "Busy shopping-strip arterial with buses.",
+    "convention": "Loading zone and 2P signs apply on weekdays and Saturday morning; no overnight parking pattern."
+  },
+  "flags": [
+    "Loading zone signed",
+    "Arterial noise",
+    "Too short for a van"
+  ],
+  "sun_shade": "Street tree shades the west half; open to the south sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Exact sign hours on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 34,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 40,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,63 @@
+{
+  "candidate": "48324205-60799719-8170863-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet suburban kerb where cars park, but homes sit 15-17 m away.",
+  "reasons": [
+    "Homes 13-17 m away on same side",
+    "Cars already parked along kerb",
+    "Gentle slope near north end"
+  ],
+  "drivers": {
+    "seclusion": "Houses on both sides within about 15-20 m; no bush or open land beside the section.",
+    "access_and_room": "Sealed street with cars parked along the kerb; room for a van at the kerb.",
+    "traffic": "Quiet residential street; little through traffic likely.",
+    "convention": "Parked cars line both kerbs, so a van blends in a little."
+  },
+  "flags": [
+    "Dwellings 13-17 m from the kerb",
+    "About 3% grade, slightly over the flat limit"
+  ],
+  "sun_shade": "Mostly open; a large tree canopy to the west shades the north end in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking time limits"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 56,
+    "to_m": 76,
+    "where": "Murray Street west kerb, north of the bend, about 60 m up from the corner",
+    "slope_pct": 3.1,
+    "points": [
+      [
+        152.970225,
+        -27.490562
+      ],
+      [
+        152.970259,
+        -27.490384
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 2.8,
+    "min_elevation_m": 40,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:26:38Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
