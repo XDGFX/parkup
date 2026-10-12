@@ -1,0 +1,380 @@
+{
+  "id": "251811811-264662558-24388774-r-46",
+  "street": "Laurence Street",
+  "suburb": "St Lucia",
+  "line": [
+    [
+      153.003107,
+      -27.492929
+    ],
+    [
+      153.003187,
+      -27.492919
+    ],
+    [
+      153.003117,
+      -27.492731
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "east",
+  "length_m": 30,
+  "signs": [
+    {
+      "street": "LAURENCE STREET",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 2
+    },
+    {
+      "street": "LAURENCE STREET",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7:00AM-6:00PM",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Left",
+      "metres_from_kerb_line": 10.1
+    },
+    {
+      "street": "LAURENCE STREET",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 10.4
+    },
+    {
+      "street": "LAURENCE STREET",
+      "restriction": "1P Parallel",
+      "days_times": "MON-FRI:8:00AM-5:30PM",
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 10.2
+    },
+    {
+      "street": "LAURENCE STREET",
+      "restriction": "1P Parallel",
+      "days_times": "MON-FRI:8:00AM-5:30PM",
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 11.9
+    },
+    {
+      "street": "LAURENCE STREET",
+      "restriction": "2P Parallel",
+      "days_times": "MON-FRI:7:00AM-6:00PM",
+      "extra_text": "RESIDENT PERMITS EXCEPTED",
+      "arrow": "Right",
+      "metres_from_kerb_line": 1.8
+    },
+    {
+      "street": "LAURENCE STREET",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 11.9
+    }
+  ],
+  "buildings": [
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 5,
+      "at_m": 9,
+      "outline": [
+        [
+          153.0032011,
+          -27.4926769
+        ],
+        [
+          153.003233,
+          -27.492894
+        ],
+        [
+          153.0033855,
+          -27.4928764
+        ],
+        [
+          153.0033698,
+          -27.4927693
+        ],
+        [
+          153.0033859,
+          -27.4927675
+        ],
+        [
+          153.0033698,
+          -27.4926574
+        ],
+        [
+          153.0032011,
+          -27.4926769
+        ]
+      ]
+    },
+    {
+      "building": "apartments",
+      "name": "Laurence Place",
+      "dwelling": true,
+      "metres": 8,
+      "at_m": 8,
+      "outline": [
+        [
+          153.0032506,
+          -27.4929619
+        ],
+        [
+          153.0033905,
+          -27.4929428
+        ],
+        [
+          153.003397,
+          -27.4929797
+        ],
+        [
+          153.0033844,
+          -27.4929814
+        ],
+        [
+          153.0034058,
+          -27.4931044
+        ],
+        [
+          153.0034172,
+          -27.4931028
+        ],
+        [
+          153.0034232,
+          -27.4931374
+        ],
+        [
+          153.0032844,
+          -27.4931563
+        ],
+        [
+          153.0032506,
+          -27.4929619
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": "Chris Place",
+      "dwelling": false,
+      "metres": 8,
+      "at_m": 30,
+      "outline": [
+        [
+          153.0030475,
+          -27.4926423
+        ],
+        [
+          153.0030604,
+          -27.4926405
+        ],
+        [
+          153.0030746,
+          -27.4926385
+        ],
+        [
+          153.0030788,
+          -27.4926626
+        ],
+        [
+          153.0030646,
+          -27.4926645
+        ],
+        [
+          153.0030518,
+          -27.4926663
+        ],
+        [
+          153.0030475,
+          -27.4926423
+        ]
+      ]
+    },
+    {
+      "building": "apartments",
+      "name": "Trenton",
+      "dwelling": true,
+      "metres": 19,
+      "at_m": 30,
+      "outline": [
+        [
+          153.002682,
+          -27.4927605
+        ],
+        [
+          153.0029209,
+          -27.4927252
+        ],
+        [
+          153.0030112,
+          -27.4932062
+        ],
+        [
+          153.0028677,
+          -27.4932274
+        ],
+        [
+          153.0028008,
+          -27.492871
+        ],
+        [
+          153.0027054,
+          -27.4928851
+        ],
+        [
+          153.002682,
+          -27.4927605
+        ]
+      ]
+    },
+    {
+      "building": "apartments",
+      "name": "Alibe Court",
+      "dwelling": true,
+      "metres": 29,
+      "at_m": 8,
+      "outline": [
+        [
+          153.0035041,
+          -27.4929758
+        ],
+        [
+          153.0035712,
+          -27.4929681
+        ],
+        [
+          153.0035471,
+          -27.4928034
+        ],
+        [
+          153.0035307,
+          -27.4928053
+        ],
+        [
+          153.0035198,
+          -27.4927315
+        ],
+        [
+          153.0034472,
+          -27.4927398
+        ],
+        [
+          153.0034786,
+          -27.4929541
+        ],
+        [
+          153.0035006,
+          -27.4929516
+        ],
+        [
+          153.0035041,
+          -27.4929758
+        ]
+      ]
+    }
+  ],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 153.003107,
+        "lat": -27.492929,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 6.61
+      },
+      {
+        "lon": 153.003157,
+        "lat": -27.492923,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 6.37
+      },
+      {
+        "lon": 153.003181,
+        "lat": -27.492902,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 6.72
+      },
+      {
+        "lon": 153.003165,
+        "lat": -27.492859,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 6.88
+      },
+      {
+        "lon": 153.003149,
+        "lat": -27.492816,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 6.96
+      },
+      {
+        "lon": 153.003133,
+        "lat": -27.492774,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 7.17
+      },
+      {
+        "lon": 153.003117,
+        "lat": -27.492731,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 7.13
+      }
+    ],
+    "min_elevation_m": 6.4,
+    "max_elevation_m": 7.2,
+    "mean_grade_pct": 3.6,
+    "max_grade_pct": 7
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 137
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 30,
+      "length_m": 30,
+      "images": {
+        "esri": ".cache/imagery/251811811-264662558-24388774-r-46/chunk1-esri.jpg",
+        "qld": ".cache/imagery/251811811-264662558-24388774-r-46/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-25",
+        "resolution_m": 0.34,
+        "sensor": "Vantor LG01"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        68,
+        82
+      ],
+      "image_px": [
+        453,
+        547
+      ]
+    }
+  ]
+}

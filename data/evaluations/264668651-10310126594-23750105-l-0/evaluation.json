@@ -1,0 +1,64 @@
+{
+  "candidate": "264668651-10310126594-23750105-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, very steep cul-de-sac kerb with a house 11 m away.",
+  "reasons": [
+    "Grade about 12.4%, too steep",
+    "Detached house 11 m away",
+    "Short 16 m kerb on a cul-de-sac"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses all round; the nearest is 11 m at the 16 m end.",
+    "access_and_room": "Cul-de-sac with a sealed turning head; a van would stand on a steep slope.",
+    "traffic": "Dead-end residential street, very little traffic.",
+    "convention": "A few cars park on the street; no signs mapped."
+  },
+  "flags": [
+    "Steep: about 12.4% mean, 13.6% max grade",
+    "Detached house 11 m from the kerb at 16 m",
+    "Homes within 25 m on every side"
+  ],
+  "sun_shade": "Trees shade the west and north of the bend; the east side is open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Overnight parking rules"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "Mavis Street cul-de-sac bend, north kerb",
+    "slope_pct": 12.4,
+    "points": [
+      [
+        153.006143,
+        -27.500637
+      ],
+      [
+        153.006277,
+        -27.500718
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 12.1,
+    "min_elevation_m": 16.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

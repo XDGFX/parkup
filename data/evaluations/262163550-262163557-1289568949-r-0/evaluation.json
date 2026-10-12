@@ -1,0 +1,63 @@
+{
+  "candidate": "262163550-262163557-1289568949-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow residential street lined with homes; no stopping sign, nowhere to pull off.",
+  "reasons": [
+    "Homes 6-11 m along whole stretch",
+    "No Stopping Any Time sign",
+    "Narrow lane, tree-lined, no verge"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings within 6-23 m the whole length; best spot still has houses about 11 m away.",
+    "access_and_room": "Narrow sealed lane with trees and fences close; only a couple of cars parked at the lower end.",
+    "traffic": "Quiet dead-end style residential street.",
+    "convention": "No Stopping Any Time sign at the kerb; no camper parking seen."
+  },
+  "flags": [
+    "No Stopping Any Time sign",
+    "Steep at upper end: max grade 13.2%",
+    "Houses within 10 m at most points"
+  ],
+  "sun_shade": "Heavy tree canopy over the upper and middle sections; lower end partly shaded.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 95,
+    "to_m": 110,
+    "where": "Lower end of Ninth Avenue where two cars park beside the lane",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        153.004187,
+        -27.502354
+      ],
+      [
+        153.004089,
+        -27.502458
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 18,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

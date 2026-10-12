@@ -1,0 +1,68 @@
+{
+  "candidate": "262163255-262163550-1282100817-l-14",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb where cars park; nearest homes 21 m or more away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Homes 21+ m away, across the road",
+    "Flat at 75-95 m"
+  ],
+  "drivers": {
+    "seclusion": "Lawn and driveway on this side; nearest dwellings 21-26 m away across the road, 11 m ones lie beyond the section.",
+    "access_and_room": "Sealed street with several cars parked along the kerb, so there is room to pull in beside it.",
+    "traffic": "Quiet residential street with little through traffic.",
+    "convention": "Cars are parked along this kerb in imagery, so a van blends in."
+  },
+  "flags": [
+    "Steep elsewhere: 7.9% mean, 19% max; best section flat",
+    "Dwellings 11 m away at about 62 m and 105 m",
+    "No council signs mapped on this stretch"
+  ],
+  "sun_shade": "Tree cover patchy; some shade from the west at 75-95 m, open to morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Unmapped parking signs"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 75,
+    "to_m": 95,
+    "where": "Ninth Avenue east kerb, past the lawn side, before the bend south",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        153.004842,
+        -27.501249
+      ],
+      [
+        153.004822,
+        -27.501352
+      ],
+      [
+        153.004809,
+        -27.501426
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 23.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

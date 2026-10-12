@@ -1,0 +1,64 @@
+{
+  "candidate": "251811811-251811812-539534552-l-80",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb where cars park, with apartments 21 m behind.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Essex Lodge apartments 21 m, same side",
+    "Only 11 m of kerb"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 21 m on the same side; houses across the road beyond 25 m.",
+    "access_and_room": "Cars already park along this kerb; the 11 m stretch fits one van.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Cars parked on both sides in the imagery; no signs mapped."
+  },
+  "flags": [
+    "Low-lying: about 5 m elevation, 193 m from Brisbane River",
+    "Dwellings 10-25 m away on the same side",
+    "Short stretch: 11 m"
+  ],
+  "sun_shade": "Building and tree shade from the north side; some canopy overhead.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Overnight parking rules"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 11,
+    "where": "Macquarie Street north kerb, opposite the red-roofed houses",
+    "slope_pct": 1.1,
+    "points": [
+      [
+        153.003961,
+        -27.49319
+      ],
+      [
+        153.004071,
+        -27.493175
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 5.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

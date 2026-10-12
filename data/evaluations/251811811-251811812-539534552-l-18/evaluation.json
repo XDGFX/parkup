@@ -1,0 +1,74 @@
+{
+  "candidate": "251811811-251811812-539534552-l-18",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a junction, with apartments 10 m away.",
+  "reasons": [
+    "Apartments 10 m away at 8 m",
+    "Kerb ends at junction mouth",
+    "Resident-permit parking signs nearby"
+  ],
+  "drivers": {
+    "seclusion": "Laurence Place apartments 10 m, Riviera Villas 18 m, more homes all round.",
+    "access_and_room": "Short 21 m stretch beside a junction mouth; little room to stand clear.",
+    "traffic": "Quiet street junction; some traffic turning.",
+    "convention": "A few cars park nearby; signs show resident permits and a traffic area."
+  },
+  "flags": [
+    "Steep: about 4% mean grade, 6% max",
+    "Low-lying: about 5 m elevation, 195 m from Brisbane River",
+    "Signs show permit parking in force Mon-Fri"
+  ],
+  "sun_shade": "Heavy tree canopy over the kerb from the north; apartment block shades the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether parking is allowed overnight"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 21,
+    "where": "Macquarie Street kerb at the Laurence Street junction",
+    "slope_pct": 4.1,
+    "points": [
+      [
+        153.003345,
+        -27.493311
+      ],
+      [
+        153.003333,
+        -27.49324
+      ],
+      [
+        153.003422,
+        -27.493264
+      ],
+      [
+        153.003459,
+        -27.493259
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 4.1,
+    "min_elevation_m": 5.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

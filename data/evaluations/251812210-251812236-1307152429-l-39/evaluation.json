@@ -1,0 +1,68 @@
+{
+  "candidate": "251812210-251812236-1307152429-l-39",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb with many cars parked, but houses and flats within 25 m.",
+  "reasons": [
+    "Cars park along the kerb in Esri",
+    "Houses and flats within 25 m",
+    "School-day and No Stopping signs"
+  ],
+  "drivers": {
+    "seclusion": "Apartment block 10 m at 16 m; houses on the north side within about 20 m; flats across.",
+    "access_and_room": "Cars park along the kerb in the Esri image, so there is room beside the lane.",
+    "traffic": "Residential street; busier at school times.",
+    "convention": "Cars parked along the kerb; signs show 1/2P on school days and No Stopping Any Time."
+  },
+  "flags": [
+    "1/2P school-day sign 6.5 m from the kerb line, so the limit may apply here",
+    "No Stopping Any Time signs at 5.1 m and 14 m from the kerb line",
+    "Apartments 10 m from the kerb at 16 m, outside the best section",
+    "Dwellings 10-25 m away on the same side",
+    "Steep at the west end: max 5.8% grade"
+  ],
+  "sun_shade": "Dense tree canopy over the western half; open to the sun at the east end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Where the No Stopping signs apply",
+    "Overnight parking rules",
+    "Cars parked in Esri but absent in QLD, so use varies"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 49,
+    "where": "Macquarie Street north kerb, east of the apartment block",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        153.009047,
+        -27.492307
+      ],
+      [
+        153.00929,
+        -27.492287
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 5.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

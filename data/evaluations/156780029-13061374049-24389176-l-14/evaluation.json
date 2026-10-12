@@ -1,0 +1,73 @@
+{
+  "candidate": "156780029-13061374049-24389176-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow tree-lined lane with homes 6-9 m away and no room to pull off.",
+  "reasons": [
+    "Homes 6-9 m from kerb",
+    "Narrow lane, no room to pull off",
+    "2P resident-permit signs on this street"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 7-8 m from the kerb at 3 and 21 m along; homes on both sides along the lane.",
+    "access_and_room": "Narrow lane with kerb-to-fence edges and trees; little room to stop out of the lane.",
+    "traffic": "Quiet side lane.",
+    "convention": "2P Mon-Fri 7am-6pm resident permits excepted; no cars parked on the lane in imagery."
+  },
+  "flags": [
+    "Homes within 10 m",
+    "2P resident-permit parking Mon-Fri 7am-6pm",
+    "Grade 3% mean, max 8%"
+  ],
+  "sun_shade": "Heavy tree canopy over most of the lane.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "Seventh Avenue south kerb at the corner where the lane leaves the junction",
+    "slope_pct": 0,
+    "points": [
+      [
+        153.001261,
+        -27.500155
+      ],
+      [
+        153.001227,
+        -27.500142
+      ],
+      [
+        153.001188,
+        -27.500124
+      ],
+      [
+        153.001136,
+        -27.500096
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 42.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

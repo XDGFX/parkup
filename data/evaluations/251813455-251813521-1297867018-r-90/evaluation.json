@@ -1,0 +1,63 @@
+{
+  "candidate": "251813455-251813521-1297867018-r-90",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Shaded Sandford Street kerb under apartment blocks 15-25 m away.",
+  "reasons": [
+    "Apartments 15-25 m away on own side",
+    "Homes also across the road",
+    "Low ground, about 3 m elevation"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks 15-22 m away on the north side and houses and units across the road; no bush or park backing.",
+    "access_and_room": "Sealed street; a car sits at the kerb, so room for a van appears to exist.",
+    "traffic": "Quiet residential street.",
+    "convention": "A few cars park here but no sign of van overnighting."
+  },
+  "flags": [
+    "Low-lying: 3-4 m elevation, Brisbane River 204 m away",
+    "Apartments mapped 15 m away near 29 m along"
+  ],
+  "sun_shade": "Heavily shaded by trees and the apartment block on the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Parking restrictions on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "Sandford Street north kerb, start of the stretch beside the apartment car area",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.996461,
+        -27.492288
+      ],
+      [
+        152.996334,
+        -27.492199
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 3.4,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

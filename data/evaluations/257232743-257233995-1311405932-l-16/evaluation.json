@@ -1,0 +1,66 @@
+{
+  "candidate": "257232743-257233995-1311405932-l-16",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Flat quiet-street kerb past a corner, backed by sheds with homes behind.",
+  "reasons": [
+    "Backed by sheds and carport, homes 20+ m",
+    "Cars park along this street",
+    "Homes 9-12 m along the rest"
+  ],
+  "drivers": {
+    "seclusion": "Sheds and a carport sit 7-21 m behind the kerb; the nearest dwelling is 27 m away, but homes at 5 m and 9 m flank the section.",
+    "access_and_room": "Plain kerb on a street wide enough for parked cars; no lay-by.",
+    "traffic": "Quiet side street; the busy Indooroopilly Road is at the corner.",
+    "convention": "Cars park along the street; signs ban stopping and parking only at the corner."
+  },
+  "flags": [
+    "No Parking Any Time and No Stopping Any Time signs at the corner; check where they end",
+    "Dwellings 5-12 m from the kerb at 0-15 m and 36-75 m",
+    "Plain kerb, no parking convention for overnight stays"
+  ],
+  "sun_shade": "Trees and hedge shade the north side in the afternoon; open to the park on the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact end of sign restrictions"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 18,
+    "to_m": 32,
+    "where": "north kerb of Raglan Street, 20 m past the Indooroopilly Road corner, backed by garden sheds",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.991819,
+        -27.500455
+      ],
+      [
+        152.991953,
+        -27.500495
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 0.6,
+    "min_elevation_m": 12.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "251811811-251811812-539534552-l-100",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb where cars park, with apartments about 16-25 m behind.",
+  "reasons": [
+    "Cars park along both kerbs",
+    "Apartment blocks within 25 m, same side",
+    "Loading zone sign near the east end"
+  ],
+  "drivers": {
+    "seclusion": "Apartment car parks and blocks 16 m or more behind the kerb; homes across the road.",
+    "access_and_room": "Cars park along the kerb, so there is room beside the lane.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Several cars parked both sides; a loading zone sign sits near the east end."
+  },
+  "flags": [
+    "Loading zone sign 8.7 m from the kerb line; keep clear of it",
+    "Low-lying: about 5 m elevation, 189 m from Brisbane River",
+    "Dwellings 10-25 m away on the same side"
+  ],
+  "sun_shade": "Tree canopy over the eastern part; building shade from the north in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Overnight parking rules",
+    "Extent of the loading zone"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 28,
+    "where": "Macquarie Street north kerb, west of the loading zone",
+    "slope_pct": 1,
+    "points": [
+      [
+        153.004166,
+        -27.493162
+      ],
+      [
+        153.004447,
+        -27.493124
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 5.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

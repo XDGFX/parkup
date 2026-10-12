@@ -1,0 +1,63 @@
+{
+  "candidate": "257233997-257233999-23748313-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential south kerb with homes 12-15 m behind it.",
+  "reasons": [
+    "Dwellings 12-15 m away on own side",
+    "Few cars park on this kerb",
+    "Gentle climb about 4%"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 12-17 m away on this side and homes across the road; no bush or park backing.",
+    "access_and_room": "Sealed street, kerbside room for a van; a few cars park on both sides.",
+    "traffic": "Quiet residential street.",
+    "convention": "Some cars park here but no sign of van overnighting."
+  },
+  "flags": [
+    "Steep: about 4% grade, over 20% at the east end",
+    "Dwellings 9-12 m away at the east end and start"
+  ],
+  "sun_shade": "Mostly open; garden trees shade the kerb in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 16,
+    "to_m": 40,
+    "where": "Raglan Street south kerb, in front of the garden gap mid-block",
+    "slope_pct": 4,
+    "points": [
+      [
+        152.993345,
+        -27.500688
+      ],
+      [
+        152.993588,
+        -27.500676
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 4,
+    "min_elevation_m": 17.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

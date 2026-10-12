@@ -1,0 +1,50 @@
+{
+  "candidate": "262148808-262467917-815808538-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 1 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep, narrow street with homes 5-15 m from the kerb throughout.",
+  "reasons": [
+    "Homes within 5-15 m the whole way",
+    "Narrow lane, no room to pull off",
+    "Mean grade 7.9%, max 15.2%"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes sit 1-15 m from the east kerb along nearly all of its 102 m; the least exposed stretch, about 30-45 m, still has homes 14-15 m away.",
+    "access_and_room": "Narrow lane with houses and driveways right at the edge and trees on the other side; no clear shoulder.",
+    "traffic": "Quiet residential street.",
+    "convention": "One or two cars parked at the lower end; no parking convention along the kerb."
+  },
+  "flags": [
+    "Steep: mean 7.9%, max 15.2%",
+    "No Stopping Any Time sign nearby",
+    "Dwellings under 10 m from the kerb"
+  ],
+  "sun_shade": "Dense tree canopy over most of the kerb, houses to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 1,
+    "gated": false,
+    "slope_pct": 7.9,
+    "min_elevation_m": 23.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,67 @@
+{
+  "candidate": "257227150-257228515-526076297-r-60",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Grassy verge opposite bush, but homes 12-16 m away on this side.",
+  "reasons": [
+    "Homes 12-16 m away, same side",
+    "Bush opposite, cars already park here",
+    "Moderate slope, about 6%"
+  ],
+  "drivers": {
+    "seclusion": "Bush across the road; detached homes about 15 m away on the west side.",
+    "access_and_room": "Sealed lane with a grassy verge on the west edge where cars park; room for a van.",
+    "traffic": "Quiet residential street with little through traffic.",
+    "convention": "Two cars parked at the kerb in the QLD image, so parking here is normal."
+  },
+  "flags": [
+    "Steep: about 6% grade",
+    "Homes 12-16 m away on the same side",
+    "No signs mapped"
+  ],
+  "sun_shade": "Bush to the east gives morning shade; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 32,
+    "to_m": 50,
+    "where": "Middle of Ironside Street's west side, beside the pool house gardens",
+    "slope_pct": 6,
+    "points": [
+      [
+        152.995741,
+        -27.49847
+      ],
+      [
+        152.995759,
+        -27.498513
+      ],
+      [
+        152.995804,
+        -27.498622
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 9.4,
+    "min_elevation_m": 36.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

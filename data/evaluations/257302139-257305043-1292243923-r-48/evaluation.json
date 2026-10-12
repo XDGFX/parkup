@@ -1,0 +1,50 @@
+{
+  "candidate": "257302139-257305043-1292243923-r-48",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 4 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short steep kerb beside a house, covered by No Stopping signs.",
+  "reasons": [
+    "House 4 m from the kerb",
+    "Several No Stopping Any Time signs",
+    "Mean grade 10%, max 13%"
+  ],
+  "drivers": {
+    "seclusion": "A detached dwelling sits 4 m from the kerb at 16 m, with others close around; no bush or open ground behind it.",
+    "access_and_room": "Only 25 m of narrow kerb with a hedge and house frontages at the edge; no room to pull off.",
+    "traffic": "Quiet side street near a busier junction.",
+    "convention": "Signs on both sides: No Stopping Any Time, No Parking Any Time and Mon-Fri time-limited no parking."
+  },
+  "flags": [
+    "Steep: mean 10%, max 13%",
+    "Multiple No Stopping Any Time signs",
+    "Dwelling under 10 m from the kerb"
+  ],
+  "sun_shade": "Trees shade the kerb from the east and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 4,
+    "gated": false,
+    "slope_pct": 10.4,
+    "min_elevation_m": 19.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

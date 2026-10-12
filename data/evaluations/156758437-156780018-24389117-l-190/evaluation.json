@@ -1,0 +1,66 @@
+{
+  "candidate": "156758437-156780018-24389117-l-190",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short, steep residential kerb with homes close behind and a few cars parked.",
+  "reasons": [
+    "Homes 8-15 m on own side",
+    "Slope about 7%, steep",
+    "Only 24 m of kerb"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes within about 8-15 m behind a treed verge; more homes opposite.",
+    "access_and_room": "Sealed street, kerb room for a van where a couple of cars already park.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Residents park here; 2P and 3P resident-permit signs, no-parking-any-time stretches."
+  },
+  "flags": [
+    "Steep: about 7% mean, 10.8% max",
+    "Signs: 2P/3P Mon-Fri with resident permits, plus no-parking-any-time zones",
+    "Mapped house 8 m from the kerb near the lower end"
+  ],
+  "sun_shade": "Heavy tree cover along the verge, shading the morning side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Which kerb stretch the signs apply to"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "Ninth Avenue east kerb, upper end before the bend",
+    "slope_pct": 5.6,
+    "points": [
+      [
+        152.999339,
+        -27.501308
+      ],
+      [
+        152.999438,
+        -27.501398
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 7.6,
+    "min_elevation_m": 27.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

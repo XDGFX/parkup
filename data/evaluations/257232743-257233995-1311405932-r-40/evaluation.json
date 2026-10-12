@@ -1,0 +1,65 @@
+{
+  "candidate": "257232743-257233995-1311405932-r-40",
+  "verdict": "poor",
+  "agent_verdict": "good",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb beside a small park, where cars already park.",
+  "reasons": [
+    "Backs onto park, homes 19+ m across road",
+    "Cars park here already",
+    "Flat, about 1% grade"
+  ],
+  "drivers": {
+    "seclusion": "Park and trees on the south side; nearest dwellings are 19-20 m away across the road, with sheds and a carport on the north side.",
+    "access_and_room": "Plain kerb on a street wide enough for parked cars; two cars are already parked on it.",
+    "traffic": "Quiet side street, with busier Indooroopilly Road at the corner.",
+    "convention": "Cars park along this kerb; no signs listed for this stretch."
+  },
+  "flags": [
+    "House 8 m from the kerb at the far end, beyond 30 m",
+    "Plain kerb: corner nearby may carry signs on Indooroopilly Road"
+  ],
+  "sun_shade": "Park trees shade the kerb from the south and west; open to morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "south kerb of Raglan Street, beside the small park near Indooroopilly Road",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.991927,
+        -27.500593
+      ],
+      [
+        152.992074,
+        -27.500627
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 11.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

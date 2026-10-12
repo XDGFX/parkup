@@ -1,0 +1,63 @@
+{
+  "candidate": "251811811-251811812-539534552-l-34",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, but apartments sit 15 m behind it.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Apartments 15 m, same side",
+    "Homes all round within 25 m"
+  ],
+  "drivers": {
+    "seclusion": "Laurence Place apartments 15 m on the same side; homes across the road too.",
+    "access_and_room": "Parked cars line the kerb, so there is room beside the lane.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Several cars parked along the kerb; no signs mapped here."
+  },
+  "flags": [
+    "Low-lying: about 5 m elevation, 195 m from Brisbane River",
+    "Dwellings 10-25 m away on the same side"
+  ],
+  "sun_shade": "Building shade from the north in the morning; some tree cover to the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Overnight parking rules"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 33,
+    "where": "Macquarie Street north kerb, east of the Laurence Street corner",
+    "slope_pct": 1.6,
+    "points": [
+      [
+        153.003507,
+        -27.493253
+      ],
+      [
+        153.003838,
+        -27.493207
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 5.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

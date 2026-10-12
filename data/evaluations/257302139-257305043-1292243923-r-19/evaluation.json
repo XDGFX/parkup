@@ -1,0 +1,50 @@
+{
+  "candidate": "257302139-257305043-1292243923-r-19",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 1 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short junction corner with a house at the kerb and No Stopping signs.",
+  "reasons": [
+    "House 1 m from the kerb",
+    "No Stopping and No Parking signs",
+    "Only 24 m, at a signalled junction"
+  ],
+  "drivers": {
+    "seclusion": "A dwelling sits 1 m from the kerb at 14 m and others 8-13 m away; the corner is open to the junction.",
+    "access_and_room": "Kerb wraps a corner beside a busy road with no clear shoulder; a van would sit in the junction mouth.",
+    "traffic": "Picardy Street and Hawken Drive junction; busy and noisy.",
+    "convention": "Signs show No Stopping Any Time, No Parking Any Time and No Parking Mon-Fri 7am-7pm; a bus zone is nearby."
+  },
+  "flags": [
+    "No Stopping Any Time sign at 2 m from the kerb",
+    "Dwelling about 1 m from the kerb",
+    "Junction with bus zone, noisy"
+  ],
+  "sun_shade": "Part shaded by hedge and trees on the west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 1,
+    "gated": false,
+    "slope_pct": 5.9,
+    "min_elevation_m": 22.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,50 @@
+{
+  "candidate": "262148810-262467813-24241413-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 1 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow lane with homes 1-8 m from the kerb and No Stopping signs.",
+  "reasons": [
+    "Homes 1-8 m away along the south kerb",
+    "No Stopping and No Parking Any Time signs",
+    "Narrow lane, no clear shoulder"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings sit 1-8 m from the kerb at 0-30 m, 58 m, 87 m and 104 m; no stretch has bush or open ground behind it.",
+    "access_and_room": "Narrow lane under trees with fences and house frontages at the edge; no room to pull fully off.",
+    "traffic": "Quiet residential lane, with a busier road at the far end.",
+    "convention": "Only a car or two parked at the start; signs at the Indooroopilly Road end ban stopping and parking."
+  },
+  "flags": [
+    "No Stopping Any Time and No Parking Any Time signs near the far end",
+    "Dwellings under 10 m from the kerb",
+    "Steep in places: mean 6.7%, max 28.7% from the DEM"
+  ],
+  "sun_shade": "Heavy tree canopy over much of the kerb; houses to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 1,
+    "gated": false,
+    "slope_pct": 6,
+    "min_elevation_m": 22.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

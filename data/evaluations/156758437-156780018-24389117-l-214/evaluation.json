@@ -1,0 +1,64 @@
+{
+  "candidate": "156758437-156780018-24389117-l-214",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb in St Lucia, houses 12-13 m away on this side.",
+  "reasons": [
+    "Dwellings 12-13 m away, same side",
+    "Quiet street, few cars parked",
+    "Flat at 55-70 m"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes line this side at 12-23 m and more across the road; no bush or open ground.",
+    "access_and_room": "Plain kerb on a narrow sealed street; a van fits beside the kerb but there is no verge or pull-off.",
+    "traffic": "Quiet local street, little through traffic.",
+    "convention": "Few cars parked along it in imagery, so a van would stand out."
+  },
+  "flags": [
+    "Signed 2P/3P resident permits excepted, Mon-Fri 8am-5:30pm",
+    "Steep overall: 4.7% mean, 9.8% max; best section flat",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Mixed tree canopy; trees to the west at the south end give afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Resident parking enforcement"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 70,
+    "where": "Ninth Avenue east kerb, past the midpoint before the bend",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        152.9999,
+        -27.501816
+      ],
+      [
+        153.000007,
+        -27.501912
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 30,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

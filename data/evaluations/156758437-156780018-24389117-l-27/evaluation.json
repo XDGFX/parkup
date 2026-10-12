@@ -1,0 +1,64 @@
+{
+  "candidate": "156758437-156780018-24389117-l-27",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb with homes 12 m back on this side, treed lot opposite.",
+  "reasons": [
+    "Homes about 12 m on own side",
+    "Treed lot across the road",
+    "Few cars parked; permit signs"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 12-16 m behind this kerb; across the road is a treed lot with houses over 25 m away.",
+    "access_and_room": "Sealed street with room at the kerb; only a couple of cars parked along it.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "No van convention visible; 3P resident-permit signs and no-parking zones apply."
+  },
+  "flags": [
+    "Slope about 1.5% here, 4.3% mean, 8.6% max overall",
+    "Signs: 3P parking Mon-Fri with resident permits, plus no-parking-any-time stretches",
+    "Homes within 25 m on this side"
+  ],
+  "sun_shade": "Open kerb with tree shade from the west lot in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact sign positions on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 95,
+    "to_m": 125,
+    "where": "Ninth Avenue east kerb, opposite the treed vacant lot",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.998853,
+        -27.50087
+      ],
+      [
+        152.999066,
+        -27.501063
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 4,
+    "min_elevation_m": 29.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "262163550-262163557-1289568949-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow bush-edged lane where cars park; homes 11-19 m away.",
+  "reasons": [
+    "Homes 11-19 m away, both sides",
+    "Cars parked on the lane here",
+    "Narrow lane, little room to pull off"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 11-19 m away on both sides of the lane; bush and tree cover but no open ground or park.",
+    "access_and_room": "Sealed lane with cars already parked along it; ground beside the lane is tight and tree-lined.",
+    "traffic": "Quiet dead-end style lane, little through traffic.",
+    "convention": "Two cars parked here in imagery, so a van would blend in."
+  },
+  "flags": [
+    "The first 60 m runs through bush with no formed road visible",
+    "Signed No Stopping Any Time near the start; St Lucia Traffic Area 2P resident permits excepted",
+    "Dwelling 6 m from the kerb near 73 m",
+    "Low-lying near the Brisbane River, 17.5 m minimum elevation, 307 m away"
+  ],
+  "sun_shade": "Heavy tree canopy over most of the lane, shading from both sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Exact road width under the trees"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 90,
+    "to_m": 100,
+    "where": "Ninth Avenue lane south-east end, where two cars are parked",
+    "slope_pct": 0.1,
+    "points": [
+      [
+        153.004216,
+        -27.502435
+      ],
+      [
+        153.00415,
+        -27.502504
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 0.3,
+    "min_elevation_m": 17.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

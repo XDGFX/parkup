@@ -1,0 +1,75 @@
+{
+  "candidate": "257227150-257228515-526076297-r-120",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat top end beside bush, but homes 12 m away; rest is steep.",
+  "reasons": [
+    "Homes about 12 m away, same side",
+    "Top 15 m nearly flat",
+    "Rest of stretch is 13-22% grade"
+  ],
+  "drivers": {
+    "seclusion": "Bush across the road; detached homes 12-25 m away on the west side.",
+    "access_and_room": "Sealed lane with a grass verge on the west edge; cars park near the top.",
+    "traffic": "Quiet residential street with little through traffic.",
+    "convention": "Cars parked along the kerb in the QLD image, so a van would not stand out much."
+  },
+  "flags": [
+    "Steep below 20 m: mean 13%, max 22%",
+    "Homes 12 m away on the same side",
+    "No signs mapped"
+  ],
+  "sun_shade": "Bush to the east shades the lane in the morning; open to afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "Top end of Ironside Street, west side, beside bushland",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.995838,
+        -27.498705
+      ],
+      [
+        152.995848,
+        -27.49873
+      ],
+      [
+        152.99586,
+        -27.49876
+      ],
+      [
+        152.995873,
+        -27.498799
+      ],
+      [
+        152.995887,
+        -27.498842
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 4,
+    "min_elevation_m": 38.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

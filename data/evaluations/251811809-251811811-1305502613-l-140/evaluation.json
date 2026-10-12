@@ -1,0 +1,69 @@
+{
+  "candidate": "251811809-251811811-1305502613-l-140",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parked north kerb of Macquarie Street, apartments 12 m away, near a junction.",
+  "reasons": [
+    "Apartments 12 m from kerb",
+    "Cars park along this kerb",
+    "Short stretch ending at a junction"
+  ],
+  "drivers": {
+    "seclusion": "Apartment block 12 m away on the same side; houses 15-24 m across the road.",
+    "access_and_room": "Wide sealed street with a parked kerb lane; the east end is the junction mouth, so only the west part fits a van.",
+    "traffic": "Local street beside a junction; light traffic.",
+    "convention": "Cars park along both kerbs; signs are 2P Mon-Fri with resident permits excepted, plus one P (No Limit) sign."
+  },
+  "flags": [
+    "Apartments 12 m away on the same side",
+    "Low-lying: about 5 m elevation, 200 m from the Brisbane River",
+    "Junction at the east end, keep clear of the corner",
+    "Mixed signs: 2P resident permits excepted and P (No Limit)"
+  ],
+  "sun_shade": "Tree canopy over the north side shades the section from morning to midday; open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Which sign applies at the best section"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Macquarie Street north kerb, west of the Laurence Street junction, beside the apartment block",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        153.002777,
+        -27.493354
+      ],
+      [
+        153.002833,
+        -27.493345
+      ],
+      [
+        153.002897,
+        -27.493336
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

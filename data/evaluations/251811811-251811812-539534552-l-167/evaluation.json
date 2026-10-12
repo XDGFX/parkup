@@ -1,0 +1,65 @@
+{
+  "candidate": "251811811-251811812-539534552-l-167",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a vacant lawn, with homes across the road within 25 m.",
+  "reasons": [
+    "Vacant lawn on the near side",
+    "Homes across road about 20-25 m",
+    "Cars park along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Lawn and trees on the near side; apartments set back; houses across the road about 20-25 m.",
+    "access_and_room": "Cars park along the kerb, so there is room beside the lane.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Cars parked on both sides in the imagery; loading zone sign further along."
+  },
+  "flags": [
+    "Loading zone sign 8.5 m from the kerb line; keep clear of it",
+    "Low-lying: about 5 m elevation, 183 m from Brisbane River",
+    "Camden apartments 13 m from the kerb at 86 m, outside the best section"
+  ],
+  "sun_shade": "Trees shade the western end; apartments shade the north in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Overnight parking rules",
+    "Extent of the loading zone"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 35,
+    "where": "Macquarie Street north kerb, beside the vacant lawn block west of the car park drive",
+    "slope_pct": 0.7,
+    "points": [
+      [
+        153.004922,
+        -27.493059
+      ],
+      [
+        153.005193,
+        -27.493022
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 4.8,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

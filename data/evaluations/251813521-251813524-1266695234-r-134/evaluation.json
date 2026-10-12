@@ -1,0 +1,64 @@
+{
+  "candidate": "251813521-251813524-1266695234-r-134",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy Sandford Street kerb with cars parked, homes 12-20 m on all sides.",
+  "reasons": [
+    "Dwellings 12-20 m away on all sides",
+    "Many cars parked along kerb",
+    "Flat ground, but low and near creek"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes and apartment blocks 12-20 m away on the north side, with more homes across the road; no bush or park backing.",
+    "access_and_room": "Sealed street with a row of cars parked along the kerb, so room for a van.",
+    "traffic": "Residential street, moderate use.",
+    "convention": "Cars park along this kerb all day; no sign of van overnighting."
+  },
+  "flags": [
+    "Low-lying: about 5.7 m elevation, Toowong Creek 65 m away",
+    "Signs: 2P parallel Mon-Fri 9am-5pm, and a No Parking Any Time sign near the start; check the section's own sign",
+    "Dwellings 12 m away near 37 m and 57 m"
+  ],
+  "sun_shade": "Mostly shaded by trees and apartment blocks on the north side; open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Which sign applies at the exact spot"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 14,
+    "to_m": 34,
+    "where": "Sandford Street north kerb, among the parked cars mid-stretch",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        152.995251,
+        -27.490919
+      ],
+      [
+        152.995077,
+        -27.490827
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 0.9,
+    "min_elevation_m": 5.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

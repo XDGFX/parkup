@@ -1,0 +1,64 @@
+{
+  "candidate": "156758437-156780018-24389117-r-80",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb at the top end, homes 15-20 m away all round.",
+  "reasons": [
+    "Homes 15-21 m away all round",
+    "Few cars parked; van would stand out",
+    "Tree-lined kerb, no verge"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 15-21 m away on this side and across the road; church 24 m away, no bush or open ground.",
+    "access_and_room": "Sealed street with a tree-lined kerb; a van fits beside the kerb but there is no verge or pull-off.",
+    "traffic": "Quiet local street, little through traffic.",
+    "convention": "Only a couple of cars parked nearby in imagery, so a van would stand out."
+  },
+  "flags": [
+    "Steep: about 4.5% grade in best section",
+    "Signed 2P/3P resident permits excepted, with No Parking Any Time signs on this block",
+    "Homes within about 25 m all round"
+  ],
+  "sun_shade": "Tree canopy on the west side gives afternoon shade; open to morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Which sign applies at the best section"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "Ninth Avenue west kerb, at the top end by Christ Church",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        152.998499,
+        -27.500652
+      ],
+      [
+        152.998641,
+        -27.50078
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 30.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,67 @@
+{
+  "candidate": "251811811-264662558-24388774-r-46",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short east kerb with a house 5 m away and no-stopping signs.",
+  "reasons": [
+    "House and apartments within 5-8 m",
+    "Short 30 m stretch, tight lane",
+    "No Stopping Any Time signs nearby"
+  ],
+  "drivers": {
+    "seclusion": "A detached house 5 m and apartments 8 m away; another block faces it across the road.",
+    "access_and_room": "Narrow dead-end lane with cars parked on the west kerb; the east side is narrow and signed.",
+    "traffic": "Quiet dead end, local traffic only.",
+    "convention": "Signed No Stopping Any Time, 1P and 2P Mon-Fri; resident permits excepted on the 2P."
+  },
+  "flags": [
+    "Homes within 5-8 m",
+    "No Stopping Any Time signs at the kerb",
+    "Low-lying: about 6.5 m elevation, 137 m from the Brisbane River",
+    "Slope about 3.6%"
+  ],
+  "sun_shade": "Dense canopy overhead at the north end; shaded most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Exact extent of the no-stopping zone"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 30,
+    "where": "Dead-end top of Laurence Street, east kerb beside the grey-roofed house",
+    "slope_pct": 3.6,
+    "points": [
+      [
+        153.003181,
+        -27.492902
+      ],
+      [
+        153.003117,
+        -27.492731
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 6.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

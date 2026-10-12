@@ -1,0 +1,67 @@
+{
+  "candidate": "251811812-264662605-23268727-r-18",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow dead-end lane beside apartment car parks; no room to pull off.",
+  "reasons": [
+    "Apartments 12-15 m, car park alongside",
+    "Lane narrow, no pull-off",
+    "Serves apartment parking"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks 12-15 m away on both sides, with a pool and balconies overlooking.",
+    "access_and_room": "Single narrow sealed lane with cars already parked along it; trees and fences close the edges.",
+    "traffic": "Dead end, only residents' traffic.",
+    "convention": "Looks like resident and visitor parking, not overnight stays."
+  },
+  "flags": [
+    "Apartments within 25 m both sides",
+    "Low-lying: about 5-6 m, Brisbane River 131 m away",
+    "Slope about 3.9% mean, max 5.4%"
+  ],
+  "sun_shade": "Heavy tree shade over the lane, open at the river end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the lane is private or signed",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "Munro Street dead-end lane, east kerb near the entrance",
+    "slope_pct": 3.9,
+    "points": [
+      [
+        153.005894,
+        -27.492798
+      ],
+      [
+        153.005974,
+        -27.492787
+      ],
+      [
+        153.005932,
+        -27.492726
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 3.9,
+    "min_elevation_m": 5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

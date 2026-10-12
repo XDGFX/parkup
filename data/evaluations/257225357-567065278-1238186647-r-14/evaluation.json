@@ -1,0 +1,76 @@
+{
+  "candidate": "257225357-567065278-1238186647-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy parked kerb below a townhouse row, homes 10-14 m away.",
+  "reasons": [
+    "Townhouses 10-14 m from kerb",
+    "Many cars park here already",
+    "Gentle climb, about 6% grade"
+  ],
+  "drivers": {
+    "seclusion": "A wide grass verge and path separate the kerb from townhouses 12-18 m away; a house faces it across the road.",
+    "access_and_room": "Sealed street with cars parked along the west kerb; room for a van.",
+    "traffic": "Quiet residential street, mostly local traffic.",
+    "convention": "A line of cars parks along this kerb in both images, so a van blends in."
+  },
+  "flags": [
+    "Grade about 6% overall, over the 3% threshold",
+    "Townhouses within 10-14 m",
+    "No signs mapped"
+  ],
+  "sun_shade": "Mostly open; a few street trees and the townhouses shade the west side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Resident permit rules, since no signs are mapped"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 25,
+    "where": "Top of Lamont Street's west kerb, beside the grass verge before the townhouse row",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        152.992332,
+        -27.49655
+      ],
+      [
+        152.99233,
+        -27.496553
+      ],
+      [
+        152.992314,
+        -27.496576
+      ],
+      [
+        152.992279,
+        -27.496625
+      ],
+      [
+        152.992225,
+        -27.496703
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 5.9,
+    "min_elevation_m": 39.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

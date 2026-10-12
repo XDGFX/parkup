@@ -1,0 +1,51 @@
+{
+  "candidate": "257233999-262467853-1054527246-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow private-looking lane serving houses; no room to stop, homes within 15 m.",
+  "reasons": [
+    "Lane narrower than a van pull-off",
+    "Dwellings 9-15 m from lane",
+    "Dead-ends at carport and houses"
+  ],
+  "drivers": {
+    "seclusion": "Tree-screened, but dwellings sit 9-15 m from the lane along most of it, and the end reaches a carport 2 m away.",
+    "access_and_room": "Single-width gravel and sealed lane under canopy with a vehicle parked in it; no wider ground beside it to pull off.",
+    "traffic": "Very little traffic, access to a few homes only.",
+    "convention": "No signs; looks like a residents' access lane, no camper parking seen."
+  },
+  "flags": [
+    "Steep in places: max grade 13.8%",
+    "Lane may be a private driveway",
+    "Locked gate mapped 88 m away"
+  ],
+  "sun_shade": "Heavy tree canopy over the whole lane.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the lane is public",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 29.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

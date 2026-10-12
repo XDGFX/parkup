@@ -1,0 +1,65 @@
+{
+  "candidate": "257233995-257233997-23748313-l-0",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet St Lucia residential kerb with homes close on both sides.",
+  "reasons": [
+    "Homes 12-18 m away on both sides",
+    "Cars park on this street",
+    "Dwelling 7 m away near 40 m"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes within 12-20 m on the north side and across the road; no bush or park backing.",
+    "access_and_room": "Sealed street, cars parked along the kerb, room for a van.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park on the kerb in QLD imagery, but no sign of overnight van use."
+  },
+  "flags": [
+    "Steep: about 4% grade",
+    "Dwelling 7 m from kerb near 40 m"
+  ],
+  "sun_shade": "Open to the sun mostly; trees shade the north side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 18,
+    "to_m": 32,
+    "where": "Raglan Street north kerb, between the corner and the grassy frontage mid-block",
+    "slope_pct": 3.5,
+    "points": [
+      [
+        152.992641,
+        -27.500649
+      ],
+      [
+        152.992783,
+        -27.500641
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 4,
+    "min_elevation_m": 13.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

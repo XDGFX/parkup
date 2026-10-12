@@ -1,0 +1,65 @@
+{
+  "candidate": "262163550-262163557-1289568949-l-171",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a tree-covered bend, homes 11-16 m away on the south side.",
+  "reasons": [
+    "Homes 11-16 m away, same side",
+    "Short stretch on a bend",
+    "Dense canopy over the road"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 11-16 m away on the south side; bush and tree canopy to the north, no open ground.",
+    "access_and_room": "Sealed narrow lane on a bend; room beside the kerb is tight and tree-covered.",
+    "traffic": "Quiet lane at a bend, little through traffic.",
+    "convention": "One car parked beside the bend in imagery; no parking convention clear."
+  },
+  "flags": [
+    "Signed No Stopping Any Time and St Lucia Traffic Area signs within 7 m",
+    "Dwelling 10 m from the far end, near 18 m",
+    "Low-lying near the Brisbane River, 19 m elevation, 311 m away",
+    "Slope about 5% overall"
+  ],
+  "sun_shade": "Dense tree canopy covers the road and kerb, mostly shaded.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Exact room to pull off under the trees"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 9,
+    "where": "Ninth Avenue south kerb at the elbow of the bend",
+    "slope_pct": 5,
+    "points": [
+      [
+        153.003663,
+        -27.502827
+      ],
+      [
+        153.003572,
+        -27.502832
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 19.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:04:23Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
