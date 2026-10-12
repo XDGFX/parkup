@@ -1,0 +1,63 @@
+{
+  "candidate": "47830791-47831340-5884012-l-96",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb by a car park; a residential block sits 16 m away.",
+  "reasons": [
+    "Residential building 16 m, same side",
+    "Cars park along this kerb",
+    "Steep: about 9% grade"
+  ],
+  "drivers": {
+    "seclusion": "Car park to the south and east, but a residential building 16 m away on the same side and houses across the road.",
+    "access_and_room": "Only 10 m of kerb, just over a van length; cars already park in line.",
+    "traffic": "Side street near a main road; light to moderate traffic.",
+    "convention": "Cars parked along the kerb; sign is 2P weekdays, resident permits excepted."
+  },
+  "flags": [
+    "Steep: about 9% grade, 14% at its steepest",
+    "Resident permit sign",
+    "Very short stretch"
+  ],
+  "sun_shade": "Large tree on the east side shades the kerb in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "East kerb of Harrys Road, beside the retail car park entrance",
+    "slope_pct": 9,
+    "points": [
+      [
+        152.981968,
+        -27.490723
+      ],
+      [
+        152.981951,
+        -27.490812
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 13.1,
+    "min_elevation_m": 19.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

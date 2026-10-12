@@ -1,0 +1,68 @@
+{
+  "candidate": "58736413-58736432-1284573982-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep narrow kerb beside bush at the south end, houses close further up.",
+  "reasons": [
+    "Grade about 14%, max 27%",
+    "Houses 5-8 m from kerb above 30 m",
+    "Narrow lane, bush right to the edge"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the west side at the south end; houses 15 m or less beyond.",
+    "access_and_room": "Narrow lane with steep bank and trees; little clear ground beside it.",
+    "traffic": "Quiet residential street.",
+    "convention": "A car or two park nearby; no convention along this side."
+  },
+  "flags": [
+    "Steep: about 14% mean grade, 27% max",
+    "Houses within 5-15 m of the kerb"
+  ],
+  "sun_shade": "Heavy tree canopy from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 18,
+    "where": "west kerb of Magor Street at the bush-backed bend",
+    "slope_pct": 14,
+    "points": [
+      [
+        152.987196,
+        -27.500507
+      ],
+      [
+        152.987314,
+        -27.50039
+      ],
+      [
+        152.987317,
+        -27.500386
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 10.9,
+    "min_elevation_m": 18.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

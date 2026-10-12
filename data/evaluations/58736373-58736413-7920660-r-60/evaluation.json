@@ -1,0 +1,64 @@
+{
+  "candidate": "58736373-58736413-7920660-r-60",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb with homes 13-20 m away; flat stretch near 100-120 m.",
+  "reasons": [
+    "Homes 13-19 m away on own side",
+    "Cars park nearby on this street",
+    "Flat at far end"
+  ],
+  "drivers": {
+    "seclusion": "Dense detached houses line the north side, nearest dwellings 13-19 m from the section.",
+    "access_and_room": "Sealed residential street with room to park at the kerb; a few cars already parked near 100 m.",
+    "traffic": "Quiet suburban street, low traffic.",
+    "convention": "No parking convention seen; ordinary residential kerb."
+  },
+  "flags": [
+    "Steep upper part: mean 5.5%, max 15% (0-60 m)",
+    "Dwelling 3-4 m from kerb at 128-131 m, avoid past 120 m"
+  ],
+  "sun_shade": "Street trees and house gardens give patchy shade, mostly from the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 100,
+    "to_m": 120,
+    "where": "Far end of Iona Terrace, before the bend towards the side street",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.987729,
+        -27.500817
+      ],
+      [
+        152.987566,
+        -27.500711
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 18.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

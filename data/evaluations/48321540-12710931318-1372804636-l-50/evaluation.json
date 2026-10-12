@@ -1,0 +1,49 @@
+{
+  "candidate": "48321540-12710931318-1372804636-l-50",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep kerb with homes 6-20 m away.",
+  "reasons": [
+    "Grade about 21%, far over limit",
+    "Homes 6-20 m from kerb",
+    "Steep residential street"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 6-20 m from the kerb along the whole stretch.",
+    "access_and_room": "Grade averages 21% (max 36%), too steep to park a van safely.",
+    "traffic": "Residential street.",
+    "convention": "No parking convention judged."
+  },
+  "flags": [
+    "Steep: about 21% grade",
+    "Homes within 10 m"
+  ],
+  "sun_shade": "Not assessed; no usable section.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 21.8,
+    "min_elevation_m": 30.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

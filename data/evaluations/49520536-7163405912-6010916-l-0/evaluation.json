@@ -1,0 +1,65 @@
+{
+  "candidate": "49520536-7163405912-6010916-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short steep kerb, about 16% grade, with homes 8-15 m away.",
+  "reasons": [
+    "Grade about 16%, over the limit",
+    "Dwellings 8-15 m away",
+    "Only 28 m long"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 8-15 m from the kerb within the stretch.",
+    "access_and_room": "Residential street; room to pull in not confirmed from overhead.",
+    "traffic": "Quiet local street.",
+    "convention": "No sign of parking convention or overnight stays."
+  },
+  "flags": [
+    "Steep: about 16% mean grade, 21% max",
+    "Near Toowong Creek, about 34 m elevation"
+  ],
+  "sun_shade": "Not assessed in detail; suburban lots.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parked-car convention"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "East kerb of Hunter Street at the low end",
+    "slope_pct": 15,
+    "points": [
+      [
+        152.981346,
+        -27.488524
+      ],
+      [
+        152.981319,
+        -27.488648
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 19.2,
+    "min_elevation_m": 33.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

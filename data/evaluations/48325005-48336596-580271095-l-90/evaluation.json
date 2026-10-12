@@ -1,0 +1,63 @@
+{
+  "candidate": "48325005-48336596-580271095-l-90",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, nearly flat corner kerb; house about 12 m behind trees.",
+  "reasons": [
+    "House 12-13 m away, tree-screened",
+    "Cars park along the street",
+    "Nearly flat"
+  ],
+  "drivers": {
+    "seclusion": "Dense trees screen a house 12-13 m back; homes opposite and around the corner.",
+    "access_and_room": "Wide sealed street at a junction; room for a van off the corner.",
+    "traffic": "Quiet residential street with a side-street junction.",
+    "convention": "Cars park along the kerb to the east, so a van would blend in."
+  },
+  "flags": [
+    "Dwellings within 25 m all round",
+    "Close to a junction"
+  ],
+  "sun_shade": "Dense tree canopy shades the kerb from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "South kerb beside the corner, in front of the tree-covered garden",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.971257,
+        -27.491391
+      ],
+      [
+        152.971097,
+        -27.491366
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 35.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

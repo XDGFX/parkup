@@ -1,0 +1,62 @@
+{
+  "candidate": "5555368835-13070849037-7918586-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep suburban kerb with houses 9-12 m away along its length.",
+  "reasons": [
+    "Houses within 9-12 m throughout",
+    "Grade about 14%, over the limit",
+    "Bus route, busy through road"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 11-20 m from the kerb on the same side along the whole stretch.",
+    "access_and_room": "Cars park along the kerb, so a van can pull in, but the road is steep.",
+    "traffic": "Bus route and through traffic; buses visible in imagery.",
+    "convention": "Residential parking, but no sign of anyone staying overnight."
+  },
+  "flags": [
+    "Steep: about 14% mean grade, 24% max",
+    "Bus route noise"
+  ],
+  "sun_shade": "Mixed street-tree shade; houses shade the west side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 36,
+    "to_m": 50,
+    "where": "West kerb of Hillsdon Road near the northern end",
+    "slope_pct": 13.7,
+    "points": [
+      [
+        152.972718,
+        -27.490919
+      ],
+      [
+        152.972784,
+        -27.490807
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 14.9,
+    "min_elevation_m": 45.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

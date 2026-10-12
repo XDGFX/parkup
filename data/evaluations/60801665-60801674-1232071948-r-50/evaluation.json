@@ -1,0 +1,64 @@
+{
+  "candidate": "60801665-60801674-1232071948-r-50",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, homes 11 m or more away, but steep.",
+  "reasons": [
+    "Cars already park along this kerb",
+    "Dwellings 11-22 m, same side",
+    "Steep, about 12% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Homes 11-22 m away on the same side; none under 10 m here.",
+    "access_and_room": "Narrow verge; room beside lane is tight but cars park there.",
+    "traffic": "Quiet residential street.",
+    "convention": "Several cars parked along this kerb."
+  },
+  "flags": [
+    "Steep: about 12% mean grade, 23% max",
+    "Homes within 25 m"
+  ],
+  "sun_shade": "Open, some canopy at the south end; morning shade from houses.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 19,
+    "to_m": 38,
+    "where": "west kerb of Kobada Street, mid-block with parked cars",
+    "slope_pct": 12,
+    "points": [
+      [
+        152.987453,
+        -27.499083
+      ],
+      [
+        152.987423,
+        -27.499252
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 7,
+    "min_elevation_m": 23.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

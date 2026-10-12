@@ -1,0 +1,65 @@
+{
+  "candidate": "47830692-47831935-5884042-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep corner kerb on a busy road, homes 11 m away.",
+  "reasons": [
+    "Grade 9% mean, 11% max",
+    "Dwellings 11 m on this side",
+    "Busy through road at junction"
+  ],
+  "drivers": {
+    "seclusion": "Two dwellings 11 m from the kerb on the same side, more homes within 25 m.",
+    "access_and_room": "Plain kerbside lane on a corner; a No Stopping Any Time sign sits 12.6 m from the line and the stretch curves into the junction.",
+    "traffic": "Busy through road with a zebra crossing and lane markings; steady traffic.",
+    "convention": "A white car parks on the stretch, but no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: 9.1% mean, 11.2% max",
+    "Dwellings within about 11 m",
+    "No Stopping Any Time sign nearby",
+    "Mapped gate 82 m away, not on the only access"
+  ],
+  "sun_shade": "Open to the sky; houses to the north shade it slightly in the morning, sun from the south at midday.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether the sign applies to this exact stretch"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 19,
+    "where": "north kerb of Keltie Street just east of the side-street junction",
+    "slope_pct": 9.1,
+    "points": [
+      [
+        152.982417,
+        -27.488844
+      ],
+      [
+        152.982608,
+        -27.488822
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 9.3,
+    "min_elevation_m": 27.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

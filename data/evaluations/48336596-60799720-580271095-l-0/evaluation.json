@@ -1,0 +1,63 @@
+{
+  "candidate": "48336596-60799720-580271095-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb with homes 13-20 m across front yards; cars park nearby.",
+  "reasons": [
+    "Homes 13-20 m on same side",
+    "Cars park along this road",
+    "Gentle slope, sealed street"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 14-19 m back from the kerb at this section, behind front yards and trees.",
+    "access_and_room": "Sealed street; few cars parked on this side, but there is room to stop.",
+    "traffic": "Quiet residential street between two junctions.",
+    "convention": "Cars park on the opposite kerb; this side has fewer."
+  },
+  "flags": [
+    "Homes 14-20 m from best section",
+    "Few cars on this side"
+  ],
+  "sun_shade": "Partly shaded by street trees on the south side, mainly in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Local parking signs"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 30,
+    "where": "Goldsbrough Road south kerb, mid-block under street trees",
+    "slope_pct": 2.4,
+    "points": [
+      [
+        152.970934,
+        -27.491342
+      ],
+      [
+        152.970784,
+        -27.49132
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 0.8,
+    "min_elevation_m": 36.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

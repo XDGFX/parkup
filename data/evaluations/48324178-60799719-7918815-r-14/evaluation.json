@@ -1,0 +1,63 @@
+{
+  "candidate": "48324178-60799719-7918815-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb where cars park; houses 17-19 m away, gentle slope mid-stretch.",
+  "reasons": [
+    "Houses 17-19 m away on both sides",
+    "Cars park along this kerb",
+    "Quiet street, no overnight convention"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings 17-19 m away; homes within 25 m on both sides, none within 10 m here.",
+    "access_and_room": "Sealed street with a parking lane; cars are parked on this kerb in both images, so room is there.",
+    "traffic": "Quiet local street, light traffic.",
+    "convention": "Parked cars are present, but no sign of overnight camping."
+  },
+  "flags": [
+    "Steep: about 5% here, 7.5% mean over the stretch, 14% max",
+    "Dwellings 10 m away at 12 m and 12 m away at 52 m, avoided"
+  ],
+  "sun_shade": "Open sky over the road; patchy tree shade from the north side gardens and the large tree at the west end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether overnight parking draws complaints"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 24,
+    "to_m": 44,
+    "where": "Gregory Street north kerb, middle of the block under the powerlines",
+    "slope_pct": 5,
+    "points": [
+      [
+        152.970893,
+        -27.490332
+      ],
+      [
+        152.970694,
+        -27.490298
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 6.9,
+    "min_elevation_m": 41.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

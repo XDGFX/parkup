@@ -1,0 +1,65 @@
+{
+  "candidate": "58736413-58736453-7920662-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 3 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "No Stopping Any Time sign and a narrow lane backed by houses.",
+  "reasons": [
+    "No Stopping Any Time sign",
+    "Houses 2-3 m from kerb",
+    "Narrow lane, steep bank opposite"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings close on the east side; bush across the road.",
+    "access_and_room": "Narrow lane with no verge to pull off.",
+    "traffic": "Quiet residential street.",
+    "convention": "No parking seen; signed no stopping."
+  },
+  "flags": [
+    "No Stopping Any Time sign near the start",
+    "Steep: about 9% mean grade, 22% max"
+  ],
+  "sun_shade": "Bush shades from the west, houses and trees from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Extent of the no stopping zone"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 71,
+    "where": "east kerb of Magor Street past the pool house",
+    "slope_pct": 9,
+    "points": [
+      [
+        152.987138,
+        -27.500914
+      ],
+      [
+        152.987068,
+        -27.501277
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 3,
+    "gated": false,
+    "slope_pct": 5.4,
+    "min_elevation_m": 11.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

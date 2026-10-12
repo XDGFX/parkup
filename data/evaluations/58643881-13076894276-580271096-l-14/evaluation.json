@@ -1,0 +1,62 @@
+{
+  "candidate": "58643881-13076894276-580271096-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb where cars park, but houses sit 12-13 m behind it.",
+  "reasons": [
+    "Houses 12-13 m away, same side",
+    "Cars parked along kerb",
+    "Bus zone signs at both ends"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 12-13 m behind the kerb on the same side; shops 24 m up.",
+    "access_and_room": "Parked cars line this kerb, so a van can pull in beside them.",
+    "traffic": "Through road with moderate traffic and a nearby corner and shops.",
+    "convention": "Cars park along it, but bus zone signs are mapped at both ends."
+  },
+  "flags": [
+    "Bus zone signs nearby",
+    "Retail strip just north"
+  ],
+  "sun_shade": "Mostly open; street trees and house shade from the west in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Where the bus zone bays actually end",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 2,
+    "to_m": 14,
+    "where": "West kerb of Hillsdon Road, just north of the side-street corner",
+    "slope_pct": 1.7,
+    "points": [
+      [
+        152.971978,
+        -27.492182
+      ],
+      [
+        152.972034,
+        -27.492086
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 34.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

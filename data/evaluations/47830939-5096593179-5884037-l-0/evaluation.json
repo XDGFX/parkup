@@ -1,0 +1,70 @@
+{
+  "candidate": "47830939-5096593179-5884037-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep residential kerb, about 14% grade, houses 15-19 m away.",
+  "reasons": [
+    "Grade about 14%, over the limit",
+    "Houses 15-19 m on same side",
+    "Quiet street, no parking convention"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 15-19 m from the kerb along the stretch.",
+    "access_and_room": "Residential street; room to pull in not confirmed from overhead.",
+    "traffic": "Quiet local street.",
+    "convention": "No sign of parking convention or overnight stays."
+  },
+  "flags": [
+    "Steep: about 14% mean grade, 21% max"
+  ],
+  "sun_shade": "Not assessed in detail; suburban lots with garden trees.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parked-car convention"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 76,
+    "where": "Lower end of the west kerb of Howitt Street",
+    "slope_pct": 11,
+    "points": [
+      [
+        152.979215,
+        -27.488425
+      ],
+      [
+        152.97924,
+        -27.488299
+      ],
+      [
+        152.979255,
+        -27.488265
+      ],
+      [
+        152.979274,
+        -27.488247
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 11.7,
+    "min_elevation_m": 20.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

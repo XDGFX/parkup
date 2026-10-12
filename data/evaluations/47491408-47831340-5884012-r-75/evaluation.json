@@ -1,0 +1,63 @@
+{
+  "candidate": "47491408-47831340-5884012-r-75",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a commercial car park; cars park along it, homes across road.",
+  "reasons": [
+    "Backs onto commercial car park",
+    "Cars park along this kerb",
+    "Homes 20 m+ across the road"
+  ],
+  "drivers": {
+    "seclusion": "East side is a commercial car park and retail; nearest dwellings are 20 m or more away, across the road.",
+    "access_and_room": "Parallel kerb with parked cars in line; the car park entrance sits at about 12-20 m so keep to the first 11 m.",
+    "traffic": "Side street close to a main road; moderate traffic, vans in the kerb line are not noticed.",
+    "convention": "Cars park nose to tail along both sides in Esri."
+  },
+  "flags": [
+    "Signs 2P weekdays 7am-7pm, resident permits excepted",
+    "Car park entrance apron beyond 12 m"
+  ],
+  "sun_shade": "Open; trees on the car park side give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Overnight use of the car park"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 11,
+    "where": "East kerb of Harrys Road, south of the car park entrance",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.981909,
+        -27.49103
+      ],
+      [
+        152.981927,
+        -27.490932
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 18.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

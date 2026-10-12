@@ -1,0 +1,50 @@
+{
+  "candidate": "58736432-60801667-1240090602-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 4 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow, steep residential street lined with homes within 10 m; nowhere usable.",
+  "reasons": [
+    "Dwellings 4-17 m from kerb throughout",
+    "Mean grade 7.5%, max 18.4%",
+    "No Stopping Any Time sign mapped"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the whole stretch, most 4-12 m from the kerb, with pools and decks facing the road.",
+    "access_and_room": "Sealed street, but cars park tight along it and the lane is narrow.",
+    "traffic": "Quiet residential street with local traffic only.",
+    "convention": "A No Stopping Any Time sign is mapped at 9 m from the kerb line; only a few residents' cars park here."
+  },
+  "flags": [
+    "Steep: 7.5% mean, up to 18% in places",
+    "No Stopping Any Time sign",
+    "Dwellings within 10 m along the whole stretch"
+  ],
+  "sun_shade": "Mixed tree canopy and house shade; mostly open at the downhill end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 4,
+    "gated": false,
+    "slope_pct": 7.5,
+    "min_elevation_m": 29.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

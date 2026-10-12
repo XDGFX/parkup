@@ -1,0 +1,69 @@
+{
+  "candidate": "48325013-48334161-7918586-l-14",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep residential kerb; homes 19-20 m away, cars park nearby.",
+  "reasons": [
+    "Homes within 25 m all round",
+    "Steep: about 10% grade",
+    "Cars park along this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Dense housing; the nearest same-side houses are 19-20 m from this section and homes face it across the road.",
+    "access_and_room": "Sealed road with cars parked at the kerb in places; room for a van in line.",
+    "traffic": "Collector road with moderate traffic.",
+    "convention": "Cars park along the kerb; no signs."
+  },
+  "flags": [
+    "Steep: about 10% grade rising north",
+    "Houses 9-11 m away just either side of the section"
+  ],
+  "sun_shade": "Heavy tree cover along the west side; shade most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 62,
+    "to_m": 80,
+    "where": "West kerb of Hillsdon Road, between the two house frontages mid-stretch",
+    "slope_pct": 10,
+    "points": [
+      [
+        152.97325,
+        -27.49008
+      ],
+      [
+        152.973311,
+        -27.489993
+      ],
+      [
+        152.973347,
+        -27.489942
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 10.3,
+    "min_elevation_m": 60.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

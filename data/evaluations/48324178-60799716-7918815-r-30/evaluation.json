@@ -1,0 +1,62 @@
+{
+  "candidate": "48324178-60799716-7918815-r-30",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, very steep residential kerb with houses 12 m away.",
+  "reasons": [
+    "Mean grade 15.7%, over 12% limit",
+    "Houses 12-13 m from kerb",
+    "Quiet street, no parking convention"
+  ],
+  "drivers": {
+    "seclusion": "Three houses within 13 m on the section's own side; homes all round.",
+    "access_and_room": "Kerb room exists beside a sealed street, but the grade is far too steep to sleep on.",
+    "traffic": "Quiet residential street.",
+    "convention": "A few cars park along the kerb; no signs."
+  },
+  "flags": [
+    "Steep: 15.7% mean, 50% max over 25 m",
+    "Dwellings 12 m away"
+  ],
+  "sun_shade": "Dense tree canopy over the verge; houses to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 25,
+    "where": "Gregory Street south kerb, just east of the corner",
+    "slope_pct": 15.7,
+    "points": [
+      [
+        152.971555,
+        -27.490518
+      ],
+      [
+        152.971805,
+        -27.490554
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 8.8,
+    "min_elevation_m": 44.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

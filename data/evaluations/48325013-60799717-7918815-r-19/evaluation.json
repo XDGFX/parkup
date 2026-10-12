@@ -1,0 +1,63 @@
+{
+  "candidate": "48325013-60799717-7918815-r-19",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb in the dip; houses 11-12 m away on its own side.",
+  "reasons": [
+    "Houses 11-12 m away on this side",
+    "Quiet street, no parking convention",
+    "Grade about 2% in the dip"
+  ],
+  "drivers": {
+    "seclusion": "Homes 11-12 m away on the section's own side and 19-23 m across the road; none within 10 m.",
+    "access_and_room": "Sealed street with a kerb lane; cars park nearby, so room to pull in looks fine.",
+    "traffic": "Quiet side street; busier main road at the east end.",
+    "convention": "A few cars park along the street, no sign of overnight camping."
+  },
+  "flags": [
+    "Dwellings 11 m away at 45 m",
+    "11.4% mean and 22% max grade over the full stretch; the dip is much flatter"
+  ],
+  "sun_shade": "Mostly open; shaded from the east by large trees near the main-road corner.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether overnight parking draws complaints"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 32,
+    "to_m": 58,
+    "where": "Gregory Street north kerb in the dip, west of the main-road corner",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.972396,
+        -27.490573
+      ],
+      [
+        152.972137,
+        -27.490533
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 40,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,50 @@
+{
+  "candidate": "58736432-60801667-1240090602-r-350",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Too steep to park: 12.7% mean grade, with homes close by.",
+  "reasons": [
+    "Grade 12.7% mean, 14.8% max: too steep",
+    "Dwelling 5 m from kerb at start",
+    "Short 52 m stretch beside a main road"
+  ],
+  "drivers": {
+    "seclusion": "A house sits 5 m from the start; the others are 13-20 m off, across the road, with a main road at the end.",
+    "access_and_room": "Sealed kerb with a few resident cars parked; the stretch falls 6.7 m over 52 m.",
+    "traffic": "Quiet street that ends at a busy main road.",
+    "convention": "No signs mapped; a few residents' cars park here."
+  },
+  "flags": [
+    "Steep: 12.7% mean, 14.8% max, over the 12% limit",
+    "Dwelling 5 m from the kerb at 5 m",
+    "Busy main road at the downhill end"
+  ],
+  "sun_shade": "Tree shade over the middle; open at both ends.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 13.2,
+    "min_elevation_m": 15.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

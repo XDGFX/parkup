@@ -1,0 +1,63 @@
+{
+  "candidate": "48325005-48336596-580271095-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat residential kerb where cars park; houses 12-20 m away.",
+  "reasons": [
+    "Flat, cars park along both kerbs",
+    "Houses 12-20 m from kerb",
+    "Cafe at the east end"
+  ],
+  "drivers": {
+    "seclusion": "Houses with deep front gardens 12-20 m back; homes opposite too.",
+    "access_and_room": "Wide sealed street; several cars parked along the kerb, room for a van.",
+    "traffic": "Quiet street near a cafe and a junction.",
+    "convention": "Cars park on both sides, so a van would blend in."
+  },
+  "flags": [
+    "Dwellings within 25 m all round",
+    "Cafe and car park at the east end"
+  ],
+  "sun_shade": "Open; street trees at each end shade the east and west ends.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 60,
+    "where": "South kerb west of the cafe, outside the large front gardens",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.971766,
+        -27.491472
+      ],
+      [
+        152.971417,
+        -27.491416
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 35.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

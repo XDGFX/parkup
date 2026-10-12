@@ -1,0 +1,68 @@
+{
+  "candidate": "58736373-9690555234-1284573097-l-0",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Kerb with several cars parked, homes 12-17 m away on this side, bush opposite.",
+  "reasons": [
+    "Homes 12-17 m away on own side",
+    "Cars already park along this kerb",
+    "Bush reserve across the road"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses line the north kerb at 12-17 m; bush reserve opposite so no neighbours across the road.",
+    "access_and_room": "Sealed street with a parking lane where several vehicles stand; room to park at the kerb.",
+    "traffic": "Quiet suburban road with overhead lines; occasional local traffic.",
+    "convention": "Parked cars and a utility-style van along the kerb, so a van won't stand out."
+  },
+  "flags": [
+    "Mean grade 3.7%, about 2-3% at best section",
+    "Sandy Creek 113 m away, min elevation 11 m"
+  ],
+  "sun_shade": "Mostly open; houses cast shade from the north in the morning, bush to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 105,
+    "to_m": 130,
+    "where": "Past the cars parked near 100 m, before the junction at the east end",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        152.989825,
+        -27.502002
+      ],
+      [
+        152.989967,
+        -27.502009
+      ],
+      [
+        152.990078,
+        -27.502014
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 3.6,
+    "min_elevation_m": 12.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

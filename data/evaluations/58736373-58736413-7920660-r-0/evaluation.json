@@ -1,0 +1,62 @@
+{
+  "candidate": "58736373-58736413-7920660-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep residential kerb with houses 9-15 m away on the same side.",
+  "reasons": [
+    "Grade about 14%, over the limit",
+    "Houses within 9-15 m",
+    "Quiet street, no parking convention"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 9-24 m from the kerb on the same side.",
+    "access_and_room": "Narrow residential street; room beside the lane looks tight.",
+    "traffic": "Quiet local street.",
+    "convention": "No sign of parked cars or overnight stays."
+  },
+  "flags": [
+    "Steep: about 14% mean grade, 19% max",
+    "Low-lying near Sandy Creek"
+  ],
+  "sun_shade": "Heavy tree and house shade; patchy sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "East kerb at the bottom of the rise",
+    "slope_pct": 14.1,
+    "points": [
+      [
+        152.988798,
+        -27.501888
+      ],
+      [
+        152.988712,
+        -27.501788
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 12.5,
+    "min_elevation_m": 16.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

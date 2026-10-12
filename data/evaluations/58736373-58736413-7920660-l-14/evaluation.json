@@ -1,0 +1,64 @@
+{
+  "candidate": "58736373-58736413-7920660-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow leafy residential street with houses 7-11 m from every stretch.",
+  "reasons": [
+    "Homes within about 10 m throughout",
+    "Narrow lane, no parked cars",
+    "Quiet street, a van would stand out"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 9-11 m from the kerb on the same side, many more close behind.",
+    "access_and_room": "Narrow sealed lane with little verge; few cars parked, so room beside the lane is tight.",
+    "traffic": "Quiet local street.",
+    "convention": "No sign of parked cars or overnight stays; the van would be noticed."
+  },
+  "flags": [
+    "Steep in the middle: up to 23% max",
+    "Near Sandy Creek, low-lying at about 18 m"
+  ],
+  "sun_shade": "Heavy tree canopy and house shade; patchy sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 160,
+    "to_m": 189,
+    "where": "Southern end of the west kerb, past the bend",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.987548,
+        -27.500788
+      ],
+      [
+        152.987314,
+        -27.500637
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 18,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

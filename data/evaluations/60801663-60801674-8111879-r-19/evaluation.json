@@ -1,0 +1,64 @@
+{
+  "candidate": "60801663-60801674-8111879-r-19",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside a house at a junction; a dwelling sits 6 m away.",
+  "reasons": [
+    "Dwelling 6 m from kerb",
+    "Short 16 m stretch at junction",
+    "Steep, about 8% grade"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 6 m away at 11 m, more homes within 25 m.",
+    "access_and_room": "Narrow residential street; kerb is at a junction mouth with little room.",
+    "traffic": "Quiet residential street.",
+    "convention": "No parked cars on this stretch; signs say No Stopping Any Time."
+  },
+  "flags": [
+    "Steep: about 8% grade",
+    "No Stopping Any Time signs at both ends"
+  ],
+  "sun_shade": "Heavy tree canopy over the kerb from the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "east kerb of Kobada Street just north of the junction",
+    "slope_pct": 8.4,
+    "points": [
+      [
+        152.987452,
+        -27.499636
+      ],
+      [
+        152.987481,
+        -27.499497
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 8.4,
+    "min_elevation_m": 26.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:40:58Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
