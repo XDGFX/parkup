@@ -1,0 +1,295 @@
+{
+  "id": "54625758-262475790-1428901875-r-15",
+  "street": "Radnor Street",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.972744,
+      -27.504333
+    ],
+    [
+      152.972768,
+      -27.504329
+    ],
+    [
+      152.972828,
+      -27.504325
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "south",
+  "length_m": 8,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 27,
+      "at_m": 8,
+      "outline": [
+        [
+          152.9733223,
+          -27.5040694
+        ],
+        [
+          152.9732381,
+          -27.5040547
+        ],
+        [
+          152.9729968,
+          -27.5041142
+        ],
+        [
+          152.9730046,
+          -27.5041394
+        ],
+        [
+          152.9732956,
+          -27.50419
+        ],
+        [
+          152.9733223,
+          -27.5040694
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 32,
+      "at_m": 8,
+      "outline": [
+        [
+          152.973426,
+          -27.5042601
+        ],
+        [
+          152.9731724,
+          -27.5042206
+        ],
+        [
+          152.9731558,
+          -27.5043045
+        ],
+        [
+          152.973239,
+          -27.5043175
+        ],
+        [
+          152.9732273,
+          -27.5043766
+        ],
+        [
+          152.9733002,
+          -27.504388
+        ],
+        [
+          152.9732933,
+          -27.5044226
+        ],
+        [
+          152.9733726,
+          -27.5044349
+        ],
+        [
+          152.9733744,
+          -27.5044257
+        ],
+        [
+          152.9733342,
+          -27.5044194
+        ],
+        [
+          152.9733436,
+          -27.5043718
+        ],
+        [
+          152.9734021,
+          -27.5043809
+        ],
+        [
+          152.973426,
+          -27.5042601
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 42,
+      "at_m": 8,
+      "outline": [
+        [
+          152.9732046,
+          -27.5039044
+        ],
+        [
+          152.9728904,
+          -27.5038575
+        ],
+        [
+          152.9728727,
+          -27.5039504
+        ],
+        [
+          152.973187,
+          -27.5039973
+        ],
+        [
+          152.9732046,
+          -27.5039044
+        ]
+      ]
+    },
+    {
+      "building": "residential",
+      "name": null,
+      "dwelling": true,
+      "metres": 56,
+      "at_m": 8,
+      "outline": [
+        [
+          152.9735566,
+          -27.504093
+        ],
+        [
+          152.9733983,
+          -27.504073
+        ],
+        [
+          152.9733762,
+          -27.504211
+        ],
+        [
+          152.973661,
+          -27.5042469
+        ],
+        [
+          152.9736771,
+          -27.5041463
+        ],
+        [
+          152.9735506,
+          -27.5041304
+        ],
+        [
+          152.9735566,
+          -27.504093
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9740908,
+      "lat": -27.5047508,
+      "metres": 133,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9710671,
+      "lat": -27.5030073,
+      "metres": 222,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9710741,
+      "lat": -27.5029719,
+      "metres": 224,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9710955,
+      "lat": -27.5028636,
+      "metres": 231,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9753398,
+      "lat": -27.5037806,
+      "metres": 255,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.972744,
+        "lat": -27.504333,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 8.33
+      },
+      {
+        "lon": 152.972794,
+        "lat": -27.504327,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 8.48
+      },
+      {
+        "lon": 152.972828,
+        "lat": -27.504325,
+        "at_m": 8.3,
+        "line": 0,
+        "elevation_m": 8.62
+      }
+    ],
+    "min_elevation_m": 8.3,
+    "max_elevation_m": 8.6,
+    "mean_grade_pct": 3.6,
+    "max_grade_pct": 4.2
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 111
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 8,
+      "length_m": 8,
+      "images": {
+        "esri": ".cache/imagery/54625758-262475790-1428901875-r-15/chunk1-esri.jpg",
+        "qld": ".cache/imagery/54625758-262475790-1428901875-r-15/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        68,
+        61
+      ],
+      "image_px": [
+        455,
+        406
+      ]
+    }
+  ]
+}

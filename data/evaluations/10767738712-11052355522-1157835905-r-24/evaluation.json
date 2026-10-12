@@ -1,0 +1,47 @@
+{
+  "candidate": "10767738712-11052355522-1157835905-r-24",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a multi-lane arterial beside a shelter; nobody parks here.",
+  "reasons": [
+    "Multi-lane main road, no parking",
+    "Only 16 m, bus shelter alongside",
+    "Nowhere to pull out of traffic"
+  ],
+  "drivers": {
+    "seclusion": "Open to the arterial and a wide path; nearest homes about 50 m away.",
+    "access_and_room": "Kerb edge of a multi-lane road with a footpath and shelter beside it; no pull-off.",
+    "traffic": "Heavy arterial traffic with a nearby signalised crossing.",
+    "convention": "No cars parked along this kerb and no marked parking lane."
+  },
+  "flags": [
+    "Main road with no parking",
+    "Likely bus stop",
+    "Noise: arterial"
+  ],
+  "sun_shade": "Open, no cover.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Bus stop signage on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 52,
+    "gated": false,
+    "slope_pct": 5.5,
+    "min_elevation_m": 25.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "47490279-48336554-982388434-l-195",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bush-backed kerb where a row of cars already parks, no homes nearby.",
+  "reasons": [
+    "Backs onto dense bush, no dwellings close",
+    "Row of parked cars along kerb",
+    "Gentle grade, 2% at the section"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush and powerlines to the south; school grounds and bush opposite; no dwellings within 25 m.",
+    "access_and_room": "Parallel kerb with cars parked along it; a van fits in the row.",
+    "traffic": "Through road, moderate; parked cars separate the van from the lane.",
+    "convention": "Many cars park here; loading zone signs apply 7-9am and 2-4pm on school days only."
+  },
+  "flags": [
+    "Loading zone signs near the ends of the stretch (school days only)",
+    "Slope up to 8% max near the east end, about 2% at the best section",
+    "Creek 11 m away but ground about 15 m elevation"
+  ],
+  "sun_shade": "Bush shade from the south; morning shade from trees opposite; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact sign positions along the kerb",
+    "Street lighting",
+    "Crossfall",
+    "Building at 70 m west use"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 65,
+    "where": "Russell Terrace south kerb, in the row of parked cars below the school",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.964128,
+        -27.500342
+      ],
+      [
+        152.963779,
+        -27.500288
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.8,
+    "min_elevation_m": 14.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

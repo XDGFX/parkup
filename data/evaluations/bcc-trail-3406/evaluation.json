@@ -1,0 +1,48 @@
+{
+  "candidate": "bcc-trail-3406",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin sits in dense bush on a steep gully with no track a van could use.",
+  "reasons": [
+    "Dense bush, no vehicle tracks",
+    "Steep: up to 45% grade",
+    "Houses 30 m away"
+  ],
+  "drivers": {
+    "seclusion": "Deep bush on the east, but the back fences of houses are 30 to 40 m west.",
+    "access_and_room": "No visible track, clearing or vehicle; the mapped track 61 m away is not visible under the canopy and the cul-de-sac ends at back fences.",
+    "traffic": "Quiet cul-de-sac to the west.",
+    "convention": "No sign anyone parks or camps here."
+  },
+  "flags": [
+    "Steep: about 18% mean, 45% max",
+    "Creek within 4 m: gully floor",
+    "Homes within 30 m"
+  ],
+  "sun_shade": "Full eucalypt canopy; shaded all day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Where the mapped track runs",
+    "Any gate on the track"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 30,
+    "gated": false,
+    "slope_pct": 18.5,
+    "min_elevation_m": 61.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

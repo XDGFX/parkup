@@ -1,0 +1,521 @@
+{
+  "id": "osm-way-44597938",
+  "street": "Car park off Fig Tree Pocket Road",
+  "suburb": "",
+  "line": [
+    [
+      152.953981,
+      -27.515487
+    ],
+    [
+      152.953929,
+      -27.515799
+    ],
+    [
+      152.953886,
+      -27.515792
+    ],
+    [
+      152.953809,
+      -27.516248
+    ],
+    [
+      152.953852,
+      -27.516256
+    ],
+    [
+      152.953843,
+      -27.516294
+    ],
+    [
+      152.954086,
+      -27.516326
+    ],
+    [
+      152.954092,
+      -27.516294
+    ],
+    [
+      152.954144,
+      -27.516302
+    ],
+    [
+      152.954213,
+      -27.515845
+    ],
+    [
+      152.954178,
+      -27.515837
+    ],
+    [
+      152.954187,
+      -27.515761
+    ],
+    [
+      152.954144,
+      -27.515754
+    ],
+    [
+      152.954152,
+      -27.515708
+    ],
+    [
+      152.954092,
+      -27.5157
+    ],
+    [
+      152.954118,
+      -27.51551
+    ],
+    [
+      152.953981,
+      -27.515487
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "parking-area",
+  "kind": "outline",
+  "length_m": 246,
+  "signs": [],
+  "buildings": [],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.953981,
+        "lat": -27.515487,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 10.23
+      },
+      {
+        "lon": 152.953974,
+        "lat": -27.515531,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 10.39
+      },
+      {
+        "lon": 152.953966,
+        "lat": -27.515576,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 10.37
+      },
+      {
+        "lon": 152.953959,
+        "lat": -27.51562,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 10.34
+      },
+      {
+        "lon": 152.953951,
+        "lat": -27.515665,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 10.38
+      },
+      {
+        "lon": 152.953944,
+        "lat": -27.515709,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 10.29
+      },
+      {
+        "lon": 152.953937,
+        "lat": -27.515754,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 10.22
+      },
+      {
+        "lon": 152.953929,
+        "lat": -27.515798,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 10.23
+      },
+      {
+        "lon": 152.953885,
+        "lat": -27.515797,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 10.13
+      },
+      {
+        "lon": 152.953878,
+        "lat": -27.515842,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 10.31
+      },
+      {
+        "lon": 152.95387,
+        "lat": -27.515886,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 10.18
+      },
+      {
+        "lon": 152.953863,
+        "lat": -27.515931,
+        "at_m": 55,
+        "line": 0,
+        "elevation_m": 10.25
+      },
+      {
+        "lon": 152.953855,
+        "lat": -27.515975,
+        "at_m": 60,
+        "line": 0,
+        "elevation_m": 10.34
+      },
+      {
+        "lon": 152.953848,
+        "lat": -27.51602,
+        "at_m": 65,
+        "line": 0,
+        "elevation_m": 10.28
+      },
+      {
+        "lon": 152.95384,
+        "lat": -27.516064,
+        "at_m": 70,
+        "line": 0,
+        "elevation_m": 10.29
+      },
+      {
+        "lon": 152.953833,
+        "lat": -27.516109,
+        "at_m": 75,
+        "line": 0,
+        "elevation_m": 10.38
+      },
+      {
+        "lon": 152.953825,
+        "lat": -27.516153,
+        "at_m": 80,
+        "line": 0,
+        "elevation_m": 10.38
+      },
+      {
+        "lon": 152.953817,
+        "lat": -27.516198,
+        "at_m": 85,
+        "line": 0,
+        "elevation_m": 10.3
+      },
+      {
+        "lon": 152.95381,
+        "lat": -27.516242,
+        "at_m": 90,
+        "line": 0,
+        "elevation_m": 10.31
+      },
+      {
+        "lon": 152.953852,
+        "lat": -27.516256,
+        "at_m": 95,
+        "line": 0,
+        "elevation_m": 10.34
+      },
+      {
+        "lon": 152.95385,
+        "lat": -27.516295,
+        "at_m": 100,
+        "line": 0,
+        "elevation_m": 10.25
+      },
+      {
+        "lon": 152.9539,
+        "lat": -27.516302,
+        "at_m": 105,
+        "line": 0,
+        "elevation_m": 10.21
+      },
+      {
+        "lon": 152.95395,
+        "lat": -27.516308,
+        "at_m": 110,
+        "line": 0,
+        "elevation_m": 10.1
+      },
+      {
+        "lon": 152.954,
+        "lat": -27.516315,
+        "at_m": 115,
+        "line": 0,
+        "elevation_m": 10.01
+      },
+      {
+        "lon": 152.954051,
+        "lat": -27.516321,
+        "at_m": 120,
+        "line": 0,
+        "elevation_m": 10.09
+      },
+      {
+        "lon": 152.954088,
+        "lat": -27.516313,
+        "at_m": 125,
+        "line": 0,
+        "elevation_m": 10.06
+      },
+      {
+        "lon": 152.954121,
+        "lat": -27.516298,
+        "at_m": 130,
+        "line": 0,
+        "elevation_m": 10.19
+      },
+      {
+        "lon": 152.954148,
+        "lat": -27.516278,
+        "at_m": 135,
+        "line": 0,
+        "elevation_m": 10.12
+      },
+      {
+        "lon": 152.954154,
+        "lat": -27.516234,
+        "at_m": 140,
+        "line": 0,
+        "elevation_m": 10.1
+      },
+      {
+        "lon": 152.954161,
+        "lat": -27.516189,
+        "at_m": 145,
+        "line": 0,
+        "elevation_m": 10.1
+      },
+      {
+        "lon": 152.954168,
+        "lat": -27.516145,
+        "at_m": 150,
+        "line": 0,
+        "elevation_m": 10.11
+      },
+      {
+        "lon": 152.954174,
+        "lat": -27.5161,
+        "at_m": 155,
+        "line": 0,
+        "elevation_m": 10.1
+      },
+      {
+        "lon": 152.954181,
+        "lat": -27.516056,
+        "at_m": 160,
+        "line": 0,
+        "elevation_m": 10.16
+      },
+      {
+        "lon": 152.954188,
+        "lat": -27.516011,
+        "at_m": 165,
+        "line": 0,
+        "elevation_m": 10.13
+      },
+      {
+        "lon": 152.954195,
+        "lat": -27.515966,
+        "at_m": 170,
+        "line": 0,
+        "elevation_m": 10.14
+      },
+      {
+        "lon": 152.954201,
+        "lat": -27.515922,
+        "at_m": 175,
+        "line": 0,
+        "elevation_m": 10.12
+      },
+      {
+        "lon": 152.954208,
+        "lat": -27.515877,
+        "at_m": 180,
+        "line": 0,
+        "elevation_m": 10.13
+      },
+      {
+        "lon": 152.954199,
+        "lat": -27.515842,
+        "at_m": 185,
+        "line": 0,
+        "elevation_m": 10.19
+      },
+      {
+        "lon": 152.954181,
+        "lat": -27.515812,
+        "at_m": 190,
+        "line": 0,
+        "elevation_m": 10.21
+      },
+      {
+        "lon": 152.954186,
+        "lat": -27.515767,
+        "at_m": 195,
+        "line": 0,
+        "elevation_m": 10.14
+      },
+      {
+        "lon": 152.954144,
+        "lat": -27.515754,
+        "at_m": 200,
+        "line": 0,
+        "elevation_m": 10.24
+      },
+      {
+        "lon": 152.954152,
+        "lat": -27.515709,
+        "at_m": 205,
+        "line": 0,
+        "elevation_m": 10.2
+      },
+      {
+        "lon": 152.954104,
+        "lat": -27.515702,
+        "at_m": 210,
+        "line": 0,
+        "elevation_m": 10.26
+      },
+      {
+        "lon": 152.954097,
+        "lat": -27.515666,
+        "at_m": 215,
+        "line": 0,
+        "elevation_m": 10.32
+      },
+      {
+        "lon": 152.954103,
+        "lat": -27.515621,
+        "at_m": 220,
+        "line": 0,
+        "elevation_m": 10.42
+      },
+      {
+        "lon": 152.954109,
+        "lat": -27.515576,
+        "at_m": 225,
+        "line": 0,
+        "elevation_m": 10.51
+      },
+      {
+        "lon": 152.954115,
+        "lat": -27.515532,
+        "at_m": 230,
+        "line": 0,
+        "elevation_m": 10.64
+      },
+      {
+        "lon": 152.954092,
+        "lat": -27.515506,
+        "at_m": 235,
+        "line": 0,
+        "elevation_m": 10.56
+      },
+      {
+        "lon": 152.954043,
+        "lat": -27.515497,
+        "at_m": 240,
+        "line": 0,
+        "elevation_m": 10.5
+      },
+      {
+        "lon": 152.953993,
+        "lat": -27.515489,
+        "at_m": 245,
+        "line": 0,
+        "elevation_m": 10.25
+      },
+      {
+        "lon": 152.953981,
+        "lat": -27.515487,
+        "at_m": 246.2,
+        "line": 0,
+        "elevation_m": 10.23
+      }
+    ],
+    "min_elevation_m": 10,
+    "max_elevation_m": 10.6,
+    "mean_grade_pct": 1.3,
+    "max_grade_pct": 5
+  },
+  "waterway": {
+    "name": "Cubberla Creek",
+    "metres": 48
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 0,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 123,
+      "length_m": 123,
+      "images": {
+        "esri": ".cache/imagery/osm-way-44597938/chunk1-esri.jpg",
+        "qld": ".cache/imagery/osm-way-44597938/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        87,
+        153
+      ],
+      "image_px": [
+        579,
+        1022
+      ]
+    },
+    {
+      "chunk": 2,
+      "from_m": 123,
+      "to_m": 246,
+      "length_m": 123,
+      "images": {
+        "esri": ".cache/imagery/osm-way-44597938/chunk2-esri.jpg",
+        "qld": ".cache/imagery/osm-way-44597938/chunk2-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        83,
+        153
+      ],
+      "image_px": [
+        553,
+        1022
+      ]
+    }
+  ]
+}

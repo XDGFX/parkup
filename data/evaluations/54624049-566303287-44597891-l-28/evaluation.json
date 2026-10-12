@@ -1,0 +1,48 @@
+{
+  "candidate": "54624049-566303287-44597891-l-28",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb by a junction on a main road with no parking.",
+  "reasons": [
+    "Main road, no parked cars or bays",
+    "Painted island and turn lane beside it",
+    "Only 22 m, next to a junction"
+  ],
+  "drivers": {
+    "seclusion": "Bush behind the kerb, but the van would sit in the lane at a busy junction.",
+    "access_and_room": "Hatched island and lane edge; no shoulder or pull-off beside the lane.",
+    "traffic": "Multi-lane arterial approaching a signalled junction.",
+    "convention": "No parked cars along this kerb and no marked parking lane."
+  },
+  "flags": [
+    "Steep: about 4.5% mean grade, 5.6% max",
+    "Low-lying: Cubberla Creek 60 m away",
+    "Noise from an arterial"
+  ],
+  "sun_shade": "Bush shades the east side; the road itself is open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 4.5,
+    "min_elevation_m": 14.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

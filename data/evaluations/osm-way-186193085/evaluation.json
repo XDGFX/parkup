@@ -1,0 +1,77 @@
+{
+  "candidate": "osm-way-186193085",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small asphalt car park at the Mount Coot-tha summit, bush behind, no homes.",
+  "reasons": [
+    "Car park backed by bush",
+    "No dwellings; cafe and restaurant only",
+    "Cars already parked there"
+  ],
+  "drivers": {
+    "seclusion": "Bush behind on the north and west; nearest buildings are the summit cafe and restaurant, 15 m and more, none are homes.",
+    "access_and_room": "Sealed car park off Sir Samuel Griffith Drive with marked bays and room for a van.",
+    "traffic": "Tourist lookout; visitors come and go, but nobody lives close.",
+    "convention": "Mapped public car park with no fee; the no stopping, bus and loading signs are on the road edge, not in the bays."
+  },
+  "flags": [
+    "Busy tourist spot; people around the lookout",
+    "Signs: No Stopping and bus zone at the entrance, loading zone on the road",
+    "Steep road edge: DEM shows up to 21% at the bank, car park itself about 1 to 2%",
+    "Possibly lit and patrolled; cannot tell"
+  ],
+  "sun_shade": "Open to the sun; trees on the north side shade the northern bays at midday.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Time limits or overnight rules on site",
+    "Patrols"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 45,
+    "where": "Northern bays along the bush edge of the summit car park, below the cafe",
+    "slope_pct": 1.3,
+    "points": [
+      [
+        152.958556,
+        -27.484876
+      ],
+      [
+        152.9586,
+        -27.484861
+      ],
+      [
+        152.958674,
+        -27.484847
+      ],
+      [
+        152.958731,
+        -27.484845
+      ],
+      [
+        152.958803,
+        -27.484857
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 224.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

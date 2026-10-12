@@ -1,0 +1,47 @@
+{
+  "candidate": "156872389-6657426888-1324601974-l-30",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway kerb on Moggill Road at a junction, no parked cars.",
+  "reasons": [
+    "Clearway tow-away Mon-Sat 4-7pm",
+    "Main road, no parked cars",
+    "Slope about 8%"
+  ],
+  "drivers": {
+    "seclusion": "No homes within 20 m, but shopfront buildings and a junction right there.",
+    "access_and_room": "Kerb of a busy road beside a junction and pedestrian crossing; no pull-off.",
+    "traffic": "Heavy through traffic on Moggill Road.",
+    "convention": "No cars parked along this kerb; clearway sign applies."
+  },
+  "flags": [
+    "Clearway tow-away Mon-Sat 4-7pm",
+    "Steep: about 8% grade",
+    "Junction and zebra crossing beside it"
+  ],
+  "sun_shade": "Open to sun; trees at the junction corner.",
+  "rubbish": "None seen.",
+  "cannot_judge": [
+    "Clearway enforcement outside signed hours"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 7.6,
+    "min_elevation_m": 44.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

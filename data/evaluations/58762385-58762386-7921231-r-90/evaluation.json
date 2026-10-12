@@ -1,0 +1,48 @@
+{
+  "candidate": "58762385-58762386-7921231-r-90",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Dead-end kerb beside a park, but too steep and homes close.",
+  "reasons": [
+    "Grade over 12% (mean 13%)",
+    "Houses 13-19 m away both sides",
+    "Short 19 m kerb at street end"
+  ],
+  "drivers": {
+    "seclusion": "Park and soccer ground to the south-west; houses 13-16 m at the north end and 19 m across the road.",
+    "access_and_room": "Narrow dead-end street ending at parkland; kerb is 19 m and sloping, one car parked there in 2022.",
+    "traffic": "Quiet dead end.",
+    "convention": "Residents park along the street; no signs."
+  },
+  "flags": [
+    "Steep: about 13% mean, 15% max",
+    "Dwellings within 25 m all round",
+    "Dead end may be tight to turn"
+  ],
+  "sun_shade": "Trees shade the south end; open to the west in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 13,
+    "min_elevation_m": 16.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

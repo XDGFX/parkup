@@ -1,0 +1,48 @@
+{
+  "candidate": "54625758-1434099933-1428901876-r-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "18 m of through-road kerb beside a junction and crossing; no parking.",
+  "reasons": [
+    "Through road, no cars parked",
+    "Junction and crossing at the kerb",
+    "No pull-off, bush bank behind"
+  ],
+  "drivers": {
+    "seclusion": "Bush to the south; homes 24-28 m north-east, open to the junction.",
+    "access_and_room": "Narrow kerb edge beside a crossing and path junction; ground beside the lane is a bush bank.",
+    "traffic": "Through road feeding a signalised junction.",
+    "convention": "No signs and no marked or used parking along this kerb."
+  },
+  "flags": [
+    "Junction and pedestrian crossing at the kerb",
+    "Low-lying, about 8.5 m, 107 m from Brisbane River",
+    "Slope 3% mean, 4.8% max"
+  ],
+  "sun_shade": "Open on the road side; tree canopy to the south-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 24,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 8.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

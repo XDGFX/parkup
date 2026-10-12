@@ -1,0 +1,49 @@
+{
+  "candidate": "11520286298-11520286338-24223663-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "No Stopping Any Time signs at both ends, narrow street under dense trees.",
+  "reasons": [
+    "No Stopping signs either side of section",
+    "House 15 m away",
+    "Narrow kerb under dense canopy"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 15 m away on the same side; more homes within 30 m.",
+    "access_and_room": "Narrow lane edge under dense tree canopy with no verge or pull-off; signs forbid stopping.",
+    "traffic": "Quiet residential street.",
+    "convention": "No parked cars seen on this kerb."
+  },
+  "flags": [
+    "No Stopping Any Time signs at 7 to 8 m from the kerb, both directions",
+    "Slope about 3% mean, 6.1% max",
+    "Sign rules not restated beyond the above"
+  ],
+  "sun_shade": "Heavy tree canopy shades the section all round.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact sign extent on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 3.1,
+    "min_elevation_m": 22.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,48 @@
+{
+  "candidate": "54625558-54625758-7307609-r-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow tree-covered lane above the river; no stopping signs, no room to pull off.",
+  "reasons": [
+    "No Stopping Any Time signs",
+    "Narrow lane, trees to creek edge",
+    "Low-lying, 16 m from Witton Creek"
+  ],
+  "drivers": {
+    "seclusion": "Bush and river on the south side, but homes 23-39 m up the bank to the north.",
+    "access_and_room": "Single narrow lane with trees and a steep bank on both sides; no clear ground beside it to pull fully off.",
+    "traffic": "Very quiet, little through use.",
+    "convention": "No Stopping Any Time signs on this kerb; no parked cars seen."
+  },
+  "flags": [
+    "No Stopping Any Time",
+    "Flood-prone: elevation 4-7 m, 16 m from Witton Creek",
+    "Steep: 7% mean, spikes at the dips"
+  ],
+  "sun_shade": "Dense canopy over almost the whole length.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Lane width on the ground"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 6.3,
+    "min_elevation_m": 4.3,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

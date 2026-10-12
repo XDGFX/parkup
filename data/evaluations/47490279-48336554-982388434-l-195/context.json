@@ -1,0 +1,417 @@
+{
+  "id": "47490279-48336554-982388434-l-195",
+  "street": "Russell Terrace",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.964428,
+      -27.500388
+    ],
+    [
+      152.963769,
+      -27.500287
+    ],
+    [
+      152.963577,
+      -27.500258
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "south",
+  "length_m": 85,
+  "signs": [
+    {
+      "street": "RUSSELL TERRACE",
+      "restriction": "Loading Zone Passengers 2 Min. Max",
+      "days_times": ":7am-9am ,SCHOOLDAYS:2pm-4pm",
+      "extra_text": "2 MIN MAX",
+      "arrow": "Right",
+      "metres_from_kerb_line": 11.9
+    },
+    {
+      "street": "RUSSELL TERRACE",
+      "restriction": "Loading Zone Passengers 2 Min. Max",
+      "days_times": ":7am-9am ,SCHOOLDAYS:2pm-4pm",
+      "extra_text": "2 MIN MAX",
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 12.1
+    },
+    {
+      "street": "RUSSELL TERRACE",
+      "restriction": "Loading Zone",
+      "days_times": null,
+      "extra_text": "SCHOOL DAYS",
+      "arrow": "Left",
+      "metres_from_kerb_line": 2.6
+    }
+  ],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 25,
+      "at_m": 0,
+      "outline": [
+        [
+          152.964637,
+          -27.500512
+        ],
+        [
+          152.9646063,
+          -27.5006739
+        ],
+        [
+          152.9647331,
+          -27.5006928
+        ],
+        [
+          152.9647639,
+          -27.5005309
+        ],
+        [
+          152.964637,
+          -27.500512
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 41,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9647988,
+          -27.5005577
+        ],
+        [
+          152.9649621,
+          -27.5005801
+        ],
+        [
+          152.9649478,
+          -27.5006621
+        ],
+        [
+          152.9648155,
+          -27.5006439
+        ],
+        [
+          152.9648205,
+          -27.5006153
+        ],
+        [
+          152.9647895,
+          -27.500611
+        ],
+        [
+          152.9647988,
+          -27.5005577
+        ]
+      ]
+    },
+    {
+      "building": "school",
+      "name": "Module 9",
+      "dwelling": false,
+      "metres": 51,
+      "at_m": 15,
+      "outline": [
+        [
+          152.9643666,
+          -27.4999131
+        ],
+        [
+          152.964399,
+          -27.4997476
+        ],
+        [
+          152.9645306,
+          -27.4997635
+        ],
+        [
+          152.9645044,
+          -27.4998952
+        ],
+        [
+          152.9644831,
+          -27.4998923
+        ],
+        [
+          152.9644768,
+          -27.4999283
+        ],
+        [
+          152.9643666,
+          -27.4999131
+        ]
+      ]
+    },
+    {
+      "building": "school",
+      "name": "K Block",
+      "dwelling": false,
+      "metres": 55,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9649358,
+          -27.4998044
+        ],
+        [
+          152.9648689,
+          -27.5000872
+        ],
+        [
+          152.9650034,
+          -27.5001109
+        ],
+        [
+          152.9650685,
+          -27.4998315
+        ],
+        [
+          152.9649358,
+          -27.4998044
+        ]
+      ]
+    },
+    {
+      "building": "school",
+      "name": "Hall",
+      "dwelling": false,
+      "metres": 59,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9650113,
+          -27.5002787
+        ],
+        [
+          152.9650989,
+          -27.4999305
+        ],
+        [
+          152.9652873,
+          -27.4999678
+        ],
+        [
+          152.9651998,
+          -27.500316
+        ],
+        [
+          152.9650113,
+          -27.5002787
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9619125,
+      "lat": -27.5009232,
+      "metres": 180,
+      "on_only_access": false
+    },
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9666329,
+      "lat": -27.5007668,
+      "metres": 222,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.964428,
+        "lat": -27.500388,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 17.38
+      },
+      {
+        "lon": 152.964378,
+        "lat": -27.50038,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 16.99
+      },
+      {
+        "lon": 152.964328,
+        "lat": -27.500373,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 16.68
+      },
+      {
+        "lon": 152.964278,
+        "lat": -27.500365,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 16.33
+      },
+      {
+        "lon": 152.964228,
+        "lat": -27.500357,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 15.92
+      },
+      {
+        "lon": 152.964178,
+        "lat": -27.50035,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 15.71
+      },
+      {
+        "lon": 152.964128,
+        "lat": -27.500342,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 15.56
+      },
+      {
+        "lon": 152.964078,
+        "lat": -27.500334,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 15.39
+      },
+      {
+        "lon": 152.964028,
+        "lat": -27.500327,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 15
+      },
+      {
+        "lon": 152.963978,
+        "lat": -27.500319,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 14.96
+      },
+      {
+        "lon": 152.963928,
+        "lat": -27.500311,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 14.85
+      },
+      {
+        "lon": 152.963879,
+        "lat": -27.500304,
+        "at_m": 55,
+        "line": 0,
+        "elevation_m": 14.69
+      },
+      {
+        "lon": 152.963829,
+        "lat": -27.500296,
+        "at_m": 60,
+        "line": 0,
+        "elevation_m": 14.75
+      },
+      {
+        "lon": 152.963779,
+        "lat": -27.500288,
+        "at_m": 65,
+        "line": 0,
+        "elevation_m": 14.71
+      },
+      {
+        "lon": 152.963729,
+        "lat": -27.500281,
+        "at_m": 70,
+        "line": 0,
+        "elevation_m": 14.77
+      },
+      {
+        "lon": 152.963679,
+        "lat": -27.500273,
+        "at_m": 75,
+        "line": 0,
+        "elevation_m": 14.97
+      },
+      {
+        "lon": 152.963629,
+        "lat": -27.500266,
+        "at_m": 80,
+        "line": 0,
+        "elevation_m": 15.18
+      },
+      {
+        "lon": 152.963579,
+        "lat": -27.500258,
+        "at_m": 85,
+        "line": 0,
+        "elevation_m": 15.55
+      },
+      {
+        "lon": 152.963577,
+        "lat": -27.500258,
+        "at_m": 85.2,
+        "line": 0,
+        "elevation_m": 15.55
+      }
+    ],
+    "min_elevation_m": 14.7,
+    "max_elevation_m": 17.4,
+    "mean_grade_pct": 4,
+    "max_grade_pct": 8.2
+  },
+  "waterway": {
+    "name": "Witton Creek",
+    "metres": 11
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 87,
+      "access": null,
+      "fee": null,
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 85,
+      "length_m": 85,
+      "images": {
+        "esri": ".cache/imagery/47490279-48336554-982388434-l-195/chunk1-esri.jpg",
+        "qld": ".cache/imagery/47490279-48336554-982388434-l-195/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        144,
+        74
+      ],
+      "image_px": [
+        960,
+        496
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "candidate": "60666437-12485763035-8111764-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "11 m of kerb at a junction mouth, ringed by homes and apartments.",
+  "reasons": [
+    "Junction corner, too short for a van",
+    "Dwellings within 12-22 m",
+    "Steep: 30% max grade"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 16 m, houses 18-22 m, all overlooking the corner.",
+    "access_and_room": "Only 11 m of kerb at a side-street junction beside a crossing; no room for a van.",
+    "traffic": "Quiet residential streets.",
+    "convention": "2P parallel signs, Mon-Fri 9am-5pm; a car is parked nearby."
+  },
+  "flags": [
+    "Steep: about 17% mean grade",
+    "Junction and crossing at the kerb",
+    "Dwellings within 25 m all round"
+  ],
+  "sun_shade": "Mixed; trees shade the east side, open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 16.7,
+    "min_elevation_m": 26.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

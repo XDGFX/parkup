@@ -1,0 +1,147 @@
+{
+  "id": "47490202-9849280018-289483787-l-40",
+  "street": "Moggill Road",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.96215,
+      -27.503731
+    ],
+    [
+      152.962184,
+      -27.503691
+    ],
+    [
+      152.962199,
+      -27.503671
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "west",
+  "length_m": 8,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 50,
+      "at_m": 0,
+      "outline": [
+        [
+          152.962302,
+          -27.5042203
+        ],
+        [
+          152.9624135,
+          -27.504111
+        ],
+        [
+          152.9624854,
+          -27.5041687
+        ],
+        [
+          152.9624996,
+          -27.5041547
+        ],
+        [
+          152.9625549,
+          -27.504199
+        ],
+        [
+          152.9624862,
+          -27.5042663
+        ],
+        [
+          152.9624413,
+          -27.5042303
+        ],
+        [
+          152.9623842,
+          -27.5042863
+        ],
+        [
+          152.962302,
+          -27.5042203
+        ]
+      ]
+    }
+  ],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.96215,
+        "lat": -27.503731,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 9.36
+      },
+      {
+        "lon": 152.962181,
+        "lat": -27.503695,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 9.4
+      },
+      {
+        "lon": 152.962199,
+        "lat": -27.503671,
+        "at_m": 8.2,
+        "line": 0,
+        "elevation_m": 9.49
+      }
+    ],
+    "min_elevation_m": 9.4,
+    "max_elevation_m": 9.5,
+    "mean_grade_pct": 1.8,
+    "max_grade_pct": 2.8
+  },
+  "waterway": {
+    "name": "Witton Creek",
+    "metres": 5
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 72,
+      "access": null,
+      "fee": null,
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 8,
+      "length_m": 8,
+      "images": {
+        "esri": ".cache/imagery/47490202-9849280018-289483787-l-40/chunk1-esri.jpg",
+        "qld": ".cache/imagery/47490202-9849280018-289483787-l-40/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        65,
+        67
+      ],
+      "image_px": [
+        432,
+        444
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "candidate": "osm-way-513229653",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Angle bays in front of Graceville shops; fine overnight but in view of homes.",
+  "reasons": [
+    "Shopfronts behind, cars already parked",
+    "Houses about 20 to 30 m away",
+    "Angle bays tight for a 7 m van"
+  ],
+  "drivers": {
+    "seclusion": "Shop frontage behind; a house to the west about 19 m and houses across Bank Road about 30 m south, all in view of the bays.",
+    "access_and_room": "Open kerbside angle bays off Bank Road; a van longer than the bay will overhang into the lane.",
+    "traffic": "Village centre with passing traffic and a rail line to the east.",
+    "convention": "Time-limited signs run to 9 pm on weekdays (1/4P and 1P); nothing restricts overnight, and the bays are full of cars by day."
+  },
+  "flags": [
+    "Signs: 1/4P to 9 pm and 1P to 6 pm Mon-Fri, 2P parallel nearby; none overnight",
+    "No Stopping Any Time sign at the corner, keep clear",
+    "Noise: rail line and road traffic",
+    "Bays are short for a van up to 7.5 m"
+  ],
+  "sun_shade": "Open to the sun; the shop roof shades the bays in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether shops or residents mind overnight vans",
+    "Bay length on the ground"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 40,
+    "where": "Angle bays along the shop frontage on Bank Road, east of the side lane",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        152.975613,
+        -27.521655
+      ],
+      [
+        152.97586,
+        -27.521687
+      ],
+      [
+        152.975868,
+        -27.521639
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 14.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

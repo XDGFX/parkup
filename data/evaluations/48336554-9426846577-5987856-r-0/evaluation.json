@@ -1,0 +1,48 @@
+{
+  "candidate": "48336554-9426846577-5987856-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep 10 m kerb on the bridge approach, no parked cars or pull-off.",
+  "reasons": [
+    "Route to motorway bridge, no parked cars",
+    "Kerb meets bush, no room to pull off",
+    "Steep: about 10% grade"
+  ],
+  "drivers": {
+    "seclusion": "Bush on this side and the motorway to the east; homes over 40 m away.",
+    "access_and_room": "Narrow lane with kerb-to-bush edge; no verge wide enough for a van.",
+    "traffic": "Through road feeding the bridge, with motorway noise.",
+    "convention": "No signs; no cars parked along it."
+  },
+  "flags": [
+    "Steep: 9.9% mean, 11.6% max",
+    "Motorway noise",
+    "Only 10 m long, under a van's turning room"
+  ],
+  "sun_shade": "Dense tree canopy over the kerb, shaded from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 8.2,
+    "min_elevation_m": 23.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

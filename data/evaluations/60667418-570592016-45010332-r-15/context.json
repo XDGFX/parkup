@@ -1,0 +1,129 @@
+{
+  "id": "60667418-570592016-45010332-r-15",
+  "street": "Rennies Road",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.962722,
+      -27.506302
+    ],
+    [
+      152.962681,
+      -27.506172
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "east",
+  "length_m": 15,
+  "signs": [
+    {
+      "street": "RENNIES ROAD",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 6.3
+    },
+    {
+      "street": "RENNIES ROAD",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 8.1
+    }
+  ],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9616053,
+      "lat": -27.5083305,
+      "metres": 251,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.962722,
+        "lat": -27.506302,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 5.16
+      },
+      {
+        "lon": 152.962708,
+        "lat": -27.506259,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 5.23
+      },
+      {
+        "lon": 152.962695,
+        "lat": -27.506215,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 5.27
+      },
+      {
+        "lon": 152.962681,
+        "lat": -27.506172,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 5.39
+      },
+      {
+        "lon": 152.962681,
+        "lat": -27.506172,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 5.39
+      }
+    ],
+    "min_elevation_m": 5.2,
+    "max_elevation_m": 5.4,
+    "mean_grade_pct": 1.5,
+    "max_grade_pct": 2.4
+  },
+  "waterway": {
+    "name": "Witton Creek",
+    "metres": 26
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 15,
+      "length_m": 15,
+      "images": {
+        "esri": ".cache/imagery/60667418-570592016-45010332-r-15/chunk1-esri.jpg",
+        "qld": ".cache/imagery/60667418-570592016-45010332-r-15/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        64,
+        74
+      ],
+      "image_px": [
+        427,
+        496
+      ]
+    }
+  ]
+}

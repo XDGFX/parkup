@@ -1,0 +1,48 @@
+{
+  "candidate": "47456598-4916596710-1073712677-r-28",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Line follows a traffic island in a busy Moggill Road junction.",
+  "reasons": [
+    "Median island between live traffic lanes",
+    "No place to stop off the lane",
+    "No parking convention on arterial"
+  ],
+  "drivers": {
+    "seclusion": "Exposed in the middle of a signalised junction; nearest building 37 m away, non-dwelling.",
+    "access_and_room": "The line sits on or beside a median island with traffic lanes either side; no pull-off.",
+    "traffic": "Heavy multi-lane traffic on both sides.",
+    "convention": "No cars parked along this arterial and no parking lane."
+  },
+  "flags": [
+    "Low-lying: 9.5 m beside Witton Creek",
+    "Noise from arterial and junction",
+    "Slope 2.5% mean, 4.4% max"
+  ],
+  "sun_shade": "Open, no cover; sun all day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerb height",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.8,
+    "min_elevation_m": 9.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

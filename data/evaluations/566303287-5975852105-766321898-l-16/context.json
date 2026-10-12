@@ -1,0 +1,97 @@
+{
+  "id": "566303287-5975852105-766321898-l-16",
+  "street": "Fig Tree Pocket Road",
+  "suburb": "",
+  "line": [
+    [
+      152.954887,
+      -27.516339
+    ],
+    [
+      152.954865,
+      -27.516268
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "west",
+  "length_m": 8,
+  "signs": [],
+  "buildings": [],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.954887,
+        "lat": -27.516339,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 15.7
+      },
+      {
+        "lon": 152.954874,
+        "lat": -27.516296,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 15.52
+      },
+      {
+        "lon": 152.954865,
+        "lat": -27.516268,
+        "at_m": 8.2,
+        "line": 0,
+        "elevation_m": 15.37
+      }
+    ],
+    "min_elevation_m": 15.4,
+    "max_elevation_m": 15.7,
+    "mean_grade_pct": 4.1,
+    "max_grade_pct": 4.7
+  },
+  "waterway": {
+    "name": "Cubberla Creek",
+    "metres": 58
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 70,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 8,
+      "length_m": 8,
+      "images": {
+        "esri": ".cache/imagery/566303287-5975852105-766321898-l-16/chunk1-esri.jpg",
+        "qld": ".cache/imagery/566303287-5975852105-766321898-l-16/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        62,
+        68
+      ],
+      "image_px": [
+        414,
+        453
+      ]
+    }
+  ]
+}

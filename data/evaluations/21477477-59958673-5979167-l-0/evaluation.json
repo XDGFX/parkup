@@ -1,0 +1,49 @@
+{
+  "candidate": "21477477-59958673-5979167-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bridge approach ramp: steep, no parking, no pull-off.",
+  "reasons": [
+    "Slope about 21%, max 70%",
+    "Through road, no cars parked",
+    "Raised ramp with barrier, no room"
+  ],
+  "drivers": {
+    "seclusion": "Nearest house 55 m away, but the kerb is a raised bridge ramp beside a rail corridor.",
+    "access_and_room": "Kerb is an embankment edge on the bridge approach with a barrier and no verge or pull-off; no room to stop out of the lane.",
+    "traffic": "Busy two-lane road onto the bridge, rail line alongside.",
+    "convention": "No cars park on this kerb; the nearby grass parkland parking is separate."
+  },
+  "flags": [
+    "Steep: about 21% mean, 70% max, DEM drop of 6 m over 30 m",
+    "Noise from the road and rail",
+    "Low-lying end: about 9 m near the Brisbane River"
+  ],
+  "sun_shade": "Open; a large tree shades the park side to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 55,
+    "gated": false,
+    "slope_pct": 24.6,
+    "min_elevation_m": 8.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

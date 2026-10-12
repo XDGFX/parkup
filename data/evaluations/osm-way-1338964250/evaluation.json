@@ -1,0 +1,48 @@
+{
+  "candidate": "osm-way-1338964250",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Tiny three-bay island at a busy junction, signed No Stopping, no room.",
+  "reasons": [
+    "Three bays only, filled by cars",
+    "No Stopping Any Time signs beside it",
+    "Exposed junction among shops and homes"
+  ],
+  "drivers": {
+    "seclusion": "Open island at a road junction; shops 29 m and homes 30 m away, all in view.",
+    "access_and_room": "Three short bays hold three cars; no clear space for a van to pull fully in.",
+    "traffic": "Junction of three roads, with traffic passing on every side.",
+    "convention": "Two No Stopping Any Time signs sit beside the island, one 1.2 m away."
+  },
+  "flags": [
+    "Signs vs imagery: No Stopping signs next to a marked parking island",
+    "Low-lying: about 4 m elevation",
+    "Cafe and shop frontage 29 m away"
+  ],
+  "sun_shade": "Open to the sky; a tree shades the lawn to the south, not the bays.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the island's bays are exempt from the No Stopping signs",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 30,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 4.1,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

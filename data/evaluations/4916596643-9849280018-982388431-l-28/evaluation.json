@@ -1,0 +1,47 @@
+{
+  "candidate": "4916596643-9849280018-982388431-l-28",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Median edge of a motorway-style ramp under an overpass; nowhere to stop.",
+  "reasons": [
+    "Arterial ramp lanes, no parking",
+    "No pull-off beside lane",
+    "Slope up to 15%"
+  ],
+  "drivers": {
+    "seclusion": "No buildings mapped, but the line runs along live ramp lanes in full view.",
+    "access_and_room": "Kerb is a median edge between multi-lane carriageways; no shoulder.",
+    "traffic": "Heavy fast traffic at an interchange.",
+    "convention": "No parked cars anywhere along it."
+  },
+  "flags": [
+    "Steep: about 7.5% mean, max 14.8%",
+    "Noise from overpass and arterial",
+    "Low-lying: 12 m, Witton Creek 52 m away"
+  ],
+  "sun_shade": "Overpass shades the middle section; otherwise open.",
+  "rubbish": "None seen.",
+  "cannot_judge": [
+    "Whether stopping is banned here"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 7.5,
+    "min_elevation_m": 12.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

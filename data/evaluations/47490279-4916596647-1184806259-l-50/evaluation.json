@@ -1,0 +1,47 @@
+{
+  "candidate": "47490279-4916596647-1184806259-l-50",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "10 m of Moggill Road kerb, steep, no parking, homes nearby.",
+  "reasons": [
+    "Shorter than a van",
+    "Arterial, no parking convention",
+    "Steep; homes 22 m south"
+  ],
+  "drivers": {
+    "seclusion": "Vet clinic 20 m north across the road; dwellings 22 m and 28 m south.",
+    "access_and_room": "Only 10 m long; the line sits in the lane beside a side-road junction with no pull-off.",
+    "traffic": "Busy arterial with a car travelling in the lane the line follows.",
+    "convention": "No cars parked along the kerb here."
+  },
+  "flags": [
+    "Steep: DEM 17% mean, 35% max over 10 m",
+    "Noise from arterial"
+  ],
+  "sun_shade": "Tree canopy to the south side; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerb height",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 22,
+    "gated": false,
+    "slope_pct": 16.9,
+    "min_elevation_m": 33,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

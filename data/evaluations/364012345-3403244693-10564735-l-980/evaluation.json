@@ -1,0 +1,66 @@
+{
+  "candidate": "364012345-3403244693-10564735-l-980",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wide dirt verge beside Jesmond Road, paddock behind, nearest house about 35 m away.",
+  "reasons": [
+    "Dirt verge clear of the lane",
+    "Paddock behind, no close dwellings",
+    "Nearest house across side street"
+  ],
+  "drivers": {
+    "seclusion": "Grass paddock and trees behind; the nearest house is across the side street, over 30 m off. Opposite side has sheds and a parked caravan.",
+    "access_and_room": "Bare dirt verge meets the road edge and is wider than a van, so a van can pull fully off the lane. Stay clear of the zebra crossing from about 12 m.",
+    "traffic": "Moderate through traffic, but the van stands off the lane.",
+    "convention": "Vehicles and a caravan are parked on the opposite side and a car is on this verge in the imagery."
+  },
+  "flags": [
+    "Noise: through road",
+    "Zebra crossing from about 12 m, do not stop on it",
+    "Low-lying: about 11 m elevation, Cubberla Creek 36 m away",
+    "Power pole on the verge near 8 m",
+    "Gate 272 m away has a way round"
+  ],
+  "sun_shade": "Open to the sun; trees to the east give some morning shade late in the stretch.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Dirt verge on the east side, just north of the zebra crossing and side street",
+    "slope_pct": 1.6,
+    "points": [
+      [
+        152.965905,
+        -27.521953
+      ],
+      [
+        152.965938,
+        -27.522038
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.5,
+    "min_elevation_m": 11.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

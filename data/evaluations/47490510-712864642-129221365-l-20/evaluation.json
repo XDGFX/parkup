@@ -1,0 +1,46 @@
+{
+  "candidate": "47490510-712864642-129221365-l-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway on an arterial with an apartment block 11 m away.",
+  "reasons": [
+    "Clearway tow-away Mon-Sat 7am-7pm",
+    "Main road, no parked cars",
+    "Apartments 11 m from kerb"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 11 m and houses 25 m on the same side; exposed.",
+    "access_and_room": "Kerb edge of a multi-lane arterial; no pull-off.",
+    "traffic": "Heavy through traffic on Moggill Road.",
+    "convention": "No cars parked along this kerb; clearway sign applies."
+  },
+  "flags": [
+    "Clearway tow-away Mon-Sat 7am-7pm",
+    "Slope about 3% (max 4.6%)"
+  ],
+  "sun_shade": "Trees on the west side give some afternoon shade; open to the east.",
+  "rubbish": "Some pallets and debris on the apartments' side in the QLD image only.",
+  "cannot_judge": [
+    "Current clearway enforcement"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 0.8,
+    "min_elevation_m": 26,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

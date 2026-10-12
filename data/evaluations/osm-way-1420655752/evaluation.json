@@ -1,0 +1,76 @@
+{
+  "candidate": "osm-way-1420655752",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 4 m from the best section"
+  ],
+  "kind": "parking area",
+  "summary": "Tiny angled bay block directly in front of houses, 4 m away.",
+  "reasons": [
+    "Dwellings 4 m from the bays",
+    "Resident-permit signed angle parking",
+    "Only two or three small angled bays"
+  ],
+  "drivers": {
+    "seclusion": "Two houses 4 m and one 6 m behind the bays, more within 13 m; fully overlooked.",
+    "access_and_room": "Small bay block holding cars at the road edge; too small for a 7.5 m van without overhanging the street.",
+    "traffic": "Residential junction with a bus stop and car park opposite.",
+    "convention": "Signed 2P angle with resident permits excepted; locals use it daily."
+  },
+  "flags": [
+    "Steep: about 6% mean grade, 9% max",
+    "Resident permits excepted on signs"
+  ],
+  "sun_shade": "Open to the sky; the houses to the north shade the bays in the morning only.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 27,
+    "where": "Angled bays on Dorchester Street, below the Sir William MacGregor Drive junction",
+    "slope_pct": 6.4,
+    "points": [
+      [
+        153.020066,
+        -27.483064
+      ],
+      [
+        153.019993,
+        -27.483053
+      ],
+      [
+        153.020006,
+        -27.483
+      ],
+      [
+        153.020078,
+        -27.483011
+      ],
+      [
+        153.020066,
+        -27.483064
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 4,
+    "gated": false,
+    "slope_pct": 6.2,
+    "min_elevation_m": 31.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

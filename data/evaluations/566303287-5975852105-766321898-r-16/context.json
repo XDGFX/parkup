@@ -1,0 +1,106 @@
+{
+  "id": "566303287-5975852105-766321898-r-16",
+  "street": "Fig Tree Pocket Road",
+  "suburb": "",
+  "line": [
+    [
+      152.955004,
+      -27.51631
+    ],
+    [
+      152.954983,
+      -27.51624
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "east",
+  "length_m": 8,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9578581,
+      "lat": -27.5171511,
+      "metres": 297,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.955004,
+        "lat": -27.51631,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 15.62
+      },
+      {
+        "lon": 152.954991,
+        "lat": -27.516267,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 14.97
+      },
+      {
+        "lon": 152.954983,
+        "lat": -27.51624,
+        "at_m": 8.1,
+        "line": 0,
+        "elevation_m": 14.92
+      }
+    ],
+    "min_elevation_m": 14.9,
+    "max_elevation_m": 15.6,
+    "mean_grade_pct": 7.3,
+    "max_grade_pct": 13
+  },
+  "waterway": {
+    "name": "Cubberla Creek",
+    "metres": 60
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 81,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 8,
+      "length_m": 8,
+      "images": {
+        "esri": ".cache/imagery/566303287-5975852105-766321898-r-16/chunk1-esri.jpg",
+        "qld": ".cache/imagery/566303287-5975852105-766321898-r-16/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        62,
+        68
+      ],
+      "image_px": [
+        414,
+        452
+      ]
+    }
+  ]
+}

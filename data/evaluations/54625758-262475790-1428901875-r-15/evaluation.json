@@ -1,0 +1,48 @@
+{
+  "candidate": "54625758-262475790-1428901875-r-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "8 m of kerb at a signalised junction with a crossing; too short.",
+  "reasons": [
+    "Only 8 m, under a van length",
+    "Junction mouth beside pedestrian crossing",
+    "No room to pull out of lane"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the south side; homes 27 m and further to the north, but the corner is exposed.",
+    "access_and_room": "Narrow carriageway edge at a junction and crossing with bush verge; no pull-off.",
+    "traffic": "Junction with a crossing and bus-route road beside it.",
+    "convention": "No signs and no parked cars along this kerb."
+  },
+  "flags": [
+    "Junction and pedestrian crossing at the kerb",
+    "Low-lying, about 8 m, 111 m from Brisbane River",
+    "Slope 3.6% mean, over 3%"
+  ],
+  "sun_shade": "Open on the road side; tree canopy to the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 27,
+    "gated": false,
+    "slope_pct": 3.6,
+    "min_elevation_m": 8.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

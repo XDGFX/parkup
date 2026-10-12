@@ -1,0 +1,48 @@
+{
+  "candidate": "60666439-3493107715-8111763-l-130",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "11 m stub beside apartment blocks, under dense trees; no room to stop.",
+  "reasons": [
+    "Apartments 14 m away, another block close",
+    "Only 11 m, narrow and tree-covered",
+    "Looks like a private apartment drive"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 14 m east and a second block just south; houses to the west.",
+    "access_and_room": "Short narrow end of Priory Street under canopy, next to gates and a driveway; too short for a van.",
+    "traffic": "Quiet.",
+    "convention": "4P parallel sign Mon-Fri 8am-5pm; a car sits at the kerb in 2022 only."
+  },
+  "flags": [
+    "Dwelling within 14 m",
+    "Mapped gates 19-25 m away on side ways",
+    "Slope 3.9% mean, 6.4% max"
+  ],
+  "sun_shade": "Dense tree canopy over the whole section.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the stub is public road or private drive",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 5.8,
+    "min_elevation_m": 21.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

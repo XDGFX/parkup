@@ -1,0 +1,70 @@
+{
+  "candidate": "osm-way-299205926",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small treed riverside car park in parkland, no homes nearby, room for a van.",
+  "reasons": [
+    "Backs onto trees and riverside park",
+    "No dwellings; nearest building 58 m, non-dwelling",
+    "Sign nearby says P no limit"
+  ],
+  "drivers": {
+    "seclusion": "Trees to the north and east, open park to the south; only building mapped is 58 m away and not a dwelling.",
+    "access_and_room": "Sealed car park opens directly onto the park road; room for a van beside the few parked cars.",
+    "traffic": "Quiet park road; van stands off the lane inside the car park.",
+    "convention": "Cars are parked here; a nearby sign reads P (no limit), parallel."
+  },
+  "flags": [
+    "Low-lying: about 7.5 m elevation, Brisbane River 149 m away",
+    "Riverside park may draw evening visitors"
+  ],
+  "sun_shade": "Dense tree canopy over most of the car park, heaviest on the north and east sides.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether the park is patrolled at night"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 35,
+    "where": "North-east end of the small car park beside the riverside trees",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.992004,
+        -27.522548
+      ],
+      [
+        152.992098,
+        -27.522659
+      ],
+      [
+        152.991965,
+        -27.522744
+      ],
+      [
+        152.991936,
+        -27.52276
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 7.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

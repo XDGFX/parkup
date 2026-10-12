@@ -1,0 +1,49 @@
+{
+  "candidate": "566303287-5975852105-766321898-r-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a busy main road, bush bank behind, nowhere to pull out.",
+  "reasons": [
+    "Main road, no parking lane",
+    "Bush bank, no verge",
+    "Only 8 m long"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush behind on the east side, no dwellings mapped or seen.",
+    "access_and_room": "Line sits in scrub beside the lane with no gravel or sealed shoulder; no room to pull fully out.",
+    "traffic": "Busy multi-lane through road curving into a junction.",
+    "convention": "No parking convention here; the only vehicle seen is further south at the edge of the lane."
+  },
+  "flags": [
+    "Steep: about 7% mean, 13% max over 8 m",
+    "Noise: arterial road",
+    "Low-lying: Cubberla Creek 60 m away, about 15 m elevation",
+    "Gate 297 m away has a way round; not on this access"
+  ],
+  "sun_shade": "Tree canopy over the roadside, mostly shaded.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 13,
+    "min_elevation_m": 15,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

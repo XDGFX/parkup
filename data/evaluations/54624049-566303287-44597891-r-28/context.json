@@ -1,0 +1,122 @@
+{
+  "id": "54624049-566303287-44597891-r-28",
+  "street": "Fig Tree Pocket Road",
+  "suburb": "",
+  "line": [
+    [
+      152.95475,
+      -27.516178
+    ],
+    [
+      152.954811,
+      -27.516296
+    ],
+    [
+      152.954855,
+      -27.516365
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "west",
+  "length_m": 23,
+  "signs": [],
+  "buildings": [],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.95475,
+        "lat": -27.516178,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 14.7
+      },
+      {
+        "lon": 152.954771,
+        "lat": -27.516219,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 14.79
+      },
+      {
+        "lon": 152.954792,
+        "lat": -27.51626,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 15.16
+      },
+      {
+        "lon": 152.954814,
+        "lat": -27.5163,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 15.29
+      },
+      {
+        "lon": 152.954839,
+        "lat": -27.51634,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 15.57
+      },
+      {
+        "lon": 152.954855,
+        "lat": -27.516365,
+        "at_m": 23.2,
+        "line": 0,
+        "elevation_m": 15.79
+      }
+    ],
+    "min_elevation_m": 14.7,
+    "max_elevation_m": 15.8,
+    "mean_grade_pct": 4.9,
+    "max_grade_pct": 7.4
+  },
+  "waterway": {
+    "name": "Cubberla Creek",
+    "metres": 56
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 57,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 23,
+      "length_m": 23,
+      "images": {
+        "esri": ".cache/imagery/54624049-566303287-44597891-r-28/chunk1-esri.jpg",
+        "qld": ".cache/imagery/54624049-566303287-44597891-r-28/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        70,
+        81
+      ],
+      "image_px": [
+        469,
+        539
+      ]
+    }
+  ]
+}

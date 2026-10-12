@@ -1,0 +1,48 @@
+{
+  "candidate": "54624049-566303287-44597891-r-28",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a main road with no parking and no pull-off.",
+  "reasons": [
+    "Arterial, no parked cars or bays",
+    "Kerb meets bush bank, no shoulder",
+    "Only 23 m, near a junction"
+  ],
+  "drivers": {
+    "seclusion": "Bush behind the kerb, but a van would stand in the lane of a busy road.",
+    "access_and_room": "Narrow kerb beside a steep bush bank; no room to pull fully off the lane.",
+    "traffic": "Multi-lane arterial approaching a junction.",
+    "convention": "No parked cars along this kerb and no marked parking lane."
+  },
+  "flags": [
+    "Steep: about 4.9% mean grade, 7.4% max",
+    "Low-lying: Cubberla Creek 56 m away",
+    "Noise from an arterial"
+  ],
+  "sun_shade": "Bush shades the west side from the afternoon sun.",
+  "rubbish": "Some scattered items in the bush well off the road to the west.",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 4.9,
+    "min_elevation_m": 14.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

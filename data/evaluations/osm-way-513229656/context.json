@@ -1,0 +1,623 @@
+{
+  "id": "osm-way-513229656",
+  "street": "Car park off Jesmond Road",
+  "suburb": "",
+  "line": [
+    [
+      152.976308,
+      -27.522416
+    ],
+    [
+      152.976374,
+      -27.522564
+    ],
+    [
+      152.976408,
+      -27.52255
+    ],
+    [
+      152.976342,
+      -27.522404
+    ],
+    [
+      152.976308,
+      -27.522416
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "parking-area",
+  "kind": "outline",
+  "length_m": 42,
+  "signs": [
+    {
+      "street": "HONOUR AVENUE",
+      "restriction": "1P Angle",
+      "days_times": "MON-FRI:9 AM-6 PM",
+      "extra_text": "ANGLE",
+      "arrow": "Left",
+      "metres_from_kerb_line": 1.7
+    },
+    {
+      "street": "HONOUR AVENUE",
+      "restriction": "4P Parallel",
+      "days_times": "MON-SAT:7 AM-6 PM",
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 6
+    },
+    {
+      "street": "HONOUR AVENUE",
+      "restriction": "1P Angle",
+      "days_times": "MON-FRI:9 AM-6 PM",
+      "extra_text": "ANGLE",
+      "arrow": "Right",
+      "metres_from_kerb_line": 1.8
+    },
+    {
+      "street": "HONOUR AVENUE",
+      "restriction": "4P Angle",
+      "days_times": "MON-FRI:9:01AM-9:00PM",
+      "extra_text": "ANGLE",
+      "arrow": "Right",
+      "metres_from_kerb_line": 1.9
+    },
+    {
+      "street": "HONOUR AVENUE",
+      "restriction": "Accessible Parking",
+      "days_times": null,
+      "extra_text": "ANGLE",
+      "arrow": "Right",
+      "metres_from_kerb_line": 1.7
+    },
+    {
+      "street": "HONOUR AVENUE",
+      "restriction": "1/4P Angle",
+      "days_times": "MON-FRI:9:00AM-9:00PM",
+      "extra_text": "ANGLE",
+      "arrow": "Left",
+      "metres_from_kerb_line": 1.8
+    },
+    {
+      "street": "HONOUR AVENUE",
+      "restriction": "1/4P Angle",
+      "days_times": "MON-FRI:9:00AM-9:00PM",
+      "extra_text": "ANGLE",
+      "arrow": "Right",
+      "metres_from_kerb_line": 1.8
+    },
+    {
+      "street": "HONOUR AVENUE",
+      "restriction": "4P Angle",
+      "days_times": "MON-FRI:9:00AM-9:00PM",
+      "extra_text": "ANGLE",
+      "arrow": "Left",
+      "metres_from_kerb_line": 1.8
+    },
+    {
+      "street": "HONOUR AVENUE",
+      "restriction": "Accessible Parking",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 1.7
+    },
+    {
+      "street": "HONOUR AVENUE",
+      "restriction": "1P Parallel",
+      "days_times": "MON-SAT:7 AM-6 PM",
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 12.3
+    },
+    {
+      "street": "HONOUR AVENUE",
+      "restriction": "4P Parallel",
+      "days_times": "MON-FRI:7:00AM-6:00PM",
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 14.6
+    }
+  ],
+  "buildings": [
+    {
+      "building": "fixme",
+      "name": null,
+      "dwelling": false,
+      "metres": 3,
+      "at_m": 18,
+      "outline": [
+        [
+          152.9758986,
+          -27.5224819
+        ],
+        [
+          152.9759621,
+          -27.5224598
+        ],
+        [
+          152.9759181,
+          -27.52236
+        ],
+        [
+          152.9762316,
+          -27.5222511
+        ],
+        [
+          152.976383,
+          -27.5225938
+        ],
+        [
+          152.9762158,
+          -27.5225681
+        ],
+        [
+          152.9761649,
+          -27.5224529
+        ],
+        [
+          152.975984,
+          -27.5225157
+        ],
+        [
+          152.9759797,
+          -27.5225473
+        ],
+        [
+          152.9759154,
+          -27.5225404
+        ],
+        [
+          152.9759175,
+          -27.5225247
+        ],
+        [
+          152.9758986,
+          -27.5224819
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 7,
+      "at_m": 18,
+      "outline": [
+        [
+          152.9763215,
+          -27.522615
+        ],
+        [
+          152.9763855,
+          -27.522624
+        ],
+        [
+          152.9764425,
+          -27.5227529
+        ],
+        [
+          152.976473,
+          -27.5227637
+        ],
+        [
+          152.9764862,
+          -27.5227763
+        ],
+        [
+          152.9764973,
+          -27.5227961
+        ],
+        [
+          152.9765004,
+          -27.522816
+        ],
+        [
+          152.9764984,
+          -27.5228313
+        ],
+        [
+          152.9764933,
+          -27.5228466
+        ],
+        [
+          152.9764831,
+          -27.5228592
+        ],
+        [
+          152.9764709,
+          -27.5228691
+        ],
+        [
+          152.9764597,
+          -27.5228755
+        ],
+        [
+          152.9764435,
+          -27.5228809
+        ],
+        [
+          152.976411,
+          -27.5228872
+        ],
+        [
+          152.9762758,
+          -27.5228673
+        ],
+        [
+          152.9763215,
+          -27.522615
+        ]
+      ]
+    },
+    {
+      "building": "retail",
+      "name": null,
+      "dwelling": false,
+      "metres": 26,
+      "at_m": 39,
+      "outline": [
+        [
+          152.975773,
+          -27.5221905
+        ],
+        [
+          152.9758315,
+          -27.5223231
+        ],
+        [
+          152.9758413,
+          -27.5223197
+        ],
+        [
+          152.9758466,
+          -27.5223317
+        ],
+        [
+          152.9759168,
+          -27.5223074
+        ],
+        [
+          152.9759183,
+          -27.5223108
+        ],
+        [
+          152.9760488,
+          -27.5222655
+        ],
+        [
+          152.9760438,
+          -27.5222542
+        ],
+        [
+          152.9762398,
+          -27.5221861
+        ],
+        [
+          152.9761793,
+          -27.522049
+        ],
+        [
+          152.9759879,
+          -27.5221155
+        ],
+        [
+          152.975982,
+          -27.5221021
+        ],
+        [
+          152.9759397,
+          -27.5221168
+        ],
+        [
+          152.9758427,
+          -27.5221505
+        ],
+        [
+          152.9758412,
+          -27.522147
+        ],
+        [
+          152.9757769,
+          -27.5221693
+        ],
+        [
+          152.9757845,
+          -27.5221865
+        ],
+        [
+          152.975773,
+          -27.5221905
+        ]
+      ]
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 35,
+      "at_m": 18,
+      "outline": [
+        [
+          152.976185,
+          -27.5228262
+        ],
+        [
+          152.9760687,
+          -27.5228093
+        ],
+        [
+          152.9760424,
+          -27.5229523
+        ],
+        [
+          152.9761587,
+          -27.5229691
+        ],
+        [
+          152.976185,
+          -27.5228262
+        ]
+      ]
+    },
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 41,
+      "at_m": 18,
+      "outline": [
+        [
+          152.9758743,
+          -27.5228693
+        ],
+        [
+          152.9759933,
+          -27.5228862
+        ],
+        [
+          152.976017,
+          -27.5227549
+        ],
+        [
+          152.9758979,
+          -27.522738
+        ],
+        [
+          152.9758743,
+          -27.5228693
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": "Commonwealth Bank",
+      "dwelling": false,
+      "metres": 44,
+      "at_m": 39,
+      "outline": [
+        [
+          152.9761404,
+          -27.5219582
+        ],
+        [
+          152.9761744,
+          -27.5220353
+        ],
+        [
+          152.975982,
+          -27.5221021
+        ],
+        [
+          152.9759397,
+          -27.5221168
+        ],
+        [
+          152.9759188,
+          -27.5220693
+        ],
+        [
+          152.9759494,
+          -27.5220587
+        ],
+        [
+          152.9759363,
+          -27.522029
+        ],
+        [
+          152.9761404,
+          -27.5219582
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 53,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9758164,
+          -27.5218641
+        ],
+        [
+          152.9760656,
+          -27.5219006
+        ],
+        [
+          152.9760649,
+          -27.5219122
+        ],
+        [
+          152.9761025,
+          -27.5219624
+        ],
+        [
+          152.9759315,
+          -27.5220231
+        ],
+        [
+          152.9758835,
+          -27.5221192
+        ],
+        [
+          152.9757727,
+          -27.5221039
+        ],
+        [
+          152.9758164,
+          -27.5218641
+        ]
+      ]
+    }
+  ],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.976308,
+        "lat": -27.522416,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 15.57
+      },
+      {
+        "lon": 152.976327,
+        "lat": -27.522458,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 15.53
+      },
+      {
+        "lon": 152.976345,
+        "lat": -27.5225,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 15.63
+      },
+      {
+        "lon": 152.976364,
+        "lat": -27.522541,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 15.65
+      },
+      {
+        "lon": 152.976395,
+        "lat": -27.522555,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 15.63
+      },
+      {
+        "lon": 152.976394,
+        "lat": -27.52252,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 15.61
+      },
+      {
+        "lon": 152.976376,
+        "lat": -27.522478,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 15.59
+      },
+      {
+        "lon": 152.976357,
+        "lat": -27.522436,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 15.54
+      },
+      {
+        "lon": 152.976332,
+        "lat": -27.522408,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 15.56
+      },
+      {
+        "lon": 152.976308,
+        "lat": -27.522416,
+        "at_m": 42.5,
+        "line": 0,
+        "elevation_m": 15.57
+      }
+    ],
+    "min_elevation_m": 15.5,
+    "max_elevation_m": 15.7,
+    "mean_grade_pct": 0.7,
+    "max_grade_pct": 2
+  },
+  "waterway": null,
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 0,
+      "access": null,
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 36,
+      "access": "customers",
+      "fee": "no",
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 65,
+      "access": null,
+      "fee": null,
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 84,
+      "access": "yes",
+      "fee": null,
+      "surface": "asphalt"
+    },
+    {
+      "name": null,
+      "metres": 92,
+      "access": null,
+      "fee": null,
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 42,
+      "length_m": 42,
+      "images": {
+        "esri": ".cache/imagery/osm-way-513229656/chunk1-esri.jpg",
+        "qld": ".cache/imagery/osm-way-513229656/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        70,
+        78
+      ],
+      "image_px": [
+        466,
+        519
+      ]
+    }
+  ]
+}

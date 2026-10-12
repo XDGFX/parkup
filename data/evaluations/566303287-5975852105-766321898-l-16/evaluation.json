@@ -1,0 +1,48 @@
+{
+  "candidate": "566303287-5975852105-766321898-l-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a busy Fig Tree Pocket Road with no parking and no pull-out.",
+  "reasons": [
+    "Main road, no parked cars",
+    "No verge or pull-in",
+    "Only 8 m long"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the west side, but the van would sit in the traffic lane.",
+    "access_and_room": "Kerb abuts the lane with a barrier-like edge and bush behind; nowhere to pull fully out.",
+    "traffic": "Busy multi-lane through road with turning lane markings.",
+    "convention": "No cars parked along this kerb; only moving traffic seen."
+  },
+  "flags": [
+    "Steep: about 4% grade",
+    "Noise: arterial road",
+    "Low-lying: Cubberla Creek 58 m away, about 15 m elevation"
+  ],
+  "sun_shade": "Bush to the west shades the afternoon; open to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 3.6,
+    "min_elevation_m": 15.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

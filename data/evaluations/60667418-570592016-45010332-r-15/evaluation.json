@@ -1,0 +1,63 @@
+{
+  "candidate": "60667418-570592016-45010332-r-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow side-street kerb at a motorway junction, with a building beside it.",
+  "reasons": [
+    "No Stopping signs both directions",
+    "Narrow lane, no room to pull off",
+    "Building within about 10 m"
+  ],
+  "drivers": {
+    "seclusion": "Unmapped building and parked car 8-12 m west; bush on the east side.",
+    "access_and_room": "Narrow sealed lane, kerb-to-building and bush; no clear ground beside the lane.",
+    "traffic": "Motorway alongside; junction mouth with turning traffic.",
+    "convention": "No Stopping Any Time signs either side; no parked cars along it."
+  },
+  "flags": [
+    "No Stopping Any Time signs at the kerb",
+    "Low-lying: about 5.2 m, 26 m from Witton Creek",
+    "Heavy motorway noise"
+  ],
+  "sun_shade": "Heavy tree shade from the east; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether the building is a home"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "Rennies Road side street kerb at the junction by the motorway",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.962722,
+        -27.506302
+      ],
+      [
+        152.962681,
+        -27.506172
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 5.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

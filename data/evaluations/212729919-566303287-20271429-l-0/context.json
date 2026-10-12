@@ -1,0 +1,194 @@
+{
+  "id": "212729919-566303287-20271429-l-0",
+  "street": "Fig Tree Pocket Road",
+  "suburb": "",
+  "line": [
+    [
+      152.95527,
+      -27.517181
+    ],
+    [
+      152.955015,
+      -27.516656
+    ],
+    [
+      152.954996,
+      -27.516617
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "west",
+  "length_m": 68,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9578581,
+      "lat": -27.5171511,
+      "metres": 255,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.95527,
+        "lat": -27.517181,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 18.42
+      },
+      {
+        "lon": 152.95525,
+        "lat": -27.51714,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 12.09
+      },
+      {
+        "lon": 152.95523,
+        "lat": -27.517098,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 11.5
+      },
+      {
+        "lon": 152.95521,
+        "lat": -27.517057,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 11.44
+      },
+      {
+        "lon": 152.95519,
+        "lat": -27.517016,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 11.3
+      },
+      {
+        "lon": 152.95517,
+        "lat": -27.516975,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 11.5
+      },
+      {
+        "lon": 152.95515,
+        "lat": -27.516933,
+        "at_m": 30,
+        "line": 0,
+        "elevation_m": 11.26
+      },
+      {
+        "lon": 152.95513,
+        "lat": -27.516892,
+        "at_m": 35,
+        "line": 0,
+        "elevation_m": 10.9
+      },
+      {
+        "lon": 152.95511,
+        "lat": -27.516851,
+        "at_m": 40,
+        "line": 0,
+        "elevation_m": 8.56
+      },
+      {
+        "lon": 152.955089,
+        "lat": -27.516809,
+        "at_m": 45,
+        "line": 0,
+        "elevation_m": 8.7
+      },
+      {
+        "lon": 152.955069,
+        "lat": -27.516768,
+        "at_m": 50,
+        "line": 0,
+        "elevation_m": 9.84
+      },
+      {
+        "lon": 152.955049,
+        "lat": -27.516727,
+        "at_m": 55,
+        "line": 0,
+        "elevation_m": 11.7
+      },
+      {
+        "lon": 152.955029,
+        "lat": -27.516685,
+        "at_m": 60,
+        "line": 0,
+        "elevation_m": 16.11
+      },
+      {
+        "lon": 152.955009,
+        "lat": -27.516644,
+        "at_m": 65,
+        "line": 0,
+        "elevation_m": 17.34
+      },
+      {
+        "lon": 152.954996,
+        "lat": -27.516617,
+        "at_m": 68.3,
+        "line": 0,
+        "elevation_m": 17.21
+      }
+    ],
+    "min_elevation_m": 8.6,
+    "max_elevation_m": 18.4,
+    "mean_grade_pct": 27.5,
+    "max_grade_pct": 126.6
+  },
+  "waterway": {
+    "name": null,
+    "metres": 12
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 91,
+      "access": "yes",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 68,
+      "length_m": 68,
+      "images": {
+        "esri": ".cache/imagery/212729919-566303287-20271429-l-0/chunk1-esri.jpg",
+        "qld": ".cache/imagery/212729919-566303287-20271429-l-0/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        87,
+        123
+      ],
+      "image_px": [
+        580,
+        818
+      ]
+    }
+  ]
+}

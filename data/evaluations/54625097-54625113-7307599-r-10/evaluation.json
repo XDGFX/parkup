@@ -1,0 +1,49 @@
+{
+  "candidate": "54625097-54625113-7307599-r-10",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, steep kerb on a bend beside a main road, no verge.",
+  "reasons": [
+    "Slope about 9%, max 11%",
+    "House 15 m, tree-lined kerb, no verge",
+    "Next to busy arterial junction"
+  ],
+  "drivers": {
+    "seclusion": "Dwelling 15 m away, three more within 23 to 36 m; busy road immediately north.",
+    "access_and_room": "Only 10 m of kerb curving into a junction with an arterial; trees to the kerb and no verge or pull-off.",
+    "traffic": "Four-lane arterial next to the section, with slip lane turning traffic.",
+    "convention": "One car parked on the street just south; no parking convention on this kerb."
+  },
+  "flags": [
+    "Steep: about 8.8% mean, 11.2% max",
+    "Noise from the arterial",
+    "Junction bend"
+  ],
+  "sun_shade": "Tree canopy covers the section from the west and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 8.8,
+    "min_elevation_m": 36.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

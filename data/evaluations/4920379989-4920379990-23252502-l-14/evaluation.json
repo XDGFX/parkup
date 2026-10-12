@@ -1,0 +1,49 @@
+{
+  "candidate": "4920379989-4920379990-23252502-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep kerb beside bush on a through road, with no parking.",
+  "reasons": [
+    "Slope about 12.6%, max 15%",
+    "No verge, bush bank at kerb",
+    "No cars park along it"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the east side and a motorway beyond; houses 14 m and 22 m away across the road.",
+    "access_and_room": "Kerb runs straight into dense bush with no pull-off; the lane is the only flat ground.",
+    "traffic": "Through road curving to a motorway; no parked cars seen in either image.",
+    "convention": "No parking convention; no cars along the kerb."
+  },
+  "flags": [
+    "Steep: about 12.6% mean, 15.2% max",
+    "Noise from the adjacent motorway",
+    "Low-lying: Witton Creek 81 m away, though elevation is 36 to 40 m"
+  ],
+  "sun_shade": "Dense tree canopy covers the east side, shading mornings.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 12.6,
+    "min_elevation_m": 35.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,211 @@
+{
+  "id": "364012345-3403244693-10564735-l-980",
+  "street": "Jesmond Road",
+  "suburb": "",
+  "line": [
+    [
+      152.965905,
+      -27.521953
+    ],
+    [
+      152.965963,
+      -27.522102
+    ],
+    [
+      152.965972,
+      -27.522124
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "east",
+  "length_m": 20,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "shed",
+      "name": null,
+      "dwelling": false,
+      "metres": 33,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9656308,
+          -27.5216913
+        ],
+        [
+          152.9656571,
+          -27.5216834
+        ],
+        [
+          152.9656767,
+          -27.5217345
+        ],
+        [
+          152.9656503,
+          -27.5217425
+        ],
+        [
+          152.9656308,
+          -27.5216913
+        ]
+      ]
+    },
+    {
+      "building": "shed",
+      "name": null,
+      "dwelling": false,
+      "metres": 54,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9655092,
+          -27.5215311
+        ],
+        [
+          152.9655306,
+          -27.5215798
+        ],
+        [
+          152.9655883,
+          -27.521556
+        ],
+        [
+          152.9655635,
+          -27.5215073
+        ],
+        [
+          152.9655092,
+          -27.5215311
+        ]
+      ]
+    },
+    {
+      "building": "shed",
+      "name": null,
+      "dwelling": false,
+      "metres": 55,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9654412,
+          -27.5215499
+        ],
+        [
+          152.9654979,
+          -27.5215284
+        ],
+        [
+          152.9655259,
+          -27.5215864
+        ],
+        [
+          152.9654692,
+          -27.5216079
+        ],
+        [
+          152.9654412,
+          -27.5215499
+        ]
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9667981,
+      "lat": -27.5244542,
+      "metres": 272,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.965905,
+        "lat": -27.521953,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 11.55
+      },
+      {
+        "lon": 152.965922,
+        "lat": -27.521996,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 11.47
+      },
+      {
+        "lon": 152.965938,
+        "lat": -27.522038,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 11.3
+      },
+      {
+        "lon": 152.965955,
+        "lat": -27.522081,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 11.2
+      },
+      {
+        "lon": 152.965972,
+        "lat": -27.522123,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 11.15
+      },
+      {
+        "lon": 152.965972,
+        "lat": -27.522124,
+        "at_m": 20.1,
+        "line": 0,
+        "elevation_m": 11.15
+      }
+    ],
+    "min_elevation_m": 11.2,
+    "max_elevation_m": 11.6,
+    "mean_grade_pct": 1.6,
+    "max_grade_pct": 3.4
+  },
+  "waterway": {
+    "name": "Cubberla Creek",
+    "metres": 36
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 20,
+      "length_m": 20,
+      "images": {
+        "esri": ".cache/imagery/364012345-3403244693-10564735-l-980/chunk1-esri.jpg",
+        "qld": ".cache/imagery/364012345-3403244693-10564735-l-980/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        67,
+        79
+      ],
+      "image_px": [
+        444,
+        527
+      ]
+    }
+  ]
+}

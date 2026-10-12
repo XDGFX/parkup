@@ -1,0 +1,46 @@
+{
+  "candidate": "603459271-10767738620-129221353-r-130",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Median-side lane of a busy arterial; no parking, no pull-off.",
+  "reasons": [
+    "Main road lane beside a median",
+    "No parking on this side",
+    "Apartments 23 m, houses 24 m"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 23 m and a house 24 m away; open to the road.",
+    "access_and_room": "Kerb of a through lane next to a median strip; no shoulder.",
+    "traffic": "Heavy through traffic on Moggill Road.",
+    "convention": "Cars park on the outer kerb only; none on this lane."
+  },
+  "flags": [
+    "Noise from arterial",
+    "Slope about 2%"
+  ],
+  "sun_shade": "Open to sun all day; trees on the west side only.",
+  "rubbish": "Some debris in a yard to the north-west in QLD imagery, not on the kerb.",
+  "cannot_judge": [
+    "Whether stopping is banned here"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 26.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

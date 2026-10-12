@@ -1,0 +1,48 @@
+{
+  "candidate": "47490279-48336554-982388434-l-310",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb mostly on a motorway bridge; the rest is a through road with no parking.",
+  "reasons": [
+    "Line runs across motorway bridge",
+    "Through road, no parked cars",
+    "Steep: 8.5% mean, 29% max"
+  ],
+  "drivers": {
+    "seclusion": "Motorway lanes beneath and beside; a building about 25 m south-east at the road end.",
+    "access_and_room": "No verge or pull-off; kerb is the bridge edge and a narrow footpath.",
+    "traffic": "Motorway beside the line; heavy noise.",
+    "convention": "No signs and no parked cars along this road."
+  },
+  "flags": [
+    "Steep: 8.5% mean, 29% max",
+    "Motorway noise",
+    "Line crosses a bridge, not parkable"
+  ],
+  "sun_shade": "Open to the sky; some tree shade at the east end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 8.3,
+    "min_elevation_m": 18.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:32:29Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
