@@ -1,0 +1,69 @@
+{
+  "candidate": "58770748-212174232-15705720-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Collector road kerb with almost no parked cars and houses 10-13 m away.",
+  "reasons": [
+    "Through road, hardly any cars parked",
+    "Houses 10-13 m away on both sides",
+    "Steep for most of its length"
+  ],
+  "drivers": {
+    "seclusion": "Houses sit 11-19 m from the kerb here and face it; neighbours would notice a van overnight.",
+    "access_and_room": "Wide sealed road with painted lane markings; only a few kerbside cars, no verge or pull-in.",
+    "traffic": "Through road linking a roundabout and a junction, with moving traffic in both images.",
+    "convention": "Only one or two cars parked on this side, so no clear parking convention."
+  },
+  "flags": [
+    "Steep: 7.5% average, 17.6% max over the whole stretch",
+    "Houses 10-13 m away along most of it",
+    "Busy through road, noise"
+  ],
+  "sun_shade": "Mostly open, with street trees giving patchy shade from the south side; morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 145,
+    "to_m": 165,
+    "where": "Jerrang Street, north kerb, at the downhill end near the side-street junction",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.96188,
+        -27.510684
+      ],
+      [
+        152.962012,
+        -27.51064
+      ],
+      [
+        152.96207,
+        -27.510621
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 21.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

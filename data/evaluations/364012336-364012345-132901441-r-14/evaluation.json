@@ -1,0 +1,67 @@
+{
+  "candidate": "364012336-364012345-132901441-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat west kerb on a quiet street, with homes 12-23 m away.",
+  "reasons": [
+    "Dwellings 12-23 m away on same side",
+    "Residential street, no parking convention",
+    "Flat section, grass verge beside kerb"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the verge, dwellings 12 m (near 44 m), 16 m (near 43 m) and 23 m (near 10 m); homes within 25 m all round.",
+    "access_and_room": "Sealed street with a narrow grass verge on the west; a van can stand against the kerb but is close to the lane.",
+    "traffic": "Quiet residential street with a centre line.",
+    "convention": "A car is parked on the east side near 50 m and others near 100-145 m; none seen on this kerb. No signs."
+  },
+  "flags": [
+    "Steep further along: 6.7% mean, 14.8% max grade",
+    "Gate 48 m away has a mapped way round"
+  ],
+  "sun_shade": "Partly open on the west verge, with trees across the road on the east giving afternoon-side shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether residents object to long-stay parking"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 55,
+    "where": "West kerb of Jilba Street, south of the bend, beside the power pole",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.964633,
+        -27.512762
+      ],
+      [
+        152.964633,
+        -27.512767
+      ],
+      [
+        152.964641,
+        -27.513032
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 27.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

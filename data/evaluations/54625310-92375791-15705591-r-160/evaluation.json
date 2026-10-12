@@ -1,0 +1,48 @@
+{
+  "candidate": "54625310-92375791-15705591-r-160",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Kerb at a signalised main-road junction with a house 6m away.",
+  "reasons": [
+    "Dwelling 6m from kerb",
+    "Main road, no parking lane",
+    "Signalised junction, 'Keep Clear' markings"
+  ],
+  "drivers": {
+    "seclusion": "House 6m away at 17 m and another 21m; open corner in full view.",
+    "access_and_room": "Kerb runs to a signalised junction; no parked cars or parking lane, no room to pull out of the lane.",
+    "traffic": "Busy multi-lane road with traffic lights.",
+    "convention": "No cars parked here; not a parking kerb."
+  },
+  "flags": [
+    "Steep: about 6% grade",
+    "Noise from the arterial and junction"
+  ],
+  "sun_shade": "Trees shade the west side; open to the sun on the road side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 6.4,
+    "min_elevation_m": 5.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

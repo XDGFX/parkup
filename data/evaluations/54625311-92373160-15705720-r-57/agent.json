@@ -1,0 +1,23 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Kerb on a busy residential road where cars park, with houses about 12 m away.",
+  "reasons": ["Cars park along this kerb", "Houses 12-19 m away on both sides", "Wide road, near level at 60-80 m"],
+  "best_section": {
+    "from_m": 60,
+    "to_m": 80,
+    "where": "Jerrang Street, north kerb, between the two houses just past the 50 m marker heading downhill",
+    "slope_pct": 1
+  },
+  "drivers": {
+    "seclusion": "Dwellings line both sides, 12-19 m from the kerb, so neighbours would notice an overnight van.",
+    "access_and_room": "Marked, wide road with parked cars along the kerb; room to stop clear of the lane.",
+    "traffic": "Through road with lane markings and moving traffic; constant passing noise.",
+    "convention": "Several cars parked along the kerb in both images, so a van would not stand out much."
+  },
+  "flags": ["Houses 10-25 m away on both sides", "Busy through road, noise"],
+  "sun_shade": "Mostly open kerb, with tree canopy shading patches on the north side; morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Crossfall", "Kerb height", "Signs on site"],
+  "confidence": "medium"
+}

@@ -1,0 +1,72 @@
+{
+  "candidate": "91397755-1951889659-10564735-l-34",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Through road with homes 4-19 m away and almost no parked cars.",
+  "reasons": [
+    "Collector road, hardly any kerb parking",
+    "Dwellings within 5-13 m for most of it",
+    "Steep fall of about 4% near 100 m"
+  ],
+  "drivers": {
+    "seclusion": "Houses 12-19 m away on this side along the best section; others within 5-10 m elsewhere.",
+    "access_and_room": "Kerbside lane beside a marked through lane; only one or two cars parked along the whole stretch.",
+    "traffic": "Through route linking roundabouts, with moving traffic along its length.",
+    "convention": "No sign of parking convention; a No Stopping Any Time sign at the start."
+  },
+  "flags": [
+    "Steep: about 4-5% grade near 100-120 m, 17% max",
+    "Collector road with almost no parked cars",
+    "No Stopping Any Time sign at 0 m"
+  ],
+  "sun_shade": "Mostly open to the sky, with tree shade on the south side near 110 m.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 105,
+    "to_m": 125,
+    "where": "North kerb after the bend, beside the large corner tree",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        152.962246,
+        -27.512497
+      ],
+      [
+        152.962254,
+        -27.512503
+      ],
+      [
+        152.962305,
+        -27.512565
+      ],
+      [
+        152.962363,
+        -27.512644
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 5.2,
+    "min_elevation_m": 30.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

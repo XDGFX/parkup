@@ -1,0 +1,50 @@
+{
+  "candidate": "257254491-567544313-46892896-r-134",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Main-road kerb by a roundabout, no parked cars, house 9 m away.",
+  "reasons": [
+    "Main road, no parked cars",
+    "Dwelling 9 m from kerb",
+    "Bus zone and No Stopping signs"
+  ],
+  "drivers": {
+    "seclusion": "Houses and pools back onto the kerb; a dwelling is 9 m off at 37 m.",
+    "access_and_room": "Kerb has hedges and fences behind it, with no pull-off; the road narrows to a roundabout.",
+    "traffic": "Through road leading to a roundabout.",
+    "convention": "No cars parked along the kerb; bus zone and No Stopping Any Time signs."
+  },
+  "flags": [
+    "Bus Zone and No Stopping Any Time signs",
+    "Low-lying: about 5.4 m, Sandy Creek 24 m away",
+    "Slope 3.4% mean, 7.3% max"
+  ],
+  "sun_shade": "Tree canopy over the kerb, with the road open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 3.4,
+    "min_elevation_m": 5.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

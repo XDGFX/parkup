@@ -1,0 +1,66 @@
+{
+  "candidate": "257264228-257265769-24209303-l-19",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb beside tennis court gardens; homes about 20m on the same side.",
+  "reasons": [
+    "Houses 21m away on this side",
+    "Quiet street, few parked cars",
+    "Steep, no stopping signs at north end"
+  ],
+  "drivers": {
+    "seclusion": "Tennis court and trees back the kerb; houses 21m away on the same side and homes across the road.",
+    "access_and_room": "Sealed residential street; a few cars parked on it, room for a van.",
+    "traffic": "Quiet side street between two through roads.",
+    "convention": "No camping convention; occasional cars park along it."
+  },
+  "flags": [
+    "Steep: about 5.5% grade here, 11.6% max over the stretch",
+    "No Stopping Any Time signs at the north end, near 0 m",
+    "Homes within about 25m all round"
+  ],
+  "sun_shade": "Street trees shade the kerb from the east; open to the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact extent of the no-stopping zone"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 28,
+    "to_m": 48,
+    "where": "East kerb of Kew Street beside the tennis court and tree-lined gardens",
+    "slope_pct": 5.5,
+    "points": [
+      [
+        152.979547,
+        -27.504294
+      ],
+      [
+        152.979513,
+        -27.504472
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 5.5,
+    "min_elevation_m": 22.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

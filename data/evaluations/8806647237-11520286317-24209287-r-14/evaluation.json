@@ -1,0 +1,49 @@
+{
+  "candidate": "8806647237-11520286317-24209287-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "No visible road under canopy; no-stopping signs and a home 5 m away.",
+  "reasons": [
+    "Two No Stopping Any Time signs",
+    "Dwelling 5 m from kerb",
+    "No road or kerb visible"
+  ],
+  "drivers": {
+    "seclusion": "Dwelling 5 m away at 17 m along; homes close on both sides.",
+    "access_and_room": "Line runs through dense canopy; no formed road or room to stop seen.",
+    "traffic": "Unclear from overhead; quiet residential lane at most.",
+    "convention": "No cars parked along it; No Stopping Any Time signs."
+  },
+  "flags": [
+    "No Stopping Any Time signs",
+    "Gentle: mean 2.8%, max 6.8%"
+  ],
+  "sun_shade": "Heavy tree canopy over the whole line.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Actual road surface under canopy",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 2.8,
+    "min_elevation_m": 33.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

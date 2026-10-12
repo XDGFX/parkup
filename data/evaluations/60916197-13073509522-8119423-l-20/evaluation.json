@@ -1,0 +1,50 @@
+{
+  "candidate": "60916197-13073509522-8119423-l-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep residential kerb with houses 7-10 m away all along.",
+  "reasons": [
+    "Houses within 10 m along whole stretch",
+    "No Stopping sign at start",
+    "About 15% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 7 m, 10 m and 10 m from the kerb along its length.",
+    "access_and_room": "Kerb beside a bend; a car is parked here but the start is signed No Stopping.",
+    "traffic": "Quiet side street near a motorway.",
+    "convention": "A couple of cars park on this side."
+  },
+  "flags": [
+    "Steep: about 15% grade, up to 17%",
+    "No Stopping Any Time sign at start",
+    "Motorway noise"
+  ],
+  "sun_shade": "Open kerb; houses to the north-east give morning shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 15.4,
+    "min_elevation_m": 38.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

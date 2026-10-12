@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Ten metres of kerb right at a junction, in front of a house.",
+  "reasons": ["At a junction with give-way markings", "House 11 m away", "Main road, no cars parked"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Houses 11 m and 14 m from the kerb, directly facing it; exposed at an open junction.",
+    "access_and_room": "Narrow grass strip and driveway beside the kerb; no pull-in clear of the lane at the junction.",
+    "traffic": "Through road and side-street junction, with moving and turning traffic in both images.",
+    "convention": "No cars parked along this kerb."
+  },
+  "flags": ["House within 11 m", "Junction, noise", "Only 10 m of kerb"],
+  "sun_shade": "Open to the sky; the building on the north side shades it in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Crossfall", "Signs on site", "Slope: 10 m is too short for a meaningful DEM grade"],
+  "confidence": "medium"
+}

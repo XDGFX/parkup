@@ -1,0 +1,49 @@
+{
+  "candidate": "60200186-60200189-8050669-l-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 4 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short street-corner kerb with a house about 4m away.",
+  "reasons": [
+    "House 4m from the kerb end",
+    "Only 12m of kerb, at a junction",
+    "Homes within 26m all round"
+  ],
+  "drivers": {
+    "seclusion": "House 4m away at the east end of the stretch; other homes 17-26m around.",
+    "access_and_room": "Only 12m of kerb, at a street corner; hardly room for a van clear of the junction.",
+    "traffic": "Quiet residential corner.",
+    "convention": "No cars parked on this stretch."
+  },
+  "flags": [
+    "Steep: 5% mean, 8.6% max over the stretch",
+    "Low-lying: about 8m elevation, creek 108m away"
+  ],
+  "sun_shade": "Open to the sun; a low hedge and trees on the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 4,
+    "gated": false,
+    "slope_pct": 5,
+    "min_elevation_m": 8.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

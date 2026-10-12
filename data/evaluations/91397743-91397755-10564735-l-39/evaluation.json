@@ -1,0 +1,69 @@
+{
+  "candidate": "91397743-91397755-10564735-l-39",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb with other cars parked, but houses 14 m away.",
+  "reasons": [
+    "Cars park along this street",
+    "Houses 14-24 m away",
+    "Level, under tree canopy"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwelling 14 m away on the section's side, others 22-24 m; heavy canopy screens the street.",
+    "access_and_room": "Narrow street; cars already park along both sides, so a van fits but takes most of the width.",
+    "traffic": "Quiet residential street just below a roundabout; light local traffic.",
+    "convention": "Several cars parked along the kerb in both images, so a van would blend in."
+  },
+  "flags": [
+    "Dwellings 14-24 m away",
+    "Narrow street",
+    "1P parallel and school-day bus zone signs on this kerb"
+  ],
+  "sun_shade": "Dense tree canopy over most of the stretch, mostly shaded.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site",
+    "Exact room to pass a parked van"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Jesmond Road, east kerb, at the top end below the roundabout, under the big trees",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.960526,
+        -27.511634
+      ],
+      [
+        152.960538,
+        -27.511652
+      ],
+      [
+        152.960588,
+        -27.511727
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 34.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

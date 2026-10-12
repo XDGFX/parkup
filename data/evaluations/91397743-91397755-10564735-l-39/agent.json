@@ -1,0 +1,23 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb with other cars parked, but houses 14 m away.",
+  "reasons": ["Cars park along this street", "Houses 14-24 m away", "Level, under tree canopy"],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Jesmond Road, east kerb, at the top end below the roundabout, under the big trees",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Nearest dwelling 14 m away on the section's side, others 22-24 m; heavy canopy screens the street.",
+    "access_and_room": "Narrow street; cars already park along both sides, so a van fits but takes most of the width.",
+    "traffic": "Quiet residential street just below a roundabout; light local traffic.",
+    "convention": "Several cars parked along the kerb in both images, so a van would blend in."
+  },
+  "flags": ["Dwellings 14-24 m away", "Narrow street", "1P parallel and school-day bus zone signs on this kerb"],
+  "sun_shade": "Dense tree canopy over most of the stretch, mostly shaded.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Crossfall", "Signs on site", "Exact room to pass a parked van"],
+  "confidence": "medium"
+}

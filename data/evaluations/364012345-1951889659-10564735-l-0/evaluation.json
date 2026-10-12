@@ -1,0 +1,68 @@
+{
+  "candidate": "364012345-1951889659-10564735-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep, treed kerb on a through road with no parked cars.",
+  "reasons": [
+    "No cars parked on this kerb",
+    "Steep: about 5% average grade",
+    "Houses 11-23 m away at both ends"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the kerb side; houses 15 m at the start and 11-23 m at the far end.",
+    "access_and_room": "Kerb beside a narrow through lane; no verge or pull-off and no parked cars.",
+    "traffic": "Through road linking the roundabout and the bend, with moving traffic.",
+    "convention": "No signs and no parked cars seen."
+  },
+  "flags": [
+    "Steep: about 5% average, 8.8% max",
+    "Main road with no parking",
+    "Mapped gate 43 m away, not on the only access"
+  ],
+  "sun_shade": "Dense canopy over the whole kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 30,
+    "where": "South kerb below the roundabout, under dense trees",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        152.963711,
+        -27.514185
+      ],
+      [
+        152.963564,
+        -27.514071
+      ],
+      [
+        152.963557,
+        -27.514068
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 4.4,
+    "min_elevation_m": 37.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

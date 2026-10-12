@@ -1,0 +1,72 @@
+{
+  "candidate": "364012345-1951889659-10564735-l-90",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, steep kerb at a bend with a No Stopping sign.",
+  "reasons": [
+    "No Stopping Any Time sign nearby",
+    "Only 22 m, steep at 6%",
+    "Through road, no parked cars"
+  ],
+  "drivers": {
+    "seclusion": "Wooded bank on the kerb side; houses 15 m or more away.",
+    "access_and_room": "Narrow kerb on a bend with a bank behind it; no pull-off and no parked cars.",
+    "traffic": "Through road with moving traffic and a bend.",
+    "convention": "No Stopping Any Time sign 8 m from the line; no parked cars seen."
+  },
+  "flags": [
+    "Steep: about 6% average, 9.6% max",
+    "No Stopping Any Time sign",
+    "Main road with no parking"
+  ],
+  "sun_shade": "Tree shade over the kerb, mostly from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 22,
+    "where": "West kerb at the bend beside the wooded bank",
+    "slope_pct": 6.3,
+    "points": [
+      [
+        152.963005,
+        -27.513861
+      ],
+      [
+        152.962986,
+        -27.51385
+      ],
+      [
+        152.962931,
+        -27.513786
+      ],
+      [
+        152.962881,
+        -27.513699
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 5.5,
+    "min_elevation_m": 33.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

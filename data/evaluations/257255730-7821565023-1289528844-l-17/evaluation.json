@@ -1,0 +1,47 @@
+{
+  "candidate": "257255730-7821565023-1289528844-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short main-road kerb with a house 13 m away and no parked cars.",
+  "reasons": [
+    "Main road, no parked cars",
+    "Dwellings 13-14 m away",
+    "Driveway and crossing break the kerb"
+  ],
+  "drivers": {
+    "seclusion": "Two detached houses sit 13 and 14 m from the kerb; a school building is 25 m off.",
+    "access_and_room": "Kerb is 23 m with a driveway and a red pedestrian crossing beside it; no pull-off.",
+    "traffic": "Through road with moving traffic and no kerbside parking on this side.",
+    "convention": "No parked cars along this kerb and no marked parking lane."
+  },
+  "flags": [
+    "Low-lying: about 8.7 m, Sandy Creek 55 m away",
+    "Slope 3.2% mean, over 3%"
+  ],
+  "sun_shade": "Heavy tree shade from the east and north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 3.2,
+    "min_elevation_m": 8.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

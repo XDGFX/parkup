@@ -1,0 +1,66 @@
+{
+  "candidate": "53860687-53912199-7797437-l-27",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Busy shop-strip kerb with apartments 7 m away and signed day parking.",
+  "reasons": [
+    "Apartment block 7 m from the kerb",
+    "Shopfront street, constantly watched",
+    "2P and 3P signs, loading zone"
+  ],
+  "drivers": {
+    "seclusion": "Central Park Residences apartments sit about 7 m from the kerb; cafes and shops face the street opposite at 13 m.",
+    "access_and_room": "Kerbside parking lane where other cars park, so a van fits; no lay-by.",
+    "traffic": "Town-centre street near a junction with constant foot and car traffic.",
+    "convention": "Cars park along the kerb, but the signs are daytime turnover (2P, 3P, passenger loading zone)."
+  },
+  "flags": [
+    "Dwelling about 7 m from the best section",
+    "Daytime time limits signed on this kerb",
+    "Noise from shops and the junction"
+  ],
+  "sun_shade": "Open sky; apartment block shades the kerb from the south, park open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Evening and overnight restrictions",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 23,
+    "where": "West end of the south kerb by the small park, beside the apartment block",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        152.976549,
+        -27.503391
+      ],
+      [
+        152.976472,
+        -27.503368
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 0.6,
+    "min_elevation_m": 17.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

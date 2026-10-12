@@ -1,0 +1,49 @@
+{
+  "candidate": "92373160-212174232-15705720-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Ten metres of kerb at a junction mouth on a main road, no room to stop.",
+  "reasons": [
+    "Junction with give-way lines beside it",
+    "Main road, no cars parked",
+    "Too short and steep to use"
+  ],
+  "drivers": {
+    "seclusion": "Nearest houses are 19-24 m away, but the spot is exposed at an open junction.",
+    "access_and_room": "Kerb sits at a side-street junction with dashed give-way markings; no pull-in or verge, trees behind the kerb.",
+    "traffic": "Through road with moving traffic in both images, plus turning vehicles at the junction.",
+    "convention": "No cars parked along this kerb; two vehicles on the opposite side are queuing or moving."
+  },
+  "flags": [
+    "Steep: about 8% grade, 10.8% max",
+    "Junction, noise",
+    "Only 10 m of kerb"
+  ],
+  "sun_shade": "Tree canopy over the kerb from the south and east; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 6,
+    "min_elevation_m": 22,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

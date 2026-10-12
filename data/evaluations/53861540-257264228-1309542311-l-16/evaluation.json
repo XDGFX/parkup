@@ -1,0 +1,68 @@
+{
+  "candidate": "53861540-257264228-1309542311-l-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "No Stopping kerb on a main road beside a roundabout; no cars park.",
+  "reasons": [
+    "No Stopping Any Time signs at the kerb",
+    "Main road by a roundabout",
+    "No cars parked, no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Nearest mapped dwelling 17 m away behind a hedge on the section's own side; more homes beyond.",
+    "access_and_room": "Plain kerb beside the lane with a hedge behind it; no lay-by or verge to pull into.",
+    "traffic": "Through route into a roundabout, with constant traffic.",
+    "convention": "No cars parked along this stretch and two No Stopping Any Time signs sit within 13 m."
+  },
+  "flags": [
+    "Steep: about 5% grade",
+    "No Stopping Any Time signed at the kerb",
+    "Roundabout and arterial noise"
+  ],
+  "sun_shade": "Hedge and tree shade from the south and overhanging trees near the roundabout; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 13,
+    "where": "South kerb of Lambert Road beside the roundabout, in front of the hedge",
+    "slope_pct": 4.8,
+    "points": [
+      [
+        152.979849,
+        -27.50395
+      ],
+      [
+        152.979837,
+        -27.50395
+      ],
+      [
+        152.979718,
+        -27.503939
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 5.5,
+    "min_elevation_m": 18.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

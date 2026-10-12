@@ -1,0 +1,23 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Collector road kerb with almost no parked cars and houses 10-13 m away.",
+  "reasons": ["Through road, hardly any cars parked", "Houses 10-13 m away on both sides", "Steep for most of its length"],
+  "best_section": {
+    "from_m": 145,
+    "to_m": 165,
+    "where": "Jerrang Street, north kerb, at the downhill end near the side-street junction",
+    "slope_pct": 1.5
+  },
+  "drivers": {
+    "seclusion": "Houses sit 11-19 m from the kerb here and face it; neighbours would notice a van overnight.",
+    "access_and_room": "Wide sealed road with painted lane markings; only a few kerbside cars, no verge or pull-in.",
+    "traffic": "Through road linking a roundabout and a junction, with moving traffic in both images.",
+    "convention": "Only one or two cars parked on this side, so no clear parking convention."
+  },
+  "flags": ["Steep: 7.5% average, 17.6% max over the whole stretch", "Houses 10-13 m away along most of it", "Busy through road, noise"],
+  "sun_shade": "Mostly open, with street trees giving patchy shade from the south side; morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Crossfall", "Kerb height", "Signs on site"],
+  "confidence": "medium"
+}

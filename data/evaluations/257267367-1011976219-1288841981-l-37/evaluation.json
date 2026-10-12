@@ -1,0 +1,64 @@
+{
+  "candidate": "257267367-1011976219-1288841981-l-37",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb on a parked-on road facing a park; homes 17-21 m behind.",
+  "reasons": [
+    "Cars park along this road",
+    "Homes 17-21 m on own side",
+    "Park opposite"
+  ],
+  "drivers": {
+    "seclusion": "Park and playing field across the road; detached houses 17-21 m behind the kerb at 49-72 m.",
+    "access_and_room": "Plain kerb stretch about 35 m long; cars are parked on the opposite kerb, none seen on this one.",
+    "traffic": "Collector road with moving traffic by day.",
+    "convention": "Cars park along the park side, so a van would not stand out much; none clearly on this side."
+  },
+  "flags": [
+    "Slope 3.2% over the section, steep",
+    "Houses within about 25 m on own side",
+    "No signs mapped"
+  ],
+  "sun_shade": "Tree canopy from the park side, the north, shades the kerb; houses to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the south kerb is used for parking"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 45,
+    "to_m": 80,
+    "where": "Lambert Road, south kerb, opposite the park and the row of parked cars",
+    "slope_pct": 3.2,
+    "points": [
+      [
+        152.981244,
+        -27.503325
+      ],
+      [
+        152.980934,
+        -27.503478
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 4.3,
+    "min_elevation_m": 15.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

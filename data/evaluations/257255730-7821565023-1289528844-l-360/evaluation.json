@@ -1,0 +1,49 @@
+{
+  "candidate": "257255730-7821565023-1289528844-l-360",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Main-road kerb by a school with no parked cars; homes 12 m off.",
+  "reasons": [
+    "Main road, no parked cars",
+    "Dwellings 12-13 m from kerb",
+    "School beside the kerb"
+  ],
+  "drivers": {
+    "seclusion": "Houses sit 12 m (at 24 m) and 13 m (at 62 m) from the kerb; a school is 18 m off at the start.",
+    "access_and_room": "Narrow grass verge with driveways and trees behind it; no clear pull-off seen.",
+    "traffic": "Through road with moving traffic and no cars parked along this kerb.",
+    "convention": "No parking convention; signs bar stopping 8-9am and 2:30-3:30pm on school days."
+  },
+  "flags": [
+    "School-hours No Stopping signs",
+    "Slope 3.2% mean, 9.1% max",
+    "Overnight sign rules not an issue"
+  ],
+  "sun_shade": "Dense tree canopy over most of the kerb, from the north and the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the dirt patch near 40 m is a driveway"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 3.2,
+    "min_elevation_m": 13.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

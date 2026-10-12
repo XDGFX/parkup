@@ -1,0 +1,48 @@
+{
+  "candidate": "257254491-257255730-1289541851-l-55",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Nine-metre bus-zone kerb on a main road with a house 11 m away.",
+  "reasons": [
+    "Bus zone signs",
+    "Dwelling 11 m away",
+    "Too short for a van"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 11 m from the kerb, others within 15 m.",
+    "access_and_room": "Kerb is 9 m long, shorter than a van, on a through road with no parked cars.",
+    "traffic": "Main road with a bus stop.",
+    "convention": "No cars parked along this kerb; signed as a bus zone."
+  },
+  "flags": [
+    "Bus Zone signs",
+    "Low-lying: about 8 m, Sandy Creek 51 m away",
+    "Slope 3.9% mean"
+  ],
+  "sun_shade": "Mixed; trees shade the road from the north and the kerb partly from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 3.6,
+    "min_elevation_m": 8.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

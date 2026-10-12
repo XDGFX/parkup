@@ -1,0 +1,72 @@
+{
+  "candidate": "91397755-1951889659-10564735-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside a roundabout, no parked cars and a No Stopping sign.",
+  "reasons": [
+    "Roundabout approach, no cars parked",
+    "No Stopping Any Time sign nearby",
+    "Houses 9-18 m away"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 9-19 m south of the kerb, uphill behind the trees, with more across the road.",
+    "access_and_room": "Kerb with no verge or lay-by; no cars parked along it, and no marked parking lane.",
+    "traffic": "Through route linking roundabouts and suburbs.",
+    "convention": "No parked cars seen, and a No Stopping Any Time sign 9 m off the line."
+  },
+  "flags": [
+    "Main road with no parking",
+    "No Stopping Any Time sign near the start",
+    "Houses within 10-15 m on this side"
+  ],
+  "sun_shade": "Dense canopy over the south side shades the kerb from the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 55,
+    "where": "South kerb east of the roundabout island, opposite the tight bend",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.961355,
+        -27.512423
+      ],
+      [
+        152.961422,
+        -27.512412
+      ],
+      [
+        152.961548,
+        -27.512391
+      ],
+      [
+        152.961604,
+        -27.512384
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 35.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

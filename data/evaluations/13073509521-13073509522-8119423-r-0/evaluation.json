@@ -1,0 +1,49 @@
+{
+  "candidate": "13073509521-13073509522-8119423-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Nine-metre corner kerb with a house 6 m away.",
+  "reasons": [
+    "House 6 m from kerb",
+    "Only 9 m, under a van length",
+    "Steep: about 12% grade"
+  ],
+  "drivers": {
+    "seclusion": "House 6 m from the kerb at the start, others within 20 m.",
+    "access_and_room": "Stretch is 9 m, shorter than a van, at a junction.",
+    "traffic": "Quiet junction of residential streets.",
+    "convention": "Cars park nearby but this stretch is too short."
+  },
+  "flags": [
+    "Steep: about 12% grade",
+    "Short stretch beside a junction"
+  ],
+  "sun_shade": "Open; trees to the north-east give morning shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 11.8,
+    "min_elevation_m": 42.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

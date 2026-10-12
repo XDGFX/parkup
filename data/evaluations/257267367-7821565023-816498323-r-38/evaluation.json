@@ -1,0 +1,50 @@
+{
+  "candidate": "257267367-7821565023-816498323-r-38",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep 31 m main-road kerb with houses 10-12 m away, no parked cars.",
+  "reasons": [
+    "Main road, no parked cars",
+    "Dwellings 10-12 m from kerb",
+    "Steep: 7% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 10 m (at 23 m) and 12 m (at 5 m) from the kerb, with more within 20 m.",
+    "access_and_room": "Narrow kerb strip with trees and a bank behind it; no pull-off or gravel area.",
+    "traffic": "Through road with a bus stop pad and moving traffic.",
+    "convention": "No cars parked here; signs bar stopping 8-9am and 2:30-3:30pm on school days."
+  },
+  "flags": [
+    "Steep: 7.3% mean grade, 25% max in the DEM",
+    "School-hours No Stopping signs",
+    "Slope exceeds 3%"
+  ],
+  "sun_shade": "Heavy tree cover over the kerb, from the south and the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 7.3,
+    "min_elevation_m": 16.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

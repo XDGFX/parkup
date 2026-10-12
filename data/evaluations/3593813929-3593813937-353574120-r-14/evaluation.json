@@ -1,0 +1,49 @@
+{
+  "candidate": "3593813929-3593813937-353574120-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very steep cul-de-sac kerb with homes 6 m away; not suitable.",
+  "reasons": [
+    "Mean slope 13.5%, up to 19.8%",
+    "Home 6 m from kerb",
+    "Residential cul-de-sac, no parking convention"
+  ],
+  "drivers": {
+    "seclusion": "Detached home 6 m from the kerb at 4 m; houses with pools line this side.",
+    "access_and_room": "Sealed court; kerb room exists but the whole stretch climbs steeply.",
+    "traffic": "Quiet cul-de-sac, residents only.",
+    "convention": "No cars parked along it in the imagery; no signs."
+  },
+  "flags": [
+    "Steep: 13.5% mean, 19.8% max",
+    "Dwellings within 10 m"
+  ],
+  "sun_shade": "Open to sky; small trees at the south end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 14.3,
+    "min_elevation_m": 16.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

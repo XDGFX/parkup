@@ -1,0 +1,48 @@
+{
+  "candidate": "60916197-13073509522-8119423-l-11",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Nine-metre No Stopping kerb on steep street corner beside homes.",
+  "reasons": [
+    "No Stopping Any Time signs",
+    "House 12 m away",
+    "Only 9 m, under a van length"
+  ],
+  "drivers": {
+    "seclusion": "House 12 m away and more homes within 20 m.",
+    "access_and_room": "Stretch is 9 m, shorter than a van, at a corner.",
+    "traffic": "Quiet side street beside a motorway.",
+    "convention": "Cars park nearby but signs forbid stopping here."
+  },
+  "flags": [
+    "Steep: about 14% grade",
+    "No Stopping Any Time signs at both ends",
+    "Motorway noise"
+  ],
+  "sun_shade": "Open; houses to the south-west give afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 14.4,
+    "min_elevation_m": 37,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

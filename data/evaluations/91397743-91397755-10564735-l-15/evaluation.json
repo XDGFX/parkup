@@ -1,0 +1,52 @@
+{
+  "candidate": "91397743-91397755-10564735-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a narrow street beside a roundabout, house 7 m away.",
+  "reasons": [
+    "House 7 m from kerb",
+    "Narrow street under heavy tree canopy",
+    "Only 18 m of kerb"
+  ],
+  "drivers": {
+    "seclusion": "A mapped dwelling sits 7 m from the kerb around 9 m along; other houses 23 m or more away.",
+    "access_and_room": "Narrow lane with cars parked nearer the far end; little clear ground beside it, and it starts at a roundabout exit.",
+    "traffic": "Quiet side street next to a roundabout; some turning traffic.",
+    "convention": "A few cars parked further down the street; the stretch itself has few."
+  },
+  "flags": [
+    "Dwelling within 10 m",
+    "Steep: max grade 10.7% in the DEM, about 4% mean",
+    "1P parallel signs on the kerb, 1 hour limit"
+  ],
+  "sun_shade": "Heavy tree canopy over the whole stretch, mostly shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site",
+    "Exact space clear of the roundabout"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 2.3,
+    "min_elevation_m": 34.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

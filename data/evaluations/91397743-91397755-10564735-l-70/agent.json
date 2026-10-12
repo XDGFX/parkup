@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Kerb running into a junction with a painted island, no cars parked, houses 10 m away.",
+  "reasons": ["Junction approach with painted island", "No cars parked on this side", "Houses 10-11 m away at both ends"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Dwellings 10-11 m from the kerb at the top and bottom ends; the middle has a grassy block but houses overlook it.",
+    "access_and_room": "Lane marked for turning at the junction; no pull-in or verge beside the kerb, and No Stopping Any Time signs on this stretch.",
+    "traffic": "Collector street with moving and turning traffic into the junction.",
+    "convention": "Cars park only on the opposite side, further up the street; none on this kerb."
+  },
+  "flags": ["Dwellings within about 10 m", "Junction and traffic island", "No Stopping Any Time signs and school-day bus zone on the kerb"],
+  "sun_shade": "Mostly open, with trees to the east giving morning shade at the lower end.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Street lighting", "Crossfall", "Signs on site"],
+  "confidence": "medium"
+}

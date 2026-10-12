@@ -1,0 +1,81 @@
+{
+  "candidate": "58770748-212174232-15705720-r-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wide dirt verge on a through road, with houses 15 m away and steep.",
+  "reasons": [
+    "Dirt verge with cars parked on it",
+    "Houses 15-22 m away on both sides",
+    "Steep, about 9% grade"
+  ],
+  "drivers": {
+    "seclusion": "Houses 15 m and 22 m away on the section's side and homes across the road; neighbours would see a van.",
+    "access_and_room": "Bare dirt verge meets the road edge and room for a van off the lane; a car is parked on it.",
+    "traffic": "Through road with lane markings and moving traffic, but the van stands clear of the lane.",
+    "convention": "A few cars park on the dirt here; the rest of the kerb has almost none."
+  },
+  "flags": [
+    "Steep: about 9% over this section, 8% mean overall",
+    "Houses 15-22 m away on both sides",
+    "Busy through road, noise"
+  ],
+  "sun_shade": "Open dirt with a street tree at the uphill end; morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the verge is signed or fenced",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 110,
+    "to_m": 125,
+    "where": "Jerrang Street, south side, on the bare dirt verge before the junction at the downhill end",
+    "slope_pct": 8.8,
+    "points": [
+      [
+        152.96158,
+        -27.510879
+      ],
+      [
+        152.961587,
+        -27.510877
+      ],
+      [
+        152.961599,
+        -27.510873
+      ],
+      [
+        152.961652,
+        -27.510855
+      ],
+      [
+        152.961718,
+        -27.510833
+      ],
+      [
+        152.961722,
+        -27.510832
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 8.8,
+    "min_elevation_m": 23.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

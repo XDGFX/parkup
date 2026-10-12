@@ -1,0 +1,50 @@
+{
+  "candidate": "54625311-92375791-15705591-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Busy school-zone road, no parking on this kerb, houses about 10m away.",
+  "reasons": [
+    "Dwellings 9-11m along the whole kerb",
+    "Main road, no cars parked on this side",
+    "School zone beside a signalised junction"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the kerb at 9-11m along its length; no clear gap.",
+    "access_and_room": "Narrow footpath edge, no pull-in; cars park only on the opposite kerb.",
+    "traffic": "Busy through road with turning lanes and a school zone.",
+    "convention": "Nobody parks on this side; not a parking kerb."
+  },
+  "flags": [
+    "Steep: 9.8% mean, 12.6% max",
+    "Noise from the arterial",
+    "School zone"
+  ],
+  "sun_shade": "Mostly open to the sun; trees around the south end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 9.8,
+    "min_elevation_m": 11.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

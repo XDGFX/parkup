@@ -1,0 +1,68 @@
+{
+  "candidate": "54625244-60667419-7307606-r-90",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb; best at bushy south end, homes within 25m behind.",
+  "reasons": [
+    "Tree-covered both sides at south end",
+    "Homes 19-22m away just north of it",
+    "Steep, low-lying near junction"
+  ],
+  "drivers": {
+    "seclusion": "Trees and bush on both sides at 108-130 m; nearest dwellings 19-22m back at about 98-104 m, then 50m.",
+    "access_and_room": "Sealed street with cars parked along it; room to pull in on the kerb.",
+    "traffic": "Quiet residential street, a junction with a larger road at the south end.",
+    "convention": "No signs; cars park along the street, but no camping convention."
+  },
+  "flags": [
+    "Steep: about 5% grade here, 9.7% over the whole stretch",
+    "Low-lying: about 4-5 m elevation, creek 28 m away",
+    "Close to the southern junction"
+  ],
+  "sun_shade": "Heavy tree shade from both sides, little direct sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether parking is allowed right at the junction"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 108,
+    "to_m": 130,
+    "where": "West kerb of Kate Street, bushy stretch just before the southern junction",
+    "slope_pct": 5.2,
+    "points": [
+      [
+        152.964646,
+        -27.506329
+      ],
+      [
+        152.96467,
+        -27.506403
+      ],
+      [
+        152.964696,
+        -27.506522
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 5.4,
+    "min_elevation_m": 4.6,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:12:32Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
