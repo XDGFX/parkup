@@ -1,0 +1,62 @@
+{
+  "candidate": "48324613-48337210-7925100-r-50",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow, steep lane with houses right against the kerb and parked cars.",
+  "reasons": [
+    "Houses within 3-10 m of kerb",
+    "Steep: up to 13% grade",
+    "Narrow lane, little room to stand"
+  ],
+  "drivers": {
+    "seclusion": "Large white house hard against the kerb at 3 m; dwellings 8-10 m at the start.",
+    "access_and_room": "Narrow lane, cars parked on it, no verge to pull onto.",
+    "traffic": "Quiet side street running into a busy main road.",
+    "convention": "No sign of overnight parking here."
+  },
+  "flags": [
+    "Steep: about 8% mean, 13% max",
+    "Noise from the main road at the bottom"
+  ],
+  "sun_shade": "Open at the south end; trees overhang the lane from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 22,
+    "to_m": 37,
+    "where": "Gordon Terrace west kerb, beside the white house near Moggill Road",
+    "slope_pct": 8.5,
+    "points": [
+      [
+        152.969242,
+        -27.49806
+      ],
+      [
+        152.969314,
+        -27.498179
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 11.7,
+    "min_elevation_m": 52.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

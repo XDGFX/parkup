@@ -1,0 +1,65 @@
+{
+  "candidate": "54625941-257260655-1290386489-r-22",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "No Stopping kerb beside the junction, with a house at the kerb.",
+  "reasons": [
+    "No Stopping Any Time sign nearby",
+    "Dwelling right at the kerb at 12 m",
+    "Junction with no room outside the lane"
+  ],
+  "drivers": {
+    "seclusion": "Houses at the kerb on this side (0 m at 12 m along) and more within 15 m.",
+    "access_and_room": "Kerb-side lane at a junction; no pull-off or verge wider than a van.",
+    "traffic": "Collector road beside a roundabout; moderate traffic.",
+    "convention": "Signed No Stopping Any Time; no clear parking convention."
+  },
+  "flags": [
+    "No Stopping Any Time sign nearby",
+    "Dwelling within 10 m of the section",
+    "Red-surfaced bay at the junction"
+  ],
+  "sun_shade": "Mostly open road; trees to the south-west give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 37,
+    "where": "south kerb of Harts Road towards the red bay, past the junction",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.98028,
+        -27.504188
+      ],
+      [
+        152.980431,
+        -27.504261
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 16.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

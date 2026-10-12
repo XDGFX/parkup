@@ -1,0 +1,63 @@
+{
+  "candidate": "48324504-48324649-7925100-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep kerb backing onto a vegetated bank; homes about 23-25 m away.",
+  "reasons": [
+    "Homes 23-25 m away at best",
+    "Cars park along this street",
+    "Steep: about 5% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dense vegetation behind the kerb; homes 23-25 m away here, 13-16 m near both ends.",
+    "access_and_room": "Narrow sealed street with cars parked along it; room to stop is tight.",
+    "traffic": "Quiet residential street.",
+    "convention": "Other cars park along the kerb; no signs listed."
+  },
+  "flags": [
+    "Steep: mean 6.3%, max 13.4%",
+    "Narrow street, little room off the lane"
+  ],
+  "sun_shade": "Trees along the west side shade the kerb in the afternoon; morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether a van leaves enough lane width"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 35,
+    "to_m": 55,
+    "where": "Gordon Terrace west kerb, mid-block below the first houses",
+    "slope_pct": 5,
+    "points": [
+      [
+        152.968,
+        -27.494858
+      ],
+      [
+        152.968028,
+        -27.495036
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 5,
+    "min_elevation_m": 41.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "60795202-1793220128-1304203952-r-20",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, backing onto a retaining wall and large building.",
+  "reasons": [
+    "Cars parked along this kerb",
+    "Mapped apartments 12 m behind",
+    "No Stopping sign near corner end"
+  ],
+  "drivers": {
+    "seclusion": "Behind the kerb is a retaining wall and a large roofed building mapped as apartments 12 m away; homes opposite.",
+    "access_and_room": "Parallel kerb with several cars already parked along it; room for a van.",
+    "traffic": "Close to a busy arterial; steady local traffic on the street.",
+    "convention": "4P parallel Mon-Sat; No Stopping at the corner end, so keep west of 10 m."
+  },
+  "flags": [
+    "Mapped apartments about 12 m away",
+    "No Stopping sign near the corner end",
+    "Arterial noise"
+  ],
+  "sun_shade": "Large tree shades the east end; building shades the kerb in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the large building is residential"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 28,
+    "where": "Grosvenor Road north kerb, west of the arterial junction, below the retaining wall",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.975503,
+        -27.501152
+      ],
+      [
+        152.975327,
+        -27.501125
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 26,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

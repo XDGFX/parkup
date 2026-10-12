@@ -1,0 +1,75 @@
+{
+  "candidate": "212765686-364012315-32334189-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat east kerb on a quiet street, with homes 11 to 18 m away.",
+  "reasons": [
+    "Homes 11-17 m away on this side",
+    "Cars park along the street",
+    "Flat at the crest"
+  ],
+  "drivers": {
+    "seclusion": "Suburban houses on both sides, nearest dwellings about 11 to 17 m back on the east side.",
+    "access_and_room": "Sealed street; cars park on the opposite side, so a van fits at the kerb.",
+    "traffic": "Quiet residential street, little through traffic.",
+    "convention": "No signs; a few cars park on the street, no sleeping convention."
+  },
+  "flags": [
+    "Homes within about 25 m all round",
+    "Steep overall: 5.8% mean, 17% max; about 0.5% at the best section"
+  ],
+  "sun_shade": "Mostly open; trees on the east side give some morning shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 150,
+    "to_m": 185,
+    "where": "east kerb at the crest, past the 150 m mark",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.95949,
+        -27.513901
+      ],
+      [
+        152.959509,
+        -27.513804
+      ],
+      [
+        152.959525,
+        -27.513725
+      ],
+      [
+        152.959545,
+        -27.513627
+      ],
+      [
+        152.959552,
+        -27.513591
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 19.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

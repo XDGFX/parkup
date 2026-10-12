@@ -1,0 +1,63 @@
+{
+  "candidate": "48324600-48324649-7925100-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Near-flat kerb where cars park, but homes within 15-25 m on both sides.",
+  "reasons": [
+    "Cars parked along this kerb",
+    "Homes about 14-25 m away both sides",
+    "Near-flat at 55-75 m"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the street on both sides, 14-25 m from the kerb; no bush or park behind.",
+    "access_and_room": "Sealed street with kerbside parking; cars park along it so room to stop is fine.",
+    "traffic": "Quiet local street; junction traffic nearby.",
+    "convention": "Several cars parked along both kerbs, so a van would not stand out."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Slope over 3% at 20-50 m; the best section is flat"
+  ],
+  "sun_shade": "Street trees and house shade on the west side; open to the afternoon sun from the west only above the fences.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 55,
+    "to_m": 75,
+    "where": "West kerb of Gordon Terrace, midway between the two side-street junctions",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.968152,
+        -27.495847
+      ],
+      [
+        152.968125,
+        -27.495669
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 38,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

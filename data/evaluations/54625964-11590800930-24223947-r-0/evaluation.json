@@ -1,0 +1,76 @@
+{
+  "candidate": "54625964-11590800930-24223947-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a Harts Road junction, homes about 10 m away.",
+  "reasons": [
+    "Detached home 10 m from kerb",
+    "Only 16 m, beside a junction",
+    "Steep: about 6% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings at 10, 13 and 17 m on the same side, with fronts onto the kerb.",
+    "access_and_room": "Kerb beside a junction; short stretch, little clear room beside the lane.",
+    "traffic": "Through road with junction turning traffic.",
+    "convention": "One car parked at the corner; no marked parking."
+  },
+  "flags": [
+    "Steep: about 6% grade, max 9%",
+    "Mapped gate 26 m away has a way round"
+  ],
+  "sun_shade": "Open to sun; house and trees to the east give some morning shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "east kerb of Harts Road at the side-street junction",
+    "slope_pct": 6.3,
+    "points": [
+      [
+        152.985444,
+        -27.50906
+      ],
+      [
+        152.985425,
+        -27.509037
+      ],
+      [
+        152.985389,
+        -27.508987
+      ],
+      [
+        152.985371,
+        -27.508961
+      ],
+      [
+        152.985356,
+        -27.508939
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 5.3,
+    "min_elevation_m": 24.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

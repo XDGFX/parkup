@@ -1,0 +1,68 @@
+{
+  "candidate": "60795202-1793220128-1304203952-r-83",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a grassed vacant lot, cars park here, flats 13 m away at east end.",
+  "reasons": [
+    "Beside open grass lot",
+    "Cars park along kerb",
+    "Dwellings over 10 m away"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto a grassed open lot with one house about 25 m back; Euro Apartments 13 m away only at the east end.",
+    "access_and_room": "Parallel kerb with cars already parked; room for a van before the corner.",
+    "traffic": "Busy town street near a junction; steady passing traffic.",
+    "convention": "1P, 4P and loading zone signs apply; cars park here by day."
+  },
+  "flags": [
+    "Signs are timed Mon-Sat",
+    "Junction close at the west end",
+    "Traffic noise"
+  ],
+  "sun_shade": "Open grass to the north; trees at the corner shade the west end in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the lot is fenced or private"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 35,
+    "where": "Grosvenor Road north kerb, opposite the car yard, beside the grass lot near the Henderson Street corner",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.974824,
+        -27.50105
+      ],
+      [
+        152.974634,
+        -27.501021
+      ],
+      [
+        152.974624,
+        -27.501019
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 26.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

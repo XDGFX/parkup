@@ -1,0 +1,78 @@
+{
+  "candidate": "54625964-54625972-24223947-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Through road with no parked cars and homes 9 to 20 m from the kerb.",
+  "reasons": [
+    "Marked through road, no kerbside parking",
+    "Homes 9-21 m back along the whole kerb",
+    "No verge or pull-off outside the lane"
+  ],
+  "drivers": {
+    "seclusion": "Houses and a fenced vacant block back this kerb; nearest dwelling 9 m at 141 m, then about 20 m from 197 m.",
+    "access_and_room": "Lane with a centre line; kerb is tight to the fence with no verge or pull-off.",
+    "traffic": "Collector road linking roundabouts, with moving traffic.",
+    "convention": "No signs and no cars parked along the kerb in the imagery."
+  },
+  "flags": [
+    "Main road with no parked cars",
+    "Steep at the start: 3.5% mean, 12.6% max over the full kerb; about 1.6% at the best section",
+    "Gate mapped 15 m from the start, with a way round"
+  ],
+  "sun_shade": "Open road; afternoon shade from the trees in the park on the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether stopping is allowed at night"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 155,
+    "to_m": 195,
+    "where": "north kerb opposite the park, between the 150 m and 200 m marks",
+    "slope_pct": 1.6,
+    "points": [
+      [
+        152.986671,
+        -27.509915
+      ],
+      [
+        152.98668,
+        -27.509917
+      ],
+      [
+        152.986742,
+        -27.509929
+      ],
+      [
+        152.986813,
+        -27.509941
+      ],
+      [
+        152.987071,
+        -27.509977
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 2.5,
+    "min_elevation_m": 18.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

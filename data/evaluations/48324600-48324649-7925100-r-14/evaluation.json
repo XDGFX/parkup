@@ -1,0 +1,69 @@
+{
+  "candidate": "48324600-48324649-7925100-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short east kerb with homes 9 and 11 m away on the same side.",
+  "reasons": [
+    "Dwellings 9 m and 11 m from kerb",
+    "Short 36 m stretch, sloping 5%",
+    "No cars parked on this side"
+  ],
+  "drivers": {
+    "seclusion": "Two houses within 11 m on the east side, with gardens right at the kerb; no bush or park behind.",
+    "access_and_room": "Sealed street; verge is narrow and planted, cars park on the opposite side.",
+    "traffic": "Quiet local street.",
+    "convention": "No camping sign; parked cars sit on the west kerb, not this one."
+  },
+  "flags": [
+    "Steep: about 5% mean over the stretch, 2% at the best section",
+    "Dwelling within 10 m of the section"
+  ],
+  "sun_shade": "Garden trees shade the east kerb from the morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "East kerb of Gordon Terrace just north of the corner house",
+    "slope_pct": 2.2,
+    "points": [
+      [
+        152.968286,
+        -27.496191
+      ],
+      [
+        152.968284,
+        -27.496178
+      ],
+      [
+        152.96827,
+        -27.496084
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 3.9,
+    "min_elevation_m": 40,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

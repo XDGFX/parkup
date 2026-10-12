@@ -1,0 +1,80 @@
+{
+  "candidate": "262285618-11590800930-1275943482-r-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wide kerb beside a hedged corner lot; homes behind, no parked cars here.",
+  "reasons": [
+    "Hedged lot frontage, homes close behind",
+    "No cars parked on this side",
+    "Gentle slope, wide road"
+  ],
+  "drivers": {
+    "seclusion": "Hedge and garden separate the kerb from two houses, which sit about 15-25 m back.",
+    "access_and_room": "Wide sealed road; space beside the lane looks adequate for a van.",
+    "traffic": "Residential road beside a junction; moderate traffic.",
+    "convention": "No parked cars on this side in either image; a van would stand out."
+  },
+  "flags": [
+    "Homes within about 25 m",
+    "Junction noise nearby",
+    "Mapped gate 55 m away has a way round"
+  ],
+  "sun_shade": "Mostly open; hedge on the west side, trees to the north-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 35,
+    "where": "West kerb of Harts Road beside the hedge of the corner house",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.985004,
+        -27.50859
+      ],
+      [
+        152.98507,
+        -27.508668
+      ],
+      [
+        152.985101,
+        -27.508708
+      ],
+      [
+        152.985132,
+        -27.508753
+      ],
+      [
+        152.985151,
+        -27.508783
+      ],
+      [
+        152.98517,
+        -27.508816
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 26.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

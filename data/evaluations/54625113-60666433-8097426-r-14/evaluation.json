@@ -1,0 +1,64 @@
+{
+  "candidate": "54625113-60666433-8097426-r-14",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Unsigned residential kerb with cars parked; homes about 16 m away.",
+  "reasons": [
+    "Homes 14-25 m away on this side",
+    "Cars park along this street",
+    "Gentle slope at lower end"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the kerb along the whole stretch, 14-25 m away; no bush or park frontage.",
+    "access_and_room": "Ordinary sealed street with parking at the kerb; room for a van beside the lane.",
+    "traffic": "Quiet residential road with a few passing cars.",
+    "convention": "Other cars park along both kerbs; no signs on this stretch."
+  },
+  "flags": [
+    "Steep for most of its length: mean 3.9%, max 8.6%",
+    "Home 8 m away at 147 m, so keep to the 125-145 m part"
+  ],
+  "sun_shade": "Mostly open kerb; trees on the south side give some shade from the south-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 125,
+    "to_m": 145,
+    "where": "Goldieslie Road south kerb, near the east end before the side street",
+    "slope_pct": 0.7,
+    "points": [
+      [
+        152.967515,
+        -27.502818
+      ],
+      [
+        152.967704,
+        -27.502883
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 33.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

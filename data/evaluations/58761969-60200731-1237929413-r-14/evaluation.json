@@ -1,0 +1,63 @@
+{
+  "candidate": "58761969-60200731-1237929413-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb beside a hedge, homes 20-25 m away all round.",
+  "reasons": [
+    "Homes about 20-25 m away all round",
+    "Hedge frontage, no parking convention",
+    "Gentle grade, about 1.6%"
+  ],
+  "drivers": {
+    "seclusion": "Hedge and fence on the kerb side; the nearest dwellings are 22-24 m away on both sides, 11 m only further east.",
+    "access_and_room": "Sealed street with no verge on this side; room beside the lane looks tight.",
+    "traffic": "Quiet residential street with little through traffic.",
+    "convention": "No parked vehicles seen on this kerb."
+  },
+  "flags": [
+    "Dwellings within 25 m all round",
+    "Hedge, no verge to pull onto"
+  ],
+  "sun_shade": "Hedge and trees shade from the south; open to the north sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 2,
+    "to_m": 16,
+    "where": "Greenlaw Street south kerb, east of the corner, beside the hedge",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        152.982353,
+        -27.498335
+      ],
+      [
+        152.982494,
+        -27.498352
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 0.5,
+    "min_elevation_m": 17.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

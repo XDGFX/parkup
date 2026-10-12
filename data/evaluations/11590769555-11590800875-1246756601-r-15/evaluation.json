@@ -1,0 +1,50 @@
+{
+  "candidate": "11590769555-11590800875-1246756601-r-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 0 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Main road kerb with no parking, houses at the boundary and steep.",
+  "reasons": [
+    "Main road, no cars parked",
+    "Houses at or within 10 m",
+    "No Stopping sign, steep grade"
+  ],
+  "drivers": {
+    "seclusion": "Houses directly behind the kerb along the whole stretch.",
+    "access_and_room": "Narrow verge with fences and hedge; no pull-off from the traffic lane.",
+    "traffic": "Through road beside netball courts; moderate traffic.",
+    "convention": "No parked cars on this side; a No Stopping Any Time sign is mapped."
+  },
+  "flags": [
+    "Steep: 6.5% mean, 14% max",
+    "No Stopping Any Time sign nearby",
+    "Dwelling at 0 m near 69-75 m"
+  ],
+  "sun_shade": "Mixed; trees on the north side of the road, houses to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 0,
+    "gated": false,
+    "slope_pct": 6.6,
+    "min_elevation_m": 18.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

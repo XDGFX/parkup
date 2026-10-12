@@ -1,0 +1,72 @@
+{
+  "candidate": "262285618-11590800930-1275943482-l-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wide Harts Road kerb under trees, but houses sit close behind it.",
+  "reasons": [
+    "Homes within about 25 m on this side",
+    "Wide lane, cars parked in 2022",
+    "Gentle slope, tree cover"
+  ],
+  "drivers": {
+    "seclusion": "Treed frontage on the east side, but homes lie about 10-25 m behind it.",
+    "access_and_room": "Wide sealed road with room beside the lane; kerb in front of a vegetated block.",
+    "traffic": "Collector-style residential road next to a junction; moderate traffic.",
+    "convention": "Two cars parked on this kerb in the QLD image; none in Esri."
+  },
+  "flags": [
+    "Dwellings 10-25 m on this side",
+    "Junction noise nearby",
+    "Mapped gate 41 m away has a way round"
+  ],
+  "sun_shade": "Tree canopy over the east side, afternoon shade; open to the morning sun on the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 25,
+    "where": "East kerb of Harts Road below the tennis court, before the corner",
+    "slope_pct": 1.8,
+    "points": [
+      [
+        152.985082,
+        -27.508533
+      ],
+      [
+        152.985153,
+        -27.508616
+      ],
+      [
+        152.985186,
+        -27.508659
+      ],
+      [
+        152.9852,
+        -27.508679
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 26,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

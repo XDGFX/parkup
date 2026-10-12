@@ -1,0 +1,50 @@
+{
+  "candidate": "11590769555-11590800875-1312558747-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short school loading-zone kerb with a house 5 m away and no room.",
+  "reasons": [
+    "Dwelling 5 m from kerb",
+    "School loading zone sign",
+    "Main road, nowhere to pull off"
+  ],
+  "drivers": {
+    "seclusion": "House 5 m from the kerb, next to a driveway.",
+    "access_and_room": "Narrow verge against fences and trees; no pull-off beyond the lane.",
+    "traffic": "Through road beside school courts; moderate traffic.",
+    "convention": "Signed passenger loading zone, 2 min max on schooldays."
+  },
+  "flags": [
+    "Dwelling 5 m away",
+    "Loading zone signed 8am-4pm schooldays",
+    "Steep: 6% mean, 11% max"
+  ],
+  "sun_shade": "Tree shade on the south side, house to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 6.1,
+    "min_elevation_m": 19.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

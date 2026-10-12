@@ -1,0 +1,63 @@
+{
+  "candidate": "60795202-1793220128-1304203952-l-48",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet-ish town street kerb, cars parked, homes 13 m behind.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Homes 13 m on own side",
+    "Loading zone signs nearby"
+  ],
+  "drivers": {
+    "seclusion": "Detached home 13 m and unit blocks behind; apartments opposite; homes all round.",
+    "access_and_room": "Parallel kerb with cars already parked in a lane; one van length fits.",
+    "traffic": "Town-centre street near Indooroopilly shops; moderate traffic.",
+    "convention": "Loading zone signs sit on the north side, 10 m off; parking use is normal on this side."
+  },
+  "flags": [
+    "Homes about 13 m away",
+    "Loading zone signs close by, check on site"
+  ],
+  "sun_shade": "Open kerb with garden trees to the south; afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Which kerb the loading zone applies to"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 17,
+    "where": "Grosvenor Road south kerb, in front of the unit blocks",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.975312,
+        -27.501196
+      ],
+      [
+        152.975143,
+        -27.501171
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 0.7,
+    "min_elevation_m": 26.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "257260662-11590800897-23749787-l-33",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow steep street with a house within 9-11 m along the whole kerb.",
+  "reasons": [
+    "Dwellings 9-11 m along whole kerb",
+    "Steep: about 9% mean grade",
+    "Narrow lane, little room off the lane"
+  ],
+  "drivers": {
+    "seclusion": "Large homes front the kerb; dwellings at 10-11 m even at the flattest end.",
+    "access_and_room": "Narrow sealed lane with a tree-lined verge; no pull-off seen.",
+    "traffic": "Quiet residential street beside a school.",
+    "convention": "Signs are 4P on school days only; no evidence of overnight stays."
+  },
+  "flags": [
+    "Steep: about 9% mean, 15% max",
+    "School drop-off street, busy on weekdays"
+  ],
+  "sun_shade": "Heavy tree shade over the kerb, mainly from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 80,
+    "to_m": 100,
+    "where": "Graham Street east kerb, near the bottom by the cross street",
+    "slope_pct": 4,
+    "points": [
+      [
+        152.982625,
+        -27.507162
+      ],
+      [
+        152.98259,
+        -27.507339
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 7.4,
+    "min_elevation_m": 23.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

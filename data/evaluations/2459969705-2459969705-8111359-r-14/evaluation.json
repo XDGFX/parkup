@@ -1,0 +1,48 @@
+{
+  "candidate": "2459969705-2459969705-8111359-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Painted hatched area at a corner by the shopping centre; nowhere to stop.",
+  "reasons": [
+    "Hatched no-stopping marking",
+    "10 m, no parked cars",
+    "Corner of busy street"
+  ],
+  "drivers": {
+    "seclusion": "Shopping centre wall beside it; no homes close, but fully exposed to the junction.",
+    "access_and_room": "The kerb is a short curved corner with hatching painted on it; no room to pull out of the lane.",
+    "traffic": "Busy corner by shopping centre service road and Grosvenor Road.",
+    "convention": "No signs mapped; no cars park here."
+  },
+  "flags": [
+    "Hatched markings on the kerb",
+    "Only 10 m long",
+    "Commercial traffic"
+  ],
+  "sun_shade": "Open; shopping centre wall shades the west side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 28.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

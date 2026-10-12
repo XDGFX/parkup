@@ -1,0 +1,64 @@
+{
+  "candidate": "48324613-48337210-7925100-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "East kerb beside a cleared lot, cars park here; homes 15-19 m off across the road.",
+  "reasons": [
+    "Cars park on this kerb",
+    "Homes 15-19 m across the road",
+    "Cleared lot beside; slope about 6%"
+  ],
+  "drivers": {
+    "seclusion": "Cleared lot and bush on the east side; homes 15-19 m away across the narrow road and 13 m away at 36 m along.",
+    "access_and_room": "Narrow sealed spur; cars park on the east edge and the verge beside the lot gives some room.",
+    "traffic": "Dead-end-style spur off Moggill Road; little traffic but a busy arterial at the far end.",
+    "convention": "Parked cars on the kerb; no camping seen."
+  },
+  "flags": [
+    "Steep: about 6% over the section, 16% max further up",
+    "Homes within 25 m all round",
+    "Arterial noise from Moggill Road at the lower end"
+  ],
+  "sun_shade": "Trees shade the north end; the cleared lot is open to the morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether the lot is a building site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 25,
+    "where": "East kerb of the short Gordon Terrace spur, beside the cleared lot just in from the bend",
+    "slope_pct": 5.8,
+    "points": [
+      [
+        152.969057,
+        -27.497603
+      ],
+      [
+        152.969153,
+        -27.497761
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 5.8,
+    "min_elevation_m": 48.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,63 @@
+{
+  "candidate": "48324613-48337210-7925100-r-30",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short narrow kerb with homes 7 m away on the same side.",
+  "reasons": [
+    "Dwelling 7 m from kerb",
+    "Homes close all round",
+    "Steep, about 5% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings at 7, 11 and 12 m along the section, with more within 30 m.",
+    "access_and_room": "Narrow sealed lane with a parked car opposite; little room to stand clear.",
+    "traffic": "Quiet residential street.",
+    "convention": "Residential parking only; no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 5% grade, max 6%"
+  ],
+  "sun_shade": "Mostly open, tree shade from the east side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "Gordon Terrace west kerb, outside the pool house",
+    "slope_pct": 4.6,
+    "points": [
+      [
+        152.96904,
+        -27.497728
+      ],
+      [
+        152.969136,
+        -27.497886
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 4.3,
+    "min_elevation_m": 49.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

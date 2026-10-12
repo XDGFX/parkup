@@ -1,0 +1,67 @@
+{
+  "candidate": "4920414508-4920414514-23240663-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet cul-de-sac kerb where cars park, homes 19-21 m away.",
+  "reasons": [
+    "Homes 19-21 m away in the middle",
+    "Other cars park on this road",
+    "Narrow lane, no marked parking"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings at 19-21 m across the road and on this side; no bush backing.",
+    "access_and_room": "Sealed lane with two cars parked on it; narrow verge, room to stand is tight.",
+    "traffic": "Dead-end residential street, only residents' traffic.",
+    "convention": "Cars park here; no signs and no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 6% mean, 9% max",
+    "Homes within about 25 m all round"
+  ],
+  "sun_shade": "Mixed; tree canopy over the lane from the east and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether a van fits clear of the lane"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 16,
+    "to_m": 32,
+    "where": "Greenhood Street west kerb, mid-slope before the lawn frontage",
+    "slope_pct": 5.5,
+    "points": [
+      [
+        152.960913,
+        -27.492367
+      ],
+      [
+        152.960907,
+        -27.492356
+      ],
+      [
+        152.960857,
+        -27.492232
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 5.4,
+    "min_elevation_m": 49.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

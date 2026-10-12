@@ -1,0 +1,68 @@
+{
+  "candidate": "257260662-11590800897-23749787-r-30",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Treed bottom end of a quiet street, homes about 18-25 m away.",
+  "reasons": [
+    "Homes 18-25 m away all round",
+    "Steep street, flatter at bottom end",
+    "Narrow lane, no marked parking"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings across the road at 18-19 m; west side backs onto trees and outbuildings 23 m off.",
+    "access_and_room": "Narrow lane; kerb-side verge is tree-lined, so room to stand clear is tight.",
+    "traffic": "Quiet residential street beside a school.",
+    "convention": "Signs are 4P on school days only; no sign of overnight stays."
+  },
+  "flags": [
+    "Steep above the best section: about 10% mean, 19% max",
+    "School drop-off street on weekdays",
+    "Mapped houses may be new builds replacing the vacant lot on the west side"
+  ],
+  "sun_shade": "Dense tree canopy over the section, mainly from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether a van fits clear of the lane"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 100,
+    "to_m": 125,
+    "where": "Graham Street west kerb, bottom end under trees before the cross street",
+    "slope_pct": 4,
+    "points": [
+      [
+        152.982525,
+        -27.507223
+      ],
+      [
+        152.982508,
+        -27.507335
+      ],
+      [
+        152.982486,
+        -27.507445
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 4.3,
+    "min_elevation_m": 23.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

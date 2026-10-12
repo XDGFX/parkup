@@ -1,0 +1,63 @@
+{
+  "candidate": "60795202-1793220128-1304203952-l-105",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside a car park and flats; cars park here.",
+  "reasons": [
+    "Cars park along kerb",
+    "Apartments 13 m on own side",
+    "Only 9 m long"
+  ],
+  "drivers": {
+    "seclusion": "Apartment block 13 m behind the kerb; flats and homes all round.",
+    "access_and_room": "Parallel kerb with parked cars; the 9 m stretch is shorter than a long van.",
+    "traffic": "Town-centre street near a junction; steady traffic.",
+    "convention": "1P and 4P parallel Mon-Sat, plus loading zone signs nearby."
+  },
+  "flags": [
+    "Apartments about 13 m away",
+    "Stretch only 9 m",
+    "Loading zone signs close by"
+  ],
+  "sun_shade": "Open kerb with a small tree behind; afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 9,
+    "where": "Grosvenor Road south kerb, beside the unit block and car park",
+    "slope_pct": 2.9,
+    "points": [
+      [
+        152.974741,
+        -27.50111
+      ],
+      [
+        152.974652,
+        -27.501096
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 2.9,
+    "min_elevation_m": 27.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

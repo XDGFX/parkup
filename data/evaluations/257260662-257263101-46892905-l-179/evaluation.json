@@ -1,0 +1,63 @@
+{
+  "candidate": "257260662-257263101-46892905-l-179",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bus and school loading zone kerb with a house 10 m behind.",
+  "reasons": [
+    "Bus Zone and school loading signs",
+    "Dwelling 10 m from kerb",
+    "Narrow kerb beside a junction"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes and a pool house front this kerb at 10 to 20 m.",
+    "access_and_room": "Kerb lane with no shoulder; marked bus and loading zone, junction at the south end.",
+    "traffic": "Through road with a junction and school-run traffic.",
+    "convention": "Bus Zone and Loading Zone signs; no parking convention."
+  },
+  "flags": [
+    "Bus Zone sign on kerb",
+    "Loading Zone Passengers 2 min max, 7-9am and school days 2-4pm",
+    "Painted pavement markings at the north end"
+  ],
+  "sun_shade": "Heavy tree cover shades the kerb, mainly from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "east kerb of Harts Road below the school-zone pavement markings",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        152.984017,
+        -27.507386
+      ],
+      [
+        152.984108,
+        -27.507483
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 19.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

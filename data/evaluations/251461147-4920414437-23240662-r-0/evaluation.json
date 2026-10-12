@@ -1,0 +1,68 @@
+{
+  "candidate": "251461147-4920414437-23240662-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Cul-de-sac kerb with parked cars, but homes 17-22 m away on this side.",
+  "reasons": [
+    "Cars park along this cul-de-sac",
+    "Homes 17-22 m away on own side",
+    "Dead end, little through traffic"
+  ],
+  "drivers": {
+    "seclusion": "Houses on both sides; nearest on this section are 17 and 19 m away, with 11 m further along.",
+    "access_and_room": "Sealed cul-de-sac with a wide turning head; room for a van beside the kerb.",
+    "traffic": "Dead-end street, so very little through traffic.",
+    "convention": "Three cars parked along this kerb, so a van would not stand out."
+  },
+  "flags": [
+    "Dwellings within 25 m all round",
+    "Steep: about 4% mean grade, 9.8% max further along",
+    "Witton Creek 4 m away, ground about 35-37 m so low flood risk"
+  ],
+  "sun_shade": "Open at the turning head, trees shade from the east and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "Greenrigg Court east kerb around the turning head",
+    "slope_pct": 2.4,
+    "points": [
+      [
+        152.962257,
+        -27.494976
+      ],
+      [
+        152.962084,
+        -27.494892
+      ],
+      [
+        152.96208,
+        -27.494889
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 36.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

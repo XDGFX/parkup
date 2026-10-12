@@ -1,0 +1,63 @@
+{
+  "candidate": "262285408-262285618-24223930-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow tree-covered lane with homes both sides and nowhere to pull off.",
+  "reasons": [
+    "Narrow lane, no room off the carriageway",
+    "Homes both sides, one 6 m away",
+    "No cars parked along it"
+  ],
+  "drivers": {
+    "seclusion": "Homes with pools on both sides; the nearest is 6 m at the start, and the south end is still ringed by homes within about 25 m.",
+    "access_and_room": "Narrow carriageway with fences and trees at the edge; no verge or pull-off wide enough for a van.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "No parked cars seen, no parking convention."
+  },
+  "flags": [
+    "Steep: about 6% grade, max 9%",
+    "Dwelling 6 m from the start of the kerb"
+  ],
+  "sun_shade": "Dense tree canopy covers most of the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall",
+    "exact carriageway width under canopy"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 35,
+    "to_m": 55,
+    "where": "east kerb of the lane, south end under heavy tree canopy",
+    "slope_pct": 6.5,
+    "points": [
+      [
+        152.98478,
+        -27.508135
+      ],
+      [
+        152.984903,
+        -27.508275
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 5.2,
+    "min_elevation_m": 22.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

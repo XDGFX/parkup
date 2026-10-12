@@ -1,0 +1,64 @@
+{
+  "candidate": "2371630189-12097985489-130110190-l-22",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep, narrow street with a No Stopping sign and homes beside the kerb.",
+  "reasons": [
+    "No Stopping Any Time sign on this kerb",
+    "Narrow lane, no room to pull off",
+    "House 5 m away at the south end"
+  ],
+  "drivers": {
+    "seclusion": "North end backs onto construction sites and bush, but houses sit 25 m away and a dwelling 5 m at the south end.",
+    "access_and_room": "Narrow sealed lane with a thin verge; no clear room to pull fully off on the west side.",
+    "traffic": "Quiet local street, a few cars parked on the east side.",
+    "convention": "Signed No Stopping Any Time; a few cars park on the east side only."
+  },
+  "flags": [
+    "No Stopping Any Time sign on this kerb",
+    "Steep overall: 7.6% mean, 18.8% max; about 2.4% over the best section",
+    "Gate mapped 4 m from the north end, with a way round"
+  ],
+  "sun_shade": "Mostly open on the west side with bush canopy to the east shading the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact sign coverage along the north end"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 65,
+    "to_m": 99,
+    "where": "north end of Handel Street, west side, beside the building site and bush",
+    "slope_pct": 2.4,
+    "points": [
+      [
+        152.994543,
+        -27.507979
+      ],
+      [
+        152.994607,
+        -27.507679
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 25,
+    "gated": false,
+    "slope_pct": 3.6,
+    "min_elevation_m": 19.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

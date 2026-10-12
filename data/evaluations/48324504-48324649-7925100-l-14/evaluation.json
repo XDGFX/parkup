@@ -1,0 +1,64 @@
+{
+  "candidate": "48324504-48324649-7925100-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Very short, very steep kerb with a house 8 m away.",
+  "reasons": [
+    "Dwelling 8 m from kerb",
+    "Mean 9.5% grade, max 17.2%",
+    "Only 36 m long"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the kerb at 8-21 m on this side; the corner house is the closest.",
+    "access_and_room": "Narrow sloping street, cars parked along it; no clear room off the lane.",
+    "traffic": "Quiet residential street off a through road.",
+    "convention": "Cars park along the kerb; no signs listed."
+  },
+  "flags": [
+    "Steep: mean 9.5%, max 17.2%",
+    "Dwelling within 10 m at 19 m"
+  ],
+  "sun_shade": "Trees on the east side shade the kerb in the afternoon; open to the morning sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "Gordon Terrace east kerb just below the corner with the cross street",
+    "slope_pct": 9.5,
+    "points": [
+      [
+        152.968031,
+        -27.494536
+      ],
+      [
+        152.968051,
+        -27.494661
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 12.4,
+    "min_elevation_m": 44.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

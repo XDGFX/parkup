@@ -1,0 +1,63 @@
+{
+  "candidate": "58736510-60200731-1237929413-l-10",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short residential kerb at a bend with a house 8 m away.",
+  "reasons": [
+    "Dwelling 8 m from kerb",
+    "Only 17 m, tight junction bend",
+    "Homes all round"
+  ],
+  "drivers": {
+    "seclusion": "Houses with pools on all sides; the nearest dwelling is 8 m from the kerb at 9 m.",
+    "access_and_room": "Narrow lane at a bend; little room to pull out of the lane.",
+    "traffic": "Quiet residential street.",
+    "convention": "No sign of other vehicles parked here."
+  },
+  "flags": [
+    "Steep: about 6.7% mean grade, 8.2% max"
+  ],
+  "sun_shade": "Mixed tree shade, mostly from the south and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 17,
+    "where": "Greenlaw Street south kerb at the bend, beside the house",
+    "slope_pct": 6.7,
+    "points": [
+      [
+        152.983004,
+        -27.498422
+      ],
+      [
+        152.982837,
+        -27.498396
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 6.7,
+    "min_elevation_m": 18.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

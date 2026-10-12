@@ -1,0 +1,50 @@
+{
+  "candidate": "11590769555-11590800875-1246756601-r-90",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short, very steep corner kerb with a house 5 m away and No Stopping.",
+  "reasons": [
+    "Dwelling 5 m from kerb",
+    "Slope 14.5%, over the limit",
+    "No Stopping Any Time sign"
+  ],
+  "drivers": {
+    "seclusion": "House 5 m from the start and another 12 m away; open to view.",
+    "access_and_room": "Line cuts across the junction mouth; no clear room beside the lane.",
+    "traffic": "Busy junction of Harts Road; cars park on the side street only.",
+    "convention": "No Stopping Any Time sign on the stretch."
+  },
+  "flags": [
+    "Steep: 14.5% mean, 20% max",
+    "No Stopping Any Time sign",
+    "Dwelling 5 m away"
+  ],
+  "sun_shade": "Mostly open; trees to the north-east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 14.5,
+    "min_elevation_m": 23.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,62 @@
+{
+  "candidate": "54625983-257281326-1274758634-l-10",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat south kerb with cars parked, homes 11 to 25 m away.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Dwellings 11 to 25 m away",
+    "Flat, about 1% grade"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings are 25 m and 11 m (from 33 m along); the section sits before the modern house frontage. Bush lot further west.",
+    "access_and_room": "Wide kerbside lane where cars sit at the kerb; room to stop clear of traffic.",
+    "traffic": "Through road, moderate traffic, junction at start.",
+    "convention": "Cars are parked at this kerb in both images."
+  },
+  "flags": [
+    "Dwelling 11 m away beyond 33 m along",
+    "Side-street junction at the start"
+  ],
+  "sun_shade": "Mostly open; tree at the junction shades the east end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 28,
+    "where": "south kerb of Harts Road just west of the side-street junction",
+    "slope_pct": 0.6,
+    "points": [
+      [
+        152.990486,
+        -27.510762
+      ],
+      [
+        152.990289,
+        -27.510803
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 0.9,
+    "min_elevation_m": 27.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

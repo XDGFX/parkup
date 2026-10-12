@@ -1,0 +1,67 @@
+{
+  "candidate": "262285408-262285618-24223930-r-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet shaded residential kerb on Harts Road, but homes 15-20 m away.",
+  "reasons": [
+    "Homes 15-20 m both sides",
+    "Quiet street, no parked cars seen",
+    "Steep, narrow shaded lane"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 15-20 m away on both sides; canopy screens some views.",
+    "access_and_room": "Narrow sealed lane with grass and tree verge; room to pull off is tight.",
+    "traffic": "Quiet dead-end style residential street, little through traffic.",
+    "convention": "No parked cars visible, so a van would stand out."
+  },
+  "flags": [
+    "Steep: about 4% at best section, 8.6% max",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Heavy tree canopy over the section, shade most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Parking signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 35,
+    "where": "Harts Road west kerb, just past the corner, under big trees",
+    "slope_pct": 4.2,
+    "points": [
+      [
+        152.984514,
+        -27.507983
+      ],
+      [
+        152.984545,
+        -27.508014
+      ],
+      [
+        152.984703,
+        -27.508194
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 4.2,
+    "min_elevation_m": 22.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,104 @@
+{
+  "candidate": "60795202-1793220128-1304203952-l-121",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a junction mouth, backing onto a commercial yard.",
+  "reasons": [
+    "Backs onto yard, homes 23 m",
+    "Right at the Henderson St corner",
+    "Cars park just west of it"
+  ],
+  "drivers": {
+    "seclusion": "South side is a commercial yard and car park; nearest apartments 23 m away.",
+    "access_and_room": "Kerb curves around the junction; a van would sit close to the corner, tight to the turning lane.",
+    "traffic": "Busy junction with through traffic on both streets.",
+    "convention": "4P parallel Mon-Sat signs; cars park along the kerb just to the west."
+  },
+  "flags": [
+    "At a junction, may block turns",
+    "4P Mon-Sat signs apply",
+    "Traffic noise"
+  ],
+  "sun_shade": "Open; palms and small trees on the south side give partial afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the corner is legal to stop on"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "Grosvenor Road south kerb at the Henderson Street corner",
+    "slope_pct": 2.9,
+    "points": [
+      [
+        152.974577,
+        -27.501084
+      ],
+      [
+        152.974571,
+        -27.501083
+      ],
+      [
+        152.974554,
+        -27.501077
+      ],
+      [
+        152.97454,
+        -27.501071
+      ],
+      [
+        152.974523,
+        -27.501063
+      ],
+      [
+        152.974508,
+        -27.501053
+      ],
+      [
+        152.974496,
+        -27.501044
+      ],
+      [
+        152.974485,
+        -27.501033
+      ],
+      [
+        152.974476,
+        -27.501023
+      ],
+      [
+        152.974467,
+        -27.501012
+      ],
+      [
+        152.974461,
+        -27.501003
+      ],
+      [
+        152.974456,
+        -27.500995
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 27.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

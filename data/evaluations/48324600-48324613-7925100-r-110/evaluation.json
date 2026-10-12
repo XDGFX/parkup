@@ -1,0 +1,63 @@
+{
+  "candidate": "48324600-48324613-7925100-r-110",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short corner kerb with grass verge; homes 12-17 m away and a 8% slope.",
+  "reasons": [
+    "Homes 12-17 m away, own side and opposite",
+    "Sloping kerb on quiet residential street",
+    "Wide grass verge beside the lane"
+  ],
+  "drivers": {
+    "seclusion": "Corner house 12 m away on the same side; trees to the south; homes opposite 17 m.",
+    "access_and_room": "Sealed street with a grass verge beside the lane; room to pull off.",
+    "traffic": "Quiet local street at a bend; little through traffic.",
+    "convention": "No parked cars or camping seen; plain residential kerb."
+  },
+  "flags": [
+    "Steep: about 8% grade, up to 12%",
+    "Homes within 25 m all round"
+  ],
+  "sun_shade": "Trees south of the section shade it at midday; open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "West kerb at the Gordon Terrace corner, beside the grass verge of the corner house",
+    "slope_pct": 7.8,
+    "points": [
+      [
+        152.968708,
+        -27.497236
+      ],
+      [
+        152.96879,
+        -27.497399
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 7.8,
+    "min_elevation_m": 47.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T10:48:21Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
