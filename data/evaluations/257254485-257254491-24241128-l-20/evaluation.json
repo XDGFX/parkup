@@ -1,0 +1,64 @@
+{
+  "candidate": "257254485-257254491-24241128-l-20",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb at the north end, homes about 17 m away.",
+  "reasons": [
+    "Quiet street, a few cars parked",
+    "Homes 17-25 m from this end",
+    "No parking convention for vans"
+  ],
+  "drivers": {
+    "seclusion": "Houses line both sides; nearest dwelling about 17 m at this end, closer to the south.",
+    "access_and_room": "Sealed street with a few parked cars; room beside the lane looks adequate.",
+    "traffic": "Quiet cul-de-sac style street with local traffic only.",
+    "convention": "Some cars parked along the street but no sign of vans or caravans."
+  },
+  "flags": [
+    "Slope about 3% here, 5.3% mean over whole stretch",
+    "Low-lying: 8 m elevation, Sandy Creek 59 m away",
+    "Homes within 10 m for most of the stretch"
+  ],
+  "sun_shade": "Mostly open, with garden trees from the west side giving some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Local resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 105,
+    "to_m": 127,
+    "where": "Nawarra Street west kerb, north end near the T-junction",
+    "slope_pct": 3.1,
+    "points": [
+      [
+        152.987768,
+        -27.503416
+      ],
+      [
+        152.987803,
+        -27.503221
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 2.8,
+    "min_elevation_m": 8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

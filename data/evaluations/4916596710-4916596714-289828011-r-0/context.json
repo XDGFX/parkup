@@ -1,0 +1,241 @@
+{
+  "id": "4916596710-4916596714-289828011-r-0",
+  "street": "Moggill Road",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.96197,
+      -27.504058
+    ],
+    [
+      152.961798,
+      -27.504227
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "west",
+  "length_m": 25,
+  "signs": [
+    {
+      "street": "MOGGILL ROAD",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 10.8
+    }
+  ],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 37,
+      "at_m": 0,
+      "outline": [
+        [
+          152.962302,
+          -27.5042203
+        ],
+        [
+          152.9624135,
+          -27.504111
+        ],
+        [
+          152.9624854,
+          -27.5041687
+        ],
+        [
+          152.9624996,
+          -27.5041547
+        ],
+        [
+          152.9625549,
+          -27.504199
+        ],
+        [
+          152.9624862,
+          -27.5042663
+        ],
+        [
+          152.9624413,
+          -27.5042303
+        ],
+        [
+          152.9623842,
+          -27.5042863
+        ],
+        [
+          152.962302,
+          -27.5042203
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": "John Carew Swim School",
+      "dwelling": false,
+      "metres": 57,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9624278,
+          -27.5044465
+        ],
+        [
+          152.9624466,
+          -27.5045061
+        ],
+        [
+          152.9625929,
+          -27.5044697
+        ],
+        [
+          152.9625989,
+          -27.5044887
+        ],
+        [
+          152.962775,
+          -27.504445
+        ],
+        [
+          152.9627548,
+          -27.504381
+        ],
+        [
+          152.9627791,
+          -27.504375
+        ],
+        [
+          152.9627478,
+          -27.504276
+        ],
+        [
+          152.9625305,
+          -27.50433
+        ],
+        [
+          152.9625243,
+          -27.5043103
+        ],
+        [
+          152.9624627,
+          -27.5043256
+        ],
+        [
+          152.9624956,
+          -27.5044297
+        ],
+        [
+          152.9624278,
+          -27.5044465
+        ]
+      ]
+    }
+  ],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.96197,
+        "lat": -27.504058,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 9.61
+      },
+      {
+        "lon": 152.961936,
+        "lat": -27.504091,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 9.7
+      },
+      {
+        "lon": 152.961902,
+        "lat": -27.504125,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 9.8
+      },
+      {
+        "lon": 152.961868,
+        "lat": -27.504158,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 10
+      },
+      {
+        "lon": 152.961834,
+        "lat": -27.504192,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 10.15
+      },
+      {
+        "lon": 152.9618,
+        "lat": -27.504225,
+        "at_m": 25,
+        "line": 0,
+        "elevation_m": 10.34
+      },
+      {
+        "lon": 152.961798,
+        "lat": -27.504227,
+        "at_m": 25.3,
+        "line": 0,
+        "elevation_m": 10.34
+      }
+    ],
+    "min_elevation_m": 9.6,
+    "max_elevation_m": 10.3,
+    "mean_grade_pct": 2.4,
+    "max_grade_pct": 4
+  },
+  "waterway": {
+    "name": "Witton Creek",
+    "metres": 53
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 44,
+      "access": null,
+      "fee": null,
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 25,
+      "length_m": 25,
+      "images": {
+        "esri": ".cache/imagery/4916596710-4916596714-289828011-r-0/chunk1-esri.jpg",
+        "qld": ".cache/imagery/4916596710-4916596714-289828011-r-0/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        77,
+        79
+      ],
+      "image_px": [
+        513,
+        525
+      ]
+    }
+  ]
+}

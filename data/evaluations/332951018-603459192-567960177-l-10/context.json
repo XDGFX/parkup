@@ -1,0 +1,353 @@
+{
+  "id": "332951018-603459192-567960177-l-10",
+  "street": "Moggill Road",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.977224,
+      -27.493784
+    ],
+    [
+      152.977144,
+      -27.493878
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "east",
+  "length_m": 13,
+  "signs": [
+    {
+      "street": "MOGGILL ROAD",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 10.6
+    },
+    {
+      "street": "MOGGILL ROAD",
+      "restriction": "Clearway C",
+      "days_times": "MON-FRI:7am-7pm",
+      "extra_text": null,
+      "arrow": "Not applicable",
+      "metres_from_kerb_line": 7.1
+    },
+    {
+      "street": "MOGGILL ROAD",
+      "restriction": "2P Parallel",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 10.8
+    }
+  ],
+  "buildings": [
+    {
+      "building": "retail",
+      "name": "Tradelink",
+      "dwelling": false,
+      "metres": 15,
+      "at_m": 8,
+      "outline": [
+        [
+          152.9772991,
+          -27.4939188
+        ],
+        [
+          152.9775539,
+          -27.4940953
+        ],
+        [
+          152.9774336,
+          -27.4942319
+        ],
+        [
+          152.9773186,
+          -27.4941523
+        ],
+        [
+          152.9773823,
+          -27.4940799
+        ],
+        [
+          152.9772424,
+          -27.4939831
+        ],
+        [
+          152.9772991,
+          -27.4939188
+        ]
+      ]
+    },
+    {
+      "building": "commercial",
+      "name": "1 Swann Road",
+      "dwelling": false,
+      "metres": 16,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9773784,
+          -27.49384
+        ],
+        [
+          152.9776435,
+          -27.4935207
+        ],
+        [
+          152.9778136,
+          -27.4938689
+        ],
+        [
+          152.9776733,
+          -27.4940339
+        ],
+        [
+          152.9775824,
+          -27.4939729
+        ],
+        [
+          152.9773784,
+          -27.49384
+        ]
+      ]
+    },
+    {
+      "building": "commercial",
+      "name": "Ultra Tune",
+      "dwelling": false,
+      "metres": 16,
+      "at_m": 6,
+      "outline": [
+        [
+          152.9775824,
+          -27.4939729
+        ],
+        [
+          152.9775193,
+          -27.4940478
+        ],
+        [
+          152.9773172,
+          -27.4939138
+        ],
+        [
+          152.9773784,
+          -27.49384
+        ],
+        [
+          152.9775824,
+          -27.4939729
+        ]
+      ]
+    },
+    {
+      "building": "retail",
+      "name": "Ride Indooroopilly",
+      "dwelling": false,
+      "metres": 19,
+      "at_m": 13,
+      "outline": [
+        [
+          152.9770756,
+          -27.494131
+        ],
+        [
+          152.9771268,
+          -27.4941667
+        ],
+        [
+          152.9770902,
+          -27.4942153
+        ],
+        [
+          152.9771165,
+          -27.4942326
+        ],
+        [
+          152.9772204,
+          -27.4942999
+        ],
+        [
+          152.9772009,
+          -27.4943236
+        ],
+        [
+          152.9772781,
+          -27.4943736
+        ],
+        [
+          152.9774336,
+          -27.4942319
+        ],
+        [
+          152.9773186,
+          -27.4941523
+        ],
+        [
+          152.9771487,
+          -27.4940471
+        ],
+        [
+          152.9770756,
+          -27.494131
+        ]
+      ]
+    },
+    {
+      "building": "retail",
+      "name": "Anytime Fitness",
+      "dwelling": false,
+      "metres": 40,
+      "at_m": 13,
+      "outline": [
+        [
+          152.9770319,
+          -27.4943354
+        ],
+        [
+          152.9771165,
+          -27.4942326
+        ],
+        [
+          152.9772204,
+          -27.4942999
+        ],
+        [
+          152.9772009,
+          -27.4943236
+        ],
+        [
+          152.9772781,
+          -27.4943736
+        ],
+        [
+          152.977213,
+          -27.4944527
+        ],
+        [
+          152.9770319,
+          -27.4943354
+        ]
+      ]
+    },
+    {
+      "building": "retail",
+      "name": "99 Bikes",
+      "dwelling": false,
+      "metres": 52,
+      "at_m": 13,
+      "outline": [
+        [
+          152.977213,
+          -27.4944527
+        ],
+        [
+          152.9771428,
+          -27.494538
+        ],
+        [
+          152.9771258,
+          -27.494527
+        ],
+        [
+          152.9770022,
+          -27.4944469
+        ],
+        [
+          152.9769617,
+          -27.4944207
+        ],
+        [
+          152.9770319,
+          -27.4943354
+        ],
+        [
+          152.977213,
+          -27.4944527
+        ]
+      ]
+    }
+  ],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.977224,
+        "lat": -27.493784,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 37.38
+      },
+      {
+        "lon": 152.977193,
+        "lat": -27.49382,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 37
+      },
+      {
+        "lon": 152.977163,
+        "lat": -27.493856,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 36.55
+      },
+      {
+        "lon": 152.977144,
+        "lat": -27.493878,
+        "at_m": 13.1,
+        "line": 0,
+        "elevation_m": 36.36
+      }
+    ],
+    "min_elevation_m": 36.4,
+    "max_elevation_m": 37.4,
+    "mean_grade_pct": 7.6,
+    "max_grade_pct": 9
+  },
+  "waterway": null,
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 85,
+      "access": "customers",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 13,
+      "length_m": 13,
+      "images": {
+        "esri": ".cache/imagery/332951018-603459192-567960177-l-10/chunk1-esri.jpg",
+        "qld": ".cache/imagery/332951018-603459192-567960177-l-10/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        68,
+        70
+      ],
+      "image_px": [
+        453,
+        470
+      ]
+    }
+  ]
+}

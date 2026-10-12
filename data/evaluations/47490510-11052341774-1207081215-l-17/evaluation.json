@@ -1,0 +1,47 @@
+{
+  "candidate": "47490510-11052341774-1207081215-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Moggill Road median-side lane with no stopping and clearway; nowhere to pull off.",
+  "reasons": [
+    "Multi-lane arterial, no parked cars",
+    "Clearway tow-away and no stopping signs",
+    "Line sits on a median, not a kerb"
+  ],
+  "drivers": {
+    "seclusion": "Homes 23-45 m across the road; retail and car park to the east.",
+    "access_and_room": "Line runs along a painted median between carriageways; no room to stop out of traffic.",
+    "traffic": "Heavy arterial traffic in both directions.",
+    "convention": "No parked cars; No Stopping Any Time and Mon-Sat clearway with tow away."
+  },
+  "flags": [
+    "Clearway Mon-Sat 7am-7pm, tow away",
+    "No Stopping Any Time sign",
+    "Steep: about 5% mean, 10% max"
+  ],
+  "sun_shade": "Open, no shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking rules outside signed hours"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 27.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

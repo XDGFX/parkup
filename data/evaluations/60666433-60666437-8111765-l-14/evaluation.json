@@ -1,0 +1,65 @@
+{
+  "candidate": "60666433-60666437-8111765-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, steep kerb with homes 12-18 m away on its own side.",
+  "reasons": [
+    "Houses 12-18 m away on same side",
+    "Steep: about 9% down to the north",
+    "Bush opposite; cars park there"
+  ],
+  "drivers": {
+    "seclusion": "Homes 18 m (at 3 m), 16 m and 12 m (at 26 m) on the west side; bush across the road on the east.",
+    "access_and_room": "Public street; a few cars park on the east side, west kerb lane is clear and wide enough for a van.",
+    "traffic": "Quiet residential street near a corner; low traffic.",
+    "convention": "2P Mon-Fri 9am-5pm signs; no overnight limit on the signs, and cars park nearby."
+  },
+  "flags": [
+    "Steep: about 8.8% grade (max 11%)",
+    "Homes within 25 m on the section's own side",
+    "2P Parallel Mon-Fri 9am-5pm signs",
+    "Witton Creek 145 m away; ground 26-29 m above sea level"
+  ],
+  "sun_shade": "Open to the sky; bush across the road shades the east side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 26,
+    "where": "Rankin Street west kerb, just north of the corner",
+    "slope_pct": 8.8,
+    "points": [
+      [
+        152.969436,
+        -27.503222
+      ],
+      [
+        152.969508,
+        -27.502998
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 8.8,
+    "min_elevation_m": 26.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

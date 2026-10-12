@@ -1,0 +1,49 @@
+{
+  "candidate": "156872389-6657426888-1324601974-r-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb on busy Moggill Road with houses close behind; one car parked.",
+  "reasons": [
+    "Arterial; only one car parked",
+    "Houses within about 15 m",
+    "Steep, narrow kerbside"
+  ],
+  "drivers": {
+    "seclusion": "Houses sit just behind the kerb behind small gardens; exposed to them and the road.",
+    "access_and_room": "Kerb is on the live lane; one car at the kerb, no clear bay.",
+    "traffic": "Multi-lane arterial with constant traffic.",
+    "convention": "No signs; a single car at the kerb is not a parking convention."
+  },
+  "flags": [
+    "Steep: about 8% mean grade, 9% max",
+    "Arterial road noise",
+    "Mapped buildings within 6-8 m are non-dwellings; houses visible about 15 m back"
+  ],
+  "sun_shade": "Trees shade the north side; road open to sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Unsigned clearway status"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 53,
+    "gated": false,
+    "slope_pct": 8.1,
+    "min_elevation_m": 44.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

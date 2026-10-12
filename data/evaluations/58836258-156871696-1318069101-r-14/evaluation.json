@@ -1,0 +1,46 @@
+{
+  "candidate": "58836258-156871696-1318069101-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Arterial kerb with no parked cars and buildings right beside it.",
+  "reasons": [
+    "Arterial kerb, no parked cars",
+    "Shop 1 m from kerb",
+    "Houses 14-24 m away"
+  ],
+  "drivers": {
+    "seclusion": "Unialts shop 1 m away at 40 m; detached homes 14 m and 24 m at the east end.",
+    "access_and_room": "Kerb abuts the live traffic lane; no shoulder or lay-by.",
+    "traffic": "Busy multi-lane arterial.",
+    "convention": "No parked cars along this kerb; no signs mapped."
+  },
+  "flags": [
+    "Slope about 1.4% mean, 5.2% max",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open at the kerb; trees shade the area behind from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking rules on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 52.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

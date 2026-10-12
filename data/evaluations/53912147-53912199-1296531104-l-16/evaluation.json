@@ -1,0 +1,75 @@
+{
+  "candidate": "53912147-53912199-1296531104-l-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 2 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside the station with houses 1-4 m away and time-limited signs.",
+  "reasons": [
+    "Houses 1-4 m from kerb throughout",
+    "2P and No Stopping signs apply",
+    "Beside Indooroopilly station, busy"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 1 m (at 28 m) and 4 m (at 47 m), apartments 4 m (at 59 m) line the east side; no stretch is clear of dwellings.",
+    "access_and_room": "Public lane with cars parked along the kerb; fits a van, little spare room.",
+    "traffic": "Beside the station and its park and ride; foot and car traffic plus rail noise.",
+    "convention": "Cars park here but 2P Mon-Fri 8am-5:30pm signs and a No Stopping Any Time sign apply."
+  },
+  "flags": [
+    "2P Parallel Mon-Fri 8am-5:30pm signs",
+    "No Stopping Any Time sign near the start",
+    "Rail and station noise",
+    "Dwellings within 10 m"
+  ],
+  "sun_shade": "Trees shade part of the east side; houses block morning sun at the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Overnight enforcement"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 55,
+    "where": "Railway Avenue, midway along, opposite the station car park",
+    "slope_pct": 2.6,
+    "points": [
+      [
+        152.976458,
+        -27.502382
+      ],
+      [
+        152.976456,
+        -27.502387
+      ],
+      [
+        152.976378,
+        -27.502553
+      ],
+      [
+        152.976362,
+        -27.502589
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 2,
+    "gated": false,
+    "slope_pct": 5.6,
+    "min_elevation_m": 19.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

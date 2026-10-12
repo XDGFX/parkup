@@ -1,0 +1,67 @@
+{
+  "candidate": "9482750707-13593300350-1207081214-r-80",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Ten metres of median edge on a busy arterial; nowhere to stop.",
+  "reasons": [
+    "Median kerb between carriageways",
+    "No parking, van length only",
+    "Dwelling 24 m away"
+  ],
+  "drivers": {
+    "seclusion": "Homes 24 m north; a van would sit in open view of fast traffic.",
+    "access_and_room": "Kerb is a median planting strip beside live lanes; no pull-out or verge.",
+    "traffic": "Multi-lane arterial with ramps and a junction.",
+    "convention": "No cars parked and no parking lane."
+  },
+  "flags": [
+    "Steep: about 7% grade, up to 11%",
+    "Noise from arterial road",
+    "Roadworks beside the road in QLD image"
+  ],
+  "sun_shade": "Open to sun from all sides; small plantings on the median.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Moggill Road median edge by the underpass approach",
+    "slope_pct": 6.8,
+    "points": [
+      [
+        152.974405,
+        -27.496825
+      ],
+      [
+        152.974465,
+        -27.496792
+      ],
+      [
+        152.974487,
+        -27.496773
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 24,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 27.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

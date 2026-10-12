@@ -1,0 +1,47 @@
+{
+  "candidate": "156871696-156871697-1184806255-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy Moggill Road kerb with no stopping and no room to pull out.",
+  "reasons": [
+    "Main road, no parked cars",
+    "No Stopping Any Time sign",
+    "Retaining wall beside kerb"
+  ],
+  "drivers": {
+    "seclusion": "Houses and shops within 10-30 m; wall and slope behind kerb.",
+    "access_and_room": "No pull-off; kerb runs against a retaining wall beside multi-lane road.",
+    "traffic": "Multi-lane arterial with heavy traffic.",
+    "convention": "No cars parked along this kerb; No Stopping Any Time sign."
+  },
+  "flags": [
+    "Steep: about 6% mean grade, 22% max near the end",
+    "Arterial road noise"
+  ],
+  "sun_shade": "Open to sun; trees shade the northern side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 27,
+    "gated": false,
+    "slope_pct": 6.8,
+    "min_elevation_m": 51.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

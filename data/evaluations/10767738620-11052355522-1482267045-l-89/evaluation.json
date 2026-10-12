@@ -1,0 +1,71 @@
+{
+  "candidate": "10767738620-11052355522-1482267045-l-89",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Ramp kerb on a new interchange; no parking, no room off the lane.",
+  "reasons": [
+    "Multi-lane ramps and viaduct",
+    "No parking, no pull-out",
+    "Old QLD image shows construction site"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 44 m or more away, but the spot is open to traffic on all sides.",
+    "access_and_room": "Line follows ramp and barrier edges against live lanes; no verge or bay.",
+    "traffic": "Busy interchange with multiple lanes and turning movements.",
+    "convention": "No parked cars and no parking lane."
+  },
+  "flags": [
+    "Steep: about 7.5% grade, up to 25% at the edge",
+    "Noise from arterial road",
+    "Road layout changed since the QLD image (construction then)"
+  ],
+  "sun_shade": "Open to sun; no tree cover.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 45,
+    "where": "Moggill Road interchange ramp edge east of the viaduct",
+    "slope_pct": 7.5,
+    "points": [
+      [
+        152.975004,
+        -27.49655
+      ],
+      [
+        152.97511,
+        -27.496634
+      ],
+      [
+        152.974886,
+        -27.49676
+      ],
+      [
+        152.974852,
+        -27.496791
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 44,
+    "gated": false,
+    "slope_pct": 7.7,
+    "min_elevation_m": 28.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

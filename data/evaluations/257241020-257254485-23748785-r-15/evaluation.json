@@ -1,0 +1,70 @@
+{
+  "candidate": "257241020-257254485-23748785-r-15",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet north kerb on a wealthy residential street; nearest homes 15 m across the road.",
+  "reasons": [
+    "North side 32 m from house, south 15 m",
+    "No parked cars seen, no convention",
+    "Slightly steep, about 5%"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwelling on this side is 32 m (at 100 m); a house 15 m away across the road at 120 m. Homes all round.",
+    "access_and_room": "Sealed street; no cars parked in the imagery, verge strip beside the kerb looks wide enough to stand clear.",
+    "traffic": "Quiet residential street.",
+    "convention": "No parked cars, no signs; a van would stand out."
+  },
+  "flags": [
+    "Steep: about 5% here, max 17.8%, mean 7.6%",
+    "Homes within 25 m across the road",
+    "Sandy Creek 86 m away, elevation 6-19 m"
+  ],
+  "sun_shade": "Mostly open; garden trees to the north-west and south give partial shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height and verge width"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 100,
+    "to_m": 115,
+    "where": "North kerb of Nindethana Street on the bend, beside the large garden with the pool",
+    "slope_pct": 5,
+    "points": [
+      [
+        152.988984,
+        -27.504116
+      ],
+      [
+        152.988909,
+        -27.504175
+      ],
+      [
+        152.988877,
+        -27.504211
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 5.1,
+    "min_elevation_m": 14.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

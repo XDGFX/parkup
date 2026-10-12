@@ -1,0 +1,48 @@
+{
+  "candidate": "4916596710-4916596714-289828011-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb on a multi-lane arterial at a junction; no stopping, no room.",
+  "reasons": [
+    "No Stopping Any Time sign",
+    "Arterial lanes at a junction",
+    "No parked cars or pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Trees and bush on the west side, but the kerb is in the middle of a busy junction.",
+    "access_and_room": "Kerb runs on live lanes and turning arrows; no bay or shoulder.",
+    "traffic": "Multi-lane arterial with buses and heavy traffic.",
+    "convention": "No Stopping Any Time; no cars parked along this kerb."
+  },
+  "flags": [
+    "Low-lying: about 10 m elevation, Witton Creek 53 m away",
+    "Arterial and junction noise",
+    "Slope gentle: about 2% mean"
+  ],
+  "sun_shade": "Trees shade the west side; road open to sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 9.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

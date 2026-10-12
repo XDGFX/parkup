@@ -1,0 +1,78 @@
+{
+  "candidate": "21616888-53912147-1292554777-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow lane beside the rail line with apartments a few metres off the kerb.",
+  "reasons": [
+    "Apartments 3-6 m from kerb",
+    "No Stopping signs along the stretch",
+    "Lane tight beside railway fence"
+  ],
+  "drivers": {
+    "seclusion": "Mapped apartments 3 m and 6 m from the kerb at 46 m and 120 m, and a house 1 m at 13 m; buildings line the east side throughout.",
+    "access_and_room": "Public lane, but a few cars squeeze along the kerb and the west side is rail corridor; little room to pull clear.",
+    "traffic": "Dead-end-style lane beside a four-track rail corridor; train noise.",
+    "convention": "A few cars park at the kerb, but No Stopping 7-9am Mon-Fri signs run along it."
+  },
+  "flags": [
+    "Steep: about 4.6% over best section, 5.7% mean, 14% max",
+    "Rail noise",
+    "No Stopping Specified Times Mon-Fri 7-9am and No Stopping Any Time signs"
+  ],
+  "sun_shade": "Rail-side trees shade the west edge in the afternoon; open to the sky otherwise.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact usable room beside the lane"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 60,
+    "to_m": 100,
+    "where": "Railway Avenue, midway down opposite the rail trees",
+    "slope_pct": 4.6,
+    "points": [
+      [
+        152.976729,
+        -27.500794
+      ],
+      [
+        152.976733,
+        -27.500877
+      ],
+      [
+        152.976737,
+        -27.50096
+      ],
+      [
+        152.97674,
+        -27.50103
+      ],
+      [
+        152.976741,
+        -27.501154
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 22.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

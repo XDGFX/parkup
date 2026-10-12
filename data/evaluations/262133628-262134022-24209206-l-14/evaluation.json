@@ -1,0 +1,64 @@
+{
+  "candidate": "262133628-262134022-24209206-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb by a corner garden, but no cars park here.",
+  "reasons": [
+    "Homes 14-21 m across the road",
+    "Corner lot garden on own side",
+    "No parked cars on this stretch"
+  ],
+  "drivers": {
+    "seclusion": "Own side is a corner lot garden and hedge; nearest south-side dwelling about 30 m; north-side homes 14-21 m across the road.",
+    "access_and_room": "Sealed street with a grass verge on the south side; room to stop off the lane.",
+    "traffic": "Quiet residential street.",
+    "convention": "No cars parked along this stretch in the imagery; only on the side street."
+  },
+  "flags": [
+    "Steep: eastern half over 5%, up to 12.6% max",
+    "Signed 4P Mon-Fri 9am-4pm",
+    "Homes within 25 m on the far side"
+  ],
+  "sun_shade": "Open to the north and west; large trees to the south-east shade the middle of the stretch.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 48,
+    "to_m": 64,
+    "where": "South kerb at the western end beside the corner garden hedge",
+    "slope_pct": 2.6,
+    "points": [
+      [
+        152.979181,
+        -27.505787
+      ],
+      [
+        152.979021,
+        -27.505762
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 28.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,48 @@
+{
+  "candidate": "60800349-60800356-8111797-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, very steep cul-de-sac kerb with homes 13m and closer.",
+  "reasons": [
+    "Grade 17% mean, 22% max",
+    "House 13m from kerb",
+    "Cramped court, homes all round"
+  ],
+  "drivers": {
+    "seclusion": "Houses 13m, 18m and 19m from the kerb; the court is ringed by homes.",
+    "access_and_room": "Narrow sealed court on a steep climb; trees and driveways limit kerb room.",
+    "traffic": "Dead-end residential court, local traffic only.",
+    "convention": "No parked cars or campers seen on this side."
+  },
+  "flags": [
+    "Steep: 16.7% mean, 21.6% max, well over the 12% limit",
+    "Homes within 25m all round",
+    "Witton Creek 36m away"
+  ],
+  "sun_shade": "Tree canopy shades the east side and south end; the bulb is open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 17.2,
+    "min_elevation_m": 31.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

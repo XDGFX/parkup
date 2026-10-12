@@ -1,0 +1,50 @@
+{
+  "candidate": "257258559-262465637-1240334217-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Houses 9 to 12m from the kerb along the whole stretch.",
+  "reasons": [
+    "Dwellings within 10m of the kerb",
+    "Bush end too short and steep",
+    "Quiet street, no parking convention"
+  ],
+  "drivers": {
+    "seclusion": "South side is a row of houses with front gardens 9 to 12m from the kerb; a house plot opposite. Only the first few metres meet school bush.",
+    "access_and_room": "Sealed street with kerbside room.",
+    "traffic": "Quiet residential corner.",
+    "convention": "One car parked; no campers seen."
+  },
+  "flags": [
+    "Dwellings within 10m along the stretch",
+    "Steep start: 17.8% max grade, 4.1% mean",
+    "House plot opposite looks cleared or being rebuilt"
+  ],
+  "sun_shade": "West end shaded by school bush; the rest open to sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 4.1,
+    "min_elevation_m": 17.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

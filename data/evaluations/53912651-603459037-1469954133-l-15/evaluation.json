@@ -1,0 +1,46 @@
+{
+  "candidate": "53912651-603459037-1469954133-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Traffic island between carriageways of Moggill Road; no way to stop.",
+  "reasons": [
+    "Line sits on a median island",
+    "Arterial lanes both sides, no parking",
+    "Steep, about 8.6% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Exposed junction; homes 21 m west, shops 34 m east.",
+    "access_and_room": "Median strip between traffic lanes; a van would be in a lane.",
+    "traffic": "Busy arterial and junction on both sides.",
+    "convention": "No cars parked along this edge; no signs mapped."
+  },
+  "flags": [
+    "Steep: about 8.6% mean, 15% max",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open grass median, no shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking rules on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 21,
+    "gated": false,
+    "slope_pct": 11,
+    "min_elevation_m": 30.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

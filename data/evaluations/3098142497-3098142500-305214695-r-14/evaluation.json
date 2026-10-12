@@ -1,0 +1,64 @@
+{
+  "candidate": "3098142497-3098142500-305214695-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep narrow lane beside a treed strip; no room to pull off.",
+  "reasons": [
+    "Narrow lane, kerb to trees and power poles",
+    "Steep, mean 8.4% grade",
+    "Homes 17-22 m across the lane"
+  ],
+  "drivers": {
+    "seclusion": "Treed strip on own side; nearest houses 17-22 m across the lane.",
+    "access_and_room": "Narrow sealed lane with trees and a powerline strip at the edge; no pull-off seen.",
+    "traffic": "Quiet dead-end street.",
+    "convention": "Residents' cars park a little further up; no overnight stays seen."
+  },
+  "flags": [
+    "Steep: about 5% at best, up to 16% max",
+    "Witton Creek 42 m away, low-lying at the bottom",
+    "Homes within 25 m across the lane"
+  ],
+  "sun_shade": "Dense tree canopy over most of the stretch, especially from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact usable width"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Top of Newcomen Street, west side by the treed strip",
+    "slope_pct": 4.8,
+    "points": [
+      [
+        152.965907,
+        -27.495324
+      ],
+      [
+        152.965943,
+        -27.495427
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 5.8,
+    "min_elevation_m": 35.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

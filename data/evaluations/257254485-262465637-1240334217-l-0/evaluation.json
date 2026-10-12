@@ -1,0 +1,65 @@
+{
+  "candidate": "257254485-262465637-1240334217-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet south kerb outside gardens; homes 11-19 m away, gentle grade.",
+  "reasons": [
+    "Homes 11-19 m away on this side",
+    "No parked cars seen, no convention",
+    "Grade about 2.6%"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 11 m (at 103 m), 12 m (at 121 m) and 16 m (at 123 m) on the section's own side; more homes across the road. Homes all round.",
+    "access_and_room": "Sealed street; no parked cars in the imagery, grass verge beside the kerb looks wide enough to stand clear.",
+    "traffic": "Quiet residential street; a school sits 38 m away so drop-off activity is possible.",
+    "convention": "No parked cars and no signs, so a van would stand out."
+  },
+  "flags": [
+    "Steep elsewhere: max 14%, mean 6.2%",
+    "Homes within 25 m all round",
+    "School nearby, daytime activity"
+  ],
+  "sun_shade": "Mostly open with garden trees to the south; afternoon shade from houses.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height and verge width",
+    "School hours restrictions"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 105,
+    "to_m": 125,
+    "where": "South kerb of Nindethana Street, west of the bend and tennis court, before the school",
+    "slope_pct": 2.6,
+    "points": [
+      [
+        152.987187,
+        -27.504694
+      ],
+      [
+        152.986988,
+        -27.504657
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 18.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

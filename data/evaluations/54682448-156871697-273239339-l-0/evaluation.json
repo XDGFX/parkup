@@ -1,0 +1,47 @@
+{
+  "candidate": "54682448-156871697-273239339-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Median strip between Moggill Road carriageways at a junction; nowhere to stop.",
+  "reasons": [
+    "Median island, live lanes both sides",
+    "Clearway Mon-Sat, tow away",
+    "Steep, over 10% grade"
+  ],
+  "drivers": {
+    "seclusion": "Open junction; homes 22-39 m north across the road.",
+    "access_and_room": "Line is on a raised median; a van would block a lane.",
+    "traffic": "Busy arterial junction with signals.",
+    "convention": "No parked cars; clearway tow-away sign."
+  },
+  "flags": [
+    "Clearway Mon-Sat 7am-7pm, tow away",
+    "Steep: about 10% mean, 18% max",
+    "Arterial noise"
+  ],
+  "sun_shade": "Mostly open; one tree shades the west end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Parking rules outside signed hours"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 22,
+    "gated": false,
+    "slope_pct": 8.6,
+    "min_elevation_m": 45.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

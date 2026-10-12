@@ -1,0 +1,51 @@
+{
+  "candidate": "257258559-262465637-1240334217-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "House site 6m from the kerb; the bush-backed end is too short and steep.",
+  "reasons": [
+    "Dwelling 6m from kerb along the stretch",
+    "Only 7m backs onto school bush",
+    "Steep start, 19% max grade"
+  ],
+  "drivers": {
+    "seclusion": "North side: a house plot (cleared in Esri 2025, building in QLD 2022) sits 6m from the kerb from about 7m along. Dwellings 17m across the road.",
+    "access_and_room": "Sealed street with kerbside room, but no stretch clear of homes.",
+    "traffic": "Quiet residential street corner.",
+    "convention": "No parked campers seen; a few cars park nearby."
+  },
+  "flags": [
+    "Dwelling within 10m of most of the stretch",
+    "Steep first 10m: 19% max grade, 5.6% mean",
+    "Plot looks recently cleared or under redevelopment"
+  ],
+  "sun_shade": "West end shaded by school bush; the rest open to sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether the house has been rebuilt"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 6.1,
+    "min_elevation_m": 17.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

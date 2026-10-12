@@ -1,0 +1,49 @@
+{
+  "candidate": "54625244-60800132-8111767-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Very steep bush-edge kerb with a house 11m away and no room to stop.",
+  "reasons": [
+    "Grade 17% mean, 31% max",
+    "House 11m from kerb",
+    "Line runs into dense bush"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto dense bush, but houses sit 11m and 15m south of the kerb.",
+    "access_and_room": "The sealed road bends away at the start; past it the line runs into trees with no visible road or pull-off.",
+    "traffic": "Quiet hillside road bend; a car passes in the imagery.",
+    "convention": "No parked cars or campers seen."
+  },
+  "flags": [
+    "Steep: 16.9% mean, 31% max, well over the 12% limit",
+    "House within 10 to 15m of the start",
+    "Mapped line does not match the visible road past the bend"
+  ],
+  "sun_shade": "Dense tree canopy over most of the line, shaded from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether a track continues into the bush"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 14,
+    "min_elevation_m": 26,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

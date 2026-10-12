@@ -1,0 +1,71 @@
+{
+  "candidate": "60666433-60666437-8111765-l-61",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short, steep kerb on a bend with homes 10-13 m away.",
+  "reasons": [
+    "Houses 10-13 m away on same side",
+    "Steep: about 10% grade",
+    "Bush opposite; cars park there"
+  ],
+  "drivers": {
+    "seclusion": "Homes 10-13 m from the kerb (at 9, 11 and 17 m) on the west side; bush across the road.",
+    "access_and_room": "Public street; clear kerb lane for a van, though 17 m is short.",
+    "traffic": "Quiet residential street leading to a signalled junction; some through traffic.",
+    "convention": "2P Mon-Fri 9am-5pm sign; cars park on the east side."
+  },
+  "flags": [
+    "Steep: about 10% grade (max 10.8%)",
+    "Homes within 25 m on the section's own side",
+    "2P Parallel Mon-Fri 9am-5pm sign",
+    "Traffic lights close by"
+  ],
+  "sun_shade": "Open to the sky; large trees across the road shade the east in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 17,
+    "where": "Rankin Street west kerb, on the bend before the traffic lights",
+    "slope_pct": 10,
+    "points": [
+      [
+        152.969568,
+        -27.502815
+      ],
+      [
+        152.969601,
+        -27.50271
+      ],
+      [
+        152.969623,
+        -27.502671
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 10.1,
+    "min_elevation_m": 22.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,76 @@
+{
+  "candidate": "10767738620-11052355522-1482267045-r-89",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Signed clearway on a new interchange; no parking and nowhere to pull off.",
+  "reasons": [
+    "Clearway tow-away, Mon-Sat 7am-7pm",
+    "Ramps and viaduct edge, no pull-out",
+    "No parked cars along kerb"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 31 m or more away, but the spot is open to traffic on all sides.",
+    "access_and_room": "Line follows ramp and barrier edges against live lanes; no verge or bay.",
+    "traffic": "Busy interchange with multiple lanes and turning movements.",
+    "convention": "Clearway with tow-away; no cars parked along the kerb."
+  },
+  "flags": [
+    "Clearway tow-away Mon-Sat 7am-7pm",
+    "Steep: about 5.7% grade, up to 15%",
+    "Noise from arterial road",
+    "Road layout changed since the QLD image (construction then)"
+  ],
+  "sun_shade": "Open to sun; no tree cover.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 61,
+    "where": "Moggill Road interchange, north kerb of the viaduct approach",
+    "slope_pct": 5.7,
+    "points": [
+      [
+        152.975004,
+        -27.49655
+      ],
+      [
+        152.974899,
+        -27.496466
+      ],
+      [
+        152.974783,
+        -27.496674
+      ],
+      [
+        152.974745,
+        -27.496708
+      ],
+      [
+        152.974625,
+        -27.496798
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 31,
+    "gated": false,
+    "slope_pct": 4.9,
+    "min_elevation_m": 27,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

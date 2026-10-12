@@ -1,0 +1,64 @@
+{
+  "candidate": "58762385-58762386-7921231-l-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Level crest of a residential street where cars park; homes 11-13m away.",
+  "reasons": [
+    "Dwellings 11 to 13m on this side",
+    "Cars park along the street",
+    "Level only at the crest"
+  ],
+  "drivers": {
+    "seclusion": "East side houses sit 11 to 13m from the kerb; west side homes about 20m back.",
+    "access_and_room": "Sealed street with a parking lane on the west side and several cars parked.",
+    "traffic": "Short residential street off a cross road, local traffic only.",
+    "convention": "Cars park along it, so a van blends in; no campers seen."
+  },
+  "flags": [
+    "Steep elsewhere: 9% mean, 16.8% max over the full stretch",
+    "Dwellings 10 to 25m away on this side",
+    "Soccer club ground 48m south"
+  ],
+  "sun_shade": "Open sun; a few street trees shade the east kerb in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 52,
+    "to_m": 66,
+    "where": "At the crest of Normanby Street, opposite the white-roofed house with the red car",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.981868,
+        -27.500877
+      ],
+      [
+        152.981844,
+        -27.501001
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 19.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

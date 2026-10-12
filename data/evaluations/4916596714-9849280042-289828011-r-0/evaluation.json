@@ -1,0 +1,62 @@
+{
+  "candidate": "4916596714-9849280042-289828011-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb of a multi-lane arterial with no parking and no room off the lane.",
+  "reasons": [
+    "Multi-lane main road",
+    "No cars parked along kerb",
+    "Kerb beside a traffic lane, no pull-out"
+  ],
+  "drivers": {
+    "seclusion": "No dwellings within 45 m, but a van would sit in plain view beside fast traffic.",
+    "access_and_room": "Kerb sits against through lanes and a median; no verge or bay to pull fully out.",
+    "traffic": "Heavy multi-lane arterial with turning lanes and a junction.",
+    "convention": "No parked cars along this kerb and no marked parking lane."
+  },
+  "flags": [
+    "Steep: about 4% grade, up to 5.4%",
+    "Noise from arterial road"
+  ],
+  "sun_shade": "Open to sun; trees only on the far north-west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 23,
+    "where": "Moggill Road median-side kerb opposite the car park entrance",
+    "slope_pct": 4,
+    "points": [
+      [
+        152.961798,
+        -27.504226
+      ],
+      [
+        152.96164,
+        -27.504376
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 4,
+    "min_elevation_m": 10.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

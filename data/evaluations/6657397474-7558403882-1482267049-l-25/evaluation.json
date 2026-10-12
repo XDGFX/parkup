@@ -1,0 +1,67 @@
+{
+  "candidate": "6657397474-7558403882-1482267049-l-25",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway kerb on a multi-lane arterial; no parking and no room off the lane.",
+  "reasons": [
+    "Clearway sign, Mon-Fri 7am-7pm",
+    "No cars parked along kerb",
+    "Multi-lane main road"
+  ],
+  "drivers": {
+    "seclusion": "No dwellings nearby, but beside a busy road and a full car dealer's lot.",
+    "access_and_room": "Kerb is edged by a landscaped strip and cars, with no pull-out bay.",
+    "traffic": "Heavy multi-lane arterial with turning lanes.",
+    "convention": "Clearway marked; no cars parked along the kerb."
+  },
+  "flags": [
+    "Clearway Mon-Fri 7am-7pm",
+    "Noise from arterial road",
+    "Mapped parking is a commercial lot"
+  ],
+  "sun_shade": "Mostly open; trees shade the south-west part of the line.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Overnight rules for the adjacent lot"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 24,
+    "where": "Moggill Road kerb beside the car dealer's car park",
+    "slope_pct": 1.8,
+    "points": [
+      [
+        152.96704,
+        -27.500201
+      ],
+      [
+        152.966893,
+        -27.500365
+      ],
+      [
+        152.966891,
+        -27.500367
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 40,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

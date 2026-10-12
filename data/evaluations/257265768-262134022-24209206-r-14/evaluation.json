@@ -1,0 +1,64 @@
+{
+  "candidate": "257265768-262134022-24209206-r-14",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "South kerb beside a tennis court; homes only across the road.",
+  "reasons": [
+    "Backs onto tennis court and gardens",
+    "Nearest homes 19-22 m across road",
+    "Cars park along this street"
+  ],
+  "drivers": {
+    "seclusion": "Own side is a tennis court and garden; nearest dwelling on this side 46 m; homes 19-22 m across the road.",
+    "access_and_room": "Sealed residential street with parked cars; room to stop at the kerb.",
+    "traffic": "Quiet suburban street.",
+    "convention": "Cars park along both kerbs in the imagery; signed 4P Mon-Fri 9am-4pm."
+  },
+  "flags": [
+    "Signed 4P parallel Mon-Fri 9am-4pm",
+    "No Stopping signs elsewhere on this kerb near the corners",
+    "Homes 19-22 m across the road"
+  ],
+  "sun_shade": "Open; trees at 105-120 m shade the west end, tennis court side open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 122,
+    "to_m": 150,
+    "where": "South kerb of Neulans Road beside the tennis court",
+    "slope_pct": 1.1,
+    "points": [
+      [
+        152.977918,
+        -27.505596
+      ],
+      [
+        152.978198,
+        -27.505638
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 26.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

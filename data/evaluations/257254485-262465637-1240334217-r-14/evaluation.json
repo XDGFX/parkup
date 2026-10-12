@@ -1,0 +1,75 @@
+{
+  "candidate": "257254485-262465637-1240334217-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential bend; homes within 25m all round, no parking convention.",
+  "reasons": [
+    "Homes within 25m on both sides",
+    "Quiet street, little kerb parking",
+    "Flat at the bend, steep either side"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 11 to 21 m away on the north side, more across the road; dense hedges screen some.",
+    "access_and_room": "Sealed street with kerbside room; a few cars park nearby.",
+    "traffic": "Local residential street, little through traffic.",
+    "convention": "No sign of campers; kerb parking is only occasional."
+  },
+  "flags": [
+    "Steep either side of the bend: up to 12.6% max, 6.6% mean over the stretch",
+    "Homes within 25m all round"
+  ],
+  "sun_shade": "Hedges and trees shade the north side; open to midday sun from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 35,
+    "to_m": 55,
+    "where": "At the bend on Nindethana Street, outside the hedged house",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.987657,
+        -27.504647
+      ],
+      [
+        152.987655,
+        -27.504648
+      ],
+      [
+        152.987591,
+        -27.504674
+      ],
+      [
+        152.987475,
+        -27.504674
+      ],
+      [
+        152.987461,
+        -27.504671
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 4.2,
+    "min_elevation_m": 20.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

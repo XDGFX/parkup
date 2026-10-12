@@ -1,0 +1,72 @@
+{
+  "candidate": "156875923-2426264396-1241803965-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Taxi zone and bus stop kerb on busy Musgrave Road beside shopping centre.",
+  "reasons": [
+    "Taxi zone sign, buses stopping",
+    "Main road, no kerbside parking",
+    "Flats 17 m opposite"
+  ],
+  "drivers": {
+    "seclusion": "Shopping centre car park behind, flats across the road; public.",
+    "access_and_room": "Kerb is a taxi and bus zone with no pull-out.",
+    "traffic": "Busy through road with buses.",
+    "convention": "Taxi zone sign; no cars parked along the kerb."
+  },
+  "flags": [
+    "Taxi zone sign",
+    "Mean grade 3.1%, up to 8%",
+    "Buses queue here",
+    "Apartments 17 m across road"
+  ],
+  "sun_shade": "Mixed; street trees and shopping centre give shade from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 54,
+    "where": "Musgrave Road east kerb, south end by the shopping centre",
+    "slope_pct": 3.1,
+    "points": [
+      [
+        152.972011,
+        -27.499407
+      ],
+      [
+        152.971988,
+        -27.499529
+      ],
+      [
+        152.971975,
+        -27.499594
+      ],
+      [
+        152.971971,
+        -27.499616
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 6.3,
+    "min_elevation_m": 38.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

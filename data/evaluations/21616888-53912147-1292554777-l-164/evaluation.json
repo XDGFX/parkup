@@ -1,0 +1,65 @@
+{
+  "candidate": "21616888-53912147-1292554777-l-164",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb by the Clarence Road junction, apartments about 11-17 m away.",
+  "reasons": [
+    "Apartment block about 11-17 m from kerb",
+    "Cars park on the lane",
+    "Flat, but 7-9am No Stopping sign"
+  ],
+  "drivers": {
+    "seclusion": "Scribe on Clarence apartments about 11-17 m up the lane on the same side (mapped at 4 m only at the very start); kindergarten (non-residential) 4 m away; rail corridor on the other side.",
+    "access_and_room": "Public lane off Clarence Road; two cars already park along the kerb, so room is tight but usable.",
+    "traffic": "Beside four rail tracks and a busy road junction; noisy.",
+    "convention": "Cars park here, but a No Stopping Mon-Fri 7-9am sign sits at the kerb."
+  },
+  "flags": [
+    "No Stopping Mon-Fri 7-9am sign 3.5 m from the kerb line",
+    "Rail and junction noise",
+    "Only about 12 m of usable kerb, short for a van",
+    "Slope flat: 0.5% at best section"
+  ],
+  "sun_shade": "Apartment block shades the kerb in the morning; rail side open to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact van fit between parked cars"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 22,
+    "where": "Railway Avenue, just before the junction with Clarence Road, beside the kindergarten",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.976685,
+        -27.5017
+      ],
+      [
+        152.976665,
+        -27.501806
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 23.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

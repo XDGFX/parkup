@@ -1,0 +1,64 @@
+{
+  "candidate": "3098142497-3098142500-305214695-r-110",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet narrow residential street; houses 14-26 m away, flattest stretch around 45-60 m.",
+  "reasons": [
+    "Houses 14-26 m away on both sides",
+    "Narrow street, no visible parking convention",
+    "Flattest stretch is about 2%"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 14 m (at 60 m) and 26 m (at 47 m) away, plus homes across the road; tree cover helps but residents would notice.",
+    "access_and_room": "Sealed local street; a few cars parked further up. Verge looks narrow and tree-lined, room to pull off is tight.",
+    "traffic": "Local residential traffic only, low volume.",
+    "convention": "No signs; a few cars park on the street further north but no clear parking convention."
+  },
+  "flags": [
+    "Steep overall: mean 9.9%, max 28.6%",
+    "Best 15 m is about 2%, rest of the street 7-10%",
+    "Witton Creek 37 m away, elevation 28-35 m so flood risk low"
+  ],
+  "sun_shade": "Heavy tree canopy on the east side; houses and trees shade much of the section.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height and verge width under trees"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 45,
+    "to_m": 60,
+    "where": "Midway up the straight section of Newcomen Street, opposite the shaded east-side houses",
+    "slope_pct": 1.8,
+    "points": [
+      [
+        152.965958,
+        -27.495646
+      ],
+      [
+        152.965911,
+        -27.495518
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 4.6,
+    "min_elevation_m": 31.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

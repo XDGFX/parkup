@@ -1,0 +1,64 @@
+{
+  "candidate": "48324954-48336837-6890860-l-17",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb where cars park, but homes sit within 25 m all round.",
+  "reasons": [
+    "Homes 20-23 m away on both sides",
+    "Cars already park along this kerb",
+    "Flat at the low point"
+  ],
+  "drivers": {
+    "seclusion": "Houses on both sides; nearest mapped dwellings 21-23 m from the kerb at 115-145 m. No bush or park backing.",
+    "access_and_room": "Public street with parked cars both sides in imagery; room to pull in at the kerb.",
+    "traffic": "Quiet suburban street; low through traffic.",
+    "convention": "Several cars parked along both kerbs, so a van would not stand out."
+  },
+  "flags": [
+    "Flat at best section, but 6% mean grade over the whole stretch",
+    "Homes within 25 m all round",
+    "Mapped gates 168 m and more away are on side routes, not on the only access"
+  ],
+  "sun_shade": "Large trees shade the north kerb around 100-150 m; open to midday sun otherwise.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 115,
+    "to_m": 145,
+    "where": "Payne Street, low point near the 130 m mark, just past the shaded tree",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.968979,
+        -27.493607
+      ],
+      [
+        152.969279,
+        -27.493653
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 3.6,
+    "min_elevation_m": 39.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,66 @@
+{
+  "candidate": "156875923-2426264396-1241803965-l-91",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "No-stopping kerb at a signalised junction on busy Musgrave Road.",
+  "reasons": [
+    "No Stopping Any Time sign",
+    "Short 18 m kerb at junction",
+    "Main road, no parked cars"
+  ],
+  "drivers": {
+    "seclusion": "Car park structure behind, flats 20 m across the road; public.",
+    "access_and_room": "Short kerb at a junction mouth with a painted island; no room to stop.",
+    "traffic": "Busy through road with turning lanes.",
+    "convention": "No stopping signed; no cars parked along the kerb."
+  },
+  "flags": [
+    "No Stopping Any Time sign",
+    "Apartments 20 m across road",
+    "Slope fine: 2.6% mean"
+  ],
+  "sun_shade": "Open to the sun; trees to the west give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 18,
+    "where": "Musgrave Road east kerb just north of the shopping centre exit",
+    "slope_pct": 2.6,
+    "points": [
+      [
+        152.971932,
+        -27.499811
+      ],
+      [
+        152.971917,
+        -27.499884
+      ],
+      [
+        152.971902,
+        -27.499969
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 36.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

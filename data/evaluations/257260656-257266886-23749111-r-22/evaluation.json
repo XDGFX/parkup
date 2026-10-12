@@ -1,0 +1,64 @@
+{
+  "candidate": "257260656-257266886-23749111-r-22",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb where cars park, with homes 11 to 22 m away.",
+  "reasons": [
+    "Cars park along this street",
+    "Homes 11-22 m back on this side",
+    "Steep climb of about 11%"
+  ],
+  "drivers": {
+    "seclusion": "Treed front gardens; mapped homes 22 m or more away here, closer along the rest of the kerb.",
+    "access_and_room": "Sealed residential street with cars parked on both kerbs; room for a van.",
+    "traffic": "Quiet street, low traffic.",
+    "convention": "Cars park along both kerbs, but no sign of van-dwelling."
+  },
+  "flags": [
+    "Steep: about 11% grade here (9% mean, up to 16%)",
+    "Homes within 5 to 16 m along much of this kerb"
+  ],
+  "sun_shade": "Tree canopy shades this section from the south and overhead; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Resident attitudes",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 52,
+    "to_m": 68,
+    "where": "Munro Street south kerb, under the street trees mid-block",
+    "slope_pct": 11,
+    "points": [
+      [
+        152.981639,
+        -27.504375
+      ],
+      [
+        152.981778,
+        -27.504302
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 10.1,
+    "min_elevation_m": 26,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:34:12Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
