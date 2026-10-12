@@ -1,0 +1,23 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Flat turning head backing onto bush; homes about 21 m away.",
+  "reasons": ["Bush to the west", "Homes 21-30 m, same side", "Quiet cul-de-sac, no cars parked"],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 9,
+    "where": "Thea Court south kerb at the bush end of the turning head",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Bush behind; nearest homes 21 m and 30 m, another at 11 m further along.",
+    "access_and_room": "Sealed turning head with room to stop at the kerb.",
+    "traffic": "Dead-end cul-de-sac, almost no traffic.",
+    "convention": "No parked cars in either image; a van would stand out on a quiet residential street."
+  },
+  "flags": ["Steep beyond 15 m: 8% mean, 16% max", "House 11 m at 13 m along", "Witton Creek 109 m away"],
+  "sun_shade": "Bush canopy shades the western side; open to the east and north.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Crossfall", "Street lighting", "Resident attitudes"],
+  "confidence": "low"
+}

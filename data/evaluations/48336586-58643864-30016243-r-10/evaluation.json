@@ -1,0 +1,70 @@
+{
+  "candidate": "48336586-58643864-30016243-r-10",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "North end of kerb beside bush, nearest home about 22 m away.",
+  "reasons": [
+    "Bush beside kerb at north end",
+    "Nearest dwelling about 22 m, same side",
+    "Cars park just north; steep about 4-5%"
+  ],
+  "drivers": {
+    "seclusion": "Bush and trees to the north-west; nearest dwellings 22 m (at 19 m) on the same side and 31 m (at 0 m); houses to the south are 7-8 m away.",
+    "access_and_room": "Sealed street with a gravel and dirt edge by the bush where cars pull off; room to stop clear of the lane.",
+    "traffic": "Through street with moderate traffic.",
+    "convention": "Several cars park along the kerb just north of the ring, so a van would blend in."
+  },
+  "flags": [
+    "Steep at this end: about 4.7%, 11% max further down",
+    "Houses 7-8 m away from 22 to 45 m along",
+    "Section is near the line start; parking continues beyond it"
+  ],
+  "sun_shade": "Heavy tree cover on the west and north; open to the afternoon sun is blocked by canopy, morning sun over the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "West kerb of Taringa Parade at the north end, where the houses stop and the bush begins",
+    "slope_pct": 4.7,
+    "points": [
+      [
+        152.968071,
+        -27.490999
+      ],
+      [
+        152.968068,
+        -27.491064
+      ],
+      [
+        152.96806,
+        -27.491124
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 4.3,
+    "min_elevation_m": 51.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

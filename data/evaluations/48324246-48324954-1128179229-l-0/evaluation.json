@@ -1,0 +1,67 @@
+{
+  "candidate": "48324246-48324954-1128179229-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb on a quiet residential street, houses 11-12 m behind.",
+  "reasons": [
+    "Houses 11-12 m away, same side",
+    "No parked cars to blend with",
+    "Flat, about 0% grade"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 11-12 m from the kerb on this side; more homes across the road at 20 m or more.",
+    "access_and_room": "Normal sealed street; kerb is clear of cars, room to pull in beside a verge strip.",
+    "traffic": "Quiet residential street near a junction.",
+    "convention": "No cars parked along the kerb in either image and no signs, so a van would stand out."
+  },
+  "flags": [
+    "Houses within 10-12 m at several points along the stretch",
+    "No parked cars in the imagery"
+  ],
+  "sun_shade": "Tree canopy over the south end, morning shade from the trees to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether residents object"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 25,
+    "where": "Taringa Parade west kerb, south of the bend, beside the leafy garden",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.967417,
+        -27.494208
+      ],
+      [
+        152.967429,
+        -27.49419
+      ],
+      [
+        152.967522,
+        -27.494054
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 0.9,
+    "min_elevation_m": 49.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

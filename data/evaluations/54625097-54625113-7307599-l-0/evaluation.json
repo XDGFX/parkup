@@ -1,0 +1,74 @@
+{
+  "candidate": "54625097-54625113-7307599-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep east kerb with houses 7-13 m away and next to a main road.",
+  "reasons": [
+    "Houses 7-13 m along this kerb",
+    "Slope averages 6%, up to 12%",
+    "Few cars park on this side"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the kerb at 7 m and 12-13 m; the only gap is the corner by the main road.",
+    "access_and_room": "Narrow two-lane street; no visible parked cars on this side and little room beside the lane.",
+    "traffic": "Corner with a busy arterial; through traffic.",
+    "convention": "No parking convention on this side; a few cars park on the west side."
+  },
+  "flags": [
+    "Steep: about 6% mean grade, up to 11.6%",
+    "Dwelling 7 m from kerb at 26 m",
+    "Arterial road noise at the junction"
+  ],
+  "sun_shade": "Heavy tree canopy over the north half; open to the afternoon sun over the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Usher Street east kerb at the corner by the main road",
+    "slope_pct": 8,
+    "points": [
+      [
+        152.966233,
+        -27.500997
+      ],
+      [
+        152.966219,
+        -27.501036
+      ],
+      [
+        152.966216,
+        -27.501045
+      ],
+      [
+        152.966215,
+        -27.501103
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 7.8,
+    "min_elevation_m": 36.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

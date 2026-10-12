@@ -1,0 +1,49 @@
+{
+  "candidate": "58643772-58643815-501156547-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a roundabout approach with no parking and homes 17 m away.",
+  "reasons": [
+    "Through road at roundabout, no parked cars",
+    "Median island and solid centre line",
+    "Homes 17-18 m away, same side"
+  ],
+  "drivers": {
+    "seclusion": "Houses 17-21 m away on the same side, screened by trees but close.",
+    "access_and_room": "Only 14 m of kerb in the approach to a roundabout, with a splitter island and a solid centre line; no room to pull clear of the lane.",
+    "traffic": "Collector road meeting a roundabout; no cars parked along this stretch.",
+    "convention": "No parked cars on this kerb in either image."
+  },
+  "flags": [
+    "Slope 3.4% mean, max 5.6%",
+    "Roundabout adjacent, noise and sightline concerns",
+    "Gate mapped 156 m away, not on the only access"
+  ],
+  "sun_shade": "Dense tree canopy over the kerb and the side garden.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 3.4,
+    "min_elevation_m": 51,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

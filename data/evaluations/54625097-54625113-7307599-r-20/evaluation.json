@@ -1,0 +1,64 @@
+{
+  "candidate": "54625097-54625113-7307599-r-20",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb where cars park; houses 13-20 m away and a 5% slope.",
+  "reasons": [
+    "Cars already park on this kerb",
+    "Houses 13-20 m on both sides",
+    "Steady 5% climb"
+  ],
+  "drivers": {
+    "seclusion": "Treed verge on the west; houses 13-20 m away on this side and across the road.",
+    "access_and_room": "Wide street with parked cars on the west kerb; room to stop clear of the lane.",
+    "traffic": "Local street near the Moggill Road junction; moderate traffic.",
+    "convention": "Several cars park along this kerb, but no campervan convention."
+  },
+  "flags": [
+    "Steep: about 5% mean grade, up to 7%",
+    "Dwellings 13-20 m away",
+    "Noise from the nearby Moggill Road junction"
+  ],
+  "sun_shade": "Tree canopy over the north end, mostly open at the south; morning shade from the east side trees.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 40,
+    "where": "Usher Street west kerb, beside the grass verge and tree strip",
+    "slope_pct": 5,
+    "points": [
+      [
+        152.966135,
+        -27.501343
+      ],
+      [
+        152.966147,
+        -27.501522
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 5,
+    "min_elevation_m": 39,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

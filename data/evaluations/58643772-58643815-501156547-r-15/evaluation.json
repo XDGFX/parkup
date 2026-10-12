@@ -1,0 +1,51 @@
+{
+  "candidate": "58643772-58643815-501156547-r-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a roundabout with a house 7 m away.",
+  "reasons": [
+    "House 7 m from the kerb",
+    "Roundabout approach, no room to stop",
+    "Only 13 m of kerb"
+  ],
+  "drivers": {
+    "seclusion": "A mapped dwelling sits 7 m from the kerb and the large house beyond is close; no screening.",
+    "access_and_room": "Narrow kerb on the roundabout approach with a bare verge and one car parked just north; no clear room for a van off the lane.",
+    "traffic": "Collector road with a roundabout at the south end.",
+    "convention": "One car parks on the verge north of the start, but no sign this is a place to sleep."
+  },
+  "flags": [
+    "Dwelling within 10 m",
+    "Slope 2.7% mean, max 3.6%",
+    "Roundabout adjacent, noise"
+  ],
+  "sun_shade": "Open at the kerb; trees to the south-west and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 51.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

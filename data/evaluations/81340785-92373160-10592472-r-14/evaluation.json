@@ -1,0 +1,66 @@
+{
+  "candidate": "81340785-92373160-10592472-r-14",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Top of the west kerb among parked cars; homes 13-20 m away, steep.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Homes 13-20 m away on own side",
+    "Steep: about 10% grade"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 13 m and 20 m away on the same side; houses across the street too.",
+    "access_and_room": "Sealed street with a row of parked cars; a van fits at the kerb.",
+    "traffic": "Residential street, with Boundary Road at the top corner.",
+    "convention": "Cars parked along this kerb; 4P parallel signs along the street, including school days."
+  },
+  "flags": [
+    "Steep: about 10% grade (up to 14% further down)",
+    "Homes within 25 m all round",
+    "4P Parallel signs along the street, including school-day limits"
+  ],
+  "sun_shade": "Open; no tree cover at the top end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Resident tolerance"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "West kerb just down from the Boundary Road corner",
+    "slope_pct": 10.8,
+    "points": [
+      [
+        152.962643,
+        -27.508737
+      ],
+      [
+        152.962619,
+        -27.508861
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 9.7,
+    "min_elevation_m": 11.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

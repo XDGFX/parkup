@@ -1,0 +1,64 @@
+{
+  "candidate": "251461259-251461260-23240665-l-10",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep cul-de-sac kerb with a house 14 m away.",
+  "reasons": [
+    "Slope about 12%, max 17%",
+    "House 14 m, same side",
+    "No parked cars seen"
+  ],
+  "drivers": {
+    "seclusion": "Bush to the west, but houses 14 m and 19 m away on the same side.",
+    "access_and_room": "Sealed turning head; limited room and a steep climb along the kerb.",
+    "traffic": "Dead-end cul-de-sac, almost no traffic.",
+    "convention": "No parked cars in either image; no signs."
+  },
+  "flags": [
+    "Steep: about 12% mean, 17.5% max",
+    "Houses within 25 m",
+    "Witton Creek 114 m away"
+  ],
+  "sun_shade": "Dense bush canopy to the west shades the section in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Resident attitudes"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Thea Court north kerb, at the end of the turning head by the bush",
+    "slope_pct": 11,
+    "points": [
+      [
+        152.96068,
+        -27.491458
+      ],
+      [
+        152.96078,
+        -27.491397
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 13.3,
+    "min_elevation_m": 54.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

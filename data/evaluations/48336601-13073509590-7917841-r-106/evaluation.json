@@ -1,0 +1,64 @@
+{
+  "candidate": "48336601-13073509590-7917841-r-106",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb at the south end, homes 15-21 m away on the same side.",
+  "reasons": [
+    "Dwellings 15-21 m away, same side",
+    "Few cars park on this side",
+    "Bush opposite across the road"
+  ],
+  "drivers": {
+    "seclusion": "Bush across the road, but houses and a row of homes sit 15-21 m away on the van's own side.",
+    "access_and_room": "Plain kerb on a sealed through road; a few cars park along the east edge so there is room to pull in.",
+    "traffic": "Through road with moving traffic; a school-zone marking at the start.",
+    "convention": "Mostly residential frontage with only occasional kerbside cars; no sign a van would blend in."
+  },
+  "flags": [
+    "Steep south to north: mean 6.3%, max 11.6% over the whole stretch, but under 3% at 0-15 m",
+    "Through road, traffic noise likely",
+    "School-zone marking at 0 m"
+  ],
+  "sun_shade": "Open kerb; trees on the east side give some morning shade, bush to the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 15,
+    "where": "south end of the east kerb on Taringa Parade, by the school-zone marking",
+    "slope_pct": 1.1,
+    "points": [
+      [
+        152.967614,
+        -27.497376
+      ],
+      [
+        152.967606,
+        -27.497241
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 55.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

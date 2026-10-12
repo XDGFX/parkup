@@ -1,0 +1,68 @@
+{
+  "candidate": "48336601-13073509590-7917841-l-210",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, backing onto a large garden; homes 18-22 m away.",
+  "reasons": [
+    "Cars parked along this kerb",
+    "Nearest dwellings about 18-22 m",
+    "Near level at 195-212 m"
+  ],
+  "drivers": {
+    "seclusion": "Large garden and trees on the west side; nearest mapped dwellings 18-20 m away (at 183, 187 and 217 m), with houses 10 m or closer elsewhere on the stretch.",
+    "access_and_room": "Sealed kerbside lane with parked cars; room to pull in at the kerb, no gate or barrier.",
+    "traffic": "Through residential street with steady traffic.",
+    "convention": "Cars park along this kerb in both images, so a van would not stand out."
+  },
+  "flags": [
+    "Dwellings 10-25 m away on the same side",
+    "Houses 8-12 m from the kerb for much of the first 150 m",
+    "Witton Creek about 118 m away; lowest ground 45.8 m"
+  ],
+  "sun_shade": "Street trees and the garden's trees shade the kerb from the west; afternoon sun is partly blocked.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 195,
+    "to_m": 212,
+    "where": "West kerb of Taringa Parade just after the bend, beside a large lawn with a set-back house",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.967079,
+        -27.494783
+      ],
+      [
+        152.967089,
+        -27.494765
+      ],
+      [
+        152.967157,
+        -27.494646
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 50.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

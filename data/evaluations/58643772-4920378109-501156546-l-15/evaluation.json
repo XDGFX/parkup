@@ -1,0 +1,67 @@
+{
+  "candidate": "58643772-4920378109-501156546-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Tight 14 m kerb beside a roundabout, trees to the edge, houses 15 m.",
+  "reasons": [
+    "Trees and bank right at kerb",
+    "Beside roundabout splitter island",
+    "Houses 15 m on same side"
+  ],
+  "drivers": {
+    "seclusion": "Houses 15 m and 17 m away on the same side, more within 25 m.",
+    "access_and_room": "Narrow lane with dense trees along the verge; no clear ground beside the lane to pull off.",
+    "traffic": "Quiet street but the stretch runs into a roundabout approach with a splitter island.",
+    "convention": "No parked cars on this stretch in either image; no signs."
+  },
+  "flags": [
+    "Steep: DEM about 8% mean, noisy over 14 m",
+    "Houses 15 m away on the same side"
+  ],
+  "sun_shade": "Heavily shaded by tree canopy over the whole stretch.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "Taringa Parade east kerb, just north of the roundabout",
+    "slope_pct": 8,
+    "points": [
+      [
+        152.96799,
+        -27.492249
+      ],
+      [
+        152.967985,
+        -27.492347
+      ],
+      [
+        152.967984,
+        -27.492371
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 6.3,
+    "min_elevation_m": 52,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

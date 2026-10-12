@@ -1,0 +1,66 @@
+{
+  "candidate": "60200186-60200187-8050667-l-48",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Dense residential street; houses about 17 m from the kerb, few parked cars.",
+  "reasons": [
+    "Homes about 17 m away all round",
+    "Few cars parked along kerb",
+    "Gentle slope on lower section"
+  ],
+  "drivers": {
+    "seclusion": "Houses on both sides, the nearest about 17 m from the kerb; no bush or park behind.",
+    "access_and_room": "Sealed street with parking on both sides; a van fits at the kerb.",
+    "traffic": "Quiet suburban street, no through traffic apparent.",
+    "convention": "A few cars park along this street; No Stopping sign only at the start."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Steeper top section: up to 7.6%",
+    "No Stopping Any Time sign at 0 m",
+    "Low-lying: down to 5.8 m, Witton Creek 114 m"
+  ],
+  "sun_shade": "Mostly open; street trees give some shade near 40-50 m.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Resident tolerance"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 60,
+    "to_m": 90,
+    "where": "Lower half of the street, before the T-junction at the bottom",
+    "slope_pct": 1.6,
+    "points": [
+      [
+        152.967543,
+        -27.506586
+      ],
+      [
+        152.967356,
+        -27.506799
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 1.7,
+    "min_elevation_m": 6.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

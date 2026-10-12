@@ -1,0 +1,79 @@
+{
+  "candidate": "48324954-58643782-1128179229-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb with houses 12-14 m away on the same side.",
+  "reasons": [
+    "Dwellings 12-14 m away, same side",
+    "No cars parked on this west kerb",
+    "Gentle slope, no gates or signs"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the kerb on the west side, nearest mapped dwellings 12-14 m from the section; wide front verges and trees give some screening.",
+    "access_and_room": "Sealed street with a kerbside lane; room to pull in at the kerb, no gate or barrier.",
+    "traffic": "Through residential street with moderate traffic; cars drive past but the van stands in the kerb lane.",
+    "convention": "Cars park along the east kerb in imagery but none on this west side, so a van would stand out a little."
+  },
+  "flags": [
+    "Dwellings 10-14 m away along the whole stretch",
+    "No parked cars on this side"
+  ],
+  "sun_shade": "Mostly open; some street-tree shade from the west side, morning sun from the east over the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 28,
+    "to_m": 42,
+    "where": "West kerb of Taringa Parade, between the side street and the bend north",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.967572,
+        -27.493236
+      ],
+      [
+        152.967572,
+        -27.493236
+      ],
+      [
+        152.967577,
+        -27.493221
+      ],
+      [
+        152.967591,
+        -27.49317
+      ],
+      [
+        152.967608,
+        -27.493115
+      ],
+      [
+        152.967608,
+        -27.493114
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 50.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

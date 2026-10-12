@@ -1,0 +1,84 @@
+{
+  "candidate": "21616884-53860731-1304769821-r-24",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Shopfront kerb with parked cars; no homes within 25 m on this side.",
+  "reasons": [
+    "Backs onto cafe and shops",
+    "Cars park along this kerb",
+    "Nearest apartments 27 m, across road"
+  ],
+  "drivers": {
+    "seclusion": "Backed by commercial buildings 5-6 m away; only dwelling in range is Ikon apartments 27 m across the road.",
+    "access_and_room": "Parked cars sit along the kerb here; room for a van before the junction at the east end.",
+    "traffic": "Busy shopping-strip road near a junction; noisy but only passing drivers see the van.",
+    "convention": "Cars park here; 2P signs apply only Mon-Fri 8am-5:30pm and Sat to 4pm, not overnight; No Stopping near the corner."
+  },
+  "flags": [
+    "Slope about 5% along the stretch",
+    "No Stopping Any Time signs near the east end",
+    "Noise from the junction and nearby hotel"
+  ],
+  "sun_shade": "Open to the sky; shopfronts to the south shade the kerb in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether 2P signs also bind overnight"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 2,
+    "to_m": 22,
+    "where": "Station Road south kerb, outside the corner cafe and shops",
+    "slope_pct": 5.3,
+    "points": [
+      [
+        152.974586,
+        -27.502165
+      ],
+      [
+        152.974592,
+        -27.502167
+      ],
+      [
+        152.974631,
+        -27.502179
+      ],
+      [
+        152.974681,
+        -27.502197
+      ],
+      [
+        152.974728,
+        -27.502219
+      ],
+      [
+        152.974748,
+        -27.502229
+      ],
+      [
+        152.97477,
+        -27.502241
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 27,
+    "gated": false,
+    "slope_pct": 5.3,
+    "min_elevation_m": 26.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

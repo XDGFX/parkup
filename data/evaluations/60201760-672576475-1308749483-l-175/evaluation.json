@@ -1,0 +1,47 @@
+{
+  "candidate": "60201760-672576475-1308749483-l-175",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Very steep narrow street with no-parking signs and homes close by.",
+  "reasons": [
+    "Grade about 25%, far above limit",
+    "No Parking Any Time signs",
+    "Dwelling 12 m from kerb"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 12 m or so from the east kerb, tree-covered gardens between.",
+    "access_and_room": "Narrow sealed lane on a steep hill; no pull-off, kerb-to-fence.",
+    "traffic": "Quiet residential street.",
+    "convention": "A few cars park on the west side; two No Parking Any Time signs cover this kerb."
+  },
+  "flags": [
+    "Steep: about 25% mean, 30% max",
+    "No Parking Any Time signs"
+  ],
+  "sun_shade": "Dense tree shade over the east side most of the length.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 24.7,
+    "min_elevation_m": 25.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

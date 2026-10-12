@@ -1,0 +1,48 @@
+{
+  "candidate": "21616884-712864707-791238825-l-24",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Nine metres of kerb beside a junction, too short for a van.",
+  "reasons": [
+    "Shorter than a van length",
+    "Beside junction with No Stopping signs",
+    "Steep, about 8% grade"
+  ],
+  "drivers": {
+    "seclusion": "Shopfronts directly behind; apartments 30 m or more away, so seclusion would be fine if a van fitted.",
+    "access_and_room": "Only 9 m of kerb, ending at a signalised side-street corner; a van would overhang the junction.",
+    "traffic": "Busy main road through the shopping strip.",
+    "convention": "No Stopping Any Time signs at both ends; 2P signs apply to daytime only."
+  },
+  "flags": [
+    "Steep: about 8% grade",
+    "No Stopping Any Time signs at both ends",
+    "Junction noise"
+  ],
+  "sun_shade": "Open to the sky; shopfront to the south shades the kerb in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 30,
+    "gated": false,
+    "slope_pct": 7.6,
+    "min_elevation_m": 30.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

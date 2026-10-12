@@ -1,0 +1,23 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Steep through-road kerb with no parking, house 6 m away.",
+  "reasons": ["Slope about 15%, max 26%", "House 6 m from kerb", "No cars parked on road"],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 26,
+    "where": "Tatong Street west kerb, in front of the corner houses",
+    "slope_pct": 15.5
+  },
+  "drivers": {
+    "seclusion": "Dwelling 6 m from the kerb and another at 17 m, same side.",
+    "access_and_room": "Kerb runs hard against the lane; no pull-off, bush opposite.",
+    "traffic": "Marked two-lane through road with centre line; no parked cars.",
+    "convention": "No parked cars in either image; no signs."
+  },
+  "flags": ["Steep: about 15% mean, 26% max, over the 12% limit", "House 6 m away", "Main road with no parking"],
+  "sun_shade": "Open to sun; bush across the road shades the afternoon side.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Crossfall", "Street lighting", "Kerb height"],
+  "confidence": "high"
+}

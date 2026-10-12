@@ -1,0 +1,65 @@
+{
+  "candidate": "60200730-60200731-8051275-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow dense street; houses 5-7 m from kerb along the stretch.",
+  "reasons": [
+    "Houses 5-12 m away, same side",
+    "Narrow lane, cars park both sides",
+    "Steep: about 8% mean, 17% max"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 5 m from this section and others 6-12 m away.",
+    "access_and_room": "Narrow lane with cars already parked on both sides; little room to pull clear.",
+    "traffic": "Quiet short residential street.",
+    "convention": "Residents park along the kerb, but the van would sit beside houses."
+  },
+  "flags": [
+    "Steep: 8% mean, 17% max over the stretch",
+    "House 5 m from the best section"
+  ],
+  "sun_shade": "Garden trees shade the kerb in patches, mainly from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 45,
+    "to_m": 57,
+    "where": "Telarah Street east kerb at the southern end, near the junction",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.982928,
+        -27.49814
+      ],
+      [
+        152.982908,
+        -27.498243
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 5.2,
+    "min_elevation_m": 18.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,69 @@
+{
+  "candidate": "58736558-58736604-7920667-r-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Shaded school-side kerb, homes about 22 m away, but steep.",
+  "reasons": [
+    "Homes 21 to 22 m away",
+    "School grounds and trees opposite",
+    "Steep about 11% grade"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings 21-22 m away on the west side; school grounds and dense trees across the road.",
+    "access_and_room": "Narrow sealed street with a few cars parked; room is tight under the canopy.",
+    "traffic": "Quiet apart from school drop-off peaks.",
+    "convention": "Cars park here, but the street has school loading signs and no sign of van stays."
+  },
+  "flags": [
+    "Steep: about 11% grade",
+    "Homes within 25 m",
+    "School loading and no-parking times 7-9am and 2-4pm on school days",
+    "Dwellings 9-14 m away at other points"
+  ],
+  "sun_shade": "Heavy tree canopy over the section; shaded most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Exact sign coverage on this section"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 58,
+    "to_m": 72,
+    "where": "Turner Street west kerb, under the trees south of the school hall",
+    "slope_pct": 11,
+    "points": [
+      [
+        152.984037,
+        -27.499966
+      ],
+      [
+        152.984028,
+        -27.500011
+      ],
+      [
+        152.984014,
+        -27.50009
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 12.7,
+    "min_elevation_m": 20.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "48336601-13073509590-7917841-r-78",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb beside a speed hump; homes 14-16 m away, gentle climb.",
+  "reasons": [
+    "Dwellings 14-16 m away, same side",
+    "Slope about 5%",
+    "No parked cars seen on this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Trees and a garden hedge screen the kerb; nearest mapped dwellings 14 m (at 11 m) and 16 m (at 0 m); bush lies across the road.",
+    "access_and_room": "Sealed lane with a narrow grassy edge; room to stop at the kerb for one van, no gate or barrier.",
+    "traffic": "Through street with moderate traffic and a speed hump beside the section.",
+    "convention": "No parked cars on this kerb in the images; one car parked on the road ahead near the houses."
+  },
+  "flags": [
+    "Steep: about 4.9% grade, max 6.8%",
+    "Dwellings 10-25 m away on the same side",
+    "Only 20 m of kerb"
+  ],
+  "sun_shade": "Tree cover on the east side shades the kerb in the morning; open to afternoon sun over the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "East kerb of Taringa Parade just south of the raised speed hump",
+    "slope_pct": 4.9,
+    "points": [
+      [
+        152.967586,
+        -27.497629
+      ],
+      [
+        152.9676,
+        -27.497504
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 6.1,
+    "min_elevation_m": 54.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

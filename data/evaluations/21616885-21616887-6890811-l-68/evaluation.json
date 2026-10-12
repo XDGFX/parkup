@@ -1,0 +1,74 @@
+{
+  "candidate": "21616885-21616887-6890811-l-68",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wooded east kerb on a parked-up street, apartments about 22 m away.",
+  "reasons": [
+    "Cars park along this street",
+    "Apartments 22-25 m on same side",
+    "Treed lot beside kerb"
+  ],
+  "drivers": {
+    "seclusion": "East side is a treed strip; apartments 22-25 m away, houses 10-18 m near the start.",
+    "access_and_room": "Ordinary kerbside lane; cars already park along the street.",
+    "traffic": "Quiet side street behind retail, some commercial activity nearby.",
+    "convention": "Parked cars line the street, so a van blends in."
+  },
+  "flags": [
+    "Dwellings 22-25 m on the section's own side"
+  ],
+  "sun_shade": "Heavy tree canopy over the kerb, shading from the east and midday.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 45,
+    "to_m": 70,
+    "where": "Underhill Avenue, east kerb beside the treed vacant strip south of the car park",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.974414,
+        -27.498531
+      ],
+      [
+        152.974366,
+        -27.498676
+      ],
+      [
+        152.974361,
+        -27.4987
+      ],
+      [
+        152.974358,
+        -27.498721
+      ],
+      [
+        152.974356,
+        -27.498749
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 22,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 21.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,72 @@
+{
+  "candidate": "81340785-92373160-10592472-l-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Packed residential street; homes 10-13 m away, steep, cars park on the other side.",
+  "reasons": [
+    "Homes 10-13 m away on own side",
+    "Steep: about 9% grade",
+    "Cars park along the street"
+  ],
+  "drivers": {
+    "seclusion": "Houses on both sides all along; nearest dwellings 10-13 m from this section, a garage 6 m away.",
+    "access_and_room": "Sealed street with parked cars; a van fits at the east kerb.",
+    "traffic": "Residential street near a school, with Boundary Road at the lower end.",
+    "convention": "Cars park both sides; 4P parallel signs along the street."
+  },
+  "flags": [
+    "Steep: about 9% grade (up to 11.8%)",
+    "Homes within 25 m all round",
+    "4P Parallel signs along the street, including school-day limits"
+  ],
+  "sun_shade": "Mostly open; trees shade the lower end from 140 m.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Resident tolerance"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 30,
+    "to_m": 44,
+    "where": "East kerb past the garage, about 30 m down from the Boundary Road corner",
+    "slope_pct": 9.3,
+    "points": [
+      [
+        152.96267,
+        -27.50902
+      ],
+      [
+        152.962656,
+        -27.509086
+      ],
+      [
+        152.962653,
+        -27.509104
+      ],
+      [
+        152.962645,
+        -27.509144
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 8.7,
+    "min_elevation_m": 14.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

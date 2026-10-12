@@ -1,0 +1,64 @@
+{
+  "candidate": "48336601-13073509590-7917841-r-260",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short flat residential kerb where cars park; homes about 12 m away.",
+  "reasons": [
+    "Dwellings 12-21 m away, same side",
+    "Cars park along this kerb",
+    "Flat, under 2% grade"
+  ],
+  "drivers": {
+    "seclusion": "Homes on the same side within 12-21 m; the neighbouring plot is cleared but houses flank it.",
+    "access_and_room": "Plain kerb with a parked car on the east edge; room for a van is likely but the stretch is only 12 m.",
+    "traffic": "Through road with steady traffic and cars parked both sides.",
+    "convention": "Cars park along this kerb, so a van would not stand out, but it is a residential frontage."
+  },
+  "flags": [
+    "Only 12 m of kerb",
+    "Through road, traffic noise likely",
+    "Low-ish ground (about 46 m) but 139 m from Witton Creek"
+  ],
+  "sun_shade": "Open kerb; street trees to the west and north-west give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "east kerb of Taringa Parade by the empty block near the church",
+    "slope_pct": 1.2,
+    "points": [
+      [
+        152.967226,
+        -27.49604
+      ],
+      [
+        152.967209,
+        -27.495933
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.6,
+    "min_elevation_m": 46,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

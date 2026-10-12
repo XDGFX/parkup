@@ -1,0 +1,62 @@
+{
+  "candidate": "60915708-10925713203-8119419-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat residential kerb near a cul-de-sac bend, homes 17-22 m away.",
+  "reasons": [
+    "Homes 17 to 22 m away",
+    "Flat at 25 to 45 m",
+    "Cars park along the street"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 17-22 m away, homes on both sides; none within 10 m of this section.",
+    "access_and_room": "Sealed street with cars parked; room for a van at the kerb.",
+    "traffic": "Quiet residential street.",
+    "convention": "Cars park here, but it is a plain residential street with no van stays."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Steep further along: up to 16%"
+  ],
+  "sun_shade": "Mostly open; a tree shades the kerb around 45 m from the south-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 45,
+    "where": "Thorpe Street north kerb, just uphill of the bend, past the vacant block",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.969474,
+        -27.497233
+      ],
+      [
+        152.969663,
+        -27.497168
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 3.1,
+    "min_elevation_m": 38.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

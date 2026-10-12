@@ -1,0 +1,64 @@
+{
+  "candidate": "54625097-54625113-7307599-r-80",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb with cars parked; homes 15 m away on the same side.",
+  "reasons": [
+    "Houses 15 m away, same side",
+    "Other cars park along kerb",
+    "Wide sealed street, room to stop"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings at 15 m on the west side and 20 m across the road; fully residential.",
+    "access_and_room": "Open street with parked cars along the kerb; room to stop clear of the lane.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Cars park along the kerb in both images; no signs."
+  },
+  "flags": [
+    "Homes within 25 m all round",
+    "Gate 114 m away has a mapped way round"
+  ],
+  "sun_shade": "Open kerb; house shade from the west in the afternoon, some tree cover opposite.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 35,
+    "where": "Usher Street west kerb, midway between the two cross streets",
+    "slope_pct": 0.6,
+    "points": [
+      [
+        152.966168,
+        -27.501837
+      ],
+      [
+        152.966181,
+        -27.502016
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 1.1,
+    "min_elevation_m": 40.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

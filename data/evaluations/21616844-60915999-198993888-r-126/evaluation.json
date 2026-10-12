@@ -1,0 +1,67 @@
+{
+  "candidate": "21616844-60915999-198993888-r-126",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Plain kerb where cars park, but apartments sit 13-26 m behind on this side.",
+  "reasons": [
+    "Apartments within 25 m, same side",
+    "Cars park along this kerb",
+    "Busy through street, no verge"
+  ],
+  "drivers": {
+    "seclusion": "Apartments and terraces 19-26 m away on the same side, more homes across the road; homes within 25 m all round.",
+    "access_and_room": "Kerbside lane where cars park in the imagery; room to pull in beside the lane.",
+    "traffic": "Through street with steady traffic; apartments and houses either side.",
+    "convention": "Cars parked along both kerbs in QLD imagery, so a van will not stand out; No Stopping Mon-Sat afternoons and half-hour parking signs apply by day."
+  },
+  "flags": [
+    "Slope about 3.3% over this section",
+    "Dwellings 9-19 m from kerb further south (at 18-90 m)",
+    "No Stopping 3-7pm Mon-Sat signs"
+  ],
+  "sun_shade": "Open to the sky, tree canopy on the verge to the west; afternoon sun from the west blocked by buildings.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 16,
+    "where": "Station Road west kerb, north end beside the leafy verge strip",
+    "slope_pct": 3.3,
+    "points": [
+      [
+        152.971237,
+        -27.498896
+      ],
+      [
+        152.971238,
+        -27.498899
+      ],
+      [
+        152.971236,
+        -27.49904
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 3.5,
+    "min_elevation_m": 46.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

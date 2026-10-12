@@ -1,0 +1,23 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Narrow dense street; houses 5-7 m from kerb along the stretch.",
+  "reasons": ["Houses 5-12 m away, same side", "Narrow lane, cars park both sides", "Steep: about 8% mean, 17% max"],
+  "best_section": {
+    "from_m": 45,
+    "to_m": 57,
+    "where": "Telarah Street east kerb at the southern end, near the junction",
+    "slope_pct": 2
+  },
+  "drivers": {
+    "seclusion": "Detached house 5 m from this section and others 6-12 m away.",
+    "access_and_room": "Narrow lane with cars already parked on both sides; little room to pull clear.",
+    "traffic": "Quiet short residential street.",
+    "convention": "Residents park along the kerb, but the van would sit beside houses."
+  },
+  "flags": ["Steep: 8% mean, 17% max over the stretch", "House 5 m from the best section"],
+  "sun_shade": "Garden trees shade the kerb in patches, mainly from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Crossfall", "Street lighting", "Kerb height"],
+  "confidence": "high"
+}

@@ -1,0 +1,63 @@
+{
+  "candidate": "60915708-10925713203-8119419-r-100",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Flat kerb by the junction with grass verge; homes 14-15 m away.",
+  "reasons": [
+    "Nearest home 14 m away",
+    "Grass verge at the junction",
+    "Cars park nearby"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwelling about 14 m away at 39 m; others 43 m or more; across the road homes about 15-20 m.",
+    "access_and_room": "Wide sealed road with a grass verge at the corner; a van fits at the kerb.",
+    "traffic": "Junction with a busier road close by.",
+    "convention": "Cars park along the street here; no sign of van stays."
+  },
+  "flags": [
+    "Steep along most of the stretch: up to 15%",
+    "Homes within 25 m",
+    "Junction noise"
+  ],
+  "sun_shade": "Open; a tree stand shades the south-west side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 46,
+    "to_m": 57,
+    "where": "Thorpe Street south kerb, at the junction with the main road, by the grass verge",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.970672,
+        -27.49698
+      ],
+      [
+        152.970779,
+        -27.496954
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 0,
+    "min_elevation_m": 32.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

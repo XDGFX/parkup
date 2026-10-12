@@ -1,0 +1,64 @@
+{
+  "candidate": "251615762-4920414456-23252515-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb beside a vacant treed lot, houses 18-23 m away.",
+  "reasons": [
+    "Nearest houses 18-23 m on own side",
+    "Treed vacant lot beside the kerb",
+    "Very flat, cars already park here"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings on the south side are 18 m (37 m) and 22 m (53 m), then 23 m (73 m); a treed gap between the houses helps. Houses across the road on the north side add to the exposure, so homes are within about 25 m all round.",
+    "access_and_room": "Sealed street with a grass verge and vehicles parked on this side in the imagery; there is room to pull in.",
+    "traffic": "Quiet local street, little through traffic, ending in a turning bend by bush.",
+    "convention": "Cars park along it, but no campervans or overnight use seen."
+  },
+  "flags": [
+    "Flat: about 0.5% grade over the section (mean 2.4%, max 11.6% only near the start)",
+    "Mapped car park 97 m away; not used for this section",
+    "Waterway 158 m away; elevation about 35 m"
+  ],
+  "sun_shade": "Tree canopy over the south verge gives shade from the south and west; open to the morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 42,
+    "to_m": 68,
+    "where": "South side mid-street, opposite the pair of houses, beside the treed block",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.96251,
+        -27.496565
+      ],
+      [
+        152.962761,
+        -27.496494
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 0.7,
+    "min_elevation_m": 35.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

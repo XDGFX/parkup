@@ -1,0 +1,64 @@
+{
+  "candidate": "54625097-54625113-7307599-l-68",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Plain residential kerb with houses 11-15 m behind; a few cars park here.",
+  "reasons": [
+    "Houses 11-15 m on same side",
+    "Some cars park along kerb",
+    "Quiet suburban street"
+  ],
+  "drivers": {
+    "seclusion": "Houses with front gardens 12-23 m behind the kerb on the same side; no bush or open land.",
+    "access_and_room": "Wide street; cars park at the kerb, so room to stop clear of the lane.",
+    "traffic": "Moderate local traffic, close to a junction at the south end.",
+    "convention": "Several cars park along the kerb, but no campervan convention."
+  },
+  "flags": [
+    "Dwellings 11-15 m on same side",
+    "Slope up to 9.3% over one step, 2.5% mean",
+    "Residential neighbours likely to notice"
+  ],
+  "sun_shade": "Street trees shade the kerb from the east in the morning; open to the west in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 18,
+    "to_m": 50,
+    "where": "Usher Street east kerb, under the street trees before the junction",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.966244,
+        -27.501752
+      ],
+      [
+        152.966264,
+        -27.502039
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 40.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

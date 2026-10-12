@@ -1,0 +1,64 @@
+{
+  "candidate": "21616885-21616887-6890811-l-232",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb beside a park playground, but apartments sit 12-16 m behind it.",
+  "reasons": [
+    "Apartments 12-16 m on same side",
+    "Park opposite",
+    "Cars park nearby"
+  ],
+  "drivers": {
+    "seclusion": "Park across the road, but apartment blocks 12-16 m on the section's own side.",
+    "access_and_room": "Ordinary kerbside lane; a few cars stand along it.",
+    "traffic": "Quiet residential street bending towards a service station.",
+    "convention": "Cars park here; a 1P Parallel sign is mapped (time limit already screened)."
+  },
+  "flags": [
+    "Dwellings 12-16 m on same side",
+    "Slope up to 7.8% over one step, 2% mean",
+    "Overhead power lines"
+  ],
+  "sun_shade": "Mixed tree shade, mostly from the north side and overhead.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "Underhill Avenue north kerb, opposite the park shelters",
+    "slope_pct": 2.1,
+    "points": [
+      [
+        152.974837,
+        -27.499361
+      ],
+      [
+        152.975001,
+        -27.499467
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 20.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

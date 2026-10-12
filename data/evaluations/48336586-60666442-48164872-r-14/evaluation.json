@@ -1,0 +1,64 @@
+{
+  "candidate": "48336586-60666442-48164872-r-14",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, but houses sit 11-14 m behind it.",
+  "reasons": [
+    "Dwellings 11-14 m away, same side",
+    "Cars parked along this kerb",
+    "Near level at 12-26 m"
+  ],
+  "drivers": {
+    "seclusion": "Houses front this kerb; nearest dwellings 9 m (at 0 m) and 11 m (at 28 m), with hedges and trees screening.",
+    "access_and_room": "Sealed kerbside lane with several parked cars; room to pull in at the kerb, no gate or barrier.",
+    "traffic": "Wide through street with moderate traffic.",
+    "convention": "Cars park on this kerb in both images, so a van would not stand out."
+  },
+  "flags": [
+    "Dwellings 10-25 m away on the same side",
+    "Steep further north: up to 11% at 95-120 m",
+    "Opposite side is bush with a wide dirt verge where cars also park"
+  ],
+  "sun_shade": "Hedges and trees shade the kerb from the east; afternoon sun from the west over the road.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 12,
+    "to_m": 26,
+    "where": "East kerb of Taringa Parade, about 15 m north of the southern junction",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.968123,
+        -27.490671
+      ],
+      [
+        152.968093,
+        -27.490548
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 0.8,
+    "min_elevation_m": 51.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,65 @@
+{
+  "candidate": "60915708-10925713203-8119419-r-0",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep kerb at the cul-de-sac head, bush behind, homes 18 m away.",
+  "reasons": [
+    "Homes 18 m away",
+    "Steep about 11% grade",
+    "Bush on the south-west side"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings 15-18 m away; bush to the south-west; none within 10 m.",
+    "access_and_room": "Sealed turning head with a car parked; a van fits at the kerb.",
+    "traffic": "Quiet dead-end street.",
+    "convention": "Residential street with no sign of van stays."
+  },
+  "flags": [
+    "Steep: about 11% grade",
+    "Homes within 25 m all round",
+    "Rest of the kerb has dwellings 9-14 m away"
+  ],
+  "sun_shade": "Bush shades the south-west; open to morning sun from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "Thorpe Street south kerb, at the cul-de-sac head by the bush",
+    "slope_pct": 11,
+    "points": [
+      [
+        152.969267,
+        -27.497382
+      ],
+      [
+        152.969399,
+        -27.497336
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 11.3,
+    "min_elevation_m": 40,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:06:49Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

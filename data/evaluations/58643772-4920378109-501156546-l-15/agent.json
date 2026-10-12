@@ -1,0 +1,23 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Tight 14 m kerb beside a roundabout, trees to the edge, houses 15 m.",
+  "reasons": ["Trees and bank right at kerb", "Beside roundabout splitter island", "Houses 15 m on same side"],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "Taringa Parade east kerb, just north of the roundabout",
+    "slope_pct": 8
+  },
+  "drivers": {
+    "seclusion": "Houses 15 m and 17 m away on the same side, more within 25 m.",
+    "access_and_room": "Narrow lane with dense trees along the verge; no clear ground beside the lane to pull off.",
+    "traffic": "Quiet street but the stretch runs into a roundabout approach with a splitter island.",
+    "convention": "No parked cars on this stretch in either image; no signs."
+  },
+  "flags": ["Steep: DEM about 8% mean, noisy over 14 m", "Houses 15 m away on the same side"],
+  "sun_shade": "Heavily shaded by tree canopy over the whole stretch.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Crossfall", "Street lighting", "Kerb height"],
+  "confidence": "medium"
+}
