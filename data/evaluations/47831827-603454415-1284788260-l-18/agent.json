@@ -1,0 +1,29 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Detached homes sit 4-9 m from the kerb along the whole stretch.",
+  "reasons": [
+    "Dwellings within 10 m all along",
+    "Busy through road, little kerb parking",
+    "Slope averages 5%, max 11%"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Detached houses 4-9 m from the south kerb from 6 m to 137 m; apartments 17-18 m at each end.",
+    "access_and_room": "Kerb of a two-lane through road; few cars parked along it in either image.",
+    "traffic": "Swann Road is a busy route with cars in both directions and a signalised junction at the start.",
+    "convention": "No signs. Some cars on the road but no clear parking lane."
+  },
+  "flags": [
+    "Steep: mean 5.3%, max 11.4% rising west",
+    "Busy road noise"
+  ],
+  "sun_shade": "Street trees shade the 90-120 m end from the south; the rest is open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether parking is restricted by signs on site"
+  ],
+  "confidence": "high"
+}

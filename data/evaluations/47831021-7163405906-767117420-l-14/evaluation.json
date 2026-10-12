@@ -1,0 +1,48 @@
+{
+  "candidate": "47831021-7163405906-767117420-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb is a painted median island at a junction, nowhere to stop.",
+  "reasons": [
+    "Line sits on junction island",
+    "Dwellings 14 m away",
+    "Main road, no parking lane"
+  ],
+  "drivers": {
+    "seclusion": "Homes 14 to 17 m away on both sides of the junction.",
+    "access_and_room": "The line runs along a raised island with hatched markings between traffic lanes; no room to pull out.",
+    "traffic": "Busy signed junction on Stanley Terrace.",
+    "convention": "No parked cars on this stretch; sign 2P Mon-Fri 7am-7pm, resident permits excepted."
+  },
+  "flags": [
+    "Median island at junction",
+    "Sloping: mean grade 6.2%",
+    "Main road with no parking"
+  ],
+  "sun_shade": "Open to sun; tree shade from the north-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 5.8,
+    "min_elevation_m": 37.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

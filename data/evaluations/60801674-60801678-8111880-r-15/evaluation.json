@@ -1,0 +1,64 @@
+{
+  "candidate": "60801674-60801678-8111880-r-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet dead-end kerb beside a grassy verge; homes 19-20 m across the road.",
+  "reasons": [
+    "Homes 19-20 m across road",
+    "Wide grass verge on own side",
+    "Steep: about 5% grade"
+  ],
+  "drivers": {
+    "seclusion": "Own side is a grassy block with the nearest house 40+ m south; houses 19-20 m opposite.",
+    "access_and_room": "Sealed street; grass verge beside the kerb gives room to pull off the lane.",
+    "traffic": "Short quiet side street ending in bush; little through traffic.",
+    "convention": "Cars park on the street here; no signs."
+  },
+  "flags": [
+    "Steep: about 5% grade, up to 10% in places",
+    "Homes within 25 m across the road",
+    "Overhead power lines along the south side"
+  ],
+  "sun_shade": "Open to the sun; some trees at the east end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Resident attitude"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 40,
+    "to_m": 65,
+    "where": "Todd Street south kerb, beside the open grassy block",
+    "slope_pct": 5,
+    "points": [
+      [
+        152.988,
+        -27.499485
+      ],
+      [
+        152.988249,
+        -27.499523
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 6.4,
+    "min_elevation_m": 20,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

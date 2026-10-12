@@ -1,0 +1,29 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Curved Swann Road kerb with no-stopping signs and homes 8 m away.",
+  "reasons": [
+    "No Stopping Any Time signs both ways",
+    "Homes 8-9 m along most of it",
+    "Narrow vegetated verge, no pull-off"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Detached homes 8 m from the south kerb at 10-12 m, 37 m, 52 m and 9 m at the end; others 11-25 m.",
+    "access_and_room": "South side is a thin planted verge against fences; the lane is the only place to stop on the bend.",
+    "traffic": "Swann Road is a through road with a bend and a side-street junction at the start.",
+    "convention": "Two No Stopping Any Time signs (6.8 m and 12 m from the kerb line). A few cars park on the north side only."
+  },
+  "flags": [
+    "No Stopping Any Time signs on the stretch",
+    "Slope 3.8% mean, 8.4% max (steep)",
+    "Road noise"
+  ],
+  "sun_shade": "Dense garden trees shade the south verge from 30 m on; the start is open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high"
+}

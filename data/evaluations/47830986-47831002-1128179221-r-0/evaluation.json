@@ -1,0 +1,66 @@
+{
+  "candidate": "47830986-47831002-1128179221-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Kerb at a junction and driveway, with homes 9-13 m away.",
+  "reasons": [
+    "Houses 9-13 m from the kerb",
+    "Junction, crossing and driveway frontage",
+    "Resident permit 2P signs"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 9 m and 11-13 m away on the same side, across a driveway.",
+    "access_and_room": "Sealed road, no cars parked along this stretch; kerb is taken up by a crossing and driveway.",
+    "traffic": "Through road with a marked crossing at a bend.",
+    "convention": "2P Mon-Fri 7am-7pm, resident permits excepted; no sign of overnight stays."
+  },
+  "flags": [
+    "Signs: 2P parallel, resident permits excepted",
+    "Pedestrian crossing and bend",
+    "Level: about 1% grade"
+  ],
+  "sun_shade": "Open to the sun with trees to the south-east; shade from the afternoon sun is partial.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 29,
+    "where": "east kerb of Stanley Terrace beside the pedestrian crossing at the bend",
+    "slope_pct": 0.9,
+    "points": [
+      [
+        152.980118,
+        -27.489626
+      ],
+      [
+        152.980303,
+        -27.489423
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 41.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

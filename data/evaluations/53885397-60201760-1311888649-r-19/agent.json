@@ -1,0 +1,28 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Short Swann Road kerb with homes 6-9 m away and a kink in the line.",
+  "reasons": [
+    "Detached homes 6 m and 9 m away",
+    "Only 32 m, on a busy road",
+    "Garage 5 m from kerb"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Detached homes 6 m (at 17 m) and 9 m (at 32 m) from the south kerb; more homes 14-15 m; apartments 16 m opposite.",
+    "access_and_room": "Cars park on the lane edge, but the south side is a narrow verge in front of houses.",
+    "traffic": "Swann Road carries traffic both ways, with a junction just past the end.",
+    "convention": "No signs. A few cars park on the north side but this south stretch is short and exposed."
+  },
+  "flags": [
+    "Slope 3% mean, 7% max (steep)",
+    "Road noise"
+  ],
+  "sun_shade": "Trees shade the south verge from the afternoon west; road is open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high"
+}

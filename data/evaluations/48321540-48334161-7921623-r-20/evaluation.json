@@ -1,0 +1,73 @@
+{
+  "candidate": "48321540-48334161-7921623-r-20",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bus-route kerb with little parking; houses about 10-11 m behind it.",
+  "reasons": [
+    "Houses about 10-11 m behind kerb",
+    "Only a few cars park here",
+    "Slope about 1.5%"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings are about 11 m away at 56 m along and 10 m away at 6 m along; the section is a few metres clear of both but houses and fences line the whole back edge.",
+    "access_and_room": "Footpath and narrow verge beside a sealed lane; a van can pull in where other cars park, but room is limited.",
+    "traffic": "Through road with a bus in the imagery; steady traffic.",
+    "convention": "No signs mapped. A few cars park at the kerb near 50 m and 105 m, so a van is not unique, but parking is thin."
+  },
+  "flags": [
+    "Homes about 10 m away on the same side",
+    "Bus route and through traffic noise",
+    "Steep further along: max grade 11.6% towards the far end",
+    "No parking signs to confirm legality"
+  ],
+  "sun_shade": "Open to sun at the east end; trees over the road to the south-west give some afternoon shade.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether the kerb is wide enough to stop fully clear of the lane"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 45,
+    "where": "North kerb of Stanley Terrace, between the east-end houses and the white-roofed house, backed by fences and trees",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.974604,
+        -27.488399
+      ],
+      [
+        152.974542,
+        -27.48841
+      ],
+      [
+        152.97441,
+        -27.488438
+      ],
+      [
+        152.974358,
+        -27.488453
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 1.2,
+    "min_elevation_m": 62.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

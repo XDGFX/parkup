@@ -1,0 +1,50 @@
+{
+  "candidate": "47831366-332951021-195835120-l-105",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short arterial kerb beside a grass bank; no parking, customer car park behind.",
+  "reasons": [
+    "Main road kerb, no parked cars",
+    "Grass bank, nowhere to pull off",
+    "Shop car park behind is customers only"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwelling is 27 m away; the neighbours are shops and a petrol-style forecourt car park, so seclusion would otherwise be fine.",
+    "access_and_room": "A van would stop in the live lane of a multi-lane road; the verge is a steep grass bank with no pull-off.",
+    "traffic": "Heavy arterial traffic beside an overpass and signalised junction.",
+    "convention": "No cars parked along this kerb; the mapped car parks nearby are for customers."
+  },
+  "flags": [
+    "Main road with no parking",
+    "Noise from arterial and junction",
+    "Slope about 5% (max 10.6%)",
+    "Mapped car parks 4 and 9 m away are customers only"
+  ],
+  "sun_shade": "Open to sun; a building to the east shades the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "signs on site",
+    "crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 27,
+    "gated": false,
+    "slope_pct": 5.3,
+    "min_elevation_m": 39.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,29 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Swann Road kerb with homes 3-11 m away along nearly all of it.",
+  "reasons": [
+    "Dwellings 3-11 m from kerb",
+    "Bus zone at the far end",
+    "Busy arterial, little kerb parking"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Detached homes 3-4 m from the south kerb at 29-50 m, 8 m at 7 m, 10 m at 20 m, 11 m at 78 m; apartments 30 m at the end.",
+    "access_and_room": "South kerb borders narrow garden verges; a few cars stand at the lane edge but there is no pull-off.",
+    "traffic": "Busy two-lane Swann Road with traffic both ways and a bus stop.",
+    "convention": "Bus Zone sign 0.8 m from the kerb line near the end; a few cars park on the street but no clear parking lane."
+  },
+  "flags": [
+    "Bus Zone sign on the stretch",
+    "Steep: 3.7% mean, 12.8% max",
+    "Road and bus noise"
+  ],
+  "sun_shade": "Dense tree cover shades the south side from 50 m on; the start is open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high"
+}

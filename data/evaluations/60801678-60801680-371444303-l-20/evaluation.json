@@ -1,0 +1,66 @@
+{
+  "candidate": "60801678-60801680-371444303-l-20",
+  "verdict": "poor",
+  "agent_verdict": "good",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Street end backing onto bush, cars already park here, homes 23 m across.",
+  "reasons": [
+    "Bush on own side",
+    "Cars park at this street end",
+    "Homes 23+ m across road"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush on the north side; nearest home on this side is 10 m past the section's end, others 23+ m across the road.",
+    "access_and_room": "Sealed street with a dirt pull-off at the bush edge; two cars parked there, so room for a van.",
+    "traffic": "Quiet residential street, little through traffic.",
+    "convention": "Cars park along this kerb and pull-off; no signs."
+  },
+  "flags": [
+    "Dwelling 4-6 m from kerb beyond 30 m along",
+    "Homes 23-25 m across the road",
+    "Overhead power lines on the south side"
+  ],
+  "sun_shade": "Bush shade from the north and east; open to the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the pull-off is private land"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 5,
+    "to_m": 25,
+    "where": "Todd Street north side, western end where the road meets the bush",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        152.988848,
+        -27.499517
+      ],
+      [
+        152.989048,
+        -27.499544
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 17.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

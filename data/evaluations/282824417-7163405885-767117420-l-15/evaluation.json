@@ -1,0 +1,51 @@
+{
+  "candidate": "282824417-7163405885-767117420-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Ten-metre kerb at a busy junction beside a traffic island; too short for a van.",
+  "reasons": [
+    "Only 10 m, shorter than a van",
+    "At a junction with a median island",
+    "No cars parked, through road"
+  ],
+  "drivers": {
+    "seclusion": "Dwelling 10 m away and several more within 20 m; open to the junction.",
+    "access_and_room": "The kerb is 10 m long at a junction mouth and island, with no room to stop clear of the lane.",
+    "traffic": "Busy through road with a junction and pedestrian crossing.",
+    "convention": "No parked cars along this stretch."
+  },
+  "flags": [
+    "Steep: about 3.7% grade",
+    "Junction and crossing right here",
+    "Mapped gate 209 m away has a way round it"
+  ],
+  "sun_shade": "Trees shade the kerb from the west and north-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 3.7,
+    "min_elevation_m": 41.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

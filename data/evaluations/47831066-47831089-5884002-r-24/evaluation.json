@@ -1,0 +1,70 @@
+{
+  "candidate": "47831066-47831089-5884002-r-24",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Parked-up Stanley Terrace kerb, but homes sit 10-20 m behind it.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Dwellings 10-20 m on same side",
+    "Slope about 1.8%"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the kerb on this side: one 9 m back at 10 m along, one 10 m back at 49 m along. The 20-40 m gap is the furthest from both, still within about 15 m of each.",
+    "access_and_room": "Parallel parking lane with cars parked, room to pull fully off the traffic lane.",
+    "traffic": "Busy two-way street, cars parked on both sides.",
+    "convention": "Cars park along this kerb, so a van fits in. 2P limit applies, with resident permits excepted Mon-Fri 7am-7pm."
+  },
+  "flags": [
+    "Dwellings close: 9-10 m at both ends of the section",
+    "2P parking signs, resident permits excepted Mon-Fri 7am-7pm",
+    "Noise from through traffic"
+  ],
+  "sun_shade": "Dense canopy over the north side shades the section; the road is open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Enforcement of the 2P limit overnight"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 40,
+    "where": "North kerb of Stanley Terrace, between the two houses, under heavy tree cover",
+    "slope_pct": 1.8,
+    "points": [
+      [
+        152.977652,
+        -27.489355
+      ],
+      [
+        152.977602,
+        -27.489352
+      ],
+      [
+        152.977454,
+        -27.48932
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 46.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

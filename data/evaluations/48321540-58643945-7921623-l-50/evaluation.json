@@ -1,0 +1,62 @@
+{
+  "candidate": "48321540-58643945-7921623-l-50",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short residential kerb with houses 7-23 m away and a steep grade.",
+  "reasons": [
+    "House 7 m away at 27 m",
+    "Houses within 20 m all round",
+    "Steep: 8% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings on both sides within 16-23 m; house 16 m at the start and 7 m near the end.",
+    "access_and_room": "Sealed street with a kerb; no clear parked cars or lay-by to judge room.",
+    "traffic": "Quiet residential street joining a busier road at the end.",
+    "convention": "No signs; no sign of vans staying here."
+  },
+  "flags": [
+    "Steep: about 8% mean, 10% max",
+    "House within 10 m of the far end"
+  ],
+  "sun_shade": "Heavy tree canopy over the start; open to the afternoon sun further along.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "Stanley Terrace north kerb, start of stretch under the big tree",
+    "slope_pct": 8.2,
+    "points": [
+      [
+        152.975484,
+        -27.488565
+      ],
+      [
+        152.975574,
+        -27.488637
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 8.2,
+    "min_elevation_m": 59.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,35 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Residential stretch of Swann Road with homes 12-20 m away, cars parked opposite.",
+  "reasons": [
+    "Homes 10-25 m from the south kerb",
+    "Cars park along this road",
+    "No stopping 7-9am Mon-Fri"
+  ],
+  "best_section": {
+    "from_m": 20,
+    "to_m": 35,
+    "where": "Mid-block on the south side, in front of the tree-shaded gap between houses",
+    "slope_pct": 4.5
+  },
+  "drivers": {
+    "seclusion": "Dwellings 10-12 m from the kerb around 18 m and 38 m; nearest to this section is about 12-20 m. Apartments 20 m across the road.",
+    "access_and_room": "Plain kerb with a lane of room beside it; cars are parked along the road in both images. No pull-off.",
+    "traffic": "Swann Road is a through road with traffic both ways and a junction at the end.",
+    "convention": "Signs: 1P Mon-Fri 9am-5:30pm (daytime only) and no stopping Mon-Fri 7-9am, so a van must leave before 7am on weekdays."
+  },
+  "flags": [
+    "No stopping Mon-Fri 7-9am",
+    "Steep: 4.5% at the section, 5.3% mean, 8.6% max",
+    "Road noise"
+  ],
+  "sun_shade": "Street and garden trees shade the section from the south and afternoon west; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether signs on site match the council data"
+  ],
+  "confidence": "medium"
+}

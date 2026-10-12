@@ -1,0 +1,64 @@
+{
+  "candidate": "48334161-58770952-1128179222-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb with homes 5-8 m away along most of its length.",
+  "reasons": [
+    "Houses 5 m and 8 m from kerb",
+    "Driveways and homes line the south side",
+    "Slope about 3.6%"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings at 8 m (at 30 m) and 5 m (at 53 m); detached homes 20-23 m across the road.",
+    "access_and_room": "Sealed street with a kerbside lane; cars park on the north side.",
+    "traffic": "Through street with a junction at the start; moderate traffic.",
+    "convention": "No signs; other cars park along the road but homes sit directly behind."
+  },
+  "flags": [
+    "Steep: about 3.6% mean, 6.4% max",
+    "Homes within 10 m of every part"
+  ],
+  "sun_shade": "Mostly open; trees shade the start from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 38,
+    "to_m": 48,
+    "where": "Stanley Terrace south kerb between the two house frontages",
+    "slope_pct": 3.6,
+    "points": [
+      [
+        152.972883,
+        -27.48885
+      ],
+      [
+        152.972782,
+        -27.488845
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 65.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

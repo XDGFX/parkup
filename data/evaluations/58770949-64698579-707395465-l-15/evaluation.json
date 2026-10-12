@@ -1,0 +1,65 @@
+{
+  "candidate": "58770949-64698579-707395465-l-15",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Quiet Taringa residential kerb with homes close on both sides; workable but exposed.",
+  "reasons": [
+    "Homes 11 m away on own side",
+    "Houses all round within 25 m",
+    "Cars park along this street"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 11 m away on the south side near 62 m and more across the road at 16-22 m. Nothing secluded.",
+    "access_and_room": "Sealed street with parked cars along the kerb, so room to pull in.",
+    "traffic": "Quiet residential street, low traffic.",
+    "convention": "Cars are parked along the kerb in both images, but no sign of overnight stays."
+  },
+  "flags": [
+    "Steep in places: max grade 9.2%, about 2.7% mean",
+    "Homes within 25 m on both sides"
+  ],
+  "sun_shade": "Mostly open; street trees give patchy shade from the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 47,
+    "to_m": 58,
+    "where": "South kerb of Stanley Terrace, between two driveways opposite the large modern houses",
+    "slope_pct": 2.5,
+    "points": [
+      [
+        152.970823,
+        -27.488317
+      ],
+      [
+        152.970732,
+        -27.488261
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 0.8,
+    "min_elevation_m": 61.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

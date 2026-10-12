@@ -1,0 +1,48 @@
+{
+  "candidate": "53861621-58736591-1308749590-r-25",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a through road with a no-stopping sign and homes close.",
+  "reasons": [
+    "No Stopping Any Time sign nearby",
+    "Busy through road, no parking lane",
+    "Roof 4 m, home 12 m away"
+  ],
+  "drivers": {
+    "seclusion": "Only 27 m long; a roofed structure 4 m and a detached home 12 m from the south kerb, apartments 13 m to the north.",
+    "access_and_room": "Verge is a narrow bush strip beside the lane; no pull-off visible.",
+    "traffic": "Swann Road bends here with traffic both ways and a junction at the end.",
+    "convention": "Council sign says No Stopping Any Time; one car sits at the start but no parking lane."
+  },
+  "flags": [
+    "No Stopping Any Time sign 12.7 m from the kerb line",
+    "Slope 3% mean, 4.2% max (steep)",
+    "Road noise"
+  ],
+  "sun_shade": "Tree canopy over the south verge; open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 3,
+    "min_elevation_m": 41.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

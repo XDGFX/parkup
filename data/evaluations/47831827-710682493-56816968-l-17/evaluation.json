@@ -1,0 +1,63 @@
+{
+  "candidate": "47831827-710682493-56816968-l-17",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, steep residential kerb with houses 13 m away.",
+  "reasons": [
+    "13 m stretch, barely one van",
+    "Slope about 13.6%, over limit",
+    "Dwellings 13 m on same side"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 13 m away on the same side; more across the road.",
+    "access_and_room": "Sealed street with cars parked on the west side; the 13 m stretch only just fits a van.",
+    "traffic": "Quiet side street beside a busy cross road at the top.",
+    "convention": "Residential kerb parking, no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 13.6% grade, max 18%",
+    "Next to busy junction, noise likely"
+  ],
+  "sun_shade": "Trees along the east side shade it from the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 13,
+    "where": "east kerb of Saunders Street just south of the main road junction",
+    "slope_pct": 13.6,
+    "points": [
+      [
+        152.984094,
+        -27.497052
+      ],
+      [
+        152.984071,
+        -27.497167
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 14.6,
+    "min_elevation_m": 32.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

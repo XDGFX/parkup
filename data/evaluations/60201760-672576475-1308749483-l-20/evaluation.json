@@ -1,0 +1,50 @@
+{
+  "candidate": "60201760-672576475-1308749483-l-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short, very steep side-street kerb with houses 8-9 m away.",
+  "reasons": [
+    "Houses 8-9 m from lower kerb",
+    "Very steep, about 16% grade",
+    "Tree-covered narrow lane, no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes at 8 m (at 27 m) and 9 m (at 30 m) on the east side; the next at 14 m is near the junction, with more homes 19-22 m on the far side.",
+    "access_and_room": "Narrow sealed lane dropping from Victoria Street, tree-shaded with no visible verge or pull-off.",
+    "traffic": "Quiet side lane just off a busy road at the junction.",
+    "convention": "No parked cars on this stretch."
+  },
+  "flags": [
+    "Very steep: mean 16.2%, max 19.4%, over the 12% limit",
+    "Houses within 10 m of the lower end"
+  ],
+  "sun_shade": "Heavy tree canopy over the lane, shaded most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall",
+    "exact kerb width under canopy"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 16.2,
+    "min_elevation_m": 33.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

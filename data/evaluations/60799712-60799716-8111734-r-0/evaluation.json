@@ -1,0 +1,49 @@
+{
+  "candidate": "60799712-60799716-8111734-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 4 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow lane lined with houses 4-6 m from the kerb all the way.",
+  "reasons": [
+    "Dwellings within 6 m along whole kerb",
+    "Narrow lane, no room to pull off",
+    "Steep, mean grade about 7%"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the west kerb at 4-6 m at 0, 30, 46 and 66 m; the next nearest is 15 m, so no stretch clears 10 m.",
+    "access_and_room": "Narrow sealed lane with a few cars parked on the east side; no verge or pull-off on the west side.",
+    "traffic": "Quiet residential lane, light traffic.",
+    "convention": "A couple of cars parked in the lane, but all are residents' cars outside homes."
+  },
+  "flags": [
+    "Steep: mean 6.8%, up to 17.8% over 5 m steps",
+    "Houses within 10 m rule it out"
+  ],
+  "sun_shade": "Mixed tree canopy along the west edge, shade from the east side at times.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "street lighting",
+    "crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 4,
+    "gated": false,
+    "slope_pct": 6.8,
+    "min_elevation_m": 45.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

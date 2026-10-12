@@ -1,0 +1,64 @@
+{
+  "candidate": "58770949-64698579-707395465-r-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "North kerb beside a vacant grassy slope; homes across the road about 20 m.",
+  "reasons": [
+    "Vacant grass and bush on own side",
+    "Homes about 20 m across the road",
+    "Quiet street, no parking convention"
+  ],
+  "drivers": {
+    "seclusion": "Own side backs onto an empty grassy slope and bush with no dwelling; houses on the south side sit about 20 m across the road.",
+    "access_and_room": "Sealed street, kerbside room beside the lane; nothing blocks it.",
+    "traffic": "Quiet residential street next to a junction.",
+    "convention": "A few cars park along the street nearby, but no sign of overnight stays."
+  },
+  "flags": [
+    "Steep: about 3% on the best section, max 7.4% along the stretch",
+    "Homes within 25 m across the road",
+    "Next to a junction"
+  ],
+  "sun_shade": "Open grass to the north; trees shade the kerb from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 92,
+    "to_m": 110,
+    "where": "North kerb beside the vacant grassy lot, just before the corner",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.970487,
+        -27.488001
+      ],
+      [
+        152.970336,
+        -27.487909
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 4.8,
+    "min_elevation_m": 61.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,64 @@
+{
+  "candidate": "60666442-60666445-48164873-r-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Through road with homes 8-18 m away; no cars park on this kerb.",
+  "reasons": [
+    "Homes 8-18 m along whole kerb",
+    "Through road, no kerb parking on this side",
+    "Steep, 7% mean grade"
+  ],
+  "drivers": {
+    "seclusion": "Bush opposite, but houses sit 13-15 m from the kerb on the van's own side.",
+    "access_and_room": "Sealed road with narrow dirt edge on the east side; little room to pull clear of the lane.",
+    "traffic": "Through route linking suburbs with lane markings; steady traffic.",
+    "convention": "Few cars park on the east kerb; the odd car parks on the west edge only."
+  },
+  "flags": [
+    "Steep: about 5-7% grade, up to 16% in places",
+    "Homes mapped 8-18 m from kerb",
+    "Noise from through traffic"
+  ],
+  "sun_shade": "Mixed tree shade from the east side; bush shades the west edge.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Local parking restrictions"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 20,
+    "to_m": 40,
+    "where": "Taringa Parade east kerb, just north of the side-street corner",
+    "slope_pct": 4.8,
+    "points": [
+      [
+        152.967974,
+        -27.489275
+      ],
+      [
+        152.967926,
+        -27.4891
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 8.7,
+    "min_elevation_m": 61.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

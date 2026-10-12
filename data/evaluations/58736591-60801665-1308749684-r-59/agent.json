@@ -1,0 +1,28 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "11 m kerb across a driveway mouth, too short for a van.",
+  "reasons": [
+    "Only 11 m, shorter than a van",
+    "Driveway crosses the stretch",
+    "Home 10 m away, shop 8 m"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Detached home 10 m from the south kerb, shop 8 m at the start; apartments 22 m opposite.",
+    "access_and_room": "Stretch is a driveway apron; a van cannot stand fully clear on 11 m.",
+    "traffic": "Swann Road through traffic both ways.",
+    "convention": "Signs: 1P parallel Mon-Fri 9-5:30 and no stopping 7-9am; No Stopping Any Time sign 13 m away. No overnight convention."
+  },
+  "flags": [
+    "1P limit and no-stopping times on signs",
+    "Slope 4.9% mean, 7.6% max (steep)"
+  ],
+  "sun_shade": "Tree shades the south verge at the start; open elsewhere.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high"
+}

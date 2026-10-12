@@ -1,0 +1,64 @@
+{
+  "candidate": "60801674-60801678-8111880-l-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb; homes 14-16 m away on this side, steep.",
+  "reasons": [
+    "Homes 14-16 m on own side",
+    "Quiet street, cars and boat parked",
+    "Sloped about 5%"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 14-16 m from the kerb at 0-30 m; trees screen some frontages; homes also across the road.",
+    "access_and_room": "Sealed street with parked cars on the north kerb, so a van fits at the kerb.",
+    "traffic": "Short quiet side street, little through traffic.",
+    "convention": "Cars and a boat trailer park on this kerb; no signs."
+  },
+  "flags": [
+    "Steep: about 5% grade",
+    "Homes within 25 m both sides",
+    "Houses at 9 m beyond 36 m along"
+  ],
+  "sun_shade": "Mixed; tree shade from the north side, open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Resident attitude"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "Todd Street north kerb, first stretch from the corner",
+    "slope_pct": 4.7,
+    "points": [
+      [
+        152.987617,
+        -27.499333
+      ],
+      [
+        152.987917,
+        -27.499379
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 6.1,
+    "min_elevation_m": 21.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

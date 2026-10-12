@@ -1,0 +1,66 @@
+{
+  "candidate": "58770949-58770952-707395463-r-15",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 6 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "One gap between houses, 19-25 m from homes but steep.",
+  "reasons": [
+    "Houses 4-7 m away at both ends",
+    "Homes 19-29 m away in the gap",
+    "Steep: about 9% in the gap"
+  ],
+  "drivers": {
+    "seclusion": "Mapped dwellings 4 m at 20 m and 7 m at 42 m; the gap between them has homes 19-29 m away on the same side.",
+    "access_and_room": "Sealed street; no parked cars on this side, so room beside the lane is unclear.",
+    "traffic": "Through street; moderate traffic.",
+    "convention": "No signs; cars park on the north side but not clearly on this one."
+  },
+  "flags": [
+    "Steep: about 9% in the best section, 4.5% mean",
+    "Houses 4-7 m away just either side",
+    "Rest of stretch is within 10 m of homes"
+  ],
+  "sun_shade": "Street trees shade the south side; open to the north and afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Room to pull off the lane"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 24,
+    "to_m": 38,
+    "where": "Stanley Terrace south kerb between the first two houses, under street trees",
+    "slope_pct": 9,
+    "points": [
+      [
+        152.971722,
+        -27.488726
+      ],
+      [
+        152.971855,
+        -27.488769
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 6,
+    "gated": false,
+    "slope_pct": 10.4,
+    "min_elevation_m": 63.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

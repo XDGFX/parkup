@@ -1,0 +1,68 @@
+{
+  "candidate": "47831066-47831089-5884002-l-10",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wide parking lane on Stanley Terrace, but homes sit 15-20 m behind the kerb.",
+  "reasons": [
+    "Cars park along this kerb",
+    "Dwellings 15-19 m on same side",
+    "Slope about 3.6%"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 15 m and 19 m away on the same side, with a 10 m house near the 0 m end; tree cover screens them.",
+    "access_and_room": "Kerbside parallel parking lane beside a wide road, room to pull fully off the traffic lane.",
+    "traffic": "Busy two-way street with cars parked on both sides.",
+    "convention": "Cars park on both kerbs, so a van is not out of place. 2P limit applies, with resident permits excepted Mon-Fri 7am-7pm."
+  },
+  "flags": [
+    "Steep: about 3.6% grade, max 10% over one 5 m step",
+    "2P parking signs, resident permits excepted Mon-Fri 7am-7pm",
+    "Noise from through traffic"
+  ],
+  "sun_shade": "Heavy tree canopy on the south side shades the section; the road is open to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Enforcement of the 2P limit overnight"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 14,
+    "to_m": 30,
+    "where": "South kerb of Stanley Terrace, west end of the stretch, below the tree-covered houses",
+    "slope_pct": 3.6,
+    "points": [
+      [
+        152.97785,
+        -27.489459
+      ],
+      [
+        152.977844,
+        -27.489459
+      ],
+      [
+        152.977688,
+        -27.489448
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 3.5,
+    "min_elevation_m": 47,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

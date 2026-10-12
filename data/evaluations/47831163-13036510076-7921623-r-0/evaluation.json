@@ -1,0 +1,64 @@
+{
+  "candidate": "47831163-13036510076-7921623-r-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a bend beside a junction, with houses 12-15 m behind.",
+  "reasons": [
+    "Houses 12-15 m behind the kerb",
+    "Short stretch beside a junction",
+    "Slope about 2%"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 12 m and 15 m away on the same side, behind hedges and palms; the pool house is just beyond.",
+    "access_and_room": "Parallel kerbside lane wide enough to pull fully off; 14 m of usable kerb, enough for a van.",
+    "traffic": "Busy through road with a junction and a bend; a car is parked at the kerb in the QLD image.",
+    "convention": "No signs mapped on this stretch. Few cars park here, so a van would stand out more than on the signed stretches nearby."
+  },
+  "flags": [
+    "Close to a junction, so visibility and turning traffic",
+    "Homes 12-15 m away on the same side",
+    "Noise from through traffic"
+  ],
+  "sun_shade": "Palms and hedge give partial shade from the north-east; the kerb is otherwise open to sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height",
+    "Whether any no-stopping rule applies near the junction"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 8,
+    "to_m": 22,
+    "where": "North kerb of Stanley Terrace on the bend, past the side-street junction, below the solar-panel house",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.976159,
+        -27.489102
+      ],
+      [
+        152.97605,
+        -27.489022
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 55.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

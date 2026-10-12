@@ -1,0 +1,48 @@
+{
+  "candidate": "58736591-60801665-1308749684-r-46",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "13 m kerb outside a shop, signed no stopping and next to a driveway.",
+  "reasons": [
+    "No Stopping Any Time sign on the stretch",
+    "Shopfront on the kerb, homes beyond",
+    "Only 13 m, shorter than a van"
+  ],
+  "drivers": {
+    "seclusion": "Retail building touches the kerb at 5 m; detached home 11 m away; apartments 28 m opposite.",
+    "access_and_room": "Only 13 m long and cut by a driveway; narrow lane with no pull-off.",
+    "traffic": "Swann Road through traffic both ways; junction nearby.",
+    "convention": "Signs: No Stopping Any Time, 1P parallel Mon-Fri 9-5:30, no stopping 7-9am. Not an overnight spot."
+  },
+  "flags": [
+    "No Stopping Any Time sign 1.4 m from kerb line",
+    "1P limit Mon-Fri 9am-5:30pm",
+    "Slope 5.1% mean, 7.8% max (steep)"
+  ],
+  "sun_shade": "A tree shades the south side at the end; otherwise open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 5.7,
+    "min_elevation_m": 39.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

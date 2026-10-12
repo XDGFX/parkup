@@ -1,0 +1,50 @@
+{
+  "candidate": "60801665-257231357-1311694436-r-49",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Curved Swann Road kerb with no-stopping signs and homes 8 m away.",
+  "reasons": [
+    "No Stopping Any Time signs both ways",
+    "Homes 8-9 m along most of it",
+    "Narrow vegetated verge, no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Detached homes 8 m from the south kerb at 10-12 m, 37 m, 52 m and 9 m at the end; others 11-25 m.",
+    "access_and_room": "South side is a thin planted verge against fences; the lane is the only place to stop on the bend.",
+    "traffic": "Swann Road is a through road with a bend and a side-street junction at the start.",
+    "convention": "Two No Stopping Any Time signs (6.8 m and 12 m from the kerb line). A few cars park on the north side only."
+  },
+  "flags": [
+    "No Stopping Any Time signs on the stretch",
+    "Slope 3.8% mean, 8.4% max (steep)",
+    "Road noise"
+  ],
+  "sun_shade": "Dense garden trees shade the south verge from 30 m on; the start is open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 3.9,
+    "min_elevation_m": 38.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T11:49:43Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
