@@ -1,0 +1,50 @@
+{
+  "candidate": "osm-way-1252646157",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "parking area",
+  "summary": "Small angled bays in the middle of a narrow street, houses 8-10 m away.",
+  "reasons": [
+    "Houses 8-10 m from the bays",
+    "Narrow street, homes all round",
+    "Slope up to 19%"
+  ],
+  "drivers": {
+    "seclusion": "Homes within 8-13 m on both sides and a dozen more within 25 m.",
+    "access_and_room": "A strip of four angled bays in the street's middle, all occupied; no room beside the lane.",
+    "traffic": "Quiet narrow residential street.",
+    "convention": "Unlimited P Parallel signs on Chester Street; residents park here, a van would be noticed."
+  },
+  "flags": [
+    "Steep: mean grade 10.6%, max 19%",
+    "Dwelling 8 m from the outline",
+    "Signs: P (No Limit) parallel, No Stopping Any Time nearby"
+  ],
+  "sun_shade": "Open to sun; tree shade at the south end.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether the bays are resident-only in practice"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 9.7,
+    "min_elevation_m": 37.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,47 @@
+{
+  "candidate": "47831366-603457940-5884058-r-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a busy signalised junction on a main road; no parking.",
+  "reasons": [
+    "Main road, no parked cars",
+    "Junction splay, 13 m only",
+    "House 18 m away"
+  ],
+  "drivers": {
+    "seclusion": "Open junction with houses and apartments within 18-30 m.",
+    "access_and_room": "Kerb at a junction mouth beside through lanes; no room to pull out of traffic.",
+    "traffic": "Arterial with signals, heavy traffic.",
+    "convention": "No cars parked along this kerb; bike lane marked."
+  },
+  "flags": [
+    "Steep: DEM shows about 15% over 13 m, likely junction noise",
+    "Arterial noise"
+  ],
+  "sun_shade": "Tree canopy to the north; otherwise open.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 4.9,
+    "min_elevation_m": 30.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

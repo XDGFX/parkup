@@ -1,0 +1,47 @@
+{
+  "candidate": "58770948-64698579-8114055-r-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Wooded wedge at a road junction; no tracks, parking not usable.",
+  "reasons": [
+    "Junction corner on through roads",
+    "Treed wedge, no tyre tracks",
+    "No cars parked along kerb"
+  ],
+  "drivers": {
+    "seclusion": "Bush behind; houses 25 m and further to the south.",
+    "access_and_room": "Kerb is the corner of a junction; ground beside it is treed with no tracks.",
+    "traffic": "Two centre-lined through roads meet here.",
+    "convention": "No parked vehicles seen on these roads at the junction."
+  },
+  "flags": [
+    "Slope about 1-3%",
+    "Junction noise"
+  ],
+  "sun_shade": "Heavy tree cover from the north and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether the verge is firm enough to drive on"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 25,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 64.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

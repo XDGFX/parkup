@@ -1,0 +1,47 @@
+{
+  "candidate": "21616828-603456697-289836420-l-30",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Moggill Road arterial kerb at a bus zone with no stopping.",
+  "reasons": [
+    "Main road, no cars parked at kerb",
+    "Bus Zone and No Stopping signs",
+    "No pull-off beside the lane"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 18 m away and more homes within 35 m, open to the road.",
+    "access_and_room": "Plain kerb on a multi-lane arterial next to a rail or footbridge pier; no verge or pull-off.",
+    "traffic": "Busy arterial, constant traffic in both directions.",
+    "convention": "Two No Stopping Any Time and two Bus Zone signs within 15 m; no parked cars along this kerb."
+  },
+  "flags": [
+    "Signs: No Stopping Any Time and Bus Zone",
+    "Slope about 5.3% mean, 8.2% max",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open to the sky on the road side; some trees to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 8,
+    "min_elevation_m": 31.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,48 @@
+{
+  "candidate": "47830791-257002948-767117423-r-270",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "10 m of kerb at a side-street mouth on a main road.",
+  "reasons": [
+    "Junction mouth, no room to stop",
+    "Apartments 13 m away",
+    "Only 10 m long"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 13 m from the start; cleared lot to the north.",
+    "access_and_room": "Line sits across the mouth of Stanley Terrace where it meets the main road; stopping would block the junction.",
+    "traffic": "Busy arterial just south, with a dashed give-way line.",
+    "convention": "Cars park further up the side street, but not at the junction."
+  },
+  "flags": [
+    "Dwelling within 13 m",
+    "Steep: about 11% on DEM over 10 m, at the junction",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open; trees to the east and south-west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 10.8,
+    "min_elevation_m": 21.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

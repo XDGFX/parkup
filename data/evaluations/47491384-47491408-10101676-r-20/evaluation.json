@@ -1,0 +1,47 @@
+{
+  "candidate": "47491384-47491408-10101676-r-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Moggill Road slip-lane mouth under clearway and no-stopping signs.",
+  "reasons": [
+    "Clearway tow-away and No Stopping signs",
+    "Slip-lane mouth, painted gore markings",
+    "Arterial, no parked cars"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 24 m away and a building 14 m off; open to a busy arterial.",
+    "access_and_room": "Line runs along the entry to an exit slip lane with painted chevrons; no room to stop clear of traffic.",
+    "traffic": "Moggill Road arterial and its exit lane, constant traffic.",
+    "convention": "Clearway tow-away (Mon-Sat 7am-7pm), No Stopping Any Time and Bus Zone signs nearby; no parked cars."
+  },
+  "flags": [
+    "Signs: Clearway tow-away, No Stopping Any Time, Bus Zone",
+    "Slope about 5% mean, 8% max",
+    "Arterial noise"
+  ],
+  "sun_shade": "Mostly open to the sky; trees to the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 24,
+    "gated": false,
+    "slope_pct": 7.5,
+    "min_elevation_m": 32.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

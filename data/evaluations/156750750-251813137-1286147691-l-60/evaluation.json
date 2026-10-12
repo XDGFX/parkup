@@ -1,0 +1,48 @@
+{
+  "candidate": "156750750-251813137-1286147691-l-60",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep Carmody Road kerb, about 14% grade, with no cars parked now.",
+  "reasons": [
+    "Mean grade 14%, max 19%",
+    "No parked cars in the latest imagery",
+    "Flats and houses 17-22 m across road"
+  ],
+  "drivers": {
+    "seclusion": "Bush bank on the south side; homes 17-29 m away across the road.",
+    "access_and_room": "Narrow scrub verge beside the lane; rises 9 m over 60 m.",
+    "traffic": "Through road with centre line; a few cars parked here in 2022 only.",
+    "convention": "2P resident-permit sign; Esri 2025 shows no cars parked on this side."
+  },
+  "flags": [
+    "Steep: about 14% mean grade, over the 12% limit",
+    "Resident-permit 2P sign",
+    "Cars parked in 2022 imagery but not 2025"
+  ],
+  "sun_shade": "Tree canopy over the south verge; open sky from the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 14.1,
+    "min_elevation_m": 21.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

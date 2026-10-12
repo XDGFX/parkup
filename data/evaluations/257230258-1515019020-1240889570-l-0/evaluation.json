@@ -1,0 +1,49 @@
+{
+  "candidate": "257230258-1515019020-1240889570-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb at a street corner, signed no stopping, steep and overlooked by homes.",
+  "reasons": [
+    "At junction mouth; no room to park",
+    "No Stopping Any Time signs both streets",
+    "Homes 14-25 m away, steep grade"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 14 m, 18 m, 19 m, 23 m and 25 m from the section; homes all round.",
+    "access_and_room": "The kerb is the corner radius of the Highview Terrace and Douglas Street junction; no space to pull clear of the lanes.",
+    "traffic": "Junction of two streets with through traffic turning past the section.",
+    "convention": "No parked cars at the corner; two No Stopping Any Time signs sit at the junction."
+  },
+  "flags": [
+    "No Stopping Any Time signs at the junction",
+    "Steep: about 6% mean, up to 10.6% max",
+    "Corner with turning traffic, power lines overhead"
+  ],
+  "sun_shade": "Dense tree canopy over the kerb from the south-west; shaded most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 10.6,
+    "min_elevation_m": 17.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

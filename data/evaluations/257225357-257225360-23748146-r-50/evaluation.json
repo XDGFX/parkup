@@ -1,0 +1,49 @@
+{
+  "candidate": "257225357-257225360-23748146-r-50",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short, steep, tree-covered dead end beside apartments 8 m away.",
+  "reasons": [
+    "Apartments 8 m and 13 m away",
+    "Steep: 13% mean, 18% max",
+    "Narrow, under dense canopy"
+  ],
+  "drivers": {
+    "seclusion": "Apartment blocks 8 m and 13 m from the kerb, homes all round.",
+    "access_and_room": "Narrow lane under trees with two cars at its end; no spare room.",
+    "traffic": "Very quiet end of a residential lane.",
+    "convention": "No signs; a couple of cars parked at the lane end, likely residents."
+  },
+  "flags": [
+    "Steep: about 13% mean, 17.8% max",
+    "Dwellings within 10 m"
+  ],
+  "sun_shade": "Heavy tree canopy over most of the stretch.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 13.2,
+    "min_elevation_m": 32.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,47 @@
+{
+  "candidate": "10310126588-10310126592-1502424222-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb of a central traffic island at a junction; nowhere to pull out.",
+  "reasons": [
+    "Island edge inside a junction",
+    "No room beside the traffic lane",
+    "Homes 24 to 27 m away"
+  ],
+  "drivers": {
+    "seclusion": "Shaded junction with homes about 24 to 27 m away and a kindergarten 23 m off.",
+    "access_and_room": "Kerb is a tree-covered island between carriageways; a van would block the lane.",
+    "traffic": "Through road on Boomerang Road with a junction on both sides.",
+    "convention": "No signs; cars park only on the wider road to the south-west."
+  },
+  "flags": [
+    "Gentle: about 2.4% mean, 3% max",
+    "Kindergarten 23 m away"
+  ],
+  "sun_shade": "Dense tree canopy over the island, mostly shade all day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 24,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 12.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

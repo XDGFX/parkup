@@ -1,0 +1,47 @@
+{
+  "candidate": "47768791-362259439-129221361-r-40",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a main-road junction approach, no parking convention.",
+  "reasons": [
+    "Main road, no cars parked along it",
+    "Right at signalled junction",
+    "Only 9 m long, 7% grade"
+  ],
+  "drivers": {
+    "seclusion": "Exposed corner beside a signalled junction; no dwellings near.",
+    "access_and_room": "Kerb is the approach lane to the junction; no pull-off beyond the lane.",
+    "traffic": "Heavy arterial junction traffic.",
+    "convention": "No parked cars along this kerb; one slip lane with a parked car beyond the island."
+  },
+  "flags": [
+    "Steep: about 6-7% grade",
+    "Arterial noise"
+  ],
+  "sun_shade": "Open; trees shade the east side in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 47,
+    "gated": false,
+    "slope_pct": 6.3,
+    "min_elevation_m": 14.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

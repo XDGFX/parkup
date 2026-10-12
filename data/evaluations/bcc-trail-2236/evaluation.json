@@ -1,0 +1,62 @@
+{
+  "candidate": "bcc-trail-2236",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Park-edge kerb on a quiet residential street; houses across the road.",
+  "reasons": [
+    "Backs onto Jacaranda Park lawn",
+    "Houses about 20 m across the road",
+    "Few cars park here"
+  ],
+  "drivers": {
+    "seclusion": "Park lawn and trees on the van's side; homes sit on the opposite side of the street roughly 20 m away and others along the road to the south-west.",
+    "access_and_room": "Sealed public street, plain kerb beside the park with no gate; width looks enough to park fully at the kerb.",
+    "traffic": "Quiet suburban street serving a few houses; light local traffic.",
+    "convention": "Only a handful of cars on the street, none clearly parked overnight; no sign of campers."
+  },
+  "flags": [
+    "Homes about 20 m across the road, close to the 25 m mark",
+    "Low-lying: about 8 m elevation, Brisbane River 276 m away",
+    "Kerb between pin and houses has no parking convention",
+    "Pin sits on the park corner; a steeper bank of about 14% max lies near the pin but not on the kerb"
+  ],
+  "sun_shade": "Large trees at the pin shade the kerb from the north-east and overhead; open to afternoon sun from the west across the park.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Park-side kerb of the street where it bends, just south-west of the pin under the large trees",
+    "slope_pct": 2,
+    "points": [
+      [
+        153.00476,
+        -27.508357
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 44,
+    "gated": false,
+    "slope_pct": 4.5,
+    "min_elevation_m": 7.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

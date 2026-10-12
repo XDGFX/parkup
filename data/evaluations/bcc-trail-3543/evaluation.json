@@ -1,0 +1,46 @@
+{
+  "candidate": "bcc-trail-3543",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin sits in dense bush with no track; only footpaths nearby.",
+  "reasons": [
+    "Thick canopy, no vehicle track",
+    "Only pedestrian paths in park",
+    "Creek-side low ground"
+  ],
+  "drivers": {
+    "seclusion": "Secluded bush, but community centre and houses 28-70 m away.",
+    "access_and_room": "No track or tyre marks reach the pin; paths are pedestrian-width.",
+    "traffic": "Quiet park interior.",
+    "convention": "No sign anyone parks here."
+  },
+  "flags": [
+    "Low-lying: 0.4-4.5 m elevation, Toowong Creek 16 m away",
+    "Steep: max grade about 25%, mean 6.6%"
+  ],
+  "sun_shade": "Dense tree canopy over the whole pin.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether a maintenance track exists under canopy"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 67,
+    "gated": false,
+    "slope_pct": 6.6,
+    "min_elevation_m": 0.4,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

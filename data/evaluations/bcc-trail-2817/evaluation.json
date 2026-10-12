@@ -1,0 +1,62 @@
+{
+  "candidate": "bcc-trail-2817",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Informal dirt car area by the rail corridor with cars already parked.",
+  "reasons": [
+    "Backs onto rail corridor, cars park here",
+    "Nearest home 44 m away",
+    "Dirt surface meets the street edge"
+  ],
+  "drivers": {
+    "seclusion": "Rail tracks on one side and trees and grass on the other; nearest building is a hotel 17 m away (non-residential), nearest dwellings 44 m and further.",
+    "access_and_room": "Bare dirt surface meets the sealed street directly and several cars stand on it; room for a van beside them.",
+    "traffic": "Busy arterial road about 40 m to the east and trains alongside; the van stands clear of both lanes.",
+    "convention": "Cars are parked on the dirt in both images, so a parked vehicle does not stand out."
+  },
+  "flags": [
+    "Noise: rail line beside it and a busy arterial nearby",
+    "Low-lying: about 8-9 m elevation, Brisbane River 276 m away",
+    "Pin on a corner: exact boundary of the dirt area against the rail fence is unclear",
+    "Hotel 17 m away may have evening activity"
+  ],
+  "sun_shade": "Tree cover over the western edge and shade from trees to the north-west; open to the sun from the east and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether the dirt area is signed or fenced off",
+    "Surface firmness",
+    "Rail fence or gate details"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Dirt and gravel pull-in at the end of the street beside the rail line, just north-west of the pin",
+    "slope_pct": 2,
+    "points": [
+      [
+        152.992476,
+        -27.487455
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 44,
+    "gated": false,
+    "slope_pct": 6.9,
+    "min_elevation_m": 7.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

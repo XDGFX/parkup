@@ -1,0 +1,66 @@
+{
+  "candidate": "264669531-264669532-1292775017-l-15",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a bush-lined road stub off Carmody Road; homes 31 m away.",
+  "reasons": [
+    "Bush both sides, homes 31 m off",
+    "Narrow stub, no parking convention",
+    "Grade about 5%"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush on both sides; nearest homes 31 m and further, beyond the trees.",
+    "access_and_room": "Reachable from Carmody Road via a narrow sealed stub; width beside the lane looks tight and the section is only 8 m, shorter than a van.",
+    "traffic": "Quiet stub off a through road; Carmody Road traffic passes about 20 m away.",
+    "convention": "No parked cars on the stub; a Carmody Road sign sets 2P limits with resident permits excepted, weekdays 7am-6pm."
+  },
+  "flags": [
+    "Steep: about 5% grade, max 6%",
+    "Section only 8 m long",
+    "Resident-permit 2P sign on Carmody Road, weekdays 7am-6pm",
+    "Stub may be narrow with trees close to the lane"
+  ],
+  "sun_shade": "Heavy tree canopy over the section from both sides; shaded most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Exact sealed width of the stub",
+    "Whether the stub is signed"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 8,
+    "where": "East side of the Fifth Avenue stub, just south of the Carmody Road junction",
+    "slope_pct": 4.9,
+    "points": [
+      [
+        153.000757,
+        -27.4976
+      ],
+      [
+        153.000711,
+        -27.497659
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 31,
+    "gated": false,
+    "slope_pct": 6,
+    "min_elevation_m": 19.5,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

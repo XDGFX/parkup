@@ -1,0 +1,48 @@
+{
+  "candidate": "264668360-264669531-1286473006-r-30",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "13 m of kerb between two junctions, steep, with no room for a van.",
+  "reasons": [
+    "Shorter than a van, between junction crossings",
+    "Mean grade 10%, max 14%",
+    "Through road, no parked cars"
+  ],
+  "drivers": {
+    "seclusion": "Bush island behind the kerb; houses 19-22 m across the road.",
+    "access_and_room": "Kerb is 13 m long with zebra-style crossing markings at each end.",
+    "traffic": "Carmody Road through route with centre line.",
+    "convention": "2P resident-permit sign; no cars parked here in either image."
+  },
+  "flags": [
+    "Steep: about 10% mean grade",
+    "Too short for a van",
+    "Main road with no parking"
+  ],
+  "sun_shade": "Dense tree canopy over the kerb from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 8.5,
+    "min_elevation_m": 16.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

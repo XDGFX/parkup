@@ -1,0 +1,47 @@
+{
+  "candidate": "262163633-5146422010-1268929649-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb at a street junction, houses 12-17 m away, resident-permit parking.",
+  "reasons": [
+    "Stretch is a junction corner",
+    "Houses 12-17 m away",
+    "Resident permits excepted 2P signs"
+  ],
+  "drivers": {
+    "seclusion": "Homes 12 m and 17 m from the kerb; open to view on all sides.",
+    "access_and_room": "Kerb wraps a corner and junction mouth with stop lines; no sensible place to stand a van.",
+    "traffic": "Quiet residential junction.",
+    "convention": "2P Mon-Fri 7am-6pm, resident permits excepted; no overnight limit but a van would stand out."
+  },
+  "flags": [
+    "Signs: 2P parallel Mon-Fri 7am-6pm, resident permits excepted",
+    "Dwelling 12 m from the kerb"
+  ],
+  "sun_shade": "Open to sun; tree shade on the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 42.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

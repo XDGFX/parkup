@@ -1,0 +1,47 @@
+{
+  "candidate": "60801676-60801678-1311695135-l-90",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep wooded road-fork edge, about 15% grade, with homes around.",
+  "reasons": [
+    "Grade about 15%, over the 12% limit",
+    "House 14 m, more within 25 m",
+    "Narrow bush wedge, no pull-off"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 14 m, 22 m and 25 m from the stretch; houses all round the fork.",
+    "access_and_room": "Kerb runs along a vegetated wedge between two streets; no clear pull-off beside the lane.",
+    "traffic": "Quiet suburban streets with a few parked cars.",
+    "convention": "No signs; cars park on the opposite side."
+  },
+  "flags": [
+    "Steep: 15.5% mean, 26% max",
+    "Mapped locked gate 156 m away, not on the only access"
+  ],
+  "sun_shade": "Dense tree canopy over the south side; shaded.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 23.3,
+    "min_elevation_m": 21.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

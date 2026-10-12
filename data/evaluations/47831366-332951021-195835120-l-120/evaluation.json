@@ -1,0 +1,67 @@
+{
+  "candidate": "47831366-332951021-195835120-l-120",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Clearway on a busy arterial by a bridge and junction; nowhere to stop.",
+  "reasons": [
+    "Arterial clearway, no parked cars",
+    "Next to bridge and signals",
+    "Shops and homes within 20 m"
+  ],
+  "drivers": {
+    "seclusion": "Fully exposed beside a major junction; shops 18 m and homes 35 m away.",
+    "access_and_room": "Kerb is a live lane edge of a multi-lane road; no pull-off or lay-by.",
+    "traffic": "Heavy, multi-lane arterial with signals; constant noise.",
+    "convention": "Clearway with tow away signs, Mon-Sat 7am-7pm; no parked cars along the kerb."
+  },
+  "flags": [
+    "Clearway tow-away Mon-Sat 7am-7pm",
+    "Busy arterial and junction noise",
+    "Steep: about 6% mean grade, max 13%"
+  ],
+  "sun_shade": "Open to sun; bridge shades the upper part.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the clearway lane is usable overnight",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 50,
+    "to_m": 64,
+    "where": "Walker Street southbound lane edge past the bridge, beside the grass island",
+    "slope_pct": 6,
+    "points": [
+      [
+        152.977195,
+        -27.49328
+      ],
+      [
+        152.977165,
+        -27.493326
+      ],
+      [
+        152.977128,
+        -27.493389
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 3.1,
+    "min_elevation_m": 37.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

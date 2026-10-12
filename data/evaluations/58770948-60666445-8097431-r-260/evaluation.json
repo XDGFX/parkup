@@ -1,0 +1,66 @@
+{
+  "candidate": "58770948-60666445-8097431-r-260",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Dirt pull-off on a bush-backed bend; nearest house 24 m away across the road.",
+  "reasons": [
+    "Bush behind, dirt verge beside lane",
+    "Nearest house 24 m, across road",
+    "Wide bare ground to pull off"
+  ],
+  "drivers": {
+    "seclusion": "Bush and trees on the west side; houses 24 m and more away on the far side of the road.",
+    "access_and_room": "Bare dirt verge about as wide as the lane runs beside the bend, so a van can pull fully off.",
+    "traffic": "Quiet-looking residential bend; some passing cars.",
+    "convention": "No signs, no other vehicles seen."
+  },
+  "flags": [
+    "Slope about 5% mean, 10% max over 11 m",
+    "Short stretch, only 11 m"
+  ],
+  "sun_shade": "Dense bush canopy over and west of the verge; shaded most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall on the dirt verge",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 11,
+    "where": "West side of the Crag Road bend, on the bare dirt verge",
+    "slope_pct": 5.3,
+    "points": [
+      [
+        152.967303,
+        -27.487149
+      ],
+      [
+        152.967277,
+        -27.487172
+      ],
+      [
+        152.967237,
+        -27.487224
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 24,
+    "gated": false,
+    "slope_pct": 5.3,
+    "min_elevation_m": 79.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

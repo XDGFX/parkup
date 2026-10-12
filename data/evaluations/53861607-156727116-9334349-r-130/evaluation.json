@@ -1,0 +1,63 @@
+{
+  "candidate": "53861607-156727116-9334349-r-130",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential kerb where cars park, with homes within 25 m all round.",
+  "reasons": [
+    "Homes 20 m on both sides",
+    "Cars parked along this street",
+    "Steep, about 9% grade"
+  ],
+  "drivers": {
+    "seclusion": "Houses about 20-23 m away across the road and 22-26 m behind the kerb; a home at 10 m near the far end.",
+    "access_and_room": "Plain street kerb with a parked car opposite; room for a van along the north kerb.",
+    "traffic": "Quiet residential street, light traffic.",
+    "convention": "Residents park along the street, so a van blends in a little; no signs."
+  },
+  "flags": [
+    "Steep: about 9% grade (max 10.8%)",
+    "Dwelling 10 m from the 7-10 m end of the stretch"
+  ],
+  "sun_shade": "Heavy tree canopy over the north kerb, shading it much of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 7,
+    "where": "Swann Road, north kerb, east end of the 10 m stretch",
+    "slope_pct": 8.5,
+    "points": [
+      [
+        152.994816,
+        -27.501446
+      ],
+      [
+        152.994745,
+        -27.50145
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 7.6,
+    "min_elevation_m": 39.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

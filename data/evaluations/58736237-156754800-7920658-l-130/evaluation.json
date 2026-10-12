@@ -1,0 +1,69 @@
+{
+  "candidate": "58736237-156754800-7920658-l-130",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow, steep residential kerb on Highland Terrace with houses 17 m away.",
+  "reasons": [
+    "Houses 17-19 m away on this side",
+    "Very steep: about 11.5%",
+    "Narrow street, no parked cars seen"
+  ],
+  "drivers": {
+    "seclusion": "Detached houses 17 m, 18 m and 19 m away on the section's own side; more homes all round within 30 m.",
+    "access_and_room": "Sealed street with a narrow lane; a van would sit at the kerb with little spare width, and one car is moving on the lane.",
+    "traffic": "Quiet residential street with light local traffic.",
+    "convention": "No parked cars along this stretch in either image, so no overnight parking convention."
+  },
+  "flags": [
+    "Very steep: about 11.5% grade, close to the 12% limit",
+    "Houses 17-19 m away on the section's own side",
+    "Section only 10 m long"
+  ],
+  "sun_shade": "Open on the north side; street trees and hedge shade the south side; morning and afternoon sun reach the lane.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "North kerb of Highland Terrace, beside the vacant side yard between two houses",
+    "slope_pct": 11.5,
+    "points": [
+      [
+        152.994772,
+        -27.502281
+      ],
+      [
+        152.994785,
+        -27.502281
+      ],
+      [
+        152.994873,
+        -27.502278
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 11.6,
+    "min_elevation_m": 24.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

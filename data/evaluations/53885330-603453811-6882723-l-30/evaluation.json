@@ -1,0 +1,65 @@
+{
+  "candidate": "53885330-603453811-6882723-l-30",
+  "verdict": "poor",
+  "agent_verdict": "maybe",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short junction-island kerb with a car already parked; homes 10 m across road.",
+  "reasons": [
+    "Car parked at start of kerb",
+    "Homes about 10 m across road",
+    "Busy junction, short stretch"
+  ],
+  "drivers": {
+    "seclusion": "Grass island and rail corridor behind; detached homes 10-14 m across the road.",
+    "access_and_room": "Wide road, kerb beside island is open; a car parks in the same spot.",
+    "traffic": "Three-way junction with through traffic and a painted slip.",
+    "convention": "Cars park along the kerb; 1/4P signs and a No Stopping sign near the east end."
+  },
+  "flags": [
+    "Slope about 3%, at the limit",
+    "No Stopping sign about 13 m from the kerb line, near the east end",
+    "Junction noise"
+  ],
+  "sun_shade": "Open; large tree canopy shades the island from the west in QLD imagery.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "Ada Street, north kerb of the triangular grass island at the junction",
+    "slope_pct": 2.8,
+    "points": [
+      [
+        152.983894,
+        -27.492583
+      ],
+      [
+        152.983994,
+        -27.492599
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 3.1,
+    "min_elevation_m": 12.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

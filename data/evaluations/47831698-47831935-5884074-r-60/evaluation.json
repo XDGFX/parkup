@@ -1,0 +1,49 @@
+{
+  "candidate": "47831698-47831935-5884074-r-60",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "9 m of No Stopping kerb at a narrow street corner among homes.",
+  "reasons": [
+    "No Stopping Any Time signs",
+    "Houses 13-15 m away",
+    "Only 9 m, narrow lane"
+  ],
+  "drivers": {
+    "seclusion": "Dense housing and apartments 13 to 20 m away on all sides.",
+    "access_and_room": "Narrow lane corner with tree cover; no room to pull out of the lane.",
+    "traffic": "Quiet local street.",
+    "convention": "Three No Stopping Any Time signs sit at this kerb."
+  },
+  "flags": [
+    "No Stopping Any Time",
+    "Dwellings within 13 m",
+    "Steep: about 4% grade",
+    "Low-lying: 20 m, Toowong Creek 161 m away"
+  ],
+  "sun_shade": "Heavy tree canopy over the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 3.7,
+    "min_elevation_m": 20,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

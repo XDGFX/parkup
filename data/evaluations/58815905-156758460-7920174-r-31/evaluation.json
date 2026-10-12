@@ -1,0 +1,48 @@
+{
+  "candidate": "58815905-156758460-7920174-r-31",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a through road with no parked cars and a No Stopping sign.",
+  "reasons": [
+    "Through road, no cars parked along it",
+    "No Stopping Any Time sign at the end",
+    "Bush verge only, no pull-in visible"
+  ],
+  "drivers": {
+    "seclusion": "Bush on the south side; apartments about 17 m across the road.",
+    "access_and_room": "No pull-in or hard shoulder; scrub and slope run to the kerb.",
+    "traffic": "Carmody Road is a through route with a marked centre line.",
+    "convention": "2P resident-permit and No Stopping signs; no parked cars seen."
+  },
+  "flags": [
+    "Main road with no parking",
+    "No Stopping Any Time sign",
+    "Slope about 3% (mean), 6% max"
+  ],
+  "sun_shade": "Scrub and trees on the south side; apartments shade the north kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Kerb height",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 3.6,
+    "min_elevation_m": 26.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

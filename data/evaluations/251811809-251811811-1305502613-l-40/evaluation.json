@@ -1,0 +1,65 @@
+{
+  "candidate": "251811809-251811811-1305502613-l-40",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Park-side kerb on Macquarie Street where cars already park nose to tail.",
+  "reasons": [
+    "Backs onto open parkland",
+    "Many cars parked along this kerb",
+    "Houses only across the road, 20 m"
+  ],
+  "drivers": {
+    "seclusion": "Open park lawn and trees on the van's side; the nearest dwellings are across the road about 20 m away and others 31 m and further.",
+    "access_and_room": "Plain sealed kerb on a wide street with a parking lane; a van fits in line with the parked cars.",
+    "traffic": "Moderate local street traffic; parked cars separate the van from the lane.",
+    "convention": "A continuous line of cars parks along this kerb in both images, so a van would blend in."
+  },
+  "flags": [
+    "Signs vary along the street: 2P resident-permit weekdays 7am-6pm, No Stopping and a passenger loading zone, with some P (No Limit)",
+    "Low-lying: about 6 m elevation, Brisbane River 229 m away",
+    "Avalon Theatre 39 m away may mean evening events"
+  ],
+  "sun_shade": "Mostly open to the sun, with a few trees shading parts of the kerb from the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Which sign applies at the exact spot",
+    "Event parking pressure"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 12,
+    "where": "North kerb of Macquarie Street along the park, west of the road markings",
+    "slope_pct": 0.8,
+    "points": [
+      [
+        153.001811,
+        -27.493642
+      ],
+      [
+        153.001925,
+        -27.493604
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 0.8,
+    "min_elevation_m": 6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

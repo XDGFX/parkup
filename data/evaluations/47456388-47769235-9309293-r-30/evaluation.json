@@ -1,0 +1,47 @@
+{
+  "candidate": "47456388-47769235-9309293-r-30",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb on a railway overpass at a junction; bus zone, no parking.",
+  "reasons": [
+    "Bridge deck on a main road",
+    "Bus Zone sign on this kerb",
+    "Dwelling 19 m from far end"
+  ],
+  "drivers": {
+    "seclusion": "Exposed bridge beside a junction with a dwelling about 19 m away.",
+    "access_and_room": "Kerb is the bridge parapet edge; no verge and no room to stop clear of the lane.",
+    "traffic": "Busy arterial with signals.",
+    "convention": "Bus Zone sign; no cars parked along this kerb."
+  },
+  "flags": [
+    "Bus zone sign",
+    "Steep: DEM 20% mean, bridge approach artefact",
+    "Arterial and rail noise"
+  ],
+  "sun_shade": "Open; no tree cover on the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 25.7,
+    "min_elevation_m": 38.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

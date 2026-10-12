@@ -1,0 +1,67 @@
+{
+  "candidate": "osm-way-47972652",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Sealed car park beside a community garden and park, no homes near.",
+  "reasons": [
+    "Car park with way in and bays",
+    "Garden, park and fields around",
+    "No dwellings within 36 m"
+  ],
+  "drivers": {
+    "seclusion": "Backs onto community garden, park and sports fields; only service sheds nearby.",
+    "access_and_room": "Sealed lot with marked bays, a few cars, space for a van; access road reaches it.",
+    "traffic": "Quiet park setting, no through road.",
+    "convention": "Public car park; cars parked, so a van blends in."
+  },
+  "flags": [
+    "Low-lying: about 2.3 m elevation, Toowong Creek 48 m away",
+    "Mapped gates nearby are not on the only access",
+    "Some bays tagged for customers"
+  ],
+  "sun_shade": "Open; trees shade the east side in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Closing hours or signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 40,
+    "where": "Sealed car park off Heroes Avenue, beside the community garden",
+    "slope_pct": 1.3,
+    "points": [
+      [
+        152.992422,
+        -27.492328
+      ],
+      [
+        152.992498,
+        -27.492364
+      ],
+      [
+        152.992599,
+        -27.492193
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 2.3,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

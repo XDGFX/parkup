@@ -1,0 +1,123 @@
+{
+  "id": "58770948-64698579-8114055-l-110",
+  "street": "Broseley Road",
+  "suburb": "Taringa",
+  "line": [
+    [
+      152.970601,
+      -27.487384
+    ],
+    [
+      152.97057,
+      -27.487413
+    ],
+    [
+      152.970535,
+      -27.48745
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "east",
+  "length_m": 10,
+  "signs": [],
+  "buildings": [
+    {
+      "building": "detached",
+      "name": null,
+      "dwelling": true,
+      "metres": 58,
+      "at_m": 10,
+      "outline": [
+        [
+          152.9707442,
+          -27.4879404
+        ],
+        [
+          152.9708901,
+          -27.4879852
+        ],
+        [
+          152.9708606,
+          -27.488061
+        ],
+        [
+          152.9707147,
+          -27.4880162
+        ],
+        [
+          152.9707442,
+          -27.4879404
+        ]
+      ]
+    }
+  ],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.970601,
+        "lat": -27.487384,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 61.69
+      },
+      {
+        "lon": 152.970566,
+        "lat": -27.487417,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 61.91
+      },
+      {
+        "lon": 152.970535,
+        "lat": -27.48745,
+        "at_m": 9.8,
+        "line": 0,
+        "elevation_m": 61.89
+      }
+    ],
+    "min_elevation_m": 61.7,
+    "max_elevation_m": 61.9,
+    "mean_grade_pct": 2.4,
+    "max_grade_pct": 4.4
+  },
+  "waterway": {
+    "name": "Toowong Creek",
+    "metres": 230
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 10,
+      "length_m": 10,
+      "images": {
+        "esri": ".cache/imagery/58770948-64698579-8114055-l-110/chunk1-esri.jpg",
+        "qld": ".cache/imagery/58770948-64698579-8114055-l-110/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        67,
+        67
+      ],
+      "image_px": [
+        443,
+        449
+      ]
+    }
+  ]
+}

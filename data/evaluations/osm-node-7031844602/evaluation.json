@@ -1,0 +1,61 @@
+{
+  "candidate": "osm-node-7031844602",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Roadside parking beside a riverside park, with homes across the road.",
+  "reasons": [
+    "Backs onto park, other cars park here",
+    "Homes about 19 m away, across road",
+    "Room beside lane, mapped car park"
+  ],
+  "drivers": {
+    "seclusion": "Park and river on the west side; nearest house 19 m away across the street, apartments 29 m or more.",
+    "access_and_room": "Sealed road end with a mapped asphalt car park at the pin and a parked row along the park edge.",
+    "traffic": "Quiet no-through end of a residential street; a footpath runs past the pin.",
+    "convention": "Several cars parked along the park side in both images; no signs seen."
+  },
+  "flags": [
+    "Steep: about 3.4% mean over the pin area",
+    "Low-lying: lowest ground 7.4 m, Brisbane River 141 m away",
+    "Footpath and boathouse nearby may bring early walkers and rowers"
+  ],
+  "sun_shade": "Trees shade the pin from the west and north; the road end is otherwise open to the afternoon sun.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site",
+    "Crossfall",
+    "Whether the parking is time-limited"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Park-side edge at the road end of Brisbane Street, just south-west of the pin",
+    "slope_pct": 3,
+    "points": [
+      [
+        152.997474,
+        -27.486673
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 3.4,
+    "min_elevation_m": 7.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

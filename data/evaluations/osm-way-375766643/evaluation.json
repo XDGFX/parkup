@@ -1,0 +1,76 @@
+{
+  "candidate": "osm-way-375766643",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small angled car park between two streets, with homes 16-22 m round.",
+  "reasons": [
+    "Public bays with cars parked",
+    "Homes within 16-26 m all round",
+    "Small, roads on both sides"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 16-19 m and houses 22-26 m on all sides, though across the road.",
+    "access_and_room": "Formed sealed bays open to the road; room for a van, a few cars parked.",
+    "traffic": "Quiet residential streets either side.",
+    "convention": "Public car park with 2P signs on Brasted Street and No Stopping near the mouth."
+  },
+  "flags": [
+    "Slope about 2%, max 8.6% locally on the island",
+    "No Stopping Any Time sign 1.7 m from the outline",
+    "2P Mon-Fri 8am-5:30pm sign nearby",
+    "Homes on all sides"
+  ],
+  "sun_shade": "Open, with tree shade from the north-west and east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Whether bays fit a 7 m van"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "Angled bays on the island between Seven Oaks Street and the lower road",
+    "slope_pct": 2.1,
+    "points": [
+      [
+        152.988068,
+        -27.497542
+      ],
+      [
+        152.988157,
+        -27.497557
+      ],
+      [
+        152.988213,
+        -27.497558
+      ],
+      [
+        152.988185,
+        -27.497599
+      ],
+      [
+        152.988183,
+        -27.4976
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 15,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 19.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

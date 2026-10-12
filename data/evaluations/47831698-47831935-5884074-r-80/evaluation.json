@@ -1,0 +1,67 @@
+{
+  "candidate": "47831698-47831935-5884074-r-80",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short, steep, treed lane end with no stopping signs and homes close by.",
+  "reasons": [
+    "Only 9 m long",
+    "Slope about 14%",
+    "Homes 13 m away"
+  ],
+  "drivers": {
+    "seclusion": "Dense tree cover, but dwellings 13 m and 17 m away.",
+    "access_and_room": "Narrow lane under canopy; no clear pull-off beside the lane. Section is shorter than a van.",
+    "traffic": "Quiet dead-end residential lane.",
+    "convention": "Three No Stopping Any Time signs on the stretch; no parked cars seen."
+  },
+  "flags": [
+    "Steep: about 14% grade, max 22%",
+    "No Stopping Any Time signs",
+    "Dwelling 13 m from section"
+  ],
+  "sun_shade": "Heavy tree canopy over the section, mostly shaded.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact lane width under canopy",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 9,
+    "where": "Union Street lane end, east side, by the bend",
+    "slope_pct": 14.5,
+    "points": [
+      [
+        152.982744,
+        -27.489367
+      ],
+      [
+        152.982744,
+        -27.48934
+      ],
+      [
+        152.982758,
+        -27.489288
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 14.5,
+    "min_elevation_m": 19.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

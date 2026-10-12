@@ -1,0 +1,67 @@
+{
+  "candidate": "58815429-257003503-23730600-l-90",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short shaded kerb on Douglas Street, apartments 20 m away, steep grade.",
+  "reasons": [
+    "Apartments 20 m away",
+    "Cars park along this street",
+    "Grade about 8%"
+  ],
+  "drivers": {
+    "seclusion": "Apartments 20 m and 28 m away, houses 29 m and further; homes all round within about 25 m.",
+    "access_and_room": "Sealed street kerb where cars park; section is only 10 m, enough for one van.",
+    "traffic": "Moderate residential street, lit by nothing known; some passing traffic.",
+    "convention": "Cars park along both kerbs nearby, so a van would not stand out much."
+  },
+  "flags": [
+    "Steep: about 8% grade, max 9%",
+    "Section is only 10 m long"
+  ],
+  "sun_shade": "Heavy tree canopy over the section; shade most of the day.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 10,
+    "where": "East kerb of Douglas Street, under tree canopy near the bend",
+    "slope_pct": 7.8,
+    "points": [
+      [
+        152.995294,
+        -27.493604
+      ],
+      [
+        152.995282,
+        -27.493622
+      ],
+      [
+        152.995242,
+        -27.49368
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 9.2,
+    "min_elevation_m": 8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

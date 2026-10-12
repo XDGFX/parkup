@@ -1,0 +1,47 @@
+{
+  "candidate": "13062626788-13062716459-24297119-l-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "5 m of kerb on a roundabout island at a multi-way junction.",
+  "reasons": [
+    "Only 5 m long, shorter than a van",
+    "Roundabout island among several junctions",
+    "Nowhere to stop clear of traffic"
+  ],
+  "drivers": {
+    "seclusion": "Tree on the island, homes 27 m or more away, but fully exposed to the junction.",
+    "access_and_room": "Kerb is the edge of a traffic island; no room to pull out of the lane.",
+    "traffic": "Roundabout with several approaches and give-way markings.",
+    "convention": "No signs; no cars parked at the island."
+  },
+  "flags": [
+    "Too short for a van",
+    "Roundabout: no stopping",
+    "Slope data unreliable on 5 m line (32% over 5 m)"
+  ],
+  "sun_shade": "Dense tree canopy over the island.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 27,
+    "gated": false,
+    "slope_pct": 32.4,
+    "min_elevation_m": 34.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,77 @@
+{
+  "candidate": "osm-way-1258181033",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 1 m from the best section"
+  ],
+  "kind": "parking area",
+  "summary": "Small apartment-block car park with dwellings touching it; no seclusion.",
+  "reasons": [
+    "Apartments 1 m from outline",
+    "Resident car park, bays full of cars",
+    "Overlooked by several towers"
+  ],
+  "drivers": {
+    "seclusion": "Riverside Lodge and another apartment block sit 1 m away; more flats within 25 m.",
+    "access_and_room": "Open entry from Brisbane Street, but bays are marked and mostly occupied.",
+    "traffic": "Busy curved arterial with bus zone just to the west.",
+    "convention": "Looks like private resident parking; no sign of campers."
+  },
+  "flags": [
+    "Dwellings within 1 m",
+    "Low-lying: min 9.1 m, river 106 m away",
+    "Bus zone sign at the entrance"
+  ],
+  "sun_shade": "Shaded by tall apartments to the north and a large tree on the east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the car park is private or signed for residents",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "Car park behind the bus bay off Brisbane Street",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.994056,
+        -27.488859
+      ],
+      [
+        152.994048,
+        -27.488932
+      ],
+      [
+        152.994216,
+        -27.488946
+      ],
+      [
+        152.994221,
+        -27.4889
+      ],
+      [
+        152.994221,
+        -27.488899
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 1,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 9.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

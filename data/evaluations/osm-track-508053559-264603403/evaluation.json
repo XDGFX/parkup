@@ -1,0 +1,46 @@
+{
+  "candidate": "osm-track-508053559-264603403",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "off-road site",
+  "summary": "Pin is on a steep wooded river bank between private homes.",
+  "reasons": [
+    "Bank is steep, up to 55%",
+    "No track or vehicles visible",
+    "Houses 16 m and 22 m away"
+  ],
+  "drivers": {
+    "seclusion": "Private riverfront between a house 16 m and apartments 22 m away.",
+    "access_and_room": "No track or tyre marks reach the pin; the bank drops to the river.",
+    "traffic": "Quiet cul-de-sac end.",
+    "convention": "Private garden land, not parking."
+  },
+  "flags": [
+    "Steep: mean grade 21%, max 55%",
+    "Low-lying: river edge, Brisbane River 113 m, elevations down to -0.6 m"
+  ],
+  "sun_shade": "Tree canopy over the pin; open water to the north.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the mapped asphalt track is a private driveway"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 20.7,
+    "min_elevation_m": -0.6,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-25"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

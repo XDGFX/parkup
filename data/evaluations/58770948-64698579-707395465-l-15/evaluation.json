@@ -1,0 +1,48 @@
+{
+  "candidate": "58770948-64698579-707395465-l-15",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "9 m of kerb at a three-way junction; no room to stop.",
+  "reasons": [
+    "Junction corner, not a parking kerb",
+    "Only 9 m long",
+    "House 16 m away"
+  ],
+  "drivers": {
+    "seclusion": "Bush opposite, but a house sits 16 m away on the same side.",
+    "access_and_room": "Line is on the junction mouth where roads merge; stopping would block the turn.",
+    "traffic": "Quiet residential junction, light traffic.",
+    "convention": "Cars park on the south side further along, not at the corner."
+  },
+  "flags": [
+    "Dwelling within 16 m",
+    "Steep: about 6% grade",
+    "Junction, bush fire risk area"
+  ],
+  "sun_shade": "Dense tree canopy over and north of the junction.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 16,
+    "gated": false,
+    "slope_pct": 6.4,
+    "min_elevation_m": 63.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

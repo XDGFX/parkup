@@ -1,0 +1,47 @@
+{
+  "candidate": "58770948-64698579-8114055-l-110",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow verge on a marked through road in bush; no room to pull off.",
+  "reasons": [
+    "Marked through road, no cars parked",
+    "Verge narrower than a van",
+    "Bush and fence directly behind"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush on both sides; nearest home 58 m away.",
+    "access_and_room": "Narrow shoulder then trees and a fence; a van would sit in the lane.",
+    "traffic": "Centre-lined through road, likely moderate traffic.",
+    "convention": "No parked vehicles seen along it."
+  },
+  "flags": [
+    "Slope about 2-4%",
+    "Toowong Creek 230 m away, ground about 62 m so not flood-prone"
+  ],
+  "sun_shade": "Heavy tree canopy over the road and east side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 58,
+    "gated": false,
+    "slope_pct": 2.4,
+    "min_elevation_m": 61.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:25:14Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
