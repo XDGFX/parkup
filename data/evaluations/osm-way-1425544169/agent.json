@@ -1,0 +1,35 @@
+{
+  "verdict": "maybe",
+  "kind": "parking area",
+  "summary": "Small business car park among shops; packed with work vans, little spare room.",
+  "reasons": [
+    "Nearest home 28 m away, across the road",
+    "Lot looks full of business vehicles",
+    "Street signs show loading zones, not parking"
+  ],
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "West end of the small lot behind the street frontage, beside the large commercial building",
+    "slope_pct": 0.5
+  },
+  "drivers": {
+    "seclusion": "Surrounded by commercial buildings and car parks; nearest dwelling is 28 m away across Woodville Street. Business owners next door would notice.",
+    "access_and_room": "Sealed lot with an opening to the street; the imagery shows it nearly full of vans and utes, so a free bay is uncertain.",
+    "traffic": "Quiet side street with light traffic; the van stands clear of the lane.",
+    "convention": "Looks like a trade or business yard rather than public parking; no sign of campers."
+  },
+  "flags": [
+    "Business use: the lot may be private or reserved for staff",
+    "Street signs: loading zone and school-day no stopping on Woodville Street",
+    "Gate mapped 94 m away on a way with a route round it; does not affect access"
+  ],
+  "sun_shade": "Open sealed surface; a building to the south casts shade over the south edge in the morning and midday.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the lot is private or signed on site",
+    "Street lighting",
+    "Free bays overnight"
+  ],
+  "confidence": "low"
+}

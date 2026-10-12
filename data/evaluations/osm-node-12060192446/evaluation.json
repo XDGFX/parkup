@@ -1,0 +1,60 @@
+{
+  "candidate": "osm-node-12060192446",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Commercial car park off Witton Road, no homes within 50 m, open to the road.",
+  "reasons": [
+    "No dwellings within about 50 m",
+    "Marked bays, direct entry from road",
+    "Surrounded by commercial buildings"
+  ],
+  "drivers": {
+    "seclusion": "Backed by commercial buildings and car parks; nearest houses are across Witton Road, over 60 m south.",
+    "access_and_room": "Paved bays with a driveway off the side road; a van fits in the larger car park north-west or the rear lot.",
+    "traffic": "Arterial road close by; passing traffic and tenants' comings and goings likely.",
+    "convention": "Cars fill the bays in the imagery; looks like business customer parking, so overnight tolerance is unknown."
+  },
+  "flags": [
+    "Business car park; may be patrolled or signed for customers",
+    "Noise from the arterial road and surrounding venues",
+    "Low-lying: about 8 m elevation, 134 m from a mapped waterway"
+  ],
+  "sun_shade": "Mostly open paving; buildings shade the rear lot in the morning and trees shade the north-west car park's west edge.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site and time limits",
+    "Street lighting",
+    "Whether tenants or security move vehicles on overnight"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Rear bays behind the commercial building, just south-east of the pin, off the side lane to Witton Road",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.960863,
+        -27.505891
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 6.6,
+    "min_elevation_m": 7.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

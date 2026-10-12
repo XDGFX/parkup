@@ -1,0 +1,49 @@
+{
+  "candidate": "6657397468-7558403880-7307590-l-60",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 10 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb with a house within 10 m and loading zone signs.",
+  "reasons": [
+    "Mapped dwelling 10 m from kerb",
+    "Only 17 m long, beside a corner",
+    "Loading zone and school no-stopping signs"
+  ],
+  "drivers": {
+    "seclusion": "Houses front this kerb within 9-10 m; car park across the road.",
+    "access_and_room": "Cars park here, but the stretch is short and runs into a corner.",
+    "traffic": "Through street near school and car-yard traffic.",
+    "convention": "Loading Zone and school-hour No Stopping signs close by."
+  },
+  "flags": [
+    "Loading Zone (all other times) and school-day No Stopping signs",
+    "Slope about 2.6% mean, 3.2% max"
+  ],
+  "sun_shade": "Trees shade the kerb in the morning and at midday.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Which side the loading zone signs apply to"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 10,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 42.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

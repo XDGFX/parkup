@@ -1,0 +1,50 @@
+{
+  "candidate": "54625481-60200190-8050664-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 7 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow north kerb with houses 7-9 m away and a no-stopping sign.",
+  "reasons": [
+    "Dwellings 7-9 m from kerb",
+    "No Stopping Any Time sign",
+    "Through road, no parked cars"
+  ],
+  "drivers": {
+    "seclusion": "Houses and a large building sit on the north side near the start; bush above, but dwellings are within 10 m.",
+    "access_and_room": "Kerb runs hard against a bank and retaining walls; no verge or pull-in beyond the lane.",
+    "traffic": "Through road with a painted centre line; one moving car seen, no parked cars on this side.",
+    "convention": "No Stopping Any Time sign mapped; cars park on the opposite side only."
+  },
+  "flags": [
+    "No Stopping Any Time sign",
+    "Steep: mean 4.8%, max 9% grade",
+    "Low-lying: min elevation about 8.6 m, Witton Creek 37 m away"
+  ],
+  "sun_shade": "Heavy tree canopy over the eastern end; buildings and bush shade the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 7,
+    "gated": false,
+    "slope_pct": 4.8,
+    "min_elevation_m": 8.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

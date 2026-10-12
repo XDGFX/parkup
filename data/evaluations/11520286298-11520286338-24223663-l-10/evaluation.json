@@ -1,0 +1,48 @@
+{
+  "candidate": "11520286298-11520286338-24223663-l-10",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Narrow tree-lined lane signed No Stopping; no room to pull off.",
+  "reasons": [
+    "Four No Stopping Any Time signs",
+    "Narrow lane between fences and trees",
+    "Dwellings 11-16 m away"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 11 m (at 38 m), 15 m (at 21 m) and 16 m (at 6 m) on the west side; homes both sides.",
+    "access_and_room": "A single narrow sealed lane between fences and trees leading to Volga Crescent; no verge or pull-off, so a van would block it.",
+    "traffic": "Low-traffic link lane.",
+    "convention": "No Stopping Any Time signs sit on the line; no cars parked along it."
+  },
+  "flags": [
+    "Four No Stopping Any Time signs 6-8 m from the line",
+    "Dwellings within 11 m",
+    "Slope 3.5% mean, 12% max"
+  ],
+  "sun_shade": "Mostly shaded by tree canopy over the lane.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 11,
+    "gated": false,
+    "slope_pct": 3.5,
+    "min_elevation_m": 21.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

@@ -1,0 +1,69 @@
+{
+  "candidate": "54625481-54625558-348046255-l-100",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Bush-backed gravel kerb and angle bays by Witton Road, no homes close.",
+  "reasons": [
+    "Backs onto dense bush",
+    "Nearest dwelling over 50 m",
+    "Cars park here; gravel bays alongside"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush behind to the west; nearest dwellings over 50 m; the canoe club is 17 m away across the road and non-residential.",
+    "access_and_room": "Gravel apron and angle bays at the kerb give room to pull fully off the lane; cars parked in both images.",
+    "traffic": "Moderately busy road near the Witton Road bridge; the van stands off the lane.",
+    "convention": "Signed 4P Angle, so a four-hour limit applies; other cars use the bays."
+  },
+  "flags": [
+    "4P Angle signs: four-hour limit",
+    "Low-lying: 6 to 9 m elevation, Witton Creek 9 m away, flood-prone",
+    "Traffic and bridge noise",
+    "Slope 0.3% on the best section; the first 10 m climbs steeply"
+  ],
+  "sun_shade": "Bush canopy shades the west edge from the west; open to the sun from the east and north.",
+  "rubbish": "Some clutter on the gravel apron in QLD imagery; unclear in Esri.",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether the 4P limit is enforced overnight"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 12,
+    "to_m": 31,
+    "where": "West side of Witton Road at the gravel angle bays opposite the canoe club's north end",
+    "slope_pct": 0.3,
+    "points": [
+      [
+        152.969591,
+        -27.504937
+      ],
+      [
+        152.969677,
+        -27.504836
+      ],
+      [
+        152.969717,
+        -27.504862
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 51,
+    "gated": false,
+    "slope_pct": 1,
+    "min_elevation_m": 8.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

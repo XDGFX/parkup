@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Signed no-stopping kerb beside a building at a busy junction.",
+  "reasons": ["Five No Stopping Any Time signs", "Busy junction, turn lanes", "Steep: max 17% grade"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Commercial buildings and car parks line the north side; no homes close, but the spot is in full view at a junction.",
+    "access_and_room": "Kerb runs against a narrow grass strip and building frontage; no pull-in clear of the lane.",
+    "traffic": "Busy arterial with turn arrows and a signalled junction at the start.",
+    "convention": "Five No Stopping Any Time signs along the stretch; no cars parked on this side."
+  },
+  "flags": ["No Stopping Any Time signs", "Steep: max 17%, mean 5.9% grade, over the 12% limit", "Noise: arterial and junction", "Mapped gate 257 m away has a way round"],
+  "sun_shade": "Building shades the north side from midday; trees near the east end.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Crossfall", "Street lighting"],
+  "confidence": "high"
+}

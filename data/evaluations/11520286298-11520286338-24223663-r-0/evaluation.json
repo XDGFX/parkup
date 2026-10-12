@@ -1,0 +1,48 @@
+{
+  "candidate": "11520286298-11520286338-24223663-r-0",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 3 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow tree-lined lane with houses 3-9 m away and no stopping signs.",
+  "reasons": [
+    "Dwellings 3-9 m from kerb",
+    "No Stopping Any Time signs",
+    "Narrow lane, nowhere to pull off"
+  ],
+  "drivers": {
+    "seclusion": "Houses and fences hug the lane along its whole length; several dwellings within 10 m.",
+    "access_and_room": "Narrow lane under trees beside fences; no pull-off visible.",
+    "traffic": "Quiet residential lane off a bend in Volga Crescent.",
+    "convention": "No Stopping Any Time signs; no parked cars seen."
+  },
+  "flags": [
+    "No Stopping Any Time signs",
+    "Mean grade 2.4%, max 7.9%"
+  ],
+  "sun_shade": "Heavily shaded by tree canopy.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact lane width under canopy"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 3,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 21,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

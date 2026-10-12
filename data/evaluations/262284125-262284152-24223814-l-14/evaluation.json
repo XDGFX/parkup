@@ -1,0 +1,49 @@
+{
+  "candidate": "262284125-262284152-24223814-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Narrow lane with fences at the kerb; a parked van would block it.",
+  "reasons": [
+    "Kerb-to-fence, no room to pull off",
+    "Dwellings 9-17 m away on this side",
+    "No cars parked along it"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 9 m (at 25 m), 12 m (at 55 m) and 17 m (at 0 m) on the west side; bush opposite.",
+    "access_and_room": "Narrow sealed lane between fences on the west and bush on the east; no verge or pull-off, so a van would sit in the lane.",
+    "traffic": "Low-traffic link street.",
+    "convention": "No signs; no cars parked along this lane in the imagery."
+  },
+  "flags": [
+    "Dwellings within 10 m of the section",
+    "Slope 2.5% mean, 9% max at one sample"
+  ],
+  "sun_shade": "Partly shaded by trees on the east side and over the lane.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Exact lane width",
+    "Street lighting"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 1.9,
+    "min_elevation_m": 27.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

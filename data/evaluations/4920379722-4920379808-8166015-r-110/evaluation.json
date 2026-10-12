@@ -1,0 +1,47 @@
+{
+  "candidate": "4920379722-4920379808-8166015-r-110",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb on a bridge over a motorway; no room to stop.",
+  "reasons": [
+    "Bridge deck, kerb against parapet",
+    "Through road, no parked cars",
+    "Slope data reflects the bridge approach"
+  ],
+  "drivers": {
+    "seclusion": "Nearest house is 23 m away, but the deck is exposed above the motorway.",
+    "access_and_room": "Bridge deck with the kerb against a parapet; no shoulder or pull-off beyond the lane.",
+    "traffic": "Through road on a motorway overpass; heavy motorway noise below.",
+    "convention": "No cars parked along the deck and no marked parking lane."
+  },
+  "flags": [
+    "Slope data unreliable: DEM shows 45% over the bridge approach",
+    "Noise from the motorway below"
+  ],
+  "sun_shade": "Open, no cover.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 23,
+    "gated": false,
+    "slope_pct": 45.4,
+    "min_elevation_m": 42.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

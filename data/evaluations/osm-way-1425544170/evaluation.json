@@ -1,0 +1,64 @@
+{
+  "candidate": "osm-way-1425544170",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Large commercial car park among shops; homes only across surrounding roads.",
+  "reasons": [
+    "Car park backed by retail buildings",
+    "Homes 23 m or more, across roads",
+    "Flat along the southern edge"
+  ],
+  "drivers": {
+    "seclusion": "Backed by a retail building and a wall; nearest dwellings are 23-26 m away across the road to the south.",
+    "access_and_room": "Open car park entered from Woodville Street with plenty of marked bays; no gate seen across it.",
+    "traffic": "Shopping precinct beside two roads; busy by day, probably quiet overnight.",
+    "convention": "Many cars parked; no sign of overnight stays, and it may be customer parking."
+  },
+  "flags": [
+    "Likely customer or business parking; check on site",
+    "Loading-zone and school-time no-stopping signs on Woodville Street",
+    "Noise from the roads and shops"
+  ],
+  "sun_shade": "Open sky; a large tree shades the middle and the hedge shades the south edge in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the car park is private or time-limited",
+    "Street lighting",
+    "Overnight enforcement"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 85,
+    "to_m": 120,
+    "where": "Southern edge of the car park, along the wall and hedge above the street",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.967818,
+        -27.501089
+      ],
+      [
+        152.968167,
+        -27.501148
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 22,
+    "gated": false,
+    "slope_pct": 3.8,
+    "min_elevation_m": 39,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

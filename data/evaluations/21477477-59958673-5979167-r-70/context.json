@@ -1,0 +1,119 @@
+{
+  "id": "21477477-59958673-5979167-r-70",
+  "street": "Walter Taylor Bridge",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.973455,
+      -27.506505
+    ],
+    [
+      152.973511,
+      -27.506332
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "east",
+  "length_m": 20,
+  "signs": [],
+  "buildings": [],
+  "gates": [
+    {
+      "barrier": "gate",
+      "locked": null,
+      "lon": 152.9740908,
+      "lat": -27.5047508,
+      "metres": 185,
+      "on_only_access": false
+    }
+  ],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.973455,
+        "lat": -27.506505,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 3.82
+      },
+      {
+        "lon": 152.973469,
+        "lat": -27.506462,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 3.21
+      },
+      {
+        "lon": 152.973483,
+        "lat": -27.506419,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 2.81
+      },
+      {
+        "lon": 152.973497,
+        "lat": -27.506375,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 2.36
+      },
+      {
+        "lon": 152.973511,
+        "lat": -27.506332,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": -0.12
+      },
+      {
+        "lon": 152.973511,
+        "lat": -27.506332,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": -0.12
+      }
+    ],
+    "min_elevation_m": -0.1,
+    "max_elevation_m": 3.8,
+    "mean_grade_pct": 19.7,
+    "max_grade_pct": 49.6
+  },
+  "waterway": {
+    "name": "Brisbane River",
+    "metres": 70
+  },
+  "mapped_parking": [],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 20,
+      "length_m": 20,
+      "images": {
+        "esri": ".cache/imagery/21477477-59958673-5979167-r-70/chunk1-esri.jpg",
+        "qld": ".cache/imagery/21477477-59958673-5979167-r-70/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        66,
+        79
+      ],
+      "image_px": [
+        437,
+        528
+      ]
+    }
+  ]
+}

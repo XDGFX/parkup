@@ -1,0 +1,80 @@
+{
+  "candidate": "262133628-262284125-24223815-l-6",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Parked-up residential kerb on Volga Crescent bend, homes all round within 25 m.",
+  "reasons": [
+    "Cars already park along this kerb",
+    "Homes within about 25 m all round",
+    "No Stopping sign sits on the line"
+  ],
+  "drivers": {
+    "seclusion": "Bush lot with a shed-type building on the near side; nearest dwellings 19-26 m away west and 20+ m across the road; homes all round.",
+    "access_and_room": "Sealed quiet crescent with several cars parked along this kerb, so there is room to pull in.",
+    "traffic": "Quiet residential street, low traffic.",
+    "convention": "Cars park here, but one No Stopping Any Time sign is mapped at the kerb line; check on site."
+  },
+  "flags": [
+    "No Stopping Any Time sign on the line",
+    "Steep overall: 4.8% mean, 14% max near the northern end",
+    "Dwellings 10-13 m away at 0-10 m and 101 m"
+  ],
+  "sun_shade": "Mixed: tree canopy on the north side, open to afternoon sun from the west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Which side the sign applies to",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 62,
+    "to_m": 92,
+    "where": "Eastern run of Volga Crescent, beside the bushy lot, before the street bends up",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.979866,
+        -27.506404
+      ],
+      [
+        152.979867,
+        -27.506404
+      ],
+      [
+        152.979943,
+        -27.506388
+      ],
+      [
+        152.979996,
+        -27.506375
+      ],
+      [
+        152.980108,
+        -27.506346
+      ],
+      [
+        152.98016,
+        -27.506334
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 14,
+    "gated": false,
+    "slope_pct": 2.5,
+    "min_elevation_m": 26.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

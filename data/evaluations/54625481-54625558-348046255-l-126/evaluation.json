@@ -1,0 +1,69 @@
+{
+  "candidate": "54625481-54625558-348046255-l-126",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Wide gravel angle-parking apron backed by dense bush beside Witton Road.",
+  "reasons": [
+    "Gravel apron, room to pull fully off",
+    "Bush behind, nearest dwelling 32 m",
+    "Angle bays signed 4P"
+  ],
+  "drivers": {
+    "seclusion": "Dense bush behind; nearest dwelling 32 m and the canoe club 19 m, which is non-residential.",
+    "access_and_room": "Wide bare gravel apron meets the road edge; room for a van clear of the lane.",
+    "traffic": "Moderately busy road beside the apron; the van stands off the lane.",
+    "convention": "Signed 4P Angle; cars park along the road here."
+  },
+  "flags": [
+    "4P Angle signs: four-hour limit",
+    "Low-lying: 2.5 to 8 m elevation, Witton Creek 19 m away, flood-prone",
+    "Slope about 1% on the best section; it falls steeply past 30 m",
+    "Traffic noise"
+  ],
+  "sun_shade": "Tree canopy shades the apron from the north and west; open from the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting",
+    "Whether the 4P limit is enforced overnight"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 15,
+    "to_m": 30,
+    "where": "Gravel apron on the north side of Witton Road, east of the bend by the bridge",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.969693,
+        -27.504779
+      ],
+      [
+        152.969788,
+        -27.504739
+      ],
+      [
+        152.969826,
+        -27.504715
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 36,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 8.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

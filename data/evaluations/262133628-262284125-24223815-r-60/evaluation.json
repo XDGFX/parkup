@@ -1,0 +1,71 @@
+{
+  "candidate": "262133628-262284125-24223815-r-60",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential south kerb, homes within 25 m all round, cars park opposite.",
+  "reasons": [
+    "Cars park along this street",
+    "Homes within about 25 m all round",
+    "Gentle slope along best section"
+  ],
+  "drivers": {
+    "seclusion": "Mapped outbuildings 12-21 m away; dwellings 18 m (at 12 m) and 19 m (north side, at 60 m); homes both sides.",
+    "access_and_room": "Sealed street with parked cars on both sides; room beside the kerb appears adequate.",
+    "traffic": "Quiet crescent, low traffic.",
+    "convention": "No signs on this kerb; several cars are parked along the street."
+  },
+  "flags": [
+    "Dwellings 18-19 m away on both sides",
+    "Overall slope 3.3% mean, 7% max, but the best section is flat"
+  ],
+  "sun_shade": "Street tree shades the middle of the section; open to north and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 22,
+    "to_m": 46,
+    "where": "South kerb of Volga Crescent, in front of the large street tree",
+    "slope_pct": 0.4,
+    "points": [
+      [
+        152.979894,
+        -27.506472
+      ],
+      [
+        152.979963,
+        -27.506458
+      ],
+      [
+        152.980018,
+        -27.506444
+      ],
+      [
+        152.980129,
+        -27.506415
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 19,
+    "gated": false,
+    "slope_pct": 2.1,
+    "min_elevation_m": 27,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

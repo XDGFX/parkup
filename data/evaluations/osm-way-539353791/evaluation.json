@@ -1,0 +1,72 @@
+{
+  "candidate": "osm-way-539353791",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small car park hemmed in by commercial buildings; no homes nearby.",
+  "reasons": [
+    "Surrounded by commercial buildings and trees",
+    "No dwellings within 25 m",
+    "Flat, open to the street at the east"
+  ],
+  "drivers": {
+    "seclusion": "Backed by commercial buildings on the north and west, tree screen to the south; nearest homes are across the road to the south.",
+    "access_and_room": "Open gravel and sealed car park with a gap at the east side; about 10 cars parked along the south edge, space for a van.",
+    "traffic": "Quiet side street on the east; busier road to the south screened by trees.",
+    "convention": "Looks like private venue or business parking; no sign of overnight stays."
+  },
+  "flags": [
+    "Likely private commercial car park",
+    "Low-lying: about 8 m elevation, Witton Creek 126 m away",
+    "Mapped gate 249 m away has a route round it"
+  ],
+  "sun_shade": "Open in the middle; trees on the south and east edges shade the afternoon and morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the car park is private or locked at night",
+    "Street lighting",
+    "Overnight enforcement"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 50,
+    "where": "Middle of the small car park behind the corner trees",
+    "slope_pct": 1,
+    "points": [
+      [
+        152.961258,
+        -27.506041
+      ],
+      [
+        152.961276,
+        -27.506107
+      ],
+      [
+        152.961476,
+        -27.506065
+      ],
+      [
+        152.961448,
+        -27.505959
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 3.5,
+    "min_elevation_m": 8.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

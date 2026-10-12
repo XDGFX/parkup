@@ -1,0 +1,72 @@
+{
+  "candidate": "6657397468-7558403880-7307590-l-25",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Kerb where cars park, but houses sit 10-12 m behind it.",
+  "reasons": [
+    "Cars parked along this kerb",
+    "Houses 10-12 m away on this side",
+    "Loading zone and school no-stopping signs nearby"
+  ],
+  "drivers": {
+    "seclusion": "Houses and units line the east side 10-17 m back; car yards and car park opposite.",
+    "access_and_room": "Parked cars line this kerb, so a van fits in the parking lane.",
+    "traffic": "Through street with school-day traffic and car-yard activity.",
+    "convention": "Other cars park here, but loading zone and school-hour no-stopping signs mean the van may stand out."
+  },
+  "flags": [
+    "Steep: about 5.6% mean, 8.4% max over the stretch",
+    "Loading Zone (all other times) and No Stopping 2:30-3:30 PM school days signs near",
+    "Dwellings within about 10 m of the section's ends"
+  ],
+  "sun_shade": "A large tree shades the kerb from the east in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Which side the loading zone signs apply to",
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 22,
+    "where": "Woodville Street east kerb, beside the large shaded tree before the corner",
+    "slope_pct": 4.5,
+    "points": [
+      [
+        152.967837,
+        -27.500305
+      ],
+      [
+        152.967839,
+        -27.500308
+      ],
+      [
+        152.967853,
+        -27.500327
+      ],
+      [
+        152.967905,
+        -27.500395
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 12,
+    "gated": false,
+    "slope_pct": 5.3,
+    "min_elevation_m": 41.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

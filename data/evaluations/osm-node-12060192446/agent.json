@@ -1,0 +1,35 @@
+{
+  "verdict": "good",
+  "kind": "parking area",
+  "summary": "Commercial car park off Witton Road, no homes within 50 m, open to the road.",
+  "reasons": [
+    "No dwellings within about 50 m",
+    "Marked bays, direct entry from road",
+    "Surrounded by commercial buildings"
+  ],
+  "best_section": {
+    "from_m": null,
+    "to_m": null,
+    "where": "Rear bays behind the commercial building, just south-east of the pin, off the side lane to Witton Road",
+    "slope_pct": 1
+  },
+  "drivers": {
+    "seclusion": "Backed by commercial buildings and car parks; nearest houses are across Witton Road, over 60 m south.",
+    "access_and_room": "Paved bays with a driveway off the side road; a van fits in the larger car park north-west or the rear lot.",
+    "traffic": "Arterial road close by; passing traffic and tenants' comings and goings likely.",
+    "convention": "Cars fill the bays in the imagery; looks like business customer parking, so overnight tolerance is unknown."
+  },
+  "flags": [
+    "Business car park; may be patrolled or signed for customers",
+    "Noise from the arterial road and surrounding venues",
+    "Low-lying: about 8 m elevation, 134 m from a mapped waterway"
+  ],
+  "sun_shade": "Mostly open paving; buildings shade the rear lot in the morning and trees shade the north-west car park's west edge.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site and time limits",
+    "Street lighting",
+    "Whether tenants or security move vehicles on overnight"
+  ],
+  "confidence": "low"
+}

@@ -1,0 +1,49 @@
+{
+  "candidate": "257266886-257266889-24223858-l-14",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 8 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Steep cul-de-sac kerb with a house 8 m away.",
+  "reasons": [
+    "Dwelling 8 m from kerb",
+    "Grade about 16%, over 12% limit",
+    "Cul-de-sac bulb, residential only"
+  ],
+  "drivers": {
+    "seclusion": "Detached house 8 m from the kerb at 14 m, more homes within 20 m.",
+    "access_and_room": "Reachable and cars park here, but the slope is well over the usable limit.",
+    "traffic": "Quiet cul-de-sac; little through traffic.",
+    "convention": "Residential cul-de-sac with parked cars; no signs."
+  },
+  "flags": [
+    "Steep: about 16% mean, 19% max",
+    "Dwelling within 10 m"
+  ],
+  "sun_shade": "Heavy tree canopy over the kerb, mainly from the north and west.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 8,
+    "gated": false,
+    "slope_pct": 15.6,
+    "min_elevation_m": 25.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

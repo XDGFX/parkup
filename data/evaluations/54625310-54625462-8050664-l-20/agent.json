@@ -1,0 +1,28 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Ten metres of kerb at a busy junction mouth; too short and no parking.",
+  "reasons": [
+    "Junction approach with turn lanes",
+    "Main road, no cars parked",
+    "Only 10 m of kerb, under a van length"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "No buildings mapped nearby; creek bank and trees to the north, oval to the south.",
+    "access_and_room": "Kerb runs into a signalised junction beside turn lanes; no shoulder or pull-off, and only 10 m long.",
+    "traffic": "Busy through route with turning traffic.",
+    "convention": "No parked cars and no marked parking lane."
+  },
+  "flags": [
+    "Low-lying: about 3.7 m elevation, Witton Creek 12 m away",
+    "Noise from traffic at the junction"
+  ],
+  "sun_shade": "Open to the south; trees shade the north side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "high"
+}

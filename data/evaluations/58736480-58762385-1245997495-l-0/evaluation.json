@@ -1,0 +1,63 @@
+{
+  "candidate": "58736480-58762385-1245997495-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Residential kerb with homes 12-13 m away on the same side.",
+  "reasons": [
+    "Dwellings 12-13 m on own side",
+    "Cars park on street nearby",
+    "Quiet suburban street, wide road"
+  ],
+  "drivers": {
+    "seclusion": "Treed block behind the kerb, but dwellings 12-13 m away on the same side; homes within 25 m all round.",
+    "access_and_room": "Wide street; kerb lane with room to park beside the lane.",
+    "traffic": "Quiet residential street; a car is parked on the opposite kerb.",
+    "convention": "No signs; parked cars seen along the street, no explicit overnight convention."
+  },
+  "flags": [
+    "Steep: about 2.9% mean, 7.2% max",
+    "Homes within 25 m all round",
+    "Overhanging trees"
+  ],
+  "sun_shade": "Shaded by trees on the south side, mostly morning sun blocked.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 22,
+    "where": "South kerb of Ward Street, outside the big tree-covered corner block",
+    "slope_pct": 2.9,
+    "points": [
+      [
+        152.98262,
+        -27.500431
+      ],
+      [
+        152.982501,
+        -27.500412
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 13,
+    "gated": false,
+    "slope_pct": 1.3,
+    "min_elevation_m": 11.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

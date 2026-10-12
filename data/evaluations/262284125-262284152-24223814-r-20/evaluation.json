@@ -1,0 +1,46 @@
+{
+  "candidate": "262284125-262284152-24223814-r-20",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short 12 m line in dense bush on a steep bank, off the lane.",
+  "reasons": [
+    "Treed bank, no pull-off or tracks",
+    "Slope about 19% mean",
+    "Dwellings 18 m away"
+  ],
+  "drivers": {
+    "seclusion": "Bush on this side, but dwellings 18 m (north) and homes either side of the lane.",
+    "access_and_room": "The line sits in thick vegetation beside the narrow lane; no verge, tracks or vehicles, and the lane is too narrow to park in.",
+    "traffic": "Low-traffic link street.",
+    "convention": "No signs; no cars parked along this lane."
+  },
+  "flags": [
+    "Very steep: 18.7% mean, 27% max (DEM)",
+    "Line is only 12 m, under a van length of usable ground"
+  ],
+  "sun_shade": "Dense tree canopy over the whole line.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the DEM slope is inflated by canopy"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 18,
+    "gated": false,
+    "slope_pct": 14.7,
+    "min_elevation_m": 29.8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

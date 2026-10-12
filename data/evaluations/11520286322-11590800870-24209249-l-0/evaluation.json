@@ -1,0 +1,71 @@
+{
+  "candidate": "11520286322-11590800870-24209249-l-0",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Quiet residential lane edge with homes 14-17 m away; no parking convention.",
+  "reasons": [
+    "Dwellings 14-17 m away",
+    "Quiet residential street, no parking habit",
+    "Sloping, tight beside trees"
+  ],
+  "drivers": {
+    "seclusion": "Nearest dwellings 14-17 m across the lane; homes all round within 25 m.",
+    "access_and_room": "Lane looks narrow with trees on the west edge; room to pull off is uncertain.",
+    "traffic": "Quiet residential street, little through traffic.",
+    "convention": "No signs and no parked cars seen on the lane."
+  },
+  "flags": [
+    "Steep: about 3.4% mean grade, 7.4% max",
+    "Homes within 25 m all round",
+    "Room beside lane unclear"
+  ],
+  "sun_shade": "Mostly shaded by tree canopy, mainly from the west and south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Lane width and verge room",
+    "Crossfall"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 20,
+    "where": "Lower end of the lane, west side, under the trees",
+    "slope_pct": 2.9,
+    "points": [
+      [
+        152.980612,
+        -27.50624
+      ],
+      [
+        152.980655,
+        -27.506198
+      ],
+      [
+        152.980706,
+        -27.50614
+      ],
+      [
+        152.980742,
+        -27.506102
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 2.6,
+    "min_elevation_m": 30.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

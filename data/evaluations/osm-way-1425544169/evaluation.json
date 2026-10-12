@@ -1,0 +1,88 @@
+{
+  "candidate": "osm-way-1425544169",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Small business car park among shops; packed with work vans, little spare room.",
+  "reasons": [
+    "Nearest home 28 m away, across the road",
+    "Lot looks full of business vehicles",
+    "Street signs show loading zones, not parking"
+  ],
+  "drivers": {
+    "seclusion": "Surrounded by commercial buildings and car parks; nearest dwelling is 28 m away across Woodville Street. Business owners next door would notice.",
+    "access_and_room": "Sealed lot with an opening to the street; the imagery shows it nearly full of vans and utes, so a free bay is uncertain.",
+    "traffic": "Quiet side street with light traffic; the van stands clear of the lane.",
+    "convention": "Looks like a trade or business yard rather than public parking; no sign of campers."
+  },
+  "flags": [
+    "Business use: the lot may be private or reserved for staff",
+    "Street signs: loading zone and school-day no stopping on Woodville Street",
+    "Gate mapped 94 m away on a way with a route round it; does not affect access"
+  ],
+  "sun_shade": "Open sealed surface; a building to the south casts shade over the south edge in the morning and midday.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the lot is private or signed on site",
+    "Street lighting",
+    "Free bays overnight"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 30,
+    "where": "West end of the small lot behind the street frontage, beside the large commercial building",
+    "slope_pct": 0.5,
+    "points": [
+      [
+        152.967565,
+        -27.500569
+      ],
+      [
+        152.967728,
+        -27.500454
+      ],
+      [
+        152.967746,
+        -27.500462
+      ],
+      [
+        152.967758,
+        -27.500473
+      ],
+      [
+        152.967757,
+        -27.500491
+      ],
+      [
+        152.967748,
+        -27.500508
+      ],
+      [
+        152.967749,
+        -27.50052
+      ],
+      [
+        152.96775,
+        -27.500523
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 28,
+    "gated": false,
+    "slope_pct": 3.3,
+    "min_elevation_m": 41.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

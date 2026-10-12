@@ -1,0 +1,28 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Kerb on a bridge over a motorway; no room to stop.",
+  "reasons": [
+    "Bridge deck, kerb against parapet",
+    "Through road, no parked cars",
+    "Slope data reflects the bridge approach"
+  ],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Nearest house is 23 m away, but the deck is exposed above the motorway.",
+    "access_and_room": "Bridge deck with the kerb against a parapet; no shoulder or pull-off beyond the lane.",
+    "traffic": "Through road on a motorway overpass; heavy motorway noise below.",
+    "convention": "No cars parked along the deck and no marked parking lane."
+  },
+  "flags": [
+    "Slope data unreliable: DEM shows 45% over the bridge approach",
+    "Noise from the motorway below"
+  ],
+  "sun_shade": "Open, no cover.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Signs on site"
+  ],
+  "confidence": "high"
+}

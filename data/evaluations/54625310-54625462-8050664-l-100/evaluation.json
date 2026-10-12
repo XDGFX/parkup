@@ -1,0 +1,47 @@
+{
+  "candidate": "54625310-54625462-8050664-l-100",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Short kerb on a busy road beside a car park, signed No Stopping.",
+  "reasons": [
+    "No Stopping Any Time signs cover it",
+    "Main road kerb, no parking lane",
+    "Only 15 m, beside a car park entrance"
+  ],
+  "drivers": {
+    "seclusion": "No dwellings nearby; bush on the north side and a customer car park and tennis courts around.",
+    "access_and_room": "Kerb sits against bush with no shoulder; the car park entrance is 7 m along and is signed customers only.",
+    "traffic": "Busy through road with a marked median; noise from passing traffic.",
+    "convention": "A van or car is parked on the far side, but not along this kerb, and signs forbid stopping."
+  },
+  "flags": [
+    "No Stopping Any Time at 0.1 m and 12.3 m along the kerb line",
+    "Low-lying: about 3.2 m elevation, Witton Creek 39 m away"
+  ],
+  "sun_shade": "Tree canopy to the north and west of the kerb; open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Car park hours and rules",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.5,
+    "min_elevation_m": 3.2,
+    "low_lying": true
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

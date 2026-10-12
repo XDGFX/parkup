@@ -1,0 +1,50 @@
+{
+  "candidate": "58736480-58762385-1245997495-l-50",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 9 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Short kerb at a junction mouth with a house 9 m away.",
+  "reasons": [
+    "House 9 m from kerb",
+    "Kerb is at a street junction",
+    "Short 15 m stretch, steep"
+  ],
+  "drivers": {
+    "seclusion": "Dwelling 9 m away on the same side; another 14 m; homes all round.",
+    "access_and_room": "Kerb beside the corner of a side street; too close to the junction to stop properly.",
+    "traffic": "Junction of Ward Street with a side street; passing traffic and a raised crossing.",
+    "convention": "No signs; no cars parked at this corner."
+  },
+  "flags": [
+    "Steep: about 5.8% mean, 8.6% max",
+    "House within 10 m",
+    "Junction corner"
+  ],
+  "sun_shade": "Partly shaded by a tree at the corner on the south side.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 9,
+    "gated": false,
+    "slope_pct": 5.8,
+    "min_elevation_m": 13.1,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

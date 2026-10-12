@@ -1,0 +1,34 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Short corner kerb beside homes, with No Stopping signs either side.",
+  "reasons": [
+    "Dwellings 10 m from kerb",
+    "No Stopping Any Time signs",
+    "School-day No Stopping 8am-4pm"
+  ],
+  "best_section": {
+    "from_m": 10,
+    "to_m": 23,
+    "where": "Ward Street south kerb, east of the corner, outside the houses",
+    "slope_pct": 6.7
+  },
+  "drivers": {
+    "seclusion": "Detached homes 10 m and 12 m away on the same side; the lot opposite the corner is a building site.",
+    "access_and_room": "Kerb is only 23 m with signs at both ends; a van would sit in the signed zone.",
+    "traffic": "Quiet residential street beside a school, with school-run traffic.",
+    "convention": "A car is parked at the kerb, but within the sign coverage."
+  },
+  "flags": [
+    "Steep: about 6.7% mean, 9.4% max grade",
+    "No Stopping Any Time signs 5 m and 11 m from kerb line",
+    "School 42 m away; schooldays 8am-4pm no stopping"
+  ],
+  "sun_shade": "Mostly open with trees on the verge to the east; houses on the south side.",
+  "rubbish": "Building rubble on the neighbouring plot, not dumped rubbish.",
+  "cannot_judge": [
+    "Exact sign coverage along the kerb",
+    "Street lighting"
+  ],
+  "confidence": "high"
+}

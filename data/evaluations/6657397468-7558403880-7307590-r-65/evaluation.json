@@ -1,0 +1,48 @@
+{
+  "candidate": "6657397468-7558403880-7307590-r-65",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "West kerb along a car yard, signed loading zone, no parked cars.",
+  "reasons": [
+    "Loading zone signs along this kerb",
+    "No cars parked on this kerb",
+    "Through street, no pull-off beside lane"
+  ],
+  "drivers": {
+    "seclusion": "Car yard lots on this side; houses 19 m or more across the road.",
+    "access_and_room": "Kerb beside the lane with a narrow grass strip and footpath; no pull-off.",
+    "traffic": "Through street with steady traffic.",
+    "convention": "Loading Zone Mon-Fri 8am-5:30pm and at all other times by signs; cars park on the east side only."
+  },
+  "flags": [
+    "Loading Zone signs 2-3 m from kerb",
+    "No Stopping 2:30-3:30 PM school days",
+    "Slope about 2.7% mean, 4.6% max"
+  ],
+  "sun_shade": "Mostly open; trees at the start of the stretch shade it from the north-east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 20,
+    "gated": false,
+    "slope_pct": 2.7,
+    "min_elevation_m": 42.6,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

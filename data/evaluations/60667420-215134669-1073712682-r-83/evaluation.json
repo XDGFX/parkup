@@ -1,0 +1,48 @@
+{
+  "candidate": "60667420-215134669-1073712682-r-83",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy Witton Road kerb, few parked cars, houses at the verge, No Stopping signs.",
+  "reasons": [
+    "Collector road, no parking convention here",
+    "No Stopping Any Time signs on this stretch",
+    "Homes sit right behind this kerb"
+  ],
+  "drivers": {
+    "seclusion": "Houses front the south kerb within about 10-15 m. Not secluded.",
+    "access_and_room": "Narrow verge with driveways and trees; no clear pull-off beside the lane.",
+    "traffic": "Through road to a junction; a vehicle near the 50 m mark looks stopped, not a parking pattern.",
+    "convention": "No marked parking lane; signed No Stopping Any Time."
+  },
+  "flags": [
+    "No Stopping Any Time signs",
+    "Slope about 1.9% mean, 5.2% max",
+    "Low-lying: about 7 m elevation, creek 103 m away"
+  ],
+  "sun_shade": "Street and garden trees shade parts of the kerb; open to the sun elsewhere.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Kerb height"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2,
+    "min_elevation_m": 7.3,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

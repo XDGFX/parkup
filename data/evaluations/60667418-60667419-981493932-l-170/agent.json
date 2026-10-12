@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Only 10 m of kerb, at a junction mouth with no room to stop.",
+  "reasons": ["Shorter than a van", "At road junction", "Through road, no parked cars"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Houses are 30 m or more away behind a wall and trees, but the stretch is too short to use.",
+    "access_and_room": "10 m of kerb ending at a junction; no verge or pull-in, bank and trees beside the lane.",
+    "traffic": "Through road leading into a junction with moving cars.",
+    "convention": "No signs on this stretch; no parked cars seen on this side."
+  },
+  "flags": ["Under one van length", "Steep: about 3% grade", "Low-lying: min elevation about 3.9 m, Witton Creek 29 m away"],
+  "sun_shade": "Dense tree canopy over the east end; open to the south.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Crossfall", "Street lighting"],
+  "confidence": "high"
+}

@@ -1,0 +1,80 @@
+{
+  "candidate": "osm-way-539352386",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Marked car park behind a shop and workshop; no homes nearby.",
+  "reasons": [
+    "Backed by industrial building and trees",
+    "No dwellings within 25 m",
+    "Flat, entered from Rennies Road"
+  ],
+  "drivers": {
+    "seclusion": "Warehouse on the east, a shop car park to the north and trees to the west; nearest homes are far off across the road.",
+    "access_and_room": "Open to Rennies Road along its west edge, with marked bays and room for a van; cars are parked in it.",
+    "traffic": "Busy roundabout nearby, but the car park is set back from the lane.",
+    "convention": "Looks like business customer parking; the 2P and no-stopping signs are on the street, not here."
+  },
+  "flags": [
+    "Likely private business parking",
+    "Low-lying: about 8 m elevation, Witton Creek 35 m away",
+    "Roundabout noise"
+  ],
+  "sun_shade": "Trees shade the west edge; warehouse shades the east in the morning.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether the car park is private or locked at night",
+    "Street lighting",
+    "Overnight enforcement"
+  ],
+  "confidence": "medium",
+  "best_section": {
+    "from_m": 10,
+    "to_m": 60,
+    "where": "Marked bays in the car park beside the long white warehouse",
+    "slope_pct": 1.3,
+    "points": [
+      [
+        152.962233,
+        -27.50448
+      ],
+      [
+        152.962258,
+        -27.504557
+      ],
+      [
+        152.962432,
+        -27.50451
+      ],
+      [
+        152.962409,
+        -27.504443
+      ],
+      [
+        152.962466,
+        -27.504427
+      ],
+      [
+        152.962438,
+        -27.504345
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.4,
+    "min_elevation_m": 7.7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

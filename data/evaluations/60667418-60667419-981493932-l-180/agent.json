@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Short 14 m kerb at a junction mouth, no room to pull off.",
+  "reasons": ["Right at road junction", "Barely a van length", "No verge, trees and bank"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Houses are 34 m or more away behind trees, but the spot is a junction corner.",
+    "access_and_room": "Kerb meets a bank and trees at an intersection; stopping would block the turning lane.",
+    "traffic": "Busy junction with cars turning and a traffic island beside the stretch.",
+    "convention": "No signs mapped; no cars parked on this side."
+  },
+  "flags": ["Junction: stopping would obstruct turns", "Low-lying: min elevation about 3.9 m, waterway 23 m away"],
+  "sun_shade": "Dense tree canopy to the north and over the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Crossfall", "Street lighting"],
+  "confidence": "high"
+}

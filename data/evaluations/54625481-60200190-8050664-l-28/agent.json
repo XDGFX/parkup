@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Houses 8-10 m from the kerb along a no-stopping bend.",
+  "reasons": ["Dwellings 8-10 m away along the stretch", "No Stopping Any Time sign", "Through road, no parked cars"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Houses front the south kerb for the whole length; bush is on the opposite side only.",
+    "access_and_room": "Narrow kerb on a curving through road; no verge or pull-in to stop clear of the lane.",
+    "traffic": "Through road with painted centre line; moving traffic, no parked cars along this kerb.",
+    "convention": "No Stopping Any Time sign mapped at the kerb; no cars seen parked here."
+  },
+  "flags": ["No Stopping Any Time sign", "Steep in places: max about 6% grade, mean 2.6%", "Low-lying: min elevation about 7 m, Witton Creek 35 m away"],
+  "sun_shade": "Open kerb; bush to the north and east gives some shade at the top end.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Crossfall", "Street lighting"],
+  "confidence": "high"
+}

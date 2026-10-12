@@ -1,0 +1,77 @@
+{
+  "candidate": "osm-way-528714674",
+  "verdict": "good",
+  "agent_verdict": "good",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Marked commercial car park beside Witton Road, no homes within 50 m.",
+  "reasons": [
+    "No dwellings nearby, only commercial buildings",
+    "Open bays with direct road access",
+    "Cars already park there"
+  ],
+  "drivers": {
+    "seclusion": "Trees screen the road side and commercial buildings fill the other sides; nearest houses are across the road, over 60 m away.",
+    "access_and_room": "Sealed bays with an entry at the south-west end; enough room for a van in the end bays.",
+    "traffic": "Beside an arterial with bus traffic, but the van stands clear of the lane.",
+    "convention": "Cars fill the bays in both images; looks like business customer parking, so overnight tolerance is unknown."
+  },
+  "flags": [
+    "Business car park; may be patrolled or signed for customers",
+    "Noise from the arterial road and nearby venues",
+    "Low-lying: about 8 m elevation, 129 m from a mapped waterway",
+    "Section is flat but the aisle rises about 4.5% on average to the south end"
+  ],
+  "sun_shade": "Trees along the road side shade the west edge in the afternoon; the rest is open paving.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Signs on site and time limits",
+    "Street lighting",
+    "Whether staff or security move vehicles on overnight"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 25,
+    "to_m": 65,
+    "where": "Northern end of the car park, behind the tree screen from Witton Road",
+    "slope_pct": 1.5,
+    "points": [
+      [
+        152.960693,
+        -27.505567
+      ],
+      [
+        152.960823,
+        -27.505425
+      ],
+      [
+        152.960877,
+        -27.505451
+      ],
+      [
+        152.960883,
+        -27.505562
+      ],
+      [
+        152.960875,
+        -27.505571
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 3.3,
+    "min_elevation_m": 8,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

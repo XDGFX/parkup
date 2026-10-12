@@ -1,0 +1,18 @@
+{
+  "verdict": "poor",
+  "kind": "kerb stretch",
+  "summary": "Busy main road kerb beside a paddock, no-stopping signed, no parking.",
+  "reasons": ["Main road with no parking", "No Stopping Any Time signs", "Kerb-to-footpath, no pull-in"],
+  "best_section": null,
+  "drivers": {
+    "seclusion": "Vacant paddock behind the kerb and no homes within 40 m, but the stop is on a busy arterial.",
+    "access_and_room": "Kerb runs straight to a footpath and grass strip; a van would stand in the lane edge.",
+    "traffic": "Wide arterial with centre line, junctions at both ends and a motorway close by at the east.",
+    "convention": "Two No Stopping Any Time signs; no cars parked on this side and no parking lane."
+  },
+  "flags": ["No Stopping Any Time signs", "Steep: max 7.8% grade, mean 2.9%", "Noise: arterial and motorway"],
+  "sun_shade": "Open; no tree cover over the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": ["Crossfall", "Street lighting"],
+  "confidence": "high"
+}

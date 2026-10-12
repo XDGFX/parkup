@@ -1,0 +1,68 @@
+{
+  "candidate": "6657397468-7558403880-7307590-l-128",
+  "verdict": "maybe",
+  "agent_verdict": "maybe",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Steep kerb with a few parked cars; houses 13-17 m back.",
+  "reasons": [
+    "Houses 13-17 m behind the kerb",
+    "Steep: about 8.6% grade",
+    "Loading zone sign, Mon-Fri 8am-5:30pm"
+  ],
+  "drivers": {
+    "seclusion": "Houses with garden trees behind the kerb at 13-17 m; car park across the road.",
+    "access_and_room": "A few cars park along this kerb; there is room in the lane beside them.",
+    "traffic": "Moderate through traffic, near a junction at the downhill end.",
+    "convention": "A couple of cars park here; weekday loading zone sign nearby."
+  },
+  "flags": [
+    "Steep: about 8.6% mean, 10.2% max",
+    "Loading Zone Mon-Fri 8am-5:30pm sign near",
+    "Dwellings within 13-17 m on this side"
+  ],
+  "sun_shade": "Garden trees shade the kerb from the east.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall",
+    "Whether the loading zone sign covers this kerb"
+  ],
+  "confidence": "low",
+  "best_section": {
+    "from_m": 0,
+    "to_m": 14,
+    "where": "Woodville Street east kerb, uphill from the red-paved junction",
+    "slope_pct": 9.5,
+    "points": [
+      [
+        152.96837,
+        -27.500994
+      ],
+      [
+        152.968379,
+        -27.501006
+      ],
+      [
+        152.96845,
+        -27.501098
+      ]
+    ]
+  },
+  "facts": {
+    "nearest_dwelling_m": 17,
+    "gated": false,
+    "slope_pct": 9.2,
+    "min_elevation_m": 40.4,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

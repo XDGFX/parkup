@@ -1,0 +1,33 @@
+{
+  "verdict": "maybe",
+  "kind": "kerb stretch",
+  "summary": "Wide residential kerb where cars park, but homes sit 12-14 m behind.",
+  "reasons": [
+    "Houses 12-14 m away on this side",
+    "Cars park along this kerb",
+    "No signs mapped"
+  ],
+  "best_section": {
+    "from_m": 3,
+    "to_m": 16,
+    "where": "Waverley Road south kerb, in front of the houses west of the driveway",
+    "slope_pct": 3.3
+  },
+  "drivers": {
+    "seclusion": "Houses 12 m, 14 m and 14 m behind the verge on this side; more homes across the road at about 20 m.",
+    "access_and_room": "Wide two-lane street with a parked car on this kerb; a van fits at the kerb.",
+    "traffic": "Residential street with moderate through traffic.",
+    "convention": "Cars are parked along both sides, so a van would not stand out."
+  },
+  "flags": [
+    "Steep: about 3.3% mean grade, 5% max",
+    "Homes within about 25 m all round"
+  ],
+  "sun_shade": "Mostly open; a tree on the verge shades the west end in the afternoon.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Street lighting",
+    "Crossfall and kerb height"
+  ],
+  "confidence": "medium"
+}

@@ -1,0 +1,48 @@
+{
+  "candidate": "262133628-262284125-24223815-r-16",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [
+    "Dwelling 5 m from the best section"
+  ],
+  "kind": "kerb stretch",
+  "summary": "Line runs through a wooded strip between houses; no road or room to stop.",
+  "reasons": [
+    "No road or track under the line",
+    "Dwellings 6-13 m away",
+    "No Stopping sign nearby"
+  ],
+  "drivers": {
+    "seclusion": "Dwellings 6 m at the north end and 11-13 m along the rest; homes on both sides.",
+    "access_and_room": "The line passes through dense trees with no sealed surface, tyre tracks or pull-off; only the last few metres meet the Volga Crescent bend.",
+    "traffic": "Quiet residential, little traffic.",
+    "convention": "No Stopping Any Time and 4P Parallel signs sit 12 m off the line, on the nearby street."
+  },
+  "flags": [
+    "Steep: 5.2% mean grade, 7% max",
+    "No Stopping Any Time sign nearby"
+  ],
+  "sun_shade": "Heavy tree canopy over the whole line.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether a footpath or easement runs through the trees"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": 5,
+    "gated": false,
+    "slope_pct": 5,
+    "min_elevation_m": 23.9,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

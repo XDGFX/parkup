@@ -1,0 +1,424 @@
+{
+  "id": "54625462-60200190-8050664-r-26",
+  "street": "Witton Road",
+  "suburb": "Indooroopilly",
+  "line": [
+    [
+      152.96655,
+      -27.506728
+    ],
+    [
+      152.966595,
+      -27.506675
+    ],
+    [
+      152.966676,
+      -27.506583
+    ]
+  ],
+  "osm_tags": {},
+  "candidate_kind": "kerb",
+  "kind": "kerb",
+  "side": "east",
+  "length_m": 20,
+  "signs": [
+    {
+      "street": "WITTON ROAD",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Left",
+      "metres_from_kerb_line": 8.9
+    },
+    {
+      "street": "WITTON ROAD",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Right",
+      "metres_from_kerb_line": 1.8
+    },
+    {
+      "street": "WITTON ROAD",
+      "restriction": "No Stopping Any Time",
+      "days_times": null,
+      "extra_text": null,
+      "arrow": "Bi-Directional",
+      "metres_from_kerb_line": 9
+    }
+  ],
+  "buildings": [
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 11,
+      "at_m": 8,
+      "outline": [
+        [
+          152.9668616,
+          -27.5067087
+        ],
+        [
+          152.966768,
+          -27.5066421
+        ],
+        [
+          152.966686,
+          -27.5067327
+        ],
+        [
+          152.9667795,
+          -27.5067994
+        ],
+        [
+          152.9668616,
+          -27.5067087
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 16,
+      "at_m": 20,
+      "outline": [
+        [
+          152.9669496,
+          -27.506639
+        ],
+        [
+          152.9670474,
+          -27.5065247
+        ],
+        [
+          152.9669395,
+          -27.506452
+        ],
+        [
+          152.9668416,
+          -27.5065664
+        ],
+        [
+          152.9669496,
+          -27.506639
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": "Workout Indooroopilly",
+      "dwelling": false,
+      "metres": 18,
+      "at_m": 20,
+      "outline": [
+        [
+          152.9663212,
+          -27.5063361
+        ],
+        [
+          152.966647,
+          -27.5059844
+        ],
+        [
+          152.9668371,
+          -27.5061177
+        ],
+        [
+          152.9665293,
+          -27.5064826
+        ],
+        [
+          152.9663212,
+          -27.5063361
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 40,
+      "at_m": 20,
+      "outline": [
+        [
+          152.9672085,
+          -27.5067193
+        ],
+        [
+          152.9671107,
+          -27.5066468
+        ],
+        [
+          152.967051,
+          -27.5067102
+        ],
+        [
+          152.9671487,
+          -27.5067827
+        ],
+        [
+          152.9672085,
+          -27.5067193
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 48,
+      "at_m": 20,
+      "outline": [
+        [
+          152.96726,
+          -27.5066499
+        ],
+        [
+          152.9673158,
+          -27.5065854
+        ],
+        [
+          152.9672145,
+          -27.5065165
+        ],
+        [
+          152.9671587,
+          -27.506581
+        ],
+        [
+          152.96726,
+          -27.5066499
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 49,
+      "at_m": 20,
+      "outline": [
+        [
+          152.9671575,
+          -27.5064598
+        ],
+        [
+          152.967326,
+          -27.5065775
+        ],
+        [
+          152.9673802,
+          -27.5065165
+        ],
+        [
+          152.9672117,
+          -27.5063988
+        ],
+        [
+          152.9671575,
+          -27.5064598
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 55,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9663708,
+          -27.5072018
+        ],
+        [
+          152.9664227,
+          -27.5072091
+        ],
+        [
+          152.9664125,
+          -27.5072662
+        ],
+        [
+          152.9663606,
+          -27.5072589
+        ],
+        [
+          152.9663708,
+          -27.5072018
+        ]
+      ]
+    },
+    {
+      "building": "roof",
+      "name": null,
+      "dwelling": false,
+      "metres": 56,
+      "at_m": 0,
+      "outline": [
+        [
+          152.9666161,
+          -27.5072555
+        ],
+        [
+          152.9667949,
+          -27.5072788
+        ],
+        [
+          152.9667986,
+          -27.5072564
+        ],
+        [
+          152.9668001,
+          -27.5072476
+        ],
+        [
+          152.9666213,
+          -27.5072243
+        ],
+        [
+          152.9666198,
+          -27.5072334
+        ],
+        [
+          152.9666161,
+          -27.5072555
+        ]
+      ]
+    },
+    {
+      "building": "yes",
+      "name": null,
+      "dwelling": false,
+      "metres": 59,
+      "at_m": 20,
+      "outline": [
+        [
+          152.9673893,
+          -27.5065094
+        ],
+        [
+          152.9674473,
+          -27.5064438
+        ],
+        [
+          152.9672986,
+          -27.5063404
+        ],
+        [
+          152.9672406,
+          -27.506406
+        ],
+        [
+          152.9673893,
+          -27.5065094
+        ]
+      ]
+    }
+  ],
+  "gates": [],
+  "slope": {
+    "step_m": 5,
+    "samples": [
+      {
+        "lon": 152.96655,
+        "lat": -27.506728,
+        "at_m": 0,
+        "line": 0,
+        "elevation_m": 4.01
+      },
+      {
+        "lon": 152.96658,
+        "lat": -27.506692,
+        "at_m": 5,
+        "line": 0,
+        "elevation_m": 4.3
+      },
+      {
+        "lon": 152.966611,
+        "lat": -27.506656,
+        "at_m": 10,
+        "line": 0,
+        "elevation_m": 4.54
+      },
+      {
+        "lon": 152.966643,
+        "lat": -27.506621,
+        "at_m": 15,
+        "line": 0,
+        "elevation_m": 4.8
+      },
+      {
+        "lon": 152.966674,
+        "lat": -27.506586,
+        "at_m": 20,
+        "line": 0,
+        "elevation_m": 5
+      },
+      {
+        "lon": 152.966676,
+        "lat": -27.506583,
+        "at_m": 20.4,
+        "line": 0,
+        "elevation_m": 5
+      }
+    ],
+    "min_elevation_m": 4,
+    "max_elevation_m": 5,
+    "mean_grade_pct": 4,
+    "max_grade_pct": 5.8
+  },
+  "waterway": {
+    "name": "Witton Creek",
+    "metres": 67
+  },
+  "mapped_parking": [
+    {
+      "name": null,
+      "metres": 20,
+      "access": "customers",
+      "fee": "no",
+      "surface": null
+    },
+    {
+      "name": null,
+      "metres": 58,
+      "access": "customers",
+      "fee": "no",
+      "surface": null
+    }
+  ],
+  "chunks": [
+    {
+      "chunk": 1,
+      "from_m": 0,
+      "to_m": 20,
+      "length_m": 20,
+      "images": {
+        "esri": ".cache/imagery/54625462-60200190-8050664-r-26/chunk1-esri.jpg",
+        "qld": ".cache/imagery/54625462-60200190-8050664-r-26/chunk1-qld.jpg"
+      },
+      "esri_capture": {
+        "date": "2025-09-24",
+        "resolution_m": 0.31,
+        "sensor": "Vantor WV03"
+      },
+      "qld_capture": {
+        "dataset": "Brisbane_LGA_2022_10cm_SISP",
+        "start": "2022-07-24",
+        "end": "2022-09-12",
+        "resolution_m": 0.1
+      },
+      "ground_size_m": [
+        72,
+        76
+      ],
+      "image_px": [
+        483,
+        507
+      ]
+    }
+  ]
+}

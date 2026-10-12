@@ -1,0 +1,47 @@
+{
+  "candidate": "osm-way-539353792",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "parking area",
+  "summary": "Rooftop deck on top of a commercial building; no way in.",
+  "reasons": [
+    "Outline sits on a building roof",
+    "No vehicles or ramp visible",
+    "Commercial buildings on all sides"
+  ],
+  "drivers": {
+    "seclusion": "Enclosed by commercial buildings, but the surface is a roof deck, not ground.",
+    "access_and_room": "No ramp, tyre tracks or vehicles seen; assume a van cannot reach it.",
+    "traffic": "Quiet side street to the east.",
+    "convention": "No evidence of any parking use."
+  },
+  "flags": [
+    "Rooftop or podium surface",
+    "Low-lying: about 8 m elevation"
+  ],
+  "sun_shade": "Open to the sky; a tall tree shades the north-west corner.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Whether a ramp or lift reaches the deck",
+    "Whether the deck is private"
+  ],
+  "confidence": "medium",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 1.8,
+    "min_elevation_m": 8.2,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}

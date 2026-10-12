@@ -1,0 +1,48 @@
+{
+  "candidate": "60667418-215134669-1473300592-l-30",
+  "verdict": "poor",
+  "agent_verdict": "poor",
+  "rule_outs": [],
+  "kind": "kerb stretch",
+  "summary": "Busy main road, no parked cars, houses just behind the footpath.",
+  "reasons": [
+    "Main road with no parking",
+    "Houses about 10 m from kerb",
+    "No pull-in beside the lane"
+  ],
+  "drivers": {
+    "seclusion": "Unmapped houses front the south kerb, about 10 m back; open paddock opposite.",
+    "access_and_room": "Kerb runs to a footpath and front fences; no verge or pull-in to clear the lane.",
+    "traffic": "Wide arterial with centre line and moving traffic, junctions at both ends.",
+    "convention": "No signs mapped; no cars parked along the kerb and no marked parking lane."
+  },
+  "flags": [
+    "OSM lists no buildings but imagery shows houses at the kerb",
+    "Steep: max 3.2% grade, mean 2.2%",
+    "Mapped gate 220 m away has a way round"
+  ],
+  "sun_shade": "Open; no tree cover over the kerb.",
+  "rubbish": "none seen",
+  "cannot_judge": [
+    "Crossfall",
+    "Street lighting"
+  ],
+  "confidence": "high",
+  "best_section": null,
+  "facts": {
+    "nearest_dwelling_m": null,
+    "gated": false,
+    "slope_pct": 2.2,
+    "min_elevation_m": 7,
+    "low_lying": false
+  },
+  "imagery": {
+    "esri": [
+      "2025-09-24"
+    ],
+    "qld": "2022-07"
+  },
+  "evaluated_at": "2026-10-12T12:12:24Z",
+  "model": "claude-sonnet-5-5",
+  "rubric": "v11"
+}
